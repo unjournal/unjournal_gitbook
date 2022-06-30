@@ -1,7 +1,7 @@
 # Table of contents
 
 * ["Unjournal": Action plan, writing, resources](README.md)
-  * [Plan of action:  'unjournal'](master/plan-of-action.md)
+  * [Plan of action: 'unjournal'](master/plan-of-action.md)
   * [Key Writings](master/writings/README.md)
     * [Related articles and work](master/writings/related-articles-and-work.md)
     * ["Marketing" and outreach](master/writings/marketing-and-outreach.md)
@@ -17,14 +17,15 @@
     * [Dynamic documents vs 'living projects'](key-issues-explanations-faq/benefits-and-features/dynamic-documents-vs-living-projects.md)
     * [Benefits of dynamic documents"](key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents.md)
     * ['Living research projects'](key-issues-explanations-faq/benefits-and-features/living-research-projects.md)
-    * [Further arguments  for the unjournal (see sections below)](key-issues-explanations-faq/benefits-and-features/further-arguments-for-the-unjournal-see-sections-below/README.md)
+    * [Further arguments for the unjournal (see sections below)](key-issues-explanations-faq/benefits-and-features/further-arguments-for-the-unjournal-see-sections-below/README.md)
       * [Multiple dimensions of meaningful feedback](key-issues-explanations-faq/benefits-and-features/further-arguments-for-the-unjournal-see-sections-below/multiple-dimensions-of-meaningful-feedback.md)
       * [Costs of 'playing the publication game'](key-issues-explanations-faq/benefits-and-features/further-arguments-for-the-unjournal-see-sections-below/costs-of-playing-the-publication-game.md)
       * [(The 'file drawer' effect)](key-issues-explanations-faq/benefits-and-features/further-arguments-for-the-unjournal-see-sections-below/the-file-drawer-effect.md)
-* [Action: build founding committee](action-build-founding-committee.md)
-* [Action: Identify pilot/key projects/papers](action-identify-pilot-key-projects-papers/README.md)
-  * [What research to target?](action-identify-pilot-key-projects-papers/what-research-to-target.md)
-* [Action: Set up platforms](action-set-up-platforms.md)
+* [Action and progress](action-and-progress/README.md)
+  * [Build founding committee](action-and-progress/action-build-founding-committee.md)
+  * [Identify pilot/key projects/papers](action-and-progress/action-identify-pilot-key-projects-papers/README.md)
+    * [What research to target?](action-and-progress/action-identify-pilot-key-projects-papers/what-research-to-target.md)
+  * [Set up platforms](action-and-progress/action-set-up-platforms.md)
 * [Grants and proposals](grants-and-proposals/README.md)
   * [ACX/LTFF grant proposal (as submitted, successfull)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/README.md)
     * [Notes: post-grant plan and revisions](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/notes-post-grant-plan-and-revisions.md)
@@ -43,5 +44,3 @@
   * [What is EA/gp relevant research?](the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md)
   * [Syllabi](the-field-and-ea-gp-research/syllabi.md)
   * [Action: Overall scoping](the-field-and-ea-gp-research/action-overall-scoping.md)
-
-## seminar\_etc

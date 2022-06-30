@@ -16,11 +16,10 @@ We will need to making small payments to (say) 20-50 different referees, 5-10 co
 
 _LTFF_:
 
-_Please let us know how you would like your grant communicated on the ACX blog, e.g. if you'd like Scott to recommend that readers help you in some way (see this post for examples)._&#x20;
+_Please let us know how you would like your grant communicated on the ACX blog, e.g. if you'd like Scott to recommend that readers help you in some way (see this post for examples)._
 
-_See_ [#acx-and-ltff-media](../../master/writings/marketing-and-outreach.md#acx-and-ltff-media "mention")__
+_See_ [#acx-and-ltff-media](../../master/writings/marketing-and-outreach.md#acx-and-ltff-media "mention")\_\_
 
-\
 
 
 {% embed url="https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing" %}
