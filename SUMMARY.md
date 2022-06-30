@@ -12,7 +12,7 @@
   * [FAQ/interaction](key-issues-explanations-faq/faq-interaction/README.md)
     * [For researchers/authors](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md)
     * [("Global Priorities")](key-issues-explanations-faq/faq-interaction/global-priorities.md)
-    * [(Referees/evaluators)](key-issues-explanations-faq/faq-interaction/referees-evaluators.md)
+    * [Evaluation (refereeing)](key-issues-explanations-faq/faq-interaction/referees-evaluators.md)
   * [Benefits and features](key-issues-explanations-faq/benefits-and-features/README.md)
     * [Dynamic documents vs 'living projects'](key-issues-explanations-faq/benefits-and-features/dynamic-documents-vs-living-projects.md)
     * [Benefits of dynamic documents"](key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents.md)
