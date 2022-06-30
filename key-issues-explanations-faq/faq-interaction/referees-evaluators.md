@@ -26,8 +26,9 @@ We refer to 'evaluation' because the Unjournal does not _publish_ work; it only 
 
 ### How are these hosted and shared?
 
-* Kotahi and Sciety are strong candidates
-* Will have a DOI
+* [Kotahi](https://kotahi.community/), linked to a [Sciety](https://sciety.org/) group (current plan)
+* Also hosted/mirrored on our own page (once we set this up)
+* Reviews will have a DOI, linked into all relevant systems
 
 ## Evaluation guidelines and criteria
 
