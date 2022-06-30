@@ -1,32 +1,39 @@
 # Evaluation (refereeing)
 
-
-
 {% hint style="info" %}
-We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
+We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
 {% endhint %}
 
 ## Choosing, working with evaluators (referees)
 
 ### How do we choose 'referees'?
 
+* Standard procedures (expertise, interest, lack of COI)
+* Opt-in referee pool
+
 ### Why pay referees?
 
-
+* It is equitable, especially for those not getting 'service credit'
+* We need incentives as we are not 'established'?
+* Incentives to do a good job (especially if and when we increase the rate)
+* Can get a wider range of expertise, including people not interested in 'submitting to unjournal'
 
 ## Public evaluations
 
-### Why public evaluations?
+### Why _public_ evaluations
 
 #### Exceptions for ECRs?
 
 ### How are these hosted and shared?
 
-
+* Kotahi and Sciety are strong candidates
+* Will have a DOI
 
 ## Evaluation guidelines and criteria
 
 ### General criteria/guidelines
+
+
 
 ### Global priorities emphasis/discussion
 
@@ -58,7 +65,7 @@ DR: I suspect that signed reviews (cf blog posts) provide good feedback and eval
 
 ### Compromise approaches
 
-* Author and referee choose
+* Author and/or referee choose whether it should be single-blind or signed
 * Random trial: We can compare empirically (are signed reviews less informative?)
 * Use a mix (1 signed, 2 anonymous reviews) for each paper
 
