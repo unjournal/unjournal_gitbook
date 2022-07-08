@@ -1,6 +1,4 @@
-# Identify pilot/key projects/papers, contact authors
-
-
+# Identify pilot/key projects/papers
 
 {% hint style="info" %}
 25 Jun 2022 Update: We have identified (see process below, and open call) a fairly large list, with several very prominent pieces of research to use for the pilot. We aim to invite referees to evaluate 3-4 papers soon, and award the 'bounties' shortly.
@@ -28,7 +26,8 @@ _In doing the above, we will also collect a longer list of key papers, projects,
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
-[_**Rules for bounty HERE**_](https://docs.google.com/document/d/17Z4ENov9BYvbvrtFju1X5d8-mD0vCdyagSPd9ArSC2Y/edit)
+[_**Rules for bounty HERE**_\
+**\_\_**](https://docs.google.com/document/d/17Z4ENov9BYvbvrtFju1X5d8-mD0vCdyagSPd9ArSC2Y/edit)
 
 2\. **Search for most-cited papers** (within our domain) among EA-aligned researchers and organizations
 
@@ -64,6 +63,6 @@ Not very relevant (because mainly operational)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research.md](../../master/call-for-participants-research.md "mention")
+\*\*6. Cross-promoted \*\*_\*\*\*\*_ with [call-for-participants-research.md](../../master/call-for-participants-research.md "mention")
 
 \_\_
