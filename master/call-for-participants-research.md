@@ -4,19 +4,12 @@ description: Unjournal call for participants and research.
 
 # Call for participants, research
 
-
-
 {% hint style="info" %}
-**Update 7 Jul 2022:** "_Needs are ongoing_". We have chosen people for the Founding Committee, but please complete the form anyways if you are interested. We are still very interested in people for the Advisory Board and Reviewer Pool, and also likely to expand the Founding/Management committee&#x20;
+**Briefly:** If you are interested in being on the Unjournal's Founding Committee, Advisory Board, or Reviewer Pool please fill out [**THIS** ](https://airtable.com/shrW9xpIrxNGfxkXW)[**FORM**](https://airtable.com/shrW9xpIrxNGfxkXW) **** (about 3-5 min).&#x20;
 
-****\
-**Briefly:** If you are interested in being on the Unjournal's Founding Committee, Advisory Board, or Reviewer Pool please fill out [**THIS** ](https://airtable.com/shrW9xpIrxNGfxkXW)[**FORM**](https://airtable.com/shrW9xpIrxNGfxkXW)  (about 3-5 min).
-
-If you have research (your own or others) you would like us to assess, please fill out [**THIS FORM**](https://airtable.com/shrdHHI0zK7rkJCP3) 1 per entry), which will also make you eligible for a bounty prize. \
+If you have research (your own or others) you would like us to assess, please fill out [**THIS FORM**](https://airtable.com/shrdHHI0zK7rkJCP3) **** (1 per entry), which will also make you eligible for a bounty prize.\
 \
-_Update 7 Jul 2022: The main prizes for piloted papers have been awarded, but we still encourage you to submit/suggest work, which will also make you eligible for future retroactive prizes/awards._\
-\
-
+_This main call will end in early July 2022, but feel free to fill it out afterwards, as it is essentially ongoing._ &#x20;
 {% endhint %}
 
 ## Overview and call
@@ -25,23 +18,23 @@ I am [David Reinstein](https://www.davidreinstein.org/) (Senior Economist at [Re
 
 The [Unjournal team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/master/discussion-team/who-are-we-our-team) is building a system for credible, public, journal-independent feedback and evaluation of research. Peer review can be slow; our system will enable researchers to get more prompt, efficient, and substantive feedback and advice, with metrics and signals of quality. The Unjournal will also help researchers advance, promote, and improve their work, while still allowing them to submit it to traditional journals at any point in the process.
 
-Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in public, open formats, that support replicability and robustness (such as [hosted dynamic documents](../key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents.md); [Quarto](https://quarto.org/), Rmd, Jupyter, etc.). Rather than ‘finished frozen publications’, we wish to foster a [living and continually-improved approach](../key-issues-explanations-faq/benefits-and-features/living-research-projects.md) to research projects; we hope papers we review will be improved, extended, and may even be re-assessed in future versions.
+Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in public, open formats, that support replicability and robustness (such as [hosted dynamic documents](../key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents.md); [Quarto](https://quarto.org/), Rmd, Jupyter, etc.). Rather than ‘finished frozen publications’, we wish to foster a [living and continually-improved approach](../key-issues-explanations-faq/benefits-and-features/living-research-projects.md) to research projects; we hope papers we review will be improved, extended, and may even be re-assessed in future versions.&#x20;
 
 [Our linked project space HERE gives further details about the Unjournal project.](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)
 
-Briefly, the Unjournal’s process (proposed and under-discussion):
+Briefly, the Unjournal’s process (proposed and under-discussion):&#x20;
 
-* Identify or invite contributions of relevant research _that is publicly hosted_ on any open platform or archive in any format (we can help facilitate hosting and help you get a time-stamped DOI).
-* Pay reviewers to evaluate and give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value.
-* Publicly post and link all reviews of the work. Award financial prizes for work judged to be the strongest.
-  * _Note:_ We will make some clearly stated exceptions for ECRs, allowing them to hide negative reviews.
-  * _Note:_ We are likely to ask _reviewers_ to remain anonymous (unsigned reviews), but this is under consideration
+* Identify or invite contributions of relevant research _that is publicly hosted_ on any open platform or archive in any format (we can help facilitate hosting and help you get a time-stamped DOI).&#x20;
+* Pay reviewers to evaluate and give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value.&#x20;
+* Publicly post and link all reviews of the work. Award financial prizes for work judged to be the strongest.&#x20;
+  * _Note:_ We will make some clearly stated exceptions for ECRs, allowing them to hide negative reviews.&#x20;
+  * _Note:_ We are likely to ask _reviewers_ to remain anonymous (unsigned reviews), but this is under consideration&#x20;
 * Aim to be as transparent as possible in these processes.
 
-The Unjournal project has a small amount of funding and we are in a pilot phase. After our initial meeting, we are now putting out an **open call for participants** in three different roles:
+The Unjournal project has a small amount of funding and we are in a pilot phase. After our initial meeting, we are now putting out an **open call for participants** in three different roles:&#x20;
 
-1. Founding committee members (small honorariums for time spent; currently including Daniel Lakens and others),
-2. Advisory board members (supporters, unpaid, no time-commitment), and
+1. Founding committee members (small honorariums for time spent; currently including Daniel Lakens and others),&#x20;
+2. Advisory board members (supporters, unpaid, no time-commitment), and&#x20;
 3. a pool of Reviewers (who will be paid for their time; we may draw reviewers from outside this pool, of course).
 
 The roles are explained in more detail below and there is a form in which you will be able to express your interest.
@@ -53,7 +46,7 @@ We are also looking for high-quality, globally-pivotal research projects to eval
 **Founding committee members** activities will involve:
 
 * Working with other founding committee members on a set of rules and guidelines. E.g., ‘which metrics to evaluate research’, ‘how to publish the assessments’.
-* Helping plan the Unjournal’s future path.
+* Helping plan the Unjournal’s future path.&#x20;
 * If your time and funding permits, helping manage ‘which research to focus on’, assigning reviewers, and awarding prizes (we will try to keep this responsibility light).
 
 _Time commitment_: Minimum of 5-10 hours total over the next 9 months, plus editorial activities (perhaps a few hours per month, as available and as needed).
@@ -71,6 +64,8 @@ All applicants are welcome. We are interested in people with a range of experien
 Once again, we are very interested in finding relevant research work to evaluate and assess during this pilot phase, and we are offering small bounties. You may also want to put forward your own work.
 
 We provide a separate form for research suggestions [HERE](https://airtable.com/shrdHHI0zK7rkJCP3); we may follow up with you individually.
+
+
 
 ## Form to fill out, contact
 
