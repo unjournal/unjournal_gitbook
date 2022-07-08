@@ -35,6 +35,8 @@ We refer to 'evaluation' because the Unjournal does not _publish_ work; it only 
 ### General criteria/guidelines
 
 {% embed url="https://docs.google.com/document/d/1UykV8kRDfWMEvRmLA0sBz5m0-FUTAJZruEi9x6SnF7g/edit" %}
+Guidelines for reviewing
+{% endembed %}
 
 ### Global priorities emphasis/discussion
 
