@@ -50,7 +50,7 @@ _organizes ideas and resources to achieve the twin goals of:_
 _**Please let me know if you want edit/comment access to the present Gitbook.**_\
 \
 _Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\
-\_\_\
+\
 _Unsuccessful followup_ [_FTX application HERE_](grants-and-proposals/ftx-future-fund-for-further-funding-unsuccessful.md)_, still seeking more funding_
 {% endhint %}
 
