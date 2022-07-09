@@ -34,9 +34,7 @@ We refer to 'evaluation' because the Unjournal does not _publish_ work; it only 
 
 ### General criteria/guidelines
 
-{% embed url="https://docs.google.com/document/d/1UykV8kRDfWMEvRmLA0sBz5m0-FUTAJZruEi9x6SnF7g/edit" %}
-Guidelines for reviewing
-{% endembed %}
+{% embed url="https://docs.google.com/document/d/1UykV8kRDfWMEvRmLA0sBz5m0-FUTAJZruEi9x6SnF7g/edit#heading=h.kqwfyeovkze0" %}
 
 ### Global priorities emphasis/discussion
 
@@ -51,7 +49,7 @@ Guidelines for reviewing
 
 ### Feedback and discussion vs. evaluations
 
-DR: I suspect that signed reviews (cf blog posts) provide good feedback and evaluation. However, when it comes to rating (quantitative measures of a paper's value), my impression from existing initiatives and conversations is that people are reluctant to award anything less than 5/5 'full  marks'.
+> DR: I suspect that signed reviews (cf blog posts) provide good feedback and evaluation. However, when it comes to rating (quantitative measures of a paper's value), my impression from existing initiatives and conversations is that people are reluctant to award anything less than 5/5 'full  marks'.
 
 ### Why Single-blind?
 
