@@ -10,4 +10,7 @@ See also [plan-of-action.md](../master/plan-of-action.md "mention")
 * Initial evaluations, feedback on the process
 * Revise process, further set of evaluations
 * Disseminate and communicate (research, evaluations, processes), get further public feedback
-* Further funding, prepare for scaling-up
+* Further funding, prepare for scaling-up\
+
+
+Management: updates and CTA in gdoc shared in emails

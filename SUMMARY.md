@@ -27,6 +27,7 @@
     * [What research to target?](action-and-progress/action-identify-pilot-key-projects-papers/what-research-to-target.md)
   * [Set up platforms](action-and-progress/action-set-up-platforms.md)
   * [Evaluation/referee guidelines for pilot papers](action-and-progress/evaluation-referee-guidelines-for-pilot-papers.md)
+  * [Evaluators (reviewers): Identify, contact, engage](action-and-progress/evaluators-reviewers-identify-contact-engage.md)
 * [Grants and proposals](grants-and-proposals/README.md)
   * [ACX/LTFF grant proposal (as submitted, successfull)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/README.md)
     * [Notes: post-grant plan and revisions](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/notes-post-grant-plan-and-revisions.md)
