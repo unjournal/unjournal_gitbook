@@ -4,14 +4,14 @@
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)__
 
-* [David Reinstein](https://www.davidreinstein.org)
-* [Daniel Lakens](https://sites.google.com/site/lakens2/)
-* [Ryan Briggs](https://www.ryancbriggs.net/)
-* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356)
-* Clare Conry-Murray
-* Emmanuel Orkoh Gavin
-* Taylor Hansika Kapoor
-* Tanya O'Garra
+* [David Reinstein](https://www.davidreinstein.org), Senior Economist at Rethink Priorities
+* [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology
+* [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph
+* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE
+* [Clare Conry-Murray](https://clareconrymurray.com), Associate Professor of Psychology at Saint Joseph’s University
+* [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University&#x20;
+* [Hansika Kapoor](https://www.hansikakapoor.in), Research Author at the Department of Psychology, Monk Prayogshala
+* [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
 
 
 
