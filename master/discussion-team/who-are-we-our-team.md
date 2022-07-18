@@ -25,20 +25,20 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 **Senior**
 
-Andrew Gelman
+[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University
 
-Jonathan Berman
+[Jonathan Berman](https://www.london.edu/faculty-and-research/faculty-profiles/b/berman-j-z-1), Associate Professor of Marketing at the London Business School
 
 __\
 __**Early/mid-career**
 
-Alexander Herwix&#x20;
+[Alexander Herwix](https://www.researchgate.net/profile/Alexander-Herwix), Late-Stage PhD Student in Information Systems at the University of Cologne
 
-Daniela Cialfi
+[Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi), Post-Doctoral Researcher in the Department of Quantitative Methods and Economic Theory at the University of Chieti&#x20;
 
-&#x20;Kris Gulati
+[Kris Gulati](https://sites.google.com/view/kris-gulati/home), PhD Student in Economics at the University of Californa, Merced
 
-&#x20;Sam Abbott\
+[Sam Abbott](https://samabbott.co.uk), Infectious Disease Researcher at the London School of Hygiene and Tropical Medicine\
 ****
 
 _18 Jul 2022: Adding more now_
