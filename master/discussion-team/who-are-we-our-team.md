@@ -4,14 +4,14 @@
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)__
 
-1. [David Reinstein](https://www.davidreinstein.org)
-2. [Daniel Lakens](https://sites.google.com/site/lakens2/)
-3. [Ryan Briggs](https://www.ryancbriggs.net/)
-4. [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356)
-5. Clare Conry-Murray
-6. Emmanuel Orkoh Gavin
-7. Taylor Hansika Kapoor
-8. Tanya O'Garra
+* [David Reinstein](https://www.davidreinstein.org)
+* [Daniel Lakens](https://sites.google.com/site/lakens2/)
+* [Ryan Briggs](https://www.ryancbriggs.net/)
+* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356)
+* Clare Conry-Murray
+* Emmanuel Orkoh Gavin
+* Taylor Hansika Kapoor
+* Tanya O'Garra
 
 
 
