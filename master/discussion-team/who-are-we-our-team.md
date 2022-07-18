@@ -8,8 +8,14 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 2. [Daniel Lakens](https://sites.google.com/site/lakens2/)
 3. [Ryan Briggs](https://www.ryancbriggs.net/)
 4. [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356)
-5. Reaching out and soliciting a board and list of supporters (see [action-build-founding-committee.md](../../action-and-progress/action-build-founding-committee.md "mention"))
-6. _(We may be adding more members as we progress)_
+5. Clare Conry-Murray
+6. Emmanuel Orkoh Gavin
+7. Taylor Hansika Kapoor
+8. Tanya O'Garra
+
+
+
+Outreach: see [action-build-founding-committee.md](../../action-and-progress/action-build-founding-committee.md "mention") ..._We may be adding more members as we progress_
 
 __
 
