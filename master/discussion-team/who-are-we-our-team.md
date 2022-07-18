@@ -45,7 +45,7 @@ _18 Jul 2022: Adding more now_
 
 __
 
-Also attending first meeting: Eva Vivalt, Andrew Gelman
+Also attending first meeting: [Eva Vivalt](http://evavivalt.com), [Andrew Gelman](http://www.stat.columbia.edu/\~gelman/)
 
 __
 
@@ -53,11 +53,11 @@ __
 
 ## Also consulted with:
 
-* David Roodman
-* Julian Jamison
-* Todd Kaplan
-* Kate Rockett
-* David Rhys-Bernard
+* [David Roodman](https://davidroodman.com/about/)
+* [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison)
+* [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan)
+* [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett)
+* [David Rhys-Bernard](https://davidrhysbernard.com)
 
 As well as...
 
