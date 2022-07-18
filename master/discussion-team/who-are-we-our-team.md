@@ -1,11 +1,49 @@
 # "Who are we/our team"
 
+### Founding committee
+
+See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)__
+
 1. [David Reinstein](https://www.davidreinstein.org)
 2. [Daniel Lakens](https://sites.google.com/site/lakens2/)
 3. [Ryan Briggs](https://www.ryancbriggs.net/)
 4. [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356)
 5. Reaching out and soliciting a board and list of supporters (see [action-build-founding-committee.md](../../action-and-progress/action-build-founding-committee.md "mention"))
-6. Also attending first meeting: Eva Vivalt, Andrew Gelman
+6. _(We may be adding more members as we progress)_
+
+__
+
+### Advisory board
+
+See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)__
+
+**Senior**
+
+Andrew Gelman
+
+Jonathan Berman
+
+__\
+__**Early/mid-career**
+
+Alexander Herwix&#x20;
+
+Daniela Cialfi
+
+&#x20;Kris Gulati
+
+&#x20;Sam Abbott\
+****
+
+_18 Jul 2022: Adding more now_
+
+__
+
+Also attending first meeting: Eva Vivalt, Andrew Gelman
+
+__
+
+
 
 ## Also consulted with:
 
