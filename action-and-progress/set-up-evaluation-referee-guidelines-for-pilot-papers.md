@@ -1,4 +1,4 @@
-# Evaluation/referee guidelines for pilot papers
+# Set up evaluation/referee guidelines for pilot papers
 
 _9 Jul 2022: We are coming up with preliminary guidelines for reviewers/evaluators._&#x20;
 
@@ -6,4 +6,3 @@ _9 Jul 2022: We are coming up with preliminary guidelines for reviewers/evaluato
 * what should they write,&#x20;
 * and what metrics should they give for the papers?
 
-See [evaluation-referee-guidelines-for-pilot-papers.md](evaluation-referee-guidelines-for-pilot-papers.md "mention")
