@@ -1,25 +1,40 @@
 # Guideline for evaluators
 
 {% hint style="info" %}
-To do: integrate and simplify (folding boxes) [this gdoc](https://docs.google.com/document/d/18OGrbkj2bt32SneZVgQ7v5eQVSfscy31ACSaP9NQq-0/edit#heading=h.lyjp0rydzuf7) into the present gitbook page (and into Kotahi)
+_**Thanks for considering evaluating research for the Unjournal!**_
 {% endhint %}
 
-_**Thanks for considering evaluating research for the Unjournal!**_
-
-## Unjournal Evaluation: Here is what we would like you to do
+## Here is what we would like you to do
 
 1. _**Provide the quantitative metrics and predictions requested below**_, as appropriate.&#x20;
-2. _**Write a standard review**_**, approximately a ‘typical referee report’, but also consider:**
-   * Anything our managers/editors specifically asked you to focus on. We may ask you to focus on specific areas of expertise; you do not need to address all aspects of the work. We may forward specific feedback requests from authors.&#x20;
-   * The Unjournal’s criteria (see [#category-metrics-multiple-dimensions](guideline-for-evaluators.md#category-metrics-multiple-dimensions "mention") for some guidance), e.g., prioritizing impact and robustness over cleverness.&#x20;
-   * This review will be made public, unless you were advised otherwise. It will be given a DOI, and hopefully enter the public research conversation.\*&#x20;
-   * You will be given a _choice_ of whether you want to be publicly listed as an author of the review.\*&#x20;
-   * &#x20;If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it.
-3. _**Answer a short questionnaire**_
+2. _**Write a review**_**, approximately a ‘typical referee report’, with some specific considerations**
+3. &#x20;_**Answer a short questionnaire**_
+
+**In writing your review, please consider...**
 
 <details>
 
-<summary>*Notes </summary>
+<summary>Specific requests for focus/feedback</summary>
+
+Anything our managers/editors specifically asked you to focus on. We may ask you to focus on specific areas of expertise; you do not need to address all aspects of the work. We may forward specific feedback requests from authors.&#x20;
+
+
+
+</details>
+
+<details>
+
+<summary>The Unjournal's criteria</summary>
+
+See [#category-metrics-multiple-dimensions](guideline-for-evaluators.md#category-metrics-multiple-dimensions "mention") for some guidance), e.g., prioritizing impact and robustness over cleverness.&#x20;
+
+</details>
+
+**Remember:** This review will be made public, unless you were advised otherwise. It will be given a DOI, and hopefully enter the public research conversation.  You will be given a _choice_ of whether you want to be publicly listed as an author of the review.  If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it.
+
+<details>
+
+<summary>Notes </summary>
 
 We are considering the best policy towards signed reviews vs. single-blind reports; we may change this policy in the future.
 
@@ -32,46 +47,50 @@ We are considering the best policy towards signed reviews vs. single-blind repor
 </details>
 
 {% hint style="info" %}
-_Suggestion:_ The [#category-metrics-multiple-dimensions](guideline-for-evaluators.md#category-metrics-multiple-dimensions "mention") and [#overall-metrics-holistic-assessment](guideline-for-evaluators.md#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
+_Suggestion:_ The [#category-metrics](guideline-for-evaluators.md#category-metrics "mention") and [#overall-metrics-holistic-assessment](guideline-for-evaluators.md#overall-metrics-holistic-assessment "mention")outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
 {% endhint %}
 
 ## Category Metrics
 
-_**For each question below, if you believe the question is relevant, and you feel qualified to judge, please…**_
+_For each question below, if it seems relevant, and you feel qualified to judge, please ..._
 
-1. Give a rating from 0-100,
-   * Considering the discussion ‘what we are asking you to rate’?
-   * Quantifying this (for this _category_ according to the scale described in [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention"))
-2. Please ‘quantify how certain you are’ about this in the subsequent box (see [#the-confidence-rating-explained](guideline-for-evaluators.md#the-confidence-rating-explained "mention"))
-   * If you do not feel comfortable answering these 'certainty rating’ questions, please feel free to skip them.
+1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Quantify this following the [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention") scale but specifically for this _category_&#x20;
 
-**Some other important notes:**
+2\. ‘Quantify how certain you are’ about this in the subsequent box, either giving a 90% confidence interval, or using our [scale described below](guideline-for-evaluators.md#the-confidence-rating-explained). If you do not feel comfortable answering these 'certainty rating’ questions,  feel free to skip them.
+
+
+
+**Also note:**
 
 * _The individual **elements** of each category below do not_ require separate ratings or discussion; these are simply to help you understand what the category means.
-* Items with a an asterisk (“\*”) should be seen as ‘helpful but very much optional-response’.
+* Items with an asterisk (“\*”) should be seen as ‘helpful but very much optional-response’.
 * For each category, we give an ‘importance scale’ to suggest the importance of your rating for an overall assessment, considering the Unjournal priorities.&#x20;
 
-### The confidence rating explained:
+### The confidence rating explained
 
-_**Rating**_
+In considering how to weigh any measure or evaluation, it is important to 'quantify the uncertainty'. That's why we ask you to give us a measure of this. You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'Extremely' to 'Not confident').  In the box below, we provide a suggested correspondence between these two measures.\
+&#x20;&#x20;
 
-A. Extremely confident, i.e., 90% confidence interval spans +/- 4 points or less)\*
-
-B. Very confident, 90% confidence interval +/- 8 points or less
-
-C. Somewhat confident (90% confidence interval +/- 15 points or less)
-
-D. Not very confident (90% confidence interval, +/- 25 points or less)
-
-E. Not confident (90% confidence interval +/- 25 points)
-
-_If you prefer, you can simply give your 90% confidence/credible interval._
+_****_
 
 <details>
 
-<summary><em><strong>*Note</strong></em></summary>
+<summary><em><strong>Confidence ratings vs. confidence intervals... a proposed scale</strong></em></summary>
 
-In at least one direction. Obviously if you rated it a 98 you cannot be underestimating by more than 2 points, etc.
+**Extremely** confident, i.e., 90% confidence interval spans +/- 4 points or less)\*
+
+**Very** confident: 90% confidence interval +/- 8 points or less
+
+**Somewhat** confident: 90% confidence interval +/- 15 points or less
+
+**Not very** confident: 90% confidence interval, +/- 25 points or less
+
+**Not** confident: (90% confidence interval +/- 25 points)
+
+_If you prefer, you can simply give your 90% confidence/credible interval._\
+__
+
+\*In at least one direction. Obviously if you rated it a 98 you cannot be underestimating by more than 2 points, etc.
 
 </details>
 
