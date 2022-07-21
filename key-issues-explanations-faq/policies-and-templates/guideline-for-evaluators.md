@@ -337,7 +337,7 @@ _Your answers to the questions below will not be made public:_
 * Cite evidence and reference specific parts of the research when giving feedback.
 * Try to justify your critiques and claims in a reasoning transparent way, rather than merely ‘passing judgment’.
 * Provide specific, actionable feedback to the author where possible.
-* When considering authors’ arguments, consider the most-reasonable interpretation of what they have written (and state what that is, to help the author make their point more clearly). See ‘steelmanning’.
+* When considering authors’ arguments, consider the most-reasonable interpretation of what they have written (and state what that is, to help the author make their point more clearly). See ‘[steelmanning](https://www.lesswrong.com/tag/steelmanning)’.
 * Be collegial and encouraging, while being rigorous. Criticize and question specific parts of the research without suggesting criticism of the _researcher themself._
 
 </details>
