@@ -4,12 +4,14 @@
 We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
 {% endhint %}
 
+
+
 ## Choosing, working with evaluators (referees)
 
 ### How do we choose 'referees'?
 
 * Standard procedures (expertise, interest, lack of COI)
-* Opt-in referee pool
+* Consult opt-in referee pool first
 
 ### Why pay referees?
 
