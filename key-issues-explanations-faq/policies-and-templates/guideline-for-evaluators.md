@@ -15,7 +15,7 @@ _**Thanks for considering evaluating research for the Unjournal!**_
    * This review will be made public, unless you were advised otherwise. It will be given a DOI, and hopefully enter the public research conversation.\*&#x20;
    * You will be given a _choice_ of whether you want to be publicly listed as an author of the review.\*&#x20;
    * &#x20;If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it.
-3. **Answer a short questionnaire**
+3. _**Answer a short questionnaire**_
 
 <details>
 
@@ -147,7 +147,7 @@ Consistency:
 _Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!
 {% endhint %}
 
-”Useful building blocks”: Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
+* ”Useful building blocks”: Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
 
 > Rating \[0-100]
 >
