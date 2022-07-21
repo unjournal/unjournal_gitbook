@@ -8,7 +8,7 @@ description: >-
 # Plan of action: 'unjournal'
 
 {% hint style="warning" %}
-What is this Unjournal?... See:\
+https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/readme/plan-of-actionWhat is this Unjournal?... See:\
 [#in-a-nutshell](../#in-a-nutshell "mention")
 {% endhint %}
 
