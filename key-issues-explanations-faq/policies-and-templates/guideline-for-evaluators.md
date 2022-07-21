@@ -43,13 +43,13 @@ _**For each question below, if you believe the question is relevant, and you fee
    * Considering the discussion ‘what we are asking you to rate’?
    * Quantifying this (for this _category_ according to the scale described in [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention"))
 2. Please ‘quantify how certain you are’ about this in the subsequent box (see [#the-confidence-rating-explained](guideline-for-evaluators.md#the-confidence-rating-explained "mention"))
-   * if you do not feel comfortable answering these ;certainty rating’ questions, please feel free to skip them.
+   * If you do not feel comfortable answering these 'certainty rating’ questions, please feel free to skip them.
 
 **Some other important notes:**
 
 * _The individual **elements** of each category below do not_ require separate ratings or discussion; these are simply to help you understand what the category means.
 * Items with a an asterisk (“\*”) should be seen as ‘helpful but very much optional-response’.
-* _F_or each category, we give an ‘importance scale’ to suggest the importance of your rating for an overall assessment, considering the Unjournal priorities.&#x20;
+* For each category, we give an ‘importance scale’ to suggest the importance of your rating for an overall assessment, considering the Unjournal priorities.&#x20;
 
 ### The confidence rating explained:
 
@@ -81,12 +81,12 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 
 * Does the project make a contribution to the field or to practice, particularly in ways that will be relevant to our other criteria?
   * ‘Originality and cleverness’ should be weighted less than the typical journal because The Unjournal focuses on **impact**. Papers that apply existing techniques and frameworks more rigorously than previous work and/or apply it to new areas, and in ways that provide **practical** insights for GP (global priorities) and interventions should be highly valued. More weight should be placed on contribution to GP than academic field.
-* Do the insights generated inform our (‘posterior’) beliefs about important parameters, about the effectiveness of interventions, etc?&#x20;
+* Do the insights generated inform our (‘posterior’) beliefs about important parameters and about the effectiveness of interventions?&#x20;
   * We do not require a substantial _shift_ in our expectations. For research that is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field.
 * Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
 > Rating (0-100)\
-> See [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention") ... adapted to this category
+> See [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention")
 >
 > \
 > Confidence in rating
@@ -98,10 +98,10 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
 
 * Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the methods discussion?&#x20;
-  * _We use the term “methods” here broadly; this may include choice/collection of data, experiment or_ survey design, statistical analysis, simulation, etc
+  * We use the term “methods” here broadly; this may include choice/collection of data, experiment or survey design, statistical analysis, and simulation, among others.
 * Are the results/methods likely to be robust to reasonable changes in the underlying assumptions? Does the author demonstrate this (e.g., at least with a reasonable range of robustness checks, at best ‘mapping the space’ of possible reasonable specifications)?
 * &#x20;Avoiding bias and questionable research practices:
-  * &#x20;Did the authors take steps to reduce bias from opportunistic reporting, questionable research practices, etc.? (Pre-registration, multiple hypothesis testing corrections, reporting flexible specifications).
+  * Did the authors take steps to reduce bias from opportunistic reporting and questionable research practices? For example, pre-registration, multiple hypothesis testing corrections, reporting flexible specifications.
 
 > Rating \[0-100]
 >
@@ -111,7 +111,7 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 
 _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
 
-* Is the reasoning ‘transparent’ (on reasoning transparency, see, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/))
+* Is the reasoning ‘transparent’ (on reasoning transparency, see, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/))?
 * Are the goals/questions of the paper clearly expressed? Are concepts clearly defined/referenced?
 * Are all of the assumptions and logical steps made clear? Does the logic of the arguments make sense?
 * Is the argument written well enough to make it easy to follow?
@@ -130,9 +130,9 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 Replicability, reproducibility, data integrity:
 
 * Would another researcher be able to perform the same analysis and get the same results?
-* Are the method and its details explained sufficiently, in a way that would enable easy and credible replication? (e.g. full description of analysis, code and software provided, statistical tests fully explained, etc.)
+* Are the method and its details explained sufficiently, in a way that would enable easy and credible replication? For example, a full description of analysis, code and software provided, and statistical tests fully explained.
 * Is the source of the data clear?
-* \*Is the necessary data made available to others (to the extent reasonably possible and as applicable)? (Ideally, the cleaned data should also be clearly labeled and explained/legible.)
+* \*Is the necessary data made available to others, to the extent reasonably possible and as applicable? Ideally, the cleaned data should also be clearly labeled and explained/legible.
 * \*Are we likely to be able to construct the output from the shared code (and data)?
 
 {% hint style="info" %}
@@ -147,7 +147,8 @@ Consistency:
 _Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!
 {% endhint %}
 
-* ”Useful building blocks”: Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
+* Useful building blocks:&#x20;
+  * Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
 
 > Rating \[0-100]
 >
@@ -159,8 +160,13 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 
 * Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?
 * Is the setup particularly well-informed by real-world norms and practices?
-* “Is this realistic, does it make sense in the real world, are they getting at the right things?”
-* \*Do the authors communicate their work in ways policy makers and decision makers are likely to understand (perhaps in a supplemental ‘non-technical abstract’), without being misleading and oversimplifying? (Note: this should be seen as optional; the authors might be invited to additionally include this; in future we may be able to pay them to do this, if grant funding permits.)
+* “Is this realistic, does it make sense in the real world?”
+* \*Do the authors communicate their work in ways policy makers and decision makers are likely to understand (perhaps in a supplemental ‘non-technical abstract’), without being misleading and oversimplifying?&#x20;
+
+{% hint style="info" %}
+Note: this should be seen as optional; the authors might be invited to additionally include this; in future we may be able to pay them to do this, if grant funding permits.
+{% endhint %}
+
 * \*Do the authors present practical ‘impact quantifications’ such as cost-effectiveness analyses, or provide results enabling these?
 
 > Rating \[0-100]
@@ -173,7 +179,7 @@ _The management team has already considered this work and evaluated it as releva
 
 _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
 
-* Is this topic, approach and discussion _potentially_ useful to global priorities research and interventions? E.g., Does it help us evaluate what to prioritize for interventions and policy, Improve interventions and policy, or improve our research and knowledge capacity for these?
+* Is this topic, approach and discussion _potentially_ useful to global priorities research and interventions? E.g., Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
 > Rating \[0-100]
 >
@@ -197,7 +203,7 @@ Confidence in rating (Extremely confident, … , Not Confident … or give your 
 
 **95-100:** Among the highest quality and most important work you have ever read.
 
-**90-100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, grantmakers etc.
+**90-100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grant makers.
 
 <details>
 
@@ -226,18 +232,18 @@ E.g., either
 
 <summary>"Lowest quality"...</summary>
 
-Not making any substantial contribution, containing fatal flaws. This may be fundamentally addressing or issue that is not defined or obviously not relevant, or be substantially outside of the authors’ field of expertise.
+Not making any substantial contribution and containing fatal flaws. This may be fundamentally addressing, or an issue that is not defined or obviously not relevant, or be substantially outside of the authors’ field of expertise.
 
 </details>
 
-**0-5:** Illegible, fraudulent, or plagiarized. P_lease alert and flag fraud to us and to relevant authorities_
+**0-5:** Illegible, fraudulent, or plagiarized. _Please alert and flag fraud to us and to relevant authorities._
 
 ### Journal/Prediction metrics
 
 {% hint style="info" %}
-For the prediction’ questions below, we are asking for a ‘journal quality rating prediction’ from 0.0 to 5.0. \_
+For the prediction’ questions below, we are asking for a ‘journal quality rating prediction’ from 0.0 to 5.0.
 
-You can specify up to 2 digits (e.g., “4.4” or “2.0”) We are using this metric as we suspect it is more familiar to academics
+You can specify up to 2 digits (e.g., “4.4” or “2.0”) We are using this metric as we suspect it is more familiar to academics.
 {% endhint %}
 
 **The metrics are:**
@@ -299,7 +305,7 @@ F. Overall assessment on ‘scale of journals’ (0/100)
 
 Consider the 0-100 scale of journals described above. Suppose that
 
-1\. the journal process was _fair_, unbiased and free of noise, and that status, social connections and ‘lobbying to get the paper published’ didn’t matter, and&#x20;
+1\. the journal process was fair, unbiased and free of noise, and that status, social connections and ‘lobbying to get the paper published’ didn’t matter, and&#x20;
 
 2\. journals assessed research according to the category metrics we discuss above.&#x20;
 
@@ -319,7 +325,7 @@ _For the questions below, we will them along with your review unless you ask us 
 _Your answers to the questions below will not be made public:_
 
 1. How would you rate this template and process?
-2. Do you have any suggestions or questions about this process or the Unjournal (we will try to respond, and incorporate your suggestions) \[Open response]
+2. Do you have any suggestions or questions about this process or the Unjournal (we will try to respond, and incorporate your suggestions)? \[Open response]
 3. Would you be willing to consider evaluating a revised version of this project?
 
 ## **How to write a good review (general conventional guidelines)**
@@ -332,7 +338,7 @@ _Your answers to the questions below will not be made public:_
 * Try to justify your critiques and claims in a reasoning transparent way, rather than merely ‘passing judgment’.
 * Provide specific, actionable feedback to the author where possible.
 * When considering authors’ arguments, consider the most-reasonable interpretation of what they have written (and state what that is, to help the author make their point more clearly). See ‘steelmanning’.
-* Be collegial and encouraging, while being rigorous. Criticize and question specific parts of the \_research \_without suggesting criticism of the _researcher themself._
+* Be collegial and encouraging, while being rigorous. Criticize and question specific parts of the research without suggesting criticism of the _researcher themself._
 
 </details>
 
