@@ -2,7 +2,7 @@
 
 The features of the Unjournal, and why they are good: see sections below
 
-* [dynamic-documents-vs-living-projects.md](dynamic-documents-vs-living-projects.md "mention")
+* [dynamic-documents-vs-living-projects](dynamic-documents-vs-living-projects/ "mention")
 * [benefits-of-dynamic-documents.md](benefits-of-dynamic-documents.md "mention")
 * [living-research-projects.md](living-research-projects.md "mention")
 * Further arguments...

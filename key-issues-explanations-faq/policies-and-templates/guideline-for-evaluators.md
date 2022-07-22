@@ -59,34 +59,30 @@ _Suggestion:_ The [#category-metrics](guideline-for-evaluators.md#category-metri
 ## Metrics: Overall assessment, categories
 
 {% hint style="info" %}
-_Below:_ a 'completed example' ... We will provide evaluators a concise 'survey form with everything to fill out'.&#x20;
-
-In the form below we give _both_ 90% CIs and a confidence rating; _evaluators only need to do one._
-
-See further guidance and instruction in subsections below.&#x20;
+_Below:_ a 'completed example'. We will provide evaluators a concise 'survey form with everything to fill out'.  In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance and instruction in subsections below.&#x20;
 {% endhint %}
 
 
 
-<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong>OVERALL ASSESSMENT (holistic, most important!)</strong></td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
+<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong></strong><a data-mention href="guideline-for-evaluators.md#overall-assessment-discussion">#overall-assessment-discussion</a> <strong>(holistic, most important!)</strong></td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
 
-_All metrics are explained below under_ [#what-we-are-asking-you-to-rate-explanations](guideline-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
+_All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](guideline-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
 
 
 
 _**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
-1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Quantify this following the [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention") scale but specifically for this _category._
-2. (Optional) ‘Quantify how certain you are’ about this, either giving a 90% confidence interval, or using our [scale as described below](guideline-for-evaluators.md#the-confidence-rating-explained).
-   * _**Note**: **** Please give a 90% CI or a confidence score, but not both. (We do both above only for illustration.)_
+1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Quantify this following the scale in "[#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention")" but specifically for this _category._
+2. (Optional) ‘Quantify how certain you are’ about this, either giving a 90% confidence interval or using our [scale as described below](guideline-for-evaluators.md#the-confidence-rating-explained).
+   * _Note: **** Please give a 90% CI or a confidence score, but not both. We do both above only for illustration._
 
-For each category, we give an ‘importance scale’ to suggest the importance of your rating for your overall assessment, considering the Unjournal priorities.&#x20;
+For each category, we give an ‘importance scale’ (0/5 to 5/5) to suggest the importance of your rating for your overall assessment, considering the Unjournal priorities.&#x20;
 
 {% hint style="info" %}
 We see the 'overall assessment' as the most important measure. Please prioritize this.
 {% endhint %}
 
-### Overall assessment _- discussion_
+### Overall assessment __&#x20;
 
 Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice, particularly including the category metrics reported above (if you like, weighted by the importance scores we gave).
 
