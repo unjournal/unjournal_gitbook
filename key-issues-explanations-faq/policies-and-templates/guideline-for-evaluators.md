@@ -6,7 +6,7 @@ _**Thanks for considering evaluating research for the Unjournal!**_
 
 ## Here is what we would like you to do
 
-1. _**Provide the quantitative metrics and predictions requested below**_, as appropriate.&#x20;
+1. _**Give quantitative metrics and predictions requested in the two tables below**_, as appropriate.
 2. _**Write a review**_**, approximately a ‘typical referee report’, with some specific considerations**
 3. _**Answer a short questionnaire**_
 
