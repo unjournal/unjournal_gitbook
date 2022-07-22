@@ -60,7 +60,15 @@ _Suggestion:_ The [#category-metrics](guideline-for-evaluators.md#category-metri
 
 ## Metrics: Overall assessment, categories
 
-<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong>OVERALL ASSESSMENT (holistic, most important!)</strong></td><td>null</td><td><em>lower, upper</em></td><td>null</td></tr><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>3</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>1</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>1</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>0</td><td><em>lower, upper</em></td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>4</td></tr></tbody></table>
+{% hint style="info" %}
+_Below:_ a 'completed example' ... We will provide evaluators a concise 'survey form with everything to fill out'. In the form below we give _both_ 90% CIs and a confidence rating; evaluators only need to do one.
+
+See further guidance and instruction in subsections below.&#x20;
+{% endhint %}
+
+
+
+<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong>OVERALL ASSESSMENT (holistic, most important!)</strong></td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
 
 _**Notes:** Please give a 90% CI or a confidence score, but not both. All metrics are explained below under_ [#what-we-are-asking-you-to-rate-explanations](guideline-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
 
