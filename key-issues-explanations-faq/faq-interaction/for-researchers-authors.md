@@ -15,32 +15,32 @@ We will look for (and pay) two reviewers with research interests in your area, a
 
 We will only need a link to a DOI'd version of your work (also asking for other relevant links). We will not 'publish' your paper, and your paper being handled by the Unjournal would not limit you in any way; you could submit it to any journal before, during, or after the process.
 
-### What we **might ask you as an author to do, allow, and engage with**&#x20;
+### What we **might ask you as an author to do, allow, and engage with**
 
-If we consider your work for public evaluation in our pilot stage, we might consider asking things like those below, but these are not all necessary, and we will aim to make this very _light touch_ for authors.&#x20;
+If we consider your work for public evaluation in our pilot stage, we might consider asking things like those below, but these are not all necessary, and we will aim to make this very _light touch_ for authors.
 
-1. A link to a non-paywalled, hosted version of your work (which could be in any format - pdfs are not necessary, see [“Benefits of dynamic documents"](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents)), which could be given a DOI. Note that _we_ will not be "publishing" this work, just evaluating it.&#x20;
-2. Asking you for a link to data and code, if possible. and working to help you to make it accessible.&#x20;
-   1. Note our project is not _principally_ about replication, and we are unlikely to be able to do this systematically in our pilot stage. But we want to encourage this accessibility (and we are keen to work with [I4rep](https://i4replication.org/people.html) and others on this in future.)&#x20;
-3. Assigning two evaluators ('referees') who will be paid to assess your work; we will probably keep their identities confidential (although this is a continued discussion point), but we may try to facilitate a confidential channel to enable a dialogue with the authors. We will also have one person on our managing team to handle this process.&#x20;
-   1. Through this process, we may encourage you to continue to update your work in communication with the evaluators, as sort of 'dynamic R\&R'.&#x20;
+1. A link to a non-paywalled, hosted version of your work (which could be in any format - pdfs are not necessary, see [“Benefits of dynamic documents"](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents)), which could be given a DOI. Note that _we_ will not be "publishing" this work, just evaluating it.
+2. Asking you for a link to data and code, if possible. and working to help you to make it accessible.
+   1. Note our project is not _principally_ about replication, and we are unlikely to be able to do this systematically in our pilot stage. But we want to encourage this accessibility (and we are keen to work with [I4rep](https://i4replication.org/people.html) and others on this in future.)
+3. Assigning two evaluators ('referees') who will be paid to assess your work; we will probably keep their identities confidential (although this is a continued discussion point), but we may try to facilitate a confidential channel to enable a dialogue with the authors. We will also have one person on our managing team to handle this process.
+   1. Through this process, we may encourage you to continue to update your work in communication with the evaluators, as sort of 'dynamic R\&R'.
 4. Asking the evaluators to _publicly_ post their reviews of your work on kotahi, in a special curated section for the Unjournal. We will ask them to provide both feedback, thoughts, and suggestions and some quantitative ratings for the paper, along certain margins.
-   1. Getting your permission for this up front.&#x20;
+   1. Getting your permission for this up front.
    2. Allowing you the 'right to respond' before any of this is posted publicly.
 
-## **Why would researchers and groups want to ‘submit their work’ and engage with Unjournal?**&#x20;
+## **Why would researchers and groups want to ‘submit their work’ and engage with Unjournal?**
 
-I think the biggest personal gains for authors engaging are:&#x20;
+I think the biggest personal gains for authors engaging are:
 
-1. Substantive feedback (which is often very hard to get, especially for young scholars) will help you improve your work (both the work being reviewed and future work)&#x20;
-2. Markers of credibility for your work that could help your career advancement at least at the margin, … and hopefully in the future help a great deal (with retrograde rewards for early adopters, perhaps)&#x20;
+1. Substantive feedback (which is often very hard to get, especially for young scholars) will help you improve your work (both the work being reviewed and future work)
+2. Markers of credibility for your work that could help your career advancement at least at the margin, … and hopefully in the future help a great deal (with retrograde rewards for early adopters, perhaps)
 3. Visibility and a connection to the EA/Global Priorities communities, as well as the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups
-4. Gaining reputation as an ‘early adopter and innovator’ in open science&#x20;
+4. Gaining reputation as an ‘early adopter and innovator’ in open science
 5. You may win a “best project prize” which could be financial as well as reputational
-6. Getting ‘into our system’ will make you more visible to be hired as a paid reviewer or editorial manager&#x20;
+6. Getting ‘into our system’ will make you more visible to be hired as a paid reviewer or editorial manager
 7. We will encourage media coverage, including ‘forwarding’ some work to the Asterisk journal for future coverage (with compensation to those doing the writing)
 
-## **Is it ‘risky’ to make your work public, and to have it reviewed in the Unjournal?**&#x20;
+## **Is it ‘risky’ to make your work public, and to have it reviewed in the Unjournal?**
 
 There are risks and rewards to any activity, of course, and we cannot predict the consequence of any action. We consider some ‘risks’ you may weigh against the benefits mentioned above.
 
@@ -49,12 +49,12 @@ There are risks and rewards to any activity, of course, and we cannot predict th
 3. Backlash against innovation or ‘seeming weird’?
 4. Could the review process have a downward bias?
 
-### **Exclusivity**&#x20;
+### **Exclusivity**
 
 Some traditional journals might have restrictions on the public sharing of your work, and perhaps they might enforce these more strongly if they fear competition from the Unjournal? (We think this is largely not a factor, discussed below)
 
 * The Unjournal is _not exclusive_. Having your paper reviewed and evaluated in the Unjournal will not limit your options; you can still submit your work to traditional journals.
-  * At least _we_ are not making any exclusivity restrictions. Some journals might discourage you from publicly posting your work (a ‘pre-print’) but my impression is that this restriction is becoming less and less common or defensible. In Economics, for example, it seems to not be a thing.&#x20;
+  * At least _we_ are not making any exclusivity restrictions. Some journals might discourage you from publicly posting your work (a ‘pre-print’) but my impression is that this restriction is becoming less and less common or defensible. In Economics, for example, it seems to not be a thing.
 * Following a traditional publishing route can also be risky: the world may change, and you may be seen as retrograde. More importantly, publishing (especially in Economics) is slow and has highly variable outcomes. You typically wait months for a response, sometimes over a year, may go through many cycles of reject/revise and resubmit, and may ultimately end up with an outcome (rejection) that has zero value on your CV. With the Unjournal your work always will be given feedback, an evaluation, and a public rating (if you choose). And you can continue to improve your work for future evaluation.
 
 ### **Public negative/neutral feedback**
