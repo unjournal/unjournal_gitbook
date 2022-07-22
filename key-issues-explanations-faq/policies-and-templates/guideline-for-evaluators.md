@@ -1,7 +1,11 @@
 # Guideline for evaluators
 
 {% hint style="info" %}
-_**Thanks for considering evaluating research for the Unjournal!**_
+_**Thanks for considering evaluating research for the Unjournal!**_&#x20;
+
+You will be compensated at least $250 for your evaluation work (we aim to increase this), and will be eligible for (financial) 'best review' prizes.
+
+Your evaluation will made be public and DOI'd, but you can (22 Jul 2022: current policy) choose whether to remain anonymous or 'sign your review' and take credit.&#x20;
 {% endhint %}
 
 ## Here is what we would like you to do
@@ -395,7 +399,9 @@ _Optional_
 **Remember**: The Unjournal doesn’t “publish” and doesn’t “accept or reject”. So don’t give an “Accept, Revise and Resubmit, Reject, etc. ” recommendation. We just want quantitative metrics, some written feedback, and some relevant discussion.
 {% endhint %}
 
-### Some other resources/guides to writing reports
+<details>
+
+<summary>Some other resources/guides to writing referee reports</summary>
 
 [The Wiley Online Library](https://authorservices.wiley.com/Reviewers/journal-reviewers/how-to-perform-a-peer-review/step-by-step-guide-to-reviewing-a-manuscript.html) (Conventional, general)
 
@@ -404,3 +410,6 @@ _Optional_
 [Peer Community In... Questionnaire ](https://peercommunityin.org/2022/05/20/questionnaire-for-reviewers/)(Open-science-aligned)
 
 [Open Reviewers Reviewer Guide ](https://zenodo.org/record/5484087)(Journal-independent “Pre-review”; detailed, targets ECRs)
+
+</details>
+
