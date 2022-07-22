@@ -64,7 +64,7 @@ _Below:_ a 'completed example'. We will provide evaluators a concise 'survey for
 
 
 
-<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong></strong><a data-mention href="guideline-for-evaluators.md#overall-assessment-discussion">#overall-assessment-discussion</a> <strong>(holistic, most important!)</strong></td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
+<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong></strong><a href="guideline-for-evaluators.md#overall-assessment-discussion"><strong>Overall assessment</strong> </a>(holistic, most important!)</td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#1.-advancing-our-knowledge-and-practice-5-5-importance">Advancing knowledge and practice</a> (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#2.-methods-justification-reasonableness-validity-robustness-5-5-importance">Methods: Justification, reasonableness, validity, robustness</a> (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#3.-logic-and-communication-coherent-and-clear-argument-communication-reasoning-transparency-4-5-impo">Logic &#x26; communication</a> (4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#4.-open-collaborative-replicable-science-and-methods-3-5-importance">Open, collaborative, replicable</a> (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4><strong></strong><a href="guideline-for-evaluators.md#6.-relevance-to-global-priorities-0-5-not-part-of-overall-evaluation"><strong>Relevance to global priorities</strong> </a>(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](guideline-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
 
@@ -262,8 +262,6 @@ Is the setup particularly well-informed by real-world norms and practices? **** 
 _**Note:** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your opinion._
 
 Is this topic, approach and discussion _potentially_ useful to global priorities research and interventions? Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
-
-
 
 ## Journal/Prediction metrics
 
