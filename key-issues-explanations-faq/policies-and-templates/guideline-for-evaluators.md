@@ -8,7 +8,7 @@ _**Thanks for considering evaluating research for the Unjournal!**_
 
 1. _**Provide the quantitative metrics and predictions requested below**_, as appropriate.&#x20;
 2. _**Write a review**_**, approximately a ‘typical referee report’, with some specific considerations**
-3. &#x20;_**Answer a short questionnaire**_
+3. _**Answer a short questionnaire**_
 
 **In writing your review, please consider...**
 
@@ -58,28 +58,71 @@ We are considering the best policy towards signed reviews vs. single-blind repor
 _Suggestion:_ The [#category-metrics](guideline-for-evaluators.md#category-metrics "mention") and [#overall-metrics-holistic-assessment](guideline-for-evaluators.md#overall-metrics-holistic-assessment "mention")outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
 {% endhint %}
 
-## Category Metrics
+## Metrics: Overall assessment, categories
 
-<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>51</td><td>45, 55</td><td>4</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>20</td><td>10, 35</td><td>3</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>60</td><td>40, 70</td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>30</td><td>21, 65</td><td>1</td></tr></tbody></table>
+<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong>OVERALL ASSESSMENT (holistic, most important!)</strong></td><td>null</td><td><em>lower, upper</em></td><td>null</td></tr><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>3</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>1</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>1</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>0</td><td><em>lower, upper</em></td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>0</td><td><em>lower, upper</em></td><td>4</td></tr></tbody></table>
 
-_**Notes:** Please give a 90% CI or a confidence score, but not both. All metrics are explained below._
-
-__
+_**Notes:** Please give a 90% CI or a confidence score, but not both. All metrics are explained below under_ [#what-we-are-asking-you-to-rate-explanations](guideline-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
 
 
 
-
-
-_For each question above, if it seems relevant, and you feel qualified to judge, please ..._
+_**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
 1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Quantify this following the [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention") scale but specifically for this _category._
-2. (Optional) ‘Quantify how certain you are’ about this, either giving a 90% confidence interval, or using our [scale as described below](guideline-for-evaluators.md#the-confidence-rating-explained).&#x20;
+2. (Optional) ‘Quantify how certain you are’ about this, either giving a 90% confidence interval, or using our [scale as described below](guideline-for-evaluators.md#the-confidence-rating-explained).
 
-**Also note:**
+For each category, we give an ‘importance scale’ to suggest the importance of your rating for your overall assessment, considering the Unjournal priorities.&#x20;
 
-* Items with an asterisk (“\*”) should be seen as ‘helpful but very much optional-response’.
-* For each category, we give an ‘importance scale’ to suggest the importance of your rating for an overall assessment, considering the Unjournal priorities.&#x20;
-* _The individual **elements** of each category do not_ require separate ratings or discussion; these are simply to help you understand what the category means.
+{% hint style="info" %}
+We see the 'overall assessment' as the most important measure. Please prioritize this.
+{% endhint %}
+
+### Overall assessment _- discussion_
+
+Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice, particularly including the category metrics reported above (if you like, weighted by the importance scores we gave).
+
+
+
+### 0-100 Metric described
+
+_The description below focuses on the "Overall Assessment" ... please try to use a similar  scale when evaluating the category metrics._
+
+**95-100:** Among the highest quality and most important work you have ever read.
+
+**90-100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grant makers.
+
+<details>
+
+<summary>For example: </summary>
+
+E.g., either
+
+* Most work in this area in the next ten years will be influenced by this paper
+* This paper is substantially more rigorous or more insightful than existing work in this area in a way that matters for research and practice
+* The work makes a major, perhaps decisive contribution to a case for (or against) a policy or philanthropic intervention\
+
+
+</details>
+
+**75-90:** This work represents a strong and substantial achievement. It is highly rigorous, relevant, and well-communicated, up to the standards of the strongest work in this area (say, the standards of the top 5% of committed researchers in this field). Such work would/should not be decisive in a tenure/promotion/grant decision alone, but it should make a very solid contribution to such a case.
+
+**60-75:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
+
+**40-60:** A useful contribution, with major strengths, but also some important flaws or limitations.
+
+**20-40:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
+
+**0-20:** Among the lowest quality papers.&#x20;
+
+<details>
+
+<summary>"Lowest quality"...</summary>
+
+Not making any substantial contribution and containing fatal flaws. This may be fundamentally addressing, or an issue that is not defined or obviously not relevant, or be substantially outside of the authors’ field of expertise.
+
+</details>
+
+**0-5:** Illegible, fraudulent, or plagiarized. _Please alert and flag fraud to us and to relevant authorities._
 
 ### The confidence rating ...
 
@@ -121,7 +164,7 @@ The diagram below gives an example (click to zoom); note we would like you to gi
 
 __![](<../../.gitbook/assets/image (3).png>)****
 
-### **What we are asking you to rate (explanations)**
+### **Categories: What we are asking you to rate (explanations)**
 
 #### 1.  Advancing our knowledge and practice (5/5 importance)
 
@@ -147,160 +190,97 @@ We do not require a substantial _shift_ in our expectations. For research that i
 
 Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
-> Rating (0-100)\
-> See [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention")
->
-> \
-> Confidence in rating
->
-> &#x20;(A-E) or give 90% CI; see [#the-confidence-rating-explained](guideline-for-evaluators.md#the-confidence-rating-explained "mention")&#x20;
-
 #### 2. Methods: Justification, reasonableness, validity, robustness (5/5 importance)
 
-Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the methods discussion?&#x20;
+Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the 'methods discussion'?&#x20;
 
-*
-  * We use the term “methods” here broadly; this may include choice/collection of data, experiment or survey design, statistical analysis, and simulation, among others.
-* Are the results/methods likely to be robust to reasonable changes in the underlying assumptions? Does the author demonstrate this (e.g., at least with a reasonable range of robustness checks, at best ‘mapping the space’ of possible reasonable specifications)?
-* &#x20;Avoiding bias and questionable research practices:
-  * Did the authors take steps to reduce bias from opportunistic reporting and questionable research practices? For example, pre-registration, multiple hypothesis testing corrections, reporting flexible specifications.
+Are the results/methods likely to be robust to reasonable changes in the underlying assumptions? Does the author demonstrate this (e.g., at least with a reasonable range of robustness checks, at best ‘mapping the space’ of possible reasonable specifications)?
 
-> Rating \[0-100]
->
-> Confidence in rating
+Avoiding bias and questionable research practices (QRP)... Did the authors take steps to reduce bias from opportunistic reporting and QRP? For example, pre-registration, multiple hypothesis testing corrections, reporting flexible specifications.
+
+<details>
+
+<summary><em>Notes</em></summary>
+
+We use the term “methods” here broadly; this may include choice/collection of data, experiment or survey design, statistical analysis, and simulation, among others.
+
+</details>
 
 #### 3. Logic and communication: Coherent and clear argument, communication, reasoning transparency (4/5 importance)
 
-Is the reasoning ‘transparent’ (on reasoning transparency, see, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/))?
+Are the goals/questions of the paper clearly expressed? Are concepts clearly defined/referenced?
 
-* Are the goals/questions of the paper clearly expressed? Are concepts clearly defined/referenced?
-* Are all of the assumptions and logical steps made clear? Does the logic of the arguments make sense?
-* Is the argument written well enough to make it easy to follow?
-* Is the data and/or analysis presented relevant to the arguments made?
-* Are the stated conclusions/results consistent with the evidence (or theoretical results/proofs) presented?
-* Are the tables/graphs/diagrams easy enough to understand in the context of the narrative? (eg no errors in labeling, legible, correct form of data visualization)
+Is the reasoning ‘transparent’ (on reasoning transparency, see, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/))? Are all of the assumptions and logical steps made clear? Does the logic of the arguments make sense? Is the argument written well enough to make it easy to follow?
 
-> Rating \[0-100]&#x20;
->
-> Confidence in rating
+Is the data and/or analysis presented relevant to the arguments made? Are the stated conclusions/results consistent with the evidence (or theoretical results/proofs) presented? Are the tables/graphs/diagrams easy enough to understand in the context of the narrative? (eg no errors in labeling
 
 #### 4. Open, collaborative, replicable science and methods (3/5 importance)
 
-Replicability, reproducibility, data integrity:
+**Replicability, reproducibility, data integrity:**
 
-* Would another researcher be able to perform the same analysis and get the same results?
-* Are the method and its details explained sufficiently, in a way that would enable easy and credible replication? For example, a full description of analysis, code and software provided, and statistical tests fully explained.
-* Is the source of the data clear?
-* \*Is the necessary data made available to others, to the extent reasonably possible and as applicable? Ideally, the cleaned data should also be clearly labeled and explained/legible.
-* \*Are we likely to be able to construct the output from the shared code (and data)?
+Would another researcher be able to perform the same analysis and get the same results? Are the method and its details explained sufficiently, in a way that would enable easy and credible replication? For example, a full description of analysis, code and software provided, and statistical tests fully explained. Is the source of the data clear?
 
-{% hint style="info" %}
-_Note:_ evaluators are not required to run or carefully evaluate the code; this is at the evaluator’s discretion. However, having a quick look at some of the elements could be helpful. Ideally, the author should give code that allows easy, full replication, e.g., a single R script that runs and creates everything, starting from the original data source, and including data cleaning files. This would make it fairly easy for an evaluator to check. E.g., see [this ‘levels of computational reproducibility’ ](https://bitss.github.io/ACRE/assessment.html#score)taxonomy.
-{% endhint %}
+Is the necessary data made available to others, to the extent reasonably possible and as applicable? Ideally, the cleaned data should also be clearly labeled and explained/legible. \*Are we likely to be able to construct the output from the shared code (and data)?
 
-Consistency:
+<details>
 
-* Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper?&#x20;
+<summary><em>Note:</em> evaluators are not required to run/evaluate the code; this is at your discretion</summary>
+
+...However, having a quick look at some of the elements could be helpful. Ideally, the author should give code that allows easy, full replication, e.g., a single R script that runs and creates everything, starting from the original data source, and including data cleaning files. This would make it fairly easy for an evaluator to check. E.g., see [this ‘levels of computational reproducibility’ ](https://bitss.github.io/ACRE/assessment.html#score)taxonomy.
+
+</details>
+
+**Consistency**:
+
+Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper?&#x20;
 
 {% hint style="info" %}
 _Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!
 {% endhint %}
 
-* Useful building blocks:&#x20;
-  * Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
+**Useful building blocks:**&#x20;
 
-> Rating \[0-100]
->
-> Confidence in rating
+Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
 
 #### 5. Engaging with real-world, impact quantification; practice, realism and relevance (2/5 importance)
 
 Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?
 
-* Is the setup particularly well-informed by real-world norms and practices?
-* “Is this realistic, does it make sense in the real world?”
-* \*Do the authors communicate their work in ways policy makers and decision makers are likely to understand (perhaps in a supplemental ‘non-technical abstract’), without being misleading and oversimplifying?&#x20;
+Is the setup particularly well-informed by real-world norms and practices? **** “Is this realistic, does it make sense in the real world?”&#x20;
+
+(\*) Do the authors communicate their work in ways policymakers and decision- makers are likely to understand (perhaps in a supplemental ‘non-technical abstract’), without being misleading and oversimplifying?&#x20;
+
+(\*) Do the authors present practical ‘impact quantifications’ such as cost-effectiveness analyses, or provide results enabling these?
 
 {% hint style="info" %}
-Note: this should be seen as optional; the authors might be invited to additionally include this; in future we may be able to pay them to do this, if grant funding permits.
+(\*) Note: The last 2 items should be seen as optional; the authors might be invited to additionally include this; in future we may be able to pay them to do this, if grant funding permits.
 {% endhint %}
 
-* \*Do the authors present practical ‘impact quantifications’ such as cost-effectiveness analyses, or provide results enabling these?
 
-> Rating \[0-100]
->
-> Confidence in rating
 
 #### 6. Relevance to global priorities\*(0/5: not part of overall evaluation)
 
-_The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your opinion._
+_**Note:** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your opinion._
 
 Is this topic, approach and discussion _potentially_ useful to global priorities research and interventions? E.g., Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
-> Rating \[0-100]
->
-> Confidence in rating
-
-## Overall metrics/holistic assessment
-
-### Overall assessment (0/100; most important!)
-
-Judge the work’s quality heuristically.
-
-Consider all aspects of quality, importance to knowledge production, and importance to practice, particularly including the category metrics reported above (if you like, weighted by the importance scores we gave).
-
-_**How would you rate this paper from 0-100?**_
-
-Rating \[0-100]
-
-Confidence in rating (Extremely confident, … , Not Confident … or give your 90% CI if you prefer)
-
-### 0-100 Metric described
-
-**95-100:** Among the highest quality and most important work you have ever read.
-
-**90-100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grant makers.
-
-<details>
-
-<summary>For example: </summary>
-
-E.g., either
-
-* Most work in this area in the next ten years will be influenced by this paper
-* This paper is substantially more rigorous or more insightful than existing work in this area in a way that matters for research and practice
-* The work makes a major, perhaps decisive contribution to a case for (or against) a policy or philanthropic intervention\
 
 
-</details>
+## Journal/Prediction metrics
 
-**75-90:** This work represents a strong and substantial achievement. It is highly rigorous, relevant, and well-communicated, up to the standards of the strongest work in this area (say, the standards of the top 5% of committed researchers in this field). Such work would/should not be decisive in a tenure/promotion/grant decision alone, but it should make a very solid contribution to such a case.
+We would like to benchmark our evaluations against 'how research is currently judged'. We want to provide a bridge between the current 'accept or reject' system and an evaluation-based system.  We want our evaluations to be taken seriously by universities and policymakers. Thus we are asking you for two predictions in the table below. \
+&#x20;
 
-**60-75:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
-
-**40-60:** A useful contribution, with major strengths, but also some important flaws or limitations.
-
-**20-40:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
-
-**0-20:** Among the lowest quality papers.&#x20;
-
-<details>
-
-<summary>"Lowest quality"...</summary>
-
-Not making any substantial contribution and containing fatal flaws. This may be fundamentally addressing, or an issue that is not defined or obviously not relevant, or be substantially outside of the authors’ field of expertise.
-
-</details>
-
-**0-5:** Illegible, fraudulent, or plagiarized. _Please alert and flag fraud to us and to relevant authorities._
-
-### Journal/Prediction metrics
+<table><thead><tr><th>Prediction metric</th><th data-type="number">Prediction 'journal tier' 0.0-5.0</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-type="select"></th></tr></thead><tbody><tr><td><strong>What ‘quality journal’ </strong><em><strong>will</strong></em><strong> this be published in?</strong></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td></tr><tr><td><strong>Overall assessment on ‘scale of journals'</strong> (tier it <em>should be published in; see below)</em></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
-For the prediction’ questions below, we are asking for a ‘journal quality rating prediction’ from 0.0 to 5.0.
-
-You can specify up to 2 digits (e.g., “4.4” or “2.0”) We are using this metric as we suspect it is more familiar to academics.
+To better understand what we are asking here, please consult the subsections below\
+"Journal metrics", "What quality journal...", and "Overall assessment on ‘scale of journals'"
 {% endhint %}
+
+### Journal metrics
+
+For the 'prediction’ questions above, we are asking for a ‘journal quality rating prediction’ from 0.0 to 5.0. You can specify up to 2 digits (e.g., “4.4” or “2.0”) We are using this metric as we suspect it is more familiar to academics.
 
 **The metrics are:**
 
@@ -316,7 +296,7 @@ You can specify up to 2 digits (e.g., “4.4” or “2.0”) We are using this 
 
 We give some examples of actual journals [HERE](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0) that might line up with these metrics based on SJR and the ABS ratings.
 
-### Prediction (0/100): What ‘quality level journal’ do you expect this work to be ultimately published in?
+### What ‘quality level journal’ do you expect this work to be ultimately published in?
 
 <details>
 
@@ -335,45 +315,41 @@ In presenting your prediction and confidence interval for this, you might want t
 * “What is the most prestigious journal that would consider publishing this?”
 * “What is the least prestigious journal that the authors should consider submitting this to? (I.e., I wouldn't go lower, even if I were risk-averse)”
 
-> Rating \[0.0-5.0]
->
-> Confidence in rating (Extremely confident, … , Not Confident … or give your 90% CI if you prefer)
-
 <details>
 
 <summary>Reprising the confidence intervals for this new metric</summary>
 
-A. Extremely confident (90% confidence interval spans +/- 0.2 points or less)
+Dots given ...\
+\
+5: Extremely confident (90% confidence interval spans +/- 0.2 points or less)
 
-B. Very confident (90% confidence interval +/- 0.4 points or less)
+4:  Very confident (90% confidence interval +/- 0.4 points or less)
 
-C. Somewhat confident (90% confidence interval +/- .75 points or less)
+3: Somewhat confident (90% confidence interval +/- .75 points or less)
 
-D. Not very confident (90% confidence interval, +/- 1.25 points or less)
+2: Not very confident (90% confidence interval, +/- 1.25 points or less)
 
-E. Not confident (90% confidence interval +/- more than 1.25 points)
+1: Not confident (90% confidence interval +/- more than 1.25 points)
 
-F. Overall assessment on ‘scale of journals’ (0/100)
+
 
 </details>
 
 ### **Overall assessment on ‘scale of journals'**
 
-Consider the 0-100 scale of journals described above. Suppose that
+Consider the scale of journals described above. Suppose that:
 
 1\. the journal process was fair, unbiased and free of noise, and that status, social connections and ‘lobbying to get the paper published’ didn’t matter, and&#x20;
 
 2\. journals assessed research according to the category metrics we discuss above.&#x20;
 
-_In such a case, what ‘quality level journal’ would and should this research be published in in its current form or with minor revisions?_
-
-> Rating \[0.0-5.0]
->
-> Confidence in rating (Extremely confident, … , Not Confident … or give your 90% CI if you prefer)
+_In such a case, what ‘quality level journal’ would and should this research be published in its current form or with minor revisions?_
 
 ## Survey questions
 
-_For the questions below, we will them along with your review unless you ask us to keep them anonymous:_&#x20;
+{% hint style="info" %}
+_For the questions below...  we will publish your responses along with your review unless you ask us to keep them anonymous._
+{% endhint %}
 
 1. How long have you been in this field?
 2. How many proposals and papers have you evaluated?
