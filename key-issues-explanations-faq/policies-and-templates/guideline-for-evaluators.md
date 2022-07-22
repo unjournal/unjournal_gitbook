@@ -30,7 +30,15 @@ See [#category-metrics-multiple-dimensions](guideline-for-evaluators.md#category
 
 </details>
 
-**Remember:** This review will be made public, unless you were advised otherwise. It will be given a DOI, and hopefully enter the public research conversation.  You will be given a _choice_ of whether you want to be publicly listed as an author of the review.  If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it.
+<details>
+
+<summary><strong>Remember:</strong> This review will be made public*</summary>
+
+... unless you were advised otherwise. It will be given a DOI, and hopefully enter the public research conversation. You will be given a _choice_ of whether you want to be publicly listed as an author of the review. &#x20;
+
+</details>
+
+_If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it._
 
 <details>
 
@@ -52,57 +60,92 @@ _Suggestion:_ The [#category-metrics](guideline-for-evaluators.md#category-metri
 
 ## Category Metrics
 
-_For each question below, if it seems relevant, and you feel qualified to judge, please ..._
+<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><h4>Advancing knowledge and practice (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4>Methods: Justification, reasonableness, validity, robustness (5/5)</h4></td><td>51</td><td>45, 55</td><td>4</td></tr><tr><td><h4>Logic &#x26; communication ...(4/5)</h4></td><td>20</td><td>10, 35</td><td>3</td></tr><tr><td><h4>Open, collaborative, replicable... (3/5) </h4></td><td>60</td><td>40, 70</td><td>2</td></tr><tr><td><h4>Relevance to global priorities(0/5)</h4></td><td>30</td><td>21, 65</td><td>1</td></tr></tbody></table>
 
-1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Quantify this following the [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention") scale but specifically for this _category_&#x20;
+_**Notes:** Please give a 90% CI or a confidence score, but not both. All metrics are explained below._
 
-2\. ‘Quantify how certain you are’ about this in the subsequent box, either giving a 90% confidence interval, or using our [scale described below](guideline-for-evaluators.md#the-confidence-rating-explained). If you do not feel comfortable answering these 'certainty rating’ questions,  feel free to skip them.
+__
 
 
+
+
+
+_For each question above, if it seems relevant, and you feel qualified to judge, please ..._
+
+1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Quantify this following the [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention") scale but specifically for this _category._
+2. (Optional) ‘Quantify how certain you are’ about this, either giving a 90% confidence interval, or using our [scale as described below](guideline-for-evaluators.md#the-confidence-rating-explained).&#x20;
 
 **Also note:**
 
-* _The individual **elements** of each category below do not_ require separate ratings or discussion; these are simply to help you understand what the category means.
 * Items with an asterisk (“\*”) should be seen as ‘helpful but very much optional-response’.
 * For each category, we give an ‘importance scale’ to suggest the importance of your rating for an overall assessment, considering the Unjournal priorities.&#x20;
+* _The individual **elements** of each category do not_ require separate ratings or discussion; these are simply to help you understand what the category means.
 
-### The confidence rating explained
+### The confidence rating ...
 
-In considering how to weigh any measure or evaluation, it is important to 'quantify the uncertainty'. That's why we ask you to give us a measure of this. You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'Extremely' to 'Not confident').  In the box below, we provide a suggested correspondence between these two measures.\
-&#x20;&#x20;
+<details>
 
-_****_
+<summary>Why/what are we looking for?</summary>
+
+In considering how to weigh any measure or evaluation, it is important to 'quantify the uncertainty'. That's why we ask you to give us a measure of this. You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'Extremely' to 'Not confident').  In the box below, we provide a suggested correspondence between these two measures.
+
+</details>
 
 <details>
 
 <summary><em><strong>Confidence ratings vs. confidence intervals... a proposed scale</strong></em></summary>
 
-**Extremely** confident, i.e., 90% confidence interval spans +/- 4 points or less)\*
+**From 'five dots' to 'one dot'...**&#x20;
 
-**Very** confident: 90% confidence interval +/- 8 points or less
+**5 = Extremely** confident, i.e., 90% confidence interval spans +/- 4 points or less)\*
 
-**Somewhat** confident: 90% confidence interval +/- 15 points or less
+**4 = Very** confident: 90% confidence interval +/- 8 points or less
 
-**Not very** confident: 90% confidence interval, +/- 25 points or less
+**3 = Somewhat** confident: 90% confidence interval +/- 15 points or less&#x20;
 
-**Not** confident: (90% confidence interval +/- 25 points)
+**2 = Not very** confident: 90% confidence interval, +/- 25 points or less
 
-_If you prefer, you can simply give your 90% confidence/credible interval._\
-__
+**1 = Not** confident: (90% confidence interval +/- 25 points)
 
-\*In at least one direction. Obviously if you rated it a 98 you cannot be underestimating by more than 2 points, etc.
+_If you prefer, you can simply give your 90% confidence/credible interval._
+
+\*In at least one direction. Obviously if you rated it a 98 you cannot be under_-_estimating by more than 2 points, etc.
+
+
+
+_See the diagram below_&#x20;
 
 </details>
 
-### 1. Advancing our knowledge and practice (5/5 importance)
+The diagram below gives an example (click to zoom); note we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both ... The example illustrates the proposed correspondence.
 
-_<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
+__![](<../../.gitbook/assets/image (3).png>)****
 
-* Does the project make a contribution to the field or to practice, particularly in ways that will be relevant to our other criteria?
-  * ‘Originality and cleverness’ should be weighted less than the typical journal because The Unjournal focuses on **impact**. Papers that apply existing techniques and frameworks more rigorously than previous work and/or apply it to new areas, and in ways that provide **practical** insights for GP (global priorities) and interventions should be highly valued. More weight should be placed on contribution to GP than academic field.
-* Do the insights generated inform our (‘posterior’) beliefs about important parameters and about the effectiveness of interventions?&#x20;
-  * We do not require a substantial _shift_ in our expectations. For research that is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field.
-* Does the project leverage and incorporate recent relevant and credible work in useful ways?
+### **What we are asking you to rate (explanations)**
+
+#### 1.  Advancing our knowledge and practice (5/5 importance)
+
+Does the project make a contribution to the field or to practice, particularly in ways that will be relevant to our other criteria?
+
+<details>
+
+<summary>Less weight to ‘originality and cleverness’...</summary>
+
+‘Originality and cleverness’ should be weighted less than the typical journal because The Unjournal focuses on **impact**. Papers that apply existing techniques and frameworks more rigorously than previous work and/or apply it to new areas, and in ways that provide **practical** insights for GP (global priorities) and interventions should be highly valued. More weight should be placed oncontribution to GP than to the academic field.
+
+</details>
+
+Do the insights generated inform our (‘posterior’) beliefs about important parameters and about the effectiveness of interventions?&#x20;
+
+<details>
+
+<summary>Note that we do not require a substantial <em>shift</em> in our expectations. </summary>
+
+We do not require a substantial _shift_ in our expectations. For research that is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field.
+
+</details>
+
+Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
 > Rating (0-100)\
 > See [#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention")
@@ -112,11 +155,11 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 >
 > &#x20;(A-E) or give 90% CI; see [#the-confidence-rating-explained](guideline-for-evaluators.md#the-confidence-rating-explained "mention")&#x20;
 
-### Methods: Justification, reasonableness, validity, robustness (5/5 importance)
+#### 2. Methods: Justification, reasonableness, validity, robustness (5/5 importance)
 
-_<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
+Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the methods discussion?&#x20;
 
-* Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the methods discussion?&#x20;
+*
   * We use the term “methods” here broadly; this may include choice/collection of data, experiment or survey design, statistical analysis, and simulation, among others.
 * Are the results/methods likely to be robust to reasonable changes in the underlying assumptions? Does the author demonstrate this (e.g., at least with a reasonable range of robustness checks, at best ‘mapping the space’ of possible reasonable specifications)?
 * &#x20;Avoiding bias and questionable research practices:
@@ -126,11 +169,10 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 >
 > Confidence in rating
 
-### 3. Logic and communication: Coherent and clear argument, communication, reasoning transparency (4/5 importance)
+#### 3. Logic and communication: Coherent and clear argument, communication, reasoning transparency (4/5 importance)
 
-_<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
+Is the reasoning ‘transparent’ (on reasoning transparency, see, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/))?
 
-* Is the reasoning ‘transparent’ (on reasoning transparency, see, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/))?
 * Are the goals/questions of the paper clearly expressed? Are concepts clearly defined/referenced?
 * Are all of the assumptions and logical steps made clear? Does the logic of the arguments make sense?
 * Is the argument written well enough to make it easy to follow?
@@ -142,9 +184,7 @@ _<mark style="color:green;">**What we are asking you to rate**</mark>_<mark styl
 >
 > Confidence in rating
 
-### 4. Open, collaborative, replicable science and methods (3/5 importance)
-
-_<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
+#### 4. Open, collaborative, replicable science and methods (3/5 importance)
 
 Replicability, reproducibility, data integrity:
 
@@ -173,11 +213,10 @@ _Note_: errors and issues such as these will ideally be reported immediately to 
 >
 > Confidence in rating
 
-### 5. Engaging with real-world, impact quantification; practice, realism and relevance (2/5 importance)
+#### 5. Engaging with real-world, impact quantification; practice, realism and relevance (2/5 importance)
 
-_<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
+Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?
 
-* Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?
 * Is the setup particularly well-informed by real-world norms and practices?
 * “Is this realistic, does it make sense in the real world?”
 * \*Do the authors communicate their work in ways policy makers and decision makers are likely to understand (perhaps in a supplemental ‘non-technical abstract’), without being misleading and oversimplifying?&#x20;
@@ -192,13 +231,11 @@ Note: this should be seen as optional; the authors might be invited to additiona
 >
 > Confidence in rating
 
-### 6. Relevance to global priorities\*(0/5: not part of overall evaluation)
+#### 6. Relevance to global priorities\*(0/5: not part of overall evaluation)
 
 _The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your opinion._
 
-_<mark style="color:green;">**What we are asking you to rate**</mark>_<mark style="color:green;">**:**</mark>
-
-* Is this topic, approach and discussion _potentially_ useful to global priorities research and interventions? E.g., Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+Is this topic, approach and discussion _potentially_ useful to global priorities research and interventions? E.g., Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
 > Rating \[0-100]
 >
