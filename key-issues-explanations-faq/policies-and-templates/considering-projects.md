@@ -8,7 +8,7 @@ _We will try to communicate this information about each paper/project to reviewe
 
 ### Summary, why is it relevant and worth engaging with?
 
-**Consider**: Global priority importance ([what-is-ea-gp-relevant-research.md](../../the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md "mention")) , field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly. See our [guideline-for-evaluators.md](guideline-for-evaluators.md "mention") for more discussion.
+**Consider**: Global priority importance ([what-is-ea-gp-relevant-research.md](../../the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md "mention")) , field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly. See our [guidelines-for-evaluators.md](guidelines-for-evaluators.md "mention") for more discussion.
 
 
 

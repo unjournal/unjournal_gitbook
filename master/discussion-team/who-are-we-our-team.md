@@ -45,7 +45,7 @@ _18 Jul 2022: Adding more now_
 
 __
 
-Also attending first meeting: [Eva Vivalt](http://evavivalt.com), [Andrew Gelman](http://www.stat.columbia.edu/\~gelman/)
+Also attending first meeting: [Eva Vivalt](http://evavivalt.com)
 
 __
 

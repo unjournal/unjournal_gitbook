@@ -11,7 +11,7 @@
 * [Policies/FAQ/issues](key-issues-explanations-faq/README.md)
   * [Policies and templates](key-issues-explanations-faq/policies-and-templates/README.md)
     * [Considering projects](key-issues-explanations-faq/policies-and-templates/considering-projects.md)
-    * [Guideline for evaluators](key-issues-explanations-faq/policies-and-templates/guideline-for-evaluators.md)
+    * [Guidelines for evaluators](key-issues-explanations-faq/policies-and-templates/guidelines-for-evaluators.md)
   * [Benefits and features](key-issues-explanations-faq/benefits-and-features/README.md)
     * [Dynamic documents vs 'living projects'](key-issues-explanations-faq/benefits-and-features/dynamic-documents-vs-living-projects.md)
       * [FAQ/interaction](key-issues-explanations-faq/faq-interaction/README.md)
