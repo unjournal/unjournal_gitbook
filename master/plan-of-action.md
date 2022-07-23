@@ -33,7 +33,7 @@ See [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/a
 
 [action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention")
 
-**Define the (broad) scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
+**Define the broad scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
 
 Build **"editorial-board-like"** teams with subject/area expertise
 

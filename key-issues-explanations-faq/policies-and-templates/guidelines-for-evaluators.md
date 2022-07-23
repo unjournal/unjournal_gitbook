@@ -1,12 +1,20 @@
-# Guideline for evaluators
+# Guidelines for evaluators
 
 {% hint style="info" %}
 _**Thanks for considering evaluating research for the Unjournal!**_&#x20;
 
-You will be compensated at least $250 for your evaluation work (we aim to increase this), and will be eligible for (financial) 'best review' prizes.
+You will be compensated at least $250 for your evaluation work, and will be eligible for financial 'best review' prizes.
 
-Your evaluation will made be public and DOI'd, but you can (22 Jul 2022: current policy) choose whether to remain anonymous or 'sign your review' and take credit.&#x20;
+Your evaluation will made be public and given a DOI, but you can choose whether to remain anonymous or 'sign your review' and take credit.&#x20;
 {% endhint %}
+
+<details>
+
+<summary>Notes on the above</summary>
+
+We aim to increase these payments going forward and are applying for funds to do this. "Pilot" reviewers will also be given an extra payment for helping us evaluate the system. We are also considering the best 'single blind vs signed reviews' policies going forward. We may also make some exceptions to the public evaluations policy in the future; reviewers will be informed in advance.
+
+</details>
 
 ## Here is what we would like you to do
 
@@ -28,7 +36,7 @@ Anything our managers/editors specifically asked you to focus on. We may ask you
 
 <summary>The Unjournal's criteria</summary>
 
-See [#category-metrics-multiple-dimensions](guideline-for-evaluators.md#category-metrics-multiple-dimensions "mention") for some guidance, e.g., prioritizing impact and robustness over cleverness.&#x20;
+See [#category-metrics-multiple-dimensions](guidelines-for-evaluators.md#category-metrics-multiple-dimensions "mention") for some guidance, e.g., prioritizing impact and robustness over cleverness.&#x20;
 
 </details>
 
@@ -57,27 +65,27 @@ We are considering the best policy towards signed reviews vs. single-blind repor
 </details>
 
 {% hint style="info" %}
-_Suggestion:_ The [#category-metrics](guideline-for-evaluators.md#category-metrics "mention") and [#overall-metrics-holistic-assessment](guideline-for-evaluators.md#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
+_Suggestion to evaluators:_ The [#category-metrics](guidelines-for-evaluators.md#category-metrics "mention") and [#overall-metrics-holistic-assessment](guidelines-for-evaluators.md#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
 {% endhint %}
 
 ## Metrics: Overall assessment, categories
 
 {% hint style="info" %}
-_Below:_ a 'completed example'. We will provide evaluators a concise 'survey form with everything to fill out'.  In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance and instruction in subsections below.&#x20;
+_Below:_ a 'completed example'. We will provide evaluators a concise 'survey form with everything to fill out'. In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance and instruction in the subsections below.&#x20;
 {% endhint %}
 
 
 
-<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong></strong><a href="guideline-for-evaluators.md#overall-assessment-discussion"><strong>Overall assessment</strong> </a>(holistic, most important!)</td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#1.-advancing-our-knowledge-and-practice-5-5-importance">Advancing knowledge and practice</a> (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#2.-methods-justification-reasonableness-validity-robustness-5-5-importance">Methods: Justification, reasonableness, validity, robustness</a> (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#3.-logic-and-communication-coherent-and-clear-argument-communication-reasoning-transparency-4-5-impo">Logic &#x26; communication</a> (4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4><a href="guideline-for-evaluators.md#4.-open-collaborative-replicable-science-and-methods-3-5-importance">Open, collaborative, replicable</a> (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4><strong></strong><a href="guideline-for-evaluators.md#6.-relevance-to-global-priorities-0-5-not-part-of-overall-evaluation"><strong>Relevance to global priorities</strong> </a>(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
+<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong></strong><a href="guidelines-for-evaluators.md#overall-assessment-discussion"><strong>Overall assessment</strong> </a>(holistic, most important!)</td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#1.-advancing-our-knowledge-and-practice-5-5-importance">Advancing knowledge and practice</a> (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#2.-methods-justification-reasonableness-validity-robustness-5-5-importance">Methods: Justification, reasonableness, validity, robustness</a> (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#3.-logic-and-communication-coherent-and-clear-argument-communication-reasoning-transparency-4-5-impo">Logic &#x26; communication</a> (4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#4.-open-collaborative-replicable-science-and-methods-3-5-importance">Open, collaborative, replicable</a> (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4><strong></strong><a href="guidelines-for-evaluators.md#6.-relevance-to-global-priorities-0-5-not-part-of-overall-evaluation"><strong>Relevance to global priorities</strong> </a>(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
 
-_All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](guideline-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
+_All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](guidelines-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
 
 
 
 _**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
-1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Quantify this following the scale in "[#0-100-metric-described](guideline-for-evaluators.md#0-100-metric-described "mention")" but specifically for this _category._
-2. (Optional) ‘Quantify how certain you are’ about this, either giving a 90% confidence interval or using our [scale as described below](guideline-for-evaluators.md#the-confidence-rating-explained).
+1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Try to follow the scale in "[#0-100-metric-described](guidelines-for-evaluators.md#0-100-metric-described "mention")" but specifically for this _category._
+2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% confidence interval or using our [scale as described below](guidelines-for-evaluators.md#the-confidence-rating-explained).
    * _Note: **** Please give a 90% CI or a confidence score, but not both. We do both above only for illustration._
 
 For each category, we give an ‘importance scale’ (0/5 to 5/5) to suggest the importance of your rating for your overall assessment, considering the Unjournal priorities.&#x20;
@@ -88,7 +96,7 @@ We see the 'overall assessment' as the most important measure. Please prioritize
 
 ### Overall assessment __&#x20;
 
-Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice, particularly including the category metrics reported above (if you like, weighted by the importance scores we gave).
+Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice, particularly including the category metrics reported above (if you like, weighted by the importance scores we gave.
 
 ### 0-100 Metric described
 
@@ -96,7 +104,7 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 
 **95-100:** Among the highest quality and most important work you have ever read.
 
-**90-100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grant makers.
+**90-100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grantmakers.
 
 <details>
 
@@ -215,7 +223,7 @@ Are the goals/questions of the paper clearly expressed? Are concepts clearly def
 
 Is the reasoning ‘transparent’ (on reasoning transparency, see, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/))? Are all of the assumptions and logical steps made clear? Does the logic of the arguments make sense? Is the argument written well enough to make it easy to follow?
 
-Is the data and/or analysis presented relevant to the arguments made? Are the stated conclusions/results consistent with the evidence (or theoretical results/proofs) presented? Are the tables/graphs/diagrams easy enough to understand in the context of the narrative? (e.g., no errors in labeling)
+Is the data and/or analysis presented relevant to the arguments made? Are the stated conclusions/results consistent with the evidence (or theoretical results/proofs) presented? Are the tables/graphs/diagrams easy enough to understand in the context of the narrative (e.g., no errors in labeling)?
 
 #### 4. Open, collaborative, replicable science and methods (3/5 importance)
 
@@ -253,7 +261,7 @@ Does the paper consider the real-world relevance of the arguments and results pr
 
 Is the setup particularly well-informed by real-world norms and practices? **** “Is this realistic, does it make sense in the real world?”&#x20;
 
-(\*) Do the authors communicate their work in ways policymakers and decision-makers are likely to understand (perhaps in a supplemental ‘non-technical abstract’), without being misleading and oversimplifying?&#x20;
+(\*)Do the authors communicate their work in ways policymakers and decision-makers are likely to understand (perhaps in a supplemental ‘non-technical abstract’), without being misleading and oversimplifying?&#x20;
 
 (\*) Do the authors present practical ‘impact quantifications’ such as cost-effectiveness analyses, or provide results enabling these?
 
@@ -265,7 +273,7 @@ Is the setup particularly well-informed by real-world norms and practices? **** 
 
 _**Note:** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your opinion._
 
-Is this topic, approach and discussion _potentially_ useful to global priorities research and interventions? Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+Is this topic, approach, and discussion _potentially_ useful to global priorities research and interventions? Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
 ## Journal/Prediction metrics
 
@@ -312,9 +320,11 @@ The question above presumes that this work has not already been published in a p
 
 In presenting your prediction and confidence interval for this, you might want to consider if you were offering advice to an author:
 
-* “What journal would be likely to publish this work?”
-* “What is the most prestigious journal that would consider publishing this?”
-* “What is the least prestigious journal that the authors should consider submitting this to? (I.e., I wouldn't go lower, even if I were risk-averse)”
+“What journal would be likely to publish this work?”
+
+“What is the most prestigious journal that would consider publishing this?”
+
+“What is the least prestigious journal that the authors should consider submitting this to?" I.e., "I wouldn't go lower, even if I were risk-averse”
 
 <details>
 
