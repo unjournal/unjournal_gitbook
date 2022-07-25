@@ -25,9 +25,9 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 **Senior**
 
-[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University
-
 [Jonathan Berman](https://www.london.edu/faculty-and-research/faculty-profiles/b/berman-j-z-1), Associate Professor of Marketing at the London Business School
+
+\*(Gelman)
 
 __\
 __**Early/mid-career**
@@ -45,7 +45,13 @@ _18 Jul 2022: Adding more now_
 
 __
 
-Also attending first meeting: [Eva Vivalt](http://evavivalt.com)
+Attended first meeting:&#x20;
+
+[Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto.
+
+\*[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
+
+
 
 __
 
