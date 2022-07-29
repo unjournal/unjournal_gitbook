@@ -51,12 +51,6 @@ Attended first meeting:&#x20;
 
 \*[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
 
-
-
-__
-
-
-
 ## Also consulted with:
 
 * [David Roodman](https://davidroodman.com/about/)
