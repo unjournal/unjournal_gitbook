@@ -138,55 +138,36 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 
 **20-40:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
 
-**5-20:** Among the lowest quality papers.&#x20;
-
-<details>
-
-<summary>"Lowest quality"...</summary>
-
-Not making any substantial contribution and containing fatal flaws. The paper may be fundamentally addressing an issue that is not defined or obviously not relevant, or the content may be substantially outside of the authors’ field of expertise.
-
-</details>
+**5-20:** Among the lowest quality papers; not making any substantial contribution and containing fatal flaws. The paper may be fundamentally addressing an issue that is not defined or obviously not relevant, or the content may be substantially outside of the authors’ field of expertise.
 
 **0-5:** Illegible, fraudulent, or plagiarized. _Please flag fraud, and notify us and the relevant authorities._
 
 ### The confidence rating
 
-<details>
+#### **What are we looking for and why?**
 
-<summary>Why/what are we looking for?</summary>
+&#x20;In considering how to weigh any measure or evaluation, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this. You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'extremely confident' to 'not confident').  Below, we give a suggested correspondence between these two measures.
 
-In considering how to weigh any measure or evaluation, it is important to 'quantify the uncertainty'. That's why we ask you to provide a measure of this. You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'extremely confident' to 'not confident').  In the box below, we provide a suggested correspondence between these two measures.
+#### **From 'five dots' to 'one dot'; a proposed scale**
 
-</details>
+5 = Extremely confident, i.e., 90% confidence interval spans +/- 4 points or less
 
-<details>
+4 = Very confident: 90% confidence interval +/- 8 points or less
 
-<summary><em><strong>Confidence ratings vs. confidence intervals... a proposed scale</strong></em></summary>
+3 = Somewhat confident: 90% confidence interval +/- 15 points or less&#x20;
 
-**From 'five dots' to 'one dot':**
+2 = Not very confident: 90% confidence interval, +/- 25 points or less
 
-**5 = Extremely** confident, i.e., 90% confidence interval spans +/- 4 points or less)\*
+1 = Not confident: (90% confidence interval +/- 25 points)\
 
-**4 = Very** confident: 90% confidence interval +/- 8 points or less
 
-**3 = Somewhat** confident: 90% confidence interval +/- 15 points or less&#x20;
-
-**2 = Not very** confident: 90% confidence interval, +/- 25 points or less
-
-**1 = Not** confident: (90% confidence interval +/- 25 points)
-
-_If you prefer, you can simply give your 90% confidence/credible interval._
-
-\*In at least one direction. Obviously if you rated it a 98 you cannot be under_-_estimating by more than 2 points, etc.
-
-_See the diagram below_&#x20;
-
-</details>
-
-The diagram below gives an example (click to zoom). Note: we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example illustrates the proposed correspondence.
+Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example in the diagram below (click to zoom**)** illustrates the proposed correspondence.
 
 __![](<../../.gitbook/assets/image (3).png>)****
+
+****
+
+****
 
 ### **Category explanations: what you are rating**
 
