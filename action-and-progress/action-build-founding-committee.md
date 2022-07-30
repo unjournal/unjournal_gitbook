@@ -4,6 +4,10 @@
 _25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [call-for-participants-research.md](../master/call-for-participants-research.md "mention"). We are in the process of inviting people now.
 {% endhint %}
 
+## Progress: the team (continual update)
+
+[who-are-we-our-team.md](../master/discussion-team/who-are-we-our-team.md "mention")
+
 ## Key elements of plan
 
 1. **Build a ‘founding committee’ of 5-8 experienced and enthusiastic EA-aligned/adjacent researchers at EA orgs, research academics, and practitioners** (e.g., draw from speakers at recent EA Global meetings).
