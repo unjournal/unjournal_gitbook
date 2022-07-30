@@ -4,8 +4,6 @@
 We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
 {% endhint %}
 
-
-
 ## Choosing, working with evaluators (referees)
 
 ### How do we choose 'referees'?
@@ -16,9 +14,9 @@ We refer to 'evaluation' because the Unjournal does not _publish_ work; it only 
 ### Why pay referees?
 
 * It is equitable, especially for those not getting 'service credit'
-* We need incentives as we are not 'established'?
-* Incentives to do a good job (especially if and when we increase the rate)
-* Can get a wider range of expertise, including people not interested in 'submitting to unjournal'
+* While researchers currently write reports for prominent traditional journals for free (perhaps in exchange for goodwill when they submit their own work) we need to use explicit incentives as the Unjournal grows&#x20;
+* We can use these as incentives for high quality work, especially if and when we increase the rate
+* We can use patments to access wider range of expertise, including people not interested in submitting their own work to the Unjournal
 
 ## Public evaluations
 
