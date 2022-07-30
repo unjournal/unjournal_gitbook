@@ -1,6 +1,6 @@
 # Considering projects
 
-## **The ‘Editors’ process**
+## Considering/communicating: **‘Editors’ process**&#x20;
 
 _In deciding which papers/projects to send out to paid reviewers/evaluators, we have considered the following issues._&#x20;
 
