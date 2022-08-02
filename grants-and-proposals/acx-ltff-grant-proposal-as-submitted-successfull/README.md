@@ -80,6 +80,8 @@ Researchers are encouraged to write and present work in 'reasoning transparent' 
 Reviews will, by default, be made public and connected with the paper. However, our committee will discuss I. whether/when authors are allowed to withdraw/hide their work, and II. when reviews will be ‘signed’ vs anonymous. In my conversations with researchers, some have been reluctant to ‘put themselves out there for public criticism’, while others seem more OK with this.\
 We aim to have roughly 25 research papers/projects reviewed/evaluated and 'communicated' (to EA audiences) in the first year.
 
+> *Update July 2022: scaled back to 15 papers*
+
 ### Suggested policies (DR)
 
 \
