@@ -2,7 +2,9 @@
 
 See also [plan-of-action.md](../master/plan-of-action.md "mention")
 
+### Gantt Chart of Next Steps
 
+{% embed url="https://airtable.com/shrGbB6b45GcdL0YJ/tblDnwRNHnruI9Kqw" %}
 
 * [action-build-founding-committee.md](action-build-founding-committee.md "mention")
 * [action-identify-pilot-key-projects-papers](action-identify-pilot-key-projects-papers/ "mention")
