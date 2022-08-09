@@ -34,6 +34,7 @@
   * [ACX/LTFF grant proposal (as submitted, successfull)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/README.md)
     * [Notes: post-grant plan and revisions](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/notes-post-grant-plan-and-revisions.md)
     * [(Linked proposals and comments - moved for now)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/linked-proposals-and-comments-moved-for-now.md)
+  * [Clearer thinking FTX regranting (pending)](grants-and-proposals/clearer-thinking-ftx-regranting-pending.md)
   * [FTX Future Fund (for further funding; unsuccessful)](grants-and-proposals/ftx-future-fund-for-further-funding-unsuccessful.md)
 * [Parallel/partner initiatives and resources](parallel-partner-initiatives-and-resources/README.md)
   * [Sciety](parallel-partner-initiatives-and-resources/sciety.md)
