@@ -163,7 +163,7 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 
 Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example in the diagram below (click to zoom**)** illustrates the proposed correspondence.
 
-__![](<../../.gitbook/assets/image (3).png>)****
+__![](<../../.gitbook/assets/image (4).png>)****
 
 ****
 
@@ -282,7 +282,9 @@ Is this topic, approach, and discussion _potentially_ useful to global prioritie
 We would like to benchmark our evaluations against 'how research is currently judged.' We want to provide a bridge between the current 'accept or reject' system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus we are asking you for two predictions in the table below. \
 &#x20;
 
-<table><thead><tr><th>Prediction metric</th><th data-type="number">Prediction 'journal tier' 0.0-5.0</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-type="select"></th></tr></thead><tbody><tr><td><strong>What ‘quality journal’ </strong><em><strong>will</strong></em><strong> this be published in?</strong></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td></tr><tr><td><strong>Overall assessment on ‘scale of journals'</strong> (tier it <em>should be published in; see below)</em></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Prediction metric</th><th data-type="number">Prediction 'journal tier' 0.0-5.0</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-type="select"></th></tr></thead><tbody><tr><td><strong>What ‘quality journal’ do you expect this work </strong><em><strong>will</strong></em><strong> this be published in?</strong></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td></tr><tr><td><strong>Overall assessment on ‘scale of journals'</strong> (tier it <em>should be published in; see below)</em></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td></tr></tbody></table>
+
+
 
 {% hint style="info" %}
 To better understand what we are asking here, please consult the subsections below:\
