@@ -7,7 +7,13 @@ description: >-
 
 # "Unjournal": Action plan, writing, resources
 
-_**Link to here:**_ [_**bit.ly/eaunjournal**_](https://bit.ly/eaunjournal)_**, widely shared**_
+_**Link to here:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)_, widely shared_
+
+_**Other key internal links:**_** **&#x20;
+
+* ****[Guidelines for Evaluators](key-issues-explanations-faq/policies-and-templates/guidelines-for-evaluators.md)
+* [FAQ for researchers/authors](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md)
+* [Key writings (outlining/presenting the proposal)](master/writings/)
 
 ## In a nutshell&#x20;
 
