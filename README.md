@@ -7,7 +7,9 @@ description: >-
 
 # "Unjournal": Action plan, writing, resources
 
-## In a nutshell
+_**Link to here:**_ [_**bit.ly/eaunjournal**_](https://bit.ly/eaunjournal)_**, widely shared**_
+
+## In a nutshell&#x20;
 
 The "Unjournal" (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
