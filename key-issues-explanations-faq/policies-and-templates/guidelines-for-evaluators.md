@@ -3,9 +3,11 @@
 {% hint style="info" %}
 _**Thanks for your interest in evaluating research for the Unjournal!**_&#x20;
 
-You will be compensated a minimum of $250 for your evaluation work, and will be eligible for financial 'best review' prizes.
+You will be compensated a minimum of $250 for your evaluation work, and will be eligible for financial 'best review' prizes. Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit.
 
-Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit.&#x20;
+
+
+See the guidelines below. You can submit your response **in** [**this form**](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit)**.** (We are using a Google Doc for now, we will moving to [Kotahi](https://kotahi.community/) soon)&#x20;
 {% endhint %}
 
 <details>
@@ -429,3 +431,10 @@ _Optional_
 
 </details>
 
+
+
+
+
+### Form (as embedded Gdoc)
+
+{% embed url="https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit" %}
