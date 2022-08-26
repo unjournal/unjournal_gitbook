@@ -34,16 +34,13 @@ We refer to 'evaluation' because the Unjournal does not _publish_ work; it only 
 
 ### General criteria/guidelines
 
-{% embed url="https://docs.google.com/document/d/1UykV8kRDfWMEvRmLA0sBz5m0-FUTAJZruEi9x6SnF7g/edit#heading=h.kqwfyeovkze0" %}
+See [guidelines-for-evaluators.md](../policies-and-templates/guidelines-for-evaluators.md "mention") for our proposed approach and template for referees.&#x20;
 
-### Global priorities emphasis/discussion
+_30 Jul 2022: This is a first-draft approach; many issues are still under discussion._
 
-### Open science criteria/emphasis
 
-### Quantitative ratings/metrics
 
-* Single and multiple dimension
-* Predict or evaluate 'traditional publication outcome' as a benchmark&#x20;
+(See also: [#considering-communicating-editors-process](../policies-and-templates/considering-projects.md#considering-communicating-editors-process "mention"))
 
 ## Anonymity/blinding vs. signed reports
 

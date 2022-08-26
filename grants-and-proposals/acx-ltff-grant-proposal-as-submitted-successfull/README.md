@@ -6,7 +6,7 @@ description: Passed on to LTFF and funding was awarded
 
 ## acx unjournal app
 
-__[_frozen version as Dropbox paper here_](https://paper.dropbox.com/doc/acx-unjournal-app--BW2Zmh7UOvCczJ5aiY8Pa\~ZGAQ-ERcmZnIhOVFwUWKLVYDSE)__
+[_**frozen version as Dropbox paper here**_](https://paper.dropbox.com/doc/acx-unjournal-app--BW2Zmh7UOvCczJ5aiY8Pa\~ZGAQ-ERcmZnIhOVFwUWKLVYDSE)
 
 * Passed on to LTFF and funding was awarded
 * Start date = \~21 February 2022
@@ -36,7 +36,7 @@ _I propose the following 12-month Proof of Concept: Proposal for EA-aligned rese
 
 1. Build a ‘founding committee’ of 5-8 experienced and enthusiastic EA-aligned/adjacent researchers at EA orgs, research academics, and practitioners (e.g., draw from speakers at recent EA Global meetings).
 
-> _Update 1 Aug 2022, mainly DONE, todo:  consult EAG speakers_ &#x20;
+> _Update 1 Aug 2022, mainly DONE, todo: consult EAG speakers_
 
 I will publicly share my procedure for choosing this group (in the long run we will aim at transparent and impartial process for choosing ‘editors and managers’, as well as aiming at decentralized forms of evaluation and filtering.)
 
@@ -50,21 +50,17 @@ I will publicly share my procedure for choosing this group (in the long run we w
 * The platforms we will work with
 * How to promote and communicate the research work (to academics, policymakers, and the EA community)
 
-> _Update 1 Aug 2022: 2 meetings so far, agreed on on going-forward policies for most of the above_&#x20;
+> _Update 1 Aug 2022: 2 meetings so far, agreed on on going-forward policies for most of the above_
 
 3\. Post and present our consensus (on various fora especially in the EA, Open Science, and relevant academic communities, as well as pro-active interviews with key players). Solicit feedback. Have a brief ‘followup period’ (1 week) to consider adjusting the above consensus plan in light of the feedback.
 
 > _Update 1 Aug 2022: Done somewhat; waiting to have 2+ papers assessed before we engage more_
-
-
 
 4\. Set up the basic platforms, links
 
 * Note: I am strongly leaning towards [https://prereview.org/](https://prereview.org/) as the main platform, which has indicated willingness to give us a flexible ‘experimental spac\\
 
 > _Update 1 Aug 2022: Going with Kotahi and Sciety as a start; partially setup_
-
-
 
 5\. Reach out to researchers in relevant areas and organizations and ask them to 'submit' their work for 'feedback and potential positive evaluations and recognition', and for a chance at a prize.
 
@@ -80,7 +76,7 @@ Researchers are encouraged to write and present work in 'reasoning transparent' 
 Reviews will, by default, be made public and connected with the paper. However, our committee will discuss I. whether/when authors are allowed to withdraw/hide their work, and II. when reviews will be ‘signed’ vs anonymous. In my conversations with researchers, some have been reluctant to ‘put themselves out there for public criticism’, while others seem more OK with this.\
 We aim to have roughly 25 research papers/projects reviewed/evaluated and 'communicated' (to EA audiences) in the first year.
 
-> *Update July 2022: scaled back to 15 papers*
+> _Update July 2022: scaled back to 15 papers_
 
 ### Suggested policies (DR)
 
@@ -300,4 +296,3 @@ My own forecast (I’ve done some calibration training, but these are somewhat o
 
 \
 \
-\\
