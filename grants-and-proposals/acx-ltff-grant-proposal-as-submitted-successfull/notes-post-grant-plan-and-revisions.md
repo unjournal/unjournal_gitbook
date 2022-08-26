@@ -2,6 +2,10 @@
 
 ### See "Reinstein key concerns" in discussion doc [HERE](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 
+{% hint style="info" %}
+[Budget sheet HERE (private access only)](https://docs.google.com/spreadsheets/d/1tQ8G0TFKjBbygtHa2uQkiyKlr6f-SRoOFVz9ec20KFY/edit#gid=0)
+{% endhint %}
+
 ### Administrative concerns (and possible amendments)
 
 Rethink Priorities will act as Fiscal Sponsor for this, to help administer payments. They will also receive $5000 to cover roughly 2 hours/week of [david reinstein](https://app.gitbook.com/u/WrM9GjKWCyRyoIjCKt7f0ddJwCr1 "mention")'s time on this project.
