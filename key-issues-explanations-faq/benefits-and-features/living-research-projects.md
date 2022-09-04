@@ -1,23 +1,32 @@
 # 'Living research projects'
 
-## Living, "Kaizen'd" research projects
+## Living, "Kaizen'd", "permanent Beta" projects
 
+**Should research projects be improved and updated 'in the same place', rather than with 'extension papers'?**   &#x20;
 
+### **Advantages of 'permanent Beta' projects**
 
-> **SK:  why \[do] you think it's significantly better than the current replication+extension approach?**\
-> ****
+1. _Small changes and fixes:_  The current system makes it difficult to make minor updates – even obvious corrections – to published papers.  This makes these papers less useful and less readable. If you find an error in your own published work, there is also little incentive to note it and ask for a correction, even if this were possible.&#x20;
+   * &#x20;_In contrast, a 'living project' could be corrected and updated in situ. If future and continued evaluations matter, they will have an incentive to do so._
+2. _Lack of incentives for updates and extensions:_ If academic researchers see major ways to improve and build on their past work, these can be hard to get publish and get credit for. The academic system rewards novelty and innovation, and top journals are reluctant to publish 'the second paper' on a topic. As this would count as 'a second publication' (for tenure etc.), authors may be accused of double-dipping, and journals and editors may punish them for this.&#x20;
+   * &#x20;_In contrast, a 'living project' can be improved and extended in situ. The author can submit this 'improved project' to the Unjournal for an updated evaluation._
+3. _Clutter and confusion in the literature_: Because of the above, researchers often try to spin an improvement to a previous paper as very new and different. They do sometimes publish a range of papers getting at similar things, and using simila methods, in different papers/journals. This makes it hard for other researchers and readers to understand which paper they should read. Having these in&#x20;
+
+****
+
+### Discussion
+
+> **SK: why \[do] you think it's significantly better than the current replication+extension approach?**
 >
-> ****
+>
 >
 > DR: I can see the arguments on both sides here. I definitely support replications and sometimes it may make sense for the author to “start a new paper” rather than make this an improvement if the old one. I also think that the project should be time stamped, evaluated and archived at particular stages of its development.
 >
-> &#x20;But I lean to thinking that in many to most cases a single project with multiple updates will make the literature clearer and easier to navigate than the current proliferation of “multiple very similar papers by the same author in different journals”. It also seems a better use of researcher time, rather than having to constantly restate and repackage the same things
 >
 >
+> But I lean to thinking that in many to most cases a single project with multiple updates will make the literature clearer and easier to navigate than the current proliferation of “multiple very similar papers by the same author in different journals”. It also seems a better use of researcher time, rather than having to constantly restate and repackage the same things
 
-> **PS (?):** Are these are things like 'living' google docs that keep getting updated? If so I'd consider using workarounds to replicate their benefits on the forum for a test run (e.g., people add a version to paper title or content or post a new version for each major revision). More generally, I'd prefer the next publication norm for papers to be about making new 'versions' of prior publications (e.g, a 'living review' paper on x is published and reviewed each year) than creating live documents (e.g., a dynamic review on x is published on a website and repeatedly reviewed at frequent and uncertain intervals when the authors add to it). I see huge value in living documents. However, I feel that they wouldn't be as efficient/easy to supervise/review as 'paper versions'.&#x20;
->
->
+> **PS (?):** Are these are things like 'living' google docs that keep getting updated? If so I'd consider using workarounds to replicate their benefits on the forum for a test run (e.g., people add a version to paper title or content or post a new version for each major revision). More generally, I'd prefer the next publication norm for papers to be about making new 'versions' of prior publications (e.g, a 'living review' paper on x is published and reviewed each year) than creating live documents (e.g., a dynamic review on x is published on a website and repeatedly reviewed at frequent and uncertain intervals when the authors add to it). I see huge value in living documents. However, I feel that they wouldn't be as efficient/easy to supervise/review as 'paper versions'.
 >
 > They might also not be ideal for citing as they would be an ever changing resource. I can imagine the whole academic system struggling to understand and adapt to such a radical innovation given how focused it is on static documents. With all of this considered, I'd like 'dynamic/living work' to be incentivised with funding and managed with informal feedback and comments rather than being formally reviewed (at least for now). I'd see living review work as sitting alongside and informing 'reviewed' papers rather than supplanting them. As an example, you might have a website that provides a 'living document' for lay people about how to promote charity effectively and then publish annual papers to summarise the state of the art for an academic/sophisticated audience.
 
@@ -27,9 +36,9 @@
 >
 > _I think the issue with the current citing practice for live documents like webpages is that even if a ‘version’ is indicated (e.g. access date) past versions aren’t often very accessible._
 
-[david reinstein](https://app.gitbook.com/u/WrM9GjKWCyRyoIjCKt7f0ddJwCr1 "mention") &#x20;
+[david reinstein](https://app.gitbook.com/u/WrM9GjKWCyRyoIjCKt7f0ddJwCr1 "mention")
 
-> I mainly agree with @gavintaylor, but I appreciate that 'changing everything at the same time' is not always the best strategy.&#x20;
+> I mainly agree with @gavintaylor, but I appreciate that 'changing everything at the same time' is not always the best strategy.
 >
 > The main idea is that each version is given a specific time stamp, and that is the object that is reviewed and cited. This is more or less already the case when we cite working papers/drafts/mimeos/preprints.
 >
