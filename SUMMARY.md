@@ -8,7 +8,7 @@
   * [Call for participants, research](master/call-for-participants-research.md)
   * [Discussion, team](master/discussion-team/README.md)
     * ["Who are we/our team"](master/discussion-team/who-are-we-our-team.md)
-* [Policies/FAQ/issues](key-issues-explanations-faq/README.md)
+* [Policies/FAQ/issues/benefits](key-issues-explanations-faq/README.md)
   * [FAQ/interaction](key-issues-explanations-faq/faq-interaction/README.md)
     * [For Researchers/Authors](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md)
     * [Evaluation (refereeing)](key-issues-explanations-faq/faq-interaction/referees-evaluators.md)
