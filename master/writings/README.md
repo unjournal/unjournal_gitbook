@@ -17,7 +17,7 @@ Permalink at [bit.ly/unjournalpresent](http://bit.ly/unjournalpresent)
 
 ## "Slaying the journals": Google doc
 
-_aimed at EA/gp, Academic, and Open-science audiences_ [_\[link\]_](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr\_zTmaVpTfBg4A/edit)
+_aimed at EA/gp, Academic, and Open-science audiences_ [_\[link\]_](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr\_zTmaVpTfBg4A/edit)\_\_
 
 {% embed url="https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr_zTmaVpTfBg4A/edit#heading=h.w2rv93hp5noh" %}
 
