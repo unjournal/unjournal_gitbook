@@ -81,6 +81,6 @@ _Unsuccessful followup_ [_FTX application HERE_](grants-and-proposals/ftx-future
 
 ***
 
-\*\*\*\*\\
+
 
 ***

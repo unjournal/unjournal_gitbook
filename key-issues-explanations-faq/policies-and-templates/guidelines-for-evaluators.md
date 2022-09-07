@@ -26,6 +26,10 @@ We aim to increase these payments going forward and are applying for funds to do
 
 **In writing your review, please consider the following:**
 
+****
+
+**DON't READ THIS**
+
 <details>
 
 <summary>Specific requests for focus/feedback</summary>
@@ -67,7 +71,7 @@ We are considering the best policy towards signed reviews vs. single-blind repor
 </details>
 
 {% hint style="info" %}
-_Suggestion to evaluators:_ The [#category-metrics](guidelines-for-evaluators.md#category-metrics "mention") and [#overall-metrics-holistic-assessment](guidelines-for-evaluators.md#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. We advise that you look at these metrics before writing your review, and then return to them after.
+_Suggestion to evaluators:_ The [#category-metrics](guidelines-for-evaluators.md#category-metrics "mention") and[#overall-metrics-holistic-assessment](guidelines-for-evaluators.md#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
 {% endhint %}
 
 ## Metrics: overall assessment, categories
@@ -165,7 +169,7 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 
 Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example in the diagram below (click to zoom**)** illustrates the proposed correspondence.
 
-__![](<../../.gitbook/assets/image (4).png>)****
+__![](<../../.gitbook/assets/image (3).png>)****
 
 ****
 
@@ -199,7 +203,7 @@ Does the project leverage and incorporate recent relevant and credible work in u
 
 #### 2. Methods: Justification, reasonableness, validity, robustness (5/5 importance)
 
-Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the 'methods discussion'?&#x20;
+Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the 'methods discussion'?
 
 Are the results/methods likely to be robust to reasonable changes in the underlying assumptions? Does the author demonstrate this (e.g., with at least a reasonable range of robustness checks, and at best ‘map the space’ of possible reasonable specifications)?
 
@@ -278,6 +282,22 @@ In future we may be able to pay them to do the above, if grant funding permits..
 _**Note:** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your opinion._
 
 Is this topic, approach, and discussion _potentially_ useful to global priorities research and interventions? Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+
+
+
+{% hint style="danger" %}
+ANNOYING hint
+{% endhint %}
+
+<details>
+
+<summary>don't read this</summary>
+
+igonre
+
+</details>
+
+## [#overall-assessment](guidelines-for-evaluators.md#overall-assessment "mention")@
 
 ## Journal/Prediction metrics
 
