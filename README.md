@@ -11,7 +11,7 @@ _**Link to here:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)_, widely 
 
 _**Other key internal links:**_** **&#x20;
 
-* ****[Guidelines for Evaluators](key-issues-explanations-faq/policies-evaluation/guidelines-for-evaluators.md)
+* ****[Guidelines for Evaluators](key-issues-explanations-faq/policies-and-templates/guidelines-for-evaluators.md)
 * [FAQ for researchers/authors](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md)
 * [Key writings (outlining/presenting the proposal)](master/writings/)
 

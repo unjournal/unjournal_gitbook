@@ -2,7 +2,13 @@
 
 > Set up the basic platforms for posting and administering reviews and evaluations and offering curated links and categorizations of papers and projects.
 
-Update 27 Jun 2022: We are leaning towards [Kotahi](https://kotahi.community/).
+**Update 7 Sep 2022**: We are setting up processes and forms in [Kotahi](https://kotahi.community/)
+
+* We have an instance
+* [Submissions form  ](https://unjournaldev.cloud68.co/kotahi/newSubmission)is pretty close to useable (but imperfect, e.g., we need to ask people to (click 'submit a URL instead' on page one)
+* Evaluations form is OK, with some workarounds (we ask for a link out to a Google Doc they must duplicate) ... we will probably replace this with an Airtable or Google survey 'submission form' soon
+* We are [mapping-workflow-process.md](mapping-workflow-process.md "mention") for how projects will enter, be evaluated, and 'output'
+* We will outline specific requests for developers
 
 #### Kotahi and Sciety for Unjournal
 
