@@ -29,7 +29,7 @@
   * [Build founding committee](action-and-progress/action-build-founding-committee.md)
   * [Identify pilot/key projects/papers, contact authors](action-and-progress/action-identify-pilot-key-projects-papers/README.md)
     * [What research to target?](action-and-progress/action-identify-pilot-key-projects-papers/what-research-to-target.md)
-  * [Set up platforms](action-and-progress/action-set-up-platforms/README.md)
+  * [Set up platforms](action-and-progress/action-set-up-platforms.md)
     * [Mapping workflow/process](action-and-progress/action-set-up-platforms/mapping-workflow-process.md)
   * [Set up evaluation/referee guidelines for pilot papers](action-and-progress/evaluation-referee-guidelines-for-pilot-papers.md)
   * ['Reviewers': Identify, engage](action-and-progress/evaluators-reviewers-identify-contact-engage.md)
