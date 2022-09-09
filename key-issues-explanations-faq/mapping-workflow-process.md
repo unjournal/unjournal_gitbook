@@ -22,8 +22,8 @@
 12. _If no revisions are requested:_ Author reads reviews,  given two weeks to submit response through the "threaded\_discussion"&#x20;
     * _If there is an embargo, there is more time to do this, of course_
 13. _If 'minor revisions' are requested_:&#x20;
-    * If minor revisions are requested, the author has four weeks (strict deadline)  make these if they like,  submits a new linked manuscript version, and also submit their response to the evaluation
-    * _Optional_: Reviewers can comment on these minor revisions _and adjust their rating if desired_
+    * ...  the author has 4 weeks (strict) to make these if they want to, submit a new linked manuscript, and also submit their response to the evaluation.
+    * _Optional_: Reviewers can comment on any minor revisions _and adjust their rating_
 14. &#x20;HE publishes peer review (with all of the above content) to Hypothes.is&#x20;
     * ... If no embargo, otherwise wait until after embargo ends/authors release it
 15. This feeds into our (to be set up) space on [https://sciety.org/](https://sciety.org/)
