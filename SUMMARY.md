@@ -2,7 +2,7 @@
 
 * ["Unjournal": Action plan, writing, resources](README.md)
   * [Plan of action: 'unjournal'](master/plan-of-action.md)
-  * [Key Writings](master/writings/README.md)
+  * [Explain/discuss/outreach](master/writings/README.md)
     * [Related articles and work](master/writings/related-articles-and-work.md)
     * ["Marketing" and outreach texts](master/writings/marketing-and-outreach.md)
   * [Call for participants, research](master/call-for-participants-research.md)
