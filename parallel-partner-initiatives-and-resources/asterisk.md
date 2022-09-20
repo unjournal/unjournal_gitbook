@@ -1,10 +1,14 @@
 # Asterisk
 
-> _Asterisk_ is a new quarterly journal of ideas from in and around Effective Altruism. Our goal is to provide clear, engaging, and deeply researched writing about complicated questions. This might look like a superforecaster giving a detailed explanation of the reasoning they use to make a prediction, a researcher discussing a problem in their work, or deep-dive into something the author noticed didn’t quite make sense.  While everything we publish should be useful (or at least interesting) to committed EAs, our audience is the wider penumbra of people who care about improving the world but aren't necessarily routine readers of, say, the EA forum. &#x20;
+Link: "[_Asterisk_ is a quarterly magazine of clear writing and clear thinking about things that matter](https://asteriskmag.com/)"
+
+__
+
+> _Asterisk_ is a new quarterly journal of ideas from in and around Effective Altruism. Our goal is to provide clear, engaging, and deeply researched writing about complicated questions. This might look like a superforecaster giving a detailed explanation of the reasoning they use to make a prediction, a researcher discussing a problem in their work, or deep-dive into something the author noticed didn’t quite make sense. While everything we publish should be useful (or at least interesting) to committed EAs, our audience is the wider penumbra of people who care about improving the world but aren't necessarily routine readers of, say, the EA forum.
+>
+>
 
 Includes "Speculative pieces with 'epistemic signposts'"
-
-
 
 {% embed url="https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk" %}
 
@@ -14,12 +18,10 @@ Includes "Speculative pieces with 'epistemic signposts'"
 * Sharing a database/CRM of
   * Experts to vouch
   * Interested academics and good writers
-* Shared thinking on 'what is relevant', 'how to classify things',&#x20;
-* Unjournal could 'feed in' to Asterisl: Academic article,  then you do a writeup; they have funding, can pay authors \~$4000 for 4000 words; Can't guarantee that academic work will feed into Asterisk
+* Shared thinking on 'what is relevant', 'how to classify things',
+* Unjournal could 'feed in' to Asterisl: Academic article, then you do a writeup; they have funding, can pay authors \~$4000 for 4000 words; Can't guarantee that academic work will feed into Asterisk
 * Passing back and forth relevant work and directions to go in
-*   Some shared cross-promotion (e.g., at universities and in policy circles, where both Unjournal and Asterisk are relevant)&#x20;
-
-
+* Some shared cross-promotion (e.g., at universities and in policy circles, where both Unjournal and Asterisk are relevant)
 
 <details>
 
@@ -36,4 +38,3 @@ EA outreach is focused on 'making people EAs' ... but its more important to make
 A lot is in the realm of intellectual tools ...
 
 </details>
-
