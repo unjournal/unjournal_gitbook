@@ -1,13 +1,13 @@
 ---
 description: >-
-  High-status ‘peer evaluation & rating’ of open projects  (cf conventional 0/1
-  publishing) 2. 'Publishing'/credibility/feedback for EA & global priorities
-  researchers/orgs; Organizer: David Reinstein
+  1.High-quality ‘peer evaluation & rating’ of open projects (cf conventional
+  0/1 publishing) 2. 'Publishing'/credibility/feedback for EA & global
+  priorities researchers/orgs. Organizer: David Reinstein
 ---
 
 # "Unjournal": Action plan, writing, resources
 
-_**Link to here:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)_, widely shared_
+_**Link to here:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)_; this link is widely shared_
 
 _**Other key internal links:**_** **&#x20;
 
