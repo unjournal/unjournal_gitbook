@@ -1,11 +1,10 @@
 ---
-description: >-
-  My (David Reinstein's) proposed 'best feasible plan' for what we (RP & fellow
-  travelers) should do right now and going forward to make this happen. I'll
-  continue to update this as things develop,
+description: Building feom a 'best feasible plan'...
 ---
 
-# Plan of action: 'unjournal'
+# Plan of action
+
+
 
 {% hint style="warning" %}
 What is this Unjournal?... See:\
@@ -21,7 +20,7 @@ What is this Unjournal?... See:\
 3. We identify important work that **informs global priorities**
 4. We boost work in innovative and transparent/replicable formats (especially **dynamic documents**)
 5. **Authors engage** with our process and find it useful
-6. (As a push) Universities, grantmakers, and other arbiters assign value to Unjournal ratings \\
+6. (As a push) Universities, grantmakers, and other arbiters assign value to Unjournal ratings&#x20;
 
 </details>
 
@@ -31,28 +30,39 @@ See [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/a
 
 ### Setup and team
 
-[action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention")
+:heavy\_check\_mark: [action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention")
 
-**Define the broad scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
+:heavy\_check\_mark:/:hourglass\_flowing\_sand: **Define the broad scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
 
-Build **"editorial-board-like"** teams with subject/area expertise
+:hourglass\_flowing\_sand:  Build **"editorial-board-like"** teams with subject/area expertise
 
-Determine our relative needs, funds, and resources (especially to pay reviewers; see grants awarded and applications below)
+_Status: Mostly completed/decided for pilot phase_
 
-
+__
 
 ### Create a set of rules for 'submission and management'
 
 * which projects enter the review system (relevance, minimal quality, stakeholders, any red lines or 'musts')
-* how projects are to be submitted (see above, but let's be flexible)
-* how reviewers are to be assigned and compensated (or 'given equivalent credit' in system of accounts)
+  * :hourglass\_flowing\_sand: See [considering-projects.md](../key-issues-explanations-faq/policies-and-templates/considering-projects.md "mention") for a first pass
+* how projects are to be submitted:
+* how reviewers are to be assigned and compensated&#x20;
+
+_Status: Mostly completed/decided for pilot phase;_ will review after initial trial
+
+__
 
 ### Rules for reviews/assessments
 
-* To be done on the chosen open platform (~~Prereview~~ probably Kotahi/Sciety) unless otherwise infeasible
+* To be done on the chosen open platform (Kotahi/Sciety) unless otherwise infeasible
 * Share, advertise, promote this, have efficient meetings and presentations
   * Establish links to all open-access bibliometric initiatives (to the extent feasible)
 * Harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, to coin-based 'ResearchHub', etc.
+
+See [guidelines-for-evaluators.md](../key-issues-explanations-faq/policies-and-templates/guidelines-for-evaluators.md "mention")&#x20;
+
+_Status: Mostly completed/decided for pilot phase;_ will review after initial trial
+
+__
 
 ### Further steps
 
@@ -69,29 +79,21 @@ Build a ‘founding committee’ of 5-8 experienced and enthusiastic EA-aligned/
 1. Host a meeting (and shared collaboration space/document), to come to a consensus/set of practical principles
 2. Post and present our consensus (coming out of this meeting) on key fora. After a brief ‘followup period’ (\~1 week), consider adjusting the above consensus plan in light of the feedback, and repost (and move forward).
 3. Set up the basic platforms for posting and administering reviews and evaluations and offering curated links and categorizations of papers and projects. ~~Note: I am strongly leaning towards https://prereview.org/ as the main platform, which has indicated willingness to give us a flexible ‘experimental space~~’ Update: Kotahi/Sciety seems a more flexible solution
-4. Reach out to researchers in relevant areas and organizations and ask them to 'submit' their work for 'feedback and potential positive evaluations and recognition', and for a chance at a prize. The Unjournal will _not be an exclusive outlet._ Researchers are free to also submit the same work to 'traditional journals' at any point. Their work must be publicly hosted, with a DOI. Ideally the 'whole project' is maintained and updated, with all materials, in a single location.
+4. Reach out to researchers in relevant areas and organizations and ask them to 'submit' their work for 'feedback and potential positive evaluations and recognition', and for a chance at a prize. The Unjournal will _not be an exclusive outlet._ Researchers are free to also submit the same work to 'traditional journals' at any point. Their work must be publicly hosted, with a DOI. Ideally the 'whole project' is maintained and updated, with all materials, in a single location.\
+   \
+   21 Sep 2022 s_tatus:_ 1-3 mostly completed. We have a good working and management group. We decided a platform and we're configuring it, and we have an interim workaround. We've reached out to researchers/orgs and got some good responses, but we need to find more platforms to disseminate and advertise this. We've identified and are engaging with 4 papers for the initial piloting. We aim to put out a larger prize-driven call soon and intake about 10 more papers/projects.\
+   \
+
 
 </details>
 
 <details>
 
-<summary>Some specific next actions (pasted from FTX application}</summary>
-
-1. Post and present our consensus (coming out of this meeting) on key fora. After a brief ‘followup period’ (\~1 week), consider adjusting the above consensus plan in light of the feedback, and repost (and move forward).
-2. Set up the basic platforms for posting and administering reviews and evaluations and offering curated links and categorizations of papers and projects. Note: I am strongly leaning towards https://prereview.org/ as the main platform, which has indicated willingness to give us a flexible ‘experimental space’
-3. Reach out to researchers in relevant areas and organizations and ask them to 'submit' their work for 'feedback and potential positive evaluations and recognition', and for a chance at a prize. The Unjournal will _not be an exclusive outlet._ Researchers are free to also submit the same work to 'traditional journals' at any point. Their work must be publicly hosted, with a DOI. Ideally the 'whole project' is maintained and updated, with all materials, in a single location.
-
-</details>
-
-### Aside: 'Academic-level' work for EA research orgs
-
-(building on [post at "onscienceandacademia.org"](https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490))
+<summary>Aside: 'Academic-level' work for EA research orgs (building on <a href="https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490">post at "onscienceandacademia.org"</a>) </summary>
 
 _The approach below is largely integrated into the Unjournal proposal, but this is a suggestion for how organizations like RP might consider 'how to get feedback and boost credibility_
 
-<details>
 
-<summary>Proposed approach</summary>
 
 1. **Host article** (or dynamic research project or 'registered report') on OSF or other place allowing time stamping & DOIs (see [my resources list in Airtable](https://airtable.com/shraTY0WcwsjJSANs) for a start)
 2. Link this to [PREreview](https://prereview.org/reviews) (or similar tool) tools/sites soliciting feedback and evaluation without requiring exclusive publication rights... (again, see [Airtable list](https://airtable.com/shraTY0WcwsjJSANs))

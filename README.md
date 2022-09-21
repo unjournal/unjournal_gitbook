@@ -5,9 +5,9 @@ description: >-
   priorities researchers/orgs. Organizer: David Reinstein
 ---
 
-# "Unjournal": Action plan, writing, resources
+# The Unjournal: Plan, writing, resources
 
-_**Link to here:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)_; this link is widely shared_
+_**Widely shared link to this space:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)_; this link is widely shared_
 
 _**Other key internal links:**_** **&#x20;
 
@@ -17,7 +17,7 @@ _**Other key internal links:**_** **&#x20;
 
 ## In a nutshell&#x20;
 
-The "Unjournal" (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+The Unjournal (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 _**Why**? Peer review is great,_ but academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
 
@@ -45,22 +45,26 @@ For example, this proposal is closely related to Elife's ["Publish, Review, Cura
 
 _organizes ideas and resources to achieve the twin goals of:_
 
-1. ‘Peer evaluation and rating’ of open projects (instead of conventional 0/1 publishing of frozen pdfs) becoming a standard 'high status' outcome in academia/research, especially in Economics and social sciences
+1. ‘Peer evaluation and rating’ of open projects (instead of conventional 0/1 publishing of frozen pdf's) becoming a standard 'high status' outcome in academia/research, especially in economics and social sciences
 2. Creating and coalescing around an efficient system for 'publishing', gaining credibility, and getting feedback for effective altruism and global-priorities-aligned research
 
-{% hint style="info" %}
-**Funding:**
+****
 
-[acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it).\
+<details>
+
+<summary><strong>Funding</strong><br><strong></strong></summary>
+
+****[acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it).\
 \
-**Discussion space:** I've set up a post grant "'Unjournal'": <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">HERE</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark> 25 Jun 2022 update: I have not kept the above discussion space fully updated; hope to level up soon.
+**Discussion space:** I've set up a post-grant "'Unjournal'": <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">HERE</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark> 25 Jun 2022 update: I have not kept the above discussion space fully updated; hope to level up soon.
 
 _**Please let me know if you want edit/comment access to the present Gitbook.**_\
 \
 _Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\
 \
-_Unsuccessful followup_ [_FTX application HERE_](grants-and-proposals/ftx-future-fund-for-further-funding-unsuccessful.md)_, still seeking more funding_
-{% endhint %}
+_Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-future-fund-for-further-funding-unsuccessful.md)_, still seeking more funding_
+
+</details>
 
 ## Sections
 
