@@ -2,7 +2,7 @@
 description: Several expositions for different audiences, fleshing out ideas and plans
 ---
 
-# Key Writings
+# Explain/discuss/outreach
 
 ## Slide decks
 
@@ -10,9 +10,6 @@ description: Several expositions for different audiences, fleshing out ideas and
 
 Permalink at [bit.ly/unjournalpresent](http://bit.ly/unjournalpresent)
 
-
-
-\
 
 
 ## "Slaying the journals": Google doc

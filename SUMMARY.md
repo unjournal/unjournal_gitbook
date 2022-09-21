@@ -1,7 +1,7 @@
 # Table of contents
 
-* ["Unjournal": Action plan, writing, resources](README.md)
-  * [Plan of action: 'unjournal'](master/plan-of-action.md)
+* [The Unjournal: Plan, writing, resources](README.md)
+  * [Plan of action](master/plan-of-action.md)
   * [Explain/discuss/outreach](master/writings/README.md)
     * [Related articles and work](master/writings/related-articles-and-work.md)
     * ["Marketing" and outreach texts](master/writings/marketing-and-outreach.md)
@@ -34,7 +34,7 @@
   * [Set up evaluation/referee guidelines for pilot papers](action-and-progress/evaluation-referee-guidelines-for-pilot-papers.md)
   * ['Reviewers': Identify, engage](action-and-progress/evaluators-reviewers-identify-contact-engage.md)
 * [Grants and proposals](grants-and-proposals/README.md)
-  * [ACX/LTFF grant proposal (as submitted, successfull)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/README.md)
+  * [ACX/LTFF grant proposal (as submitted, successful)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/README.md)
     * [Notes: post-grant plan and revisions](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/notes-post-grant-plan-and-revisions.md)
     * [(Linked proposals and comments - moved for now)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/linked-proposals-and-comments-moved-for-now.md)
   * [Clearer thinking FTX regranting (Unsuccessful)](grants-and-proposals/clearer-thinking-ftx-regranting-unsuccessful.md)
