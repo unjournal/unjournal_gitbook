@@ -28,8 +28,6 @@ We aim to increase these payments going forward and are applying for funds to do
 
 ****
 
-**DON't READ THIS**
-
 <details>
 
 <summary>Specific requests for focus/feedback</summary>
