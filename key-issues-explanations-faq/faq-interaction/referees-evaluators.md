@@ -34,13 +34,13 @@ We refer to 'evaluation' because the Unjournal does not _publish_ work; it only 
 
 ### General criteria/guidelines
 
-See [guidelines-for-evaluators.md](../policies-and-templates/guidelines-for-evaluators.md "mention") for our proposed approach and template for referees.&#x20;
+See [guidelines-for-evaluators.md](../../policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators.md "mention") for our proposed approach and template for referees.&#x20;
 
 _30 Jul 2022: This is a first-draft approach; many issues are still under discussion._
 
 
 
-(See also: [#considering-communicating-editors-process](../policies-and-templates/considering-projects.md#considering-communicating-editors-process "mention"))
+(See also: [#considering-communicating-editors-process](../../policies-projects-evaluation-workflow/policies-and-templates/considering-projects.md#considering-communicating-editors-process "mention"))
 
 ## Anonymity/blinding vs. signed reports
 
