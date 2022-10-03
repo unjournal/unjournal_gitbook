@@ -283,20 +283,6 @@ Is this topic, approach, and discussion _potentially_ useful to global prioritie
 
 
 
-{% hint style="danger" %}
-ANNOYING hint
-{% endhint %}
-
-<details>
-
-<summary>don't read this</summary>
-
-igonre
-
-</details>
-
-## [#overall-assessment](guidelines-for-evaluators.md#overall-assessment "mention")@
-
 ## Journal/Prediction metrics
 
 We would like to benchmark our evaluations against 'how research is currently judged.' We want to provide a bridge between the current 'accept or reject' system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus we are asking you for two predictions in the table below. \
@@ -448,8 +434,6 @@ _Optional_
 [Open Reviewers Reviewer Guide ](https://zenodo.org/record/5484087)(Journal-independent “Pre-review”; detailed, targets ECRs)
 
 </details>
-
-
 
 
 
