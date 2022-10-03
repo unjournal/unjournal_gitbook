@@ -7,7 +7,7 @@ You will be compensated a minimum of $250 for your evaluation work, and will be 
 
 
 
-See the guidelines below. You can submit your response **in** [**this form**](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit)**.** (We are using a Google Doc for now, we will moving to [Kotahi](https://kotahi.community/) soon)&#x20;
+See the guidelines below. You can submit your response **in** [**this form**](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit)**,** and share it back with us**.** (We are using a Google Doc for now, we will moving to [Kotahi](https://kotahi.community/) soon).
 {% endhint %}
 
 <details>
@@ -18,6 +18,10 @@ We aim to increase these payments going forward and are applying for funds to do
 
 </details>
 
+{% hint style="info" %}
+_**How and why did we decide on these guidelines?**_ See [why-these-guidelines.md](why-these-guidelines.md "mention") for a discussion.
+{% endhint %}
+
 ## What we would like you to do
 
 1. _**Give quantitative metrics and predictions requested in the two tables below**_**, as appropriate**.
@@ -25,8 +29,6 @@ We aim to increase these payments going forward and are applying for funds to do
 3. _**Answer a short questionnaire**_
 
 **In writing your review, please consider the following:**
-
-****
 
 <details>
 
@@ -40,7 +42,7 @@ Please attend to anything our managers/editors specifically asked you to focus o
 
 <summary>The Unjournal's criteria</summary>
 
-See [#category-metrics-multiple-dimensions](guidelines-for-evaluators.md#category-metrics-multiple-dimensions "mention") for guidance, e.g., prioritizing impact and robustness over cleverness.&#x20;
+See [#category-metrics-multiple-dimensions](./#category-metrics-multiple-dimensions "mention") for guidance, e.g., prioritizing impact and robustness over cleverness.&#x20;
 
 </details>
 
@@ -69,7 +71,7 @@ We are considering the best policy towards signed reviews vs. single-blind repor
 </details>
 
 {% hint style="info" %}
-_Suggestion to evaluators:_ The [#category-metrics](guidelines-for-evaluators.md#category-metrics "mention") and[#overall-metrics-holistic-assessment](guidelines-for-evaluators.md#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
+_Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
 {% endhint %}
 
 ## Metrics: overall assessment, categories
@@ -80,16 +82,16 @@ _Below:_ a 'completed example'. We will give evaluators a concise survey form wi
 
 
 
-<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong></strong><a href="guidelines-for-evaluators.md#overall-assessment-discussion"><strong>Overall assessment</strong> </a>(holistic, most important!)</td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#1.-advancing-our-knowledge-and-practice-5-5-importance">Advancing knowledge and practice</a> (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#2.-methods-justification-reasonableness-validity-robustness-5-5-importance">Methods: Justification, reasonableness, validity, robustness</a> (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#3.-logic-and-communication-coherent-and-clear-argument-communication-reasoning-transparency-4-5-impo">Logic &#x26; communication</a> (4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4><a href="guidelines-for-evaluators.md#4.-open-collaborative-replicable-science-and-methods-3-5-importance">Open, collaborative, replicable</a> (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4><strong></strong><a href="guidelines-for-evaluators.md#6.-relevance-to-global-priorities-0-5-not-part-of-overall-evaluation"><strong>Relevance to global priorities</strong> </a>(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
+<table><thead><tr><th>Category (importance)</th><th data-type="number">Rating (0-100)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th></tr></thead><tbody><tr><td><strong></strong><a href="./#overall-assessment-discussion"><strong>Overall assessment</strong> </a>(holistic, most important!)</td><td>44</td><td>39, 52</td><td>4</td></tr><tr><td><h4><a href="./#1.-advancing-our-knowledge-and-practice-5-5-importance">Advancing knowledge and practice</a> (5/5)</h4></td><td>50</td><td>47, 54</td><td>5</td></tr><tr><td><h4><a href="./#2.-methods-justification-reasonableness-validity-robustness-5-5-importance">Methods: Justification, reasonableness, validity, robustness</a> (5/5)</h4></td><td>51</td><td><em>45, 55</em></td><td>4</td></tr><tr><td><h4><a href="./#3.-logic-and-communication-coherent-and-clear-argument-communication-reasoning-transparency-4-5-impo">Logic &#x26; communication</a> (4/5)</h4></td><td>20</td><td><em>10, 35</em></td><td>3</td></tr><tr><td><h4><a href="./#4.-open-collaborative-replicable-science-and-methods-3-5-importance">Open, collaborative, replicable</a> (3/5) </h4></td><td>60</td><td><em>40, 70</em> </td><td>2</td></tr><tr><td><h4><strong></strong><a href="./#6.-relevance-to-global-priorities-0-5-not-part-of-overall-evaluation"><strong>Relevance to global priorities</strong> </a>(0/5)</h4></td><td>30</td><td><em>21, 65</em></td><td>1</td></tr></tbody></table>
 
-_All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](guidelines-for-evaluators.md#what-we-are-asking-you-to-rate-explanations "mention")_._
+_All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")_._
 
 
 
 _**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
-1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Try to follow the scale in "[#0-100-metric-described](guidelines-for-evaluators.md#0-100-metric-described "mention")" but specifically for this _category._
-2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](guidelines-for-evaluators.md#the-confidence-rating-explained).
+1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Try to follow the scale in "[#0-100-metric-described](./#0-100-metric-described "mention")" but specifically for this _category._
+2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](./#the-confidence-rating-explained).
    * _Note: **** Please give a 90% CI or a confidence score, but not both. We completed both above only for illustration._
 
 <details>
@@ -167,7 +169,7 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 
 Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example in the diagram below (click to zoom**)** illustrates the proposed correspondence.
 
-__![](<../../.gitbook/assets/image (3).png>)****
+__![](<../../../.gitbook/assets/image (3).png>)****
 
 ****
 

@@ -58,7 +58,7 @@ __
   * Establish links to all open-access bibliometric initiatives (to the extent feasible)
 * Harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, to coin-based 'ResearchHub', etc.
 
-See [guidelines-for-evaluators.md](../policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators.md "mention")&#x20;
+See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/ "mention")&#x20;
 
 _Status: Mostly completed/decided for pilot phase;_ will review after initial trial
 
