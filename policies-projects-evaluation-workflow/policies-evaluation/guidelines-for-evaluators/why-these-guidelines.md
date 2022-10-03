@@ -8,8 +8,6 @@ To get to this point, we need to have academia and stakeholders see our reviews 
 \
 As we are not a journal, and we don’t accept/reject,  we need another way of assigning value. We are trying to determine the best way of doing this through numerical ratings. We hope to be able to benchmark to ‘traditional publication outcomes’.  Thus, we thought it was important to ask for both an overall quality rating and a journal ‘prediction’.
 
-
-
 ## Why these categories
 
 In addition to the overall assessment, we thought it would be valuable to have the papers rated on several categories. This could be particularly helpful to practitioners who may care about some concerns more than others. It also can be useful to future researchers who might want to focus on reading papers with particular strengths. (Optimistically, it could be useful in meta-analyses, as certain characteristics of papers could be weighed more heavily.) We thought it might also be useful to authors and evaluators themselves in getting a sense of what we think research priorities should be, and thus how to consider an overall rating.
