@@ -8,7 +8,7 @@
   * [Call for participants, research](master/call-for-participants-research.md)
   * [Discussion, team](master/discussion-team/README.md)
     * ["Who are we/our team"](master/discussion-team/who-are-we-our-team.md)
-* [Benefits & features](key-issues-explanations-faq/benefits-and-features/README.md)
+* [Why Unjournal? (benefits)](key-issues-explanations-faq/benefits-and-features/README.md)
   * [Costs of 'the publication game'](key-issues-explanations-faq/benefits-and-features/costs-of-playing-the-publication-game.md)
   * [Dynamic documents vs 'living projects'](key-issues-explanations-faq/benefits-and-features/dynamic-documents-vs-living-projects.md)
   * [Benefits of dynamic documents"](key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents.md)
