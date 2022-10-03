@@ -1,6 +1,8 @@
-# FAQ/interaction
+# FAQ
 
 _**We want to get authors, research groups, reviewers, and institutions involved, and to support this. They may have doubts, which we try to anticipate and answer throughout this section of the book.**_
+
+
 
 ## General FAQs
 
