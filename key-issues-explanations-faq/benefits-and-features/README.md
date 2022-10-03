@@ -1,4 +1,4 @@
-# Benefits and features
+# Benefits & features
 
 The features of the Unjournal, and why they are good: see sections below
 
