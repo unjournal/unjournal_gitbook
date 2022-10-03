@@ -12,8 +12,9 @@ _**Widely shared link to this space:**_ [_bit.ly/eaunjournal_](https://bit.ly/ea
 _**Other key internal links:**_** **&#x20;
 
 * ****[Guidelines for Evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators.md)
-* [FAQ for researchers/authors](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md)
+* [FAQ for researchers/authors](faq-interaction/for-researchers-authors.md)
 * [Key writings (outlining/presenting the proposal)](master/writings/)
+* [Slide deck](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_52)
 
 ## In a nutshell&#x20;
 
@@ -74,10 +75,10 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
   * [action-overall-scoping.md](the-field-and-ea-gp-research/action-overall-scoping.md "mention")
 * [writings](master/writings/ "mention"): Several versions of the main points, written for a few different audiences.
 * [grants-and-proposals](grants-and-proposals/ "mention"): The ACX proposal, other applications, EA initiatives
-* [key-issues-explanations-faq](key-issues-explanations-faq/ "mention"): What we propose, why we need this, why we can succeed
+* [key-issues-explanations-faq.md](key-issues-explanations-faq.md "mention"): What we propose, why we need this, why we can succeed
 * [the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
 
-**"Preliminary management group" discussion/meeting notes (private)**
+{% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.g15b6b3080d0_0_52" %}
 
 [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 

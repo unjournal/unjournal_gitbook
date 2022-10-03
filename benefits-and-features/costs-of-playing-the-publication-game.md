@@ -2,6 +2,8 @@
 
 [Link](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr\_zTmaVpTfBg4A/edit#heading=h.e1wqoks5tivx) to discussion space
 
+See slide collage of 'academics complaining' [beginning here](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_521)
+
 ## Rate and give feedback, don’t accept/reject
 
 **Claim:** _Rating and feedback is better than an ‘all-or-nothing’ accept/reject process. Although people like to say “peer review is not binary”, the consequences are._
@@ -19,8 +21,6 @@ We use “publication in top journals” to measure two main things. First, poli
 [In Economics it is not unusual](https://www.nber.org/papers/w29147) for it to take years between the ‘first working paper’ that is publicly circulated and presented  and the final publication. During that time, the paper may be substantially improved, but it may not be known of nor accepted by practitioners, and meanwhile the authors get little or no career value from it.&#x20;
 
 _As a result…_&#x20;
-
-__
 
 1. **Researchers/Academics spend a tremendous amount of time "gaming" this process**.\[^5]&#x20;
 2. It leads to a great deal of **randomness in outcomes,** leading the cream to not always rise to the top, making research careers much more stressful (driving out more risk-averse researchers).
@@ -66,6 +66,7 @@ Some reviewers write ten-page reports critiquing the paper in great detail (to i
 
 Of course, the reviews maybe misinformed, mistaken, or misunderstanding. However,  if the paper is rejected (even if the reviewer themself was positive about the paper), the author has has no opportunity or incentive to respond to them. Thus the misinformed reviewer may remain in the dark.&#x20;
 
-The other side of the coin:  a lot of effort is spent trying to overly curry favor with reviewers who are often seen as overly fussy and not always in the direction of good science.\
+The other side of the coin:  a lot of effort is spent trying to overly curry favor with reviewers who are often seen as overly fussy and not always in the direction of good science.
+
 
 
