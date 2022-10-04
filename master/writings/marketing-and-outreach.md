@@ -40,7 +40,21 @@ Then please don't bother with "the unjournal".
 
 **Tone**_**:** Sarcastic, irreverent, trying to be funny_
 
+__
+
 **2. Breaking out of the bad equilibrium**
+
+Journals: Rent-extracting, inefficient, pdf-prisons, gamesmanship. But no researcher can quit them.
+
+Until the "Unjournal": Rate projects, shared feedback, pay reviewers.
+
+No trees axed to print the latest "Journal of Fancy Manuscripts." We just _evaluate_ the most impactful work.
+
+_Target, Tone: Same as above, but less sarcastic, using language from Economics … maybe also appealing to library and university admin people?_
+
+<details>
+
+<summary>Longer version of above</summary>
 
 Traditional academic journals: Rent-extracting, inefficient, delaying innovation. But no researcher or university can quit them.
 
@@ -50,7 +64,11 @@ No trees get chopped down to print the latest "Journal of Fancy Manuscripts."\
 \
 We are starting small, but it only takes one domino.
 
-_Target, Tone: Same as above, but less sarcastic, using language from Economics … maybe also appealing to library and university admin people?_
+__
+
+</details>
+
+__
 
 **3. Disgruntled researchers, the wasteful journal game**
 
