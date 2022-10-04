@@ -12,7 +12,8 @@ _**Widely shared link to this space:**_ [_bit.ly/eaunjournal_](https://bit.ly/ea
 _**Other key internal links:**_** **&#x20;
 
 * ****[Guidelines for Evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/)
-* [benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
+* [faq-interaction](key-issues-explanations-faq/faq-interaction/ "mention")
+* @ben
 * [Key writings (outlining/presenting the proposal)](master/writings/)
 * [Slide deck](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_52)
 
