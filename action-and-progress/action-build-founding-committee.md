@@ -6,7 +6,7 @@ _25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [c
 
 ## Progress: the team (continual update)
 
-[who-are-we-our-team.md](../master/discussion-team/who-are-we-our-team.md "mention")
+[who-are-we-our-team](../readme/discussion-team/who-are-we-our-team/ "mention")
 
 ## Key elements of plan
 

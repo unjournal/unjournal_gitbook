@@ -15,7 +15,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 
 
-Outreach: see [action-build-founding-committee.md](../../action-and-progress/action-build-founding-committee.md "mention") ..._We may be adding more members as we progress_
+Outreach: see [action-build-founding-committee.md](../../../action-and-progress/action-build-founding-committee.md "mention") ..._We may be adding more members as we progress_
 
 __
 
