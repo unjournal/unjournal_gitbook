@@ -18,7 +18,7 @@ _**Other key internal links:**_** **&#x20;
 
 ## In a nutshell&#x20;
 
-The Unjournal (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+The Unjournal (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will [focus on work](policies-projects-evaluation-workflow/policies-and-templates/considering-projects.md) that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 _**Why**? Peer review is great,_ but academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
 
