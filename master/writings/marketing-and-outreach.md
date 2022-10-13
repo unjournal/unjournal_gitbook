@@ -32,7 +32,7 @@ Do you love for-profit journals:
 
 * taking your labor and selling it back to your university library
 * making you jump through arcane hoops to 'format your article' and
-* inscrutable signin processes?
+* inscrutable sign-in processes?
 
 Then please don't bother with "the unjournal".
 
