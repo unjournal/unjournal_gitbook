@@ -11,13 +11,21 @@ description: >-
 
 ### Our current proposed model of the review process (for an established researcher)
 
-We are seeking two (paid) reviewers with research interests in your area, and with complementary expertise. You will have the opportunity to suggest particular areas in which you are interested in receiving feedback and suggestions. The reviewers will write detailed and helpful evaluations, and post them either 'signed' or anonymously on [Kotahi](https://kotahi.community). We will also ask the referees to give some forms of quantitative 'rating' feedback, along with a few overall metrics and predictions about what tier and type of traditional journal this would likely be published in, and where it _should_ be published. See: [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/ "mention"). All of these reviews and ratings would be made public (for ECRs we may make some exceptions), but _you will have the right to respond before or after these are posted_.&#x20;
+We are seeking two or three (paid) reviewers with research interests in your area, and with complementary expertise. You will have the opportunity to suggest particular areas in which you are interested in receiving feedback and suggestions. The reviewers will write detailed and helpful evaluations, and post them either 'signed' or anonymously on [Kotahi](https://kotahi.community). We will also ask the referees to give some forms of quantitative 'rating' feedback, along with a few overall metrics and predictions about what tier and type of traditional journal this would likely be published in, and where it _should_ be published. See: [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/ "mention"). All of these reviews and ratings would be made public (for ECRs we may make some exceptions \[see heading below]), but _you will have the right to respond before or after these are posted_.&#x20;
 
 There will be a range of benefits for authors, as discussed below.
 
 We will only need a link to a DOI'd version of your work (also asking for other relevant links). We will not 'publish' your paper, and our handling your paper will not limit you in any way; you could submit it to any journal before, during, or after the process.
 
-### What we **may ask authors to do, allow, and engage with**
+### Conditional Embargo
+
+By default, we would like Unjournal evaluations to be made public. However, in special circumstances, and particularly for very early-career researchers, we may make exceptions.&#x20;
+
+If there is an early-career researcher on the author team, we will allow authors to ‘embargo’ publication of the evaluation until a later date. This date is contingent, but not indefinite. The embargo, (unless authors give earlier permission for release, or until a fixed upper limit of 14 months), will last until after a PhD/postdoc’s upcoming job-market or until after publication in a mainstream journal.
+
+If you would like to request an exception to a public evaluation, you will have the opportunity to explain your reasoning in the submission form.
+
+### What we **may ask of authors**
 
 If we consider your work for public evaluation, we may ask for _some_ of the below, but these are mainly optional. We will aim to make this very _light touch_ for authors.&#x20;
 
