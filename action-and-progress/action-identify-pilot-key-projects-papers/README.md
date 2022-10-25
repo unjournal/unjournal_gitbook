@@ -64,6 +64,6 @@ Not very relevant (because mainly operational)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research.md](../../master/call-for-participants-research.md "mention")
+6\. Cross-promoted with [call-for-participants-research](../../readme/call-for-participants-research/ "mention")
 
 \_\_
