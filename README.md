@@ -15,6 +15,7 @@ _**Other key internal links:**_** **&#x20;
 * [benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
 * [Key writings (outlining/presenting the proposal)](master/writings/)
 * [Slide deck](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_52)
+* ['Why would researchers want to submit their work' (a top FAQ)](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
 
 ## In a nutshell&#x20;
 
@@ -49,11 +50,9 @@ _organizes ideas and resources to achieve the twin goals of:_
 1. ‘Peer evaluation and rating’ of open projects (instead of conventional 0/1 publishing of frozen pdf's) becoming a standard 'high status' outcome in academia/research, especially in economics and social sciences
 2. Creating and coalescing around an efficient system for 'publishing', gaining credibility, and getting feedback for effective altruism and global-priorities-aligned research
 
-****
-
 <details>
 
-<summary><strong>Funding</strong><br><strong></strong></summary>
+<summary><strong>Funding</strong></summary>
 
 ****[acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it).\
 \

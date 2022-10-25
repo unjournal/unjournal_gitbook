@@ -4,19 +4,24 @@ description: Unjournal call for participants and research.
 
 # Call for participants, research
 
+{% hint style="info" %}
+**TLDR**\
+**** If you are interested in being on the Unjournal's Founding Committee, Advisory Board, or Reviewer Pool please fill out [**THIS** ](https://airtable.com/shrW9xpIrxNGfxkXW)[**FORM**](https://airtable.com/shrW9xpIrxNGfxkXW)  (about 3-5 min).
 
+If you have research (your own or others) you would like us to assess, please fill out [**THIS FORM**](https://airtable.com/shrdHHI0zK7rkJCP3) 1 per entry), which will also make you eligible for a bounty prize.&#x20;
+{% endhint %}
 
 {% hint style="info" %}
-**Update 7 Jul 2022:** "_Needs are ongoing_". We have chosen people for the Founding Committee, but please complete the form anyways if you are interested. We are still very interested in people for the Advisory Board and Reviewer Pool, and also likely to expand the Founding/Management committee&#x20;
+**Updates**
 
-****\
-**Briefly:** If you are interested in being on the Unjournal's Founding Committee, Advisory Board, or Reviewer Pool please fill out [**THIS** ](https://airtable.com/shrW9xpIrxNGfxkXW)[**FORM**](https://airtable.com/shrW9xpIrxNGfxkXW)  (about 3-5 min).
+**October 2022:** "_Needs are ongoing_". We have chosen people for the Founding Committee, but please complete the form anyways if you are interested. We're still very interested in people for the Advisory Board and Reviewer Pool, and aim to expand the Management Committee soon. &#x20;
 
-If you have research (your own or others) you would like us to assess, please fill out [**THIS FORM**](https://airtable.com/shrdHHI0zK7rkJCP3) 1 per entry), which will also make you eligible for a bounty prize. \
 \
-_Update 7 Jul 2022: The main prizes for piloted papers have been awarded, but we still encourage you to submit/suggest work, which will also make you eligible for future retroactive prizes/awards._\
-\
+_Update 7 Jul 2022: The main prizes for piloted papers have been awarded, but we still encourage you to submit/suggest work, which will also make you eligible for future retroactive prizes/awards._
 
+__
+
+_Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing) (initial prizes: $2000, $1000)
 {% endhint %}
 
 ## Overview and call
@@ -50,7 +55,7 @@ We are also looking for high-quality, globally-pivotal research projects to eval
 
 ## **Roles**
 
-**Founding committee members** activities will involve:
+**Founding committee members**_'_ activities will involve:
 
 * Working with other founding committee members on a set of rules and guidelines. E.g., ‘which metrics to evaluate research’, ‘how to publish the assessments’.
 * Helping plan the Unjournal’s future path.
