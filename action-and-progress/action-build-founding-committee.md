@@ -1,7 +1,7 @@
 # Build founding committee
 
 {% hint style="info" %}
-_25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [call-for-participants-research.md](../master/call-for-participants-research.md "mention"). We are in the process of inviting people now.
+_25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [call-for-participants-research](../readme/call-for-participants-research/ "mention"). We are in the process of inviting people now.
 {% endhint %}
 
 ## Progress: the team (continual update)
