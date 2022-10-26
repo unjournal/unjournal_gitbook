@@ -1,10 +1,8 @@
 ---
-description: Building feom a 'best feasible plan'...
+description: Building a 'best feasible plan'...
 ---
 
 # Plan of action
-
-
 
 {% hint style="warning" %}
 What is this Unjournal?... See:\
