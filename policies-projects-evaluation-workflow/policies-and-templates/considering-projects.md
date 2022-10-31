@@ -66,12 +66,38 @@ _We are considering the following pivot_
 >    * These evaluators will be notified that the authors have not directly requested this review but they are informed it is happening. We suspect this will tend to drive evaluators to prefer to remaining anonymous.
 >    * As this will allow us to consider a larger set of papers more quickly, we can reach out to multiple evaluators more efficiently.   &#x20;
 
-_The case for the pivot proposed above:_
+#### _**The case for such a (proposed) pivot:**_
 
-1. Working papers (especially NBER) are already influencing policy and debate; yet they have not been peer-reviewed, and may take years to go through this process, if ever (e.g., many NBER papers[ are never published in peer-reviewed journals](https://bldavies.com/blog/publication-outcomes-nber-working-papers/)). However it is difficult to understand their limitation unless you happen to have attended an academic seminar where these have been presented. Evaluating these publicly will provide a service
-   * Specifically for NBER: This working paper series is highly influential and relied on by policy makers and policy journalists. It is an elite outlet: only members of NBER are able to post working papers here. [Membership is prestigious and available only by invitation.](https://economistwritingeveryday.com/2022/05/02/lets-talk-about-the-nber/)&#x20;
-2. &#x20;There may be some shyness or reluctance to participate in The Unjournal evaluation process (see our [benefits to authors](../../key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) discussion).  It is scary to be a first mover, and it may feel unfair to be among the few people to have an evaluation of your work out there in public (in spite of the Bayesian arguments presented in the previous link).&#x20;
-3. Academics (especially early-career) may also worry that they will seem weird or rebellious by submitting to The Unjournal and that this may be taken as 'rejecting mainstream system norms'. This will be less of a problem if a large number substantial number of prominent papers have already been evaluated publicly by The Unjournal. You will be 'in good company'. Furthermore, if we are simply identifying papers for evaluation, the authors of these papers cannot be seen as 'rebelling' as they did not choose this,&#x20;
+1. **Public benefit: Working papers** (especially NBER) are **already influencing policy and debate**; yet they have not been peer-reviewed, and may take years to go through this process, if ever (e.g., many NBER papers[ are never published in peer-reviewed journals](https://bldavies.com/blog/publication-outcomes-nber-working-papers/)). However it is difficult to understand their limitation unless you happen to have attended an academic seminar where these have been presented. Evaluating these publicly will provide a service.
+   * Specifically for NBER: This working paper series is highly influential and relied on by policy makers and policy journalists. It is an elite outlet: only members of NBER are able to post working papers here. [Membership is prestigious and available only by invitation.](https://economistwritingeveryday.com/2022/05/02/lets-talk-about-the-nber/) &#x20;
+2. **'Fear of public evaluation/Safety in numbers':** There may be some shyness or reluctance to participate in The Unjournal evaluation process (see our [benefits to authors](../../key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) discussion).  It is scary to be a first mover, and it may feel unfair to be among the few people to have an evaluation of your work out there in public (in spite of the Bayesian arguments presented in the previous link). There should be 'safety' in numbers: having a substantial number of prominent papers publicly evaluated by The Unjournal will ease this concern.&#x20;
+3. **'Passive evaluation may be preferred to active consent':** Academics (especially early-career) may also worry that they will seem weird or rebellious by submitting to The Unjournal and that this may be taken as 'rejecting mainstream system norms'. Again, this will be less of a problem if a substantial number of public evaluations of prominent papers are out there. You will be 'in good company'. Furthermore, if we are simply identifying papers for evaluation, the authors of these papers cannot be seen as 'rebelling' or 'being weird' (as they did not choose this).&#x20;
+4. **Piloting and building a track record/demonstration:** The Unjournal needs a reasonably large set of high-quality relevant work to do evaluate, in order to help us build our system and improve our processes. Putting out a body of curated evaluation work will also allow us to demonstrate the reasonableness and reliability.
+
+#### **Discussion: possible downsides and risks** from this **proposed change**
+
+1. **Negative backlash**: Some authors may dislike having their work publicly evaluated, particularly when there is substantial criticism. Academics complain a lot about unfair peer reviews, but the difference is that here the evaluations will be made public. This might lead The Unjournal to be the target of some criticism.&#x20;
+
+_**Responses:**_ &#x20;
+
+* Public engagement in prominent and influential work is fair and healthy. It is good to promote public intellectual debate. Of course, this needs to allow constructive criticism as well as informative praise.&#x20;
+* _We will work to ensure that the evaluations we publish involve constructive dialogue, avoid unnecessary harshness, and provide reasons for their critiques. We also give authors the opportunity to respond._&#x20;
+* We are focusing on more prominent papers, with authors in more secure positions; and we offer a potential 'embargo' for sensitive career situations
+
+**2. Less author engagement:** If authors do not specifically choose to have their work evaluated, they are likely to engage less with the process.&#x20;
+
+_**Response:**_ This is something we can keep an eye on, considering whether the benefits outweigh the costs.
 
 
 
+**3. Evaluator/referee reluctance:** As noted above, evaluators maybe more reluctant to provide ratings and feedback on work where the author has not instigated the process.&#x20;
+
+_**Response:**_** ** This should basically be addressed by the fact that we allow evaluators to remain anonymous. A potential cost here is discouraging signed evaluations, which have some benefits (as well as possible costs).
+
+
+
+**4. Slippery-slope towards 'unfairly reviewing work too early':** In some fields, working papers are released at a point that the author does not wish them to be evaluated, and is not implicitly making strong claims about the validity of this work.  In economics, working papers tend to be released when they are fairly polished and the authors do in fact seek feedback and citations; the NBER series is a particularly prominent example. However, if we are not careful one might be concerned that we will extend the scope of 'direct evaluation' too far.&#x20;
+
+_**Response:**_ We will be careful with this. Initially, I'm only proposing to extend this to the NBER series. Next, we may consider direct evaluation of  fairly prestigious publications in 'actual peer-reviewed journals' particularly in fields (such as psychology) where are the peer review process is much faster than in economics. As NBER is basically "USA only", we may consider extending this to other series such as [CEPR](https://cepr.org/publications/discussion-papers), but being careful about the prestige/vulnerability tradeoffs.&#x20;
+
+_Side point:_ in the future we hope to work directly with working paper series, associations, and research groups to get their approval and engagement with The Unjournal evaluation. We hope that "having a large share of papers in your series evaluated" will serve as a measure of confidence in your research quality.&#x20;

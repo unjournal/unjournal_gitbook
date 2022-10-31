@@ -73,15 +73,12 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 ## Sections
 
 * [plan-of-action.md](master/plan-of-action.md "mention"): My (David Reinstein's) proposed 'best feasible plan' for what we (at RP and fellow travelers) should do right now and going forward to make this happen. I will continue to update this as things develop.
-* [writings](master/writings/ "mention"): Several versions of the main points, written for a few different audiences.
-* [benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
-* [faq-interaction](key-issues-explanations-faq/faq-interaction/ "mention")... for authors, evaluators, etc.
-* Our [policies-projects-evaluation-workflow](policies-projects-evaluation-workflow/ "mention")...
-* Specific "Action steps" taken, in progress, and under discussiom:
+* Specific "Action steps" taken, in progress, and under discussio:
   * [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention")
   * [action-overall-scoping.md](the-field-and-ea-gp-research/action-overall-scoping.md "mention")
+* [writings](master/writings/ "mention"): Several versions of the main points, written for a few different audiences.
 * [grants-and-proposals](grants-and-proposals/ "mention"): The ACX proposal, other applications, EA initiatives
-* [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
+* [Broken link](broken-reference "mention"): What we propose, why we need this, why we can succeed
 * [the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
 
 {% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.g15b6b3080d0_0_52" %}
