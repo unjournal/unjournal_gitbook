@@ -15,8 +15,6 @@ To be eligible for the prize, please submit a link to your work for public evalu
 * Please choose “new submission”, “Submit a URL instead.”&#x20;
 * That link requires an ORCID ID; if you prefer, you can email your submission to theunjournal@gmail.com
 
-
-
 The "Unjournal" (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future)) organizes and funds public journal-independent feedback and evaluation. We will focus on research that is highly relevant to global priorities (especially in economics, social science, and impact evaluation; we aim to expand this widely). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 We are offering this prize to help identify work for The Unjournal: we aim to publicly evaluate 15 papers (or projects) within our pilot year.
@@ -39,9 +37,7 @@ We especially encourage submission of research in ‘open’ formats such as hos
 
 ## Details of submissions to The Unjournal
 
-Note: this section largely repeats content in our [guide for Researchers/Authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), esp. our [FAQ ‘why engage’ ](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/faq-interaction/for-researchers-authors#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
-
-For more information about The Unjournal, [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/) is the link to our Gitbook.&#x20;
+Note: this section largely repeats content in our [guide for Researchers/Authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), esp. our [FAQ ‘why engage’](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/faq-interaction/for-researchers-authors#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). For more information about The Unjournal, [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/) is the link to our Gitbook.&#x20;
 
 ### What we are looking for&#x20;
 
