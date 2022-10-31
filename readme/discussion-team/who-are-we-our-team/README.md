@@ -36,8 +36,6 @@ __**Early/mid-career**
 
 [Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi), Post-Doctoral Researcher in the Department of Quantitative Methods and Economic Theory at the University of Chieti&#x20;
 
-[Kris Gulati](https://sites.google.com/view/kris-gulati/home), PhD Student in Economics at the University of Californa, Merced
-
 [Sam Abbott](https://samabbott.co.uk), Infectious Disease Researcher at the London School of Hygiene and Tropical Medicine\
 ****
 
