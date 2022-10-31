@@ -2,7 +2,7 @@
 description: Unjournal call for participants and research.
 ---
 
-# Call for participants, research
+# CtA: participants, research
 
 {% hint style="info" %}
 **TLDR**\
@@ -16,12 +16,12 @@ If you have research (your own or others) you would like us to assess, please fi
 
 **October 2022:** "_Needs are ongoing_". We have chosen people for the Founding Committee, but please complete the form anyways if you are interested. We're still very interested in people for the Advisory Board and Reviewer Pool, and aim to expand the Management Committee soon. &#x20;
 
-\
-_Update 7 Jul 2022: The main prizes for piloted papers have been awarded, but we still encourage you to submit/suggest work, which will also make you eligible for future retroactive prizes/awards._
 
-__
 
 _Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing) (initial prizes: $2000, $1000)
+
+\
+_Update 7 Jul 2022: The main prizes for piloted papers have been awarded, but we still encourage you to submit/suggest work, which will also make you eligible for future retroactive prizes/awards._
 {% endhint %}
 
 ## Overview and call
@@ -58,7 +58,7 @@ We are also looking for high-quality, globally-pivotal research projects to eval
 **Founding committee members**_'_ activities will involve:
 
 * Working with other founding committee members on a set of rules and guidelines. E.g., ‘which metrics to evaluate research’, ‘how to publish the assessments’.
-* Helping plan the Unjournal’s future path.
+* Helping plan The Unjournal’s future path.
 * If your time and funding permits, helping manage ‘which research to focus on’, assigning reviewers, and awarding prizes (we will try to keep this responsibility light).
 
 _Time commitment_: Minimum of 5-10 hours total over the next 9 months, plus editorial activities (perhaps a few hours per month, as available and as needed).
@@ -79,6 +79,6 @@ We provide a separate form for research suggestions [HERE](https://airtable.com/
 
 ## Form to fill out, contact
 
-If you are interested in discussing any of this in person, please email us (dreinstein at rethinkpriorities.org) to arrange a conversation.
+If you are interested in discussing any of this in person, please email us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)) to arrange a conversation.
 
 _We invite you to fill in this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW) _to leave your contact information and details, as well as outlining which parts of the project you may be interested in._
