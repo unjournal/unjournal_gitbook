@@ -5,7 +5,7 @@
   * [Explain/discuss/outreach](master/writings/README.md)
     * [Related articles and work](master/writings/related-articles-and-work.md)
     * [Marketing/outreach texts](master/writings/marketing-and-outreach.md)
-  * [CtA: participants, research](readme/call-for-participants-research/README.md)
+  * [Call: participants, research](readme/call-for-participants-research/README.md)
     * [Brief version of call](readme/call-for-participants-research/brief-version-of-call.md)
     * [Unjournal: Impactful Research Prize](readme/call-for-participants-research/unjournal-impactful-research-prize.md)
   * [Our team, discussion](master/discussion-team/README.md)
