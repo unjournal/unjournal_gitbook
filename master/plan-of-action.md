@@ -41,7 +41,7 @@ __
 ### Create a set of rules for 'submission and management'
 
 * which projects enter the review system (relevance, minimal quality, stakeholders, any red lines or 'musts')
-  * :hourglass\_flowing\_sand: See [considering-projects.md](../policies-projects-evaluation-workflow/policies-and-templates/considering-projects.md "mention") for a first pass
+  * :hourglass\_flowing\_sand: See [considering-projects](../policies-projects-evaluation-workflow/considering-projects/ "mention") for a first pass
 * how projects are to be submitted:
 * how reviewers are to be assigned and compensated&#x20;
 

@@ -40,7 +40,7 @@ _30 Jul 2022: This is a first-draft approach; many issues are still under discus
 
 
 
-(See also: [#considering-communicating-editors-process](../../policies-projects-evaluation-workflow/policies-and-templates/considering-projects.md#considering-communicating-editors-process "mention"))
+(See also: [#considering-communicating-editors-process](../../policies-projects-evaluation-workflow/considering-projects/#considering-communicating-editors-process "mention"))
 
 ## Anonymity/blinding vs. signed reports
 
