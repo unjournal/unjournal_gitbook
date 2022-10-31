@@ -2,7 +2,7 @@
 description: Proposal and discussion of this here
 ---
 
-# Considering: 'direct evaluation'
+# Discussion: 'direct eval.'
 
 ## Possible adjustment: Direct evaluation of prominent work
 
@@ -14,7 +14,7 @@ _We are considering the following pivot_
 >     * May expand this to, e.g., work published in the Annual Review of Psychology
 >
 >
-> 2.  Identify relevant papers in this series, according to criteria outlined and linked above ([relevance](considering-direct-evaluation.md#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](considering-direct-evaluation.md#why-does-it-need-more-review-and-what-are-some-key-issues-and-claims-to-vet)).&#x20;
+> 2.  Identify relevant papers in this series, according to criteria outlined and linked above ([relevance](discussion-direct-eval..md#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](discussion-direct-eval..md#why-does-it-need-more-review-and-what-are-some-key-issues-and-claims-to-vet)).&#x20;
 >
 >     __\
 >     _For NBER this is likely to include..._
