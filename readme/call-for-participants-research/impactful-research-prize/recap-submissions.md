@@ -1,39 +1,10 @@
-# Unjournal: Impactful Research Prize
+---
+description: >-
+  Mainly summarizes and repeats material elsewhere in the Gitbook. Text to
+  accompany the Impactful Research Prize discussion
+---
 
-**Submit your work to be eligible for the “Unjournal: Impactful Research Prize” and a range of other benefits including the opportunity for credible public evaluation and feedback.**&#x20;
-
-First prize: $2000&#x20;
-
-Second prize: $1000&#x20;
-
-_(Note: these are the minimum amounts; we will increase these if funding permits.)_
-
-_Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by The Unjournal,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon_](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)_. (**27-11-22**: We are arranging the details and additional co-hosts for this)._
-
-To be eligible for the prize, please submit a link to your work for public evaluation [here](https://unjournaldev.cloud68.co/login).&#x20;
-
-* Please choose “new submission”, “Submit a URL instead.”&#x20;
-* That link requires an ORCID ID; if you prefer, you can email your submission to theunjournal@gmail.com
-
-The "Unjournal" (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future)) organizes and funds public journal-independent feedback and evaluation. We will focus on research that is highly relevant to global priorities (especially in economics, social science, and impact evaluation; we aim to expand this widely). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
-
-We are offering this prize to help identify work for The Unjournal: we aim to publicly evaluate 15 papers (or projects) within our pilot year.
-
-This award will honor researchers doing robust, credible, transparent work with a global impact.
-
-Research will be chosen by our management team for public evaluation (by 2-3 selected paid reviewers), based on an initial assessment of their methodological strength, openness, clarity, relevance to [global priorities](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/the-field-and-ea-gp-research/what-is-ea-gp-relevant-research), and the usefulness of further evaluation and public discussion. We sketch [these criteria here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/policies-and-templates/considering-projects).
-
-All evaluations (including quantitative ratings) will be made public by default; however, we will consider ‘embargos’ on this for researchers with sensitive career concerns (the linked form asks about this). **Note that submitting your work to the Unjournal does not imply ‘publishing it’: you can submit it to any journal before, during, or after this.**
-
-_(Note: If we choose not to send your work out to reviewers, we will try to at least offer some brief private feedback.)_
-
-Our management team and advisory board will vote on the prize winners in light of the evaluations, with possible consultation of further external expertise.
-
-All work evaluated by The Unjournal will be eligible for the prize. Engagement with The Unjournal, including responding to evaluator comments, will be a factor in determining the prize winners. We also have a slight preference for giving at least one of the awards to an early-career researcher, but this need not be determinative.
-
-We especially encourage submission of research in ‘open’ formats such as hosted dynamic documents (Quarto, R-markdown, Jupyter notebooks, etc).
-
-**Deadline: 20 November (to ensure eligibility)**
+# Recap: submissions
 
 ## Details of submissions to The Unjournal
 
