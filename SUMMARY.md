@@ -1,6 +1,6 @@
 # Table of contents
 
-* [The Unjournal: Plan, writing, resources](README.md)
+* [Plan, writing, resources](README.md)
   * [Plan of action](master/plan-of-action.md)
   * [Explain/discuss/outreach](master/writings/README.md)
     * [Related articles and work](master/writings/related-articles-and-work.md)
@@ -23,9 +23,9 @@
   * [For Researchers/Authors](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md)
   * [Evaluation (refereeing)](key-issues-explanations-faq/faq-interaction/referees-evaluators.md)
   * [("Global Priorities")](key-issues-explanations-faq/faq-interaction/global-priorities.md)
-* [Policies: projects, evaluation, workflow](policies-projects-evaluation-workflow/README.md)
+* [Policies: projects, evaluation,  workflow](policies-projects-evaluation-workflow/README.md)
   * [Considering papers (projects)](policies-projects-evaluation-workflow/considering-projects/README.md)
-    * [Considering: 'direct evaluation'](policies-projects-evaluation-workflow/considering-projects/considering-direct-evaluation.md)
+    * [Discussion: 'direct eval.'](policies-projects-evaluation-workflow/considering-projects/discussion-direct-eval..md)
   * [Evaluation](policies-projects-evaluation-workflow/policies-evaluation/README.md)
     * [Choosing 'referees'](policies-projects-evaluation-workflow/policies-evaluation/choosing-referees.md)
     * [Guidelines for Evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/README.md)

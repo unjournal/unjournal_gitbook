@@ -17,7 +17,7 @@ For the papers/projects at the top of our list, **we contact the authors** **and
 However, we may change this policy going forward, particularly, to directly commission evaluations of the most relevant high-profile work in high-prestige working paper series such as [NBER](https://www.nber.org/), or work that has already published in peer-reviewed journals, but might merit further attention.
 
 {% hint style="info" %}
-We propose a possible pivot and discuss it below: [considering-direct-evaluation.md](considering-direct-evaluation.md "mention")&#x20;
+We propose a possible pivot and discuss it below: [discussion-direct-eval..md](discussion-direct-eval..md "mention")&#x20;
 {% endhint %}
 
 
