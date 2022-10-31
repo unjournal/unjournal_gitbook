@@ -6,7 +6,7 @@
    * (Alt: Project submitted independently of authors; authors asked/informed)
 2. Author completes a submission form
    * This includes a potential 'request for embargo' or other special treatment
-3. Managing Editor(s) (ME) selects projects for review (see [considering-projects.md](policies-and-templates/considering-projects.md "mention")),&#x20;
+3. Managing Editor(s) (ME) selects projects for review (see [considering-projects.md](considering-projects.md "mention")),&#x20;
    * ME fills in additional information (in same 'submission form') explaining why it's relevant, what to evaluate, etc.
    * Decides whether to grant embargo/special treatment, notes this
 4. ME assigns Handling Editor (HE) to selected project
