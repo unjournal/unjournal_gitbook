@@ -24,7 +24,7 @@ _We will try to communicate this information about each paper/project to reviewe
 
 ### Summary, why is it relevant and worth engaging with?
 
-**Consider**: Global priority importance ([what-is-ea-gp-relevant-research.md](../the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md "mention")), field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly. See our [guidelines-for-evaluators](evaluation/guidelines-for-evaluators/ "mention") for more discussion.
+**Consider**: Global priority importance ([what-is-ea-gp-relevant-research.md](../../the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md "mention")), field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly. See our [guidelines-for-evaluators](../policies-evaluation/guidelines-for-evaluators/ "mention") for more discussion.
 
 ### **Why does it need (more) review, and what are some key issues and claims to vet?**
 
@@ -56,12 +56,22 @@ _We are considering the following pivot_
 >
 > 3.  Notify the work's authors that The Unjournal plans to commission evaluations. Not 'asking for permission' but...&#x20;
 >
->     * Making them aware of The Unjournal, the process, the[ benefits to authors](../key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal), and their opportunities to engage with the evaluation, and publicly respond to the evaluation before it is made public
+>     * Making them aware of The Unjournal, the process, the[ benefits to authors](../../key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal), and their opportunities to engage with the evaluation, and publicly respond to the evaluation before it is made public
 >     * Letting the authors complete our forms, if they wish to, giving some further information about the paper/project and, e.g., a 'permalink' to updates
->     * Asking if there are authors in sensitive career positions justifying a [temporary 'embargo](../key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#conditional-embargo)',
+>     * Asking if there are authors in sensitive career positions justifying a [temporary 'embargo](../../key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#conditional-embargo)',
 >     * Asking the authors if there is specific feedback they would like to receive
 >
 >
 > 4. Reaching out to and commissioning evaluators, as in our regular process. _Considerations_:
 >    * These evaluators will be notified that the authors have not directly requested this review but they are informed it is happening. We suspect this will tend to drive evaluators to prefer to remaining anonymous.
 >    * As this will allow us to consider a larger set of papers more quickly, we can reach out to multiple evaluators more efficiently.   &#x20;
+
+_The case for the pivot proposed above:_
+
+1. Working papers (especially NBER) are already influencing policy and debate; yet they have not been peer-reviewed, and may take years to go through this process, if ever (e.g., many NBER papers[ are never published in peer-reviewed journals](https://bldavies.com/blog/publication-outcomes-nber-working-papers/)). However it is difficult to understand their limitation unless you happen to have attended an academic seminar where these have been presented. Evaluating these publicly will provide a service
+   * Specifically for NBER: This working paper series is highly influential and relied on by policy makers and policy journalists. It is an elite outlet: only members of NBER are able to post working papers here. [Membership is prestigious and available only by invitation.](https://economistwritingeveryday.com/2022/05/02/lets-talk-about-the-nber/)&#x20;
+2. &#x20;There may be some shyness or reluctance to participate in The Unjournal evaluation process (see our [benefits to authors](../../key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) discussion).  It is scary to be a first mover, and it may feel unfair to be among the few people to have an evaluation of your work out there in public (in spite of the Bayesian arguments presented in the previous link).&#x20;
+3. Academics (especially early-career) may also worry that they will seem weird or rebellious by submitting to The Unjournal and that this may be taken as 'rejecting mainstream system norms'. This will be less of a problem if a large number substantial number of prominent papers have already been evaluated publicly by The Unjournal. You will be 'in good company'. Furthermore, if we are simply identifying papers for evaluation, the authors of these papers cannot be seen as 'rebelling' as they did not choose this,&#x20;
+
+
+
