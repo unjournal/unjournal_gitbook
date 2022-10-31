@@ -7,6 +7,7 @@
     * [Marketing/outreach texts](master/writings/marketing-and-outreach.md)
   * [CtA: participants, research](readme/call-for-participants-research/README.md)
     * [Brief version of call](readme/call-for-participants-research/brief-version-of-call.md)
+    * [Unjournal: Impactful Research Prize](readme/call-for-participants-research/unjournal-impactful-research-prize.md)
   * [Our team, discussion](master/discussion-team/README.md)
     * ["Who are we/our team"](readme/discussion-team/who-are-we-our-team/README.md)
       * [Reinstein's story in brief](readme/discussion-team/who-are-we-our-team/reinsteins-story-in-brief.md)
