@@ -8,10 +8,10 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 * [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology, has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 * [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph
 * [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE
-* [Clare Conry-Murray](https://clareconrymurray.com), Associate Professor of Psychology at Saint Joseph’s University, also on the board of the Society for the Improvement of Psychological Science (SIPS) and an Associate Editor at Collabra (open access journal)
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University&#x20;
 * [Hansika Kapoor](https://www.hansikakapoor.in), Research Author at the Department of Psychology, Monk Prayogshala
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
+* [Kris Gulati](https://sites.google.com/view/kris-gulati/home), Economics PhD student at the University of California, Merced
 
 
 
