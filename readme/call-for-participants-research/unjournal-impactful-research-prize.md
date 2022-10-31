@@ -15,6 +15,8 @@ To be eligible for the prize, please submit a link to your work for public evalu
 * Please choose “new submission”, “Submit a URL instead.”&#x20;
 * That link requires an ORCID ID; if you prefer, you can email your submission to theunjournal@gmail.com
 
+
+
 The "Unjournal" (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future)) organizes and funds public journal-independent feedback and evaluation. We will focus on research that is highly relevant to global priorities (especially in economics, social science, and impact evaluation; we aim to expand this widely). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 We are offering this prize to help identify work for The Unjournal: we aim to publicly evaluate 15 papers (or projects) within our pilot year.
@@ -23,9 +25,9 @@ This award will honor researchers doing robust, credible, transparent work with 
 
 Research will be chosen by our management team for public evaluation (by 2-3 selected paid reviewers), based on an initial assessment of their methodological strength, openness, clarity, relevance to [global priorities](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/the-field-and-ea-gp-research/what-is-ea-gp-relevant-research), and the usefulness of further evaluation and public discussion. We sketch [these criteria here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/policies-and-templates/considering-projects).
 
-All evaluations (including quantitative ratings) will be made public by default; however, we will consider ‘embargos’ on this for researchers with sensitive career concerns (the linked form asks about this). Note that submitting your work to the Unjournal does not imply ‘publishing it’: you can submit it to any journal before, during, or after this.
+All evaluations (including quantitative ratings) will be made public by default; however, we will consider ‘embargos’ on this for researchers with sensitive career concerns (the linked form asks about this). **Note that submitting your work to the Unjournal does not imply ‘publishing it’: you can submit it to any journal before, during, or after this.**
 
-(Note: If we choose not to send your work out to reviewers, we will try to at least offer some brief private feedback.)
+_(Note: If we choose not to send your work out to reviewers, we will try to at least offer some brief private feedback.)_
 
 Our management team and advisory board will vote on the prize winners in light of the evaluations, with possible consultation of further external expertise.
 
@@ -35,7 +37,7 @@ We especially encourage submission of research in ‘open’ formats such as hos
 
 **Deadline: 20 November (to ensure eligibility)**
 
-### Details of submissions to The Unjournal
+## Details of submissions to The Unjournal
 
 Note: this section largely repeats content in our [guide for Researchers/Authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), esp. our [FAQ ‘why engage’ ](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/faq-interaction/for-researchers-authors#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
 
@@ -43,7 +45,7 @@ The "Unjournal" will organize and fund public journal-independent feedback and e
 
 For more information about The Unjournal, [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/) is the link to our Gitbook.&#x20;
 
-#### What we are looking for&#x20;
+### What we are looking for&#x20;
 
 We describe the nature of the work we are looking to evaluate in our Gitbook, and we give some examples in the [forum post HERE](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_). We currently have an ongoing pilot of four papers; however, we are looking for more research to evaluate. If you are interested in submitting your work for public evaluation, we are looking for research which is relevant to **global priorities, especially quantitative social sciences, and impact evaluations. Work that would benefit from further feedback and evaluation is also of interest.**
 
@@ -57,7 +59,7 @@ Please note that you will require an ORCID account in order to log in. If you do
 
 If you would like to submit more than one of your papers, you will need to complete a new form for each paper you submit.&#x20;
 
-#### Conditional embargo on the publishing of evaluations&#x20;
+### Conditional embargo on the publishing of evaluations&#x20;
 
 By default, we would like Unjournal evaluations to be made public. Please see [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/key-issues-explanations-faq/faq-interaction/for-researchers-authors) as to why we think public evaluations are generally good for authors. However, in special circumstances, and particularly for very early-career researchers, we may make exceptions.&#x20;
 
@@ -65,7 +67,7 @@ If there is an early-career researcher on the author team, we will allow authors
 
 If you would like to request an exception to a public evaluation, you will have the opportunity to explain your reasoning in the submission form.&#x20;
 
-#### Why might an author want to engage with The Unjournal?&#x20;
+### Why might an author want to engage with The Unjournal?&#x20;
 
 1. **Substantive feedback** will help you improve your work, especially useful for young scholars.&#x20;
 2. **Ratings = Markers of credibility for your work** that could help your career advancement at least at the margin, and hopefully in the future help a great deal. The opportunity to **publicly respond to critiques and correct misunderstandings.**&#x20;
@@ -76,7 +78,7 @@ If you would like to request an exception to a public evaluation, you will have 
 7. Entering ‘into our system’ will make you **more likely to be hired** as a paid reviewer or editorial manager.&#x20;
 8. We will encourage **media coverage**.&#x20;
 
-#### What we might ask of authors&#x20;
+### What we might ask of authors&#x20;
 
 If we consider your work for public evaluation, we may ask for **some** of the below, but these are mainly optional. We will aim to make this very **light touch** for authors.&#x20;
 
