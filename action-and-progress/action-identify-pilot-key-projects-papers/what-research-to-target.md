@@ -8,7 +8,7 @@ _See discussion in public call/EA forum discussion:_
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
-Private discussion [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)__
+Private discussion of specific papers [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit) (management only)
 
 {% hint style="info" %}
 _Excerpt:_
