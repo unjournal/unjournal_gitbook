@@ -49,7 +49,7 @@ _The biggest personal gains for authors are:_
 5. **Visibility** and a connection to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups.&#x20;
 6. Gain a reputation as an ‘**early adopter and innovator**’ in open science.
 7. **Prizes:** You may win a “best project prize,” which could be financial as well as reputational.
-8. Entering ‘into our system’ will make you more likely to be hired as a paid reviewer or editorial manager.&#x20;
+8. 'Entering our system’ makes you more likely to be hired as a paid reviewer or editorial manager.&#x20;
 9. We will encourage **media coverage**, including ‘forwarding’ some work to the [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk) journal for future coverage (with compensation to those doing the writing).
 
 <details>
@@ -66,7 +66,7 @@ You may have 'used up' the good journals in your field, or otherwise 'fallen thr
 
 </details>
 
-## **Is it ‘risky’ to make your work public, and to have it reviewed in the Unjournal?**
+## **Is it ‘risky’ to have your work evaluated in The Unjournal?**
 
 There are risks and rewards to any activity of course, and we cannot predict the consequences of any given action. We consider some ‘risks’ you may weigh against the benefits mentioned above.
 
@@ -95,20 +95,20 @@ Thus, ‘getting public mixed and negative feedback’ in the Unjournal (or anyw
 
 Also there are certainly benefits to having your work in the Unjournal. First of all, your willingness to engage with this shows that you have confidence in your work and are willing to back it in public. Secondly, the Unjournal will give authors a place to publicly respond to the critiques, to improve your work, and show how it has improved. Through the internal, you may also have a chance for a second evaluation of the same project after iterations and improvements. These are all major advantages over the traditional journal route, where you essentially start over with each new submission, and new referees may overlook the same point and have the same misunderstandings each time.
 
-_Nonetheless, w_e are planning some exceptions for early-career researchers, in some cases _not publicly revealing_ negative reviews and evaluations of work (and informing referees of this in advance).
+_Nonetheless, w_e are planning some exceptions for early-career researchers, in some cases _not publicly revealing_ negative evaluations of work (and informing referees of this in advance).
 
 ### **Backlash against innovation or ‘seeming weird’**
 
-Although the process is unusual, the Unjournal is not such a weird concept: we are providing evaluation and feedback on research, largely with standard metrics, and simply not tying it to journals.
+Although the process is unusual, the Unjournal is not a weird concept: we are providing evaluation and feedback on research, largely with standard metrics, and simply not tying it to journals.
 
 ### **Could our reviews tend to 'hurt papers more than help them' ?**
 
-Unjournal evaluations should be seen as signals of research quality. Like all such signals, they are noisy. But authors might worry that "a bad signal will hurt a lot, and a good signal will only help a little".
+Unjournal evaluations should be seen as signals of research quality. Like all such signals, they are noisy. But authors may worry "a bad signal will hurt a lot, and a good signal will only help a little".
 
 _Arguments against this:_ Unbiased informational signals won't systematically lead to updates in one direction. Fancy ways of saying this and related concepts: [Martingales](https://galton.uchicago.edu/\~lalley/Courses/313/Martingales.pdf), [Conservation of Expected Evidence](https://www.lesswrong.com/tag/conservation-of-expected-evidence), Rational Expectations, the Law of Iterated Expectations.
 
 In other words, people will take this into account. If a reviewer evaluates a paper without much information on how others rate it, they might _suspect_ that there have been some substantial and important criticisms, and that the paper has flaws. This is particularly the case if it has been around a while, they are submitting to a second-tier journal, etc.&#x20;
 
-On the other hand, if I see that the author has submitted it to a transparent assessment service like the Unjournal, particularly if the author has submitted a lot of his or her work to this sort of public scrutiny, I will update positively, all else being equal. The author has demonstrated that they are not afraid of public feedback and openness. I will consider the public critiques, of course, but I will take into account that this paper has been held up to more scrutiny than other work I might have seen.
+On the other hand, if I see that the author has submitted it to a transparent assessment service like the Unjournal, particularly if the author has submitted a lot of his or her work to this sort of public scrutiny, I will update positively, all else being equal. The author has demonstrated they are not afraid of public feedback and openness. I will consider the public critiques, of course, but I will take into account that this paper has been held up to more scrutiny than other work I might have seen.
 
 Of course one cannot rule out that a negative evaluation will harm a paper's reputation, or its 'publication chances' in any particular instance. I just don't expect this to occur _systematically._  If getting any public feedback was so damaging, why would academics be eager to present their work at seminars and conferences?

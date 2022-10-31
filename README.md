@@ -21,7 +21,7 @@ _**Other key internal links:**_** **&#x20;
 
 _We are not a journal!_
 
-The Unjournal (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will [focus on work](policies-projects-evaluation-workflow/policies-and-templates/considering-projects.md) that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+The Unjournal (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will [focus on work](policies-projects-evaluation-workflow/considering-projects/) that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 _**Why**? Peer review is great,_ but academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
 
@@ -73,12 +73,15 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 ## Sections
 
 * [plan-of-action.md](master/plan-of-action.md "mention"): My (David Reinstein's) proposed 'best feasible plan' for what we (at RP and fellow travelers) should do right now and going forward to make this happen. I will continue to update this as things develop.
-* Specific "Action steps" taken, in progress, and under discussio:
+* [writings](master/writings/ "mention"): Several versions of the main points, written for a few different audiences.
+* [benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
+* [faq-interaction](key-issues-explanations-faq/faq-interaction/ "mention")... for authors, evaluators, etc.
+* Our [policies-projects-evaluation-workflow](policies-projects-evaluation-workflow/ "mention")...
+* Specific "Action steps" taken, in progress, and under discussiom:
   * [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention")
   * [action-overall-scoping.md](the-field-and-ea-gp-research/action-overall-scoping.md "mention")
-* [writings](master/writings/ "mention"): Several versions of the main points, written for a few different audiences.
 * [grants-and-proposals](grants-and-proposals/ "mention"): The ACX proposal, other applications, EA initiatives
-* [Broken link](broken-reference "mention"): What we propose, why we need this, why we can succeed
+* [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
 * [the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
 
 {% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.g15b6b3080d0_0_52" %}
