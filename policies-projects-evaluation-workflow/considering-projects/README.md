@@ -2,9 +2,7 @@
 
 ## Submission/evaluation funnel
 
-26 Oct 2022:  As we are paying evaluators and have limited funding, we cannot evaluate every paper/project.&#x20;
-
-So far, **papers have come into our database** through&#x20;
+As we are paying evaluators and have limited funding, we cannot evaluate every paper/project. Through October 2022, **papers have come into our database** (and will continue to do so) through&#x20;
 
 1. Submission by authors
 2. Our own searches (e.g., searching syllabi, forums, working paper archives and white papers)
@@ -12,12 +10,16 @@ So far, **papers have come into our database** through&#x20;
 
 Our management team **rates the suitability of each paper** according to criteria discussed below and [in the aforementioned linked post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see). \
 \
-For the papers/projects at the top of our list, **we contact the authors** **and ask if they are willing to engage.** We have only pursued papers where the authors give approval.  ****  We are not required to ask authors for permission, but we hope this generates goodwill and higher-value engagement.&#x20;
-
-However, we may change this policy going forward, particularly, to directly commission evaluations of the most relevant high-profile work in high-prestige working paper series such as [NBER](https://www.nber.org/), or work that has already published in peer-reviewed journals, but might merit further attention.
+Through October 2022: For the papers/projects at the top of our list, we have contacted the authors and asked if they wanted to engage, and only pursued it further if they agreed.
 
 {% hint style="info" %}
-We propose a possible pivot and discuss it below: [discussion-direct-eval..md](discussion-direct-eval..md "mention")&#x20;
+_2 Nov 2022 update_ – We are opening a **second track.** We plan to follow a different procedure for particularly relevant [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers.&#x20;
+
+We will choose the most relevant papers in this prestigious series (in certain categories, and with certain restrictions). We will _inform_ these papers' authors when we have decided to commission these for evaluation. We will give the authors the opportunity to respond and engage, including (as usual) the opportunity to ask for a temporary embargo for sensitive career issues, and the opportunity to respond to the evaluation before it is published. \
+\
+We discuss this further below, explaining the reasoning behind it. (See [discussion-direct-eval..md](discussion-direct-eval..md "mention"))
+
+
 {% endhint %}
 
 

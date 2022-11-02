@@ -2,7 +2,7 @@
 
 ## **Why numerical ratings?**
 
-Ultimately, we're trying to replace ‘ what tier of journal did a paper get into?' with 'how highly was the paper rated’? I think this is a more valuable metric, more fine-grained, and less prone to gaming and to the randomness of things like “availability of journal space in a particular field”. See our discussion of [costs-of-playing-the-publication-game.md](../../../key-issues-explanations-faq/benefits-and-features/costs-of-playing-the-publication-game.md "mention")"
+Ultimately, we're trying to replace ‘ what tier of journal did a paper get into?' with 'how highly was the paper rated’? I think this is a more valuable metric, more fine-grained, and less prone to gaming and to the randomness of things like “availability of journal space in a particular field”. See our discussion of [costs-of-playing-the-publication-game.md](../../../key-issues-explanations-faq/benefits-and-features/costs-of-playing-the-publication-game.md "mention").
 
 To get to this point, we need to have academia and stakeholders see our reviews as meaningful.  We want them to begin to have some value that is measurable in the way “publication in the AER”  is seen to have value. My impression is that previous and ongoing efforts towards journal-independent evaluation tend not to have comparable metrics. Typically, they either had simple ‘tick-boxes’ (like ‘this paper used correct statistical methods: yes/no’)  or enabled descriptive evaluation without an overall rating.\
 \
