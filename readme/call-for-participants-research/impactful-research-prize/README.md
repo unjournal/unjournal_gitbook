@@ -1,8 +1,3 @@
----
-cover: ../../../.gitbook/assets/UnJournal_rough_sketch_without_cursor.png
-coverY: 0
----
-
 # Impactful Research Prize
 
 **Submit your work to be eligible for the “Unjournal: Impactful Research Prize” and a range of other benefits including the opportunity for credible public evaluation and feedback.**&#x20;
