@@ -76,3 +76,18 @@ _**Response:**_ We will be careful with this. Initially, we are extending this o
 
 __\
 _**Side point**:_ in the future we hope to work directly with working paper series, associations, and research groups to get their approval and engagement with The Unjournal evaluation. We hope that "having a large share of papers in your series evaluated" will serve as a measure of confidence in your research quality. If you are involved in such a group and are interested in this, please reach out to us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)).
+
+
+
+## Choosing NBER papers: steps taken
+
+4 Nov update:&#x20;
+
+* Already-added papers from other sources (syllabi etc)&#x20;
+* Searched Rethink Priorities Zotero&#x20;
+* EA Forum: Searched ‘nber’ with ‘advanced search’; Went through 1st page, added papers that seemed meaningful (paper is relevant, NBER but not published in a prominent journal)&#x20;
+* Same but just for “Past Year” … did the first 4 pages of this&#x20;
+* Searched NBER WP series for “animal welfare”&#x20;
+* Captured the 'Topics' (NBER label) of all papers above for focusing our later search
+
+****
