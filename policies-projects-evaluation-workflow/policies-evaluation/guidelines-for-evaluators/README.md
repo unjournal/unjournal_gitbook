@@ -3,18 +3,18 @@
 {% hint style="info" %}
 _**Thanks for your interest in evaluating research for the Unjournal!**_&#x20;
 
-You will be compensated a minimum of $250 for your evaluation work, and will be eligible for financial 'best review' prizes. Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit.
+You will be compensated a minimum of $250 for your evaluation work, and will be eligible for financial 'most informative evaluation' prizes. Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit.
 
 
 
-See the guidelines below. You can submit your response **in** [**this form**](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit)**,** and share it back with us**.** (We are using a Google Doc for now, we will moving to [Kotahi](https://kotahi.community/) soon).
+See the guidelines below. You can submit your response **in** [**this form**](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit)**,** and share it back with us**.** (We are using a Google Doc for now, we hope to fully move to [Kotahi](https://kotahi.community/) soon).
 {% endhint %}
 
 <details>
 
 <summary>On payments...</summary>
 
-We aim to increase these payments going forward and are applying for funds to do this. "Pilot" reviewers will be given an extra payment for helping us evaluate the system.&#x20;
+We aim to increase these payments going forward and are applying for funds to do this. "Pilot" reviewers will be given an extra payment for helping us evaluate the system. We may occasionally offer additional payments for specifically requested evaluation tasks.
 
 </details>
 
@@ -24,11 +24,13 @@ _**How and why did we decide on these guidelines?**_ See [why-these-guidelines.m
 
 ## What we would like you to do
 
-1. _**Give quantitative metrics and predictions requested in the two tables below**_**, as appropriate**.
-2. _**Write a review**_**, approximately a ‘typical referee report’, with some specific considerations**
+1. _**Write a review:**_** a ‘standard high-quality referee report’, with some specific considerations**
+2. _**Give quantitative metrics and predictions requested in the two tables below**_**, as appropriate**. (You may want to glance at this before writing your report, to gain a sense of our priorities.)
 3. _**Answer a short questionnaire**_
 
-**In writing your review, please consider the following:**
+## Writing the report
+
+**In writing your report, please consider the following:**
 
 <details>
 
@@ -60,7 +62,7 @@ _If you have questions or clarifications about the authors’ work, you can ask 
 
 <summary>Publishing and signing reviews: considerations/exceptions</summary>
 
-We are considering the best policy towards signed reviews vs. single-blind reports; we may change this policy in the future. We are also considering the best 'single blind vs signed reviews' policies going forward. We may also make some exceptions to the public evaluations policy in the future; reviewers will be informed in advance.
+We are considering the best policy towards signed reviews vs. single-blind reports; for now we give evaluators the option to choose. We may change this policy in the future. We are also considering the best 'single blind vs signed reviews' policies going forward. We may also make some exceptions to the public evaluations policy in the future; reviewers will be informed in advance.
 
 * We give early-career researchers the right to veto the publication of very negative reviews, but we will inform you in advance if this is the case.&#x20;
 
@@ -73,6 +75,24 @@ We are considering the best policy towards signed reviews vs. single-blind repor
 {% hint style="info" %}
 _Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
 {% endhint %}
+
+### A **‘standard high-quality referee report'**
+
+We are generally asking for a ‘standard high-quality referee report’ here; the sort of report an academic would write for a traditional high-prestige journal. (David Reinstein: Here, I am thinking of the process in economics, the field I am most familiar with.) See [#guides-to-writing-referee-reports-resources-and-benchmarks](./#guides-to-writing-referee-reports-resources-and-benchmarks "mention") for general guidelines.
+
+We are asking for this, subject to some differences in priorities, which we discuss below, and subject to any particular requests the managing editor may communicate to you.&#x20;
+
+
+
+**Length and time spent:** This is of course, up to you. We welcome detail, elaboration, and technical discussion.&#x20;
+
+<details>
+
+<summary>Length and time: possible benchmarks</summary>
+
+&#x20;[The Econometrics society](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees) recommends a 2-3 page referee report;  [Berk et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231) suggest this is relatively short but that brevity is desirable . [In a recent survey (Charness et al, 2022)](https://evalresearch.weebly.com/report---full-text.html), economists report spending (median and mean) about one day per report, with substantial shares reporting ‘half a day’ and ‘two days’. We expect that that reviewers tend spend more time on papers for high-status journals, and when reviewing work closely tied to their own agenda.
+
+</details>
 
 ## Metrics: overall assessment, categories
 
@@ -423,22 +443,23 @@ _Optional_
 **Remember**: The Unjournal doesn’t “publish” and doesn’t “accept or reject”. So don’t give an “Accept, Revise and Resubmit, Reject, etc. ” recommendation. We just want quantitative metrics, some written feedback, and some relevant discussion.
 {% endhint %}
 
-<details>
+## Guides to writing referee reports; resources and benchmarks
 
-<summary>Some other resources/guides to writing referee reports</summary>
+**Economics**\
+[Econometric Society: Guidelines for referees ](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees)
 
-[The Wiley Online Library](https://authorservices.wiley.com/Reviewers/journal-reviewers/how-to-perform-a-peer-review/step-by-step-guide-to-reviewing-a-manuscript.html) (Conventional, general)
+[How to Write an Effective Referee Report and Improve the Scientific Review Process (Berk et al, 2017)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231)
+
+Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness et al 2022)](https://evalresearch.weebly.com/uploads/1/3/3/4/133478410/improving\_peer\_review\_in\_economics\_-\_charness\_et\_al..pdf)
+
+****
+
+**Open Science**
 
 [PLOS](https://plos.org/resource/how-to-write-a-peer-review/) (Conventional but open access, simple and brief)
 
-[Peer Community In... Questionnaire ](https://peercommunityin.org/2022/05/20/questionnaire-for-reviewers/)(Open-science-aligned)
+[Peer Community In... Questionnaire ](https://peercommunityin.org/2022/05/20/questionnaire-for-reviewers/)(Open-science-aligned, perhaps less detail-oriented than we are aiming for)
 
 [Open Reviewers Reviewer Guide ](https://zenodo.org/record/5484087)(Journal-independent “Pre-review”; detailed, targets ECRs)
 
-</details>
-
-
-
-### Form (as embedded Gdoc)
-
-{% embed url="https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit" %}
+****
