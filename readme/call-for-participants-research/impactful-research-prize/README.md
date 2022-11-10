@@ -8,11 +8,13 @@ Second prize: $1000&#x20;
 
 _Note: these are the minimum amounts; we will increase these if funding permits._
 
-_Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by The Unjournal,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon_ ](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)  _(EAecon  has also contributed $500 towards this prize.)_
+_Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by The Unjournal,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon._](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)__
+
+## __<img src="../../../.gitbook/assets/image (6).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (2).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (1).png" alt="" data-size="line">__
 
 _Update 27-11-22: We are arranging the details and additional co-hosts for this)._
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-11-08 at 11.12.13.png" alt=""><figcaption></figcaption></figure>
+****
 
 **To be eligible for the prize,** please submit a link to your work for public evaluation [here](https://unjournaldev.cloud68.co/login).&#x20;
 
