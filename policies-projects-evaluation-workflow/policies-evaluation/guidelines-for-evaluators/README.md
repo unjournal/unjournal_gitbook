@@ -184,7 +184,7 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 
 2 = Not very confident: 90% confidence interval, +/- 25 points or less
 
-1 = Not confident: (90% confidence interval +/- 25 points)\
+1 = Not confident: (90% confidence interval +/- more than 25 points)\
 
 
 Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example in the diagram below (click to zoom**)** illustrates the proposed correspondence.
