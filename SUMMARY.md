@@ -31,6 +31,7 @@
     * [Guidelines for Evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/README.md)
       * [Why these guidelines?](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/why-these-guidelines.md)
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)
+  * ['Why pay evaluators (reviewers)'?](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md)
   * [Mapping workflow/process](policies-projects-evaluation-workflow/mapping-workflow-process.md)
 * [Action and progress](action-and-progress/README.md)
   * [Build founding committee](action-and-progress/action-build-founding-committee.md)
