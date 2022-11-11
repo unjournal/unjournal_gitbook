@@ -19,7 +19,7 @@
   * ['Living research projects'](key-issues-explanations-faq/benefits-and-features/living-research-projects.md)
   * [Multiple dimensions of feedback](key-issues-explanations-faq/benefits-and-features/multiple-dimensions-of-meaningful-feedback.md)
   * [The File Drawer Effect (Article)](https://inandsight.science/journal/papers/619389c04db9cf001cb601bc#reviews)
-* [FAQ](key-issues-explanations-faq/faq-interaction/README.md)
+* [FAQ (for authors & evaluators)](key-issues-explanations-faq/faq-interaction/README.md)
   * [For Researchers/Authors](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md)
   * [Evaluation (refereeing)](key-issues-explanations-faq/faq-interaction/referees-evaluators.md)
   * [("Global Priorities")](key-issues-explanations-faq/faq-interaction/global-priorities.md)
