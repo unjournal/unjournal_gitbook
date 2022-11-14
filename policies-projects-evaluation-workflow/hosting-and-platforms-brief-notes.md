@@ -8,7 +8,9 @@
 
 ### Host for Kotahi: Cloud68
 
-Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if they are not logged in) \
+Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if they are not logged in)&#x20;
+
+Also make thethis: unjournalplatform.org\
 \
 14 Nov 2022-- the login page it is taking people to the wrong place for now
 
@@ -25,7 +27,7 @@ _This is essentially a workaround database_
 
 ## Main public curated space: Sciety.org
 
-_We've applied for a group:_&#x20;
+_We've applied for a group: (can we get unjournal.org to redirect here?)_
 
 {% embed url="https://sciety.org/groups" %}
 \\
