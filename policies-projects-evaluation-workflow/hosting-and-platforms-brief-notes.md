@@ -10,7 +10,7 @@
 
 Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if they are not logged in)&#x20;
 
-Also make thethis: unjournalplatform.org\
+Also, change this to: unjournalplatform.org\
 \
 14 Nov 2022-- the login page it is taking people to the wrong place for now
 
@@ -18,7 +18,7 @@ Also make thethis: unjournalplatform.org\
 
 ## Output from evaluations goes to...&#x20;
 
-&#x20;gets into a single hypothes.is account: [https://hypothes.is/users/TheUnjournal\
+&#x20;Gets into a single hypothes.is account: [https://hypothes.is/users/TheUnjournal\
 ](https://hypothes.is/users/TheUnjournal)
 
 _This is essentially a workaround database_
@@ -28,6 +28,8 @@ _This is essentially a workaround database_
 ## Main public curated space: Sciety.org
 
 _We've applied for a group: (can we get unjournal.org to redirect here?)_
+
+_Expected to be ready in early December 2022.,_
 
 {% embed url="https://sciety.org/groups" %}
 \\
