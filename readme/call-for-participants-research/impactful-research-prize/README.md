@@ -14,14 +14,18 @@ _Prize winners will have the opportunity (but not the obligation) to present the
 
 _Update 27-11-22: We are arranging the details and additional co-hosts for this)._
 
-****
+{% hint style="info" %}
 
-**To be eligible for the prize,** please submit a link to your work for public evaluation [here](https://unjournaldev.cloud68.co/login).&#x20;
+
+**To be eligible for the prize,** submit a link to your work for public evaluation [**HERE**](https://unjournaldev.cloud68.co/login).&#x20;
 
 * Please choose “new submission”, “Submit a URL instead.”&#x20;
 * That link requires an ORCID ID; if you prefer, you can email your submission to [theunjournal@gmail.com](mailto:theunjournal@gmail.com)
 
-> The "Unjournal" (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future)) organizes and funds public journal-independent feedback and evaluation. We will focus on research that is highly relevant to global priorities (especially in economics, social science, and impact evaluation; we aim to expand this widely). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+
+{% endhint %}
+
+The "Unjournal" (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future)) organizes and funds public journal-independent feedback and evaluation. We will focus on research that is highly relevant to global priorities (especially in economics, social science, and impact evaluation; we aim to expand this widely). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 We are offering this prize to help identify work for The Unjournal: we aim to publicly evaluate 15 papers (or projects) within our pilot year. This award will honor researchers doing robust, credible, transparent work with a global impact. We especially encourage submission of research in ‘open’ formats such as hosted dynamic documents (Quarto, R-markdown, Jupyter notebooks, etc).
 
