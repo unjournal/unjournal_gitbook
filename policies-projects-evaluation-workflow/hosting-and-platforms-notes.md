@@ -1,4 +1,4 @@
-# Hosting and platforms (brief notes)
+# Hosting & platforms (notes)
 
 ## Editorial management and paper intake: Kotahi
 
@@ -10,9 +10,9 @@
 
 Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if they are not logged in)&#x20;
 
-Also, change this to: unjournalplatform.org\
+Will change this to: unjournalplatform.org\
 \
-14 Nov 2022-- the login page it is taking people to the wrong place for now
+14 Nov 2022-- the login page is taking people to the wrong place for now
 
 
 
