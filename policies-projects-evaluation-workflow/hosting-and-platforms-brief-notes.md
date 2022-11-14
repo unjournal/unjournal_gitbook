@@ -29,7 +29,7 @@ _This is essentially a workaround database_
 
 _We've applied for a group: (can we get unjournal.org to redirect here?)_
 
-_Expected to be ready in early December 2022.,_
+_Expected to be ready in early December 2022._
 
 {% embed url="https://sciety.org/groups" %}
 \\
