@@ -14,6 +14,8 @@ _Prize winners will have the opportunity (but not the obligation) to present the
 
 _Update 27-11-22: We are arranging the details and additional co-hosts for this)._
 
+_Update_ 19 Nov 2022: _Deadline extended until 5 December_
+
 {% hint style="info" %}
 
 
@@ -37,7 +39,9 @@ All work evaluated by The Unjournal will be eligible for the prize. Engagement w
 
 Our management team and advisory board will vote on the prize winners in light of the evaluations, with possible consultation of further external expertise.
 
-**Deadline:** 20 November (to ensure eligibility)
+**Deadline:** ~~20 November~~ extended until 5 December e(to ensure eligibility)
+
+
 
 _Note: In a subsection below (_[recap-submissions.md](recap-submissions.md "mention"))_, we recap the basics of submissions to The Unjournal._
 
