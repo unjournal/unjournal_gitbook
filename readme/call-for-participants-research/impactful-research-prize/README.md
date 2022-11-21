@@ -39,7 +39,7 @@ All work evaluated by The Unjournal will be eligible for the prize. Engagement w
 
 Our management team and advisory board will vote on the prize winners in light of the evaluations, with possible consultation of further external expertise.
 
-**Deadline:** ~~20 November~~ extended until 5 December e(to ensure eligibility)
+**Deadline:** ~~20 November~~ extended until 5 December (to ensure eligibility)
 
 
 
