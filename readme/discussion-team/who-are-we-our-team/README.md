@@ -27,8 +27,6 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Jonathan Berman](https://www.london.edu/faculty-and-research/faculty-profiles/b/berman-j-z-1), Associate Professor of Marketing at the London Business School
 
-\*(Gelman)
-
 __\
 __**Early/mid-career**
 
@@ -36,10 +34,9 @@ __**Early/mid-career**
 
 [Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi), Post-Doctoral Researcher in the Department of Quantitative Methods and Economic Theory at the University of Chieti&#x20;
 
-[Sam Abbott](https://samabbott.co.uk), Infectious Disease Researcher at the London School of Hygiene and Tropical Medicine\
-****
+[Sam Abbott](https://samabbott.co.uk), Infectious Disease Researcher at the London School of Hygiene and Tropical Medicine
 
-_18 Jul 2022: Adding more now_
+[Conor Hughes](https://pop.umn.edu/people/conor-hughes), __ PhD Student, Applied Ecoomics, University of Minnesota
 
 __
 
@@ -56,6 +53,8 @@ Attended first meeting:&#x20;
 * [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan)
 * [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett)
 * [David Rhys-Bernard](https://davidrhysbernard.com)
+* [Brian Nosek](https://www.projectimplicit.net/nosek/)
+* [Ted Miguel](http://emiguel.econ.berkeley.edu/)
 
 As well as...
 
