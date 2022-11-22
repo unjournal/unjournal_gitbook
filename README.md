@@ -29,7 +29,7 @@ _**We will do this through:**_
 
 * Identifying relevant research work, **to be hosted on any open platform** in any format that can gain a time-stamped DOI.
   * Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science.
-  * _Update_ Nov 2022: we will _also_ directly evaluate high-impact work in high profile series, starting with [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date). See discussion &#x20;
+  * _Update_ Nov 2022: we will _also_ directly evaluate high-impact work in the high-profile [NBER  ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series. See  [discussion-direct-eval..md](policies-projects-evaluation-workflow/considering-projects/discussion-direct-eval..md "mention")
 * **Paying reviewers to evaluate and give careful feedback on this work.** We will elicit _quantifiable and comparable_ metrics of research quality as **credible measures of value**.
   * Reviews (or 'evaluations' will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
 * _Linking_ work but not 'publishing it'.
@@ -40,11 +40,11 @@ _**We will do this through:**_
 
 <details>
 
-<summary>This is not an original idea, and there are others in this 'space'...</summary>
+<summary>This is not an original idea, and there are others in this 'space', but...</summary>
 
 For example, this proposal is closely related to Elife's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research). (However, we cover a different research focus, and make some different choices, discussed below.)\
 \
-We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this (and funding people to do peer review/evaluation) in this particular research area, with this particular focus.
+We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this particular research area/focus. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/ "mention")).
 
 </details>
 
