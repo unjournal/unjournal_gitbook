@@ -7,7 +7,7 @@ description: >-
 
 # Plan, writing, resources
 
-_**Widely shared link to this space:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)_; this link is widely shared_
+_**Widely shared link to this space:**_ [_bit.ly/eaunjournal_](https://bit.ly/eaunjournal)__
 
 _**Other key internal links:**_** **&#x20;
 
@@ -50,10 +50,10 @@ We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-i
 
 ## **This 'gitbook'** ...
 
-_organizes ideas and resources to achieve the twin goals of:_
+_Organizes ideas and resources, and tracks our progress towardsThe Unjournal's twin goals of:_
 
 1. ‘Peer evaluation and rating’ of open projects (instead of conventional 0/1 publishing of frozen pdf's) becoming a standard 'high status' outcome in academia/research, especially in economics and social sciences
-2. Creating and coalescing around an efficient system for 'publishing', gaining credibility, and getting feedback for effective altruism and global-priorities-aligned research
+2. Creating and coalescing around an efficient system for 'publishing', gaining credibility, and getting feedback for effective altruism and global-priorities-aligned research (_Making rigorous research more impactful, and impactful research more rigorous_)
 
 <details>
 
@@ -71,10 +71,10 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 
 </details>
 
-## Sections
+## Sections/subsections
 
-* [plan-of-action.md](master/plan-of-action.md "mention"): My (David Reinstein's) proposed 'best feasible plan' for what we (at RP and fellow travelers) should do right now and going forward to make this happen. I will continue to update this as things develop.
-* [writings](master/writings/ "mention"): Several versions of the main points, written for a few different audiences.
+* [plan-of-action.md](master/plan-of-action.md "mention"): A 'best feasible plan' for going forward
+* [writings](master/writings/ "mention"): Writeups of the main points; for a few different audiences.
 * [benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
 * [faq-interaction](key-issues-explanations-faq/faq-interaction/ "mention")... for authors, evaluators, etc.
 * Our [policies-projects-evaluation-workflow](policies-projects-evaluation-workflow/ "mention")...
