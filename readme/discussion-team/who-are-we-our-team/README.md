@@ -40,11 +40,11 @@ __**Early/mid-career**
 
 __
 
-Attended first meeting:&#x20;
+_Attended first meeting:_&#x20;
 
 [Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto.
 
-\*[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
+[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
 
 ## Also consulted with:
 
