@@ -38,6 +38,8 @@ __**Early/mid-career**
 
 [Conor Hughes](https://pop.umn.edu/people/conor-hughes), __ PhD Student, Applied Ecoomics, University of Minnesota
 
+[Jana Lasser, ](https://www.janalasser.at/)Postdoctoral researcher, Institute for Interactive Systems and Data Science at Graz University of Technology
+
 __
 
 _Attended first meeting:_&#x20;
