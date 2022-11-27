@@ -2,7 +2,7 @@
 
 * [Plan, writing, resources](README.md)
   * [Plan of action](master/plan-of-action.md)
-  * [Explain/discuss/outreach](master/writings/README.md)
+  * [Explanations & outreach](master/writings/README.md)
     * [Related articles and work](master/writings/related-articles-and-work.md)
     * [Marketing/outreach texts](master/writings/marketing-and-outreach.md)
   * [Call: participants, research](readme/call-for-participants-research/README.md)
