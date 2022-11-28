@@ -27,7 +27,7 @@
   * [Considering papers (projects)](policies-projects-evaluation-workflow/considering-projects/README.md)
     * [Discussion: 'direct eval.'](policies-projects-evaluation-workflow/considering-projects/discussion-direct-eval..md)
   * [Evaluation](policies-projects-evaluation-workflow/policies-evaluation/README.md)
-    * [Choosing evaluators](policies-projects-evaluation-workflow/evaluation/choosing-evaluators/README.md)
+    * [Choosing evaluators](policies-projects-evaluation-workflow/evaluation/choosing-evaluators.md)
       * [Avoiding COI](policies-projects-evaluation-workflow/evaluation/choosing-evaluators/avoiding-coi.md)
     * [Guidelines for Evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/README.md)
       * [Why these guidelines?](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/why-these-guidelines.md)
