@@ -4,5 +4,5 @@ description: See sections below
 
 # Evaluation
 
-[choosing-evaluators.md](../evaluation/choosing-evaluators.md "mention")\
+[choosing-evaluators](../evaluation/choosing-evaluators/ "mention")\
 [guidelines-for-evaluators](guidelines-for-evaluators/ "mention")
