@@ -40,6 +40,8 @@ __**Early/mid-career**
 
 [Jana Lasser, ](https://www.janalasser.at/)Postdoctoral researcher, Institute for Interactive Systems and Data Science at Graz University of Technology
 
+[Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor @ Asterisk Mag, Writing and Research on Global Health, Development, and Nutrition
+
 __
 
 _Attended first meeting:_&#x20;
