@@ -4,7 +4,7 @@
 
 {% embed url="https://unjournaldev.cloud68.co/login" %}
 
-14 Nov 2022: For now, only managers/editors and authors will interact with this page. We plan to adapt it be the interface for evaluations as well.&#x20;
+14 Nov 2022: For now, only managers/editors and authors will interact with this page. We plan to adapt it to become the interface for evaluations as well.&#x20;
 
 ### Host for Kotahi: Cloud68
 
