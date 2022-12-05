@@ -14,7 +14,9 @@ _Prize winners will have the opportunity (but not the obligation) to present the
 
 _Update 27-11-22: We are arranging the details and additional co-hosts for this)._
 
-_Update_ 19 Nov 2022: _Deadline extended until 5 December_
+~~_Update_ 19 Nov 2022: _Deadline extended until 5 December_~~
+
+_Update 5 Dec 2022: Deadline extended until 12 December_
 
 {% hint style="info" %}
 

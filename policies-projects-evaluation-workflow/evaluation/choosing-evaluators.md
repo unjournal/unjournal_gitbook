@@ -5,7 +5,7 @@
 1. Consider our (signed up) 'Reviewer pool' (see Airtable) first
 2. Expertise in the aspects of the work that needs evaluation; consider 'one expert per aspect'
 3. Interest in the topic/subject (look at citations in both directions); Check – Are these 'meaningful citations'?
-4. [Conflicts of interest?](choosing-evaluators/avoiding-coi.md)&#x20;
+4. Conflicts of interest?&#x20;
    * Consult 'web of connections' tools like ResearchRabbit&#x20;
 5. _Secondary concerns_&#x20;
    * Likely alignment and engagement with Unjournal priorities,&#x20;

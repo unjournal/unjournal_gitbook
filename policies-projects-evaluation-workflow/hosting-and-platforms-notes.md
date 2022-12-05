@@ -6,6 +6,8 @@
 
 14 Nov 2022: For now, only managers/editors and authors will interact with this page. We plan to adapt it to become the interface for evaluations as well.&#x20;
 
+Currently, the majority of our process is not done through Kotahi.&#x20;
+
 ### Host for Kotahi: Cloud68
 
 Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if they are not logged in)&#x20;
