@@ -29,7 +29,7 @@ _**We will do this through:**_
 
 * Identifying relevant research work, **to be hosted on any open platform** in any format that can gain a time-stamped DOI.
   * Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science.
-  * _Update_ Nov 2022: we will _also_ directly evaluate high-impact work in the high-profile [NBER  ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series. See  [direct-evaluation-track.md](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+  * _Update_ Nov 2022: we will _also_ directly evaluate high-impact work in the high-profile [NBER  ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series. See  [discussion-direct-eval..md](policies-projects-evaluation-workflow/considering-projects/discussion-direct-eval..md "mention")
 * **Paying reviewers to evaluate and give careful feedback on this work.** We will elicit _quantifiable and comparable_ metrics of research quality as **credible measures of value**.
   * Reviews (or 'evaluations' will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
 * _Linking_ work but not 'publishing it'.
