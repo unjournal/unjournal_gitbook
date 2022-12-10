@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Plan, writing, resources](README.md)
+* [The Unjournal: Journal-independent evaluation of research that informs global priorities](README.md)
   * [Plan of action](master/plan-of-action.md)
   * [Explanations & outreach](master/writings/README.md)
     * [Related articles and work](master/writings/related-articles-and-work.md)
