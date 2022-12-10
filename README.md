@@ -28,7 +28,7 @@ description: Journal-independent evaluation of impactful research
 
 </details>
 
-<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers and open science advocates</mark>](master/discussion-team/) <mark style="color:orange;">building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](https://www.davidreinstein.org)<mark style="color:green;">.</mark>
+<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of academic and policy researchers and open science advocates</mark>](master/discussion-team/) <mark style="color:orange;">building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](https://www.davidreinstein.org)<mark style="color:green;">.</mark>
 
 ## In a nutshell&#x20;
 
