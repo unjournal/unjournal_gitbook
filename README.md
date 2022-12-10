@@ -28,7 +28,7 @@ description: Journal-independent evaluation of impactful research
 
 </details>
 
-<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of academic and policy researchers and open science advocates</mark>](master/discussion-team/) <mark style="color:orange;">building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](https://www.davidreinstein.org)<mark style="color:green;">.</mark>
+<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme/discussion-team/who-are-we-our-team/) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](https://www.davidreinstein.org)<mark style="color:green;">.</mark>
 
 ## In a nutshell&#x20;
 
@@ -48,11 +48,11 @@ _**Why**? Peer review is great,_ but academic publication processes are wasteful
 
 **Public evaluation:** Reviews will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
 
-_**Linking**_** work but not 'publishing it'.** This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also serve to benchmark our evaluations against 'traditional publication outcomes'. We will consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
+_**Linking**_** work but not 'publishing it'.** This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also help benchmark our evaluations against 'traditional publication outcomes'. We will consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
 
 **Awarding financial prizes** (combined with public presentations) for work judged strongest
 
-Aiming to be as transparent as possible in our processes and judgments.
+**Transparency:** Aiming to be as transparent as possible in our processes and judgments
 
 <details>
 
