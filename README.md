@@ -93,7 +93,7 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 
 ## Sections/subsections
 
-[plan-of-action.md](master/plan-of-action.md "mention"): A 'best feasible plan' for going forward
+[plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
 [writings](master/writings/ "mention"): Writeups of the main points; for a few different audiences.
 

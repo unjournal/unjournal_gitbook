@@ -17,7 +17,7 @@ _2 Nov 2022 update_ – We are opening a **second track.** We plan to follow a d
 
 We will choose the most relevant papers in this prestigious series (in certain categories, and with certain restrictions). We will _inform_ these papers' authors when we have decided to commission these for evaluation. We will give the authors the opportunity to respond and engage, including (as usual) the opportunity to ask for a temporary embargo for sensitive career issues, and the opportunity to respond to the evaluation before it is published. \
 \
-We discuss this further below, explaining the reasoning behind it. (See [discussion-direct-eval..md](discussion-direct-eval..md "mention"))
+We discuss this further below, explaining the reasoning behind it. (See [direct-evaluation-track.md](direct-evaluation-track.md "mention"))
 
 
 {% endhint %}
