@@ -1,6 +1,6 @@
 ---
 description: >-
-  Journal-independent peer review, informing global priorities. Organizer: David
+  Journal-independent evaluation of impactful research. Organizer: David
   Reinstein
 ---
 
@@ -30,26 +30,29 @@ description: >-
 
 </details>
 
-_****_
-
 ## In a nutshell&#x20;
 
-_We are not a journal!_ The Unjournal (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) via [ACX grants](https://astralcodexten.substack.com/p/apply-for-an-acx-grant?s=r)) will not 'publish any papers in a journal'; we will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects**. We will [focus on work](policies-projects-evaluation-workflow/considering-projects/) that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+_We are not a journal!_ The Unjournal will not 'publish any papers in a journal'; we will organize and fund public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects. Our [initial focus: ](policies-projects-evaluation-workflow/considering-projects/)quantitative work that informs global priorities, especially in economics, policy, and social science. We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 _**Why**? Peer review is great,_ but academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
 
-_**We will do this through:**_
 
-* Identifying relevant research work, **to be hosted on any open platform** in any format that can gain a time-stamped DOI.
-  * Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science.
-  * _Update_ Nov 2022: we will _also_ directly evaluate high-impact work in the high-profile [NBER  ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series. See  [direct-evaluation-track.md](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
-* **Paying reviewers to evaluate and give careful feedback on this work.** We will elicit _quantifiable and comparable_ metrics of research quality as **credible measures of value**.
-  * Reviews (or 'evaluations' will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
-* _Linking_ work but not 'publishing it'.
-  * This process **will not be 'exclusive'**: authors can 'submit their work to a journal' at any point. This will also serve to benchmark our evaluations against 'traditional publication outcomes'.
-  * We will consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
-* Awarding financial **prizes** (combined with public presentations) for work judged strongest
-* Aiming to be as transparent as possible in our processes and judgments.
+
+### _**We will do this through**_
+
+**Identifying** **and soliciting relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series. See [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md).&#x20;
+
+**Paying reviewers** (i.e, 'evaluators') to give careful feedback on this work, as well as ...
+
+**Eliciting **_**quantifiable and comparable**_** metrics** of research quality as credible measures of value.
+
+**Public evaluation:** Reviews will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
+
+_**Linking**_** work but not 'publishing it'.** This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also serve to benchmark our evaluations against 'traditional publication outcomes'. We will consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
+
+**Awarding financial prizes** (combined with public presentations) for work judged strongest
+
+Aiming to be as transparent as possible in our processes and judgments.
 
 <details>
 
@@ -61,9 +64,11 @@ We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-i
 
 </details>
 
-## **This 'gitbook'** ...
+## ****
 
-_Organizes ideas and resources, and tracks our progress towardsThe Unjournal's twin goals of:_
+## **This 'gitbook'**&#x20;
+
+_Organizes ideas and resources, and tracks our progress towards The Unjournal's twin goals of:_
 
 1. Making ‘peer evaluation and rating’ of open projects (instead of conventional 0/1 publishing of frozen pdf's) becoming a standard 'high status' outcome in academia/research, especially in economics and social sciences
 2. Creating and coalescing around an efficient system for 'publishing', gaining credibility, and getting feedback for effective altruism and global-priorities-aligned research. (_Making rigorous research more impactful, and impactful research more rigorous._)
@@ -84,25 +89,45 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 
 </details>
 
+##
+
 ## Sections/subsections
 
-* [plan-of-action.md](master/plan-of-action.md "mention"): A 'best feasible plan' for going forward
-* [writings](master/writings/ "mention"): Writeups of the main points; for a few different audiences.
-* [benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
-* [faq-interaction](key-issues-explanations-faq/faq-interaction/ "mention")... for authors, evaluators, etc.
-* Our [policies-projects-evaluation-workflow](policies-projects-evaluation-workflow/ "mention")...
-* Specific "Action steps" taken, in progress, and under discussiom:
-  * [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention")
-  * [action-overall-scoping.md](the-field-and-ea-gp-research/action-overall-scoping.md "mention")
-* [grants-and-proposals](grants-and-proposals/ "mention"): The ACX proposal, other applications, EA initiatives
-* [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
-* [the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
+[plan-of-action.md](master/plan-of-action.md "mention"): A 'best feasible plan' for going forward
+
+[writings](master/writings/ "mention"): Writeups of the main points; for a few different audiences.
+
+[benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
+
+[faq-interaction](key-issues-explanations-faq/faq-interaction/ "mention")... for authors, evaluators, etc.
+
+
+
+Our [policies-projects-evaluation-workflow](policies-projects-evaluation-workflow/ "mention")...
+
+
+
+Specific "Action steps" taken, in progress, and under discussion: [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](the-field-and-ea-gp-research/action-overall-scoping.md "mention")
+
+
+
+[grants-and-proposals](grants-and-proposals/ "mention"): The successful ACX proposal, other applications, EA initiatives
+
+
+
+[parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
+
+
+
+[the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
+
+
+
+##
 
 {% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.g15b6b3080d0_0_52" %}
 
-[**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
-
-{% embed url="https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing" %}
+**Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 
 ***
 
