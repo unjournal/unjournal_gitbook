@@ -1,7 +1,5 @@
 ---
-description: >-
-  Journal-independent evaluation of impactful research. Organizer: David
-  Reinstein
+description: Journal-independent evaluation of impactful research
 ---
 
 # The Unjournal
@@ -30,6 +28,8 @@ description: >-
 
 </details>
 
+We are a [group of researchers and open science advocates](master/discussion-team/) building a better system for evaluating rigorous, impactful research. Organizer and contact point: [David Reinstein](https://www.davidreinstein.org).
+
 ## In a nutshell&#x20;
 
 _We are not a journal!_ The Unjournal will not 'publish any papers in a journal'; we will organize and fund public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects. Our [initial focus: ](policies-projects-evaluation-workflow/considering-projects/)quantitative work that informs global priorities, especially in economics, policy, and social science. We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
@@ -38,7 +38,7 @@ _**Why**? Peer review is great,_ but academic publication processes are wasteful
 
 
 
-### _**We will do this through**_
+## _**We will do this through**_
 
 **Identifying** **and soliciting relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series. See [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md).&#x20;
 
