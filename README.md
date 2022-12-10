@@ -1,8 +1,10 @@
 ---
-description: 'Organizer: David Reinstein'
+description: >-
+  Journal-independent peer review, informing global priorities. Organizer: David
+  Reinstein
 ---
 
-# Plan, writing, resources
+# The Unjournal
 
 <details>
 
