@@ -4,7 +4,7 @@ description: >-
   from Scott Alexander's ACX grant. How to now spread the word?
 ---
 
-# "Marketing" and outreach texts
+# Marketing/outreach texts
 
 > An important part of making this a success will be to spread the word, to get positive attention for this project, to get important players on board, network externalities, change the equilibrium etc. I also want to start getting specific feedback and suggestions from people in the Open Science and EA communities (as well as from 'mainstream academics' in Economics, Psychology, and policy/program evaluation). Thus, I'd love to make my own sort of 'press release/social media campaign' and share the good news soon.
 
@@ -14,7 +14,9 @@ See [#the-case-the-basic-idea](../../grants-and-proposals/acx-ltff-grant-proposa
 
 ### As social media blurbs
 
-**0. Good news** (funding)
+<details>
+
+<summary><strong>Good news</strong> (funding)</summary>
 
 The "Unjournal" is happening, thanks to ACX and the LTFF!\
 We will be organizing and funding:
@@ -24,9 +26,15 @@ We will be organizing and funding:
 * focusing on Economics, Psychology, and Impact Evaluation research,
 * relevant to the world's most pressing problems, and most effective solutions.
 
-_**Target:** Academics, not necessarily EA aligned. But I don’t think this is deceptive because the funders should give a tipoff to anyone who digs, and ultimately the Unjournal might also go beyond EA-relevant stuff.**Tone:** Factual, positive_ (edited) \\
+_**Target:** Academics, not necessarily EA aligned. But I don’t think this is deceptive because the funders should give a tipoff to anyone who digs, and ultimately the Unjournal might also go beyond EA-relevant stuff._
 
-#### 1. Journal rents and hoops
+_**Tone:** Factual, positive_&#x20;
+
+</details>
+
+<details>
+
+<summary>Journal rents and hoops</summary>
 
 Do you love for-profit journals:
 
@@ -40,9 +48,11 @@ Then please don't bother with "the unjournal".
 
 **Tone**_**:** Sarcastic, irreverent, trying to be funny_
 
-__
+</details>
 
-**2. Breaking out of the bad equilibrium**
+<details>
+
+<summary><strong>Breaking out of the bad equilibrium</strong></summary>
 
 Journals: Rent-extracting, inefficient, pdf-prisons, gamesmanship. But no researcher can quit them.
 
@@ -52,9 +62,11 @@ No trees axed to print the latest "Journal of Fancy Manuscripts." We just _evalu
 
 _Target, Tone: Same as above, but less sarcastic, using language from Economics … maybe also appealing to library and university admin people?_
 
+</details>
+
 <details>
 
-<summary>Longer version of above</summary>
+<summary>(Longer version of above)</summary>
 
 Traditional academic journals: Rent-extracting, inefficient, delaying innovation. But no researcher or university can quit them.
 
@@ -68,9 +80,9 @@ __
 
 </details>
 
-__
+<details>
 
-**3. Disgruntled researchers, the wasteful journal game**
+<summary><strong>Disgruntled researchers, the wasteful journal game</strong></summary>
 
 Your paper got rejected after 2 glowing reviews? Up for tenure? How many more journals will you have to submit it to? Will you have to make the same points all over again? Or will the new referees tell you the exact opposite of the last ones?
 
@@ -80,7 +92,11 @@ Don't worry, there's a new game in town: The Unjournal. Submit your work. Get it
 
 _Aim, tone: Similar to the above_
 
-**4. Projects not (just) papers**
+</details>
+
+<details>
+
+<summary><strong>Projects not (just) papers</strong></summary>
 
 Tired of the 'pdf prison'? Got...
 
@@ -92,15 +108,23 @@ Can't submit it to a journal but need feedback and credible ratings? Try the Unj
 
 **Target:** More open-science and tech-savvy people.
 
-**5. Peer reviewers should get paid and have their feedback matter**\
-\
+</details>
+
+<details>
+
+<summary><strong>Peer reviewers should get paid and have their feedback matter</strong></summary>
+
 Referee requests piling up? You better write brilliant reviews for that whopping $0, so the author can be annoyed at you and they can disappear into the ether.\
 \
 Or you can help the Unjournal, where you get paid for your work, and reviews become part of the conversation.
 
 _Aim tone, similar to 2-3_
 
-**6. Research should target global priorities**
+</details>
+
+<details>
+
+<summary><strong>Research should target global priorities</strong></summary>
 
 Social science research:
 
@@ -116,19 +140,33 @@ But most academics think more broadly than that. And Economics as a field has hi
 The 'unjournal' will prioritize research that informs the most effective interventions and global priorities, for humanity (and animals) now and in the future.
 
 **Target:** EAs and EA-aligned researchers, researchers who might be ‘converted’\
-**Tone:** Straightforward, idealistic.\\
+**Tone:** Straightforward, idealistic.
 
-**7. EA organizations/researchers need feedback and credibility**
+</details>
+
+<details>
+
+<summary><strong>EA organizations/researchers need feedback and credibility</strong></summary>
 
 You are a researcher at an organization trying to find the most effective ways to improve the world, reduce suffering, prevent catastrophic risks, and improve the future of humanity. You, your team, your funders, and the policymakers you want to influence ... they need to know if your methods and arguments are strong, and if your evidence is believable. It would be great if academic experts could give their honest feedback and evaluation. But who will evaluate your best work, and how will they make this credible?\
 \
 Maybe the Unjournal can help.
 
-**Target:** Researchers and research-related ops people at EA and EA-adjacent orgs. Perhaps OP in particular. **Tone:** Casual but straightforward
+**Target:** Researchers and research-related ops people at EA and EA-adjacent orgs. Perhaps OP in particular.&#x20;
+
+**Tone:** Casual but straightforward
+
+</details>
+
+
 
 ## How and where to promote and share
 
-### ACX (and LTFF) media
+
+
+<details>
+
+<summary>Pitch to ACX (and LTFF) media</summary>
 
 * ACX will announce this, I shared some text
 * Post on ACX substack
@@ -144,6 +182,12 @@ The Unjournal is in large part about shifting the equilibrium in academia/resear
   * We will offer substantial cash prizes for the best projects/papers, and will likely ask the winners to present their work at an online seminar
   * You'll be able to submit your research project/paper to the unjournal (or recommend others' work) at any point in the "publication process"; it is not exclusive, and will not prevent you from 'publishing elsewhere'
   * You're encouraged to submit (time-stamped) 'projects' including dynamic documents connected to data, and interactive presentations
+
+</details>
+
+<details>
+
+<summary>Social media/forums, etc (see Airtable 'media_roll') </summary>
 
 ### Social media
 
@@ -164,4 +208,8 @@ The Unjournal is in large part about shifting the equilibrium in academia/resear
 
 * Global EA
 * EA Psychology
-* Open science Mooc?
+* Open science MooC?
+
+</details>
+
+###
