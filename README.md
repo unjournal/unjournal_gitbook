@@ -40,11 +40,13 @@ _**Why**? Peer review is great,_ but academic publication processes are wasteful
 
 ## _**We will do this through**_
 
-**Identifying** **and soliciting relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series. See [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md).&#x20;
+**Identifying**, **soliciting, and choosing relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _(See: the_ [_benefits of dynamic docs_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/benefits-and-features/benefits-of-dynamic-documents)_)_
 
-**Paying reviewers** (i.e, 'evaluators') to give careful feedback on this work, as well as ...
+_W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series (_see our_ [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)).&#x20;
 
-**Eliciting **_**quantifiable and comparable**_** metrics** of research quality as credible measures of value.
+**Paying reviewers** (i.e, 'evaluators') to give careful feedback on this work.  _(_[_Why do we pay_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/why-pay-evaluators-reviewers)_?)_
+
+**Eliciting **_**quantifiable and comparable**_** metrics** of research quality as credible measures of value.  ([_Why quantitative metrics_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines#why-numerical-ratings)_?)_
 
 **Public evaluation:** Reviews will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
 
@@ -63,8 +65,6 @@ For example, this proposal is closely related to Elife's ["Publish, Review, Cura
 We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this particular research area/focus. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
 
 </details>
-
-## ****
 
 ## **This 'gitbook'**&#x20;
 
@@ -89,48 +89,44 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 
 </details>
 
-##
 
-## Sections/subsections
 
-[plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
+## Key sections/subsections
 
-[writings](readme/writings/ "mention"): Writeups of the main points; for a few different audiences.
-
-[benefits-and-features](benefits-and-features/ "mention")
+### _Learn more about The Unjournal, our goals and policies_&#x20;
 
 [faq-interaction](faq-interaction/ "mention")... for authors, evaluators, etc.
 
+[writings](readme/writings/ "mention"): Writeups of the main points; for a few different audiences.
+
+[benefits-and-features](benefits-and-features/ "mention"): Some key benefits of the choices we are making
+
+[policies-projects-evaluation-workflow](policies-projects-evaluation-workflow/ "mention"): How we choose papers/projects to evaluate, how we assign evaluators, etc.
 
 
-Our [policies-projects-evaluation-workflow](policies-projects-evaluation-workflow/ "mention")...
 
+### Detail, progress, and internal planning: sharing for transparency
 
+[plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
 Specific "Action steps" taken, in progress, and under discussion: [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](the-field-and-ea-gp-research/action-overall-scoping.md "mention")
-
-
 
 [grants-and-proposals](grants-and-proposals/ "mention"): The successful ACX proposal, other applications, EA initiatives
 
 
 
+### Other resources and reading
+
 [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
-
-
 
 [the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
 
 
 
-##
+## Slideshow:
 
 {% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.g15b6b3080d0_0_52" %}
 
 **Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
-
-***
-
-
 
 ***
