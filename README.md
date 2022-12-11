@@ -8,15 +8,15 @@ description: Journal-independent evaluation of impactful research
 
 <summary>Key links/Faqs</summary>
 
-* ****[Guidelines for Evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/)
+* ****[Guidelines for Evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
 
 <!---->
 
-* [benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
+* [benefits-and-features](benefits-and-features/ "mention")
 
 <!---->
 
-* [Key writings (outlining/presenting the proposal)](master/writings/)
+* [Key writings (outlining/presenting the proposal)](readme/writings/)
 
 <!---->
 
@@ -24,7 +24,7 @@ description: Journal-independent evaluation of impactful research
 
 <!---->
 
-* ['Why would researchers want to submit their work' (a top FAQ)](key-issues-explanations-faq/faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
+* ['Why would researchers want to submit their work' (a top FAQ)](faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
 
 </details>
 
@@ -60,7 +60,7 @@ _**Linking**_** work but not 'publishing it'.** This process will not be 'exclus
 
 For example, this proposal is closely related to Elife's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research). (However, we cover a different research focus, and make some different choices, discussed below.)\
 \
-We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this particular research area/focus. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/ "mention")).
+We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this particular research area/focus. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
 
 </details>
 
@@ -95,11 +95,11 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 
 [plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
-[writings](master/writings/ "mention"): Writeups of the main points; for a few different audiences.
+[writings](readme/writings/ "mention"): Writeups of the main points; for a few different audiences.
 
-[benefits-and-features](key-issues-explanations-faq/benefits-and-features/ "mention")
+[benefits-and-features](benefits-and-features/ "mention")
 
-[faq-interaction](key-issues-explanations-faq/faq-interaction/ "mention")... for authors, evaluators, etc.
+[faq-interaction](faq-interaction/ "mention")... for authors, evaluators, etc.
 
 
 

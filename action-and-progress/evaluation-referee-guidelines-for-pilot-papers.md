@@ -8,5 +8,5 @@ _9 Jul 2022: We are coming up with preliminary guidelines for reviewers/evaluato
 
 _Putting this together:_
 
-[guidelines-for-evaluators](../policies-projects-evaluation-workflow/policies-evaluation/guidelines-for-evaluators/ "mention")
+[guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
 

@@ -10,7 +10,7 @@ _Note: these are the minimum amounts; we will increase these if funding permits.
 
 _Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by The Unjournal,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon._](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)__
 
-## __<img src="../../../.gitbook/assets/image (6).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (2).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (1).png" alt="" data-size="line">__
+## __<img src="../../../.gitbook/assets/image (3).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (4).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (2).png" alt="" data-size="line">__
 
 _Update 27-11-22: We are arranging the details and additional co-hosts for this)._
 
