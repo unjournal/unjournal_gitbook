@@ -3,16 +3,12 @@
 {% hint style="info" %}
 _**Thanks for your interest in evaluating research for the Unjournal!**_&#x20;
 
-You will be compensated a minimum of $250 for your evaluation work, and will be eligible for financial 'most informative evaluation' prizes. Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit.
-
-
-
-See the guidelines below. You can submit your response **in** [**this form**](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit)**,** and share it back with us**.** (We are using a Google Doc for now, we hope to fully move to [Kotahi](https://kotahi.community/) soon).
+Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit. You will be compensated a minimum of $250 for your evaluation work, and will be eligible for financial 'most informative evaluation' prizes. See the guidelines below. You can submit your response in [this form](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit)**,** and share it back with us**.** We are using a Google Doc for now, we hope to fully move to [Kotahi](https://kotahi.community/) soon.
 {% endhint %}
 
 <details>
 
-<summary>On payments...</summary>
+<summary>Payment information </summary>
 
 We aim to increase these payments going forward and are applying for funds to do this. "Pilot" reviewers will be given an extra payment for helping us evaluate the system. We may occasionally offer additional payments for specifically requested evaluation tasks.
 
@@ -36,7 +32,7 @@ _**How and why did we decide on these guidelines?**_ See [why-these-guidelines.m
 
 <summary>Specific requests for focus/feedback</summary>
 
-Please attend to anything our managers/editors specifically asked you to focus on. We may ask you to focus on specific areas of expertise; you do not need to address all aspects of the work. We may forward specific feedback requests from authors.
+Please pay attention to anything our managers/editors specifically asked you to focus on. We may ask you to focus on specific areas of expertise; you do not need to address all aspects of the work. We may also forward specific feedback requests from authors.
 
 </details>
 
@@ -44,15 +40,15 @@ Please attend to anything our managers/editors specifically asked you to focus o
 
 <summary>The Unjournal's criteria</summary>
 
-See [#category-metrics-multiple-dimensions](./#category-metrics-multiple-dimensions "mention") for guidance, e.g., prioritizing impact and robustness over cleverness.&#x20;
+For the most part, this is like a 'standard journal review', but we have some particular priorities. See [#category-explanations-what-you-are-rating](./#category-explanations-what-you-are-rating "mention") for guidance. For example, we would like to prioritize impact and robustness over cleverness.&#x20;
 
 </details>
 
 <details>
 
-<summary><strong>Remember: t</strong>his review will be made public</summary>
+<summary><strong>Remember: t</strong>his review (and ratings) will be made public</summary>
 
-Unless you were advised otherwise, it will be given a DOI, and hopefully enter the public research conversation. You will be given a _choice_ of whether you want to be publicly listed as an author of the review. &#x20;
+Unless you were advised otherwise, it will be given a DOI, and hopefully it will enter the public research conversation.  Note that the authors will be given two weeks to respond to reviews, before the evaluations, ratings and the responses are made public. You will be given a _choice_ of whether you want to be publicly listed as an author of the review. &#x20;
 
 </details>
 
@@ -64,16 +60,16 @@ _If you have questions or clarifications about the authors’ work, you can ask 
 
 We are considering the best policy towards signed reviews vs. single-blind reports; for now we give evaluators the option to choose. We may change this policy in the future. We are also considering the best 'single blind vs signed reviews' policies going forward. We may also make some exceptions to the public evaluations policy in the future; reviewers will be informed in advance.
 
-* We give early-career researchers the right to veto the publication of very negative reviews, but we will inform you in advance if this is the case.&#x20;
+* We may give early-career researchers the right to veto the publication of very negative reviews. We will inform you in advance if this will be the case for your evaluation.&#x20;
 
 <!---->
 
-* You can reserve some ‘sensitive’ content in your report to be shared with only the Unjournal management or only the authors; but we hope to keep this limited.
+* You can reserve some ‘sensitive’ content in your report to be shared with only the Unjournal management or only the authors, but we hope to keep this limited.
 
 </details>
 
 {% hint style="info" %}
-_Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them after.
+_Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics before writing your review, and then return to them afterwards.
 {% endhint %}
 
 ### A **‘standard high-quality referee report'**
@@ -90,7 +86,7 @@ We are asking for this, subject to some differences in priorities, which we disc
 
 <summary>Length and time: possible benchmarks</summary>
 
-&#x20;[The Econometrics society](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees) recommends a 2-3 page referee report;  [Berk et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231) suggest this is relatively short but that brevity is desirable . [In a recent survey (Charness et al, 2022)](https://evalresearch.weebly.com/report---full-text.html), economists report spending (median and mean) about one day per report, with substantial shares reporting ‘half a day’ and ‘two days’. We expect that that reviewers tend spend more time on papers for high-status journals, and when reviewing work closely tied to their own agenda.
+&#x20;[The Econometrics society](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees) recommends a 2-3 page referee report;  [Berk et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231) suggest this is relatively short but that brevity is desirable. [In a recent survey (Charness et al, 2022)](https://evalresearch.weebly.com/report---full-text.html), economists report spending (median and mean) about one day per report, with substantial shares reporting ‘half a day’ and ‘two days’. We expect that that reviewers tend spend more time on papers for high-status journals, and when reviewing work closely tied to their own agenda.
 
 </details>
 
@@ -104,15 +100,14 @@ _Below:_ a 'completed example'. We will give evaluators a concise survey form wi
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
-\*"Suggested weights" given as an indication of our priorities and a suggestion how you might average these together into an overall assessment; but please use your own judgement.
+\*We give "suggested weights"  as an indication of our priorities and a suggestion fr how you might average these together into an overall assessment; but please use your own judgment
 
 
 
 _**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
 1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Try to follow the scale in "[#0-100-metric-described](./#0-100-metric-described "mention")" but specifically for this _category._
-2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](./#the-confidence-rating-explained).
-   * _Note: **** Please give a 90% CI or a confidence score, but not both. We completed both above only for illustration._
+2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](./#the-confidence-rating-explained). _Please give a 90% CI or a confidence score, but not both. We completed both above only for illustration._
 
 <details>
 
@@ -127,7 +122,7 @@ This may help you improve your judgment in stating 90% confidence and credible i
 
 </details>
 
-For each category, we give an ‘importance scale’ (0/5 to 5/5) to suggest the importance of your rating to your overall assessment, given the Unjournal's priorities.&#x20;
+As noted above, we give  ‘suggested weights’ (0-5) to suggest the importance of your rating to your overall assessment, given the Unjournal's priorities. For example, even though we ask you to rate (and discuss) the relevance of this work to global priorities, we give it a suggested weight of 0, as we don't think this should enter into your overall assessment rating.&#x20;
 
 {% hint style="info" %}
 We see the 'overall assessment' as the most important measure. Please prioritize this.
@@ -197,7 +192,9 @@ __![](<../../../.gitbook/assets/image (5).png>)****
 
 ### **Category explanations: what you are rating**
 
-#### 1.  Advancing our knowledge and practice (5/5 importance)
+#### 1.  Advancing our knowledge and practice&#x20;
+
+_Suggested weighting: 5_
 
 Does the project make a contribution to the field or to practice, particularly in ways that will be relevant to our other criteria?
 
@@ -221,23 +218,27 @@ If research is conceptually and methodologically sound (including being adequate
 
 Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
-#### 2. Methods: Justification, reasonableness, validity, robustness (5/5 importance)
+#### 2. Methods: Justification, reasonableness, validity, robustness&#x20;
+
+_Suggested weighting: 5_
 
 Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the 'methods discussion'?
 
 Are the results/methods likely to be robust to reasonable changes in the underlying assumptions? Does the author demonstrate this (e.g., with at least a reasonable range of robustness checks, and at best ‘map the space’ of possible reasonable specifications)?
 
-Avoiding bias and questionable research practices (QRP): Did the authors take steps to reduce bias from opportunistic reporting and QRP? For example, pre-registration, multiple hypothesis testing corrections, reporting flexible specifications.
+Avoiding bias and questionable research practices (QRP): Did the authors take steps to reduce bias from opportunistic reporting and QRP? For example, pre-registration, multiple hypothesis testing corrections, and reporting flexible specifications.
 
 <details>
 
-<summary><em>Notes</em></summary>
+<summary><em>Notes on 'methods'</em></summary>
 
 We use the term “methods” here broadly; this may include choice/collection of data, experiment or survey design, statistical analysis, and simulation, among others.
 
 </details>
 
-#### 3. Logic and communication: Coherent and clear argument, communication, reasoning transparency (4/5 importance)
+#### 3. Logic and communication: Coherent and clear argument, communication, reasoning transparency
+
+_Suggested weighting: 4_
 
 Are the goals/questions of the paper clearly expressed? Are concepts clearly defined/referenced?
 
@@ -245,9 +246,11 @@ Is the reasoning ‘transparent’? (See [Open Philanthropy's guide](https://www
 
 Is the data and/or analysis presented relevant to the arguments made? Are the stated conclusions/results consistent with the evidence (or theoretical results/proofs) presented? Are the tables/graphs/diagrams easy enough to understand in the context of the narrative (e.g., no errors in labeling)?
 
-#### 4. Open, collaborative, replicable science and methods (3/5 importance)
+#### 4. Open, collaborative, replicable science and methods&#x20;
 
-**Replicability, reproducibility, data integrity:**
+_Suggested weighting: 3_
+
+**A. Replicability, reproducibility, data integrity:**
 
 Would another researcher be able to perform the same analysis and get the same results? Is the method and its details explained sufficiently, in a way that would enable easy and credible replication? For example, a full description of analysis, code and software provided, and statistical tests fully explained. Is the source of the data clear?
 
@@ -263,7 +266,7 @@ However, having a quick look at some of the elements could be helpful. Ideally, 
 
 </details>
 
-**Consistency**:
+**B. Consistency**:
 
 Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper?&#x20;
 
@@ -271,11 +274,13 @@ Do the numbers in the paper (and code output, if checked) make sense? Are they i
 _Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!
 {% endhint %}
 
-**Useful building blocks:**&#x20;
+**C. Useful building blocks:**&#x20;
 
 Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
 
-#### 5. Engaging with real-world, impact quantification; practice, realism and relevance (2/5 importance)
+#### 5. Engaging with real-world, impact quantification; practice, realism, and relevance&#x20;
+
+_Suggested weighting: 2_
 
 Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?
 
@@ -297,9 +302,9 @@ In future we may be able to pay them to do the above, if grant funding permits..
 
 </details>
 
-#### 6. Relevance to global priorities\* (0/5: not part of overall evaluation)
+#### 6. Relevance to global priorities\*&#x20;
 
-_**Note:** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your opinion._
+_Suggested weighting: 0. Why? **** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your informed assessment (and discussion)._
 
 Is this topic, approach, and discussion _potentially_ useful to global priorities research and interventions? Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
@@ -307,7 +312,7 @@ Is this topic, approach, and discussion _potentially_ useful to global prioritie
 
 ## Journal/Prediction metrics
 
-We would like to benchmark our evaluations against 'how research is currently judged.' We want to provide a bridge between the current 'accept or reject' system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus we are asking you for two predictions in the table below. \
+We would like to benchmark our evaluations against 'how research is currently judged.' We want to provide a bridge between the current 'accept or reject' system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus, we are asking you for two predictions in the table below. \
 &#x20;
 
 <table><thead><tr><th>Prediction metric</th><th data-type="number">Prediction 'journal tier' 0.0-5.0</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>What ‘quality journal’ do you expect this work </strong><em><strong>will</strong></em><strong> this be published in?</strong></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr><tr><td><strong>Overall assessment on ‘scale of journals'</strong> (tier it <em>should be published in; see below)</em></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr></tbody></table>
@@ -321,7 +326,7 @@ To better understand what we are asking here, please consult the subsections bel
 
 ### Journal metrics
 
-For the 'prediction’ questions above, we are asking for a ‘journal quality rating prediction’ from 0.0 to 5.0. You can specify up to 2 digits (e.g., “4.4” or “2.0”) We are using this metric as we suspect it is more familiar to academics.
+For the 'prediction’ questions above, we are asking for a ‘journal quality rating prediction’ from 0.0 to 5.0. You can specify up to 2 digits (e.g., “4.4” or “2.0”) We are using this 0-5 metric here (rather than 0-100) as we suspect it is more familiar to academics.
 
 **The metrics are:**
 
@@ -348,7 +353,7 @@ We give some examples of actual journals [HERE](https://docs.google.com/spreadsh
 The question above presumes that this work has not already been published in a peer-reviewed journal. However, we are planning to commission at least some post-publication review going forward. If the work has already been ‘peer-review-published’ you can either:
 
 * Skip this question or
-* Answer a related question (not a prediction): “Suppose this paper were submitted to journals, in succession, from the top tier downwards. Imagine there is some randomness in this process. Consider all possible “random draws of the world”. In the ‘median draw,’ what ‘quality level journal’ would this paper be published in.
+* Answer a related question (not a prediction): “Suppose this paper were submitted to journals, in succession, from the top tier downwards. Imagine there is some randomness in this process. Consider all possible “random draws of the world”. In the ‘median draw,’ what ‘quality level journal’ would this paper be published in?
 
 </details>
 
@@ -382,9 +387,9 @@ In presenting your prediction and confidence interval for this, you might want t
 
 Consider the scale of journals described above. Suppose that:
 
-1\. the journal process was fair, unbiased and free of noise, and that status, social connections and ‘lobbying to get the paper published’ didn’t matter, and&#x20;
+1\. the journal process was fair, unbiased, and free of noise, and that status, social connections, and ‘lobbying to get the paper published’ didn’t matter, and&#x20;
 
-2\. journals assessed research according to the category metrics we discuss above.&#x20;
+2\. journals assessed research according to the category metrics we discussed above.&#x20;
 
 _In such a case, what ‘quality level journal’ would and should this research be published in its current form or with minor revisions?_
 
