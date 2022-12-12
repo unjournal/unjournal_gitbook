@@ -100,14 +100,14 @@ _Below:_ a 'completed example'. We will give evaluators a concise survey form wi
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
-\*We give "suggested weights"  as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment
+_\*We give "suggested weights" as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment._&#x20;
 
 
 
 _**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
 1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Try to follow the scale in "[#0-100-metric-described](./#0-100-metric-described "mention")" but specifically for this _category._
-2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](./#the-confidence-rating-explained). _Please give a 90% CI or a confidence score, but not both. We completed both above only for illustration._
+2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](./#the-confidence-rating-explained). (_Please give a 90% CI or a confidence score, but not both. We completed both above only for illustration.)_
 
 <details>
 
@@ -122,7 +122,7 @@ This may help you improve your judgment in stating 90% confidence and credible i
 
 </details>
 
-As noted above, we give ‘suggested weights’ (0-5) to suggest the importance of your rating to your overall assessment, given the Unjournal's priorities. For example, even though we ask you to rate (and discuss) the relevance of this work to global priorities, we give it a suggested weight of 0, as we don't think this should enter into your overall assessment rating.&#x20;
+
 
 ### Overall assessment __&#x20;
 
@@ -130,7 +130,7 @@ As noted above, we give ‘suggested weights’ (0-5) to suggest the importance 
 We see the 'overall assessment' as the most important measure. Please prioritize this.
 {% endhint %}
 
-Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice. Include the category metrics reported above with consideration of our importance scores.
+Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice. As noted above, we give ‘suggested weights’ (0-5) to suggest the importance of each category rating to your overall assessment, given the Unjournal's priorities. For example, even though we ask you to rate (and discuss) the relevance of this work to global priorities, we give it a suggested weight of 0, as we don't think this should enter into your overall assessment rating. _But you don't need, and may not want, to use these weightings precisely. For example, you might weight categories less where you are more uncertain, or where the category seems less relevant._&#x20;
 
 ### 0-100 Metric explained
 
@@ -230,11 +230,13 @@ __![](<../../../.gitbook/assets/image (5).png>)****
 
 ### **Category explanations: what you are rating**
 
+_Note, all of these criteria are scales rather than binaries. So, consider each of the questions below to be prefaced with "to what extent"._&#x20;
+
 #### 1.  Advancing our knowledge and practice&#x20;
 
 _Suggested weighting: 5_
 
-Does the project make a contribution to the field or to practice, particularly in ways that will be relevant to our other criteria?
+("To what extent"...) does the project make a contribution to the field or to practice, particularly in ways that will be relevant to our other criteria
 
 <details>
 
