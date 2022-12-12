@@ -100,7 +100,7 @@ _Below:_ a 'completed example'. We will give evaluators a concise survey form wi
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
-\*We give "suggested weights"  as an indication of our priorities and a suggestion fr how you might average these together into an overall assessment; but please use your own judgment
+\*We give "suggested weights"  as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment
 
 
 
@@ -122,40 +122,72 @@ This may help you improve your judgment in stating 90% confidence and credible i
 
 </details>
 
-As noted above, we give  ‘suggested weights’ (0-5) to suggest the importance of your rating to your overall assessment, given the Unjournal's priorities. For example, even though we ask you to rate (and discuss) the relevance of this work to global priorities, we give it a suggested weight of 0, as we don't think this should enter into your overall assessment rating.&#x20;
+As noted above, we give ‘suggested weights’ (0-5) to suggest the importance of your rating to your overall assessment, given the Unjournal's priorities. For example, even though we ask you to rate (and discuss) the relevance of this work to global priorities, we give it a suggested weight of 0, as we don't think this should enter into your overall assessment rating.&#x20;
+
+### Overall assessment __&#x20;
 
 {% hint style="info" %}
 We see the 'overall assessment' as the most important measure. Please prioritize this.
 {% endhint %}
 
-### Overall assessment __&#x20;
-
 Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice. Include the category metrics reported above with consideration of our importance scores.
 
 ### 0-100 Metric explained
 
-_The description below focuses on the "Overall Assessment". Please try to use a similar scale when evaluating the category metrics._
+_The description folded below focuses on the "Overall Assessment". Please try to use a similar scale when evaluating the category metrics._
+
+<details>
+
+<summary>Top ratings (90-100)</summary>
 
 **95-100:** Among the highest quality and most important work you have ever read.
 
 **90-100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grantmakers.
 
-<details>
-
-<summary>For example: </summary>
+_For example_
 
 * Most work in this area in the next ten years will be influenced by this paper
+
+<!---->
+
 * This paper is substantially more rigorous or more insightful than existing work in this area in a way that matters for research and practice
+
+<!---->
+
 * The work makes a major, perhaps decisive contribution to a case for (or against) a policy or philanthropic intervention\
 
 
 </details>
 
-**75-90:** This work represents a strong and substantial achievement. It is highly rigorous, relevant, and well-communicated, up to the standards of the strongest work in this area (say, the standards of the top 5% of committed researchers in this field). Such work would/should not be decisive in a tenure/promotion/grant decision alone, but it should make a very solid contribution to such a case.
+<details>
+
+<summary>For example: </summary>
+
+*
+
+</details>
+
+<details>
+
+<summary>Near-top (75-90)</summary>
+
+This work represents a strong and substantial achievement. It is highly rigorous, relevant, and well-communicated, up to the standards of the strongest work in this area (say, the standards of the top 5% of committed researchers in this field). Such work would/should not be decisive in a tenure/promotion/grant decision alone, but it should make a very solid contribution to such a case.
+
+</details>
+
+<details>
+
+<summary>Middle ratings (40-60, 60-75)</summary>
 
 **60-75:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
 
 **40-60:** A useful contribution, with major strengths, but also some important flaws or limitations.
+
+</details>
+
+<details>
+
+<summary>Low ratings (0-5, 5-20, 20-40)</summary>
 
 **20-40:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
 
@@ -163,13 +195,19 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 
 **0-5:** Illegible, fraudulent, or plagiarized. _Please flag fraud, and notify us and the relevant authorities._
 
+</details>
+
+****
+
 ### The confidence rating
 
 #### **What are we looking for and why?**
 
-&#x20;In considering how to weigh any measure or evaluation, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this. You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'extremely confident' to 'not confident').  Below, we give a suggested correspondence between these two measures.
+In considering how to weigh any measure or evaluation, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this. You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'extremely confident' to 'not confident').  Below, we give a suggested correspondence between these two measures.
 
-#### **From 'five dots' to 'one dot'; a proposed scale**
+<details>
+
+<summary>From 'five dots' to 'one dot'; a proposed scale and correspondence</summary>
 
 5 = Extremely confident, i.e., 90% confidence interval spans +/- 4 points or less
 
@@ -182,11 +220,11 @@ _The description below focuses on the "Overall Assessment". Please try to use a 
 1 = Not confident: (90% confidence interval +/- more than 25 points)\
 
 
-Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example in the diagram below (click to zoom**)** illustrates the proposed correspondence.
+</details>
+
+Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots) but not both. The example in the diagram below (click to zoom) illustrates the proposed correspondence.
 
 __![](<../../../.gitbook/assets/image (5).png>)****
-
-****
 
 ****
 
@@ -218,6 +256,8 @@ If research is conceptually and methodologically sound (including being adequate
 
 Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
+####
+
 #### 2. Methods: Justification, reasonableness, validity, robustness&#x20;
 
 _Suggested weighting: 5_
@@ -236,6 +276,8 @@ We use the term “methods” here broadly; this may include choice/collection o
 
 </details>
 
+####
+
 #### 3. Logic and communication: Coherent and clear argument, communication, reasoning transparency
 
 _Suggested weighting: 4_
@@ -246,17 +288,25 @@ Is the reasoning ‘transparent’? (See [Open Philanthropy's guide](https://www
 
 Is the data and/or analysis presented relevant to the arguments made? Are the stated conclusions/results consistent with the evidence (or theoretical results/proofs) presented? Are the tables/graphs/diagrams easy enough to understand in the context of the narrative (e.g., no errors in labeling)?
 
+
+
 #### 4. Open, collaborative, replicable science and methods&#x20;
 
 _Suggested weighting: 3_
 
-**A. Replicability, reproducibility, data integrity:**
+**A. Replicability, reproducibility, data integrity**
+
+<details>
+
+<summary><strong>Explanation</strong></summary>
 
 Would another researcher be able to perform the same analysis and get the same results? Is the method and its details explained sufficiently, in a way that would enable easy and credible replication? For example, a full description of analysis, code and software provided, and statistical tests fully explained. Is the source of the data clear?
 
 Is the necessary data made as widely available as possible, as applicable? Ideally, the cleaned data should also be clearly labeled and explained/legible.&#x20;
 
 (\*) Are we likely to be able to construct the output from the shared code (and data)?
+
+</details>
 
 <details>
 
@@ -277,6 +327,8 @@ _Note_: errors and issues such as these will ideally be reported immediately to 
 **C. Useful building blocks:**&#x20;
 
 Do the authors provide tools, resources, data, and outputs that are likely to enable and enhance future work and meta-analysis?
+
+####
 
 #### 5. Engaging with real-world, impact quantification; practice, realism, and relevance&#x20;
 
@@ -317,8 +369,6 @@ We would like to benchmark our evaluations against 'how research is currently ju
 
 <table><thead><tr><th>Prediction metric</th><th data-type="number">Prediction 'journal tier' 0.0-5.0</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>What ‘quality journal’ do you expect this work </strong><em><strong>will</strong></em><strong> this be published in?</strong></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr><tr><td><strong>Overall assessment on ‘scale of journals'</strong> (tier it <em>should be published in; see below)</em></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr></tbody></table>
 
-
-
 {% hint style="info" %}
 To better understand what we are asking here, please consult the subsections below:\
 "Journal metrics," "What quality journal...," and "Overall assessment on ‘scale of journals'"
@@ -342,7 +392,9 @@ For the 'prediction’ questions above, we are asking for a ‘journal quality r
 
 5/5: A-journal/Top Journal
 
-We give some examples of actual journals [HERE](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0) that might line up with these metrics based on SJR and the ABS ratings.
+We give some example journals [HERE](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0) that may correspond to the above, based on SJR and ABS ratings.
+
+###
 
 ### What ‘quality level journal’ do you expect this work to ultimately be published in?
 
@@ -357,6 +409,10 @@ The question above presumes that this work has not already been published in a p
 
 </details>
 
+<details>
+
+<summary>"As if you were advising an author"</summary>
+
 In presenting your prediction and confidence interval for this, you might want to consider if you were offering advice to an author:
 
 “What journal would be likely to publish this work?”
@@ -364,6 +420,8 @@ In presenting your prediction and confidence interval for this, you might want t
 “What is the most prestigious journal that would consider publishing this?”
 
 “What is the least prestigious journal that the authors should consider submitting this to?" I.e., "I wouldn't go lower, even if I were risk-averse”
+
+</details>
 
 <details>
 
@@ -383,6 +441,8 @@ In presenting your prediction and confidence interval for this, you might want t
 
 </details>
 
+### ****
+
 ### **Overall assessment on ‘scale of journals'**
 
 Consider the scale of journals described above. Suppose that:
@@ -392,6 +452,8 @@ Consider the scale of journals described above. Suppose that:
 2\. journals assessed research according to the category metrics we discussed above.&#x20;
 
 _In such a case, what ‘quality level journal’ would and should this research be published in its current form or with minor revisions?_
+
+##
 
 ## Survey questions
 
@@ -407,6 +469,8 @@ _Your answers to the questions below will not be made public:_
 1. How would you rate this template and process?
 2. Do you have any suggestions or questions about this process or the Unjournal? (We will try to respond, and incorporate your suggestions.) \[Open response]
 3. Would you be willing to consider evaluating a revised version of this project?
+
+## ****
 
 ## **How to write a good review (general conventional guidelines)**
 
