@@ -92,17 +92,17 @@ We are asking for this, subject to some differences in priorities, which we disc
 
 ## Metrics: overall assessment, categories
 
-
-
 {% hint style="info" %}
 _Below:_ a 'completed example'. We will give evaluators a concise survey form with everything they need to fill out. In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance in the subsections below.&#x20;
 {% endhint %}
 
-<table><thead><tr><th>Category (importance)</th><th align="center">Sugg. Wgt.*</th><th data-type="number">Rating (0-100)</th><th align="center">90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td align="center"></td><td>44</td><td align="center">39, 52</td><td>4</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td align="center">5</td><td>50</td><td align="center">47, 54</td><td>5</td><td></td></tr><tr><td><h4><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></h4></td><td align="center">5</td><td>51</td><td align="center"><em>45, 55</em></td><td>4</td><td></td></tr><tr><td><h4><a data-mention href="./#3.-logic-and-communication-coherent-and-clear-argument-communication-reasoning-transparency">#3.-logic-and-communication-coherent-and-clear-argument-communication-reasoning-transparency</a> </h4></td><td align="center">4</td><td>20</td><td align="center"><em>10, 35</em></td><td>3</td><td></td></tr><tr><td><h4><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></h4></td><td align="center">3</td><td>60</td><td align="center"><em>40, 70</em> </td><td>2</td><td></td></tr><tr><td><h4><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></h4></td><td align="center">0</td><td>30</td><td align="center"><em>21, 65</em></td><td>1</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Category (importance)</th><th align="center">Sugg. Wgt.*</th><th data-type="number">Rating (0-100)</th><th align="center">90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td align="center"></td><td>44</td><td align="center">39, 52</td><td>4</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td align="center">5</td><td>50</td><td align="center">47, 54</td><td>5</td><td></td></tr><tr><td><h4><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></h4></td><td align="center">5</td><td>51</td><td align="center"><em>45, 55</em></td><td>4</td><td></td></tr><tr><td><h4><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></h4></td><td align="center">4</td><td>20</td><td align="center"><em>10, 35</em></td><td>3</td><td></td></tr><tr><td><h4><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></h4></td><td align="center">3</td><td>60</td><td align="center"><em>40, 70</em> </td><td>2</td><td></td></tr><tr><td><h4><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></h4></td><td align="center">2</td><td>35</td><td align="center"><em>30,46</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td align="center">0</td><td>30</td><td align="center">21,65</td><td>1</td><td></td></tr></tbody></table>
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
-_\*We give "suggested weights" as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment._&#x20;
+_\*We give "suggested weights" as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment._ F
+
+_\*Although we ask you to rate (and discuss) the relevance of this work to global priorities, we give it a suggested weight of 0, as we don't think this should enter into your overall assessment rating._
 
 
 
@@ -132,7 +132,7 @@ This may help you improve your judgment in stating 90% confidence and credible i
 We see the 'overall assessment' as the most important measure. Please prioritize this.
 {% endhint %}
 
-Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice. As noted above, we give ‘suggested weights’ (0-5) to suggest the importance of each category rating to your overall assessment, given the Unjournal's priorities. For example, even though we ask you to rate (and discuss) the relevance of this work to global priorities, we give it a suggested weight of 0, as we don't think this should enter into your overall assessment rating. _But you don't need, and may not want, to use these weightings precisely. For example, you might weight categories less where you are more uncertain, or where the category seems less relevant._&#x20;
+Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice. As noted above, we give ‘suggested weights’ (0-5) to suggest the importance of each category rating to your overall assessment, given the Unjournal's priorities. _But you don't need, and may not want, to use these weightings precisely. For example, you might weight categories less where you are more uncertain, or where the category seems less relevant._&#x20;
 
 ### 0-100 Metric explained
 
@@ -282,7 +282,9 @@ We use the term “methods” here broadly; this may include choice/collection o
 
 ####
 
-#### 3. Logic and communication: Coherent and clear argument, communication, reasoning transparency
+#### 3. Logic and communication
+
+_Coherent and clear argumentation, communication, reasoning transparency_
 
 _Suggested weighting: 4_
 
@@ -358,7 +360,7 @@ In future we may be able to pay them to do the above, if grant funding permits..
 
 </details>
 
-#### 6. Relevance to global priorities\*&#x20;
+#### 6. Relevance to global priorities\*\*&#x20;
 
 _Suggested weighting: 0. Why? **** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your informed assessment (and discussion)._
 
