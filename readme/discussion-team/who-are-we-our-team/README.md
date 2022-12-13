@@ -53,7 +53,7 @@ _Attended first meeting:_&#x20;
 ## Also consulted and communicate with :
 
 * Abel Brodeur,  Founder/chair of the [Institute for Replication](https://i4replication.org/) &#x20;
-* Other academic and policy economists, such as: [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison), [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan), [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett), [David Rhys-Bernard](https://davidrhysbernard.com), [David Roodman](https://davidroodman.com/about/)
+* Other academic and policy economists, such as: [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison), [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan), [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett), [David Rhys-Bernard](https://davidrhysbernard.com), [David Roodman](https://davidroodman.com/about/), [Anna Dreber Almenberg](https://sites.google.com/site/annadreber/)
 * Cooper Smout, head of ‘[freeourknowledge.org/](https://freeourknowledge.org/)
 * [Brian Nosek](https://www.projectimplicit.net/nosek/), Center for Open Science
 * [Ted Miguel](http://emiguel.econ.berkeley.edu/), Faculty Director, Berkeley Initiative for Transparency in the Social Sciences (BITSS)
