@@ -50,31 +50,72 @@ _Attended first meeting:_&#x20;
 
 [Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
 
-## Also consulted with:
+## Also consulted and communicate with :
 
-* [David Roodman](https://davidroodman.com/about/)
-* [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison)
-* [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan)
-* [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett)
-* [David Rhys-Bernard](https://davidrhysbernard.com)
-* [Brian Nosek](https://www.projectimplicit.net/nosek/)
-* [Ted Miguel](http://emiguel.econ.berkeley.edu/)
+* Abel Brodeur,  Founder/chair of the [Institute for Replication](https://i4replication.org/) &#x20;
+* Other academic and policy economists, such as: [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison), [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan), [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett), [David Rhys-Bernard](https://davidrhysbernard.com), [David Roodman](https://davidroodman.com/about/)
+* Cooper Smout, head of ‘[freeourknowledge.org/](https://freeourknowledge.org/)
+* [Brian Nosek](https://www.projectimplicit.net/nosek/), Center for Open Science
+* [Ted Miguel](http://emiguel.econ.berkeley.edu/), Faculty Director, Berkeley Initiative for Transparency in the Social Sciences (BITSS)
+* Daniel Saderi, [PreReview](https://prereview.org/)
 
-As well as...
+<details>
 
-### List of people consulted, pre-grant
+<summary>Some other people consulted/communicating, details</summary>
 
 * Cooper Smout, head of ‘[https://freeourknowledge.org/](https://freeourknowledge.org/), which I’d like to ally with (through their pledges, and through an open access journal Cooper is putting together, which the Unjournal could feed into, for researchers needing a ‘journal with an impact factor’)
+
+<!---->
+
 * Participants in the GPI seminar luncheon
-* Daniela Saderi of PreReview
+
+<!---->
+
 * Paolo Crosetto (Experimental Economics, French National Research Institute for Agriculture, Food and Environment) [https://paolocrosetto.wordpress.com/](https://paolocrosetto.wordpress.com/)
+
+<!---->
+
 * Cecilia Tilli, Foundation to Prevent Antibiotics Resistance and EA research advocate
+
+<!---->
+
 * Sergey Frolov (Physicist), Prof. J.-S. Caux, Physicist and head of [https://scipost.org/](https://scipost.org/)
+
+<!---->
+
 * Peter Slattery, Behaviourworks Australia
+
+<!---->
+
 * Alex Barnes, Business Systems Analyst, [https://eahub.org/profile/alex-barnes/](https://eahub.org/profile/alex-barnes/)
-* Gavin Taylor and Paola Masuzzo of IGDORE (biologists and advocates of open science)
+
+<!---->
+
+* Paola Masuzzo of IGDORE (biologist and advocates of open science)
+
+<!---->
+
 * William Sleegers (Psychologist and Data Scientist, Rethink Priorities)
-* Nathan Young [https://eahub.org/profile/nathan-young/](https://eahub.org/profile/nathan-young/)
+
+<!---->
+
+* Nathan Young [https://eahub.org/profile/nathan-young/](https://eahub.org/profile/nathan-young/); considering connection The Unjournal to Metaculus predictions
+
+<!---->
+
 * Edo Arad [https://eahub.org/profile/edo-arad/](https://eahub.org/profile/edo-arad/) (mathematician and EA research advocate)
+
+<!---->
+
 * Hamish Huggard (Data science, ‘literature maps’)
+
+<!---->
+
 * Yonatan Cale, who helped me put this proposal together through asking a range of challenging questions and offering his feedback. [https://il.linkedin.com/in/yonatancale](https://il.linkedin.com/in/yonatancale)
+
+</details>
+
+###
+
+
+

@@ -19,7 +19,7 @@ _**We need to identify a small set of papers or projects as representative first
 _Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus I aim to identify a small set of papers (or projects), maybe 2-3, that seem like good test and example cases. Offer a ‘bounty’ for 'which projects do we choose as test cases'.
 
 {% hint style="info" %}
-_In doing the above, we will also collect a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../../the-field-and-ea-gp-research/action-overall-scoping.md "mention") and to use in the future.
+_In doing the above, we will also collect a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
 {% endhint %}
 
 ## Steps proposed and taken
