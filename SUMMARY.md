@@ -64,3 +64,4 @@
   * [Action: Overall scoping](management-tech-details-discussion/action-overall-scoping.md)
   * [Choosing evaluators](management-tech-details-discussion/choosing-evaluators/README.md)
     * [Avoiding COI](management-tech-details-discussion/choosing-evaluators/avoiding-coi.md)
+    * [Tips and text for contacting evaluators (private)](https://docs.google.com/document/d/1BwihxrSZ244ebEiB3FLwfe5IDilB1nBBOVQ22xwOkCk/edit)
