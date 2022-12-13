@@ -2,7 +2,11 @@
 description: Several expositions for different audiences, fleshing out ideas and plans
 ---
 
-# Explain/discuss/outreach
+# Explanations & outreach
+
+## TLDR: See [#in-a-nutshell](../../#in-a-nutshell "mention")in previous section
+
+##
 
 ## Slide decks
 

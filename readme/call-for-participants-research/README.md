@@ -8,20 +8,22 @@ description: Unjournal call for participants and research.
 **TLDR**\
 **** If you are interested in being on the Unjournal's Founding Committee, Advisory Board, or Reviewer Pool please fill out [**THIS** ](https://airtable.com/shrW9xpIrxNGfxkXW)[**FORM**](https://airtable.com/shrW9xpIrxNGfxkXW)  (about 3-5 min).
 
-If you have research (your own or others) you would like us to assess, please fill out [**THIS FORM**](https://airtable.com/shrdHHI0zK7rkJCP3). You can submit your own work [here](https://unjournaldev.cloud68.co/login) (or by contacting dreinstein AT rethinkpriorities.org.
+If you have research (your own or others) you would like us to assess, please fill out [**THIS FORM**](https://airtable.com/shrdHHI0zK7rkJCP3).&#x20;
+
+You can submit your own work [here](https://unjournaldev.cloud68.co/login) (or by contacting [theunjournal@gmail.com](mailto:theunjournal@gmail.com)).
 {% endhint %}
 
 {% hint style="info" %}
 **Updates**
 
-**October 2022:** "_Needs are ongoing_". We have chosen people for the Founding Committee, but please complete the form anyways if you are interested. We're still very interested in people for the Advisory Board and Reviewer Pool, and aim to expand the Management Committee soon. &#x20;
+**Dec. 2022:** "_Needs are ongoing_". We have chosen people for the Founding Committee, but please complete the form anyways if you are interested. We're still very interested in people for the Advisory Board and Reviewer Pool, and aim to expand the Management Committee soon. &#x20;
 
 
 
-_Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing) (initial prizes: $2000, $1000)
+_Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing) (initial prizes: ~~$2000~~, $2500, $1000)
 
 \
-_Update 7 Jul 2022: The main prizes for piloted papers have been awarded, but we still encourage you to submit/suggest work, which will also make you eligible for future retroactive prizes/awards._
+
 {% endhint %}
 
 ## Overview and call
@@ -34,16 +36,16 @@ Our initial focus: research relevant to [global priorities](https://globalpriori
 
 [Our linked project space HERE gives further details about the Unjournal project.](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)
 
-Briefly, the Unjournal’s process (proposed and under-discussion):
+Briefly, the Unjournal’s process (under refinement; see our ['policies' section](../../policies-projects-evaluation-workflow/) for more detail):
 
-* Identify or invite contributions of relevant research _that is publicly hosted_ on any open platform or archive in any format (we can help facilitate hosting and help you get a time-stamped DOI).
-* Pay reviewers to evaluate and give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value.
-* Publicly post and link all reviews of the work. Award financial prizes for work judged to be the strongest.
-  * _Note:_ We will make some clearly stated exceptions for ECRs, allowing them to hide negative reviews.
-  * _Note:_ We are likely to ask _reviewers_ to remain anonymous (unsigned reviews), but this is under consideration
+* Identify or invite contributions of relevant research _that is publicly hosted_ on any open platform or archive in any format (we can help arrange hosting and help you get a time-stamped DOI).
+* Pay evaluators to give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value. (See [evaluator guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/).)
+* Publicly post and link all reviews of the work. Award financial prizes for work judged strongest.
+  * _Note:_ Some specific exceptions for ECRs, allowing them to hide/embargo negative reviews.
+  * _Note:_ We currently allow _evaluators_ to choose if they wish to remain anonymous, or to 'sign their reviews.'
 * Aim to be as transparent as possible in these processes.
 
-The Unjournal project has a small amount of funding and we are in a pilot phase. We maintain  an **open call for participants** in three different roles:
+The Unjournal project has a small amount of funding and we are in a pilot phase. We maintain an **open call for participants** in three different roles:
 
 1. Management committee members (small honorariums for time spent),
 2. Advisory board members (supporters, unpaid, no time-commitment), and

@@ -1,6 +1,6 @@
 # Choosing evaluators
 
-## Considerations for _selecting_ evaluators (i.e., 'reviewers\\'
+## Considerations for _selecting_ evaluators (i.e., 'reviewers')
 
 1. Consider our (signed up) 'Reviewer pool' (see Airtable) first
 2. Expertise in the aspects of the work that needs evaluation; consider 'one expert per aspect'
