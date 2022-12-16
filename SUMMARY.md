@@ -32,7 +32,6 @@
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)
   * ['Why pay evaluators (reviewers)'?](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md)
   * [Mapping workflow/process](policies-projects-evaluation-workflow/mapping-workflow-process.md)
-  * [Policies/issues under discussion](policies-projects-evaluation-workflow/policies-issues-under-discussion.md)
 * [Action and progress](action-and-progress/README.md)
   * [Build founding committee](action-and-progress/action-build-founding-committee.md)
   * [Identify pilot/key projects/papers, contact authors](action-and-progress/action-identify-pilot-key-projects-papers/README.md)
@@ -65,3 +64,4 @@
   * [Choosing evaluators](management-tech-details-discussion/choosing-evaluators/README.md)
     * [Avoiding COI](management-tech-details-discussion/choosing-evaluators/avoiding-coi.md)
     * [Tips and text for contacting evaluators (private)](https://docs.google.com/document/d/1BwihxrSZ244ebEiB3FLwfe5IDilB1nBBOVQ22xwOkCk/edit)
+  * [Policies/issues under discussion](management-tech-details-discussion/policies-issues-under-discussion.md)
