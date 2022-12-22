@@ -310,17 +310,12 @@ Would another researcher be able to perform the same analysis and get the same r
 
 Is the necessary data made as widely available as possible, as applicable? Ideally, the cleaned data should also be clearly labeled and explained/legible.&#x20;
 
-(\*) Are we likely to be able to construct the output from the shared code (and data)?
+\
+_Optional_: Are we likely to be able to construct the output from the shared code (and data)? _Note that_ **** evaluators are not required to run/evaluate the code; this is at your discretion. However, having a quick look at some of the elements could be helpful. Ideally, the author should give code that allows easy, full replication, for example, a single R script that runs and creates everything, starting from the original data source, and including data cleaning files. This would make it fairly easy for an evaluator to check. For example, see[ this taxonomy of ‘levels of computational reproducibility’](https://bitss.github.io/ACRE/assessment.html#score).
 
 </details>
 
-<details>
-
-<summary><em><strong>(*) Note:</strong></em><strong> </strong> evaluators are not required to run/evaluate the code; this is at your discretion</summary>
-
-However, having a quick look at some of the elements could be helpful. Ideally, the author should give code that allows easy, full replication, for example, a single R script that runs and creates everything, starting from the original data source, and including data cleaning files. This would make it fairly easy for an evaluator to check. For example, see[ this taxonomy of ‘levels of computational reproducibility’](https://bitss.github.io/ACRE/assessment.html#score).
-
-</details>
+****
 
 **B. Consistency**:
 
