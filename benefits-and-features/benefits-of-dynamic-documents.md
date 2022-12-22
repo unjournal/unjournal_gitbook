@@ -1,4 +1,4 @@
-# Benefits of dynamic documents"
+# Benefits of 'dynamic docs'
 
 **“Dynamic Documents”** I mean papers/projects built with R-markdown or JuPyTer notebooks (the two most prominent tools) that
 
@@ -8,6 +8,7 @@
   * and helps readers understand it better (see ['explorable explanations'](http://worrydream.com/ExplorableExplanations/))
   * and helps replicators and future researchers build on it
 * other advantages of these formats (over, e.g., pdf) include convenient ‘folding blocks’, margin comments, and integrating interactive tools
+*
 
 ### **Better examples, the case for dynamic documents**
 
@@ -24,7 +25,7 @@
 
 ### Reinstein's own examples
 
-Some quick examples from my own work in progress (but other people have done it much better…
+Some quick examples from my own work in progress (but other people have done it much better)
 
 {% embed url="https://daaronr.github.io/dualprocess/introduction-effective-giving-responses-to-analytical-effectiveness-information.html" %}
 

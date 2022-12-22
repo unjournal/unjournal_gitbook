@@ -13,11 +13,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
 * [Kris Gulati](https://sites.google.com/view/kris-gulati/home), Economics PhD student at the University of California, Merced
 
-
-
-Outreach: see [action-build-founding-committee.md](../../../action-and-progress/action-build-founding-committee.md "mention") ..._We may be adding more members as we progress_
-
-__
+[Outreach: see](#user-content-fn-1)[^1] [action-build-founding-committee.md](../../../action-and-progress/action-build-founding-committee.md "mention")&#x20;
 
 ### Advisory board
 
@@ -50,7 +46,9 @@ _Attended first meeting:_&#x20;
 
 [Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
 
-## Also consulted and communicate with :
+
+
+## Also consulted and communicate with:&#x20;
 
 * Abel Brodeur,  Founder/chair of the [Institute for Replication](https://i4replication.org/) &#x20;
 * Other academic and policy economists, such as: [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison), [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan), [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett), [David Rhys-Bernard](https://davidrhysbernard.com), [David Roodman](https://davidroodman.com/about/), [Anna Dreber Almenberg](https://sites.google.com/site/annadreber/)
@@ -119,3 +117,6 @@ _Attended first meeting:_&#x20;
 
 
 
+
+
+[^1]: _We may be adding more members as we progress._

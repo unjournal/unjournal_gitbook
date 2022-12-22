@@ -4,8 +4,6 @@ description: Journal-independent evaluation of impactful research
 
 # The Unjournal
 
-
-
 <details>
 
 <summary>Key links/Faqs</summary>
@@ -30,7 +28,7 @@ description: Journal-independent evaluation of impactful research
 
 </details>
 
-<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme/discussion-team/who-are-we-our-team/) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](https://www.davidreinstein.org)<mark style="color:green;">.</mark>
+<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme/discussion-team/who-are-we-our-team/) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)<mark style="color:green;"></mark>
 
 ## In a nutshell&#x20;
 
@@ -52,7 +50,7 @@ _W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](h
 
 **Public evaluation:** Reviews will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
 
-_**Linking**_** work but not 'publishing it'.** This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also help benchmark our evaluations against 'traditional publication outcomes'. We will consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
+_****_[_**Linking**_** work but not 'publishing it'.** ](#user-content-fn-1)[^1]This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also help benchmark our evaluations against 'traditional publication outcomes'.&#x20;
 
 **Awarding financial prizes** (combined with public presentations) for work judged strongest
 
@@ -64,11 +62,23 @@ _**Linking**_** work but not 'publishing it'.** This process will not be 'exclus
 
 For example, this proposal is closely related to Elife's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research). (However, we cover a different research focus, and make some different choices, discussed below.)\
 \
-We discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this particular research area/focus. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
+Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this [particular research area/focus](#user-content-fn-2)[^2]. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
 
 </details>
 
-## **This 'gitbook'**&#x20;
+<details>
+
+<summary><strong>Funding</strong></summary>
+
+Our current funding comes from [acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it). This funding will run out in February 2023\
+\
+We have submitted some other grant applications. E.g., see our u_nsuccessful:_ [_FTX application HERE_](grants-and-proposals/ftx-future-fund-for-further-funding-unsuccessful.md)_,_ other grant applications are linked below. We are sharing these in the spirit of transparency.\
+__\
+_We are still seeking more funding, several applications are pending._
+
+</details>
+
+## ****[**This 'gitbook'** ](#user-content-fn-3)[^3]
 
 _Organizes ideas and resources, and tracks our progress towards The Unjournal's twin goals of:_
 
@@ -77,21 +87,17 @@ _Organizes ideas and resources, and tracks our progress towards The Unjournal's 
 
 <details>
 
-<summary><strong>Funding</strong></summary>
+<summary>Feedback and discussion </summary>
 
-****[acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it).\
 \
-**Discussion space:** I've set up a post-grant "'Unjournal'": <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">HERE</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark> 25 Jun 2022 update: I have not kept the above discussion space fully updated; hope to level up soon.
+**Discussion space:** I've set up a post-grant "'Unjournal'": <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">HERE</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark> 25 Jun 2022 update: I have not kept the above discussion space fully updated.
 
 _**Please let me know if you want edit/comment access to the present Gitbook.**_\
 \
 _Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\
-\
-_Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-future-fund-for-further-funding-unsuccessful.md)_, still seeking more funding_
+
 
 </details>
-
-
 
 ## Key sections/subsections
 
@@ -107,11 +113,11 @@ _Unsuccessful followup:_ [_FTX application HERE_](grants-and-proposals/ftx-futur
 
 
 
-### Detail, progress, and internal planning: sharing for transparency
+### [Detail, progress, and internal planning: ](#user-content-fn-4)[^4]
 
 [plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
-Specific "Action steps" taken, in progress, and under discussion: [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](management-tech-details-discussion/action-overall-scoping.md "mention")
+_Specific "Action steps" taken, in progress, and under discussion:_ [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](management-tech-details-discussion/action-overall-scoping.md "mention")
 
 [grants-and-proposals](grants-and-proposals/ "mention"): The successful ACX proposal, other applications, EA initiatives
 
@@ -132,3 +138,14 @@ Specific "Action steps" taken, in progress, and under discussion: [action-build-
 **Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 
 ***
+
+[^1]: We will also consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
+
+[^2]: Economics, social science, quantitative policy analysis, focusing on global priorities and impact)&#x20;
+
+[^3]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
+    \
+    _Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\
+
+
+[^4]: These will probably not be of interest to most readers. We are sharing these in the spirit of transparency.
