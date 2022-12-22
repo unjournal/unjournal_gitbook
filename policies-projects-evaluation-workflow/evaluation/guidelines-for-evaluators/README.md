@@ -315,8 +315,6 @@ _Optional_: Are we likely to be able to construct the output from the shared cod
 
 </details>
 
-****
-
 **B. Consistency**:
 
 Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper?&#x20;
