@@ -12,7 +12,5 @@ I consider some of the benefits of this format, particularly for EA-aligned orga
 
 The main idea is that each version is given a specific time stamp, and that is the object that is reviewed and cited. This is more or less already the case when we cite working papers/drafts/mimeos/preprints.
 
-**See** [#living-kaizend-research-projects](living-research-projects.md#living-kaizend-research-projects "mention"), further discussing the potential benefits
+**See** [#living-kaizend-research-projects](living-research-projects.md#living-kaizend-research-projects "mention"), further discussing the potential benefits.
 
-\
-\\

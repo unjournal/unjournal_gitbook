@@ -4,9 +4,9 @@ description: Several expositions for different audiences, fleshing out ideas and
 
 # Explanations & outreach
 
-## TLDR: See [#in-a-nutshell](../../#in-a-nutshell "mention")in previous section
+## TLDR: See[^1] [#in-a-nutshell](../../#in-a-nutshell "mention")
 
-##
+
 
 ## Slide decks
 
@@ -30,14 +30,14 @@ _aimed at EA/gp, Academic, and Open-science audiences_ [_\[link\]_](https://docs
 
 A shorter outline posted on "onscienceandacademia.org"
 
+##
+
 ## EA forum posts
 
 {% embed url="https://forum.effectivealtruism.org/posts/Z2jPENrHpY9QSQBDQ/proposal-alternative-to-traditional-academic-journals-for-ea" %}
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see" %}
 
-## Other adjacent writings
+##
 
-{% embed url="https://www.theguardian.com/books/2022/apr/11/the-big-idea-should-we-get-rid-of-the-scientific-paper" %}
-
-{% embed url="https://wyclif.substack.com/p/9049fb71-5968-40d9-bf72-e06919fa56a2?s=r" %}
+[^1]: (In the previous section)

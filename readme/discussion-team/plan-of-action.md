@@ -22,7 +22,7 @@ What is this Unjournal?... See:\
 
 </details>
 
-_**Updated:** Partial update 10 Dec 2022. See more detailed updates in the_ [action-and-progress](../../action-and-progress/ "mention") _section._
+_**Updated:**_ [_Partial update 10 Dec 2022._](#user-content-fn-1)[^1] __&#x20;
 
 __
 
@@ -63,7 +63,7 @@ __
 
 See [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")&#x20;
 
-_Status: Mostly completed/decided for pilot phase;_ will review after initial trial
+_Status: Mostly completed/decided for pilot phase;_ will review after the initial trial
 
 __
 
@@ -109,3 +109,7 @@ _The approach below is largely integrated into the Unjournal proposal, but this 
 Also: Committing to publish academic reviews or ‘share in our internal group’ for further evaluation and reassessment/benchmarking of the ‘PREreview’ type reviews above. (Perhaps taking the [FreeOurKnowledge pledge relating to this](https://github.com/FreeOurKnowledge/website/issues/40))
 
 </details>
+
+[^1]: _See more detailed updates in the_ [action-and-progress](../../action-and-progress/ "mention") _section._
+
+    __

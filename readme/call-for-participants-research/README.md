@@ -28,17 +28,17 @@ _Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our
 
 ## Overview and call
 
-I am [David Reinstein](https://www.davidreinstein.org/) (Senior Economist at [Rethink Priorities](https://rethinkpriorities.org/), following 15 years in academia) and a supporter of open science (BITSS Catalyst). I am writing with an open call for committee members, board members, reviewers, and suggestions of relevant work for a new peer-review initiative (_not a publication!_) called The Unjournal.
+I am [David Reinstein](https://www.davidreinstein.org/) (Senior Economist at [Rethink Priorities](https://rethinkpriorities.org/), following 15 years in academia, and a [supporter of open science](#user-content-fn-1)[^1]). I am writing with an open call for committee members, board members, reviewers, and suggestions of relevant work for a new peer-review initiative (_not a publication!_) called The Unjournal.
 
 The [Unjournal team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/master/discussion-team/who-are-we-our-team) is building a system for credible, public, journal-independent feedback and evaluation of research. Peer review can be slow; our system will enable researchers to get more prompt, efficient, and substantive feedback and advice, with metrics and signals of quality. The Unjournal will also help researchers advance, promote, and improve their work, while still allowing them to submit it to traditional journals at any point in the process.
 
-Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in public, open formats, that support replicability and robustness (such as [hosted dynamic documents](../../benefits-and-features/benefits-of-dynamic-documents.md); [Quarto](https://quarto.org/), Rmd, Jupyter, etc.). Rather than ‘finished frozen publications’, we wish to foster a [living and continually-improved approach](../../benefits-and-features/living-research-projects.md) to research projects; we hope papers we review will be improved, extended, and may even be re-assessed in future versions.
+Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in [public, open formats, that support replicability](#user-content-fn-2)[^2] and robustness. Rather than ‘finished frozen publications’, we wish to foster a [living and continually-improved approach](../../benefits-and-features/living-research-projects.md) to research projects; we hope that the papers we review will be improved, extended, and may even be re-assessed in future versions.[  ](#user-content-fn-3)[^3]
 
-[Our linked project space HERE gives further details about the Unjournal project.](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)
 
-Briefly, the Unjournal’s process (under refinement; see our ['policies' section](../../policies-projects-evaluation-workflow/) for more detail):
 
-* Identify or invite contributions of relevant research _that is publicly hosted_ on any open platform or archive in any format (we can help arrange hosting and help you get a time-stamped DOI).
+Briefly, [the Unjournal’s process is](#user-content-fn-4)[^4]:
+
+* Identify or invite contributions of relevant research [_that is publicly hosted_](#user-content-fn-5)[^5] on any open platform or archive in any format .
 * Pay evaluators to give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value. (See [evaluator guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/).)
 * Publicly post and link all reviews of the work. Award financial prizes for work judged strongest.
   * _Note:_ Some specific exceptions for ECRs, allowing them to hide/embargo negative reviews.
@@ -84,3 +84,15 @@ We provide a separate form for research suggestions [HERE](https://airtable.com/
 If you are interested in discussing any of this in person, please email us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)) to arrange a conversation.
 
 _We invite you to fill in this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW) _to leave your contact information and details, as well as outlining which parts of the project you may be interested in._
+
+[^1]: Including as a BITSS Catalyst
+
+[^2]: Such as [hosted dynamic documents](../../benefits-and-features/benefits-of-dynamic-documents.md); [Quarto](https://quarto.org/), Rmd, Jupyter, etc.
+
+[^3]: [Our linked project space HERE gives further details about the Unjournal project.](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)
+
+
+
+[^4]: This is under continual refinement; see our ['policies' section](../../policies-projects-evaluation-workflow/) for more detail.
+
+[^5]: We can help arrange hosting and help you get a time-stamped DOI.
