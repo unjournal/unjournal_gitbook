@@ -18,6 +18,6 @@ _Please "@" me in that Gdoc space if you make a comment; I visit it only infrequ
 
 See also [List of People consulted](../../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#list-of-people-consulted) (in ACX grant proposal)
 
-### [related-ea-gp-seminar-series.md](../../parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
+### [related-ea-gp-seminar-series.md](../../grants-and-proposals/unsuccessful-applications/clearer-thinking-ftx-regranting-unsuccessful/parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
 
 ### [plan-of-action.md](plan-of-action.md "mention")
