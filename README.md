@@ -113,21 +113,21 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 
 
-### [Detail, progress, and internal planning: ](#user-content-fn-4)[^4]
+### Other resources and reading
+
+[parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
+
+[the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
+
+
+
+### [Detail, progress, and internal planning ](#user-content-fn-4)[^4]
 
 [plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
 _Specific "Action steps" taken, in progress, and under discussion:_ [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](management-tech-details-discussion/action-overall-scoping.md "mention")
 
 [grants-and-proposals](grants-and-proposals/ "mention"): The successful ACX proposal, other applications, EA initiatives
-
-
-
-### Other resources and reading
-
-[parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
-
-[the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
 
 
 
