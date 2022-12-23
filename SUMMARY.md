@@ -64,4 +64,4 @@
   * [Choosing evaluators](management-tech-details-discussion/choosing-evaluators/README.md)
     * [Avoiding COI](management-tech-details-discussion/choosing-evaluators/avoiding-coi.md)
     * [Tips and text for contacting evaluators (private)](https://docs.google.com/document/d/1BwihxrSZ244ebEiB3FLwfe5IDilB1nBBOVQ22xwOkCk/edit)
-  * [Policies/issues under discussion](management-tech-details-discussion/policies-issues-under-discussion.md)
+  * [Policies/issues discussion](management-tech-details-discussion/policies-issues-discussion.md)

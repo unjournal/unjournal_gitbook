@@ -317,11 +317,9 @@ _Optional_: Are we likely to be able to construct the output from the shared cod
 
 **B. Consistency**:
 
-Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper?&#x20;
+[Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper? ](#user-content-fn-1)[^1]
 
-{% hint style="info" %}
-_Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!
-{% endhint %}
+__
 
 **C. Useful building blocks:**&#x20;
 
@@ -531,3 +529,5 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 [Open Reviewers Reviewer Guide ](https://zenodo.org/record/5484087)(Journal-independent “Pre-review”; detailed, targets ECRs)
 
 ****
+
+[^1]: _Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!

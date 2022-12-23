@@ -64,38 +64,69 @@ _**Response:**_ This is something we will keep an eye on, considering the benefi
 
 
 
-**3. Evaluator/referee reluctance:** As noted above, evaluators maybe more reluctant to provide ratings and feedback on work where the author has not instigated the process.&#x20;
+**3. Evaluator/referee reluctance:** As noted above, evaluators may be more reluctant to provide ratings and feedback on work where the author has not instigated the process.&#x20;
 
 _**Response:**_** ** This should basically be addressed by the fact that we allow evaluators to remain anonymous. A potential cost here is discouraging signed evaluations, which themselves have some benefits (as well as possible costs).
 
 
 
-**4. Slippery-slope towards 'unfairly reviewing work too early':** In some fields, working papers are released at a point that the author does not wish them to be evaluated, and is not implicitly making strong claims about the validity of this work.  In economics, working papers tend to be released when they are fairly polished and the authors do in fact seek feedback and citations; the NBER series is a particularly prominent example. However, if we are not careful one might be concerned that we will extend the scope of 'direct evaluation' too far.&#x20;
+**4. Slippery-slope towards 'unfairly reviewing work too early':** In some fields, working papers are released at a point where the author does not wish them to be evaluated, and is not implicitly making strong claims about the validity of this work.  In economics, working papers tend to be released when they are fairly polished and the authors do in fact seek feedback and citations; the NBER series is a particularly prominent example. However, if we are not careful one might be concerned that we will extend the scope of 'direct evaluation' too far.&#x20;
 
-_**Response:**_ We will be careful with this. Initially, we are extending this only to the NBER series. Next, we may consider direct evaluation of fairly prestigious publications in 'actual peer-reviewed journals' particularly in fields (such as psychology) where the peer review process is much faster than in economics. As NBER is basically "USA only", we may also consider extending this to other series such as [CEPR](https://cepr.org/publications/discussion-papers), but being careful about the prestige/vulnerability tradeoffs.&#x20;
+_**Response:**_ We will be careful with this. Initially, we are extending this only to the NBER series. Next, we may consider direct evaluation of fairly prestigious publications in 'actual peer-reviewed journals', particularly in fields (such as psychology) where the peer review process is much faster than in economics. As NBER is basically "USA only", we may also consider extending this to other series such as [CEPR](https://cepr.org/publications/discussion-papers), but being careful about the prestige/vulnerability tradeoffs.&#x20;
+
+__
+
+{% hint style="info" %}
+**Aside:** in the future, we hope to work directly with working paper series, associations, and research groups to get their approval and engagement with The Unjournal evaluation. We hope that "having a large share of papers in your series evaluated" will serve as a measure of confidence in your research quality. If you are involved in such a group and are interested in this, please reach out to us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)).
+{% endhint %}
 
 __\
-_**Side point**:_ in the future, we hope to work directly with working paper series, associations, and research groups to get their approval and engagement with The Unjournal evaluation. We hope that "having a large share of papers in your series evaluated" will serve as a measure of confidence in your research quality. If you are involved in such a group and are interested in this, please reach out to us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)).
+__Choosing NBER papers: steps taken
 
+<details>
 
-
-## Choosing NBER papers: steps taken
-
-1 Dec 2022 update
+<summary>1 Dec 2022 update</summary>
 
 * Further feedback and suggestions from across The Unjournal management team
+
+<!---->
+
 * Assigned 'assessors' to prioritize these
+
+<!---->
+
 * About five NBER  papers (so far), selected for direct evaluation, contacting authors and referees
 
+</details>
 
+<details>
 
-4 Nov update:&#x20;
+<summary>4 Nov update: </summary>
 
 * Already-added papers from other sources (syllabi etc)&#x20;
+
+<!---->
+
 * Searched Rethink Priorities Zotero&#x20;
+
+<!---->
+
 * EA Forum: Searched ‘nber’ with ‘advanced search’; Went through first 4 pages or so (by karma and recent date), added papers that seemed meaningful (paper is relevant, NBER but not published in a prominent journal)&#x20;
+
+<!---->
+
 * Same but just for “Past Year” … did the first 4 pages of this&#x20;
+
+<!---->
+
 * Searched NBER WP series for “animal welfare”&#x20;
+
+<!---->
+
 * Captured the 'Topics' (NBER label) of all papers above for focusing our later search
+
+</details>
+
+
 
 ****

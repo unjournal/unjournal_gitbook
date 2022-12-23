@@ -13,7 +13,7 @@ __
 ### How do we choose 'referees'?
 
 * We follow standard procedures, considering complimenatary expertise, interest, cross-citations, and lack of COI
-* We aim to consult those who opted-in to our referee pool first
+* We aim to consult those who have opted-in to our referee pool first
 
 
 
@@ -26,19 +26,18 @@ __
 
 ## Public evaluations
 
-### How are these hosted and shared?
+### [How are these hosted and shared?](#user-content-fn-1)[^1]
 
 * [Kotahi](https://kotahi.community/), linked to a [Sciety](https://sciety.org/) group (current plan)
 * Also hosted/mirrored on our own page (once we set this up)
 * Evaluations will have a DOI, linking these into all relevant systems
+* We aim to present the 'ratings data' in clear, comparable formats, as well as providing the raw data for meta-analysts and others
 
 ## Evaluation guidelines and criteria
 
 ### General criteria/guidelines
 
-See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention") for our proposed approach and template for referees.&#x20;
-
-_Note_ 10 Dec 2022_: This is a  draft approach; we welcome feedback on the best format._
+See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention") for our [proposed approach and template for referees](#user-content-fn-2)[^2].&#x20;
 
 (See also: [#considering-communicating-editors-process](../policies-projects-evaluation-workflow/considering-projects/#considering-communicating-editors-process "mention"))
 
@@ -48,26 +47,10 @@ _Note_ 10 Dec 2022_: This is a  draft approach; we welcome feedback on the best 
 
 _10 Dec 2022:_ Our current policy is to allow evaluators to choose whether they wish to remain anonymous or 'sign their evaluations'
 
-### Feedback and discussion vs. evaluations
+###
 
-> DR: I suspect that signed reviews (cf blog posts) provide good feedback and evaluation. However, when it comes to rating (quantitative measures of a paper's value), my impression from existing initiatives and conversations is that people are reluctant to award anything less than 5/5 'full  marks'.
 
-### Why Single-blind?
 
-* Power dynamics: referees don't want to be 'punished', may want to flatter powerful authors
-* Connections and friendships may inhibit honesty
-* 'Powerful referees signing critical reports' could hurt ECRs&#x20;
+[^1]: 22 Dec 2022: We are still developing and improving this system.
 
-### Why signed reports?
-
-* Public reputation incentive for referees
-  * (But note single-blind paid review has some private incentives.)&#x20;
-* Fosters better public dialogue
-* Inhibits obviously unfair and impolite 'trashing'
-
-### Compromise approaches
-
-* Author and/or referee choose whether it should be single-blind or signed
-* Random trial: We can compare empirically (are signed reviews less informative?)
-* Use a mix (1 signed, 2 anonymous reviews) for each paper
-
+[^2]: _Note_ 10 Dec 2022_: This is a  draft approach; we welcome feedback on the best format._
