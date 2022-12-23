@@ -1,4 +1,4 @@
-# Policies/issues under discussion
+# Policies/issues discussion
 
 ## Considering papers/projects
 
@@ -13,6 +13,31 @@ E.g., should we consider evaluating papers put out by organizations like Open Ph
 
 
 ## Evaluation procedure and guidelines
+
+### Feedback and discussion vs. evaluations
+
+> DR: I suspect that signed reviews (cf blog posts) provide good feedback and evaluation. However, when it comes to rating (quantitative measures of a paper's value), my impression from existing initiatives and conversations is that people are reluctant to award anything less than 5/5 'full  marks'.
+
+### Why Single-blind?
+
+* Power dynamics: referees don't want to be 'punished', may want to flatter powerful authors
+* Connections and friendships may inhibit honesty
+* 'Powerful referees signing critical reports' could hurt ECRs&#x20;
+
+### Why signed reports?
+
+* Public reputation incentive for referees
+  * (But note single-blind paid review has some private incentives.)&#x20;
+* Fosters better public dialogue
+* Inhibits obviously unfair and impolite 'trashing'
+
+### Compromise approaches
+
+* Author and/or referee choose whether it should be single-blind or signed
+* Random trial: We can compare empirically (are signed reviews less informative?)
+* Use a mix (1 signed, 2 anonymous reviews) for each paper
+
+
 
 ### Timing of releasing evaluations
 
