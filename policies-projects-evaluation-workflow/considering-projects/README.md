@@ -6,7 +6,7 @@ As we are paying evaluators and have limited funding, we cannot evaluate every p
 
 1. Submission by authors
 2. Our own searches (e.g., searching syllabi, forums, working paper archives, and white papers)
-3. Suggestions from other researchers, practitioners, and members of the public (e.g., following [the 'bounty' we posted here](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and advertised in other places) &#x20;
+3. [Suggestions from other researchers, practitioners, and members of the public](#user-content-fn-1)[^1]&#x20;
 
 Our management team **rates the suitability of each paper** according to the criteria discussed below and [in the aforementioned linked post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see). \
 \
@@ -24,7 +24,7 @@ We discuss this further below, explaining the reasoning behind it. (See [direct-
 
 ## Communicating: **‘Editors’ process**&#x20;
 
-_In deciding which papers/projects to send out to paid reviewers/evaluators, we have considered the following issues._  [_We aim to communicate this information about each paper/project to reviewers before they write their evaluations._ ](#user-content-fn-1)[^1]__
+_In deciding which papers/projects to send out to paid reviewers/evaluators, we have considered the following issues._  [_We aim to communicate this information about each paper/project to reviewers before they write their evaluations._ ](#user-content-fn-2)[^2]__
 
 ### Summary, why is it relevant and worth engaging with?
 
@@ -40,4 +40,8 @@ How well has the author engaged with the process? Do they need particular convin
 
 ##
 
-[^1]: However, _we may hold back some of this discussion to avoid biasing the reviewers or because of discretion issues._
+[^1]: E.g., following [the 'bounty' we posted here](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and advertised in other places.
+
+
+
+[^2]: However, _we may hold back some of this discussion to avoid biasing the reviewers or because of discretion issues._

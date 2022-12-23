@@ -2,8 +2,6 @@
 
 It's a norm in academia that people do reviewing work for free. _**So why is The Unjournal paying evaluators?**_
 
-_****_
-
 From a recent [survey of economists:](https://cepr.org/voxeu/columns/economists-want-see-changes-their-peer-review-system-lets-do-something-about-it)
 
 > We estimate that the average (median) respondent spends 12 (9) working days per year on refereeing. The top 10% of the distribution dedicates 25 working days or more, which is quite substantial considering refereeing is usually unpaid.
