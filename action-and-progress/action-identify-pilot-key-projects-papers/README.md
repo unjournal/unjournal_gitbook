@@ -1,25 +1,13 @@
 # Identify pilot/key projects/papers, contact authors
 
-
-
-{% hint style="info" %}
-25 Jun 2022 Update: We have identified (see process below, and open call) a fairly large list, with several very prominent pieces of research to use for the pilot. We aim to invite referees to evaluate 3-4 papers soon, and award the 'bounties' shortly.
-{% endhint %}
-
-_Management team:_ See also
-
-* list of papers under consideration in private Airtable base `EA_unjournal_resources`, `crucial_research` table,
-* Linked discussion in [this Gdoc](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit#heading=h.b6n4xb3q8q3c)
-* and [this slack channel](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)
+([_Note for the management team_](#user-content-fn-1)[^1]_)_
 
 ## Test-case research for Proof of Concept
 
-_**We need to identify a small set of papers or projects as representative first-cases. This will make things concrete and help us test the system we are building.**_
-
-_Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus I aim to identify a small set of papers (or projects), maybe 2-3, that seem like good test and example cases. Offer a ‘bounty’ for 'which projects do we choose as test cases'.
+_****_[_**We need to identify a small set of papers or projects as representative first-cases. This will make things concrete and help us test the system we are building.**_](#user-content-fn-2)[^2]_****_
 
 {% hint style="info" %}
-_In doing the above, we will also collect a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
+_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
 {% endhint %}
 
 ## Steps proposed and taken
@@ -32,7 +20,7 @@ _In doing the above, we will also collect a longer list of key papers, projects,
 
 2\. **Search for most-cited papers** (within our domain) among EA-aligned researchers and organizations
 
-**3. Dig into existing lists, reviews, syllabi such as:**
+****[**3. Dig into existing lists, reviews, syllabi such as:**](#user-content-fn-3)[^3]****
 
 * GPI [research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues) (includes many posed questions)
 * Open Philanthropy[ "questions that might affect our grantmaking"](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking) (needs updating? few academic links)
@@ -41,10 +29,6 @@ _In doing the above, we will also collect a longer list of key papers, projects,
   * [Pablo's list](http://www.stafforini.com/blog/effective-altruism-syllabi/)
     * [Economics focus](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples) list
   * David Rhys-Bernard's syllabus ([link to my commented/highlighted version)](https://docs.google.com/document/d/1LeHrhhAcSWGQze6nSeaA9eNIXoG2vqPKM6-PrHognR0/edit)
-
-{% hint style="info" %}
-Note that much of the work identified above will already have been peer-reviewed and 'published'. While we envision that the Unjournal may assess papers _already published in traditional journals_, this is probably not the best case for the PoC.
-{% endhint %}
 
 <details>
 
@@ -67,3 +51,13 @@ Not very relevant (because mainly operational)
 6\. Cross-promoted with [call-for-participants-research](../../readme/call-for-participants-research/ "mention")
 
 \_\_
+
+[^1]: See also
+
+    * list of papers under consideration in private Airtable base `EA_unjournal_resources`, `crucial_research` table,
+    * Linked discussion in [this Gdoc](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit#heading=h.b6n4xb3q8q3c)
+    * and [this slack channel](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)
+
+[^2]: _Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus I aim to identify a small set of papers (or projects), maybe 2-3, that seem like good test and example cases. Offer a ‘bounty’ for 'which projects do we choose as test cases'.
+
+[^3]: Note that much of the work identified here has already been peer-reviewed and 'published'. While we envision that the Unjournal may assess papers _already published in traditional journals_, these are probably not the best case for the PoC. Thus we de-prioritize these for now.
