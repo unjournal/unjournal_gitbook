@@ -101,6 +101,8 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 ## Key sections/subsections
 
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td> <a data-mention href="./#key-links-faqs">#key-links-faqs</a></td><td></td><td></td></tr><tr><td><a data-mention href="readme/writings/">writings</a></td><td></td><td></td></tr></tbody></table>
+
 ### _Learn more about The Unjournal, our goals and policies_&#x20;
 
 [faq-interaction](faq-interaction/ "mention")... for authors, evaluators, etc.
