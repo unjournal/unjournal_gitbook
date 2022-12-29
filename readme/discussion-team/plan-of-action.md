@@ -55,8 +55,7 @@ __
 
 ### Rules for reviews/assessments
 
-* To be done on the chosen open platform (Kotahi/Sciety) unless otherwise infeasible
-  * _Update 10 Dec 2022_: We are still working with Google Docs and building an external survey interface. We will integrate this with Kotahi when we have funds.
+* To be done on the chosen open platform (Kotahi/Sciety) unless otherwise infeasible. [_10 Dec 2022 update_](#user-content-fn-2)[^2]&#x20;
 * Share, advertise, promote this, have efficient meetings and presentations
   * Establish links to all open-access bibliometric initiatives (to the extent feasible)
 * Harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, to coin-based 'ResearchHub', etc.
@@ -113,3 +112,5 @@ Also: Committing to publish academic reviews or â€˜share in our internal groupâ€
 [^1]: _See more detailed updates in the_ [action-and-progress](../../action-and-progress/ "mention") _section._
 
     __
+
+[^2]: We are still working with Google Docs and building an external survey interface. We will integrate this with Kotahi when we have funds.
