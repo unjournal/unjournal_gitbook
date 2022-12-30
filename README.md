@@ -78,7 +78,31 @@ _We are still seeking more funding, several applications are pending._
 
 </details>
 
-## ****[**This 'gitbook'** ](#user-content-fn-3)[^3]
+## ****
+
+## **"It sounds great, but can you really change things?"**
+
+__
+
+![](https://lh5.googleusercontent.com/HN1Kx8arVLnBNHhANsxlopEdxxlpOCOQEsMn3H4lhser-dC69B8ds1NXbJL2Y2NZ\_kPn-pjzP-T6TooGV0qPf9Vf0SNIXfmPymqZFUDbEJLiL0fvAzQ-Pr93gb3uudHkw62TOrEF6x6\_1XswN2z3CGusk9AcO2DG7paUkIWhB5-BB4w6RxPuYQplBjpQQC-b)![](https://lh6.googleusercontent.com/fF\_YDvF49H4pgDeK80bvybGMFYV1KFYf-yQ5oZbCorO\_WMbQqfLFUXDgNGTdalkAJp52nFuvyL2Z4haKwfnAkVcxZ5JyaM1t2jVt9R8oYT7-h6uR73PPoc1XZncQ0QgyXE-M6Famb0TX8mLp4BV2UuI-7vrRgvbiVltOdrywyV67zZIwzlpwDeLfKTt1E0U5)
+
+Academics and funders have complained about this stuff for years, [and continue to do so every day on social media](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_528)... and we suspect readers will agree with most of our critiques of the traditional review/publication process.
+
+So why haven't we been able to move to something new? There is a difficult _collective action problem._ Individual researchers and universities find it risky to move unilaterally. But we think we now have a good chance of finally changing this and moving to a better equilibrium.&#x20;
+
+* _We can take risks:_ Many people involved with The Unjournal management ourselves are not traditional academics; we can stick our necks out. We are also bringing on board established senior academics who are less vulnerable.
+* _Bringing in new interests, external funding, and incentives:_ There are a range of well-funded and powerful organizations – such as the Sloan Foundation and [Open Philanthropy](https://www.openphilanthropy.org/) – with a strong inherent interest in high-impact research being reliable, robust, and [reasoning transparent](https://www.openphilanthropy.org/research/reasoning-transparency/). This support can change the fundamental incentive structure.
+* _Less risky 'bridging steps'_: In particular, as noted above, The Unjournal allows researchers to _also_ submit their work to traditional journals. In fact, this will provide a _benchmark_ to __ help our quantitative ratings build and demonstrate their value.&#x20;
+* _Communicating with researchers and stakeholders_ to make their participation mutually beneficial
+* _Making our output useful:_[ __ It may take years](#user-content-fn-3)[^3] for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems.  The Unjournal can be somewhat patient: our evaluation, rating, feedback and communication will provide a valuable service to authors and policymakers in the meantime.&#x20;
+* _Technology:_ A new set of open-access tools (including [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9) and others) makes what we are trying to do easier, and[ makes formats other than frozen pdfs more and more useful every day.](#user-content-fn-4)[^4]
+* _Rewarding early adopters with prizes and recognition_: __ We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. (And we intend to do this)
+
+__
+
+****
+
+## ****[**This 'gitbook'** ](#user-content-fn-5)[^5]
 
 _Organizes ideas and resources, and tracks our progress towards The Unjournal's twin goals of:_
 
@@ -121,7 +145,7 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 
 
-### [Detail, progress, and internal planning ](#user-content-fn-4)[^4]
+### [Detail, progress, and internal planning ](#user-content-fn-6)[^6]
 
 [plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
@@ -143,9 +167,15 @@ _Specific "Action steps" taken, in progress, and under discussion:_ [action-buil
 
 [^2]: Economics, social science, quantitative policy analysis, focusing on global priorities and impact)&#x20;
 
-[^3]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
+[^3]: Although we are working to encourage this and make it easy.&#x20;
+
+[^4]: E.g., tools like Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and __ Jupyter notebooks (dynamic documents)
+
+
+
+[^5]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
     \
     _Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\
 
 
-[^4]: These will probably not be of interest to most readers. We are sharing these in the spirit of transparency.
+[^6]: These will probably not be of interest to most readers. We are sharing these in the spirit of transparency.
