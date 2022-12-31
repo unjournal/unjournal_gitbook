@@ -88,17 +88,15 @@ __
 
 Academics and funders have complained about this stuff for years, [and continue to do so every day on social media](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_528)... and we suspect readers will agree with most of our critiques of the traditional review/publication process.
 
-So why haven't we been able to move to something new? There is a difficult _collective action problem._ Individual researchers and universities find it risky to move unilaterally. But we think we now have a good chance of finally changing this and moving to a better equilibrium.&#x20;
+_So why hasn't academia and research community been able to move to something new_? There is a difficult _collective action problem._ Individual researchers and universities find it risky to move unilaterally. But we think we now have a good chance of finally changing this and moving to a better equilibrium.&#x20;
 
-* _We can take risks:_ Many people involved with The Unjournal management ourselves are not traditional academics; we can stick our necks out. We are also bringing on board established senior academics who are less vulnerable.
+* _We can take risks:_ Many people involved with The Unjournal management ourselves are not traditional academics; we can stick our necks out. We are also bringing on board established senior academics who are less professionally vulnerable.
 * _Bringing in new interests, external funding, and incentives:_ There are a range of well-funded and powerful organizations – such as the Sloan Foundation and [Open Philanthropy](https://www.openphilanthropy.org/) – with a strong inherent interest in high-impact research being reliable, robust, and [reasoning transparent](https://www.openphilanthropy.org/research/reasoning-transparency/). This support can change the fundamental incentive structure.
 * _Less risky 'bridging steps'_: In particular, as noted above, The Unjournal allows researchers to _also_ submit their work to traditional journals. In fact, this will provide a _benchmark_ to __ help our quantitative ratings build and demonstrate their value.&#x20;
-* _Communicating with researchers and stakeholders_ to make their participation mutually beneficial
-* _Making our output useful:_[ __ It may take years](#user-content-fn-3)[^3] for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems.  The Unjournal can be somewhat patient: our evaluation, rating, feedback and communication will provide a valuable service to authors and policymakers in the meantime.&#x20;
-* _Technology:_ A new set of open-access tools (including [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9) and others) makes what we are trying to do easier, and[ makes formats other than frozen pdfs more and more useful every day.](#user-content-fn-4)[^4]
-* _Rewarding early adopters with prizes and recognition_: __ We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. (And we intend to do this)
-
-__
+* _Communicating with researchers and stakeholders_ to make our processes easy, clear, and useful to them
+* _Making our output useful:_[ __ It may take years](#user-content-fn-3)[^3] for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems.  The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.&#x20;
+* _Technology is improving:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and[ makes 'formats other than frozen pdfs' more and more useful every day.](#user-content-fn-4)[^4]
+* _Rewarding early adopters with prizes and recognition_: __ We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
 
 ****
 
