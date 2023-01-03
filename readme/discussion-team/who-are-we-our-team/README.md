@@ -23,6 +23,8 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Jonathan Berman](https://www.london.edu/faculty-and-research/faculty-profiles/b/berman-j-z-1), Associate Professor of Marketing at the London Business School
 
+[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
+
 __\
 __**Early/mid-career**
 
@@ -40,17 +42,12 @@ __**Early/mid-career**
 
 __
 
-_Attended first meeting:_&#x20;
-
-[Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto.
-
-[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
-
 
 
 ## Also consulted and communicate with:&#x20;
 
 * Abel Brodeur,  Founder/chair of the [Institute for Replication](https://i4replication.org/) &#x20;
+* [Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto.&#x20;
 * Other academic and policy economists, such as: [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison), [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan), [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett), [David Rhys-Bernard](https://davidrhysbernard.com), [David Roodman](https://davidroodman.com/about/), [Anna Dreber Almenberg](https://sites.google.com/site/annadreber/)
 * Cooper Smout, head of ‘[freeourknowledge.org/](https://freeourknowledge.org/)
 * [Brian Nosek](https://www.projectimplicit.net/nosek/), Center for Open Science
