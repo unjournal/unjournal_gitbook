@@ -33,6 +33,7 @@
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)
   * ['Why pay evaluators (reviewers)'?](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md)
   * [Mapping workflow/process](policies-projects-evaluation-workflow/mapping-workflow-process.md)
+  * [(Communicating results)](policies-projects-evaluation-workflow/communicating-results.md)
 * [The field and EA/gp research](the-field-and-ea-gp-research/README.md)
   * [What is EA/gp relevant research?](the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md)
   * [Syllabi](the-field-and-ea-gp-research/syllabi.md)
