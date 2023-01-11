@@ -1,5 +1,9 @@
 # "Who are we/our team"
 
+### _See also:_ [governance-of-the-unjournal.md](../../../management-tech-details-discussion/governance-of-the-unjournal.md "mention")  __ &#x20;
+
+### __
+
 ### Founding committee
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)__
