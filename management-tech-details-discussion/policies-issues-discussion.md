@@ -41,11 +41,11 @@ E.g., should we consider evaluating papers put out by organizations like Open Ph
 
 ### Timing of releasing evaluations
 
-Should we wait until _all_ commissioned evaluations are in, as well as authors' responses, and release these as a group, or should we sometimes release a subset of these if we anticipate a long delay in others? (If we did this, we would still stick by our guarantee to give authors two weeks to respond before release.&#x20;
+Should we wait until _all_ commissioned evaluations are in, as well as authors' responses, and release these as a group, or should we sometimes release a subset of these if we anticipate a long delay in others? (If we did this, we would still stick by our guarantee to give authors two weeks to respond before release.)
 
 ### Anonymity of evaluators
 
-Revisit our "evaluators decide if they want to be anonymous" policy?
+We may revisit our "evaluators decide if they want to be anonymous" policy/
 
 
 
@@ -62,7 +62,7 @@ My memory is that when submitting a paper, I usually learn who the Senior Editor
 
 </details>
 
-##
+
 
 ## Presenting and hosting our output
 

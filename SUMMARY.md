@@ -63,6 +63,7 @@
   * [Set up evaluation/referee guidelines for pilot papers](action-and-progress/evaluation-referee-guidelines-for-pilot-papers.md)
   * ['Reviewers': Identify, engage](action-and-progress/evaluators-reviewers-identify-contact-engage.md)
 * [Management/tech details, discussion](management-tech-details-discussion/README.md)
+  * [Governance of The Unjournal](management-tech-details-discussion/governance-of-the-unjournal.md)
   * [Hosting & platforms (notes)](management-tech-details-discussion/hosting-and-platforms-notes.md)
   * [Action: Overall scoping](management-tech-details-discussion/action-overall-scoping.md)
   * [Choosing evaluators](management-tech-details-discussion/choosing-evaluators/README.md)
