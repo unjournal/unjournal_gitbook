@@ -55,6 +55,16 @@ _We are also researching other frameworks, templates, and past practices; we hop
 
 
 
+### Discussion amongst evaluator, initial and revised judgments?
+
+See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06016-0), 2022
+
+![](../.gitbook/assets/image.png)
+
+
+
+
+
 ### Non-Anonymity of Managing editors
 
 <details>
