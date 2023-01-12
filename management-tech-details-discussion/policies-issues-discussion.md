@@ -49,6 +49,12 @@ We may revisit our "evaluators decide if they want to be anonymous" policy/
 
 
 
+### Which metrics and predictions to ask, and how?
+
+_We are also researching other frameworks, templates, and past practices; we hope to draw from validated, theoretically grounded projects such as_ [_RepliCATS_](https://replicats.research.unimelb.edu.au/resources/)_._
+
+
+
 ### Non-Anonymity of Managing editors
 
 <details>

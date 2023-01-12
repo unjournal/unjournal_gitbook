@@ -37,7 +37,7 @@ __
 
 ### General criteria/guidelines
 
-See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention") for our [proposed approach and template for referees](#user-content-fn-2)[^2].&#x20;
+See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention") for our [current (pilot-stage) approach and template for referees](#user-content-fn-2)[^2].&#x20;
 
 (See also: [#considering-communicating-editors-process](../policies-projects-evaluation-workflow/considering-projects/#considering-communicating-editors-process "mention"))
 
