@@ -6,7 +6,7 @@
 
 
 
-[global-priorities-theory-of-change](../benefits-and-features/global-priorities-theory-of-change/ "mention")
+[global-priorities-theory-of-change.md](../benefits-and-features/global-priorities-theory-of-change.md "mention")
 
 [aside-open-access-and-information-hazards.md](../benefits-and-features/global-priorities-theory-of-change/aside-open-access-and-information-hazards.md "mention")
 
