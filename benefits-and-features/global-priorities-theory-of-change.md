@@ -4,42 +4,47 @@ See also [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-propos
 
 ```mermaid
 flowchart TD
-classDef Direct fill:#f9f
+classDef Direct fill:#faefaf
+classDef Integrate fill:#99bdf0
+classDef Multi fill:#bdf2c9
+classDef Systemic fill:#f0b6c4
 
-
-A0[UJ tools, incentives, platforms]:::Direct -->  A[Faster/better feedback on impactful research ]:::Direct 
-A[Faster/better feedback on impactful research ] --> EAR[EA-aligned researchers seek more evaluation]:::Direct --> EAR1[+ Rigor of EA-aligned research]:::Direct --> A1[Impactful research improved]:::Direct
-A0[UJ tools, incentives, platforms] --> I[Academics paid to evaluate impactful research] --> I2[+ Awareness of impactful research] --> D1[+ Academic focus on global priorities] 
- A[Faster/better feedback on impactful research ]  --> D[UJ Attractive to researchers]
- A[Faster/better feedback on impactful research ] --> A1[Impactful research improved] 
+A0[UJ tools, incentives, platforms]:::Multi -->  A[Faster/better feedback on impactful research ]:::Direct 
+A[Faster/better feedback on impactful research ] --> EAR[EA-aligned researchers seek more evaluation]:::Direct --> EAR1[+ Rigor of EA-aligned research]:::Direct --> A1[Impactful research improved]:::Multi 
+A0[UJ tools, incentives, platforms] --> I[Academics paid to evaluate impactful research]:::Integrate --> I2[+ Awareness of impactful research]:::Integrate --> D1[+ Academic focus on global priorities]:::Integrate 
+I[Academics paid to evaluate impactful research]:::Integrate  --> A1[Impactful research improved]:::Multi 
+A[Faster/better feedback on impactful research ]  --> D[UJ Attractive to researchers]
+ A[Faster/better feedback on impactful research ] --> A1[Impactful research improved]:::Multi 
     A[Faster, better feedback on impactful research ] --> A2[Decisionmakers better informed]
-A0[UJ tools, incentives, platforms] --> B[Reliable predictors of research 'success'] --> B2[Replaces traditional journals] 
+A0[UJ tools, incentives, platforms] --> B[Reliable predictors of research 'success']:::Systemic --> B2[Replaces traditional journals] 
 B[Reliable predictors of research 'success'] --> A2[Decisionmakers better informed]
 
-D[UJ Attractive to researchers] --> B2[UJ Eval. replaces Trad. journals] 
-B1[UJ attractive to gatekeepers] --> D[UJ Attractive to researchers]
- D[UJ Attractive to researchers] --> D1[+ Academic focus on global priorities] --> A1[Impactful research improved]
+D[UJ Attractive to researchers]:::Systemic --> B2[UJ Eval. replaces Trad. journals]:::Systemic 
+B1[UJ attractive to gatekeepers]:::Systemic --> D[UJ Attractive to researchers]
+ D[UJ Attractive to researchers] --> D1[+ Academic focus on global priorities] --> A1[Impactful research improved]:::Multi 
 B[Reliable predictors of research 'success'] --> B1[UJ attractive to gatekeepers] --> B2[UJ Eval. replaces Trad. journals] 
-B2[UJ Eval. replaces Trad. journals] --> B3[Research eval. more efficient] --> B35[Academic research is more useful and reliable] --> A1[Impactful research improved]
-B2[UJ Eval. replaces Trad. journals] --> B4[Open access] --> A2[Decisionmakers better informed]
-A1[Impactful research improved] --> A2[Decisionmakers better informed]:::Direct
-B2[UJ Eval. replaces Trad. journals] --> B5[Readable formats ] --> A2[Decisionmakers better informed] --> E1[Better assessment of priorities, policy choices]:::Direct --> O[+ Survival & flourishing]:::Direct
-B2[UJ Eval. replaces Trad. journals]--> B6[Replicable, transparent formats] --> B35[Academic research is more useful and reliable]
+B2[UJ Eval. replaces Trad. journals] --> B3[Research eval. more efficient]:::Systemic --> B35[Academic research is more useful and reliable] --> A1[Impactful research improved]:::Multi 
+B2[UJ Eval. replaces Trad. journals] --> B4[Open access]:::Systemic --> A2[Decisionmakers better informed]
+A1[Impactful research improved]:::Multi  --> A2[Decisionmakers better informed]:::Direct
+B2[UJ Eval. replaces Trad. journals] --> B5[Readable formats ]:::Systemic --> A2[Decisionmakers better informed]:::Multi --> E1[Better assessment of priorities, policy choices]:::Multi --> O[+ Survival & flourishing]:::Multi
+B2[UJ Eval. replaces Trad. journals]--> B6[Replicable, transparent formats]:::Systemic --> B35[Academic research is more useful and reliable]:::Systemic
 ```
 
 
 
-Our 'Theory of Change' paths are shown above; we highlight the most 'direct' path in pink. All of these begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system. These all  lead to impactful research being more in-depth, more reliable, more accessible, and more useful, better informing decision-makers, and leading to better decisions and outcomes.   \
+Our 'Theory of Change' paths are shown above; we highlight what is arguably the most 'direct' path in yellow. All of these begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system (in green, at top). These all  lead to impactful research being more in-depth, more reliable, more accessible, and more useful, better informing decision-makers, and leading to better decisions and outcomes (in green, at bottom).   \
 
 
 Highlighting some of the key paths:
 
-1. Faster and better feedback on impactful research will better inform policymakers and philanthropists.
-2. The Unjournal’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at ‘predicting publication outcomes’, we will become a replacement for traditional processes,  improving research overall (some of which will be highly impactful research).&#x20;
+1. (Yellow) Faster and better feedback on impactful research improves this work, and better informs policymakers and philanthropists (Yellow path)
+2. (Blue) Our processes and incentives will foster ties between mainstream/prominent/academic/policy researchers and global-priorities/EA-focused researchers. This will improve the rigor, credibility, exposure, and influence of previously ‘EA niche’ work, while helping mainstream researchers better understand and incorporate ideas, principles and methods from the EA and rationalist research communities (counterfactual impact, cause-neutrality, reasoning transparency, etc.)&#x20;
+   1. This process will also nudge mainstream academics towards focusing on impact and global priorities, and towards making their research and outputs more accessible and useable.&#x20;
+3. The Unjournal’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at ‘predicting publication outcomes’, we will become a replacement for traditional processes,  improving research overall (some of which will be highly impactful research).&#x20;
 
-* This process will also nudge mainstream academics towards focusing on impact and global priorities, and towards making their research and outputs more accessible and useable.&#x20;
+*
 
-3\. Our processes and incentives will foster ties between mainstream/prominent/academic/policy researchers and global-priorities/EA-focused researchers. This will improve the rigor, credibility, exposure, and influence of previously ‘EA niche’ work, while helping mainstream researchers better understand and incorporate ideas, principles and methods from the EA and rationalist research communities (counterfactual impact, cause-neutrality, reasoning transparency, etc.)&#x20;
+
 
 
 
