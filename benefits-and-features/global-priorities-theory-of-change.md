@@ -48,15 +48,36 @@ Rigorous quantitative and empirical research in economics, business, public poli
 However, the academic publication process is notoriously slow; for example, in economics it [routinely takes 2-6 years](https://www.nber.org/papers/w29147) between the first presentation of a research paper and the eventual publication in a peer-reviewed journal. Recent reforms have sped up parts of the process  by encouraging researchers to put working papers/preprints online. &#x20;
 
 \
-However, working papers and preprints often receive at most only a cursory check before publication, and it is up to the reader to judge quality for themselves.  Decisionmakers and other researchers rely on peer review to judge the work’s credibility. This part remains slow and inefficient. Furthermore, it provides very noisy signals: a paper is typically judged by the ‘prestige of the journal it lands in’ (perhaps after an intricate odyssey across journals), but it is hard to know why it ended up there. Publication success is seen to depend on personal connections, cleverness, strategic submission strategies, good presentation skills, and relevance to the discipline’s methods and theory. These factors are largely irrelevant to whether and how philanthropists and policymakers should consider and act on a paper’s claimed findings.  Reviews are kept secret; the public never learns why a paper was deemed worthy of a journal, nor what its strengths and weaknesses were.  We believe that disseminating research sooner  – along with measures of its credibility– is better. \
+However, working papers and preprints often receive at most only a cursory check before publication, and it is up to the reader to judge quality for themselves.  Decision-makers and other researchers rely on peer review to judge the work’s credibility. This part remains slow and inefficient. Furthermore, it provides very noisy signals: a paper is typically judged by the ‘prestige of the journal it lands in’ (perhaps after an intricate odyssey across journals), but it is hard to know why it ended up there. Publication success is seen to depend on personal connections, cleverness, strategic submission strategies, good presentation skills, and relevance to the discipline’s methods and theory. These factors are largely irrelevant to whether and how philanthropists and policymakers should consider and act on a paper’s claimed findings.  Reviews are kept secret; the public never learns why a paper was deemed worthy of a journal, nor what its strengths and weaknesses were. &#x20;
 
+We believe that disseminating research sooner  – along with measures of its credibility– is better.&#x20;
 
-We believe that publicly evaluating its quality before (and in addition to) journal publication will add substantial additional value, providing:&#x20;
+We also believe that publicly evaluating its quality before (and in addition to) journal publication will add substantial additional value, providing:&#x20;
 
 1. A quality assessment (by experts in the field) that can be read alongside the preprint by decision makers or other researchers, helping these users weigh its strengths and weaknesses, and interpreting its implications.
-2. Faster feedback to authors, focused on improving the rigor and impact of the work&#x20;
+2. Faster feedback to authors, focused on improving the rigor and impact of the work.&#x20;
 
-Various initiatives in the life sciences are already begun reviewing preprints. While economics  took the lead in sharing working papers, public evaluation of economics, business,  and social science research is rare. The Unjournal is the first initiative to publicly evaluate rapidly-disseminated work from these fields. Our specific priority: research relevant to global priorities
+Various initiatives in the life sciences are already begun reviewing preprints. While economics took the lead in sharing working papers, public evaluation of economics, business,  and social science research is rare. The Unjournal is the first initiative to publicly evaluate rapidly-disseminated work from these fields. Our specific priority: research relevant to global priorities
+
+
+
+<details>
+
+<summary>So, how does this contribute to better 'survival and flourishing' outcomes?</summary>
+
+The Unjournal will encourage and incentivize substantive and helpful feedback and careful quantitative evaluation. We will publish these evaluations in a carefully curated space, and clearly aggregate and communicate this output.\
+
+
+This will help us achieve our focal,  most tangible ‘theory of change’ pathway (mapped in our ‘Plan for Impact’.)&#x20;
+
+* better (faster, public, more thorough, more efficient, quantified, and impact-minded) evaluation of pivotal research&#x20;
+* makes this research better  (both the evaluated work and adjacent work), encourages more such work
+* and makes it easier for decision-makers to evaluate and use it, leading to better decisions and better outcomes,
+* reducing X-risk and contributing to long-term survival and flourishing.
+
+
+
+</details>
 
 
 
