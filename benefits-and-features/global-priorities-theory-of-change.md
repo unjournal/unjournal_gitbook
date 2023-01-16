@@ -85,6 +85,30 @@ This will help us achieve our focal,  most tangible ‘theory of change’ pathw
 
 The Unjournal’s open feedback should also be valuable to the researchers themselves and their research community, catalyzing progress. As the Unjournal Evaluation becomes a valuable outcome in itself, researchers can spend less time ‘gaming the journal system’. Shared public evaluation will provide an important window to other researchers, helping them better understand the relevant cutting-edge concerns. The Unjournal will permit research to be submitted in a wider variety of useful formats (e.g., dynamic documents and notebooks rather than ‘frozen pdfs’), enabling more useful, replicable content and less time spent formatting papers for particular journals. We will also allow researchers to improve their work ‘in situ’ and gain updated evaluations, rather than having to spin-off new papers. This will make the literature more clear and less cluttered.
 
+
+
+<details>
+
+<summary>Achieving system change in spite of collective action issues</summary>
+
+Some of the paths will take longer than others; in particular, it will be hard to get academia to change, particularly because of entrenched systems and a collective action problem. We discuss how we hope to overcome this [HERE](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/#it-sounds-great-but-can-you-really-change-things). In particular:
+
+We can provide leadership and take risks that academics won’t take themselves.&#x20;
+
+* Bringing in new interests, external funding, and incentives can change the fundamental incentive structure.
+* We can play a long game and build our processes and track record, while we wait for academia to directly incorporate journal-independent evaluations int0 their reward systems. Meanwhile, our work and output will be highly useful to EA/global priorities longtermist researchers and decision-makers. as part of their metrics and reward systems.&#x20;
+* The Unjournal’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at ‘predicting publication outcomes’, we will become a replacement for traditional processes,  improving research overall (some of which will be highly impactful research).&#x20;
+* This process will also nudge mainstream academics towards focusing on impact and global priorities, and towards making their research and outputs more accessible and useable.&#x20;
+
+</details>
+
+###
+
+
+
+.&#x20;
+
+\
 \
 
 
