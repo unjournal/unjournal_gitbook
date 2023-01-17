@@ -62,7 +62,7 @@ _****_[_**Linking**_** work but not 'publishing it'.** ](#user-content-fn-1)[^1]
 
 For example, this proposal is closely related to Elife's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research). (However, we cover a different research focus, and make some different choices, discussed below.)\
 \
-Below, we discuss other [parallel-partner-initiatives-and-resources](grants-and-proposals/unsuccessful-applications/clearer-thinking-ftx-regranting-unsuccessful/parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this [particular research area/focus](#user-content-fn-2)[^2]. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
+Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this [particular research area/focus](#user-content-fn-2)[^2]. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
 
 </details>
 
@@ -137,7 +137,7 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 ### Other resources and reading
 
-[parallel-partner-initiatives-and-resources](grants-and-proposals/unsuccessful-applications/clearer-thinking-ftx-regranting-unsuccessful/parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
+[parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
 
 [the-field-and-ea-gp-research](the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
 
