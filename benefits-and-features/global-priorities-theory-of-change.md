@@ -5,29 +5,40 @@ See also [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-propos
 ```mermaid
 flowchart TD
 classDef Direct fill:#faefaf
-classDef Integrate fill:#99bdf0
 classDef Multi fill:#bdf2c9
+classDef Integrate fill:#99bdf0
 classDef Systemic fill:#f0b6c4
 
-A0[UJ tools, incentives, platforms]:::Multi -->  A[Faster/better feedback on impactful research ]:::Direct 
-A[Faster/better feedback on impactful research ] --> EAR[EA-aligned researchers seek more evaluation]:::Direct --> EAR1[+ Rigor of EA-aligned research]:::Direct --> A1[Impactful research improved]:::Multi 
-A0[UJ tools, incentives, platforms] --> I[Academics paid to evaluate impactful research]:::Integrate --> I2[+ Awareness of impactful research]:::Integrate --> D1[+ Academic focus on global priorities]:::Integrate 
-I[Academics paid to evaluate impactful research]:::Integrate  --> A1[Impactful research improved]:::Multi 
-A[Faster/better feedback on impactful research ]  --> D[UJ Attractive to researchers]
- A[Faster/better feedback on impactful research ] --> A1[Impactful research improved]:::Multi 
-    A[Faster, better feedback on impactful research ] --> A2[Decisionmakers better informed]
-A0[UJ tools, incentives, platforms] --> B[Reliable predictors of research 'success']:::Systemic --> B2[Replaces traditional journals] 
-B[Reliable predictors of research 'success'] --> A2[Decisionmakers better informed]
+A0[UJ tools, incentives, platforms, emphasis]:::Multi --enable-->  A[More efficient rsch. feedback/eval.]:::Multi 
+A0 --we will --- FocusEA[Focus on impactful rsch.]:::Direct --> EAR
+A --> EAR[+ evaluation of EA-aligned rsch.]:::Direct 
+EAR --> EARig[+ Rigor of EA-aligned rsch.]:::Direct 
+EARig --> A1[Impactful research improved]:::Multi 
 
-D[UJ Attractive to researchers]:::Systemic --> B2[UJ Eval. replaces Trad. journals]:::Systemic 
+EAR[+ Eval. of EA-aligned research]:::Direct --- OF[+ 'Open science']:::Direct --> EARO[More replicable, reliable]:::Direct --> A1
+A0 --> PayAcad[Academics paid to eval. impactful rsch.]:::Integrate --> AcadAware[+ Awareness/interest in impactful rsch.]:::Integrate --> D1[+ Acad. focus on global priorities]:::Integrate 
+PayAcad:::Integrate  --> A1[Impactful rsch. improved]:::Multi 
+EARig --Stronger work--> AcadAware
+
+A  --> D[UJ Attractive to researchers]
+A --> A1:::Multi 
+A --> A2[Decisionmakers better informed]
+A0 --Building--> B[Reliable predictors of rsch. 'success']:::Systemic --> B2[UJ-style Eval. replaces Trad. journals]:::Systemic 
+B[Reliable predictors of rsch. 'success'] --> A2
+
+D[UJ Attractive to researchers]:::Systemic --> B2
 B1[UJ attractive to gatekeepers]:::Systemic --> D[UJ Attractive to researchers]
- D[UJ Attractive to researchers] --> D1[+ Academic focus on global priorities] --> A1[Impactful research improved]:::Multi 
-B[Reliable predictors of research 'success'] --> B1[UJ attractive to gatekeepers] --> B2[UJ Eval. replaces Trad. journals] 
-B2[UJ Eval. replaces Trad. journals] --> B3[Research eval. more efficient]:::Systemic --> B35[Academic research is more useful and reliable] --> A1[Impactful research improved]:::Multi 
-B2[UJ Eval. replaces Trad. journals] --> B4[Open access]:::Systemic --> A2[Decisionmakers better informed]
-A1[Impactful research improved]:::Multi  --> A2[Decisionmakers better informed]:::Direct
-B2[UJ Eval. replaces Trad. journals] --> B5[Readable formats ]:::Systemic --> A2[Decisionmakers better informed]:::Multi --> E1[Better assessment of priorities, policy choices]:::Multi --> O[+ Survival & flourishing]:::Multi
-B2[UJ Eval. replaces Trad. journals]--> B6[Replicable, transparent formats]:::Systemic --> B35[Academic research is more useful and reliable]:::Systemic
+D --> D1 --> A1:::Multi 
+B[Reliable predictors of rsch. 'success'] --> B1[UJ attractive to gatekeepers] --> B2 
+B2[UJ Eval. replaces Trad. journals] --> B3[Rsch. eval. more efficient]:::Systemic 
+B3 --> RSXreliable[Acad. rsch. more useful/reliable]:::Systemic
+RSXreliable --Some of which is impactful--> A1 
+B2 --> B4[Open access]:::Systemic 
+B4 --> A2[Decisionmakers better informed]
+A1:::Multi  --> A2:::Direct
+A0 --Incentivize and value--> B6[Readable formats]:::Systemic --> A2:::Multi --> E1[Better assessment of priorities, policy choices]:::Multi --> O[+ Survival & flourishing]:::Multi 
+B6[Replicable, transparent, readable rsch.]:::Systemic --> RSXreliable
+B2-...-B6
 ```
 
 
@@ -42,7 +53,7 @@ Highlighting some of the key paths:
    1. This process will also nudge mainstream academics towards focusing on impact and global priorities, and towards making their research and outputs more accessible and useable.&#x20;
 3. The Unjournal’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at ‘predicting publication outcomes’, we will become a replacement for traditional processes,  improving research overall (some of which will be highly impactful research).&#x20;
 
-*
+
 
 
 
