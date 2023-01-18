@@ -78,7 +78,7 @@ _We are still seeking more funding, several applications are pending._
 
 </details>
 
-## ****
+****
 
 ## **"It sounds great, but can you really change things?"**
 
