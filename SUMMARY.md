@@ -32,7 +32,7 @@
     * [Guidelines for Evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/README.md)
       * [Why these guidelines?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md)
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)
-    * ['Why pay evaluators (reviewers)'?](policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md)
+    * ['Why pay evaluators (reviewers)'?](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md)
     * [Protecting anonymity](policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md)
   * [Mapping workflow/process](policies-projects-evaluation-workflow/mapping-workflow-process.md)
   * [Communicating results](policies-projects-evaluation-workflow/communicating-results.md)
