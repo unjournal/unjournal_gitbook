@@ -66,6 +66,8 @@
 * [Management/tech details, discussion](management-tech-details-discussion/README.md)
   * [Governance of The Unjournal](management-tech-details-discussion/governance-of-the-unjournal.md)
   * [Hosting & platforms (notes)](management-tech-details-discussion/hosting-and-platforms-notes.md)
+  * [Other tech and tools](management-tech-details-discussion/other-tech-and-tools/README.md)
+    * [Cryptpad (for evaluator or other anonymity)](https://docs.google.com/document/d/1sK70t0smdyt8sOtDf3Nn3TkUNTprdOkZqz7LpPjFLsQ/edit)
   * [Action: Overall scoping](management-tech-details-discussion/action-overall-scoping.md)
   * [Choosing evaluators](management-tech-details-discussion/choosing-evaluators/README.md)
     * [Avoiding COI](management-tech-details-discussion/choosing-evaluators/avoiding-coi.md)
