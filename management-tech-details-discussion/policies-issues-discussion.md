@@ -39,13 +39,11 @@ E.g., should we consider evaluating papers put out by organizations like Open Ph
 
 
 
-### Timing of releasing evaluations
-
-Should we wait until _all_ commissioned evaluations are in, as well as authors' responses, and release these as a group, or should we sometimes release a subset of these if we anticipate a long delay in others? (If we did this, we would still stick by our guarantee to give authors two weeks to respond before release.)
-
 ### Anonymity of evaluators
 
-We may revisit our "evaluators decide if they want to be anonymous" policy/
+We may revisit our "evaluators decide if they want to be anonymous" policy. Changes will, of course never apply retroactively: we will carefully keep our promises. \
+\
+However, we may consider requesting certain evaluators/evaluations to specifically be anonymous, or to publish their names. A mix of anonymous and signed reviews might be ideal, leveraging some of the benefits of each.&#x20;
 
 
 
@@ -63,7 +61,9 @@ See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.c
 
 
 
+### Timing of releasing evaluations
 
+Should we wait until _all_ commissioned evaluations are in, as well as authors' responses, and release these as a group, or should we sometimes release a subset of these if we anticipate a long delay in others? (If we did this, we would still stick by our guarantee to give authors two weeks to respond before release.)
 
 ### Non-Anonymity of Managing editors
 
