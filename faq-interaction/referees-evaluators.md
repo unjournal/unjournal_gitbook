@@ -24,6 +24,14 @@ __
 * We can use these as incentives for high-quality work
 * We can use payments to access a wider range of expertise, including people not interested in submitting their own work to the Unjournal
 
+_****_
+
+### _**How do we protect the anonymity of evaluators who request it?**_  &#x20;
+
+See [protecting-anonymity.md](../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention")
+
+##
+
 ## Public evaluations
 
 ### [How are these hosted and shared?](#user-content-fn-1)[^1]
@@ -46,6 +54,13 @@ See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluat
 ## Anonymity/blinding vs. signed reports
 
 _10 Dec 2022:_ Our current policy is to allow evaluators to choose whether they wish to remain anonymous or 'sign their evaluations'
+
+\
+
+
+
+
+
 
 ###
 
