@@ -8,7 +8,9 @@
 
 13 Dec 2022: Moving in this direction
 
-Currently, the majority of our process is not done through Kotahi.&#x20;
+Currently, the majority of our process is not done through Kotahi.  We would need funds to make a more bespoke interface.
+
+
 
 ### Host for Kotahi: Cloud68
 
@@ -29,6 +31,10 @@ _This is essentially a workaround database. We are not using the full features o
 
 
 ## Main public curated space: Sciety.org
+
+
+
+[sciety-host-and-curate-evals.md](hosting-and-platforms/sciety-host-and-curate-evals.md "mention")
 
 _Group in preparation:_&#x20;
 
