@@ -1,4 +1,4 @@
-# Hosting & platforms (notes)
+# Hosting & platforms
 
 ## Editorial management and paper intake: Kotahi
 
@@ -12,7 +12,7 @@ Currently, the majority of our process is not done through Kotahi.&#x20;
 
 ### Host for Kotahi: Cloud68
 
-Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if they are not logged in)&#x20;
+Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if necessary)&#x20;
 
 Will change this to: unjournalplatform.org\
 \
@@ -30,7 +30,7 @@ _This is essentially a workaround database. We are not using the full features o
 
 ## Main public curated space: Sciety.org
 
-_We've applied for a group:_
+_Group in preparation:_&#x20;
 
 _Goal: get Unjournal.org to redirect here_
 
