@@ -7,7 +7,7 @@
 _****_[_**We need to identify a small set of papers or projects as representative first-cases. This will make things concrete and help us test the system we are building.**_](#user-content-fn-2)[^2]_****_
 
 {% hint style="info" %}
-_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
+_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../../../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
 {% endhint %}
 
 ## Steps proposed and taken
@@ -48,7 +48,7 @@ Not very relevant (because mainly operational)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research](../../readme/call-for-participants-research/ "mention")
+6\. Cross-promoted with [call-for-participants-research](../../../readme/call-for-participants-research/ "mention")
 
 \_\_
 

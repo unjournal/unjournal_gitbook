@@ -1,12 +1,12 @@
 # Build founding committee
 
 {% hint style="info" %}
-_25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [call-for-participants-research](../readme/call-for-participants-research/ "mention"). We are in the process of inviting people now.
+_25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [call-for-participants-research](../../readme/call-for-participants-research/ "mention"). We are in the process of inviting people now.
 {% endhint %}
 
 ## Progress: the team (continual update)
 
-[who-are-we-our-team](../readme/discussion-team/who-are-we-our-team/ "mention")
+[who-are-we-our-team](../../readme/discussion-team/who-are-we-our-team/ "mention")
 
 ## Key elements of plan
 
@@ -16,7 +16,7 @@ _25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [c
 2. Host a meeting (and shared collaboration space/document), to come to a consensus/set of practical principles _\[26 May 2022: First meeting held, writing up shared notes]_
 3. Post and present our consensus (coming out of this meeting) on key fora. After a brief ‘followup period’ (\~1 week), consider adjusting the above consensus plan in light of the feedback, and repost (and move forward)
 
-... Excerpts from successful ACX grant, [#the-twelve-month-plan](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan "mention"), reiterated in followup [ftx-future-fund-for-further-funding-unsuccessful.md](../grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md "mention").
+... Excerpts from successful ACX grant, [#the-twelve-month-plan](../../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan "mention"), reiterated in followup [ftx-future-fund-for-further-funding-unsuccessful.md](../../grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md "mention").
 
 ## How to recruit and choose this 'founding committee'?
 
