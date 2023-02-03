@@ -147,7 +147,7 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 [plan-of-action.md](readme/discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
-_Specific "Action steps" taken, in progress, and under discussion:_ [action-build-founding-committee.md](action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](management-tech-details-discussion/action-overall-scoping.md "mention")
+_Specific "Action steps" taken, in progress, and under discussion:_ [action-build-founding-committee.md](the-field-and-ea-gp-research/action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](management-tech-details-discussion/action-overall-scoping.md "mention")
 
 [grants-and-proposals](grants-and-proposals/ "mention"): The successful ACX proposal, other applications, EA initiatives
 
