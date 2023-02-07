@@ -1,18 +1,18 @@
-# Identify pilot/key projects/papers, contact authors
+# Identified key research
 
 ([_Note for the management team_](#user-content-fn-1)[^1]_)_
 
 ## Test-case research for Proof of Concept
 
-_****_[_**We need to identify a small set of papers or projects as representative first-cases. This will make things concrete and help us test the system we are building.**_](#user-content-fn-2)[^2]_****_
+I[_**dentify a small set of papers or projects as representative first-cases; to concretely help  test the system we are building.**_](#user-content-fn-2)[^2]_****_
 
 {% hint style="info" %}
-_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../../../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
+_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
 {% endhint %}
 
-## Steps proposed and taken
+## Steps taken
 
-1. **Posts on EA Forum** (and other places)**,** \_\_ [_and form_](https://airtable.com/shrdHHI0zK7rkJCP3) _(see view at bottom of this section); promoting further, with bounty._
+1. **Posts on EA Forum** (and other places)**,**  [_and form_](https://airtable.com/shrdHHI0zK7rkJCP3) _(see view at bottom of this section); promoting further, with bounty._
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
@@ -25,14 +25,11 @@ _In doing the above, we are also collecting a longer list of key papers, project
 * GPI [research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues) (includes many posed questions)
 * Open Philanthropy[ "questions that might affect our grantmaking"](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking) (needs updating? few academic links)
 * [The EA Behavioral Science Newsletter](https://preview.mailerlite.com/m9i6r0j7h9)
-* Syllabi:
-  * [Pablo's list](http://www.stafforini.com/blog/effective-altruism-syllabi/)
-    * [Economics focus](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples) list
-  * David Rhys-Bernard's syllabus ([link to my commented/highlighted version)](https://docs.google.com/document/d/1LeHrhhAcSWGQze6nSeaA9eNIXoG2vqPKM6-PrHognR0/edit)
+* Syllabi: [Pablo's lis](http://www.stafforini.com/blog/effective-altruism-syllabi/)t, [Economics focus](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples) list, David Rhys-Bernard's syllabus ([link to my commented/highlighted version)](https://docs.google.com/document/d/1LeHrhhAcSWGQze6nSeaA9eNIXoG2vqPKM6-PrHognR0/edit)
 
 <details>
 
-<summary><strong>Maybe also 'Mistakes' pages?</strong></summary>
+<summary>Consider: <strong>'Mistakes' pages?</strong></summary>
 
 * [Givewell](https://www.givewell.org/about/our-mistakes) (mainly _operational mistakes)_
 
@@ -48,9 +45,13 @@ Not very relevant (because mainly operational)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research](../../../readme/call-for-participants-research/ "mention")
+6\. Cross-promoted with [call-for-participants-research](../readme/call-for-participants-research/ "mention")
 
-\_\_
+
+
+## Pivot: direct focus on NBER working papers
+
+[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
 
 [^1]: See also
 

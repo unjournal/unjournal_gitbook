@@ -1,12 +1,10 @@
-# Set up evaluation/referee guidelines for pilot papers
+# Setup evaluation guidelines for pilot papers
 
-_9 Jul 2022: We are coming up with preliminary guidelines for reviewers/evaluators._&#x20;
+7 Feb 2023 We have  considered and _put  together:_
 
-* What should they consider,
-* what should they write,&#x20;
-* and what metrics should they give for the papers?
+See: [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
 
-_Put  together:_
+... including descriptive and quantitative (rating and prediction elements).  With feedback from evaluators and others, we are continuing to build and improve this.\
+\
 
-[guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
 
