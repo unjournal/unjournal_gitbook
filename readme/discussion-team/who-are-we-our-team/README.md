@@ -17,7 +17,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
 * [Kris Gulati](https://sites.google.com/view/kris-gulati/home), Economics PhD student at the University of California, Merced
 
-[Outreach: see](#user-content-fn-1)[^1] [action-build-founding-committee.md](../../../the-field-and-ea-gp-research/action-and-progress/action-build-founding-committee.md "mention")&#x20;
+[Outreach: see](#user-content-fn-1)[^1] [action-build-founding-committee.md](../../../action-and-progress/action-build-founding-committee.md "mention")&#x20;
 
 ### Advisory board
 

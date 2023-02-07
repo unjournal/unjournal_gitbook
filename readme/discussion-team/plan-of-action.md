@@ -32,7 +32,7 @@ See [acx-ltff-grant-proposal-as-submitted-successfull](../../grants-and-proposal
 
 ### Setup and team
 
-:heavy\_check\_mark: [action-build-founding-committee.md](../../the-field-and-ea-gp-research/action-and-progress/action-build-founding-committee.md "mention")
+:heavy\_check\_mark: [action-build-founding-committee.md](../../action-and-progress/action-build-founding-committee.md "mention")
 
 :heavy\_check\_mark:/:hourglass\_flowing\_sand: **Define the broad scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
 
@@ -109,7 +109,7 @@ Also: Committing to publish academic reviews or â€˜share in our internal groupâ€
 
 </details>
 
-[^1]: _See more detailed updates in the_ [action-and-progress](../../the-field-and-ea-gp-research/action-and-progress/ "mention") _section._
+[^1]: _See more detailed updates in the_ [action-and-progress](../../action-and-progress/ "mention") _section._
 
     __
 

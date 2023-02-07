@@ -1,14 +1,20 @@
-# Build founding committee
+# Build founding committee (pilot: done)
 
 {% hint style="info" %}
-_25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [call-for-participants-research](../../readme/call-for-participants-research/ "mention"). We are in the process of inviting people now.
+7 Feb 2023: We have an organized founding/management committee, as well as an advisory board  (see [who-are-we-our-team](../readme/discussion-team/who-are-we-our-team/ "mention")). We are focusing on pushing research through the evaluation pipeline, and communicating this output and making it useful. We have a good division of labor, e.g., among 'managing editors' for specific papers.\
+\
+We are likely to expand our team after our pilot, condifurther funding
 {% endhint %}
 
 ## Progress: the team (continual update)
 
-[who-are-we-our-team](../../readme/discussion-team/who-are-we-our-team/ "mention")
+[who-are-we-our-team](../readme/discussion-team/who-are-we-our-team/ "mention")
 
 ## Key elements of plan
+
+<details>
+
+<summary>Put together founding committee,  meetings, public posts and feedback (done)</summary>
 
 1. **Build a ‘founding committee’ of 5-8 experienced and enthusiastic EA-aligned/adjacent researchers at EA orgs, research academics, and practitioners** (e.g., draw from speakers at recent EA Global meetings).
    1. Private Airtable with lists of names and organizations
@@ -16,9 +22,13 @@ _25 Jun 2022 update:_ We assembled an ad-hoc initial team, and then put out a [c
 2. Host a meeting (and shared collaboration space/document), to come to a consensus/set of practical principles _\[26 May 2022: First meeting held, writing up shared notes]_
 3. Post and present our consensus (coming out of this meeting) on key fora. After a brief ‘followup period’ (\~1 week), consider adjusting the above consensus plan in light of the feedback, and repost (and move forward)
 
-... Excerpts from successful ACX grant, [#the-twelve-month-plan](../../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan "mention"), reiterated in followup [ftx-future-fund-for-further-funding-unsuccessful.md](../../grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md "mention").
+... Excerpts from successful ACX grant, [#the-twelve-month-plan](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan "mention"), reiterated in followup [ftx-future-fund-for-further-funding-unsuccessful.md](../grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md "mention").
 
-## How to recruit and choose this 'founding committee'?
+</details>
+
+****
+
+## How was this founding committee recruited?
 
 * Putting an action plan together in the discussion [Gdoc under "Procedure for choosing committee"](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit#heading=h.jisvaqlrtl5x)
 * [EA Forum question post: Soliciting lists and names](https://forum.effectivealtruism.org/posts/xGhBDnPojdvuH2aBK/do-we-have-any-lists-of-academics-research-groups-relevant)
@@ -50,4 +60,8 @@ DR: I think I need to draw people from a few relevant Areas\
 
 ### Second: public call for interest
 
-{% embed url="https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit#heading=h.jisvaqlrtl5x" %}
+{% embed url="https://forum.effectivealtruism.org/posts/kffXpdBgevBzK3cKB/unjournal-call-for-participants-and-research" %}
+
+Further posts on social media, academic websites and message boards, etc.
+
+### See also public [Gdoc discussion of 'the Committee and consensus'](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit#heading=h.c63gsld3ti16)
