@@ -1,13 +1,13 @@
 # Action and progress
 
-See also [plan-of-action.md](../../readme/discussion-team/plan-of-action.md "mention")
+See also [plan-of-action.md](../readme/discussion-team/plan-of-action.md "mention")
 
 ### Gantt Chart of Next Steps
 
 {% embed url="https://airtable.com/shrGbB6b45GcdL0YJ/tblDnwRNHnruI9Kqw" %}
 
 * [action-build-founding-committee.md](action-build-founding-committee.md "mention")
-* [action-identify-pilot-key-projects-papers](action-identify-pilot-key-projects-papers/ "mention")
+* [action-identify-pilot-key-projects-papers.md](action-identify-pilot-key-projects-papers.md "mention")
 * [action-set-up-platforms.md](action-set-up-platforms.md "mention")
 * Initial evaluations, feedback on the process
 * Revise process, further set of evaluations
