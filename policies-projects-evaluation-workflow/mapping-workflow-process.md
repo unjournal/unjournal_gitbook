@@ -19,8 +19,10 @@
 8. Reviewer submits evaluation including numeric ratings and predictions, confidence intervals
    * _Possible addition (future plan)_: Reviewer asks for 'minor revisions and corrections; see 'considering: allowing minor revisions' in fold below
 9. HE collates all reviews for sharing with Author,  shares reviews and ratings with Author
-   * Share names of evaluators if they are 'signed', otherwise [be very careful about anonymity](#user-content-fn-1)[^1].&#x20;
-   * Share evaluations with the authors as separate doc/file/space; which [the evaluators _do not have automatic access to_](#user-content-fn-2)[^2]_._
+   * Be very careful not to share evaluators' identities, unless the specifically requested this
+     * [Especially where evaluators chose anonymity](#user-content-fn-1)[^1]
+     * Even if evaluators chose to 'sign their evaluation', do not disclose their identity to authors at this point, but tell evaluators they can reach out to [the authors if they desire](#user-content-fn-2)[^2]
+   * Share evaluations with the authors as separate doc/file/space; which [the evaluators _do not have automatic access to_](#user-content-fn-3)[^3]_._
    * Make it clear to authors: their responses will be published (and given a DOI when we can).
 10. Author(s) reads evaluations, given two weeks to submit responses
     * _If there is an embargo, there is more time to do this, of course_
@@ -69,6 +71,10 @@ We also want to encourage papers as [permanent-beta ](../benefits-and-features/l
 
 </details>
 
-[^1]: No evaluator content should be linked to real names anyway, but doublecheck.
+[^1]: Where evaluators chose anonymity, none of their evaluation content should be linked to their real names or identity by design. Still, doublecheck this.
 
-[^2]: Make this clear to authors. Authors can reach out to evaluators and share any of this if they wish, but they are not required to do so.&#x20;
+
+
+[^2]: The evaluators can also ask us to disclose their identity and contact info to the authors at this point, to save them the hassle
+
+[^3]: Make this clear to authors. Authors can reach out to evaluators and share any of this if they wish, but they are not required to do so.&#x20;
