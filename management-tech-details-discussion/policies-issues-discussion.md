@@ -37,8 +37,6 @@ E.g., should we consider evaluating papers put out by organizations like Open Ph
 * Random trial: We can compare empirically (are signed reviews less informative?)
 * Use a mix (1 signed, 2 anonymous reviews) for each paper
 
-
-
 ### Anonymity of evaluators
 
 We may revisit our "evaluators decide if they want to be anonymous" policy. Changes will, of course never apply retroactively: we will carefully keep our promises. \
@@ -58,6 +56,12 @@ _We are also researching other frameworks, templates, and past practices; we hop
 See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06016-0), 2022
 
 ![](../.gitbook/assets/image.png)
+
+
+
+### Revisions as part of process?
+
+[#considering-for-future-enabling-minor-revisions](../policies-projects-evaluation-workflow/mapping-workflow-process.md#considering-for-future-enabling-minor-revisions "mention")
 
 
 
