@@ -18,7 +18,7 @@
 7. Evaluator completes a review form (atm this includes an out-link to a gdoc or survey, allowing better-formatted content and input options); aim to embed in [kotahi-submit-eval-mgmt.md](../management-tech-details-discussion/hosting-and-platforms/kotahi-submit-eval-mgmt.md "mention")
 8. Reviewer submits evaluation including numeric ratings and predictions, confidence intervals
    * _Possible addition (future plan)_: Reviewer asks for 'minor revisions and corrections; see 'considering: allowing minor revisions' in fold below
-9. HE collates all reviews for sharing with Author,  shares reviews and ratings with Author
+9. HE collates all reviews/ratings, shares these with Author, notifies evaluators this was done
    * Be very careful not to share evaluators' identities, unless the specifically requested this
      * [Especially where evaluators chose anonymity](#user-content-fn-1)[^1]
      * Even if evaluators chose to 'sign their evaluation', do not disclose their identity to authors at this point, but tell evaluators they can reach out to [the authors if they desire](#user-content-fn-2)[^2]
