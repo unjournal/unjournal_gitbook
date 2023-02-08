@@ -1,11 +1,11 @@
-# (Communicating results)
+# Communicating results
 
 ## Curating and publishing evaluations, linked to research
 
-* Sciety Group: curating evaluations and papers
-* Evaluations and author response given DOI's, enter the bibliometric record
+* [Sciety Group: curating evaluations and papers](https://sciety.org/groups/the-unjournal/about)
+* Evaluations and author response [to be given DOI's](#user-content-fn-1)[^1], enter the bibliometric record
   * Considering: 'publication tier' of authors' responses as a workaround to encode aggregated evaluation &#x20;
-* Hypothes.is annotation of hosted and linked papers and projects
+* Hypothes.is annotation of hosted and linked papers and projects (aiming to integrate: See: [hypothes.is-for-collab.-annotation.md](../management-tech-details-discussion/other-tech-and-tools/hypothes.is-for-collab.-annotation.md "mention"))
 * Sharing evaluation data&#x20;
 
 ## Aggregating evaluators' ratings and predictions
@@ -26,3 +26,6 @@ Considering...
 
 
 
+
+
+[^1]: 8 Feb 2023 --  we are still working outt the best way to do this; we aree considering Zenodo
