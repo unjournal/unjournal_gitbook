@@ -1,6 +1,6 @@
 # Mapping workflow/process
 
-## (Revised 8 Feb '23) Initial sketch&#x20;
+## Initial sketch, revised 8 Feb '23
 
 1. &#x20;Author creates new submission (submits a URL and DOI)
    * Alt: Project submitted independently of authors; authors asked/informed
