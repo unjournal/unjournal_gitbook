@@ -27,8 +27,10 @@
 11. &#x20;HE publishes peer review (with all of the above content) to Hypothes.is&#x20;
     * ... If no embargo, otherwise wait until after embargo ends/authors release it
 12. This feeds into our [Sciety curated space](https://sciety.org/groups/the-unjournal/about)&#x20;
+
     * ...as well as into some other platforms like Kotahi, and [we are working](../management-tech-details-discussion/other-tech-and-tools/) on DOIs for each element)
-    *
+
+
 
 ## Considering for future: enabling  'minor revisions'
 
