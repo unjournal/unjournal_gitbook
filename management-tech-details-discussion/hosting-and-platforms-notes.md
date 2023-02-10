@@ -30,6 +30,14 @@ _This is essentially a workaround database. We are not using the full features o
 
 
 
+{% hint style="info" %}
+_**As we often use Gdocs, see**_ [_**"Docs to md conversion"**_](https://docs.google.com/document/d/11daGp9fnWN4Vx03-\_ARoDgbvczlAAGu89OEMfOOiWp0/edit) _**tips**_
+{% endhint %}
+
+_****_
+
+
+
 ## Main public curated space: Sciety.org
 
 
