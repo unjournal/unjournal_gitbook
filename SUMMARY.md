@@ -71,6 +71,7 @@
     * [Sciety (host & curate evals)](management-tech-details-discussion/hosting-and-platforms/sciety-host-and-curate-evals.md)
     * [hypothes.is 'feeding' Sciety](management-tech-details-discussion/hosting-and-platforms/hypothes.is-feeding-sciety.md)
     * [Docs to md conversion](https://docs.google.com/document/d/11daGp9fnWN4Vx03-\_ARoDgbvczlAAGu89OEMfOOiWp0/edit)
+    * [Fiscal hosting and expenses](management-tech-details-discussion/hosting-and-platforms/fiscal-hosting-and-expenses.md)
   * [Other tech and tools](management-tech-details-discussion/other-tech-and-tools/README.md)
     * [Cryptpad (for evaluator or other anonymity)](https://docs.google.com/document/d/1sK70t0smdyt8sOtDf3Nn3TkUNTprdOkZqz7LpPjFLsQ/edit)
     * [hypothes.is for collab. annotation](management-tech-details-discussion/other-tech-and-tools/hypothes.is-for-collab.-annotation.md)
