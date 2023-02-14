@@ -1,6 +1,6 @@
 # Fiscal hosting and expenses
 
-Fiscal host: [https://opencollective.com/the-unjournal/](https://opencollective.com/the-unjournal/expenses)
+Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal/expenses)
 
 
 
