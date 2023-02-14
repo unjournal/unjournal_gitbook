@@ -4,7 +4,7 @@ Fiscal host: [https://opencollective.com/the-unjournal/](https://opencollective.
 
 
 
-### Paying expenses/claims
+### Submitting and paying expenses/claims
 
 Expenses: [https://opencollective.com/the-unjournal/expenses](https://opencollective.com/the-unjournal/expenses)\
 \
@@ -20,7 +20,7 @@ Claimants (evaluators etc.) must start an account (basically leave email and pay
 
 
 
-Payments made by Wise/Bank Transfer -- need to submit bank/payment information&#x20;
+Payments made by Wise/Bank Transfer -- [need to submit bank/payment information ](#user-content-fn-1)[^1]
 
 
 
@@ -55,13 +55,6 @@ Additional invoice information &#x20;
 
 </details>
 
-
-
-\
-\
-; if this proves too cumbersome for them, we can make a simple survey (Google form etc) to ask for this.\
-
-
 ![](../../.gitbook/assets/image.png)&#x20;
 
 
@@ -69,3 +62,27 @@ Additional invoice information &#x20;
 {% hint style="info" %}
 Consider: how to generate W2s -- these might be necessary
 {% endhint %}
+
+
+
+
+
+{% hint style="warning" %}
+**Anonymity** **and payments**:\
+
+
+> Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**
+
+\
+**So if you request payment for an anonymous evaluation, please **_**use a pseudonym for your  profile name**_  (and tell us this pseudonym in other private correspondence.)\
+\
+(For good measure, do  not indicate the name of the paper in the expense claim).
+{% endhint %}
+
+
+
+
+
+[^1]: &#x20;if this proves too cumbersome for them, we can make a simple survey (Google form etc) to ask for this.\
+
+
