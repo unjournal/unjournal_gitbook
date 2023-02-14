@@ -1,5 +1,7 @@
 # Evaluation (refereeing)
 
+
+
 {% hint style="info" %}
 We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
 {% endhint %}
@@ -23,6 +25,18 @@ __
 * While researchers currently write reports for prominent traditional journals for free (perhaps in exchange for goodwill when they submit their own work) we need to use explicit incentives as the Unjournal grows&#x20;
 * We can use these as incentives for high-quality work
 * We can use payments to access a wider range of expertise, including people not interested in submitting their own work to the Unjournal
+
+
+
+<details>
+
+<summary>To claim your evaluator payment...</summary>
+
+Please see:
+
+[#submitting-and-paying-expenses-claims](../management-tech-details-discussion/hosting-and-platforms/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims "mention")
+
+</details>
 
 _****_
 
