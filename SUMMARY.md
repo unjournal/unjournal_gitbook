@@ -1,9 +1,6 @@
 # Table of contents
 
-* [The Unjournal](README.md)
-  * [Explanations & outreach](readme/writings/README.md)
-    * [Marketing/outreach texts](readme/writings/marketing-and-outreach.md)
-    * [Related articles and work](readme/writings/related-articles-and-work.md)
+* [The Unjournal (overview)](README.md)
   * [Call: participants, research](readme/call-for-participants-research/README.md)
     * [Brief version of call](readme/call-for-participants-research/brief-version-of-call.md)
     * [Impactful Research Prize](readme/call-for-participants-research/impactful-research-prize/README.md)
@@ -12,6 +9,10 @@
     * ["Who are we/our team"](readme/discussion-team/who-are-we-our-team/README.md)
       * [Reinstein's story in brief](readme/discussion-team/who-are-we-our-team/reinsteins-story-in-brief.md)
     * [Plan of action](readme/discussion-team/plan-of-action.md)
+  * [Explanations & outreach](readme/writings/README.md)
+    * [Marketing/outreach texts](readme/writings/marketing-and-outreach.md)
+    * [Related articles and work](readme/writings/related-articles-and-work.md)
+  * [Latest updates (coming)](readme/latest-updates-coming.md)
 * [Why Unjournal? (benefits)](benefits-and-features/README.md)
   * [Costs: 'the publication game'](benefits-and-features/costs-of-playing-the-publication-game.md)
   * [Dynamic docs vs. 'living projects'](benefits-and-features/dynamic-documents-vs-living-projects.md)
