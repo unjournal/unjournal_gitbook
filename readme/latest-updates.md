@@ -1,4 +1,4 @@
-# Latest updates (coming)
+# Latest updates
 
 {% hint style="info" %}
 **Watch this space** (19 Feb 2023) ... we are starting to&#x20;
@@ -17,7 +17,7 @@
 
 
 
-**19 Feb 2023, 'MailChimp; link:** We are testing out the 'MailChimp' signup list. Feel free to sign up below, and we will try to integrate you into any mailings we provide going forward. (But this is still in the trial stage)
+**19 Feb 2023, 'MailChimp; link:** We are _testing_ _out_ the 'MailChimp' signup list. [Feel free to sign up on an 'alpha' basis.](#user-content-fn-1)[^1]
 
 {% @mailchimp/mailchimpSubscribe %}
 
@@ -96,3 +96,6 @@ _Hope these updates are helpful. Let me know if you have suggestions._&#x20;
 
 
 
+
+
+[^1]: Feel free to sign up below, and we will try to integrate you into any mailings we provide going forward, including updates on this 'updates' page. But this is still in the trial stage; we may need to adjust this.
