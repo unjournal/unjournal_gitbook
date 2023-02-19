@@ -1,12 +1,8 @@
 ---
-description: Unjournal call for participants and research
+description: Unjournal call for participants and research.
 ---
 
 # Call: participants, research
-
-{% hint style="info" %}
-See [#in-a-nutshell](../../#in-a-nutshell "mention")for an overview of The Unjournal
-{% endhint %}
 
 {% hint style="info" %}
 **TLDR**\
@@ -26,6 +22,7 @@ You can submit your own work [here](https://unjournaldev.cloud68.co/login) (or b
 
 _Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing) (initial prizes: ~~$2000~~, $2500, $1000)
 
+\
 
 {% endhint %}
 
