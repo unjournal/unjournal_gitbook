@@ -25,14 +25,20 @@
 
 ## Update on recent progress: 19 Feb 2023
 
-Some quickies...
-
 #### **Content and 'publishing'**
 
 1. Our [Sciety Group](https://sciety.org/groups/the-unjournal/about) is up...&#x20;
 2. With our [first posted evaluation](https://sciety.org/lists/55026c6d-0dc2-46c0-96c1-e0c944c404ed) ("Long Term Cost-Effectiveness of Resilient Foods"... Denkenberger et al. Evaluations from Scott Janzwood, Anca Hanea, and Alex Bates,  and an author response.
 3. Two more evaluations 'will be posted soon' (waiting for final author responses.
-4. We are working on six more papers (projects), most of which are part of our NBER[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+
+#### Tip of the Spear ... right now we are:
+
+* Working on getting six further papers (projects) evaluated, most of which are part of our NBER[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+* Developing and discussing tools for aggregating and presenting the evaluators' quantitative judgments
+* Building our platforms, and considering ways to better format and integrate evaluations&#x20;
+  * with the original research (e.g., through Hypothes.is collaborative annotation)&#x20;
+  * into the bibliometric record (through DOI's etc)
+  * and with each other.
 
 #### Funding, plans, collaborations
 
@@ -40,17 +46,53 @@ We are seeking grant funding for our continued operation and expansion (see [gra
 
 We're considering collaborations with other compatible initiatives, including...
 
-* replication/reproducability/robystness initiatives,&#x20;
+* replication/reproducability/robustness-checking initiatives,&#x20;
 * prediction and replication markets,&#x20;
 * and projects involving the elicitation and 'aggregation of expert and stakeholder beliefs' (about both replication and outcomes themselves).
 
-#### Management and administration
+#### Management and administration, deadlines
 
-We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home).
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home)
+* We are postponing the deadline for judging the [impactful-research-prize](call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.&#x20;
 
 #### Other news and media
 
-EA Forum: recent post and AMA (answering questions about the Unjournal's progress, plans, and relation to effective-altruism-relevant research:&#x20;
+* EA Forum: "[Unjournal's 1st eval is up: Resilient foods paper (Denkenberger et al) & AMA":  ](https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper)recent post and AMA (answering questions about the Unjournal's progress, plans, and relation to effective-altruism-relevant research
+* March 9-10: David Reinstein will present at the [COS Unconference](https://www.cos.io/unconference), session on "Translating Open Science Best Practices to Non-academic Settings". See [agenda](https://docs.google.com/document/d/1YyVnY8DLRxJgZtpPE9Dxl--e5t9qPVu2TooEUlqlXcI/edit?hsCtaTracking=4b7f7294-a896-4e18-b2c1-3ef6b05f635b%7C9d0d37f7-25cb-4a04-be18-fc11c9c61bd9). David will discuss The Unjournal for part of this session.
 
-{% embed url="https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper" %}
+#### Calls to action
+
+#### See: [call-for-participants-research](call-for-participants-research/ "mention"). These are basically still all relevant.
+
+1. **Evaluators:** We have a strong pool of evaluators.  &#x20;
+
+<details>
+
+<summary>However, atm we are particularly seeking evaluators:</summary>
+
+* with quantitative backgrounds, especially in economics, policy,  and social-science&#x20;
+
+<!---->
+
+* comfortable with statistics, cost-effectiveness, impact evaluation, and or Fermi Montecarlo models,
+
+<!---->
+
+* with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research](../the-field-and-ea-gp-research/ "mention"); e.g., global health and development),
+
+<!---->
+
+* willing to dig into details, identify a paper's key claims, and consider the credibility of the research methodology and its execution.
+
+</details>
+
+Recall, we pay at least $250 per evaluation, we typically pay more in net ($350), and we are looking to increase this compensation further. _Please fill out_ [_**THIS** _ ](https://airtable.com/shrW9xpIrxNGfxkXW)__[_**FORM**_](https://airtable.com/shrW9xpIrxNGfxkXW)  _(about 3-5 min) if you are interested_
+
+2. **Research to evaluate/prizes:** We continue to be interested in submitted and suggested work. One area we would like to engage with more: quantitative social science and economics work relevant to animal welfare.
+
+_Hope these updates are helpful. Let me know if you have suggestions._&#x20;
+
+&#x20;__&#x20;
+
+
 
