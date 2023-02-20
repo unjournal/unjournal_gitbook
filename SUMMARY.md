@@ -1,11 +1,12 @@
 # Table of contents
 
-* [The Unjournal (overview)](README.md)
-  * [Call: participants, research](readme/call-for-participants-research/README.md)
+* [The Unjournal (introduction)](README.md)
+  * [Contents/guide/overview](readme/contents-guide-overview.md)
+  * [How to be part of this](readme/call-for-participants-research/README.md)
     * [Brief version of call](readme/call-for-participants-research/brief-version-of-call.md)
     * [Impactful Research Prize](readme/call-for-participants-research/impactful-research-prize/README.md)
       * [Recap: submissions](readme/call-for-participants-research/impactful-research-prize/recap-submissions.md)
-  * [Team, discussion, plans](readme/discussion-team/README.md)
+  * [Our team, our plans](readme/discussion-team/README.md)
     * ["Who are we/our team"](readme/discussion-team/who-are-we-our-team/README.md)
       * [Reinstein's story in brief](readme/discussion-team/who-are-we-our-team/reinsteins-story-in-brief.md)
     * [Plan of action](readme/discussion-team/plan-of-action.md)
