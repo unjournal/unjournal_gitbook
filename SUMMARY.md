@@ -12,6 +12,7 @@
   * [Explanations & outreach](readme/writings/README.md)
     * [Marketing/outreach texts](readme/writings/marketing-and-outreach.md)
     * [Related articles and work](readme/writings/related-articles-and-work.md)
+    * [Simple page (WIP)](readme/writings/simple-page-wip.md)
   * [Latest updates](readme/latest-updates.md)
 * [Why Unjournal? (benefits)](benefits-and-features/README.md)
   * [Costs: 'the publication game'](benefits-and-features/costs-of-playing-the-publication-game.md)
