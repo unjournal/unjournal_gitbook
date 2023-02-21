@@ -8,7 +8,7 @@
 * [Effective thesis project](https://effectivethesis.org/project/)
 * [Rethink Priorities 2020 Impact and 2021 Strategy (includes broad agenda)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy)
 * [80000 Hours research questions by discipline](https://80000hours.org/articles/research-questions-by-discipline/)
-* [Animal Charity Evaluators research](https://animalcharityevaluators.org/research/)
+* [Animal Charity Evaluators' research](https://animalcharityevaluators.org/research/)
 
 
 
