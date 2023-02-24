@@ -461,7 +461,7 @@ _For the questions below, we will publish your responses and review unless you a
 {% endhint %}
 
 1. How long have you been in this field?
-2. How many proposals and papers have you evaluated?
+2. How many proposals and papers have you evaluated? _(For journals, grants, and other peer-review.)_
 
 _Your answers to the questions below will not be made public:_
 
