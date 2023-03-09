@@ -6,7 +6,7 @@
 We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
 {% endhint %}
 
-_What we are asking evaluators/referees to do:_ [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")__
+_What we are asking evaluators/referees to do:_ [guidelines-for-evaluators](../our-policies-evaluation-and-workflow/evaluation/guidelines-for-evaluators/ "mention")__
 
 __
 
@@ -42,7 +42,7 @@ _****_
 
 ### _**How do we protect the anonymity of evaluators who request it?**_  &#x20;
 
-See [protecting-anonymity.md](../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention")
+See [protecting-anonymity.md](../our-policies-evaluation-and-workflow/evaluation/protecting-anonymity.md "mention")
 
 ##
 
@@ -59,9 +59,9 @@ See [protecting-anonymity.md](../policies-projects-evaluation-workflow/evaluatio
 
 ### General criteria/guidelines
 
-See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention") for our [current (pilot-stage) approach and template for referees](#user-content-fn-2)[^2].&#x20;
+See [guidelines-for-evaluators](../our-policies-evaluation-and-workflow/evaluation/guidelines-for-evaluators/ "mention") for our [current (pilot-stage) approach and template for referees](#user-content-fn-2)[^2].&#x20;
 
-(See also: [#considering-communicating-editors-process](../policies-projects-evaluation-workflow/considering-projects/#considering-communicating-editors-process "mention"))
+(See also: [#considering-communicating-editors-process](../our-policies-evaluation-and-workflow/considering-projects/#considering-communicating-editors-process "mention"))
 
 
 

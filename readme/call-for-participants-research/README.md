@@ -2,7 +2,7 @@
 description: Unjournal call for participants and research
 ---
 
-# Call: participants, research
+# How to be part of this
 
 {% hint style="info" %}
 See [#in-a-nutshell](../../#in-a-nutshell "mention")for an overview of The Unjournal
@@ -42,7 +42,7 @@ Our initial focus: research relevant to [global priorities](https://globalpriori
 Briefly, [the Unjournal’s process is](#user-content-fn-4)[^4]:
 
 * Identify or invite contributions of relevant research [_that is publicly hosted_](#user-content-fn-5)[^5] on any open platform or archive in any format .
-* Pay evaluators to give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value. (See [evaluator guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/).)
+* Pay evaluators to give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value. (See [evaluator guidelines](../../our-policies-evaluation-and-workflow/evaluation/guidelines-for-evaluators/).)
 * Publicly post and link all reviews of the work. Award financial prizes for work judged strongest.
   * _Note:_ Some specific exceptions for ECRs, allowing them to hide/embargo negative reviews.
   * _Note:_ We currently allow _evaluators_ to choose if they wish to remain anonymous, or to 'sign their reviews.'
@@ -96,6 +96,6 @@ _We invite you to fill in this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW)
 
 
 
-[^4]: This is under continual refinement; see our ['policies' section](../../policies-projects-evaluation-workflow/) for more detail.
+[^4]: This is under continual refinement; see our ['policies' section](../../our-policies-evaluation-and-workflow/) for more detail.
 
 [^5]: We can help arrange hosting and help you get a time-stamped DOI.

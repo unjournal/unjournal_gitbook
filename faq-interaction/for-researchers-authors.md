@@ -123,7 +123,7 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
 [^2]: We're aiming to have these submissions go through our [Kotahi](https://kotahi.community) interface.
 
-[^3]: See: [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention"). Where the paper has already been published, we elicit counterfactual responses.&#x20;
+[^3]: See: [guidelines-for-evaluators](../our-policies-evaluation-and-workflow/evaluation/guidelines-for-evaluators/ "mention"). Where the paper has already been published, we elicit counterfactual responses.&#x20;
 
 [^4]: We can help you to do this, if you need. We will also ask for other relevant links, such as a 'permalink to updates', if you would like to give one.
 

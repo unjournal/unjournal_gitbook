@@ -16,7 +16,7 @@
 
 <!---->
 
-* See [mapping-workflow-process.md](../policies-projects-evaluation-workflow/mapping-workflow-process.md "mention") for how projects will enter, be evaluated, and 'output'
+* See [mapping-workflow-process.md](../our-policies-evaluation-and-workflow/mapping-workflow-process.md "mention") for how projects will enter, be evaluated, and 'output'
 * We will outline specific [requests](https://docs.google.com/document/d/1BasFdbN0a8OVLwjB2\_F\_GpECgJpYI2iWRO8fZuU13Z0/edit#heading=h.dkt5cpu55te) for developers\
 
 * Sciety group set up with 'Hypothes.is feed'; working on processing first evaluations\
