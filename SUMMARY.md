@@ -17,7 +17,7 @@
   * [Latest updates](readme/latest-updates.md)
 * [Why Unjournal? (benefits)](benefits-and-features/README.md)
   * [Evaluation reduces the costs of 'the publication game'](benefits-and-features/costs-of-playing-the-publication-game.md)
-  * [The Unjournal promotes open science (discussion coming soon)](benefits-and-features/the-unjournal-promotes-open-science-discussion-coming-soon.md)
+  * [Promoting open, robust science](benefits-and-features/promoting-open-robust-science.md)
   * [Enabling dynamic docs & 'living projects'](benefits-and-features/dynamic-documents-vs-living-projects.md)
     * [Benefits of 'dynamic docs'](benefits-and-features/benefits-of-dynamic-documents.md)
     * ['Living research projects'](benefits-and-features/living-research-projects.md)
