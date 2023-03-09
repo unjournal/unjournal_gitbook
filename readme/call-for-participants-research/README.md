@@ -35,7 +35,7 @@ I am [David Reinstein](https://www.davidreinstein.org/) (Senior Economist at [Re
 
 The [Unjournal team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/master/discussion-team/who-are-we-our-team) is building a system for credible, public, journal-independent feedback and evaluation of research. Peer review can be slow; our system will enable researchers to get more prompt, efficient, and substantive feedback and advice, with metrics and signals of quality. The Unjournal will also help researchers advance, promote, and improve their work, while still allowing them to submit it to traditional journals at any point in the process.
 
-Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in [public, open formats, that support replicability](#user-content-fn-2)[^2] and robustness. Rather than ‘finished frozen publications’, we wish to foster a [living and continually-improved approach](../../benefits-and-features/dynamic-documents-vs-living-projects/living-research-projects.md) to research projects; we hope that the papers we review will be improved, extended, and may even be re-assessed in future versions.[  ](#user-content-fn-3)[^3]
+Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in [public, open formats, that support replicability](#user-content-fn-2)[^2] and robustness. Rather than ‘finished frozen publications’, we wish to foster a [living and continually-improved approach](../../benefits-and-features/living-research-projects.md) to research projects; we hope that the papers we review will be improved, extended, and may even be re-assessed in future versions.[  ](#user-content-fn-3)[^3]
 
 
 
@@ -90,7 +90,7 @@ _We invite you to fill in this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW)
 
 [^1]: Including as a BITSS Catalyst
 
-[^2]: Such as [hosted dynamic documents](../../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md); [Quarto](https://quarto.org/), Rmd, Jupyter, etc.
+[^2]: Such as [hosted dynamic documents](../../benefits-and-features/benefits-of-dynamic-documents.md); [Quarto](https://quarto.org/), Rmd, Jupyter, etc.
 
 [^3]: [Our linked project space HERE gives further details about the Unjournal project.](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)
 

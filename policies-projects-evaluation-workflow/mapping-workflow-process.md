@@ -59,7 +59,7 @@ __
 
 We don't want to replicate the slow and inefficient processes of the traditional system. We want evaluators to basically give a report and rating _as the paper stands._&#x20;
 
-We also want to encourage papers as [permanent-beta ](../benefits-and-features/dynamic-documents-vs-living-projects/living-research-projects.md)projects. The authors can improve it, if they like, and resubmit it for a new evaluation.&#x20;
+We also want to encourage papers as [permanent-beta ](../benefits-and-features/living-research-projects.md)projects. The authors can improve it, if they like, and resubmit it for a new evaluation.&#x20;
 
 
 
