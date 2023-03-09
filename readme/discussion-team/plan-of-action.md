@@ -45,7 +45,7 @@ __
 ### Create a set of rules for 'submission and management'
 
 * Which projects enter the review system (relevance, minimal quality, stakeholders, any red lines or 'musts')
-  * :hourglass\_flowing\_sand: See [considering-projects](../../our-policies-evaluation-and-workflow/considering-projects/ "mention") for a first pass
+  * :hourglass\_flowing\_sand: See [considering-projects](../../policies-projects-evaluation-workflow/considering-projects/ "mention") for a first pass
 * how projects are to be submitted
 * how reviewers are to be assigned and compensated&#x20;
 
@@ -60,7 +60,7 @@ __
   * Establish links to all open-access bibliometric initiatives (to the extent feasible)
 * Harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, to coin-based 'ResearchHub', etc.
 
-See [guidelines-for-evaluators](../../our-policies-evaluation-and-workflow/evaluation/guidelines-for-evaluators/ "mention")&#x20;
+See [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")&#x20;
 
 _Status: Mostly completed/decided for pilot phase;_ will review after the initial trial
 

@@ -33,7 +33,7 @@
 
 #### Tip of the Spear ... right now we are:
 
-* Working on getting six further papers (projects) evaluated, most of which are part of our NBER[direct-evaluation-track.md](../our-policies-evaluation-and-workflow/considering-projects/direct-evaluation-track.md "mention")
+* Working on getting six further papers (projects) evaluated, most of which are part of our NBER[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
 * Developing and discussing tools for aggregating and presenting the evaluators' quantitative judgments
 * Building our platforms, and considering ways to better format and integrate evaluations&#x20;
   * with the original research (e.g., through Hypothes.is collaborative annotation)&#x20;
