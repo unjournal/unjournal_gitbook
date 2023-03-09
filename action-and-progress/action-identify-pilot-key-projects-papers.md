@@ -51,7 +51,7 @@ Not very relevant (because mainly operational)
 
 ## Pivot: direct focus on NBER working papers
 
-[direct-evaluation-track.md](../our-policies-evaluation-and-workflow/considering-projects/direct-evaluation-track.md "mention")
+[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
 
 [^1]: See also
 

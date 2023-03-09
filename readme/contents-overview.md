@@ -1,4 +1,4 @@
-# Contents/guide/overview
+# Contents: overview
 
 ## Key sections/subsections
 
@@ -10,7 +10,7 @@
 
 [benefits-and-features](../benefits-and-features/ "mention"): Some key benefits of the choices we are making
 
-[our-policies-evaluation-and-workflow](../our-policies-evaluation-and-workflow/ "mention"): How we choose papers/projects to evaluate, how we assign evaluators, etc.
+[policies-projects-evaluation-workflow](../policies-projects-evaluation-workflow/ "mention"): How we choose papers/projects to evaluate, how we assign evaluators, etc.
 
 
 

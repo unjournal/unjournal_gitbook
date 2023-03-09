@@ -8,7 +8,7 @@ description: Journal-independent evaluation of impactful research
 
 <summary>Key links/Faqs</summary>
 
-* ****[Guidelines for Evaluators](our-policies-evaluation-and-workflow/evaluation/guidelines-for-evaluators/)
+* ****[Guidelines for Evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
 
 <!---->
 
@@ -40,7 +40,7 @@ See [latest-updates.md](readme/latest-updates.md "mention")– aiming to be fort
 
 ## In a nutshell&#x20;
 
-_We are not a journal!_ The Unjournal will not 'publish any papers in a journal'; we will organize and fund public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects. Our [initial focus: ](our-policies-evaluation-and-workflow/considering-projects/)quantitative work that informs global priorities, especially in economics, policy, and social science. We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+_We are not a journal!_ The Unjournal will not 'publish any papers in a journal'; we will organize and fund public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects. Our [initial focus: ](policies-projects-evaluation-workflow/considering-projects/)quantitative work that informs global priorities, especially in economics, policy, and social science. We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 _**Why**? Peer review is great,_ but academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
 
@@ -50,7 +50,7 @@ _**Why**? Peer review is great,_ but academic publication processes are wasteful
 
 **Identifying**, **soliciting, and choosing relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _(See: the_ [_benefits of dynamic docs_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/benefits-and-features/benefits-of-dynamic-documents)_)_
 
-_W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series (_see our_ [direct evaluation track](our-policies-evaluation-and-workflow/considering-projects/direct-evaluation-track.md)).&#x20;
+_W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series (_see our_ [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)).&#x20;
 
 **Paying reviewers** (i.e, 'evaluators') to give careful feedback on this work.  _(_[_Why do we pay_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/why-pay-evaluators-reviewers)_?)_
 
@@ -70,7 +70,7 @@ _****_[_**Linking**_** work but not 'publishing it'.** ](#user-content-fn-1)[^1]
 
 For example, this proposal is closely related to Elife's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research). (However, we cover a different research focus, and make some different choices, discussed below.)\
 \
-Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this [particular research area/focus](#user-content-fn-2)[^2]. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](our-policies-evaluation-and-workflow/evaluation/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](our-policies-evaluation-and-workflow/evaluation/guidelines-for-evaluators/ "mention")).
+Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this [particular research area/focus](#user-content-fn-2)[^2]. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
 
 </details>
 
@@ -131,7 +131,7 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 ## Where I find/where do I go next
 
-See [contents-guide-overview.md](readme/contents-guide-overview.md "mention")
+See [contents-overview.md](readme/contents-overview.md "mention")
 
 
 

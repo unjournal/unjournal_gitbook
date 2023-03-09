@@ -5,5 +5,5 @@ description: >-
   editors. Much of this will be moved or mirrored in the
 ---
 
-# Policies: projects, evaluation, workflow
+# Our policies: Evaluation & workflow
 
