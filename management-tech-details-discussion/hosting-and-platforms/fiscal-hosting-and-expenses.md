@@ -4,7 +4,25 @@ Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.c
 
 
 
+
+
 ### Submitting and paying expenses/claims
+
+
+
+{% hint style="info" %}
+**Anonymity** **and payments**: **Evaluators, please use a pseudonym!**\
+
+
+> Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**
+
+\
+**If you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either one we've provided, or make one up and tell us this pseudonym in other private correspondence.)\
+\
+_For good measure, do not indicate the name of the paper in the expense claim_
+{% endhint %}
+
+__
 
 Expenses: [https://opencollective.com/the-unjournal/expenses](https://opencollective.com/the-unjournal/expenses)\
 \
@@ -67,17 +85,7 @@ Consider: how to generate W2s -- these might be necessary
 
 
 
-{% hint style="warning" %}
-**Anonymity** **and payments**:\
-
-
-> Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**
-
-\
-**So if you request payment for an anonymous evaluation, please **_**use a pseudonym for your  profile name**_  (and tell us this pseudonym in other private correspondence.)\
-\
-(For good measure, do  not indicate the name of the paper in the expense claim).
-{% endhint %}
+.
 
 
 
