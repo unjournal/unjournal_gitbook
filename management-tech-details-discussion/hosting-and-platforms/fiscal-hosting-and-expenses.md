@@ -11,13 +11,13 @@ Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.c
 
 
 {% hint style="info" %}
-**Anonymity** **and payments**: **Evaluators, please use a pseudonym!**\
+**Anonymity** **and payments**: **Evaluators, please use a pseudonym or the salted hashtag we shared with you!**\
 
 
 > Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**
 
 \
-**If you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either one we've provided, or make one up and tell us this pseudonym in other private correspondence.)\
+**If you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the salted hashtag  we've provided, or make one up and tell us this pseudonym in other private correspondence.)\
 \
 _For good measure, do not indicate the name of the paper in the expense claim_
 {% endhint %}
