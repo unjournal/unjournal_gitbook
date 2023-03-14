@@ -42,7 +42,7 @@ _****_
 
 
 
-[sciety-host-and-curate-evals.md](hosting-and-platforms/sciety-host-and-curate-evals.md "mention")
+[sciety-host-and-curate-evals](hosting-and-platforms/sciety-host-and-curate-evals/ "mention")
 
 _Group in preparation:_&#x20;
 
