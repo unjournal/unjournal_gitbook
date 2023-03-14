@@ -10,11 +10,15 @@ Your evaluation will be made public and given a DOI, but you will have the optio
 
 <details>
 
-<summary>Payment information </summary>
+<summary>Payment amounts discussed, submitting claims</summary>
 
 We aim to increase these payments going forward and are applying for funds to do this. "Pilot" reviewers will be given an extra payment for helping us evaluate the system. We may occasionally offer additional payments for specifically requested evaluation tasks.
 
+See: [#submitting-and-paying-expenses-claims](../../../management-tech-details-discussion/hosting-and-platforms/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims "mention")
+
 </details>
+
+
 
 {% hint style="info" %}
 _****_[_**How and why did we decide on these guidelines?**_](#user-content-fn-3)[^3]_****_
@@ -361,7 +365,7 @@ Is this topic, approach, and discussion _potentially_ useful to global prioritie
 
 ## Journal/Prediction metrics
 
-We would like to benchmark our evaluations against 'how research is currently judged.' We want to provide a bridge between the current 'accept or reject' system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus, we are asking you for two predictions in the table below. \
+We would like to benchmark our evaluations against 'how research is currently judged.' We want to provide a bridge between the current 'accept or reject' system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus, we are asking you for _two_ predictions in the table below. \
 &#x20;
 
 <table><thead><tr><th>Journal/Prediction metrics</th><th data-type="number">Predict: journal quality* (0.0-5.0)</th><th>90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td>What ‘quality journal’ do you expect this work <em>will</em> this be published in?</td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td>null</td><td></td><td></td></tr><tr><td>Overall assessment on ‘scale of journals'; i.e., quality-level of  journal it <em>should be published in.</em></td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td>null</td><td></td><td></td></tr><tr><td>*Note: <em>0= lowest/none, 5= highest/best.  See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td>null</td><td></td><td>null</td><td></td><td></td></tr></tbody></table>
@@ -403,7 +407,7 @@ We give some example journals [HERE](https://docs.google.com/spreadsheets/d/1nnS
 
 The question above presumes that this work has not already been published in a peer-reviewed journal. However, we are planning to commission at least some post-publication review going forward. If the work has already been ‘peer-review-published’ you can either:
 
-* Skip this question or
+* Skip this question _but please still answer the next prediction question, the_ [#overall-assessment-on-scale-of-journals](./#overall-assessment-on-scale-of-journals "mention") or
 * Answer a related question (not a prediction): “Suppose this paper were submitted to journals, in succession, from the top tier downwards. Imagine there is some randomness in this process. Consider all possible “random draws of the world”. In the ‘median draw,’ what ‘quality level journal’ would this paper be published in?
 
 </details>
