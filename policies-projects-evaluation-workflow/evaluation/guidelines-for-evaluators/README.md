@@ -113,7 +113,7 @@ __
 _**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
 1. _G_ive a rating from 0-100, considering the _‘what we are asking you to rate’_ discussion provided. Try to follow the scale in "[#0-100-metric-described](./#0-100-metric-described "mention")" but specifically for this _category._
-2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](./#the-confidence-rating-explained). ([_Please give a 90% CI or a confidence score, but not both._](#user-content-fn-9)[^9]_)_
+2. Optional: ‘Quantify how certain you are’ about this, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credible](https://en.wikipedia.org/wiki/Credible\_interval) interval or using our [scale as described below](./#the-confidence-rating). ([_Please give a 90% CI or a confidence score, but not both._](#user-content-fn-9)[^9]_)_
 
 <details>
 
