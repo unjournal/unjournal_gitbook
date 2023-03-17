@@ -10,6 +10,7 @@
 {% hint style="info" %}
 **Some (Other) ways to follow The Unjournal's progress**
 
+* Our [PubPub page](https://unjournal.pubpub.org/)
 * Follow [our Sciety page](https://sciety.org/groups/the-unjournal/about?) for updates on evaluations and author responses
 * [Follow @GivingTools](https://twitter.com/GivingTools?ref\_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it)
 * [action-and-progress](../action-and-progress/ "mention"): for an overview
@@ -20,6 +21,20 @@
 **19 Feb 2023, 'MailChimp; link:** We are _testing_ _out_ the 'MailChimp' signup list. [Feel free to sign up on an 'alpha' basis.](#user-content-fn-1)[^1]
 
 {% @mailchimp/mailchimpSubscribe %}
+
+
+
+## Update on recent progress: 17 Mar 2023
+
+See our latest post on the EA Forum
+
+{% embed url="https://forum.effectivealtruism.org/posts/5d7P4gFpomfeLCHZw/unjournal-evaluations-of-artificial-intelligence-and" %}
+
+1. Our new platform ([unjournal.pubpub.org](https://unjournal.pubpub.org/)), enabling DOIs and CrossRef (bibliometrics)
+2. Evaluations of "Artificial Intelligence and Economic Growth"; "self-correcting science"&#x20;
+3. More evaluations soon
+4. We are pursuing collaborations with replication and robustness initiatives such as the ["Institute for Replication"](https://i4replication.org/) and [repliCATS](https://replicats.research.unimelb.edu.au/)
+5. We are now 'fiscally sponsored' by the Open Collective Foundation; see our page [HERE](https://opencollective.com/the-unjournal). (Note, this is an adminstrative thing, it's not a source of funding)&#x20;
 
 
 
