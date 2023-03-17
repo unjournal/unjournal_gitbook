@@ -18,5 +18,5 @@
 
 ## Also
 
-[multiple-dimensions-of-meaningful-feedback.md](multiple-dimensions-of-meaningful-feedback.md "mention")
+[multiple-dimensions-of-meaningful-feedback.md](../multiple-dimensions-of-meaningful-feedback.md "mention")
 

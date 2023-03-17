@@ -1,4 +1,4 @@
-# Why Unjournal? (benefits)
+# Why Unjournal?
 
 The features of the Unjournal, and why they are good: see sections below
 
@@ -14,5 +14,5 @@ The features of the Unjournal, and why they are good: see sections below
 [living-research-projects.md](living-research-projects.md "mention"): Research projects can continue to be evaluated and improved 'in the same place'
 
 \
-[multiple-dimensions-of-meaningful-feedback.md](more-reliable-and-useful-evaluation/multiple-dimensions-of-meaningful-feedback.md "mention"): Separate evaluations of different methodological, theoretical, and applied aspects, by distinct groups of experts
+[multiple-dimensions-of-meaningful-feedback.md](multiple-dimensions-of-meaningful-feedback.md "mention"): Separate evaluations of different methodological, theoretical, and applied aspects, by distinct groups of experts
 

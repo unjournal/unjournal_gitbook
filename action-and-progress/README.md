@@ -1,6 +1,8 @@
 # Action and progress
 
-See also [plan-of-action.md](../readme/discussion-team/plan-of-action.md "mention")
+See also [plan-of-action.md](../readme/plan-of-action.md "mention")
+
+
 
 ### Gantt Chart of Next Steps
 
