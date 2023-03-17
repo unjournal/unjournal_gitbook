@@ -13,7 +13,7 @@
   * [Explanations & outreach](readme/writings/README.md)
     * [Outreach texts](readme/writings/marketing-and-outreach.md)
     * [Related articles and work](readme/writings/related-articles-and-work.md)
-    * [Unjournal Landing Page](readme/writings/unjournal-landing-page.md)
+    * [The Unjournal](readme/writings/the-unjournal.md)
   * [Latest updates](readme/latest-updates.md)
 * [Why Unjournal?](benefits-and-features/README.md)
   * [Evaluation reduces the costs of 'the publication game'](benefits-and-features/costs-of-playing-the-publication-game.md)
