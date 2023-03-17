@@ -1,4 +1,4 @@
-# Contents: overview
+# Contents Page
 
 ## Key sections/subsections
 
@@ -24,7 +24,7 @@
 
 ### [Detail, progress, and internal planning ](#user-content-fn-1)[^1]
 
-[plan-of-action.md](discussion-team/plan-of-action.md "mention"): A 'best feasible plan' for going forward
+[plan-of-action.md](plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
 _Specific "Action steps" taken, in progress, and under discussion:_ [action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](../management-tech-details-discussion/action-overall-scoping.md "mention")
 

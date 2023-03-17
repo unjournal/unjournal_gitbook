@@ -34,7 +34,7 @@ description: Journal-independent evaluation of impactful research
 
 <summary>Coming soon: latest updates/newsletter...</summary>
 
-See [latest-updates.md](readme/latest-updates.md "mention")– aiming to be fortnightly, to be enabled as a newsletter, RSS, etc.
+
 
 </details>
 
@@ -131,7 +131,7 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 ## Where I find/where do I go next
 
-See [contents-guide-overview.md](readme/contents-guide-overview.md "mention")
+See [contents-page.md](readme/contents-page.md "mention")
 
 
 

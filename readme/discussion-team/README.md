@@ -1,4 +1,4 @@
-# Our team, discussion, plans
+# Our team
 
 <details>
 
@@ -20,4 +20,4 @@ See also [List of People consulted](../../grants-and-proposals/acx-ltff-grant-pr
 
 ### [related-ea-gp-seminar-series.md](../../parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
 
-### [plan-of-action.md](plan-of-action.md "mention")
+### [plan-of-action.md](../plan-of-action.md "mention")
