@@ -34,7 +34,7 @@ See our latest post on the EA Forum
 2. Evaluations of "Artificial Intelligence and Economic Growth"; "self-correcting science"&#x20;
 3. More evaluations soon
 4. We are pursuing collaborations with replication and robustness initiatives such as the ["Institute for Replication"](https://i4replication.org/) and [repliCATS](https://replicats.research.unimelb.edu.au/)
-5. We are now 'fiscally sponsored' by the Open Collective Foundation; see our page [HERE](https://opencollective.com/the-unjournal). (Note, this is an adminstrative thing, it's not a source of funding)&#x20;
+5. We are now 'fiscally sponsored' by the Open Collective Foundation; see our page [HERE](https://opencollective.com/the-unjournal). (Note, this is an administrative thing, it's not a source of funding)&#x20;
 
 
 
