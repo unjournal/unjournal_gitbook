@@ -1,12 +1,16 @@
 # Guidelines for Evaluators
 
-{% hint style="info" %}
+{% hint style="warning" %}
 _**Thanks for your interest in evaluating research for the Unjournal!**_&#x20;
 
 Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit. You will be compensated a [minimum of $250 for your evaluation work](#user-content-fn-1)[^1], and will be eligible for financial 'most informative evaluation' prizes. See the guidelines below. You can submit your response in [this form](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit) ([Google Doc](#user-content-fn-2)[^2])**,** and share it back with us**.**&#x20;
 
-&#x20;(Click [HERE](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to directly make a new copy of this form).
+&#x20;_Click_ [_HERE_](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) _to directly make a new copy of this form._
 {% endhint %}
+
+_If you wish, you can download the current page as a pdf_ [_HERE_](https://www.dropbox.com/s/jzxz11gmkrh8lbn/evaluations\_as\_pdf.pdf?dl=0) _(updated_ 20 Mar 2023)
+
+
 
 <details>
 
