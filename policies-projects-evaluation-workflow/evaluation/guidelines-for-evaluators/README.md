@@ -1,7 +1,7 @@
 # Guidelines for Evaluators
 
 {% hint style="info" %}
-_**Thanks for your interest in evaluating research for the Unjournal!**_&#x20;
+Note_**Thanks for your interest in evaluating research for the Unjournal!**_&#x20;
 
 Your evaluation will be made public and given a DOI, but you will have the option to remain anonymous or 'sign your review' and take credit. You will be compensated a [minimum of $250 for your evaluation work](#user-content-fn-1)[^1], and will be eligible for financial 'most informative evaluation' prizes. See the guidelines below. You can submit your response in [this form](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit) ([Google Doc](#user-content-fn-2)[^2])**,** and share it back with us**.**&#x20;
 
@@ -165,15 +165,7 @@ _For example_
 
 <details>
 
-<summary>For example: </summary>
-
-*
-
-</details>
-
-<details>
-
-<summary>Near-top (75-90)</summary>
+<summary>Near-top (75-89) (*)</summary>
 
 This work represents a strong and substantial achievement. It is highly rigorous, relevant, and well-communicated, up to the standards of the strongest work in this area (say, the standards of the top 5% of committed researchers in this field). Such work would/should not be decisive in a tenure/promotion/grant decision alone, but it should make a very solid contribution to such a case.
 
@@ -181,33 +173,41 @@ This work represents a strong and substantial achievement. It is highly rigorous
 
 <details>
 
-<summary>Middle ratings (40-60, 60-75)</summary>
+<summary>Middle ratings (40-59, 60-74) (*)</summary>
 
-**60-75:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
+****[**60-74**](#user-content-fn-11)[^11]**.9:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
 
-**40-60:** A useful contribution, with major strengths, but also some important flaws or limitations.
+**40-59.9:** A useful contribution, with major strengths, but also some important flaws or limitations.
 
 </details>
 
 <details>
 
-<summary>Low ratings (0-5, 5-20, 20-40)</summary>
+<summary>Low ratings (5-19, 20-39) (*)</summary>
 
-**20-40:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
+**20-39.9:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
 
-**5-20:** Among the lowest quality papers; not making any substantial contribution and containing fatal flaws. The paper may be fundamentally addressing an issue that is not defined or obviously not relevant, or the content may be substantially outside of the authors’ field of expertise.
+**5-19.9:** Among the lowest quality papers; not making any substantial contribution and containing fatal flaws. The paper may be fundamentally addressing an issue that is not defined or obviously not relevant, or the content may be substantially outside of the authors’ field of expertise.
 
-**0-5:** Illegible, fraudulent, or plagiarized. _Please flag fraud, and notify us and the relevant authorities._
+**0-4:** Illegible, fraudulent, or plagiarized. _Please flag fraud, and notify us and the relevant authorities._
 
 </details>
 
-****
+<details>
+
+<summary>(*) 20 Mar 2023: We adjusted these ratings to avoid overlap </summary>
+
+The previous categories were 0-5, 50-20, 20-40, 40-60, 60-75, 75-90, and 90-100. Some evaluators found the overlap in this definition confusing.
+
+</details>
+
+&#x20;
 
 ### The confidence rating
 
 #### **What are we looking for and why?**
 
-In considering how to weigh any measure or evaluation, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this. [You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'extremely confident' to 'not confident').  ](#user-content-fn-11)[^11]
+In considering how to weigh any measure or evaluation, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this. [You may feel comfortable giving your "90% confidence interval", or you may prefer to give a 'descriptive rating' of your confidence (from 'extremely confident' to 'not confident').  ](#user-content-fn-12)[^12]
 
 <details>
 
@@ -244,7 +244,7 @@ The example in the diagram above (click to zoom) illustrates the proposed corres
 
 ### **Category explanations: what you are rating**
 
-__[_Note, all of these criteria are scales rather than binaries._](#user-content-fn-12)[^12]  __ &#x20;
+__[_Note, all of these criteria are scales rather than binaries._](#user-content-fn-13)[^13]  __ &#x20;
 
 #### 1.  Advancing our knowledge and practice&#x20;
 
@@ -260,7 +260,7 @@ _Suggested weighting: 5_
 
 </details>
 
-Do the insights generated inform our (‘posterior’) beliefs about important parameters and about the effectiveness of interventions?  [Note that we do not require a substantial _shift_ in our expectations.  ](#user-content-fn-13)[^13]
+Do the insights generated inform our (‘posterior’) beliefs about important parameters and about the effectiveness of interventions?  [Note that we do not require a substantial _shift_ in our expectations.  ](#user-content-fn-14)[^14]
 
 Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
@@ -321,7 +321,7 @@ _Optional_: Are we likely to be able to construct the output from the shared cod
 
 **B. Consistency**:
 
-[Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper? ](#user-content-fn-14)[^14]
+[Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper? ](#user-content-fn-15)[^15]
 
 __
 
@@ -590,10 +590,12 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^10]: _For example, you might weight categories less where you are more uncertain, or where the category seems less relevant._
 
-[^11]: Below, we give a suggested correspondence between these two measures.
+[^11]: 20 Mar 2023: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear
 
-[^12]: _So, consider each of the questions below to be prefaced with "to what extent"._
+[^12]: Below, we give a suggested correspondence between these two measures.
 
-[^13]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field.
+[^13]: _So, consider each of the questions below to be prefaced with "to what extent"._
 
-[^14]: _Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!
+[^14]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field.
+
+[^15]: _Note_: errors and issues such as these will ideally be reported immediately to the authors, allowing them a chance to make a correction!
