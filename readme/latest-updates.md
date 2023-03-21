@@ -1,7 +1,7 @@
 # Latest updates
 
 {% hint style="info" %}
-**Watch this space** (19 Feb 2023) ... we are starting to&#x20;
+**We aim to**&#x20;
 
 * Put updates on The Unjournal's progress (and calls to action) here
 * Integrate this with an email newsletter and social media
@@ -18,7 +18,7 @@
 
 
 
-**19 Feb 2023, 'MailChimp; link:** We are _testing_ _out_ the 'MailChimp' signup list. [Feel free to sign up on an 'alpha' basis.](#user-content-fn-1)[^1]
+**'MailChimp; link:** We are _testing_ _out_ the 'MailChimp' signup list. [Feel free to sign up on an 'alpha' basis.](#user-content-fn-1)[^1]
 
 {% @mailchimp/mailchimpSubscribe %}
 

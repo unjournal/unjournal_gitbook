@@ -76,7 +76,7 @@ Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-pa
 
 <summary><strong>Funding</strong></summary>
 
-Our current funding comes from [acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it). This funding will run out in February 2023\
+Our current funding comes from [acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it). This funding will run out in February 2023.\
 \
 We have submitted some other grant applications. E.g., see our u_nsuccessful:_ [_FTX application HERE_](grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md)_,_ other grant applications are linked below. We are sharing these in the spirit of transparency.\
 __\
