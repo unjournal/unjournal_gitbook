@@ -1,4 +1,4 @@
-# FAQ (for authors & evaluators)
+# FAQ (authors, evaluators)
 
 _**We want to get authors, research groups, reviewers, and institutions involved, and to support this. They may have doubts, which we try to anticipate and answer throughout this section.**_
 
@@ -9,6 +9,16 @@ _**We want to get authors, research groups, reviewers, and institutions involved
 ### **What is the Unjournal? (see** [**here**](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)**)**
 
 We will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects.** We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+
+### **** **Does the Unjournal charge fees to anyone?**
+
+**No**. The Unjournal does not charge any fees. In fact, we compensate evaluators for their time, and award prizes for strong work.
+
+We are a nonprofit organization [(hosted: OCF)](https://opencollective.com/the-unjournal). We do not charge fees for access, and work to make it as open as possible. In contrast to most traditional journals, we _compensate_ evaluators for their time, and award prizes for strong work.  \
+\
+At some point in the future we might consider sliding-scale fees for people submitting their work for Unjournal Evaluation, or for other services. If we do this, it would simply be as a way to cover the compensation we pay evaluators, and to cover our costs. Again, we are a _nonprofit_ and we will stay that way.
+
+
 
 ### **Is the Unjournal a journal?**
 
