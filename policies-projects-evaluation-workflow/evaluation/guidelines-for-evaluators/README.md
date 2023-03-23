@@ -8,7 +8,7 @@ Your evaluation will be made public and given a DOI, but you will have the optio
 &#x20;_Click_ [_HERE_](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) _to directly make a new copy of this form._
 {% endhint %}
 
-_If you wish, you can download the current page as a pdf_ [_HERE_](https://www.dropbox.com/s/jzxz11gmkrh8lbn/evaluations\_as\_pdf.pdf?dl=0) _(updated_ 20 Mar 2023)
+_If you wish, you can download the current page as a pdf_ [_HERE_](https://www.dropbox.com/s/jzxz11gmkrh8lbn/evaluations\_as\_pdf.pdf?dl=0)_, with all folded boxes open. (updated_ 20 Mar 2023)
 
 
 
