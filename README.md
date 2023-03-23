@@ -46,9 +46,7 @@ _**Why**? Peer review is great,_ but academic publication processes are wasteful
 
 <summary>Note: The Unjournal is free, open-access, and does not charge fees</summary>
 
-We are a nonprofit organization [(hosted: OCF)](https://opencollective.com/the-unjournal). We do not charge fees for access, and work to make it as open as possible. In contrast to most traditional journals, we _compensate_ evaluators for their time, and award prizes for strong work.  \
-\
-At some point in the future we might consider sliding-scale fees for people submitting their work for Unjournal Evaluation, or for other services. If we do this, it would simply be as a way to cover the compensation we pay evaluators, and to cover our costs. Again, we are a _nonprofit_ and intend to stay that way.&#x20;
+See [#general-faqs](faq-interaction/#general-faqs "mention")&#x20;
 
 </details>
 
