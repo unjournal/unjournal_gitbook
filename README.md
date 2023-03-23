@@ -46,7 +46,9 @@ _**Why**? Peer review is great,_ but academic publication processes are wasteful
 
 <summary>Note: The Unjournal is free, open-access, and does not charge fees</summary>
 
-See [#general-faqs](faq-interaction/#general-faqs "mention")&#x20;
+
+
+See [#does-the-unjournal-charge-fees-to-anyone](faq-interaction/#does-the-unjournal-charge-fees-to-anyone "mention")
 
 </details>
 
