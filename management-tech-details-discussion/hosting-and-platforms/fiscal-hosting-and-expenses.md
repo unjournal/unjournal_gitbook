@@ -19,14 +19,20 @@ Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.c
 \
 **If you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the salted hashtag  we've provided, or make one up and tell us this pseudonym in other private correspondence.)\
 \
-_For good measure, do not indicate the name of the paper in the expense claim. However, please do note this was "assigned research evaluation work" (or something similar) in the "statement of work" section._
+_For good measure, do not indicate the name of the paper in the expense claim._ \
+__\
+_However, please do note "_Evaluation of research material" _in the "statement of work" section._
 {% endhint %}
 
 __
 
-Expenses: [https://opencollective.com/the-unjournal/expenses](https://opencollective.com/the-unjournal/expenses)\
+**Expenses**: [https://opencollective.com/the-unjournal/expenses](https://opencollective.com/the-unjournal/expenses)&#x20;
+
+Actions --> Submit Expense \
 \
 Claimants (evaluators etc.) must start an account (basically leave email and payment information) and submit an ['expense document' 'invoice'](https://opencollective.com/the-unjournal/expenses/new)
+
+
 
 
 
@@ -73,12 +79,18 @@ Additional invoice information &#x20;
 
 </details>
 
-![](../../.gitbook/assets/image.png)&#x20;
+![](<../../.gitbook/assets/image (4).png>)&#x20;
+
+
+
+Under 'Description' (on the second page) please put "Evaluation of research material"\
+\
+![](../../.gitbook/assets/image.png)
 
 
 
 {% hint style="info" %}
-Consider: how to generate W2s -- these might be necessary
+Consideration for management: how to generate W2s -- these might be necessary for large expenses
 {% endhint %}
 
 

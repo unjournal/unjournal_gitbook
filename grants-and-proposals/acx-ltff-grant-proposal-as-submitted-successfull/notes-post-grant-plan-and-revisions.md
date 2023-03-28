@@ -8,7 +8,7 @@
 
 ### Administrative concerns (and possible amendments)
 
-Rethink Priorities will act as Fiscal Sponsor for this, to help administer payments. They will also receive $5000 to cover roughly 2 hours/week of [david reinstein](https://app.gitbook.com/u/WrM9GjKWCyRyoIjCKt7f0ddJwCr1 "mention")'s time on this project.
+Rethink Priorities will act as Fiscal Sponsor for this, to help administer payments. They will also receive $5000 to cover roughly 2 hours/week of [david reinstein](http://localhost:5000/u/WrM9GjKWCyRyoIjCKt7f0ddJwCr1 "mention")'s time on this project.
 
 \
 \

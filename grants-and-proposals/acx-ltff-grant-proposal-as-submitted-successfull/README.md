@@ -2,7 +2,7 @@
 description: Passed on to LTFF and funding was awarded
 ---
 
-# ACX/LTFF grant proposal (as submitted, successfull)
+# ACX/LTFF grant proposal (as submitted, successful)
 
 ## acx unjournal app
 
@@ -264,7 +264,7 @@ $7.5k: rewards for ‘authors of the best papers/projects’ (e.g., 5 \* 1000 US
 ### Links to any supporting documents or information
 
 \
-We have an action plan (mainly for EA organizations) and a workspace in the GitBook here: [https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/)\
+We have an action plan (mainly for EA organizations) and a workspace in the GitBook here: [https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/](http://localhost:5000/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/)\
 This also nests several essays discussing the idea, including the collaborative document (with many comments and suggestions) at [https://bit.ly/unjournal](https://bit.ly/unjournal)\\
 
 ### Estimate your probability of succeeding if you get the amount of money you asked for
