@@ -10,7 +10,7 @@ See [#in-a-nutshell](../../#in-a-nutshell "mention")for an overview of The Unjou
 
 {% hint style="info" %}
 **TLDR**\
-**** If you are interested in being on the Unjournal's Founding Committee, Advisory Board, or Reviewer Pool please fill out [**THIS** ](https://airtable.com/shrW9xpIrxNGfxkXW)[**FORM**](https://airtable.com/shrW9xpIrxNGfxkXW)  (about 3-5 min).
+**** If you are interested in being on the Unjournal's Founding Committee, Advisory Board, or Reviewer Pool please fill out[ **THIS** **FORM**](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3-5 min).
 
 If you have research (your own or others) you would like us to assess, please fill out [**THIS FORM**](https://airtable.com/shrdHHI0zK7rkJCP3).&#x20;
 
