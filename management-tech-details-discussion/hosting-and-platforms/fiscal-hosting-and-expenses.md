@@ -19,7 +19,7 @@ Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.c
 \
 **If you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the salted hashtag  we've provided, or make one up and tell us this pseudonym in other private correspondence.)\
 \
-_For good measure, do not indicate the name of the paper in the expense claim_
+_For good measure, do not indicate the name of the paper in the expense claim. However, please do note this was "assigned research evaluation work" (or something similar) in the "statement of work" section._
 {% endhint %}
 
 __
