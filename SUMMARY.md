@@ -70,6 +70,7 @@
   * [Other non-journal evaluation](parallel-partner-initiatives-and-resources/other-non-journal-evaluation.md)
   * [Economics survey (Charness et al)](parallel-partner-initiatives-and-resources/economics-survey-charness-et-al.md)
 * [Management/tech details, discussion](management-tech-details-discussion/README.md)
+  * [Management Process](management-tech-details-discussion/management-process.md)
   * [Governance of The Unjournal](management-tech-details-discussion/governance-of-the-unjournal.md)
   * [Hosting & platforms](management-tech-details-discussion/hosting-and-platforms-notes.md)
     * [Tech scoping](management-tech-details-discussion/hosting-and-platforms/tech-scoping.md)
