@@ -16,7 +16,7 @@ Please use the link below to direct you to how to choose evaluators. Normally 2-
 
 Once you have chosen possible evaluators, reach out to them. You could possibly use or adapt the text templates in the Airtable under the evaluator tab. For example, the "referee outreach (pilot long)" or "short referee outreach (NBER phase)". It is common that you will have to reach out to multiple potential evaluators as they may reject the offer, or not respond.
 
-It is common that we also send a reminder email roughly two weeks after sending the initial email in case the email has been missed. You could use the "Referee informal followup/reminder" or "PS to referee request" text templates from the Airtable for this. To speed up the process and automate your reminders, you can use Boomerang, this is explained in this link here:
+Normally, we also send a reminder email roughly two weeks after sending the initial email in case the email has been missed. You could use the "Referee informal followup/reminder" or "PS to referee request" text templates from the Airtable for this. To speed up the process and automate your reminders, you can use Boomerang, this is explained in this link here:
 
 {% content-ref url="other-tech-and-tools/" %}
 [other-tech-and-tools](other-tech-and-tools/)
