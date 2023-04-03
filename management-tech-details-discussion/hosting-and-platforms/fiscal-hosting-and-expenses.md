@@ -2,51 +2,37 @@
 
 Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal/expenses)
 
-
-
-
-
 ### Submitting and paying expenses/claims
 
-
-
 {% hint style="info" %}
-**Anonymity** **and payments**: **Evaluators, please use a pseudonym or the salted hashtag we shared with you!**\
+**Anonymity** **and payments**: **Evaluators, please use a pseudonym or the salted hashtag we shared with you!**
 
-
-> Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**
+****\
+**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the salted hashtag  we've provided, or make one up and tell us this pseudonym in other private correspondence.)
 
 \
-**If you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the salted hashtag  we've provided, or make one up and tell us this pseudonym in other private correspondence.)\
-\
-_For good measure, do not indicate the name of the paper in the expense claim._ \
-__\
+_For good measure, do not indicate the name of the paper in the expense claim._&#x20;
+
 _However, please do note "_Evaluation of research material" _in the "statement of work" section._
 {% endhint %}
 
-__
+Following obtaining your hashtag, or informing us of your pseudonym:
 
-**Expenses**: [https://opencollective.com/the-unjournal/expenses](https://opencollective.com/the-unjournal/expenses)&#x20;
+1. Go to [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)
+2. Under the brief information about the unjournal there are a few tabs; there is a tab on the right hand-side called “submit expense” that you need to click.
+3. Following this, you will need to login/create an account. This is very straightforward just requires add your salted hashtag and an email address with no password.&#x20;
+4. In your profile settings be sure to add your "legal name". This is only visible to the unjournal admins and is not public. If not, you may be contacted separately by OCF asking you to do this.
+5. Afterwards, you can fill in all your information about how they would like to be paid and which account (details of filling in your payment information can be viewed below).
+6. We then approve the expense and they will be paid within 7 days of our approval.
 
-Actions --> Submit Expense \
-\
-Claimants (evaluators etc.) must start an account (basically leave email and payment information) and submit an ['expense document' 'invoice'](https://opencollective.com/the-unjournal/expenses/new)
+_Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**_
 
+#### Payment information
 
-
-
-
-![](<../../.gitbook/assets/image (10).png>)
-
-\
-\
-![](<../../.gitbook/assets/image (11).png>)
-
-
-
-Payments made by Wise/Bank Transfer -- [need to submit bank/payment information ](#user-content-fn-1)[^1]
-
-
+* Claimants (evaluators etc.) must start an account (basically leave email and payment information) and submit an ['expense document' 'invoice'](https://opencollective.com/the-unjournal/expenses/new). See below for an example of the payment process.\
+  \
+  ![](<../../.gitbook/assets/image (11).png>)
+* If making payments made by Wise/Bank Transfer, you will [need to submit bank/payment information](#user-content-fn-1)[^1]. The box below shows which information is required.
 
 <details>
 
@@ -81,25 +67,15 @@ Additional invoice information &#x20;
 
 ![](<../../.gitbook/assets/image (4).png>)&#x20;
 
-
-
-Under 'Description' (on the second page) please put "Evaluation of research material"\
-\
-![](../../.gitbook/assets/image.png)
+* Finally, under 'Description' (on the second page) please put "Evaluation of research material"\
+  \
+  ![](../../.gitbook/assets/image.png)
 
 
 
 {% hint style="info" %}
 Consideration for management: how to generate W2s -- these might be necessary for large expenses
 {% endhint %}
-
-
-
-
-
-.
-
-
 
 
 
