@@ -1,5 +1,33 @@
 # Management Process
 
+### Informing paper authors
+
+If the work was not submitted to the Unjournal directly, then you will need to write to the authors of the paper to let them know that their paper will be evaluated by the unjournal.
+
+### Finding evaluators
+
+Please use the link below to direct you to how to choose evaluators. Normally 2-3 evaluators are chosen.
+
+{% content-ref url="choosing-evaluators/" %}
+[choosing-evaluators](choosing-evaluators/)
+{% endcontent-ref %}
+
+### Reaching out to evaluators
+
+Once you have chosen possible evaluators, reach out to them. You could possibly use or adapt the text templates in the Airtable under the evaluator tab. For example, the "referee outreach (pilot long)" or "short referee outreach (NBER phase)". It is common that you will have to reach out to multiple potential evaluators as they may reject the offer, or not respond.
+
+It is common that we also send a reminder email roughly two weeks after sending the initial email in case the email has been missed. You could use the "Referee informal followup/reminder" or "PS to referee request" text templates from the Airtable for this. To speed up the process and automate your reminders, you can use Boomerang, this is explained in this link here:
+
+{% content-ref url="other-tech-and-tools/" %}
+[other-tech-and-tools](other-tech-and-tools/)
+{% endcontent-ref %}
+
+If an evaluator agrees, send them the google doc with the evaluation template for them to complete in an additional email and agree a time period in which they will complete the evaluation.
+
+### Reminding evaluators
+
+After the agreed time period has elapsed and they have not sent the evaluation, it may be necessary to send a reminder email. This can be short and just direct them to the original email.
+
 ### When you receive one evaluation
 
 1. Check through the evaluation and ensure that nothing is missing from the evaluation or if you have any questions for the evaluation.
