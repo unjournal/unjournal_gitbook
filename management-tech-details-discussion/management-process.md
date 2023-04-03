@@ -9,7 +9,7 @@
 [fiscal-hosting-and-expenses.md](hosting-and-platforms/fiscal-hosting-and-expenses.md)
 {% endcontent-ref %}
 
-3. Wait to receive all the evaluations.
+3. Wait to receive all the evaluations before proceeding to the next step.
 
 ### When you receive all the evaluations
 
@@ -18,3 +18,4 @@
 3. If the authors say "we won't be able to respond" then let them know we will put it up shortly and proceed. Otherwise we give them 2 weeks to respond before putting it up (and they can always respond afterwards).
 4. Write up an Evaluation Manager's report if you like (this is optional).
 5. We put all of this up on PubPub, get a DOI, integrate with Sciety, publicize this, etc.
+6. Once the evaluations are up on PubPub, you could reach out the evaluators again with the link, in case they want to view their evaluation and the others.
