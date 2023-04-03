@@ -20,7 +20,7 @@ Following obtaining your hashtag, or informing us of your pseudonym:
 
 1. Go to [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)
 2. Under the brief information about the unjournal there are a few tabs; there is a tab on the right hand-side called “submit expense” that you need to click.
-3. Following this, you will need to login/create an account. This is very straightforward just requires add your salted hashtag and an email address with no password.&#x20;
+3. Following this, you will need to login/create an account. This is very straightforward just requires add your salted hashtag/pseudonym as your name and an email address with no password.&#x20;
 4. In your profile settings be sure to add your "legal name". This is only visible to the unjournal admins and is not public. If not, you may be contacted separately by OCF asking you to do this.
 5. Afterwards, you can fill in all your information about how they would like to be paid and which account (details of filling in your payment information can be viewed below).
 6. We then approve the expense and they will be paid within 7 days of our approval.
