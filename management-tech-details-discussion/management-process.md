@@ -1,12 +1,12 @@
-# Management Process
+# Evaluation Manager Process
 
 ### Informing paper authors
 
-If the work was not submitted to the Unjournal directly, then you will need to write to the authors of the paper to let them know that their paper will be evaluated by the unjournal.
+If the work was not submitted to the Unjournal directly, then you will need to write to the authors of the paper to let them know that their paper will be evaluated by The Unjournal.
 
 ### Finding evaluators
 
-Please use the link below to direct you to how to choose evaluators. Normally 2-3 evaluators are chosen.
+Please use the link below to help you consider how to choose evaluators. Normally 2-3 evaluators are chosen.
 
 {% content-ref url="choosing-evaluators/" %}
 [choosing-evaluators](choosing-evaluators/)
@@ -24,6 +24,12 @@ Normally, we also send a reminder email roughly two weeks after sending the init
 
 If an evaluator agrees, send them the google doc with the evaluation template for them to complete in an additional email and agree a time period in which they will complete the evaluation.
 
+
+
+(Link to [protecting-anonymity.md](../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention"); consider other important pointers to evaluators)
+
+
+
 ### Reminding evaluators
 
 After the agreed time period has elapsed and they have not sent the evaluation, it may be necessary to send a reminder email. This can be short and just direct them to the original email.
@@ -31,7 +37,7 @@ After the agreed time period has elapsed and they have not sent the evaluation, 
 ### When you receive one evaluation
 
 1. Check through the evaluation and ensure that nothing is missing from the evaluation or if you have any questions for the evaluation.
-2. If you have no further questions or ammendments, you can direct the evaluator to payment information:
+2. If you have no further questions or amendments, you can direct the evaluator to payment information:
 
 {% content-ref url="hosting-and-platforms/fiscal-hosting-and-expenses.md" %}
 [fiscal-hosting-and-expenses.md](hosting-and-platforms/fiscal-hosting-and-expenses.md)
