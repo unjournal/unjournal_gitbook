@@ -20,7 +20,7 @@ _We are adding the following 'additional track' for commissioning research to be
 >
 > 2.  Identify relevant papers in this series, according to criteria outlined and linked above ([relevance](direct-evaluation-track.md#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](direct-evaluation-track.md#why-does-it-need-more-review-and-what-are-some-key-issues-and-claims-to-vet)).&#x20;
 >
->     __\
+>     \
 >     _For NBER this is likely to include..._
 >
 >     * recently released work in the early stages of the journal peer-review process, particularly if it addresses a timely subject as well as&#x20;
@@ -66,7 +66,7 @@ _**Response:**_ This is something we will keep an eye on, considering the benefi
 
 **3. Evaluator/referee reluctance:** As noted above, evaluators may be more reluctant to provide ratings and feedback on work where the author has not instigated the process.&#x20;
 
-_**Response:**_** ** This should basically be addressed by the fact that we allow evaluators to remain anonymous. A potential cost here is discouraging signed evaluations, which themselves have some benefits (as well as possible costs).
+_**Response:**_ This should basically be addressed by the fact that we allow evaluators to remain anonymous. A potential cost here is discouraging signed evaluations, which themselves have some benefits (as well as possible costs).
 
 
 
@@ -74,14 +74,14 @@ _**Response:**_** ** This should basically be addressed by the fact that we allo
 
 _**Response:**_ We will be careful with this. Initially, we are extending this only to the NBER series. Next, we may consider direct evaluation of fairly prestigious publications in 'actual peer-reviewed journals', particularly in fields (such as psychology) where the peer review process is much faster than in economics. As NBER is basically "USA only", we may also consider extending this to other series such as [CEPR](https://cepr.org/publications/discussion-papers), but being careful about the prestige/vulnerability tradeoffs.&#x20;
 
-__
+
 
 {% hint style="info" %}
 **Aside:** in the future, we hope to work directly with working paper series, associations, and research groups to get their approval and engagement with The Unjournal evaluation. We hope that "having a large share of papers in your series evaluated" will serve as a measure of confidence in your research quality. If you are involved in such a group and are interested in this, please reach out to us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)).
 {% endhint %}
 
-__\
-__Choosing NBER papers: steps taken
+\
+Choosing NBER papers: steps taken
 
 <details>
 
@@ -129,4 +129,3 @@ __Choosing NBER papers: steps taken
 
 
 
-****

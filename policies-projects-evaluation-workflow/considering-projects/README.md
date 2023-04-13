@@ -24,7 +24,7 @@ We discuss this further below, explaining the reasoning behind it. (See [direct-
 
 ## Communicating: **‘Editors’ process**&#x20;
 
-_In deciding which papers/projects to send out to paid reviewers/evaluators, we have considered the following issues._  [_We aim to communicate this information about each paper/project to reviewers before they write their evaluations._ ](#user-content-fn-2)[^2]__
+_In deciding which papers/projects to send out to paid reviewers/evaluators, we have considered the following issues._  [_We aim to communicate this information about each paper/project to reviewers before they write their evaluations._ ](#user-content-fn-2)[^2]
 
 ### Summary, why is it relevant and worth engaging with?
 

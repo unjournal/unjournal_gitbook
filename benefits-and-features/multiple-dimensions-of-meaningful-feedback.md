@@ -4,7 +4,7 @@
 \
 In the current system, I cannot both submit my paper and get public evaluation from (e.g.) JET and the Journal of Development Economics (for a paper engaging both areas).
 
-__
+
 
 _**The Unjournal, and journal-independent evaluation can enable this through**_
 

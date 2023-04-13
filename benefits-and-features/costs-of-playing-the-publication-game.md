@@ -1,6 +1,6 @@
-# Costs: 'the publication game'
+# Evaluation reduces the costs of 'the publication game'
 
-__[_See also..._](#user-content-fn-1)[^1]__
+[_See also..._](#user-content-fn-1)[^1]
 
 
 
@@ -34,7 +34,7 @@ Perhaps not: we are accustomed to using ratings as filters in our daily lives. R
 
 </details>
 
-****
+
 
 ### Academic researchers spend way too much time "gaming" this process.
 
@@ -42,7 +42,7 @@ I (Reinstein) have been in academia for about 20 years. Around the coffee pot, c
 
 There is a lot of pressure, [and even bullying, to achieve these “publication outcomes” ](#user-content-fn-2)[^2]at the [expense of careful methodology](#user-content-fn-3)[^3].
 
-****
+
 
 ### It leads to a great deal of randomness in outcomes...
 

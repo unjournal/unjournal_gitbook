@@ -8,7 +8,7 @@ description: Journal-independent evaluation of impactful research
 
 <summary>Key links/Faqs</summary>
 
-* ****[Guidelines for Evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
+* [Guidelines for Evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
 
 <!---->
 
@@ -28,13 +28,9 @@ description: Journal-independent evaluation of impactful research
 
 </details>
 
-<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme/discussion-team/who-are-we-our-team/) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)<mark style="color:green;"></mark>
+<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme/discussion-team/who-are-we-our-team/) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)
 
-<mark style="color:green;"></mark>
-
-**See our** [latest-updates.md](readme/latest-updates.md "mention")<mark style="color:green;"></mark>
-
-<mark style="color:green;"></mark>
+**See our** [latest-updates.md](readme/latest-updates.md "mention")
 
 ## In a nutshell&#x20;
 
@@ -64,7 +60,7 @@ _W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](h
 
 **Public evaluation:** Reviews will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
 
-_****_[_**Linking**_** work but not 'publishing it'.** ](#user-content-fn-1)[^1]This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also help benchmark our evaluations against 'traditional publication outcomes'.&#x20;
+[_**Linking**_** work but not 'publishing it'.** ](#user-content-fn-1)[^1]This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also help benchmark our evaluations against 'traditional publication outcomes'.&#x20;
 
 **Awarding financial prizes** (combined with public presentations) for work judged strongest
 
@@ -87,16 +83,16 @@ Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-pa
 Our current funding comes from [acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it). This funding will run out in February 2023.\
 \
 We have submitted some other grant applications. E.g., see our u_nsuccessful:_ [_FTX application HERE_](grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md)_,_ other grant applications are linked below. We are sharing these in the spirit of transparency.\
-__\
+\
 _We are still seeking more funding, several applications are pending._
 
 </details>
 
-****
+
 
 ## **"It sounds great, but can you really change things?"**
 
-__
+
 
 ![](https://lh5.googleusercontent.com/HN1Kx8arVLnBNHhANsxlopEdxxlpOCOQEsMn3H4lhser-dC69B8ds1NXbJL2Y2NZ\_kPn-pjzP-T6TooGV0qPf9Vf0SNIXfmPymqZFUDbEJLiL0fvAzQ-Pr93gb3uudHkw62TOrEF6x6\_1XswN2z3CGusk9AcO2DG7paUkIWhB5-BB4w6RxPuYQplBjpQQC-b)![](https://lh6.googleusercontent.com/fF\_YDvF49H4pgDeK80bvybGMFYV1KFYf-yQ5oZbCorO\_WMbQqfLFUXDgNGTdalkAJp52nFuvyL2Z4haKwfnAkVcxZ5JyaM1t2jVt9R8oYT7-h6uR73PPoc1XZncQ0QgyXE-M6Famb0TX8mLp4BV2UuI-7vrRgvbiVltOdrywyV67zZIwzlpwDeLfKTt1E0U5)
 
@@ -106,15 +102,15 @@ _So why hasn't academia and research community been able to move to something ne
 
 * _We can take risks:_ Many people involved with The Unjournal management ourselves are not traditional academics; we can stick our necks out. We are also bringing on board established senior academics who are less professionally vulnerable.
 * _Bringing in new interests, external funding, and incentives:_ There are a range of well-funded and powerful organizations – such as the Sloan Foundation and [Open Philanthropy](https://www.openphilanthropy.org/) – with a strong inherent interest in high-impact research being reliable, robust, and [reasoning transparent](https://www.openphilanthropy.org/research/reasoning-transparency/). This support can change the fundamental incentive structure.
-* _Less risky 'bridging steps'_: In particular, as noted above, The Unjournal allows researchers to _also_ submit their work to traditional journals. In fact, this will provide a _benchmark_ to __ help our quantitative ratings build and demonstrate their value.&#x20;
+* _Less risky 'bridging steps'_: In particular, as noted above, The Unjournal allows researchers to _also_ submit their work to traditional journals. In fact, this will provide a _benchmark_ to help our quantitative ratings build and demonstrate their value.&#x20;
 * _Communicating with researchers and stakeholders_ to make our processes easy, clear, and useful to them
-* _Making our output useful:_[ __ It may take years](#user-content-fn-3)[^3] for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems.  The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.&#x20;
+* _Making our output useful:_[ It may take years](#user-content-fn-3)[^3] for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems.  The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.&#x20;
 * _Technology is improving:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and[ makes 'formats other than frozen pdfs' more and more useful every day.](#user-content-fn-4)[^4]
-* _Rewarding early adopters with prizes and recognition_: __ We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
+* _Rewarding early adopters with prizes and recognition_: We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
 
-****
 
-## ****[**This 'gitbook'** ](#user-content-fn-5)[^5]
+
+## [**This 'gitbook'** ](#user-content-fn-5)[^5]
 
 _Organizes ideas and resources, and tracks our progress towards The Unjournal's twin goals of:_
 
@@ -157,7 +153,7 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 [^3]: Although we are working to encourage this and make it easy.&#x20;
 
-[^4]: E.g., tools like Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and __ Jupyter notebooks (dynamic documents)
+[^4]: E.g., tools like Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents)
 
 
 

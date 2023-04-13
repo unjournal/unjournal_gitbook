@@ -38,12 +38,12 @@ If we consider your work for public evaluation, we may ask for _some_ of the bel
 
 ## **Why should researchers and groups ‘submit their work to’ and engage with the Unjournal?**
 
-_The biggest_ [_personal gains for authors are:_](#user-content-fn-13)[^13]__
+_The biggest_ [_personal gains for authors are:_](#user-content-fn-13)[^13]
 
 1. **Substantive feedback** will help you improve your work (both the work being reviewed and future work). Substantive and useful feedback is often very hard to get, especially for young scholars.&#x20;
 2. **Ratings = Markers of credibility for your work** that could help your career advancement at least at the margin, [and hopefully in the future help a great deal](#user-content-fn-14)[^14].
 3. The opportunity to **publicly respond to critiques and correct misunderstandings**.
-4. [An **additional opportunity for evaluation**](#user-content-fn-15)[^15] **** of your work with an emphasis on **impact.**
+4. [An **additional opportunity for evaluation**](#user-content-fn-15)[^15] of your work with an emphasis on **impact.**
 5. **Visibility** and a connection to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong Ph.D. students to your research groups.&#x20;
 6. Gain a reputation as an ‘**early adopter and innovator**’ in open science.
 7. **Prizes:** You may win a [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") which will be financial as well as reputational.
@@ -116,7 +116,7 @@ In other words, people will take this into account. If a reviewer evaluates a pa
 On the other hand, if I see that the author has submitted it to a transparent assessment service like the Unjournal, particularly if the author has submitted a lot of his or her work to this sort of public scrutiny, I will update positively, all else being equal. The author has demonstrated they are not afraid of public feedback and openness. I will consider the public critiques, of course, but I will take into account that this paper has been held up to more scrutiny than other work I might have seen.
 
 Of course, one cannot rule out that a negative evaluation will harm a paper's reputation, or its 'publication chances' in any particular instance. I just don't expect this to occur _systematically._  \
-__\
+\
 _If getting any public feedback was so damaging, why would academics be eager to present their work at seminars and conferences?_
 
 [^1]: You could also suggest reviewer names, but we may or may not choose these in  particular.

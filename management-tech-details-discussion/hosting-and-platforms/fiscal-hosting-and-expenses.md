@@ -7,7 +7,7 @@ Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.c
 {% hint style="info" %}
 **Anonymity** **and payments**: **Evaluators, please use a pseudonym or the salted hashtag we shared with you!**
 
-****\
+\
 **As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the salted hashtag  we've provided, or make one up and tell us this pseudonym in other private correspondence.)
 
 \
@@ -69,7 +69,7 @@ Additional invoice information &#x20;
 
 * Finally, under 'Description' (on the second page) please put "Evaluation of research material"\
   \
-  ![](../../.gitbook/assets/image.png)
+  ![](<../../.gitbook/assets/image (5).png>)
 
 
 

@@ -2,7 +2,7 @@
 
 Link: "[_Asterisk_ is a quarterly magazine of clear writing and clear thinking about things that matter](https://asteriskmag.com/)"
 
-__
+
 
 > _Asterisk_ is a new quarterly journal of ideas from in and around Effective Altruism. Our goal is to provide clear, engaging, and deeply researched writing about complicated questions. This might look like a superforecaster giving a detailed explanation of the reasoning they use to make a prediction, a researcher discussing a problem in their work, or deep-dive into something the author noticed didn’t quite make sense. While everything we publish should be useful (or at least interesting) to committed EAs, our audience is the wider penumbra of people who care about improving the world but aren't necessarily routine readers of, say, the EA forum.
 >

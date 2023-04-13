@@ -5,7 +5,7 @@
 1. **Hosting 'qualitative' evaluation content:** A place to host the evaluations (as well as the authors’ responses and the editors' comments), allowing the public to read them in an attractive and convenient way (and perhaps respond to them).  Ideally this will also make the quantitative ratings and predictions prominent and connected to the evaluations. This system needs to allow evaluations of _any research that is publicly hosted and has a DOI._
 2.  **DOIs, Bibliometrics, Google Scholar:** We need these evaluations to be visible in "bibliometric systems". They need a _DOI_, they need to show up in Google scholar and other search tools. The _references_ cited in the evaluations (including the original paper) should also appear in the bibliometric record. Right now 'CrossRef' seems to be the leading system for this.
 
-    __[_Ideally also..._](#user-content-fn-1)[^1]__
+    [_Ideally also..._](#user-content-fn-1)[^1]
 3. **Curation and organization:** A place to bring together all of the evaluations we have done as the sort of center of our project, to explain it and get positive attention, as well as engage participation and readership.
 4. **'Editorial management**':  A tool to coordinate our management process (submissions, evaluations, et cetera)
 5.  **Hosting and open-analysis of 'quantitative' ratings and meta-data:** A place to organize the evaluation data, particularly the quantitative ratings and predictions, in ways that people can analyze and use.

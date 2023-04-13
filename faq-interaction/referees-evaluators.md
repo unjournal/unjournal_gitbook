@@ -6,9 +6,9 @@
 We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
 {% endhint %}
 
-_What we are asking evaluators/referees to do:_ [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")__
+_What we are asking evaluators/referees to do:_ [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
 
-__
+
 
 ## Choosing and working with evaluators (referees)
 
@@ -38,7 +38,7 @@ Please see:
 
 </details>
 
-_****_
+
 
 ### _**How do we protect the anonymity of evaluators who request it?**_  &#x20;
 

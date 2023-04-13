@@ -6,10 +6,10 @@
 
 ### **Advantages of 'permanent Beta' projects**
 
-1. _**Small changes and fixes:**  _ The current system makes it difficult to make minor updates – even obvious corrections – to published papers.  This makes these papers less useful and less readable. If you find an error in your own published work, there is also little incentive to note it and ask for a correction, even if this were possible.&#x20;
+1. _**Small changes and fixes:** _ The current system makes it difficult to make minor updates – even obvious corrections – to published papers.  This makes these papers less useful and less readable. If you find an error in your own published work, there is also little incentive to note it and ask for a correction, even if this were possible.&#x20;
    * &#x20;_In contrast, a 'living project' could be corrected and updated in situ. If future and continued evaluations matter, they will have the incentive to do so._
 2. _**Lack of incentives for updates and extensions:**_ If academic researchers see major ways to improve and build on their past work, these can be hard to get publish and get credit for. The academic system rewards novelty and innovation, and top journals are reluctant to publish 'the second paper' on a topic. As this would count as 'a second publication' (for tenure etc.), authors may be accused of double-dipping, and journals and editors may punish them for this.&#x20;
-   * &#x20;__ [_In contrast, a 'living project' can be improved and extended in situ._](#user-content-fn-1)[^1] __&#x20;
+   * &#x20;[_In contrast, a 'living project' can be improved and extended in situ._](#user-content-fn-1)[^1]&#x20;
 3. _**Clutter and confusion in the literature**_**:** Because of the above, researchers often try to spin an improvement to a previous paper as very new and different. They do sometimes publish a range of papers getting at similar things and using similar methods, in different papers/journals. This makes it hard for other researchers and readers to understand which paper they should read.&#x20;
    * _In contrast, a 'living project' can keep these in one place. The author can lay out different chapters and sections in ways that make the full work most useful._
 
@@ -45,7 +45,7 @@ But I lean to thinking that in many to most cases a single project with multiple
 
 </details>
 
-****
+
 
 [^1]: ...and the author will be able to submit this 'improved project' to (e.g.) the Unjournal for an updated evaluation (we are working on enabling this).
 

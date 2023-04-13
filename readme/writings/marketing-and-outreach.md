@@ -4,7 +4,7 @@ description: >-
   from Scott Alexander's ACX grant. How to now spread the word?
 ---
 
-# Marketing/outreach texts
+# Outreach texts
 
 > An important part of making this a success will be to spread the word, to get positive attention for this project, to get important players on board, network externalities, change the equilibrium etc. I also want to start getting specific feedback and suggestions from people in the Open Science and EA communities (as well as from 'mainstream academics' in Economics, Psychology, and policy/program evaluation). Thus, I'd love to make my own sort of 'press release/social media campaign' and share the good news soon.
 
@@ -76,7 +76,7 @@ No trees get chopped down to print the latest "Journal of Fancy Manuscripts."\
 \
 We are starting small, but it only takes one domino.
 
-__
+
 
 </details>
 

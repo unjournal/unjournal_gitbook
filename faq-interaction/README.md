@@ -10,7 +10,7 @@ _**We want to get authors, research groups, reviewers, and institutions involved
 
 We will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects.** We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
-### **** **Does the Unjournal charge fees to anyone?**
+### &#x20;**Does the Unjournal charge fees to anyone?**
 
 **No**. The Unjournal does not charge any fees. In fact, we compensate evaluators for their time, and award prizes for strong work.
 

@@ -25,12 +25,12 @@ See: [#submitting-and-paying-expenses-claims](../../../management-tech-details-d
 
 
 {% hint style="info" %}
-_****_[_**How and why did we decide on these guidelines?**_](#user-content-fn-3)[^3]_****_
+[_**How and why did we decide on these guidelines?**_](#user-content-fn-3)[^3]
 {% endhint %}
 
 ## What we would like you to do
 
-1. _**Write a review:**_** ** a ‘standard high-quality referee report’, with some specific considerations
+1. _**Write a review:**_ a ‘standard high-quality referee report’, with some specific considerations
 2. _**Give quantitative metrics and predictions** as requested in the_ [_two tables below_](#user-content-fn-4)[^4], as appropriate.
 3. _Answer a short questionnaire_
 
@@ -108,11 +108,11 @@ _Below:_ [a 'completed example'](#user-content-fn-6)[^6]. We will give evaluator
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
-__[_\*Note: "suggested weights"_ ](#user-content-fn-7)[^7]__
+[_\*Note: "suggested weights"_ ](#user-content-fn-7)[^7]
 
-_\*\*_[_Note: Relevance to Global Priorities_](#user-content-fn-8)[^8]__
+_\*\*_[_Note: Relevance to Global Priorities_](#user-content-fn-8)[^8]
 
-__
+
 
 _**For each question above, if it seems relevant, and you feel qualified to judge, please ...**_
 
@@ -132,13 +132,13 @@ This may help you improve your judgment in stating 90% confidence and credible i
 
 </details>
 
-### Overall assessment __&#x20;
+### Overall assessment&#x20;
 
 {% hint style="info" %}
 We see the 'overall assessment' as the most important measure. Please prioritize this.
 {% endhint %}
 
-Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice. As noted above, we give ‘suggested weights’ (0-5) to suggest the importance of each category rating to your overall assessment, given the Unjournal's priorities. [_But you don't need, and may not want, to use these weightings precisely._ ](#user-content-fn-10)[^10]__
+Judge the work’s quality heuristically. Consider all aspects of quality, importance to knowledge production, and importance to practice. As noted above, we give ‘suggested weights’ (0-5) to suggest the importance of each category rating to your overall assessment, given the Unjournal's priorities. [_But you don't need, and may not want, to use these weightings precisely._ ](#user-content-fn-10)[^10]
 
 ### 0-100 Metric explained
 
@@ -179,7 +179,7 @@ This work represents a strong and substantial achievement. It is highly rigorous
 
 <summary>Middle ratings (40-59, 60-74) (*)</summary>
 
-****[**60-74**](#user-content-fn-11)[^11]**.9:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
+[**60-74**](#user-content-fn-11)[^11]**.9:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
 
 **40-59.9:** A useful contribution, with major strengths, but also some important flaws or limitations.
 
@@ -236,11 +236,11 @@ Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots)
 
 <summary>Example of Confidence dots vs CI </summary>
 
-__![](<../../../.gitbook/assets/image (5).png>)****
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 The example in the diagram above (click to zoom) illustrates the proposed correspondence.
 
-****
+
 
 </details>
 
@@ -248,7 +248,7 @@ The example in the diagram above (click to zoom) illustrates the proposed corres
 
 ### **Category explanations: what you are rating**
 
-__[_Note, all of these criteria are scales rather than binaries._](#user-content-fn-13)[^13]  __ &#x20;
+[_Note, all of these criteria are scales rather than binaries._](#user-content-fn-13)[^13] &#x20;
 
 #### 1.  Advancing our knowledge and practice&#x20;
 
@@ -319,7 +319,7 @@ Would another researcher be able to perform the same analysis and get the same r
 Is the necessary data made as widely available as possible, as applicable? Ideally, the cleaned data should also be clearly labeled and explained/legible.&#x20;
 
 \
-_Optional_: Are we likely to be able to construct the output from the shared code (and data)? _Note that_ **** evaluators are not required to run/evaluate the code; this is at your discretion. However, having a quick look at some of the elements could be helpful. Ideally, the author should give code that allows easy, full replication, for example, a single R script that runs and creates everything, starting from the original data source, and including data cleaning files. This would make it fairly easy for an evaluator to check. For example, see[ this taxonomy of ‘levels of computational reproducibility’](https://bitss.github.io/ACRE/assessment.html#score).
+_Optional_: Are we likely to be able to construct the output from the shared code (and data)? _Note that_ evaluators are not required to run/evaluate the code; this is at your discretion. However, having a quick look at some of the elements could be helpful. Ideally, the author should give code that allows easy, full replication, for example, a single R script that runs and creates everything, starting from the original data source, and including data cleaning files. This would make it fairly easy for an evaluator to check. For example, see[ this taxonomy of ‘levels of computational reproducibility’](https://bitss.github.io/ACRE/assessment.html#score).
 
 </details>
 
@@ -327,7 +327,7 @@ _Optional_: Are we likely to be able to construct the output from the shared cod
 
 [Do the numbers in the paper (and code output, if checked) make sense? Are they internally consistent throughout the paper? ](#user-content-fn-15)[^15]
 
-__
+
 
 **C. Useful building blocks:**&#x20;
 
@@ -341,7 +341,7 @@ _Suggested weighting: 2_
 
 Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?
 
-Is the setup particularly well-informed by real-world norms and practices? **** “Is this realistic; does it make sense in the real world?”&#x20;
+Is the setup particularly well-informed by real-world norms and practices? “Is this realistic; does it make sense in the real world?”&#x20;
 
 <details>
 
@@ -361,7 +361,7 @@ In future we may be able to pay them to do the above, if grant funding permits..
 
 #### 6. Relevance to global priorities\*\*&#x20;
 
-_Suggested weighting: 0. Why? **** The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your informed assessment (and discussion)._
+_Suggested weighting: 0. Why?_ _The management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your informed assessment (and discussion)._
 
 Is this topic, approach, and discussion _potentially_ useful to global priorities research and interventions? Does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
@@ -448,7 +448,7 @@ In presenting your prediction and confidence interval for this, you might want t
 
 </details>
 
-### ****
+###
 
 ### **Overall assessment on ‘scale of journals'**
 
@@ -477,7 +477,7 @@ _Your answers to the questions below will not be made public:_
 2. Do you have any suggestions or questions about this process or the Unjournal? (We will try to respond, and incorporate your suggestions.) \[Open response]
 3. Would you be willing to consider evaluating a revised version of this project?
 
-## ****
+##
 
 ## **How to write a good review (general conventional guidelines)**
 
@@ -541,9 +541,9 @@ _We still want your evaluation and ratings. Some things to consider as an evalua
    * Is it communicated in a way that would it be useful to policymakers? To other researchers in this field, or in the general discipline?\
 
 
-__
 
-__
+
+
 
 </details>
 
@@ -556,7 +556,7 @@ __
 
 Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness et al 2022)](https://evalresearch.weebly.com/uploads/1/3/3/4/133478410/improving\_peer\_review\_in\_economics\_-\_charness\_et\_al..pdf)
 
-****
+
 
 **Open Science**
 
@@ -566,7 +566,7 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [Open Reviewers Reviewer Guide ](https://zenodo.org/record/5484087)(Journal-independent “Pre-review”; detailed, targets ECRs)
 
-****
+
 
 [^1]: In some cases, we offer additional rewards for feedback and timeliness. We are hoping to increase this in general as well as offer additional incentives for well-written, insightful, and highly-predictive evaluation work.
 

@@ -1,4 +1,4 @@
-# Build founding committee (pilot: done)
+# Building the founding committee
 
 {% hint style="info" %}
 7 Feb 2023: We have an organized founding/management committee, as well as an advisory board  (see [who-are-we-our-team](../readme/discussion-team/who-are-we-our-team/ "mention")). We are focusing on pushing research through the evaluation pipeline, and communicating this output and making it useful. We have a good division of labor, e.g., among 'managing editors' for specific papers.\
@@ -26,7 +26,7 @@ We are likely to expand our team after our pilot, condifurther funding
 
 </details>
 
-****
+
 
 ## How was this founding committee recruited?
 

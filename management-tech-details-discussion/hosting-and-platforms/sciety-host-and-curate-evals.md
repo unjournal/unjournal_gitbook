@@ -1,6 +1,6 @@
 # Sciety (host & curate evals)
 
-__[_Our first evaluation is up!!_](ttps://sciety.org/articles/activity/10.31219/osf.io/vrmpf)__
+[_Our first evaluation is up!!_](ttps://sciety.org/articles/activity/10.31219/osf.io/vrmpf)
 
 See:
 

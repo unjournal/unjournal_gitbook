@@ -6,7 +6,7 @@ description: Building a 'best feasible plan'...
 
 {% hint style="warning" %}
 What is this Unjournal?... See:\
-[#in-a-nutshell](../../#in-a-nutshell "mention")
+[#in-a-nutshell](../#in-a-nutshell "mention")
 {% endhint %}
 
 <details>
@@ -22,17 +22,17 @@ What is this Unjournal?... See:\
 
 </details>
 
-_**Updated:**_ [_Partial update 10 Dec 2022._](#user-content-fn-1)[^1] __&#x20;
+_**Updated:**_ [_Partial update 10 Dec 2022._](#user-content-fn-1)[^1]&#x20;
 
-__
+
 
 ## Building research 'unjournal'
 
-See [acx-ltff-grant-proposal-as-submitted-successfull](../../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") for proposed specifics
+See [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") for proposed specifics
 
 ### Setup and team
 
-:heavy\_check\_mark: [action-build-founding-committee.md](../../action-and-progress/action-build-founding-committee.md "mention")
+:heavy\_check\_mark: [action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention")
 
 :heavy\_check\_mark:/:hourglass\_flowing\_sand: **Define the broad scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
 
@@ -40,18 +40,18 @@ See [acx-ltff-grant-proposal-as-submitted-successfull](../../grants-and-proposal
 
 _Status: Mostly completed/decided for pilot phase_
 
-__
+
 
 ### Create a set of rules for 'submission and management'
 
 * Which projects enter the review system (relevance, minimal quality, stakeholders, any red lines or 'musts')
-  * :hourglass\_flowing\_sand: See [considering-projects](../../policies-projects-evaluation-workflow/considering-projects/ "mention") for a first pass
+  * :hourglass\_flowing\_sand: See [considering-projects](../policies-projects-evaluation-workflow/considering-projects/ "mention") for a first pass
 * how projects are to be submitted
 * how reviewers are to be assigned and compensated&#x20;
 
 _Status: Mostly completed/decided for pilot phase;_ will review after initial trial
 
-__
+
 
 ### Rules for reviews/assessments
 
@@ -60,15 +60,15 @@ __
   * Establish links to all open-access bibliometric initiatives (to the extent feasible)
 * Harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, to coin-based 'ResearchHub', etc.
 
-See [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")&#x20;
+See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")&#x20;
 
 _Status: Mostly completed/decided for pilot phase;_ will review after the initial trial
 
-__
+
 
 ### Further steps
 
-See [#the-twelve-month-plan](../../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan "mention")
+See [#the-twelve-month-plan](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan "mention")
 
 <details>
 
@@ -109,8 +109,8 @@ Also: Committing to publish academic reviews or â€˜share in our internal groupâ€
 
 </details>
 
-[^1]: _See more detailed updates in the_ [action-and-progress](../../action-and-progress/ "mention") _section._
+[^1]: _See more detailed updates in the_ [action-and-progress](../action-and-progress/ "mention") _section._
 
-    __
+
 
 [^2]: We are still working with Google Docs and building an external survey interface. We will integrate this with Kotahi when we have funds.
