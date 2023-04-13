@@ -53,7 +53,7 @@ _If 'minor revisions' are requested_:&#x20;
 
 </details>
 
-__
+
 
 ### **Why would we (potential consider) only 'minor' revisions?**
 

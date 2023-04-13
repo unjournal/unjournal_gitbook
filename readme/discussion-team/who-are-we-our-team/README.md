@@ -1,17 +1,20 @@
-# "Who are we/our team"
+# Our team
 
-### _See also:_ [governance-of-the-unjournal.md](../../../management-tech-details-discussion/governance-of-the-unjournal.md "mention")  __ &#x20;
+### _See also:_ [governance-of-the-unjournal.md](../../../management-tech-details-discussion/governance-of-the-unjournal.md "mention") &#x20;
 
-### __
+The unjournal was founded by  [David Reinstein](https://davidreinstein.org), <img src="../../../.gitbook/assets/image.png" alt="" data-size="line"> who maintains this wiki/Gitbook and other resources.
+
+
 
 ### Founding committee
 
-See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)__
+See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)
 
-* [David Reinstein](https://www.davidreinstein.org), Senior Economist at Rethink Priorities
+* [David Reinstein](https://www.davidreinstein.org), Senior Economist at Rethink Priorities; co-manager&#x20;
+* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE; co-manager
 * [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology, has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 * [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph
-* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE
+*
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University&#x20;
 * [Hansika Kapoor](https://www.hansikakapoor.in), Research Author at the Department of Psychology, Monk Prayogshala
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
@@ -21,7 +24,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 ### Advisory board
 
-See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)__
+See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)
 
 **Senior**
 
@@ -29,8 +32,8 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
 
-__\
-__**Early/mid-career**
+\
+**Early/mid-career**
 
 [Alexander Herwix](https://www.researchgate.net/profile/Alexander-Herwix), Late-Stage PhD Student in Information Systems at the University of Cologne
 
@@ -38,13 +41,13 @@ __**Early/mid-career**
 
 [Sam Abbott](https://samabbott.co.uk), Infectious Disease Researcher at the London School of Hygiene and Tropical Medicine
 
-[Conor Hughes](https://pop.umn.edu/people/conor-hughes), __ PhD Student, Applied Ecoomics, University of Minnesota
+[Conor Hughes](https://pop.umn.edu/people/conor-hughes), PhD Student, Applied Ecoomics, University of Minnesota
 
 [Jana Lasser, ](https://www.janalasser.at/)Postdoctoral researcher, Institute for Interactive Systems and Data Science at Graz University of Technology
 
 [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor @ Asterisk Mag, Writing and Research on Global Health, Development, and Nutrition
 
-__
+
 
 
 

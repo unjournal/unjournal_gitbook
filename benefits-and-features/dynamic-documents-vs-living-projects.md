@@ -6,7 +6,7 @@ By “**Dynamic Documents**” I mean papers/projects built with [Quarto](https:
 
 I consider some of the benefits of this format, particularly for EA-aligned organizations like Open Philanthropy: [benefits-of-dynamic-documents.md](benefits-of-dynamic-documents.md "mention")
 
-****
+
 
 ## **Living projects**
 

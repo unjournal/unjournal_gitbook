@@ -8,9 +8,9 @@ Second prize: $1000&#x20;
 
 _Note: these are the minimum amounts; we will increase these if funding permits._
 
-_Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by The Unjournal,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon._](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)__
+_Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by The Unjournal,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon._](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)
 
-## __<img src="../../../.gitbook/assets/image (3).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (4) (1).png" alt="" data-size="line">__<img src="../../../.gitbook/assets/image (2).png" alt="" data-size="line">__
+## <img src="../../../.gitbook/assets/image (3).png" alt="" data-size="line"><img src="../../../.gitbook/assets/image (4) (1).png" alt="" data-size="line"><img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="line">
 
 _Update 27-11-22: We are arranging the details and additional co-hosts for this)._
 
@@ -47,4 +47,4 @@ Our management team and advisory board will vote on the prize winners in light o
 
 _Note: In a subsection below (_[recap-submissions.md](recap-submissions.md "mention"))_, we recap the basics of submissions to The Unjournal._
 
-## __
+##

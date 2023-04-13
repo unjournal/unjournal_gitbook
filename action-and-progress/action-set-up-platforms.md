@@ -1,8 +1,8 @@
-# Set up platforms
+# Setting up platforms
 
 > Set up the basic platforms for posting and administering reviews and evaluations and offering curated links and categorizations of papers and projects.
 
-****
+
 
 <details>
 
@@ -20,7 +20,7 @@
 * We will outline specific [requests](https://docs.google.com/document/d/1BasFdbN0a8OVLwjB2\_F\_GpECgJpYI2iWRO8fZuU13Z0/edit#heading=h.dkt5cpu55te) for developers\
 
 * Sciety group set up with 'Hypothes.is feed'; working on processing first evaluations\
-  __
+
 
 </details>
 

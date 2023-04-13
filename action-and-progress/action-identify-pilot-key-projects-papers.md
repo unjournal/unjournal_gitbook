@@ -1,10 +1,10 @@
-# Identified key research
+# Identifying key research
 
 ([_Note for the management team_](#user-content-fn-1)[^1]_)_
 
 ## Test-case research for Proof of Concept
 
-I[_**dentify a small set of papers or projects as representative first-cases; to concretely help  test the system we are building.**_](#user-content-fn-2)[^2]_****_
+I[_**dentify a small set of papers or projects as representative first-cases; to concretely help  test the system we are building.**_](#user-content-fn-2)[^2]
 
 {% hint style="info" %}
 _In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
@@ -20,7 +20,7 @@ _In doing the above, we are also collecting a longer list of key papers, project
 
 2\. **Search for most-cited papers** (within our domain) among EA-aligned researchers and organizations
 
-****[**3. Dig into existing lists, reviews, syllabi such as:**](#user-content-fn-3)[^3]****
+[**3. Dig into existing lists, reviews, syllabi such as:**](#user-content-fn-3)[^3]
 
 * GPI [research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues) (includes many posed questions)
 * Open Philanthropy[ "questions that might affect our grantmaking"](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking) (needs updating? few academic links)

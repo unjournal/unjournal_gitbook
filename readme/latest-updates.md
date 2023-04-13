@@ -101,13 +101,13 @@ We're considering collaborations with other compatible initiatives, including...
 
 </details>
 
-Recall, we pay at least $250 per evaluation, we typically pay more in net ($350), and we are looking to increase this compensation further. _Please fill out_ [_**THIS** _ ](https://airtable.com/shrW9xpIrxNGfxkXW)__[_**FORM**_](https://airtable.com/shrW9xpIrxNGfxkXW)  _(about 3-5 min) if you are interested_
+Recall, we pay at least $250 per evaluation, we typically pay more in net ($350), and we are looking to increase this compensation further. _Please fill out_ [_**THIS**_ ](https://airtable.com/shrW9xpIrxNGfxkXW)[_**FORM**_](https://airtable.com/shrW9xpIrxNGfxkXW)  _(about 3-5 min) if you are interested_
 
 2. **Research to evaluate/prizes:** We continue to be interested in submitted and suggested work. One area we would like to engage with more: quantitative social science and economics work relevant to animal welfare.
 
 _Hope these updates are helpful. Let me know if you have suggestions._&#x20;
 
-&#x20;__&#x20;
+&#x20;
 
 
 
