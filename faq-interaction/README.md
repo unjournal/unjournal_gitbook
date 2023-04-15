@@ -4,6 +4,12 @@ _**We want to get authors, research groups, reviewers, and institutions involved
 
 
 
+{% hint style="info" %}
+**You can now ask questions of this gitbook using a 'chatbot':** click the search bar and choose 'lens'.
+{% endhint %}
+
+
+
 ## General FAQs
 
 ### **What is the Unjournal? (see** [**here**](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)**)**
