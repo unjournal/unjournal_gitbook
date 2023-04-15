@@ -1,5 +1,9 @@
 # Contents Page
 
+{% hint style="info" %}
+**You can** search this content and you can now _ask it questions using a 'chatbot'_: click the search bar and choose 'lens'.
+{% endhint %}
+
 ## Key sections/subsections
 
 ### _Learn more about The Unjournal, our goals and policies_&#x20;
