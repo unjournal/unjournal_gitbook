@@ -5,10 +5,10 @@ Fiscal host: [https://opencollective.com/the-unjournal](https://opencollective.c
 ### Submitting and paying expenses/claims
 
 {% hint style="info" %}
-**Anonymity** **and payments**: **Evaluators, please use a pseudonym or the salted hashtag we shared with you!**
+**Anonymity** **and payments**: **Evaluators, please use a pseudonym or the "salted hash" code we shared with you!**
 
 \
-**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the salted hashtag  we've provided, or make one up and tell us this pseudonym in other private correspondence.)
+**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
 
 \
 _For good measure, do not indicate the name of the paper in the expense claim._&#x20;
@@ -16,11 +16,25 @@ _For good measure, do not indicate the name of the paper in the expense claim._&
 _However, please do note "_Evaluation of research material" _in the "statement of work" section._
 {% endhint %}
 
-Following obtaining your hashtag, or informing us of your pseudonym:
+
+
+<details>
+
+<summary>Why do we call it a 'salted hash'</summary>
+
+The 'hash' represents a one-way encryption of either your name or email. We store this information in a database shared only internally at the Unjournal. If you are asking for full anonymity this information is only kept on the hard drive of our co-manager, operations RA, and potentially the evaluator.\
+\
+_But if we used this_ anyone who knows your name or email could potentially 'check' if you were the person it pertained to. That's why we 'salt' it: we add an additional bit of 'salt', a password only known to our co-managers and operations RA before we encrypt it. This better protects your anonymity.
+
+</details>
+
+
+
+After you obtain your hash, or inform us of your pseudonym:
 
 1. Go to [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)
 2. Under the brief information about the unjournal there are a few tabs; there is a tab on the right hand-side called “submit expense” that you need to click.
-3. Following this, you will need to login/create an account. This is very straightforward just requires add your salted hashtag/pseudonym as your name and an email address with no password.&#x20;
+3. Following this, you will need to login/create an account. This is very straightforward; it just requires you to  add your "salted" hash/pseudonym as your name and an email address with no password.&#x20;
 4. In your profile settings be sure to add your "legal name". This is only visible to the unjournal admins and is not public. If not, you may be contacted separately by OCF asking you to do this.
 5. Afterwards, you can fill in all your information about how they would like to be paid and which account (details of filling in your payment information can be viewed below).
 6. We then approve the expense and they will be paid within 7 days of our approval.
