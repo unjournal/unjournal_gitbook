@@ -50,7 +50,7 @@ See [#does-the-unjournal-charge-fees-to-anyone](faq-interaction/#does-the-unjour
 
 ## _**We will do this through**_
 
-**Identifying**, **soliciting, and choosing relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _(See: the_ [_benefits of dynamic docs_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/benefits-and-features/benefits-of-dynamic-documents)_)_
+**Identifying**, **soliciting, and choosing relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _(See: the_ [_benefits of dynamic docs_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/benefits-and-features/benefits-of-dynamic-documents)_.)_
 
 _W_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series (_see our_ [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)).&#x20;
 
