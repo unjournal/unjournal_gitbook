@@ -10,8 +10,8 @@
 {% hint style="info" %}
 **Some (Other) ways to follow The Unjournal's progress**
 
-* Our [PubPub page](https://unjournal.pubpub.org/)
-* Follow [our Sciety page](https://sciety.org/groups/the-unjournal/about?) for updates on evaluations and author responses
+* Our [PubPub page](https://unjournal.pubpub.org/) contains evaluations and author responses
+* Follow [our Sciety page](https://sciety.org/groups/the-unjournal/about?) (alternate evaln hosting location)&#x20;
 * [Follow @GivingTools](https://twitter.com/GivingTools?ref\_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it)
 * [action-and-progress](../action-and-progress/ "mention"): for an overview
 {% endhint %}

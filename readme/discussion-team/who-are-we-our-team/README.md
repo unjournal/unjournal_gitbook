@@ -10,11 +10,10 @@ The unjournal was founded by  [David Reinstein](https://davidreinstein.org), <im
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)
 
-* [David Reinstein](https://www.davidreinstein.org), Senior Economist at Rethink Priorities; co-manager&#x20;
+* [David Reinstein](https://www.davidreinstein.org), founder and co-manager&#x20;
 * [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE; co-manager
 * [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology, has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 * [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph
-*
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University&#x20;
 * [Hansika Kapoor](https://www.hansikakapoor.in), Research Author at the Department of Psychology, Monk Prayogshala
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
