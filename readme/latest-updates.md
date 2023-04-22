@@ -22,6 +22,27 @@
 
 {% @mailchimp/mailchimpSubscribe %}
 
+## Update on recent progress: 22 April 2023
+
+### New 'output'
+
+We are now up to twelve total evaluations of five papers.  Most of these are on our[ PubPub page](https://unjournal.pubpub.org/) (we are currently aiming to have all of the work hosted both at PubPub and on Sciety, and gaining DOIs and entering the bibliometric ecosystem).  The latest two are on an interesting theme, [as noted in a recent EA Forum Post](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/is-cbt-effective-for-poor-households-two-recent-papers):
+
+> Two more Unjournal Evaluation sets are out. Both papers consider randomized controlled trials (RCTs) involving cognitive behavioral therapy (CBT) for low-income households in two African countries (Kenya and Ghana). These papers come to very different conclusions as to the efficacy of this intervention.
+
+> These are part of Unjournal's ['direct NBER evaluation' stream](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/bit.ly/unjournaldirect).
+
+More evaluations coming out soon, on themes including global health and development, the environment, governance and social media. \
+
+
+### Animal welfare
+
+_To round out our initial pilot:_ We're particularly looking to evaluate papers/projects relevant to animal welfare and animal agriculture. Please reach out if you have particular suggestions.&#x20;
+
+### New features of this gitbook: GPT-powered 'chat' Q\&A
+
+You can now 'chat' with this page, and ask questions and get answers with links to other parts of the page. To try it out, go to "Search" and choose "Lens".
+
 
 
 ## Update on recent progress: 17 Mar 2023
@@ -31,7 +52,7 @@ See our latest post on the EA Forum
 {% embed url="https://forum.effectivealtruism.org/posts/5d7P4gFpomfeLCHZw/unjournal-evaluations-of-artificial-intelligence-and" %}
 
 1. Our new platform ([unjournal.pubpub.org](https://unjournal.pubpub.org/)), enabling DOIs and CrossRef (bibliometrics)
-2. Evaluations of "Artificial Intelligence and Economic Growth"; "self-correcting science"&#x20;
+2. [Evaluations of "Artificial Intelligence and Economic Growth";](https://unjournal.pubpub.org/pub/aimetrics/release/7) "self-correcting science"&#x20;
 3. More evaluations soon
 4. We are pursuing collaborations with replication and robustness initiatives such as the ["Institute for Replication"](https://i4replication.org/) and [repliCATS](https://replicats.research.unimelb.edu.au/)
 5. We are now 'fiscally sponsored' by the Open Collective Foundation; see our page [HERE](https://opencollective.com/the-unjournal). (Note, this is an administrative thing, it's not a source of funding)&#x20;
