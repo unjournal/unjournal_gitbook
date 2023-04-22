@@ -1,14 +1,11 @@
 # Latest updates
 
 {% hint style="info" %}
-**We aim to**&#x20;
-
-* Put updates on The Unjournal's progress (and calls to action) here
-* Integrate this with an email newsletter and social media
+We are putting updates on The Unjournal's progress (and calls to action). We aim to untegrate this with an email newsletter and social media.
 {% endhint %}
 
 {% hint style="info" %}
-**Some (Other) ways to follow The Unjournal's progress**
+**Some (other) ways to follow The Unjournal's progress**
 
 * Our [PubPub page](https://unjournal.pubpub.org/) contains evaluations and author responses
 * Follow [our Sciety page](https://sciety.org/groups/the-unjournal/about?) (alternate evaln hosting location)&#x20;
@@ -37,7 +34,7 @@ More evaluations coming out soon, on themes including global health and developm
 
 ### Animal welfare
 
-_To round out our initial pilot:_ We're particularly looking to evaluate papers/projects relevant to animal welfare and animal agriculture. Please reach out if you have particular suggestions.&#x20;
+_To round out our initial pilot:_ We're particularly looking to evaluate papers/projects relevant to animal welfare and animal agriculture. Please reach out if you have suggestions.&#x20;
 
 ### New features of this gitbook: GPT-powered 'chat' Q\&A
 
