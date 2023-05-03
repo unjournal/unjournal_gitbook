@@ -47,15 +47,11 @@ _**Can I submit an evaluation anonymously?**_&#x20;
 
 _2023: Yes, o_ur current policy is to allow evaluators to choose whether they wish to remain anonymous or 'sign their evaluations'.&#x20;
 
-
-
 ### _**How do we protect the anonymity of evaluators who request it?**_  &#x20;
 
 See [protecting-anonymity.md](../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention")
 
-
-
-#### I'm concerned about making my evaluation public; what if I make an error or write something in a way that I later regret?
+### I'm concerned about making my evaluation public; what if I make an error or write something in a way that I later regret?
 
 In the typical journal process, reviewers may make mistakes in reports, and these may typically be mitigated by multiple reviewers and editor mediation. Furthermore, in standard journals,  reviews are typically not made public. As an Unjournal evaluator, you might be concerned about having an error or poor judgment enter the public record. _How worried should you be, and what can be done to limit this concern?_
 
@@ -64,15 +60,11 @@ In the typical journal process, reviewers may make mistakes in reports, and thes
 3. It is well-known that referee reports/evaluations are subject to mistakes. We expect most people who read your evaluation will take this into account.&#x20;
 4. You can add an addendum/revision to your evaluation later on (see below).
 
-
-
-#### Can I redact my evaluation/review after it's published through the Unjournal?
+### Can I redact my evaluation/review after it's published through the Unjournal?
 
 &#x20;We will put your review/evaluation on pubpub ( [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/)) and give it a DOI.It cannot be redacted in the sense that this initial version will remain on the internet in some format. But you can certainly add an addendum to the review later, which we will post and link, and the DOI can be adjusted to point to the revised version.&#x20;
 
-
-
-#### (How) are the research authors involved in Unjournal's review process and do they give consent?
+### (How) are the research authors involved in Unjournal's review process and do they give consent?
 
 See [for-researchers-authors.md](for-researchers-authors.md "mention") FAQ as well as the [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention"). We currently (May 2023) have two ways that papers/research projects enter the Unjournal process:
 
