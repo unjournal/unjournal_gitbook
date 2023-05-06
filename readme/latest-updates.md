@@ -19,6 +19,30 @@ We are putting updates on The Unjournal's progress (and calls to action). We aim
 
 {% @mailchimp/mailchimpSubscribe %}
 
+## Update on recent progress: 6 May 2023
+
+### Grant funding from the Survival and Flourishing Fund
+
+The Unjournal was[ recommended/approved for a substantial grant](https://survivalandflourishing.fund/sff-2023-h1-recommendations) through the 'S-Process' of the Survival and Flourishing Fund.  More details and plans to come. This grant will help enable The Unjournal to expand, innovate, and professionalize. We aim to build the awareness, credibility,  scale and scope of The Unjournal, and the communication, benchmarking, and useful outputs of our work. We want to have a substantial impact, building towards our mission and goals...
+
+> To make rigorous research more impactful, and impactful research more rigorous. To foster substantial, credible public evaluation and rating of impactful research, driving change in research in academia and beyond, and informing and influencing policy and philanthropic decisions.
+
+_Innovations:_ We are considering other initiatives and refinements (1) to our evaluation ratings, metrics, and predictions, and how these are aggregated, (2) to foster open science and robustness-replication, and (3) to provide inputs to evidence-based policy decision-making under uncertainty. Stay tuned, and please join the conversation.&#x20;
+
+_Opportunities:_ We plan to expand our management and advisory board, increase incentives for evaluators and authors, and build our pool of evaluators and participating authors and institutions. Our previous call-to-action (see [HERE](call-for-participants-research/brief-version-of-call.md)) is still relevant if you want to sign up to be part of our evaluation (referee) pool, submit your work for evaluation, etc.  (We are likely to put out a further call soon, but all responses will be integrated.)
+
+### Evaluation 'output'
+
+We have published a total of 12 evaluations and ratings of 5 papers/projects, as well as 3 author responses. Four can be found on our PubPub page (most concise list [here](https://unjournal.pubpub.org/dash/collection/completed-uj-evaluation-packages/overview)), and one on our Sciety page [here](https://sciety.org/groups/the-unjournal/about) (we aim to mirror all content on both pages). All the PubPub content has a DOI, and we are working to get these indexed on Google Scholar and beyond.
+
+The two most recently released evaluations (of Haushofer et al, 2020; and Barker et al, 2022) both surround... "[Is CBT effective for poor households?](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/is-cbt-effective-for-poor-households-two-recent-papers)" \[link: EA Forum post]
+
+> &#x20;Both papers consider randomized randomized controlled trials (RCTs) involving cognitive behavioral therapy (CBT) for low-income households in two African countries (Kenya and Ghana). These papers come to very different conclusions as to the efficacy of this intervention.
+
+See the evaluation summaries and ratings, with linked evaluations [HERE](https://unjournal.pubpub.org/pub/cashtransfersmetrics/release/6) (Haushofer et al) and [HERE (Barker et al). ](https://unjournal.pubpub.org/pub/barkeretalsummary/release/3)
+
+
+
 ## Update on recent progress: 22 April 2023
 
 ### New 'output'
