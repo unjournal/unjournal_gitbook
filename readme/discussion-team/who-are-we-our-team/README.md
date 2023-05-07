@@ -46,7 +46,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor @ Asterisk Mag, Writing and Research on Global Health, Development, and Nutrition
 
-Anirudh Tagat
+[Anirudh Tagat](https://www.anirudhtagat.com/),  Research Author at the Department of Economics at [Monk Prayogshala](http://www.google.com/url?q=http%3A%2F%2Fwww.monkprayogshala.in\&sa=D\&sntz=1\&usg=AOvVaw0Q2v2r2Rf\_7hISS6yEnqOt),
 
 
 
