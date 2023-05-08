@@ -15,8 +15,8 @@ description: >-
 [evaluation](evaluation/)
 {% endcontent-ref %}
 
-{% content-ref url="mapping-workflow-process.md" %}
-[mapping-workflow-process.md](mapping-workflow-process.md)
+{% content-ref url="../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md" %}
+[mapping-evaluation-workflow.md](../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md)
 {% endcontent-ref %}
 
 {% content-ref url="communicating-results.md" %}

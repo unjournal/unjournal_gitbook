@@ -8,9 +8,9 @@
 
 ### 'Policy work' not (mainly) intended for academic audiences?
 
-E.g., should we consider evaluating papers put out by organizations like Open Philanthropy, the Happier Lives Institute, or Rethink Priorities that aim at impact but might not be written with academic standards in mind?
+We are considering a second stream to evaluate non-traditional, less formal work,  not written with academic standards in mind.  This could include the strongest work published on the EA Forum, as well as a range of further applied research from EA/GP/LT linked organizations such as GPI, Rethink Priorities, Open Philanthropy, FLI, HLI, Faunalytics, etc., as well as EA-adjacent organizations and relevant government white papers.  See comments [here](https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper?commentId=Frk764uiLLnkdgrwM); see also Pete Slattery’s proposal [here](https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper?commentId=Frk764uiLLnkdgrwM), which namechecks the Unjournal.
 
-
+E.g., for [animal welfare...](#user-content-fn-1)[^1]
 
 ## Evaluation procedure and guidelines
 
@@ -61,7 +61,7 @@ See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.c
 
 ### Revisions as part of process?
 
-[#considering-for-future-enabling-minor-revisions](../policies-projects-evaluation-workflow/mapping-workflow-process.md#considering-for-future-enabling-minor-revisions "mention")
+[#considering-for-future-enabling-minor-revisions](../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md#considering-for-future-enabling-minor-revisions "mention")
 
 
 
@@ -90,3 +90,6 @@ My memory is that when submitting a paper, I usually learn who the Senior Editor
 
 
 
+
+
+[^1]: Anonymous: "I think the most important research online is by Rethink Priorities, Welfare Footprint Project, Open Phil, Animal Charity Evaluators and Charity Entrepreneurship, because it informs EA work and funding. Most of it is generalist research, research synthesis or quantitative modelling, usually not following any standard identifiable methodology."

@@ -40,7 +40,7 @@
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)
     * ['Why pay evaluators (reviewers)'?](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md)
     * [Protecting anonymity](policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md)
-  * [Mapping workflow/process](policies-projects-evaluation-workflow/mapping-workflow-process.md)
+  * [Mapping evaluation workflow](our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md)
   * [Communicating results](policies-projects-evaluation-workflow/communicating-results.md)
 * [The field and EA/gp research](the-field-and-ea-gp-research/README.md)
   * [What is EA/gp relevant research?](the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md)
@@ -87,3 +87,4 @@
     * [Avoiding COI](management-tech-details-discussion/choosing-evaluators/avoiding-coi.md)
     * [Tips and text for contacting evaluators (private)](https://docs.google.com/document/d/1BwihxrSZ244ebEiB3FLwfe5IDilB1nBBOVQ22xwOkCk/edit)
   * [Policies/issues discussion](management-tech-details-discussion/policies-issues-discussion.md)
+  * [This Gitbook; editing it, etc](management-tech-details-discussion/this-gitbook-editing-it-etc.md)
