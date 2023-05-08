@@ -4,7 +4,7 @@ description: Several expositions for different audiences, fleshing out ideas and
 
 # Explanations & outreach
 
-## TLDR: See[^1] [#in-a-nutshell](../../#in-a-nutshell "mention")
+## TLDR: See[^1] [#in-a-nutshell](<../../README (1).md#in-a-nutshell> "mention")
 
 
 

@@ -6,7 +6,7 @@ description: Building a 'best feasible plan'...
 
 {% hint style="warning" %}
 What is this Unjournal?... See:\
-[#in-a-nutshell](../#in-a-nutshell "mention")
+[#in-a-nutshell](<../README (1).md#in-a-nutshell> "mention")
 {% endhint %}
 
 <details>
