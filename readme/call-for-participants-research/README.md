@@ -5,7 +5,7 @@ description: Unjournal call for participants and research
 # How to be part of this
 
 {% hint style="info" %}
-See [#in-a-nutshell](../../#in-a-nutshell "mention")for an overview of The Unjournal
+See [#in-a-nutshell](<../../README (1).md#in-a-nutshell> "mention")for an overview of The Unjournal
 {% endhint %}
 
 {% hint style="info" %}

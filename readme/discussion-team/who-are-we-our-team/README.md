@@ -40,7 +40,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Sam Abbott](https://samabbott.co.uk), Infectious Disease Researcher at the London School of Hygiene and Tropical Medicine
 
-[Conor Hughes](https://pop.umn.edu/people/conor-hughes), PhD Student, Applied Ecoomics, University of Minnesota
+[Conor Hughes](https://pop.umn.edu/people/conor-hughes), PhD Student, Applied Economics, University of Minnesota
 
 [Jana Lasser, ](https://www.janalasser.at/)Postdoctoral researcher, Institute for Interactive Systems and Data Science at Graz University of Technology
 

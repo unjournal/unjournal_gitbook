@@ -1,6 +1,7 @@
 # Table of contents
 
-* [The Unjournal (introduction)](README.md)
+* [The Unjournal](README.md)
+* [The Unjournal (introduction)](<README (1).md>)
   * [Contents Page](readme/contents-page.md)
   * [How to be part of this](readme/call-for-participants-research/README.md)
     * [Brief version of call](readme/call-for-participants-research/brief-version-of-call.md)
@@ -13,7 +14,6 @@
   * [Explanations & outreach](readme/writings/README.md)
     * [Outreach texts](readme/writings/marketing-and-outreach.md)
     * [Related articles and work](readme/writings/related-articles-and-work.md)
-    * [The Unjournal](readme/writings/the-unjournal.md)
   * [Latest updates](readme/latest-updates.md)
 * [Why Unjournal?](benefits-and-features/README.md)
   * [Evaluation reduces the costs of 'the publication game'](benefits-and-features/costs-of-playing-the-publication-game.md)
