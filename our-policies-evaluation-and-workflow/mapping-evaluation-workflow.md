@@ -40,13 +40,15 @@ EVC .->|EV chooses|EVS[to sign eval.]
 ARE .->|EM considers in| EMS[\EM's summary\] 
 EVC ..- |EM considers in| EMS
 
-EMS --> UJO[/Unjournal <br/> published output/] 
+EMS --> UJO[/Unjournal <br/> published output w/ DOIs/] 
 EC --> UJO
 ARE --> UJO 
 EVR --> |Prominently <br/> reported in| UJO
 EVS .-> |EV name| UJO
 
 EVR .->|After UJ output|UJRD[/Ratings/predictions <br/> database <br/>/]
+
+UJO ..- UJOI[Inform authors and <br/> Evaluators, <br/> Publicize, <br/> Followup on availability, <br/> bibliometrics.] 
 
 ```
 
