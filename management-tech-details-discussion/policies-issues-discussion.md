@@ -92,4 +92,8 @@ My memory is that when submitting a paper, I usually learn who the Senior Editor
 
 
 
-[^1]: Some of the most important publicly available research may be work by organizations like Rethink Priorities, Welfare Footprint Project, Open Phil, Animal Charity Evaluators and Charity Entrepreneurship. This work seems likely to inform Effective Altruism-linked work and funding.&#x20;
+[^1]: Some of the most important publicly available research may be work by organizations like Rethink Priorities, Welfare Footprint Project, Open Phil, Animal Charity Evaluators and Charity Entrepreneurship. This work seems likely to inform Effective Altruism-linked work and funding.\
+    \
+
+
+    According to [this post](https://forum.effectivealtruism.org/posts/6H9QGZkdMzDEdKNCX/analysis-of-ea-funding-within-animal-welfare-from-2019-2021-1), most EAA (effective animal advocacy) work by funding was corporate welfare campaigns.&#x20;
