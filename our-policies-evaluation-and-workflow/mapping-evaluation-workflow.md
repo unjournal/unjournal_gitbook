@@ -1,5 +1,7 @@
 # Mapping evaluation workflow
 
+The flowchart below focuses on the _evaluation_ part of our process.&#x20;
+
 ```mermaid
 graph TD
   S["Author (A) submits work (W)"] -->|informal or Kotahi| MP[Managers prioritize work] 
@@ -53,38 +55,49 @@ UJO --> UJPUB[Publicize, follow availability, <br/> bibliometrics.]
 
 ```
 
-##
+## Describing  key steps above (updated 10 May '23)&#x20;
 
-## Initial sketch, revised 8 Feb '23
-
-1. &#x20;Author creates new submission (submits a URL and DOI)
-   * Alt: Project submitted independently of authors; authors asked/informed
-   * Alt: see [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
-2. Author (or someone on their behalf) completes a submission form&#x20;
-   * This includes a potential 'request for embargo' or other special treatment
-3. Manager(s)[^1]  (M) prioritizes work for review (see [considering-projects](../policies-projects-evaluation-workflow/considering-projects/ "mention")),&#x20;
-   * M fills in additional information (in same 'submission form') explaining why it's relevant, what to evaluate, etc.
-   * Decides whether to grant embargo/special treatment, notes this
-4. M assigns Evaluations Manager (EM) to selected project
-5. EM invites Evaluators (aka 'Reviewers'), sharing the paper to be evaluated, and a brief summary of why the UJ think it's relevant, and what we are asking. Potential evaluators given full access to (almost) all information submitted by author and ME, notified of any embargo/special treatment granted. May make special requests to evaluator (e.g., 'signed/unsigned evaluation only', short deadlines, extra incentives, etc.)
-6. Evaluator accepts/declines invitation to review, agrees on deadline (or asks for extension)
-   * EM shares full guidelines and suggestions with evaluator
-7. Evaluator completes a review form (atm this includes an out-link to a gdoc or survey, allowing better-formatted content and input options); we aim to embed this in a system ... [kotahi-submit-eval-mgmt.md](../management-tech-details-discussion/hosting-and-platforms/kotahi-submit-eval-mgmt.md "mention")
-8. Evaluator submits evaluation including numeric ratings and predictions, confidence intervals
+1. Submission/selection
+   1. Author (A) submits work (W),  creates new submission (submits a URL and DOI), through our platform or informally&#x20;
+      * Author (or someone on their behalf) can complete a _submission form;_ this includes a potential 'request for embargo' or other special treatment&#x20;
+   2. Managers select work to prioritize, or the project is submitted independently of authors
+      * For either of these cases (1 or 2), authors are asked for _permission_
+   3. Alternate [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")),  'Work enters prestige archive' (currently NBER).&#x20;
+      * Here authors are informed and consulted, but permission is not needed
+2. Prioritization&#x20;
+   * (Following author submission) ...&#x20;
+     * Manager(s)[^1] (M) prioritizes work for review (see [considering-projects](../policies-projects-evaluation-workflow/considering-projects/ "mention")),&#x20;
+   * (Following direct evaluation selection)... &#x20;
+     * M [fills in additional information](#user-content-fn-2)[^2] explaining why it's relevant, what to evaluate, etc.
+   * If requested (in either case), decides whether to grant embargo/special treatment, notes this, informs authors
+3. M assigns Evaluations Manager (EM) to selected project (typically part of our [management team or advisory board](../readme/discussion-team/))
+4. EM invites Evaluators (aka 'Reviewers'), sharing the paper to be evaluated, and a brief summary of why the UJ thinks it's relevant, and what we are asking.&#x20;
+   * Potential evaluators given full access to (almost) all information submitted by author and ME, notified of any embargo/special treatment granted.&#x20;
+   * EM may make special requests to evaluator (e.g., 'signed/unsigned evaluation only', short deadlines, special focus, extra incentives, etc.)
+5. Evaluator accepts/declines invitation to review, agrees on deadline (or asks for extension)
+   * If accepts, EM shares full guidelines/evaluation template and specific suggestions with evaluator
+6. Evaluator completes [an evaluation form](#user-content-fn-3)[^3]; we aim to embed this in a system, e.g.,  [kotahi-submit-eval-mgmt.md](../management-tech-details-discussion/hosting-and-platforms/kotahi-submit-eval-mgmt.md "mention")
+7. Evaluator submits evaluation including numeric ratings and predictions, "CI's" for these
    * _Possible addition (future plan)_: Reviewer asks for 'minor revisions and corrections; see 'considering: allowing minor revisions' in fold below
-9. HE collates all reviews/ratings, shares these with Author, notifies evaluators this was done
-   * Be very careful not to share evaluators' identities, unless the specifically requested this
-     * [Especially where evaluators chose anonymity](#user-content-fn-2)[^2]
-     * Even if evaluators chose to 'sign their evaluation', do not disclose their identity to authors at this point, but tell evaluators they can reach out to [the authors if they desire](#user-content-fn-3)[^3]
-   * Share evaluations with the authors as separate doc/file/space; which [the evaluators _do not have automatic access to_](#user-content-fn-4)[^4]_._
+8. EM collates all evaluations/ratings, shares these with Author, notifies evaluators this was done
+   * Be very careful not to share evaluators' identities at this point
+     * [Especially where evaluators chose anonymity](#user-content-fn-4)[^4], be extra-careful there is no accidentally-identifying information
+     * Even if evaluators chose to 'sign their evaluation', do not disclose their identity to authors at this point, but tell evaluators they can reach out to [the authors if they desire](#user-content-fn-5)[^5]
+   * Share evaluations with the authors as [separate doc/file/space](#user-content-fn-6)[^6]; which [the evaluators _do not have automatic access to_](#user-content-fn-7)[^7]_._ &#x20;
    * Make it clear to authors: their responses will be published (and given a DOI when we can).
-10. Author(s) reads evaluations, given two weeks to submit responses
-    * _If there is an embargo, there is more time to do this, of course_
-11. &#x20;EV creates evaluation summary, publishes all evaluations and author response&#x20;
-    * ... If no embargo, otherwise wait until after embargo ends/authors release it
-12. This feeds into our [PubPub](https://unjournal.pubpub.org/) space&#x20;
+9. Author(s) reads evaluations, given two weeks to submit responses
+   * _If there is an embargo, there is more time to do this, of course_
+10. EM creates evaluation summary and 'EM comments'
+11. UJ team publishes each element on our [PubPub](https://unjournal.pubpub.org/) space as a separate 'pub' with a DOI for each (unless embargoed[^8])
+    1. Summary and EM comments,&#x20;
+       1. With a prominent section for the 'ratings data/tables'
+    2. &#x20;Each evaluation (with summarized ratings at the top)
+    3. Author response&#x20;
+       * All of the above are linked in a particular way, with particular settings; [see notes](https://docs.google.com/document/d/18Yr95JbeCrDOrn4GpYWamxj2ZcOp9Ex\_arfz-7jZnko/edit)&#x20;
+12. Inform authors and evaluators after this is on PubPub, promote, check bibliometrics, etc.
+13. ('Ratings and predictions data' to enter an additional public database)
 
-    * DOIs for each element
+
 
 
 
@@ -127,10 +140,18 @@ We also want to encourage papers as [permanent-beta ](../benefits-and-features/l
 
 [^1]: These may come from our Management Team, Advisory Board, or paid and contacted staff
 
-[^2]: Where evaluators chose anonymity, none of their evaluation content should be linked to their real names or identity by design. Still, doublecheck this.
+[^2]: This might occur through the same 'submission form' authors complete
+
+[^3]: Atm this is an out-link to a Googe Doc.&#x20;
+
+[^4]: Where evaluators chose anonymity, none of their evaluation content should be linked to their real names or identity by design. Still, doublecheck this.
 
 
 
-[^3]: The evaluators can also ask us to disclose their identity and contact info to the authors at this point, to save them the hassle
+[^5]: The evaluators can also ask us to disclose their identity and contact info to the authors at this point, to save them the hassle
 
-[^4]: Make this clear to authors. Authors can reach out to evaluators and share any of this if they wish, but they are not required to do so.&#x20;
+[^6]: We recently were compiling these into a single Gdoc, but this is adding extra work; for now sharing separate files with the author seems a better intermediate solution, until we build an ed. management system.
+
+[^7]: Make this clear to authors. Authors can reach out to evaluators and share any of this if they wish, but they are not required to do so.&#x20;
+
+[^8]: If an embargo was granted,  until after embargo ends or authors release itear
