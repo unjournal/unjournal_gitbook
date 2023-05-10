@@ -92,4 +92,4 @@ My memory is that when submitting a paper, I usually learn who the Senior Editor
 
 
 
-[^1]: Some of the most important publicly available research may be work by organizations like Rethink Priorities, Welfare Footprint Project, Open Phil, Animal Charity Evaluators and Charity Entrepreneurship. This work seems to informs EA work and funding.&#x20;
+[^1]: Some of the most important publicly available research may be work by organizations like Rethink Priorities, Welfare Footprint Project, Open Phil, Animal Charity Evaluators and Charity Entrepreneurship. This work seems likely to inform Effective Altruism-linked work and funding.&#x20;
