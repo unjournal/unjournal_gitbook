@@ -48,7 +48,8 @@ EVS .-> |EV name| UJO
 
 EVR .->|After UJ output|UJRD[/Ratings/predictions <br/> database <br/>/]
 
-UJO ..- UJOI[Inform authors and <br/> Evaluators, <br/> Publicize, <br/> Followup on availability, <br/> bibliometrics.] 
+UJO -->|EM|UJOI[Inform authors and Evaluators]
+UJO --> UJPUB[Publicize, follow availability, <br/> bibliometrics.] 
 
 ```
 
