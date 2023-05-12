@@ -10,7 +10,7 @@ We are putting updates on The Unjournal's progress (and calls to action). We aim
 * Our [PubPub page](https://unjournal.pubpub.org/) contains evaluations and author responses
 * Follow [our Sciety page](https://sciety.org/groups/the-unjournal/about?) (alternate evaln hosting location)&#x20;
 * [Follow @GivingTools](https://twitter.com/GivingTools?ref\_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it)
-* [action-and-progress](../action-and-progress/ "mention"): for an overview
+* [action-and-progress](../../action-and-progress/ "mention"): for an overview
 {% endhint %}
 
 
@@ -31,7 +31,7 @@ The Unjournal was[ recommended/approved for a substantial grant](https://surviva
 
 _Innovations:_ We are considering other initiatives and refinements (1) to our evaluation ratings, metrics, and predictions, and how these are aggregated, (2) to foster open science and robustness-replication, and (3) to provide inputs to evidence-based policy decision-making under uncertainty. Stay tuned, and please join the conversation.&#x20;
 
-_Opportunities:_ We plan to expand our management and advisory board, increase incentives for evaluators and authors, and build our pool of evaluators and participating authors and institutions. Our previous call-to-action (see [HERE](call-for-participants-research/brief-version-of-call.md)) is still relevant if you want to sign up to be part of our evaluation (referee) pool, submit your work for evaluation, etc.  (We are likely to put out a further call soon, but all responses will be integrated.)
+_Opportunities:_ We plan to expand our management and advisory board, increase incentives for evaluators and authors, and build our pool of evaluators and participating authors and institutions. Our previous call-to-action (see [HERE](../call-for-participants-research/brief-version-of-call.md)) is still relevant if you want to sign up to be part of our evaluation (referee) pool, submit your work for evaluation, etc.  (We are likely to put out a further call soon, but all responses will be integrated.)
 
 ### Evaluation 'output'
 
@@ -92,7 +92,7 @@ See our latest post on the EA Forum
 
 #### Tip of the Spear ... right now we are:
 
-* Working on getting six further papers (projects) evaluated, most of which are part of our NBER[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+* Working on getting six further papers (projects) evaluated, most of which are part of our NBER[direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
 * Developing and discussing tools for aggregating and presenting the evaluators' quantitative judgments
 * Building our platforms, and considering ways to better format and integrate evaluations&#x20;
   * with the original research (e.g., through Hypothes.is collaborative annotation)&#x20;
@@ -101,7 +101,7 @@ See our latest post on the EA Forum
 
 #### Funding, plans, collaborations
 
-We are seeking grant funding for our continued operation and expansion (see [grants-and-proposals](../grants-and-proposals/ "mention") below). We're appealing to funders interested in Open Science and in impactful research.&#x20;
+We are seeking grant funding for our continued operation and expansion (see [grants-and-proposals](../../grants-and-proposals/ "mention") below). We're appealing to funders interested in Open Science and in impactful research.&#x20;
 
 We're considering collaborations with other compatible initiatives, including...
 
@@ -112,7 +112,7 @@ We're considering collaborations with other compatible initiatives, including...
 #### Management and administration, deadlines
 
 * We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home)
-* We are postponing the deadline for judging the [impactful-research-prize](call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.&#x20;
+* We are postponing the deadline for judging the [impactful-research-prize](../call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.&#x20;
 
 #### Other news and media
 
@@ -121,7 +121,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Calls to action
 
-#### See: [call-for-participants-research](call-for-participants-research/ "mention"). These are basically still all relevant.
+#### See: [call-for-participants-research](../call-for-participants-research/ "mention"). These are basically still all relevant.
 
 1. **Evaluators:** We have a strong pool of evaluators.  &#x20;
 
@@ -137,7 +137,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 <!---->
 
-* with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research](../the-field-and-ea-gp-research/ "mention"); e.g., global health and development),
+* with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research](../../the-field-and-ea-gp-research/ "mention"); e.g., global health and development),
 
 <!---->
 
