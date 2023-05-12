@@ -30,7 +30,7 @@ description: Journal-independent evaluation of impactful research
 
 <mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme/discussion-team/who-are-we-our-team/) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)
 
-**See our** [latest-updates](readme/latest-updates/ "mention")
+**See our** [Broken link](broken-reference "mention")
 
 ## In a nutshell&#x20;
 
