@@ -6,12 +6,12 @@ The unjournal was founded by  [David Reinstein](https://davidreinstein.org), <im
 
 
 
-### Founding committee
+### [Management Committee](#user-content-fn-1)[^1]&#x20;
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)
 
-* [David Reinstein](https://www.davidreinstein.org), founder and co-manager&#x20;
-* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE; co-manager
+* [David Reinstein](https://www.davidreinstein.org), founder and co-director&#x20;
+* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE; co-director
 * [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology, has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 * [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University&#x20;
@@ -19,7 +19,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
 * [Kris Gulati](https://sites.google.com/view/kris-gulati/home), Economics PhD student at the University of California, Merced
 
-[Outreach: see](#user-content-fn-1)[^1] [action-build-founding-committee.md](../../../action-and-progress/action-build-founding-committee.md "mention")&#x20;
+[Outreach: see](#user-content-fn-2)[^2] [action-build-founding-committee.md](../../../action-and-progress/action-build-founding-committee.md "mention")&#x20;
 
 ### Advisory board
 
@@ -124,4 +124,6 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 
 
-[^1]: _We may be adding more members as we progress._
+[^1]: Previously listed as "Founding Committee"
+
+[^2]: _We may be adding more members as we progress._
