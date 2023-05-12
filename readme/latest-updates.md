@@ -19,9 +19,7 @@ We are putting updates on The Unjournal's progress (and calls to action). We aim
 
 {% @mailchimp/mailchimpSubscribe %}
 
-## Update on recent progress: test&#x20;
 
-##
 
 ## Update on recent progress: 6 May 2023
 
