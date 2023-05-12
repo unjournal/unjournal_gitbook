@@ -1,7 +1,7 @@
 # Latest updates
 
 {% hint style="info" %}
-We are putting updates on The Unjournal's progress (and calls to action). We aim to untegrate this with an email newsletter and social media.
+We are putting updates on The Unjournal's progress (and calls to action). We aim to integrate this with an email newsletter and social media.
 {% endhint %}
 
 {% hint style="info" %}
