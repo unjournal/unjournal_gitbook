@@ -10,14 +10,15 @@ The unjournal was founded by  [David Reinstein](https://davidreinstein.org), <im
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)
 
-* [David Reinstein](https://www.davidreinstein.org), founder and co-director&#x20;
-* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE; co-director
+* [David Reinstein](https://www.davidreinstein.org), Founder and Co-director&#x20;
+* [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE; Co-director
 * [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology, has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 * [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University&#x20;
 * [Hansika Kapoor](https://www.hansikakapoor.in), Research Author at the Department of Psychology, Monk Prayogshala
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
 * [Kris Gulati](https://sites.google.com/view/kris-gulati/home), Economics PhD student at the University of California, Merced
+* [Anirudh Tagat](https://www.anirudhtagat.com/),  Research Author at the Department of Economics at [Monk Prayogshala](http://www.google.com/url?q=http%3A%2F%2Fwww.monkprayogshala.in\&sa=D\&sntz=1\&usg=AOvVaw0Q2v2r2Rf\_7hISS6yEnqOt)
 
 [Outreach: see](#user-content-fn-2)[^2] [action-build-founding-committee.md](../../../action-and-progress/action-build-founding-committee.md "mention")&#x20;
 
@@ -45,8 +46,6 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 [Jana Lasser, ](https://www.janalasser.at/)Postdoctoral researcher, Institute for Interactive Systems and Data Science at Graz University of Technology
 
 [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor @ Asterisk Mag, Writing and Research on Global Health, Development, and Nutrition
-
-[Anirudh Tagat](https://www.anirudhtagat.com/),  Research Author at the Department of Economics at [Monk Prayogshala](http://www.google.com/url?q=http%3A%2F%2Fwww.monkprayogshala.in\&sa=D\&sntz=1\&usg=AOvVaw0Q2v2r2Rf\_7hISS6yEnqOt),
 
 
 
@@ -124,6 +123,6 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 
 
-[^1]: Previously listed as "Founding Committee"
+[^1]: Previously listed as "Founding Committee", occasionally referred to as "Management Team" or "Founding Team". Referred to as "Managers" in the flowchart.
 
 [^2]: _We may be adding more members as we progress._
