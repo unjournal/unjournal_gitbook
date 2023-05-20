@@ -2,7 +2,7 @@
 
 ### _See also:_ [governance-of-the-unjournal.md](../../../management-tech-details-discussion/governance-of-the-unjournal.md "mention") &#x20;
 
-The unjournal was founded by  [David Reinstein](https://davidreinstein.org), <img src="../../../.gitbook/assets/image.png" alt="" data-size="line"> who maintains this wiki/Gitbook and other resources.
+The Unjournal was founded by  [David Reinstein](https://davidreinstein.org), <img src="../../../.gitbook/assets/image.png" alt="" data-size="line"> who maintains this wiki/Gitbook and other resources.
 
 
 
