@@ -74,7 +74,7 @@ class EmailClient:
         self.newsletter_campaign_id = response["id"]  # type: ignore
         return response
 
-    def send_email(self) -> str:
+    def send_email(self) -> dict | list:
         assert self.newsletter_campaign_id, "You must create an email first"
 
         response = self.__client.send_campaign(self.newsletter_campaign_id)

@@ -1,4 +1,5 @@
 import os
+import json
 from mailchimp_marketing import Client
 from mailchimp_marketing.api_client import ApiClientError
 
@@ -20,7 +21,9 @@ class Mailchimp:
         response = self.__client.ping.get()
         return response
 
-    def create_campaign(self, type: str, recipients: dict, settings: dict) -> str:
+    def create_campaign(
+        self, type: str, recipients: dict, settings: dict
+    ) -> dict | list:
         try:
             return self.__client.campaigns.create(
                 {
@@ -30,9 +33,9 @@ class Mailchimp:
                 }
             )
         except ApiClientError as error:
-            return f"Error: {error.text}"
+            return json.loads(error.text)
 
-    def set_campaign_content(self, campaign_id: str, plain_text: str) -> str:
+    def set_campaign_content(self, campaign_id: str, plain_text: str) -> dict | list:
         try:
             return self.__client.campaigns.set_content(
                 campaign_id,
@@ -41,10 +44,10 @@ class Mailchimp:
                 },
             )
         except ApiClientError as error:
-            return f"Error: {error.text}"
+            return json.loads(error.text)
 
-    def send_campaign(self, campaign_id: str) -> str:
+    def send_campaign(self, campaign_id: str) -> dict | list:
         try:
             return self.__client.campaigns.send(campaign_id)
         except ApiClientError as error:
-            return f"Error: {error.text}"
+            return json.loads(error.text)
