@@ -70,6 +70,7 @@ class EmailClient:
         response = self.__client.create_campaign(
             self.newsletter_type, self.newsletter_recipients, self.newsletter_settings  # type: ignore  # noqa: E501
         )
+        print(f"DEBUG: {response}")
         self.newsletter_campaign_id = response["id"]  # type: ignore
         return response
 
