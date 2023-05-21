@@ -38,4 +38,9 @@ jobs:
         run: poetry install --no-interaction
 
       - name: Send Emails
+        env:
+          MAILCHIMP_API_SERVER: ${{ secrets.MAILCHIMP_API_SERVER }}
+          MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIPMP_SEGMENT_LIST: ${{ secrets.MAILCHIPMP_SEGMENT_LIST }}
+          MAILCHIMP_SEGMENT_ID: ${{ secrets.MAILCHIMP_SEGMENT_ID }}
         run: poetry run python main.py
