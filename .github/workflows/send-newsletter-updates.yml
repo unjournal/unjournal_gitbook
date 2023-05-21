@@ -1,0 +1,18 @@
+name: Send Newsletter Updates
+
+
+on:
+  push:
+    branches:
+      - newsletter
+
+jobs:
+  send-newsletter-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+      - name: List files
+        run: ls | cat
+      - name: Print commit message
+        run: echo ${{ github.event.head_commit.message }}
