@@ -46,7 +46,7 @@ jobs:
       - name: display diff
         run: |
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          cat <<$EOF > UPDATES.md
+          cat <<\$EOF > UPDATES.md
           ${{ steps.git-full-diff.outputs.diff }}
           $EOF
         shell: bash
