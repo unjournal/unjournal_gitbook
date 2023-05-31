@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up python
         uses: actions/setup-python@v4
@@ -36,6 +38,18 @@ jobs:
       - name: Install dependencies
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
         run: poetry install --no-interaction
+
+      - name: Get email contents
+        id: git-full-diff
+        uses: fernandosmither/git-full-diff@v1.0.2
+
+      - name: display diff
+        run: |
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          cat <<$EOF > UPDATES.md
+          ${{ steps.git-full-diff.outputs.diff }}
+          $EOF
+        shell: bash
 
       - name: Send Emails
         env:
