@@ -7,6 +7,7 @@ from mailchimp_marketing.api_client import ApiClientError
 class Mailchimp:
     API_KEY = os.getenv("MAILCHIMP_API_KEY")
     API_SERVER = os.getenv("MAILCHIMP_API_SERVER")
+    TEMPLATE_ID = int(os.getenv("NEWSLETTER_TEMPLATE_ID"))
 
     def __init__(self) -> None:
         self.__client = Client()
@@ -30,18 +31,27 @@ class Mailchimp:
                     "type": type,
                     "recipients": recipients,
                     "settings": settings,
+                    "content_type": "multichannel",
+                    "tracking": {
+                        "opens": True
+                    }
                 }
             )
         except ApiClientError as error:
             return json.loads(error.text)
 
-    def set_campaign_content(self, campaign_id: str, plain_text: str) -> dict | list:
+    def set_campaign_content(self, campaign_id: str, content: str) -> dict | list:
         try:
             return self.__client.campaigns.set_content(
                 campaign_id,
                 {
-                    "plain_text": plain_text,
-                },
+                    "template": {
+                        "id": self.TEMPLATE_ID,
+                        "sections": {
+                            "updates": content
+                        }
+                    }
+                }
             )
         except ApiClientError as error:
             return json.loads(error.text)
