@@ -6,7 +6,7 @@ email_client = EmailClient()
 
 
 if __name__ == "__main__":
-    email_client.set_newsletter_type("plaintext")
+    email_client.set_newsletter_type("regular")
     email_client.set_newsletter_recipients()
     email_client.set_newsletter_settings(
         title="Test email title",

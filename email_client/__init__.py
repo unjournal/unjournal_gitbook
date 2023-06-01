@@ -57,10 +57,10 @@ class EmailClient:
             "auto_footer": auto_footer,
         }
 
-    def set_newsletter_content(self, plain_text: str) -> None:
+    def set_newsletter_content(self, content: str) -> None:
         assert self.newsletter_campaign_id, "You must create an email first"
 
-        self.__client.set_campaign_content(self.newsletter_campaign_id, plain_text)
+        self.__client.set_campaign_content(self.newsletter_campaign_id, content)
 
     def create_email(self) -> dict | list:
         assert self.newsletter_type, "You must set a newsletter type first"
