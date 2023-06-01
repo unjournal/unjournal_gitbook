@@ -4,7 +4,7 @@ name: Send Newsletter Updates
 on:
   push:
     branches:
-      - newsletter
+      - main
 
 jobs:
   send-newsletter-updates:
@@ -57,4 +57,5 @@ jobs:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
           MAILCHIMP_SEGMENT_LIST: ${{ secrets.MAILCHIMP_SEGMENT_LIST }}
           MAILCHIMP_SEGMENT_ID: ${{ secrets.MAILCHIMP_SEGMENT_ID }}
+          NEWSLETTER_TEMPLATE_ID: ${{ secrets.NEWSLETTER_TEMPLATE_ID }}
         run: poetry run python main.py
