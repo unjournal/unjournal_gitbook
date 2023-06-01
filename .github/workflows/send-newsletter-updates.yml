@@ -1,0 +1,61 @@
+name: Send Newsletter Updates
+
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send-newsletter-updates:
+    runs-on: ubuntu-latest
+    if: ${{ contains(github.event.head_commit.message, '#PushNewsletter') }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          installer-parallel: true
+
+      - name: Load cached venv
+        id: cached-poetry-dependencies
+        uses: actions/cache@v3
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+
+      - name: Install dependencies
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction
+
+      - name: Get email contents
+        id: git-full-diff
+        uses: fernandosmither/git-full-diff@v1.0.2
+
+      - name: display diff
+        run: |
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          cat <<\$EOF > UPDATES.md
+          ${{ steps.git-full-diff.outputs.diff }}
+          $EOF
+        shell: bash
+
+      - name: Send Emails
+        env:
+          MAILCHIMP_API_SERVER: ${{ secrets.MAILCHIMP_API_SERVER }}
+          MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIMP_SEGMENT_LIST: ${{ secrets.MAILCHIMP_SEGMENT_LIST }}
+          MAILCHIMP_SEGMENT_ID: ${{ secrets.MAILCHIMP_SEGMENT_ID }}
+          NEWSLETTER_TEMPLATE_ID: ${{ secrets.NEWSLETTER_TEMPLATE_ID }}
+        run: poetry run python main.py

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "unjournals_newsletter"
+version = "0.1.0"
+description = "Newsletter scripts for the Unjournal"
+authors = ["Fernando Smith <66154723+fernandosmither@users.noreply.github.com>"]
+license = "The Unlicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mailchimp-marketing = "^3.0.80"
+markdown = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
