@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 mailchimp-marketing = "^3.0.80"
+markdown = "^3.4.3"
 
 
 [build-system]
