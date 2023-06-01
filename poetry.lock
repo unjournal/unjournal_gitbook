@@ -38,6 +38,17 @@ six = ">=1.10"
 urllib3 = ">=1.23"
 
 [[package]]
+name = "markdown"
+version = "3.4.3"
+description = "Python implementation of John Gruber's Markdown."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+testing = ["coverage", "pyyaml"]
+
+[[package]]
 name = "python-dateutil"
 version = "2.8.2"
 description = "Extensions to the standard Python datetime module"
@@ -91,7 +102,7 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "46db366a836ebef0c422caca0819d47db7670e3b7f9c3d495a9a0edad6f4d613"
+content-hash = "3cd48b8cc8728034daec9f51b7d44311551836b7bcd9a450bb82856c0b5db686"
 
 [metadata.files]
 certifi = [
@@ -181,6 +192,10 @@ idna = [
 ]
 mailchimp-marketing = [
     {file = "mailchimp_marketing-3.0.80-py3-none-any.whl", hash = "sha256:a5bcb3ebd3be60908c65af765f8195724e6fd2d61ecf6da667a794c5bc7b84d3"},
+]
+markdown = [
+    {file = "Markdown-3.4.3-py3-none-any.whl", hash = "sha256:065fd4df22da73a625f14890dd77eb8040edcbd68794bcd35943be14490608b2"},
+    {file = "Markdown-3.4.3.tar.gz", hash = "sha256:8bf101198e004dc93e84a12a7395e31aac6a9c9942848ae1d99b9d72cf9b3520"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
