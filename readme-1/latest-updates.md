@@ -16,9 +16,9 @@ We are putting updates on The Unjournal's progress (and calls to action). We aim
 
 \{% @mailchimp/mailchimpSubscribe %\}
 
-## Test
+## Mailing Test
 
-Lorem Ipsum
+Lorem Ipsum Dolor sit Amet
 
 ## Update on recent progress: 6 May 2023
 
