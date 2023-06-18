@@ -14,11 +14,9 @@ We are putting updates on The Unjournal's progress (and calls to action). We aim
 
 **'MailChimp; link:** We will soon have a 'MailChimp' signup list, which will share our progress roughly 1x per 2 weeks . S[ign up link (needs fixing).](#user-content-fn-1)[^1]
 
-\{% @mailchimp/mailchimpSubscribe %\}
+{% @mailchimp/mailchimpSubscribe cta="Sign up to our mailing list to receive updates!" %}
 
-## Mailing Test
 
-Lorem Ipsum Dolor sit Amet
 
 ## Update on recent progress: 6 May 2023
 
