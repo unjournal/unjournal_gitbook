@@ -2,43 +2,44 @@
 
 See also [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention")
 
-```mermaid
+```mermaid  fullWidth="true"
 flowchart TD
 classDef Direct fill:#faefaf
 classDef Multi fill:#bdf2c9
 classDef Integrate fill:#99bdf0
 classDef Systemic fill:#f0b6c4
 
-A0[UJ tools, incentives, platforms, emphasis]:::Multi --enable-->  A[More efficient rsch. feedback/eval.]:::Multi 
-A0 --we will --- FocusEA[Focus on impactful rsch.]:::Direct --> EAR
-A --> EAR[+ evaluation of EA-aligned rsch.]:::Direct 
-EAR --> EARig[+ Rigor of EA-aligned rsch.]:::Direct 
-EARig --> A1[Impactful research improved]:::Multi 
+A0["UJ tools, incentives, <br/> platforms, emphasis"]:::Multi --enable-->  A["More efficient <br/> rsch. feedback/eval."]:::Multi 
+A0 --"we will"--- FocusEA["Focus on impactful <br/> rsch."]:::Direct --> EAR
+A --> EAR["+ evaluation of <br/> EA-aligned rsch."]:::Direct 
+EAR --> EARig["+ Rigor of EA-aligned <br/> rsch."]:::Direct 
+EARig --> A1["Impactful research <br/> improved"]:::Multi 
 
-EAR[+ Eval. of EA-aligned research]:::Direct --- OF[+ 'Open science']:::Direct --> EARO[More replicable, reliable]:::Direct --> A1
-A0 --> PayAcad[Academics paid to eval. impactful rsch.]:::Integrate --> AcadAware[+ Awareness/interest in impactful rsch.]:::Integrate --> D1[+ Acad. focus on global priorities]:::Integrate 
-PayAcad:::Integrate  --> A1[Impactful rsch. improved]:::Multi 
-EARig --Stronger work--> AcadAware
+EAR["+ Eval. of EA-aligned <br/> research"]:::Direct --- OF["+ 'Open science'"]:::Direct --> EARO["More replicable, <br/> reliable"]:::Direct --> A1
+A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["+ Acad. focus <br/> on global priorities"]:::Integrate 
+PayAcad:::Integrate  --> A1["Impactful rsch. <br/> improved"]:::Multi 
+EARig --"Stronger work"--> AcadAware
 
-A  --> D[UJ Attractive to researchers]
+A  --> D["UJ Attractive <br/> to researchers"]
 A --> A1:::Multi 
-A --> A2[Decisionmakers better informed]
-A0 --Building--> B[Reliable predictors of rsch. 'success']:::Systemic --> B2[UJ-style Eval. replaces Trad. journals]:::Systemic 
-B[Reliable predictors of rsch. 'success'] --> A2
+A --> A2["Decisionmakers better <br/> informed"]
+A0 --"Building"--> B["Reliable predictors of <br/> rsch. 'success'"]:::Systemic --> B2["UJ-style Eval. replaces <br/> Trad. journals"]:::Systemic 
+B["Reliable predictors of <br/> rsch. 'success'"] --> A2
 
-D[UJ Attractive to researchers]:::Systemic --> B2
-B1[UJ attractive to gatekeepers]:::Systemic --> D[UJ Attractive to researchers]
+D["UJ Attractive <br/> to researchers"]:::Systemic --> B2
+B1["UJ attractive <br/> to gatekeepers"]:::Systemic --> D["UJ Attractive <br/> to researchers"]
 D --> D1 --> A1:::Multi 
-B[Reliable predictors of rsch. 'success'] --> B1[UJ attractive to gatekeepers] --> B2 
-B2[UJ Eval. replaces Trad. journals] --> B3[Rsch. eval. more efficient]:::Systemic 
-B3 --> RSXreliable[Acad. rsch. more useful/reliable]:::Systemic
-RSXreliable --Some of which is impactful--> A1 
-B2 --> B4[Open access]:::Systemic 
-B4 --> A2[Decisionmakers better informed]
+B["Reliable predictors of <br/> rsch. 'success'"] --> B1["UJ attractive <br/> to gatekeepers"] --> B2 
+B2["UJ Eval. replaces <br/> Trad. journals"] --> B3["Rsch. eval. more efficient"]:::Systemic 
+B3 --> RSXreliable["Acad. rsch. more useful/ <br/> reliable"]:::Systemic
+RSXreliable --"Some of which is impactful"--> A1 
+B2 --> B4["Open access"]:::Systemic 
+B4 --> A2["Decisionmakers better <br/> informed"]
 A1:::Multi  --> A2:::Direct
-A0 --Incentivize and value--> B6[Readable formats]:::Systemic --> A2:::Multi --> E1[Better assessment of priorities, policy choices]:::Multi --> O[+ Survival & flourishing]:::Multi 
-B6[Replicable, transparent, readable rsch.]:::Systemic --> RSXreliable
+A0 --"Incentivize and value"--> B6["Readable formats"]:::Systemic --> A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Multi --> O["+ Survival & flourishing"]:::Multi 
+B6["Replicable, transparent, <br/> readable rsch."]:::Systemic --> RSXreliable
 B2-...-B6
+
 ```
 
 
@@ -55,15 +56,11 @@ Highlighting some of the key paths:
 
 
 
-
-
-
-
 ## Detailed explanations of key paths
 
 ### _Rapid, informative, transparent feedback and evaluation to inform policymakers and researchers_
 
-Rigorous quantitative and empirical research in economics, business, public policy, and social science has the potential to improve our decision-making and enable a flourishing future. This can be seen in the research frameworks proposed by 80,000 hours, Open Philanthropy, and The Global Priorities Institute (see [what-is-ea-gp-relevant-research.md](../the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md "mention")). This research is routinely used by effective altruists working on global priorities or existential risk mitigation. It informs both philanthropic decisions (e.g., those influenced by [GiveWell's Cost-Effectiveness Analyses](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models), whose inputs are largely based on academic research) and [national public policy](https://academic.oup.com/ser/article/12/4/779/1653602)\
+Rigorous quantitative and empirical research in economics, business, public policy, and social science has the potential to improve our decision-making and enable a flourishing future. This can be seen in the research frameworks proposed by 80,000 hours, Open Philanthropy, and The Global Priorities Institute (see [Broken link](broken-reference "mention")). This research is routinely used by effective altruists working on global priorities or existential risk mitigation. It informs both philanthropic decisions (e.g., those influenced by [GiveWell's Cost-Effectiveness Analyses](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models), whose inputs are largely based on academic research) and [national public policy](https://academic.oup.com/ser/article/12/4/779/1653602)\
 \
 However, the academic publication process is notoriously slow; for example, in economics it [routinely takes 2-6 years](https://www.nber.org/papers/w29147) between the first presentation of a research paper and the eventual publication in a peer-reviewed journal. Recent reforms have sped up parts of the process  by encouraging researchers to put working papers/preprints online. &#x20;
 
@@ -78,8 +75,6 @@ We also believe that publicly evaluating its quality before (and in addition to)
 2. Faster feedback to authors, focused on improving the rigor and impact of the work.&#x20;
 
 Various initiatives in the life sciences are already begun reviewing preprints. While economics took the lead in sharing working papers, public evaluation of economics, business,  and social science research is rare. The Unjournal is the first initiative to publicly evaluate rapidly-disseminated work from these fields. Our specific priority: research relevant to global priorities
-
-
 
 <details>
 
@@ -104,8 +99,6 @@ This will help us achieve our focal,  most tangible ‘theory of change’ pathw
 ### Faster, better feedback, attractiveness to researchers and gatekeepers, improved research formats, better and more useful research
 
 The Unjournal’s open feedback should also be valuable to the researchers themselves and their research community, catalyzing progress. As the Unjournal Evaluation becomes a valuable outcome in itself, researchers can spend less time ‘gaming the journal system’. Shared public evaluation will provide an important window to other researchers, helping them better understand the relevant cutting-edge concerns. The Unjournal will permit research to be submitted in a wider variety of useful formats (e.g., dynamic documents and notebooks rather than ‘frozen pdfs’), enabling more useful, replicable content and less time spent formatting papers for particular journals. We will also allow researchers to improve their work ‘in situ’ and gain updated evaluations, rather than having to spin-off new papers. This will make the literature more clear and less cluttered.
-
-
 
 <details>
 
