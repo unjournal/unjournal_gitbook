@@ -4,9 +4,9 @@
 
 Ultimately, we're trying to replace ‘ what tier of journal did a paper get into?' with 'how highly was the paper rated’? I think this is a more valuable metric, more fine-grained, and less prone to gaming and to the randomness of things like “availability of journal space in a particular field”. See our discussion of [costs-of-playing-the-publication-game.md](../../../benefits-and-features/costs-of-playing-the-publication-game.md "mention").
 
-To get to this point, we need to have academia and stakeholders see our reviews as meaningful.  We want them to begin to have some value that is measurable in the way “publication in the AER”  is seen to have value. My impression is that previous and ongoing efforts towards journal-independent evaluation tend not to have comparable metrics. Typically, they either had simple ‘tick-boxes’ (like ‘this paper used correct statistical methods: yes/no’)  or enabled descriptive evaluation without an overall rating.\
+To get to this point, we need to have academia and stakeholders see our reviews as meaningful. We want them to begin to have some value that is measurable in the way “publication in the AER” is seen to have value. My impression is that previous and ongoing efforts towards journal-independent evaluation tend not to have comparable metrics. Typically, they either had simple ‘tick-boxes’ (like ‘this paper used correct statistical methods: yes/no’) or enabled descriptive evaluation without an overall rating.\
 \
-As we are not a journal, and we don’t accept/reject,  we need another way of assigning value. We are trying to determine the best way of doing this through numerical ratings. We hope to be able to benchmark to ‘traditional publication outcomes’.  Thus, we thought it was important to ask for both an overall quality rating and a journal ‘prediction’.
+As we are not a journal, and we don’t accept/reject, we need another way of assigning value. We are trying to determine the best way of doing this through numerical ratings. We hope to be able to benchmark to ‘traditional publication outcomes’. Thus, we thought it was important to ask for both an overall quality rating and a journal ‘prediction’.
 
 ## Why these categories?
 
@@ -18,15 +18,9 @@ _We are also researching other frameworks, templates, and past practice; we hope
 
 ## Why ask for confidence intervals?
 
-This is not at the core of our evaluation (thus we make it optional). However, I believe is a good practice in eliciting expert judgment.  We want to know not only what you believe, but how strongly you feel about this.  If you are less certain in one area, we should weigh the information you provide less heavily in updating our beliefs.  This may also be particularly useful for practitioners.\
+This is not at the core of our evaluation (thus we make it optional). However, I believe is a good practice in eliciting expert judgment. We want to know not only what you believe, but how strongly you feel about this. If you are less certain in one area, we should weigh the information you provide less heavily in updating our beliefs. This may also be particularly useful for practitioners.\
 \
-Obviously, there are difficulties. Some people may often be ‘confidently wrong’. They  might state very narrow confidence intervals, when the truth (where measurable) routinely falls outside this.  People with greater discrimination may sometimes be underconfident.  One would want to consider and potentially correct for poor calibration (although it is not obvious how to do so if we have no ‘gold standard outcomes’ to judge reviewers as over/underconfident).\
+Obviously, there are difficulties. Some people may often be ‘confidently wrong’. They might state very narrow confidence intervals, when the truth (where measurable) routinely falls outside this. People with greater discrimination may sometimes be underconfident. One would want to consider and potentially correct for poor calibration (although it is not obvious how to do so if we have no ‘gold standard outcomes’ to judge reviewers as over/underconfident).\
 \
 As a side benefit, this may be interesting for research in and of itself, particularly if the Unjournal becomes big (see especially Phil Tetlock’s work). I also see it as a good exercise for academics (and everyone) to engage in; to try to be more precise in our stated confidence, and aim to be well-calibrated.
-
-
-
-
-
-###
 

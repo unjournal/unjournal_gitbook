@@ -10,7 +10,7 @@ See [latest-updates.md](../readme-1/latest-updates.md "mention")
 
 ### Gantt Chart of Next Steps
 
-_Needs updating_
+18 Jun 2023: This _needs updating_
 
 {% embed url="https://airtable.com/shrGbB6b45GcdL0YJ/tblDnwRNHnruI9Kqw" %}
 

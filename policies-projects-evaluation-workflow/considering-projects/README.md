@@ -17,7 +17,7 @@ _2 Nov 2022 update_ – We are opening a **second track.** We plan to follow a d
 
 We will choose the most relevant papers in this prestigious series (in certain categories, and with certain restrictions). We will _inform_ these papers' authors when we have decided to commission these for evaluation. We will give the authors the opportunity to respond and engage, including (as usual) the opportunity to ask for a temporary embargo for sensitive career issues, and the opportunity to respond to the evaluation before it is published. \
 \
-We discuss this further below, explaining the reasoning behind it. (See [direct-evaluation-track.md](direct-evaluation-track.md "mention"))
+We discuss this further below, explaining the reasoning behind it. (See [Broken link](broken-reference "mention"))
 {% endhint %}
 
 
@@ -28,7 +28,7 @@ _In deciding which papers/projects to send out to paid reviewers/evaluators, we 
 
 ### Summary, why is it relevant and worth engaging with?
 
-**Consider**: Global priority importance ([what-is-ea-gp-relevant-research.md](../../the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md "mention")), field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly. See our [guidelines-for-evaluators](../evaluation/guidelines-for-evaluators/ "mention") for more discussion.
+**Consider**: Global priority importance ([Broken link](broken-reference "mention")), field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly. See our [Broken link](broken-reference "mention") for more discussion.
 
 ### **Why does it need (more) review? What are some key issues/claims to vet?**
 
