@@ -1,4 +1,4 @@
-# Kotahi: submit/eval/mgmt
+# Kotahi: submit/eval/mgmt (may be phasing out?)
 
 _See:_
 

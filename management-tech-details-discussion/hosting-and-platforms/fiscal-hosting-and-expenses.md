@@ -4,7 +4,7 @@
 
 Fiscal host: [Open Collective Foundation](https://opencollective.com/foundation) ("OCF"), which is a collective within the [Open Collective](https://opencollective.com/) ("OC").
 
-Contact point (as of June 2023): Mike Strode
+Contact point (as of June 2023): Mike Strode (mike@opencollective.com)
 
 Our page is [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)​
 
@@ -18,7 +18,11 @@ Our page is [https://opencollective.com/the-unjournal](https://opencollective.co
 
 1\. Email contact@opencollective.foundation. Expect a reply within 3 business days
 
-2\. If it's urgent, ask on [OCF's slack channel if urgent](https://join.slack.com/share/enQtNTQwMTgyNDYyOTU3MS1jYTg4MWQ5YjkxZTNlZDUxZTA0MjdiY2Q2OTRmMzYzM2EzYjgwMmU0ZDg1YTM4OTQ1NDg0MDVmOWNkZTU0ZDVi?cdn\_fallback=1) #ocf Support issues/tickets record?: nothing users can view yet 4.Go to OCF _not to_ Open Collective for most things. (Maybe to OC only for questions on the overriding web page platform. Note that if you use the 'help' on the page it often takes you to OC.)
+2\. If it's urgent, ask on [OCF's slack channel if urgent](https://join.slack.com/share/enQtNTQwMTgyNDYyOTU3MS1jYTg4MWQ5YjkxZTNlZDUxZTA0MjdiY2Q2OTRmMzYzM2EzYjgwMmU0ZDg1YTM4OTQ1NDg0MDVmOWNkZTU0ZDVi?cdn\_fallback=1) #ocf&#x20;
+
+3. Go to OCF _not to_ Open Collective for most things. (Maybe go to OC only for questions on the overriding web page platform. Note that if you use the 'help' on the page it often takes you to OC.)
+
+_Note, for support issues/tickets or tickets there is no  recordusers can view yet_&#x20;
 
 
 
@@ -58,6 +62,7 @@ After you obtain your hash, or inform us of your pseudonym:
 4. In your profile settings be sure to add your "legal name". This is only visible to the unjournal admins and is not public. If not, you may be contacted separately by OCF asking you to do this.
 5. Afterwards, you can fill in all your information about how they would like to be paid and which account (details of filling in your payment information can be viewed below).
 6. We then approve the expense and they will be paid within 7 days of our approval.
+7.
 
 _Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**_
 
@@ -65,7 +70,7 @@ _Request payment from The Unjournal. Expenses will be processed once approved by
 
 * Claimants (evaluators etc.) must start an account (basically leave email and payment information) and submit an ['expense document' 'invoice'](https://opencollective.com/the-unjournal/expenses/new). See below for an example of the payment process.\
   \
-  ![](broken-reference)
+  ![](<../../.gitbook/assets/image (2).png>)
 * If making payments made by Wise/Bank Transfer, you will [need to submit bank/payment information](#user-content-fn-1)[^1]. The box below shows which information is required.
 
 <details>
@@ -99,11 +104,11 @@ Additional invoice information &#x20;
 
 </details>
 
-![](broken-reference)&#x20;
+![](<../../.gitbook/assets/image (1).png>)
 
 * Finally, under 'Description' (on the second page) please put "Evaluation of research material"\
   \
-  ![](broken-reference)
+  ![](<../../.gitbook/assets/image (6).png>)
 
 
 
