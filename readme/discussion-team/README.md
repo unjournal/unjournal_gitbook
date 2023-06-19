@@ -147,9 +147,9 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 See also [List of People consulted](broken-reference) (in ACX grant proposal)
 
-### [Broken link](broken-reference "mention")
+### [related-ea-gp-seminar-series.md](../../parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
 
-### [Broken link](broken-reference "mention")
+### [plan-of-action.md](../plan-of-action.md "mention")
 
 [^1]: Previously listed as "Founding Committee", occasionally referred to as "Management Team" or "Founding Team". Referred to as "Managers" in the flowchart.
 
