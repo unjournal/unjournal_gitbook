@@ -7,13 +7,11 @@ description: >-
 
 # UJ Team: resources, onboarding
 
-See also (and integrate)&#x20;
-
-* Jordan's ['Onboarding notes'](https://docs.google.com/document/d/1Pw-PRvri7xdqO8HWpfCPjRDAZZhgjOlxCFZoJ3wE5IU/edit)
+See also (and integrate): Jordan's ['Onboarding notes'](https://docs.google.com/document/d/1Pw-PRvri7xdqO8HWpfCPjRDAZZhgjOlxCFZoJ3wE5IU/edit)
 
 ## Management team and administrators
 
-The main platforms needed for the management team are outlined below with links provided.
+The main platforms for the management team are outlined below with links provided.
 
 ### Slack group and channels
 
@@ -23,7 +21,7 @@ _Please ask for group access, as well as access to private channels,_ especially
 
 ### Airtable
 
-_Please ask for an invitation._ Airtable is an interactive [online relational database](#user-content-fn-2)[^2]. Only our management team, and selected others [(with careful controls)](#user-content-fn-3)[^3] should have access to the Airtable.&#x20;
+_Please ask for an invitation._ Airtable is an interactive [online relational database](#user-content-fn-2)[^2]. Only our management team and selected others [(with careful controls)](#user-content-fn-3)[^3] should have access to the Airtable.&#x20;
 
 Each of the 'tables' in the Airtable is explained in the first ('readme') table...[^4]&#x20;
 
@@ -31,7 +29,7 @@ Each of the 'tables' in the Airtable is explained in the first ('readme') table.
 
 <summary>The Airtable is serving several functions at the moment, including:</summary>
 
-* Project management (see "broad\_goals" and "tasks")
+* Project management (see "broad\_goals" and "tasks" tables)
 
 <!---->
 
@@ -54,14 +52,14 @@ _Going forward, some of these functions may be replaced by other tools_
 </details>
 
 {% hint style="info" %}
-_**Read:**_ [**Unjournal Airtable Guide**](https://docs.google.com/document/d/1GdQsfXUjtAsKiYkJ8Z59MZf-ri8\_1ytEU1Tdi8uWaV8/edit) (Google Doc: internal access only) for concise understanding of what you need to know and use most. Feel free to ask sidebar questions.
+_**Read:**_ [**Unjournal Airtable Guide**](https://docs.google.com/document/d/1GdQsfXUjtAsKiYkJ8Z59MZf-ri8\_1ytEU1Tdi8uWaV8/edit) (Google Doc: internal access only) for a concise understanding of what you need to know and use most. Feel free to ask sidebar questions.
 
 _**Watch:**_ [**Unjournal Airtable Overview**](https://www.dropbox.com/s/1k9j2w82qshgp9m/unjournal\_airtable\_overview.mp4?dl=0) (Dropbox: internal access only)
 {% endhint %}
 
 ### Gitbook (edit access optional)
 
-See [Broken link](broken-reference "mention")
+See [tech-scoping.md](tech-scoping.md "mention")
 
 Management team: You don't _need_ to edit the Gitbook if you don't want to, but we're trying to use it as our main place to 'explain everything' to ourselves and others. We will try to link all content here. Note you can use 'search' and 'lens' to look for things.
 
@@ -91,9 +89,13 @@ The main platforms needed for the advisory board are outlined below with links p
 
 ### Slack group and channels
 
+Members of the advisory board can join our Slack (if they want). They can have access to private channels (subject to discretion[^5]) other than the ['management-policies' channel](#user-content-fn-6)[^6]
 
+### Airtable: with discretion
 
-### Airtable 'survey links' and key views
+Advisory board members can be given access to our Airtable, but subject to discretion[^7]. _Before adding an advisory board member to the Airtable,_ please move any content related to their own research, their evaluation work, their job application status, etc.
+
+Short of full Airtable access, AB members they may also be given specific access to 'survey links' and key views.
 
 
 
@@ -123,9 +125,9 @@ For details on our current PubPub process please see this [**google doc**](https
 
 This should be used for payments for evaluators. Please see the link below for how to do this.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+[fiscal-hosting-and-expenses.md](hosting-and-platforms/fiscal-hosting-and-expenses.md "mention")
+
+
 
 ## Research-linked contractors
 
@@ -139,10 +141,18 @@ This should be used for payments for evaluators. Please see the link below for h
 
 [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
 
-[^1]: Please don't consider Slack as a place to store and organize content. Longer, more structured content should go into Google Docs or similar (and if important, later be linked or incorporated into this Gitbook and the Airtable).
+[^1]: Please don't consider Slack as a place to store and organize content. Longer, more structured content should go into Google Docs or similar (and if important, later be linked or incorporated into this Gitbook and the Airtable).\
+    \
+    (However, we will be probably be getting a nonprofit discounted Slack pro soon, which would make it somewhat better.)
 
 [^2]: Get to know it's features, it's super-useful. E.g., 'views' provide different pictures of the same information. 'Link' field types connect different tables by their primary keys, allowing information and calculations to flow back and forth.
 
-[^3]: Nonetheless, we keep more sensitive in this AIrtable encrypted, or moved to a different table that only David Reinstein has access to.
+[^3]: Even considering this limited, we keep more sensitive in this AIrtable encrypted, or moved to a different table that only David Reinstein has access to. &#x20;
 
 [^4]: ... as well as by hovering over the '(i)' symbol for each tab. Many of the columns in each tab also have descriptions.
+
+[^5]: Use discretion:  advisory board members might be authors,  evaluators, job candidates, or parts of external organizations we may partner with
+
+[^6]: That includes our management team (and key administrators) only.&#x20;
+
+[^7]: Use discretion: advisory board members might be authors,  evaluators, job candidates, or parts of external organizations we may partner with
