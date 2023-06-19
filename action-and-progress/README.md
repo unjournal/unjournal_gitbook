@@ -2,9 +2,15 @@
 
 See also [plan-of-action.md](../readme/plan-of-action.md "mention")
 
+See [latest-updates.md](../readme-1/latest-updates.md "mention")
+
+
+
 
 
 ### Gantt Chart of Next Steps
+
+_Needs updating_
 
 {% embed url="https://airtable.com/shrGbB6b45GcdL0YJ/tblDnwRNHnruI9Kqw" %}
 
@@ -14,7 +20,6 @@ See also [plan-of-action.md](../readme/plan-of-action.md "mention")
 * Initial evaluations, feedback on the process
 * Revise process, further set of evaluations
 * Disseminate and communicate (research, evaluations, processes), get further public feedback
-* Further funding, prepare for scaling-up\
-
+* Further funding, prepare for scaling-up\\
 
 Management: updates and CTA in gdoc shared in emails
