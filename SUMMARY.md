@@ -72,6 +72,7 @@
   * [Other non-journal evaluation](parallel-partner-initiatives-and-resources/other-non-journal-evaluation.md)
   * [Economics survey (Charness et al)](parallel-partner-initiatives-and-resources/economics-survey-charness-et-al.md)
 * [Management/tech details, discussion](management-tech-details-discussion/README.md)
+  * [UJ Team: resources, onboarding](management-tech-details-discussion/uj-team-resources-onboarding.md)
   * [Evaluation Manager Process](management-tech-details-discussion/management-process/README.md)
     * [Choosing evaluators](management-tech-details-discussion/management-process/choosing-evaluators/README.md)
       * [Avoiding COI](management-tech-details-discussion/management-process/choosing-evaluators/avoiding-coi.md)
