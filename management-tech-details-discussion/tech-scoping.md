@@ -1,5 +1,15 @@
 # Tech scoping
 
+Updated see Gdoc on 'Editorial Management Tech needs [HERE](https://docs.google.com/document/d/1BXamZhkGj7SR2G3Ik6F9KXoRt-oG1Z6pIWWTIcKB6Jg/edit) and embedded at bottom (to do: integrate these discussions)
+
+
+
+{% hint style="info" %}
+We are eligible/may be eligible for _some_ nonprofit discounts through OCF. [See HERE](https://docs.opencollective.foundation/what-we-offer/nonprofit-discounts).
+{% endhint %}
+
+
+
 ## Core needs
 
 1. **Hosting 'qualitative' evaluation content:** A place to host the evaluations (as well as the authors’ responses and the editors' comments), allowing the public to read them in an attractive and convenient way (and perhaps respond to them).  Ideally this will also make the quantitative ratings and predictions prominent and connected to the evaluations. This system needs to allow evaluations of _any research that is publicly hosted and has a DOI._
@@ -12,6 +22,8 @@
 
     [Ideally also... ](#user-content-fn-2)[^2]&#x20;
 
+
+
 ### Some other desirable capabilities
 
 * Ways to enable evaluators and others to do collaborative annotation on pre-prints
@@ -22,7 +34,13 @@
 
 We have a partially-built system combining Sciety, Kotahi, and Hypothes.is. However, other tools and bespoke work will be needed to achieve some of the goals stated above.
 
-At the moment we are seriously considering, and piloting PubPub (our work in progress is [HERE](https://unjournal.pubpub.org/dash/impact). Internal discussion and planning of PubPub&#x20;
+2023 Update: We have moved mainly to PubPub, at least for hosting evaluation output (see [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/))&#x20;
+
+
+
+## Partial restatement and update, 2023
+
+{% embed url="https://docs.google.com/document/d/1BXamZhkGj7SR2G3Ik6F9KXoRt-oG1Z6pIWWTIcKB6Jg/edit" %}
 
 
 

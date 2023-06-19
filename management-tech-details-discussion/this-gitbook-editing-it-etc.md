@@ -6,8 +6,6 @@
 See my notes on [another gitbook here](https://effective-giving-marketing.gitbook.io/untitled/appendix/how-this-gitbook-works), on how to edit it etc
 {% endhint %}
 
-
-
 _Some quick points:_
 
 * Gitbook is mainly used for tech documentation; but it has some important strengths and it's pretty good for general use
@@ -15,9 +13,11 @@ _Some quick points:_
 * It synchronizes through Git/Github, and you can push and pull ... but you can also select 'edit' and 'merge' and use it fairly WYSIWYG
 * They have a good support team (try their chat/help button)
 
-
-
 ## Shortcut for switching between public/private versions of the same page
+
+{% hint style="info" %}
+18 Jun 2023 -- needs moving after moving Gitbook location
+{% endhint %}
 
 Switching between the public and private version of Gitbook (while maintaining the same relative page) is a pain.
 
@@ -27,7 +27,7 @@ Setting the following as a ‘bookmark’ seems to help (chrome: bookmarks manag
 
 Name: “Switch to Public Gitbook page” (or whatever)
 
-URL: set to:&#x20;
+URL: set to:
 
 {% code overflow="wrap" %}
 ```
@@ -35,19 +35,18 @@ javascript:(function() { var publicUrl = document.location.href.replace('app.git
 ```
 {% endcode %}
 
-
-
 **To go in the other direction (public to editable version of a page)**
 
 Setting the following as a ‘bookmark’ seems to help (chrome: bookmarks manager, edit any existing bookmark by right click --> edit)
 
 Name: “Switch to Editable Gitbook page” (or whatever)
 
-URL: set to:&#x20;
+URL: set to:
+
+
 
 {% code overflow="wrap" %}
 ```
 javascript:(function() { var editableUrl = document.location.href.replace('effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/', 'app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/'); window.open(editableUrl, '_blank'); })()
 ```
 {% endcode %}
-
