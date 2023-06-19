@@ -76,7 +76,7 @@ UJO --> UJPUB[Publicize, follow availability, <br/> bibliometrics.]
    * EM may make special requests to evaluator (e.g., 'signed/unsigned evaluation only', short deadlines, special focus, extra incentives, etc.)
 5. Evaluator accepts/declines invitation to review, agrees on deadline (or asks for extension)
    * If accepts, EM shares full guidelines/evaluation template and specific suggestions with evaluator
-6. Evaluator completes [an evaluation form](#user-content-fn-1)[^1]; we aim to embed this in a system, e.g., [kotahi-submit-eval-mgmt.md](../management-tech-details-discussion/hosting-and-platforms/kotahi-submit-eval-mgmt.md "mention")
+6. Evaluator completes [an evaluation form](#user-content-fn-1)[^1]; we aim to embed this in a system, e.g., [kotahi-submit-eval-mgmt.md](../management-tech-details-discussion/hosting-and-platforms-notes/kotahi-sciety-phasing-out/kotahi-submit-eval-mgmt.md "mention")
 7. Evaluator submits evaluation including numeric ratings and predictions, "CI's" for these
    * _Possible addition (future plan)_: Reviewer asks for 'minor revisions and corrections; see 'considering: allowing minor revisions' in fold below
 8. EM collates all evaluations/ratings, shares these with Author, notifies evaluators this was done
