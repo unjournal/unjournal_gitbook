@@ -30,7 +30,7 @@ _**As we often use Gdocs, see**_ [_**"Docs to md conversion"**_](https://docs.go
 
 ## Main public curated space: Sciety.org
 
-[sciety-host-and-curate-evals.md](hosting-and-platforms-notes/kotahi-sciety-phasing-out/sciety-host-and-curate-evals.md "mention")
+[sciety-host-and-curate-evals.md](kotahi-sciety-phasing-out/sciety-host-and-curate-evals.md "mention")
 
 _Group in preparation:_
 

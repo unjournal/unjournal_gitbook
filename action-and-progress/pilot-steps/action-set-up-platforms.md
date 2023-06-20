@@ -1,4 +1,4 @@
-# Setting up platforms
+# Pilot: Setting up platforms
 
 > Set up the basic platforms for posting and administering reviews and evaluations and offering curated links and categorizations of papers and projects.
 
@@ -14,13 +14,13 @@
 
 <!---->
 
-* See [mapping-evaluation-workflow.md](../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention") for how projects will enter, be evaluated, and 'output'
+* See [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention") for how projects will enter, be evaluated, and 'output'
 * We will outline specific [requests](https://docs.google.com/document/d/1BasFdbN0a8OVLwjB2\_F\_GpECgJpYI2iWRO8fZuU13Z0/edit#heading=h.dkt5cpu55te) for developers\\
 * Sciety group set up with 'Hypothes.is feed'; working on processing first evaluations\\
 
 </details>
 
-## Submission, evaluation and management platform [kotahi-submit-eval-mgmt.md](../management-tech-details-discussion/hosting-and-platforms-notes/kotahi-sciety-phasing-out/kotahi-submit-eval-mgmt.md "mention")
+## Submission, evaluation and management platform [kotahi-submit-eval-mgmt.md](../../tech-tools-and-resources/hosting-and-platforms-notes/kotahi-sciety-phasing-out/kotahi-submit-eval-mgmt.md "mention")
 
 7 Feb 2023
 
