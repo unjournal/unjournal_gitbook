@@ -59,7 +59,7 @@ _**Watch:**_ [**Unjournal Airtable Overview**](https://www.dropbox.com/s/1k9j2w8
 
 ### Gitbook (edit access optional)
 
-See [tech-scoping.md](tech-scoping.md "mention")
+See [tech-scoping.md](../tech-tools-and-resources/tech-scoping.md "mention")
 
 Management team: You don't _need_ to edit the Gitbook if you don't want to, but we're trying to use it as our main place to 'explain everything' to ourselves and others. We will try to link all content here. Note you can use 'search' and 'lens' to look for things.
 
@@ -125,7 +125,7 @@ For details on our current PubPub process please see this [**google doc**](https
 
 This should be used for payments for evaluators. Please see the link below for how to do this.
 
-[fiscal-hosting-and-expenses.md](hosting-and-platforms/fiscal-hosting-and-expenses.md "mention")
+[fiscal-hosting-and-expenses.md](fiscal-hosting-and-expenses.md "mention")
 
 
 

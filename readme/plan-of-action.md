@@ -38,7 +38,7 @@ See [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/a
 
 ### Setup and team
 
-:heavy\_check\_mark: [action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention")
+:heavy\_check\_mark: [action-build-founding-committee.md](../action-and-progress/pilot-steps/action-build-founding-committee.md "mention")
 
 :heavy\_check\_mark:/:hourglass\_flowing\_sand: **Define the broad scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
 

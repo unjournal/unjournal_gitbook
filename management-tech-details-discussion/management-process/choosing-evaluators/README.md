@@ -21,4 +21,4 @@ See [here](https://docs.google.com/document/d/1GdQsfXUjtAsKiYkJ8Z59MZf-ri8\_1ytE
 >
 > — 🐰 ResearchRabbit (@RsrchRabbit) [February 25, 2022](https://twitter.com/RsrchRabbit/status/1497005389799297026?ref\_src=twsrc%5Etfw)
 
-_**See also:**_ ["Automating reminder emails"](../../other-tech-and-tools/#automating-reminder-response-emails)
+_**See also:**_ ["Automating reminder emails"](../../../tech-tools-and-resources/other-tech-and-tools/#automating-reminder-response-emails)

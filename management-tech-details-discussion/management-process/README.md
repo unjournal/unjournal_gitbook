@@ -25,7 +25,7 @@ Once you have chosen possible evaluators, reach out to them. You could possibly 
 
 Normally, we also send a reminder email roughly two weeks after sending the initial email in case the email has been missed. You could use the "Referee informal followup/reminder" or "PS to referee request" text templates from the Airtable for this. To speed up the process and automate your reminders, you can use Boomerang, this is explained in this link here:
 
-[other-tech-and-tools](../other-tech-and-tools/ "mention")
+[other-tech-and-tools](../../tech-tools-and-resources/other-tech-and-tools/ "mention")
 
 18 Jun 2023: We are working on a Mailchimp process for this. Later, we are likely to integrate this into our editorial management system (at PubPub or elsewhere).
 
@@ -48,7 +48,7 @@ After the agreed time period has elapsed and they have not sent the evaluation, 
 1. Check through the evaluation and ensure that nothing is missing from the evaluation or if you have any questions for the evaluation.
 2. If you have no further questions or amendments, you can direct the evaluator to payment information:
 
-[fiscal-hosting-and-expenses.md](../hosting-and-platforms/fiscal-hosting-and-expenses.md "mention")
+[fiscal-hosting-and-expenses.md](../fiscal-hosting-and-expenses.md "mention")
 
 3. Wait to receive all the evaluations before proceeding to the next step.
 

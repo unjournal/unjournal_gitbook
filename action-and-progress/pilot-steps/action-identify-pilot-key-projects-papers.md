@@ -1,4 +1,4 @@
-# Identifying key research
+# Pilot: Identifying key research
 
 ([_Note for the management team_](#user-content-fn-1)[^1]_)_
 
@@ -7,7 +7,7 @@
 I_**dentify a small set of papers or projects as representative first-cases; to concretely help test the system we are building.**_
 
 {% hint style="info" %}
-_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
+_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc._
 {% endhint %}
 
 ## Steps taken
@@ -45,11 +45,11 @@ Not very relevant (because mainly operational)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research](../readme/call-for-participants-research/ "mention")
+6\. Cross-promoted with [call-for-participants-research](../../readme/call-for-participants-research/ "mention")
 
 ## Pivot: direct focus on NBER working papers
 
-[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+[direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
 
 1. _Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus I aim to identify a small set of papers (or projects), maybe 2-3, that seem like good test and example cases. Offer a ‘bounty’ for 'which projects do we choose as test cases'.
 
