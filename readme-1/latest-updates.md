@@ -1,7 +1,7 @@
 # Latest updates
 
 {% hint style="info" %}
-We are putting updates on The Unjournal's progress (and calls to action). We aim to integrate this with an email newsletter and social media.
+We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too!  Below, we summarize what the Unjournal has been up to most recently.
 {% endhint %}
 
 {% hint style="info" %}
@@ -12,15 +12,17 @@ We are putting updates on The Unjournal's progress (and calls to action). We aim
 * [action-and-progress](../action-and-progress/ "mention"): for an overview
 {% endhint %}
 
-**'MailChimp; link:** We will soon have a 'MailChimp' signup list, which will share our progress roughly 1x per 2 weeks . S[ign up link (needs fixing).](#user-content-fn-1)[^1]
+**MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](#user-content-fn-1)[^1]
 
-{% @mailchimp/mailchimpSubscribe cta="Sign up to our mailing list to receive updates!" %}
+{% @mailchimp/mailchimpSubscribe %}
+
+
 
 ## Update on recent progress: 1 June 2023
 
 _Update from David Reinstein, Founder and Co-Director_
 
-### A path to change&#x20;
+### A path to change
 
 With the [recent news](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/latest-updates#grant-funding-from-the-survival-and-flourishing-fund), we now have the opportunity to move forward and really make a difference. I think The Unjournal, along with related initiatives in other fields, should become the place policymakers, grant-makers, and researchers go to consider whether research is reliable and useful. It should be a serious option for researchers looking to get their work evaluated. But how can we start to have a real impact?
 
@@ -30,27 +32,24 @@ $$
 
 Over the next 18 months, we aim to:
 
-1. Build Awareness: (Relevant) people and organizations should know what the Unjournal is.&#x20;
+1. Build Awareness: (Relevant) people and organizations should know what the Unjournal is.
 2. Build Credibility: The Unjournal must consistently produce insightful, well-informed, and meaningful evaluations and perform effective curation and aggregation of these. The quality of our work should be substantiated and recognized.
 3. Expand our Scale and Scope: We aim to significantly grow while maintaining the highest standards of quality and credibility. Our loose target is to evaluate around 70 papers/projects over the next 18 months while also producing other valuable outputs and metrics.
 
-I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some 'wish list wins'. Please free to add your comments and questions. \
-
+I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some 'wish list wins'. Please free to add your comments and questions. \\
 
 ### The pipeline flows on
 
-While we wait for the new grant funding to come in, we are not sitting on our haunches. Our 'pilot phase' is nearing completion.  Two more sets of evaluations have been posted on our [Pubpub](https://unjournal.pubpub.org/).
+While we wait for the new grant funding to come in, we are not sitting on our haunches. Our 'pilot phase' is nearing completion. Two more sets of evaluations have been posted on our [Pubpub](https://unjournal.pubpub.org/).
 
 1. [“Banning wildlife trade can boost demand for unregulated threatened species”](https://unjournal.pubpub.org/pub/banning-wildlife-eval-summ/release/2)
 2. ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC”](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)
 
 With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide the recipients for the [Impactful Research Prize](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/call-for-participants-research/impactful-research-prize) and the prizes for evaluators, announce and award these, and organize online presentations/discussions (maybe linked to an 'award ceremony'?).
 
-
-
 ### Contracting, hiring, expansion
 
-No official announcements yet. However, we expect to be hiring (on a part-time contract basis) soon. This may include roles for:&#x20;
+No official announcements yet. However, we expect to be hiring (on a part-time contract basis) soon. This may include roles for:
 
 * Researchers/meta-scientists: to help find and characterize research to be evaluated, identify and communicate with expert evaluators, and synthesize our ‘evaluation output’
 * Communications specialists.
@@ -63,19 +62,19 @@ You can also/alternately register your interest in doing (paid) research evaluat
 
 We also plan to expand our [Management Team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/discussion-team/who-are-we-our-team#management-committee); please reach out if you are interested or can recommend suitable candidates.
 
-### Tech and initiatives&#x20;
+### Tech and initiatives
 
-We are committed to enhancing our platforms, and our evaluation and communication templates. We're also exploring strategies to nurture more beneficial evaluations and predictions, potentially in tandem with replication initiatives. \
+We are committed to enhancing our platforms, and our evaluation and communication templates. We're also exploring strategies to nurture more beneficial evaluations and predictions, potentially in tandem with replication initiatives.\
 \
-A small win: our Mailchimp signup should now be working, and this update should be automatically integrated.&#x20;
+A small win: our Mailchimp signup should now be working, and this update should be automatically integrated.
 
 ### Welcoming new team members
 
-We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/discussion-team/who-are-we-our-team#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our Management Committee! &#x20;
+We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/discussion-team/who-are-we-our-team#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our Management Committee!
 
-* Dworkin work centers on  "improving scientific research, funding, institutions, and incentive structures through experimentation". &#x20;
+* Dworkin work centers on "improving scientific research, funding, institutions, and incentive structures through experimentation".
 * Treich's current research agenda largely focuses on the intersection of animal welfare and economics.
-* Tagat investigates economic decision-making in the Indian context, measuring the social and economic impact of the internet and technology, and a range of other topics in applied economics and behavioral science. He is also [an active participant ](https://osf.io/g8z47/)in the  [COS SCORE project](https://www.cos.io/score). &#x20;
+* Tagat investigates economic decision-making in the Indian context, measuring the social and economic impact of the internet and technology, and a range of other topics in applied economics and behavioral science. He is also [an active participant ](https://osf.io/g8z47/)in the [COS SCORE project](https://www.cos.io/score).
 
 ## Update on recent progress: 6 May 2023
 
@@ -160,7 +159,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Management and administration, deadlines
 
-* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home) * We are postponing the deadline for judging the [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home) \* We are postponing the deadline for judging the [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.
 
 #### Other news and media
 
@@ -199,9 +198,6 @@ Recall, we pay at least $250 per evaluation, we typically pay more in net ($350)
 
 _Hope these updates are helpful. Let me know if you have suggestions._
 
-[^1]: Feel free to sign up below, and we will try to integrate you into any mailings we provide going forward, including updates on this 'updates' page. But this is still in the trial stage; we may need to adjust this.
+\[\[Open Collective Foundation and Unjournal]]
 
-
-
-
-[[Open Collective Foundation and Unjournal]]
+[^1]: Hopefully, these are more than static emails. We aim to integrate surveys and calls for feedback as well.&#x20;
