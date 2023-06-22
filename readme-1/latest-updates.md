@@ -99,8 +99,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Management and administration, deadlines
 
-* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home)
-* We are postponing the deadline for judging the [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home) * We are postponing the deadline for judging the [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.
 
 #### Other news and media
 
@@ -140,3 +139,8 @@ Recall, we pay at least $250 per evaluation, we typically pay more in net ($350)
 _Hope these updates are helpful. Let me know if you have suggestions._
 
 [^1]: Feel free to sign up below, and we will try to integrate you into any mailings we provide going forward, including updates on this 'updates' page. But this is still in the trial stage; we may need to adjust this.
+
+
+
+
+[[Open Collective Foundation and Unjournal]]
