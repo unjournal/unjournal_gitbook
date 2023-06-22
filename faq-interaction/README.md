@@ -36,17 +36,11 @@ At some point in the future we might consider sliding-scale fees for people subm
 
 ## Specific FAQs
 
-{% content-ref url="for-researchers-authors.md" %}
-[for-researchers-authors.md](for-researchers-authors.md)
-{% endcontent-ref %}
+[for-researchers-authors.md](for-researchers-authors.md "mention")
 
-{% content-ref url="global-priorities.md" %}
-[global-priorities.md](global-priorities.md)
-{% endcontent-ref %}
+[global-priorities.md](global-priorities.md "mention")
 
-{% content-ref url="referees-evaluators.md" %}
-[referees-evaluators.md](referees-evaluators.md)
-{% endcontent-ref %}
+[referees-evaluators.md](referees-evaluators.md "mention")
 
 [^1]: The only possible exception we can think of is that we require the evaluation  be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics and in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
 

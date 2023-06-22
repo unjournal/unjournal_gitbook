@@ -1,5 +1,16 @@
 # Policies/issues discussion
 
+{% hint style="info" %}
+_**This page** is mainly for The Unjournal management, advisory board and staff, but outside opinions are also valuable._
+{% endhint %}
+
+{% hint style="info" %}
+&#x20;**Unjournal team members:**&#x20;
+
+* Priority 'ballot issues' are given in our 'Survey form', linked to the Airtable (ask for link) &#x20;
+* Key discussion questions in the `broad_issue_stuff`view in`questions` table, linking discussion Google docs
+{% endhint %}
+
 ## Considering papers/projects
 
 ### Direct-evaluation track: when to proceed with papers that have "R\&R's" at a journal?
@@ -8,7 +19,7 @@
 
 ### 'Policy work' not (mainly) intended for academic audiences?
 
-We are considering a second stream to evaluate non-traditional, less formal work,  not written with academic standards in mind.  This could include the strongest work published on the EA Forum, as well as a range of further applied research from EA/GP/LT linked organizations such as GPI, Rethink Priorities, Open Philanthropy, FLI, HLI, Faunalytics, etc., as well as EA-adjacent organizations and relevant government white papers.  See comments [here](https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper?commentId=Frk764uiLLnkdgrwM); see also Pete Slattery’s proposal [here](https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper?commentId=Frk764uiLLnkdgrwM), which namechecks the Unjournal.
+We are considering a second stream to evaluate non-traditional, less formal work, not written with academic standards in mind.  This could include the strongest work published on the EA Forum, as well as a range of further applied research from EA/GP/LT linked organizations such as GPI, Rethink Priorities, Open Philanthropy, FLI, HLI, Faunalytics, etc., as well as EA-adjacent organizations and relevant government white papers.  See comments [here](https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper?commentId=Frk764uiLLnkdgrwM); see also Pete Slattery’s proposal [here](https://forum.effectivealtruism.org/posts/QdYKFRexDaPeQaQCA/unjournal-s-1st-eval-is-up-resilient-foods-paper?commentId=Frk764uiLLnkdgrwM), which namechecks the Unjournal.
 
 E.g., for [animal welfare...](#user-content-fn-1)[^1]
 
@@ -51,7 +62,7 @@ _We are also researching other frameworks, templates, and past practices; we hop
 
 
 
-### Discussion amongst evaluator, initial and revised judgments?
+### Discussion amongst evaluators, initial and revised judgments?
 
 See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06016-0), 2022
 
@@ -87,8 +98,6 @@ My memory is that when submitting a paper, I usually learn who the Senior Editor
 ## Presenting and hosting our output
 
 ### [Use of Hypothes.is and collaborative annotation ](https://docs.google.com/document/d/1P6DL4e6gx3SdEWuAi1\_D\_cHPEZW3SwSGC-xACCXo1kk/edit)
-
-
 
 
 
