@@ -8,7 +8,7 @@ _**This page** is mainly for The Unjournal management, advisory board and staff,
 &#x20;**Unjournal team members:**&#x20;
 
 * Priority 'ballot issues' are given in our 'Survey form', linked to the Airtable (ask for link) &#x20;
-* Key discussion questions in the `broad_issue_stuff`view in`questions` table
+* Key discussion questions in the `broad_issue_stuff`view in`questions` table, linking discussion Google docs
 {% endhint %}
 
 ## Considering papers/projects
@@ -62,17 +62,17 @@ _We are also researching other frameworks, templates, and past practices; we hop
 
 
 
-### Discussion amongst evaluator, initial and revised judgments?
+### Discussion amongst evaluators, initial and revised judgments?
 
 See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06016-0), 2022
 
-![](broken-reference)
+![](<../.gitbook/assets/image (1).png>)
 
 
 
 ### Revisions as part of process?
 
-[Broken link](broken-reference "mention")
+[#considering-for-future-enabling-minor-revisions](../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md#considering-for-future-enabling-minor-revisions "mention")
 
 
 
@@ -98,8 +98,6 @@ My memory is that when submitting a paper, I usually learn who the Senior Editor
 ## Presenting and hosting our output
 
 ### [Use of Hypothes.is and collaborative annotation ](https://docs.google.com/document/d/1P6DL4e6gx3SdEWuAi1\_D\_cHPEZW3SwSGC-xACCXo1kk/edit)
-
-
 
 
 

@@ -25,7 +25,7 @@ Switching between the public and private version sof Gitbook (while maintaining 
 
 Setting the following as a ‘bookmark’ seems to help (Chrome: bookmarks manager, edit any existing bookmark by right click --> edit)
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 
 
