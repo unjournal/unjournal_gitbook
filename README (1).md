@@ -98,11 +98,11 @@ _So why hasn't academia and research community been able to move to something ne
 * _Bringing in new interests, external funding, and incentives:_ There are a range of well-funded and powerful organizations – such as the Sloan Foundation and [Open Philanthropy](https://www.openphilanthropy.org/) – with a strong inherent interest in high-impact research being reliable, robust, and [reasoning transparent](https://www.openphilanthropy.org/research/reasoning-transparency/). This support can change the fundamental incentive structure.
 * _Less risky 'bridging steps'_: In particular, as noted above, The Unjournal allows researchers to _also_ submit their work to traditional journals. In fact, this will provide a _benchmark_ to help our quantitative ratings build and demonstrate their value.
 * _Communicating with researchers and stakeholders_ to make our processes easy, clear, and useful to them
-* _Making our output useful:_[ It may take years](#user-content-fn-2)[^2] for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems. The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.
+* _Making our output useful:_ It may take years for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems. The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.
 * _Technology is improving:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and makes 'formats other than frozen pdfs' more and more useful every day.
 * _Rewarding early adopters with prizes and recognition_: We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
 
-## [**This 'gitbook'**](#user-content-fn-3)[^3]
+## [**This 'gitbook'**](#user-content-fn-2)[^2]
 
 _Organizes ideas and resources, and tracks our progress towards The Unjournal's twin goals of:_
 
@@ -136,11 +136,10 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 1. Economics, social science, quantitative policy analysis, focusing on global priorities and impact)
 2. E.g., tools like Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents)
+3. Although we are working to encourage this and make it easy.
 
 [^1]: We will also consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
 
-[^2]: Although we are working to encourage this and make it easy.
-
-[^3]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
+[^2]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
     \
     _Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\\
