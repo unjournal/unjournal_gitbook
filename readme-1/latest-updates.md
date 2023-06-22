@@ -1,6 +1,6 @@
 # Latest updates
 
-We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too! Below, we summarize what the Unjournal has been up to most recently.
+We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too! Below, we summarize what the Unjournal has been up to.
 
 {% hint style="info" %}
 **Some (other) ways to follow The Unjournal's progress**
@@ -12,7 +12,7 @@ We want to keep the community informed of our progress and the steps we are cons
 
 **MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](#user-content-fn-1)[^1]
 
-\{% @mailchimp/mailchimpSubscribe %\}
+{% @mailchimp/mailchimpSubscribe %}
 
 ## Update on recent progress: 1 June 2023
 
@@ -248,7 +248,5 @@ Caption for that embedded Gdoc
 | John     | 89     | _text in italics_                   |
 | Paul     | 80     | blah                                |
 | George   | 83     | ... $$f(x) = x * e^{2 pi i \xi x}$$ |
-
-
 
 [^1]: Hopefully, these are more than static emails. We aim to integrate surveys and calls for feedback as well.
