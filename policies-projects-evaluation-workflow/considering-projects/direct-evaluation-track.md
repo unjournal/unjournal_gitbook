@@ -4,9 +4,15 @@ description: Proposal and discussion of this here
 
 # 'Direct evaluation' track
 
-{% hint style="info" %}
-2 Nov 2022 update: Our management team has decided to pilot the 'second track' specifically for [NBER working papers.](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)&#x20;
-{% endhint %}
+<details>
+
+<summary><em>June 2023 update</em></summary>
+
+We have piloted this 'second track' specifically for [NBER working papers.](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) The results seem to be successful. We have evaluated and published 3 sets of evaluations through this track, with 2 more coming soon. We have roughly 50 further NBER papers in our database that we are strongly considering for our post-pilot evaluation.
+
+We are considering expanding this beyond NBER  (management discussion [HERE](https://docs.google.com/document/d/1taZj5ceLck0JQ1xjJ6ay7iaqsiZEPuiS9qzGM2YuOdE/edit)).
+
+</details>
 
 ## Second track: Direct evaluation of prominent work
 
