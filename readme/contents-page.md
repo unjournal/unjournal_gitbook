@@ -1,4 +1,8 @@
-# Contents Page
+---
+description: A 'curated guide' to this gitbook; updated June 2023
+---
+
+# Contents overview page
 
 {% hint style="info" %}
 **You can now ask questions of this gitbook using a 'chatbot':** click the search bar and choose 'lens'.
@@ -6,7 +10,7 @@
 
 ## Key sections/subsections
 
-### _Learn more about The Unjournal, our goals and policies_&#x20;
+### _Learn more about The Unjournal, our goals and policies_
 
 [faq-interaction](../faq-interaction/ "mention")... for authors, evaluators, etc.
 
@@ -22,16 +26,16 @@
 
 [parallel-partner-initiatives-and-resources](../parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
 
-[the-field-and-ea-gp-research](../the-field-and-ea-gp-research/ "mention"): What research are we talking about, what will we cover
+[the-field-and-ea-gp-research](../the-field-and-ea-gp-research/ "mention"): What research are we talking about? What will we cover?
 
 
 
-### [Detail, progress, and internal planning ](#user-content-fn-1)[^1]
+### [Detail, progress, and internal planning](#user-content-fn-1)[^1]
 
 [plan-of-action.md](plan-of-action.md "mention"): A 'best feasible plan' for going forward
 
-_Specific "Action steps" taken, in progress, and under discussion:_ [action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention"), [action-overall-scoping.md](../management-tech-details-discussion/action-overall-scoping.md "mention")
+[grants-and-proposals](../grants-and-proposals/ "mention"): Successful (ACX, SFF), other applications, EA initiatives
 
-[grants-and-proposals](../grants-and-proposals/ "mention"): The successful ACX proposal, other applications, EA initiatives
+[uj-team-resources-onboarding.md](../management-tech-details-discussion/uj-team-resources-onboarding.md "mention"): The key resources and links for managers, advisory board members, staff, and others on our team and involved with the Unournal project
 
 [^1]: These will probably not be of interest to most readers. We are sharing these in the spirit of transparency.

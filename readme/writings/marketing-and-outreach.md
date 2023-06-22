@@ -28,7 +28,7 @@ We will be organizing and funding:
 
 _**Target:** Academics, not necessarily EA aligned. But I don’t think this is deceptive because the funders should give a tipoff to anyone who digs, and ultimately the Unjournal might also go beyond EA-relevant stuff._
 
-_**Tone:** Factual, positive_&#x20;
+_**Tone:** Factual, positive_
 
 </details>
 
@@ -75,8 +75,6 @@ Or maybe we do have some escape bridges. We can try to "Unjournal". Projects get
 No trees get chopped down to print the latest "Journal of Fancy Manuscripts."\
 \
 We are starting small, but it only takes one domino.
-
-
 
 </details>
 
@@ -152,17 +150,13 @@ You are a researcher at an organization trying to find the most effective ways t
 \
 Maybe the Unjournal can help.
 
-**Target:** Researchers and research-related ops people at EA and EA-adjacent orgs. Perhaps OP in particular.&#x20;
+**Target:** Researchers and research-related ops people at EA and EA-adjacent orgs. Perhaps OP in particular.
 
 **Tone:** Casual but straightforward
 
 </details>
 
-
-
 ## How and where to promote and share
-
-
 
 <details>
 
@@ -187,24 +181,24 @@ The Unjournal is in large part about shifting the equilibrium in academia/resear
 
 <details>
 
-<summary>Social media/forums, etc (see Airtable 'media_roll') </summary>
+<summary>Social media/forums, etc (see Airtable 'media_roll')</summary>
 
-### Social media
+#### Social media
 
 1. Twitter: Academia (esp. Econ, Psych, Global Health), Open science, EA
 2. Facebook
 
-### EA Forum post (and maybe AMA?)
+#### EA Forum post (and maybe AMA?)
 
-### EA orgs
+#### EA orgs
 
-### Open science orgs (OSF, BITSS, ...)
+#### Open science orgs (OSF, BITSS, ...)
 
-### Academic Economics (& other fields) boards/conferences/groups?
+#### Academic Economics (& other fields) boards/conferences/groups?
 
-### Universities/groupings of universities
+#### Universities/groupings of universities
 
-### Slack groups
+#### Slack groups
 
 * Global EA
 * EA Psychology

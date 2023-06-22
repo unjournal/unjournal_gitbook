@@ -9,6 +9,14 @@ What is this Unjournal?... See:\
 [#in-a-nutshell](<../README (1).md#in-a-nutshell> "mention")
 {% endhint %}
 
+## Post-pilot goals&#x20;
+
+See the vision and broad plan presented [here](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit), (and embedded below:)
+
+{% embed url="https://docs.google.com/document/d/1C5CE8X_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit" %}
+
+## Pilot targets
+
 <details>
 
 <summary>What we need our pilot (~12 months) to demonstrate</summary>
@@ -18,13 +26,11 @@ What is this Unjournal?... See:\
 3. We identify important work that **informs global priorities**
 4. We boost work in innovative and transparent/replicable formats (especially **dynamic documents**)
 5. **Authors engage** with our process and find it useful
-6. (As a push) Universities, grantmakers, and other arbiters assign value to Unjournal ratings&#x20;
+6. (As a push) Universities, grantmakers, and other arbiters assign value to Unjournal ratings
 
 </details>
 
-_**Updated:**_ [_Partial update 10 Dec 2022._](#user-content-fn-1)[^1]&#x20;
-
-
+_**Updated:**_ [_Partial update 10 Dec 2022._](#user-content-fn-1)[^1]
 
 ## Building research 'unjournal'
 
@@ -32,39 +38,33 @@ See [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/a
 
 ### Setup and team
 
-:heavy\_check\_mark: [action-build-founding-committee.md](../action-and-progress/action-build-founding-committee.md "mention")
+:heavy\_check\_mark: [action-build-founding-committee.md](../action-and-progress/pilot-steps/action-build-founding-committee.md "mention")
 
 :heavy\_check\_mark:/:hourglass\_flowing\_sand: **Define the broad scope** of our research interest and **key overriding principles**. Light-touch, to also be attractive to aligned academics
 
-:hourglass\_flowing\_sand:  Build **"editorial-board-like"** teams with subject/area expertise
+:hourglass\_flowing\_sand: Build **"editorial-board-like"** teams with subject/area expertise
 
 _Status: Mostly completed/decided for pilot phase_
-
-
 
 ### Create a set of rules for 'submission and management'
 
 * Which projects enter the review system (relevance, minimal quality, stakeholders, any red lines or 'musts')
   * :hourglass\_flowing\_sand: See [considering-projects](../policies-projects-evaluation-workflow/considering-projects/ "mention") for a first pass
 * how projects are to be submitted
-* how reviewers are to be assigned and compensated&#x20;
+* how reviewers are to be assigned and compensated
 
 _Status: Mostly completed/decided for pilot phase;_ will review after initial trial
 
-
-
 ### Rules for reviews/assessments
 
-* To be done on the chosen open platform (Kotahi/Sciety) unless otherwise infeasible. [_10 Dec 2022 update_](#user-content-fn-2)[^2]&#x20;
+* To be done on the chosen open platform (Kotahi/Sciety) unless otherwise infeasible. _10 Dec 2022 update_
 * Share, advertise, promote this, have efficient meetings and presentations
   * Establish links to all open-access bibliometric initiatives (to the extent feasible)
 * Harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, to coin-based 'ResearchHub', etc.
 
-See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")&#x20;
+See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
 
 _Status: Mostly completed/decided for pilot phase;_ will review after the initial trial
-
-
 
 ### Further steps
 
@@ -83,19 +83,16 @@ Build a ‘founding committee’ of 5-8 experienced and enthusiastic EA-aligned/
 3. Set up the basic platforms for posting and administering reviews and evaluations and offering curated links and categorizations of papers and projects. ~~Note: I am strongly leaning towards https://prereview.org/ as the main platform, which has indicated willingness to give us a flexible ‘experimental space~~’ Update: Kotahi/Sciety seems a more flexible solution
 4. Reach out to researchers in relevant areas and organizations and ask them to 'submit' their work for 'feedback and potential positive evaluations and recognition', and for a chance at a prize. The Unjournal will _not be an exclusive outlet._ Researchers are free to also submit the same work to 'traditional journals' at any point. Their work must be publicly hosted, with a DOI. Ideally the 'whole project' is maintained and updated, with all materials, in a single location.\
    \
-   21 Sep 2022 s_tatus:_ 1-3 mostly completed. We have a good working and management group. We decided a platform and we're configuring it, and we have an interim workaround. We've reached out to researchers/orgs and got some good responses, but we need to find more platforms to disseminate and advertise this. We've identified and are engaging with 4 papers for the initial piloting. We aim to put out a larger prize-driven call soon and intake about 10 more papers/projects.\
-   \
-
+   21 Sep 2022 s\_tatus:\_ 1-3 mostly completed. We have a good working and management group. We decided a platform and we're configuring it, and we have an interim workaround. We've reached out to researchers/orgs and got some good responses, but we need to find more platforms to disseminate and advertise this. We've identified and are engaging with 4 papers for the initial piloting. We aim to put out a larger prize-driven call soon and intake about 10 more papers/projects.\
+   \\
 
 </details>
 
 <details>
 
-<summary>Aside: 'Academic-level' work for EA research orgs (building on <a href="https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490">post at "onscienceandacademia.org"</a>) </summary>
+<summary>Aside: 'Academic-level' work for EA research orgs (building on <a href="https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490">post at "onscienceandacademia.org"</a>)</summary>
 
 _The approach below is largely integrated into the Unjournal proposal, but this is a suggestion for how organizations like RP might consider 'how to get feedback and boost credibility_
-
-
 
 1. **Host article** (or dynamic research project or 'registered report') on OSF or other place allowing time stamping & DOIs (see [my resources list in Airtable](https://airtable.com/shraTY0WcwsjJSANs) for a start)
 2. Link this to [PREreview](https://prereview.org/reviews) (or similar tool) tools/sites soliciting feedback and evaluation without requiring exclusive publication rights... (again, see [Airtable list](https://airtable.com/shraTY0WcwsjJSANs))
@@ -109,8 +106,6 @@ Also: Committing to publish academic reviews or ‘share in our internal group�
 
 </details>
 
+1. We are still working with Google Docs and building an external survey interface. We will integrate this with Kotahi when we have funds.
+
 [^1]: _See more detailed updates in the_ [action-and-progress](../action-and-progress/ "mention") _section._
-
-
-
-[^2]: We are still working with Google Docs and building an external survey interface. We will integrate this with Kotahi when we have funds.

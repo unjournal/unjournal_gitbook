@@ -46,7 +46,7 @@ _The biggest_ [_personal gains for authors are:_](#user-content-fn-13)[^13]
 4. [An **additional opportunity for evaluation**](#user-content-fn-15)[^15] of your work with an emphasis on **impact.**
 5. **Visibility** and a connection to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong Ph.D. students to your research groups.&#x20;
 6. Gain a reputation as an ‘**early adopter and innovator**’ in open science.
-7. **Prizes:** You may win a [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") which will be financial as well as reputational.
+7. **Prizes:** You may win a [Broken link](broken-reference "mention") which will be financial as well as reputational.
 8. 'Entering our system’ makes you more likely to be hired as a paid reviewer or editorial manager.&#x20;
 9. We will encourage **media coverage**, including ‘forwarding’ some work to the [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/) for future coverage (with compensation to those doing the writing).
 
@@ -123,7 +123,7 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
 [^2]: We're aiming to have these submissions go through our [Kotahi](https://kotahi.community) interface.
 
-[^3]: See: [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention"). Where the paper has already been published, we elicit counterfactual responses.&#x20;
+[^3]: See: [Broken link](broken-reference "mention"). Where the paper has already been published, we elicit counterfactual responses.&#x20;
 
 [^4]: We can help you to do this, if you need. We will also ask for other relevant links, such as a 'permalink to updates', if you would like to give one.
 

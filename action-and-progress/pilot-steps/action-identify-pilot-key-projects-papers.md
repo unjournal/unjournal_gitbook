@@ -1,18 +1,18 @@
-# Identifying key research
+# Pilot: Identifying key research
 
 ([_Note for the management team_](#user-content-fn-1)[^1]_)_
 
 ## Test-case research for Proof of Concept
 
-I[_**dentify a small set of papers or projects as representative first-cases; to concretely help  test the system we are building.**_](#user-content-fn-2)[^2]
+I_**dentify a small set of papers or projects as representative first-cases; to concretely help test the system we are building.**_
 
 {% hint style="info" %}
-_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc., to help us in_ [action-overall-scoping.md](../management-tech-details-discussion/action-overall-scoping.md "mention") and to use in the future.
+_In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc._
 {% endhint %}
 
 ## Steps taken
 
-1. **Posts on EA Forum** (and other places)**,**  [_and form_](https://airtable.com/shrdHHI0zK7rkJCP3) _(see view at bottom of this section); promoting further, with bounty._
+1. **Posts on EA Forum** (and other places)**,** [_and form_](https://airtable.com/shrdHHI0zK7rkJCP3) _(see view at bottom of this section); promoting further, with bounty._
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
@@ -20,7 +20,7 @@ _In doing the above, we are also collecting a longer list of key papers, project
 
 2\. **Search for most-cited papers** (within our domain) among EA-aligned researchers and organizations
 
-[**3. Dig into existing lists, reviews, syllabi such as:**](#user-content-fn-3)[^3]
+[**3. Dig into existing lists, reviews, syllabi such as:**](#user-content-fn-2)[^2]
 
 * GPI [research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues) (includes many posed questions)
 * Open Philanthropy[ "questions that might affect our grantmaking"](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking) (needs updating? few academic links)
@@ -45,13 +45,13 @@ Not very relevant (because mainly operational)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research](../readme/call-for-participants-research/ "mention")
-
-
+6\. Cross-promoted with [call-for-participants-research](../../readme/call-for-participants-research/ "mention")
 
 ## Pivot: direct focus on NBER working papers
 
-[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+[direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+
+1. _Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus I aim to identify a small set of papers (or projects), maybe 2-3, that seem like good test and example cases. Offer a ‘bounty’ for 'which projects do we choose as test cases'.
 
 [^1]: See also
 
@@ -59,6 +59,4 @@ Not very relevant (because mainly operational)
     * Linked discussion in [this Gdoc](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit#heading=h.b6n4xb3q8q3c)
     * and [this slack channel](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)
 
-[^2]: _Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus I aim to identify a small set of papers (or projects), maybe 2-3, that seem like good test and example cases. Offer a ‘bounty’ for 'which projects do we choose as test cases'.
-
-[^3]: Note that much of the work identified here has already been peer-reviewed and 'published'. While we envision that the Unjournal may assess papers _already published in traditional journals_, these are probably not the best case for the PoC. Thus we de-prioritize these for now.
+[^2]: Note that much of the work identified here has already been peer-reviewed and 'published'. While we envision that the Unjournal may assess papers _already published in traditional journals_, these are probably not the best case for the PoC. Thus we de-prioritize these for now.

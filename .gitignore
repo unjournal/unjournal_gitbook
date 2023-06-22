@@ -14,3 +14,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+__pycache__
+test.py
+*.auth
+.env
