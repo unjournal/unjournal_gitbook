@@ -25,9 +25,7 @@ Switching between the public and private version sof Gitbook (while maintaining 
 
 Setting the following as a ‘bookmark’ seems to help (Chrome: bookmarks manager, edit any existing bookmark by right click --> edit)
 
-![](<../.gitbook/assets/image (2).png>)
-
-
+![](<../.gitbook/assets/image (4).png>)
 
 Name: “Switch to Public Gitbook page” (or whatever)
 
@@ -38,8 +36,6 @@ URL: set to:
 javascript:(function() { var publicUrl = document.location.href.replace('app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt', 'effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/'); window.open(publicUrl, '_blank'); })()
 ```
 {% endcode %}
-
-
 
 **To go in the other direction (public to editable version of a page)**
 

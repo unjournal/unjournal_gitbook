@@ -18,13 +18,11 @@ Our page is [https://opencollective.com/the-unjournal](https://opencollective.co
 
 1\. Email contact@opencollective.foundation. Expect a reply within 3 business days
 
-2\. If it's urgent, ask on [OCF's slack channel if urgent](https://join.slack.com/share/enQtNTQwMTgyNDYyOTU3MS1jYTg4MWQ5YjkxZTNlZDUxZTA0MjdiY2Q2OTRmMzYzM2EzYjgwMmU0ZDg1YTM4OTQ1NDg0MDVmOWNkZTU0ZDVi?cdn\_fallback=1) #ocf&#x20;
+2\. If it's urgent, ask on [OCF's slack channel if urgent](https://join.slack.com/share/enQtNTQwMTgyNDYyOTU3MS1jYTg4MWQ5YjkxZTNlZDUxZTA0MjdiY2Q2OTRmMzYzM2EzYjgwMmU0ZDg1YTM4OTQ1NDg0MDVmOWNkZTU0ZDVi?cdn\_fallback=1) #ocf
 
 3. Go to OCF _not to_ Open Collective for most things. (Maybe go to OC only for questions on the overriding web page platform. Note that if you use the 'help' on the page it often takes you to OC.)
 
-_Note, for support issues/tickets or tickets there is no  recordusers can view yet_&#x20;
-
-
+_Note, for support issues/tickets or tickets there is no recordusers can view yet_
 
 ## Submitting and paying expenses/claims
 
@@ -32,15 +30,13 @@ _Note, for support issues/tickets or tickets there is no  recordusers can view y
 **Anonymity** **and payments**: **Evaluators, please use a pseudonym or the "salted hash" code we shared with you!**
 
 \
-**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_  (either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
+**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please \_use a pseudonym for your profile name**\_ (either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
 
 \
-_For good measure, do not indicate the name of the paper in the expense claim._&#x20;
+_For good measure, do not indicate the name of the paper in the expense claim._
 
-_However, please do note "_Evaluation of research material" _in the "statement of work" section._
+\_However, please do note "\_Evaluation of research material" _in the "statement of work" section._
 {% endhint %}
-
-
 
 <details>
 
@@ -52,13 +48,11 @@ _But if we used this_ anyone who knows your name or email could potentially 'che
 
 </details>
 
-
-
 After you obtain your hash, or inform us of your pseudonym:
 
 1. Go to [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)
 2. Under the brief information about the unjournal there are a few tabs; there is a tab on the right hand-side called “submit expense” that you need to click.
-3. Following this, you will need to login/create an account. This is very straightforward; it just requires you to  add your "salted" hash/pseudonym as your name and an email address with no password.&#x20;
+3. Following this, you will need to login/create an account. This is very straightforward; it just requires you to add your "salted" hash/pseudonym as your name and an email address with no password.
 4. In your profile settings be sure to add your "legal name". This is only visible to the unjournal admins and is not public. If not, you may be contacted separately by OCF asking you to do this.
 5. Afterwards, you can fill in all your information about how they would like to be paid and which account (details of filling in your payment information can be viewed below).
 6. We then approve the expense and they will be paid within 7 days of our approval.
@@ -80,19 +74,19 @@ _Request payment from The Unjournal. Expenses will be processed once approved by
 Type: ABA \[or?]\
 Account Holder: name
 
-Email:&#x20;
+Email:
 
 Abartn: ?????????
 
-City:&#x20;
+City:
 
-State:&#x20;
+State:
 
-Country:&#x20;
+Country:
 
-Post Code:&#x20;
+Post Code:
 
-First Line:&#x20;
+First Line:
 
 Legal Type: PRIVATE
 
@@ -100,22 +94,18 @@ Account Type: CHECKING \[or ?]
 
 Account Number: ...
 
-Additional invoice information &#x20;
+Additional invoice information
 
 </details>
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 * Finally, under 'Description' (on the second page) please put "Evaluation of research material"\
   \
   ![](<../.gitbook/assets/image (8) (1).png>)
 
-
-
 {% hint style="info" %}
 Consideration for management: how to generate W2s -- these might be necessary for large expenses
 {% endhint %}
 
-[^1]: &#x20;if this proves too cumbersome for them, we can make a simple survey (Google form etc) to ask for this.\
-
-
+[^1]: if this proves too cumbersome for them, we can make a simple survey (Google form etc) to ask for this.\\

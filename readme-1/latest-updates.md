@@ -1,6 +1,6 @@
 # Latest updates
 
-We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too!  Below, we summarize what the Unjournal has been up to most recently.
+We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too! Below, we summarize what the Unjournal has been up to most recently.
 
 {% hint style="info" %}
 **Some (other) ways to follow The Unjournal's progress**
@@ -12,9 +12,7 @@ We want to keep the community informed of our progress and the steps we are cons
 
 **MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](#user-content-fn-1)[^1]
 
-{% @mailchimp/mailchimpSubscribe %}
-
-
+\{% @mailchimp/mailchimpSubscribe %\}
 
 ## Update on recent progress: 1 June 2023
 
@@ -196,25 +194,19 @@ Recall, we pay at least $250 per evaluation, we typically pay more in net ($350)
 
 _Hope these updates are helpful. Let me know if you have suggestions._
 
-
-
-
-
-
-
 ## Test 'update on recent progress': 22 June 2023
 
 _Update from David Reinstein, Founder and Co-Director (testing)_
 
 ### An update to test the Mailchimp automation and integration
 
-This is what our fortnightly updates will look like for people _not on our team_ who subscribe through Mailchimp. (I'll do a separate update email specifically for the management team and advisory board.)&#x20;
+This is what our fortnightly updates will look like for people _not on our team_ who subscribe through Mailchimp. (I'll do a separate update email specifically for the management team and advisory board.)
 
-I worked with Fernando to [build a system](https://github.com/unjournal/unjournal\_gitbook/issues/1) to make it easy to automate this from our gitbook (domain: unjournal.org). When we make updates (mainly to the [latest-updates.md](latest-updates.md "mention") page) and enter a particular '#message' in the commit message, it should automatically send the 'changed/new content' as a Mailchimp thing. We can also have it do other things, like post new content to a Substack blog, etc. ... working on that. \
+I worked with Fernando to [build a system](https://github.com/unjournal/unjournal\_gitbook/issues/1) to make it easy to automate this from our gitbook (domain: unjournal.org). When we make updates (mainly to the [latest-updates.md](latest-updates.md "mention") page) and enter a particular '#message' in the commit message, it should automatically send the 'changed/new content' as a Mailchimp thing. We can also have it do other things, like post new content to a Substack blog, etc. ... working on that.\
 \
-Anyways, just sending this to test it out. While I'm doing so, I'll check some formatting things.&#x20;
+Anyways, just sending this to test it out. While I'm doing so, I'll check some formatting things.
 
-1. How will hover annotations come out? [Here is one](#user-content-fn-2)[^2].
+1. How will hover annotations come out? Here is one.
 2. What about images? <img src="../.gitbook/assets/image (8).png" alt="" data-size="line">
 3. Next I'll try an expandable:
 
@@ -241,7 +233,7 @@ Here's the hint
 > Hmmm...
 >
 > \
-> (Source: some guy trying to remember what Nathan Hale said) &#x20;
+> (Source: some guy trying to remember what Nathan Hale said)
 
 6. Embedded Google doc
 
@@ -259,14 +251,4 @@ Caption for that embedded Gdoc
 
 
 
-8. Random YouTube video
-
-{% embed url="https://www.youtube.com/watch?v=LHyJ_H5wt5g" %}
-
-That's enough for now.&#x20;
-
-
-
-[^1]: Hopefully, these are more than static emails. We aim to integrate surveys and calls for feedback as well.&#x20;
-
-[^2]: Content of the annotation.
+[^1]: Hopefully, these are more than static emails. We aim to integrate surveys and calls for feedback as well.
