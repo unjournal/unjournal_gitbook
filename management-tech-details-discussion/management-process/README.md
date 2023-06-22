@@ -1,23 +1,19 @@
 # Evaluation Manager Process
 
 {% hint style="info" %}
-See  [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention") for an updated careful overview and flowchart. The material below might be redundant.
+See [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention") for an updated careful overview and flowchart. The material below might be redundant.
 {% endhint %}
-
-
 
 ### Informing paper authors
 
 If the work was not submitted to the Unjournal directly, then you will need to write to the authors of the paper to let them know that their paper will be evaluated by The Unjournal. (Note that we need/needed to _ask them_ if they are willing unless the work falls under our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")\
-&#x20;
+
 
 ### Finding evaluators
 
 Please use the link below to help you consider how to choose evaluators. Normally 2-3 evaluators are chosen.
 
 [choosing-evaluators](choosing-evaluators/ "mention")
-
-
 
 ### Reaching out to evaluators
 
@@ -29,15 +25,9 @@ Normally, we also send a reminder email roughly two weeks after sending the init
 
 18 Jun 2023: We are working on a Mailchimp process for this. Later, we are likely to integrate this into our editorial management system (at PubPub or elsewhere).
 
-
-
 If an evaluator agrees, send them the google doc with the evaluation template for them to complete in an additional email and agree a time period in which they will complete the evaluation.
 
-
-
 (Link to [protecting-anonymity.md](../../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention"); consider other important pointers to evaluators)
-
-
 
 ### Reminding evaluators
 
