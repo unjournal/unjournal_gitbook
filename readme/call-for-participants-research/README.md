@@ -27,8 +27,9 @@ We also anticipate hiring/contracting for several roles; both research-linked, c
 _Note: All data submitted in the above forms may be shared with members of our Management Team, but we will not make it public._
 {% endhint %}
 
-{% hint style="info" %}
-**Updates**
+<details>
+
+<summary>Updates</summary>
 
 **June 2023:** We are expanding the [Management Committee](#user-content-fn-1)[^1], the Advisory Board, and the Reviewer pool. We also anticipate hiring/contracting for several roles.&#x20;
 
@@ -37,7 +38,10 @@ _Note: All data submitted in the above forms may be shared with members of our M
 **Dec. 2022:** "_Needs are ongoing_". We have chosen people for the Founding Committee, but please complete the form anyways if you are interested. We're still very interested in people for the Advisory Board and Reviewer Pool, and aim to expand the Management Committee soon.
 
 _Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing) (initial prizes: ~~$2000~~, $2500, $1000)
-{% endhint %}
+
+</details>
+
+
 
 ## Overview and call
 
@@ -47,7 +51,7 @@ The [Unjournal team](https://effective-giving-marketing.gitbook.io/unjournal-x-e
 
 Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in public, open formats, that support replicability and robustness. Rather than ‘finished frozen publications’, we wish to foster a [living and continually-improved approach](../../benefits-and-features/living-research-projects.md) to research projects; we hope that the research we review will be improved, extended, and may even be re-assessed in future versions.
 
-Briefly, the Unjournal’s process is:
+_Briefly, the Unjournal’s process is:_
 
 * Identify or invite contributions of relevant research _that is publicly hosted_ on any open platform or archive in any format.
 * Pay evaluators to give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value. (See [evaluator guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/).)
@@ -65,25 +69,25 @@ We maintain an **open call for participants** for three different roles:
 
 The roles are explained in more detail below; you can express your interest and enter our database here.
 
-We are also looking for high-quality, globally-pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out an _informal call for relevant research, with small bounty prizes for suggestions (update June 2023: these prizes are not currently active, but we aim to launch this again soon; all suggestors will be eligible for prizes retroactively) . You can suggest your own work, or other authors or projects. For details of the prizes, what we are looking for, and give some potential examples,_ [_see this post_](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see)_, and accompanying links._
+We are also looking for high-quality, globally-pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a _call for relevant research_ (with [some potential bounties and prizes](#user-content-fn-5)[^5])_._ For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see), and accompanying links.
 
 ## **Roles**
 
-**Management committee members**_'_ activities  involve:
+**Management committee members**_'_ activities involve:
 
-* Working with other  committee members on  rules and guidelines. E.g.,‘which metrics to evaluate research’, ‘how to publish the assessments’.
+* Working with other committee members on rules and guidelines. E.g.,‘which metrics to evaluate research’, ‘how to publish the assessments’.
 * Helping plan The Unjournal’s future path.
-* If your time and funding permits, helping manage ‘which research to focus on’, assigning reviewers, and awarding prizes (we will try to keep this responsibility light).
+* If time and funding permits, helping manage ‘which research to focus on’, assigning reviewers, and awarding prizes (we will try to keep this responsibility light).
 
-_Time commitment_: Minimum of 5-10 hours total over the next 9 months, plus editorial activities (perhaps a few hours per month, as available and as needed).
+_Time commitment_: (Update Jun 2023) A minimum of 20 hours total over the next 18 months.
 
-_Compensation_: We have funding for a $50 per hour honorarium for the first 5-10 hours; we are seeking further funding.
+_Compensation_: We have funding for a $65 per hour honorarium for the first 20 hours, and possibly for further work. [Evaluation management work](../../management-tech-details-discussion/management-process/) will be further compensated (at roughly $300-$450 per paper).&#x20;
 
 All applicants are welcome. We are interested in people with a range of experiences and skills, including in global priorities research and related fields, other academic research, policy research and practice, open science and meta-science, and bibliometrics and scholarly publishing. Individuals with a solid interest in the Unjournal project and its goals, and who are able to meet the (minimal) time commitment, would be a great fit. Note that applying is extremely quick, and if you are not chosen, we will consider you for other roles and work going forward.
 
-**Advisory board members:** As well as this role, we are seeking to build a larger, more passive advisory board, to offer very light touch guidance. Being a member of this board brings no time obligation, but you may occasionally be consulted. We are looking for active researchers, practitioners, and stakeholders with a strong publication record who are affiliated with an academic, governmental or relevant non-profit institution.
+**Advisory board members:** As well as this role, we are building a larger, more passive advisory board, to offer very light touch guidance. Being a member of this board brings no time obligation, but you may occasionally be consulted. We are looking for active researchers, practitioners, and stakeholders with a strong publication record who are affiliated with an academic, governmental or relevant non-profit institution.
 
-**Reviewers:** We will reach out to reviewers on a case-by-case basis, appropriate for each paper/project being assessed (expertise, interest, lack of COI). However, we are also putting together a list of people interested in being a reviewer and doing paid referee work for the Unjournal - these will often be the first people we look to when considering potential reviewers. The compensation will be $250 per review, with some additional funding for ‘best-reviewer’ prizes. Again, we hope to be able to increase these amounts as funding permits.
+**Reviewers:** We will reach out to reviewers on a case-by-case basis, appropriate for each paper/project being assessed (expertise, interest, lack of COI). We are also putting together a list of people interested in being a reviewer and doing paid referee work for the Unjournal - these will often be the first people we look to when considering potential reviewers. We pay a minimum of $250 per review (typically $350), with some additional funding for ‘best-reviewer’ prizes. _We are planning to substantially increase this compensation and incentives substantially._
 
 ## **Projects and papers**
 
@@ -103,8 +107,10 @@ _We invite you to fill in this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW)
 
 [^1]: Formerly "'Founding committee"
 
-[^2]: This following 15 years in academia (UC Berkeley, University of Essex, University of Exeter) and applied research (Rethink Priorities),  and a [supporter of open science](#user-content-fn-5)[^5]
+[^2]: This following 15 years in academia (UC Berkeley, University of Essex, University of Exeter) and applied research (Rethink Priorities),  and a [supporter of open science](#user-content-fn-6)[^6]
 
 [^3]: Along with Gavin Taylor
 
 [^4]: _Note:_ we offer some specific exceptions for ECRs under certain circumstances. See '[embargos](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/faq-interaction/for-researchers-authors#conditional-embargo)'.
+
+[^5]: Update June 2023: these prizes are not currently active, but we aim to launch this again soon; all suggestors will be eligible for prizes retroactively.
