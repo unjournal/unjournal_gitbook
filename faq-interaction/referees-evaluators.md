@@ -3,10 +3,10 @@
 ## Evaluation guidelines and criteria
 
 {% hint style="info" %}
-We refer to 'evaluation' because the Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
+We refer to 'evaluation' because The Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
 {% endhint %}
 
-_What we are asking evaluators/referees to do:_ [broken-reference](broken-reference/ "mention")
+_What we are asking evaluators/referees to do:_ [#evaluation-guidelines-and-criteria](referees-evaluators.md#evaluation-guidelines-and-criteria "mention")
 
 ## Choosing and working with evaluators (referees)
 
