@@ -3,7 +3,7 @@
 ## Evaluation guidelines and criteria
 
 {% hint style="info" %}
-We refer to 'evaluation' because The Unjournal does not _publish_ work; it only links, rates, and evaluates it. However, below, we will mainly refer to traditional terms like 'referees', indicating the same thing. We do this to make it more readable and familiar.
+[We refer to 'evaluation'](#user-content-fn-1)[^1] because The Unjournal does not _publish_ work; it only links, rates, and evaluates it.
 {% endhint %}
 
 _What we are asking evaluators/referees to do:_ [#evaluation-guidelines-and-criteria](referees-evaluators.md#evaluation-guidelines-and-criteria "mention")
@@ -21,7 +21,7 @@ _What we are asking evaluators/referees to do:_ [#evaluation-guidelines-and-crit
 * It is equitable, especially for those not getting 'service credit' for their refereeing work from their employer.
 * While researchers currently write reports for prominent traditional journals for free, perhaps in exchange for goodwill when they submit their own work, or a desire to impress prominent editors...
   1. We need to use explicit incentives as the Unjournal grows.
-  2. Paying evaluators can reduce [adverse selection and conflict of interest issues (potentially inherent to the traditional process)](#user-content-fn-1)[^1].
+  2. Paying evaluators can reduce [adverse selection and conflict of interest issues (potentially inherent to the traditional process)](#user-content-fn-2)[^2].
 * We can use these as incentives for high-quality work.
 * We can use payments to access a wider range of expertise, including people not interested in submitting their own work to the Unjournal.
 
@@ -67,7 +67,7 @@ See [for-researchers-authors.md](for-researchers-authors.md "mention") FAQ as we
 We currently (May 2023) have two ways that papers/research projects enter the Unjournal process:
 
 1. Authors submit their work (perhaps after our reaching out to them); if we believe it is relevant, we assign evaluators, etc. We can also agree with authors to 'embargo' evaluations until a later date, under certain conditions (and evaluators will be informed of this.)
-2. Alternatively, we are selecting a set of working papers released in the [prominent NBER series](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) for evaluation [(see note)](#user-content-fn-2)[^2]; where these papers seem particularly influential, potentially impactful, and relevant for evaluation. For these, we contact the authors before sending out the papers for evaluation, and request the authors' engagement, but we don't ask for _permission_
+2. Alternatively, we are selecting a set of working papers released in the [prominent NBER series](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) for evaluation [(see note)](#user-content-fn-3)[^3]; where these papers seem particularly influential, potentially impactful, and relevant for evaluation. For these, we contact the authors before sending out the papers for evaluation, and request the authors' engagement, but we don't ask for _permission_
 
 
 
@@ -92,7 +92,7 @@ _Going forward:_
 
 ## Public evaluations
 
-### [How are these hosted and shared?](#user-content-fn-3)[^3]
+### [How are these hosted and shared?](#user-content-fn-4)[^4]
 
 (2023 update)
 
@@ -114,8 +114,10 @@ See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluat
 2. E.g., for wider audiences, e.g., on Wikipedia, the EA Forum, or Asterisk magazine.
 3. _Note_ 10 Dec 2022\_: This is a draft approach; we welcome feedback on the best format.\_
 
-[^1]: E.g., 'Selection': Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration
+[^1]: Still, we sometimes call the evaluators 'referees', for clarity.
 
-[^2]: Note that papers in the NBER series may enter through either of the above tracks; we will explain this to evaluators.
+[^2]: E.g., 'Selection': Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration
 
-[^3]: 22 Dec 2022: We are still developing and improving this system.
+[^3]: Note that papers in the NBER series may enter through either of the above tracks; we will explain this to evaluators.
+
+[^4]: 22 Dec 2022: We are still developing and improving this system.
