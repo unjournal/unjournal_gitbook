@@ -4,25 +4,25 @@
 
 The Unjournal was founded by [David Reinstein](https://davidreinstein.org) <img src="../../.gitbook/assets/image.png" alt="" data-size="line">, who maintains this wiki/Gitbook and other resources.
 
-### [Management Committee](#user-content-fn-1)[^1]&#x20;
+### [Management Committee](#user-content-fn-1)[^1]
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)
 
-* [David Reinstein](https://www.davidreinstein.org), Founder and Co-director&#x20;
+* [David Reinstein](https://www.davidreinstein.org), Founder and Co-director
 * [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at IGDORE; Co-director
 * [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph
 * [Kris Gulati](https://sites.google.com/view/kris-gulati/home), Economics PhD student at the University of California, Merced
 * [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology, has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 * [Hansika Kapoor](https://www.hansikakapoor.in), Research Author at the Department of Psychology, Monk Prayogshala
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Lecturer in the Department of Economics at Middlesex University
-* [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University&#x20;
-* [Anirudh Tagat](https://www.anirudhtagat.com/),  Research Author at the Department of Economics at [Monk Prayogshala](http://www.google.com/url?q=http%3A%2F%2Fwww.monkprayogshala.in\&sa=D\&sntz=1\&usg=AOvVaw0Q2v2r2Rf\_7hISS6yEnqOt)
+* [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at North-West University
+* [Anirudh Tagat](https://www.anirudhtagat.com/), Research Author at the Department of Economics at [Monk Prayogshala](http://www.google.com/url?q=http%3A%2F%2Fwww.monkprayogshala.in\&sa=D\&sntz=1\&usg=AOvVaw0Q2v2r2Rf\_7hISS6yEnqOt)
 
-[Outreach: see](#user-content-fn-2)[^2] [Broken link](broken-reference "mention")&#x20;
+
 
 ### Advisory board
 
-See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)_._&#x20;
+See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)_._
 
 [Sam Abbott](https://samabbott.co.uk), Infectious Disease Researcher at the London School of Hygiene and Tropical Medicine
 
@@ -30,15 +30,15 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Gary Charness](https://www.wikiwand.com/en/Gary\_Charness), Professor of Economics, UC Santa Barbara
 
-[Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi), Post-Doctoral Researcher in the Department of Quantitative Methods and Economic Theory at the University of Chieti&#x20;
+[Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi), Post-Doctoral Researcher in the Department of Quantitative Methods and Economic Theory at the University of Chieti
 
 [Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Program Lead, Impetus Institute for Meta-science
 
 [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor @ Asterisk Mag, Writing and Research on Global Health, Development, and Nutrition
 
-[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University&#x20;
+[Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University
 
-[Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea), Associate Professor, expert judgment,  biosciences, applied probability, uncertainty quantification
+[Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea), Associate Professor, expert judgment, biosciences, applied probability, uncertainty quantification
 
 [Alexander Herwix](https://www.researchgate.net/profile/Alexander-Herwix), Late-Stage PhD Student in Information Systems at the University of Cologne
 
@@ -48,23 +48,21 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics
 
-
-
 ## Other people and initiatives we are in touch with
 
 <details>
 
-<summary>Substantial advice, consultation, collaborative discussions </summary>
+<summary>Substantial advice, consultation, collaborative discussions</summary>
 
-* Abel Brodeur,  Founder/chair of the [Institute for Replication](https://i4replication.org/)&#x20;
-
-<!---->
-
-* &#x20;The [repliCATS project](https://replicats.research.unimelb.edu.au/)
+* Abel Brodeur, Founder/chair of the [Institute for Replication](https://i4replication.org/)
 
 <!---->
 
-* [Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto.&#x20;
+* The [repliCATS project](https://replicats.research.unimelb.edu.au/)
+
+<!---->
+
+* [Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto.
 
 <!---->
 
@@ -72,7 +70,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 <!---->
 
-* Cooper Smout, head of ‘[https://freeourknowledge.org/](https://freeourknowledge.org/)&#x20;
+* Cooper Smout, head of ‘[https://freeourknowledge.org/](https://freeourknowledge.org/)
 
 <!---->
 
@@ -139,18 +137,14 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 * Hamish Huggard (Data science, ‘literature maps’)
 
-
-
 </details>
 
-
-
-See also [List of People consulted](broken-reference) (in ACX grant proposal)
+See also [List of People consulted](broken-reference/) (in ACX grant proposal)
 
 ### [related-ea-gp-seminar-series.md](../../parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
 
 ### [plan-of-action.md](../plan-of-action.md "mention")
 
-[^1]: Previously listed as "Founding Committee", occasionally referred to as "Management Team" or "Founding Team". Referred to as "Managers" in the flowchart.
+1. _We may be adding more members as we progress._
 
-[^2]: _We may be adding more members as we progress._
+[^1]: Previously listed as "Founding Committee", occasionally referred to as "Management Team" or "Founding Team". Referred to as "Managers" in the flowchart.
