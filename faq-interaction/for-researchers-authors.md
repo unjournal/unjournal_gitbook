@@ -21,38 +21,38 @@ We will only need a link to a publicly hosted DOI'd version of your work. We wil
 
 By default, we would like Unjournal evaluations to be made public. However, in special circumstances, and particularly for very early-career researchers, we may make exceptions.
 
-If there is an early-career researcher on the authorship team, we will allow authors to ‘embargo’ the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite. For example, we might grant an embargo that lasts until after a PhD/postdoc’s upcoming job-market or until after publication in a mainstream journal, with a hard maximum of 14 months.
+If there is an early-career researcher on the authorship team, we will allow authors to ‘embargo’ the publication of the evaluation until a later date.  Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite. For example, we might grant an embargo that lasts until after a PhD/postdoc’s upcoming job-market or until after publication in a mainstream journal, [with a hard maximum of 14 months.](#user-content-fn-4)[^4]
 
-In very special circumstances we may consider granting a ['conditional indefinite embargo'.](#user-content-fn-4)[^4]
+In very special circumstances we may consider granting a ['conditional indefinite embargo'.](#user-content-fn-5)[^5]
 
 ### What we **ask/request of authors**
 
 If we consider your work for public evaluation, we may ask for _some_ of the below, but these are mainly optional. We will aim to make this very _light touch_ for authors.
 
-1. A link to a non-paywalled, hosted version of your work (which could be in any format - PDFs are not necessary), which [could be given a DOI](#user-content-fn-5)[^5].
-2.  A link to data and code, if possible. We will work to help you to make it accessible.
-
-    Note our project is not _principally_ about replication, and we are unlikely to be able to do this systematically in our pilot stage.
-3. Responses to [clarification questions from our evaluators](#user-content-fn-6)[^6]
-4. The evaluations and ratings will be posted publicly (and themselves given a DOI). We will allow you the 'right to respond' before any of this is posted publicly.
+1. A link to a non-paywalled, hosted version of your work (which could be in any [format - PDFs are not necessary](#user-content-fn-6)[^6]), which [could be given a DOI](#user-content-fn-7)[^7].&#x20;
+2. A link to data and code, if possible. We will work to help you to make it accessible.
+   1. Note our project is not [_principally_ about replication, and we are unlikely to be able to do this systematically in our pilot stage](#user-content-fn-8)[^8].
+3. Responses to [clarification questions from our evaluators](#user-content-fn-9)[^9]
+4. The evaluations and ratings will be posted publicly (and themselves given a DOI).  We will allow you the 'right to respond' before any of [this is posted publicly.](#user-content-fn-10)[^10]
 
 ## **Why should researchers and groups ‘submit their work to’ and engage with the Unjournal?**
 
-_The biggest_ [_personal gains for authors are:_](#user-content-fn-7)[^7]
+_The biggest_ [_personal gains for authors are:_](#user-content-fn-11)[^11]
 
 1. **Substantive feedback** will help you improve your work (both the work being reviewed and future work). Substantive and useful feedback is often very hard to get, especially for young scholars.
 2. **Ratings = Markers of credibility for your work** that could help your career advancement at least at the margin, and hopefully in the future help a great deal.
 3. The opportunity to **publicly respond to critiques and correct misunderstandings**.
-4. [An **additional opportunity for evaluation**](#user-content-fn-8)[^8] of your work with an emphasis on **impact.**
-5. **Visibility** and a connection to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong Ph.D. students to your research groups.
-6. Gain a reputation as an ‘**early adopter and innovator**’ in open science.
-7. **Prizes:** You may win a [broken-reference](broken-reference/ "mention") which will be financial as well as reputational.
-8. 'Entering our system’ makes you more likely to be hired as a paid reviewer or editorial manager.
-9. We will encourage **media coverage**, including ‘forwarding’ some work to the [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/) for future coverage (with compensation to those doing the writing).
+4. [An **additional opportunity for evaluation**](#user-content-fn-12)[^12] of your work with an emphasis on **impact.**
+5. **Visibility** and attention to your work, which may lead to additional citations.&#x20;
+6. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong Ph.D. students to your research groups.
+7. Gain a reputation as an ‘**early adopter and innovator**’ in open science.
+8. **Prizes:** You may win an [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention")  which will be financial as well as reputational.
+9. 'Entering our system’ makes you more likely to be hired as a paid reviewer or editorial manager.
+10. We will encourage **media coverage**, including ‘forwarding’ some work to the [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/) for future coverage (with compensation to those doing the writing).
 
 <details>
 
-<summary>What sort of 'additional opportunity'?</summary>
+<summary>What sort of 'additional opportunities'?</summary>
 
 Your work may be "under-published"; perhaps you were in a hurry and submitted it to a 'safe but low-ranked journal'
 
@@ -75,9 +75,9 @@ There are risks and rewards to any activity of course, and we cannot predict the
 
 ### **Exclusivity**
 
-Some traditional journals might have restrictions on the public sharing of your work, and perhaps they might enforce these more strongly if they fear competition from the Unjournal?
+[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-13)[^13], and perhaps they might enforce these more strongly if they fear competition from The Unjournal?
 
-* The Unjournal is _not exclusive_. Having your paper reviewed and evaluated in the Unjournal will not limit your options; [you can still submit your work to traditional journals.](#user-content-fn-9)[^9]
+* The Unjournal is _not exclusive_. Having your paper reviewed and evaluated in the Unjournal will not limit your options; [you can still submit your work to traditional journals.](#user-content-fn-14)[^14]
 * Following a traditional publishing route can also be risky: the world may change, and you may be seen as retrograde.
 * More importantly, publishing (especially in Economics) is slow and has highly variable outcomes. You typically wait months for a response, sometimes more than a year, may go through many cycles of rejection/revisions and resubmitting, and may ultimately end up with an outcome (rejection) that has zero value on your CV.
   * With the Unjournal your work will always be given feedback, an evaluation, and a public rating. And you can continue to improve your work for future evaluation.
@@ -99,7 +99,7 @@ _And this should be weighed against the benefits to having your work in the Unjo
 
 These are all major advantages over the traditional journal route, where you essentially start over with each new submission, and new referees may overlook the same point and have the same misunderstandings each time.
 
-\_Nonetheless, w\_e are planning some exceptions for early-career researchers, [in some cases _not publicly revealing_ negative evaluations of work (and informing referees of this in advance)](for-researchers-authors.md#conditional-embargo).
+Nonetheless, we are planning some exceptions for early-career researchers, [in some cases _not publicly revealing_ negative evaluations of work. at least for a defined period, (and informing referees of this in advance)](for-researchers-authors.md#conditional-embargo).
 
 ### **Backlash against innovation or ‘seeming weird’**
 
@@ -107,7 +107,7 @@ Although the process is unusual, the Unjournal is not a weird concept: we are pr
 
 ### **Could our reviews tend to 'hurt papers more than help them' ?**
 
-Unjournal evaluations should be seen as signals of research quality. Like all such signals, they are noisy. But authors may worry 'a bad signal will hurt a lot, and a good signal will only help a littl'".
+Unjournal evaluations should be seen as signals of research quality. Like all such signals, they are noisy. But authors may worry 'a bad signal will hurt a lot, and a good signal will only help a little'".
 
 _Arguments against this:_ Unbiased informational signals won't systematically lead to updates in one direction. Fancy ways of saying this and related concepts: [Martingales](https://galton.uchicago.edu/\~lalley/Courses/313/Martingales.pdf), [Conservation of Expected Evidence](https://www.lesswrong.com/tag/conservation-of-expected-evidence), Rational Expectations, the Law of Iterated Expectations.
 
@@ -119,34 +119,33 @@ Of course, one cannot rule out that a negative evaluation will harm a paper's re
 \
 _If getting any public feedback was so damaging, why would academics be eager to present their work at seminars and conferences?_
 
-1. We're aiming to have these submissions go through our [Kotahi](https://kotahi.community) interface.
-2. We can help you to do this, if you need. We will also ask for other relevant links, such as a 'permalink to updates', if you would like to give one.
-3. Of course, this can be ended early at the request of the authors.
-4. , see [“Benefits of dynamic documents"](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/key-issues-explanations-faq/benefits-and-features/benefits-of-dynamic-documents)
-5. However, we want to encourage this accessibility (and we are keen to work with [I4rep](https://i4replication.org/people.html) and others on this in future.)
-6. We are considering whether your response may also be given a DOI. This may help the metrics enter into the general bibliometric systems
-7. Hopefully, with retrograde rewards for early adopters.
-8. We think this is largely not a factor, as discussed below.
-
 [^1]: You could also suggest reviewer names, but we may or may not choose these in particular.
 
-[^2]: See: [broken-reference](broken-reference/ "mention"). Where the paper has already been published, we elicit counterfactual responses.
+[^2]: See: [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention"). Where the paper has already been published, we elicit counterfactual responses.
 
 [^3]: If you would like to request an exception to a public evaluation, you will have the opportunity to explain your reasoning in the submission form.
 
-[^4]: E.g., where evaluations with ratings below a certain value will never be made public. In such cases, the evaluators will be informed of this in advance, and, if we publish some evaluations of the paper, it will be noted that this policy was in place.
+[^4]: Of course, this can be ended early at the request of the authors.
 
-[^5]: Again, remember that _we_ will not be "publishing" this work, just evaluating it.. We can help you figure out how to host and 'DOI it', however.
+[^5]: E.g., where evaluations with ratings below a certain value will never be made public. In such cases, the evaluators will be informed of this in advance, and, if we publish some evaluations of the paper,  it will be noted that this policy was in place.
 
-[^6]: Recall that we assign 2-3 evaluators ('referees') who will be paid to assess your work, who may be anonymous (22 Dec 2022: we are giving evaluators this choice).\
+[^6]: See “[Benefits of dynamic documents](../benefits-and-features/benefits-of-dynamic-documents.md)"
+
+[^7]: Again, remember that _we_ will not be "publishing" this work, just evaluating it.. We can help you figure out how to host and 'DOI it', however.
+
+[^8]: However,  we want to encourage this accessibility (and we are keen to work with [I4rep](https://i4replication.org/people.html) and others on this in future.)
+
+[^9]: Recall that we assign 2-3 evaluators ('referees') who will be paid to assess your work, who may be anonymous (22 Dec 2022: we are giving evaluators this choice).\
     \
-    We may try to facilitate a confidential channel to enable a dialogue with the authors.\
+    We may try to facilitate a confidential channel to enable a dialogue with the authors. \
     \
-    In future iterations, rhrough this process, we may encourage you to continue to update your work in communication with the evaluators, as sort of 'dynamic R\&R'.
+    In future iterations, through this process, we may encourage you to continue to update your work in communication with the evaluators, as sort of 'dynamic R\&R'.
 
-[^7]: And remember: you are not giving up any opportunity to publish it elsewhere.
+[^10]: We are considering whether your response may also be given a DOI. This may help the metrics enter into the general bibliometric systems
 
-[^8]: What sort of 'additional opportunity'? Your work may be "under-published"; perhaps you were in a hurry and submitted it to a 'safe but low-ranked journal'
+[^11]: And remember: you are not giving up any opportunity to publish it elsewhere.
+
+[^12]: What sort of 'additional opportunity'? Your work may be "under-published"; perhaps you were in a hurry and submitted it to a 'safe but low-ranked journal'
 
     It may have been evaluated, by a journal in _one field,_ but it needs feedback and credibility from _other fields_ (e.g., theory vs. empirics, etc.)
 
@@ -154,4 +153,6 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
     You may have 'used up' the good journals in your field, or otherwise 'fallen through the cracks'; perhaps the paper is very impactful and the empirics are strong, but the field doesn't see it as innovative or clever. You need another opportunity.
 
-[^9]: At least _we_ are not making any exclusivity restrictions. Some journals might discourage you from publicly posting your work (a ‘pre-print’), but my impression is that this restriction is becoming less and less common or defensible. In Economics, for example, it seems to not be a thing.
+[^13]: We think this is largely not a factor, as discussed below.&#x20;
+
+[^14]: At least _we_ are not making any exclusivity restrictions. Some journals might discourage you from publicly posting your work (a ‘pre-print’), but my impression is that this restriction is becoming less and less common or defensible. In Economics, for example, it seems to not be a thing.
