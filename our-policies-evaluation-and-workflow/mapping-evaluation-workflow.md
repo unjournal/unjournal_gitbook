@@ -82,8 +82,8 @@ UJO --> UJPUB[Publicize, follow availability, <br/> bibliometrics.]
 8. EM collates all evaluations/ratings, shares these with Author, notifies evaluators this was done
    * Be very careful not to share evaluators' identities at this point
      * Especially where evaluators chose anonymity, be extra-careful there is no accidentally-identifying information
-     * Even if evaluators chose to 'sign their evaluation', do not disclose their identity to authors at this point, but tell evaluators they can reach out to [the authors if they desire](#user-content-fn-2)[^2]
-   * Share evaluations with the authors as separate doc/file/space; which [the evaluators _do not have automatic access to_](#user-content-fn-3)[^3]_._
+     * Even if evaluators chose to 'sign their evaluation', do not disclose their identity to authors at this point, but tell evaluators they can reach out to the authors if they desire
+   * Share evaluations with the authors as separate doc/file/space; which [the evaluators _do not have automatic access to_](#user-content-fn-2)[^2]_._
    * Make it clear to authors: their responses will be published (and given a DOI when we can).
 9. Author(s) reads evaluations, given two weeks to submit responses
    * _If there is an embargo, there is more time to do this, of course_
@@ -132,9 +132,8 @@ We also want to encourage papers as [permanent-beta ](../benefits-and-features/l
 2. Where evaluators chose anonymity, none of their evaluation content should be linked to their real names or identity by design. Still, doublecheck this.
 3. We recently were compiling these into a single Gdoc, but this is adding extra work; for now sharing separate files with the author seems a better intermediate solution, until we build an ed. management system.
 4. If an embargo was granted, until after embargo ends or authors release itear
+5. The evaluators can also ask us to disclose their identity and contact info to the authors at this point, to save them the hassle
 
 [^1]: Atm this is an out-link to a Googe Doc.
 
-[^2]: The evaluators can also ask us to disclose their identity and contact info to the authors at this point, to save them the hassle
-
-[^3]: Make this clear to authors. Authors can reach out to evaluators and share any of this if they wish, but they are not required to do so.
+[^2]: Make this clear to authors. Authors can reach out to evaluators and share any of this if they wish, but they are not required to do so.

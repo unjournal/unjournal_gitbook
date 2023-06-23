@@ -194,4 +194,7 @@ Recall, we pay at least $250 per evaluation, we typically pay more in net ($350)
 
 _Hope these updates are helpful. Let me know if you have suggestions._
 
-[^1]: Hopefully, these are more than static emails. We aim to integrate surveys and calls for feedback as well.
+
+
+
+[^2]: content of hover annotation
