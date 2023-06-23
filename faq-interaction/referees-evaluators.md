@@ -41,11 +41,11 @@ Please see:
 
 _**Can I submit an evaluation anonymously?**_
 
-\_2023: Yes, o\_ur current policy is to allow evaluators to choose whether they wish to remain anonymous or 'sign their evaluations'.
+2023: Yes, our current policy is to allow evaluators to choose whether they wish to remain anonymous or 'sign their evaluations'.
 
 ### _**How do we protect the anonymity of evaluators who request it?**_
 
-See [broken-reference](broken-reference/ "mention")
+See [protecting-anonymity.md](../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention")
 
 ### I'm concerned about making my evaluation public; what if I make an error or write something in a way that I later regret?
 
@@ -62,12 +62,14 @@ We will put your review/evaluation on pubpub ( [https://unjournal.pubpub.org/](h
 
 ### (How) are the research authors involved in Unjournal's review process and do they give consent?
 
-See [broken-reference](broken-reference/ "mention") FAQ as well as the [broken-reference](broken-reference/ "mention"). We currently (May 2023) have two ways that papers/research projects enter the Unjournal process:
+See [for-researchers-authors.md](for-researchers-authors.md "mention") FAQ as well as the [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention").
+
+We currently (May 2023) have two ways that papers/research projects enter the Unjournal process:
 
 1. Authors submit their work (perhaps after our reaching out to them); if we believe it is relevant, we assign evaluators, etc. We can also agree with authors to 'embargo' evaluations until a later date, under certain conditions (and evaluators will be informed of this.)
-2. Alternatively, we are selecting a set of working papers released in the [prominent NBER series](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)\* for evaluation; where these papers seem particularly influential, potentially impactful, and relevant for evaluation. For these, we contact the authors before sending out the papers for evaluation, and request the authors' engagement, but we don't ask for _permission_
+2. Alternatively, we are selecting a set of working papers released in the [prominent NBER series](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) for evaluation [(see note)](#user-content-fn-2)[^2]; where these papers seem particularly influential, potentially impactful, and relevant for evaluation. For these, we contact the authors before sending out the papers for evaluation, and request the authors' engagement, but we don't ask for _permission_
 
-(\*Note that papers in the NBER series may enter through either of the above tracks; we will explain this to evaluators).
+
 
 For either track, authors are invited to be involved in several ways:
 
@@ -77,20 +79,20 @@ For either track, authors are invited to be involved in several ways:
 
 ### Can I share this evaluation? What else can I do with this?
 
-If you are writing a signed (not anonymous) review, you can share it or link it on your own pages. Please wait to do this until _after_ we given the author a chance to respond and posted the package (note we as of May 2023 put it up at [unjournal.pubpub.org/](https://unjournal.pubpub.org/)with a DOI and try to get it ito scholarly search engines and bibliometric databases.)
+If you are writing a signed (not anonymous) review, you can share it or link it on your own pages. Please wait to do this until _after_ we given the author a chance to respond and posted the package (note we as of May 2023 put it up at [unjournal.pubpub.org/](https://unjournal.pubpub.org/)with a DOI and try to get it to scholarly search engines and bibliometric databases.)
 
 Otherwise, if you are remaining anonymous. please do not disclose your connection to this report.
 
 _Going forward:_
 
 * We may later invite you to write and evaluate more about this piece of research
-* ... and to help us judge prizes (e.g., [broken-reference](broken-reference/ "mention")).
+* ... and to help us judge prizes (e.g., [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention")).
 * We may ask if you want to be involved in replication exercises (e.g., through [https://i4replication.org/](https://i4replication.org/))
 * We hope and intend to always see you are fairly compensated for your time and effort, as a general principle
 
 ## Public evaluations
 
-### [How are these hosted and shared?](#user-content-fn-2)[^2]
+### [How are these hosted and shared?](#user-content-fn-3)[^3]
 
 (2023 update)
 
@@ -114,4 +116,6 @@ See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluat
 
 [^1]: E.g., 'Selection': Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration
 
-[^2]: 22 Dec 2022: We are still developing and improving this system.
+[^2]: Note that papers in the NBER series may enter through either of the above tracks; we will explain this to evaluators.
+
+[^3]: 22 Dec 2022: We are still developing and improving this system.
