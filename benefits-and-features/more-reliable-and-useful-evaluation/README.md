@@ -22,12 +22,12 @@ We do not 'accept or reject' papers; we are _evaluating_ research, not 'publishi
 
 As an alternative to the traditional 'what tier did a paper get pubIished in' measure, The Unjournal provides _metrics:_ We ask evaluators to provide a specific set of ratings and predictions about _aspects_ of the research, as well as aggregate measures. We make these public. We aim to synthesize and analyze these in useful ways, as well as making this quantitative data accessible to meta-science researchers, meta-analysts, and tool-builders.
 
-See our [broken-reference](broken-reference/ "mention") and [broken-reference](broken-reference/ "mention") (these are our pilot metrics, we aim to refine these).
+See our [ratings metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#metrics-overall-assessment-categories) and [prediction metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#journal-prediction-metrics) (these are our pilot metrics, we aim to refine these).
 
 These are separated into different categories, designed to help researchers, readers, and users understand things like:
 
 * How much to believe the results stated by the authors (and why/why not)?
-* How relevant are these results for particular real-world choices and consideratiouns?
+* How relevant are these results for particular real-world choices and considerations?
 * Is the paper written in a way that is clear and readable?
 * How much does it advance our current knowledge?
 
@@ -46,7 +46,7 @@ Of course, our systems will not solve _all_ problems associated with reviews/eva
 
 ## Better feedback
 
-See also [broken-reference](broken-reference/ "mention")\
+See also [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention")\
 \\
 
 ## Faster (public) evaluation
@@ -55,12 +55,12 @@ We want to reduce the time between 'when research is done' (and a paper or other
 
 Here's how The Unjournal can do this.
 
-1. _Early evaluation:_ We will evaluate potentially-impactful research soon after it is released (as a working paper, preprint, etc.) We will [encourage authors](#user-content-fn-2)[^2] to submit their work for our evaluation, and we will directly commission the evaluation of work from the highest-prestige authors.
+1. _Early evaluation:_ We will evaluate potentially-impactful research soon after it is released (as a working paper, preprint, etc.) We will [encourage authors](#user-content-fn-2)[^2] to submit their work for our evaluation, and we will [directly commission](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md) the evaluation of work from the highest-prestige authors.
 2. _We will pay evaluators_, with further incentives for timeliness (as well as carefulness, thoroughness, communication, and insight). [Evidence suggests](https://www.aeaweb.org/articles?id=10.1257/jep.28.3.169) that these incentives for promptness are likely to work.
 3. _Public evaluations and ratings_: Rather than waiting years to see 'what tier journal a paper lands in', the public can simply consult The Unjournal to find credible evaluations and ratings.
-4. At least, this is our main approach as of June 2023.
-5. See [broken-reference](broken-reference/ "mention")
+
+
 
 [^1]: Subject to some potential temply embargos and rare exceptions for sensitive early-career researchers. We discuss these elsewhere. As of June 2023 there have been no such embargos or exceptions.
 
-[^2]: See [broken-reference](broken-reference/ "mention")
+[^2]: See [#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal](../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal "mention")

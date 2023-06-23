@@ -10,9 +10,9 @@ We want to keep the community informed of our progress and the steps we are cons
 * [action-and-progress](../action-and-progress/ "mention"): for an overview
 {% endhint %}
 
-**MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](#user-content-fn-1)[^1]
+**MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](latest-updates.md#user-content-fn-1)\[^1]
 
-{% @mailchimp/mailchimpSubscribe %}
+\{% @mailchimp/mailchimpSubscribe %\}
 
 ## Update on recent progress: 1 June 2023
 
@@ -32,7 +32,7 @@ Over the next 18 months, we aim to:
 2. Build Credibility: The Unjournal must consistently produce insightful, well-informed, and meaningful evaluations and perform effective curation and aggregation of these. The quality of our work should be substantiated and recognized.
 3. Expand our Scale and Scope: We aim to significantly grow while maintaining the highest standards of quality and credibility. Our loose target is to evaluate around 70 papers/projects over the next 18 months while also producing other valuable outputs and metrics.
 
-I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some 'wish list wins'. Please free to add your comments and questions. \\
+I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some 'wish list wins'. Please free to add your comments and questions.&#x20;
 
 ### The pipeline flows on
 
@@ -193,64 +193,3 @@ Recall, we pay at least $250 per evaluation, we typically pay more in net ($350)
 2. **Research to evaluate/prizes:** We continue to be interested in submitted and suggested work. One area we would like to engage with more: quantitative social science and economics work relevant to animal welfare.
 
 _Hope these updates are helpful. Let me know if you have suggestions._
-
-
-
-### An update to test the Mailchimp automation and integration
-
-This is what our fortnightly updates will look like for people _not on our team_ who subscribe through Mailchimp. (I'll do a separate update email specifically for the management team and advisory board.)
-
-I worked with Fernando to [build a system](https://github.com/unjournal/unjournal\_gitbook/issues/1) to make it easy to automate this from our gitbook (domain: unjournal.org). When we make updates (mainly to the [latest-updates.md](latest-updates.md "mention") page) and enter a particular '#message' in the commit message, it should automatically send the 'changed/new content' as a Mailchimp thing. We can also have it do other things, like post new content to a Substack blog, etc. ... working on that.\
-\
-Anyways, just sending this to test it out. While I'm doing so, I'll check some formatting things.
-
-1. How will hover annotations come out? Here is one.
-2. What about images? <img src="../.gitbook/assets/image (8).png" alt="" data-size="line">
-3. Next I'll try an expandable:
-
-<details>
-
-<summary>The title of the expandable</summary>
-
-the content in the expandable here
-
-a second line.
-
-</details>
-
-4. A hint
-
-{% hint style="info" %}
-Here's the hint
-{% endhint %}
-
-5. Quotes
-
-> I regret that I have but one life to give something something ...
->
-> Hmmm...
->
-> \
-> (Source: some guy trying to remember what Nathan Hale said)
-
-6. Embedded Google doc
-
-{% embed url="https://docs.google.com/document/d/1VuULEx8mC_Sx3DmN9YAQkr-fW176gqOc13IDzAdxk-8/edit?usp=sharing" %}
-Caption for that embedded Gdoc
-{% endembed %}
-
-7. A table
-
-| Column 1 | Col. 2 | Third column                        |
-| -------- | ------ | ----------------------------------- |
-| John     | 89     | _text in italics_                   |
-| Paul     | 80     | blah                                |
-| George   | 83     | ... $$f(x) = x * e^{2 pi i \xi x}$$ |
-
-8. Youtube video
-
-{% embed url="https://www.youtube.com/watch?v=LHyJ_H5wt5g" %}
-
-
-
-[^2]: content of hover annotation
