@@ -30,11 +30,15 @@ description: Journal-independent evaluation of impactful research
 
 <mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme-1/discussion-team/who-are-we-our-team.md) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)
 
-**See our** [broken-reference](broken-reference/ "mention")
+{% hint style="info" %}
+_See_ our **hosted evaluation output** [**HERE**](https://unjournal.pubpub.org/)_._ \
+\
+_Also see our_ [latest-updates.md](readme-1/latest-updates.md "mention").
+{% endhint %}
 
 ## In a nutshell
 
-_We are not a journal!_ The Unjournal will not 'publish any papers in a journal'; we will organize and fund public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects. Our [initial focus: ](policies-projects-evaluation-workflow/considering-projects/)quantitative work that informs global priorities, especially in economics, policy, and social science. We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+_We are not a journal!_ The Unjournal will not 'publish any papers in a journal'; we will organize and fund public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects. Our [initial focus](#user-content-fn-1)[^1]: quantitative work that informs global priorities, especially in economics, policy, and social science. We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 _**Why**? Peer review is great,_ but academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
 
@@ -50,15 +54,15 @@ See [#does-the-unjournal-charge-fees-to-anyone](faq-interaction/#does-the-unjour
 
 **Identifying**, **soliciting, and choosing relevant research work,** **to be hosted on any open platform** in any format that can gain a time-stamped DOI. Authors can present their work in the ways they find most convenient, complete, and legible. We will encourage and enable [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that promote replicability and open science. _(See: the_ [_benefits of dynamic docs_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/benefits-and-features/benefits-of-dynamic-documents)_.)_
 
-\_W\_e will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series (_see our_ [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)).
+We will _also_ directly evaluate high-impact work in the high-profile [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers series (_see our_ [direct evaluation track](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track)).
 
-**Paying reviewers** (i.e, 'evaluators') to give careful feedback on this work. _(_[_Why do we pay_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/why-pay-evaluators-reviewers)_?)_
+**Paying reviewers** (i.e, 'evaluators') to give careful feedback on this work. _(_[_Why do we pay?_](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers)_)_
 
-**Eliciting \_quantifiable and comparable**_\*\* metrics\*\* of research quality as credible measures of value. (_[_Why quantitative metrics_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines#why-numerical-ratings)?)\_
+**Eliciting **_**quantifiable and comparable** metrics of research quality as credible measures of value. (_[_Why quantitative metrics_](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md#why-numerical-ratings)?)
 
 **Public evaluation:** Reviews will typically be made public, along with authors' possible replies. This will facilitate dialogue and a greater understanding of research.
 
-[_**Linking**_\*\* work but not 'publishing it'.\*\* ](#user-content-fn-1)[^1]This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also help benchmark our evaluations against 'traditional publication outcomes'.
+[_**Linking**_ work but not 'publishing it'. ](#user-content-fn-2)[^2]This process will not be 'exclusive': authors can 'submit their work to a journal' at any point. This will also help benchmark our evaluations against 'traditional publication outcomes'.
 
 **Awarding financial prizes** (combined with public presentations) for work judged strongest
 
@@ -78,11 +82,16 @@ Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-pa
 
 <summary><strong>Funding</strong></summary>
 
-Our current funding comes from [acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it). This funding will run out in February 2023.\
+Our current funding comes from: \
+
+
+[survival-and-flourishing-fund-successful.md](grants-and-proposals/survival-and-flourishing-fund-successful.md "mention")\
 \
-We have submitted some other grant applications. E.g., see our u\_nsuccessful:\_ [_FTX application HERE_](grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md)_,_ other grant applications are linked below. We are sharing these in the spirit of transparency.\
+[acx-ltff-grant-proposal-as-submitted-successfull](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it). This funding extended through mid-2023.\
 \
-_We are still seeking more funding, several applications are pending._
+We have submitted some other grant applications. E.g., see our unsuccessful: [_FTX application HERE_](grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md)_,_ other grant applications are linked below. We are sharing these in the spirit of transparency.\
+\
+
 
 </details>
 
@@ -98,7 +107,7 @@ _So why hasn't academia and research community been able to move to something ne
 * _Bringing in new interests, external funding, and incentives:_ There are a range of well-funded and powerful organizations – such as the Sloan Foundation and [Open Philanthropy](https://www.openphilanthropy.org/) – with a strong inherent interest in high-impact research being reliable, robust, and [reasoning transparent](https://www.openphilanthropy.org/research/reasoning-transparency/). This support can change the fundamental incentive structure.
 * _Less risky 'bridging steps'_: In particular, as noted above, The Unjournal allows researchers to _also_ submit their work to traditional journals. In fact, this will provide a _benchmark_ to help our quantitative ratings build and demonstrate their value.
 * _Communicating with researchers and stakeholders_ to make our processes easy, clear, and useful to them
-* _Making our output useful:_[ It may take years](#user-content-fn-2)[^2] for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems. The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.
+* _Making our output useful:_ It may take years for university departments and grant-funders to incorporate journal-independent evaluations as part of their metrics and reward systems. The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.
 * _Technology is improving:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and makes 'formats other than frozen pdfs' more and more useful every day.
 * _Rewarding early adopters with prizes and recognition_: We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
 
@@ -122,7 +131,7 @@ _Please do weigh in, all suggestions and comments will be credited... See also_ 
 
 </details>
 
-## Where I find/where do I go next
+## Where do I find/where do I go next?
 
 See [contents-page.md](readme/contents-page.md "mention")
 
@@ -136,10 +145,11 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 1. Economics, social science, quantitative policy analysis, focusing on global priorities and impact)
 2. E.g., tools like Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents)
+3. Although we are working to encourage this and make it easy.
 
-[^1]: We will also consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
+[^1]: We discuss our prioritization considerations under [what-research-to-target.md](policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md "mention")
 
-[^2]: Although we are working to encourage this and make it easy.
+[^2]: We will also consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
 
 [^3]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
     \
