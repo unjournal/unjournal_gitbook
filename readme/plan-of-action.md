@@ -5,13 +5,12 @@ description: Building a 'best feasible plan'...
 # Plan of action
 
 {% hint style="warning" %}
-What is this Unjournal?... See:\
-[#in-a-nutshell](<../README (1).md#in-a-nutshell> "mention")
+What is this Unjournal?... See: [#in-a-nutshell](<../README (1).md#in-a-nutshell> "mention")
 {% endhint %}
 
-## Post-pilot goals&#x20;
+## Post-pilot goals
 
-See the vision and broad plan presented [here](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit), (and embedded below:)
+See the vision and broad plan presented [here](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit) (and embedded below:)
 
 {% embed url="https://docs.google.com/document/d/1C5CE8X_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit" %}
 
