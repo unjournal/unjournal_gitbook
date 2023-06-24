@@ -28,7 +28,7 @@ description: Journal-independent evaluation of impactful research
 
 </details>
 
-<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">group of researchers</mark>](readme-1/discussion-team/who-are-we-our-team.md) <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)
+<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">team of researchers</mark>](readme-1/discussion-team/who-are-we-our-team.md)<mark style="color:orange;">, practitioners,</mark> <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark> <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)
 
 {% hint style="info" %}
 _See_ our **hosted evaluation output** [**HERE**](https://unjournal.pubpub.org/)_._ \
