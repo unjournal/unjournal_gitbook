@@ -40,5 +40,3 @@ Our management team and advisory board will vote on the prize winners in light o
 **Deadline:** ~~20 November~~ extended until 5 December (to ensure eligibility)
 
 _Note: In a subsection below (_[recap-submissions.md](recap-submissions.md "mention"))_, we recap the basics of submissions to The Unjournal._
-
-##
