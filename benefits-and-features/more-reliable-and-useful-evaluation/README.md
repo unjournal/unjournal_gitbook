@@ -4,7 +4,7 @@
 
 Traditional peer review is a closed process, with reviewers' and editors' comments and recommendations hidden from the public.
 
-In contrast, a[ll Unjournal evaluations\*](#user-content-fn-1)[^1] (along with authors' responses and evaluation manager summaries) are made public and easily accessible. We give each of these a separate DOI, and work to make sure these each enter the literature and bibliometric databases. We aim to further curate these, making it easy to see the evaluators' comments in the context of the research project (e.g., with sidebar/hover annotation).
+In contrast, a[ll Unjournal evaluations\*](#user-content-fn-1)[^1] (along with authors' responses and evaluation manager summaries) are made public and easily accessible. We give each of these a separate DOI and work to make sure these each enter the literature and bibliometric databases. We aim to further curate these, making it easy to see the evaluators' comments in the context of the research project (e.g., with sidebar/hover annotation).
 
 Open evaluation is more useful:
 
@@ -12,7 +12,7 @@ Open evaluation is more useful:
 * To people _using_ the research, providing further perspectives of its value, strengths and weaknesses, implications, and on how and where it might be used.
 
 \
-Publicly posting evaluations and responses may also make them higher quality and more reliable. Evaluators can choose whether or not they wish to remain anonymous (and there are [pros and cons to each](broken-reference/)). In either case, the fact that all the content is _public_ may encourage evaluators to fully and transparently express their reasoning and justifications. (And where they fail to do so, people reading this can take this into account in considering the evaluation.)
+Publicly posting evaluations and responses may also make them of higher quality and more reliable. Evaluators can choose whether or not they wish to remain anonymous (and there are [pros and cons to each](broken-reference/)). In either case, the fact that all the content is _public_ may encourage evaluators to fully and transparently express their reasoning and justifications. (And where they fail to do so, people reading this can take this into account in considering the evaluation.)
 
 The fact that we are asking for evaluations and ratings of all the projects in our system and not 'accept reject' should also drive more careful and comprehensive evaluation and feedback. At a traditional top-ranked journal, a reviewer may limit themselves to a few vague comments implying that the paper is 'not interesting or strong enough to merit publication'. This would not make sense within the context of The Unjournal's process.
 
@@ -20,7 +20,7 @@ The fact that we are asking for evaluations and ratings of all the projects in o
 
 We do not 'accept or reject' papers; we are _evaluating_ research, not 'publishing it'. But then, how do other researchers and students know whether it's worth reading? How can policymakers know whether to trust it? How can it help a researcher advance their career? How can grantmakers and organizations know whether to fund more of this research?
 
-As an alternative to the traditional 'what tier did a paper get pubIished in' measure, The Unjournal provides _metrics:_ We ask evaluators to provide a specific set of ratings and predictions about _aspects_ of the research, as well as aggregate measures. We make these public. We aim to synthesize and analyze these in useful ways, as well as making this quantitative data accessible to meta-science researchers, meta-analysts, and tool-builders.
+As an alternative to the traditional 'what tier did a paper get published in' measure, The Unjournal provides _metrics:_ We ask evaluators to provide a specific set of ratings and predictions about _aspects_ of the research, as well as aggregate measures. We make these public. We aim to synthesize and analyze these in useful ways, as well as make this quantitative data accessible to meta-science researchers, meta-analysts, and tool-builders.
 
 See our [ratings metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#metrics-overall-assessment-categories) and [prediction metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#journal-prediction-metrics) (these are our pilot metrics, we aim to refine these).
 
@@ -46,8 +46,7 @@ Of course, our systems will not solve _all_ problems associated with reviews/eva
 
 ## Better feedback
 
-See also [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention")\
-\\
+See also [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention")
 
 ## Faster (public) evaluation
 
