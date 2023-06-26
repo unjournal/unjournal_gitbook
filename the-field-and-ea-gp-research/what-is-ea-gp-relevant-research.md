@@ -1,22 +1,22 @@
-# What is EA/gp relevant research?
+# What is EA/Global Priorities relevant research?
 
 ## Potentially relevant links
 
-&#x20;[Here are some takes](#user-content-fn-1)[^1] on answers to the question of 'which research is most impactful/to be prioritized'.&#x20;
+[Here are some takes](#user-content-fn-1)[^1] on answers to the question of 'which research is most impactful/which research should be prioritized'.
 
 ### **Funder/organization research agendas**
 
-#### [Global Priorities Institute research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/) (2020)&#x20;
+#### [Global Priorities Institute research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/) (2020)
 
 <details>
 
-<summary>GPI research agenda  – considerations</summary>
+<summary>GPI research agenda – considerations</summary>
 
 GPI focuses on _prioritization_ research – what to prioritize and why; how to consider this. They focus less on 'how to _implement_ improvements and interventions'.
 
 The agenda is divided into "The longtermism paradigm", and "General issues in global prioritisation".
 
-It focuses largely on formal theory (in philosophy, economics, and decision science), and to a lesser extent. methodology. They aim to identify and inform "crucial considerations", and rarely focus on specific impact-assessments. &#x20;
+It focuses largely on formal theory (in philosophy, economics, and decision science), and to a lesser extent. methodology. They aim to identify and inform "crucial considerations", and rarely focus on specific impact-assessments.
 
 Nonetheless, the agenda cites some empirical and directly-policy-relevant work, and there are suggestions (e.g., from Eva Vivalt) that they might move more towards this in the future.
 
@@ -26,23 +26,21 @@ Nonetheless, the agenda cites some empirical and directly-policy-relevant work, 
 
 <summary>GPI research agenda – categories and content</summary>
 
-Below, I (Reinstein) list the categories from GPI's 2020 agenda. I give a first-pass impression of the relevance of these for The Unjournal, in \~descending order (bold = 'most clearly relevant').&#x20;
+Below, I (Reinstein) list the categories from GPI's 2020 agenda. I give a first-pass impression of the relevance of these for The Unjournal, in \~descending order (bold = 'most clearly relevant').
 
 [**1. The longtermism paradigm**](https://globalprioritiesinstitute.org/research-agenda-web-version/#1\_The\_longtermism\_paradigm):tada:
 
-_**More relevant to The Unjournal:**_&#x20;
+_**More relevant to The Unjournal:**_
 
 * _**"**_[_**Reducing and mitigating catastrophic risk**_](https://globalprioritiesinstitute.org/research-agenda-web-version/#13\_Reducing\_and\_mitigating\_catastrophic\_risk)_**"**_
 * **"**[_**Economic growth, population growth and inequality**_](https://globalprioritiesinstitute.org/research-agenda-web-version/#16\_Economic\_growth\_population\_growth\_and\_inequality)_**"**_
 * "[Forecasting the long-term future](https://globalprioritiesinstitute.org/research-agenda-web-version/#18\_Forecasting\_the\_long-term\_future)"
 
-_Less relevant to The Unjournal:_ "[Intergenerational governance](https://globalprioritiesinstitute.org/research-agenda-web-version/#15\_Intergenerational\_governance)",  "[The value of the future of humanity](https://globalprioritiesinstitute.org/research-agenda-web-version/#12\_The\_value\_of\_the\_future\_of\_humanity)",  "[Articulation and evaluation of longtermism](https://globalprioritiesinstitute.org/research-agenda-web-version/#11\_Articulation\_and\_evaluation\_of\_longtermism)", "[Other ways of leveraging the size of the future](https://globalprioritiesinstitute.org/research-agenda-web-version/#14\_Other\_ways\_of\_leveraging\_the\_size\_of\_the\_future)", "[Moral uncertainty for longtermists](https://globalprioritiesinstitute.org/research-agenda-web-version/#17\_Moral\_uncertainty\_for\_longtermists)"
-
-
+_Less relevant to The Unjournal:_ "[Intergenerational governance](https://globalprioritiesinstitute.org/research-agenda-web-version/#15\_Intergenerational\_governance)", "[The value of the future of humanity](https://globalprioritiesinstitute.org/research-agenda-web-version/#12\_The\_value\_of\_the\_future\_of\_humanity)", "[Articulation and evaluation of longtermism](https://globalprioritiesinstitute.org/research-agenda-web-version/#11\_Articulation\_and\_evaluation\_of\_longtermism)", "[Other ways of leveraging the size of the future](https://globalprioritiesinstitute.org/research-agenda-web-version/#14\_Other\_ways\_of\_leveraging\_the\_size\_of\_the\_future)", "[Moral uncertainty for longtermists](https://globalprioritiesinstitute.org/research-agenda-web-version/#17\_Moral\_uncertainty\_for\_longtermists)"
 
 [**2. General issues in global prioritisation**](https://globalprioritiesinstitute.org/research-agenda-web-version/#2\_General\_issues\_in\_global\_prioritisation)
 
-_**More relevant to The Unjournal:**_&#x20;
+_**More relevant to The Unjournal:**_
 
 * [**Distributions of cost-effectiveness**](https://globalprioritiesinstitute.org/research-agenda-web-version/#25\_Distributions\_of\_cost-effectiveness)
 * [Institutions](https://globalprioritiesinstitute.org/research-agenda-web-version/#28\_Institutions)
@@ -51,13 +49,13 @@ _**More relevant to The Unjournal:**_&#x20;
 * [Modelling altruism](https://globalprioritiesinstitute.org/research-agenda-web-version/#26\_Modelling\_altruism)
 * [Altruistic coordination](https://globalprioritiesinstitute.org/research-agenda-web-version/#27\_Altruistic\_coordination)
 
-Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#21\_Decision-theoretic\_issues), [ Epistemological issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues)
+Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#21\_Decision-theoretic\_issues), [Epistemological issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues)
 
 </details>
 
-#### Other agendas&#x20;
+#### Other agendas
 
-_To be expanded, cataloged,  and considered in more detail,_&#x20;
+_To be expanded, cataloged, and considered in more detail,_
 
 * Open Philanthropy [“Technical and Philosophical Questions That Might Affect Our Grantmaking”](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking)
 * [Rethink Priorities 2020 Impact and 2021 Strategy (includes broad agenda)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy)
