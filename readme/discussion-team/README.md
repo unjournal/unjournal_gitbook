@@ -6,7 +6,7 @@ The Unjournal was founded by [David Reinstein](https://davidreinstein.org) <img 
 
 ### [Management Committee](#user-content-fn-1)[^1]
 
-See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)
+See description under [_roles_](../call-for-participants-research/#roles)_._
 
 * [David Reinstein](https://www.davidreinstein.org), Founder and Co-director
 * [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at [IGDORE](https://igdore.org/); Co-director
