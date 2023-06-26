@@ -1,7 +1,7 @@
 # Table of contents
 
 * [The Unjournal](README.md)
-* [The Unjournal (introduction)](<README (1).md>)
+* [An introduction to The Unjournal](<README (1).md>)
   * [Contents overview page](readme/contents-page.md)
   * [How to be part of this](readme/call-for-participants-research/README.md)
     * [Brief version of call](readme/call-for-participants-research/brief-version-of-call.md)
