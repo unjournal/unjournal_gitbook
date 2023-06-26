@@ -1,10 +1,8 @@
----
-description: >-
-  I/we now have funding from a grant from the Long Term Future Fund, forwarded
-  from Scott Alexander's ACX grant. How to now spread the word?
----
-
 # Outreach texts
+
+## Press release (June 2023)
+
+{% embed url="https://docs.google.com/document/d/10G9_l87mV0PCwM36tnu8MbSgbs1IEEpN8iGcow-3KSI/edit?usp=sharing" %}
 
 > An important part of making this a success will be to spread the word, to get positive attention for this project, to get important players on board, network externalities, change the equilibrium etc. I also want to start getting specific feedback and suggestions from people in the Open Science and EA communities (as well as from 'mainstream academics' in Economics, Psychology, and policy/program evaluation). Thus, I'd love to make my own sort of 'press release/social media campaign' and share the good news soon.
 
@@ -167,7 +165,7 @@ Maybe the Unjournal can help.
 
 The Unjournal is in large part about shifting the equilibrium in academia/research. As I said in the application, I think most academics and researchers are happy and ready for this change but there's a coordination problem to resolve. (Everyone thinks 'no one else will get on this boat', even though everyone agrees it's a better boat). I would love to let ACX readers (especially those in research and academia) know there's a "new game in town". Some further key points (please let me know if you think these can be stated better):
 
-* The project space is [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/), which I'd love to share with the public ... to make it easy, it can be announced as "[bit.ly/eaunjournal](http://bit.ly/eaunjournal)" as in "bitly dot com EA unjournal"... and everyone should let me know if they want editor access to the gitbook; also, I made a quick 'open comment space' in the Gdoc [HERE](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing).
+* The project space is unjournal.org, which I'd love to share with the public ... to make it easy, it can be announced as "[bit.ly/eaunjournal](http://bit.ly/eaunjournal)" as in "bitly dot com EA unjournal"... and everyone should let me know if they want editor access to the gitbook; also, I made a quick 'open comment space' in the Gdoc [HERE](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing).
 * I'm looking for feedback and for people interested in being part of this, and for 'nominations' of who might be interested (in championing this, offering great ideas, being part of the committee)
 * We will put together a committee to build some consensus on a set of workable rules and standards (especially for 'how to choose referees', 'what metrics should they report', and 'how to define the scope of EA-relevant work to consider'). But we won't "hold meetings forever", we want to build an MVP soon.
 * I think this could be a big win for EA and RP ‘getting more relevant research’, for improving academia (and ultimately replacing the outdated system of traditional journals), and for building stronger ties between the two groups.
@@ -183,22 +181,22 @@ The Unjournal is in large part about shifting the equilibrium in academia/resear
 
 <summary>Social media/forums, etc (see Airtable 'media_roll')</summary>
 
-#### Social media
+**Social media**
 
 1. Twitter: Academia (esp. Econ, Psych, Global Health), Open science, EA
 2. Facebook
 
-#### EA Forum post (and maybe AMA?)
+**EA Forum post (and maybe AMA?)**
 
-#### EA orgs
+**EA orgs**
 
-#### Open science orgs (OSF, BITSS, ...)
+**Open science orgs (OSF, BITSS, ...)**
 
-#### Academic Economics (& other fields) boards/conferences/groups?
+**Academic Economics (& other fields) boards/conferences/groups?**
 
-#### Universities/groupings of universities
+**Universities/groupings of universities**
 
-#### Slack groups
+**Slack groups**
 
 * Global EA
 * EA Psychology

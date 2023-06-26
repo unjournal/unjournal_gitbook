@@ -2,29 +2,23 @@
 
 _**We want to get authors, research groups, reviewers, and institutions involved, and to support this. They may have doubts, which we try to anticipate and answer throughout this section.**_
 
-
-
 {% hint style="info" %}
 **You can now ask questions of this gitbook using a 'chatbot':** click the search bar and choose 'lens'.
 {% endhint %}
 
-
-
 ## General FAQs
 
-### **What is the Unjournal? (see** [**here**](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)**)**
+### **What is the Unjournal? (see** [**here**](<../README (1).md#in-a-nutshell>)**)**
 
 We will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects.** We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
-### &#x20;**Does the Unjournal charge fees to anyone?**
+### **Does the Unjournal charge fees to anyone?**
 
 **No**. The Unjournal does not charge any fees. In fact, we compensate evaluators for their time, and award prizes for strong work.
 
-We are a nonprofit organization [(hosted: OCF)](https://opencollective.com/the-unjournal). We do not charge fees for access, and work to make it as open as possible. In contrast to most traditional journals, we _compensate_ evaluators for their time, and award prizes for strong work.  \
+We are a nonprofit organization [(hosted: OCF)](https://opencollective.com/the-unjournal). We do not charge fees for access, and work to make it as open as possible. In contrast to most traditional journals, we _compensate_ evaluators for their time, and award prizes for strong work.\
 \
 At some point in the future we might consider sliding-scale fees for people submitting their work for Unjournal Evaluation, or for other services. If we do this, it would simply be as a way to cover the compensation we pay evaluators, and to cover our costs. Again, we are a _nonprofit_ and we will stay that way.
-
-
 
 ### **Is the Unjournal a journal?**
 
@@ -32,7 +26,7 @@ At some point in the future we might consider sliding-scale fees for people subm
 
 ## Public-facing [FAQ](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) (also embedded below)
 
-[This Google Doc](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) offers a space for you to [publically ask us any questions or comments you may have about the project. ](#user-content-fn-2)[^2]We can then publically respond to these below as well.&#x20;
+[This Google Doc](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) offers a space for you to publically [ask us any questions or comments you may have about the project.](#user-content-fn-2)[^2] We can then publically respond to these below as well.
 
 ## Specific FAQs
 
@@ -42,6 +36,8 @@ At some point in the future we might consider sliding-scale fees for people subm
 
 [referees-evaluators.md](referees-evaluators.md "mention")
 
-[^1]: The only possible exception we can think of is that we require the evaluation  be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics and in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
 
-[^2]: Please "@" 'theunjournal@gmail.com' to make sure we're aware of your question.&#x20;
+
+[^1]: The only possible exception we can think of is that we require the evaluation be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics and in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
+
+[^2]: Please "@" 'theunjournal@gmail.com' to make sure we're aware of your question.
