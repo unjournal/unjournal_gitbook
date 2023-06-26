@@ -12,23 +12,19 @@ description: A 'curated guide' to this gitbook; updated June 2023
 
 ### _Learn more about The Unjournal, our goals and policies_
 
-[faq-interaction](../faq-interaction/ "mention")... for authors, evaluators, etc.
+[faq-interaction](../faq-interaction/ "mention")... for authors, evaluators, and so forth
 
-[writings](writings/ "mention"): Writeups of the main points; for a few different audiences.
+[writings](writings/ "mention"): Writeups of the main points; for a few different audiences
 
 [benefits-and-features](../benefits-and-features/ "mention"): Some key benefits of the choices we are making
 
 [policies-projects-evaluation-workflow](../policies-projects-evaluation-workflow/ "mention"): How we choose papers/projects to evaluate, how we assign evaluators, etc.
-
-
 
 ### Other resources and reading
 
 [parallel-partner-initiatives-and-resources](../parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
 
 [the-field-and-ea-gp-research](../the-field-and-ea-gp-research/ "mention"): What research are we talking about? What will we cover?
-
-
 
 ### [Detail, progress, and internal planning](#user-content-fn-1)[^1]
 
