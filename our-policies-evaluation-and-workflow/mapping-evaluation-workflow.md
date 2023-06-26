@@ -122,14 +122,6 @@ We don't want to replicate the slow and inefficient processes of the traditional
 
 We also want to encourage papers as [permanent-beta ](../benefits-and-features/living-research-projects.md)projects. The authors can improve it, if they like, and resubmit it for a new evaluation.
 
-<details>
-
-<summary></summary>
-
-
-
-</details>
-
 1. This might occur through the same 'submission form' authors complete
 2. Where evaluators chose anonymity, none of their evaluation content should be linked to their real names or identity by design. Still, doublecheck this.
 3. We recently were compiling these into a single Gdoc, but this is adding extra work; for now sharing separate files with the author seems a better intermediate solution, until we build an ed. management system.

@@ -145,7 +145,7 @@ See our latest post on the EA Forum
 
 #### Funding, plans, collaborations
 
-We are seeking grant funding for our continued operation and expansion (see [grants-and-proposals](../grants-and-proposals/ "mention") below). We're appealing to funders interested in Open Science and in impactful research.
+We are seeking grant funding for our continued operation and expansion (see [grants and proposals](../grants-and-proposals/) below). We're appealing to funders interested in Open Science and in impactful research.
 
 We're considering collaborations with other compatible initiatives, including...
 
@@ -155,7 +155,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Management and administration, deadlines
 
-* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home) \* We are postponing the deadline for judging the [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the  [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.
 
 #### Other news and media
 

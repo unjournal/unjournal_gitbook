@@ -5,7 +5,7 @@ description: Building a 'best feasible plan'...
 # Plan of action
 
 {% hint style="warning" %}
-What is this Unjournal?... See: [#in-a-nutshell](<../README (1).md#in-a-nutshell> "mention")
+What is this Unjournal?... See [our summary](<../README (1).md#in-a-nutshell>).
 {% endhint %}
 
 ## Post-pilot goals
@@ -33,7 +33,7 @@ _**Updated:**_ [_Partial update 10 Dec 2022._](#user-content-fn-1)[^1]
 
 ## Building research 'unjournal'
 
-See [acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") for proposed specifics
+See [here](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/) for proposed specifics.
 
 ### Setup and team
 
@@ -48,7 +48,7 @@ _Status: Mostly completed/decided for pilot phase_
 ### Create a set of rules for 'submission and management'
 
 * Which projects enter the review system (relevance, minimal quality, stakeholders, any red lines or 'musts')
-  * :hourglass\_flowing\_sand: See [considering-projects](../policies-projects-evaluation-workflow/considering-projects/ "mention") for a first pass
+  * :hourglass\_flowing\_sand: See [here](../policies-projects-evaluation-workflow/considering-projects/) for a first pass.
 * how projects are to be submitted
 * how reviewers are to be assigned and compensated
 
@@ -61,13 +61,13 @@ _Status: Mostly completed/decided for pilot phase;_ will review after initial tr
   * Establish links to all open-access bibliometric initiatives (to the extent feasible)
 * Harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, to coin-based 'ResearchHub', etc.
 
-See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
+See our [guidelines for evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/).
 
 _Status: Mostly completed/decided for pilot phase;_ will review after the initial trial
 
 ### Further steps
 
-See [#the-twelve-month-plan](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan "mention")
+See our [12-month plan](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/#the-twelve-month-plan).
 
 <details>
 

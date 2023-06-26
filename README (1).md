@@ -28,9 +28,9 @@ description: Journal-independent evaluation of impactful research
 
 </details>
 
-## Who are we?
+## &#x20;Who are we?
 
-<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">team of researchers</mark>](readme-1/discussion-team/who-are-we-our-team.md)<mark style="color:orange;">, practitioners,</mark> <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark>
+<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">team of researchers</mark>](broken-reference)<mark style="color:orange;">, practitioners,</mark> <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark>
 
 <mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)
 
@@ -98,9 +98,9 @@ We aim for maximum transparency in our processes and judgments.
 
 <summary>This is not an original idea, and there are others in this 'space', but...</summary>
 
-For example, this proposal is closely related to Elife's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research). (However, we cover a different research focus, and make some different choices, discussed below.)\
+For example, this proposal is closely related to Life's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research). (However, we cover a different research focus, and make some different choices, discussed below.)\
 \
-Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in [this particular research area/focus](#user-content-fn-7)[^7]. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
+Below, we discuss other [parallel-partner-initiatives-and-resources](parallel-partner-initiatives-and-resources/ "mention"), many of whom we hope to work with. However, we think we are the only group funded to do this in this particular research area/focus. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
 
 </details>
 
@@ -133,10 +133,10 @@ So why haven't academia and the research community been able to move to somethin
 * **Allow less risky 'bridging steps'**: As noted above, The Unjournal allows researchers to _also_ submit their work to traditional journals. In fact, this will provide a _benchmark_ to help our quantitative ratings build and demonstrate their value.
 * **Communicate with researchers and stakeholders** to make our processes easy, clear, and useful to them.
 * **Make our output useful**_:_ It may take years for university departments and grant funders to incorporate journal-independent evaluations as part of their metrics and reward systems. The Unjournal can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.
-* **Leverage new technology**_:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and makes[ formats other than static PDFs](#user-content-fn-8)[^8] more and more useful every day.
+* **Leverage new technology**_:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and makes[ formats other than static PDFs](#user-content-fn-7)[^7] more and more useful every day.
 * **Reward early adopters with prizes and recognition**: We can replace 'fear of standing out' with 'fear of missing out'. In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
 
-## [**Our Webpage** ](#user-content-fn-9)[^9] **and our Objectives**
+## [**Our Webpage** ](#user-content-fn-8)[^8] **and our Objectives**
 
 This GitBook serves as a platform to organize our ideas and resources, and track our progress towards The Unjournal's dual objectives:
 
@@ -147,13 +147,12 @@ This GitBook serves as a platform to organize our ideas and resources, and track
 
 <summary>Feedback and discussion</summary>
 
-**Discussion space:** I've set up a post-grant [_Unjournal: <mark style="background-color:orange;">Action plan discussion space</mark>_](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit)<mark style="background-color:orange;">.</mark>&#x20;
-
-25/06/2022 update: I have not kept this discussion space fully updated.
-
-**Please let me know if you want edit/comment access to the present Gitbook.**\
 \
-Please do weigh in, all suggestions and comments will be credited (see also: [Unjournal: public-facing FAQ](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit) - in progress).
+**Discussion space:** I've set up a post-grant "'Unjournal': <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">HERE</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark> 25 Jun 2022 update: I have not kept the above discussion space fully updated.
+
+_**Please let me know if you want edit/comment access to the present Gitbook.**_\
+\
+_Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\\
 
 </details>
 
@@ -167,6 +166,10 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 **Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 
+1. Economics, social science, quantitative policy analysis, focusing on global priorities and impact)
+2. E.g., tools like [Hypothes.is](https://hypothes.is/) (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents)
+3. Although we are working to encourage this and make it easy.
+
 [^1]: We discuss our prioritization considerations under [what-research-to-target.md](policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md "mention")
 
 [^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
@@ -179,10 +182,8 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 [^6]: We will also consider funding later rounds of review/evaluations of improved and expanded versions of previously-evaluated work.
 
-[^7]: Economics, social science, quantitative policy analysis, focusing on global priorities and impact)
+[^7]: E.g., tools like Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents).
 
-[^8]: E.g., tools like Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents).
-
-[^9]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
+[^8]: _**Please let me know if you want edit/comment access to the present Gitbook.**_\
     \
     _Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\\

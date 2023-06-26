@@ -18,8 +18,6 @@ See description under [_roles_](../call-for-participants-research/#roles)_._&#x2
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at [North-West University](https://www.nwu.ac.za/) (South Africa)
 * [Anirudh Tagat](https://www.anirudhtagat.com/), Research Author at the Department of Economics at [Monk Prayogshala](http://www.google.com/url?q=http%3A%2F%2Fwww.monkprayogshala.in\&sa=D\&sntz=1\&usg=AOvVaw0Q2v2r2Rf\_7hISS6yEnqOt) (India)
 
-
-
 ### Advisory board
 
 See description under [_roles_](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme/call-for-participants-research#roles)_._
@@ -141,7 +139,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 </details>
 
-See also [List of People consulted](broken-reference/) (in ACX grant proposal)
+See also [List of People consulted](broken-reference/) (in ACX grant proposal).
 
 ### [related-ea-gp-seminar-series.md](../../parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
 
