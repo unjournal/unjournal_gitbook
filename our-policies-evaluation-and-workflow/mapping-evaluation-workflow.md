@@ -1,6 +1,6 @@
 # Mapping evaluation workflow
 
-linke
+
 
 The flowchart below focuses on the _evaluation_ part of our process.
 
