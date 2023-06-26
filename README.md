@@ -1,6 +1,6 @@
 ---
 description: Journal-independent peer review of research that informs global priorities
-cover: .gitbook/assets/My project-1-5.png
+cover: .gitbook/assets/The UnJournal.png
 coverY: 74
 layout: landing
 ---
