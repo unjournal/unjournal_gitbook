@@ -389,7 +389,7 @@ In future we may be able to pay them to do the above, if grant funding permits..
 
 </details>
 
-#### \`
+#### 6. Relevance to Global Priorities
 
 _Suggested weighting: 0._ _Why 0?_
 
@@ -599,7 +599,7 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^1]: In some cases, we offer additional rewards for feedback and timeliness. We are updating this to a $350 going forward, and hope to increase this in general as well as offer additional incentives for well-written, insightful, and highly-predictive evaluation work.
 
-[^2]: See [broken-reference](broken-reference/ "mention") for a discussion.
+[^2]: See [here](why-these-guidelines.md) for the discussion.
 
 [^3]: (You may want to glance at these tables before writing your report, to gain a sense of our priorities.)
 

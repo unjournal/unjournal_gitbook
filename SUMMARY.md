@@ -8,7 +8,6 @@
     * [Impactful Research Prize](readme/call-for-participants-research/impactful-research-prize/README.md)
       * [Recap: submissions](readme/call-for-participants-research/impactful-research-prize/recap-submissions.md)
   * [Our team](readme/discussion-team/README.md)
-    * [Our team](readme-1/discussion-team/who-are-we-our-team.md)
     * [Reinstein's story in brief](readme-1/discussion-team/reinsteins-story-in-brief.md)
   * [Plan of action](readme/plan-of-action.md)
   * [Explanations & outreach](readme/writings/README.md)

@@ -6,13 +6,13 @@
 [We refer to 'evaluation'](#user-content-fn-1)[^1] because The Unjournal does not _publish_ work; it only links, rates, and evaluates it.
 {% endhint %}
 
-_What we are asking evaluators/referees to do:_ [#evaluation-guidelines-and-criteria](referees-evaluators.md#evaluation-guidelines-and-criteria "mention")
+_What we are asking evaluators/referees to do:_ [Guidelines for Evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
 
 ## Choosing and working with evaluators (referees)
 
 ### How do we choose evaluators?
 
-* We follow standard procedures, considering complementary expertise, interest, cross-citations, and lack of conflict-of-interest. (See our internal guidelines for[#choosing-and-working-with-evaluators-referees](referees-evaluators.md#choosing-and-working-with-evaluators-referees "mention"))
+* We follow standard procedures, considering complementary expertise, interest, cross-citations, and lack of conflict-of-interest. (See our internal guidelines for [choosing evaluators](../management-tech-details-discussion/management-process/choosing-evaluators/))
 * We aim to consult those who have opted-in to our referee pool first
 * We will favor evaluators with a track record of careful, in-depth, and insightful evaluation (while giving ECRs a chance to build such a record)
 
@@ -58,7 +58,7 @@ In the typical journal process, reviewers may make mistakes in reports, and thes
 
 ### Can I redact my evaluation/review after it's published through the Unjournal?
 
-We will put your review/evaluation on pubpub ( [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/)) and give it a DOI. It cannot be redacted in the sense that this initial version will remain on the internet in some format. But you can certainly add an addendum to the review later, which we will post and link, and the DOI can be adjusted to point to the revised version.
+We will put your review/evaluation on [PubPub](https://unjournal.pubpub.org) and give it a DOI. It cannot be redacted in the sense that this initial version will remain on the internet in some format. But you can certainly add an addendum to the review later, which we will post and link, and the DOI can be adjusted to point to the revised version.
 
 ### (How) are the research authors involved in Unjournal's review process and do they give consent?
 
@@ -79,7 +79,7 @@ For either track, authors are invited to be involved in several ways:
 
 ### Can I share this evaluation? What else can I do with this?
 
-If you are writing a signed (not anonymous) review, you can share it or link it on your own pages. Please wait to do this until _after_ we given the author a chance to respond and posted the package (note we as of May 2023 put it up at [unjournal.pubpub.org/](https://unjournal.pubpub.org/)with a DOI and try to get it to scholarly search engines and bibliometric databases.)
+If you are writing a signed (not anonymous) review, you can share it or link it on your own pages. Please wait to do this until _after_ we given the author a chance to respond and posted the package (note we as of May 2023 put it up on our [PubPub](https://unjournal.pubpub.org) with a DOI and try to get it to scholarly search engines and bibliometric databases.)
 
 Otherwise, if you are remaining anonymous. please do not disclose your connection to this report.
 
@@ -87,7 +87,7 @@ _Going forward:_
 
 * We may later invite you to write and evaluate more about this piece of research
 * ... and to help us judge prizes (e.g., [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention")).
-* We may ask if you want to be involved in replication exercises (e.g., through [https://i4replication.org/](https://i4replication.org/))
+* We may ask if you want to be involved in replication exercises (e.g., through the [Institute for Replication](https://i4replication.org/))
 * We hope and intend to always see you are fairly compensated for your time and effort, as a general principle
 
 ## Public evaluations
@@ -96,7 +96,7 @@ _Going forward:_
 
 (2023 update)
 
-* On our [PubPub page](https://unjournal.pubpub.org/) ([unjournal.pubpub.org](https://unjournal.pubpub.org/))
+* On our [PubPub page](https://unjournal.pubpub.org/).
   * Each evaluations and response gets a DOI, linking these into all relevant systems, including Google Scholar
 * Previously: [Kotahi](https://kotahi.community/), linked to a [Sciety](https://sciety.org/) group (we aim to mirror PubPub content to our Sciety group and vice-versa)
 * Potentially: Hosted/mirrored on our own dedicated web page
@@ -104,11 +104,11 @@ _Going forward:_
 
 ### General criteria/guidelines
 
-See [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention") for our current (pilot-stage) approach and template for referees.
+See our [guidelines for evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for our current (pilot-stage) approach and template for referees.
 
-(See also: [#considering-communicating-editors-process](../policies-projects-evaluation-workflow/considering-projects/#considering-communicating-editors-process "mention"))
+(See also: [Considering Papers](../policies-projects-evaluation-workflow/considering-projects/)).
 
-###
+
 
 1. 22 Dec 2022: We are still developing and improving this system.
 2. E.g., for wider audiences, e.g., on Wikipedia, the EA Forum, or Asterisk magazine.
