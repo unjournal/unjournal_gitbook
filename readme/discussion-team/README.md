@@ -6,7 +6,7 @@ The Unjournal was founded by [David Reinstein](https://davidreinstein.org) <img 
 
 ### [Management Committee](#user-content-fn-1)[^1]
 
-See description under [_roles_](../call-for-participants-research/#roles)_._
+See description under [_roles_](../call-for-participants-research/#roles)_._&#x20;
 
 * [David Reinstein](https://www.davidreinstein.org), Founder and Co-director
 * [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at [IGDORE](https://igdore.org/); Co-director
@@ -47,6 +47,8 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 [Jana Lasser, ](https://www.janalasser.at/)Postdoctoral researcher, Institute for Interactive Systems and Data Science at Graz University of Technology (Austria)
 
 [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics (France)
+
+
 
 ## Other people and initiatives we are in touch with
 
@@ -145,6 +147,9 @@ See also [List of People consulted](broken-reference/) (in ACX grant proposal)
 
 ### [plan-of-action.md](../plan-of-action.md "mention")
 
-1. _We may be adding more members as we progress._
 
-[^1]: Previously listed as "Founding Committee", occasionally referred to as "Management Team" or "Founding Team". Referred to as "Managers" in the flowchart.
+
+[^1]: June 2023: We are expanding this team. \
+
+
+    This was previously listed as "Founding Committee", occasionally referred to as "Management Team" or "Founding Team". Referred to as "Managers" in the flowchart.&#x20;
