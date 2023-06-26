@@ -9,7 +9,7 @@
 We use “publication in top journals” to measure two main things. First, policymakers (including important regulators like the FDA) and journalists use these to assess whether research is credible and reputable. Second, universities and other institutions use this to guide hiring, tenure, promotion, grants, and other ‘rewards for researchers.’
 
 {% hint style="info" %}
-**Did you know?:** More often than not, a[cademic economists speak of](https://twitter.com/search?q=%22Yes%20I%20always%20found%20it%20bizarre%20that%20we%20talk%20about%20the%20%E2%80%9Csupply%E2%80%9D%20of%20spots%20in%20coveted%20journals%20vs%20the%20%E2%80%9Cdemand%E2%80%9D%20for%20publishing%20there%22\&src=typed\_query) the "supply of spaces in journals” and the “demand to publish in these journals”. Who is the consumer? Certainly not the perhaps-mythical creature known as the ‘reader’.
+**Did you know?:** More often than not, [academic economists speak of](https://twitter.com/search?q=%22Yes%20I%20always%20found%20it%20bizarre%20that%20we%20talk%20about%20the%20%E2%80%9Csupply%E2%80%9D%20of%20spots%20in%20coveted%20journals%20vs%20the%20%E2%80%9Cdemand%E2%80%9D%20for%20publishing%20there%22\&src=typed\_query) the "supply of spaces in journals” and the “demand to publish in these journals”. Who is the consumer? Certainly not the perhaps-mythical creature known as the ‘reader’.
 {% endhint %}
 
 ### This can be incredibly slow and risky for career academics
@@ -18,15 +18,15 @@ We use “publication in top journals” to measure two main things. First, poli
 
 _As a result…_
 
-1. **Researchers/Academics spend a tremendous amount of time "gaming" this process**.
-2. It leads to a great deal of **randomness in outcomes,** leading the cream to not always rise to the top, making research careers much more stressful (driving out more risk-averse researchers).
-3. A lot of **‘feedback’ is wasted** (and [reviewer’s time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)) and a lot of effort is spent trying to curry favor with reviewers.
+1. Researchers and academics spend a tremendous amount of time **"gaming"** this process.
+2. This system breeds **randomness in outcomes,** which often prevents the most deserving work from gaining recognition. In turn, this increases the stress associated with research careers, thereby discouraging risk-averse researchers.
+3. A lot of **‘feedback’ is wasted** (including the [reviewer’s time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)). A substantial amount of effort is spent on attempting to curry favor with reviewers, instead of focusing on the research itself.
 
 <details>
 
 <summary><strong>But do we need REJECTION as a hard filter to weed out flawed and messy content?</strong></summary>
 
-Perhaps not: we are accustomed to using ratings as filters in our daily lives. Readers, grantmakers, and policymakers can decide for themselves what ‘floor’ they want to use, discarding papers and projects that have (e.g.) 2+ peer reviews with an average accuracy rating above 3 and an average impact rating above 4.
+Perhaps not. We are accustomed to using ratings as filters in our daily lives. Readers, grantmakers, and policymakers can set their own threshold. They could disregard papers and projects that fail to meet, for instance, a standard of at least two peer reviews, an average accuracy rating above 3, and an average impact rating exceeding 4.
 
 </details>
 
@@ -34,7 +34,7 @@ Perhaps not: we are accustomed to using ratings as filters in our daily lives. R
 
 I (Reinstein) have been in academia for about 20 years. Around the coffee pot, cafeteria table, research conferences, etc., roughly half of what we talked about was... the actual theory, methods, and results? No, we talk about “who got into which journal and how unfair it is”, “which journal should we be submitting our papers to?”, how long are their “turnaround times”, “how highly rated are these journals,” etc. We offer [tips](https://twitter.com/search?q=%22%20how%20to%20strategically%20please%20referees%20and%20sneak%20it%20into%20journals%22\&src=typed\_query) on how to [‘sneak into these journals’.](https://twitter.com/GivingTools/status/1188786422381268992)
 
-There is a lot of pressure, and even bullying, to achieve these “publication outcomes” at the [expense of careful methodology](#user-content-fn-2)[^2].
+There is a lot of pressure, and even bullying, to achieve these “publication outcomes” at the expense of careful methodology.
 
 ### It leads to a great deal of randomness in outcomes...
 
@@ -48,14 +48,18 @@ Of course, the reviews may be misinformed, mistaken, or misunderstanding somethi
 
 _The other side of the coin_: a lot of effort is spent trying to overly curry favor with reviewers who are often seen as overly fussy and not always in the direction of good science.
 
-1. Paula Masuzzo: “I was told that publishing in Nature/Cell/Science was more important than everything else.”
-2. Anonymous quote:\
-   "This game takes away the creativity, the risk, the ‘right to fail’. This last item is for me, personally, very important and often underestimated. Science is mostly messy. Whoever tells us otherwise, is not talking about Science.”
+<details>
+
+<summary><strong>Some examples (quotes)</strong>:</summary>
+
+Paola Masuzzo; “I was told that publishing in Nature/Cell/Science was more important than everything else.”
+
+Anonymous; "This game takes away the creativity, the risk, the ‘right to fail’. This last item is for me, personally, very important and often underestimated. Science is mostly messy. Whoever tells us otherwise, is not talking about Science.”
+
+</details>
 
 [^1]: * [Link](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr\_zTmaVpTfBg4A/edit#heading=h.e1wqoks5tivx) to discussion space
 
     <!---->
 
     * Slide collage of 'academics complaining' [beginning here](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_521)
-
-[^2]: Paula Masuzzo: “I was told that publishing in Nature/Cell/Science was more important than everything else.”
