@@ -20,7 +20,7 @@ _Update from David Reinstein, Founder and Co-Director_
 
 ### A path to change
 
-With the [recent news](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/latest-updates#grant-funding-from-the-survival-and-flourishing-fund), we now have the opportunity to move forward and really make a difference. I think The Unjournal, along with related initiatives in other fields, should become the place policymakers, grant-makers, and researchers go to consider whether research is reliable and useful. It should be a serious option for researchers looking to get their work evaluated. But how can we start to have a real impact?
+With the [recent news](latest-updates.md#grant-funding-from-the-survival-and-flourishing-fund), we now have the opportunity to move forward and really make a difference. I think The Unjournal, along with related initiatives in other fields, should become the place policymakers, grant-makers, and researchers go to consider whether research is reliable and useful. It should be a serious option for researchers looking to get their work evaluated. But how can we start to have a real impact?
 
 $$
 Awareness \cap Credibility \cap Scale \rightarrow Impact
@@ -41,7 +41,7 @@ While we wait for the new grant funding to come in, we are not sitting on our ha
 1. [“Banning wildlife trade can boost demand for unregulated threatened species”](https://unjournal.pubpub.org/pub/banning-wildlife-eval-summ/release/2)
 2. ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC”](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)
 
-With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide the recipients for the [Impactful Research Prize](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/call-for-participants-research/impactful-research-prize) and the prizes for evaluators, announce and award these, and organize online presentations/discussions (maybe linked to an 'award ceremony'?).
+With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide the recipients for the [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, announce and award these, and organize online presentations/discussions (maybe linked to an 'award ceremony'?).
 
 ### Contracting, hiring, expansion
 
@@ -56,7 +56,7 @@ No official announcements yet. However, we expect to be hiring (on a part-time c
 
 You can also/alternately register your interest in doing (paid) research evaluation work for the Unjournal, and/or being part of our advisory board [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
 
-We also plan to expand our [Management Team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/discussion-team/who-are-we-our-team#management-committee); please reach out if you are interested or can recommend suitable candidates.
+We also plan to expand our [Management Committee](../readme/discussion-team/#management-committee); please reach out if you are interested or can recommend suitable candidates.
 
 ### Tech and initiatives
 
@@ -66,7 +66,7 @@ A small win: our Mailchimp signup should now be working, and this update should 
 
 ### Welcoming new team members
 
-We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/readme-1/discussion-team/who-are-we-our-team#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our Management Committee!
+We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](../readme/discussion-team/#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our [Management Committee](../readme/discussion-team/#management-committee)!
 
 * Dworkin work centers on "improving scientific research, funding, institutions, and incentive structures through experimentation".
 * Treich's current research agenda largely focuses on the intersection of animal welfare and economics.

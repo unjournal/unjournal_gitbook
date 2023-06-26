@@ -25,7 +25,9 @@ If there is an early-career researcher on the authorship team, we will allow aut
 
 In very special circumstances we may consider granting a ['conditional indefinite embargo'.](#user-content-fn-5)[^5]
 
-### What we **ask/request of authors**
+
+
+### What we may **ask of authors**
 
 If we consider your work for public evaluation, we may ask for _some_ of the below, but these are mainly optional. We will aim to make this very _light touch_ for authors.
 
@@ -129,7 +131,7 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
 [^5]: E.g., where evaluations with ratings below a certain value will never be made public. In such cases, the evaluators will be informed of this in advance, and, if we publish some evaluations of the paper,  it will be noted that this policy was in place.
 
-[^6]: See “[Benefits of dynamic documents](../benefits-and-features/benefits-of-dynamic-documents.md)"
+[^6]: See “[benefits of dynamic documents](../benefits-and-features/benefits-of-dynamic-documents.md)"
 
 [^7]: Again, remember that _we_ will not be "publishing" this work, just evaluating it.. We can help you figure out how to host and 'DOI it', however.
 
