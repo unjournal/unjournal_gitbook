@@ -40,7 +40,7 @@ _Also see our_ [latest-updates.md](readme-1/latest-updates.md "mention").
 
 _We are not a journal!_ The Unjournal will not 'publish any papers in a journal'; we will organize and fund public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects. Our [initial focus](#user-content-fn-1)[^1]: quantitative work that informs global priorities, especially in economics, policy, and social science. We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
-_**Why**? Peer review is great,_ but academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
+_**Why**? Peer review is great;_ however academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and encourage a great deal of effort spent 'gaming the system'. We will both provide an immediate alternative and also offer a bridge to a better system.
 
 <details>
 
