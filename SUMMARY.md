@@ -11,6 +11,7 @@
     * [Reinstein's story in brief](readme-1/discussion-team/reinsteins-story-in-brief.md)
   * [Plan of action](readme/plan-of-action.md)
   * [Explanations & outreach](readme/writings/README.md)
+    * [Press releases](readme-1/writings/press-releases.md)
     * [Outreach texts](readme/writings/marketing-and-outreach.md)
     * [Related articles and work](readme/writings/related-articles-and-work.md)
   * [Latest updates](readme-1/latest-updates.md)

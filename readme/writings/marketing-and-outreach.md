@@ -1,9 +1,5 @@
 # Outreach texts
 
-## Press release (June 2023)
-
-{% embed url="https://docs.google.com/document/d/10G9_l87mV0PCwM36tnu8MbSgbs1IEEpN8iGcow-3KSI/edit?usp=sharing" %}
-
 > An important part of making this a success will be to spread the word, to get positive attention for this project, to get important players on board, network externalities, change the equilibrium etc. I also want to start getting specific feedback and suggestions from people in the Open Science and EA communities (as well as from 'mainstream academics' in Economics, Psychology, and policy/program evaluation). Thus, I'd love to make my own sort of 'press release/social media campaign' and share the good news soon.
 
 ## Key points to convey
