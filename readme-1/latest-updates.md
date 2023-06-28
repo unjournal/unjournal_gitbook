@@ -10,9 +10,9 @@ We want to keep the community informed of our progress and the steps we are cons
 * [action-and-progress](../action-and-progress/ "mention"): for an overview
 {% endhint %}
 
-**MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](latest-updates.md#user-content-fn-1)\[^1]
+**MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](latest-updates.md#user-content-fn-1)
 
-\{% @mailchimp/mailchimpSubscribe %\}
+{% @mailchimp/mailchimpSubscribe %}
 
 ## Update on recent progress: 1 June 2023
 
