@@ -33,7 +33,7 @@ URL: set to:
 
 {% code overflow="wrap" %}
 ```
-javascript:(function() { var publicUrl = document.location.href.replace('app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt', 'effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/'); window.open(publicUrl, '_blank'); })()
+javascript:(function() { var publicUrl = document.location.href.replace('app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt', 'globalimpact.gitbook.io/the-unjournal-project-and-communication-space/'); window.open(publicUrl, '_blank'); })()
 ```
 {% endcode %}
 
@@ -47,6 +47,6 @@ URL: set to:
 
 {% code overflow="wrap" %}
 ```
-javascript:(function() { var editableUrl = document.location.href.replace('effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/', 'app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/'); window.open(editableUrl, '_blank'); })()
+javascript:(function() { var editableUrl = document.location.href.replace('globalimpact.gitbook.io/the-unjournal-project-and-communication-space/', 'app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/'); window.open(editableUrl, '_blank'); })()
 ```
 {% endcode %}
