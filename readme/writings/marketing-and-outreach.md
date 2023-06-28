@@ -1,6 +1,6 @@
 # Outreach texts
 
-> An important part of making this a success will be to spread the word, to get positive attention for this project, to get important players on board, network externalities, change the equilibrium etc. I also want to start getting specific feedback and suggestions from people in the Open Science and EA communities (as well as from 'mainstream academics' in Economics, Psychology, and policy/program evaluation). Thus, I'd love to make my own sort of 'press release/social media campaign' and share the good news soon.
+> An important part of making this a success will be to spread the word, to get positive attention for this project, to get important players on board, network externalities, and change the equilibrium. We are also looking for specific feedback and suggestions from 'mainstream academics' in Economics, Psychology, and policy/program evaluation, as well as from the Open Science and EA communities.&#x20;
 
 ## Key points to convey
 
