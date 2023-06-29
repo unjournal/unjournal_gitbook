@@ -1,10 +1,8 @@
-# What is EA/Global Priorities relevant research?
+# Impactful and global-priorities-relevant research
 
 {% hint style="info" %}
-[Here are some takes](#user-content-fn-1)[^1] on answers to the question of 'which research is most impactful/which research should be prioritized'.
+On this page we link and discuss [some takes](#user-content-fn-1)[^1] on answers to the question of 'which research is most impactful/which research should be prioritized'.
 {% endhint %}
-
-
 
 ## Syllabi
 
@@ -65,7 +63,9 @@ Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org
 
 </details>
 
-### Other agendas and discussions
+
+
+## Other agendas and discussions
 
 _To be expanded, catalogued, and considered in more detail,_
 
@@ -92,7 +92,7 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 
 
 
-[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic:  <img src="../.gitbook/assets/image (9).png" alt="" data-size="line">
+[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic:  <img src=".gitbook/assets/image (9).png" alt="" data-size="line">
 
 
 
@@ -102,23 +102,23 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 
 
 
-### **General, advice**
+## **General, advice**
 
 * [80000 Hours research questions by discipline](https://80000hours.org/articles/research-questions-by-discipline/)
 * [Effective thesis project 'research agendas'](https://effectivethesis.org/research-agendas/)
 * ['Cause X guide'](https://forum.effectivealtruism.org/posts/kFmFLcdSFKo2GFJkc/cause-x-guide)
 * [Cause mapping resources (sheet with links, associated with Falk Lieder](https://docs.google.com/spreadsheets/d/1b8Tw0OpyTSh-qbW6yAD93asrI1nEwc2\_GseJRlh-kJM/edit#gid=460638401))
 
-### **Psychology and well-being related**
+## **Psychology and well-being related**
 
 * [EA Psychology research agenda](https://www.eapsychology.org/research-agenda)
 * [How effective altruism can help psychologists maximize their impact](https://psyarxiv.com/8dw59/) (Gainsburg et al, 2021)
 * [Spencer Greenberg's list of "most important psychology topics](https://docs.google.com/spreadsheets/d/1cIreVxInZh9a6rWq2Qc-HRzp5UE1oL1ZUiQVD1ZsUec/edit#gid=0)"
 * [Life Improvement Science "Potential Research Priorities..."](https://www.life-improvement.science/research-priorities/promising-questions) also '[Grand challenges](https://www.life-improvement.science/research-priorities/gcmain)"
 
-##
 
-## David Reinstein's slides/outline of this field and opportunities
+
+## Reinstein's slides/outline of this field and opportunities
 
 {% embed url="https://daaronr.github.io/reinstein_web/ea_research_priorities_opportunities_rjs_sc_notes_within.html#/" %}
 `Slides`

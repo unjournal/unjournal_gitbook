@@ -24,7 +24,7 @@ description: A 'curated guide' to this gitbook; updated June 2023
 
 [parallel-partner-initiatives-and-resources](../parallel-partner-initiatives-and-resources/ "mention")... groups we work with; comparing approaches
 
-[the-field-and-ea-gp-research](../the-field-and-ea-gp-research/ "mention"): What research are we talking about? What will we cover?
+[the-field-and-ea-gp-research.md](../the-field-and-ea-gp-research.md "mention"): What research are we talking about? What will we cover?
 
 ### [Detail, progress, and internal planning](#user-content-fn-1)[^1]
 
