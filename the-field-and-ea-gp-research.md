@@ -69,7 +69,7 @@ Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org
 
 _To be expanded, catalogued, and considered in more detail,_
 
-[Happier Lives Institute](https://www.happierlivesinstitute.org/research-agenda.html) research priorities (2021): This seems very well put-together. Each section has a list of relevant academic literature, some of which is recent and some is applied or empirical.
+[Happier Lives Institute](https://www.happierlivesinstitute.org/research-agenda.html) [research agenda](https://www.happierlivesinstitute.org/research-agenda.html) ('research priorities') (2021): A particularly well-organized discussion. Each section has a list of relevant academic literature, some of which is recent and some of which is applied or empirical.
 
 
 
