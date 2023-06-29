@@ -14,11 +14,11 @@ We will organize and fund **public journal-independent feedback, rating, and eva
 
 ### **Does the Unjournal charge fees to anyone?**
 
-**No**. The Unjournal does not charge any fees. In fact, we compensate evaluators for their time, and award prizes for strong work.
+**No**. The Unjournal does not charge any fees. In fact, we compensate evaluators for their time, and award prizes for strong work (in contrast to most traditional journals).
 
-We are a nonprofit organization [(hosted: OCF)](https://opencollective.com/the-unjournal). We do not charge fees for access, and work to make it as open as possible. In contrast to most traditional journals, we _compensate_ evaluators for their time, and award prizes for strong work.\
+We are a nonprofit organization [(hosted by OCF)](https://opencollective.com/the-unjournal). We do not charge fees for access, and work to make it as open as possible. \
 \
-At some point in the future we might consider sliding-scale fees for people submitting their work for Unjournal Evaluation, or for other services. If we do this, it would simply be as a way to cover the compensation we pay evaluators, and to cover our costs. Again, we are a _nonprofit_ and we will stay that way.
+At some point in the future we might consider sliding-scale fees for people submitting their work for Unjournal evaluation, or for other services. If we do this, it would simply be as a way to cover the compensation we pay evaluators, and to cover our costs. Again, we are a _nonprofit_ and we will stay that way.
 
 ### **Is the Unjournal a journal?**
 
@@ -38,6 +38,6 @@ At some point in the future we might consider sliding-scale fees for people subm
 
 
 
-[^1]: The only possible exception we can think of is that we require the evaluation be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics and in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
+[^1]: The only possible exception we can think of is that we require that the evaluation must be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics nor in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
 
 [^2]: Please "@" 'theunjournal@gmail.com' to make sure we're aware of your question.
