@@ -1,12 +1,24 @@
 # What is EA/Global Priorities relevant research?
 
-## Potentially relevant links
-
+{% hint style="info" %}
 [Here are some takes](#user-content-fn-1)[^1] on answers to the question of 'which research is most impactful/which research should be prioritized'.
+{% endhint %}
 
-### **Funder/organization research agendas**
 
-#### [Global Priorities Institute research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/) (2020)
+
+## Syllabi
+
+### Rhys-Bernard: reading syllabus - [An introduction to global priorities research for economists](https://forum.effectivealtruism.org/posts/dia3NcGCqLXhWmsaX/an-introduction-to-global-priorities-research-for-economists)
+
+### Phil Trammel: "Topics in Economic Theory & Global Prioritization"  provisional syllabus
+
+[See also "Existing resources (Economics focused)](http://localhost:5000/s/SqDA4IisXAMIzALFWshJ/existing-resources-programs-examples)" in other Gitbook, and Stafforini's list of EA syllabi [here](http://www.stafforini.com/blog/effective-altruism-syllabi)
+
+
+
+## **Funder/organization research agendas**
+
+### [Global Priorities Institute research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/) (2020)
 
 <details>
 
@@ -53,16 +65,42 @@ Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org
 
 </details>
 
-#### Other agendas
+### Other agendas and discussions
 
-_To be expanded, cataloged, and considered in more detail,_
+_To be expanded, catalogued, and considered in more detail,_
 
-* Open Philanthropy [“Technical and Philosophical Questions That Might Affect Our Grantmaking”](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking)
-* [Rethink Priorities 2020 Impact and 2021 Strategy (includes broad agenda)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy)
-* [Happier lives institute](https://www.happierlivesinstitute.org/research-agenda.html) research priorities
-* [Animal Charity Evaluators' research](https://animalcharityevaluators.org/research/)
-* [Giving What We Can 'high impact causes'](https://www.givingwhatwecan.org/cause-areas)
-* [UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025)
+[Happier Lives Institute](https://www.happierlivesinstitute.org/research-agenda.html) research priorities (2021): This seems very well put-together. Each section has a list of relevant academic literature, some of which is recent and some is applied or empirical.
+
+
+
+[Animal Charity Evaluators](https://animalcharityevaluators.org/research/): The '[Methodology](https://animalcharityevaluators.org/research/methodology/)' and 'Research briefs' are particularly helpful, and connect to a range of academic and policy research &#x20;
+
+
+
+Open Philanthropy [“Technical and Philosophical Questions That Might Affect Our Grantmaking”](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking): fairly brief discussion and overview, links mostly to OP-funded research
+
+
+
+<details>
+
+<summary>Also consider</summary>
+
+[Giving What We Can 'high impact causes'](https://www.givingwhatwecan.org/cause-areas): some simple discussions of the cause they prioritize, backed by numbers and links/citations
+
+\
+[Rethink Priorities 2021 strategy (forum post)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy): Some directional suggestions under "Our research going forward is expected to focus on"
+
+
+
+[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic:  <img src="../.gitbook/assets/image (9).png" alt="" data-size="line">
+
+
+
+
+
+</details>
+
+
 
 ### **General, advice**
 
