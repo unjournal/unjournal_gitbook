@@ -4,15 +4,18 @@ description: (for pilot and beyond)
 
 # What research to target?
 
+Our [initial focus](#user-content-fn-1)[^1]:[ ](broken-reference)quantitative work that informs [global priorities](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2].&#x20;
+
 _See discussion in public call/EA forum discussion:_
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
-_See_ [Broken link](broken-reference "mention")
 
-_Management access only_: General discussion of prioritization in Gdoc [HERE](https://docs.google.com/document/d/1Ei-3t2bUazjlBOIg8chLxOrz\_sXl\_osAzrLU4hO1wDk/edit). Private discussion of specific papers in Airtable and links (e.g., [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit))
 
 {% hint style="info" %}
+_Management access only_: General discussion of prioritization in Gdoc [HERE](https://docs.google.com/document/d/1Ei-3t2bUazjlBOIg8chLxOrz\_sXl\_osAzrLU4hO1wDk/edit). Private discussion of specific papers in Airtable and links (e.g., [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit))\
+
+
 _Excerpt:_
 
 1. _**W**_**hy is it relevant and worth engaging with?**
@@ -25,3 +28,7 @@ Consider: Global priority importance, field relevance, open science, authors' en
 * What aspects of the evidence, argumentation, methods, interpretation, etc., are you unsure about?
 * What particular data, code, proofs, etc., would you like to see vetted. If it has already been peer-reviewed in some way, why do you think more review is needed?
 {% endhint %}
+
+[^1]: We discuss our prioritization considerations under [Broken link](broken-reference "mention")&#x20;
+
+[^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
