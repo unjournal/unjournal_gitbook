@@ -1,6 +1,6 @@
-# ("Global Priorities")
+# Considering 'global priorities'
 
-[Broken link](broken-reference "mention")
+[the-field-and-ea-gp-research.md](../the-field-and-ea-gp-research.md "mention")
 
 [what-research-to-target.md](../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md "mention")
 

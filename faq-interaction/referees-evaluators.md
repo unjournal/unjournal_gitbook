@@ -79,7 +79,7 @@ For either track, authors are invited to be involved in several ways:
 
 ### Can I share this evaluation? What else can I do with this?
 
-If you are writing a signed (not anonymous) review, you can share it or link it on your own pages. Please wait to do this until _after_ we given the author a chance to respond and posted the package (note we as of May 2023 put it up on our [PubPub](https://unjournal.pubpub.org) with a DOI and try to get it to scholarly search engines and bibliometric databases.)
+If you are writing a signed (not anonymous) review, you can share it or link it on your own pages. Please wait to do this until _after_ we have given the author a chance to respond and posted the package (note we as of May 2023 put it up on our [PubPub](https://unjournal.pubpub.org) with a DOI and try to get it to scholarly search engines and bibliometric databases.)
 
 Otherwise, if you are remaining anonymous. please do not disclose your connection to this report.
 

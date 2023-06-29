@@ -1,4 +1,4 @@
-# Impactful and global-priorities-relevant research
+# What is 'global-priorities-relevant research'?
 
 {% hint style="info" %}
 On this page we link and discuss [some takes](#user-content-fn-1)[^1] on answers to the question of 'which research is most impactful/which research should be prioritized'.

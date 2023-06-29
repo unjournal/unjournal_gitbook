@@ -589,7 +589,7 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 1. We are using a Google Doc for now, we hope to move to a more helpful interface soon.
 2. These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions and guidelines for specific research.
-3. David Reinstein: Here, I am thinking of the process in economics, the field I am most familiar with. See [broken-reference](broken-reference/ "mention") for general guidelines.
+3. David Reinstein: Here, I am thinking of the process in economics, the field I am most familiar with. See  for general guidelines.
 4. We give _"suggested weights" as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment._
 5. _Above, we completed both only for illustration purposes._
 6. 20 Mar 2023: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear
