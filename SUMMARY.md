@@ -45,7 +45,6 @@
   * [Communicating results](policies-projects-evaluation-workflow/communicating-results.md)
 * [The field and EA/gp research](the-field-and-ea-gp-research/README.md)
   * [What is EA/Global Priorities relevant research?](the-field-and-ea-gp-research/what-is-ea-gp-relevant-research.md)
-  * [Syllabi](the-field-and-ea-gp-research/syllabi.md)
 * [Action and progress](action-and-progress/README.md)
   * [Pilot steps](action-and-progress/pilot-steps/README.md)
     * [Pilot: Building founding committee](action-and-progress/pilot-steps/action-build-founding-committee.md)
