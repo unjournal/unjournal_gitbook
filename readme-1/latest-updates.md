@@ -180,7 +180,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 <!---->
 
-* with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research](../the-field-and-ea-gp-research/ "mention"); e.g., global health and development),
+* with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research.md](../the-field-and-ea-gp-research.md "mention"); e.g., global health and development),
 
 <!---->
 
