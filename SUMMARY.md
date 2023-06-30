@@ -7,6 +7,7 @@
     * [Brief version of call](readme/call-for-participants-research/brief-version-of-call.md)
     * [Impactful Research Prize](readme/call-for-participants-research/impactful-research-prize/README.md)
       * [Recap: submissions](readme/call-for-participants-research/impactful-research-prize/recap-submissions.md)
+    * [Interested in working for The Unjournal?](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal.md)
   * [Our team](readme/discussion-team/README.md)
     * [Reinstein's story in brief](readme-1/discussion-team/reinsteins-story-in-brief.md)
   * [Plan of action](readme/plan-of-action.md)
