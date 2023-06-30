@@ -14,7 +14,7 @@ We want to keep the community informed of our progress and the steps we are cons
 
 {% @mailchimp/mailchimpSubscribe %}
 
-Alternately, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests.&#x20;
+Alternately, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests.    Data protection statement linked [HERE](https://bit.ly/46y0LqH).
 
 {% embed url="http://eepurl.com/ipFMdg" %}
 

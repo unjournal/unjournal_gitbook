@@ -19,7 +19,7 @@ If you have research you would like us to assess (either your own or others'), p
 We're anticipating several job openings, spanning research, communications, and operational/administrative roles. See our [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit), and express your interest in [this form](https://airtable.com/shrxGwooWtwZqY8cd).
 
 \
-_Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed._
+_Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._
 {% endhint %}
 
 <details>

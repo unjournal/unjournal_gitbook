@@ -60,7 +60,7 @@ _We are also researching other frameworks, templates, and past practices; we hop
 
 See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06016-0), 2022
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (3).png>)
 
 ### Revisions as part of process?
 

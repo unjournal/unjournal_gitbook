@@ -92,7 +92,7 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 
 
 
-[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic:  <img src=".gitbook/assets/image.png" alt="" data-size="line">
+[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic:  <img src=".gitbook/assets/image (1).png" alt="" data-size="line">
 
 
 
