@@ -10,9 +10,13 @@ We want to keep the community informed of our progress and the steps we are cons
 * [action-and-progress](../action-and-progress/ "mention"): for an overview
 {% endhint %}
 
-**MailChimp link:** Sign up below to get these progress updates in your inbox [about once per fortnight.](latest-updates.md#user-content-fn-1)
+**MailChimp link:** Sign up below to get these progress updates in your inbox about once per fortnight, along with opportunities to give your feedback.&#x20;
 
 {% @mailchimp/mailchimpSubscribe %}
+
+Alternately, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests.&#x20;
+
+{% embed url="http://eepurl.com/ipFMdg" %}
 
 ## Update on recent progress: 1 June 2023
 
