@@ -22,7 +22,9 @@ If you have research (your own or others) you would like us to assess, please fi
 
 ### **Feedback**
 
-We are looking for both feedback and involvement in the Unjournal project. Feel free to reach out at [theunjournal@gmail.com](mailto:theunjournal@gmail.com).\
+We are looking for both feedback and involvement in the Unjournal project. Feel free to reach out at [theunjournal@gmail.com](mailto:theunjournal@gmail.com).
+
+_Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._\
 
 
 [^1]: June 2023 update: We will be increasing these incentives.
