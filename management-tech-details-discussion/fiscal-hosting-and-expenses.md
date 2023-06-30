@@ -98,7 +98,7 @@ Additional invoice information
 
 </details>
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 * Finally, under 'Description' (on the second page) please put "Evaluation of research material"\
   \
