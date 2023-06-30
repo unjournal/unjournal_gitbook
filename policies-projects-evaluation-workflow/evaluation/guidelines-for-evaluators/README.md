@@ -493,7 +493,7 @@ Consider the scale of journals described above. Suppose that:
 
 1. the journal process was fair, unbiased, and free of noise, and that status, social connections, and ‘lobbying to get the paper published’ didn’t matter, and
 2. journals assessed research according to the category metrics we discussed above, and
-3. (added June 2023) this research were being submitted to journals according to this fair process.
+3. this research was being submitted to journals according [to this fair process.\*](#user-content-fn-20)[^20]
 
 _In such a case, what ‘quality level journal’ would and should this research be published in its current form or with minor revisions?_
 
@@ -639,3 +639,5 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 [^18]: For the overall measures we don't want t you to consider this; we'd rather be more comparable to traditional publications, in this respect.  Also note that our management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your informed assessment (and discussion).
 
 [^19]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+
+[^20]: \*This third element was added in June 2023.
