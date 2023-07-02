@@ -283,7 +283,7 @@ Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots)
 
 <summary>Example of Confidence dots vs CI</summary>
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (1).png>)
 
 The example in the diagram above (click to zoom) illustrates the proposed correspondence.
 

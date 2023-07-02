@@ -46,6 +46,8 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics (France)
 
+[Michael Wiebe](https://michaelwiebe.com/), Data Scientist, Economist Consultant; PhD University of British Columbia (Economics)
+
 
 
 ## Other people and initiatives we are in touch with
