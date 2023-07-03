@@ -1,8 +1,10 @@
 ---
-description: A 'curated guide' to this gitbook; updated June 2023
+description: A 'curated guide' to this Gitbook; updated June 2023.
 ---
 
-# Contents overview page
+# Content overview
+
+
 
 {% hint style="info" %}
 **You can now ask questions of this gitbook using a 'chatbot':** click the search bar and choose 'lens'.
