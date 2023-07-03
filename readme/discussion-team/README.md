@@ -2,7 +2,7 @@
 
 ### _See also:_ [governance-of-the-unjournal.md](../../management-tech-details-discussion/governance-of-the-unjournal.md "mention")
 
-The Unjournal was founded by [David Reinstein](https://davidreinstein.org) <img src="../../.gitbook/assets/image (9).png" alt="" data-size="line">, who maintains this wiki/Gitbook and other resources.
+The Unjournal was founded by [David Reinstein](https://davidreinstein.org) <img src="../../.gitbook/assets/image (9).png" alt="" data-size="line">, who maintains this wiki/GitBook and other resources.
 
 ### [Management Committee](#user-content-fn-1)[^1]
 
@@ -47,8 +47,6 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics (France)
 
 [Michael Wiebe](https://michaelwiebe.com/), Data Scientist, Economist Consultant; PhD University of British Columbia (Economics)
-
-
 
 ## Other people and initiatives we are in touch with
 
@@ -146,8 +144,6 @@ See also [List of People consulted](broken-reference/) (in ACX grant proposal).
 ### [related-ea-gp-seminar-series.md](../../parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
 
 ### [plan-of-action.md](../plan-of-action.md "mention")
-
-
 
 [^1]: June 2023: We are expanding this team. \
 

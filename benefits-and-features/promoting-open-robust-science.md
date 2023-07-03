@@ -1,39 +1,49 @@
-# Promoting open, robust science
+---
+description: 'TLDR: Unjournal promotes research replicability/robustness'
+---
 
-## TLDR: Unjournal promotes research replicability/robustness
+# Promoting open and robust science
 
-UJ evaluations aim to support the ‘Reproducibility/Robustness-checking’ (‘RRC’) agenda; we are directly engaging with the [Institute for Replication](https://i4replication.org/) (I4R) and [The repliCATS project](https://replicats.research.unimelb.edu.au/) (RC), and building connections to [Replication Lab](https://www.vilhuber.com/lars/projects/replication-lab/)/TRELiSS, and [Metaculus](https://www.metaculus.com/about/).
+Unjournal evaluations aim to support the ‘Reproducibility/Robustness-Checking’ (RRC) agenda. We are directly engaging with the [Institute for Replication](https://i4replication.org/) (I4R) and [the repliCATS project](https://replicats.research.unimelb.edu.au/) (RC), and building connections to [Replication Lab](https://www.vilhuber.com/lars/projects/replication-lab/)/TRELiSS, and [Metaculus](https://www.metaculus.com/about/).
 
-_We will support this agenda by:_
+We will support this agenda by:
 
-1. Asking pre-print authors to share code and data, evaluating and rewarding this
-2. [dynamic-documents-vs-living-projects.md](dynamic-documents-vs-living-projects.md "mention")
-3. Asking Unjournal evaluators to
+1. **Promoting Data and Code Sharing:** We request pre-print authors to share their code and data, and reward them for their transparency.
+2. [dynamic-documents-vs-living-projects.md](dynamic-documents-vs-living-projects.md "mention"): Breaking out of 'PDF prisons' for increased transparency.
+3. **Encouraging Detailed Evaluations:** Unjournal evaluators are asked to:
    * Highlight the key/most relevant research claims/results/tests
-   * Suggesting possible robustness checks/tests (RRC work)
+   * Propose possible robustness checks/tests (RRC work)
    * Make predictions for these tests
-4. Work with I4R and others to implement and evaluate computational replication and robustness-checking
-5. Making the evaluation process open
+4. **Implementing Computational Replication and Robustness-Checking:** We aim to work with I4R and other organizations to facilitate and evaluate computational replication and robustness-checking.
+5. **Advocating for Open Evaluation:** We prioritize making the evaluation process transparent and accessible for all.
 
 ## Research credibility
 
 While the [replication crisis](https://www.wikiwand.com/en/Replication\_crisis) in psychology is well known, economics is not immune. Some very prominent and influential work has [blatant errors](https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646), depends on [dubious econometric choices/faulty data,](https://www.nber.org/papers/w14130) is not[ robust to simple checks](https://economistsview.typepad.com/economistsview/2008/08/troubling-timin.html), or uses [likely-fraudulent data](https://www.science.org/content/article/fraudulent-data-set-raise-questions-about-superstar-honesty-researcher). Roughly 40% of experimental economics work [failed to replicate](https://www.science.org/content/article/about-40-economics-experiments-fail-replication-survey). Prominent commenters have [argued](https://experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review) that the traditional journal peer-review system does a poor job of spotting major errors and identifying robust work.
 
-## UJ evaluation can help 'RRC'
+## Supporting the RRC agenda through Unjournal evaluations
 
-My experience as a participant in the [SCORE replication market project](https://replicationmarkets.com/) made a key challenge clear to me (see [Twitter](https://twitter.com/search?q=%40ReplicationMkts%20%40givingtools\&src=typed\_query) posts): the value of the ‘replication’ depends on ‘which claims are chosen to reproduce, and how’. I often found the claim chosen to be replicated was not the most interesting or meaningful claim; or focused on a statistical result that was likely to narrowly reproduce but not imply what the authors asserted. Often the paper’s approach seemed flawed (e.g., not causally identified, or involving an experiment with important confounding factors) but I thought ‘if they do this again, they will probably get the same results’. And this came from a quick skim (evaluating hundreds of papers/claims). I think a detailed reading/analysis would do well at spotting the most important claims and explaining the needed RRC work. Indeed, these sorts of suggestions regularly come out of detailed, high-quality referee reports for economics journals (but these suggestions are often discarded, and they are rarely made public.)
+My involvement with the [SCORE replication market project](https://replicationmarkets.com/) shed light on a key challenge (see [Twitter](https://twitter.com/search?q=%40ReplicationMkts%20%40givingtools\&src=typed\_query) posts) - the effectiveness of replication depends on the claims chosen for reproduction, and how they are approached. It was common for the chosen claim to miss the essence of the paper, or to focus on a statistical result that, while likely to reproduce, didn't truly convey the author's message.
 
-At UJ, moving past our pilot round, we aim to ask evaluators to help highlight key ‘claims to replicate’, and replication goals and approaches. We will flag papers that particularly need replication in particular areas. Public evaluation and author responses inform this further, giving future replicators more than just the ‘published paper’ to work with. Obviously, this is most relevant where the papers we evaluate are published in journals I4Rep targets; our current focus on NBER papers makes overlap more likely.
+Simultaneously, I noticed that many papers had methodological flaws (for instance, lack of causal identification or the presence of important confounding factors in experiments). But I thought that these studies, if repeated, would likely yield similar results. These insights emerged from only a quick review of hundreds of papers and claims. This indicates that a more thorough reading and analysis could potentially identify the most impactful claims and elucidate the necessary RRC work.
 
-**UJ gets authors to help with replication:** our platform and metrics encourage dynamic documents and transparency, which makes reproduction and replication easier. Prioritizing replicability and transparency at the working-paper stage (UJ evaluations’ current focus) makes authors more prepared to enable replication work later (e.g., after traditional publication)
+Indeed, detailed, high-quality referee reports for economics journals frequently contain such suggestions. However, these valuable insights are often overlooked and rarely shared publicly. Unjournal aims to change this paradigm by focusing on three main strategies:
 
-**Robustness-reproduction Replication helps The Unjournal**
+1. **Identifying Vital Claims for Replication:**
+   * We plan to have Unjournal evaluators help highlight key 'claims to replicate', along with proposing replication goals and methodologies. We will flag papers that particularly need replication in particular areas.
+   * Public evaluation and author responses will provide additional insight, giving future replicators more than just the original published paper to work with.
+2. **Encouraging Author-Assisted Replication:**
+   * Unjournal's platform and metrics, promoting dynamic documents and transparency, simplify the process of reproduction and replication.
+   * By emphasizing replicability and transparency at the working-paper stage (Unjournal evaluations’ current focus), we make authors more amenable to facilitate replication work in later stages, such as post-traditional publication.
+3. **Predicting Replicability and Recognizing Success:**
+   * We aim to ask Unjournal evaluators to make predictions about replicability. When these are successfully replicated, we can offer recognition. The same holds for repliCATS aggregated/IDEA group evaluations: to know if we are credibly assessing replicability, we need to compare these at least some ‘replication outcomes’.
+   * The potential to compare these predictions to actual 'replication outcomes' allows us to assess our replicability evaluations' credibility. It may also motivate individuals to become Unjournal evaluators, attracted by the possibility of influencing replication efforts.
 
-We aim to ask UJ evaluators to make predictions about replicability. To the extent these are replicated (with some probability), we can reward these. (The same holds for repliCATS aggregated/IDEA group evaluations: to know if we are credibly assessing replicability, we need to compare these at least some ‘replication outcomes’.) (Side benefit: the potential to 'inform replication efforts' may intrinsically motivate people to be UJ evaluators.)
+By concentrating on NBER papers, we increase the likelihood of overlap with journals targeted by the Institute for Replication, thus enhancing the utility of our evaluations in aiding replication efforts.
 
 <details>
 
-<summary>Other mutual benefits/Synergies</summary>
+<summary>Other mutual benefits/synergies</summary>
 
 We can rely on, and build a shared talent pool: UJ evaluators may be well-suited (and keen) to become robustness-reproducers (of the same, or other papers), as well as repliCATS participant.
 

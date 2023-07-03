@@ -1,4 +1,4 @@
-# Living research projects
+# Benefits of Living Research Projects
 
 ## Living, "Kaizen", "permanent Beta" work
 
@@ -6,12 +6,12 @@
 
 ### **Advantages of 'permanent Beta' projects**
 
-1. **Small changes and fixes:** The current system makes it difficult to make minor updates – even obvious corrections – to published papers. This makes these papers less useful and less readable. If you find an error in your own published work, there is also little incentive to note it and ask for a correction, even if this were possible.
-   * _In contrast, a 'living project' could be corrected and updated in situ. If future and continued evaluations matter, they will have the incentive to do so._
-2. **Lack of incentives for updates and extensions**_**:**_ If academic researchers see major ways to improve and build on their past work, these can be hard to get published and get credit for. The academic system rewards novelty and innovation, and top journals are reluctant to publish 'the second paper' on a topic. As this would count as 'a second publication' (for tenure etc.), authors may be accused of double-dipping, and journals and editors may punish them for this.
-   * [_In contrast, a 'living project' can be improved and extended in situ._](#user-content-fn-1)[^1]
-3. **Clutter and confusion in the literature:** Because of the above, researchers often try to spin an improvement to a previous paper as very new and different. They do sometimes publish a range of papers getting at similar things and using similar methods, in different papers/journals. This makes it hard for other researchers and readers to understand which paper they should read.
-   * _In contrast, a 'living project' can keep these in one place. The author can lay out different chapters and sections in ways that make the full work most useful._
+* **Small changes and fixes:** The current system makes it difficult to make minor updates – even obvious corrections – to published papers. This makes these papers less useful and less readable. If you find an error in your own published work, there is also little incentive to note it and ask for a correction, even if this were possible.
+  * _In contrast, a 'living project' could be corrected and updated in situ. If future and continued evaluations matter, they will have the incentive to do so._
+* **Lack of incentives for updates and extensions**_**:**_ If academic researchers see major ways to improve and build on their past work, these can be hard to get published and get credit for. The academic system rewards novelty and innovation, and top journals are reluctant to publish 'the second paper' on a topic. As this would count as 'a second publication' (for tenure etc.), authors may be accused of double-dipping, and journals and editors may punish them for this.
+  * [_In contrast, a 'living project' can be improved and extended in situ._](#user-content-fn-1)[^1]
+* **Clutter and confusion in the literature:** Because of the above, researchers often try to spin an improvement to a previous paper as very new and different. They do sometimes publish a range of papers getting at similar things and using similar methods, in different papers/journals. This makes it hard for other researchers and readers to understand which paper they should read.
+  * _In contrast, a 'living project' can keep these in one place. The author can lay out different chapters and sections in ways that make the full work most useful._
 
 _**But we recognize there may also be downsides to**_ \_'\_all extensions and updates in a single place'...
 

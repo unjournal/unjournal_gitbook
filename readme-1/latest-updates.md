@@ -14,7 +14,7 @@ We want to keep the community informed of our progress and the steps we are cons
 
 {% @mailchimp/mailchimpSubscribe %}
 
-Alternately, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests.    Data protection statement linked [HERE](https://bit.ly/46y0LqH).
+Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests. The data protection statement is linked [here](https://bit.ly/46y0LqH).
 
 {% embed url="http://eepurl.com/ipFMdg" %}
 
@@ -114,9 +114,9 @@ More evaluations coming out soon, on themes including global health and developm
 
 _To round out our initial pilot:_ We're particularly looking to evaluate papers/projects relevant to animal welfare and animal agriculture. Please reach out if you have suggestions.
 
-### New features of this gitbook: GPT-powered 'chat' Q\&A
+### New features of this GitBook: GPT-powered 'chat' Q\&A
 
-You can now 'chat' with this page, and ask questions and get answers with links to other parts of the page. To try it out, go to "Search" and choose "Lens".
+You can now 'chat' with this page, ask questions and get answers with links to other parts of the page. To try it out, go to "Search" and choose "Lens".
 
 ## Update on recent progress: 17 Mar 2023
 
@@ -153,13 +153,13 @@ We are seeking grant funding for our continued operation and expansion (see [gra
 
 We're considering collaborations with other compatible initiatives, including...
 
-* replication/reproducability/robustness-checking initiatives,
+* replication/reproducibility/robustness-checking initiatives,
 * prediction and replication markets,
 * and projects involving the elicitation and 'aggregation of expert and stakeholder beliefs' (about both replication and outcomes themselves).
 
 #### Management and administration, deadlines
 
-* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the  [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers, and the processing of these has been somewhat slower than expected.
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the  [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers and the processing of these has been somewhat slower than expected.
 
 #### Other news and media
 

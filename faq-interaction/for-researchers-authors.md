@@ -5,7 +5,7 @@ description: >-
   mitigating/disagree with potential risks.
 ---
 
-# For Researchers/Authors
+# For researchers and authors
 
 ## General process and requests
 
@@ -24,8 +24,6 @@ By default, we would like Unjournal evaluations to be made public. However, in s
 If there is an early-career researcher on the authorship team, we will allow authors to ‘embargo’ the publication of the evaluation until a later date.  Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite. For example, we might grant an embargo that lasts until after a PhD/postdoc’s upcoming job-market or until after publication in a mainstream journal, [with a hard maximum of 14 months.](#user-content-fn-4)[^4]
 
 In very special circumstances we may consider granting a ['conditional indefinite embargo'.](#user-content-fn-5)[^5]
-
-
 
 ### What we may **ask of authors**
 
@@ -46,9 +44,9 @@ _The biggest_ [_personal gains for authors are:_](#user-content-fn-11)[^11]
 3. The opportunity to **publicly respond to critiques and correct misunderstandings**.
 4. [An **additional opportunity for evaluation**](#user-content-fn-12)[^12] of your work with an emphasis on **impact.**
 5. **Visibility** and attention to your work, which may lead to additional citations.&#x20;
-6. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong Ph.D. students to your research groups.
+6. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, opening up new ambitious projects, and attracting strong PhD students to your research groups.
 7. Gain a reputation as an ‘**early adopter and innovator**’ in open science.
-8. **Prizes:** You may win an [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention")  which will be financial as well as reputational.
+8. **Prizes:** You may win an [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention") which will be financial as well as reputational.
 9. 'Entering our system’ makes you more likely to be hired as a paid reviewer or editorial manager.
 10. We will encourage **media coverage**, including ‘forwarding’ some work to the [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/) for future coverage (with compensation to those doing the writing).
 
@@ -70,14 +68,14 @@ You may have 'used up' the good journals in your field, or otherwise 'fallen thr
 
 There are risks and rewards to any activity of course, and we cannot predict the consequences of any given action. We consider some ‘risks’ you may weigh against the benefits mentioned above.
 
-1. “Exclusivity”
+1. Exclusivity
 2. Public negative/neutral feedback
 3. Backlash against innovation or ‘seeming weird’?
 4. Could the review process have a downward bias?
 
 ### **Exclusivity**
 
-[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-13)[^13], and perhaps they might enforce these more strongly if they fear competition from The Unjournal?
+[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-13)[^13], and perhaps they might enforce these more strongly if they fear competition from The Unjournal.
 
 * The Unjournal is _not exclusive_. Having your paper reviewed and evaluated in the Unjournal will not limit your options; [you can still submit your work to traditional journals.](#user-content-fn-14)[^14]
 * Following a traditional publishing route can also be risky: the world may change, and you may be seen as retrograde.
@@ -90,14 +88,14 @@ Our plan is to make reviews, feedback, and evaluations public. While there has b
 
 With the Unjournal you might get feedback and evaluation that is sometimes negative, and this may be made public. Is this an acceptable risk? I think so. Most academics expect that there will be many differing opinions about a piece of work, and everyone has received negative reviews throughout their career.
 
-Suppose instead, you go the standard route, put out a working paper, and submit your paper to a sequence of journals. Suppose you present it at many seminars and finally get it published, let's say three years later (not uncommon in Economics), in a middle-status field journal. Will people think that your paper was perfect and not criticized at all? Of course not. If it had been the perfect paper it would have been immediately accepted at a ‘top journal’. And the people in your field would have been the reviewers, attended seminars, and heard all the critiques of the paper.
+Suppose instead, you go the standard route, put out a working paper, and submit your paper to a sequence of journals. Suppose you present it at many seminars and finally get it published, let's say three years later (not uncommon in Economics), in a middle-status field journal. Will people think that your paper was perfect and not criticized at all? Of course not. If it had been the perfect paper it would have been immediately accepted at a ‘top journal’. And the people in your field would have been the reviewers, attended seminars and heard all the critiques of the paper.
 
 Thus, ‘getting public mixed and negative feedback’ in the Unjournal (or anywhere) should not particularly harm you or your research project.
 
-_And this should be weighed against the benefits to having your work in the Unjournal._
+_And this should be weighed against the benefits of having your work in the Unjournal._
 
 * Your willingness to engage with this shows that you have confidence in your work and are willing to back it in public.
-* The Unjournal will give authors a place to publicly respond to the critiques, to improve your work, and show how it has improved. Through The Unjournal, you may also have a chance for a second evaluation of the same project after iterations and improvements.
+* The Unjournal will give authors a place to publicly respond to critiques, improve their work, and show how it has improved. Through The Unjournal, you may also have a chance for a second evaluation of the same project after iterations and improvements.
 
 These are all major advantages over the traditional journal route, where you essentially start over with each new submission, and new referees may overlook the same point and have the same misunderstandings each time.
 
@@ -111,9 +109,9 @@ Although the process is unusual, the Unjournal is not a weird concept: we are pr
 
 Unjournal evaluations should be seen as signals of research quality. Like all such signals, they are noisy. But authors may worry 'a bad signal will hurt a lot, and a good signal will only help a little'".
 
-_Arguments against this:_ Unbiased informational signals won't systematically lead to updates in one direction. Fancy ways of saying this and related concepts: [Martingales](https://galton.uchicago.edu/\~lalley/Courses/313/Martingales.pdf), [Conservation of Expected Evidence](https://www.lesswrong.com/tag/conservation-of-expected-evidence), Rational Expectations, the Law of Iterated Expectations.
+**Arguments against this**_:_ Unbiased informational signals won't systematically lead to updates in one direction. Fancy ways of saying this and related concepts: [Martingales](https://galton.uchicago.edu/\~lalley/Courses/313/Martingales.pdf), [Conservation of Expected Evidence](https://www.lesswrong.com/tag/conservation-of-expected-evidence), Rational Expectations, the Law of Iterated Expectations.
 
-In other words, people will take this into account. If a reviewer evaluates a paper without much information on how others rate it, they might _suspect_ that there have been some substantial and important criticisms, and that the paper has flaws. This is particularly the case if it has been around a while, they are submitting to a second-tier journal, etc.
+In other words, people will take this into account. If a reviewer evaluates a paper without much information on how others rate it, they might _suspect_ that there have been some substantial and important criticisms and that the paper has flaws. This is particularly the case if it has been around a while, they are submitting to a second-tier journal, etc.
 
 On the other hand, if I see that the author has submitted it to a transparent assessment service like the Unjournal, particularly if the author has submitted a lot of his or her work to this sort of public scrutiny, I will update positively, all else being equal. The author has demonstrated they are not afraid of public feedback and openness. I will consider the public critiques, of course, but I will take into account that this paper has been held up to more scrutiny than other work I might have seen.
 

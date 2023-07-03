@@ -57,11 +57,11 @@ _**Read:**_ [**Unjournal Airtable Guide**](https://docs.google.com/document/d/1G
 _**Watch:**_ [**Unjournal Airtable Overview**](https://www.dropbox.com/s/1k9j2w82qshgp9m/unjournal\_airtable\_overview.mp4?dl=0) (Dropbox: internal access only)
 {% endhint %}
 
-### Gitbook (edit access optional)
+### GitBook (edit access optional)
 
 See [tech-scoping.md](../tech-tools-and-resources/tech-scoping.md "mention")
 
-Management team: You don't _need_ to edit the Gitbook if you don't want to, but we're trying to use it as our main place to 'explain everything' to ourselves and others. We will try to link all content here. Note you can use 'search' and 'lens' to look for things.
+Management team: You don't _need_ to edit the GitBook if you don't want to, but we're trying to use it as our main place to 'explain everything' to ourselves and others. We will try to link all content here. Note you can use 'search' and 'lens' to look for things.
 
 ### PubPub
 
