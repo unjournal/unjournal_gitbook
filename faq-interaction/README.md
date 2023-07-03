@@ -1,9 +1,9 @@
-# FAQ (authors, evaluators)
+# Frequently Asked Questions (FAQ)
 
 _**We want to get authors, research groups, reviewers, and institutions involved, and to support this. They may have doubts, which we try to anticipate and answer throughout this section.**_
 
 {% hint style="info" %}
-**You can now ask questions of this gitbook using a 'chatbot':** click the search bar and choose 'lens'.
+**You can now ask questions of this GitBook using a 'chatbot':** click the search bar and choose 'lens'.
 {% endhint %}
 
 ## General FAQs

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Mainly summarizes and repeats material elsewhere in the Gitbook. Text to
+  Mainly summarizes and repeats material elsewhere in the GitBook. Text to
   accompany the Impactful Research Prize discussion
 ---
 
@@ -8,11 +8,11 @@ description: >-
 
 ## Details of submissions to The Unjournal
 
-Note: this section largely repeats content in our [guide for Researchers/Authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), esp. our [FAQ on 'why to engage'](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). For more information about The Unjournal, [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/) is the link to our Gitbook.
+Note: this section largely repeats content in our [guide for Researchers/Authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), esp. our [FAQ on 'why to engage'](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). For more information about The Unjournal, [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/) is the link to our GitBook.
 
 ### What we are looking for
 
-We describe the nature of the work we are looking to evaluate in our Gitbook, and we give some examples in the [forum post HERE](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_). We currently have an ongoing pilot of four papers; however, we are looking for more research to evaluate. If you are interested in submitting your work for public evaluation, we are looking for research which is relevant to **global priorities, especially quantitative social sciences, and impact evaluations. Work that would benefit from further feedback and evaluation is also of interest.**
+We describe the nature of the work we are looking to evaluate in our GitBook, and we give some examples in the [forum post HERE](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_). We currently have an ongoing pilot of four papers; however, we are looking for more research to evaluate. If you are interested in submitting your work for public evaluation, we are looking for research which is relevant to **global priorities, especially quantitative social sciences, and impact evaluations. Work that would benefit from further feedback and evaluation is also of interest.**
 
 Your work will be evaluated using our evaluation guidelines and metrics. You can read these [here](../../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) before submitting.
 

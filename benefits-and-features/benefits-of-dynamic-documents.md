@@ -1,15 +1,19 @@
-# Benefits of 'dynamic docs'
+# Benefits of Dynamic Documents
 
-By **“Dynamic Documents”** I mean papers/projects built with R-markdown or JuPyTer notebooks (the two most prominent tools) that
+'Dynamic Documents' are projects or papers that are developed using prominent tools such as R-markdown or JuPyTer notebooks  (the two most prominent tools).&#x20;
 
-* _do and report the data analysis_ (as well as math/simulations) in the same space that the results and discussion are presented (with ‘code blocks’ hidden)
-* a key benefit is you can track exactly what is being reported and how it was constructed;
-  * this makes it a lot less error-prone
-  * and helps readers understand it better (see ['explorable explanations'](http://worrydream.com/ExplorableExplanations/))
-  * and helps replicators and future researchers build on it
-* other advantages of these formats (over, e.g., pdf) include convenient ‘folding blocks’, margin comments or [hoverable notes](#user-content-fn-1)[^1] and links, and integrating interactive tools
+The salient features and benefits of this approach include:
 
-
+* **Integrated data analysis and reporting** means the data analysis (as well as math/simulations) is done and reported in the same space that the results and discussion are presented. This is made possible through the concealment of 'code blocks'.
+* **Transparent reporting** means you can track exactly what is being reported and how it was constructed:
+  * Making the process a lot less error-prone
+  * Helping readers understand it better (see ['explorable explanations'](http://worrydream.com/ExplorableExplanations/))
+  * Helping replicators and future researchers build on it
+* Other advantages of these formats (over PDFs for example) include:&#x20;
+  * Convenient ‘folding blocks’&#x20;
+  * Margin comments&#x20;
+  * [Hoverable notes](#user-content-fn-1)[^1] and links&#x20;
+  * Integrating interactive tools
 
 ### **Better examples, the case for dynamic documents**
 
@@ -21,9 +25,9 @@ By **“Dynamic Documents”** I mean papers/projects built with R-markdown or J
 
 <details>
 
-<summary>Also consider... </summary>
+<summary>Also consider...</summary>
 
-* &#x20;Elife's 'editable graphics'... Brett Viktor?
+* Elife's 'editable graphics'... Brett Viktor?
 
 <!---->
 
@@ -38,8 +42,6 @@ By **“Dynamic Documents”** I mean papers/projects built with R-markdown or J
 * OSF and all of their training/promo materials in OS
 
 </details>
-
-
 
 ### Reinstein's own examples
 

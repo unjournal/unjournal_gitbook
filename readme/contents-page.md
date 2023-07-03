@@ -1,5 +1,5 @@
 ---
-description: A 'curated guide' to this Gitbook; updated June 2023.
+description: A 'curated guide' to this GitBook; updated June 2023
 ---
 
 # Content overview
@@ -7,7 +7,7 @@ description: A 'curated guide' to this Gitbook; updated June 2023.
 
 
 {% hint style="info" %}
-**You can now ask questions of this gitbook using a 'chatbot':** click the search bar and choose 'lens'.
+**You can now ask questions of this GitBook using a 'chatbot':** click the search bar and choose 'lens'.
 {% endhint %}
 
 ## Key sections/subsections

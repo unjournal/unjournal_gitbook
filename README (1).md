@@ -60,39 +60,29 @@ See [#does-the-unjournal-charge-fees-to-anyone](faq-interaction/#does-the-unjour
 
 ## How will we do this?
 
-1. **Research Identification and Selection**
+1.  **Research Identification and Selection:** We'll identify, solicit, and select relevant research work to be hosted on any open platform in any format [that can gain a time-stamped DOI.](#user-content-fn-3)[^3] Authors are encouraged to present their work in the ways they find most comprehensive and understandable. We'll support the use of [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that foster replicability and open science (see: [the benefits of dynamic docs](benefits-and-features/benefits-of-dynamic-documents.md)).&#x20;
 
-We'll identify, solicit, and select relevant research work to be hosted on any open platform in any format [that can gain a time-stamped DOI.](#user-content-fn-3)[^3] Authors are encouraged to present their work in the ways they find most comprehensive and understandable. We'll support the use of [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that foster replicability and open science (see: [the benefits of dynamic docs](benefits-and-features/benefits-of-dynamic-documents.md)).&#x20;
 
-Direct evaluation of high-impact work in the high-profile NBER working papers series will also be included (see: [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)).
 
-2. **Paid Evaluators (aka 'reviewers')**
+    Direct evaluation of high-impact work in the high-profile NBER working papers series will also be included (see: [direct evaluation track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)).
 
-We will compensate evaluators (i.e., 'reviewers') for providing thorough feedback on this work.&#x20;
 
-(Read more: [Why do we pay?](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md))
+2.  **Paid Evaluators (AKA 'reviewers'):** We will compensate evaluators (i.e., 'reviewers') for providing thorough feedback on this work. (Read more: [Why do we pay?](policies-projects-evaluation-workflow/why-pay-evaluators-reviewers.md))
 
-3. **Eliciting Quantifiable and Comparable Metrics**&#x20;
 
-We aim to establish and generate credible measures of research quality and usefulness. We intend to benchmark these against traditional previous measures (journal tiers, etc.) [and assess](#user-content-fn-4)[^4] the reliability, consistency, and predictive power of these measures.&#x20;
+3.  **Eliciting Quantifiable and Comparable Metrics:** We aim to establish and generate credible measures of research quality and usefulness. We intend to benchmark these against traditional previous measures (journal tiers, etc.) [and assess](#user-content-fn-4)[^4] the reliability, consistency, and predictive power of these measures. (Read more: [Why quantitative metrics?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md#why-numerical-ratings))
 
-(Read more: [Why quantitative metrics?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md#why-numerical-ratings))
 
-4. **Public Evaluation**
+4.  **Public Evaluation:** Reviews will typically be made public, including potential author responses. This will facilitate dialogue and [enhance understanding](#user-content-fn-5)[^5].
 
-Reviews will typically be made public, including potential author responses. This will facilitate dialogue and [enhance understanding](#user-content-fn-5)[^5].
 
-5. [**Linking, Not Publishing**](#user-content-fn-6)[^6]
+5.  [**Linking, Not Publishing**](#user-content-fn-6)[^6]**:** Our process will not be 'exclusive'. Authors can submit their work to a journal at any time. This approach also allows us to benchmark our evaluations against traditional publication outcomes.
 
-Our process will not be 'exclusive'. Authors can submit their work to a journal at any time. This approach also allows us to benchmark our evaluations against traditional publication outcomes.
 
-6. **Financial Prizes**
+6.  **Financial Prizes:** We will award financial prizes, paired with public presentations, to works judged to be the strongest.
 
-We will award financial prizes, paired with public presentations, to works judged to be the strongest.
 
-7. **Transparency**&#x20;
-
-We will aim for maximum transparency in our processes and judgments.
+7. **Transparency:** We will aim for maximum transparency in our processes and judgments.
 
 <details>
 
