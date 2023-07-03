@@ -16,11 +16,19 @@ We use “publication in top journals” to measure two main things. First, poli
 
 [In the field of economics, it is not unusual](https://www.nber.org/papers/w29147) for it to take years between the ‘first working paper’ that is publicly circulated and presented and the final publication. During that time, the paper may be substantially improved, but it may not be known of nor accepted by practitioners, and meanwhile, the authors get little or no career value from it.
 
-_As a result…_
+As a result, we see three major downsides:
 
-1. Researchers and academics spend a tremendous amount of time **"gaming"** this process.
-2. This system breeds **randomness in outcomes,** which often prevents the most deserving work from gaining recognition. In turn, this increases the stress associated with research careers, thereby discouraging risk-averse researchers.
-3. A lot of **‘feedback’ is wasted** (including the [reviewer’s time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)). A substantial amount of effort is spent on attempting to curry favor with reviewers, instead of focusing on the research itself.
+1. **Time Spent Gaming the System:**
+
+Researchers and academics spend a tremendous amount of time **'**gaming' this process.
+
+2. **Randomness in Outcomes:**
+
+This system breeds randomness in outcomes**,** which often prevents the most deserving work from gaining recognition. In turn, this increases the stress associated with research careers, thereby discouraging risk-averse researchers.
+
+3. **Wasted Feedback:**
+
+A lot of ‘feedback’ is wasted (including the [reviewers' time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)). A substantial amount of effort is spent on attempting to curry favor with reviewers, instead of focusing on the research itself.
 
 <details>
 
@@ -30,19 +38,19 @@ Perhaps not. We are accustomed to using ratings as filters in our daily lives. R
 
 </details>
 
-### Academic researchers spend way too much time "gaming" this process.
+### **Time Spent Gaming the System**
 
-I (Reinstein) have been in academia for about 20 years. Around the coffee pot, cafeteria table, research conferences, etc., roughly half of what we talked about was... the actual theory, methods, and results? No, we talk about “who got into which journal and how unfair it is”, “which journal should we be submitting our papers to?”, how long are their “turnaround times”, “how highly rated are these journals,” etc. We offer [tips](https://twitter.com/search?q=%22%20how%20to%20strategically%20please%20referees%20and%20sneak%20it%20into%20journals%22\&src=typed\_query) on how to [‘sneak into these journals’.](https://twitter.com/GivingTools/status/1188786422381268992)
+I (Reinstein) have been in academia for about 20 years. Around the coffee pot, cafeteria table, research conferences, etc., roughly half of what we talked about was... the actual theory, methods, and results? No, we talked about “who got into which journal and how unfair it is”, “which journal should we be submitting our papers to?”, how long are their “turnaround times”, “how highly rated are these journals,” etc. We offer [tips](https://twitter.com/search?q=%22%20how%20to%20strategically%20please%20referees%20and%20sneak%20it%20into%20journals%22\&src=typed\_query) on how to [‘sneak into these journals’.](https://twitter.com/GivingTools/status/1188786422381268992)
 
 There is a lot of pressure, and even bullying, to achieve these “publication outcomes” at the expense of careful methodology.
 
-### It leads to a great deal of randomness in outcomes...
+### **Randomness in Outcomes**
 
-... leading the cream to not always rise to the top, making research careers much more stressful (driving out more risk-averse researchers), and sometimes encouraging approaches that are detrimental to good science.
+The current system can sideline deserving work due to unpredictable outcomes... leading the cream to not always rise to the top, making research careers much more stressful (driving out more risk-averse researchers), and sometimes encouraging approaches that are detrimental to good science.&#x20;
 
-### A lot of **‘feedback’** (and [reviewers' time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)) **is wasted**
+### **Wasted Feedback**
 
-Some reviewers write ten-page reports critiquing the paper in great detail (to impress editors, or because they feel compelled to do so?), even when they reject the paper. hese are sometimes very informative and useful, and would also be very helpful for the wider public and research community to understand the nature of the debate and issues. However, researchers often have a very narrow focus on getting the paper published as quickly and in as high-prestige a journal as possible. Unless the review is part of a 'Revise and Resubmit' that the author wants to fulfill, they may not actually put the comments into practice or address them in any way.
+Some reviewers write ten-page reports critiquing the paper in great detail (to impress editors, or because they feel compelled to do so?), even when they reject the paper. These are sometimes very informative and useful, and would also be very helpful for the wider public and research community to understand the nature of the debate and issues. However, researchers often have a very narrow focus on getting the paper published as quickly and in as high-prestige a journal as possible. Unless the review is part of a 'Revise and Resubmit' that the author wants to fulfill, they may not actually put the comments into practice or address them in any way.
 
 Of course, the reviews may be misinformed, mistaken, or misunderstanding something. However, if the paper is rejected (even if the reviewer themself was positive about the paper), the author has no opportunity or incentive to respond to them. Thus the misinformed reviewer may remain in the dark.
 
