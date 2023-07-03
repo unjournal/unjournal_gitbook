@@ -1,4 +1,4 @@
-# Evaluation reduces the costs of 'the publication game'
+# Reshaping academic evaluation: Beyond the binary of acceptance/rejection
 
 [_See also..._](#user-content-fn-1)[^1]
 
@@ -40,7 +40,7 @@ There is a lot of pressure, and even bullying, to achieve these “publication o
 
 ... leading the cream to not always rise to the top, making research careers much more stressful (driving out more risk-averse researchers), and sometimes encouraging approaches that are detrimental to good science.
 
-### A lot of **‘feedback’** (and [reviewer’s time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)) **is wasted**
+### A lot of **‘feedback’** (and [reviewers' time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)) **is wasted**
 
 Some reviewers write ten-page reports critiquing the paper in great detail (to impress editors, or because they feel compelled to do so?), even when they reject the paper. hese are sometimes very informative and useful, and would also be very helpful for the wider public and research community to understand the nature of the debate and issues. However, researchers often have a very narrow focus on getting the paper published as quickly and in as high-prestige a journal as possible. Unless the review is part of a 'Revise and Resubmit' that the author wants to fulfill, they may not actually put the comments into practice or address them in any way.
 
