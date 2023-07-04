@@ -1,13 +1,20 @@
-# Evaluation Manager Process
+# Evaluation manager process
 
 {% hint style="info" %}
-See [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention") for an updated careful overview and flowchart. The material below might be redundant.
+See [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.\
+\
+Updated July 4, 2023. Note that the process below may be superseded when we build an editorial management process within PubPub or another tool&#x20;
 {% endhint %}
 
-### Informing paper authors
+**Once an evaluation manager has been chosen/if you are the evaluation manager, please follow the steps below.**&#x20;
 
-If the work was not submitted to the Unjournal directly, then you will need to write to the authors of the paper to let them know that their paper will be evaluated by The Unjournal. (Note that we need/needed to _ask them_ if they are willing unless the work falls under our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")\
+### Informing/asking paper authors
 
+1. If the work falls under our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention") (NBER, may be expanded),  you will need to write to the authors of the paper to let them know that their paper will be evaluated by The Unjournal.  See an example letter template for this [HERE](https://docs.google.com/document/d/1tPgoPpqiuVs9qLKJIwZO71F4kqEfv\_FOL4tDtkm98G0/edit). Other templates (for this an other correspondence are found in our Airtable `text_templates` table.
+2. **Submitted work:** Otherwise, if the authors submitted their work to The Unjournal directly, we need to inform them that their work was selected (and make sure all authors are OK with this.)&#x20;
+3. **Other selected work:** Otherwise, if the paper was selected (not submitted), and it _doesn't_ qualify for the Direct Evaluation track (e.g., it is not NBER and/or it has early-career researcher authors) we need to ask the authors' permission to proceed (according to our policies).&#x20;
+
+The Unjournal may already done the above before you were assigned as the evaluation manager; please check if this is the case.
 
 ### Finding evaluators
 
@@ -17,7 +24,7 @@ Please use the link below to help you consider how to choose evaluators. Normall
 
 ### Reaching out to evaluators
 
-Once you have chosen possible evaluators, reach out to them. You could possibly use or adapt the text templates in the Airtable under the evaluator tab. For example, the "referee outreach (pilot long)" or "short referee outreach (NBER phase)". It is common that you will have to reach out to multiple potential evaluators as they may reject the offer, or not respond.
+Once you have chosen possible evaluators, reach out to them. You could possibly use or adapt the text templates in the Airtable under the "evaluator" grouping. For example, the "referee outreach (pilot long)" or "short referee outreach (NBER phase)". It is common that you will have to reach out to multiple potential evaluators as they may reject the offer, or not respond.
 
 Normally, we also send a reminder email roughly two weeks after sending the initial email in case the email has been missed. You could use the "Referee informal followup/reminder" or "PS to referee request" text templates from the Airtable for this. To speed up the process and automate your reminders, you can use Boomerang, this is explained in this link here:
 
