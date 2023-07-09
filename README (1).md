@@ -126,7 +126,7 @@ So why haven't academia and the research community been able to move to somethin
 * **Leverage new technology**_:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and makes[ formats other than static PDFs](#user-content-fn-7)[^7] more useful every day.
 * **Reward early adopters with prizes and recognition**: We can replace 'fear of standing out' with 'fear of missing out.' In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
 
-## [**Our webpage** ](#user-content-fn-8)[^8] **and our objectives**
+## [**Our webpage**](#user-content-fn-8)[^8] **and our objectives**
 
 This GitBook serves as a platform to organize our ideas and resources and track our progress towards The Unjournal's dual objectives:
 
@@ -156,10 +156,6 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 **Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 
-1. Economics, social science, quantitative policy analysis, focusing on global priorities and impact)
-2. E.g., tools like [Hypothes.is](https://hypothes.is/) (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents)
-3. Although we are working to encourage this and make it easy.
-
 [^1]: We discuss our prioritization considerations under [what-research-to-target.md](policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md "mention")
 
 [^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
@@ -176,4 +172,4 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 [^8]: _**Please let me know if you want edit or comment access to the present Gitbook.**_\
     \
-    _Please do weigh in, all suggestions and comments will be credited. See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).\\
+    _Please do weigh in, all suggestions and comments will be credited. See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
