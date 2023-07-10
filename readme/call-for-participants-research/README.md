@@ -10,16 +10,16 @@ See [#in-a-nutshell](<../../README (1).md#in-a-nutshell> "mention") for an overv
 
 {% hint style="info" %}
 **In brief (TLDR):**\
-If you are interested in being on The Unjournal's Management Committee, Advisory Board, or Reviewer Pool please fill out [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3-5 min). \
+If you are interested in being on the Unjournal's Management Committee, Advisory Board, or Reviewer Pool please fill out [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3-5 min): \
 
 
 If you have research you would like us to assess (either your own or others'), please fill out [this form](https://airtable.com/shrdHHI0zK7rkJCP3). You can also submit your own work [here](https://unjournaldev.cloud68.co/login), or by contacting [theunjournal@gmail.com](mailto:theunjournal@gmail.com).
 
 \
-We're anticipating several job openings spanning research, communications, and operational/administrative roles. See our [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit), and express your interest in [this form](https://airtable.com/shrxGwooWtwZqY8cd).
+We're anticipating several job openings, spanning research, communications, and operational/administrative roles. See our [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit), and express your interest in [this form](https://airtable.com/shrxGwooWtwZqY8cd).
 
 \
-_Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._
+_Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
 {% endhint %}
 
 <details>
