@@ -32,7 +32,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Program Lead, Impetus Institute for Meta-science
 
-[Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor at [Asterisk Mag](https://asteriskmag.com/), Writing and Research on Global Health, Development, and Nutrition
+[Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor at [Asterisk Mag](https://asteriskmag.com/): writing and research on global health, development, and nutrition
 
 [Andrew Gelman](http://www.stat.columbia.edu/\~gelman/), Professor of Statistics and Political Science at Columbia University (New York)
 
@@ -62,15 +62,15 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 <!---->
 
-* [Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto.
+* [Eva Vivalt](http://evavivalt.com), Assistant Professor in the Department of Economics at the University of Toronto
 
 <!---->
 
-* Other academic and policy economists, such as: [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison), [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan), [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett), [David Rhys-Bernard](https://davidrhysbernard.com), [David Roodman](https://davidroodman.com/about/), [Anna Dreber Almenberg](https://sites.google.com/site/annadreber/)
+* Other academic and policy economists, such as [Julian Jamison](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Julian\_Jamison), [Todd Kaplan](http://business-school.exeter.ac.uk/about/people/profile/index.php?web\_id=Todd\_Kaplan), [Kate Rockett](https://www.essex.ac.uk/people/rocke62806/katharine-rockett), [David Rhys-Bernard](https://davidrhysbernard.com), [David Roodman](https://davidroodman.com/about/), and [Anna Dreber Almenberg](https://sites.google.com/site/annadreber/)
 
 <!---->
 
-* Cooper Smout, head of ‘[https://freeourknowledge.org/](https://freeourknowledge.org/)
+* Cooper Smout, head of [https://freeourknowledge.org/](https://freeourknowledge.org/)
 
 <!---->
 
@@ -86,7 +86,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 <!---->
 
-* Yonatan Cale, who helped me put this proposal together through asking a range of challenging questions and offering his feedback. [https://il.linkedin.com/in/yonatancale](https://il.linkedin.com/in/yonatancale)
+* [Yonatan Cale](https://il.linkedin.com/in/yonatancale), who helped me put this proposal together through asking a range of challenging questions and offering his feedback
 
 </details>
 
@@ -94,7 +94,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 <summary>Some other people we have consulted/communicating, details, other notes</summary>
 
-* Cooper Smout, FoK collaboration possibilities: through their pledges, and through an open access journal Cooper is putting together, which the Unjournal could feed into, for researchers needing a ‘journal with an impact factor’)
+* Cooper Smout, FoK collaboration possibilities: through their pledges, and through an open access journal Cooper is putting together, which the Unjournal could feed into, for researchers needing a ‘journal with an impact factor’
 * Participants in the GPI seminar luncheon
 
 <!---->
@@ -127,7 +127,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 <!---->
 
-* Nathan Young [https://eahub.org/profile/nathan-young/](https://eahub.org/profile/nathan-young/); considering connection The Unjournal to Metaculus predictions
+* Nathan Young [https://eahub.org/profile/nathan-young/](https://eahub.org/profile/nathan-young/); considering connecting The Unjournal to Metaculus predictions
 
 <!---->
 
@@ -139,7 +139,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 </details>
 
-See also [List of People consulted](broken-reference/) (in ACX grant proposal).
+See also [List of people consulted](broken-reference/) (in ACX grant proposal).
 
 ### [related-ea-gp-seminar-series.md](../../parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md "mention")
 
