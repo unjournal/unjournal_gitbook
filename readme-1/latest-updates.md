@@ -18,6 +18,45 @@ Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get
 
 {% embed url="http://eepurl.com/ipFMdg" %}
 
+## Progress notes 'since last update'
+
+{% hint style="info" %}
+We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1].
+{% endhint %}
+
+
+
+**Grants, timelines, and pipelines**
+
+The SFF grant is now 'in our account' (all is public and made transparent on our [OCF page](https://opencollective.com/the-unjournal)). We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-1vRLCsqvNhECrlHbhwDpIt6hqwihKvVYCVt57cmp2Tof52lI-G7dY3Juk-fss9WwW1L9csdhinK9DCI9/pub) sharing our news and plans
+
+Our 'Pilot Phase' (10 papers/projects) is almost complete; we are waiting on 1-2 evaluations, followed by author responses and 'publishing' the content at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by Unjournal evaluators. We will make the decision process public and transparent (at least ex-post).
+
+
+
+**"What research should we evaluate and prioritize, and why?"**&#x20;
+
+"What research should we evaluate and prioritize, and why?" targets should we set for different fields, We are discussing this within our team and with stakeholders. We intend to open up this discussion further, making it public, and bringing in a range of voices. We aim to build a framework and a systematic process. See our expanding notes and discussion on '[what is global priorities relevant research](../the-field-and-ea-gp-research.md)'? &#x20;
+
+In the meantime, we are moving forward with our post-pilot 'pipeline' of research evaluation. Our management team is considering recent prominent and influential working papers in [NBER](https://www.nber.org/papers) and beyond, and we continue to solicit submissions, suggestions, and feedback. We are also reaching out to _users_ of this research (such as NGOs, charity evaluators, and applied research think tanks), who are identifying research they particularly rely on and are curious about.&#x20;
+
+
+
+**Also  to report**
+
+* New [Advisory Board members](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team#advisory-board) &#x20;
+  * [Gary Charness](https://www.wikiwand.com/en/Gary\_Charness), Professor of Economics, UC Santa Barbara &#x20;
+  * [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics (animal welfare agenda)
+  * [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea), Associate Professor, expert judgment, biosciences, applied probability, uncertainty quantification
+  * [Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Program Lead, Impetus Institute for Meta-science
+  * [Michael Wiebe](https://michaelwiebe.com/), Data Scientist, Economist Consultant; PhD University of British Columbia (Economics)
+* Working with PubPub to improve our process and interfaces
+* Hiring progress and plans; calls to action
+* Expanding our Management Committee; calls to action
+* Potentially-relevant events in the outside world: [Institute for Replication grant](https://twitter.com/I4Replication/status/1673737650203770893), [Clusterfake](http://datacolada.org/109)
+
+
+
 ## Update on recent progress: 1 June 2023
 
 _Update from David Reinstein, Founder and Co-Director_
@@ -197,3 +236,5 @@ Recall, we pay at least $250 per evaluation, we typically pay more in net ($350)
 2. **Research to evaluate/prizes:** We continue to be interested in submitted and suggested work. One area we would like to engage with more: quantitative social science and economics work relevant to animal welfare.
 
 _Hope these updates are helpful. Let me know if you have suggestions._
+
+[^1]: These updates will be semi-automatically pushed to our Mailchimp newsletter, and in future, to other feeds, such as a Substack blog.
