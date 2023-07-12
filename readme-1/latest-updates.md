@@ -42,6 +42,16 @@ In the meantime, we are moving forward with our post-pilot 'pipeline' of researc
 
 
 
+**What about our evaluators; should they prioritize...?**
+
+* &#x20;Giving feedback to authors
+* Helping policymakers assess and use the work, or&#x20;
+* Providing a 'career-relevant benchmark' to improve research processes?&#x20;
+
+We discuss [this here](../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize), considering how each relate to our [Theory of Change](../benefits-and-features/global-priorities-theory-of-change.md)
+
+
+
 **Also  to report**
 
 * New [Advisory Board members](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team#advisory-board) &#x20;
@@ -54,6 +64,10 @@ In the meantime, we are moving forward with our post-pilot 'pipeline' of researc
 * Hiring progress and plans; calls to action
 * Expanding our Management Committee; calls to action
 * Potentially-relevant events in the outside world: [Institute for Replication grant](https://twitter.com/I4Replication/status/1673737650203770893), [Clusterfake](http://datacolada.org/109)
+
+
+
+
 
 
 
