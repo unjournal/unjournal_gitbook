@@ -35,9 +35,11 @@ See: [broken-reference](broken-reference/ "mention")
 2. _**Give quantitative metrics and predictions** as requested in the_ [_two tables below_](#user-content-fn-5)[^5], as appropriate.
 3. _Answer a short questionnaire about your background and our processes._
 
+##
+
 ## Writing the report
 
-**In writing your report, please consider the following:**
+**In writing your report (and providing ratings), please consider the following:**
 
 <details>
 
@@ -83,6 +85,22 @@ We are considering the best policy towards signed reviews vs. single-blind repor
 _Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics _before_ writing your review, and then return to them afterwards.
 {% endhint %}
 
+
+
+### **Who is the audience, what value are you providing with this evaluation, and how to prioritize feedback?**&#x20;
+
+Essentially, we want you to put an equal value on:&#x20;
+
+* Making the evaluations and ratings useful for readers and policymakers&#x20;
+* Making them meaningful for 'assessing academics' (as a measure of value to consider against the current 'journal tier' system(
+* Communicating useful feedback and suggestions to researchers, to help them improve their work
+
+_We provide a more detailed discussion of what this means and why, and how it relates to out impact and 'theory of change'_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
+
+
+
+
+
 ### A **‘standard high-quality referee report'**
 
 We are generally asking for a ‘standard high-quality referee report’ here; the sort of report an academic [would write for a traditional high-prestige journal](#user-content-fn-6)[^6]. We are asking for this, subject to some differences in priorities, which we discuss below, and subject to any particular requests the managing editor may communicate to you.
@@ -96,6 +114,8 @@ We are generally asking for a ‘standard high-quality referee report’ here; t
 [The Econometrics society](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees) recommends a 2-3 page referee report; [Berk et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231) suggest this is relatively short but that brevity is desirable. [In a recent survey (Charness et al, 2022)](https://evalresearch.weebly.com/report---full-text.html), economists report spending (median and mean) about one day per report, with substantial shares reporting ‘half a day’ and ‘two days’. We expect that reviewers tend spend more time on papers for high-status journals, and when reviewing work closely tied to their own agenda.
 
 </details>
+
+##
 
 ## Metrics: overall assessment, categories
 
