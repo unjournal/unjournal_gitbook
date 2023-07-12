@@ -1,4 +1,4 @@
-# Guidelines for Evaluators
+# Guidelines for evaluators
 
 {% hint style="info" %}
 _**Thanks for your interest in evaluating research for the Unjournal!**_
@@ -25,7 +25,8 @@ See: [broken-reference](broken-reference/ "mention")
 </details>
 
 {% hint style="info" %}
-[_**How and why did we decide on these guidelines?**_](#user-content-fn-3)[^3]
+[_**How and why did we decide on these guidelines?**_](#user-content-fn-3)[^3]\
+
 {% endhint %}
 
 ## What we would like you to do

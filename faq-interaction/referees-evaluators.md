@@ -13,7 +13,7 @@ _What we are asking evaluators/referees to do:_ [Guidelines for Evaluators](../p
 ### How do we choose evaluators?
 
 * We follow standard procedures, considering complementary expertise, interest, cross-citations, and lack of conflict-of-interest. (See our internal guidelines for [choosing evaluators](../management-tech-details-discussion/management-process/choosing-evaluators/))
-* We aim to consult those who have opted-in to our referee pool first
+* We aim to consult those who have [opted-in to our referee pool](../benefits-and-features/) first
 * We will favor evaluators with a track record of careful, in-depth, and insightful evaluation (while giving ECRs a chance to build such a record)
 
 ### Why do we pay evaluators?
@@ -21,19 +21,19 @@ _What we are asking evaluators/referees to do:_ [Guidelines for Evaluators](../p
 * It is equitable, especially for those not getting 'service credit' for their refereeing work from their employer.
 * While researchers currently write reports for prominent traditional journals for free, perhaps in exchange for goodwill when they submit their own work, or a desire to impress prominent editors...
   1. We need to use explicit incentives as the Unjournal grows.
-  2. Paying evaluators can reduce [adverse selection and conflict of interest issues (potentially inherent to the traditional process)](#user-content-fn-2)[^2].
+  2. Paying evaluators can reduce [adverse selection and conflicts of interest (potentially inherent to the traditional process)](#user-content-fn-2)[^2].
 * We can use these as incentives for high-quality work.
-* We can use payments to access a wider range of expertise, including people not interested in submitting their own work to the Unjournal.
+* We can use payments to access a wider range of expertise, including people not interested in submitting their own work to The Unjournal.
 
 <details>
 
 <summary>To claim your evaluator payment...</summary>
 
-Please see:
-
-[broken-reference](broken-reference/ "mention")
+[#submitting-and-paying-expenses-claims](../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims "mention")
 
 </details>
+
+##
 
 ## Evaluator concerns (anonymity, reputation, etc.)
 
@@ -41,7 +41,7 @@ Please see:
 
 _**Can I submit an evaluation anonymously?**_
 
-2023: Yes, our current policy is to allow evaluators to choose whether they wish to remain anonymous or 'sign their evaluations'.
+Yes we allow evaluators to choose whether they wish to remain anonymous or 'sign their evaluations'.
 
 ### _**How do we protect the anonymity of evaluators who request it?**_
 
@@ -83,16 +83,81 @@ If you are writing a signed (not anonymous) review, you can share it or link it 
 
 Otherwise, if you are remaining anonymous. please do not disclose your connection to this report.
 
+\
 _Going forward:_
 
-* We may later invite you to write and evaluate more about this piece of research
-* ... and to help us judge prizes (e.g., [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention")).
+* We may later invite you to [write and evaluate more about this piece of research](#user-content-fn-4)[^4]
+* ... and to help us judge prizes (e.g., the [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention")).
 * We may ask if you want to be involved in replication exercises (e.g., through the [Institute for Replication](https://i4replication.org/))
-* We hope and intend to always see you are fairly compensated for your time and effort, as a general principle
+* We hope and intend to always see that you are fairly compensated for your time and effort, as a general principle
+
+
+
+## The value of these evaluations; what to prioritize?
+
+**What value do these evaluations provide (and how should evaluators think about this)? Who is the audience? How much is this as a 'service for authors'?**
+
+The evaluations provide at least three types of value, helping advance several paths in our [theory of change (see flowchart)](../benefits-and-features/global-priorities-theory-of-change.md)
+
+1. **For readers and users**: Unjournal evaluations assess the reliability and usefulness of the paper along several dimensions, and to make this public, so other researchers and policymakers can [learn from this and this in their practice and decisionmaking.](#user-content-fn-5)[^5]&#x20;
+2. **For careers and improving research:** Evaluations provide metrics of quality. In the medium term, these should provide career value in a better way,  improving the research process. We aim to build metrics that are credibly comparable to the current ‘what tier journal is a paper published in’.  But we aim to do this better:&#x20;
+   * More quickly, more reliably, more transparently, and without the unproductive overhead of dealing with journals (see '[reshaping evaluation](../benefits-and-features/costs-of-playing-the-publication-game.md)')&#x20;
+   * Allowing flexible [transparent formats (such as dynamic documents)](../benefits-and-features/dynamic-documents-vs-living-projects.md)... improving the research process, research careers, and hopefully improving the research itself in impactful areas.&#x20;
+3. **Feedback and suggestions for authors:** We also hope that evaluators provide feedback that is relevant to the authors, to help them make the paper better.
+
+<details>
+
+<summary>Is 'feedback for authors' more important for Unjournal evaluations than for traditional journals? </summary>
+
+In the near term, while an UJ evaluation may not yet seen to have substantial career value...
+
+* Work UJ considers might tend be at an earlier stage relative to papers submitted to journals, as authors who submit work may see this as ‘pre-journal’,&#x20;
+* and the papers we select (from NBER atm) might be posted before authors are submitting them to journals&#x20;
+* On the other hand, we also tend to consider (as of July 2023) a lot of NBER papers that seem close to being submitted (or are currently in submission) at top traditionaljournals.
+
+\
+Medium-term, if a positive UJ evaluation ‘has value’, it may be equally likely that the UJ evaluation is seen as an ‘endpoint’&#x20;
+
+Also note that  the modal outcome from submitting to a journal is rejection, so feedback is equally desirable from them.
+
+</details>
+
+<details>
+
+<summary>Can The Unjournal 'do feedback to authors better' than traditional journals? </summary>
+
+**Maybe we can?**
+
+* &#x20;We pay evaluators
+*   The evaluations are public, and some sign their evaluations&#x20;
+
+    * → evaluators may be more motivated to be careful and complete
+
+
+
+**On the other hand**
+
+* For public evaluations, people might defer to being overly careful&#x20;
+* At standard journals, referees do want to impress editors, and often (but not always) leave very detailed comments and suggestions (
+
+</details>
+
+Given the above considerations, and considering that we want to encourage authors to see value in engaging with The Unjournal, we encourage evaluators to prioritize the three components roughly equally:
+
+* Making the evaluations and ratings useful for readers and users
+* Making them meaningful for assessing academics
+* Communicating useful feedback and suggestions to researchers\
+  &#x20;
+
+
+
+
+
+
 
 ## Public evaluations
 
-### [How are these hosted and shared?](#user-content-fn-4)[^4]
+### [How are these hosted and shared?](#user-content-fn-6)[^6]
 
 (2023 update)
 
@@ -100,24 +165,31 @@ _Going forward:_
   * Each evaluations and response gets a DOI, linking these into all relevant systems, including Google Scholar
 * Previously: [Kotahi](https://kotahi.community/), linked to a [Sciety](https://sciety.org/) group (we aim to mirror PubPub content to our Sciety group and vice-versa)
 * Potentially: Hosted/mirrored on our own dedicated web page
-* We will present the 'ratings data' in clear, comparable formats, as well as providing the raw data for meta-analysts and others (this is partially available in the pubpub content, and we are working on making this more systematic)
-
-### General criteria/guidelines
-
-See our [guidelines for evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for our current (pilot-stage) approach and template for referees.
-
-(See also: [Considering Papers](../policies-projects-evaluation-workflow/considering-projects/)).
+* We will present the 'ratings data' in clear, comparable formats, as well as providing the raw data for meta-analysts and others (this is partially available in the PubPub content, and we are working on making this more systematic)
 
 
 
-1. 22 Dec 2022: We are still developing and improving this system.
-2. E.g., for wider audiences, e.g., on Wikipedia, the EA Forum, or Asterisk magazine.
-3. _Note_ 10 Dec 2022\_: This is a draft approach; we welcome feedback on the best format.\_
+## General criteria/guidelines&#x20;
 
-[^1]: Still, we sometimes call the evaluators 'referees', for clarity.
+* See our [guidelines for evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for our current (pilot-stage) approach and template for referees.
+* See also:  "[Considering Papers](../policies-projects-evaluation-workflow/considering-projects/)"
+
+
+
+
+
+
+
+
+
+[^1]: Still, we sometimes call the evaluators 'referees' for clarity.
 
 [^2]: E.g., 'Selection': Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration
 
 [^3]: Note that papers in the NBER series may enter through either of the above tracks; we will explain this to evaluators.
 
-[^4]: 22 Dec 2022: We are still developing and improving this system.
+[^4]: E.g., for wider audiences, e.g., on Wikipedia, the EA Forum, or Asterisk magazine, with potential further compensation.
+
+[^5]: They can better understand how to use it, what parts to use, and how much to believe it applies in different contexts, etc. &#x20;
+
+[^6]: 22 Dec 2022: We are still developing and improving this system.
