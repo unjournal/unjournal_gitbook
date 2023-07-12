@@ -21,7 +21,7 @@ Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get
 ## Progress notes 'since last update'
 
 {% hint style="info" %}
-We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1].
+We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1]. Members of UJ team can add further here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit), we will incorporate them.
 {% endhint %}
 
 
