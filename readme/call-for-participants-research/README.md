@@ -86,21 +86,21 @@ Activities may involve a combination of the following (but you can choose your f
 
 
 
-### **Advisory Board Members (ABM) and Area Research Specialists (ARS)**
+### **Advisory Board Members (ABM) and Field Specialists (FS)**
 
 Beyond the direct roles within the Unjournal, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager (see our [evaluation workflow](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md)) when needed.&#x20;
 
-_Area Research Specialists_ (ARS) will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as evaluation managers for this work.
+_Field Specialists_ (FS) will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as evaluation managers for this work.
 
 {% hint style="success" %}
-We expect most ARSs to be on the Advisory Board, and vice versa. However the Venn diagram is not a circle. Some ABMs may not have a relevant research focus, and some ARSs may choose not to be [listed on our Advisory Board](#user-content-fn-10)[^10].
+We expect most FSs to be on the Advisory Board, and vice versa. However the Venn diagram is not a circle. Some ABMs may not have a relevant research focus, and some FSs may choose not to be [listed on our Advisory Board](#user-content-fn-10)[^10].
 {% endhint %}
 
-**Time commitment**: There is no specific time obligation for Advisory Board Members or Area Research Specialists, only opportunities to engage. We may also occasionally consult you on your areas of expertise.&#x20;
+**Time commitment**: There is no specific time obligation for Advisory Board Members or Field Specialists, only opportunities to engage. We may also occasionally consult you on your areas of expertise.&#x20;
 
 **Compensation:**  Will vary on a case-by-case basis. In general, we aim to fairly compensate people for work done to support The Unjournal.  [Evaluation management work](../../management-tech-details-discussion/management-process/) will compensated at roughly $300–$450 per project.&#x20;
 
-**Who we are looking for**: For the ARS, active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academia,  governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes and progress.
+**Who we are looking for**: For the FSs, active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academia,  governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
 
 ### **Evaluators**
 
