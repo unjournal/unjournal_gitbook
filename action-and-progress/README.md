@@ -1,12 +1,12 @@
 ---
-description: The step's we've taken and our plans; needs updating
+description: The steps we've taken and our plans; needs updating
 ---
 
 # Action and progress
 
 See also [plan-of-action.md](../readme/plan-of-action.md "mention")
 
-See [Broken link](broken-reference "mention")
+See also [latest-updates.md](../readme-1/latest-updates.md "mention")
 
 ### Gantt Chart of Next Steps
 

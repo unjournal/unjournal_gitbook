@@ -38,73 +38,83 @@ _Update/reminder Oct 2022: Authors_ of evaluated papers will be eligible for our
 
 ## Overview and call
 
-[I am](#user-content-fn-2)[^2] [David Reinstein](https://www.davidreinstein.org/), founder and co-director[^3] of The Unjournal. We have an [open call](#user-content-fn-4)[^4] for committee members, board members, reviewers, and suggestions of relevant work for The Unjournal to evaluate.
+[I am](#user-content-fn-2)[^2] [David Reinstein](https://www.davidreinstein.org/), founder and co-director[^3] of The Unjournal. We have an [open call](#user-content-fn-4)[^4] for committee members, board members, reviewers, and suggestions for relevant work for The Unjournal to evaluate.
 
-The [Unjournal team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/master/discussion-team/who-are-we-our-team) is building a system for credible, public, journal-independent feedback and evaluation of research. Peer review can be slow; our system will enable researchers to get more prompt, efficient, and substantive feedback and advice, with metrics and signals of quality. The Unjournal will also help researchers advance, promote, and improve their work, while still allowing them to submit it to traditional journals at any point in the process.
+The [Unjournal team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/master/discussion-team/who-are-we-our-team) is building a system for credible, public, journal-independent feedback and evaluation of research.&#x20;
 
-Our initial focus: research relevant to [global priorities](https://globalprioritiesinstitute.org), particularly in the fields of quantitative social science (including economics) and impact evaluation. We aim to encourage posting research in public, [open formats that support replicability and robustness](#user-content-fn-5)[^5]. Rather than ‘finished frozen publications’, we wish to foster a [living approach](../../benefits-and-features/living-research-projects.md) to research projects; we hope that the research we review will be improved, extended, and may even be re-assessed in future versions.
+<details>
 
-_Briefly, The Unjournal’s process is:_
+<summary><em>Briefly, The Unjournal’s process (summarized again) is:</em> </summary>
 
-* Identify or invite contributions of relevant research _that_ [_is publicly hosted_](#user-content-fn-6)[^6] on any open platform or archive in any format.
-* Pay evaluators to give careful feedback on this work. Elicit quantifiable and comparable metrics of research quality as credible measures of value (see: [evaluator guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)).
-* [Publicly post](#user-content-fn-7)[^7] and link all reviews of the work. Award financial prizes for work judged strongest.
+* Identify, invite, or select contributions of relevant research _that_ [_is publicly hosted_](#user-content-fn-5)[^5] on any open platform or archive in any format.
+* Pay evaluators to give careful feedback on this work, with prizes and incentives for strong evaluation work.
+* &#x20;Elicit quantifiable and comparable metrics of research quality as credible measures of value (see: [evaluator guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)). Synthesize the results of these evaluations in useful ways.
+* [Publicly post](#user-content-fn-6)[^6] and link all reviews of the work. Award financial prizes for the work judged strongest.
 * Allow _evaluators_ to choose if they wish to remain anonymous or to 'sign their reviews.'
 * Aim to be as transparent as possible in these processes.
+
+</details>
 
 
 
 We maintain an **open call for participants** for three different roles:
 
 1. Management committee members (involving honorariums for time spent)
-2. Advisory board members (supporters, unpaid, no time commitment)
-3. A pool of evaluators (who will be paid for their time and their work; we may draw reviewers from outside this pool, of course).
+2. Advisory board members and 'area research specialists' (supporters, no time commitment)
+3. A pool of evaluators (who will be paid for their time and their work; we also draw evaluators from outside this pool).
 
-The roles are explained in more detail below; you can express your interest and enter our database [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
+The roles are explained in more detail below; you can express your interest (and enter our database) [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
 
-We are also looking for high-quality, globally-pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research (with [some potential bounties and prizes](#user-content-fn-8)[^8])_._&#x20;
-
-For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see), and accompanying links.
+We are also looking for high-quality, globally-pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research_._  Please suggest research [here](https://airtable.com/shrdHHI0zK7rkJCP3). (We offer bounties and prizes for useful suggestions - [see note](#user-content-fn-7)[^7].)   For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see), and accompanying links.
 
 ## Organizational roles and responsibilities
 
 ### **Management Committee Members**&#x20;
 
-Activities involve:
+Activities may involve a combination of the following (but you can choose your focus).
 
+* Contributing to the decision-making process regarding research focus, reviewer assignment, and prize distribution.&#x20;
+* (In your area of interest and expertise...) Keeping track of new or under-considered research with potential for impact. Explain and assess its potential for Unjournal evaluation.&#x20;
 * Collaborating with other committee members on the establishment of rules and guidelines, such as determining the metrics for research evaluation and defining the mode of assessment publication.
 * Helping plan The Unjournal’s future path.
-* If feasible, contributing to the decision-making process regarding research focus, reviewer assignment, and prize distribution. This responsibility will be kept light.
 
-[**Time commitment**](#user-content-fn-9)[^9]: A minimum of 20 hours total over the next 18 months.
+[**Time commitment**](#user-content-fn-8)[^8]: A minimum of 20 hours total over the next 18 months.
 
-**Compensation**: We have funding for a $65 per hour honorarium for the first 20 hours, with possible compensation for additional work. [Evaluation management work](../../management-tech-details-discussion/management-process/) will be further compensated (at roughly $300–$450 per paper).&#x20;
+**Compensation**: We have funding for a $57.50 per hour honorarium for the first 20 hours, with possible compensation [for additional work](#user-content-fn-9)[^9]. [Evaluation management work](../../management-tech-details-discussion/management-process/) will be further compensated (at roughly $300–$450 per paper).&#x20;
 
 **Who we are looking for**: All applicants are welcome. We are especially interested in those involved in global priorities research (and related fields), policy research and practice, open science and meta-science, bibliometrics and scholarly publishing, and any other academic research. We want individuals with a solid interest in The Unjournal project and its goals, and the ability to meet the minimal time commitment. Applying is extremely quick, and those not chosen will be considered for other roles and work going forward.
 
-### **Advisory Board Members**
 
-Beyond the direct roles within the Unjournal, we're also in the process of establishing a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager (see our [evaluation workflow](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md)) when needed.&#x20;
 
-**Time commitment**: There is no time obligation for this role, only potential and occasional consultation.&#x20;
+### **Advisory Board Members (ABM) and Area Research Specialists (ARS)**
 
-**Compensation:** Case-by-case basis.
+Beyond the direct roles within the Unjournal, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager (see our [evaluation workflow](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md)) when needed.&#x20;
 
-**Who we are looking for**: Active researchers, practitioners, and stakeholders with a strong publication record, and who are affiliated with an academic, governmental, or relevant non-profit institution.
+_Area Research Specialists_ (ARS) will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as evaluation managers for this work.
+
+{% hint style="success" %}
+We expect most ARSs to be on the Advisory Board, and vice versa. However the Venn diagram is not a circle. Some ABMs may not have a relevant research focus, and some ARSs may choose not to be [listed on our Advisory Board](#user-content-fn-10)[^10].
+{% endhint %}
+
+**Time commitment**: There is no specific time obligation for Advisory Board Members or Area Research Specialists, only opportunities to engage. We may also occasionally consult you on your areas of expertise.&#x20;
+
+**Compensation:**  Will vary on a case-by-case basis. In general, we aim to fairly compensate people for work done to support The Unjournal.  [Evaluation management work](../../management-tech-details-discussion/management-process/) will compensated at roughly $300–$450 per project.&#x20;
+
+**Who we are looking for**: For the ARS, active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academia,  governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes and progress.
 
 ### **Evaluators**
 
-We will reach out to evaluators (aka 'reviewers') on a case-by-case basis, appropriate for each paper or project being assessed. This is dependent on expertise, the researchers' interest, and a lack of conflict of interest.&#x20;
+We will reach out to evaluators (aka 'reviewers') on a case-by-case basis, appropriate for each paper or project being assessed. This is dependent on expertise, the researchers' interest, and a lack of conflict of interest. .
 
-**Time commitment**: Case-by-case basis.
+**Time commitment**: Case-by-case basis. For each evaluation, [here are some guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#length-and-time-possible-benchmarks) for the amount of time to spend.
 
-**Compensation**: We pay a minimum of $250 per evaluation (typically $350), with some additional funding for ‘most-helpful-evaluator’ prizes. (_June 2023: We plan to significantly increase this compensation and add substantial incentives.)_
+**Compensation**: We pay a minimum of $400 (updated July 2023) per on-time and complete evaluation, and offer additional prizes and incentives. See [here](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for more details.
 
-**Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for the Unjournal. These will often be the first people we look to when considering potential evaluators.&#x20;
+**Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for the Unjournal. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.&#x20;
 
 ## **Projects and papers**
 
-We are very interested in finding relevant research work to evaluate and assess during our pilot phase. We are offering small bounties for submissions. You may also want to put forward your own work [here](https://unjournaldev.cloud68.co/login).
+We are very interested in finding relevant research work to evaluate and assess during our pilot phase. We have offered, [and plan to offer](#user-content-fn-11)[^11] small bounties for suggestions we take up. You may also want to [put forward your own work here](https://airtable.com/shrwlxes5AeasnkfC).
 
 We provide a separate form for research suggestions [here](https://airtable.com/shrdHHI0zK7rkJCP3). We may follow up with you individually.
 
@@ -123,18 +133,22 @@ Note: This is under continual refinement; see our [policies](../../policies-proj
 
 [^1]: Formerly "'Founding committee"
 
-[^2]: This following 15 years in academia (UC Berkeley, University of Essex, University of Exeter) and applied research (Rethink Priorities),  and a [supporter of open science](#user-content-fn-10)[^10]
+[^2]: This following 15 years in academia (UC Berkeley, University of Essex, University of Exeter) and applied research (Rethink Priorities),  and a [supporter of open science](#user-content-fn-12)[^12]
 
 [^3]: Along with Gavin Taylor.
 
 [^4]: As of 23 Jun 2023.
 
-[^5]: Such as hosted dynamic documents (Quarto, Rmd, Jupyter, etc).
+[^5]: We can help arrange hosting and help you get a time-stamped DOI.
 
-[^6]: We can help arrange hosting and help you get a time-stamped DOI.
+[^6]: _Note:_ we offer some specific exceptions for ECRs under certain circumstances. See '[embargos](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/faq-interaction/for-researchers-authors#conditional-embargo)'.
 
-[^7]: _Note:_ we offer some specific exceptions for ECRs under certain circumstances. See '[embargos](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/faq-interaction/for-researchers-authors#conditional-embargo)'.
+[^7]: Update July 2023: these prizes are not currently active, but we aim to launch this again soon; all suggestors will be eligible for prizes retroactively.
 
-[^8]: Update June 2023: these prizes are not currently active, but we aim to launch this again soon; all suggestors will be eligible for prizes retroactively.
+[^8]: Update June 2023.
 
-[^9]: Update June 2023.
+[^9]: Our current budget covers an average of roughly 80 total hours per Management Committee member at this rate.
+
+[^10]: However, as the latter brings no specific obligations, this case might be rare.
+
+[^11]: If you submit work, you are eligible for any future prizes we offer for the relevant period.

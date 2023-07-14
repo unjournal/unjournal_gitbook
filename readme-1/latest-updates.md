@@ -21,30 +21,42 @@ Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get
 ## Progress notes 'since last update'
 
 {% hint style="info" %}
-We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1]. Members of UJ team can add further here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit), we will incorporate them.
+**"Progress notes":** We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1]. Members of UJ team can add further here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit), we will incorporate them.
 {% endhint %}
 
 
 
 **Grants, timelines, and pipelines**
 
-The SFF grant is now 'in our account' (all is public and made transparent on our [OCF page](https://opencollective.com/the-unjournal)). We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-1vRLCsqvNhECrlHbhwDpIt6hqwihKvVYCVt57cmp2Tof52lI-G7dY3Juk-fss9WwW1L9csdhinK9DCI9/pub) sharing our news and plans
+The SFF grant is now 'in our account' (all is public and made transparent on our [OCF page](https://opencollective.com/the-unjournal)). We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-1vRLCsqvNhECrlHbhwDpIt6hqwihKvVYCVt57cmp2Tof52lI-G7dY3Juk-fss9WwW1L9csdhinK9DCI9/pub) sharing our news and plans.
 
-Our 'Pilot Phase' (10 papers/projects) is almost complete; we are waiting on 1-2 evaluations, followed by author responses and 'publishing' the content at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by Unjournal evaluators. We will make the decision process public and transparent (at least ex-post).
+Our 'Pilot Phase' (ten papers) is almost complete; we are waiting on 1-2 evaluations, followed by author responses and 'publishing' the final three packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by Unjournal evaluators. We will make the decision process public and transparent (at least ex-post).
 
 
 
-**"What research should we evaluate and prioritize, and why?"**&#x20;
+**"What research should we evaluate and prioritize, and why?"; "Area research specialists"**
 
-"What research should we evaluate and prioritize, and why?" targets should we set for different fields, We are discussing this within our team and with stakeholders. We intend to open up this discussion further, making it public, and bringing in a range of voices. We aim to build a framework and a systematic process. See our expanding notes and discussion on '[what is global priorities relevant research](../the-field-and-ea-gp-research.md)'? &#x20;
+"What research should we evaluate and prioritize, and why?" ... And whether we should set targets for different fields, related outcome "cause categories", and research sources.  We are discussing this within our team and with stakeholders. We intend to open up this discussion further, making it public, and bringing in a range of voices. We aim to build a framework and a systematic process. See our expanding notes and discussion on '[what is global priorities relevant research](../the-field-and-ea-gp-research.md)'? &#x20;
 
 In the meantime, we are moving forward with our post-pilot 'pipeline' of research evaluation. Our management team is considering recent prominent and influential working papers in [NBER](https://www.nber.org/papers) and beyond, and we continue to solicit submissions, suggestions, and feedback. We are also reaching out to _users_ of this research (such as NGOs, charity evaluators, and applied research think tanks), who are identifying research they particularly rely on and are curious about.&#x20;
+
+We can't commission the evaluation of every piece of research under the sun (at least not until we get the next grant). Thus, within each area, we need to find the right people to monitor and select the strongest work with the greatest potential for impact, and where Unjournal evaluations can add the most value. It's a big task and there is a lot of ground to cover.  We're dividing up this space (fields, outcomes/causes, research sources) amongst our management team as well as what we now call...&#x20;
+
+_"Area Research Specialists"_ (ARS; who will often be members of our Advisory Board). ARSs will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as evaluation managers for this work.
+
+
+
+**Increase in evaluator compensation**
+
+We want to attract the strongest researchers to evaluate work for The Unjournal, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes (details tbd.)
+
+Please consd
 
 
 
 **What about our evaluators; should they prioritize...?**
 
-* &#x20;Giving feedback to authors
+* Giving feedback to authors
 * Helping policymakers assess and use the work, or&#x20;
 * Providing a 'career-relevant benchmark' to improve research processes?&#x20;
 
@@ -60,9 +72,9 @@ We discuss [this here](../faq-interaction/referees-evaluators.md#the-value-of-th
   * [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea), Associate Professor, expert judgment, biosciences, applied probability, uncertainty quantification
   * [Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Program Lead, Impetus Institute for Meta-science
   * [Michael Wiebe](https://michaelwiebe.com/), Data Scientist, Economist Consultant; PhD University of British Columbia (Economics)
-* Working with PubPub to improve our process and interfaces
-* Hiring progress and plans; calls to action
-* Expanding our Management Committee; calls to action
+* We're working with PubPub to improve our process and interfaces
+* Our hiring and contracting continues
+* Expanding our Management Committee; [calls to action](../readme/call-for-participants-research/#overview-and-call)
 * Potentially-relevant events in the outside world: [Institute for Replication grant](https://twitter.com/I4Replication/status/1673737650203770893), [Clusterfake](http://datacolada.org/109)
 
 
