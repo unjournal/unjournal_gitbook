@@ -98,9 +98,9 @@ We expect most FSs to be on the Advisory Board, and vice versa. However the Venn
 
 **Time commitment**: There is no specific time obligation for Advisory Board Members or Field Specialists, only opportunities to engage. We may also occasionally consult you on your areas of expertise.&#x20;
 
-**Compensation:**  Will vary on a case-by-case basis. In general, we aim to fairly compensate people for work done to support The Unjournal.  [Evaluation management work](../../management-tech-details-discussion/management-process/) will compensated at roughly $300–$450 per project.&#x20;
+**Compensation:**  Will vary on a case-by-case basis. In general, we aim to fairly compensate people for work done to support The Unjournal.  [Evaluation management work](../../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.&#x20;
 
-**Who we are looking for**: For the FSs, active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academia,  governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
+**Who we are looking for**: For the FSs roles, we are seeking active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academia,  governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
 
 ### **Evaluators**
 
@@ -125,9 +125,7 @@ If you are interested in discussing any of the above in person, please email us 
 \
 We invite you to fill in this [form](https://airtable.com/shrW9xpIrxNGfxkXW) to leave your contact information, as well as outlining which parts of the project you may be interested in.
 
-
-
-Note: This is under continual refinement; see our [policies](../../policies-projects-evaluation-workflow/) for more details.
+_Note_: This is under continual refinement; see our [policies](../../policies-projects-evaluation-workflow/) for more details.
 
 
 
