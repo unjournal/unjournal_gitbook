@@ -26,7 +26,7 @@ Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get
 
 
 
-**Grants, timelines, and pipelines**
+### **Grants, timelines, and pipelines**
 
 The SFF grant is now 'in our account' (all is public and made transparent on our [OCF page](https://opencollective.com/the-unjournal)). We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-1vRLCsqvNhECrlHbhwDpIt6hqwihKvVYCVt57cmp2Tof52lI-G7dY3Juk-fss9WwW1L9csdhinK9DCI9/pub) sharing our news and plans.
 
@@ -34,7 +34,7 @@ Our 'Pilot Phase' (ten papers) is almost complete; we are waiting on 1-2 evaluat
 
 
 
-**"What research should we evaluate and prioritize, and why?"; "Field Specialists"**
+### **"What research should we prioritize for evaluation, and why?"; "Field Specialists"**
 
 "What research should we evaluate and prioritize, and why?" ... And whether we should set targets for different fields, related outcome "cause categories", and research sources.  We are discussing this within our team and with stakeholders. We intend to open up this discussion further, making it public, and bringing in a range of voices. We aim to build a framework and a systematic process. See our expanding notes and discussion on '[what is global priorities relevant research](../the-field-and-ea-gp-research.md)'? &#x20;
 
@@ -42,17 +42,21 @@ In the meantime, we are moving forward with our post-pilot 'pipeline' of researc
 
 We can't commission the evaluation of every piece of research under the sun (at least not until we get the next grant). Thus, within each area, we need to find the right people to monitor and select the strongest work with the greatest potential for impact, and where Unjournal evaluations can add the most value. It's a big task and there is a lot of ground to cover.  We're dividing up this space (fields, outcomes/causes, research sources) amongst our management team as well as what we now call...&#x20;
 
-[_"Field Specialists_](../readme/call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FS).  FSs (who will often be members of our Advisory Board) will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as [evaluation managers](../management-tech-details-discussion/management-process/) for this same work. &#x20;
-
-_Interested in being an FRS? Fill out our form_&#x20;
 
 
+#### [_"Field Specialists_](../readme/call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FS)
 
-**Increase in evaluator compensation**
+FSs (who will often be members of our Advisory Board) will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as [evaluation managers](../management-tech-details-discussion/management-process/) for this same work. &#x20;
+
+_Interested in being an FRS? Fill out (this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW)_)._
+
+
+
+### **Increase in evaluator compensation, incentives/rewards**
 
 We want to attract the strongest researchers to evaluate work for The Unjournal, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes (details tbd.)
 
-Please consd
+_Please consider signing up for our evaluator pool (this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW)_)._
 
 
 
