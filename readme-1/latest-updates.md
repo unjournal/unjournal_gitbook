@@ -48,7 +48,7 @@ We can't commission the evaluation of every piece of research under the sun (at 
 
 FSs (who will often be members of our Advisory Board) will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as [evaluation managers](../management-tech-details-discussion/management-process/) for this same work. &#x20;
 
-_Interested in being an FRS? Fill out (this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW)_)._
+_Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3-5 min, same form for all roles/involvement)._
 
 
 
@@ -56,7 +56,7 @@ _Interested in being an FRS? Fill out (this_ [_form_](https://airtable.com/shrW9
 
 We want to attract the strongest researchers to evaluate work for The Unjournal, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes (details tbd.)
 
-_Please consider signing up for our evaluator pool (this_ [_form_](https://airtable.com/shrW9xpIrxNGfxkXW)_)._
+_Please consider signing up for our evaluator pool  (fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7Yy)_, about 3-5 min, same form for all roles/involvement)._
 
 
 
