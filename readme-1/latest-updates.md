@@ -60,7 +60,7 @@ _Please consider signing up for our evaluator pool  (fill out_ [_this form_](htt
 
 
 
-**What about our evaluators; should they prioritize...?**
+### **What about our evaluators; should they prioritize...?**
 
 * Giving feedback to authors
 * Helping policymakers assess and use the work, or&#x20;
@@ -70,7 +70,13 @@ We discuss [this here](../faq-interaction/referees-evaluators.md#the-value-of-th
 
 
 
-**Also  to report**
+### Adjacent initiatives and 'mapping this space'
+
+We keep track (and keep in contact) with other initiatives in open science, open access, robustness and transparency, and encouraging impactful , and we want to be coordinated. We want to _partner_ with other initiatives and tools where there is overlap, and clearly _explain_ where we differentiate, and why.  [This Airtable view](https://airtable.com/shrCs2pDDA9cwZuC8) gives a preliminary breakdown of similar and partially-overlapping initiatives, and tries to catalog the similarities and differences, and 'who is doing what in what fields'.&#x20;
+
+
+
+### **Also to report**
 
 * New [Advisory Board members](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team#advisory-board) &#x20;
   * [Gary Charness](https://www.wikiwand.com/en/Gary\_Charness), Professor of Economics, UC Santa Barbara &#x20;
