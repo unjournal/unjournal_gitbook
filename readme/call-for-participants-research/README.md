@@ -90,7 +90,7 @@ Activities may involve a combination of the following (but you can choose your f
 
 Beyond the direct roles within the Unjournal, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager (see our [evaluation workflow](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md)) when needed.&#x20;
 
-_Field Specialists_ (FS) will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as evaluation managers for this work.
+_**Field Specialists**_** (FS)** will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as evaluation managers for this work.
 
 {% hint style="success" %}
 We expect most FSs to be on the Advisory Board, and vice versa. However the Venn diagram is not a circle. Some ABMs may not have a relevant research focus, and some FSs may choose not to be [listed on our Advisory Board](#user-content-fn-10)[^10].
@@ -100,7 +100,11 @@ We expect most FSs to be on the Advisory Board, and vice versa. However the Venn
 
 **Compensation:**  Will vary on a case-by-case basis. In general, we aim to fairly compensate people for work done to support The Unjournal.  [Evaluation management work](../../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.&#x20;
 
-**Who we are looking for**: For the FSs roles, we are seeking active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academia,  governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
+**Who we are looking for**: For the FS roles, we are seeking active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academia,  governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
+
+_Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3-5 min, same form for all roles/involvement)._&#x20;
+
+
 
 ### **Evaluators**
 
@@ -111,6 +115,10 @@ We will reach out to evaluators (aka 'reviewers') on a case-by-case basis, appro
 **Compensation**: We pay a minimum of $400 (updated July 2023) per on-time and complete evaluation, and offer additional prizes and incentives. See [here](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for more details.
 
 **Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for the Unjournal. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.&#x20;
+
+_Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3-5 min, same form for all roles/involvement)._
+
+
 
 ## **Projects and papers**
 
