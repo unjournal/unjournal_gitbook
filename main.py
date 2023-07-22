@@ -9,8 +9,8 @@ if __name__ == "__main__":
     email_client.set_newsletter_type("regular")
     email_client.set_newsletter_recipients()
     email_client.set_newsletter_settings(
-        title="Test email title",
-        subject="Test email subject",
+        title="The Unjournal: Latest Updates",
+        subject="Latest updates from The Unjournal",
     )
 
     email_client.create_email()
