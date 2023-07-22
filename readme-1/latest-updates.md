@@ -47,19 +47,19 @@ We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-
 
 Our 'Pilot Phase', involving ten papers and roughly 20 evaluations is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)”. We are now waiting on one last evaluation, followed by author responses and 'publishing' the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
 
-We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by Unjournal evaluators. After we make the choices, we will make our decision process public and transparent.
+We will make decisions and award our [Impactful Research Prize](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research/impactful-research-prize) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by Unjournal evaluators. After we make the choices, we will make our decision process public and transparent.
 
 ### **"What research should we prioritize for evaluation, and why?"**
 
-We continue to develop processes and policies around 'which research to prioritize'. For example, we are considering whether we should set targets for different fields, for related outcome "cause categories," and for research sources. This discussion continues among our team and with stakeholders. We intend to open up the discussion further, making it public and bringing in a range of voices. The objective is to develop a framework and a systematic process to make these decisions. See our expanding notes and discussion on [What is global-priorities relevant research?](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/the-field-and-ea-gp-research)
+We continue to develop processes and policies around 'which research to prioritize'. For example, we are considering whether we should set targets for different fields, for related outcome "cause categories," and for research sources. This discussion continues among our team and with stakeholders. We intend to open up the discussion further, making it public and bringing in a range of voices. The objective is to develop a framework and a systematic process to make these decisions. See our expanding notes and discussion on ['What is global-priorities relevant research'?](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/the-field-and-ea-gp-research)
 
 In the meantime, we are moving forward with our post-pilot “pipeline” of research evaluation. Our management team is considering recent prominent and influential working papers from the National Bureau of Economics Research ([NBER](https://www.nber.org/papers)) and beyond, and we continue to solicit submissions, suggestions, and feedback. We are also reaching out to users of this research (such as NGOs, charity evaluators, and applied research think tanks), asking them to identify research they particularly rely on and are curious about. _If you want to join this conversation, we welcome your input._
 
 #### (Paid) Research opportunity: to help us _do_ this
 
-We are also considering hiring a small number of researchers to each do a one-off (\~16 hours) “research scoping for evaluation management” project. The project is sketched [here](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit); essentially, summarize a research theme and it's relevance, identify potentially-high-value papers in this area, choose one paper and curate it for potential _Unjournal_ evaluation.
+We are also considering hiring a small number of researchers to each do a one-off (\~16 hours) “research scoping for evaluation management” project. The project is sketched [here](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit); essentially, summarize a research theme and its relevance, identify potentially-high-value papers in this area, choose one paper and curate it for potential _Unjournal_ evaluation.
 
-We see a lot in this task, and expect to actually _use_ and credit this work.
+We see a lot in this task and expect to actually _use_ and credit this work.
 
 See [_Unjournal_ - standalone work task: Research scoping for evaluation management](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit). If you are interested in applying to do this paid project, please let us know [through our CtA survey form here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
 
@@ -69,13 +69,13 @@ Of course, we can't commission the evaluation of every piece of research under t
 
 This is a big task and there is a lot of ground to cover. To divide and conquer, we’re partitioning this space (looking at natural divisions between fields, outcomes/causes, and research sources) amongst our management team as well as what we now call...
 
-#### [_"Field Specialists_](../readme/call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FS), who will
+#### [_"Field Specialists"_ (FS)](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research#advisory-board-members-abm-and-field-specialists-fs), who will
 
 * focus on a particular area of research, policy, or impactful outcome;
 * keep track of new or under-considered research with potential for impact;
 * explain and assess the extent to which _The Unjournal_ can add value by commissioning this research to be evaluated;&#x20;
 * “curate” these research objects: adding them to our database, considering what sorts of evaluators might be needed, and what the evaluators might want to focus on, and
-* potentially serve as an [evaluation manager](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/management-tech-details-discussion/management-process) for this same work.
+* potentially serve as an [evaluation manager](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/management-tech-details-discussion/management-process) for this same work.
 
 Field specialists will usually also be members of our Advisory Board, and we are encouraging expressions of interest for both together. (However, these don’t need to be linked in every case.).
 
@@ -89,11 +89,11 @@ We are also considering how to set priorities for our _evaluators_. Should they 
 * Helping policymakers assess and use the work?
 * Providing a 'career-relevant benchmark' to improve research processes?&#x20;
 
-We discuss this topic [here](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/faq-interaction/referees-evaluators#the-value-of-these-evaluations-what-to-prioritize), considering how each choice relates to our [Theory of Change](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/benefits-and-features/global-priorities-theory-of-change).
+We [discuss this topic here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/faq-interaction/referees-evaluators#the-value-of-these-evaluations-what-to-prioritize), considering how each choice relates to our [Theory of Change](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/global-priorities-theory-of-change)[.](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/global-priorities-theory-of-change)
 
 ### **Increase in evaluator compensation, incentives/rewards**
 
-We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
+We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
 
 _Please consider signing up for our evaluator pool (fill out_ [_the good old form_](https://airtable.com/shrtMv4hNlv8aL7Yy)_)._
 
