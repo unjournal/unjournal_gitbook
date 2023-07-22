@@ -28,6 +28,120 @@ Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get
 **"Progress notes":** We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1]. Members of UJ team can add further here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit), we will incorporate them.
 {% endhint %}
 
+##
+
+## Update on recent progress: 21 July 2023
+
+### Funding
+
+The SFF grant is now 'in our account' (all is public and made transparent on our [OCF page](https://opencollective.com/the-unjournal)). This makes it possible for us to
+
+* Move forward in filling staff and contractor positions (see below)
+* Increase evaluator compensation and incentives/rewards (see below)
+
+We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-1vRLCsqvNhECrlHbhwDpIt6hqwihKvVYCVt57cmp2Tof52lI-G7dY3Juk-fss9WwW1L9csdhinK9DCI9/pub) sharing our news and plans.
+
+###
+
+### **Timelines, and pipelines**
+
+Our 'Pilot Phase', involving ten papers and roughly 20 evaluations is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)”.  We are now waiting on one last evaluation, followed by author responses and 'publishing' the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/).  (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
+
+We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by Unjournal evaluators. After we make the choices, we will make our decision process public and transparent.
+
+
+
+### **"What research should we prioritize for evaluation, and why?"**
+
+We continue to develop processes and policy around which research to prioritize. For example, we are considering whether we should set targets for different fields, for related outcome "cause categories," and for research sources. This discussion continues among our team and with stakeholders. We intend to open up the discussion further, making it public and bringing in a range of voices. The objective is to develop a framework and a systematic process to make these decisions. See our expanding notes and discussion on [What is global-priorities relevant research?](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/the-field-and-ea-gp-research)&#x20;
+
+In the meantime, we are moving forward with our post-pilot “pipeline” of research evaluation. Our management team is considering recent prominent and influential working papers from the National Bureau of Economics Research ([NBER](https://www.nber.org/papers)) and beyond, and we continue to solicit submissions, suggestions, and feedback. We are also reaching out to users of this research (such as NGOs, charity evaluators, and applied research think tanks), asking them to identify research they particularly rely on and are curious about.  _If you want to join this conversation, we welcome your input._&#x20;
+
+#### (Paid) Research opportunity: to help us _do_ this
+
+We are also considering hiring a small number of researchers to each do a one-off (\~16 hours)  “research scoping for evaluation management” project.  The project is sketched [here](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit); essentially, summarize a research theme and it's relevance, identify potentially-high-value papers in this area, choose one paper and curate it for potential _Unjournal_ evaluation.&#x20;
+
+We see a lot in this task, and expect to actually _use_ and credit this work.
+
+See [_Unjournal_ - standalone work task: Research scoping for evaluation management](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit). If you are interested in applying to do this paid project, please let us know [through our CtA survey form here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
+
+
+
+### **Call for "Field Specialists"**
+
+Of course, we can't commission the evaluation of every piece of research under the sun (at least not until we get the next grant :) ). Thus, within each area, we need to find the right people to monitor and select the strongest work with the greatest potential for impact, and where _Unjournal_ evaluations can add the most value.&#x20;
+
+This is a big task and there is a lot of ground to cover. To divide and conquer, we’re partitioning this space (looking at natural divisions between fields, outcomes/causes, and research sources) amongst our management team as well as what we now call...&#x20;
+
+#### [_"Field Specialists_](../readme/call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FS), who will
+
+* focus on a particular area of research, policy, or impactful outcome;&#x20;
+* keep track of new or under-considered research with potential for impact;&#x20;
+* explain and assess the extent to which _The Unjournal_ can add value by commissioning this research to be evaluated; and
+* “curate” these research objects: adding them to our database, considering what sorts of evaluators might be needed, and what the evaluators might want to focus on, and &#x20;
+* potentially serve as an [evaluation manager](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/management-tech-details-discussion/management-process) for this same work.
+
+Field specialists will usually also be members of our Advisory Board, and we are encouraging expressions of interest for both together. (However, these don’t need to be linked in every case.)  .&#x20;
+
+_Interested in a field specialist role or other involvement in this process? Please fill out_ [_this general involvement form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3–5 minutes)._
+
+
+
+### Setting priorities for evaluators
+
+We are also considering how to set priorities for our _evaluators_. Should they prioritize:
+
+* Giving feedback to authors?
+* Helping policymakers assess and use the work?
+* Providing a 'career-relevant benchmark' to improve research processes? \
+
+
+We discuss this topic [here](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/faq-interaction/referees-evaluators#the-value-of-these-evaluations-what-to-prioritize), considering how each choice relates to our [Theory of Change](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/benefits-and-features/global-priorities-theory-of-change).
+
+
+
+### **Increase in evaluator compensation, incentives/rewards**
+
+We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
+
+_Please consider signing up for our evaluator pool (fill out_ [_the good old form_](https://airtable.com/shrtMv4hNlv8aL7Yy)_)._
+
+&#x20;&#x20;
+
+### Adjacent initiatives and 'mapping this space'
+
+As part of The Unjournal’s general approach, we keep track of (and keep in contact with)  other initiatives in open science, open access, robustness and transparency, and encouraging impactful research. We want to be coordinated. We want to partner with other initiatives and tools where there is overlap, and clearly explain where (and why) we differentiate from other efforts. [This Airtable view](https://airtable.com/shrCs2pDDA9cwZuC8) gives a preliminary breakdown of similar and partially-overlapping initiatives, and tries to catalog the similarities and differences to give a picture of who is doing what, and in what fields.&#x20;
+
+
+
+### **Also to report**
+
+#### New [Advisory Board members](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team#advisory-board)
+
+* [Gary Charness](https://www.wikiwand.com/en/Gary\_Charness), Professor of Economics, UC Santa Barbara
+* [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics (animal welfare agenda)
+* [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea), Associate Professor, expert judgment, biosciences, applied probability, uncertainty quantification
+* [Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Program Lead, Impetus Institute for Meta-science
+* [Michael Wiebe](https://michaelwiebe.com/), Data Scientist, Economist Consultant; PhD University of British Columbia (Economics)
+
+#### Tech and platforms
+
+We're working with PubPub to improve our process and interfaces. We plan to take on a [KFG membership](https://www.pubpub.org/pricing) to help us work with them closely as they build their platform to be more attractive and useful for The Unjournal and other users.
+
+#### Our hiring, contracting, and expansion continues
+
+* Our next hiring focus: [Communications](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit#heading=h.ohxm7x2bjfvn). We are looking for a strong writer who is comfortable communicating with academics and researchers (particularly in economics, social science, and policy), journalists, policymakers, and philanthropists. Project-based.
+* We've chosen (and are in the process of contracting) a strong quantitative meta-scientist and open science advocate for the project: “Aggregation of expert opinion, forecasting, incentives, meta-science”. (Announcement coming soon).
+* We are also expanding our Management Committee and Advisory Board; see [calls to action](../readme/call-for-participants-research/#overview-and-call).
+
+
+
+#### Potentially-relevant events in the outside world&#x20;
+
+* [Institute for Replication grant](https://twitter.com/I4Replication/status/1673737650203770893)
+* &#x20;[Clusterfake](http://datacolada.org/109)
+
+
 
 ## Update on recent progress: 1 June 2023
 
