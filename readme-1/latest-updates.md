@@ -73,11 +73,11 @@ This is a big task and there is a lot of ground to cover. To divide and conquer,
 
 * focus on a particular area of research, policy, or impactful outcome;
 * keep track of new or under-considered research with potential for impact;
-* explain and assess the extent to which _The Unjournal_ can add value by commissioning this research to be evaluated; and
+* explain and assess the extent to which _The Unjournal_ can add value by commissioning this research to be evaluated;&#x20;
 * “curate” these research objects: adding them to our database, considering what sorts of evaluators might be needed, and what the evaluators might want to focus on, and
 * potentially serve as an [evaluation manager](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/management-tech-details-discussion/management-process) for this same work.
 
-Field specialists will usually also be members of our Advisory Board, and we are encouraging expressions of interest for both together. (However, these don’t need to be linked in every case.) .
+Field specialists will usually also be members of our Advisory Board, and we are encouraging expressions of interest for both together. (However, these don’t need to be linked in every case.).
 
 _Interested in a field specialist role or other involvement in this process? Please fill out_ [_this general involvement form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3–5 minutes)._
 
@@ -87,7 +87,7 @@ We are also considering how to set priorities for our _evaluators_. Should they 
 
 * Giving feedback to authors?
 * Helping policymakers assess and use the work?
-* Providing a 'career-relevant benchmark' to improve research processes? \\
+* Providing a 'career-relevant benchmark' to improve research processes?&#x20;
 
 We discuss this topic [here](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/faq-interaction/referees-evaluators#the-value-of-these-evaluations-what-to-prioritize), considering how each choice relates to our [Theory of Change](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/benefits-and-features/global-priorities-theory-of-change).
 
