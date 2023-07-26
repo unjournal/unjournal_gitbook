@@ -25,7 +25,7 @@
     * [Benefits of Dynamic Documents](benefits-and-features/benefits-of-dynamic-documents.md)
     * [Benefits of Living Research Projects](benefits-and-features/living-research-projects.md)
   * [The File Drawer Effect (Article)](https://inandsight.science/journal/papers/619389c04db9cf001cb601bc#reviews)
-  * [Open, reliable and useful evaluation](benefits-and-features/more-reliable-and-useful-evaluation/README.md)
+  * [Open, reliable, and useful evaluation](benefits-and-features/more-reliable-and-useful-evaluation/README.md)
     * [Multiple dimensions of feedback](benefits-and-features/multiple-dimensions-of-meaningful-feedback.md)
 * [Frequently Asked Questions (FAQ)](faq-interaction/README.md)
   * [For researchers and authors](faq-interaction/for-researchers-authors.md)
