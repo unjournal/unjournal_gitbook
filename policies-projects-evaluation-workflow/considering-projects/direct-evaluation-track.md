@@ -4,33 +4,20 @@ description: Proposal and discussion of this here
 
 # 'Direct evaluation' track
 
-<details>
-
-<summary><em>June 2023 update</em></summary>
-
-We have piloted this 'second track' specifically for [NBER working papers.](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) The results seem to be successful. We have evaluated and published 3 sets of evaluations through this track, with 2 more coming soon. We have roughly 50 further NBER papers in our database that we are strongly considering for our post-pilot evaluation.
-
-We are considering expanding this beyond NBER (management discussion [HERE](https://docs.google.com/document/d/1taZj5ceLck0JQ1xjJ6ay7iaqsiZEPuiS9qzGM2YuOdE/edit)).
-
-</details>
-
 ## Second track: Direct evaluation of prominent work
 
 _We have added an 'additional track' for commissioning research to be evaluated by The Unjournal:_
 
 1. Choose a set of 'top tier working paper series’ as well as medium-to-top tier journals
    * Starting with the [NBER working paper series](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)
-   * We may expand this to, e.g., work published in the Annual Review of Psychology
-   * June 2023: planning specific further expansion (management discussion [HERE](https://docs.google.com/document/d/1taZj5ceLck0JQ1xjJ6ay7iaqsiZEPuiS9qzGM2YuOdE/edit))
-2.  Identify relevant papers in this series, according to criteria outlined and linked above ([relevance](./#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](./#why-does-it-need-more-review-what-are-some-key-issues-claims-to-vet)).
+   * July 26 2023: We have expanded this beyond NBER, to research posted in other exclusive working paper archives, and to work where all authors seem to be prominent/secure/established. See notes below   &#x20;
+2. Identify relevant papers in this series, according to criteria outlined and linked above ([relevance](./#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](./#why-does-it-need-more-review-what-are-some-key-issues-claims-to-vet)).\
+   _For NBER this tends to include..._
+   * recently released work in the early stages of the journal peer-review process, particularly if it addresses a timely subject as well as
+   * work that has been around for many years, been widely cited and influential, yet never published in a peer-reviewed journal.
 
-    \
-    _For NBER this tends to include..._
+_We aim to do this systematically and transparently, so authors do not feel 'singled out' or 'left out'._
 
-    * recently released work in the early stages of the journal peer-review process, particularly if it addresses a timely subject as well as
-    * work that has been around for many years, been widely cited and influential, yet never published in a peer-reviewed journal.
-
-    _We aim to do this systematically and transparently, so authors do not feel 'singled out' or 'left out'._
 3. Notify the work's authors that The Unjournal plans to commission evaluations. Not 'asking for permission' but...
    * Making them aware of The Unjournal, the process, the [benefits to authors](../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal), and their opportunities to engage with the evaluation, and publicly respond to the evaluation before it is made public
    * Letting the authors complete our forms, if they wish to, giving some further information about the paper/project and, e.g., adding a 'permalink' to updated versions
@@ -54,7 +41,7 @@ _We have added an 'additional track' for commissioning research to be evaluated 
 
 <details>
 
-<summary>Discussion: possible downsides and risks from this , responses</summary>
+<summary>Discussion: possible downsides and risks from this,  responses</summary>
 
 1. **Negative backlash**: Some authors may dislike having their work publicly evaluated, particularly when there is substantial criticism. Academics complain a lot about unfair peer reviews, but the difference is that here the evaluations will be made public. This might lead The Unjournal to be the target of some criticism.
 
@@ -83,48 +70,30 @@ _**Response:**_ We will be careful with this. Initially, we are extending this o
 {% endhint %}
 
 \
-Choosing NBER papers: steps taken
+Choosing NBER papers: steps taken ([internal notes here](https://docs.google.com/document/d/1gajdBJLM2oQkZjBAB80ZrAT\_cH-HAQGhjtg944NWRxA/edit), may be out of date; Airtable may be more relevant )
 
-<details>
 
-<summary>1 Dec 2022 update</summary>
 
-* Further feedback and suggestions from across The Unjournal management team
+## Direct evaluation: eligibility rules and guidelines
 
-<!---->
+### **NBER**
 
-* Assigned 'assessors' to prioritize these
+All NBER working  papers are generally eligible, but watch for exceptions where authors seem vulnerable in their career. (And remember, we contact authors, so they can plead their case.)
 
-<!---->
+### CEPR
 
-* About five NBER papers (so far), selected for direct evaluation, contacting authors and referees
+We treat these on a case-by-case basis, and use discretion. All CEPR members are reasonably secure/successful, but their co-authors might not be, especially if these coauthors  are PhD students they are supervising.
 
-</details>
+### Papers/projects posted in any other working paper (pre-print) series
 
-<details>
+These are eligible (without author-permission)&#x20;
 
-<summary>4 Nov update:</summary>
+* if all authors have tenured or ‘long term’ positions at well-known/respected universities or other research institutions&#x20;
+* or have tenure-track positions at ‘top universities’ (e.g., top-20 globally by some credible rankings)&#x20;
+* or are clearly not pursuing an academic career (e.g., the ‘partner at the aid agency running the trial’)&#x20;
 
-* Already-added papers from other sources (syllabi etc)
+On the other hand, if one or more authors is a ‘PhD student close to graduation’ or an ‘untenured academic outside a ‘top global program’’ then we will ask for permission (and potentially offer an embargo)&#x20;
 
-<!---->
+* Possible exception to this exception: if the PhD student/untenured academic is otherwise clearly extremely high-performing by conventional metrics; e.g., an REStud ‘tourist’ or someone with multiple published papers in ‘top-5 journals’. In such cases the paper might be considered eligible for direct evaluation.&#x20;
 
-* Searched Rethink Priorities Zotero
-
-<!---->
-
-* EA Forum: Searched ‘nber’ with ‘advanced search’; Went through first 4 pages or so (by karma and recent date), added papers that seemed meaningful (paper is relevant, NBER but not published in a prominent journal)
-
-<!---->
-
-* Same but just for “Past Year” … did the first 4 pages of this
-
-<!---->
-
-* Searched NBER WP series for “animal welfare”
-
-<!---->
-
-* Captured the 'Topics' (NBER label) of all papers above for focusing our later search
-
-</details>
+_Note:_ The above involves a substantial discretionary element.  We aim to operationalize the above into better-defined rules where this is feasible. This is important to cultivate hands-off fairness and avoid favoritism.
