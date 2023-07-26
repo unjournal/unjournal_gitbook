@@ -6,7 +6,7 @@ description: Text to accompany the Impactful Research Prize discussion
 
 ## Details of submissions to The Unjournal
 
-Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), esp. our [FAQ on 'why to engage'](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). For more information about The Unjournal, [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/) is the link to our GitBook.
+Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), esp. our [FAQ on 'why to engage'](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). For more information about The Unjournal, [here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/) is the link to our GitBook.
 
 ### What we are looking for
 
@@ -24,12 +24,12 @@ If you would like to submit more than one of your papers, you will need to compl
 
 ### Conditional embargo on the publishing of evaluations
 
-By default, we would like Unjournal evaluations to be made public. We think public evaluations are generally good for authors, explained [here](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
+By default, we would like Unjournal evaluations to be made public. We think public evaluations are generally good for authors, explained [here](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
 
 If there is an early-career researcher on the author team, we will allow authors to ‘embargo’ publication of the evaluation until a later date. This date is contingent, but not indefinite. The embargo lasts until after a PhD/postdoc’s upcoming job-market or until it has been published in a mainstream journal, unless:
 
-* the author(s) give(s) earlier permission for release, or&#x20;
-* until a fixed upper limit of 14 months is reached.&#x20;
+* the author(s) give(s) earlier permission for release, or
+* until a fixed upper limit of 14 months is reached.
 
 If you would like to request an exception to a public evaluation, you will have the opportunity to explain your reasoning in the submission form.
 
@@ -39,7 +39,7 @@ If you would like to request an exception to a public evaluation, you will have 
 2. **Substantive feedback** will help you improve your work—especially useful for young scholars.
 3. **Ratings can be seen as markers of credibility for your work** that could help your career advancement at least at the margin, and hopefully help a great deal in the future. You also gain the opportunity to **publicly respond to critiques and correct misunderstandings.**
 4. **You will gain visibility** and a connection to the EA/Global Priorities communities and the Open Science movement.
-5. **You can take advantage of this opportunity  to gain a reputation** as an ‘**early adopter and innovator**’ in open science.
+5. **You can take advantage of this opportunity to gain a reputation** as an ‘**early adopter and innovator**’ in open science.
 6. **You can win prizes**: You may win a “best project prize,” which could be financial as well as reputational.
 7. Entering ‘into our system’ will make you **more likely to be hired** as a paid reviewer or editorial manager.
 8. We will encourage **media coverage**.
@@ -56,7 +56,7 @@ If we consider your work for public evaluation, we may ask for **some** of the i
 * By completing the submission form, you are providing your permission for us to post the reviews publicly, unless you request an embargo.
 * You will have a two-week window to respond through our platform before anything is posted publicly. Your responses can also be posted publicly.
 
-For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../../../faq-interaction/for-researchers-authors.md).
+For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../../../faq-interaction/for-researchers-authors/).
 
 #### [Here again is the link to submit your work on our platform.](https://unjournaldev.cloud68.co/kotahi/versions/07ee3dd9-4f5b-42bf-bb4e-b9b818fe80f2/submit)
 

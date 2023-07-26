@@ -6,7 +6,7 @@
 
 **Claim:** _Rating and feedback is better than an ‘all-or-nothing’ accept/reject process. Although people like to say “peer review is not binary”, the consequences are._
 
-“Publication in a top journal” is used as a signal and a measuring tool for two major purposes. First,[ policymakers, journalists](#user-content-fn-2)[^2], and other researchers look at _where a paper is published_ to assess whether the research is credible and reputable. Second, universities and other institutions use these _publication outcomes_ to guide hiring, tenure, promotion, grants, and other ‘rewards for researchers.’
+“Publication in a top journal” is used as a signal and a measuring tool for two major purposes. First, policymakers, journalists, and other researchers look at _where a paper is published_ to assess whether the research is credible and reputable. Second, universities and other institutions use these _publication outcomes_ to guide hiring, tenure, promotion, grants, and other ‘rewards for researchers.’
 
 {% hint style="info" %}
 **Did you know?:** More often than not, [academic economists speak](https://twitter.com/search?q=%22Yes%20I%20always%20found%20it%20bizarre%20that%20we%20talk%20about%20the%20%E2%80%9Csupply%E2%80%9D%20of%20spots%20in%20coveted%20journals%20vs%20the%20%E2%80%9Cdemand%E2%80%9D%20for%20publishing%20there%22\&src=typed\_query) of the "supply of spaces in journals” and the “demand to publish in these journals”. Who is the consumer? Certainly not the perhaps-mythical creature known as the ‘reader’.
@@ -20,15 +20,15 @@ As a result, we see three major downsides:
 
 1. **Time spent gaming the system:**
 
-Researchers and academics spend a tremendous amount of time **'**gaming' this process, at the expense of actually _doing_ [better research](#user-content-fn-3)[^3].
+Researchers and academics spend a tremendous amount of time \*\*'\*\*gaming' this process, at the expense of actually _doing_ [better research](#user-content-fn-2)[^2].
 
 2. **Randomness in outcomes:**
 
-This system breeds randomness in outcomes**,** which often prevents the most deserving work from gaining recognition, adding unnecessary uncertainty—and pressure—to those in research careers. (And this may drive out some of the strongest researchers.) &#x20;
+This system breeds randomness in outcomes\*\*,\*\* which often prevents the most deserving work from gaining recognition, adding unnecessary uncertainty—and pressure—to those in research careers. (And this may drive out some of the strongest researchers.)
 
 3. **Wasted feedback:**
 
-A lot of ‘feedback’ is wasted (including the [reviewers' time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)). A substantial amount of effort is spent on attempting to curry favor with reviewers, instead of focusing on [improving the research itself](#user-content-fn-4)[^4].
+A lot of ‘feedback’ is wasted (including the [reviewers' time](https://www.aje.com/arc/peer-review-process-15-million-hours-lost-time/)). A substantial amount of effort is spent on attempting to curry favor with reviewers, instead of focusing on improving the research itself.
 
 <details>
 
@@ -46,11 +46,11 @@ There is a lot of pressure, and even bullying, to achieve these “publication o
 
 ### **Randomness in outcomes**
 
-The current system can sideline deserving work due to unpredictable outcomes. There's no guarantee that the cream will rise to the top, making research careers much more stressful—even driving out more risk-averse researchers—and sometimes encouraging approaches that are detrimental to good science.&#x20;
+The current system can sideline deserving work due to unpredictable outcomes. There's no guarantee that the cream will rise to the top, making research careers much more stressful—even driving out more risk-averse researchers—and sometimes encouraging approaches that are detrimental to good science.
 
 ### **Wasted feedback**
 
-Some reviewers write ten-page reports critiquing the paper in great detail (possibly to impress editors, or because they simply feel compelled to do so), even when they reject the paper. These reports are sometimes very informative and useful for the author and would also be very helpful for the wider public and research community to understand the nature of the debate and issues.&#x20;
+Some reviewers write ten-page reports critiquing the paper in great detail (possibly to impress editors, or because they simply feel compelled to do so), even when they reject the paper. These reports are sometimes very informative and useful for the author and would also be very helpful for the wider public and research community to understand the nature of the debate and issues.
 
 However, researchers often have a very narrow focus on getting the paper published as quickly and in as high-prestige a journal as possible. Unless the review is part of a 'Revise and Resubmit' that the author wants to fulfill, they may not actually put the comments into practice or address them in any way.
 
@@ -70,16 +70,13 @@ Anonymous; "This game takes away the creativity, the risk, the ‘right to fail�
 
 </details>
 
+1. as well as other researchers
+2. While much of the feedback is useful, some is not careful, and some suggestions are driven by reviewers' idiosynchratic tastes, or their self-interest. Furthermore, researchers do not always have the time and incentive to respond to the most valuable and useful parts of the feedback.
+
 [^1]: * [Link](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr\_zTmaVpTfBg4A/edit#heading=h.e1wqoks5tivx) to discussion space
 
     <!---->
 
     * Slide collage of 'academics complaining' [beginning here](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_521)
 
-[^2]: as well as other researchers
-
-
-
-[^3]: ... or communicating their work, or teaching, or other productive activities,
-
-[^4]: While much of the feedback is useful, some is not careful, and some suggestions are driven by reviewers' idiosynchratic tastes, or their self-interest. Furthermore, researchers do not always have the time and incentive to respond to the most valuable and useful parts of the feedback.
+[^2]: ... or communicating their work, or teaching, or other productive activities,
