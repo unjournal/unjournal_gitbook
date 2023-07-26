@@ -28,6 +28,8 @@ Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get
 **"Progress notes":** We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1]. Members of UJ team can add further here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit), we will incorporate them.
 {% endhint %}
 
+26 July: We have expanded this beyond NBER, to research posted in other exclusive working paper archives, and to work where all authors seem to be prominent/secure/established. See [#direct-evaluation-eligibility-rules-and-guidelines](latest-updates.md#direct-evaluation-eligibility-rules-and-guidelines "mention").
+
 
 
 ## Update on recent progress: 21 July 2023
