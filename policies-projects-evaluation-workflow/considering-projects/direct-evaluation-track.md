@@ -10,7 +10,7 @@ _We have added an 'additional track' for commissioning research to be evaluated 
 
 1. Choose a set of 'top tier working paper series’ as well as medium-to-top tier journals
    * Starting with the [NBER working paper series](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)
-   * July 26 2023: We have expanded this beyond NBER, to research posted in other exclusive working paper archives, and to work where all authors seem to be prominent/secure/established. See notes below   &#x20;
+   * July 26 2023: We have expanded this beyond NBER, to research posted in other exclusive working paper archives, and to work where all authors seem to be prominent/secure/established. See [#direct-evaluation-eligibility-rules-and-guidelines](direct-evaluation-track.md#direct-evaluation-eligibility-rules-and-guidelines "mention").   &#x20;
 2. Identify relevant papers in this series, according to criteria outlined and linked above ([relevance](./#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](./#why-does-it-need-more-review-what-are-some-key-issues-claims-to-vet)).\
    _For NBER this tends to include..._
    * recently released work in the early stages of the journal peer-review process, particularly if it addresses a timely subject as well as
