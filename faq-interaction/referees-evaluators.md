@@ -62,7 +62,7 @@ We will put your review/evaluation on [PubPub](https://unjournal.pubpub.org) and
 
 ### (How) are the research authors involved in Unjournal's review process and do they give consent?
 
-See [for-researchers-authors](for-researchers-authors/ "mention") FAQ as well as the [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention").
+See [for-researchers-authors.md](for-researchers-authors.md "mention") FAQ as well as the [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention").
 
 We currently (May 2023) have two ways that papers/research projects enter the Unjournal process:
 
