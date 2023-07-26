@@ -1,34 +1,30 @@
 # Latest updates
 
-We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too! Below, we summarize what the Unjournal has been up to.
+
+
+We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too! Below, we summarize what _The Unjournal_ has been up to.
 
 {% hint style="info" %}
-**Some (other) ways to follow The Unjournal's progress**
+**Some (other) ways to follow **_**The Unjournal**_**'s progress**
 
-* Our [PubPub page](https://unjournal.pubpub.org/) contains evaluations and author responses
-* [Follow @GivingTools](https://twitter.com/GivingTools?ref\_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it)
-* [action-and-progress](../action-and-progress/ "mention"): for an overview
+* Check out our [PubPub page](https://unjournal.pubpub.org/) to read evaluations and author responses.
+* [Follow @GivingTools](https://twitter.com/GivingTools?ref\_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it).
+* Visit [action-and-progress](../action-and-progress/ "mention") for an overview.
 {% endhint %}
 
 **MailChimp link:** Sign up below to get these progress updates in your inbox about once per fortnight, along with opportunities to give your feedback.
 
-
-
 {% @mailchimp/mailchimpSubscribe %}
 
-
-
-Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests. The data protection statement is linked [here](https://bit.ly/46y0LqH).
+Alternatively, fill out this [quick survey](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests. The data protection statement is linked [here](https://bit.ly/46y0LqH).
 
 {% embed url="http://eepurl.com/ipFMdg" %}
 
-## Progress notes 'since last update'
+## Progress notes since last update
 
 {% hint style="info" %}
-**"Progress notes":** We will keep track of important developments here, before we incorporate them into the [official fortnightly 'Update on recent progress'](#user-content-fn-1)[^1]. Members of UJ team can add further here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit), we will incorporate them.
+**"Progress notes":** We will keep track of important developments here before we incorporate them into the [official fortnightly "Update on recent progress](#user-content-fn-1)[^1]." Members of the UJ team can add further updates here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit); we will incorporate changes.
 {% endhint %}
-
-26 July: We have expanded this beyond NBER, to research posted in other exclusive working paper archives, and to work where all authors seem to be prominent/secure/established. See [#direct-evaluation-eligibility-rules-and-guidelines](latest-updates.md#direct-evaluation-eligibility-rules-and-guidelines "mention").
 
 
 
@@ -38,48 +34,46 @@ Alternatively, fill out the [quick survey here](http://eepurl.com/ipFMdg) to get
 
 The SFF grant is now 'in our account' (all is public and made transparent on our [OCF page](https://opencollective.com/the-unjournal)). This makes it possible for us to
 
-* Move forward in filling staff and contractor positions (see below)
-* Increase evaluator compensation and incentives/rewards (see below)
+* move forward in filling staff and contractor positions (see below); and
+* increase evaluator compensation and incentives/rewards (see below).
 
 We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-1vRLCsqvNhECrlHbhwDpIt6hqwihKvVYCVt57cmp2Tof52lI-G7dY3Juk-fss9WwW1L9csdhinK9DCI9/pub) sharing our news and plans.
 
-###
-
 ### **Timelines, and pipelines**
 
-Our 'Pilot Phase', involving ten papers and roughly 20 evaluations is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)”. We are now waiting on one last evaluation, followed by author responses and 'publishing' the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
+Our "Pilot Phase," involving ten papers and roughly 20 evaluations, is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence from a Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3).” We are now waiting on one last evaluation, followed by author responses and then "publishing" the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
 
-We will make decisions and award our [Impactful Research Prize](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research/impactful-research-prize) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by Unjournal evaluators. After we make the choices, we will make our decision process public and transparent.
+We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
 
 ### **"What research should we prioritize for evaluation, and why?"**
 
-We continue to develop processes and policies around 'which research to prioritize'. For example, we are considering whether we should set targets for different fields, for related outcome "cause categories," and for research sources. This discussion continues among our team and with stakeholders. We intend to open up the discussion further, making it public and bringing in a range of voices. The objective is to develop a framework and a systematic process to make these decisions. See our expanding notes and discussion on ['What is global-priorities relevant research'?](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/the-field-and-ea-gp-research)
+We continue to develop processes and policy around which research to prioritize. For example, we are considering whether we should set targets for different fields, for related outcome "cause categories," and for research sources. This discussion continues among our team and with stakeholders. We intend to open up the discussion further, making it public and bringing in a range of voices. The objective is to develop a framework and a systematic process to make these decisions. See our expanding notes and discussion on [What is global-priorities relevant research?](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/the-field-and-ea-gp-research)
 
 In the meantime, we are moving forward with our post-pilot “pipeline” of research evaluation. Our management team is considering recent prominent and influential working papers from the National Bureau of Economics Research ([NBER](https://www.nber.org/papers)) and beyond, and we continue to solicit submissions, suggestions, and feedback. We are also reaching out to users of this research (such as NGOs, charity evaluators, and applied research think tanks), asking them to identify research they particularly rely on and are curious about. _If you want to join this conversation, we welcome your input._
 
 #### (Paid) Research opportunity: to help us _do_ this
 
-We are also considering hiring a small number of researchers to each do a one-off (\~16 hours) “research scoping for evaluation management” project. The project is sketched [here](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit); essentially, summarize a research theme and its relevance, identify potentially-high-value papers in this area, choose one paper and curate it for potential _Unjournal_ evaluation.
+We are also considering hiring a small number of researchers to each do a one-off (\~16 hours) project in “research scoping for evaluation management.” The project is sketched at [_Unjournal_ - standalone work task: Research scoping for evaluation management](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit); essentially, summarizing a research theme and its relevance, identifying potentially high-value papers in this area, choosing one paper, and curating it for potential _Unjournal_ evaluation.
 
-We see a lot in this task and expect to actually _use_ and credit this work.
+We see a lot of value in this task and expect to actually _use_ and credit this work.
 
-See [_Unjournal_ - standalone work task: Research scoping for evaluation management](https://docs.google.com/document/d/1MBKQx8RNqvxMcJPBt4cXtjQ8SUm4OIwJc8O1Jr65QSQ/edit). If you are interested in applying to do this paid project, please let us know [through our CtA survey form here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
+If you are interested in applying to do this paid project, please let us know [through our CtA survey form here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
 
 ### **Call for "Field Specialists"**
 
 Of course, we can't commission the evaluation of every piece of research under the sun (at least not until we get the next grant :) ). Thus, within each area, we need to find the right people to monitor and select the strongest work with the greatest potential for impact, and where _Unjournal_ evaluations can add the most value.
 
-This is a big task and there is a lot of ground to cover. To divide and conquer, we’re partitioning this space (looking at natural divisions between fields, outcomes/causes, and research sources) amongst our management team as well as what we now call...
+This is a big task and there is a lot of ground to cover. To divide and conquer, we’re partitioning this space (looking at natural divisions between fields, outcomes/causes, and research sources) amongst our management team as well as among what we now call...
 
-#### [_"Field Specialists"_ (FS)](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research#advisory-board-members-abm-and-field-specialists-fs), who will
+#### [_"Field Specialists_](../readme/call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FSs), who will
 
 * focus on a particular area of research, policy, or impactful outcome;
 * keep track of new or under-considered research with potential for impact;
-* explain and assess the extent to which _The Unjournal_ can add value by commissioning this research to be evaluated;&#x20;
-* “curate” these research objects: adding them to our database, considering what sorts of evaluators might be needed, and what the evaluators might want to focus on, and
-* potentially serve as an [evaluation manager](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/management-tech-details-discussion/management-process) for this same work.
+* explain and assess the extent to which _The Unjournal_ can add value by commissioning this research to be evaluated; and
+* “curate” these research objects: adding them to our database, considering what sorts of evaluators might be needed, and what the evaluators might want to focus on; and
+* potentially serve as an [evaluation manager](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/management-tech-details-discussion/management-process) for this same work.
 
-Field specialists will usually also be members of our Advisory Board, and we are encouraging expressions of interest for both together. (However, these don’t need to be linked in every case.).
+Field specialists will usually also be members of our Advisory Board, and we are encouraging expressions of interest for both together. (However, these don’t need to be linked in every case.) .
 
 _Interested in a field specialist role or other involvement in this process? Please fill out_ [_this general involvement form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3–5 minutes)._
 
@@ -89,19 +83,19 @@ We are also considering how to set priorities for our _evaluators_. Should they 
 
 * Giving feedback to authors?
 * Helping policymakers assess and use the work?
-* Providing a 'career-relevant benchmark' to improve research processes?&#x20;
+* Providing a 'career-relevant benchmark' to improve research processes?
 
-We [discuss this topic here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/faq-interaction/referees-evaluators#the-value-of-these-evaluations-what-to-prioritize), considering how each choice relates to our [Theory of Change](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/global-priorities-theory-of-change)[.](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/global-priorities-theory-of-change)
+We discuss this topic [here](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/faq-interaction/referees-evaluators#the-value-of-these-evaluations-what-to-prioritize), considering how each choice relates to our [Theory of Change](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/benefits-and-features/global-priorities-theory-of-change).
 
 ### **Increase in evaluator compensation, incentives/rewards**
 
-We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
+We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
 
 _Please consider signing up for our evaluator pool (fill out_ [_the good old form_](https://airtable.com/shrtMv4hNlv8aL7Yy)_)._
 
 ### Adjacent initiatives and 'mapping this space'
 
-As part of The Unjournal’s general approach, we keep track of (and keep in contact with) other initiatives in open science, open access, robustness and transparency, and encouraging impactful research. We want to be coordinated. We want to partner with other initiatives and tools where there is overlap, and clearly explain where (and why) we differentiate from other efforts. [This Airtable view](https://airtable.com/shrCs2pDDA9cwZuC8) gives a preliminary breakdown of similar and partially-overlapping initiatives, and tries to catalog the similarities and differences to give a picture of who is doing what, and in what fields.
+As part of _The Unjournal_’s general approach, we keep track of (and keep in contact with) other initiatives in open science, open access, robustness and transparency, and encouraging impactful research. We want to be coordinated. We want to partner with other initiatives and tools where there is overlap, and clearly explain where (and why) we differentiate from other efforts. [This Airtable view](https://airtable.com/shrCs2pDDA9cwZuC8) gives a preliminary breakdown of similar and partially-overlapping initiatives, and tries to catalog the similarities and differences to give a picture of who is doing what, and in what fields.
 
 ### **Also to report**
 
@@ -115,15 +109,15 @@ As part of The Unjournal’s general approach, we keep track of (and keep in con
 
 #### Tech and platforms
 
-We're working with PubPub to improve our process and interfaces. We plan to take on a [KFG membership](https://www.pubpub.org/pricing) to help us work with them closely as they build their platform to be more attractive and useful for The Unjournal and other users.
+We're working with PubPub to improve our process and interfaces. We plan to take on a [KFG membership](https://www.pubpub.org/pricing) to help us work with them closely as they build their platform to be more attractive and useful for _The Unjournal_ and other users.
 
 #### Our hiring, contracting, and expansion continues
 
 * Our next hiring focus: [Communications](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit#heading=h.ohxm7x2bjfvn). We are looking for a strong writer who is comfortable communicating with academics and researchers (particularly in economics, social science, and policy), journalists, policymakers, and philanthropists. Project-based.
-* We've chosen (and are in the process of contracting) a strong quantitative meta-scientist and open science advocate for the project: “Aggregation of expert opinion, forecasting, incentives, meta-science”. (Announcement coming soon).
+* We've chosen (and are in the process of contracting) a strong quantitative meta-scientist and open science advocate for the project: “Aggregation of expert opinion, forecasting, incentives, meta-science.” (Announcement coming soon.)
 * We are also expanding our Management Committee and Advisory Board; see [calls to action](../readme/call-for-participants-research/#overview-and-call).
 
-#### Potentially-relevant events in the outside world
+#### Potentially relevant events in the outside world
 
 * [Institute for Replication grant](https://twitter.com/I4Replication/status/1673737650203770893)
 * [Clusterfake](http://datacolada.org/109)
@@ -134,7 +128,7 @@ _Update from David Reinstein, Founder and Co-Director_
 
 ### A path to change
 
-With the [recent news](latest-updates.md#grant-funding-from-the-survival-and-flourishing-fund), we now have the opportunity to move forward and really make a difference. I think The Unjournal, along with related initiatives in other fields, should become the place policymakers, grant-makers, and researchers go to consider whether research is reliable and useful. It should be a serious option for researchers looking to get their work evaluated. But how can we start to have a real impact?
+With the [recent news](latest-updates.md#grant-funding-from-the-survival-and-flourishing-fund), we now have the opportunity to move forward and really make a difference. I think _The Unjournal_, along with related initiatives in other fields, should become the place policymakers, grant-makers, and researchers go to consider whether research is reliable and useful. It should be a serious option for researchers looking to get their work evaluated. But how can we start to have a real impact?
 
 $$
 Awareness \cap Credibility \cap Scale \rightarrow Impact
@@ -142,39 +136,39 @@ $$
 
 Over the next 18 months, we aim to:
 
-1. Build Awareness: (Relevant) people and organizations should know what the Unjournal is.
-2. Build Credibility: The Unjournal must consistently produce insightful, well-informed, and meaningful evaluations and perform effective curation and aggregation of these. The quality of our work should be substantiated and recognized.
-3. Expand our Scale and Scope: We aim to significantly grow while maintaining the highest standards of quality and credibility. Our loose target is to evaluate around 70 papers/projects over the next 18 months while also producing other valuable outputs and metrics.
+1. Build awareness: (Relevant) people and organizations should know what _The Unjournal_ is.
+2. Build credibility: _The Unjournal_ must consistently produce insightful, well-informed, and meaningful evaluations and perform effective curation and aggregation of these. The quality of our work should be substantiated and recognized.
+3. Expand our scale and scope: We aim to grow significantly while maintaining the highest standards of quality and credibility. Our loose target is to evaluate around 70 papers and projects over the next 18 months while also producing other valuable outputs and metrics.
 
-I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some 'wish list wins'. Please free to add your comments and questions.
+I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some "wish-list wins." Please free to add your comments and questions.
 
 ### The pipeline flows on
 
-While we wait for the new grant funding to come in, we are not sitting on our haunches. Our 'pilot phase' is nearing completion. Two more sets of evaluations have been posted on our [Pubpub](https://unjournal.pubpub.org/).
+While we wait for the new grant funding to come in, we are not sitting on our haunches. Our "pilot phase" is nearing completion. Two more sets of evaluations have been posted on our [Pubpub](https://unjournal.pubpub.org/).
 
 1. [“Banning wildlife trade can boost demand for unregulated threatened species”](https://unjournal.pubpub.org/pub/banning-wildlife-eval-summ/release/2)
 2. ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC”](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)
 
-With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide the recipients for the [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, announce and award these, and organize online presentations/discussions (maybe linked to an 'award ceremony'?).
+With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide, announce, and award the recipients for the [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, and organize online presentations/discussions (maybe linked to an "award ceremony"?).
 
 ### Contracting, hiring, expansion
 
 No official announcements yet. However, we expect to be hiring (on a part-time contract basis) soon. This may include roles for:
 
-* Researchers/meta-scientists: to help find and characterize research to be evaluated, identify and communicate with expert evaluators, and synthesize our ‘evaluation output’
-* Communications specialists.
-* Administrative and Operations personnel.
-* Tech support/software developers.
+* Researchers/meta-scientists: to help find and characterize research to be evaluated, identify and communicate with expert evaluators, and synthesize our "evaluation output"
+* Communications specialists
+* Administrative and Operations personnel
+* Tech support/software developers
 
 [Here's a brief and rough description ](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit?usp=sharing)of these roles. And [here’s a quick form](https://airtable.com/shrxGwooWtwZqY8cd) to indicate your potential interest and link your CV/webpage.
 
-You can also/alternately register your interest in doing (paid) research evaluation work for the Unjournal, and/or being part of our advisory board [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
+You can also/alternately register your interest in doing (paid) research evaluation work for _The Unjournal_, and/or in being part of our advisory board, [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
 
 We also plan to expand our [Management Committee](../readme/discussion-team/#management-committee); please reach out if you are interested or can recommend suitable candidates.
 
 ### Tech and initiatives
 
-We are committed to enhancing our platforms, and our evaluation and communication templates. We're also exploring strategies to nurture more beneficial evaluations and predictions, potentially in tandem with replication initiatives.\
+We are committed to enhancing our platforms as well as our evaluation and communication templates. We're also exploring strategies to nurture more beneficial evaluations and predictions, potentially in tandem with replication initiatives.\
 \
 A small win: our Mailchimp signup should now be working, and this update should be automatically integrated.
 
@@ -182,7 +176,7 @@ A small win: our Mailchimp signup should now be working, and this update should 
 
 We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](../readme/discussion-team/#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our [Management Committee](../readme/discussion-team/#management-committee)!
 
-* Dworkin work centers on "improving scientific research, funding, institutions, and incentive structures through experimentation".
+* Dworkin's work centers on "improving scientific research, funding, institutions, and incentive structures through experimentation."
 * Treich's current research agenda largely focuses on the intersection of animal welfare and economics.
 * Tagat investigates economic decision-making in the Indian context, measuring the social and economic impact of the internet and technology, and a range of other topics in applied economics and behavioral science. He is also [an active participant ](https://osf.io/g8z47/)in the [COS SCORE project](https://www.cos.io/score).
 
@@ -190,7 +184,7 @@ We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) a
 
 ### Grant funding from the Survival and Flourishing Fund
 
-The Unjournal was[ recommended/approved for a substantial grant](https://survivalandflourishing.fund/sff-2023-h1-recommendations) through the 'S-Process' of the Survival and Flourishing Fund. More details and plans to come. This grant will help enable The Unjournal to expand, innovate, and professionalize. We aim to build the awareness, credibility, scale and scope of The Unjournal, and the communication, benchmarking, and useful outputs of our work. We want to have a substantial impact, building towards our mission and goals...
+_The Unjournal_ was[ recommended/approved for a substantial grant](https://survivalandflourishing.fund/sff-2023-h1-recommendations) through the 'S-Process' of the Survival and Flourishing Fund. More details and plans to come. This grant will help enable _The Unjournal_ to expand, innovate, and professionalize. We aim to build the awareness, credibility, scale, and scope of _The Unjournal,_ and the communication, benchmarking, and useful outputs of our work. We want to have a substantial impact, building towards our mission and goals...
 
 > To make rigorous research more impactful, and impactful research more rigorous. To foster substantial, credible public evaluation and rating of impactful research, driving change in research in academia and beyond, and informing and influencing policy and philanthropic decisions.
 
@@ -200,13 +194,13 @@ _Opportunities:_ We plan to expand our management and advisory board, increase i
 
 ### Evaluation 'output'
 
-We have published a total of 12 evaluations and ratings of 5 papers/projects, as well as 3 author responses. Four can be found on our PubPub page (most concise list [here](https://unjournal.pubpub.org/dash/collection/completed-uj-evaluation-packages/overview)), and one on our Sciety page [here](https://sciety.org/groups/the-unjournal/about) (we aim to mirror all content on both pages). All the PubPub content has a DOI, and we are working to get these indexed on Google Scholar and beyond.
+We have published a total of 12 evaluations and ratings of five papers and projects, as well as three author responses. Four can be found on our PubPub page (most concise list [here](https://unjournal.pubpub.org/dash/collection/completed-uj-evaluation-packages/overview)), and one on our Sciety page [here](https://sciety.org/groups/the-unjournal/about) (we aim to mirror all content on both pages). All the PubPub content has a DOI, and we are working to get these indexed on Google Scholar and beyond.
 
-The two most recently released evaluations (of Haushofer et al, 2020; and Barker et al, 2022) both surround... "[Is CBT effective for poor households?](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/is-cbt-effective-for-poor-households-two-recent-papers)" \[link: EA Forum post]
+The two most recently released evaluations (of Haushofer et al, 2020; and Barker et al, 2022) both surround "[Is CBT effective for poor households?](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/is-cbt-effective-for-poor-households-two-recent-papers)" \[link: EA Forum post]
 
-> Both papers consider randomized randomized controlled trials (RCTs) involving cognitive behavioral therapy (CBT) for low-income households in two African countries (Kenya and Ghana). These papers come to very different conclusions as to the efficacy of this intervention.
+> Both papers consider randomized controlled trials (RCTs) involving cognitive behavioral therapy (CBT) for low-income households in two African countries (Kenya and Ghana). These papers come to very different conclusions as to the efficacy of this intervention.
 
-See the evaluation summaries and ratings, with linked evaluations [HERE](https://unjournal.pubpub.org/pub/cashtransfersmetrics/release/6) (Haushofer et al) and [HERE (Barker et al).](https://unjournal.pubpub.org/pub/barkeretalsummary/release/3)
+See the evaluation summaries and ratings, with linked evaluations [HERE (Haushofer et al)](https://unjournal.pubpub.org/pub/cashtransfersmetrics/release/6) and [HERE (Barker et al).](https://unjournal.pubpub.org/pub/barkeretalsummary/release/3)
 
 ## Update on recent progress: 22 April 2023
 
@@ -216,17 +210,17 @@ We are now up to twelve total evaluations of five papers. Most of these are on o
 
 > Two more Unjournal Evaluation sets are out. Both papers consider randomized controlled trials (RCTs) involving cognitive behavioral therapy (CBT) for low-income households in two African countries (Kenya and Ghana). These papers come to very different conclusions as to the efficacy of this intervention.
 
-> These are part of Unjournal's ['direct NBER evaluation' stream](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/bit.ly/unjournaldirect).
+> These are part of _Unjournal'_s ['direct NBER evaluation' stream](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/bit.ly/unjournaldirect).
 
-More evaluations coming out soon, on themes including global health and development, the environment, governance and social media. \\
+More evaluations coming out soon on themes including global health and development, the environment, governance, and social media.
 
 ### Animal welfare
 
-_To round out our initial pilot:_ We're particularly looking to evaluate papers/projects relevant to animal welfare and animal agriculture. Please reach out if you have suggestions.
+_To round out our initial pilot:_ We're particularly looking to evaluate papers and projects relevant to animal welfare and animal agriculture. Please reach out if you have suggestions.
 
 ### New features of this GitBook: GPT-powered 'chat' Q\&A
 
-You can now 'chat' with this page, ask questions and get answers with links to other parts of the page. To try it out, go to "Search" and choose "Lens".
+You can now 'chat' with this page, ask questions, and get answers with links to other parts of the page. To try it out, go to "Search" and choose "Lens."
 
 ## Update on recent progress: 17 Mar 2023
 

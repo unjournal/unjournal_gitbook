@@ -4,7 +4,7 @@ Within our [direct-evaluation-track.md](../../policies-projects-evaluation-workf
 
 As you can see in our [evaluation workflow](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md), on this track, we engage with authors at (at least) two points:&#x20;
 
-1. Informing the authors that the evaluation will take place, requesting they engage, and giving them the opportunity to request a [conditional embargo](./#conditional-embargo) or specific types of feedback.
+1. Informing the authors that the evaluation will take place, requesting they engage, and giving them the opportunity to request a [conditional embargo](../for-researchers-authors.md#conditional-embargo) or specific types of feedback.
    * &#x20;Of particular interest: are we looking at the most recent version of the paper/project, or is there a further revised version we should be considering instead
 2. After the evaluations have been completed, the authors are given two weeks to respond, and have their response posted along with our 'package'. (Authors can also respond after we have posted the evaluations, and we will put their response in the same 'package', with a DOI etc.)
 
