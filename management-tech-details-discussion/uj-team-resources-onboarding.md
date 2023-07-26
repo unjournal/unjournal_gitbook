@@ -21,7 +21,7 @@ _Please ask for group access, as well as access to private channels,_ especially
 
 ### Airtable
 
-_Please ask for an invitation._ Airtable is an interactive online relational database. Only our management team and selected others [(with careful controls)](#user-content-fn-2)[^2] should have access to the Airtable.
+_Please ask for an invitation._ Airtable is an interactive online relational database. Only our management team and selected others (with careful controls) should have access to the Airtable.
 
 Each of the 'tables' in the Airtable is explained in the first ('readme') table...
 
@@ -87,11 +87,11 @@ The main platforms needed for the advisory board are outlined below with links p
 
 ### Slack group and channels
 
-Members of the advisory board can join our Slack (if they want). They can have access to private channels (subject to discretion[^3]) other than the 'management-policies' channel
+Members of the advisory board can join our Slack (if they want). They can have access to private channels (subject to discretion[^2]) other than the 'management-policies' channel
 
 ### Airtable: with discretion
 
-Advisory board members can be given access to our Airtable, but subject to discretion[^4]. _Before adding an advisory board member to the Airtable,_ please move any content related to their own research, their evaluation work, their job application status, etc.
+Advisory board members can be given access to our Airtable, but subject to discretion. _Before adding an advisory board member to the Airtable,_ please move any content related to their own research, their evaluation work, their job application status, etc.
 
 Short of full Airtable access, AB members they may also be given specific access to 'survey links' and key views.
 
@@ -134,13 +134,11 @@ This should be used for payments for evaluators. Please see the link below for h
 1. Get to know it's features, it's super-useful. E.g., 'views' provide different pictures of the same information. 'Link' field types connect different tables by their primary keys, allowing information and calculations to flow back and forth.
 2. ... as well as by hovering over the '(i)' symbol for each tab. Many of the columns in each tab also have descriptions.
 3. That includes our management team (and key administrators) only.
+4. Even considering this limited, we keep more sensitive in this AIrtable encrypted, or moved to a different table that only David Reinstein has access to.
+5. Use discretion: advisory board members might be authors, evaluators, job candidates, or parts of external organizations we may partner with
 
 [^1]: Please don't consider Slack as a place to store and organize content. Longer, more structured content should go into Google Docs or similar (and if important, later be linked or incorporated into this Gitbook and the Airtable).\
     \
     (However, we will be probably be getting a nonprofit discounted Slack pro soon, which would make it somewhat better.)
 
-[^2]: Even considering this limited, we keep more sensitive in this AIrtable encrypted, or moved to a different table that only David Reinstein has access to.
-
-[^3]: Use discretion: advisory board members might be authors, evaluators, job candidates, or parts of external organizations we may partner with
-
-[^4]: Use discretion: advisory board members might be authors, evaluators, job candidates, or parts of external organizations we may partner with
+[^2]: Use discretion: advisory board members might be authors, evaluators, job candidates, or parts of external organizations we may partner with

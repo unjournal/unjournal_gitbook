@@ -3,22 +3,20 @@
 {% hint style="info" %}
 See [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.\
 \
-Updated July 4, 2023. Note that the precise implementation of the process below may change as we build [a formal editorial management tool](#user-content-fn-1)[^1].&#x20;
+Updated July 4, 2023. Note that the precise implementation of the process below may change as we build [a formal editorial management tool](#user-content-fn-1)[^1].
 {% endhint %}
 
-**If you are the evaluation manager please follow the steps below.**&#x20;
+**If you are the evaluation manager please follow the steps below.**
 
 ### Informing/asking paper authors
 
-1. If the work falls under our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention") (NBER, may be expanded),  please write to the authors of the paper to let them know that their paper will be evaluated by The Unjournal. &#x20;
+1. If the work falls under our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention") (NBER, may be expanded), please write to the authors of the paper to let them know that their paper will be evaluated by The Unjournal.
    * See an example letter template for this [HERE](https://docs.google.com/document/d/1tPgoPpqiuVs9qLKJIwZO71F4kqEfv\_FOL4tDtkm98G0/edit). Other templates (for this and for other correspondence) are found in our Airtable `text_templates` table.
-   * Please wait 5 business days to give the authors a chance to respond before [directly engaging evaluators](#user-content-fn-2)[^2].
-2. **Submitted work:** Otherwise, if the authors submitted their work to The Unjournal directly, we need to inform them that their work was selected (and make sure all authors are OK with this.)&#x20;
-3. **Other selected work:** Otherwise, if the paper was selected (not submitted), and it _doesn't_ qualify for the Direct Evaluation track (e.g., it is not NBER and/or it has early-career researcher authors) we need to ask the authors' permission to proceed (according to our policies).&#x20;
+   * Please wait 5 business days to give the authors a chance to respond before directly engaging evaluators.
+2. **Submitted work:** Otherwise, if the authors submitted their work to The Unjournal directly, we need to inform them that their work was selected (and make sure all authors are OK with this.)
+3. **Other selected work:** Otherwise, if the paper was selected (not submitted), and it _doesn't_ qualify for the Direct Evaluation track (e.g., it is not NBER and/or it has early-career researcher authors) we need to ask the authors' permission to proceed (according to our policies).
 
 The Unjournal may have already done the above (before you were assigned as the evaluation manager) please check if this is the case.
-
-
 
 ### Finding evaluators
 
@@ -61,14 +59,9 @@ After the agreed time period has elapsed and they have not sent the evaluation, 
 4. Write up an Evaluation Manager's report if you like (this is optional).
 5. We put all of this up on PubPub, get a DOI, integrate with Sciety, publicize this, etc.
 6. Once the evaluations are up on PubPub, you could reach out the evaluators again with the link, in case they want to view their evaluation and the others.
+7. The authors' responses might inform how we engage evaluators. E.g., the authors might
+   * Mention a more recent version of the paper we overlooked
+   * Request a specific type of feedback we may want to pass on to the evaluators
+   * Request an [embargo](../../faq-interaction/for-researchers-authors/#conditional-embargo)
 
 [^1]: Within PubPub or with another tool. Targeted update: end of Summer 2023.
-
-
-
-[^2]: The authors' responses might inform how we engage evaluators. E.g., the authors might
-
-    * Mention a more recent version of the paper we overlooked&#x20;
-    * Request a specific type of feedback we may want to pass on to the evaluators
-    * Request an [embargo](../../faq-interaction/for-researchers-authors.md#conditional-embargo)
-
