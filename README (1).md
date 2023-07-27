@@ -24,7 +24,7 @@ description: Journal-independent evaluation of impactful research
 
 <!---->
 
-* ['Why would researchers want to submit their work' (a top FAQ)](faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
+* ['Why would researchers want to submit their work' (a top FAQ)](faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
 
 </details>
 
@@ -138,7 +138,11 @@ See [contents-page.md](readme/contents-page.md "mention")
 
 {% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.g15b6b3080d0_0_52" %}
 
-**Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
+[Slides link](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit)
+
+
+
+## **Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 
 1. We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
 2. Considering future outcomes like replication and citations
