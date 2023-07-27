@@ -62,6 +62,6 @@ After the agreed time period has elapsed and they have not sent the evaluation, 
 7. The authors' responses might inform how we engage evaluators. E.g., the authors might
    * Mention a more recent version of the paper we overlooked
    * Request a specific type of feedback we may want to pass on to the evaluators
-   * Request an [embargo](../../faq-interaction/for-researchers-authors.md#conditional-embargo)
+   * Request an [embargo](../../faq-interaction/for-researchers-authors/#conditional-embargo)
 
 [^1]: Within PubPub or with another tool. Targeted update: end of Summer 2023.

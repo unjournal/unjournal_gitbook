@@ -36,7 +36,7 @@ At the moment, we have [grants](https://globalimpact.gitbook.io/the-unjournal-pr
 
 ## Specific FAQs
 
-[for-researchers-authors.md](for-researchers-authors.md "mention")
+[for-researchers-authors](for-researchers-authors/ "mention")
 
 [global-priorities.md](global-priorities.md "mention")
 
