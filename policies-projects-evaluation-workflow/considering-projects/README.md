@@ -1,4 +1,4 @@
-# Considering papers (projects)
+# Project selection and evaluation
 
 ## Submission/evaluation funnel
 
@@ -13,20 +13,24 @@ Our management team **rates the suitability of each paper** according to the cri
 Through October 2022: For the papers/projects at the top of our list, we have contacted the authors and asked if they wanted to engage, and only pursued it further if they agreed.
 
 {% hint style="info" %}
-_2 Nov 2022 update_ – We are opening a **second track.** We plan to follow a different procedure for particularly relevant [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers.
+_As of November 2022_ ... we have a [**second track** where, under certain conditions](#user-content-fn-2)[^2], we inform authors but do not request permission. We first focused on particularly relevant [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers.
 
-We will choose the most relevant papers in this prestigious series (in certain categories, and with certain restrictions). We will _inform_ these papers' authors when we have decided to commission these for evaluation. We will give the authors the opportunity to respond and engage, including (as usual) the opportunity to ask for a temporary embargo for sensitive career issues, and the opportunity to respond to the evaluation before it is published.\
-\
-We discuss this further below, explaining the reasoning behind it.
+_July 2023: Expanded this to some other sources, with some discretion._&#x20;
+
+_See_ [_Direct Evaluation track_](direct-evaluation-track.md)_._
+
+
 {% endhint %}
+
+##
 
 ## Communicating: **‘Editors’ process**
 
-_In deciding which papers/projects to send out to paid reviewers/evaluators, we have considered the following issues._ [_We aim to communicate this information about each paper/project to reviewers before they write their evaluations._](#user-content-fn-2)[^2]
+_In deciding which papers/projects to send out to paid reviewers/evaluators, we have considered the following issues._ [_We aim to communicate this information_](#user-content-fn-3)[^3] _about each paper/project to evaluators before they write their evaluations._
 
 ### Summary, why is it relevant and worth engaging with?
 
-**Consider**: [Global priority importance](../../faq-interaction/global-priorities.md), field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly.&#x20;
+**Consider**: [Global priority importance](../../faq-interaction/global-priorities.md), field relevance, open science, authors’ engagement, data and reasoning transparency. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1), but not too rigidly.
 
 ### **Why does it need (more) review? What are some key issues/claims to vet?**
 
@@ -40,4 +44,7 @@ How well has the author engaged with the process? Do they need particular convin
 
 [^1]: E.g., following [the 'bounty' we posted here](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and advertised in other places.
 
-[^2]: However, we may hold back some of this discussion to avoid biasing the reviewers or because of discretion issues.
+[^2]: "We will choose the most relevant papers in this prestigious series (in certain categories, and with certain restrictions). We will inform these papers' authors when we have decided to commission these for evaluation. We will give the authors the opportunity to respond and engage, including (as usual) the opportunity to ask for a temporary embargo for sensitive career issues, and the opportunity to respond to the evaluation before it is published. We discuss this further below, explaining the reasoning behind it."
+
+[^3]: However, we may hold back some of this discussion to avoid biasing the reviewers or because of discretion issues.
+
