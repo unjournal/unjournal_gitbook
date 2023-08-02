@@ -4,18 +4,21 @@ The flowchart below focuses on the _evaluation_ part of our process.&#x20;
 
 ```mermaid
 graph TD
-  S["Author (A) submits work (W)"] -->|informal or Kotahi| MP[M and FS prioritize work] 
-MP --> WE((Work <br/>to evaluate))
+  S["Author (A) submits work (W)"] -->|informal or Kotahi| MP[M and FS prioritize work]
+  MP ..- |M/FS may add| BEN["'Bespoke Evaluation Notes' (BEN)"] 
   NBER[Work enters 'prestige' archive ] --> MP
 
-  MS["Managers (M) and field specialists (FS) select & prioritize work, contact authors"] --> AP[Author: OK] --> WE
-MS --> AN[Author: NO] --> DE[Don't evaluate]
-MS --> ER[A: Embargo please ]
-ER ..- SD[See discussion]
-WE -->|Managers select| EM(("Evaluation <br/> Manager (EM)"))
-EM -->|EM| IA[Informs A's, <br/>asks engagement q's]
-EM .-> |EM adds| SS[Specific suggestions <br/> for evaluating this work] 
-IA .-> AE[A's may engage] 
+  MS["Managers (M) and field specialists (FS) <br/> select & prioritize work, contact authors"] --> 
+AP[Author: OK]
+  AP ..-  |M/FS may add| BEN
+  MS --> AN[Author: NO] --> DE[Don't evaluate]
+  MS --> ER[A: Embargo please ]
+  ER ..- SD[See discussion]
+  BEN --> WE((Work <br/>to evaluate))
+  WE -->|Managers select| EM(("Evaluation <br/> Manager (EM)"))
+  EM -->|EM| IA[Informs A's, <br/>asks engagement q's]
+  EM .-> |EM may add| SS[Specific eval. tips to BEN] 
+  IA .-> AE[A's may engage] 
 
 
 EM -->|EM selects & <br/> contacts| UJEV(UJ evaluators) 
