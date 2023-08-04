@@ -5,26 +5,28 @@ The flowchart below focuses on the _evaluation_ part of our process.&#x20;
 ```mermaid
 graph TD
   S["Author (A) submits work (W)"] -->|informal or Kotahi| MP[M and FS prioritize work]
-  MP ..- |M/FS may add| BEN["'Bespoke Evaluation Notes' (BEN)"] 
-  NBER[Work enters 'prestige' archive ] --> MP
+  NBER[Work enters 'prestige' archive ] --> MP 
+  MP --> IA
+MP --> WE[Work to evaluate]
+  WE ..-  |M/FS may add| BEN["'Bespoke Evaluation Notes' (BEN)"]
 
-  MS["Managers (M) and field specialists (FS) <br/> select & prioritize work, contact authors"] --> 
+
+MS["Managers (M) and field specialists (FS) <br/> select & prioritize work, contact authors"] --> 
 AP[Author: OK]
-  AP ..-  |M/FS may add| BEN
+AP --> WE
   MS --> AN[Author: NO] --> DE[Don't evaluate]
   MS --> ER[A: Embargo please ]
   ER ..- SD[See discussion]
-  BEN --> WE((Work <br/>to evaluate))
   WE -->|Managers select| EM(("Evaluation <br/> Manager (EM)"))
-  EM -->|EM| IA[Informs A's, <br/>asks engagement q's]
-  EM .-> |EM may add| SS[Specific eval. tips to BEN] 
-  IA .-> AE[A's may engage] 
+  EM .-> |EM may add tips to| BEN 
 
+IA[Inform A's, <br/>asks engagement q's]
+  IA .-> AE[A's may engage <br/> feedback of interest <br/> link updated version] 
 
 EM -->|EM selects & <br/> contacts| UJEV(UJ evaluators) 
 UJEV --> |Accepts eval. assignment| EA((EV = Evaluator who <br/> accepts))
-SS ..-|incorporated into| UJT[Template, <br/> guidelines for EV]
-AE ..-|feeds into| UJT 
+BEN ..-|incorporated into| UJT[Template, <br/> guidelines for EV]
+AE ..-|may feed into| UJT 
 EA --> |EM schedules with EV| EVC[All EV's <br/> complete evals] --> EC[\Eval. content\]
 EVC --> EVR[\Eval. ratings\] 
 UJT --> |EM shares with| EA 
@@ -66,7 +68,7 @@ UJO --> UJPUB[Publicize, follow availability, <br/> bibliometrics.]
    2. Managers and field specialists select work (or the project is submitted independently of authors) and the management team agrees to prioritize it
       * For either of these cases (1 or 2), authors are asked for _permission_
    3. Alternate [_Direct Evaluation track_](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)_:_ 'Work enters prestige archive' (NBER, CEPR, and some other cases).
-      * Here authors are informed and consulted, but permission [is not needed](#user-content-fn-1)[^1].
+      * Managers inform and consult the authorsbut permission [is not needed](#user-content-fn-1)[^1]. (Particularly relevant: ask author if we have the latest updated version of the research.)
 2. Prioritization
    * _Following author submission_ ...
      * Manager(s) (M) and Field Specialists (FS) prioritize work for review (see [Project selection and evaluation](../policies-projects-evaluation-workflow/considering-projects/)),
