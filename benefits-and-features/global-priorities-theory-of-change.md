@@ -32,6 +32,7 @@ D --> D1 --> A1:::Multi
 B["Reliable predictors of <br/> rsch. 'success'"] --> B1["UJ attractive <br/> to gatekeepers"] --> B2 
 B2["UJ Eval. replaces <br/> Trad. journals"] --> B3["Rsch. eval. more efficient"]:::Systemic 
 B3 --> RSXreliable["Acad. rsch. more useful/ <br/> reliable"]:::Systemic
+
 RSXreliable --"Some of which is impactful"--> A1 
 B2 --> B4["Open access"]:::Systemic 
 B4 --> A2["Decisionmakers better <br/> informed"]
@@ -42,7 +43,7 @@ B2-...-B6
 
 ```
 
-Our Theory of Change is shown above as a series of possible paths; we indicate what is arguably the most "direct" path in yellow. All of these begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system (in green, at the top). These processes all lead to impactful research being more in-depth, more reliable, more accessible, and more useful, better informing decision makers and leading to better decisions and outcomes (in green, at the bottom).
+Our _theory of change_ is shown above as a series of possible paths; we indicate what is arguably the most "direct" path in yellow. All of these begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system (in green, at the top). These processes all lead to impactful research being more in-depth, more reliable, more accessible, and more useful, better informing decision-makers and leading to better decisions and outcomes (in green, at the bottom).
 
 Highlighting some of the key paths:
 
