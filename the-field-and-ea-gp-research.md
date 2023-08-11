@@ -1,4 +1,4 @@
-# What is 'global-priorities-relevant research'?
+# What is global priorities relevant research?
 
 {% hint style="info" %}
 On this page we link and discuss [some takes](#user-content-fn-1)[^1] on answers to the question of 'which research is most impactful/which research should be prioritized'.
@@ -8,11 +8,9 @@ On this page we link and discuss [some takes](#user-content-fn-1)[^1] on answers
 
 ### Rhys-Bernard: reading syllabus - [An introduction to global priorities research for economists](https://forum.effectivealtruism.org/posts/dia3NcGCqLXhWmsaX/an-introduction-to-global-priorities-research-for-economists)
 
-### Phil Trammel: "Topics in Economic Theory & Global Prioritization"  provisional syllabus
+### Phil Trammel: "Topics in Economic Theory & Global Prioritization" provisional syllabus
 
 [See also "Existing resources (Economics focused)](http://localhost:5000/s/SqDA4IisXAMIzALFWshJ/existing-resources-programs-examples)" in other Gitbook, and Stafforini's list of EA syllabi [here](http://www.stafforini.com/blog/effective-altruism-syllabi)
-
-
 
 ## **Funder/organization research agendas**
 
@@ -63,23 +61,15 @@ Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org
 
 </details>
 
-
-
 ## Other agendas and discussions
 
 _To be expanded, catalogued, and considered in more detail,_
 
 [Happier Lives Institute](https://www.happierlivesinstitute.org/research-agenda.html) [research agenda](https://www.happierlivesinstitute.org/research-agenda.html) ('research priorities') (2021): A particularly well-organized discussion. Each section has a list of relevant academic literature, some of which is recent and some of which is applied or empirical.
 
-
-
-[Animal Charity Evaluators](https://animalcharityevaluators.org/research/): The '[Methodology](https://animalcharityevaluators.org/research/methodology/)' and 'Research briefs' are particularly helpful, and connect to a range of academic and policy research &#x20;
-
-
+[Animal Charity Evaluators](https://animalcharityevaluators.org/research/): The '[Methodology](https://animalcharityevaluators.org/research/methodology/)' and 'Research briefs' are particularly helpful, and connect to a range of academic and policy research
 
 Open Philanthropy [“Technical and Philosophical Questions That Might Affect Our Grantmaking”](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking): fairly brief discussion and overview, links mostly to OP-funded research
-
-
 
 <details>
 
@@ -90,17 +80,9 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 \
 [Rethink Priorities 2021 strategy (forum post)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy): Some directional suggestions under "Our research going forward is expected to focus on"
 
-
-
-[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic:  <img src=".gitbook/assets/image.png" alt="" data-size="line">
-
-
-
-
+[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic: <img src=".gitbook/assets/image (10).png" alt="" data-size="line">
 
 </details>
-
-
 
 ## **General, advice**
 
@@ -115,8 +97,6 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 * [How effective altruism can help psychologists maximize their impact](https://psyarxiv.com/8dw59/) (Gainsburg et al, 2021)
 * [Spencer Greenberg's list of "most important psychology topics](https://docs.google.com/spreadsheets/d/1cIreVxInZh9a6rWq2Qc-HRzp5UE1oL1ZUiQVD1ZsUec/edit#gid=0)"
 * [Life Improvement Science "Potential Research Priorities..."](https://www.life-improvement.science/research-priorities/promising-questions) also '[Grand challenges](https://www.life-improvement.science/research-priorities/gcmain)"
-
-
 
 ## Reinstein's slides/outline of this field and opportunities
 

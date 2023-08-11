@@ -1,7 +1,7 @@
 # Evaluation manager process
 
 {% hint style="info" %}
-See [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.\
+See [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.\
 \
 Updated July 4, 2023. Note that the precise implementation of the process below may change as we build [a formal editorial management tool](#user-content-fn-1)[^1].
 {% endhint %}

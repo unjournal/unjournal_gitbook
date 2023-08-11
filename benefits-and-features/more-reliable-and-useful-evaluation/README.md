@@ -45,7 +45,7 @@ Of course, our systems will not solve _all_ problems associated with reviews and
 
 ## Better feedback
 
-See also [mapping-evaluation-workflow.md](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md "mention").
+See also [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md "mention").
 
 ## Faster (public) evaluation
 

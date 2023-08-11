@@ -8,7 +8,7 @@ _**We want to get authors, research groups, reviewers, and institutions involved
 
 ## General FAQs
 
-### **What is the Unjournal? (see** [**here**](<../README (1).md#in-a-nutshell>)**)**
+### **What is the Unjournal? (see** [**here**](../readme-1/#in-a-nutshell)**)**
 
 We will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects.** We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
