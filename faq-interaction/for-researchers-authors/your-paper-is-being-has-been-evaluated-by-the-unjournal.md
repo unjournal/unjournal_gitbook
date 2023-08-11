@@ -2,7 +2,7 @@
 
 Within our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention"), _The Unjournal_ directly chooses papers (from prominent archives, well-established researchers, etc.) to evaluate. We don't request authors' permission here.
 
-As you can see in our [evaluation workflow](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md), on this track, we engage with authors at (at least) two points:&#x20;
+As you can see in our [evaluation workflow](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md), on this track, we engage with authors at (at least) two points:&#x20;
 
 1. Informing the authors that the evaluation will take place, requesting they engage, and giving them the opportunity to request a [conditional embargo](./#conditional-embargo) or specific types of feedback.
    * &#x20;Of particular interest: are we looking at the most recent version of the paper/project, or is there a further revised version we should be considering instead

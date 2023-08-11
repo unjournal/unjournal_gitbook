@@ -24,15 +24,13 @@ Our page is [https://opencollective.com/the-unjournal](https://opencollective.co
 
 _Note, for support issues/tickets or tickets there is no record that users can view yet_
 
-
-
 ## Submitting and paying expenses/claims
 
 {% hint style="info" %}
 **Anonymity** **and payments**: **Evaluators, please use a pseudonym or the "salted hash" code we shared with you!**
 
 \
-**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_ (either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
+**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please \_use a pseudonym for your profile name**\_ (either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
 
 \
 _For good measure, do not indicate the name of the paper in the expense claim._
@@ -59,17 +57,13 @@ After you obtain your hash, or inform us of your pseudonym:
 5. Afterwards, you can fill in all your information about how they would like to be paid and which account (details of filling in your payment information can be viewed below).
 6. We then approve the expense and they will be paid within 7 days of our approval.
 
-
-
 _Request payment from The Unjournal. Expenses will be processed once approved by a Collective admin. **The amount, description, and your profile name are public, but attachments, payment details, and other personal info is kept private.**_
-
-
 
 #### Payment information
 
 * Claimants (evaluators etc.) must start an account (basically leave email and payment information) and submit an ['expense document' 'invoice'](https://opencollective.com/the-unjournal/expenses/new). See below for an example of the payment process.\
   \
-  ![](<../.gitbook/assets/image (6).png>)
+  ![](<../.gitbook/assets/image (7).png>)
 * If making payments made by Wise/Bank Transfer, you will [need to submit bank/payment information](#user-content-fn-1)[^1]. The box below shows which information is required.
 
 <details>
@@ -103,11 +97,11 @@ Additional invoice information
 
 </details>
 
-![](<../.gitbook/assets/image (2) (2).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 * Finally, under 'Description' (on the second page) please put "Evaluation of research material"\
   \
-  ![](<../.gitbook/assets/image (8) (1).png>)
+  ![](<../.gitbook/assets/image (12).png>)
 
 {% hint style="info" %}
 Consideration for management: how to generate W2s -- these might be necessary for large expenses
