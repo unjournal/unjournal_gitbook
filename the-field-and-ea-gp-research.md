@@ -8,7 +8,11 @@ On this page we link and discuss [some takes](#user-content-fn-1)[^1] on answers
 
 ### Rhys-Bernard: reading syllabus - [An introduction to global priorities research for economists](https://forum.effectivealtruism.org/posts/dia3NcGCqLXhWmsaX/an-introduction-to-global-priorities-research-for-economists)
 
-### Phil Trammel: "Topics in Economic Theory & Global Prioritization" provisional syllabus
+### Phil Trammel: "Topics in Economic Theory & Global Prioritization"  [2023 slides/syllabus/references](https://docs.google.com/document/d/1f8AR\_iftjgwh8n182U-LxIutmNkTTXq4OBLlM4FOU\_I/edit)&#x20;
+
+
+
+
 
 [See also ](https://globalimpact.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples)
 
