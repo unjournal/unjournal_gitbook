@@ -14,9 +14,9 @@ See sections below:
 
 [more-reliable-and-useful-evaluation](more-reliable-and-useful-evaluation/ "mention"): The Unjournal's open evaluation model expedites and enhances research reviews by providing transparent, incentivized feedback and valuable, public metrics.
 
-* [multiple-dimensions-of-meaningful-feedback.md](more-reliable-and-useful-evaluation/multiple-dimensions-of-meaningful-feedback.md "mention"): Discusses our method of obtaining separate evaluations on various aspects of a research project—methodological, theoretical, and applied—from diverse expert groups, which leads to more comprehensive and insightful feedback.
+* [multiple-dimensions-of-meaningful-feedback.md](multiple-dimensions-of-meaningful-feedback.md "mention"): Discusses our method of obtaining separate evaluations on various aspects of a research project—methodological, theoretical, and applied—from diverse expert groups, which leads to more comprehensive and insightful feedback.
 
-[dynamic-documents-vs-living-projects](dynamic-documents-vs-living-projects/ "mention"): Explains the terms 'dynamic documents' and 'living projects' in relation to our model, and how they facilitate continuous growth in research projects.
+[dynamic-documents-vs-living-projects.md](dynamic-documents-vs-living-projects.md "mention"): Explains the terms 'dynamic documents' and 'living projects' in relation to our model, and how they facilitate continuous growth in research projects.
 
-* [benefits-of-dynamic-documents.md](dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md "mention"): Why open dynamic documents (such as [Quarto](https://www.quarto.org)) are better for research than 'PDF prisons', the conventional static PDF format that dominates research.
-* [living-research-projects.md](dynamic-documents-vs-living-projects/living-research-projects.md "mention"): Details these 'living projects' and how, under our approach, they can continuously evolve, receive evaluations, and undergo improvements within the same environment.
+* [benefits-of-dynamic-documents.md](benefits-of-dynamic-documents.md "mention"): Why open dynamic documents (such as [Quarto](https://www.quarto.org)) are better for research than 'PDF prisons', the conventional static PDF format that dominates research.
+* [living-research-projects.md](living-research-projects.md "mention"): Details these 'living projects' and how, under our approach, they can continuously evolve, receive evaluations, and undergo improvements within the same environment.

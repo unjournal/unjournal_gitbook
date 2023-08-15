@@ -1,14 +1,14 @@
 # Pilot: Building founding committee
 
 {% hint style="info" %}
-7 Feb 2023: We have an organized founding/management committee, as well as an advisory board (see [discussion-team](../../readme-1/discussion-team/ "mention")). We are focusing on pushing research through the evaluation pipeline, and communicating this output and making it useful. We have a good division of labor, e.g., among 'managing editors' for specific papers.\
+7 Feb 2023: We have an organized founding/management committee, as well as an advisory board (see [discussion-team](../../readme/discussion-team/ "mention")). We are focusing on pushing research through the evaluation pipeline, and communicating this output and making it useful. We have a good division of labor, e.g., among 'managing editors' for specific papers.\
 \
 We are likely to expand our team after our pilot, conditional on further funding
 {% endhint %}
 
 ## Progress: the team (continual update)
 
-[discussion-team](../../readme-1/discussion-team/ "mention")
+[discussion-team](../../readme/discussion-team/ "mention")
 
 ## Key elements of plan
 

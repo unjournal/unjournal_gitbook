@@ -9,7 +9,7 @@ _Unjournal_ evaluations aim to support the "Reproducibility/Robustness-Checking"
 We will support this agenda by:
 
 1. **Promoting data and code sharing:** We request pre-print authors to share their code and data, and reward them for their transparency.
-2. [dynamic-documents-vs-living-projects](dynamic-documents-vs-living-projects/ "mention"): Breaking out of "PDF prisons" to achieve increased transparency.
+2. [dynamic-documents-vs-living-projects.md](dynamic-documents-vs-living-projects.md "mention"): Breaking out of "PDF prisons" to achieve increased transparency.
 3. **Encouraging detailed evaluations:** Unjournal evaluators are asked to:
    * highlight the key/most relevant research claims, results, and tests;
    * propose possible robustness checks and tests (RRC work); and
