@@ -7,7 +7,7 @@
     * [Brief version of call](readme-1/call-for-participants-research/brief-version-of-call.md)
     * [Impactful Research Prize](readme-1/call-for-participants-research/impactful-research-prize/README.md)
       * [Recap: submissions](readme-1/call-for-participants-research/impactful-research-prize/recap-submissions.md)
-    * [Jobs and paid projects with The Unjournal](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/README.md)
+    * [Jobs and paid projects with The Unjournal](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal.md)
       * [Advisory/team roles (research, management)](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/advisory-team-roles-research-management.md)
       * [Administration, operations and management roles](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/administration-operations-and-management-roles.md)
       * [Research and operations-linked roles and projects](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/research-and-operations-linked-roles-and-projects.md)
