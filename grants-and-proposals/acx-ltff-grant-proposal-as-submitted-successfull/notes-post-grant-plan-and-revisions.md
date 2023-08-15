@@ -22,6 +22,6 @@ _LTFF_:
 
 _Please let us know how you would like your grant communicated on the ACX blog, e.g. if you'd like Scott to recommend that readers help you in some way (see this post for examples)._
 
-_See_ [#acx-and-ltff-media](../../readme/writings/marketing-and-outreach.md#acx-and-ltff-media "mention")\_\_
+_See_ [#acx-and-ltff-media](../../readme-1/writings/marketing-and-outreach.md#acx-and-ltff-media "mention")\_\_
 
 {% embed url="https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing" %}

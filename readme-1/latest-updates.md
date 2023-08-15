@@ -1,10 +1,8 @@
 # Latest updates
 
-
-
 Our 'Pilot Phase', involving ten papers and roughly 20 evaluations is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)”. We are now waiting on one last evaluation, followed by author responses and 'publishing' the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
 
-We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
+We will make decisions and award our [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
 
 We continue to develop processes and policies around "which research to prioritize." For example, we are considering whether we should set targets for different fields, for related outcome "cause categories," and for research sources. This discussion continues among our team and with stakeholders. We intend to open up the discussion further, making it public and bringing in a range of voices. The objective is to develop a framework and a systematic process to make these decisions. See our expanding notes and discussion on [What is global-priorities relevant research?](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/the-field-and-ea-gp-research)
 
@@ -49,7 +47,7 @@ We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-
 
 Our "Pilot Phase," involving ten papers and roughly 20 evaluations, is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence from a Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3).” We are now waiting on one last evaluation, followed by author responses and then "publishing" the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
 
-We will make decisions and award our [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
+We will make decisions and award our [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
 
 ### **"What research should we prioritize for evaluation, and why?"**
 
@@ -71,7 +69,7 @@ Of course, we can't commission the evaluation of every piece of research under t
 
 This is a big task and there is a lot of ground to cover. To divide and conquer, we’re partitioning this space (looking at natural divisions between fields, outcomes/causes, and research sources) amongst our management team as well as among what we now call...
 
-#### [_"Field Specialists_](../readme/call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FSs), who will
+#### [_"Field Specialists_](call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FSs), who will
 
 * focus on a particular area of research, policy, or impactful outcome;
 * keep track of new or under-considered research with potential for impact;
@@ -121,7 +119,7 @@ We're working with PubPub to improve our process and interfaces. We plan to take
 
 * Our next hiring focus: [Communications](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit#heading=h.ohxm7x2bjfvn). We are looking for a strong writer who is comfortable communicating with academics and researchers (particularly in economics, social science, and policy), journalists, policymakers, and philanthropists. Project-based.
 * We've chosen (and are in the process of contracting) a strong quantitative meta-scientist and open science advocate for the project: “Aggregation of expert opinion, forecasting, incentives, meta-science.” (Announcement coming soon.)
-* We are also expanding our Management Committee and Advisory Board; see [calls to action](../readme/call-for-participants-research/#overview-and-call).
+* We are also expanding our Management Committee and Advisory Board; see [calls to action](call-for-participants-research/#overview-and-call).
 
 #### Potentially relevant events in the outside world
 
@@ -155,7 +153,7 @@ While we wait for the new grant funding to come in, we are not sitting on our ha
 1. [“Banning wildlife trade can boost demand for unregulated threatened species”](https://unjournal.pubpub.org/pub/banning-wildlife-eval-summ/release/2)
 2. ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC”](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)
 
-With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide, announce, and award the recipients for the [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, and organize online presentations/discussions (maybe linked to an "award ceremony"?).
+With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide, announce, and award the recipients for the [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, and organize online presentations/discussions (maybe linked to an "award ceremony"?).
 
 ### Contracting, hiring, expansion
 
@@ -170,7 +168,7 @@ No official announcements yet. However, we expect to be hiring (on a part-time c
 
 You can also/alternately register your interest in doing (paid) research evaluation work for _The Unjournal_, and/or in being part of our advisory board, [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
 
-We also plan to expand our [Management Committee](../readme/discussion-team/#management-committee); please reach out if you are interested or can recommend suitable candidates.
+We also plan to expand our [Management Committee](discussion-team/#management-committee); please reach out if you are interested or can recommend suitable candidates.
 
 ### Tech and initiatives
 
@@ -180,7 +178,7 @@ A small win: our Mailchimp signup should now be working, and this update should 
 
 ### Welcoming new team members
 
-We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](../readme/discussion-team/#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our [Management Committee](../readme/discussion-team/#management-committee)!
+We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](discussion-team/#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our [Management Committee](discussion-team/#management-committee)!
 
 * Dworkin's work centers on "improving scientific research, funding, institutions, and incentive structures through experimentation."
 * Treich's current research agenda largely focuses on the intersection of animal welfare and economics.
@@ -196,7 +194,7 @@ _The Unjournal_ was[ recommended/approved for a substantial grant](https://survi
 
 _Innovations:_ We are considering other initiatives and refinements (1) to our evaluation ratings, metrics, and predictions, and how these are aggregated, (2) to foster open science and robustness-replication, and (3) to provide inputs to evidence-based policy decision-making under uncertainty. Stay tuned, and please join the conversation.
 
-_Opportunities:_ We plan to expand our management and advisory board, increase incentives for evaluators and authors, and build our pool of evaluators and participating authors and institutions. Our previous call-to-action (see [HERE](../readme/call-for-participants-research/brief-version-of-call.md)) is still relevant if you want to sign up to be part of our evaluation (referee) pool, submit your work for evaluation, etc. (We are likely to put out a further call soon, but all responses will be integrated.)
+_Opportunities:_ We plan to expand our management and advisory board, increase incentives for evaluators and authors, and build our pool of evaluators and participating authors and institutions. Our previous call-to-action (see [HERE](call-for-participants-research/brief-version-of-call.md)) is still relevant if you want to sign up to be part of our evaluation (referee) pool, submit your work for evaluation, etc. (We are likely to put out a further call soon, but all responses will be integrated.)
 
 ### Evaluation 'output'
 
@@ -269,7 +267,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Management and administration, deadlines
 
-* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the [Impactful Research Prize](../readme/call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers and the processing of these has been somewhat slower than expected.
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers and the processing of these has been somewhat slower than expected.
 
 #### Other news and media
 
@@ -278,7 +276,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Calls to action
 
-#### See: [call-for-participants-research](../readme/call-for-participants-research/ "mention"). These are basically still all relevant.
+#### See: [call-for-participants-research](call-for-participants-research/ "mention"). These are basically still all relevant.
 
 1. **Evaluators:** We have a strong pool of evaluators.
 

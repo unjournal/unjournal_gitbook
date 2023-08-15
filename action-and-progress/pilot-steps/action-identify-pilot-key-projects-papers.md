@@ -45,7 +45,7 @@ Not very relevant (because mainly operational)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research](../../readme/call-for-participants-research/ "mention")
+6\. Cross-promoted with [call-for-participants-research](../../readme-1/call-for-participants-research/ "mention")
 
 ## Pivot: direct focus on NBER working papers
 
