@@ -46,7 +46,7 @@ _The biggest_ [_personal gains for authors are:_](#user-content-fn-6)[^6]
 5. **Visibility** and attention to your work, which may lead to additional citations.
 6. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, opening up new ambitious projects, and attracting strong PhD students to your research groups.
 7. Gain a reputation as an ‘**early adopter and innovator**’ in open science.
-8. **Prizes:** You may win an [impactful-research-prize](../../readme/call-for-participants-research/impactful-research-prize/ "mention") which will be financial as well as reputational.
+8. **Prizes:** You may win an [impactful-research-prize](../../readme-1/call-for-participants-research/impactful-research-prize/ "mention") which will be financial as well as reputational.
 9. 'Entering our system’ makes you more likely to be hired as a paid reviewer or editorial manager.
 10. We will encourage **media coverage**, including ‘forwarding’ some work to the [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/) for future coverage (with compensation to those doing the writing).
 
@@ -121,7 +121,7 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
 1. See: [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention"). Where the paper has already been published, we elicit counterfactual responses.
 2. Of course, this can be ended early at the request of the authors.
-3. See “[benefits of dynamic documents](../../benefits-and-features/benefits-of-dynamic-documents.md)"
+3. See “[benefits of dynamic documents](../../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 4. However, we want to encourage this accessibility (and we are keen to work with [I4rep](https://i4replication.org/people.html) and others on this in future.)
 5. We are considering whether your response may also be given a DOI. This may help the metrics enter into the general bibliometric systems
 6.  What sort of 'additional opportunity'? Your work may be "under-published"; perhaps you were in a hurry and submitted it to a 'safe but low-ranked journal'

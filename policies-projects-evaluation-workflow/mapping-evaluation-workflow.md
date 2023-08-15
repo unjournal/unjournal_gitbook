@@ -75,7 +75,7 @@ UJO --> UJPUB[Publicize, follow availability, <br/> bibliometrics.]
    * _Following direct evaluation selection_...&#x20;
      * M or FS may add additional 'evaluation suggestions' (see [examples here](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)) explaining why it's relevant, what to evaluate, etc., to later be shared with evaluators
    * If requested (in either case), M decides whether to grant embargo/special treatment, notes this, informs authors
-3. [M assigns](#user-content-fn-2)[^2] an Evaluation Manager (EM) to selected project (typically part of our [management team or advisory board](../readme/discussion-team/))
+3. [M assigns](#user-content-fn-2)[^2] an Evaluation Manager (EM) to selected project (typically part of our [management team or advisory board](../readme-1/discussion-team/))
 4. EM invites Evaluators (aka 'Reviewers'), sharing the paper to be evaluated, and (optionally) a brief summary of why the UJ thinks it's relevant, and what we are asking.
    * Potential evaluators are given full access to (almost) all information submitted by author and M and notified of any embargo/special treatment granted.
    * EM may make special requests to the evaluator as part of a management policy (e.g., 'signed/unsigned evaluation only', short deadlines, extra incentives as part of an  agreed policy, etc.)
@@ -126,7 +126,7 @@ _If 'minor revisions' are requested_:
 
 We don't want to replicate the slow and inefficient processes of the traditional system. We want evaluators to basically give a report and rating _as the paper stands._
 
-We also want to encourage papers as [permanent-beta ](../benefits-and-features/living-research-projects.md)projects. The authors can improve it, if they like, and resubmit it for a new evaluation.
+We also want to encourage papers as [permanent-beta ](../benefits-and-features/dynamic-documents-vs-living-projects/living-research-projects.md)projects. The authors can improve it, if they like, and resubmit it for a new evaluation.
 
 1. This might occur through the same 'submission form' authors complete
 2. Where evaluators chose anonymity, none of their evaluation content should be linked to their real names or identity by design. Still, doublecheck this.

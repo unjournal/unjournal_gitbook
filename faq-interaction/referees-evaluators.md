@@ -85,7 +85,7 @@ Otherwise, if you are remaining anonymous. please do not disclose your connectio
 _Going forward:_
 
 * We may later invite you to write and evaluate more about this piece of research
-* ... and to help us judge prizes (e.g., the [impactful-research-prize](../readme/call-for-participants-research/impactful-research-prize/ "mention")).
+* ... and to help us judge prizes (e.g., the [impactful-research-prize](../readme-1/call-for-participants-research/impactful-research-prize/ "mention")).
 * We may ask if you want to be involved in replication exercises (e.g., through the [Institute for Replication](https://i4replication.org/))
 * We hope and intend to always see that you are fairly compensated for your time and effort, as a general principle
 
@@ -98,7 +98,7 @@ The evaluations provide at least three types of value, helping advance several p
 1. **For readers and users**: Unjournal evaluations assess the reliability and usefulness of the paper along several dimensions, and to make this public, so other researchers and policymakers can [learn from this and this in their practice and decisionmaking.](#user-content-fn-3)[^3]
 2. **For careers and improving research:** Evaluations provide metrics of quality. In the medium term, these should provide career value in a better way, improving the research process. We aim to build metrics that are credibly comparable to the current ‘what tier journal is a paper published in’. But we aim to do this better:
    * More quickly, more reliably, more transparently, and without the unproductive overhead of dealing with journals (see '[reshaping evaluation](../benefits-and-features/costs-of-playing-the-publication-game.md)')
-   * Allowing flexible [transparent formats (such as dynamic documents)](../benefits-and-features/dynamic-documents-vs-living-projects.md)... improving the research process, research careers, and hopefully improving the research itself in impactful areas.
+   * Allowing flexible [transparent formats (such as dynamic documents)](../benefits-and-features/dynamic-documents-vs-living-projects/)... improving the research process, research careers, and hopefully improving the research itself in impactful areas.
 3. **Feedback and suggestions for authors:** We also hope that evaluators provide feedback that is relevant to the authors, to help them make the paper better.
 
 <details>
