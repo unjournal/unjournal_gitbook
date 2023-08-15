@@ -10,7 +10,7 @@ _See (earlier) discussion in public call/EA forum discussion:_
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
-But to reach these goals, we need to select "the right research" for evaluation. We want to choose papers and projects that are highly relevant, methodologically promising, and that will substantially benefit from our evaluation work. Besides making our process transparent and fair, we need to optimize how we select research so that our efforts remain mission-focused and _useful_. To do this, we need a coherent set of guidelines \[and ways of thinking] to guide this process. These considerations have many dimensions, which we explore below.
+But to reach these goals, we need to select "the right research" for evaluation. We want to choose papers and projects that are highly relevant, methodologically promising, and that will benefit substantially from our evaluation work. Besides making our process transparent and fair, we need to optimize how we select research so that our efforts remain mission-focused and _useful_. To do this, we need a coherent set of guidelines \[and ways of thinking] to guide this process. These considerations have many dimensions, which we explore below.
 
 {% hint style="info" %}
 _Management access only_: General discussion of prioritization in Gdoc [HERE](https://docs.google.com/document/d/1Ei-3t2bUazjlBOIg8chLxOrz\_sXl\_osAzrLU4hO1wDk/edit). Private discussion of specific papers in Airtable and links (e.g., [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)).
@@ -24,7 +24,7 @@ When considering a piece of research for evaluation, we can start by looking at 
 
 1. **Why is it relevant and worth engaging with?**
 
-We consider: The importance of the research to global priorities; the direct relevance to the real world; the value of the research to advancing other impactful work; the commitment and contribution to open science; the authors' engagement with our process; and the logic, communication and reasoning transparency\
+We consider the importance of the research to global priorities; the direct relevance to the real world; the value of the research to advancing other impactful work; the commitment and contribution to open science; the authors' engagement with our process; and the logic, communication, and transparent reasoning of the work.\
 \
 2\. **Why does it need (more) review, and what are some key issues and claims to vet?**
 
@@ -38,11 +38,9 @@ _We ask the people who suggest particular research, and experts in the field:_
 
 Put broadly, we need to consider how this research allows us to achieve our own goals in line with our [Global Priorities Theory of Change flowchart](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/benefits-and-features/global-priorities-theory-of-change), targeting "ultimate outcomes." The research we select and evaluate should drive positive change in a meaningful way.
 
-&#x20;One way we might see this process:  I.e., “better research & more informative evaluation” → “better decision-making” → “better outcomes” for humanity and for non-human animals, (i.e., the survival and flourishing of life and human civilization and values).
+&#x20;One way we might see this process:  “better research & more informative evaluation” → “better decision-making” → “better outcomes” for humanity and for non-human animals (i.e., the survival and flourishing of life and human civilization and values).
 
-_A point to consider consideration_: Do we have other ultimate goals that are not in that chart, e.g., to improve research and knowledge-building for its own sake?
-
-
+_A point to consider_: Do we have other ultimate goals that are not in that chart, e.g., to improve research and knowledge-building for its own sake?
 
 ## Prioritizing research to achieve these goals
 
@@ -56,8 +54,9 @@ Below, we adapt the ["ITN" cause prioritization framework](https://forum.effecti
 
 What is the direct impact potential of the research?
 
-* This is a massive question many have tried to address (see sketches and links).
-* Consult a range of sources, not only EA-linked.
+This is a massive question many have tried to address (see sketches and links). We respond to uncertainty around this question in a number of ways, including:
+
+* Consult a range of sources, not only EA-linked.&#x20;
   * EA and more or less adjacent:  [Agendas](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/the-field-and-ea-gp-research/what-is-ea-gp-relevant-research) and overviews, [Syllabi](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples).
     * Non-EA, e.g., [https://globalchallenges.org/](https://globalchallenges.org/).
     * Scope what other sorts of work are representative inputs to GP-relevant work.&#x20;
@@ -121,8 +120,41 @@ Overall, however, we feel we are aware of key issues around the consideration of
 
 We're working on presenting and analyzing the specifics surrounding our current evaluation data [here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data.html). _28 Jul 2023 -- this is extremely messy and premature; we will post it more publicly when it's in a good shape._
 
+## Choosing papers to pilot
+
+### A template for \[\[submitting pilot papers]]
+
+Beginnings are always a sensitive time, and require their own set of considerations. While all of the above topics remain relevant, we present the following template, both for our own consideration and for sharing (in part?) with the referees, to give them some guidance. We probably won’t need to offer quite as much guidance in equilibrium, but it may be worth a little more care while the process is piloted.&#x20;
+
+Think of these as **bespoke evaluation notes** for a "research overview, prioritization, and suggestions" document. The evaluation manager ideally creates this document to share with the evaluators (view-only perhaps, so anonymous evaluators don’t accidentally disclose identity), explaining why _The Unjournal_ chose this paper, what we are looking for in evaluators/evaluations, and suggesting specific things we might like the evaluators to focus on.
+
+(A submission with multiple papers should use a new page per paper.)
+
+#### Title
+
+One-click-link\
+Link to any private hosted comments on the paper/project
+
+#### Summary; why is this research relevant and worth engaging with?
+
+As mentioned above under _High level considerations_, consider factors including importance to global priorities, relevance to the field, the commitment and contribution to open science, the authors’ engagement, and the transparency of data and reasoning. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1) explicitly, but not too rigidly
+
+#### Why does it need (more) review, and what are some key issues and claims to vet?
+
+What are (some of) the authors’ main important claims that are worth carefully evaluating? What aspects of the evidence, argumentation, methods, interpretation, etc., are you unsure about? What particular data, code, proof, etc., would you like to see vetted? If it has already been peer-reviewed in some way, why do you think more review is needed?
+
+#### What sort of reviewers should be sought, and what should they be asked?
+
+What types of expertise and background would be most appropriate for the evaluation? Who would be interested? Please try to make specific suggestions.
+
+#### How well has the author engaged with the process?
+
+Do they need particular convincing? Do they need help making their engagement with _The Unjournal_ successful?
 
 
+
+\
+\
 \
 
 

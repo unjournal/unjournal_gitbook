@@ -81,7 +81,7 @@ Activities may involve a combination of the following (but you can choose your f
 
 ### **Advisory Board Members (ABM) and Field Specialists (FS)**
 
-Beyond the direct roles within the Unjournal, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager (see our [evaluation workflow](../../our-policies-evaluation-and-workflow/mapping-evaluation-workflow.md)) when needed.
+Beyond the direct roles within the Unjournal, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager (see our [evaluation workflow](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md)) when needed.
 
 _**Field Specialists**_\*\* (FS)\*\* will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact. They will explain and assess the extent to which The Unjournal can add value by commissioning it to be evaluated. They will 'curate' this and may also serve as evaluation managers for this work.
 
