@@ -10,7 +10,10 @@ On this page we link and discuss [some takes](#user-content-fn-1)[^1] on answers
 
 ### Phil Trammel: "Topics in Economic Theory & Global Prioritization" provisional syllabus
 
-[See also "Existing resources (Economics focused)](http://localhost:5000/s/SqDA4IisXAMIzALFWshJ/existing-resources-programs-examples)" in other Gitbook, and Stafforini's list of EA syllabi [here](http://www.stafforini.com/blog/effective-altruism-syllabi)
+[See also ](https://globalimpact.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples)
+
+* ["Existing resources (Economics focused)](https://globalimpact.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples)" in 'Economics for EA and V/V) Gitbook
+* &#x20;Stafforini's list of EA syllabi [here](http://www.stafforini.com/blog/effective-altruism-syllabi)
 
 ## **Funder/organization research agendas**
 
@@ -87,7 +90,7 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 ## **General, advice**
 
 * [80000 Hours research questions by discipline](https://80000hours.org/articles/research-questions-by-discipline/)
-* [Effective thesis project 'research agendas'](https://effectivethesis.org/research-agendas/)
+* [Effective thesis project 'research agendas'](https://effectivethesis.org/research-agendas/): This is particular detailed and contains a range of useful links to other agendas
 * ['Cause X guide'](https://forum.effectivealtruism.org/posts/kFmFLcdSFKo2GFJkc/cause-x-guide)
 * [Cause mapping resources (sheet with links, associated with Falk Lieder](https://docs.google.com/spreadsheets/d/1b8Tw0OpyTSh-qbW6yAD93asrI1nEwc2\_GseJRlh-kJM/edit#gid=460638401))
 
