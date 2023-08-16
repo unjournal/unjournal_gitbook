@@ -13,12 +13,13 @@ _Some of the content in the sections below will overlap._
 ## Development economics, global health, adjacent
 
 1. NBER, CEPR, etc: 'Who covers what'?
-2. 'Impactful, Neglected, Evaluation-Tractable' work in the global-health and RCT-driven intervention-relevant part of development economics
+2. 'Impactful, Neglected, Evaluation-Tractable' work in the global-health & RCT-driven intervention-relevant part of development economics
 3. Mental health and happiness; HLI suggestions
 4. Givewell specific recommendations and projects&#x20;
 5. Governance/political science
 6. Global poverty: Macro, institutions, growth, market structure&#x20;
-7. How to consider and incorporate adjacent work in epidemiology and medicine
+7. Evidence-based policy organizations, their own assessments and syntheses (e.g., 3ie)
+8. How to consider and incorporate adjacent work in epidemiology and medicine
 
 
 
