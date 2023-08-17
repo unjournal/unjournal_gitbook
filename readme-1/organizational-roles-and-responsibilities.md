@@ -83,7 +83,7 @@ Estimated time commitment (FS): 1–4 hours per month (for people already involv
 If you are interested in discussing any of the above in person, please email us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)) to arrange a conversation.
 
 \
-We invite you to fill in this [form](https://airtable.com/shrW9xpIrxNGfxkXW) to leave your contact information, as well as outlining which parts of the project you may be interested in.
+We invite you to fill in [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (same as the form linked aove) to leave your contact information, as well as outlining which parts of the project you may be interested in.
 
 _Note_: This is under continual refinement; see our [policies](../policies-projects-evaluation-workflow/) for more details.
 
