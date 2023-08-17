@@ -4,13 +4,13 @@ description: (for pilot and beyond)
 
 # What research to target?
 
-Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2]). We want to see better research leading to better concrete outcomes that enable or accelerate positive change.
+Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2]. We want to see better research leading to better concrete outcomes that enable or accelerate positive change.
 
 _See (earlier) discussion in public call/EA forum discussion:_
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
-But to reach these goals, we need to select "the right research" for evaluation. We want to choose papers and projects that are highly relevant, methodologically promising, and that will benefit substantially from our evaluation work. Besides making our process transparent and fair, we need to optimize how we select research so that our efforts remain mission-focused and _useful_. To do this, we need a coherent set of guidelines \[and ways of thinking] to guide this process. These considerations have many dimensions, which we explore below.
+To reach these goals, we need to select "the right research" for evaluation. We want to choose papers and projects that are highly relevant, methodologically promising, and that will benefit substantially from our evaluation work. Besides making our process transparent and fair, we need to optimize how we select research so that our efforts remain mission-focused and _useful_. To do this, we need a coherent set of guidelines \[and ways of thinking] to guide this process. These considerations have many dimensions, which we explore below.
 
 {% hint style="info" %}
 _Management access only_: General discussion of prioritization in Gdoc [HERE](https://docs.google.com/document/d/1Ei-3t2bUazjlBOIg8chLxOrz\_sXl\_osAzrLU4hO1wDk/edit). Private discussion of specific papers in Airtable and links (e.g., [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)).
