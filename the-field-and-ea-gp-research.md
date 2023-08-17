@@ -115,4 +115,16 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 Slides as single scrollable document
 {% endembed %}
 
+
+
+
+
+## See also (internal/Unjournal discussions)
+
+[research-scoping-discussion-spaces.md](management-tech-details-discussion/research-scoping-discussion-spaces.md "mention")
+
+
+
+
+
 [^1]: Note: Most of these links are associated with Effective Altruism; we intend to include a wider range of sources. This list is very much a work-in-progress.
