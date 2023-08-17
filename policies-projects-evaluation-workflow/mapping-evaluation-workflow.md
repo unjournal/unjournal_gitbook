@@ -1,10 +1,10 @@
 # Mapping evaluation workflow
 
-The flowchart below focuses on the _evaluation_ part of our process.&#x20;
+The flowchart below focuses on the _evaluation_ part of our process.
 
 ```mermaid
 graph TD
-  S["Author (A) submits work (W)"] -->|informal or Kotahi| MP[M and FS prioritize work]
+  S["Author (A) submits work (W)"] -->|informal or Airtable/PubPub| MP[M and FS prioritize work]
   NBER[Work enters 'prestige' archive ] --> MP 
   MP --> IA
 MP --> WE[Work to evaluate]
