@@ -116,19 +116,23 @@ Giving managers autonomy and pushing forward quickly may bring the risk of perce
 
 Overall, however, we feel we are aware of key issues around the consideration of research to be evaluated in _The Unjournal_ and continue to hone and improve our process for approval.
 
+##
+
 ## Data:  what are we evaluating/considering?
 
-We're working on presenting and analyzing the specifics surrounding our current evaluation data [here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data.html). _28 Jul 2023 -- this is extremely messy and premature; we will post it more publicly when it's in a good shape._
+We're working on presenting and analyzing the specifics surrounding our current evaluation data [here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data\_analysis.html).&#x20;
+
+
 
 ## Choosing papers to pilot
 
-### A template for \[\[submitting pilot papers]]
+### A (slightly earlier) template for suggesting/submitting  papers
 
-Beginnings are always a sensitive time, and require their own set of considerations. While all of the above topics remain relevant, we present the following template, both for our own consideration and for sharing (in part?) with the referees, to give them some guidance. We probably won’t need to offer quite as much guidance in equilibrium, but it may be worth a little more care while the process is piloted.&#x20;
+Below, we present a both. for our own consideration and for sharing (in part?) with evaluators the referees, to give [them some guidance](#user-content-fn-3)[^3]. Think of these as **bespoke evaluation notes** for a ["research overview, prioritization, and suggestions" document](#user-content-fn-4)[^4].&#x20;
 
-Think of these as **bespoke evaluation notes** for a "research overview, prioritization, and suggestions" document. The evaluation manager ideally creates this document to share with the evaluators (view-only perhaps, so anonymous evaluators don’t accidentally disclose identity), explaining why _The Unjournal_ chose this paper, what we are looking for in evaluators/evaluations, and suggesting specific things we might like the evaluators to focus on.
+<details>
 
-(A submission with multiple papers should use a new page per paper.)
+<summary>Proposed template</summary>
 
 #### Title
 
@@ -137,7 +141,7 @@ Link to any private hosted comments on the paper/project
 
 #### Summary; why is this research relevant and worth engaging with?
 
-As mentioned above under _High level considerations_, consider factors including importance to global priorities, relevance to the field, the commitment and contribution to open science, the authors’ engagement, and the transparency of data and reasoning. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1) explicitly, but not too rigidly
+As mentioned above under _High level considerations_, consider factors including importance to global priorities, relevance to the field, the commitment and contribution to open science, the authors’ engagement, and the transparency of data and reasoning. You may consider the [ITN framework](https://forum.effectivealtruism.org/topics/itn-framework-1) explicitly, but not too rigidly.
 
 #### Why does it need (more) review, and what are some key issues and claims to vet?
 
@@ -150,6 +154,8 @@ What types of expertise and background would be most appropriate for the evaluat
 #### How well has the author engaged with the process?
 
 Do they need particular convincing? Do they need help making their engagement with _The Unjournal_ successful?
+
+</details>
 
 
 
@@ -166,3 +172,10 @@ Do they need particular convincing? Do they need help making their engagement wi
 
 [^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
 
+
+
+[^3]: We probably won’t need to offer quite as much guidance in equilibrium, but it may be worth a little more care while the process is piloted. &#x20;
+
+
+
+[^4]: The evaluation manager ideally creates this document to share with the evaluators (view-only perhaps, so anonymous evaluators don’t accidentally disclose identity), explaining why _The Unjournal_ chose this paper, what we are looking for in evaluators/evaluations, and suggesting specific things we might like the evaluators to focus on.
