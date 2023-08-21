@@ -122,7 +122,7 @@ Open Philanthropy [“Technical and Philosophical Questions That Might Affect Ou
 ## Economics: overviews and prioritization exercises
 
 * ["What’s Worth Knowing? Economists’ Opinions about Economics" (Andre and Falk, 2022)](https://www.briq-institute.org/files/whats-worth-knowing.pdf): The survey, as reported in the paper, does not suggest a particular agenda, but it does suggest a direction ...  economists would generally like to see more work in certain applied areas.&#x20;
-* [Ten Years and Beyond: Economists Answer NSF's Call for Long-Term Research Agendas (Compendium, 2011](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1886598)) - this seems extremely relevant but I'm seeing little follow-through on these and some of the white papers seem hard to dig up. They asked 'economists and other relevant research communities “to step outside of present demands and to think boldly about future promises.... to write white papers that describe grand challenge questions in their sciences that transcend near-term funding cycles and are “likely to drive next generation research in the social, behavioral, and economic sciences.”'&#x20;
+* [Ten Years and Beyond: Economists Answer NSF's Call for Long-Term Research Agendas (Compendium, 2011](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1886598)) - [this seems extremely relevant](#user-content-fn-2)[^2]. ... NSF [asked economists+](#user-content-fn-3)[^3] to "describe grand challenge questions ... that transcend near-term funding cycles and are likely to drive next generation research in the social, behavioral, and economic sciences.”&#x20;
 
 
 
@@ -147,3 +147,9 @@ Slides as single scrollable document
 
 
 [^1]: Note: Most of these links are associated with Effective Altruism; we intend to include a wider range of sources. This list is very much a work-in-progress.
+
+[^2]: However, I'm seeing little follow-through on these and some of the white papers seem hard to dig up
+
+
+
+[^3]: In more detail ... National Science Foundation’s Directorate for the Social, Behavioral and Economic Sciences (NSF/SBE) for challenging economists and other relevant research communities “to step outside of present demands and to think boldly about future promises.” Specifically, NSF/SBE invited groups and individuals in August 2010 to write white papers that describe grand challenge questions in their sciences that transcend near-term funding cycles and are “likely to drive next generation research in the social, behavioral, and economic sciences.”
