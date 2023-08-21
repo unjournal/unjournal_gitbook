@@ -18,7 +18,7 @@ _Some of the content in the sections below will overlap._
 
 ## Development economics, global health, adjacent
 
-1. NBER, CEPR, etc: 'Who covers what'?
+1. [NBER, CEPR, etc: 'Who covers what'?](https://docs.google.com/document/d/1bc6Brx8Sa\_AeQIw9nzuwxR-ec9MEZqRI1QpJeyxIaN0/edit#heading=h.3rvaetw2buny)
 2. 'Impactful, Neglected, Evaluation-Tractable' work in the global health & RCT-driven intervention-relevant part of development economics
 3. Mental health and happiness; HLI suggestions
 4. Givewell specific recommendations and projects&#x20;
