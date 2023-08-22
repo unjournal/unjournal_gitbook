@@ -4,7 +4,7 @@ description: (for pilot and beyond)
 
 # What research to target?
 
-Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2]. We want to see better research leading to better concrete outcomes that enable or accelerate positive change.
+Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities (see linked discussion)](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2]. We want to see better research leading to better concrete outcomes that enable or accelerate positive change.
 
 _See (earlier) discussion in public call/EA forum discussion:_
 
