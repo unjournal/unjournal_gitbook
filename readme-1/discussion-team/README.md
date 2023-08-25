@@ -26,6 +26,8 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Jonathan Berman](https://www.london.edu/faculty-and-research/faculty-profiles/b/berman-j-z-1), Associate Professor of Marketing, London Business School
 
+[Rosie Bettle](https://www.linkedin.com/in/rosie-bettle-84a1051b0/?originalSubdomain=uk), Applied Researcher (Global Health & Development) at Founder's Pledge
+
 [Gary Charness](https://www.wikiwand.com/en/Gary\_Charness), Professor of Economics, UC Santa Barbara
 
 [Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi), Post-Doctoral Researcher in the Department of Quantitative Methods and Economic Theory at the University of Chieti (Italy)
