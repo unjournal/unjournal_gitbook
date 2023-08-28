@@ -6,7 +6,7 @@ description: The steps we've taken and our plans; needs updating
 
 See also [plan-of-action.md](../readme-1/plan-of-action.md "mention")
 
-See also [latest-updates.md](../readme-1/latest-updates.md "mention")
+See also [latest-updates](../readme-1/latest-updates/ "mention")
 
 ### Gantt Chart of Next Steps
 

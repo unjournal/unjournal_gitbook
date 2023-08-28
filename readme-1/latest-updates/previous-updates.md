@@ -1,28 +1,4 @@
-# Latest updates
-
-Our 'Pilot Phase', involving ten papers and roughly 20 evaluations is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)”. We are now waiting on one last evaluation, followed by author responses and 'publishing' the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
-
-We will make decisions and award our [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
-
-We continue to develop processes and policies around "which research to prioritize." For example, we are considering whether we should set targets for different fields, for related outcome "cause categories," and for research sources. This discussion continues among our team and with stakeholders. We intend to open up the discussion further, making it public and bringing in a range of voices. The objective is to develop a framework and a systematic process to make these decisions. See our expanding notes and discussion on [What is global-priorities relevant research?](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/the-field-and-ea-gp-research)
-
-We want to keep the community informed of our progress and the steps we are considering next. We want your feedback too! Below, we summarize what _The Unjournal_ has been up to.
-
-{% hint style="info" %}
-**Some (other) ways to follow **_**The Unjournal**_**'s progress**
-
-* Check out our [PubPub page](https://unjournal.pubpub.org/) to read evaluations and author responses.
-* [Follow @GivingTools](https://twitter.com/GivingTools?ref\_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it).
-* Visit [action-and-progress](../action-and-progress/ "mention") for an overview.
-{% endhint %}
-
-**MailChimp link:** Sign up below to get these progress updates in your inbox about once per fortnight, along with opportunities to give your feedback.
-
-{% @mailchimp/mailchimpSubscribe %}
-
-Alternatively, fill out this [quick survey](http://eepurl.com/ipFMdg) to get this newsletter and tell us some things about yourself and your interests. The data protection statement is linked [here](https://bit.ly/46y0LqH).
-
-{% embed url="http://eepurl.com/ipFMdg" %}
+# Previous updates
 
 ## Progress notes since last update
 
@@ -47,7 +23,7 @@ We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-
 
 Our "Pilot Phase," involving ten papers and roughly 20 evaluations, is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence from a Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3).” We are now waiting on one last evaluation, followed by author responses and then "publishing" the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
 
-We will make decisions and award our [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
+We will make decisions and award our [Impactful Research Prize](../call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
 
 ### **"What research should we prioritize for evaluation, and why?"**
 
@@ -69,7 +45,7 @@ Of course, we can't commission the evaluation of every piece of research under t
 
 This is a big task and there is a lot of ground to cover. To divide and conquer, we’re partitioning this space (looking at natural divisions between fields, outcomes/causes, and research sources) amongst our management team as well as among what we now call...
 
-#### [_"Field Specialists_](call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FSs), who will
+#### [_"Field Specialists_](../call-for-participants-research/#advisory-board-members-abm-and-area-research-specialists-ars)_"_ (FSs), who will
 
 * focus on a particular area of research, policy, or impactful outcome;
 * keep track of new or under-considered research with potential for impact;
@@ -93,7 +69,7 @@ We discuss this topic [here](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1
 
 ### **Increase in evaluator compensation, incentives/rewards**
 
-We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
+We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
 
 _Please consider signing up for our evaluator pool (fill out_ [_the good old form_](https://airtable.com/shrtMv4hNlv8aL7Yy)_)._
 
@@ -119,7 +95,7 @@ We're working with PubPub to improve our process and interfaces. We plan to take
 
 * Our next hiring focus: [Communications](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit#heading=h.ohxm7x2bjfvn). We are looking for a strong writer who is comfortable communicating with academics and researchers (particularly in economics, social science, and policy), journalists, policymakers, and philanthropists. Project-based.
 * We've chosen (and are in the process of contracting) a strong quantitative meta-scientist and open science advocate for the project: “Aggregation of expert opinion, forecasting, incentives, meta-science.” (Announcement coming soon.)
-* We are also expanding our Management Committee and Advisory Board; see [calls to action](call-for-participants-research/#overview-and-call).
+* We are also expanding our Management Committee and Advisory Board; see [calls to action](../call-for-participants-research/#overview-and-call).
 
 #### Potentially relevant events in the outside world
 
@@ -132,7 +108,7 @@ _Update from David Reinstein, Founder and Co-Director_
 
 ### A path to change
 
-With the [recent news](latest-updates.md#grant-funding-from-the-survival-and-flourishing-fund), we now have the opportunity to move forward and really make a difference. I think _The Unjournal_, along with related initiatives in other fields, should become the place policymakers, grant-makers, and researchers go to consider whether research is reliable and useful. It should be a serious option for researchers looking to get their work evaluated. But how can we start to have a real impact?
+With the [recent news](previous-updates.md#grant-funding-from-the-survival-and-flourishing-fund), we now have the opportunity to move forward and really make a difference. I think _The Unjournal_, along with related initiatives in other fields, should become the place policymakers, grant-makers, and researchers go to consider whether research is reliable and useful. It should be a serious option for researchers looking to get their work evaluated. But how can we start to have a real impact?
 
 $$
 Awareness \cap Credibility \cap Scale \rightarrow Impact
@@ -153,7 +129,7 @@ While we wait for the new grant funding to come in, we are not sitting on our ha
 1. [“Banning wildlife trade can boost demand for unregulated threatened species”](https://unjournal.pubpub.org/pub/banning-wildlife-eval-summ/release/2)
 2. ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC”](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)
 
-With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide, announce, and award the recipients for the [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, and organize online presentations/discussions (maybe linked to an "award ceremony"?).
+With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide, announce, and award the recipients for the [Impactful Research Prize](../call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, and organize online presentations/discussions (maybe linked to an "award ceremony"?).
 
 ### Contracting, hiring, expansion
 
@@ -168,7 +144,7 @@ No official announcements yet. However, we expect to be hiring (on a part-time c
 
 You can also/alternately register your interest in doing (paid) research evaluation work for _The Unjournal_, and/or in being part of our advisory board, [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
 
-We also plan to expand our [Management Committee](discussion-team/#management-committee); please reach out if you are interested or can recommend suitable candidates.
+We also plan to expand our [Management Committee](../discussion-team/#management-committee); please reach out if you are interested or can recommend suitable candidates.
 
 ### Tech and initiatives
 
@@ -178,7 +154,7 @@ A small win: our Mailchimp signup should now be working, and this update should 
 
 ### Welcoming new team members
 
-We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](discussion-team/#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our [Management Committee](discussion-team/#management-committee)!
+We are delighted to welcome [Jordan Dworkin](https://jordandworkin.com/) (FAS) and [Nicholas Treich](https://www.nicolastreich.com/) (INRA/TSE) to our [Advisory Board](../discussion-team/#advisory-board), and [Anirudh Tagat](https://www.anirudhtagat.com/home) (Monk Prayogshala) to our [Management Committee](../discussion-team/#management-committee)!
 
 * Dworkin's work centers on "improving scientific research, funding, institutions, and incentive structures through experimentation."
 * Treich's current research agenda largely focuses on the intersection of animal welfare and economics.
@@ -194,7 +170,7 @@ _The Unjournal_ was[ recommended/approved for a substantial grant](https://survi
 
 _Innovations:_ We are considering other initiatives and refinements (1) to our evaluation ratings, metrics, and predictions, and how these are aggregated, (2) to foster open science and robustness-replication, and (3) to provide inputs to evidence-based policy decision-making under uncertainty. Stay tuned, and please join the conversation.
 
-_Opportunities:_ We plan to expand our management and advisory board, increase incentives for evaluators and authors, and build our pool of evaluators and participating authors and institutions. Our previous call-to-action (see [HERE](call-for-participants-research/brief-version-of-call.md)) is still relevant if you want to sign up to be part of our evaluation (referee) pool, submit your work for evaluation, etc. (We are likely to put out a further call soon, but all responses will be integrated.)
+_Opportunities:_ We plan to expand our management and advisory board, increase incentives for evaluators and authors, and build our pool of evaluators and participating authors and institutions. Our previous call-to-action (see [HERE](../call-for-participants-research/brief-version-of-call.md)) is still relevant if you want to sign up to be part of our evaluation (referee) pool, submit your work for evaluation, etc. (We are likely to put out a further call soon, but all responses will be integrated.)
 
 ### Evaluation 'output'
 
@@ -248,7 +224,7 @@ See our latest post on the EA Forum
 
 #### Tip of the Spear ... right now we are:
 
-* Working on getting six further papers (projects) evaluated, most of which are part of our NBER[direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
+* Working on getting six further papers (projects) evaluated, most of which are part of our NBER[direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
 * Developing and discussing tools for aggregating and presenting the evaluators' quantitative judgments
 * Building our platforms, and considering ways to better format and integrate evaluations
   * with the original research (e.g., through Hypothes.is collaborative annotation)
@@ -257,7 +233,7 @@ See our latest post on the EA Forum
 
 #### Funding, plans, collaborations
 
-We are seeking grant funding for our continued operation and expansion (see [grants and proposals](../grants-and-proposals/) below). We're appealing to funders interested in Open Science and in impactful research.
+We are seeking grant funding for our continued operation and expansion (see [grants and proposals](../../grants-and-proposals/) below). We're appealing to funders interested in Open Science and in impactful research.
 
 We're considering collaborations with other compatible initiatives, including...
 
@@ -267,7 +243,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Management and administration, deadlines
 
-* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the [Impactful Research Prize](call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers and the processing of these has been somewhat slower than expected.
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the [Impactful Research Prize](../call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers and the processing of these has been somewhat slower than expected.
 
 #### Other news and media
 
@@ -276,13 +252,13 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Calls to action
 
-#### See: [call-for-participants-research](call-for-participants-research/ "mention"). These are basically still all relevant.
+#### See: [call-for-participants-research](../call-for-participants-research/ "mention"). These are basically still all relevant.
 
 1. **Evaluators:** We have a strong pool of evaluators.
 
 <details>
 
-<summary>However, atm we are particularly seeking evaluators:</summary>
+<summary>Howev=er, atm we are particularly seeking evaluators:</summary>
 
 * with quantitative backgrounds, especially in economics, policy, and social-science
 
@@ -292,7 +268,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 <!---->
 
-* with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research.md](../the-field-and-ea-gp-research.md "mention"); e.g., global health and development),
+* with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research.md](../../the-field-and-ea-gp-research.md "mention"); e.g., global health and development),
 
 <!---->
 
