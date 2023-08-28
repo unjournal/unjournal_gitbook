@@ -37,7 +37,7 @@ description: Journal-independent evaluation of impactful research
 {% hint style="info" %}
 _See_ our **hosted evaluation output** [**HERE**](https://unjournal.pubpub.org/)_._\
 \
-_Also see our_ [latest-updates.md](latest-updates.md "mention").
+_Also see our_ [latest-updates](latest-updates/ "mention").
 {% endhint %}
 
 ## In a nutshell
