@@ -28,11 +28,9 @@ At some point in the future we might consider sliding-scale fees for people subm
 
 At the moment, we have [grants](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/latest-updates#update-on-recent-progress-6-may-2023) from philanthropists and organizations who are particularly interested in the credibility of the research areas we are prioritizing. Ideally, I hope that the research and the evaluation output will provide high enough value to justify further direct funding. We might also aim for funding from governments and universities supporting the open-access agenda. I am not sure whether we would want or need to tie this to any bespoke services we would provide to these entities; I'm very concerned about conflicts of interest. We might also look into other options to help sustain our processes, such as sliding-scale submission fees to cover the cost of paying evaluators.
 
-\\
-
 ## Public-facing [FAQ](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) (also embedded below)
 
-[This Google Doc](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) offers a space for you to publically ask us any questions or comments you may have about the project. We can then publically respond to these below as well.
+[This Google Doc](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) offers a space for[ you to publicly ask us any questions or comments you may have about the project. We can then publicly respond to these below as well.](#user-content-fn-2)[^2]
 
 ## Specific FAQs
 
@@ -42,6 +40,8 @@ At the moment, we have [grants](https://globalimpact.gitbook.io/the-unjournal-pr
 
 [referees-evaluators.md](referees-evaluators.md "mention")
 
-1. Please "@" 'theunjournal@gmail.com' to make sure we're aware of your question.
+1.
 
 [^1]: The only possible exception we can think of is that we require that the evaluation must be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics nor in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
+
+[^2]: Please "@" 'theunjournal@gmail.com' to make sure we're aware of your question.
