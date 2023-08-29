@@ -6,7 +6,7 @@ Fiscal host: [Open Collective Foundation](https://opencollective.com/foundation)
 
 Contact point at OCF (as of June 2023): Mike Strode (mike@opencollective.com)
 
-Our page is [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)​; (domain "unjournal.org" points here)
+Our OCF page is [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)​
 
 #### Documentation <a href="#documentation" id="documentation"></a>
 
@@ -30,13 +30,23 @@ _Note, for support issues/tickets or tickets there is no record that users can v
 **Anonymity** **and payments**: **Evaluators, please use a pseudonym or the "salted hash" code we shared with you!**
 
 \
-**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please \_use a pseudonym for your profile name**\_ (either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
+**As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name**_ (either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
 
 \
 _For good measure, do not indicate the name of the paper in the expense claim._
 
 _However, please do note "Evaluation of research material" in the "statement of work" section._
 {% endhint %}
+
+<details>
+
+<summary>Why do we suggest anonymity for invoicing evaluations even if the evaluator is making their identity public?</summary>
+
+We may wish to pay different base amounts for hard-to-source expertise or  specific requests. We also intend to give prizes and incentives for strong work. \
+\
+In general we want to be transparent and to explain and justify our choices, including these payments. However, if people claim payments on the OCF page and see others were paid more (or less), they might initially find this unfair. We don't have a clear way to explain the context _on that page_, thus I thought anonymity would be preferrable.&#x20;
+
+</details>
 
 <details>
 
