@@ -38,7 +38,7 @@
     * ["Your paper is being (has been) evaluated by The Unjournal"](faq-interaction/for-researchers-authors/your-paper-is-being-has-been-evaluated-by-the-unjournal.md)
   * [Evaluation (refereeing)](faq-interaction/referees-evaluators.md)
   * [Considering global priorities](faq-interaction/global-priorities.md)
-* [Our policies: Evaluation & workflow](policies-projects-evaluation-workflow/README.md)
+* [Our policies: evaluation & workflow](policies-projects-evaluation-workflow/README.md)
   * [Project selection and evaluation](policies-projects-evaluation-workflow/considering-projects/README.md)
     * [What research to target?](policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md)
     * ['Direct evaluation' track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)
