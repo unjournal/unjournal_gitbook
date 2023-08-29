@@ -1,6 +1,6 @@
 # Jobs and paid projects with The Unjournal
 
-30 Jun 2023: See [latest-updates](../latest-updates/ "mention"). We are scaling up, and I expect we will be hiring soon for the roles described below. These roles will be on a contract basis and mainly part-time.
+30 Jun 2023: See [latest-updates.md](../latest-updates.md "mention"). We are scaling up, and I expect we will be hiring soon for the roles described below. These roles will be on a contract basis and mainly part-time.
 
 To indicate your potential interest in any of the roles described below, please fill out [this quick survey form](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926472013\&usg=AOvVaw2guHXGvLX9tQVPhVWeAFyB) and link (or upload) your CV or webpage.
 
