@@ -297,7 +297,7 @@ Remember, we would like you to give a 90% CI _or_ a confidence rating (1-5 dots)
 
 <summary>Example of Confidence dots vs CI</summary>
 
-<img src="../../../.gitbook/assets/image (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
 
 The example in the diagram above (click to zoom) illustrates the proposed correspondence.
 
