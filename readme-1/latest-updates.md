@@ -18,7 +18,7 @@ You can see this output most concisely [in our PubPub collection here](https://u
 
 For a continuously-updated overview of our process, including the evaluation metrics see our 'data journalism' notebook [hosted here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data\_analysis.html#basic-presentation).&#x20;
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Just a peek at the content you can find in our lovely data notebook!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Just a peek at the content you can find in our lovely data notebook! Mind the interactive hover-overs etc.</p></figcaption></figure>
 
 
 
