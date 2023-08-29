@@ -1,11 +1,10 @@
 ---
 description: >-
-  Our policies, and discussion of these. See sections below. List/links to
-  current policies of the Unjournal, including templates for managers and
-  editors.
+  See links below accessing current policies of The Unjournal, accompanied by
+  discussion and including templates for managers and editors.
 ---
 
-# Our policies: Evaluation & workflow
+# Our policies: evaluation & workflow
 
 {% content-ref url="considering-projects/" %}
 [considering-projects](considering-projects/)
