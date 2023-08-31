@@ -90,6 +90,7 @@
   * [UJ Team: resources, onboarding](management-tech-details-discussion/uj-team-resources-onboarding.md)
   * [Policies/issues discussion](management-tech-details-discussion/policies-issues-discussion.md)
   * [Research scoping discussion spaces](management-tech-details-discussion/research-scoping-discussion-spaces.md)
+  * [Communication and style](management-tech-details-discussion/communication-and-style.md)
 * [Tech, tools and resources](tech-tools-and-resources/README.md)
   * [Tech scoping](tech-tools-and-resources/tech-scoping.md)
   * [Hosting & platforms](tech-tools-and-resources/hosting-and-platforms-notes/README.md)

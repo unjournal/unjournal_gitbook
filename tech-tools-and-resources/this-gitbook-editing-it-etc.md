@@ -3,23 +3,27 @@
 ## What is GitBook? How to edit it?
 
 {% hint style="info" %}
-See my notes on [another GitBook here](https://effective-giving-marketing.gitbook.io/untitled/appendix/how-this-gitbook-works), on how to edit it etc
+See my notes on [another GitBook here](https://effective-giving-marketing.gitbook.io/untitled/appendix/how-this-gitbook-works), on how to edit it, etc.
 {% endhint %}
 
 _Some quick points:_
 
-* GitBook is mainly used for tech documentation; but it has some important strengths and it's pretty good for general use
-* It is based in markdown and other simple flat text files
-* It synchronizes through Git/Github, and you can push and pull ... but you can also select 'edit' and 'merge' and use it fairly WYSIWYG
-* They have a good support team (try their chat/help button)
+* GitBook is mainly used for tech documentation; but it has some important strengths and it's pretty good for general use.
+* It is based in markdown and other simple flat text files.
+* It synchronizes through Git/Github, and you can push and pull ... but you can also select "edit" and "merge" and use it fairly WYSIWYG.
+* They have a good support team (try their chat/help button).
 
-## Shortcut for switching between public/private versions of the same page
+
+
+
+
+## Shortcut for switching between public and private versions of the same page
 
 {% hint style="info" %}
 18 Jun 2023 -- needs moving after moving GitBook location
 {% endhint %}
 
-Switching between the public and private version sof GitBook (while maintaining the same relative page) is a pain.
+Switching between the public and private versions of GitBook (while maintaining the same relative page) is a pain.
 
 **Semi-automate: going from the editable to the public version with a 'bookmarklet'**
 
@@ -39,7 +43,7 @@ javascript:(function() { var publicUrl = document.location.href.replace('app.git
 
 **To go in the other direction (public to editable version of a page)**
 
-Setting the following as a ‘bookmark’ seems to help (chrome: bookmarks manager, edit any existing bookmark by right click --> edit)
+Setting the following as a "bookmark" seems to help (chrome: bookmarks manager, edit any existing bookmark by right click --> edit)
 
 Name: “Switch to Editable GitBook page” (or whatever)
 
