@@ -115,7 +115,7 @@ So why haven't academia and the research community been able to move to somethin
 This GitBook serves as a platform to organize our ideas and resources and track our progress towards The Unjournal's dual objectives:
 
 1. Making ‘peer evaluation and rating’ of open projects into a standard 'high status' outcome in academia and research, specifically within economics and social sciences. This stands in contrast to the conventional binary choice of accepting or rejecting papers to be published as PDFs and other static formats.
-2. Building a cohesive and efficient system for publishing, accruing credibility, and eliciting feedback for research aligned with effective altruism and global priorities. **Our ultimate aim is to \_make rigorous research more impactful, and impactful research more rigorous.**\_
+2. Building a cohesive and efficient system for publishing, accruing credibility, and eliciting feedback for research aligned with effective altruism and global priorities. **Our ultimate aim is to **_**make rigorous research more impactful, and impactful research more rigorous**_**.**
 
 <details>
 
