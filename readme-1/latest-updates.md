@@ -16,7 +16,7 @@ With the completed set of evaluations of ["Do Celebrity Endorsements Matter? A T
 
 You can see this output most concisely [in our PubPub collection here](https://unjournal.pubpub.org/evaluation-summary-and-metrics) (evaluations are listed as "supplements," at least for the time being).
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 For a continuously updated overview of our process, including our evaluation metrics, see our "data journalism" notebook [hosted here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data\_analysis.html#basic-presentation).&#x20;
 

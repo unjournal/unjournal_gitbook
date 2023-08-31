@@ -44,7 +44,7 @@
     * ['Direct evaluation' track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)
   * [Evaluation](policies-projects-evaluation-workflow/evaluation/README.md)
     * [Guidelines for evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/README.md)
-      * [Why these guidelines?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md)
+      * [Why these guidelines/metrics?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md)
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)
       * [Proposed curating robustness replication](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/proposed-curating-robustness-replication.md)
     * [Why pay evaluators (reviewers)?](policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md)
