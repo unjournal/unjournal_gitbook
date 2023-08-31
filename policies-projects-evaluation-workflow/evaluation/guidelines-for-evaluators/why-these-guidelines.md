@@ -42,7 +42,7 @@ As a side benefit, this may be interesting for research [in and of itself](#user
 
 The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate\_your\_judgment.html) from Clearer Thinking is fairly helpful and fun for practicing and checking how good you are at expressing your uncertainty.  It requires creating account, but that doesn't take long. The 'Confidence Intervals' training seems particularly relevant for our purposes. \
 \
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (14).png>)
 
 </details>
 
