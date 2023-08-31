@@ -2,7 +2,7 @@
 
 ## **Management Committee Members**
 
-Activities of those on the Mangement Committee may involve a combination of the following (although you can choose your focus):
+Activities of those on the Management Committee may involve a combination of the following (although you can choose your focus):
 
 * Contributing to the decision-making process regarding research focus, reviewer assignment, and prize distribution.
 * Keeping track of new or under-considered research with potential for impact in your area of interest and expertise. Explain and assess its potential for _Unjournal_ evaluation.

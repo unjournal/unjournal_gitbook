@@ -24,6 +24,6 @@ If you have research—your own or others—that you would like us to assess, pl
 
 We are looking for both feedback on and involvement in the Unjournal project. Feel free to reach out at [theunjournal@gmail.com](mailto:theunjournal@gmail.com).
 
-_Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._\\
+_Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._
 
 [^1]: June 2023 update: We will be increasing these incentives.
