@@ -13,6 +13,10 @@ _Some quick points:_
 * It synchronizes through Git/Github, and you can push and pull ... but you can also select "edit" and "merge" and use it fairly WYSIWYG.
 * They have a good support team (try their chat/help button).
 
+{% hint style="info" %}
+Also consider our 'style guide' linked [here](https://docs.google.com/document/d/10aooH\_YCVX\_\_pXFqnY1l8Kn2\_DPX9wdHdR9AfImSuDs/edit?usp=sharing) (for this and other communications)
+{% endhint %}
+
 
 
 
