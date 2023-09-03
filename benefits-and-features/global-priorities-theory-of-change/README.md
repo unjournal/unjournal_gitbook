@@ -2,6 +2,8 @@
 
 See also [acx-ltff-grant-proposal-as-submitted-successfull](../../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention")
 
+{% embed url="https://github.com/unjournal/unjournal_gitbook/blob/main/unjournaltoc.mermaid" %}
+
 ```mermaid
 graph TD
 classDef Direct fill:#faefaf
