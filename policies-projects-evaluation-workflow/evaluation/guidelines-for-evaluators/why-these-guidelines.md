@@ -1,7 +1,7 @@
 # Why these guidelines/metrics?
 
 {% hint style="info" %}
-_31 Aug 2022:_ Our present approach is a 'working solution', involving some ad-hoc and intuitive choices. We are re-evaluating the metrics we are asking for as well as the interface and framing of this. We are gathering some discussion [in this linked Gdoc](https://docs.google.com/document/d/1QVA0sCvrcKZLKlXuEwJBHKTBKvtn1ml7adTD-2j\_X4g/edit), incorporating feedback from our pilot evaluators and authors, and consulting expertise, past practice, and other ongoing initiatives. We plan to consolidate that discussion and our consensus/conclusions/choices into the present (Gitbook) site. &#x20;
+_31 Aug 2023:_ Our present approach is a 'working solution', involving some ad-hoc and intuitive choices. We are re-evaluating the metrics we are asking for as well as the interface and framing of this. We are gathering some discussion [in this linked Gdoc](https://docs.google.com/document/d/1QVA0sCvrcKZLKlXuEwJBHKTBKvtn1ml7adTD-2j\_X4g/edit), incorporating feedback from our pilot evaluators and authors, and consulting expertise, past practice, and other ongoing initiatives. We plan to consolidate that discussion and our consensus/conclusions/choices into the present (Gitbook) site. &#x20;
 {% endhint %}
 
 ## **Why numerical ratings?**
