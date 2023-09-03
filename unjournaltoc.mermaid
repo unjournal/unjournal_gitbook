@@ -1,0 +1,37 @@
+graph TD
+classDef Direct fill:#faefaf
+classDef Multi fill:#bdf2c9
+classDef Integrate fill:#99bdf0
+classDef Systemic fill:#f0b6c4
+
+A0["UJ tools, incentives, <br/> platforms, emphasis"]:::Multi --enable-->  A["More efficient <br/> rsch. feedback/eval."]:::Multi 
+A0 --"we will"--- FocusEA["Focus on impactful <br/> rsch."]:::Direct --> EAR
+A --> EAR["+ evaluation of <br/> EA-aligned rsch."]:::Direct 
+EAR --> EARig["+ Rigor of EA-aligned <br/> rsch."]:::Direct 
+EARig --> A1["Impactful research <br/> improved"]:::Multi 
+
+EAR["+ Eval. of EA-aligned <br/> research"]:::Direct --- OF["+ 'Open science'"]:::Direct --> EARO["More replicable, <br/> reliable"]:::Direct --> A1
+A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["+ Acad. focus <br/> on global priorities"]:::Integrate 
+PayAcad:::Integrate  --> A1["Impactful rsch. <br/> improved"]:::Multi 
+EARig --"Stronger work"--> AcadAware
+
+A  --> D["UJ Attractive <br/> to researchers"]
+A --> A1:::Multi 
+A --> A2["Decisionmakers better <br/> informed"]
+A0 --"Building"--> B["Reliable predictors of <br/> rsch. 'success'"]:::Systemic --> B2["UJ-style Eval. replaces <br/> Trad. journals"]:::Systemic 
+B["Reliable predictors of <br/> rsch. 'success'"] --> A2
+
+D["UJ Attractive <br/> to researchers"]:::Systemic --> B2
+B1["UJ attractive <br/> to gatekeepers"]:::Systemic --> D["UJ Attractive <br/> to researchers"]
+D --> D1 --> A1:::Multi 
+B["Reliable predictors of <br/> rsch. 'success'"] --> B1["UJ attractive <br/> to gatekeepers"] --> B2 
+B2["UJ Eval. replaces <br/> Trad. journals"] --> B3["Rsch. eval. more efficient"]:::Systemic 
+B3 --> RSXreliable["Acad. rsch. more useful/ <br/> reliable"]:::Systemic
+
+RSXreliable --"Some of which is impactful"--> A1 
+B2 --> B4["Open access"]:::Systemic 
+B4 --> A2["Decisionmakers better <br/> informed"]
+A1:::Multi  --> A2:::Direct
+A0 --"Incentivize and value"--> B6["Readable formats"]:::Systemic --> A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Multi --> O["+ Survival & flourishing"]:::Multi 
+B6["Replicable, transparent, <br/> readable rsch."]:::Systemic --> RSXreliable
+B2-...-B6
