@@ -41,7 +41,7 @@
 * [Our policies: evaluation & workflow](policies-projects-evaluation-workflow/README.md)
   * [Project selection and evaluation](policies-projects-evaluation-workflow/considering-projects/README.md)
     * [What research to target?](policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md)
-    * ['Direct evaluation' track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)
+    * ["Direct evaluation" track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)
   * [Evaluation](policies-projects-evaluation-workflow/evaluation/README.md)
     * [Guidelines for evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/README.md)
       * [Why these guidelines/metrics?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md)
