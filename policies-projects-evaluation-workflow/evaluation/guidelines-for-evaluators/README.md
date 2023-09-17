@@ -9,8 +9,16 @@ You will be given a (minimum) $400 honorarium for providing an on-time[^1] and c
 
 You will also be eligible for financial 'most useful and informative evaluation' prizes and other bonuses.\
 \
-See the guidelines below. You can submit your response in [this form](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit) ([Google Doc](#user-content-fn-2)[^2])**,** and share it back with us. _Click_ [_HERE_](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) _to directly make a new copy of this form. Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._
+See the guidelines below. You can submit your response in a [Google Doc](#user-content-fn-2)[^2]**,** and share it back with us. _Click_ [_HERE_](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) _to directly make a new copy of this form. Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._
 {% endhint %}
+
+<details>
+
+<summary>Managers/commenters</summary>
+
+The template Google Doc itself can [be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3) -- it is publicly shared and we have enabled comment access.
+
+</details>
 
 _If you wish, you can download the current page as a pdf_ [_HERE_](https://www.dropbox.com/s/jzxz11gmkrh8lbn/evaluations\_as\_pdf.pdf?dl=0)_, with all folded boxes open. (updated_ 20 Mar 2023)
 
