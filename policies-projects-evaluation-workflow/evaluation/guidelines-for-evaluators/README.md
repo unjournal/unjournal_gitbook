@@ -16,7 +16,7 @@ See the guidelines below. You can submit your response in a [Google Doc](#user-c
 
 <summary>Managers/commenters</summary>
 
-The template Google Doc itself can [be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3) -- it is publicly shared and we have enabled comment access.
+The template Google Doc itself can [be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3) -- please request access permission.
 
 </details>
 
