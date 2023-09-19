@@ -18,7 +18,7 @@ The template Google Doc itself can [be accessed here](https://docs.google.com/do
 
 </details>
 
-_If you wish, you can download the current page as a pdf_ [_HERE_](https://www.dropbox.com/s/jzxz11gmkrh8lbn/evaluations\_as\_pdf.pdf?dl=0)_, with all folded boxes open. (updated_ 20 Mar 2023) &#x20;
+_If you wish, you can download the current page as a pdf_ [_HERE_](https://www.dropbox.com/s/jzxz11gmkrh8lbn/evaluations\_as\_pdf.pdf?dl=0)_, with all folded boxes open. (updated_ 20 Mar 2023).
 
 <details>
 
@@ -35,13 +35,13 @@ See: [#submitting-and-paying-expenses-claims](../../../management-tech-details-d
 {% hint style="warning" %}
 _**How and why did we decide on these guidelines?**_
 
-See [here](why-these-guidelines.md) for the discussion. We aim to revise the guidelines and template in light of our pilot feedback.
+Discussion [here](why-these-guidelines.md). We will revise the guidelines/template in light of pilot feedback.
 {% endhint %}
 
 ## What we would like you to do
 
 1. _**Write a review:**_ a ‘standard high-quality referee report’, with some [specific considerations](#user-content-fn-4)[^4].
-2. [_**Give quantitative metrics and predictions** as requested in the_ _two tables below_, as appropriate.](#user-content-fn-5)[^5]
+2. [_**Give quantitative metrics and predictions** as requested in the two tables below_.](#user-content-fn-5)[^5]
 3. _Answer a short questionnaire about your background and our processes._
 
 
@@ -76,24 +76,22 @@ Unless you were advised otherwise, it will be given a DOI, and hopefully it will
 
 _If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it._&#x20;
 
-_Note that we want you to evaluate the most recent and relevant version of the paper/project that exists at the time of your evaluation. If you see a more recent version than the one we shared with you, please let us know._&#x20;
+_We want you to evaluate the most recent/relevant version of the paper/project that you can access. If you see a more recent version than the one we shared with you, please let us know._&#x20;
 
 <details>
 
 <summary>Publishing and signing reviews: considerations/exceptions</summary>
 
-We are considering the best policy towards signed reviews vs. single-blind reports; for now we give evaluators the option to choose. We may change this policy in the future. We are also considering the best 'single blind vs signed reviews' policies going forward. We may also make some exceptions to the public evaluations policy in the future; reviewers will be informed in advance.
+We are considering the best policy towards signed reviews vs. single-blind reports; for now we give evaluators the option to choose. We may change this policy in the future.&#x20;
 
-* We may give early-career researchers the right to veto the publication of very negative reviews, or to embargo the release of these reviews for a defined period. We will inform you in advance if this will be the case for your evaluation.
+We may give early-career researchers the right to veto the publication of very negative reviews, or to embargo the release of these reviews for a defined period. We will inform you in advance if this will be the case for your evaluation.
 
-<!---->
-
-* You can reserve some ‘sensitive’ content in your report to be shared with only the Unjournal management or only the authors, but we hope to keep this limited.
+You can reserve some ‘sensitive’ content in your report to be shared with only the Unjournal management or only the authors, but we hope to keep this limited.
 
 </details>
 
 {% hint style="info" %}
-_Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our evaluation priorities. You may want to look at these metrics _before_ writing your review, and then return to them afterwards.
+_Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your review.
 {% endhint %}
 
 
@@ -108,11 +106,13 @@ Essentially, we want you to put an equal value on:
 
 _We provide a more detailed discussion of what this means and why, and how it relates to out impact and 'theory of change'_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
 
-### A **‘standard high-quality referee report'**
 
-We are generally asking for a ‘standard high-quality referee report’ here; the sort of report an academic [would write for a traditional high-prestige journal](#user-content-fn-6)[^6]. We are asking for this, subject to some differences in priorities, which we discuss below, and subject to any particular requests the managing editor may communicate to you.
 
-**Length and time spent:** This is up to you. We welcome detail, elaboration, and technical discussion.
+### A "**standard high-quality referee report"**
+
+We are generally asking for the sort of report an academic [would write for a traditional high-prestige journal](#user-content-fn-6)[^6]. We are asking for this, subject to some differences in priorities (discussed below) and subject to any particular requests the managing editor may communicate to you.
+
+**Length/time spent:** This is up to you. We welcome detail, elaboration, and technical discussion.
 
 <details>
 
@@ -128,9 +128,7 @@ We are generally asking for a ‘standard high-quality referee report’ here; t
 
 _Our general priorities_ are embodied in the quantitative metrics below. We believe these are similar, but not identical, to criteria used by the ‘top journals’ in economics and adjacent fields.
 
-{% hint style="info" %}
-_Below:_ a ['completed example'.](#user-content-fn-7)[^7] We will give evaluators a concise survey form with everything they need to fill out.
-{% endhint %}
+_Below:_ a ['completed example'](#user-content-fn-7)[^7].&#x20;
 
 <table><thead><tr><th width="262">Category (importance)</th><th width="112" align="center">Sugg. Wgt.*</th><th width="107" data-type="number">Rating (0-100)</th><th width="115" align="center">90% CI</th><th data-type="rating" data-max="5">Confidence (alternative to CI)</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td align="center"></td><td>44</td><td align="center">39, 52</td><td>4</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td align="center">5</td><td>50</td><td align="center">47, 54</td><td>5</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td align="center">5</td><td>51</td><td align="center"><em>45, 55</em></td><td>4</td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td align="center">4</td><td>20</td><td align="center"><em>10, 35</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td align="center">3</td><td>60</td><td align="center"><em>40, 70</em></td><td>2</td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td align="center">2</td><td>35</td><td align="center"><em>30,46</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td align="center">0**</td><td>30</td><td align="center">21,65</td><td>1</td><td></td></tr></tbody></table>
 
@@ -645,7 +643,7 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^6]: Here, I am thinking of the process in economics, the field I am most familiar with. See [#writing-referee-reports-resources-and-benchmarks](./#writing-referee-reports-resources-and-benchmarks "mention")for general guidelines.
 
-[^7]: In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance in the subsections below.
+[^7]: Evaluators are given specific forms to fill out. In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance in the subsections below. &#x20;
 
 [^8]: We give "suggested weights" as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment.
 
