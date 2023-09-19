@@ -104,7 +104,7 @@ Essentially, we want you to put an equal value on:
 * Making them meaningful for 'assessing academics' (as a measure of value to consider against the current 'journal tier' system)
 * Communicating useful feedback to researchers, to help them improve their work
 
-_We provide a more detailed discussion of what this means and why, and how it relates to out impact and 'theory of change'_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
+_We provide a more detailed discussion of what this means and why, and how it relates to out impact and 'theory of change'_ [_here_](../../../faq-interaction/referees-evaluators.md#what-value-do-these-evaluations-provide-and-how-should-evaluators-think-about-this-who-is-the-audien)_._
 
 
 

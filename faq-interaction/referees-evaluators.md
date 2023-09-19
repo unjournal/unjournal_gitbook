@@ -77,7 +77,7 @@ For either track, authors are invited to be involved in several ways:
 * Evaluators can be put in touch with authors (anonymously) for clarification questions.
 * Authors are given a two-week window to respond to the evaluations (this response is published as well) before the evaluations are made public. They can also respond on our platform _after_ the evaluations are released.
 
-### The value of the evaulations
+### The value of the evaluations
 
 #### _Can I share this evaluation? What else can I do with it?_
 
