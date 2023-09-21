@@ -32,10 +32,10 @@ See: [#submitting-and-paying-expenses-claims](../../../management-tech-details-d
 
 </details>
 
-{% hint style="warning" %}
+{% hint style="info" %}
 _**How and why did we decide on these guidelines?**_
 
-Discussion [here](why-these-guidelines.md). We will revise the guidelines/template in light of pilot feedback.
+Discussion [here](why-these-guidelines.md). We will revise the guidelines/template in light of pilot feedback.&#x20;
 {% endhint %}
 
 ## What we would like you to do
