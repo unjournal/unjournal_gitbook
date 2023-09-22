@@ -5,7 +5,8 @@ _**Thanks for your interest in evaluating research for the Unjournal!**_
 
 Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to 'sign your review' and take credit.
 
-You will be given a (minimum) $400 honorarium for providing an on-time[^1] and complete evaluation and feedback. (Updated 14 July 2023). You will also be eligible for [financial 'most useful and informative evaluation' prizes and other bonuses.](#user-content-fn-2)[^2]\
+You will be given a (minimum) $400 honorarium for providing an on-time[^1] and complete evaluation and feedback. (Updated 14 July 2023). You will also be eligible for [financial 'most useful and informative evaluation' prizes and other bonuses.](#user-content-fn-2)[^2]
+
 \
 See the guidelines below. You can submit your response in a [Google Doc](#user-content-fn-3)[^3]**,** and share it back with us. _Click_ [_HERE_](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) _to directly make a new copy of this form. Data protection statement linked_ [_HERE_](https://bit.ly/46y0LqH)_._
 {% endhint %}
@@ -54,7 +55,7 @@ Discussion [here](why-these-guidelines.md). We will revise the guidelines/templa
 
 <summary>Specific requests for focus/feedback</summary>
 
-Please pay attention to anything our managers/editors specifically asked you to focus on. We may ask you to focus on specific areas of expertise; you do not need to address all aspects of the work. We may also forward specific feedback requests from authors.
+Please pay attention to anything our managers/editors specifically asked you to focus on. We may ask you to focus on specific areas of expertise; you don't need to address all aspects of the work. We may also forward specific feedback requests from authors.
 
 </details>
 
@@ -82,7 +83,7 @@ _We want you to evaluate the most recent/relevant version of the paper/project t
 
 <summary>Publishing and signing reviews: considerations/exceptions</summary>
 
-We are considering the best policy towards signed reviews vs. single-blind reports; for now we give evaluators the option to choose. We may change this policy in the future.&#x20;
+We are considering the best policy towards signed reviews vs. single-blind reports; for now we give evaluators the option to choose, and you can wait to choose until _after_ you have completed the rport. We may change this policy in the future.&#x20;
 
 We may give early-career researchers the right to veto the publication of very negative reviews, or to embargo the release of these reviews for a defined period. We will inform you in advance if this will be the case for your evaluation.
 
@@ -91,10 +92,8 @@ You can reserve some ‘sensitive’ content in your report to be shared with on
 </details>
 
 {% hint style="info" %}
-_Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your review.
+_Suggestion to evaluators:_ The [#category-metrics](./#category-metrics "mention") and[#overall-metrics-holistic-assessment](./#overall-metrics-holistic-assessment "mention") outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. (However, we are not asking you to _structure_ your evaluation according to these metrics.)
 {% endhint %}
-
-
 
 ### **Who is the audience, what value are you providing with this evaluation, and how to prioritize feedback?**
 
@@ -104,7 +103,7 @@ Essentially, we want you to put an equal value on:
 * Making them meaningful for 'assessing academics' (as a measure of value to consider against the current 'journal tier' system)
 * Communicating useful feedback to researchers, to help them improve their work
 
-_We provide a more detailed discussion of what this means and why, and how it relates to out impact and 'theory of change'_ [_here_](../../../faq-interaction/referees-evaluators.md#what-value-do-these-evaluations-provide-and-how-should-evaluators-think-about-this-who-is-the-audien)_._
+_We provide a more detailed discussion of what this means and why, and how it relates to our impact and 'theory of change'_ [_here_](../../../faq-interaction/referees-evaluators.md#what-value-do-these-evaluations-provide-and-how-should-evaluators-think-about-this-who-is-the-audien)_._
 
 
 
@@ -118,7 +117,7 @@ We are generally asking for the sort of report an academic [would write for a tr
 
 <summary>Length and time: possible benchmarks</summary>
 
-[The Econometrics society](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees) recommends a 2-3 page referee report; [Berk et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231) suggest this is relatively short but that brevity is desirable. [In a recent survey (Charness et al, 2022)](https://evalresearch.weebly.com/report---full-text.html), economists report spending (median and mean) about one day per report, with substantial shares reporting ‘half a day’ and ‘two days’. We expect that reviewers tend spend more time on papers for high-status journals, and when reviewing work closely tied to their own agenda.
+[The Econometrics society](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees) recommends a 2-3 page referee report; [Berk et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231) suggest this is relatively short but that brevity is desirable. [In a recent survey (Charness et al, 2022)](https://evalresearch.weebly.com/report---full-text.html), economists report spending (median and mean) about one day per report, with substantial shares reporting ‘half a day’ and ‘two days’. We expect that reviewers tend to spend more time on papers for high-status journals, and when reviewing work closely tied to their own agenda.
 
 </details>
 
@@ -637,7 +636,8 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^3]: We are using a Google Doc for now, we hope to move to asking the PubPub  interface soon. But we will still be flexible to let you link or upload your descriptive free-form evaluation in whatever form you prefer.           &#x20;
 
-[^4]: These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions and guidelines for specific research.
+[^4]: These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions and guidelines for specific research.      \
+
 
 [^5]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
