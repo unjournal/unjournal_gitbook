@@ -35,7 +35,7 @@
     * [Multiple dimensions of feedback](benefits-and-features/more-reliable-and-useful-evaluation/multiple-dimensions-of-meaningful-feedback.md)
 * [Frequently Asked Questions (FAQ)](faq-interaction/README.md)
   * [For researchers and authors](faq-interaction/for-researchers-authors/README.md)
-    * ["Your paper is being (has been) evaluated by The Unjournal"](faq-interaction/for-researchers-authors/your-paper-is-being-has-been-evaluated-by-the-unjournal.md)
+    * [Once your research is in our hands](faq-interaction/for-researchers-authors/once-your-research-is-in-our-hands.md)
   * [Evaluation (refereeing)](faq-interaction/referees-evaluators.md)
   * [Considering global priorities](faq-interaction/global-priorities.md)
 * [Our policies: evaluation & workflow](policies-projects-evaluation-workflow/README.md)
