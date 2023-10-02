@@ -51,7 +51,7 @@
     * [Protecting anonymity](policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md)
   * [Mapping evaluation workflow](policies-projects-evaluation-workflow/mapping-evaluation-workflow.md)
   * [Communicating results](policies-projects-evaluation-workflow/communicating-results.md)
-* [What is global priorities relevant research?](the-field-and-ea-gp-research.md)
+* [What is global-priorities-relevant research?](the-field-and-ea-gp-research.md)
 * [Action and progress](action-and-progress/README.md)
   * [Pilot steps](action-and-progress/pilot-steps/README.md)
     * [Pilot: Building founding committee](action-and-progress/pilot-steps/action-build-founding-committee.md)
