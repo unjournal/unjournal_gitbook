@@ -1,10 +1,10 @@
 # Pilot: Identifying key research
 
-([_Note for the management team_](#user-content-fn-1)[^1]_)_
+([_Note for the Management Team_](#user-content-fn-1)[^1]_)_
 
-## Test-case research for Proof of Concept
+## Test-case research for proof of concept
 
-I\_**dentify a small set of papers or projects as representative first-cases; to concretely help test the system we are building.**\_
+**Identify a small set of papers or projects as representative first-cases; use to help test the system we are building in a concrete manner.**
 
 {% hint style="info" %}
 _In doing the above, we are also collecting a longer list of key papers, projects, authors, topics, issues, etc._
@@ -12,7 +12,7 @@ _In doing the above, we are also collecting a longer list of key papers, project
 
 ## Steps taken
 
-1. **Posts on EA Forum** (and other places)**,** [_and form_](https://airtable.com/shrdHHI0zK7rkJCP3) _(see view at bottom of this section); promoting further, with bounty._
+1. **Posts on EA Forum** (and other places) [_and form_](https://airtable.com/shrdHHI0zK7rkJCP3) _(see view at bottom of this section) promoting our call for papers further, with bounty._
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
@@ -20,16 +20,16 @@ _In doing the above, we are also collecting a longer list of key papers, project
 
 2\. **Search for most-cited papers** (within our domain) among EA-aligned researchers and organizations
 
-**3. Dig into existing lists, reviews, syllabi such as:**
+3\. **Dig into existing lists, reviews, and syllabi, such as:**
 
 * GPI [research agenda](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues) (includes many posed questions)
 * Open Philanthropy[ "questions that might affect our grantmaking"](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking) (needs updating? few academic links)
 * [The EA Behavioral Science Newsletter](https://preview.mailerlite.com/m9i6r0j7h9)
-* Syllabi: [Pablo's lis](http://www.stafforini.com/blog/effective-altruism-syllabi/)t, [Economics focus](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples) list, David Rhys-Bernard's syllabus ([link to my commented/highlighted version)](https://docs.google.com/document/d/1LeHrhhAcSWGQze6nSeaA9eNIXoG2vqPKM6-PrHognR0/edit)
+* Syllabi: [Pablo's lis](http://www.stafforini.com/blog/effective-altruism-syllabi/)t; [Economics focus](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples) list; David Rhys-Bernard's syllabus ([link to my commented/highlighted version)](https://docs.google.com/document/d/1LeHrhhAcSWGQze6nSeaA9eNIXoG2vqPKM6-PrHognR0/edit)
 
 <details>
 
-<summary>Consider: <strong>'Mistakes' pages?</strong></summary>
+<summary>Consider: <strong>"Mistakes" pages?</strong></summary>
 
 * [Givewell](https://www.givewell.org/about/our-mistakes) (mainly _operational mistakes)_
 
@@ -37,7 +37,7 @@ _In doing the above, we are also collecting a longer list of key papers, project
 
 * [ACX/Scott Alexander](https://astralcodexten.substack.com/p/mistakes?s=r)
 
-Not very relevant (because mainly operational)
+Not very relevant (because focused on operational issues)
 
 </details>
 
@@ -51,8 +51,8 @@ Not very relevant (because mainly operational)
 
 [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention")
 
-1. _Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus I aim to identify a small set of papers (or projects), maybe 2-3, that seem like good test and example cases. Offer a ‘bounty’ for 'which projects do we choose as test cases'.
-2. Note that much of the work identified here has already been peer-reviewed and 'published'. While we envision that the Unjournal may assess papers _already published in traditional journals_, these are probably not the best case for the PoC. Thus we de-prioritize these for now.
+1. _Pete Slattery:_ "Do a complete test run using a single paper and team…" Thus, we aim to identify a small set of papers (or projects), maybe 2–3, that seem like good test and example cases, and offer a bounty for projects we choose as test cases.
+2. Note that much of the work identified here has already been peer-reviewed and "published." While we envision that _The Unjournal_ may assess papers that are _already published in traditional journals_, these are probably not the best case for the PoC. Thus, we de-prioritize these for now.
 
 [^1]: See also
 
