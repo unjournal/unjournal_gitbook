@@ -56,6 +56,6 @@ Not very relevant (because focused on operational issues)
 
 [^1]: See also
 
-    * list of papers under consideration in private Airtable base `EA_unjournal_resources`, `crucial_research` table,
-    * Linked discussion in [this Gdoc](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit#heading=h.b6n4xb3q8q3c)
+    * list of papers under consideration in private Airtable base `EA_unjournal_resources`, `crucial_research` table
+    * linked discussion in [this Gdoc](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit#heading=h.b6n4xb3q8q3c)
     * and [this slack channel](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)

@@ -54,7 +54,7 @@
 * [What is global-priorities-relevant research?](the-field-and-ea-gp-research.md)
 * [Action and progress](action-and-progress/README.md)
   * [Pilot steps](action-and-progress/pilot-steps/README.md)
-    * [Pilot: Building founding committee](action-and-progress/pilot-steps/action-build-founding-committee.md)
+    * [Pilot: Building a founding committee](action-and-progress/pilot-steps/action-build-founding-committee.md)
     * [Pilot: Identifying key research](action-and-progress/pilot-steps/action-identify-pilot-key-projects-papers.md)
     * [Pilot: Setting up platforms](action-and-progress/pilot-steps/action-set-up-platforms.md)
     * [Setting up evaluation guidelines for pilot papers](action-and-progress/pilot-steps/evaluation-referee-guidelines-for-pilot-papers.md)
