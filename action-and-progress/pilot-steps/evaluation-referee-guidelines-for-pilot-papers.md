@@ -4,4 +4,4 @@
 
 See: [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
 
-... including descriptive and quantitative (rating and prediction elements). With feedback from evaluators and others, we are continuing to build and improve this.\
+... including descriptive and quantitative (rating and prediction elements). With feedback from evaluators and others, we are continuing to build and improve these guidelines.
