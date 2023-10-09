@@ -12,13 +12,13 @@ _In doing the above, we are also collecting a longer list of key papers, project
 
 ## Steps taken
 
-1. **Posts on EA Forum** (and other places) [_and form_](https://airtable.com/shrdHHI0zK7rkJCP3) _(see view at bottom of this section) promoting our call for papers further, with bounty._
+1. **Post on EA Forum** (and other places) and present[ form](https://airtable.com/shrdHHI0zK7rkJCP3) (see view at bottom of this section) promoting our call for papers further, with bounty.
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
 
 [_**Rules for bounty HERE**_](https://docs.google.com/document/d/17Z4ENov9BYvbvrtFju1X5d8-mD0vCdyagSPd9ArSC2Y/edit)
 
-2\. **Search for most-cited papers** (within our domain) among EA-aligned researchers and organizations
+2\. **Search for most-cited papers** (within our domain) among EA-aligned researchers and organizations.
 
 3\. **Dig into existing lists, reviews, and syllabi, such as:**
 
@@ -37,7 +37,7 @@ _In doing the above, we are also collecting a longer list of key papers, project
 
 * [ACX/Scott Alexander](https://astralcodexten.substack.com/p/mistakes?s=r)
 
-Not very relevant (because focused on operational issues)
+Not very relevant because focused on operational issues
 
 </details>
 
@@ -45,7 +45,7 @@ Not very relevant (because focused on operational issues)
 
 {% embed url="https://airtable.com/shrdHHI0zK7rkJCP3" %}
 
-6\. Cross-promoted with [call-for-participants-research](../../readme-1/call-for-participants-research/ "mention")
+6\. **Cross-promote** with [call-for-participants-research](../../readme-1/call-for-participants-research/ "mention")
 
 ## Pivot: direct focus on NBER working papers
 
@@ -56,6 +56,6 @@ Not very relevant (because focused on operational issues)
 
 [^1]: See also
 
-    * list of papers under consideration in private Airtable base `EA_unjournal_resources`, `crucial_research` table
-    * linked discussion in [this Gdoc](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit#heading=h.b6n4xb3q8q3c)
+    * list of papers under consideration in private Airtable base `EA_unjournal_resources`, `crucial_research` table,
+    * Linked discussion in [this Gdoc](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit#heading=h.b6n4xb3q8q3c)
     * and [this slack channel](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)
