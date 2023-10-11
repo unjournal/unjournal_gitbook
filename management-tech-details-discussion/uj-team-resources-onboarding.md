@@ -57,7 +57,16 @@ _**Read:**_ [**Unjournal Airtable Guide**](https://docs.google.com/document/d/1G
 _**Watch:**_ [**Unjournal Airtable Overview**](https://www.dropbox.com/s/1k9j2w82qshgp9m/unjournal\_airtable\_overview.mp4?dl=0) (Dropbox: internal access only)
 {% endhint %}
 
-### GitBook (edit access optional)
+{% hint style="info" %}
+**11 Oct 2023 partial update:**
+
+* Divided the airtable into two airtables, one focusing on research and evaluation, and the other focusing on everything else
+* We're moving task management to **ClickUp** (nearly set up, onboarding soon)\_
+* Much of the evaluation management process will be moved to PubPub (coming soon, we hope)
+* ClickUp may also be used for much of the internal knowledge base content, including much of the present "Management details" Gitbook section.&#x20;
+{% endhint %}
+
+### **GitBo**ok (edit access optional)
 
 See [tech-scoping.md](../tech-tools-and-resources/tech-scoping.md "mention")
 
