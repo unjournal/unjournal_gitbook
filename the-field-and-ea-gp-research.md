@@ -96,6 +96,8 @@ Open Philanthropy (OP): [“Technical and Philosophical Questions That Might Aff
 
 [UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic: <img src=".gitbook/assets/image (10).png" alt="" data-size="line">
 
+[Centre for Exploratory Altruism Research:](https://exploratory-altruism.org/) Their "[Findings](https://exploratory-altruism.org/research-findings/)" page considering relative cost-effectiveness; generally a shallow review/BOTEC spreadsheet approach. "CEARCH attempts to identify a cause’s _marginal expected value (MEV)_."&#x20;
+
 </details>
 
 ## **General advice**
