@@ -69,6 +69,7 @@
     * [Clearer thinking FTX regranting (Unsuccessful)](grants-and-proposals/unsuccessful-applications/clearer-thinking-ftx-regranting-unsuccessful.md)
     * [FTX Future Fund (for further funding; unsuccessful)](grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md)
     * [Sloan](grants-and-proposals/unsuccessful-applications/applications-in-progress-and-planning.md)
+  * [Page 1](grants-and-proposals/page-1.md)
 * [Parallel/partner initiatives and resources](parallel-partner-initiatives-and-resources/README.md)
   * [eLife](parallel-partner-initiatives-and-resources/elife-comparison-coming-soon.md)
   * [Peer Communities In](parallel-partner-initiatives-and-resources/peer-communities-in.md)
