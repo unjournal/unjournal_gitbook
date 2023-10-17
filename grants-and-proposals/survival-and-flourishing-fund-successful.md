@@ -1,4 +1,8 @@
-# Survival and Flourishing Fund (Successful)
+---
+description: The application is presented here verbatim.
+---
+
+# Survival and Flourishing Fund (successful)
 
 ## SFF "long form template"
 

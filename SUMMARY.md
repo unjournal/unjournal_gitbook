@@ -61,7 +61,7 @@
     * ['Evaluators': Identifying and engaging](action-and-progress/pilot-steps/evaluators-reviewers-identify-contact-engage.md)
   * [Plan of action (cross-link)](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/readme-1/plan-of-action)
 * [Grants and proposals](grants-and-proposals/README.md)
-  * [Survival and Flourishing Fund (Successful)](grants-and-proposals/survival-and-flourishing-fund-successful.md)
+  * [Survival and Flourishing Fund (successful)](grants-and-proposals/survival-and-flourishing-fund-successful.md)
   * [ACX/LTFF grant proposal (as submitted, successful)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/README.md)
     * [Notes: post-grant plan and revisions](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/notes-post-grant-plan-and-revisions.md)
     * [(Linked proposals and comments - moved for now)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/linked-proposals-and-comments-moved-for-now.md)
