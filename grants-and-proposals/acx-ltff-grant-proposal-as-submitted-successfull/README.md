@@ -1,5 +1,7 @@
 ---
-description: Passed on to LTFF and funding was awarded
+description: >-
+  Passed on to LTFF and funding was awarded. The application is presented here
+  verbatim.
 ---
 
 # ACX/LTFF grant proposal (as submitted, successful)
@@ -295,4 +297,4 @@ My own forecast (I’ve done some calibration training, but these are somewhat o
 ### Anything else I should know?
 
 \
-\
+\\
