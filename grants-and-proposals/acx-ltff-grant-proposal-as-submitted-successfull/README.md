@@ -1,7 +1,5 @@
 ---
-description: >-
-  Passed on to LTFF and funding was awarded. The application is presented here
-  verbatim.
+description: Passed on to LTFF and funding was awarded
 ---
 
 # ACX/LTFF grant proposal (as submitted, successful)
@@ -198,7 +196,7 @@ Once this catches on…Universities will pay to support this; they will save mas
 
 \
 But we need to show a proof-of-concept and build credibility. The ACX grant funds can help make this happen.\
-\\
+
 
 ### Describe why you think you're qualified to work on this
 
@@ -229,7 +227,7 @@ I have had long 1-1 conversations on this idea with a range of knowledgable and 
 * Hamish Huggard (Data science, ‘literature maps’)
 * Yonatan Cale, who helped me put this proposal together through asking a range of challengin questions and offering his feedback. [https://il.linkedin.com/in/yonatancale](https://il.linkedin.com/in/yonatancale)
 
-\\
+
 
 ### Other ways I can learn about you
 
@@ -296,5 +294,3 @@ My own forecast (I’ve done some calibration training, but these are somewhat o
 
 ### Anything else I should know?
 
-\
-\\
