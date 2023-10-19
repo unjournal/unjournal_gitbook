@@ -4,7 +4,7 @@ These are principally not research roles, but familiarity with research and rese
 
 There are currently two such roles:
 
-[#h.4oteb50mm1z](administration-operations-and-management-roles.md#h.4oteb50mm1z "mention")_\*_&#x20;
+[#h.4oteb50mm1z](administration-operations-and-management-roles.md#h.4oteb50mm1z "mention")&#x20;
 
 [#h.htvmrldrqnhn](administration-operations-and-management-roles.md#h.htvmrldrqnhn "mention") (seeking freelancers)
 
@@ -71,8 +71,6 @@ The application process is likely to involve a paid work trial task; we may also
 ### Communications, Writing, and Public Relations Specialist <a href="#h.htvmrldrqnhn" id="h.htvmrldrqnhn"></a>
 
 _19 Oct 2023 update: this role is largely filled, but we are still soliciting applications for freelancers with skills in particular areas_&#x20;
-
-
 
 21 July 2023: The Unjournal is looking to work with a proficient writer who is adept at communicating with academics and researchers (particularly in economics, social science, and policy), journalists, policymakers, and philanthropists. As we are in our early stages, this is a generalist role. we need someone to help us explain what The Unjournal does and why, to help make our processes easy to understand, and ensure our outputs (evaluations and research synthesis) are accessible and useful to non-specialists. We seek someone who values honesty and accuracy in communication; someone who has a talent for simplifying complex ideas and presenting them in a clear and engaging way.
 
