@@ -74,7 +74,7 @@
   * [Peer Communities In](parallel-partner-initiatives-and-resources/peer-communities-in.md)
   * [Sciety](parallel-partner-initiatives-and-resources/sciety.md)
   * [Asterisk](parallel-partner-initiatives-and-resources/asterisk.md)
-  * [Related: EA/gp seminar series](parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md)
+  * [Related: EA/global priorities seminar series](parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md)
   * [EA and EA forum initiatives](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/README.md)
     * [EA forum peer reviewing (related)](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/ea-forum-peer-reviewing-related.md)
     * [Links to EA Forum/'EA journal'](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/links-to-ea-forum-ea-journal.md)
