@@ -2,7 +2,7 @@
 
 **Submit your work to be eligible for our “Unjournal: Impactful Research Prize” and a range of other benefits including the opportunity for credible public evaluation and feedback.**
 
-First prize: ~~$2000~~ --> $2500
+First prize: ~~$2000~~ --> $2500[^1]
 
 Second prize: $1000
 
@@ -42,3 +42,28 @@ Our management team and advisory board will vote on the prize winners in light o
 **Deadline:** ~~20 November~~ extended until 5 December (to ensure eligibility).
 
 _Note: In a subsection below,_ [_Recap: submissions_](recap-submissions.md)_, we outline the basic requirements for submissions to The Unjournal._
+
+
+
+### How we chose the research prize winners (2023)
+
+The prize winners for The Unjournal's Impactful Research Prize were selected through a multi-step, collaborative process involving both the management team and the advisory board. The selection was guided by several criteria, including the quality and credibility of the research, its potential for real-world impact, and the authors' engagement with The Unjournal's evaluation process.
+
+1. **Initial Evaluation**: All papers that were evaluated by The Unjournal were eligible for the prize. The discussion, evaluations, and ratings provided by external evaluators played a significant role in the initial shortlisting.&#x20;
+2. **Management and Advisory Board Input**: Members of the management committee and advisory board were encouraged to write brief statements about papers they found particularly prize-worthy.&#x20;
+3. **Meeting and Consensus**: A 'prize committee' meeting was held with four volunteers from the management committee to discuss the shortlisted papers and reach a consensus. The committee considered both the papers and the content of the evaluations [in detail.](#user-content-fn-2)[^2]  Members of the committee allocated a total of  of 100 points among the 10 paper candidates. We used this to narrow down a 'shortlist' of five papers.&#x20;
+4. **Point Voting**: The above shortlist and the notes from the accompanying discussion was shared with all management committee and advisory board members. Everyone in this larger group was invited to allocate up to 100 points among the shortlisted papers (and asked to allocate fewer points if they were less familiar with the papers and evaluations.)
+5. **Special Considerations**: We decided that at least one of the winners had to be a paper submitted by the authors or one where the authors substantially engaged with The Unjournal's processes. However, this constraint did not prove binding.  Early-career researchers were given a  slight advantage in our consideration.
+6. **Final Selection**: The first and second prizes were given to the papers with the first and second most points, respectively.
+
+This comprehensive approach aimed to ensure that the prize winners were selected in a manner that was rigorous, fair, and transparent, reflecting the values and goals of The Unjournal.
+
+\
+
+
+
+
+[^1]: The increased amount was made possible by a contribution from EAecon.&#x20;
+
+[^2]: While we relied strongly on the evaluator's ratings, we recognized that the evaluators may also have applied different standards and interpretations. We independently rewarded the authors' openness and engagement with The Unjournal. We further considered and independently checked some of the  methodological issues raised by the evaluators.&#x20;
+
