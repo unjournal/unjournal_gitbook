@@ -4,7 +4,9 @@
 
 The Unjournal was founded by [David Reinstein](https://davidreinstein.org) <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">, who maintains this wiki/GitBook and other resources.
 
-### [Management Committee](#user-content-fn-1)[^1]
+### Management Committee
+
+(Note[^1] on terminology)
 
 See description under [_roles_](../call-for-participants-research/#roles)_._
 
@@ -49,6 +51,34 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics (France)
 
 [Michael Wiebe](https://michaelwiebe.com/), Data Scientist, Economist Consultant; PhD University of British Columbia (Economics)
+
+## Field Specialists
+
+The table below shows _all_ the members of our team (including field specialists) taking on a research-monitoring role (see [here](../organizational-roles-and-responsibilities.md#field-specialists-fs) for a description of this role).
+
+{% embed url="https://airtable.com/applDG6ifmUmeEJ7j/shrFwsCw7qpg8m0Ua" %}
+
+## Staff, contractors, and consultants
+
+[Julia Bottesini](http://127.0.0.1:5000/s/scEoiIiYYQByE1FaibWQ/tools-and-examples/cole\_haus-modeling), Research Specialist: Data science, metascience, aggregation of expert judgment
+
+[Jordan Pieters](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true\&heroEntityKey=urn%3Ali%3Afsd\_profile%3AACoAAC8F6\_QBDzDncXc8sedfDTnbux1rlhcRsU8\&keywords=jordan%20pieters\&origin=RICH\_QUERY\_SUGGESTION\&position=0\&searchId=54d727f6-c121-4404-aa85-30bc2b974c74\&sid=qFJ\&spellCorrectionEnabled=false), Operations generalist
+
+[Kynan Behan](https://www.linkedin.com/in/kynan-behan-b36b8a217/), Generalist assistance
+
+[Laura Sofia-Castro](https://www.linkedin.com/in/laurasofia/), Communications (academic research/policy)
+
+[Adam Steinberg](https://www.linkedin.com/in/adam-steinberg1/), Communications and copy-editing&#x20;
+
+[Toby Weed](https://tobyweed.github.io/), Communications and consulting&#x20;
+
+[Nesim Sisa](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true\&heroEntityKey=urn%3Ali%3Afsd\_profile%3AACoAAAjbFsAB2AXvvtZTLLNn6rNFbxXbpo-AwTs\&keywords=nesim%20sisa\&origin=RICH\_QUERY\_SUGGESTION\&position=0\&searchId=9be224ea-9806-4316-9c3b-bdc511974fd2\&sid=v-d\&spellCorrectionEnabled=false), technical software support
+
+Red Bermejo, Mikee Mercado, Jenny Siers – consulting (through [Anti-Entropy](https://www.antientropy.org/)) on strategy, marketing, and task management tools
+
+We are a member of [Knowledge Futures](https://www.knowledgefutures.org/). They are working with us to update PubPub and incorporate new features (editorial management, evaluation tools, etc.) that will be particularly useful to The Unjournal and other members.
+
+
 
 ## Other people and initiatives we are in touch with
 
@@ -147,6 +177,6 @@ See also [List of people consulted](../../readme/discussion-team/broken-referenc
 
 ### [plan-of-action.md](../plan-of-action.md "mention")
 
-[^1]: June 2023: We are expanding this team. \\
+[^1]: June 2023: We are expanding this team.&#x20;
 
     This was previously listed as "Founding Committee", occasionally referred to as "Management Team" or "Founding Team". Referred to as "Managers" in the flowchart.
