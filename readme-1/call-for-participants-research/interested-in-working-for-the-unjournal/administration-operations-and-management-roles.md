@@ -20,51 +20,17 @@ _Further note: We previously considered a “Management support and administrati
 
 ### Operations and Administrative Lead (19 Oct 2023 -- high priority) <a href="#h.4oteb50mm1z" id="h.4oteb50mm1z"></a>
 
+The Unjournal is seeking an operations lead to help build and manage the organization alongside its founder and co-director [David Reinstein](https://www.davidreinstein.org/). This includes strategic, managerial, communications, and administrative work, & responsibility for 'keeping the pipeline running'. This is a great opportunity to gain experience building & growing an impactful organization with links to academia, Effective Altruism, open science, journalism, and policymaking.&#x20;
+
+
+
 19 Oct 2023 update: we are recruiting for this role with a high priority. This has the potential to also become a co-director role.
 
-\
-We are looking for an operations lead to help co-manage The Unjournal. This includes strategic, managerial, communications, and administrative work, and responsibility for 'keeping the pipeline running'. A great opportunity for the right person to gain experience building and growing an impactful organization with links to academia, effective altruism, open science, journalism, and policymaking.&#x20;
+See [Google doc for description here.](https://docs.google.com/document/d/1VedPxPiaL5S-ClPjgvw6PeaRIjTa1GWwSPjaS6LzpQM/edit?usp=sharing) Link to apply [here](https://airtable.com/appbPYEw9nURln7Qg/shroeCaOEtXNuspp5).
 
+{% embed url="https://docs.google.com/document/d/1VedPxPiaL5S-ClPjgvw6PeaRIjTa1GWwSPjaS6LzpQM/edit?usp=sharing" %}
 
-
-_Responsibilities may include:_
-
-* Record-keeping
-* Respond to external inquiries and assist in coordinating external and internal communications, with support from communications freelancers
-* Oversee and help administer hiring and contracting processes
-* Assist in the onboarding of contracted staff and team members in collaboration with Reinstein, convey tools and expectations, and organize compensation and potential benefits
-* Help manage the relationship with fiscal sponsor (OCF) and grant funder(s); assess opportunities and alternative structure
-* Manage resources, budgets, processes, and project management tools
-* Assist in organizing and managing events, workshops, and prizes
-* Research options for service and software providers
-* Help set up and configure software/SAAS tools and integrations (such as Airtable, ClickUp, Google Workspace, etc.)
-* Help manage our social media presence
-* Assist in light-touch monitoring of other contract staff
-* Monitor and help maintain our overall pipeline and progress
-* Provide some additional areas of direct support to directors and management team
-* Strategic and managerial guidance
-
-**Desirable skills and experience (tentative):**
-
-* Accounting, bookkeeping, and basic financial management
-* Experience with startups and small independent initiatives
-* Experience with (especially small to medium-sized) nonprofit organizations
-* Strong communication and organizational skills
-* Event organization
-* Familiarity with (and willingness to learn) a range of software tools surrounding project management, publishing, and document formats (e.g., Airtable/databases, CRM, Google suite/workspace ‘power use’, project ‘kanban board’ software, Github, and Gitbook)
-* Some familiarity with academia, economics/social science/business research environments, and academic publishing for these and other related fields and organizations.
-* Some familiarity with effective altruism and related topics and organizations
-
-**Proposed terms:**
-
-* 0.5 - 0.7 FTE over 16 months (potentially flexible)
-* … at perhaps $50,000–$95,000 USD pro-rata (equivalent to about $25–$45 hourly), depending on experience and skills
-* This role is contractual (without benefits), supporting remote and international applicants
-* Extensions, growth, and promotions are possible, depending on performance, fit, and our future funding
-
-The application process is likely to involve a paid work trial task; we may also commission ‘unsuccessful’ applicants for ad-hoc contract work in the future.
-
-[Express your interest here](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926473191\&usg=AOvVaw388wUH9VVv1Lv5AyWJ5l\_l).
+[Express your interest here.](https://airtable.com/appbPYEw9nURln7Qg/shroeCaOEtXNuspp5)
 
 
 
