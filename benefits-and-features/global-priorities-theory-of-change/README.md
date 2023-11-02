@@ -49,7 +49,7 @@ Highlighting some of the key paths:
 
     \
     This process will also nudge mainstream academics towards focusing on impact and global priorities, and towards making their research and outputs more accessible and useable.
-3. _The Unjournal_’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at "predicting publication outcomes," we will become a replacement for traditional processes, improving research overall—some of which will be highly impactful research.
+3. (Pink) _The Unjournal_’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at "predicting publication outcomes," we will become a replacement for traditional processes, improving research overall—some of which will be highly impactful research.
 
 ## Detailed explanations of key paths
 
