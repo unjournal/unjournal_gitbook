@@ -41,7 +41,7 @@ _As an Advisory Board member..._
 FSs will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact and explain and assess the extent to which _The Unjournal_ can add value by commissioning its evaluation. They will "curate" this research and may also serve as evaluation managers for this work.
 
 {% hint style="success" %}
-We expect most FSs will be on the Advisory Board, and vice versa. However, the Venn diagram is not a circle: some AB members may not have a relevant research focus, and some FSs may choose not to be listed on our Advisory Board.
+We expect most Advisory Board members will also be FSs, although some may not (e.g., because they don't have a relevant research focus).
 {% endhint %}
 
 **Time commitment**: There is no specific time obligation—only opportunities to engage. We may also consult you occasionally on your areas of expertise. Perhaps 1–4 hours a month is a reasonable starting expectation for people already involved in doing or using research, plus potential additional paid assignments.
