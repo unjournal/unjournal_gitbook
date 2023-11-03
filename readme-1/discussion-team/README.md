@@ -14,7 +14,6 @@ See description under [_roles_](../call-for-participants-research/#roles)_._
 * [Gavin Taylor](https://onscienceandacademia.org/t/gavin-taylor/356), Interdisciplinary Researcher at [IGDORE](https://igdore.org/); Co-director
 * [Ryan Briggs](https://www.ryancbriggs.net/), Social Scientist and Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph, Canada
 * [Kris Gulati](https://sites.google.com/view/kris-gulati/home), Economics PhD student at the University of California, Merced
-* [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology (Netherlands), has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 * [Hansika Kapoor](https://www.hansikakapoor.in), Research Author at the Department of Psychology, [Monk Prayogshala](https://www.monkprayogshala.in/) (India)
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Research Fellow, Institute of Environment & Sustainability, Lee Kuan Yew of School of Public Policy, National University of Singapore
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at [North-West University](https://www.nwu.ac.za/) (South Africa)
@@ -119,6 +118,7 @@ We are a member of [Knowledge Futures](https://www.knowledgefutures.org/). They 
 <!---->
 
 * [Yonatan Cale](https://il.linkedin.com/in/yonatancale), who helped me put this proposal together through asking a range of challenging questions and offering his feedback
+* [Daniel Lakens](https://sites.google.com/site/lakens2/), Experimental Psychologist at the Human-Technology Interaction group at Eindhoven University of Technology (Netherlands), has also completed research with the Open Science Collaboration and the Peer Reviewers’ Openness Initiative
 
 </details>
 
