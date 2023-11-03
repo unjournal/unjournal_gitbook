@@ -89,6 +89,35 @@ This will help us achieve our focal, most tangible "theory of change" pathway (m
 
 _The Unjournal_’s open feedback should also be valuable to the researchers themselves and their research community, catalyzing progress. As the _Unjournal_ Evaluation becomes a valuable outcome in itself, researchers can spend less time "gaming the journal system." Shared public evaluation will provide an important window to other researchers, helping them better understand the relevant cutting-edge concerns. _The Unjournal_ will permit research to be submitted in a wider variety of useful formats (e.g., dynamic documents and notebooks rather than "frozen pdfs"), enabling more useful, replicable content and less time spent formatting papers for particular journals. We will also allow researchers to improve their work _in situ_ and gain updated evaluations, rather than having to spin off new papers. This will make the literature more clear and less cluttered.
 
+
+
+
+
+## "Some of the main paths"
+
+```mermaid
+graph TD
+classDef Direct fill:#faefaf
+classDef Multi fill:#bdf2c9
+
+A0["UJ tools, incentives, <br/> platforms, emphasis"]:::Multi --"we will"--- FocusEA["Focus on impactful <br/> rsch."]:::Direct --> EAR
+ EAR["+ evaluation of <br/> EA-aligned rsch."]:::Direct 
+EAR --> EARig["+ Rigor of EA-aligned <br/> rsch."]:::Direct 
+EAR["+ Eval. of EA-aligned <br/> research"]:::Direct --- OF["+ 'Open science'"]:::Direct --> EARO["More replicable, <br/> reliable"]:::Direct --> A1["Impactful research <br/> improved"]:::Multi 
+EARig --"Stronger work"--> AcadAware["+ Awareness/interest <br/> in impactful rsch."]
+A1:::Multi  --> A2["Decisionmakers better <br/> informed"]:::Direct
+D1 --> A1:::Multi 
+A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["+ Acad. focus <br/> on global priorities"]:::Integrate 
+
+A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Multi --> O["+ Survival & flourishing"]:::Multi 
+
+```
+
+```
+
+
+```
+
 <details>
 
 <summary>Achieving system change in spite of collective action issues</summary>
