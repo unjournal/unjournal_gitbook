@@ -8,13 +8,29 @@ description: Several expositions for different audiences, fleshing out ideas and
 
 ## Slide decks
 
-{% hint style="info" %}
-_July 2023_: The slide deck below was last updated in late 2022 and needs some revision. Nonetheless, it illustrates many of the key points that remain relevant.
-{% endhint %}
+
+
+#### Presentation for EA Anywhere, online event,  5 Nov. 2023 1-2pm ET
+
+(Link: [bit.ly/unjourrnalpresent](http://bit.ly/unjournalpresent); offers comment access)
 
 {% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.p" %}
 
-Permalink at [bit.ly/unjourrnalpresent](http://bit.ly/unjournalpresent)
+<details>
+
+<summary>Earlier slide decks</summary>
+
+_July 2023_: The slide deck below was last updated in late 2022 and needs some revision. Nonetheless, it illustrates many of the key points that remain relevant.
+
+[bit.ly/unjourrnalpresent](http://bit.ly/unjournalpresent)
+
+
+
+Nov  2022: Version targeted towards OSF/Open Science [HERE](https://docs.google.com/presentation/d/1zoC9au-Fc3WnBT4QRIPOLQ-J-PUlJVieJPt4Mi4sfm0/edit?usp=sharing)
+
+</details>
+
+
 
 ## "Slaying the journals": Google doc
 
