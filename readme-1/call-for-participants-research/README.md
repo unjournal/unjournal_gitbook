@@ -10,7 +10,7 @@ See [#in-a-nutshell](../#in-a-nutshell "mention") for an overview of The Unjourn
 **In brief (TLDR):**\
 If you are interested in being on the Unjournal's Management Committee, Advisory Board, or Reviewer Pool please fill out [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3-5 min):&#x20;
 
-If you have research you would like us to assess (either your own or others'), please fill out [this form](https://airtable.com/shrdHHI0zK7rkJCP3). You can also submit your own work [here](https://unjournaldev.cloud68.co/login), or by contacting [theunjournal@gmail.com](mailto:theunjournal@gmail.com).
+If you have research you would like us to assess (either your own or others'), please fill out [this form](https://bit.ly/ujsuggestr). You can also submit your own work [here](https://bit.ly/ujsubmitr), or by contacting [contact@unjournal.org](http://127.0.0.1:5000/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
 \
 We're anticipating several job openings, spanning research, communications, and operational/administrative roles. See our [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit), and express your interest in [this form](https://airtable.com/shrxGwooWtwZqY8cd).
@@ -110,10 +110,10 @@ We provide a separate form for research suggestions [here](https://airtable.com/
 
 ## Contact us
 
-If you are interested in discussing any of the above in person, please email us ([theunjournal@gmail.com](mailto:theunjournal@gmail.com)) to arrange a conversation.
+If you are interested in discussing any of the above in person, please email us ([contact@unjournal.org](http://127.0.0.1:5000/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)) to arrange a conversation.
 
 \
-We invite you to fill in this [form](https://airtable.com/shrW9xpIrxNGfxkXW) to leave your contact information, as well as outlining which parts of the project you may be interested in.
+We invite you to fill in [this form ](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy)to leave your contact information, as well as outlining which parts of the project you may be interested in.
 
 _Note_: This is under continual refinement; see our [policies](../../policies-projects-evaluation-workflow/) for more details.
 
