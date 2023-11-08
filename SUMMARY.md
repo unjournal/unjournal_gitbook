@@ -77,7 +77,7 @@
   * [Related: EA/global priorities seminar series](parallel-partner-initiatives-and-resources/related-ea-gp-seminar-series.md)
   * [EA and EA Forum initiatives](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/README.md)
     * [EA forum peer reviewing (related)](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/ea-forum-peer-reviewing-related.md)
-    * [Links to EA Forum/'EA journal'](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/links-to-ea-forum-ea-journal.md)
+    * [Links to EA Forum/"EA journal"](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/links-to-ea-forum-ea-journal.md)
   * [Other non-journal evaluation](parallel-partner-initiatives-and-resources/other-non-journal-evaluation.md)
   * [Economics survey (Charness et al)](parallel-partner-initiatives-and-resources/economics-survey-charness-et-al.md)
 * [Management details, discussion](management-tech-details-discussion/README.md)
