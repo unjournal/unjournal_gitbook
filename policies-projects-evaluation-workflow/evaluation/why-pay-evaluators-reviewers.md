@@ -10,7 +10,7 @@ From a recent [survey of economists:](https://cepr.org/voxeu/columns/economists-
 
 ### Economics, turnaround times
 
-The peer-review process in economics is widely-argued to be too slow and lengthy. But there is evidence that _payment_
+The peer-review process in economics is widely-argued to be too slow and lengthy. But there is evidence that _payments_ may help improve this.&#x20;
 
 [In Charness et al's full report](https://evalresearch.weebly.com/uploads/1/3/3/4/133478410/improving\_peer\_review\_in\_economics\_-\_charness\_et\_al..pdf), they note that few economics journals currently pay reviewers (and these payments tend to be small (e.g., JPE and AER paid $100 at the time). However, they also note, citing several papers:
 
