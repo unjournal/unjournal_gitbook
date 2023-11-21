@@ -76,6 +76,8 @@ Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org
 
 </details>
 
+["Research agenda draft for GPI economics"](https://globalprioritiesinstitute.org/wp-content/uploads/Economics-research-agenda-draft.pdf)
+
 ## Other agendas and discussions
 
 _To be expanded, cataloged, and considered in more detail_
