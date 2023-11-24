@@ -4,7 +4,7 @@ _Updated 11 Jan 2023_
 
 ### **Administrators, accounts**
 
-The official administrators are David Reinstein and Gavin Taylor; both will have control and oversight of the budget, administered through the Open Collaborative Foundations and we may bring others into this account access.
+The official administrators are David Reinstein and Gavin Taylor; both will have control and oversight of the budget, administered through the Open Collaborative Foundations, and we may bring others into this account access.
 
 ### **Roles: Founding and management committee**
 
