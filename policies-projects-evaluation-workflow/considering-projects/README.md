@@ -6,7 +6,7 @@ As we are paying evaluators and have limited funding, we cannot evaluate every p
 
 1. submission by authors;
 2. our own searches (e.g., searching syllabi, forums, working paper archives, and white papers); and
-3. s[uggestions from other researchers, practitioners, and members of the public](#user-content-fn-1)[^1].
+3. s[uggestions from other researchers, practitioners, and members of the public](#user-content-fn-1)[^1]. We have posted more detailed instructions for [how to suggest research for evaluation](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/\~/changes/320/faq-interaction/suggesting-research-to-evaluate/\~/comments).
 
 Our management team **rates the suitability of each paper** according to the criteria discussed below and [in the aforementioned linked post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see).
 
