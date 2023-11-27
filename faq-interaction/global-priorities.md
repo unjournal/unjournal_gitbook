@@ -8,9 +8,11 @@
 
 [aside-open-access-and-information-hazards.md](../benefits-and-features/global-priorities-theory-of-change/aside-open-access-and-information-hazards.md "mention")
 
-[suggesting-research-forms-guidance.md](../policies-projects-evaluation-workflow/considering-projects/suggesting-research-forms-guidance.md "mention")
+[suggesting-research-forms.md](../policies-projects-evaluation-workflow/considering-projects/suggesting-research-forms.md "mention")
+
+[process-prioritizing-research-for-evaluation-wip.md](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-for-evaluation-wip.md "mention")
 
 
 
-Our process for prioritizing suggested and submitted work (coming soon)
+
 
