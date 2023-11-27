@@ -1,10 +1,12 @@
-# Suggesting research (forms)
+# Suggesting research (forms, guidance)
+
+## Paths to suggest research
 
 Research can be "submitted" by authors ([here](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1)) or "suggested" by others. For a walk-through on suggesting research, see [this video](https://us06web.zoom.us/rec/share/Px36RA3cbYvb8Evi-wj6-cFHRLAiexe0FPVi\_8xvZavqestDSDxkWlldK3nPdIk\_.xMbOsXG\_2BM3A2\_t) example.
 
-There are two main paths for making suggestions: [through our survey form](suggesting-research-forms.md#1.-through-our-survey-form) or [through Airtable](suggesting-research-forms.md#2.-option-for-field-specialists-and-managers-via-airtable).&#x20;
+There are two main paths for making suggestions: [through our survey form](suggesting-research-forms-guidance.md#1.-through-our-survey-form) or [through Airtable](suggesting-research-forms-guidance.md#2.-option-for-field-specialists-and-managers-via-airtable).&#x20;
 
-## 1. Through our [survey form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw)
+### 1. Through our [survey form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw)
 
 Anyone can suggest research using the survey form at [https://bit.ly/ujsuggestr](https://bit.ly/ujsuggestr). (Note, if you want to "submit your own research," go to [bit.ly/ujsubmitr](https://bit.ly/ujsubmitr).) Please include the following steps:
 
@@ -33,9 +35,21 @@ Complete all the required fields and submit your suggestion. _The Unjournal_ tea
 
 
 
-## 2. Option for Field Specialists and managers: via Airtable
+### 2. For Field Specialists and managers: via Airtable
 
 People on our team may find it more useful to suggest research to _The Unjournal_ directl via the Airtable.  See [this document](https://docs.google.com/document/d/1Yn8uyAs4Wpil45E-RUuov\_\_OerTtOP2lFFD-enePz1Q/edit#heading=h.bm2q1sms6y1a) for a guide to this. (Please request document permission to access this explanation.)
+
+
+
+## Further guidance
+
+Aside on setting the prioritization ratings: In making your subjective prioritization rating, please consider “What percentile do you think this paper (or project) is relative to the others in our database, in terms of ‘relevance for The UJ to evaluate’?” (Note this is a redefinition; we previously considered these as probabilities.) We roughly plan to commission the evaluation of about 1 in 5 papers in the database, the ‘top 20%’ according to these percentiles. Please _don’t_ consider the “publication status or the “author's propensity to engage” in this rating. We will consider those as separate criteria.
+
+### Notes for field specialists/Unjournal Team
+
+Please don’t enter only the papers you think are ‘very relevant’; please enter in all research that you have spent any substantial time considering. If we all do this, we should all aim for our percentile ratings to be approximately normally distributed; evenly spread over the 1-100% range.
+
+
 
 \
 \
