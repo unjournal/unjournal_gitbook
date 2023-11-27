@@ -46,7 +46,7 @@ We expect most Advisory Board members will also be FSs, although some may not (e
 
 **Time commitment**: There is no specific time obligation—only opportunities to engage. We may also consult you occasionally on your areas of expertise. Perhaps 1–4 hours a month is a reasonable starting expectation for people already involved in doing or using research, plus potential additional paid assignments.
 
-**Compensation:** This will vary on a case-by-case basis. As a rule, we aim to fairly compensate people for work done to support _The Unjournal_. [Evaluation management work](../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.
+**Compensation:** We are putting together a compensation formula; we aim to fairly compensate people for time spent on work done to support _The Unjournal_, and to provide incentives for suggesting and helping to prioritize research for evaluation. In addition, [evaluation management work](../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.
 
 **Who we are looking for**: For the FS roles, we are seeking active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academic, governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
 
