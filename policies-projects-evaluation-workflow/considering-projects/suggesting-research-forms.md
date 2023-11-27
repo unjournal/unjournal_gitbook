@@ -4,7 +4,7 @@
 
 Research can be "submitted" by authors ([here](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1)) or "suggested" by others. For a walk-through on suggesting research, see [this video](https://us06web.zoom.us/rec/share/Px36RA3cbYvb8Evi-wj6-cFHRLAiexe0FPVi\_8xvZavqestDSDxkWlldK3nPdIk\_.xMbOsXG\_2BM3A2\_t) example.
 
-There are two main paths for making suggestions: [through our survey form](suggesting-research-forms-guidance.md#1.-through-our-survey-form) or [through Airtable](suggesting-research-forms-guidance.md#2.-option-for-field-specialists-and-managers-via-airtable).&#x20;
+There are two main paths for making suggestions: [through our survey form](suggesting-research-forms.md#1.-through-our-survey-form) or [through Airtable](suggesting-research-forms.md#2.-option-for-field-specialists-and-managers-via-airtable).&#x20;
 
 ### 1. Through our [survey form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw)
 
