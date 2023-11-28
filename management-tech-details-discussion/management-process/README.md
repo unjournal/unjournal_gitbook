@@ -6,7 +6,19 @@ See [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow
 _Update 28 November, 2023:_ We now have an 'alpha version' of a PubPub V7 setup that will serve as an automated "editorial management tool".  We are piloting this for a few papers and aim to fully transition soon.  Reach out if you are interested in trying this.
 {% endhint %}
 
-**If you are the evaluation manager please follow the steps below.**
+## **If you are the evaluation manager please follow the steps below.**
+
+### Airtable/PubPub
+
+You should have been registered as the Evaluation Manager in the Airtable `crucial_rsx`  table. You may find other useful information and links there, including a potential link to "Bespoke Evaluation Notes" in the field `link_discussion_what_to_evaluate` ; you may want to consult and add to these.
+
+<details>
+
+<summary>Pubpub note</summary>
+
+&#x20;_November, 2023:_ We are aiming to move this information into the new PubPub setup, once a paper has been chosen to be evaluated, all information and processes for evaluation managers and others should be centralized there.
+
+</details>
 
 ### Informing or asking paper authors
 
@@ -16,7 +28,7 @@ _Update 28 November, 2023:_ We now have an 'alpha version' of a PubPub V7 setup 
 2. **Submitted work:** Otherwise, if the authors submitted their work to _The Unjournal_ directly, we need to inform them that their work was selected (and make sure all authors are OK with this).
 3. **Other selected work:** Otherwise, if the paper was selected (not submitted), and it _doesn't_ qualify for the Direct Evaluation track (e.g., it is not NBER and/or it has early-career researcher authors) we need to ask the authors' permission to proceed (according to our policies), and of course we also want them to notify us about the paper's status, updates, etc.
 
-_The Unjournal_ may have already done some of the above (before you were assigned as the Evaluation \<anager); please check if this is the case.
+_The Unjournal_ may have already done some of the above (before you were assigned as the Evaluation Manager); please check if this is the case.
 
 ### Finding evaluators
 
@@ -44,7 +56,11 @@ To speed up the process and automate your reminders, you can use Boomerang, as e
 
 
 
-If an evaluator agrees, send them the Google Doc with the evaluation template for them to complete in an additional email and agree on a time period within which they will complete the evaluation.
+If an evaluator agrees,&#x20;
+
+* Send them another email with the Google Doc with the evaluation template for them to complete,&#x20;
+* as well as a link to 'Bespoke Evaluation Notes' for this project, if it has been created (see [template](https://docs.google.com/document/d/1IH\_GQYpzu\_v\_Tdq1v-4EiNkb1wENH-4CmYNIoxicd0k/edit#heading=h.twka7svde4w))&#x20;
+* Propose a deadline to complete the evaluation; we aim for a three-week turnaround, but we can be somewhat flexible. Make sure we agree on a date.
 
 _Nov. 2023: Within the new PubPub system there will be a direct link to the_ evaluation interface.
 
