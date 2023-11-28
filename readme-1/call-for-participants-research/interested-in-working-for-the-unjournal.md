@@ -15,9 +15,9 @@ Feel free to contact theunjournal@gmail.com with any questions.
 
 [administration-operations-and-management-roles.md](interested-in-working-for-the-unjournal/administration-operations-and-management-roles.md "mention")
 
-[research-and-operations-linked-roles-and-projects-temp.-pause.md](interested-in-working-for-the-unjournal/research-and-operations-linked-roles-and-projects-temp.-pause.md "mention")
+[research-and-operations-linked-roles-and-projects.md](interested-in-working-for-the-unjournal/research-and-operations-linked-roles-and-projects.md "mention")
 
-[standalone-project-impactful-research-scoping-temp.-pause.md](interested-in-working-for-the-unjournal/standalone-project-impactful-research-scoping-temp.-pause.md "mention")
+[standalone-project-impactful-research-scoping.md](interested-in-working-for-the-unjournal/standalone-project-impactful-research-scoping.md "mention")
 
 ## Additional information <a href="#h.x2umqmm1vnqa" id="h.x2umqmm1vnqa"></a>
 
