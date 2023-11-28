@@ -1,4 +1,4 @@
-# Standalone project: Impactful Research Scoping
+# Standalone project: Impactful Research Scoping (temp. pause)
 
 {% hint style="info" %}
 _**Nov. 2023 update**: We have paused this process focus to emphasize our_ [_Field Specialist_](../../organizational-roles-and-responsibilities.md#field-specialists-fs) _positions. We hope to come back to hiring_ researchers _to implement these projects soon._&#x20;

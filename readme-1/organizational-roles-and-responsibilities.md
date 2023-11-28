@@ -38,10 +38,28 @@ _As an Advisory Board member..._
 
 ## **Field Specialists (FS)**
 
+<details>
+
+<summary>Nov. 2023 priorities</summary>
+
+We are currently prioritizing bringing in more [Field Specialists](organizational-roles-and-responsibilities.md#field-specialists-fs) to build our teams in a few areas, particularly including:&#x20;
+
+* Catastrophic risks, AI governance and safety
+* Animal welfare: markets, attitudes
+
+As well as:
+
+* Quantitative political science (voting, lobbying, attitudes)
+* Social impact of AI/emerging technologies
+* Macro/growth, finance, public finance
+* Long term trends and demographics
+
+</details>
+
 FSs will focus on a particular area of research, policy, or impactful outcome. They will keep track of new or under-considered research with potential for impact and explain and assess the extent to which _The Unjournal_ can add value by commissioning its evaluation. They will "curate" this research and may also serve as evaluation managers for this work.
 
 {% hint style="success" %}
-We expect most Advisory Board members will also be FSs, although some may not (e.g., because they don't have a relevant research focus).
+Some Advisory Board members will also be FSs, although some may not (e.g., because they don't have a relevant research focus).
 {% endhint %}
 
 **Time commitment**: There is no specific time obligation—only opportunities to engage. We may also consult you occasionally on your areas of expertise. Perhaps 1–4 hours a month is a reasonable starting expectation for people already involved in doing or using research, plus potential additional paid assignments.
