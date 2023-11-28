@@ -1,5 +1,11 @@
 # Standalone project: Impactful Research Scoping
 
+{% hint style="info" %}
+_**Nov. 2023 update**: We have paused this process focus to emphasize our_ [_Field Specialist_](../../organizational-roles-and-responsibilities.md#field-specialists-fs) _positions. We hope to come back to hiring_ researchers _to implement these projects soon._&#x20;
+{% endhint %}
+
+## Proposed projects
+
 We are planning to hire 3-7 researchers for a one-off paid project.&#x20;
 
 There are two opportunities: _Contracted Research (CR)_ and _Independent Projects (IP)_.
