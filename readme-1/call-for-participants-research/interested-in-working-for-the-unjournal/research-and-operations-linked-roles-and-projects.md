@@ -1,6 +1,12 @@
 # Research and operations-linked roles and projects
 
-The role discussed below combine research-linked work with operations and administrative responsibilities. Overall, this may include some combination of:
+{% hint style="info" %}
+_**Nov. 2023 update**: We can not guarantee that we will be hiring for this role, because of changes in our approach. We will consider all applicants for our_ [_Field Specialist_](../../organizational-roles-and-responsibilities.md#field-specialists-fs) _positions, and for roles that may come up in the future._
+{% endhint %}
+
+
+
+The potential roles discussed below combines research-linked work with operations and administrative responsibilities. Overall, this may include some combination of:
 
 * Assisting and guiding the process of identifying strong and potentially- impactful work in key areas, explaining its relevance, its strengths, and areas warranting particular evaluation and scrutiny
 * Interacting with authors, recruiting, and overseeing evaluators
@@ -11,14 +17,16 @@ The role discussed below combine research-linked work with operations and admini
 * Doing ‘meta-science’ work
 
 {% hint style="info" %}
-**See also our #advi**field specialist team pool, and evaluator pool. Most of these roles involve compensation/honorariums. See [advisory-team-roles-research-management.md](advisory-team-roles-research-management.md "mention")
+**See also our** field specialist team pool, and evaluator pool. Most of these roles involve compensation/honorariums. See [advisory-team-roles-research-management.md](advisory-team-roles-research-management.md "mention")
 {% endhint %}
 
 
 
-### Proposed Role: Research and Evaluation Specialist (RES)
+### Possible Role: Research and Evaluation Specialist (RES)
 
-_1 to 2 positions may be available._
+<details>
+
+<summary>Possible role details</summary>
 
 Potential focus areas include global health; development economics; markets for products with large externalities (particularly animal agriculture); attitudes and behaviors (altruism, moral circles, animal consumption, effectiveness, political attitudes, etc.); economic and quantitative analysis of catastrophic risks; the economics of AI safety and governance; aggregation of expert forecasts and opinion; international conflict, cooperation, and governance; etc.
 
@@ -55,4 +63,6 @@ _Note: No single skill or experience is necessary independently. If in doubt, we
 * We are likely to hire one role starting in Summer 2023, and another starting in Autumn 2023.
 * Extensions, growth, and promotions are possible, depending on performance, fit, and our future funding.
 
-[Express your interest here](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926473191\&usg=AOvVaw388wUH9VVv1Lv5AyWJ5l\_l).
+</details>
+
+[Express your interest here](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926473191\&usg=AOvVaw388wUH9VVv1Lv5AyWJ5l\_l). _(Nov. 2023: Note, we can not guarantee that we will be hiring for this role, because of changes in our approach.)_

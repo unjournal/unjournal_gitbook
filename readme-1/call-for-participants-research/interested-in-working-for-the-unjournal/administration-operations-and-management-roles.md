@@ -6,7 +6,7 @@ There are currently two such roles:
 
 [#h.4oteb50mm1z](administration-operations-and-management-roles.md#h.4oteb50mm1z "mention")
 
-[#h.htvmrldrqnhn](administration-operations-and-management-roles.md#h.htvmrldrqnhn "mention") (seeking freelancers)
+[#h.htvmrldrqnhn](administration-operations-and-management-roles.md#h.htvmrldrqnhn "mention") (Nov 2023: still seeking freelancers)
 
 
 
