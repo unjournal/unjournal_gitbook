@@ -26,12 +26,16 @@ description: A 'curated guide' to this GitBook; updated June 2023
 
 [the-field-and-ea-gp-research.md](../the-field-and-ea-gp-research.md "mention") What research are we talking about? What will we cover?
 
-### [Detail, progress, and internal planning](#user-content-fn-1)[^1]
+
+
+## Detail, progress, and internal planning
+
+_These are of more interest to_ peoplewithin our team; _we are sharing these in the spirit of transparency._
 
 [plan-of-action.md](plan-of-action.md "mention") A 'best feasible plan' for going forward
 
-[grants-and-proposals](../grants-and-proposals/ "mention") Successful proposals (ACX, SFF), other applications, and EA initiatives
+[grants-and-proposals](../grants-and-proposals/ "mention") Successful proposals (ACX, SFF), other applications, initiatives
 
 [uj-team-resources-onboarding.md](../management-tech-details-discussion/uj-team-resources-onboarding.md "mention") Key resources and links for managers, advisory board members, staff, team members and others involved with The Unjournal project
 
-[^1]: These will probably not be of interest to most readers. We are sharing these in the spirit of transparency.
+_Note: we may move some of this 'internal interest content' over to our Clickup knowledge base._
