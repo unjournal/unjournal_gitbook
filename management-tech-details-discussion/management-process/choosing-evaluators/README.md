@@ -6,12 +6,13 @@ See [here](https://docs.google.com/document/d/1GdQsfXUjtAsKiYkJ8Z59MZf-ri8\_1ytE
 
 ## Considerations for _selecting_ evaluators (i.e., 'reviewers')
 
-1. Consider our (signed up) "reviewer pool" (see Airtable) first
-2. Expertise in the aspects of the work that needs evaluation; consider "one expert per aspect"
-3. Interest in the topic/subject (look at citations in both directions); check – are these meaningful citations?
-4. [Conflicts of interest?](avoiding-coi.md)
+1. If not 'submitted', did the people who _suggested_ the paper suggest any evaluators?
+2. Consider our (signed up) "evaluator pool" (see Airtable/ask for access) first
+3. Expertise in the aspects of the work that needs evaluation; consider "one expert per aspect"
+4. Interest in the topic/subject (look at citations in both directions); check – are these meaningful citations?
+5. [Conflicts of interest?](avoiding-coi.md)
    * Consult "web of connections" tools like ResearchRabbit
-5. _Secondary concerns_
+6. _Secondary concerns_
    * Likely alignment and engagement with _Unjournal_ priorities,
    * Good writing skills
    * Likely to have time and be motivated to write review in timely fashion
