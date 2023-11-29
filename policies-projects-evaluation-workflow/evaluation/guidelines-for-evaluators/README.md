@@ -21,7 +21,7 @@ The template Google Doc itself [can be accessed here](https://docs.google.com/do
 
 </details>
 
-_You can download the current page as a PDF_ [_here_](https://www.dropbox.com/scl/fi/tu6onn18apb7be43mmmou/The-Unjournal-Guidelines.pdf?rlkey=m3v71v8li8q1zim0h53q91n6r\&dl=0) _for easier viewing, with all folded boxes open_ \[updated 28 Nov 2023].
+_You can download the current page as a PDF_ [_here_ ](https://www.dropbox.com/scl/fi/gixso4ir43o3n6d5u92qp/The-Unjournal-Evaluation-Guidelines.pdf?rlkey=cdqdkci0cds61hsza0787c5je\&dl=0)_for easier viewing, with all folded boxes open_ \[updated 28 Nov 2023].
 
 <details>
 
