@@ -5,12 +5,12 @@ description: A 'curated guide' to this GitBook; updated June 2023
 # Content overview
 
 {% hint style="info" %}
-**You can now ask questions of this GitBook using a 'chatbot':** click the search bar and choose 'lens'.
+**You can now ask questions of this GitBook using a chatbot:** click the search bar and choose _lens_.
 {% endhint %}
 
 ## Key sections and subsections
 
-### _Learn more about The Unjournal, our goals and policies_
+### _Learn more about_ The Unjournal_, our goals and policies_
 
 [faq-interaction](../faq-interaction/ "mention") For authors, evaluators, etc.
 
@@ -30,12 +30,12 @@ description: A 'curated guide' to this GitBook; updated June 2023
 
 ## Detail, progress, and internal planning
 
-_These are of more interest to_ peoplewithin our team; _we are sharing these in the spirit of transparency._
+_These are of more interest to_ people within our team; _we are sharing these in the spirit of transparency._
 
-[plan-of-action.md](plan-of-action.md "mention") A 'best feasible plan' for going forward
+[plan-of-action.md](plan-of-action.md "mention") A "best feasible plan" for going forward
 
 [grants-and-proposals](../grants-and-proposals/ "mention") Successful proposals (ACX, SFF), other applications, initiatives
 
-[uj-team-resources-onboarding.md](../management-tech-details-discussion/uj-team-resources-onboarding.md "mention") Key resources and links for managers, advisory board members, staff, team members and others involved with The Unjournal project
+[uj-team-resources-onboarding.md](../management-tech-details-discussion/uj-team-resources-onboarding.md "mention") Key resources and links for managers, advisory board members, staff, team members and others involved with _The Unjournal_ project
 
 _Note: we may move some of this 'internal interest content' over to our Clickup knowledge base._
