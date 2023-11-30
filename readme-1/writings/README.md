@@ -6,9 +6,11 @@ description: Several expositions for different audiences, fleshing out ideas and
 
 ## TLDR: See[^1] [#in-a-nutshell](../#in-a-nutshell "mention")
 
+## Podcasts and video
+
+{% embed url="https://www.youtube.com/watch?v=ii4bdmDOIR4" %}
+
 ## Slide decks
-
-
 
 #### Presentation for EA Anywhere, online event,  5 Nov. 2023 1-2pm ET
 
