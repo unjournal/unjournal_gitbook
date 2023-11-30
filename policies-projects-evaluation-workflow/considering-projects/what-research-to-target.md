@@ -6,11 +6,11 @@ description: (for pilot and beyond)
 
 Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities (see linked discussion)](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2]. We want to see better research leading to better concrete outcomes that enable or accelerate positive change.
 
-_See (earlier) discussion in public call/EA forum discussion:_
+{% hint style="info" %}
+_See (earlier) discussion in public call/EA forum discussion_ [_HERE_](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2)_._
+{% endhint %}
 
-{% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-most-pivotal-empirical-pieces-of-research-you-would-like-2" %}
-
-To reach these goals, we need to select "the right research" for evaluation. We want to choose papers and projects that are highly relevant, methodologically promising, and that will benefit substantially from our evaluation work. Besides making our process transparent and fair, we need to optimize how we select research so that our efforts remain mission-focused and _useful_. To do this, we need a coherent set of guidelines \[and ways of thinking] to guide this process. These considerations have several dimensions, which we explore below.
+To reach these goals, we need to select "the right research" for evaluation. We want to choose papers and projects that are highly relevant, methodologically promising, and that will benefit substantially from our evaluation work. We need to optimize how we select research so that our efforts remain mission-focused and _useful_. We also want to make our process transparent and fair. To do this, we are building a coherent set of criteria and goals, and a specific approach to guide this process. These considerations have several dimensions, which we explore below.
 
 {% hint style="info" %}
 _Management access only_: General discussion of prioritization in Gdoc [HERE](https://docs.google.com/document/d/1Ei-3t2bUazjlBOIg8chLxOrz\_sXl\_osAzrLU4hO1wDk/edit). Private discussion of specific papers in Airtable and links (e.g., [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)).
@@ -18,24 +18,26 @@ _Management access only_: General discussion of prioritization in Gdoc [HERE](ht
 _We incorporate some of this discussion below..._
 {% endhint %}
 
-## High-level considerations for considering research
+## High-level considerations for prioritizing research
 
 When considering a piece of research to decide whether to commission it to be evaluated, we can start by looking at its _general relevance_ as well as the _value_ _of evaluating_ and rating it.
 
+{% hint style="info" %}
+Our prioritization of a paper for evaluation should not be seen as an assessment of its quality, nor of its 'vulnerability'.   Furthermore, ['the prioritization is not the evaluation', it is less ](#user-content-fn-3)[^3]specific and less intensive.
+{% endhint %}
+
 1. **Why is it relevant and worth engaging with?**
 
-_Our prioritization of a paper for evaluation should not be seen as an assessment of its quality, nor of its 'vulnerability'_.  We consider (and prioritize) the importance of the research to global priorities; its relevance to crucial decisions;  the attention it is getting, the influence it is having; its direct relevance to the real world; and the potential value of the research for advancing other impactful work.  We de-prioritize work that has already been credibly (publicly) evaluated[^3].  We also consider the research's fit with our scope (social science, etc.), and the likelihood that we can commission experts to meaningfully evaluate it.
+We consider (and prioritize) the importance of the research to global priorities; its relevance to crucial decisions;  the attention it is getting, the influence it is having; its direct relevance to the real world; and the potential value of the research for advancing other impactful work.  We de-prioritize work that has already been credibly (publicly) evaluated[^4].  We also consider the research's fit with our scope (social science, etc.), and the likelihood that we can commission experts to meaningfully evaluate it. As noted [below](what-research-to-target.md#b.-sustainability-funding-support-participation), we some of our 'instrumental goals' ([sustainability](what-research-to-target.md#b.-sustainability-funding-support-participation), [building credibility](what-research-to-target.md#c.-credibility-visibility-and-driving-positive-institutional-change), driving change, ...) will play a role in our choices.
 
-[_'The prioritization is not the evaluation', it is less_ ](#user-content-fn-4)[^4]_specific and less intensive._
-
-_Some features we value, that might raise the probability we consider a paper or project:_  the commitment and contribution to open science.  the authors' engagement with our process; and the logic, communication, and transparent reasoning of the work. _However,_ if a prominent research paper within our scope seems to have a strong potential for impact, we will prioritize it highly, whether or not it has these features.
+_**Some features we value, that might raise the probability we consider a paper or project:**_  The commitment and contribution to open science.  The authors' engagement with our process; and the logic, communication, and transparent reasoning of the work. _**However**,_ if a prominent research paper is within our scope and seems to have a strong potential for impact, we will prioritize it highly, whether or not it has these features.
 
 \
 2\. **Why does it need (more) evaluation, and what are some key issues and claims to vet?**
 
 _We ask the people who suggest particular research, and experts in the field:_
 
-* What are (some of) the authors’ main important claims that are worth carefully evaluating?
+* What are (some of) the authors’ key/important claims that are worth evaluating?
 * What aspects of the evidence, argumentation, methods, and interpretation, are you unsure about?
 * What particular data, code, proofs, and arguments would you like to see vetted? If it has already been peer-reviewed in some way, why do you think more review is needed?
 
@@ -45,7 +47,7 @@ Put broadly, we need to consider how this research allows us to achieve our own 
 
 One way we might see this process:  “better research & more informative evaluation” → “better decision-making” → “better outcomes” for humanity and for non-human animals (i.e., the survival and flourishing of life and human civilization and values).
 
-_A point to consider_: Do we have other ultimate goals that are not in that chart, e.g., to improve research and knowledge-building for its own sake?
+_We are still considering_: Do we have other ultimate goals that are not in that chart, e.g., to improve research and knowledge-building for its own sake?
 
 ## Prioritizing research to achieve these goals
 
@@ -59,7 +61,7 @@ Below, we adapt the ["ITN" cause prioritization framework](https://forum.effecti
 
 _What is the direct impact potential of the research?_
 
-This is a massive question many have tried to address (see sketches and links). We respond to uncertainty around this question in a number of ways, including:
+This is a massive question many have tried to address (see sketches and links). We respond to uncertainty around this question in several ways, including:
 
 * Consulting a range of sources, not only EA-linked sources.&#x20;
   * EA and more or less adjacent:  [Agendas](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/the-field-and-ea-gp-research/what-is-ea-gp-relevant-research) and overviews, [Syllabi](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples).
@@ -73,7 +75,7 @@ Where is the current journal system failing GP-relevant work the most . . . in w
 
 **Tractability**
 
-1. “Evaluability” of research: Where does the UJ _approach_ yield the most insight or value of information?
+1. “Evaluability” of research: Where does the _UJ_ _approach_ yield the most insight or value of information?
 2. Existing expertise: Where do we have field expertise on the UJ team? This will help us commission stronger evaluations.
 3. "Feedback loops": Could this research influence concrete intervention choices? Does it predict near-term outcomes? If so, observing these choices and outcomes and getting feedback on the research and our evaluation can yield strong benefits.&#x20;
 
@@ -90,13 +92,13 @@ Moreover, we need to consider how the research evaluation might support the sust
 
 _Consideration/discussion_: What will drive further interest and funding?&#x20;
 
-### C. Credibility, visibility, and driving positive institutional chage
+### C. Credibility, visibility, and driving positive institutional change
 
 Finally, we look to ways in which particular approaches can increase visibility and solidify the credibility of _The Unjournal_ and open evaluations. We consider the extent to which our choices may help drive positive institutional change.
 
 * Interest and involve academics—and build the status of the project.
 * Commission evaluations that will be visibly useful and credible.
-* ‘Benchmark traditional publication outcomes’ and track our predictiveness and impact.
+* ‘Benchmark traditional publication outcomes’, track our predictiveness and impact.
 * Have strong leverage over research "outcomes and rewards."
 * Increase public visibility and raise public interest.
 * Bring in supporters and participants.
@@ -109,7 +111,7 @@ Finally, we look to ways in which particular approaches can increase visibility 
 
 We are aware of possible pitfalls of some elements of our vision.
 
-We’ve discussed a second "non-academic, high-impact policy work" track for evaluation. This may have direct impact and please SFF funders, but may distract us from changing academic systems, and may cost us status in academia (if not done carefully).&#x20;
+We are pursuing  a second "non-academic, high-impact policy work" track for evaluation. This may have direct impact and please SFF funders, but, if not done carefully, this may distract us from changing academic systems, and may cost us status in academia.&#x20;
 
 A focus on topics perceived as niche (e.g., the economics and game theory of AI governance and AI safety) may bring a similar tradeoff.
 
@@ -121,7 +123,7 @@ Giving managers autonomy and pushing forward quickly may bring the risk of perce
 
 Overall, however, we feel we are aware of key issues around the consideration of research to be evaluated in _The Unjournal_ and continue to hone and improve our process for approval.
 
-##
+
 
 ## Data:  what are we evaluating/considering?
 
@@ -133,7 +135,7 @@ We're working on presenting and analyzing the specifics surrounding our current 
 
 ### A (slightly earlier) template for suggesting/submitting  papers
 
-Below, we present a both. for our own consideration and for sharing (in part?) with evaluators the referees, to give [them some guidance](#user-content-fn-5)[^5]. Think of these as **bespoke evaluation notes** for a ["research overview, prioritization, and suggestions" document](#user-content-fn-6)[^6].&#x20;
+Below, we present a (previous) template,  both for our own consideration and for sharing (in part?) with evaluators, to give [them some guidance](#user-content-fn-5)[^5]. Think of these as **bespoke evaluation notes** for a ["research overview, prioritization, and suggestions" document](#user-content-fn-6)[^6].&#x20;
 
 <details>
 
@@ -164,24 +166,15 @@ Do they need particular convincing? Do they need help making their engagement wi
 
 
 
-\
-\
-\
-
-
-
-
-###
-
 [^1]: We discuss our prioritization considerations under [global-priorities.md](../../faq-interaction/global-priorities.md "mention")
 
 [^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
 
 
 
-[^3]: Particularly where these evaluations are public, or there are clear public signals that research users can use to make reasonably make inferences about the research quality, credibility, and usefulness.  E.g., to some extent we might consider publication in a journal known for particularly high standards as such a signal. Replication (e.g., via i4replication.org) would also often be a strong signal.
+[^3]: Our evaluations involve many hours of work from researchers with very specific expertise in the narrow research area and methods. In contrast, our prioritization is less intensive, and the field specialists will tend to have adjacent expertise.&#x20;
 
-[^4]: Our evaluations involve many hours of work from researchers with very specific expertise in the narrow research area and methods. In contrast, our prioritization is less intensive, and the field specialists will tend to have adjacent expertise.&#x20;
+[^4]: Particularly where these evaluations are public, or there are clear public signals that research users can use to make reasonably make inferences about the research quality, credibility, and usefulness.  E.g., to some extent we might consider publication in a journal known for particularly high standards as such a signal. Replication (e.g., via i4replication.org) would also often be a strong signal.
 
 [^5]: We probably won’t need to offer quite as much guidance in equilibrium, but it may be worth a little more care while the process is piloted. &#x20;
 
