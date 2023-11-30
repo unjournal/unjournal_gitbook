@@ -1,5 +1,5 @@
 ---
-description: A 'curated guide' to this GitBook; updated June 2023
+description: A "curated guide" to this GitBook; updated June 2023
 ---
 
 # Content overview
