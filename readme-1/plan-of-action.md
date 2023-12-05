@@ -10,7 +10,7 @@ What is this Unjournal?... See [our summary](./#in-a-nutshell).
 
 ## Post-pilot goals
 
-See the vision and broad plan presented [here](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit) (and embedded below:)
+See the vision and broad plan presented [here](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit) (and embedded below), u_pdated August 2023,_
 
 {% embed url="https://docs.google.com/document/d/1C5CE8X_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit" %}
 
