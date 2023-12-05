@@ -16,7 +16,7 @@ We have followed a few procedures for finding and prioritizing papers and projec
 
 We are building a grounded systematic procedure with criteria and benchmarks. We also aim to give managers and field specialists some autonomy in prioritizing key papers and projects. As noted elsewhere, we are considering targets for particular research areas and sources.
 
-See our basic process (as of Dec. 2023) for prioritizing work: [process-prioritizing-research-wip](process-prioritizing-research-wip/ "mention")
+See our basic process (as of Dec. 2023) for prioritizing work: [process-prioritizing-research-for-evaluation-wip.md](process-prioritizing-research-for-evaluation-wip.md "mention")
 
 
 
