@@ -2,9 +2,13 @@
 
 _15 Aug 2023_: We are organizing some meetings and working groups, and building some private spaces ... where we are discussing 'which specified research themes and papers/projects we should prioritize for UJ evaluation.'&#x20;
 
-This is guided by concerns we discuss in other sections (e.g., [what research to target](../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md),  [what is global priorities relevant research](../the-field-and-ea-gp-research.md)?)
+This is guided by concerns we discuss in other sections (e.g., '[what research to target](../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md)',  '[what is global priorities relevant research](../the-field-and-ea-gp-research.md)')
 
-Research we prioritize, and short comments and ratings on its prioritization is currently maintained in our Airtable database (under 'crucial\_research'). We consider  'who covers and monitors what' (in our core team) in the 'mapping\_work' table). This exercise suggested some loose teams and projects. I link some (private) Gdocs for those project discussions below.  We aim to make a useful discussion version/interface public when this is feasible.
+Research we prioritize, and short comments and ratings on its prioritization is currently maintained in our Airtable database (under 'crucial\_research'). We consider  'who covers and monitors what' (in our core team) in the 'mapping\_work' table). This exercise suggested some loose teams and projects. I link some (private) Gdocs for those project discussions below.  We aim to make a useful discussion version/interface public when this is feasible.&#x20;
+
+{% hint style="info" %}
+Team members and field specialists: You should have access to a Google Doc called _"Unjournal Field Specialists+: Proposed division (discussion), meeting notes",_ where we are dividing up the monitoring and prioritization work.
+{% endhint %}
 
 
 
@@ -72,20 +76,13 @@ _Some of the content in the sections below will overlap._
 2. Artificial intelligence; AI governance and strategy (is this in the UJ wheelhouse?)
 3. International cooperation and conflict
 
-
-
 ## Non-academic/policy research stream
 
 See: [#non-academic-policy-research-stream](research-scoping-discussion-spaces.md#non-academic-policy-research-stream "mention")
-
-
 
 ## Other
 
 1. Long term population, growth, macroeconomics
 2. Normative/welfare economics and philosophy (should we cover this?)
 3. Empirical methods (should we consider some highly-relevant subset, e.g., meta-analysis?)
-
-\
-
 
