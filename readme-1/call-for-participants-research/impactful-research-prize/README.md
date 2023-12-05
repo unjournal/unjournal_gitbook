@@ -1,4 +1,12 @@
-# Impactful Research Prize
+# Impactful Research Prize (pilot)
+
+{% hint style="info" %}
+**Dec 2023 update:** The prize below refers to the prize linked to our pilot phase. These prizes have been chosen, and will be announced too. We are also scheduling an event linked to this prize. \
+\
+_**However**,_ we are setting aside funds for even larger author and evaluator prizes for our next phase. If you [submit your research](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1) to The Unjournal or serve as an evaluator, you will be eligible for future prizes (details to be announced).&#x20;
+{% endhint %}
+
+
 
 **Submit your work to be eligible for our “Unjournal: Impactful Research Prize” and a range of other benefits including the opportunity for credible public evaluation and feedback.**
 
