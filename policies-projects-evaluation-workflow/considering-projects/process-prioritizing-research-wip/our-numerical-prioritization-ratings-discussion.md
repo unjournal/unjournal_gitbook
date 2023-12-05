@@ -35,39 +35,21 @@ Define/consider the following ‘attributes’ of a piece of research:
 
 3. Influence: Is the work already influencing important real-world decisions and considerations?
 
-_Obviously, these are not binary factors; there is a continuum for each. But for the sake of illustration, consider the following flowchart._
+_Obviously, these are not binary factors; there is a continuum for each. But for the sake of illustration, consider the following flowcharts._
 
 ```mermaid
 graph TD
     A[Prestigious Work]
-    A --> B[Decision-relevant, Prestigious Work]
-    A --> C[Prestigious Work, Less Globally Relevant]
-    A --> D[Less Prestigious Work]
+    A -->|If Global-Decision Relevant| B[Prioritize]
+    A -->|Not Quite Global-Decision Relevant| C[Consider Unjournal Priorities]
+    C --> C1[Submitted Work]
+    C --> C2[Transparent Code and Data]
+    C --> C3[Supports Impactful Work]
 
-    B --> B1[Globally Decision-Relevant and Prominent]
-    B --> B2[Public Evaluation Needed]
-    B --> B3[Focus on Methodological Strength]
-    B --> B4[Recent Public Working Paper]
-    B --> B5[Non-straightforward Methodological Issues]
+    C1 --> D[Potentially Prioritize]
+    C2 --> D
+    C3 --> D
 
-    C --> C1[Innovative Formats]
-    C --> C2[Methodological Tools for High-Value Work]
-    C --> C3[Drawing Attention to Neglected Fields]
-    C --> C4[Author Engagement with Processes]
-
-    D --> E[Decision-relevant, Influential Work]
-    D --> F[Decision-relevant, Less Prestigious, Less-Influential Work]
-
-    E --> E1[Influence on Major Organizations]
-    E --> E2[Non-Academic/Policy Stream Based on Rigor]
-
-    F --> F1[Methodological Strength]
-    F --> F2[Logical Rigor]
-    F --> F3[Open Science]
-    F --> F4[Real-World Policy Engagement]
-
-    F --> G[Prioritization Not an Evaluation in Itself]
-    G --> H[Future: Develop Methodological 'Suggestive Guidelines']
 
 
 ```
@@ -86,6 +68,23 @@ _**Prestigious work that seems less globally-relevant:**_ We generally will not 
 
 ### Less prestigious work
 
+```mermaid
+graph TD
+    E[Less Prestigious Work]
+    E -->|Influential & Impacting Global Decisions| F[Prioritize]
+    F --> F1[Rigorous & Academic: Main Stream]
+    F --> F2[Less Academic: Policy Stream]
+    E -->|Less Influential but global-priority decision-relevant| G[Consider for Prioritization]
+    G --> G1[Methodological Strength]
+    G --> G2[Clarity and Logic]
+    G --> G3[Other qualities]
+    G1 -->|Meets Criteria| H[Potentially Prioritize]
+G2 -->|Meets Criteria| H[Potentially Prioritize]
+G3 -->|Meets Criteria| H[Potentially Prioritize]
+
+
+```
+
 _**Decision-relevant, influential (but less prestigious) work:**_ E.g., suppose this research might be cited by a major philanthropic organization as guiding its decision-making, but the researchers may not have strong academic credentials or a track record. Again, if this research is in our domain, we probably want to have it publicly evaluated. However, depending on the rigor of the work and the way it is written, we may want to explicitly class this in our ‘non-academic/policy’ stream.\
 
 
@@ -96,7 +95,7 @@ _**Decision-relevant, influential (but less prestigious) work:**_ E.g., suppose 
 * Open science and robust approaches
 * Engagement with real-world policy considerations
 
-Again: the prioritization process is not meant to be an evaluation of the work in itself. It’s OK to do this in a fairly shallow way.&#x20;
+_Again: the prioritization process is not meant to be an evaluation of the work in itself. It’s OK to do this in a fairly shallow way._&#x20;
 
 In future, we may want to put together a loose set of methodological ‘suggestive guidelines’ for work in different fields and areas, without being too rigid or prescriptive. (To do: we can draw from some existing frameworks for this \[ref].)
 
