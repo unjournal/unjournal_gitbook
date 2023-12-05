@@ -35,7 +35,11 @@ Define/consider the following ‘attributes’ of a piece of research:
 
 3. Influence: Is the work already influencing important real-world decisions and considerations?
 
-_Obviously, these are not binary factors; there is a continuum for each. But for the sake of illustration, consider the following flowcharts._
+_Obviously, these are not binary factors; there is a continuum for each. But for the sake of illustration, consider the following flowcharts._&#x20;
+
+{% hint style="info" %}
+If the flowcharts do not render, please refresh your browser.
+{% endhint %}
 
 ```mermaid
 graph TD
@@ -67,6 +71,8 @@ _**Prestigious work that seems less globally-relevant:**_ We generally will not 
   * Drawing attention to neglected high-priority research fields (e.g., animal welfare)
 
 ### Less prestigious work
+
+_(If the flowchart below does not render, please refresh your browser.)_
 
 ```mermaid
 graph TD
