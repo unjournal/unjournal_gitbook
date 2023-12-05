@@ -5,7 +5,7 @@ description: A "curated guide" to this GitBook; updated June 2023
 # Content overview
 
 {% hint style="info" %}
-**You can now ask questions of this GitBook using a chatbot:** click the search bar and choose _lens_.
+**You can now ask questions of this GitBook using a chatbot:** click the search bar or press cmd-k and choose _'ask Gitbook'_.
 {% endhint %}
 
 ## Key sections and subsections
