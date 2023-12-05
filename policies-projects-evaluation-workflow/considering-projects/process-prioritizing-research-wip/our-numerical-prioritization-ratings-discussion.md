@@ -79,8 +79,9 @@ graph TD
     G --> G2[Clarity and Logic]
     G --> G3[Other qualities]
     G1 -->|Meets Criteria| H[Potentially Prioritize]
-G2 -->|Meets Criteria| H[Potentially Prioritize]
-G3 -->|Meets Criteria| H[Potentially Prioritize]
+    G2 -->|Meets Criteria| H
+    G3 -->|Meets Criteria| H
+
 
 
 ```
