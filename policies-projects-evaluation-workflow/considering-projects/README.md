@@ -1,4 +1,4 @@
-# Project selection and evaluation
+# Project submission, selection and prioritization
 
 ## Submission/evaluation funnel
 
@@ -12,11 +12,15 @@ Our management team **rates the suitability of each paper** according to the cri
 
 ### Our procedures for identification and prioritization
 
-We have followed a few procedures for finding and prioritizing papers and projects. Generally, we allow all members of our management team to "vote" on how much to prioritize a paper before selecting it. In all cases, we require more than one member of our management team (or field specialist team) to support a paper before prioritizing it.
+We have followed a few procedures for finding and prioritizing papers and projects.  In all cases, we require more than one member of our research-involved team (field specialist, managers, etc.) to support a paper before prioritizing it.
 
-We are working to build a justified and systematic procedure as well as to give managers and field specialists some autonomy in prioritizing key papers and projects. As noted elsewhere, we are considering targets for particular research areas and sources.
+We are building a grounded systematic procedure with criteria and benchmarks. We also aim to give managers and field specialists some autonomy in prioritizing key papers and projects. As noted elsewhere, we are considering targets for particular research areas and sources.
 
-_See (internal discussion):_
+See our basic process (as of Dec. 2023) for prioritizing work: [process-prioritizing-research-wip](process-prioritizing-research-wip/ "mention")
+
+
+
+_See also (internal discussion):_
 
 * [Manager autonomy track](https://docs.google.com/document/d/1PjBGmrvT4PjudHW4F0a0dQ3V5PxcDq7o95xTzmHG4U4/edit)
 * Airtable: columns for "crucial\_research", "considering" view, "confidence," and "discussion"
@@ -24,11 +28,11 @@ _See (internal discussion):_
 
 ## Authors' permission: sometimes required
 
-Through October 2022: For the papers or projects at the top of our list, we hcontacted the authors and asked if they wanted to engage, only pursuing evaluation if agreed.
+Through October 2022: For the papers or projects at the top of our list, we contacted the authors and asked if they wanted to engage, only pursuing evaluation if agreed.
 
 _As of November 2022,_ we have a [**second track** where, under certain conditions](#user-content-fn-2)[^2], we inform authors but do not request permission. For this track, we first focused on particularly relevant [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date) working papers.
 
-_July 2023: We expanded this process to some other sources, with some discretion._&#x20;
+_July 2023: W_e expanded this process to some other sources, with some discretion.&#x20;
 
 _See_ [_Direct evaluation track_](direct-evaluation-track.md)_._
 

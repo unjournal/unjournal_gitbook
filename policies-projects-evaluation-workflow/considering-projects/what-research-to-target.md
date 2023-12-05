@@ -123,11 +123,9 @@ We present and analyze the specifics surrounding our current evaluation data in 
 
 
 
-## Choosing papers to pilot
-
-### A (slightly earlier) template for suggesting/submitting  papers
-
-Below, we present a (previous) template,  both for our own consideration and for sharing (in part?) with evaluators, to give [them some guidance](#user-content-fn-6)[^6]. Think of these as **bespoke evaluation notes** for a ["research overview, prioritization, and suggestions" document](#user-content-fn-7)[^7].&#x20;
+{% hint style="info" %}
+**Below**: An earlier template for considering and discussing the relevance of research. This was/is provided both for our own consideration and for sharing (in part?) with evaluators, to give [them some guidance](#user-content-fn-6)[^6]. Think of these as **bespoke evaluation notes** for a ["research overview, prioritization, and suggestions" document](#user-content-fn-7)[^7].&#x20;
+{% endhint %}
 
 <details>
 
