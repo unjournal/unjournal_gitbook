@@ -47,10 +47,5 @@ Aside on setting the prioritization ratings: In making your subjective prioritiz
 
 ### Notes for field specialists/Unjournal Team
 
-Please don’t enter only the papers you think are ‘very relevant’; please enter in all research that you have spent any substantial time considering. If we all do this, we should all aim for our percentile ratings to be approximately normally distributed; evenly spread over the 1-100% range.
+Please don’t enter only the papers you think are ‘very relevant’; please enter in all research that you have spent any substantial time considering (more than a couple minutes). If we all do this, we should all aim for our percentile ratings to be approximately normally distributed; evenly spread over the 1-100% range.
 
-
-
-\
-\
-\
