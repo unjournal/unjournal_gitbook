@@ -5,7 +5,7 @@
   * [Content overview](readme-1/contents-page.md)
   * [How to get involved](readme-1/call-for-participants-research/README.md)
     * [Brief version of call](readme-1/call-for-participants-research/brief-version-of-call.md)
-    * [Impactful Research Prize](readme-1/call-for-participants-research/impactful-research-prize/README.md)
+    * [Impactful Research Prize (pilot)](readme-1/call-for-participants-research/impactful-research-prize/README.md)
       * [Recap: submissions](readme-1/call-for-participants-research/impactful-research-prize/recap-submissions.md)
     * [Jobs and paid projects with The Unjournal](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal.md)
       * [Advisory/team roles (research, management)](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/advisory-team-roles-research-management.md)
