@@ -1,4 +1,4 @@
-# Our numerical prioritization ratings: discussion
+# Prioritization ratings: discussion
 
 As noted in [process-prioritizing-research-for-evaluation-wip.md](../process-prioritizing-research-for-evaluation-wip.md "mention"), we ask people who suggest research to provide a numerical 0-100 rating:
 
@@ -10,7 +10,7 @@ We also ask people within our team to act as 'assessors' to give as second and t
 
 ### _**So what goes into this "prioritization rating"; what does it mean?**_&#x20;
 
-We are working on a set of notes on this,  fleshing this out and giving specific examples. At the moment this is available to members of our team only (ask for access to "Guidelines for prioritization ratings (internal)"). We aim to share a version of this publicly once it converges, and once we can get rid of arbitrary sensitive example.&#x20;
+We are working on a set of notes on this,  fleshing this out and giving specific examples. At the moment this is available to members of our team only (ask for access to "Guidelines for prioritization ratings (internal)"). We aim to share a version of this publicly once it converges, and once we can get rid of arbitrary sensitive examples.&#x20;
 
 #### Some key points
 
