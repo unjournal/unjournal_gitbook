@@ -10,7 +10,7 @@
 
 [suggesting-research-forms.md](../policies-projects-evaluation-workflow/considering-projects/suggesting-research-forms.md "mention")
 
-[process-prioritizing-research-wip](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-wip/ "mention")
+[process-prioritizing-research-for-evaluation-wip.md](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-for-evaluation-wip.md "mention")
 
 
 

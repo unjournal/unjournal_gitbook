@@ -1,10 +1,10 @@
 # Our numerical prioritization ratings: discussion
 
-As noted in [.](./ "mention"), we ask people who suggest research to provide a numerical 0-100 rating:
+As noted in [process-prioritizing-research-for-evaluation-wip.md](../process-prioritizing-research-for-evaluation-wip.md "mention"), we ask people who suggest research to provide a numerical 0-100 rating:
 
 <figure><img src="https://lh7-us.googleusercontent.com/3FPOf56LHxTq0TwvrKrfJbkB0GorNNl3olUniyzicByqrKQ-Z-by4pqEQTzcTs07oOyQV_-iIABurM0pH8Sot37zRa7E-140pCGrTUsTA6qecIKkJz_CKRIx9sNLsWd2MhkOxAMwxSA34JNA-VCVi-E" alt=""><figcaption></figcaption></figure>
 
-We also ask people within our team to act as 'assessors' to give as second and third opinions on this.  This 'prioritization rating' is one of the criteria we will use to determine whether to commission research to be evaluated (along with author engagement, publication status, our capacity and expertise, etc.)  Again, see the [previous page](./) for the current process.
+We also ask people within our team to act as 'assessors' to give as second and third opinions on this.  This 'prioritization rating' is one of the criteria we will use to determine whether to commission research to be evaluated (along with author engagement, publication status, our capacity and expertise, etc.)  Again, see the [previous page](../process-prioritizing-research-for-evaluation-wip.md) for the current process.
 
 
 
@@ -39,13 +39,36 @@ _Obviously, these are not binary factors; there is a continuum for each. But for
 
 ```mermaid
 graph TD
-    A[Prestigious Work] -->|Decision-relevant, Prestigious| B(Globally Decision-Relevant and Prominent. Public Evaluation Needed Regardless of Methodological Strength. Important if Recent Public Working Paper, Non-straightforward Methodological Issues)
-    A -->|Prestigious but Less Globally-Relevant| C(Not Prioritized Unless Adds to Mission. Prioritize if Innovative Formats, Methodological Tools for High-Value Work, Draws Attention to Neglected Fields, Author Engagement with Processes)
+    A[Prestigious Work]
+    A --> B[Decision-relevant, Prestigious Work]
+    A --> C[Prestigious Work, Less Globally Relevant]
     A --> D[Less Prestigious Work]
-    D -->|Decision-relevant, Influential| E(Might Influence Major Organizations, Evaluation Needed, Class in 'Non-Academic/Policy' Stream Depending on Rigor)
-    D -->|Decision-relevant, Less Prestigious, Less-Influential| F(Evaluations Influence if Potentially Strong. Focus on Methodological Strength, Logical Rigor, Open Science, Real-World Policy Engagement)
-    F --> G[Remember: Prioritization Not an Evaluation in Itself, Can be Shallow]
+
+    B --> B1[Globally Decision-Relevant and Prominent]
+    B --> B2[Public Evaluation Needed]
+    B --> B3[Focus on Methodological Strength]
+    B --> B4[Recent Public Working Paper]
+    B --> B5[Non-straightforward Methodological Issues]
+
+    C --> C1[Innovative Formats]
+    C --> C2[Methodological Tools for High-Value Work]
+    C --> C3[Drawing Attention to Neglected Fields]
+    C --> C4[Author Engagement with Processes]
+
+    D --> E[Decision-relevant, Influential Work]
+    D --> F[Decision-relevant, Less Prestigious, Less-Influential Work]
+
+    E --> E1[Influence on Major Organizations]
+    E --> E2[Non-Academic/Policy Stream Based on Rigor]
+
+    F --> F1[Methodological Strength]
+    F --> F2[Logical Rigor]
+    F --> F3[Open Science]
+    F --> F4[Real-World Policy Engagement]
+
+    F --> G[Prioritization Not an Evaluation in Itself]
     G --> H[Future: Develop Methodological 'Suggestive Guidelines']
+
 
 ```
 

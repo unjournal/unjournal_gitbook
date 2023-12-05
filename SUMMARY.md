@@ -41,7 +41,7 @@
 * [Our policies: evaluation & workflow](policies-projects-evaluation-workflow/README.md)
   * [Project submission, selection and prioritization](policies-projects-evaluation-workflow/considering-projects/README.md)
     * [What research to target?](policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md)
-    * [Process: prioritizing research  (WIP)](policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-wip/README.md)
+    * [Process: prioritizing research  (WIP)](policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-for-evaluation-wip.md)
       * [Our numerical prioritization ratings: discussion](policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-wip/our-numerical-prioritization-ratings-discussion.md)
     * [Suggesting research (forms, guidance)](policies-projects-evaluation-workflow/considering-projects/suggesting-research-forms.md)
     * ["Direct evaluation" track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)
