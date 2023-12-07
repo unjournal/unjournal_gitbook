@@ -33,7 +33,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 [Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi), Post-Doctoral Researcher in the Department of Quantitative Methods and Economic Theory at the University of Chieti (Italy)
 
-[Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Program Lead, Impetus Institute for Meta-science
+[Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Metascience Program Lead, Federation of American Scientists
 
 [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/), Managing Editor at [Asterisk Mag](https://asteriskmag.com/): writing and research on global health, development, and nutrition
 
@@ -59,7 +59,7 @@ The table below shows _all_ the members of our team (including field specialists
 
 ## Staff, contractors, and consultants
 
-[Julia Bottesini](http://127.0.0.1:5000/s/scEoiIiYYQByE1FaibWQ/tools-and-examples/cole\_haus-modeling), Research Specialist: Data science, metascience, aggregation of expert judgment
+[Julia Bottesini](https://app.gitbook.com/s/scEoiIiYYQByE1FaibWQ/tools-and-examples/cole\_haus-modeling), Research Specialist: Data science, metascience, aggregation of expert judgment
 
 [Jordan Pieters](https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true\&heroEntityKey=urn%3Ali%3Afsd\_profile%3AACoAAC8F6\_QBDzDncXc8sedfDTnbux1rlhcRsU8\&keywords=jordan%20pieters\&origin=RICH\_QUERY\_SUGGESTION\&position=0\&searchId=54d727f6-c121-4404-aa85-30bc2b974c74\&sid=qFJ\&spellCorrectionEnabled=false), Operations generalist
 
