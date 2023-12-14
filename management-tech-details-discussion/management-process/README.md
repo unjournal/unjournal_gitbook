@@ -4,7 +4,12 @@
 See [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.\
 \
 _Update 28 November, 2023:_ We now have an 'alpha version' of a PubPub V7 setup that will serve as an automated "editorial management tool".  We are piloting this for a few papers and aim to fully transition soon.  Reach out if you are interested in trying this.
+
+\
+_As of Dec 2023, evaluation managers are compensated a_ minimum of $300 per project for their work. Further work on formatting, engaging further with authors and evaluators, writing detailed evaluation summary content, etc., can earn up to an additional $200.
 {% endhint %}
+
+
 
 ## **If you are the evaluation manager please follow the steps below.**
 
@@ -85,5 +90,5 @@ After the agreed time period has elapsed and they have not sent the evaluation, 
 5. We put all of this up on PubPub, get a DOI,  publicize this, etc. (This process will be partially or fully automated in our updated version of PubPub.
 6. Once the evaluations are up on PubPub, you could reach out the evaluators again with the link, in case they want to view their evaluation and the others.&#x20;
    * _The evaluators may be allowed to revise their evaluation, e.g., if the authors find an oversight in the_ evaluation. (We are working on a policy for this.)
-   * At the moment (Nov. 2023) we don't have any explicit 'revise and resubmit' procedure, as part of the process. Authors are uncouraged to share changes they plan to make, and a (perma)-link to where their revisions can be found. They are also welcome to independently (re)-submit an updated version of their work for a later _Unjournal_  evaluation.&#x20;
+   * At the moment (Nov. 2023) we don't have any explicit 'revise and resubmit' procedure, as part of the process. Authors are uncouraged to share changes they plan to make, and a (perma)-link to where their revisions can be found. They are also welcome to independently (re)-submit an updated version of their work for a later _Unjournal_ evaluation.&#x20;
 
