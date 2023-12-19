@@ -3,13 +3,13 @@
 {% hint style="info" %}
 See [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.\
 \
-_Update 28 November, 2023:_ We now have an 'alpha version' of a PubPub V7 setup that will serve as an automated "editorial management tool".  We are piloting this for a few papers and aim to fully transition soon.  Reach out if you are interested in trying this.
+_Update December 2023:_ We now have an 'alpha version' of a PubPub V7 setup that will serve as an automated "editorial management tool".  We are piloting this for a few papers and aim to fully transition soon.  Reach out if you are interested in trying this.
 
 \
 _As of Dec 2023, evaluation managers are compensated a_ minimum of $300 per project for their work. Further work on formatting, engaging further with authors and evaluators, writing detailed evaluation summary content, etc., can earn up to an additional $200.
 {% endhint %}
 
-## **If you are the evaluation manager please follow the steps below.**
+## **If you are the evaluation manager please follow the steps below.**&#x20;
 
 ### Airtable/PubPub
 
