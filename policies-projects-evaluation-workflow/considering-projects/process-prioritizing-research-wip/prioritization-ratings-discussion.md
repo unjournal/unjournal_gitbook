@@ -38,12 +38,12 @@ Define/consider the following ‘attributes’ of a piece of research:
 _Obviously, these are not binary factors; there is a continuum for each. But for the sake of illustration, consider the following flowcharts._&#x20;
 
 {% hint style="info" %}
-If the flowcharts do not render, please refresh your browser.
+If the flowcharts do not render, please refresh your browser. You may have to refresh twice.
 {% endhint %}
 
 ```mermaid
 graph TD
-    A[Prestigious Work]
+    A[Prestigious & 'Fully-baked' Work]
     A -->|If Global-Decision Relevant| B[Prioritize]
     A -->|Not Quite Global-Decision Relevant| C[Consider Unjournal Priorities]
     C --> C1[Submitted Work]
@@ -60,6 +60,10 @@ graph TD
 
 ### Prestigious work
 
+_**"Fully baked"**_**:**  Sometimes prominent researchers release work (e.g., on NBER) that is not particularly rigorous or involved, which may have been put together quickly. This might be research that links to a conference they are presenting at, to their teaching, or to specific funding or consulting. It may be survey/summary work, perhaps meant for less technical audiences. The Unjournal tends _not to_ prioritize such work, or at least not consider it in the same "prestigious" basket (although there will be exceptions). In the flowchart above, we contrast this with their "fully-baked" work.&#x20;
+
+
+
 _**Decision-relevant, prestigious work:**_ Suppose the research is both ‘globally decision-relevant’ and prominent. Here, if the research is in our domain, we probably want to have it publicly evaluated. This is basically the case regardless of its apparent methodological strength. This is particularly true if it has been recently made public (as a working paper), if it has not yet been published in a highly-respected peer-reviewed journal, and if there are non-straightforward methodological issues involved. \
 
 
@@ -72,7 +76,7 @@ _**Prestigious work that seems less globally-relevant:**_ We generally will not 
 
 ### Less prestigious work
 
-_(If the flowchart below does not render, please refresh your browser.)_
+_(If the flowchart below does not render, please refresh your browser; you may have to refresh twice.)_
 
 ```mermaid
 graph TD
