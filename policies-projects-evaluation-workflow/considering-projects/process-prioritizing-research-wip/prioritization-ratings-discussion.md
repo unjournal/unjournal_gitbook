@@ -43,7 +43,7 @@ If the flowcharts do not render, please refresh your browser. You may have to re
 
 ```mermaid
 graph TD
-    A[Prestigious & 'Fully-baked' Work]
+    A[Prestigious & Fully-baked Work]
     A -->|If Global-Decision Relevant| B[Prioritize]
     A -->|Not Quite Global-Decision Relevant| C[Consider Unjournal Priorities]
     C --> C1[Submitted Work]
@@ -81,7 +81,7 @@ _(If the flowchart below does not render, please refresh your browser; you may h
 ```mermaid
 graph TD
     E[Less Prestigious Work]
-    E -->|Influential & Impacting Global Decisions| F[Prioritize]
+    E -->|Influential, Impacting Global Decisions| F[Prioritize]
     F --> F1[Rigorous & Academic: Main Stream]
     F --> F2[Less Academic: Policy Stream]
     E -->|Less Influential but global-priority decision-relevant| G[Consider for Prioritization]
