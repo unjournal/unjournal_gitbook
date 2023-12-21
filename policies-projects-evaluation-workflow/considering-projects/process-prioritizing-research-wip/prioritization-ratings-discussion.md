@@ -43,7 +43,7 @@ If the flowcharts do not render, please refresh your browser. You may have to re
 
 ```mermaid
 graph TD
-    A[Prestigious & Fully-baked Work]
+    A[Prestigious and Fully-baked Work]
     A -->|If Global-Decision Relevant| B[Prioritize]
     A -->|Not Quite Global-Decision Relevant| C[Consider Unjournal Priorities]
     C --> C1[Submitted Work]
