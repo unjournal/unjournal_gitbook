@@ -1,7 +1,5 @@
 # Once your research is in our hands
 
-### "Your paper is being (has been) evaluated by The Unjournal"
-
 ## "Your paper is being (has been) evaluated by _The Unjournal_"
 
 Within our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention"), _The Unjournal_ directly chooses papers (from prominent archives, well-established researchers, etc.) to evaluate. We don't request authors' permission here.
