@@ -53,7 +53,7 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 
 ## Field Specialists
 
-The table below shows _all_ the members of our team (including field specialists) taking on a research-monitoring role (see [here](../organizational-roles-and-responsibilities.md#field-specialists-fs) for a description of this role).
+The table below shows _all_ the members of our team (including field specialists) taking on a research-monitoring role (see [here](../organizational-roles-and-responsibilities/#field-specialists-fs) for a description of this role).
 
 {% embed url="https://airtable.com/applDG6ifmUmeEJ7j/shrFwsCw7qpg8m0Ua" %}
 

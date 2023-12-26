@@ -1,6 +1,6 @@
 # Brief version of call
 
-I (David Reinstein) am an economist who left UK academia after 15 years to pursue a range of projects ([see my web page](http://davidreinstein.org/)). One of these is [The Unjournal](http://127.0.0.1:5000/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/):
+I (David Reinstein) am an economist who left UK academia after 15 years to pursue a range of projects ([see my web page](http://davidreinstein.org/)). One of these is [The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/):
 
 > The Unjournal (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) and the Survival and Flourishing Fund) organizes and funds public-journal-independent feedback and evaluation, paying reviewers for their work. We focus on research that is highly relevant to global priorities, especially in economics, social science, and impact evaluation. We encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
