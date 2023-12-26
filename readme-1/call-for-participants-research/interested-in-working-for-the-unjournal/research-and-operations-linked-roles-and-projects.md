@@ -1,7 +1,7 @@
 # Research and operations-linked roles and projects (temp. pause)
 
 {% hint style="info" %}
-_**Nov. 2023 update**: We can not guarantee that we will be hiring for this role, because of changes in our approach. We will consider all applicants for our_ [_Field Specialist_](../../organizational-roles-and-responsibilities.md#field-specialists-fs) _positions, and for roles that may come up in the future._
+_**Nov. 2023 update**: We can not guarantee that we will be hiring for this role, because of changes in our approach. We will consider all applicants for our_ [_Field Specialist_](../../organizational-roles-and-responsibilities/#field-specialists-fs) _positions, and for roles that may come up in the future._
 {% endhint %}
 
 

@@ -1,23 +1,23 @@
 # Organizational roles and responsibilities
 
-## **Management Committee Members**
+**Management Committee Members**
 
 Activities of those on the Management Committee may involve a combination of the following (although you can choose your focus):
 
 * Contributing to the decision-making process regarding research focus, reviewer assignment, and prize distribution.
 * Collaborating with other committee members on the establishment of rules and guidelines, such as determining the metrics for research evaluation and defining the mode of assessment publication.
 * Helping plan _The Unjournal_’s future path.
-* Helping monitor and prioritize research for The Unjournal to evaluate (i.e., acting as a [Field Specialist](organizational-roles-and-responsibilities.md#field-specialists-fs); see further discussion below). Acting as an [evaluation manager](../management-tech-details-discussion/management-process/) for research in your area.
+* Helping monitor and prioritize research for The Unjournal to evaluate (i.e., acting as a [Field Specialist](./#field-specialists-fs); see further discussion below). Acting as an [evaluation manager](../../management-tech-details-discussion/management-process/) for research in your area.
 
 **Time commitment**: A minimum of 15-20 hours per year.
 
-**Compensation**: We have funding for a $57.50 per hour honorarium for the first 20 hours, with possible compensation [for additional work](#user-content-fn-1)[^1]. [Evaluation management work](../management-tech-details-discussion/management-process/) will be further compensated (at roughly $300–$450 per paper).
+**Compensation**: We have funding for a $57.50 per hour honorarium for the first 20 hours, with possible compensation [for additional work](#user-content-fn-1)[^1]. [Evaluation management work](../../management-tech-details-discussion/management-process/) will be further compensated (at roughly $300–$450 per paper).
 
 **Who we are looking for**: All applicants are welcome. We are especially interested in those involved in global priorities research (and related fields), policy research and practice, open science and meta-science, bibliometrics and scholarly publishing, and any other academic research. We want individuals with a solid interest in _The Unjournal_ project and its goals, and the ability to meet the minimal time commitment. Applying is extremely quick, and those not chosen will be considered for other roles and work going forward.
 
 ## **Advisory Board (AB) Members**&#x20;
 
-Beyond direct roles within _The Unjournal_, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager when needed (see our [evaluation workflow](../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md)).
+Beyond direct roles within _The Unjournal_, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager when needed (see our [evaluation workflow](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md)).
 
 There is essentially no minimum time commitment for Advisory Board members—only opportunities to engage.  We sketch some of the expectations in the fold below.
 
@@ -42,7 +42,7 @@ _As an Advisory Board member..._
 
 <summary>Nov. 2023 priorities</summary>
 
-We are currently prioritizing bringing in more [Field Specialists](organizational-roles-and-responsibilities.md#field-specialists-fs) to build our teams in a few areas, particularly including:&#x20;
+We are currently prioritizing bringing in more [Field Specialists](./#field-specialists-fs) to build our teams in a few areas, particularly including:&#x20;
 
 * Catastrophic risks, AI governance and safety
 * Animal welfare: markets, attitudes
@@ -64,7 +64,9 @@ Some Advisory Board members will also be FSs, although some may not (e.g., becau
 
 **Time commitment**: There is no specific time obligation—only opportunities to engage. We may also consult you occasionally on your areas of expertise. Perhaps 1–4 hours a month is a reasonable starting expectation for people already involved in doing or using research, plus potential additional paid assignments.
 
-**Compensation:** We are putting together a compensation formula; we aim to fairly compensate people for time spent on work done to support _The Unjournal_, and to provide incentives for suggesting and helping to prioritize research for evaluation. In addition, [evaluation management work](../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.
+Our '[Incentives and norms](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit)' document also provide some guidance on the nature of work and the time involved.
+
+**Compensation:** We have put together a preliminary/trial compensation formula ('[incentives and norms](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit)'); we aim to fairly compensate people for time spent on work done to support _The Unjournal_, and to provide incentives for suggesting and helping to prioritize research for evaluation. In addition, [evaluation management work](../../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.
 
 **Who we are looking for**: For the FS roles, we are seeking active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the Advisory Board, also people with connections to academic, governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
 
@@ -74,15 +76,15 @@ _Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7
 
 <summary><em>If you become a field specialist, what happens next?</em></summary>
 
-You will be asked to fill out [this survey](https://airtable.com/appbPYEw9nURln7Qg/shr18RefpzAKNtfhC) to let us know what fields, topics, and sources of research you would like to "monitor" or dig into to help identify and curate work relevant for _Unjournal_ evaluation, as well as outlining your areas of expertise (the form takes perhaps 5–20 minutes).
+You will be asked to fill out  to let us know what fields, topics, and sources of research you would like to "monitor" or dig into to help identify and curate work relevant for _Unjournal_ evaluation, as well as outlining your areas of expertise (the form takes perhaps 5–20 minutes).
 
 This survey helps us understand when to contact you to ask if you want to be an evaluation manager on a paper we have prioritized for evaluation.
 
-Guided by this survey form (along with discussions we will have with you, and coordination with the team), we will develop an “assignment” that specifies the area you will be covering. We will try to divide the space and not overlap between field specialists. This scope can be as broad or focused as you like.&#x20;
+Guided by this survey form (along with discussions we will have with you, and coordination with the team), we will develop an “assignment” that specifies the area you will cover. We will try to divide the space and not overlap between field specialists. This scope can be as broad or focused as you like.&#x20;
 
 Within your area, you keep a record of the research that seems relevant (and why, and what particularly needs evaluation, etc.) and enter it in our database. (Alternatively, you can pass your notes to us for recording.)
 
-We will compensate you for the time you spend on this process (details tbd), particularly to the extent that the time you spend does not contribute to your other work or research.
+We will compensate you for the time you spend on this process (details tbd), particularly to the extent that the time you spend does not contribute to your other work or research. (See '[incentives and norms](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit)' trial [here](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit).)
 
 </details>
 
@@ -108,7 +110,7 @@ Other teams are being organized (and we are particularly recruiting field specia
 * Quantitative political science (voting, lobbying, attitudes)&#x20;
 * The social impact of AI/emerging technologies&#x20;
 * Macro/growth, finance, public finance
-* &#x20;Long-term trends and demographics
+* Long-term trends and demographics
 
 </details>
 
@@ -116,7 +118,7 @@ Other teams are being organized (and we are particularly recruiting field specia
 
 <summary>"Monitoring" a research area/source as a field specialist</summary>
 
-The Unjournal's Field Specialists choose an area they want to "monitor". By this we mean that a field specialist will
+_The Unjournal'_s Field Specialists choose an area they want to "monitor". By this we mean that a field specialist will
 
 * Keep an eye on designated sources (e.g., particular working paper series) and fields (or outcomes or area codes), perhaps every month or so; consider new work, dig into archives&#x20;
 * Let us know what you have been able to cover; if you need to reduce the scope, we can adjust it
@@ -125,12 +127,16 @@ The Unjournal's Field Specialists choose an area they want to "monitor". By this
 
 </details>
 
+See: [Unjournal Field Specialists: Incentives and norms (trial)](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit)
+
+
+
 ## Contact us
 
-If you are interested in discussing any of the above in person, please email us ([contact@unjournal.org](http://127.0.0.1:5000/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)) to arrange a conversation.
+If you are interested in discussing any of the above in person, please email us ([contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)) to arrange a conversation.
 
 We invite you to fill in [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (the same as that linked above) to leave your contact information and outline which parts of the project interest you.
 
-_Note_: These descriptions are under continual refinement; see our [policies](../policies-projects-evaluation-workflow/) for more details.
+_Note_: These descriptions are under continual refinement; see our [policies](../../policies-projects-evaluation-workflow/) for more details.
 
 [^1]: Our current budget covers an average of roughly 80 total hours per Management Committee member at this rate.

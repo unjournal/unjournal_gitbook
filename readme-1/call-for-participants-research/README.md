@@ -10,7 +10,7 @@ See [#in-a-nutshell](../#in-a-nutshell "mention") for an overview of _The Unjour
 **In brief (TLDR):**\
 If you are interested in being on _The_ _Unjournal_'s Management Committee, Advisory Board, or Reviewer Pool, please fill out [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3–5 min).&#x20;
 
-If you have research you would like us to assess (either your own or others'), please fill out [this form](https://bit.ly/ujsuggestr). You can also submit your own work [here](https://bit.ly/ujsubmitr), or by contacting [contact@unjournal.org](http://127.0.0.1:5000/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
+If you have research you would like us to assess (either your own or others'), please fill out [this form](https://bit.ly/ujsuggestr). You can also submit your own work [here](https://bit.ly/ujsubmitr), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
 \
 We're anticipating several job openings spanning research, communications, and operational/administrative roles. See our [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit), and express your interest in [this form](https://airtable.com/shrxGwooWtwZqY8cd).
@@ -40,12 +40,12 @@ The [_Unjournal_ team](https://effective-giving-marketing.gitbook.io/unjournal-x
 
 We maintain an **open call for participants** for four different roles:
 
-1. [**Management Committee members**](../organizational-roles-and-responsibilities.md#management-committee-members) (involving honorariums for time spent)
-2. [**Advisory Board**](../organizational-roles-and-responsibilities.md#advisory-board-members-abm) members (no time commitment)
-3. [**Field Specialists**](../organizational-roles-and-responsibilities.md#field-specialists-fs) (who will often also be on the Advisory Board)
+1. [**Management Committee members**](../organizational-roles-and-responsibilities/#management-committee-members) (involving honorariums for time spent)
+2. [**Advisory Board**](../organizational-roles-and-responsibilities/#advisory-board-members-abm) members (no time commitment)
+3. [**Field Specialists**](../organizational-roles-and-responsibilities/#field-specialists-fs) (who will often also be on the Advisory Board)
 4. A pool of **Evaluators** (who will be paid for their time and their work; we also draw evaluators from outside this pool)
 
-[The roles are explained in more detail here.](../organizational-roles-and-responsibilities.md) You can express your interest (and enter our database) [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
+[The roles are explained in more detail here.](../organizational-roles-and-responsibilities/) You can express your interest (and enter our database) [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
 
 <details>
 
@@ -101,7 +101,7 @@ We provide a separate form for research suggestions [here](https://airtable.com/
 
 ## Contact us
 
-If you are interested in discussing any of the above in person, please email us ([contact@unjournal.org](http://127.0.0.1:5000/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)) to arrange a conversation.
+If you are interested in discussing any of the above in person, please email us ([contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)) to arrange a conversation.
 
 We invite you to fill in [this form ](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy)to leave your contact information, as well as outlining which parts of the project you may be interested in.
 
