@@ -26,7 +26,7 @@
 * [Why Unjournal?](benefits-and-features/README.md)
   * [Reshaping academic evaluation: Beyond the binary of acceptance/rejection](benefits-and-features/costs-of-playing-the-publication-game.md)
   * [Promoting open and robust science](benefits-and-features/promoting-open-robust-science.md)
-  * [Global priorities: Theory of Change](benefits-and-features/global-priorities-theory-of-change/README.md)
+  * [Global priorities: Theory of Change (Logic Model)](benefits-and-features/global-priorities-theory-of-change/README.md)
     * [Balancing information accessibility and hazard concerns](benefits-and-features/global-priorities-theory-of-change/aside-open-access-and-information-hazards.md)
   * [Promoting 'Dynamic Documents' and 'Living Research Projects'](benefits-and-features/dynamic-documents-vs-living-projects/README.md)
     * [Benefits of Dynamic Documents](benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)
