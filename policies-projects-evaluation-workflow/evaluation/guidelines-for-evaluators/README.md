@@ -5,9 +5,12 @@ _**Thanks for your interest in evaluating research for**_** The Unjournal!**
 
 Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit.
 
-You will be given a (minimum) $400 honorarium for providing an on-time[^1] and complete evaluation and feedback. \[Updated 14 July 2023] You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.\
+[You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing an on-time[^2] and complete evaluation and feedback. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.\
 \
-See the guidelines below. You can submit your response in a [Google Doc (see note](#user-content-fn-2)[^2])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly. \
+See the guidelines below. You can submit your response in a [Google Doc (see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  \
+
+
+Dec. 2023 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead.\
 
 
 Our data protection statement is linked [here](https://bit.ly/46y0LqH).
@@ -17,7 +20,9 @@ Our data protection statement is linked [here](https://bit.ly/46y0LqH).
 
 <summary>Managers/commenters</summary>
 
-The template Google Doc itself [can be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3). Please request access permission.
+The 'template Google Doc itself [can be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3).' Please request access permission.
+
+Dec. 2023 update: we are moving to a hosted form/interface in PubPub, which will replace that Google Doc.
 
 </details>
 
@@ -29,7 +34,7 @@ _You can download the current page as a PDF_ [_here_ ](https://www.dropbox.com/s
 
 We are in the process of building a more clearly justified and interpretable set of guidelines, leveraging insights and innovations from previous work (such as repliCATS). This will take some time. \
 \
-In the meantime we are making some updates and simplifications; these are noted below. The main changes made so far are:
+In the meantime we have made some updates and simplifications; these are noted below. The main changes made so far are:
 
 1. Removing the "suggested weightings'" for ratings categories
 2. Adjusting the discussion of the "overall assessment" category
@@ -38,11 +43,13 @@ In the meantime we are making some updates and simplifications; these are noted 
 
 <details>
 
-<summary>Additional payments</summary>
+<summary>Additional rewards and incentives</summary>
 
 We may occasionally offer additional payments for specifically requested evaluation tasks, or raise the base payments for particularly hard-to-source expertise.
 
 July 2023: The above is our current policy; we are working to build an effective, fair, transparent, and straightforward system of honorariums, incentives, and awards for evaluators.
+
+Dec 2023: Note that we currently set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes.
 
 </details>
 
@@ -56,8 +63,8 @@ See: [#submitting-and-paying-expenses-claims](../../../management-tech-details-d
 
 ## What we would like you to do
 
-1. **Write a review:** a "standard high-quality referee report," with some [specific considerations](#user-content-fn-3)[^3].
-2. [**Give quantitative metrics and predictions** as requested in the two tables below.](#user-content-fn-4)[^4]
+1. **Write a review:** a "standard high-quality referee report," with some [specific considerations](#user-content-fn-4)[^4].
+2. [**Give quantitative metrics and predictions** as requested in the two tables below.](#user-content-fn-5)[^5]
 3. Answer a short questionnaire about your background and our processes.
 
 ## Writing the report
@@ -76,13 +83,15 @@ Please pay attention to anything our managers and editors specifically asked you
 
 <summary><em>The Unjournal</em>'s criteria</summary>
 
-For the most part, this is like a standard journal review, but we have some particular priorities. See [#category-explanations-what-you-are-rating](./#category-explanations-what-you-are-rating "mention") for guidance. For example, we would like to prioritize impact and robustness over cleverness.
+For the most part, this is like a standard journal review, but we have some particular priorities.&#x20;
+
+See[#category-explanations-what-you-are-rating](./#category-explanations-what-you-are-rating "mention") for guidance. For example, we would like to prioritize impact and robustness over cleverness.
 
 </details>
 
 <details>
 
-<summary><strong>That t</strong>his review (and ratings) will be made public</summary>
+<summary>Note that <strong>t</strong>his review (and ratings) will be made public</summary>
 
 Unless you were advised otherwise, it will be given a DOI and, hopefully, will enter the public research conversation. Note that the authors will be given two weeks to respond to reviews before the evaluations, ratings, and responses are made public. You will be given a _choice_ of whether you want to be listed publicly as an author of the review.
 
@@ -96,7 +105,7 @@ _We want you to evaluate the most recent/relevant version of the paper/project t
 
 <summary>Publishing and signing reviews: considerations and exceptions</summary>
 
-We are considering the best policy towards signed reviews vs. single-blind reports. For now we give evaluators the option to choose, and you can wait to choose until _after_ you have completed the report. We may change this policy in the future.&#x20;
+We are still considering the best policy towards signed reviews vs. single-blind reports. For now we give evaluators the option to choose, and you can wait to choose until _after_ you have completed the report. We may change this policy in the future.&#x20;
 
 We may give early-career researchers the right to veto the publication of very negative reviews or to embargo the release of these reviews for a defined period. We will inform you in advance if this will be the case for your evaluation.
 
@@ -105,24 +114,24 @@ You can reserve some "sensitive" content in your report to be shared with only _
 </details>
 
 {% hint style="info" %}
-_Suggestion to evaluators:_ The [#metrics-overall-assessment-categories](./#metrics-overall-assessment-categories "mention") and [#overall-assessment](./#overall-assessment "mention") outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. (However, we are not asking you to _structure_ your evaluation according to these metrics.)
+_Suggestion to evaluators:_&#x20;
+
+The [#metrics-overall-assessment-categories](./#metrics-overall-assessment-categories "mention") and [#overall-assessment](./#overall-assessment "mention") outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. However, we are not asking you to _structure_ your evaluation text according to these metrics.
 {% endhint %}
 
 ### **What should be prioritized in an evaluation?**
 
-Important questions for your evaluation include who the audience is, what value the evaluation provides, and how you should prioritize feedback.
+Important questions for your evaluation include 'who the audience is', 'what value the evaluation provides', and 'how you should prioritize feedback'. Essentially, we want you to put an equal value on:
 
-Essentially, we want you to put an equal value on:
+1. making the evaluations and ratings useful for readers and policymakers;
+2. making them meaningful for "assessing academics" (as a measure of value to consider against the current "journal tier" system); and
+3. communicating useful feedback to researchers, to help them improve their work.
 
-* making the evaluations and ratings useful for readers and policymakers;
-* making them meaningful for "assessing academics" (as a measure of value to consider against the current "journal tier" system); and
-* communicating useful feedback to researchers, to help them improve their work.
-
-_We provide a more detailed discussion of what this means and why, and how it relates to our impact and "theory of change,"_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
+_We provide a more detailed discussion of what this means and why, and how it relates to our impact and "theory of change"_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
 
 ### A **"standard high-quality referee report"**
 
-We are generally asking for the sort of report an academic would write for a tradition high-prestige journal. We are asking for this, subject to some differences in priorities (discussed below) and subject to any particular requests the managing editor may communicate to you.
+We are generally asking for the sort of report an academic would write for a traditional high-prestige journal. We are asking for this, subject to some differences in priorities (discussed below) and subject to any particular requests the managing editor may communicate to you.
 
 **Length/time spent:** This is up to you. We welcome detail, elaboration, and technical discussion.
 
@@ -139,7 +148,7 @@ We are generally asking for the sort of report an academic would write for a tra
 Our _general priorities_ are embodied in the quantitative metrics below. We believe these are similar, but not identical, to criteria used by the top journals in economics and adjacent fields.
 
 {% hint style="info" %}
-Below is a [completed example.](#user-content-fn-5)[^5] We will give evaluators a concise survey form with everything they need to fill out.
+Below is a [completed example.](#user-content-fn-6)[^6] We will give evaluators a concise survey form with everything they need to fill out.
 {% endhint %}
 
 <details>
@@ -169,7 +178,7 @@ Although we ask you to rate (and discuss) the relevance of this work to global p
 _**For each question above, if it seems relevant and you feel qualified to judge, please . . .**_&#x20;
 
 1. Give a rating from 0–100, considering the _"what we are asking you to rate"_ discussion provided. Try to follow the scale in[#0-100-metric-explained](./#0-100-metric-explained "mention"), but specifically for this _category._
-2. Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval _or_ using our [scale described below](./#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-6)[^6] _See explainers and discussion in folds below.)_
+2. Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval _or_ using our [scale described below](./#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-7)[^7] _See explainers and discussion in folds below.)_
 
 <details>
 
@@ -277,7 +286,7 @@ This work represents a strong and substantial achievement. It is highly rigorous
 
 <summary>Middle ratings (40–59, 60–74) (*)</summary>
 
-[**60–74.9**](#user-content-fn-7)[^7]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
+[**60–74.9**](#user-content-fn-8)[^8]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
 
 **40–59.9:** A useful contribution, with major strengths, but also some important flaws or limitations.
 
@@ -339,7 +348,7 @@ The example in the diagram above (click to zoom) illustrates the proposed corres
 
 ### **Category explanations: what you are rating**
 
-[_Note that all of these criteria are scales (not binaries_](#user-content-fn-8)[^8]_)._
+[_Note that all of these criteria are scales (not binaries_](#user-content-fn-9)[^9]_)._
 
 #### 1. Advancing our knowledge and practice
 
@@ -353,7 +362,7 @@ Originality and cleverness should be weighted less than the typical journal, bec
 
 </details>
 
-Do the insights generated inform our ("posterior") beliefs about important parameters and about the effectiveness of interventions? [Note that we do not require a substantial _shift_ in our expectations; sound and well-presented "null results" can be valuable.](#user-content-fn-9)[^9]
+Do the insights generated inform our ("posterior") beliefs about important parameters and about the effectiveness of interventions? [Note that we do not require a substantial _shift_ in our expectations; sound and well-presented "null results" can be valuable.](#user-content-fn-10)[^10]
 
 Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
@@ -361,7 +370,7 @@ Does the project leverage and incorporate recent relevant and credible work in u
 
 Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the discussion of methods?
 
-Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-10)[^10]
+Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-11)[^11]
 
 Avoiding bias and questionable research practices (QRP): Did the authors take steps to reduce bias from opportunistic reporting and QRP? For example, pre-registration, multiple hypothesis testing corrections, and reporting flexible specifications.
 
@@ -410,7 +419,7 @@ Do the authors provide tools, resources, data, and outputs that are likely to en
 
 #### 5. Engaging with real-world, impact quantification; practice, realism, and relevance
 
-[Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-11)[^11]
+[Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-12)[^12]
 
 Is the setup particularly well-informed by real-world norms and practices? “Is this realistic; does it make sense in the real world?”
 
@@ -516,7 +525,7 @@ Consider the scale of journals described above. Suppose that
 
 1. the journal process was fair, unbiased, and free of noise, and that status, social connections, and lobbying to get the paper published didn’t matter;
 2. journals assessed research according to the category metrics we discussed above; and
-3. this research was being submitted to journals according [to this fair process.\*](#user-content-fn-12)[^12]
+3. this research was being submitted to journals according [to this fair process.\*](#user-content-fn-13)[^13]
 
 _In such a case, in what quality level of journal would and should this research be published in its current form (or with minor revisions)?_
 
@@ -529,7 +538,7 @@ _For the questions below, we will publish your responses and review unless you a
 1. How long have you been in this field?
 2. How many proposals and papers have you evaluated? _(For journals, grants, and other peer review.)_
 
-_Your answers to the questions_ [_below will not be made public:_](#user-content-fn-13)[^13] &#x20;
+_Your answers to the questions_ [_below will not be made public:_](#user-content-fn-14)[^14] &#x20;
 
 1. How would you rate this template and process?
 2. Do you have any suggestions or questions about this process or _The Unjournal_? (We will try to respond and to incorporate your suggestions.) \[Open response]
@@ -619,28 +628,30 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 
 
-[^1]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
+[^1]: Updated 14 July 2023
 
-[^2]: We are using a Google Doc for now; we're hoping to move to asking the PubPub  interface soon. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.           &#x20;
+[^2]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
 
-[^3]: These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions and guidelines for specific research.
+[^3]: We are using a Google Doc for now; we're hoping to move to asking the PubPub  interface soon. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.           &#x20;
 
-[^4]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
+[^4]: These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions and guidelines for specific research.
 
-[^5]: In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance in the subsections below.
+[^5]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
-[^6]: _Above, we completed both only for illustration purposes. Below, we give a suggested correspondence between these two measures._ &#x20;
+[^6]: In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance in the subsections below.
 
-[^7]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
+[^7]: _Above, we completed both only for illustration purposes. Below, we give a suggested correspondence between these two measures._ &#x20;
 
-[^8]: _So, consider each of the questions below to be prefaced with "to what extent"._
+[^8]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
 
-[^9]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field. I.e., (in Bayesian terminology) work that “substantially concentrates our belief distributions around the initial expectations” is also highly valuable.
+[^9]: _So, consider each of the questions below to be prefaced with "to what extent"._
 
-[^10]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications?
+[^10]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field. I.e., (in Bayesian terminology) work that “substantially concentrates our belief distributions around the initial expectations” is also highly valuable.
 
-[^11]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+[^11]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications?
 
-[^12]: \*This third element was added in June 2023.
+[^12]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
-[^13]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
+[^13]: \*This third element was added in June 2023.
+
+[^14]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
