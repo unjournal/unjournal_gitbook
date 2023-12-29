@@ -53,7 +53,7 @@ _However, we decided to remove these weightings because:_
 
 
 
-### Pre-October 2023  'ratings with weights' table, provided for reference
+### Pre-October 2023  'ratings with weights' table, provided for reference (NO LONGER IN USE)
 
 <table><thead><tr><th width="262">Category (importance)</th><th width="112" align="center">Sugg. Wgt.*</th><th width="107" data-type="number">Rating (0-100)</th><th width="115" align="center">90% CI</th><th data-type="rating" data-max="5">Confidence (alternative to CI)</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="why-these-guidelines.md#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td align="center"></td><td>44</td><td align="center">39, 52</td><td>4</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td align="center">5</td><td>50</td><td align="center">47, 54</td><td>5</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td align="center">5</td><td>51</td><td align="center"><em>45, 55</em></td><td>4</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#3.-logic-and-communication">#3.-logic-and-communication</a></td><td align="center">4</td><td>20</td><td align="center"><em>10, 35</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td align="center">3</td><td>60</td><td align="center"><em>40, 70</em></td><td>2</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td align="center">2</td><td>35</td><td align="center"><em>30,46</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td align="center">0**</td><td>30</td><td align="center">21,65</td><td>1</td><td></td></tr></tbody></table>
 
@@ -70,6 +70,66 @@ Elsewhere in that page we had noted:
 > As noted above, we give suggested weights (0–5) to suggest the importance of each category rating to your overall assessment, given _The Unjournal_'s priorities. [_But you don't need, and may not want to use these weightings precisely._](#user-content-fn-4)[^4]
 
 The weightings were presented once again along with each description in the section ["Category explanations: what you are rating"](./#category-explanations-what-you-are-rating).
+
+### Pre-2024 ratings and uncertainty elicitation, provided for reference (NO LONGER IN USE)
+
+<table><thead><tr><th width="262">Category (importance)</th><th width="152.01169590643275" data-type="number">Rating (0-100)</th><th width="115" align="center">90% CI</th><th data-type="rating" data-max="5">Confidence (alternative to CI)</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="why-these-guidelines.md#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td>44</td><td align="center">39, 52</td><td>4</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td>50</td><td align="center">47, 54</td><td>5</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td>51</td><td align="center"><em>45, 55</em></td><td>4</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#3.-logic-and-communication">#3.-logic-and-communication</a></td><td>20</td><td align="center"><em>10, 35</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td>60</td><td align="center"><em>40, 70</em></td><td>2</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td>35</td><td align="center"><em>30,46</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="why-these-guidelines.md#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td>30</td><td align="center">21,65</td><td>1</td><td></td></tr></tbody></table>
+
+
+
+> \[FROM PREVIOUS GUIDELINES:]&#x20;
+>
+> You may feel comfortable giving your "90% confidence interval," or you may prefer to give a "descriptive rating" of your confidence (from "extremely confident" to "not confident").
+>
+> Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval _or_ using our [scale described below](why-these-guidelines.md#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-5)[^5]&#x20;
+
+<details>
+
+<summary>[Previous guidelines] "1–5 dots": Explanation and relation to CIs</summary>
+
+5 = Extremely confident, i.e., 90% confidence interval spans +/- 4 points or less
+
+4 = Very confident: 90% confidence interval +/- 8 points or less
+
+3 = Somewhat confident: 90% confidence interval +/- 15 points or less
+
+2 = Not very confident: 90% confidence interval, +/- 25 points or less
+
+1 = Not confident: (90% confidence interval +/- more than 25 points)
+
+</details>
+
+> \[Previous...] Remember, we would like you to give a 90% CI _or_ a confidence rating (1–5 dots), but not both.
+
+<details>
+
+<summary>[Previous guidelines] Example of confidence dots vs CI</summary>
+
+<img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
+
+The example in the diagram above (click to zoom) illustrates the proposed correspondence.
+
+</details>
+
+And, for the 'journal tier' scale:
+
+<details>
+
+<summary>[Previous guidelines]: Reprising the confidence intervals for this new metric</summary>
+
+**From "five dots" to "one dot":**
+
+**5 = Extremely** confident, i.e., 90% confidence interval spans +/– 4 points or less\*
+
+**4 = Very** confident: 90% confidence interval +/– 8 points or less
+
+**3 = Somewhat** confident: 90% confidence interval +/– 15 points or less
+
+**2 = Not very** confident: 90% confidence interval, +/– 25 points or less
+
+**1 = Not** confident: 90% confidence interval +/– 25 points
+
+</details>
 
 ## See also
 
@@ -102,3 +162,5 @@ The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate
 
 
 [^4]: For example, you might weight categories less where you are more uncertain, or where the category seems less relevant.
+
+[^5]: _Above, we completed both only for illustration purposes. Below, we give a suggested correspondence between these two measures._ &#x20;

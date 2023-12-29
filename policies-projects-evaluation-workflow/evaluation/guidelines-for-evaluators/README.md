@@ -153,15 +153,37 @@ Below is a [completed example.](#user-content-fn-6)[^6] We will give evaluators 
 
 <details>
 
-<summary>2 Oct 2023 update note - removed "weightings"</summary>
+<summary>Oct 2023 update - removed "weightings"</summary>
 
 We have removed suggested weightings for each of these categories. We discuss the rationale at some length [here](why-these-guidelines.md#weightings-for-each-rating-category-removed-for-now).&#x20;
 
-Evaluators working before October 2023 saw a previous version of the table, which you can see HERE.
+Evaluators working before October 2023 saw a previous version of the table, which you can see [HERE](why-these-guidelines.md#pre-october-2023-ratings-with-weights-table-provided-for-reference).
 
 </details>
 
-<table><thead><tr><th width="262">Category (importance)</th><th width="152.01169590643275" data-type="number">Rating (0-100)</th><th width="115" align="center">90% CI</th><th data-type="rating" data-max="5">Confidence (alternative to CI)</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td>44</td><td align="center">39, 52</td><td>4</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td>50</td><td align="center">47, 54</td><td>5</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td>51</td><td align="center"><em>45, 55</em></td><td>4</td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td>20</td><td align="center"><em>10, 35</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td>60</td><td align="center"><em>40, 70</em></td><td>2</td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td>35</td><td align="center"><em>30,46</em></td><td>3</td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td>30</td><td align="center">21,65</td><td>1</td><td></td></tr></tbody></table>
+<details>
+
+<summary>Dec. 2023: Hiding/de-emphasizing 'confidence Likerts'</summary>
+
+We previously gave evaluators two options for expressing their confidence in each rating:&#x20;
+
+Either:
+
+1. The 90% Confidence/Credible Interval (CI) input you see below (now a 'slider' in PubPub V7) or
+
+<!---->
+
+2. A five-point 'Likert style' measure of confidence, which we described qualitatively and explained how we would convert it into CIs when we report aggregations.&#x20;
+
+To make this process less confusing, to encourage careful quantification of uncertainty, and to enable better-justified aggregation of expert judgment, we are de-emphasizing the latter measure.&#x20;
+
+Still, to accommodate those who may not be familiar with or comfortable stating "90% CIs on their own beliefs" we offer further explanations, and we are providing tools to help construct these. As a fallback, we will still allow evaluators to give the 1-5 confidence measure, noting the correspondence to CIs, but we discourage this somewhat. as well as referencetools . &#x20;
+
+Evaluators working before October 2023 saw a previous version of the table, which you can see [HERE](why-these-guidelines.md#pre-october-2023-ratings-with-weights-table-provided-for-reference).
+
+</details>
+
+<table><thead><tr><th width="262">Category (importance)</th><th width="152.01169590643275" data-type="number">Rating (0-100)</th><th width="115" align="center">90% CI</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td>44</td><td align="center">39, 52</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td>50</td><td align="center">47, 54</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td>51</td><td align="center"><em>45, 55</em></td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td>20</td><td align="center"><em>10, 35</em></td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td>60</td><td align="center"><em>40, 70</em></td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td>35</td><td align="center"><em>30,46</em></td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td>30</td><td align="center">21,65</td><td></td></tr></tbody></table>
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
@@ -173,12 +195,18 @@ Although we ask you to rate (and discuss) the relevance of this work to global p
 
 </details>
 
-&#x20;                      &#x20;
+&#x20;                &#x20;
 
 _**For each question above, if it seems relevant and you feel qualified to judge, please . . .**_&#x20;
 
 1. Give a rating from 0–100, considering the _"what we are asking you to rate"_ discussion provided. Try to follow the scale in[#0-100-metric-explained](./#0-100-metric-explained "mention"), but specifically for this _category._
-2. Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval _or_ using our [scale described below](./#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-7)[^7] _See explainers and discussion in folds below.)_
+2. Quantify how certain you are about this rating by giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval.
+
+_**Note**_: We are in the process of switching to a new PubPub interface for entering  evaluations. This provides "slider bars" to express your chosen intervals, as in the image below. This form will ask you to "please indicate your rating (the ‘middle’ dot), and the lower and upper endpoints of your 90% CI (the lower and upper dots)".
+
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>A "Slider bar" for a rating</p></figcaption></figure>
+
+
 
 <details>
 
@@ -186,21 +214,19 @@ _**For each question above, if it seems relevant and you feel qualified to judge
 
 We explain the [categories here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators#category-explanations-what-you-are-rating) and the intended metrics scale [here (links below)](./#0-100-metric-explained). Your feedback is very welcome.
 
-However, we recognize (as of June 2023) that we have not yet defined our criteria and their metrics precisely; we are working to improve this. We may adopt a more explicit metric, e.g., in terms of "the distribution of research work typically published in conventional journals with particular tiers."
-
 </details>
 
 <details>
 
 <summary>Why are you asking about "confidence" in these metrics?</summary>
 
-Ideally, we would like you to state your "confidence intervals" or "credibility intervals." Loosely speaking, we hope to capture a sense of how sure you are about your ratings. This will help people who read your evaluation to know how much weight to put on them in using them for making their own decisions. These can also be used in systematic ways for meta-science and meta-analysis. We can "aggregate expert judgment" to get a better measure of how confident we _should be_ about particular measures and claims.
+We would like you to state your "confidence intervals" or "credibility intervals." Loosely speaking, we hope to capture a sense of how sure you are about your ratings. This will help people who read your evaluation to know how much weight to put on them in using them for making their own decisions. These can also be used in systematic ways for meta-science and meta-analysis. We can "aggregate expert judgment" to get a better measure of how confident we _should be_ about particular measures and claims.
 
 </details>
 
 <details>
 
-<summary>But how do I come up with these (confidence/credibility) intervals here?</summary>
+<summary>But how do I actually come up with these ratings and confidence/credibility intervals?</summary>
 
 You may know most of the concepts below, but you might be unfamiliar with applying them in a situation like this one.
 
@@ -212,15 +238,17 @@ Your "'best guess" should (basically) be the central mass point of this distribu
 
 You are asked to give a 90% interval. Loosely speaking, you could consider something like, "What is the smallest interval around this best guess that I believe is 90% likely to contain the true value?"
 
-E.g., you might have thoughts similar to these:
+_**E.g., you might have thoughts similar to these:**_
 
-"I am going to interpret the 'methods' in terms of their reliability for consistent causal inference and minimizing parameter mean-squared error in settings like this one.
+I am going to interpret the 'methods' in terms of their reliability for consistent causal inference and minimizing parameter mean-squared error in settings like this one."
 
-"I see the suggested [metrics scale](./#category-explanations-what-you-are-rating). Although this scale gives descriptive criteria, I think the best interpretation of this metric would consider appropropriateness of the methods chosen relative to the choices made across the distribution of all papers published in any top-50-or-above, impact-factor-rated journal in economics. My best/central guess is that this paper falls into the 65th percentile for this.
+I will consider the appropriateness of the methods chosen relative to the choices made across the distribution of all papers in the comparison reference group. My best/central guess is that this paper falls into the 65th percentile for this.
 
-"I have made intuitive judgments on questions like this in the past. I sometimes changed my mind a bit. Considering this in context, I am only somewhat confident in my judgment here. I'm unsure about the diagnostic tests for the two-way fixed effects. I'd put about a 10% probability that this work is actually in the bottom 45% of all work submitted to such journals. On the other hand, if these diagnostic tests were powerful, this would be among the strongest work in this respect. Thus, I'd give a 10% chance that this is in the top 10% of such work in this sense.
+I'll try to come up with the narrowest set of bounds that contain the range of values that has a 90% chance of containing what was called the "ideal correct rating". I see this 90% as being “very likely, but not certain”. So I'm thinking about my rating now, and what that rating might end up being if I had 100 years and vast resources to focus solely on getting this rating right, and if I had perfect knowledge, wisdom, judgment, etc.&#x20;
 
-"Thus, I give a central score of 65 for this metric, with 90% bounds (45, 90)."
+I've made intuitive judgments on questions like this in the past. I sometimes changed my mind a bit. Considering this in context, I am only somewhat confident in my judgment here. I'm unsure about the diagnostic tests for the two-way fixed effects. I'd put about a 10% probability that this work is actually in the bottom 45% of all work submitted to such journals. On the other hand, if these diagnostic tests were powerful, this would be among the strongest work in this respect. Thus, I'd give a 10% chance that this is in the top 10% of such work in this sense.
+
+Thus, I give a central score of 65 for this metric, with 90% bounds (45, 90).
 
 </details>
 
@@ -251,6 +279,10 @@ Judge the work’s quality heuristically. Consider all aspects of quality, impor
 ### 0-100 Metric explained
 
 _The description folded below focuses on the "Overall Assessment." Please try to use a similar scale when evaluating the category metrics._
+
+{% hint style="info" %}
+**Update Dec. 2023:** We are reframing these metrics to explicitly be considered in terms of percentiles relative to a reference group. _Further adjustment and explanation coming soon._&#x20;
+{% endhint %}
 
 <details>
 
@@ -286,7 +318,7 @@ This work represents a strong and substantial achievement. It is highly rigorous
 
 <summary>Middle ratings (40–59, 60–74) (*)</summary>
 
-[**60–74.9**](#user-content-fn-8)[^8]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
+[**60–74.9**](#user-content-fn-7)[^7]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
 
 **40–59.9:** A useful contribution, with major strengths, but also some important flaws or limitations.
 
@@ -316,39 +348,11 @@ The previous categories were 0–5, 5–20, 20–40, 40–60, 60–75, 75–90, 
 
 #### **What are we looking for and why?**
 
-We want policymakers and researchers to be able to _use The Unjournal'_s evaluations to carefully update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other, and against other sources of information. How much weight should they give to each? In this context, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this. You may feel comfortable giving your "90% confidence interval," or you may prefer to give a "descriptive rating" of your confidence (from "extremely confident" to "not confident").
-
-<details>
-
-<summary>"1–5 dots": Explanation and relation to CIs</summary>
-
-5 = Extremely confident, i.e., 90% confidence interval spans +/- 4 points or less
-
-4 = Very confident: 90% confidence interval +/- 8 points or less
-
-3 = Somewhat confident: 90% confidence interval +/- 15 points or less
-
-2 = Not very confident: 90% confidence interval, +/- 25 points or less
-
-1 = Not confident: (90% confidence interval +/- more than 25 points)
-
-</details>
-
-Remember, we would like you to give a 90% CI _or_ a confidence rating (1–5 dots), but not both.
-
-<details>
-
-<summary>Example of confidence dots vs CI</summary>
-
-<img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
-
-The example in the diagram above (click to zoom) illustrates the proposed correspondence.
-
-</details>
+We want policymakers and researchers to be able to _use The Unjournal'_s evaluations to carefully update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other, and against other sources of information. How much weight should they give to each? In this context, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this.&#x20;
 
 ### **Category explanations: what you are rating**
 
-[_Note that all of these criteria are scales (not binaries_](#user-content-fn-9)[^9]_)._
+[_Note that all of these criteria are scales (not binaries_](#user-content-fn-8)[^8]_)._
 
 #### 1. Advancing our knowledge and practice
 
@@ -362,7 +366,7 @@ Originality and cleverness should be weighted less than the typical journal, bec
 
 </details>
 
-Do the insights generated inform our ("posterior") beliefs about important parameters and about the effectiveness of interventions? [Note that we do not require a substantial _shift_ in our expectations; sound and well-presented "null results" can be valuable.](#user-content-fn-10)[^10]
+Do the insights generated inform our ("posterior") beliefs about important parameters and about the effectiveness of interventions? [Note that we do not require a substantial _shift_ in our expectations; sound and well-presented "null results" can be valuable.](#user-content-fn-9)[^9]
 
 Does the project leverage and incorporate recent relevant and credible work in useful ways?
 
@@ -370,7 +374,7 @@ Does the project leverage and incorporate recent relevant and credible work in u
 
 Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the discussion of methods?
 
-Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-11)[^11]
+Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-10)[^10]
 
 Avoiding bias and questionable research practices (QRP): Did the authors take steps to reduce bias from opportunistic reporting and QRP? For example, pre-registration, multiple hypothesis testing corrections, and reporting flexible specifications.
 
@@ -419,7 +423,7 @@ Do the authors provide tools, resources, data, and outputs that are likely to en
 
 #### 5. Engaging with real-world, impact quantification; practice, realism, and relevance
 
-[Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-12)[^12]
+[Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-11)[^11]
 
 Is the setup particularly well-informed by real-world norms and practices? “Is this realistic; does it make sense in the real world?”
 
@@ -447,7 +451,7 @@ Is this topic, approach, and discussion _potentially_ useful to global prioritie
 
 We would like to benchmark our evaluations against "how research is currently judged." We want to provide a bridge between the current _accept-or-reject_ system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus, we are asking you for _two_ "predictions" in the table below. The first is a "real-world" prediction, and the second is a comparable measure for a hypothetical "ideal world."
 
-<table><thead><tr><th width="248">Journal/prediction metrics</th><th width="279" data-type="number">Predict: journal quality* (0.0–5.0)</th><th width="96">90% CI</th><th data-type="rating" data-max="5">Confidence (alt.)</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td>What "quality journal" do you expect this work <em>will</em> be published in?</td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td>null</td><td></td><td></td></tr><tr><td>Overall assessment on "scale" of journals, i.e., quality level of journal it <em>should</em> be published in.</td><td>null</td><td><em>lower, upper</em></td><td>1</td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td>null</td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best. See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td>null</td><td></td><td>null</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="248">Journal/prediction metrics</th><th width="298" data-type="number">Predict: journal quality* (0.0–5.0)</th><th width="96">90% CI</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td>What "quality journal" do you expect this work <em>will</em> be published in?</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>Overall assessment on "scale" of journals, i.e., quality level of journal it <em>should</em> be published in.</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best. See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td>null</td><td></td><td></td><td></td></tr></tbody></table>
 
 
 
@@ -456,9 +460,17 @@ We would like to benchmark our evaluations against "how research is currently ju
 _Journal metrics;_ _In what quality level of journal . . . ;_ and _Overall assessment on "scale of journals"_
 {% endhint %}
 
-### Journal metrics
+### Journal metrics (as a _continuous_ scale)
 
-For the "prediction" questions above, we are asking for a journal quality rating prediction from 0.0 to 5.0. You can specify up to two digits (e.g., “4.4” or “2.0”). We are using this 0–5 metric here (rather than 0–100) as we suspect it is more familiar to academics.
+For the "prediction" questions above, we are asking for a journal quality rating prediction from 0.0 to 5.0. You can specify up to two digits (e.g., “4.4” or “2.0”). We are using this 0.0–5.0 metric here (rather than 0–100) as we suspect it is more familiar to academics.
+
+{% hint style="info" %}
+_**Remember**,_ we would like you to think of this as a _**continuous scale**_. E.g., if a paper/project would be most likely to be (or merits being) published in a journal that would rank about halfway between a top tier 'A journal' and a second tier (4/5) journal, you should rate it a 4.5.&#x20;
+
+Please also use this continuous scale for your confidence/credible intervals.
+{% endhint %}
+
+
 
 **The metrics are:**
 
@@ -501,31 +513,13 @@ In presenting your prediction and confidence interval for same, you might want t
 
 </details>
 
-<details>
-
-<summary>Reprising the confidence intervals for this new metric</summary>
-
-**From "five dots" to "one dot":**
-
-**5 = Extremely** confident, i.e., 90% confidence interval spans +/– 4 points or less\*
-
-**4 = Very** confident: 90% confidence interval +/– 8 points or less
-
-**3 = Somewhat** confident: 90% confidence interval +/– 15 points or less
-
-**2 = Not very** confident: 90% confidence interval, +/– 25 points or less
-
-**1 = Not** confident: 90% confidence interval +/– 25 points
-
-</details>
-
 ### **Overall **_**assessment**_** on "scale of journals"**
 
 Consider the scale of journals described above. Suppose that
 
 1. the journal process was fair, unbiased, and free of noise, and that status, social connections, and lobbying to get the paper published didn’t matter;
 2. journals assessed research according to the category metrics we discussed above; and
-3. this research was being submitted to journals according [to this fair process.\*](#user-content-fn-13)[^13]
+3. this research was being submitted to journals according [to this fair process.\*](#user-content-fn-12)[^12]
 
 _In such a case, in what quality level of journal would and should this research be published in its current form (or with minor revisions)?_
 
@@ -538,7 +532,7 @@ _For the questions below, we will publish your responses and review unless you a
 1. How long have you been in this field?
 2. How many proposals and papers have you evaluated? _(For journals, grants, and other peer review.)_
 
-_Your answers to the questions_ [_below will not be made public:_](#user-content-fn-14)[^14] &#x20;
+_Your answers to the questions_ [_below will not be made public:_](#user-content-fn-13)[^13] &#x20;
 
 1. How would you rate this template and process?
 2. Do you have any suggestions or questions about this process or _The Unjournal_? (We will try to respond and to incorporate your suggestions.) \[Open response]
@@ -640,18 +634,16 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^6]: In the form below we give _both_ 90% CIs and a confidence rating, but _evaluators only need to do one._ See further guidance in the subsections below.
 
-[^7]: _Above, we completed both only for illustration purposes. Below, we give a suggested correspondence between these two measures._ &#x20;
+[^7]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
 
-[^8]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
+[^8]: _So, consider each of the questions below to be prefaced with "to what extent"._
 
-[^9]: _So, consider each of the questions below to be prefaced with "to what extent"._
+[^9]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field. I.e., (in Bayesian terminology) work that “substantially concentrates our belief distributions around the initial expectations” is also highly valuable.
 
-[^10]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field. I.e., (in Bayesian terminology) work that “substantially concentrates our belief distributions around the initial expectations” is also highly valuable.
+[^10]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications?
 
-[^11]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications?
+[^11]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
-[^12]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+[^12]: \*This third element was added in June 2023.
 
-[^13]: \*This third element was added in June 2023.
-
-[^14]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
+[^13]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
