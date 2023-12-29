@@ -177,13 +177,13 @@ Either:
 
 To make this process less confusing, to encourage careful quantification of uncertainty, and to enable better-justified aggregation of expert judgment, we are de-emphasizing the latter measure.&#x20;
 
-Still, to accommodate those who may not be familiar with or comfortable stating "90% CIs on their own beliefs" we offer further explanations, and we are providing tools to help construct these. As a fallback, we will still allow evaluators to give the 1-5 confidence measure, noting the correspondence to CIs, but we discourage this somewhat. as well as referencetools . &#x20;
+Still, to accommodate those who may not be familiar with or comfortable stating "90% CIs on their own beliefs" we offer further explanations, and we are providing tools to help evaluators  construct these. As a fallback, we will still allow evaluators to give the 1-5 confidence measure, noting the correspondence to CIs, but we discourage this somewhat.&#x20;
 
-Evaluators working before October 2023 saw a previous version of the table, which you can see [HERE](why-these-guidelines.md#pre-october-2023-ratings-with-weights-table-provided-for-reference).
+The previous guidelines [can be seen here](why-these-guidelines.md#pre-2024-ratings-and-uncertainty-elicitation-provided-for-reference-no-longer-in-use); these may be useful in considering evaluations provided pre-2024.
 
 </details>
 
-<table><thead><tr><th width="262">Category (importance)</th><th width="152.01169590643275" data-type="number">Rating (0-100)</th><th width="115" align="center">90% CI</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td>44</td><td align="center">39, 52</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td>50</td><td align="center">47, 54</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td>51</td><td align="center"><em>45, 55</em></td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td>20</td><td align="center"><em>10, 35</em></td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td>60</td><td align="center"><em>40, 70</em></td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td>35</td><td align="center"><em>30,46</em></td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td>30</td><td align="center">21,65</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="392">Category (importance)</th><th width="146.01169590643275" data-type="number">Rating (0-100)</th><th width="307" align="center">90% CI</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td>44</td><td align="center">39, 52</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td>50</td><td align="center">47, 54</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td>51</td><td align="center"><em>45, 55</em></td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td>20</td><td align="center"><em>10, 35</em></td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td>60</td><td align="center"><em>40, 70</em></td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td>35</td><td align="center"><em>30,46</em></td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td>30</td><td align="center">21,65</td><td></td></tr></tbody></table>
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
@@ -344,11 +344,15 @@ The previous categories were 0–5, 5–20, 20–40, 40–60, 60–75, 75–90, 
 
 </details>
 
-### The confidence rating
+### The confidence/credible intervals: expressing uncertainty
 
 #### **What are we looking for and why?**
 
 We want policymakers and researchers to be able to _use The Unjournal'_s evaluations to carefully update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other, and against other sources of information. How much weight should they give to each? In this context, it is important to _quantify the uncertainty_. That's why we ask you to provide a measure of this.&#x20;
+
+_See box above_ ['But how do I actually come up with these ratings and confidence/credibility intervals?'](./#but-how-do-i-actually-come-up-with-these-ratings-and-confidence-credibility-intervals)
+
+
 
 ### **Category explanations: what you are rating**
 
@@ -451,7 +455,7 @@ Is this topic, approach, and discussion _potentially_ useful to global prioritie
 
 We would like to benchmark our evaluations against "how research is currently judged." We want to provide a bridge between the current _accept-or-reject_ system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus, we are asking you for _two_ "predictions" in the table below. The first is a "real-world" prediction, and the second is a comparable measure for a hypothetical "ideal world."
 
-<table><thead><tr><th width="248">Journal/prediction metrics</th><th width="298" data-type="number">Predict: journal quality* (0.0–5.0)</th><th width="96">90% CI</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td>What "quality journal" do you expect this work <em>will</em> be published in?</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>Overall assessment on "scale" of journals, i.e., quality level of journal it <em>should</em> be published in.</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best. See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td>null</td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="248">Journal/prediction metrics</th><th width="286" data-type="number">Predict: journal quality* (0.0–5.0)</th><th width="96">90% CI</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td>What "quality journal" do you expect this work <em>will</em> be published in?</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>Overall assessment on "scale" of journals, i.e., quality level of journal it <em>should</em> be published in.</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best. See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td>null</td><td></td><td></td><td></td></tr></tbody></table>
 
 
 
@@ -619,8 +623,6 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 **General**
 
 [The Wiley Online Library](https://authorservices.wiley.com/Reviewers/journal-reviewers/how-to-perform-a-peer-review/step-by-step-guide-to-reviewing-a-manuscript.html) (Conventional; general)
-
-
 
 [^1]: Updated 14 July 2023
 
