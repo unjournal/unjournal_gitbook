@@ -116,16 +116,16 @@ You can reserve some "sensitive" content in your report to be shared with only _
 {% hint style="info" %}
 _Suggestion to evaluators:_&#x20;
 
-The [#metrics-overall-assessment-categories](./#metrics-overall-assessment-categories "mention") and [#overall-assessment](./#overall-assessment "mention") outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. However, we are not asking you to _structure_ your evaluation text according to these metrics.
+The [Metrics: overall assessment, categories](./#metrics-overall-assessment-categories) and [Overall Assessment](./#overall-assessment) outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. However, we are not asking you to _structure_ your evaluation text according to these metrics.
 {% endhint %}
 
-### **What should be prioritized in an evaluation?**
+### **What should your evaluation prioritize?**
 
-Important questions for your evaluation include 'who the audience is', 'what value the evaluation provides', and 'how you should prioritize feedback'. Essentially, we want you to put an equal value on:
+In doing your evaluation, you might consider: "who is the audience?",  "what value is this evaluation meant to provide?",  and "how important is it to give feedback"? Essentially, we aim for a balanced emphasis on three areas:
 
-1. making the evaluations and ratings useful for readers and policymakers;
-2. making them meaningful for "assessing academics" (as a measure of value to consider against the current "journal tier" system); and
-3. communicating useful feedback to researchers, to help them improve their work.
+1. Crafting evaluations and ratings that are informative and beneficial for readers and policymakers.
+2. Ensuring these evaluations are meaningful for "assessing academics" offering a valuable metric that can be considered alongside the existing "journal tier" system.
+3. Providing constructive feedback to researchers, helping them improve their work.
 
 _We provide a more detailed discussion of what this means and why, and how it relates to our impact and "theory of change"_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
 
