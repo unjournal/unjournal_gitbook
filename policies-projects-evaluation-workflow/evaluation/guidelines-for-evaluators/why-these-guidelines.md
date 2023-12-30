@@ -51,7 +51,39 @@ _However, we decided to remove these weightings because:_
 2. These weights were ad-hoc, and they may suggest we have a more grounded ‘model of value’ than we already do. (And there is also some overlap in our categories anyways, something we are working on addressing.) &#x20;
 3. Some people interpreted what we intended incorrectly (e.g., they thought we were saying ‘relevance to global priorities’ is not an important thing)
 
+## Adjustments to metrics and guidelines/previous presentations
 
+<details>
+
+<summary>Oct 2023 update - removed "weightings"</summary>
+
+We have removed suggested weightings for each of these categories. We discuss the rationale at some length [here](why-these-guidelines.md#weightings-for-each-rating-category-removed-for-now).&#x20;
+
+Evaluators working before October 2023 saw a previous version of the table, which you can see [HERE](why-these-guidelines.md#pre-october-2023-ratings-with-weights-table-provided-for-reference).
+
+</details>
+
+<details>
+
+<summary>Dec. 2023: Hiding/de-emphasizing 'confidence Likerts'</summary>
+
+We previously gave evaluators two options for expressing their confidence in each rating:&#x20;
+
+Either:
+
+1. The 90% Confidence/Credible Interval (CI) input you see below (now a 'slider' in PubPub V7) or
+
+<!---->
+
+2. A five-point 'Likert style' measure of confidence, which we described qualitatively and explained how we would convert it into CIs when we report aggregations.&#x20;
+
+To make this process less confusing, to encourage careful quantification of uncertainty, and to enable better-justified aggregation of expert judgment, we are de-emphasizing the latter measure.&#x20;
+
+Still, to accommodate those who may not be familiar with or comfortable stating "90% CIs on their own beliefs" we offer further explanations, and we are providing tools to help evaluators  construct these. As a fallback, we will still allow evaluators to give the 1-5 confidence measure, noting the correspondence to CIs, but we discourage this somewhat.&#x20;
+
+The previous guidelines [can be seen here](why-these-guidelines.md#pre-2024-ratings-and-uncertainty-elicitation-provided-for-reference-no-longer-in-use); these may be useful in considering evaluations provided pre-2024.
+
+</details>
 
 ### Pre-October 2023  'ratings with weights' table, provided for reference (NO LONGER IN USE)
 
