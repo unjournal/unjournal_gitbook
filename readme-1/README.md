@@ -66,7 +66,7 @@ At some point in the future, we might consider sliding-scale fees for people or 
 
 ## How do we do this?
 
-1. **Research submission/identification and selection:** We identify, solicit, and select relevant research work to be hosted on any open platform in any format [that can gain a time-stamped DOI.](#user-content-fn-2)[^2] Authors are encouraged to present their work in the ways they find most comprehensive and understandable. We support the use of [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that foster replicability and open science (see: [the benefits of dynamic docs](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)).&#x20;
+1. **Research submission/identification and selection:** We identify, solicit, and select relevant research work to be hosted on any open platform in any format [that can gain a time-stamped DOI.](#user-content-fn-2)[^2] Authors are encouraged to present their work in the ways they find most comprehensive and understandable. We support the use of [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that foster replicability and open science. (See: [the benefits of dynamic docs](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)).&#x20;
 2. **Paid evaluators (AKA "reviewers"):** We compensate evaluators (essentially, reviewers) for providing thorough feedback on this work. (Read more: [Why do we pay?](../policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md))
 3. **Eliciting quantifiable and comparable metrics:** We aim to establish and generate credible measures of research quality and usefulness. We intend to benchmark these against traditional previous measures (such as journal tiers) and assess the reliability, consistency, and predictive power of these measures. (Read more: [Why quantitative metrics?](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md#why-numerical-ratings))
 4. **Public evaluation:** Reviews are typically public, including potential author responses. This facilitates dialogue and [enhances understanding](#user-content-fn-3)[^3].
@@ -78,7 +78,7 @@ At some point in the future, we might consider sliding-scale fees for people or 
 
 <summary>This is not an original idea, and there are others in this space, but...</summary>
 
-For example, this proposal is closely related to Life's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research).  COS is also building a 'lifecycle journal' model. However, we cover a different research focus and make some different choices, discussed below. \
+For example, this proposal is closely related to Life's ["Publish, Review, Curate" model](https://elifesciences.org/articles/64910); see their updated (Oct 2022) model [here](https://elifesciences.org/inside-elife/54d63486/elife-s-new-model-changing-the-way-you-share-your-research).  COS is also building a "lifecycle journal" model. However, we cover a different research focus and make some different choices, discussed below. \
 \
 We also discuss other [parallel-partner-initiatives-and-resources](../parallel-partner-initiatives-and-resources/ "mention"), many of whom we are building partnerships with. However, we think we are the only group funded to do this in this particular research area/focus. We are also taking a different approach to previous efforts, including funding evaluation (see [why-pay-evaluators-reviewers.md](../policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md "mention")) and asking for quantified ratings and predictions (see [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")).
 
@@ -126,15 +126,15 @@ This GitBook serves as a platform to organize our ideas and resources and track 
 <summary>Feedback and discussion</summary>
 
 \
-**Discussion space:** I've set up a post-grant "'Unjournal: <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">here</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark> 25 Jun 2022 update: I have not kept the above discussion space fully updated.
+**Discussion space:** I've set up a post-grant "'Unjournal: <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">here</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark>  **25 Jun 2022 update:** I have not kept the above discussion space fully updated.
 
-_**Please let me know if you want to edit/comment access to the present Gitbook.**_\
+_**Please let me know if you want edit or comment access to the present Gitbook.**_\
 \
-_Please do weigh in, all suggestions and comments will be credited... See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
+_Please do weigh in; all suggestions and comments will be credited... See also_ _Unjournal_: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
 
 </details>
 
-## Where do I find/where do I go next?
+## Where do I find . . . /where do I go next?
 
 See [contents-page.md](contents-page.md "mention")
 
@@ -153,7 +153,7 @@ See [contents-page.md](contents-page.md "mention")
 3. We will also consider funding later rounds of review or evaluations of improved and expanded versions of previously evaluated work.
 4. _**Please let me know if you want to edit or comment access to the present Gitbook.**_\
    \
-   _Please do weigh in, all suggestions and comments will be credited. See also_ Unjournal: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
+   _Please do weigh in, all suggestions and comments will be credited. See also_ _Unjournal_: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
 
 [^1]: We discuss our prioritization considerations under [what-research-to-target.md](../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md "mention")
 
