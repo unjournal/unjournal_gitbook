@@ -151,37 +151,9 @@ Our _general priorities_ are embodied in the quantitative metrics below. We beli
 Below is a completed example. We give evaluators a concise survey form with everything they need to fill out.
 {% endhint %}
 
-<details>
-
-<summary>Oct 2023 update - removed "weightings"</summary>
-
-We have removed suggested weightings for each of these categories. We discuss the rationale at some length [here](why-these-guidelines.md#weightings-for-each-rating-category-removed-for-now).&#x20;
-
-Evaluators working before October 2023 saw a previous version of the table, which you can see [HERE](why-these-guidelines.md#pre-october-2023-ratings-with-weights-table-provided-for-reference).
-
-</details>
-
-<details>
-
-<summary>Dec. 2023: Hiding/de-emphasizing 'confidence Likerts'</summary>
-
-We previously gave evaluators two options for expressing their confidence in each rating:&#x20;
-
-Either:
-
-1. The 90% Confidence/Credible Interval (CI) input you see below (now a 'slider' in PubPub V7) or
-
-<!---->
-
-2. A five-point 'Likert style' measure of confidence, which we described qualitatively and explained how we would convert it into CIs when we report aggregations.&#x20;
-
-To make this process less confusing, to encourage careful quantification of uncertainty, and to enable better-justified aggregation of expert judgment, we are de-emphasizing the latter measure.&#x20;
-
-Still, to accommodate those who may not be familiar with or comfortable stating "90% CIs on their own beliefs" we offer further explanations, and we are providing tools to help evaluators  construct these. As a fallback, we will still allow evaluators to give the 1-5 confidence measure, noting the correspondence to CIs, but we discourage this somewhat.&#x20;
-
-The previous guidelines [can be seen here](why-these-guidelines.md#pre-2024-ratings-and-uncertainty-elicitation-provided-for-reference-no-longer-in-use); these may be useful in considering evaluations provided pre-2024.
-
-</details>
+{% hint style="info" %}
+**Adjustments:** We have made some adjustments to this page and to our guidelines and processes; this is particularly relevant for considering earlier evaluations. See  [#adjustments-to-metrics-and-guidelines-previous-presentations](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations "mention").&#x20;
+{% endhint %}
 
 <table><thead><tr><th width="392">Category (importance)</th><th width="146.01169590643275" align="center">Rating (0-100)</th><th width="307" align="center">90% CI</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td align="center">44</td><td align="center">39, 52</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td align="center">50</td><td align="center">47, 54</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td align="center">51</td><td align="center"><em>45, 55</em></td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td align="center">20</td><td align="center"><em>10, 35</em></td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td align="center">60</td><td align="center"><em>40, 70</em></td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td align="center">35</td><td align="center"><em>30,46</em></td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td align="center">30</td><td align="center">21,65</td><td></td></tr></tbody></table>
 
