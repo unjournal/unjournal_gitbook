@@ -4,11 +4,11 @@ description: The Unjournal call for participants and research
 
 # How to get involved
 
-See [#in-a-nutshell](../#in-a-nutshell "mention") for an overview of _The Unjournal_
+See [#in-a-nutshell](../#in-a-nutshell "mention") for an overview of _The Unjournal._
 
 {% hint style="info" %}
 **In brief (TLDR):**\
-If you are interested in being on _The_ _Unjournal_'s Management Committee, Advisory Board, or Reviewer Pool, please fill out [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3–5 min).&#x20;
+If you are interested in being on _The_ _Unjournal_'s management committee, advisory board, or reviewer pool, please fill out [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3–5 min).&#x20;
 
 If you have research you would like us to assess (either your own or others'), please fill out [this form](https://bit.ly/ujsuggestr). You can also submit your own work [here](https://bit.ly/ujsubmitr), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
@@ -96,8 +96,6 @@ We are looking for high-quality, globally-pivotal research projects to evaluate,
 You can also [put forward your own work here](https://airtable.com/shrwlxes5AeasnkfC).
 
 We provide a separate form for research suggestions [here](https://airtable.com/shrdHHI0zK7rkJCP3). We may follow up with you individually.
-
-
 
 ## Contact us
 
