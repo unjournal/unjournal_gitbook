@@ -4,7 +4,7 @@
 Fill out this [quick survey](http://eepurl.com/ipFMdg) to get our updates by email. Data protection statement [here](https://bit.ly/46y0LqH).
 {% endhint %}
 
-## Aug. 30, 2023: "Pilot's done, what has been won (& learned)?"
+## Aug. 30, 2023: "Pilot's done, what has been won (and learned)?"
 
 ### Pilot = completed!
 
@@ -24,27 +24,25 @@ For a continuously updated overview of our process, including our evaluation met
 
 Remember, we assign individual DOIs to all of these outputs (evaluation, responses, manager syntheses) and aim to get the evaluation data into all bibliometrics and scholarly databases. So far, Google Scholar [has picked up _one of our outputs._](https://scholar.google.com/scholar?hl=en\&as\_sdt=0%2C22\&q=source%3A%22the+unjournal%22\&btnG=\&oq=unjo) (The Google Scholar algorithm is a bit opaque—your tips are welcome.)&#x20;
 
-#### Following up on the pilot—prizes and seminars
+#### Following up on the pilot: prizes and seminars
 
-We will make decisions and award our pilot [Impactful Research Prize](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research/impactful-research-prize) and evaluator prizes soon (aiming for the end of September). The winners will be determined by a consensus of our Management Team and Advisory Board (potentially consulting external expertise). The choices will largely be driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
+We will make decisions and award our pilot [Impactful Research Prize](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research/impactful-research-prize) and evaluator prizes soon (aiming for the end of September). The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will largely be driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
 
-Following this, we are considering holding an online workshop (that will include a ceremony for the awarding of prizes). Authors and (non-anonymous) evaluators will be invited to discuss their work and take questions. We may also hold an open discussion and Q\&A on The Unjournal and our approach. We aim to partner with other organizations in academia and in the impactful-research and open-science spaces. If this goes well, we may make it the start of a regular thing.
+Following this, we are considering holding an online workshop (that will include a ceremony for the awarding of prizes). Authors and (non-anonymous) evaluators will be invited to discuss their work and take questions. We may also hold an open discussion and Q\&A on _The Unjournal_ and our approach. We aim to partner with other organizations in academia and in the impactful-research and open-science spaces. If this goes well, we may make it the start of a regular thing.
 
 {% hint style="info" %}
-_"Impactful research online seminar":_ If you or your organization would be interested in being part of such an event, please do reach out, we are looking for further partners. We will announce the details of this event once these are finalized.&#x20;
+_"Impactful research online seminar":_ If you or your organization would be interested in being part of such an event, please do reach out; we are looking for further partners. We will announce the details of this event once these are finalized.&#x20;
 {% endhint %}
-
-
 
 #### Other planned follow-ups from the pilot
 
-Our pilot yielded a rich set of data and learnings-by-doings. We plan to make use of this, including ...&#x20;
+Our pilot yielded a rich set of data and learning-by-doings. We plan to make use of this, including . . .
 
-* Synthesizing and reporting on evaluators' and authors' comments on our process; adapting these to make it better
-* Analyzing the evaluation metrics for patterns, potential biases, and reliability measures
-* "Aggregating expert judgment" from these metrics
-* Tracking _future outcomes_ (traditional publications, citations, replications, etc.) to benchmark the metrics against; and&#x20;
-* Drawing insights from the evaluation _content_, and then communicating these (to policymakers, etc.).
+* synthesizing and reporting on evaluators' and authors' comments on our process; adapting these to make it better;
+* analyzing the evaluation metrics for patterns, potential biases, and reliability measures;
+* "aggregating expert judgment" from these metrics;
+* tracking _future outcomes_ (traditional publications, citations, replications, etc.) to benchmark the metrics against; and
+* drawing insights from the evaluation _content_, and then communicating these (to policymakers, etc.).
 
 ## The big scale-up&#x20;
 
@@ -57,9 +55,9 @@ We are still inviting applications for the [paid standalone project ](https://do
 1. **Building our frameworks and principles for prioritizing research to be evaluated, a coherent approach to implementation, and a process for weighing and reassessing these choices.** We will incorporate previous approaches and a range of feedback. For a window into our thinking so far, see our "[high-level considerations](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects/what-research-to-target#high-level-considerations-for-considering-research)" and our [practical prioritization concerns and goals](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects/what-research-to-target#prioritizing-research-to-achieve-these-goals).
 2.  **Building research-scoping teams of field specialists.** These will consider agendas in different fields, subfields, and methods (psychology, RCT-linked development economics, etc.) and for different topics and outcomes (global health, attitudes towards animal welfare, social consequences of AI, etc.) \
     \
-    We begin to lay out [possible teams and discussions here ](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/management-tech-details-discussion/research-scoping-discussion-spaces)(the linked discussion spaces are private for now, but we aim to make things public whenever it's feasible). These 'field teams' will&#x20;
+    We begin to lay out [possible teams and discussions here ](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/management-tech-details-discussion/research-scoping-discussion-spaces)(the linked discussion spaces are private for now, but we aim to make things public whenever it's feasible). These "field teams" will&#x20;
 
-    * discuss and report on the state of research in their areas, including 'where and when relevant research is posted publicly, and in what state';
+    * discuss and report on the state of research in their areas, including _where and when relevant research is posted publicly, and in what state_;
     * the potential for _Unjournal_ evaluation of this work as well as when and how we should evaluate it, considering potential variations from our basic approach; and
     * how to _prioritize_ work in this area for evaluation, reporting general guidelines and principles, and informing the aforementioned frameworks.&#x20;
 
@@ -67,9 +65,9 @@ We are still inviting applications for the [paid standalone project ](https://do
 
 ### Growing _The Unjournal_ Team
 
-Our previous call for Field Specialists is still active. We received a lot of great applications and strong interest, and we plan to send out invitations soon. But the door is still open to express interest!
+Our previous call for field specialists is still active. We received a lot of great applications and strong interest, and we plan to send out invitations soon. But the door is still open to express interest!
 
-_New members of our team_: Welcome [Rosie Bettle (Founder's Pledge)](https://www.linkedin.com/in/rosie-bettle-84a1051b0/) to our Advisory Board, as a Field Specialist.
+_New members of our team_: Welcome [Rosie Bettle (Founder's Pledge)](https://www.linkedin.com/in/rosie-bettle-84a1051b0/) to our advisory board, as a field specialist.
 
 ### Improving the evaluation process and metrics
 
