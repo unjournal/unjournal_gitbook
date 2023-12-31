@@ -7,7 +7,7 @@ To indicate your potential interest in any of the roles described below, please 
 * If you already filled out this form for a role that has changed titles, don’t worry. You will still be considered for relevant and related roles.
 * If you add your name to this form, we may contact you to offer you the opportunity to do paid project work and paid work tasks.
 
-Furthermore, if you are interested in conducting paid research evaluation for the Unjournal, or in joining our advisory board, please complete the form linked [here](https://www.google.com/url?q=https://airtable.com/shrtMv4hNlv8aL7Yy\&sa=D\&source=editors\&ust=1692112926472618\&usg=AOvVaw260eQOU-lGZ9uch6R62mSj).
+Furthermore, if you are interested in conducting paid research evaluation for _The Unjournal_, or in joining our advisory board, please complete the form linked [here](https://www.google.com/url?q=https://airtable.com/shrtMv4hNlv8aL7Yy\&sa=D\&source=editors\&ust=1692112926472618\&usg=AOvVaw260eQOU-lGZ9uch6R62mSj).
 
 Feel free to contact theunjournal@gmail.com with any questions.
 
@@ -23,11 +23,9 @@ Feel free to contact theunjournal@gmail.com with any questions.
 
 [Express interest in any of these roles in our survey form.](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926486012\&usg=AOvVaw2tL8nNFUl1k23wkgCXWZn2)
 
-The Unjournal, a not-for-profit collective under the umbrella and fiscal sponsorship of the [Open Collective Foundation](https://www.google.com/url?q=https://opencollective.com/foundation\&sa=D\&source=editors\&ust=1692112926486271\&usg=AOvVaw3BjcohB75rECWCpnF53Yb-), is an equal opportunity employer and contractor.  We are committed to creating an inclusive environment for all employees, volunteers, and contractors. We do not discriminate on the basis of race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetic information, disability, age, or veteran status.
+_The Unjournal_, a not-for-profit collective under the umbrella and fiscal sponsorship of the [Open Collective Foundation](https://www.google.com/url?q=https://opencollective.com/foundation\&sa=D\&source=editors\&ust=1692112926486271\&usg=AOvVaw3BjcohB75rECWCpnF53Yb-), is an equal opportunity employer and contractor.  We are committed to creating an inclusive environment for all employees, volunteers, and contractors. We do not discriminate on the basis of race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetic information, disability, age, or veteran status.
 
 See our data protection statement [linked here](https://www.google.com/url?q=https://docs.google.com/document/d/1dGhqonNHeH71F5pDlVB-m9Ods5jcmULR8qlcHXTU-MM/edit\&sa=D\&source=editors\&ust=1692112926486562\&usg=AOvVaw0ET4ISQwmHk0zuxWjYgmTc).
-
-
 
 {% hint style="info" %}
 **In addition to the jobs and paid projects listed here**, we are expanding our management team, advisory board, field specialist team pool, and evaluator pool. Most of these roles involve compensation/honorariums. See [advisory-team-roles-research-management.md](interested-in-working-for-the-unjournal/advisory-team-roles-research-management.md "mention")
