@@ -2,7 +2,7 @@
 
 ### _See also:_ [governance-of-the-unjournal.md](../../management-tech-details-discussion/governance-of-the-unjournal.md "mention")
 
-The Unjournal was founded by [David Reinstein](https://davidreinstein.org) <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">, who maintains this wiki/GitBook and other resources.
+_The Unjournal_ was founded by [David Reinstein](https://davidreinstein.org) <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">, who maintains this wiki/GitBook and other resources.
 
 ### Management Committee
 
@@ -75,7 +75,7 @@ The table below shows _all_ the members of our team (including field specialists
 
 Red Bermejo, Mikee Mercado, Jenny Siers – consulting (through [Anti-Entropy](https://www.antientropy.org/)) on strategy, marketing, and task management tools
 
-We are a member of [Knowledge Futures](https://www.knowledgefutures.org/). They are working with us to update PubPub and incorporate new features (editorial management, evaluation tools, etc.) that will be particularly useful to The Unjournal and other members.
+We are a member of [Knowledge Futures](https://www.knowledgefutures.org/). They are working with us to update PubPub and incorporate new features (editorial management, evaluation tools, etc.) that will be particularly useful to _The Unjournal_ and other members.
 
 
 
