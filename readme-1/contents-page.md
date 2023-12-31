@@ -5,7 +5,7 @@ description: A "curated guide" to this GitBook; updated June 2023
 # Content overview
 
 {% hint style="info" %}
-**You can now ask questions of this GitBook using a chatbot:** click the search bar or press cmd-k and choose _'ask Gitbook'_.
+**You can now ask questions of this GitBook using a chatbot:** click the search bar or press cmd-k and choose _"ask Gitbook_."
 {% endhint %}
 
 ## Key sections and subsections
@@ -26,8 +26,6 @@ description: A "curated guide" to this GitBook; updated June 2023
 
 [the-field-and-ea-gp-research.md](../the-field-and-ea-gp-research.md "mention") What research are we talking about? What will we cover?
 
-
-
 ## Detail, progress, and internal planning
 
 _These are of more interest to_ people within our team; _we are sharing these in the spirit of transparency._
@@ -38,4 +36,4 @@ _These are of more interest to_ people within our team; _we are sharing these in
 
 [uj-team-resources-onboarding.md](../management-tech-details-discussion/uj-team-resources-onboarding.md "mention") Key resources and links for managers, advisory board members, staff, team members and others involved with _The Unjournal_ project
 
-_Note: we may move some of this 'internal interest content' over to our Clickup knowledge base._
+_Note: we may move some of this "internal interest content" over to our Clickup knowledge base._
