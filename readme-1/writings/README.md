@@ -32,19 +32,15 @@ Nov  2022: Version targeted towards OSF/Open Science [HERE](https://docs.google.
 
 </details>
 
-
-
 ## "Slaying the journals": Google doc
 
 _Earlier discussion document, aimed at EA/global priorities, academic, and open-science audiences_ [_\[link\]_](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr\_zTmaVpTfBg4A/edit)
 
 ## "[Moving science beyond ... static journals" ... How EA/nonprofits can help](https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490)
 
-[Moving science beyond closed, binary, static journals; a proposed alternative; how the ‘Effective Altruist’ and nontraditional nonprofit sector can help make this happen](https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490)
+[Moving science beyond closed, binary, static journals; a proposed alternative; how the "Effective Altruist" and nontraditional nonprofit sector can help make this happen](https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490)
 
-* 2021 A shorter outline posted on "onscienceandacademia.org"
-
-##
+* 2021 A shorter outline posted on [onscienceandacademia.org](https://onscienceandacademia.org/t/moving-science-beyond-closed-binary-static-journals-a-proposed-alternative-how-the-effective-altruist-and-nontraditional-nonprofit-sector-can-help-make-this-happen/1490)
 
 ## EA forum posts
 
@@ -52,6 +48,6 @@ _Earlier discussion document, aimed at EA/global priorities, academic, and open-
 
 {% embed url="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see" %}
 
-##
+
 
 [^1]: (In the previous section)
