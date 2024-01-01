@@ -250,7 +250,7 @@ Judge the work’s quality heuristically. Consider all aspects of quality, impor
 
 **Please give a percentile,** considering the qualities of this research **relative to** other work in the reference group...
 
-**Reference group:**  _**All research you have encountered\* in the last three years,**_ particularly considering work in the same field (or closely related fields), considering similar topics and issues, and using similar or alternative methods. &#x20;
+**Reference group:**  _**All research you have encountered\* in the last three years,**_ particularly considering work in the same field\*\* (or closely related fields), considering similar topics and issues, and using similar or alternative methods. &#x20;
 
 <details>
 
@@ -262,7 +262,13 @@ But this still seems challenging, and is admittedly ad-hoc. We are working to de
 
 </details>
 
+<details>
+
+<summary>**"In the same field"</summary>
+
 In defining the reference group we ask you to consider "this field or area" fairly broadly.  We want these ratings to be fairly comparable across areas, topics, and fields. If the research you are evaluating is in a very niche field, addressing an issue with little work, the comparison reference group should be expanded to consider work in other areas.&#x20;
+
+</details>
 
 <details>
 
