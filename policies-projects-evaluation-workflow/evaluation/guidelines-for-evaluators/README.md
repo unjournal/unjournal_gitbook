@@ -5,9 +5,9 @@ _**Thanks for your interest in evaluating research for**_** The Unjournal!**
 
 Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit. [You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing an on-time[^2] and complete evaluation and feedback. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.\
 \
-See the guidelines below. You can submit your response in a [Google Doc (see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  &#x20;
+See the guidelines below. You can submit your response in a [Google Doc (but see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  &#x20;
 
-Dec. 2023 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead.\
+_2024 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead._\
 
 
 Our data protection statement is linked [here](https://bit.ly/46y0LqH).
@@ -17,7 +17,7 @@ Our data protection statement is linked [here](https://bit.ly/46y0LqH).
 
 <summary>Managers/commenters</summary>
 
-The 'template Google Doc itself [can be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3).' Please request access permission.
+The 'template Google Doc' itself [can be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3). Please request access permission.
 
 Dec. 2023 update: we are moving to a hosted form/interface in PubPub, which will replace that Google Doc.
 
@@ -55,7 +55,7 @@ See: [#submitting-and-paying-expenses-claims](../../../management-tech-details-d
 
 ## What we would like you to do
 
-1. **Write a review:** a "standard high-quality referee report," with some [specific considerations](#user-content-fn-4)[^4].
+1. **Write an evaluation (i.e., a 'review'):** a "standard high-quality referee report," with some [specific considerations](#user-content-fn-4)[^4].
 2. [**Give quantitative metrics and predictions** as requested in the two tables below.](#user-content-fn-5)[^5]
 3. Answer a short questionnaire about your background and our processes.
 
@@ -89,9 +89,9 @@ Unless you were advised otherwise, it will be given a DOI and, hopefully, will e
 
 </details>
 
-_If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it._&#x20;
+If you have questions or clarifications about the authors’ work, you can ask them these questions anonymously; we will facilitate it.&#x20;
 
-_We want you to evaluate the most recent/relevant version of the paper/project that you can access. If you see a more recent version than the one we shared with you, please let us know._&#x20;
+We want you to evaluate the _most recent/relevant version of the paper/project that you can access_. If you see a more recent version than the one we shared with you, please let us know.&#x20;
 
 <details>
 
@@ -108,18 +108,18 @@ You can reserve some "sensitive" content in your report to be shared with only _
 {% hint style="info" %}
 _Suggestion to evaluators:_&#x20;
 
-The [Metrics: overall assessment, categories](./#metrics-overall-assessment-categories) and [Overall Assessment](./#overall-assessment) outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. However, we are not asking you to _structure_ your evaluation text according to these metrics.
+The [Metrics: overall assessment, categories](./#metrics-overall-assessment-categories) and [Overall Assessment](./#overall-assessment) sections outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. However, we are not asking you to _structure_ your evaluation text according to these metrics.
 {% endhint %}
 
-### **What should your evaluation prioritize?**
+### **What should your written evaluation ('review') prioritize?**
 
 In doing your evaluation, you might consider: "who is the audience?",  "what value is this evaluation meant to provide?",  and "how important is it to give feedback"? Essentially, we aim for a balanced emphasis on three areas:
 
 1. Crafting evaluations and ratings that are informative and beneficial for readers and policymakers.
-2. Ensuring these evaluations are meaningful for "assessing academics" offering a valuable metric that can be considered alongside the existing "journal tier" system.
+2. Ensuring these evaluations are meaningful for "assessing academics", offering a valuable metric that can be considered alongside the existing "journal tier" system.
 3. Providing constructive feedback to researchers, helping them improve their work.
 
-_We provide a more detailed discussion of what this means and why, and how it relates to our impact and "theory of change"_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
+_We provide a more detailed discussion of 'what this means and why', and how it relates to our impact and "theory of change"_ [_here_](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize)_._
 
 ### A **"standard high-quality referee report"**
 
@@ -139,9 +139,7 @@ We are generally asking for the sort of report an academic would write for a tra
 
 Our _general priorities_ are embodied in the quantitative metrics below. We believe these are similar, but not identical, to criteria used by the top journals in economics and adjacent fields.
 
-{% hint style="info" %}
-Below is a completed example. We give evaluators a concise survey form with everything they need to fill out.
-{% endhint %}
+Below, we offer a completed example. We give evaluators a concise survey form with everything they need to fill out.
 
 {% hint style="info" %}
 **Adjustments:** We have made some adjustments to this page and to our guidelines and processes; this is particularly relevant for considering earlier evaluations. See  [#adjustments-to-metrics-and-guidelines-previous-presentations](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations "mention").&#x20;
@@ -161,12 +159,12 @@ Although we ask you to rate (and discuss) the relevance of this work to global p
 
 _**For each question above, if it seems relevant and you feel qualified to judge, please . . .**_&#x20;
 
-1. Give a rating from 0–100, considering the _"what we are asking you to rate"_ discussion provided. Try to follow the scale in[#0-100-metric-explained](./#0-100-metric-explained "mention"), but specifically for this _category._
+1. Give a rating from 0–100, considering the _"what we are asking you to rate"_ discussion provided. Try to follow the scale as discussed under ["0-100 metric explained"](./#id-0-100-metric-explained), but specifically for _this category._
 2. Quantify how certain you are about this rating by giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval.
 
 _**Note**_: We are in the process of switching to a new PubPub interface for entering evaluations. This provides "slider bars" to express your chosen intervals, as in the image below. This form will ask you to "please indicate your rating (the ‘middle’ dot), and the lower and upper endpoints of your 90% CI (the lower and upper dots)".
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>A "Slider bar" for a rating</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>A "Slider bar" for a rating, as implemented in PubPub V7</p></figcaption></figure>
 
 
 
@@ -174,7 +172,7 @@ _**Note**_: We are in the process of switching to a new PubPub interface for ent
 
 <summary>But what do these measures mean, and how should I consider the 0–100 metric?</summary>
 
-We explain the [categories here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators#category-explanations-what-you-are-rating) and the intended metrics scale [here (links below)](./#0-100-metric-explained). Your feedback is very welcome.
+We explain the [categories here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators#category-explanations-what-you-are-rating) and the intended metrics scale under "[0-100 metric explained](./#id-0-100-metric-explained)". Your feedback is very welcome.
 
 </details>
 
@@ -188,7 +186,7 @@ We would like you to state your "confidence intervals" or "credibility intervals
 
 <details>
 
-<summary>But how do I actually come up with these ratings and confidence/credibility intervals?</summary>
+<summary>But how do I <em>actually</em> come up with these confidence/credibility intervals (and the ratings themselves)?</summary>
 
 You may know most of the concepts below, but you might be unfamiliar with applying them in a situation like this one.
 
@@ -202,15 +200,15 @@ You are asked to give a 90% interval. Loosely speaking, you could consider somet
 
 _**E.g., you might have thoughts similar to these:**_
 
-I am going to interpret the 'methods' in terms of their reliability for consistent causal inference and minimizing parameter mean-squared error in settings like this one."
+"I am going to interpret the 'methods' in terms of their reliability for consistent causal inference and minimizing parameter mean-squared error in settings like this one."
 
-I will consider the appropriateness of the methods chosen relative to the choices made across the distribution of all papers in the comparison reference group. My best/central guess is that this paper falls into the 65th percentile for this.
+"I will consider the appropriateness of the methods chosen relative to the choices made across the distribution of all papers in the comparison reference group. My best/central guess is that this paper falls into the 65th percentile for this."
 
-I'll try to come up with the narrowest set of bounds that contain the range of values that has a 90% chance of containing what was called the "ideal correct rating". I see this 90% as being “very likely, but not certain”. So I'm thinking about my rating now, and what that rating might end up being if I had 100 years and vast resources to focus solely on getting this rating right, and if I had perfect knowledge, wisdom, judgment, etc.&#x20;
+"I'll try to come up with the narrowest set of bounds that contain the range of values that has a 90% chance of containing what was called the "ideal correct rating". I see this 90% as being “very likely, but not certain”. So I'm thinking about my rating now, and what that rating might end up being if I had 100 years and vast resources to focus solely on getting this rating right, and if I had perfect knowledge, wisdom, judgment, etc."&#x20;
 
-I've made intuitive judgments on questions like this in the past. I sometimes changed my mind a bit. Considering this in context, I am only somewhat confident in my judgment here. I'm unsure about the diagnostic tests for the two-way fixed effects. I'd put about a 10% probability that this work is actually in the bottom 45% of all work submitted to such journals. On the other hand, if these diagnostic tests were powerful, this would be among the strongest work in this respect. Thus, I'd give a 10% chance that this is in the top 10% of such work in this sense.
+"I've made intuitive judgments on questions like this in the past. I sometimes changed my mind a bit. Considering this in context, I am only somewhat confident in my judgment here. I'm unsure about the diagnostic tests for the two-way fixed effects. I'd put about a 10% probability that this work is actually in the bottom 45% of all work submitted to such journals. On the other hand, if these diagnostic tests were powerful, this would be among the strongest work in this respect. Thus, I'd give a 10% chance that this is in the top 10% of such work in this sense."
 
-Thus, I give a central score of 65 for this metric, with 90% bounds (45, 90).
+"Thus, I give a central score of 65 for this metric, with 90% bounds (45, 90)."
 
 </details>
 
@@ -218,7 +216,7 @@ Thus, I give a central score of 65 for this metric, with 90% bounds (45, 90).
 
 <summary>Am I setting these bounds well? (How is my calibration—the accuracy of my own uncertainty?)</summary>
 
-"But how do I know if I'm setting these bounds right?"
+_"But how do I know if I'm setting these bounds right?"_
 
 One consideration is "calibration." If you're well-calibrated, then your specified 90% bounds should contain the true value close to 90% of the time. Similarly, 50% bounds should contain the true value half the time.\
 \
@@ -230,7 +228,7 @@ _"The aim of the web app is to help you become 'well-calibrated.' This means tha
 
 This web app may help you understand the idea of calibration and improve your calibration in a general sense.&#x20;
 
-We aim to build further  tools and exercises that will be specific to The Unjournal evaluation context; to help you understand our metrics, and improve your accuracy as well as your    calibration.&#x20;
+We aim to build further tools and exercises that will be specific to _The Unjournal's_ evaluation context; to help you understand our metrics, and improve your accuracy as well as your   calibration.&#x20;
 
 </details>
 
@@ -245,14 +243,24 @@ Judge the work’s quality heuristically. Consider all aspects of quality, impor
 ### 0-100 Metric explained
 
 {% hint style="info" %}
-**Update Dec. 2023:** We are reframing these metrics to explicitly be considered in terms of percentiles relative to a reference group. _Further adjustment and explanation coming soon._&#x20;
+**Update 2024:** We are reframing these to explicitly be considered in terms of percentiles relative to a reference group. _Further adjustments and explanations coming soon._&#x20;
 {% endhint %}
 
 **In assigning your ratings –** both for the "Overall Assessment" and for the six additional metrics discussed above...&#x20;
 
 **Please give a percentile,** considering the qualities of this research **relative to** other work in the reference group...
 
-**Reference group:**  **A**_**ll research you have encountered in the last three years,**_ particularly considering work in the same field (or closely related fields), considering similar topics and issues, and using similar or alternative methods. &#x20;
+**Reference group:**  _**All research you have encountered\* in the last three years,**_ particularly considering work in the same field (or closely related fields), considering similar topics and issues, and using similar or alternative methods. &#x20;
+
+<details>
+
+<summary>*"Research you have encountered"</summary>
+
+We are aiming for comparability across evaluators, and you can help us with this. If you  suspect that you are particularly exposed to higher-quality work (by this category) than other likely evaluators in this area, you may want to adjust your reference group downwards. (And of course vice-versa, if you suspect you are particularly exposed to lower-quality work.)\
+\
+But this still seems challenging, and is admittedly ad-hoc. We are working to develop benchmarks, vignettes and standards for these reference groups, to enable comparability while preserving the transparency of our quantitative 'percentiles' approach.&#x20;
+
+</details>
 
 In defining the reference group we ask you to consider "this field or area" fairly broadly.  We want these ratings to be fairly comparable across areas, topics, and fields. If the research you are evaluating is in a very niche field, addressing an issue with little work, the comparison reference group should be expanded to consider work in other areas.&#x20;
 
@@ -546,7 +554,7 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^2]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
 
-[^3]: We are using a Google Doc for now; we're hoping to move to asking the PubPub  interface soon. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.           &#x20;
+[^3]: We are in the provess of transitioning form using Google Docs for this to using a new, tailored PubPub interface. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.           &#x20;
 
 [^4]: These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions and guidelines for specific research.
 
