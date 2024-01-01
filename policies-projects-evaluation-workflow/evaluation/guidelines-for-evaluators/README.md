@@ -3,12 +3,9 @@
 {% hint style="info" %}
 _**Thanks for your interest in evaluating research for**_** The Unjournal!**
 
-Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit.
-
-[You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing an on-time[^2] and complete evaluation and feedback. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.\
+Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit. [You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing an on-time[^2] and complete evaluation and feedback. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.\
 \
-See the guidelines below. You can submit your response in a [Google Doc (see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  \
-
+See the guidelines below. You can submit your response in a [Google Doc (see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  &#x20;
 
 Dec. 2023 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead.\
 
@@ -30,14 +27,9 @@ _You can download the current page as a PDF_ [_here_ ](https://www.dropbox.com/s
 
 <details>
 
-<summary>2 Oct. 2023: Updates and simplifications</summary>
+<summary>Jan 2024: Improving our process, metrics, and guidelines </summary>
 
-We are in the process of building a more clearly justified and interpretable set of guidelines, leveraging insights and innovations from previous work (such as repliCATS). This will take some time. \
-\
-In the meantime we have made some updates and simplifications; these are noted below. The main changes made so far are:
-
-1. Removing the "suggested weightings'" for ratings categories
-2. Adjusting the discussion of the "overall assessment" category
+We are in the process of formulating and building a more clearly justified and interpretable set of guidelines, leveraging insights and innovations from previous work (such as repliCATS).  In the meantime we have made some updates and simplifications; these are noted [here](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations). As noted above, we are also moving to a new evaluation management system in PubPub V7, directly integrating and evaluation form.
 
 </details>
 
@@ -161,20 +153,18 @@ _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanat
 
 <details>
 
-<summary><em>Note: Relevance to global priorities</em> </summary>
+<summary><em>Note: "Relevance to global priorities"</em></summary>
 
 Although we ask you to rate (and discuss) the relevance of this work to global priorities, you may not want this to heavily enter into your overall assessment rating. Why not? While  "relevance to global priorities" is very important, we want the overall assessment here to be somewhat comparable to that of traditional journals, to enable benchmarking.
 
 </details>
-
-&#x20;                &#x20;
 
 _**For each question above, if it seems relevant and you feel qualified to judge, please . . .**_&#x20;
 
 1. Give a rating from 0–100, considering the _"what we are asking you to rate"_ discussion provided. Try to follow the scale in[#0-100-metric-explained](./#0-100-metric-explained "mention"), but specifically for this _category._
 2. Quantify how certain you are about this rating by giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval.
 
-_**Note**_: We are in the process of switching to a new PubPub interface for entering  evaluations. This provides "slider bars" to express your chosen intervals, as in the image below. This form will ask you to "please indicate your rating (the ‘middle’ dot), and the lower and upper endpoints of your 90% CI (the lower and upper dots)".
+_**Note**_: We are in the process of switching to a new PubPub interface for entering evaluations. This provides "slider bars" to express your chosen intervals, as in the image below. This form will ask you to "please indicate your rating (the ‘middle’ dot), and the lower and upper endpoints of your 90% CI (the lower and upper dots)".
 
 <figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>A "Slider bar" for a rating</p></figcaption></figure>
 
@@ -236,7 +226,11 @@ If your 90% bounds contain the true value _less_ than 90% of of the time, you're
 
 To understand this better, assess your ability, then practice to get better at estimating your confidence in results. (See [calibrated probability assessment](https://www.wikiwand.com/en/Calibrated\_probability\_assessment) and tools like [calibrate your judgment](https://www.clearerthinking.org/tools/calibrate-your-judgment).)
 
-"The aim of the web app is to help you become 'well-calibrated.' This means that when you say you’re 50% confident, you’re right about 50% of the time; when you say you're 90% confident, you're right about 90% of the time; and so on."
+_"The aim of the web app is to help you become 'well-calibrated.' This means that when you say you’re 50% confident, you’re right about 50% of the time; when you say you're 90% confident, you're right about 90% of the time; and so on."_
+
+This web app may help you understand the idea of calibration and improve your calibration in a general sense.&#x20;
+
+We aim to build further  tools and exercises that will be specific to The Unjournal evaluation context; to help you understand our metrics, and improve your accuracy as well as your    calibration.&#x20;
 
 </details>
 
@@ -250,71 +244,23 @@ Judge the work’s quality heuristically. Consider all aspects of quality, impor
 
 ### 0-100 Metric explained
 
-_The description folded below focuses on the "Overall Assessment." Please try to use a similar scale when evaluating the category metrics._
-
 {% hint style="info" %}
 **Update Dec. 2023:** We are reframing these metrics to explicitly be considered in terms of percentiles relative to a reference group. _Further adjustment and explanation coming soon._&#x20;
 {% endhint %}
 
-<details>
+**In assigning your ratings –** both for the "Overall Assessment" and for the six additional metrics discussed above...&#x20;
 
-<summary>Top ratings (90–100)</summary>
+**Please give a percentile,** considering the qualities of this research **relative to** other work in the reference group...
 
-**95–100:** Among the highest quality and most important work you have ever read.
+**Reference group:**  **A**_**ll research you have encountered in the last three years,**_ particularly considering work in the same field (or closely related fields), considering similar topics and issues, and using similar or alternative methods. &#x20;
 
-**90–100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grantmakers.
+In defining the reference group we ask you to consider "this field or area" fairly broadly.  We want these ratings to be fairly comparable across areas, topics, and fields. If the research you are evaluating is in a very niche field, addressing an issue with little work, the comparison reference group should be expanded to consider work in other areas.&#x20;
 
-_For example:_
+We previously described the ratings scales qualitatively. E.g., "Top ratings (90–100)" were meant to represent "a major achievement, making substantial contributions to the field and practice. ... should be weighed very heavily by tenure and promotion committees, and grantmakers." We [link these descriptions here](why-these-guidelines.md#previous-descriptions-of-ratings-intervals), but we are de-emphasizing them;  these attributes [might not actually describe the qualities of research in the relevant percentiles.](#user-content-fn-6)[^6]&#x20;
 
-* Most work in this area in the next ten years will be influenced by this paper.
 
-<!---->
 
-* This paper is substantially more rigorous or more insightful than existing work in this area in a way that matters for research and practice.
 
-<!---->
-
-* The work makes a major, perhaps decisive contribution to a case for (or against) a policy or philanthropic intervention.
-
-</details>
-
-<details>
-
-<summary>Near-top (75–89) (*)</summary>
-
-This work represents a strong and substantial achievement. It is highly rigorous, relevant, and well-communicated, up to the standards of the strongest work in this area (say, the standards of the top 5% of committed researchers in this field). Such work would/should not be decisive in a tenure/promotion/grant decision alone, but it should make a very solid contribution to such a case.
-
-</details>
-
-<details>
-
-<summary>Middle ratings (40–59, 60–74) (*)</summary>
-
-[**60–74.9**](#user-content-fn-6)[^6]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
-
-**40–59.9:** A useful contribution, with major strengths, but also some important flaws or limitations.
-
-</details>
-
-<details>
-
-<summary>Low ratings (5–19, 20–39) (*)</summary>
-
-**20–39.9:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
-
-**5–19.9:** Among the lowest quality papers; not making any substantial contribution and containing fatal flaws. The paper may fundamentally address an issue that is not defined or obviously not relevant, or the content may be substantially outside of the authors’ field of expertise.
-
-**0–4:** Illegible, fraudulent, or plagiarized. _Please flag fraud, and notify us and the relevant authorities._
-
-</details>
-
-<details>
-
-<summary>(*) 20 Mar 2023: We adjusted these ratings to avoid overlap</summary>
-
-The previous categories were 0–5, 5–20, 20–40, 40–60, 60–75, 75–90, and 90–100. Some evaluators found the overlap in this definition confusing.
-
-</details>
 
 ### The confidence/credible intervals: expressing uncertainty
 
@@ -606,7 +552,7 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^5]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
-[^6]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
+[^6]: We plan to pursue this further, to work with evaluators, raters, and researchers  be able to present empirically-grounded descriptions of the attributes of research that falls into the different deciles.&#x20;
 
 [^7]: _So, consider each of the questions below to be prefaced with "to what extent"._
 
