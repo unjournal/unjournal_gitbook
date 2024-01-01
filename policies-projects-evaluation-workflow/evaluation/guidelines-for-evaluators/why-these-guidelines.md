@@ -163,6 +163,70 @@ And, for the 'journal tier' scale:
 
 </details>
 
+#### Previous 'descriptions of ratings intervals'
+
+_\[Previous guidelines]: The description folded below focuses on the "Overall Assessment." Please try to use a similar scale when evaluating the category metrics._
+
+<details>
+
+<summary>Top ratings (90–100)</summary>
+
+**95–100:** Among the highest quality and most important work you have ever read.
+
+**90–100:** This work represents a major achievement, making substantial contributions to the field and practice. Such work would/should be weighed very heavily by tenure and promotion committees, and grantmakers.
+
+_For example:_
+
+* Most work in this area in the next ten years will be influenced by this paper.
+
+<!---->
+
+* This paper is substantially more rigorous or more insightful than existing work in this area in a way that matters for research and practice.
+
+<!---->
+
+* The work makes a major, perhaps decisive contribution to a case for (or against) a policy or philanthropic intervention.
+
+</details>
+
+<details>
+
+<summary>Near-top (75–89) (*)</summary>
+
+This work represents a strong and substantial achievement. It is highly rigorous, relevant, and well-communicated, up to the standards of the strongest work in this area (say, the standards of the top 5% of committed researchers in this field). Such work would/should not be decisive in a tenure/promotion/grant decision alone, but it should make a very solid contribution to such a case.
+
+</details>
+
+<details>
+
+<summary>Middle ratings (40–59, 60–74) (*)</summary>
+
+[**60–74.9**](#user-content-fn-6)[^6]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
+
+**40–59.9:** A useful contribution, with major strengths, but also some important flaws or limitations.
+
+</details>
+
+<details>
+
+<summary>Low ratings (5–19, 20–39) (*)</summary>
+
+**20–39.9:** Some interesting and useful points and some reasonable approaches, but only marginally so. Important flaws and limitations. Would need substantial refocus or changes of direction and/or methods in order to be a useful part of the research and policy discussion.
+
+**5–19.9:** Among the lowest quality papers; not making any substantial contribution and containing fatal flaws. The paper may fundamentally address an issue that is not defined or obviously not relevant, or the content may be substantially outside of the authors’ field of expertise.
+
+**0–4:** Illegible, fraudulent, or plagiarized. _Please flag fraud, and notify us and the relevant authorities._
+
+</details>
+
+<details>
+
+<summary>(*) 20 Mar 2023: We adjusted these ratings to avoid overlap</summary>
+
+The previous categories were 0–5, 5–20, 20–40, 40–60, 60–75, 75–90, and 90–100. Some evaluators found the overlap in this definition confusing.
+
+</details>
+
 ## See also
 
 [#more-reliable-precise-and-useful-metrics](../../../benefits-and-features/more-reliable-and-useful-evaluation/#more-reliable-precise-and-useful-metrics "mention") This page explains the value of the metrics we are seeking from evaluators.
@@ -196,3 +260,5 @@ The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate
 [^4]: For example, you might weight categories less where you are more uncertain, or where the category seems less relevant.
 
 [^5]: _Above, we completed both only for illustration purposes. Below, we give a suggested correspondence between these two measures._ &#x20;
+
+[^6]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
