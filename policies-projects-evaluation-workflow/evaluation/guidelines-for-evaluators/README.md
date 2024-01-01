@@ -264,9 +264,17 @@ But this still seems challenging, and is admittedly ad-hoc. We are working to de
 
 In defining the reference group we ask you to consider "this field or area" fairly broadly.  We want these ratings to be fairly comparable across areas, topics, and fields. If the research you are evaluating is in a very niche field, addressing an issue with little work, the comparison reference group should be expanded to consider work in other areas.&#x20;
 
-We previously described the ratings scales qualitatively. E.g., "Top ratings (90–100)" were meant to represent "a major achievement, making substantial contributions to the field and practice. ... should be weighed very heavily by tenure and promotion committees, and grantmakers." We [link these descriptions here](why-these-guidelines.md#previous-descriptions-of-ratings-intervals), but we are de-emphasizing them;  these attributes [might not actually describe the qualities of research in the relevant percentiles.](#user-content-fn-6)[^6]&#x20;
+<details>
 
+<summary> Attributes and descriptions of research, by percentile (a WIP)</summary>
 
+We previously described the ratings scales qualitatively. E.g., "Top ratings (90–100)" were stated to represent "a major achievement, making substantial contributions to the field and practice. ... should be weighed very heavily by tenure and promotion committees, and grantmakers."&#x20;
+
+We [link these descriptions here](why-these-guidelines.md#previous-descriptions-of-ratings-intervals), and you are free to consult them. Consider them "as our rough impressions of how these percentiles/ratings would break down".  However,  these attributes [might not actually describe the qualities of research in the relevant percentiles](#user-content-fn-6)[^6]; so we are de-emphasizing them.&#x20;
+
+We plan to pursue this further, to work with evaluators, raters, and researchers, to develop and present empirically-grounded descriptions (from surveys and elicitations) of the _attributes_ of research that falls into the different deciles, relative to an agreed-upon reference group. &#x20;
+
+</details>
 
 
 
