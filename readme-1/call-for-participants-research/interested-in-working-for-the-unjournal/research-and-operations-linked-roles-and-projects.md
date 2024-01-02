@@ -1,7 +1,7 @@
-# Research and operations-linked roles and projects (temp. pause)
+# Research & operations-linked roles & projects (temp. pause)
 
 {% hint style="info" %}
-_**Nov. 2023 update**: We can not guarantee that we will be hiring for this role, because of changes in our approach. We will consider all applicants for our_ [_field specialist_](../../organizational-roles-and-responsibilities/#field-specialists-fs) _positions, and for roles that may come up in the future._
+_**2024:** We have indefinitely postponed hiring for this role, because of changes in our approach. We will consider all applicants for our_ [_field specialist_](../../organizational-roles-and-responsibilities/#field-specialists-fs) _positions, and for roles that may come up in the future._
 {% endhint %}
 
 The potential roles discussed below combine research-linked work with operations and administrative responsibilities. Overall, this may include some combination of:
@@ -42,7 +42,7 @@ Potential focus areas include global health; development economics; markets for 
 
 _Note: No single skill or experience is necessary independently. If in doubt, we encourage you to express your interest or apply._
 
-* Understanding of the relevant literature and methodology (c, to an upper-postgraduate level) in this field or a related field and technical areas, i.e., knowledge of the literature, methodology, and policy implications
+* Understanding of the relevant literature and methodology (to an upper-postgraduate level) in this field or a related field and technical areas, i.e., knowledge of the literature, methodology, and policy implications
 * Research and policy background and experience
 * Strong communication skills
 * Ability to work independently, as well as to build coalitions and cooperation
