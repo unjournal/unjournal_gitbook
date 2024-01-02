@@ -10,7 +10,7 @@
     * [Jobs and paid projects with The Unjournal](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal.md)
       * [Advisory/team roles (research, management)](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/advisory-team-roles-research-management.md)
       * [Administration, operations and management roles](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/administration-operations-and-management-roles.md)
-      * [Research and operations-linked roles and projects (temp. pause)](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/research-and-operations-linked-roles-and-projects.md)
+      * [Research & operations-linked roles & projects (temp. pause)](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/research-and-operations-linked-roles-and-projects.md)
       * [Standalone project: Impactful Research Scoping (temp. pause)](readme-1/call-for-participants-research/interested-in-working-for-the-unjournal/standalone-project-impactful-research-scoping.md)
   * [Organizational roles and responsibilities](readme-1/organizational-roles-and-responsibilities/README.md)
     * [Unjournal Field Specialists: Incentives and norms (trial)](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit)
