@@ -42,7 +42,7 @@ _Also see our_ [latest-updates.md](latest-updates.md "mention").
 
 ## In a nutshell
 
-_The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are [a team of researchers](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team), practitioners, and open science advocates led by [David Reinsten](https://www.davidreinstein.org/).&#x20;
+_The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are [a team of researchers](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team), practitioners, and open science advocates led by [David Reinstein](https://www.davidreinstein.org/).&#x20;
 
 _The Unjournal_ encourages better research by making it easier for researchers to get feedback and credible ratings. We coordinate and fund public journal-independent evaluation of hosted papers and dynamically presented projects. We publish evaluations, ratings, manager summaries, author responses, and links to evaluated research on [our PubPub page](https://unjournal.pubpub.org/).&#x20;
 
