@@ -22,7 +22,7 @@
     * [Outreach texts](readme-1/writings/marketing-and-outreach.md)
     * [Related articles and work](readme-1/writings/related-articles-and-work.md)
   * [Latest updates](readme-1/latest-updates.md)
-    * [Impactful Research Prize](readme-1/latest-updates/impactful-research-prize.md)
+    * [Impactful Research Prize Winners](readme-1/latest-updates/impactful-research-prize-winners.md)
     * [Previous updates](readme-1/latest-updates/previous-updates.md)
 * [Why Unjournal?](benefits-and-features/README.md)
   * [Reshaping academic evaluation: Beyond the binary of acceptance/rejection](benefits-and-features/costs-of-playing-the-publication-game.md)

@@ -4,6 +4,10 @@
 Fill out this [quick survey](http://eepurl.com/ipFMdg) to get our updates by email. Data protection statement [here](https://bit.ly/46y0LqH).
 {% endhint %}
 
+## Jan 2024: Impactful Research and Evaluation Prizes winners announced
+
+[impactful-research-prize-winners.md](latest-updates/impactful-research-prize-winners.md "mention")
+
 ## Aug. 30, 2023: "Pilot's done, what has been won (and learned)?"
 
 ### Pilot = completed!
