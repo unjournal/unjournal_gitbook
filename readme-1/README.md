@@ -28,18 +28,6 @@ description: We are not a journal!
 
 </details>
 
-## Who are we?
-
-<mark style="color:orange;">We are a</mark> [<mark style="color:orange;">team of researchers</mark>](../broken-reference/)<mark style="color:orange;">, practitioners,</mark> <mark style="color:orange;">and open science advocates building a better system for evaluating rigorous, impactful research.</mark>
-
-<mark style="color:green;">Organizer and contact point:</mark> [<mark style="color:green;">David Reinstein</mark>](http://davidreinstein.org)
-
-{% hint style="info" %}
-_See_ our **hosted evaluation output** [**here**](https://unjournal.pubpub.org/)_._\
-\
-_Also see our_ [latest-updates.md](latest-updates.md "mention").
-{% endhint %}
-
 ## In a nutshell
 
 _The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are [a team of researchers](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team), practitioners, and open science advocates led by [David Reinstein](https://www.davidreinstein.org/).&#x20;
@@ -50,17 +38,17 @@ _As the name suggests, **we are not a journal!**_&#x20;
 
 We are working independently of traditional academic journals to build an open platform and a sustainable system for feedback, ratings, and assessment. We are currently focusing on [_**quantitative work that informs global priorities in economics, policy, and other social sciences.**_ ](#user-content-fn-1)[^1]
 
-\
+**How to get involved?**
+
+We are looking for research papers to evaluate, as well as evalutators. If you want to suggest research, your own or someone else's, you can let us know [using this form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). If you want to be an evaluator, [apply here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy). You can [express your interest](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy) in being a member of the management team, advisory board, or reviewer pool. For more information, check our guide on [how to get involved](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research).  \
 \
 **Why **_**The Unjournal**_**?**\
 \
 Peer review is great, but conventional academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and prompt researchers to focus more on "gaming the system" than on the quality of their research. We will provide an immediate alternative, and at the same time, offer a bridge to a more efficient, informative, useful, and transparent research evaluation system.
 
-
-
 **Does **_**The Unjournal**_** charge any fees?**
 
-No. We are a nonprofit organization (hosted by [OCF](https://opencollective.com/the-unjournal)) and we do not charge any fees for submitting and evaluating your research. We compensate evaluators for their time and even award prizes for strong research work, in contrast to most traditional journals.&#x20;
+No. We are a nonprofit organization (hosted by [OCF](https://opencollective.com/the-unjournal)) and we do not charge any fees for submitting and evaluating your research. We compensate evaluators for their time and even award prizes for strong research work, in contrast to most traditional journals. We do so thanks to funding from the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) and [Survival and Flourishing Fund](https://survivalandflourishing.fund/).&#x20;
 
 At some point in the future, we might consider sliding-scale fees for people or organizations submitting their work for _Unjournal_ evaluation, or for other services. If we do this, it would simply be a way to cover the compensation we pay evaluators and to cover our actual costs. Again, we are a _nonprofit_ and we will stay that way.
 
