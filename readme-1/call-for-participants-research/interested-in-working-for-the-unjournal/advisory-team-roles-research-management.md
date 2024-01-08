@@ -13,7 +13,7 @@ As well as:
 * Quantitative political science (voting, lobbying, attitudes)
 * Social impact of AI/emerging technologies
 * Macro/growth, finance, public finance
-* Long term trends and demographics
+* Long-term trends and demographics
 {% endhint %}
 
 In addition to the "work roles," we are looking to engage researchers, research users, meta-scientists, and people with experience in open science, open access, and management of initiatives similar to _The Unjournal._

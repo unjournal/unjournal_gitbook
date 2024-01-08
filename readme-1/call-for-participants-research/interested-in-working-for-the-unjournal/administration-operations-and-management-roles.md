@@ -2,31 +2,21 @@
 
 These are principally not research roles, but familiarity with research and research environments will be helpful, and there is room for research involvement depending on the candidate’s interest, background, and skills/aptitudes.&#x20;
 
-There are currently two such roles:
+There are currently one such role:
 
-[#h.4oteb50mm1z](administration-operations-and-management-roles.md#h.4oteb50mm1z "mention")
 
-[#h.htvmrldrqnhn](administration-operations-and-management-roles.md#h.htvmrldrqnhn "mention") (Nov 2023: still seeking freelancers)
+
+[#h.htvmrldrqnhn](administration-operations-and-management-roles.md#h.htvmrldrqnhn "mention") (As of November 2023, still seeking freelancers)
+
+
 
 _Further note: We previously considered a “Management support and administrative professional” role. We are not planning to hire for this role currently. Those who indicated interest will be considered for other roles._
 
-[Express interest here](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926473191\&usg=AOvVaw388wUH9VVv1Lv5AyWJ5l\_l).
-
-### Operations and Administrative Lead (Nov 2023: Finishing search) <a href="#h.4oteb50mm1z" id="h.4oteb50mm1z"></a>
-
-_The Unjournal_ is seeking an operations lead to help build and manage the organization alongside its founder and co-director [David Reinstein](https://www.davidreinstein.org/). This includes strategic, managerial, communications, and administrative work, & responsibility for "keeping the pipeline running." This is a great opportunity to gain experience building and growing an impactful organization with links to academia, Effective Altruism, open science, journalism, and policymaking.&#x20;
-
-This has the potential to also become a co-director role.
-
-See [Google doc for description here.](https://docs.google.com/document/d/1VedPxPiaL5S-ClPjgvw6PeaRIjTa1GWwSPjaS6LzpQM/edit?usp=sharing)&#x20;
-
-{% embed url="https://docs.google.com/document/d/1VedPxPiaL5S-ClPjgvw6PeaRIjTa1GWwSPjaS6LzpQM/edit?usp=sharing" %}
-
-[Express your interest here.](https://airtable.com/appbPYEw9nURln7Qg/shroeCaOEtXNuspp5) (Nov 2023 note: we are finishing the search now; we will hold on to all applications but we may not be able to consider your application in this round).
+[Express interest here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
 
 ### Communications, Writing, and Public Relations Specialist <a href="#h.htvmrldrqnhn" id="h.htvmrldrqnhn"></a>
 
-_Nov 2023: We are soliciting applications for freelancers with skills in particular areas_&#x20;
+_As of November 2023, we are soliciting applications for freelancers with skills in particular areas_&#x20;
 
 _The Unjournal_ is looking to work with a proficient writer who is adept at communicating with academics and researchers (particularly in economics, social science, and policy), journalists, policymakers, and philanthropists. As we are in our early stages, this is a generalist role. We need someone to help us explain what _The Unjournal_ does and why, make our processes easy to understand, and ensure our outputs (evaluations and research synthesis) are accessible and useful to non-specialists. We seek someone who values honesty and accuracy in communication; someone who has a talent for simplifying complex ideas and presenting them in a clear and engaging way.
 
@@ -68,4 +58,4 @@ _The Unjournal_ is looking to work with a proficient writer who is adept at comm
 * Our current budget can cover roughly 200 hours of this project work. We hope to increase and extend this (depending on our future funding and expenses).
 * This role is contract-based and supports remote and international applicants. We can contract people living in most countries, but we cannot serve as an immigration sponsor.
 
-[Express your interest here](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926473191\&usg=AOvVaw388wUH9VVv1Lv5AyWJ5l\_l).
+[Express your interest here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).

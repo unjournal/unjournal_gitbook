@@ -2,22 +2,22 @@
 
 _As outlined elsewhere..._
 
-1. We are targeting [global priorities-relevant research](../../the-field-and-ea-gp-research.md).
-2. With the potential for impact, and with the potential for _Unjournal_ evaluations to have an impact (see our [high-level considerations](what-research-to-target.md#high-level-considerations-for-prioritizing-research) and our   [prioritization ratings](process-prioritizing-research-wip/prioritization-ratings-discussion.md) discussions).
+1. We are targeting [global priorities-relevant research](../../the-field-and-ea-gp-research.md)...
+2. With the potential for impact, and with the potential for _Unjournal_ _evaluations_ to have an impact (see our [high-level considerations](what-research-to-target.md#high-level-considerations-for-prioritizing-research) and our [prioritization ratings](process-prioritizing-research-wip/prioritization-ratings-discussion.md) discussions).
 3. Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities (see linked discussion)](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2], informing our [Theory of Change](../../benefits-and-features/global-priorities-theory-of-change/).
 4. We give a data presentation of the work we have already covered and the work we are prioritizing [here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data\_analysis.html), which will be continually updated.
 
 _**But what does this mean in practice? What specific research (fields, topics, approaches, etc.) are we likely to classify as 'relevant to evaluate'?**_
 
-We give some lists and annotated examples below. (Works in progress.)
+We give some lists and annotated examples below. (These are works in progress.)
 
 ## Fields, methods, and approaches
 
-(Jan 2024) _The Unjournal_ focuses on research&#x20;
+(Jan/ 2024) _The Unjournal_ focuses on ...&#x20;
 
-1. Where the fundamental question being investigated involves _human_ behavior and beliefs and the consequences of these. This may involve markets, production processes, economic constraints, social interactions, technology, the 'market of ideas', individual psychology, government processes, and more. However, the main research question should _not_ revolve around issues _outside of human behavior,_ such as of physical science, biology, or computer science and engineering.&#x20;
-2. That is fundamentally _quantitative_. It will generally involve or consider measurable inputs, choices, and outcomes; specific categorical or quantitative questions; analytical and mathematical reasoning; hypothesis testing and/or belief updating, etc.&#x20;
-3. That targets and addresses a single (or a small number of connected) _specific_ question or goals,  rather than mainly engaging in a broad discussion and overview of other research or conceptual issues.
+1. Research where the fundamental question being investigated involves _human_ behavior and beliefs and the consequences of these. This may involve markets, production processes, economic constraints, social interactions, technology, the 'market of ideas', individual psychology, government processes, and more. However, the main research question should _not_ revolve around issues outside of human behavior_,_ such as physical science, biology, or computer science and engineering. These areas are out of our scope (at least for now). &#x20;
+2. Research that is fundamentally _quantitative_ and uses [_scientific_ methods](#user-content-fn-3)[^3]. It will generally involve or consider measurable inputs, choices, and outcomes; specific categorical or quantitative questions; analytical and mathematical reasoning; hypothesis testing and/or belief updating, etc.&#x20;
+3. Research that targets and addresses a single (or a small number of connected) _specific_ question or goals,  rather than mainly engaging in a broad discussion and overview of other research or conceptual issues.
 
 We expect this to generally involve the academic fields:
 
@@ -105,3 +105,6 @@ T_o do: We will give and explain some examples here_
 
 [^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
 
+
+
+[^3]: Broadly, in the sense that Fang and Casadevall (2024) describe... "Science as it is presently understood possesses several essential characteristics: (i) an assumption that nature can be understood without having to invoke supernatural forces; (ii) a requirement for supporting evidence; (iii) arguments that conform to logical chains of reasoning; (iv) accumulation of knowledge that can change and undergo refinement over time as a result of new ideas or observations and improvements in methodology; and (v) predictive power"

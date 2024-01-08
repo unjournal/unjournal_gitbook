@@ -1,7 +1,7 @@
 # Research & operations-linked roles & projects (temp. pause)
 
 {% hint style="info" %}
-_**2024:** We have indefinitely postponed hiring for this role, because of changes in our approach. We will consider all applicants for our_ [_field specialist_](../../organizational-roles-and-responsibilities/#field-specialists-fs) _positions, and for roles that may come up in the future._
+As of **January** _**2024,** we have indefinitely postponed hiring for this role, because of changes in our approach. We will consider all applicants for our_ [_field specialist_](../../organizational-roles-and-responsibilities/#field-specialists-fs) _positions, and for roles that may come up in the future._
 {% endhint %}
 
 The potential roles discussed below combine research-linked work with operations and administrative responsibilities. Overall, this may include some combination of:

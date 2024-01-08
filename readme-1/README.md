@@ -40,6 +40,12 @@ We are working independently of traditional academic journals to build an open p
 
 **How to get involved?**
 
+\
+**Why **_**The Unjournal?**_\
+\
+Peer review is great, but conventional academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and prompt researchers to focus more on "gaming the system" than on the quality of their research. We will provide an immediate alternative, and at the same time, offer a bridge to a more efficient, informative, useful, and transparent research evaluation system.\
+
+
 We are looking for research papers to evaluate, as well as evalutators. If you want to suggest research, your own or someone else's, you can let us know [using this form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). If you want to be an evaluator, [apply here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy). You can [express your interest](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy) in being a member of the management team, advisory board, or reviewer pool. For more information, check our guide on [how to get involved](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research).  \
 \
 **Why **_**The Unjournal**_**?**\
