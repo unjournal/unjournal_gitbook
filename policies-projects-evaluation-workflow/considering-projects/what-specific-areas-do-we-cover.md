@@ -1,4 +1,8 @@
-# What specific areas do we cover (WIP)
+---
+description: This discussion is a work-in-progress
+---
+
+# What specific areas do we cover?
 
 _As outlined elsewhere..._
 
@@ -13,7 +17,7 @@ We give some lists and annotated examples below. (These are works in progress.)
 
 ## Fields, methods, and approaches
 
-(Jan/ 2024) _The Unjournal_ focuses on ...&#x20;
+(Jan. 2024) _The Unjournal_ focuses on ...&#x20;
 
 1. Research where the fundamental question being investigated involves _human_ behavior and beliefs and the consequences of these. This may involve markets, production processes, economic constraints, social interactions, technology, the 'market of ideas', individual psychology, government processes, and more. However, the main research question should _not_ revolve around issues outside of human behavior_,_ such as physical science, biology, or computer science and engineering. These areas are out of our scope (at least for now). &#x20;
 2. Research that is fundamentally _quantitative_ and uses [_scientific_ methods](#user-content-fn-3)[^3]. It will generally involve or consider measurable inputs, choices, and outcomes; specific categorical or quantitative questions; analytical and mathematical reasoning; hypothesis testing and/or belief updating, etc.&#x20;
@@ -30,16 +34,16 @@ We expect this to generally involve the academic fields:
 * Applied "policy and impact evaluation" fields&#x20;
 * Medicine/health and biology-linked fields, where these target human behavior and social science questions
 
-&#x20;Note this discipline/field limitations are not strict and they may also change as we grow and adapt.&#x20;
+_Note_: these discipline/field boundaries are not strict and may also change as we grow and adapt.&#x20;
 
 ### Why this field/method focus?
 
 These were chosen in light of two main factors:
 
 1. Our founder and our team is most comfortable assessing and managing the consideration of research in these areas.
-2. These fields seem to be particularly amenable to, and able to benefit from our journal-independent evaluationapproach. Other fields, such as biology, are already being 'served' by strong initiatives like Peer Communities In.
+2. These fields seem to be particularly amenable to, and able to benefit from our journal-independent evaluation approach. Other fields, such as biology, are already being 'served' by strong initiatives like [Peer Communities In](https://peercommunityin.org/).
 
-### Examples of work we chose to prioritize or de-prioritize based on field or method
+### Examples: work we chose to include or de-prioritize based on field/method
 
 {% hint style="info" %}
 &#x20;_To do: We will give and explain some examples here_
@@ -52,26 +56,26 @@ These were chosen in light of two main factors:
 _The Unjournal's_ mission is to prioritize&#x20;
 
 * research with the strongest potential to have a positive impact on global welfare and
-* where the public _evaluation_ of this research will have the greatest impact on this.&#x20;
+* where the public _evaluation_ of this research will have the greatest positive impact.&#x20;
 
-Given this broad goal, we are willing to consider research into any cause, topic, or outcome, as long as the research involves fields, methods and approaches within our domain (see above), and as long as this work meets our other requirements (e.g., the research must be publicly shared without a paywall).&#x20;
+Given this broad goal, we will consider research into any cause, topic, or outcome, as long as the research involves fields, methods, and approaches within our domain (see above), and as long as the work meets our other requirements (e.g., research must be publicly shared without a paywall).&#x20;
 
-While we don't have rigid boundaries, we are nonetheless focusing on certain areas that seem likely to have potential for impact, and in areas our team is familiar with. This prioritization is reflected in our team's current research field groupings; as embedded below.  (To do: We will better describe the coverage within these groups.)
+While we don't have rigid boundaries, we are nonetheless focusing on certain areas that seem likely to have potential for impact (and in areas our team is familiar with). This prioritization is reflected in our team's current research field groupings, as embedded below.  (To do: We will better describe the coverage within these groups.)
 
 {% embed url="https://airtable.com/applDG6ifmUmeEJ7j/shr3tIhhydFyXvTpF" %}
 
-(As of: Jan. 2024), we have mainly commissioned evaluations of work involving&#x20;
+(As of Jan. 2024) we have mainly commissioned evaluations of work involving&#x20;
 
 * Development economics
 * Global Health and Development; health-related outcomes and interventions in low-income countries&#x20;
 
 As well as some research involving
 
-* Environmental economics, the economics of conservation, environmental harm to human health&#x20;
+* Environmental economics, economics of conservation, environmental harm to human health&#x20;
 * The social impact of AI and emerging technologies&#x20;
 * Economics, welfare, and governance
 * Markets for products with externalities
-* Catastrophic risks;  responses to these
+* Catastrophic risks; responses to these risks
 
 
 
