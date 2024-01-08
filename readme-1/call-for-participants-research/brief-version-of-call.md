@@ -18,12 +18,12 @@ _To sign up to be part of the pool of evaluators or to get involved in_ The Unjo
 
 We welcome suggestions for particularly impactful research that would benefit from (further) public evaluation. We choose research for public evaluation based on an initial assessment of methodological strength, openness, clarity, relevance to [global priorities](../../readme/call-for-participants-research/broken-reference/), and the usefulness of further evaluation and public discussion. We sketch out [these criteria here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/policies-and-templates/considering-projects), and give some potential examples [here](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_).
 
-If you have research—your own or others—that you would like us to assess, please fill out [_this form_](https://airtable.com/shrdHHI0zK7rkJCP3). You can submit your own work [here](https://unjournaldev.cloud68.co/login) (or by contacting [theunjournal@gmail.com](mailto:theunjournal@gmail.com)). _Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](impactful-research-prize/) (Pilot phase prizes: $2500, $1000. Post-pilot prizes are likely to be larger.
+If you have research—your own or others—that you would like us to assess, please fill out [_this form_](https://airtable.com/shrdHHI0zK7rkJCP3). You can submit your own work [here](https://unjournaldev.cloud68.co/login) (or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)). _Authors_ of evaluated papers will be eligible for our [Impactful Research Prizes](impactful-research-prize/) (Pilot phase prizes: $2500, $1000. Post-pilot prizes are likely to be larger.
 
 ### **Feedback**
 
-We are looking for both feedback on and involvement in _The Unjournal_ project. Feel free to reach out at [theunjournal@gmail.com](mailto:theunjournal@gmail.com).
+We are looking for both feedback on and involvement in _The Unjournal_ project. Feel free to reach out at [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
-_Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
+_View our_ [_data protection statement_](https://docs.google.com/document/d/1dGhqonNHeH71F5pDlVB-m9Ods5jcmULR8qlcHXTU-MM/edit#heading=h.jv8s8d8szj8i)
 
 [^1]: June 2023 update: We will be increasing these incentives.

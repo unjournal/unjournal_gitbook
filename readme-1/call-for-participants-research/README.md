@@ -23,7 +23,7 @@ _Please note that while data submitted through the above forms may be shared int
 
 I am [David Reinstein](https://www.davidreinstein.org/), founder and co-director[^1] of _The Unjournal_. We have an open call for committee members, board members, reviewers, and suggestions for relevant work for _The Unjournal_ to evaluate.
 
-The [_Unjournal_ team](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/master/discussion-team/who-are-we-our-team) is building a system for credible, public, journal-independent feedback and evaluation of research.
+_The Unjournal_ [team](https://globalimpact.gitbook.io/archived-the-unjournal-project/readme-1/discussion-team) is building a system for credible, public, journal-independent feedback and evaluation of research.
 
 <details>
 
@@ -79,7 +79,7 @@ Some particular areas where we are hoping to expand our expertise (as of  15 Aug
 
 ## **Evaluators**
 
-We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, appropriate for each paper or project being assessed. This is dependent on expertise, the researcher's interest, and a lack of conflict of interest. .
+We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, appropriate for each paper or project being assessed. This is dependent on expertise, the researcher's interest, and a lack of conflict of interest.&#x20;
 
 **Time commitment**: Case-by-case basis. For each evaluation, [here are some guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#length-and-time-possible-benchmarks) for the amount of time to spend.
 
@@ -91,11 +91,11 @@ _Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7
 
 ## **Projects and papers**
 
-We are looking for high-quality, globally-pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research. Please suggest research [here](https://airtable.com/shrdHHI0zK7rkJCP3). (We offer bounties and prizes for useful suggestions – [see note](#user-content-fn-3)[^3].) For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and accompanying links.
+We are looking for high-quality, globally pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research. Please suggest research [here](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). (We offer bounties and prizes for useful suggestions – [see note](#user-content-fn-3)[^3].) For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and accompanying links.
 
-You can also [put forward your own work here](https://airtable.com/shrwlxes5AeasnkfC).
+You can also [put forward your own work](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1).
 
-We provide a separate form for research suggestions [here](https://airtable.com/shrdHHI0zK7rkJCP3). We may follow up with you individually.
+We provide a separate form for research suggestions[ here](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). We may follow up with you individually.
 
 ## Contact us
 

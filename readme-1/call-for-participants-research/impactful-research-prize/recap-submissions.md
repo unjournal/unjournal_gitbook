@@ -16,7 +16,7 @@ Your work will be evaluated using our evaluation guidelines and metrics. You can
 
 **Important Note**: We are not a journal. By having your work evaluated, you will not be giving up the opportunity to have your work published in a journal. We simply operate a system that allows you to have your work independently evaluated.
 
-[If you think your work fits our criteria and would like it to be publicly evaluated, please submit your work through this form.](https://unjournaldev.cloud68.co/kotahi/versions/07ee3dd9-4f5b-42bf-bb4e-b9b818fe80f2/submit)
+If you think your work fits our criteria and would like it to be publicly evaluated, please submit your work through [this form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw).
 
 Please note that you will need an ORCID account in order to log in. If you don’t already have an account, it takes two minutes to [register an ORCID new account here](https://orcid.org/register).
 
@@ -24,9 +24,9 @@ If you would like to submit more than one of your papers, you will need to compl
 
 ### Conditional embargo on the publishing of evaluations
 
-By default, we would like _Unjournal_ evaluations to be made public. We think public evaluations are generally good for authors, explained [here](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
+By default, we would like _Unjournal_ evaluations to be made public. We think public evaluations are generally good for authors, as explained [here](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
 
-If there is an early-career researcher on the author team, we will allow authors to "embargo" publication of the evaluation until a later date. This date is contingent, but not indefinite. The embargo lasts until after a PhD/postdoc’s upcoming job-market or until it has been published in a mainstream journal, unless:
+If there is an early-career researcher on the author team, we will allow authors to "embargo" the publication of the evaluation until a later date. This date is contingent, but not indefinite. The embargo lasts until after a PhD/postdoc’s upcoming job search or until it has been published in a mainstream journal, unless:
 
 * the author(s) give(s) earlier permission for release; or
 * until a fixed upper limit of 14 months is reached.
@@ -46,18 +46,18 @@ If you would like to request an exception to a public evaluation, you will have 
 
 ### What we might ask of authors
 
-If we consider your work for public evaluation, we may ask for **some** of the items below, although most are optional. We will aim to make this very **light touch** for authors.
+If we consider your work for public evaluation, we may ask for **some** of the items below, although most are optional. We will aim to make this a very **light touch** for authors.
 
 1. **A link to a non-paywalled, hosted version of your work** (in any format—PDFs are not necessary) that can be given a Digital Object Identifier (DOI). Again, we will not be "publishing" this work, just evaluating it.
 2. **A link to data and code**, if possible. We will work to help you to make it accessible.
-3. **Assignment of two evaluators who will be paid to assess your work**. We will likely keep their identities confidential, although this is flexible depending on the reviewer. Where it seems particular helpful, we will facilitate a confidential channel to enable a dialogue with the authors. One person on our managing team will handle this process.
+3. **Assignment of two evaluators who will be paid to assess your work**. We will likely keep their identities confidential, although this is flexible depending on the reviewer. Where it seems particularly helpful, we will facilitate a confidential channel to enable a dialogue with the authors. One person on our managing team will handle this process.
 4. **Have evaluators publicly post their reviews of your work on our platform**. As noted above, we will ask them to provide feedback, thoughts, suggestions, and some quantitative ratings for the paper.
 
-* By completing the submission form, you are providing your permission for us to post the reviews publicly, unless you request an embargo.
+* By completing the submission form, you are providing your permission for us to post the reviews publicly unless you request an embargo.
 * You will have a two-week window to respond through our platform before anything is posted publicly. Your responses can also be posted publicly.
 
 For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../../../faq-interaction/for-researchers-authors/).
 
-#### [Here again is the link to submit your work on our platform.](https://unjournaldev.cloud68.co/kotahi/versions/07ee3dd9-4f5b-42bf-bb4e-b9b818fe80f2/submit)
+#### [Here again is the link to submit your work on our platform.](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1)
 
 Again, please note; that you will require an ORCID account in order to log in. If you don’t already have an account, it takes two minutes to [register a new ORCID account here](https://orcid.org/register).

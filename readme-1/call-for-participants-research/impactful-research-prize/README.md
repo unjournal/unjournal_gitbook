@@ -1,51 +1,45 @@
 # Impactful Research Prize (pilot)
 
 {% hint style="info" %}
-**Dec 2023 update:** The prize below refers to the prize linked to our pilot phase. These prizes have been chosen and will be announced. We are also scheduling an event linked to this prize. \
+As of **December 2023,** the prizes below have been chosen and will be soon announced. We are also scheduling an event linked to this prize. \
 \
-_**However**,_ we are setting aside funds for even larger author and evaluator prizes for our next phase. If you [submit your research](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1) to _The Unjournal_ or serve as an evaluator, you will be eligible for future prizes (details to be announced).&#x20;
+_**However**,_ we are preparing for even larger author and evaluator prizes for our next phase.  [Submit your research](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1) to _The Unjournal_ or serve as an evaluator to be eligible for future prizes (details to be announced).&#x20;
 {% endhint %}
 
 **Submit your work to be eligible for our “**_**Unjourna**_**l: Impactful Research Prize” and a range of other benefits including the opportunity for credible public evaluation and feedback.**
 
-First prize: ~~$2000~~ --> $2500[^1]
-
-Second prize: $1000
+First-prize winners will be awarded $2500[^1], and the runner-ups will receive $1000.&#x20;
 
 _Note: these are the minimum amounts; we will increase these if funding permits._
 
-_Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by_ The Unjournal_,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon._](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)
+_Prize winners will have the opportunity (but not the obligation) to present their work at an online seminar and prize ceremony co-hosted by The Unjournal,_ [_Rethink Priorities_](https://rethinkpriorities.org/)_, and_ [_EAecon._](https://forum.effectivealtruism.org/posts/9gLtXR6KkZEYie8Au/introducing-eaecon-community-building-project)
 
 ## <img src="../../../.gitbook/assets/image (3) (1).png" alt="" data-size="line"><img src="../../../.gitbook/assets/image (7) (1).png" alt="" data-size="line"><img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="line">
 
-_Update 27-11-22: We are arranging the details and additional co-hosts for this award._
 
-~~_Update_ 19 Nov 2022: _Deadline extended until 5 December_~~
-
-_Update 5 Dec 2022: Deadline extended until 12 December._
 
 {% hint style="info" %}
-**To be eligible for the prize,** submit a link to your work for public evaluation [**here**](https://unjournaldev.cloud68.co/login).
+**To be eligible for the prize,** submit a link to your work for public evaluation [**here**](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1).
 
 * Please choose “new submission” and “Submit a URL instead.”
-* The latter link requires an ORCID ID; if you prefer, you can email your submission to [theunjournal@gmail.com](mailto:theunjournal@gmail.com).
+* The latter link requires an ORCID ID; if you prefer, you can email your submission to [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)
 {% endhint %}
 
-_The Unjournal_ (with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) \[2023: and the Survival and Flourishing Fund]) organizes and funds public-journal-independent feedback and evaluation. We focus on research that is highly relevant to global priorities, especially in economics, social science, and impact evaluation, and aim to expand this widely. We encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+_The Unjournal,_ with funding from the [Long Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) and the [Survival and Flourishing Fund](https://survivalandflourishing.fund/), organizes and funds public-journal-independent feedback and evaluation. We focus on research that is highly relevant to global priorities, especially in economics, social science, and impact evaluation, and aim to expand this widely. We encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
-We are offering this prize to help identify work for _The Unjournal_: we aim to publicly evaluate 15 papers (or projects) within our pilot year. This award will honor researchers doing robust, credible, transparent work with a global impact. We especially encourage submission of research in "open" formats such as hosted dynamic documents (Quarto, R-markdown, Jupyter notebooks, etc.).
+We aim to publicly evaluate 15 papers (or projects) within our pilot year. This award will honor researchers doing robust, credible, transparent work with a global impact. We especially encourage the submission of research in "open" formats such as hosted dynamic documents (Quarto, R-markdown, Jupyter notebooks, etc.).
 
-Research will be chosen by our management team for public evaluation (by 2–3 carefully selected, paid reviewers) based on an initial assessment of a paper's methodological strength, openness, clarity, relevance to [global priorities](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/the-field-and-ea-gp-research/what-is-ea-gp-relevant-research), and the usefulness of further evaluation and public discussion. We sketch out [these criteria here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/policies-and-templates/considering-projects).
+The research will be chosen by our management team for public evaluation by 2–3 carefully selected, paid reviewers based on an initial assessment of a paper's methodological strength, openness, clarity, relevance to [global priorities](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/the-field-and-ea-gp-research/what-is-ea-gp-relevant-research), and the usefulness of further evaluation and public discussion. We sketch out [these criteria here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/policies-and-templates/considering-projects).
 
-All evaluations (including quantitative ratings) will be made public by default; however, we will consider "embargos" on this for researchers with sensitive career concerns (the linked form asks about this). Note that submitting your work to _The Unjournal_ does _not_ imply "publishing" it: you can submit it to any journal before, during, or after this process.
+All evaluations, including quantitative ratings, will be made public by default; however, we will consider "embargos" on this for researchers with sensitive career concerns (the linked form asks about this). Note that submitting your work to _The Unjournal_ does _not_ imply "publishing" it: you can submit it to any journal before, during, or after this process.
 
-If we choose not to send your work out to reviewers, we will try to at least offer some brief private feedback (please reach out to us on this).
+If we choose not to send your work out to reviewers, we will try to at least offer some brief private feedback (please [reach out to us](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2) on this).
 
 All work evaluated by _The Unjournal_ will be eligible for the prize. Engagement with _The Unjournal_, including responding to evaluator comments, will be a factor in determining the prize winners. We also have a slight preference for giving at least one of the awards to an early-career researcher, but this need not be determinative.
 
 Our management team and advisory board will vote on the prize winners in light of the evaluations, with possible consultation of further external expertise.
 
-**Deadline:** ~~20 November~~ _Extended until 5 December (to ensure eligibility)._
+**Deadline:**  _Extended until 5 December (to ensure eligibility)._
 
 _Note: In a subsection below,_ [_Recap: submissions_](recap-submissions.md)_, we outline the basic requirements for submissions to_ The Unjournal_._
 

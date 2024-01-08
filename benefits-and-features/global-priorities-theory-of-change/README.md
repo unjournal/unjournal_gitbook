@@ -1,4 +1,4 @@
-# Global priorities: Theory of Change
+# Global priorities: Theory of Change (Logic Model)
 
 ```mermaid
 graph TD
@@ -114,16 +114,11 @@ A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Mul
 
 ```
 
-```
-
-
-```
-
 <details>
 
 <summary>Achieving system change in spite of collective action issues</summary>
 
-Some of the paths will take longer than others; in particular, it will be hard to get academia to change, particularly because of entrenched systems and a collective action problem. We discuss how we hope to overcome this [HERE](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/#it-sounds-great-but-can-you-really-change-things). In particular, we can provide leadership and take risks that academics won’t take themselves:
+Some of the paths will take longer than others; in particular, it will be hard to get academia to change, particularly because of entrenched systems and a collective action problem. We discuss how we hope to overcome this [HERE](../../readme-1/#change-is-hard-overcoming-academic-inertia)[.](../../readme-1/#change-is-hard-overcoming-academic-inertia) In particular, we can provide leadership and take risks that academics won’t take themselves:
 
 * Bringing in new interests, external funding, and incentives can change the fundamental incentive structure.
 * We can play a long game and build our processes and track record while we wait for academia to incorporate journal-independent evaluations directly into their reward systems. Meanwhile, our work and output will be highly useful to EA and global-priorities longtermist researchers and decision makers as part of their metrics and reward systems.
