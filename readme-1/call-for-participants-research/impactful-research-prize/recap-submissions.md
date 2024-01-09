@@ -6,19 +6,21 @@ description: Text to accompany the Impactful Research Prize discussion
 
 ## Details of submissions to _The Unjournal_
 
-Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), especially our [FAQ on "why to engage."](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) For more information about _The Unjournal_, link to our [GitBook](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/).
+Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), especially our [FAQ on "why engage."](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) &#x20;
+
+_Jan. 2024: We have lightly updated this page to reflect our current systems._
 
 ### What we are looking for
 
-We describe the nature of the work we are looking to evaluate in our GitBook, along with examples, in [this forum post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_). We currently have an ongoing pilot of four papers; however, we are looking for more research to evaluate. If you are interested in submitting your work for public evaluation, we are looking for research which is **relevant to global priorities—especially quantitative social sciences—and impact evaluations. Work that would benefit from further feedback and evaluation is also of interest.**
+We describe the nature of the work we are looking to evaluate, along with examples, in [this forum post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_).  _Update 2024_: This is now better characterized under ["What research to target?"](../../../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md) and  ["What specific areas do we cover?"](../../../policies-projects-evaluation-workflow/considering-projects/what-specific-areas-do-we-cover.md).
+
+&#x20;If you are interested in submitting your work for public evaluation, we are looking for research which is **relevant to global priorities—especially quantitative social sciences—and impact evaluations. Work that would benefit from further feedback and evaluation is also of interest.**
 
 Your work will be evaluated using our evaluation guidelines and metrics. You can read these [here](../../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) before submitting.
 
 **Important Note**: We are not a journal. By having your work evaluated, you will not be giving up the opportunity to have your work published in a journal. We simply operate a system that allows you to have your work independently evaluated.
 
-If you think your work fits our criteria and would like it to be publicly evaluated, please submit your work through [this form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw).
-
-Please note that you will need an ORCID account in order to log in. If you don’t already have an account, it takes two minutes to [register an ORCID new account here](https://orcid.org/register).
+If you think your work fits our criteria and would like it to be publicly evaluated, please submit your work through [this form](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1).
 
 If you would like to submit more than one of your papers, you will need to complete a new form for each paper you submit.
 
@@ -51,13 +53,12 @@ If we consider your work for public evaluation, we may ask for **some** of the i
 1. **A link to a non-paywalled, hosted version of your work** (in any format—PDFs are not necessary) that can be given a Digital Object Identifier (DOI). Again, we will not be "publishing" this work, just evaluating it.
 2. **A link to data and code**, if possible. We will work to help you to make it accessible.
 3. **Assignment of two evaluators who will be paid to assess your work**. We will likely keep their identities confidential, although this is flexible depending on the reviewer. Where it seems particularly helpful, we will facilitate a confidential channel to enable a dialogue with the authors. One person on our managing team will handle this process.
-4. **Have evaluators publicly post their reviews of your work on our platform**. As noted above, we will ask them to provide feedback, thoughts, suggestions, and some quantitative ratings for the paper.
+4. **Have evaluators publicly post their evaluations (i.e., 'reviews') of your work on our platform**. As noted above, we will ask them to provide feedback, thoughts, suggestions, and some quantitative ratings for the paper.
 
-* By completing the submission form, you are providing your permission for us to post the reviews publicly unless you request an embargo.
+* By completing the submission form, you are providing your permission for us to post the evaluations publicly unless you request an embargo.
 * You will have a two-week window to respond through our platform before anything is posted publicly. Your responses can also be posted publicly.
 
 For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../../../faq-interaction/for-researchers-authors/).
 
-#### [Here again is the link to submit your work on our platform.](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1)
+#### [Here again is the link to submit your work on our platform.](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1)&#x20;
 
-Again, please note; that you will require an ORCID account in order to log in. If you don’t already have an account, it takes two minutes to [register a new ORCID account here](https://orcid.org/register).
