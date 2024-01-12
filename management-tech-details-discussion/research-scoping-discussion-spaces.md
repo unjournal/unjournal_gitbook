@@ -78,7 +78,8 @@ _Some of the content in the sections below will overlap._
 
 ## Non-academic/policy research stream
 
-See: [#non-academic-policy-research-stream](research-scoping-discussion-spaces.md#non-academic-policy-research-stream "mention")
+See [discussion here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/management-tech-details-discussion/policies-issues-discussion#policy-work-not-mainly-intended-for-academic-audiences).\
+
 
 ## Other
 
