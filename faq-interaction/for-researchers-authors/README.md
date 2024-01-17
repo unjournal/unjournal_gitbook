@@ -17,7 +17,9 @@ There will be a range of benefits for authors, as discussed below.
 
 We will only need a link to a publicly hosted, DOI'd version of your work. We will not "publish" your paper, and the fact that we are handling your paper will not limit you in any way. We are fine with you submitting it to any journal before, during, or after the process. _(_[_See note._](#user-content-fn-4)[^4]_)_
 
-### [Conditional embargo](#user-content-fn-5)[^5]
+### Conditional embargo
+
+### [Request via submission form ](#user-content-fn-5)[^5]
 
 By default, we would like _Unjournal_ evaluations to be made public. However, in special circumstances, and particularly for very early-career researchers, we may make exceptions.
 
