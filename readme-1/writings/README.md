@@ -15,7 +15,7 @@ EA Anywhere
 {% endembed %}
 
 * See slide deck (Link: [bit.ly/unjourrnalpresent](http://bit.ly/unjournalpresent); offers comment access)
-* [Presentation summarized with time-stamped hyperlinks (+\~AI generated content)](https://docs.google.com/document/d/1bqAXxUXN74RA-ioE56VFIUjFb-Jp-8uCzMjB3KXCFUo/edit#heading=h.g00qp4gjhcpk)
+* [Presentation summarized with time-stamped hyperlinks (+\~AI generated content)](https://docs.google.com/document/d/1bqAXxUXN74RA-ioE56VFIUjFb-Jp-8uCzMjB3KXCFUo/edit?usp=sharing)
 
 ### ReproducibiliTea podcast
 
