@@ -6,7 +6,24 @@ description: Several expositions for different audiences, fleshing out ideas and
 
 ## TLDR: See[^1] [#in-a-nutshell](../#in-a-nutshell "mention")
 
-## Podcasts and video
+## Podcasts, presentations, and video
+
+### EA Anywhere (Youtube)&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=_b5wiSJX6NQ&list=PLwCHmz77VrK1Bi92uyDHE9XCH-bWc-7B_&index=6&t=2056s" %}
+EA Anywhere
+{% endembed %}
+
+* See slide deck (Link: [bit.ly/unjourrnalpresent](http://bit.ly/unjournalpresent); offers comment access)
+* [Presentation summarized with time-stamped hyperlinks (+\~AI generated content)](https://docs.google.com/document/d/1bqAXxUXN74RA-ioE56VFIUjFb-Jp-8uCzMjB3KXCFUo/edit#heading=h.g00qp4gjhcpk)
+
+### ReproducibiliTea podcast
+
+{% embed url="https://soundcloud.com/reproducibilitea/s3e12-revolutionizing-scientific-publishing-with-david-reinstein" %}
+&#x20;
+{% endembed %}
+
+
 
 {% embed url="https://www.youtube.com/watch?v=ii4bdmDOIR4" %}
 
