@@ -21,6 +21,10 @@ We are considering a second stream to evaluate non-traditional, less formal work
 
 E.g., for [animal welfare...](#user-content-fn-1)[^1]
 
+{% hint style="info" %}
+We further discuss the case for this stream and sketch and consider some potential policies for this [HERE](https://docs.google.com/document/d/1d5GktxM68bhtlwof2IqTMVYNYxvwY5Vfqg-Fo0ByCCI/edit#heading=h.y8fxkabv18fc).
+{% endhint %}
+
 ## Evaluation procedure and guidelines
 
 ### Feedback and discussion vs. evaluations
