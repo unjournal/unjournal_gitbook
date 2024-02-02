@@ -1,19 +1,18 @@
 # Evaluation manager process
 
 {% hint style="info" %}
-See [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.\
-\
-_Update December 2023:_ We now have an 'alpha version' of a PubPub V7 setup that will serve as an automated "editorial management tool".  We are piloting this for a few papers and aim to fully transition soon.  Reach out if you are interested in trying this.
+See [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md "mention")for an updated careful overview and flowchart. The material below overlaps that somewhat.
 
+_Update Feb. 2024:_ We are moving the discussion of the _details_ of this process  to an internal Coda link ([here](https://coda.io/d/The-Unjournal-Hub-internal\_d0KBG3dSZCs/Evaluation-Management\_suhOX#\_luMy4), accessible by team members only). Below, we will only present the overview in broad stokes. \
 \
 _As of Dec 2023, evaluation managers are compensated a_ minimum of $300 per project for their work. Further work on formatting, engaging further with authors and evaluators, writing detailed evaluation summary content, etc., can earn up to an additional $200.
 {% endhint %}
 
 ## **If you are the evaluation manager please follow the steps below.**&#x20;
 
-### Airtable/PubPub
+### Background information and discussion&#x20;
 
-You should have been registered as the Evaluation Manager in the Airtable `crucial_rsx`  table. You may find other useful information and links there, including a potential link to "Bespoke Evaluation Notes" in the field `link_discussion_what_to_evaluate` ; you may want to consult and add to these.
+We keep our internal notes on the paper/project, what merits evaluation etc. in the [Coda space here](https://coda.io/d/The-Unjournal-Hub-internal\_d0KBG3dSZCs/Selected-for-evaluation-being-evaluated\_suyIm#\_luYW7) (team only). Much of this content will be shared with evaluators (giving guidance on what seems important to consider), and later made part of our public output.
 
 <details>
 
