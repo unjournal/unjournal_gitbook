@@ -3,14 +3,20 @@
 {% hint style="info" %}
 _**Thanks for your interest in evaluating research for**_** The Unjournal!**
 
-Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit. [You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing an on-time[^2] and complete evaluation and feedback. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.\
-\
-See the guidelines below. You can submit your response in a [Google Doc (but see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  &#x20;
+Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit. [You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing a prompt[^2] and complete evaluation and feedback ($300 base + $100 'promptness bonus'. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.
 
-_2024 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead._\
+\
+_2024 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below_
+
+
+
+You can also submit your response in a [Google Doc (but see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  &#x20;
+
 
 
 Our data protection statement is linked [here](https://bit.ly/46y0LqH).
+
+_**Please read and consider the guidelines below carefully; reach out to us with any questions.**_
 {% endhint %}
 
 <details>
@@ -19,7 +25,7 @@ Our data protection statement is linked [here](https://bit.ly/46y0LqH).
 
 The 'template Google Doc' itself [can be accessed here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit#heading=h.lst8joh1kli3). Please request access permission.
 
-Dec. 2023 update: we are moving to a hosted form/interface in PubPub, which will replace that Google Doc.
+Feb 2024 update: we are moving to a hosted form/interface in PubPub, which will replace that Google Doc. We don't have an accesible version of the PubPub evaluator interface yet – you can invite yourself as an evaluator to test it out.
 
 </details>
 
@@ -29,7 +35,7 @@ _You can download the current page as a PDF_ [_here_ ](https://www.dropbox.com/s
 
 <summary>Jan 2024: Improving our process, metrics, and guidelines </summary>
 
-We are in the process of formulating and building a more clearly justified and interpretable set of guidelines, leveraging insights and innovations from previous work (such as repliCATS).  In the meantime we have made some updates and simplifications; these are noted [here](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations). As noted above, we are also moving to a new evaluation management system in PubPub V7, directly integrating and evaluation form.
+We are in the process of formulating and building a more clearly justified and interpretable set of guidelines, leveraging insights and innovations from previous work (such as repliCATS).  In the meantime we have made some updates and simplifications; these are noted [here](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations). As noted above, we are also moving to a new evaluation management system in PubPub V7, directly integrating  the evaluation form.
 
 </details>
 
@@ -41,7 +47,7 @@ We may occasionally offer additional payments for specifically requested evaluat
 
 July 2023: The above is our current policy; we are working to build an effective, fair, transparent, and straightforward system of honorariums, incentives, and awards for evaluators.
 
-Dec 2023: Note that we currently set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes.
+Dec 2023: Note that we currently set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes. This may be revised upwards or downwards in future (and this will be announced and noted).
 
 </details>
 
@@ -57,7 +63,7 @@ See: [#submitting-and-paying-expenses-claims](../../../management-tech-details-d
 
 1. **Write an evaluation (i.e., a 'review'):** a "standard high-quality referee report," with some [specific considerations](#user-content-fn-4)[^4].
 2. [**Give quantitative metrics and predictions** as requested in the two tables below.](#user-content-fn-5)[^5]
-3. Answer a short questionnaire about your background and our processes.
+3. Answer a short questionnaire about your background (and our processes).
 
 ## Writing the report
 
@@ -108,7 +114,7 @@ You can reserve some "sensitive" content in your report to be shared with only _
 {% hint style="info" %}
 _Suggestion to evaluators:_&#x20;
 
-The [Metrics: overall assessment, categories](./#metrics-overall-assessment-categories) and [Overall Assessment](./#overall-assessment) sections outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. However, we are not asking you to _structure_ your evaluation text according to these metrics.
+The [Metrics: overall assessment, categories](./#metrics-overall-assessment-categories) and [Overall Assessment](./#overall-assessment) sections outline our suggested evaluation priorities. You may want to look at these metrics _before_ writing your evaluation. However, we are not asking you to _structure_ your evaluation discussion text according to these metrics.
 {% endhint %}
 
 ### **What should your written evaluation ('review') prioritize?**
@@ -145,7 +151,7 @@ Below, we offer a completed example. We give evaluators a concise survey form wi
 **Adjustments:** We have made some adjustments to this page and to our guidelines and processes; this is particularly relevant for considering earlier evaluations. See  [#adjustments-to-metrics-and-guidelines-previous-presentations](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations "mention").&#x20;
 {% endhint %}
 
-<table><thead><tr><th width="392">Category (importance)</th><th width="146.01169590643275" align="center">Rating (0-100)</th><th width="307" align="center">90% CI</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td align="center">44</td><td align="center">39, 52</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td align="center">50</td><td align="center">47, 54</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td align="center">51</td><td align="center"><em>45, 55</em></td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td align="center">20</td><td align="center"><em>10, 35</em></td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td align="center">60</td><td align="center"><em>40, 70</em></td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td align="center">35</td><td align="center"><em>30,46</em></td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td align="center">30</td><td align="center">21,65</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="396">Category (importance)</th><th width="143.01169590643275" align="center">Rating (0-100)</th><th width="307" align="center">90% CI</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="./#overall-assessment">#overall-assessment</a>(holistic, most important!)</td><td align="center">44</td><td align="center">39, 52</td><td></td></tr><tr><td><a data-mention href="./#1.-advancing-our-knowledge-and-practice">#1.-advancing-our-knowledge-and-practice</a></td><td align="center">50</td><td align="center">47, 54</td><td></td></tr><tr><td><a data-mention href="./#2.-methods-justification-reasonableness-validity-robustness">#2.-methods-justification-reasonableness-validity-robustness</a></td><td align="center">51</td><td align="center"><em>45, 55</em></td><td></td></tr><tr><td><a data-mention href="./#3.-logic-and-communication">#3.-logic-and-communication</a></td><td align="center">20</td><td align="center"><em>10, 35</em></td><td></td></tr><tr><td><a data-mention href="./#4.-open-collaborative-replicable-science-and-methods">#4.-open-collaborative-replicable-science-and-methods</a></td><td align="center">60</td><td align="center"><em>40, 70</em></td><td></td></tr><tr><td><a data-mention href="./#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance">#5.-engaging-with-real-world-impact-quantification-practice-realism-and-relevance</a></td><td align="center">35</td><td align="center"><em>30,46</em></td><td></td></tr><tr><td><a data-mention href="./#6.-relevance-to-global-priorities">#6.-relevance-to-global-priorities</a></td><td align="center">30</td><td align="center">21,65</td><td></td></tr></tbody></table>
 
 _All metrics are explained below under_[#what-we-are-asking-you-to-rate-explanations](./#what-we-are-asking-you-to-rate-explanations "mention")
 
@@ -243,7 +249,7 @@ Judge the work’s quality heuristically. Consider all aspects of quality, impor
 ### 0-100 Metric explained
 
 {% hint style="info" %}
-**Update 2024:** We are reframing these to explicitly be considered in terms of percentiles relative to a reference group. _Further adjustments and explanations coming soon._&#x20;
+**Update 2024:** We have reframed these to explicitly be considered in terms of percentiles relative to a defined reference group. _Further adjustments/explanations coming soon._&#x20;
 {% endhint %}
 
 **In assigning your ratings –** both for the "Overall Assessment" and for the six additional metrics discussed above...&#x20;
@@ -395,7 +401,7 @@ Is this topic, approach, and discussion _potentially_ useful to global prioritie
 
 We would like to benchmark our evaluations against "how research is currently judged." We want to provide a bridge between the current _accept-or-reject_ system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus, we are asking you for _two_ "predictions" in the table below. The first is a "real-world" prediction, and the second is a comparable measure for a hypothetical "ideal world."
 
-<table><thead><tr><th width="248">Journal/prediction metrics</th><th width="286" data-type="number">Predict: journal quality* (0.0–5.0)</th><th width="96">90% CI</th><th data-hidden data-type="select"></th><th data-hidden></th></tr></thead><tbody><tr><td>What "quality journal" do you expect this work <em>will</em> be published in?</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>Overall assessment on "scale" of journals, i.e., quality level of journal it <em>should</em> be published in.</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best. See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td>null</td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="248">Journal/prediction metrics</th><th width="285" data-type="number">Predict: journal quality* (0.0–5.0)</th><th width="96">90% CI</th><th data-hidden><select></select></th><th data-hidden></th></tr></thead><tbody><tr><td>What "quality journal" do you expect this work <em>will</em> be published in?</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>Overall assessment on "scale" of journals, i.e., quality level of journal it <em>should</em> be published in.</td><td>null</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td>null</td><td></td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best. See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td>null</td><td></td><td></td><td></td></tr></tbody></table>
 
 
 
@@ -407,6 +413,10 @@ _Journal metrics;_ _In what quality level of journal . . . ;_ and _Overall asses
 ### Journal metrics (as a _continuous_ scale)
 
 For the "prediction" questions above, we are asking for a journal quality rating prediction from 0.0 to 5.0. You can specify up to two digits (e.g., “4.4” or “2.0”). We are using this 0.0–5.0 metric here (rather than 0–100) as we suspect it is more familiar to academics.
+
+{% hint style="info" %}
+**PubPub note:** as of 8 Feb 2024, the PubPub form is _not_ allowing you to give non-integer responses. Until this is fixed, please provide these (potentially) non-interval 'continuous' journal-metric predictions/ratings and CIs for these in the comment boxes below the slider.
+{% endhint %}
 
 {% hint style="info" %}
 _**Remember**,_ we would like you to think of this as a _**continuous scale**_. E.g., if a paper/project would be most likely to be (or merits being) published in a journal that would rank about halfway between a top tier 'A journal' and a second tier (4/5) journal, you should rate it a 4.5.&#x20;
@@ -568,9 +578,9 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [^2]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
 
-[^3]: We are in the provess of transitioning form using Google Docs for this to using a new, tailored PubPub interface. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.           &#x20;
+[^3]: We are in the process of transitioning form using Google Docs for this to using a new, tailored PubPub interface. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.           &#x20;
 
-[^4]: These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions and guidelines for specific research.
+[^4]: These are described below in general; e.g., we value 'novelty' less than the credibility of the methods and reported results. We also may give specific suggestions for specific research, mentioning aspects we particularly want you to assess and consider. AKA 'bespoke evaluation notes'.
 
 [^5]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
