@@ -3,7 +3,7 @@
 {% hint style="info" %}
 _**Thanks for your interest in evaluating research for**_** The Unjournal!**
 
-Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit. [You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing a prompt[^2] and complete evaluation and feedback ($300 base + $100 'promptness bonus'. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.
+Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit. [You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing a prompt[^2] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.
 
 \
 _2024 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below_
