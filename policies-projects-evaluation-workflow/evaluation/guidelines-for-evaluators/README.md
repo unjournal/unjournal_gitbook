@@ -6,11 +6,11 @@ _**Thanks for your interest in evaluating research for**_** The Unjournal!**
 Your evaluation will be made public and given a DOI, but you have the option to remain anonymous or to "sign your review" and take credit. [You will be given a (minimum) $400 honorarium](#user-content-fn-1)[^1] for providing a prompt[^2] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.
 
 \
-_2024 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below_
+_2024 update: we are moving to a hosted form/interface in PubPub; you may have been provided this link instead. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below._
 
 
 
-You can also submit your response in a [Google Doc (but see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  &#x20;
+Alternatively, you could also submit your response in a [Google Doc (but see note](#user-content-fn-3)[^3])**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of this form directly.  &#x20;
 
 
 
@@ -29,15 +29,9 @@ Feb 2024 update: we are moving to a hosted form/interface in PubPub, which will 
 
 </details>
 
-_You can download the current page as a PDF_ [_here_ ](https://www.dropbox.com/scl/fi/gixso4ir43o3n6d5u92qp/The-Unjournal-Evaluation-Guidelines.pdf?rlkey=cdqdkci0cds61hsza0787c5je\&dl=0)_for easier viewing, with all folded boxes open_ \[updated 28 Nov 2023].
+_You can download the_ [_current page as a PDF here_](https://www.dropbox.com/scl/fi/gkvl6t1hlcty98u7mzbs1/evaluator\_guidelines\_feb\_2024.pdf?rlkey=ho7pjl61vxcz40z1zhtwvpt9w\&dl=0) _for easier viewing, with all folded boxes open_ \[updated Feb. 2024]. For a PDF that is sure to be up to date, click the 3 dots above:&#x20;
 
-<details>
-
-<summary>Jan 2024: Improving our process, metrics, and guidelines </summary>
-
-We are in the process of formulating and building a more clearly justified and interpretable set of guidelines, leveraging insights and innovations from previous work (such as repliCATS).  In the meantime we have made some updates and simplifications; these are noted [here](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations). As noted above, we are also moving to a new evaluation management system in PubPub V7, directly integrating  the evaluation form.
-
-</details>
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="134"><figcaption></figcaption></figure>
 
 <details>
 
@@ -178,7 +172,7 @@ _**Note**_: We are in the process of switching to a new PubPub interface for ent
 
 <summary>But what do these measures mean, and how should I consider the 0–100 metric?</summary>
 
-We explain the [categories here](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators#category-explanations-what-you-are-rating) and the intended metrics scale under "[0-100 metric explained](./#id-0-100-metric-explained)". Your feedback is very welcome.
+We [explain the categories here](./#category-explanations-what-you-are-rating) and the intended metrics scale under "[0-100 metric explained](./#id-0-100-metric-explained)". Your feedback is very welcome.
 
 </details>
 
