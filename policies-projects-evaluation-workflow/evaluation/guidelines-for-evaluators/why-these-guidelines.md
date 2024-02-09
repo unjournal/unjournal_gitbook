@@ -137,7 +137,7 @@ The weightings were presented once again along with each description in the sect
 
 <summary>[Previous guidelines] Example of confidence dots vs CI</summary>
 
-<img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="original">
 
 The example in the diagram above (click to zoom) illustrates the proposed correspondence.
 
