@@ -53,6 +53,7 @@
       * [Why these guidelines/metrics?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md)
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)
       * [Proposed curating robustness replication](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/proposed-curating-robustness-replication.md)
+      * [Conventional guidelines for referee reports](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/conventional-guidelines-for-referee-reports.md)
     * [Why pay evaluators (reviewers)?](policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md)
     * [Protecting anonymity](policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md)
   * [Mapping evaluation workflow](policies-projects-evaluation-workflow/mapping-evaluation-workflow.md)
