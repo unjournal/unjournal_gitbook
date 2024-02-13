@@ -9,10 +9,10 @@ _The Unjournal_ is a new organization doing journal-independent evaluations of a
 ## What we are asking you to do
 
 1. **Write an evaluation of a specific research paper (or project):** essentially a standard, high-quality referee report.
-2. [**Give quantitative metrics and predictions about the** ](#user-content-fn-1)[^1]**research** by filling in a short form.
+2. [**Give  about the** ](#user-content-fn-1)[^1]**research** by filling in a short form.
 3. Answer a short questionnaire about your background and our processes.
 
-See [guidelines-for-evaluators](guidelines-for-evaluators/ "mention") for further details and guidance.
+See [Guidelines for Evaluators](guidelines-for-evaluators/) for further details and guidance.
 
 ## Why be an evaluator?
 
@@ -34,11 +34,9 @@ Your evaluation will be made public and given a DOI. You have the option to be i
 
 ### Financial compensation
 
-[You will be given a $400 honorarium](#user-content-fn-2)[^2] for providing a prompt[^3] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.
+[You will be given a $400 honorarium](#user-content-fn-2)[^2] for providing a prompt[^3] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes.
 
-See also #submitting claims Submitting claims and expenses
-
-
+See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims)
 
 <details>
 
@@ -48,15 +46,26 @@ We may occasionally offer additional payments for specifically requested evaluat
 
 July 2023: The above is our current policy; we are working to build an effective, fair, transparent, and straightforward system of honorariums, incentives, and awards for evaluators.
 
-Dec 2023: Note that we currently set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes. This may be revised upwards or downwards in future (and this will be announced and noted).
+Feb. 204: Note that we currently set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes. This may be revised upwards or downwards in future (and this will be announced and noted).
 
 </details>
 
 ## What do I do next?
 
-If you're willing to be an evaluator, respond to the email invitation that we have sent you. You will then be sent a link to our evaluation form.&#x20;
+* If you have been invited to be an evaluator and want to proceed, simply respond to the email invitation that we have sent you. You will then be sent a link to our evaluation form.&#x20;
+* To sign up for our evaluator pool, see ['how to get involved'](../../readme-1/call-for-participants-research/)
 
-To learn more about our evaluation process, see[guidelines-for-evaluators](guidelines-for-evaluators/ "mention").
+To learn more about our evaluation process, see[guidelines-for-evaluators](guidelines-for-evaluators/ "mention"). If you are doing an evaluation, we highly recommend you read these guidelines carefully
+
+
+
+<details>
+
+<summary>Note on the evaluation platform (13 Feb 2024)</summary>
+
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-4)[^4], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+
+</details>
 
 
 
@@ -65,3 +74,5 @@ To learn more about our evaluation process, see[guidelines-for-evaluators](guide
 [^2]: Updated Feb. 2024
 
 [^3]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
+
+[^4]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.

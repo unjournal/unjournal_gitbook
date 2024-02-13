@@ -14,20 +14,12 @@ To download a printable version of these guidelines,  click the three dots (**�
 Please see  [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of this process, as well as details on compensation, public recognition, and more
 {% endhint %}
 
-<details>
-
-<summary>Note on the evaluation platform (13 Feb 2024)</summary>
-
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-1)[^1], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
-
-</details>
-
 
 
 ## What we would like you to do
 
 1. **Write an evaluation of the target paper,** similar to a standard, high-quality referee report.
-2. [**Give quantitative metrics and predictions** as described below.](#user-content-fn-2)[^2]
+2. [**Give quantitative metrics and predictions** as described below.](#user-content-fn-1)[^1]
 3. Answer a short questionnaire about your background and our processes.
 
 ## Writing the evaluation (aka 'the review')
@@ -43,7 +35,7 @@ Broadly, the review should be similar to a report an academic would write for a 
 3. Logic and communication
 4. Open, communicative, replicable science
 
-See[#category-explanations-what-you-are-rating](./#category-explanations-what-you-are-rating "mention") for more details on each of these. We are not asking you to _structure_ your review according to these metrics, just to pay extra attention to them.
+See our [guidelines below](./#overall-assessment) for more details on each of these. We are not asking you to _structure_ your review according to these metrics, just to pay extra attention to them.
 
 <details>
 
@@ -151,7 +143,7 @@ Originality and cleverness should be weighted less than the typical journal, bec
 
 </details>
 
-Do the insights generated inform our beliefs about important parameters and about the effectiveness of interventions? **W**[**e do not require surprising results; sound and well-presented "null results" can be valuable.**](#user-content-fn-3)[^3]
+Do the insights generated inform our beliefs about important parameters and about the effectiveness of interventions? **W**[**e do not require surprising results; sound and well-presented "null results" can be valuable.**](#user-content-fn-2)[^2]
 
 Does the project add useful value to other relevant and credible impactful research?
 
@@ -161,7 +153,7 @@ _Percentile ranking (0-100%)_
 
 Are the methods used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable? Are all of the given results justified in the discussion of methods?
 
-Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-4)[^4]
+Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-3)[^3]
 
 Avoiding bias and questionable research practices (QRP): Did the authors take steps to reduce bias from opportunistic reporting and QRP? For example, did they do a strong pre-registration and pre-analysis plan, incorporate multiple hypothesis testing corrections, and report flexible specifications?
 
@@ -217,7 +209,7 @@ Do the authors provide tools, resources, data, and outputs that are likely to en
 
 _Percentile ranking (0-100%)_
 
-[Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-5)[^5]
+[Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-4)[^4]
 
 Is the setup particularly well-informed by real-world norms and practices? “Is this realistic; does it make sense in the real world?”
 
@@ -241,7 +233,7 @@ In future we may be able to pay them to do the above, if grant funding permits.
 
 _Percentile ranking (0-100%)_
 
-Is the topic and paper _potentially_ useful[ to global priorities and high-impact interventions?](../../considering-projects/what-specific-areas-do-we-cover.md)
+Is the topic and paper _potentially_ useful [to informing global priorities and high-impact interventions?](../../../the-field-and-ea-gp-research.md)
 
 
 
@@ -249,7 +241,7 @@ Is the topic and paper _potentially_ useful[ to global priorities and high-impac
 
 We would like to benchmark our evaluations against 'how research is currently judged.' We want to provide a bridge between the current _accept-or-reject_ system and an evaluation-based system. We want our evaluations to be taken seriously by universities and policymakers. Thus, we are asking you for _two_ assessments in the table below, on a journal-tier scale. The first is a normative judgment question. The second is an actual prediction for the real-world publication outcome.&#x20;
 
-<table><thead><tr><th width="364">Journal-tier metrics</th><th width="248" align="center">Journal-tier scale* (0.0–5.0)</th><th width="238">90% CI</th><th data-hidden><select></select></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="./#overall-assessment-on-the-journal-tier-scale">Overall assessment on the journal-tier scale</a>, i.e., what journal-quality tier <em>should</em> this work be published in?</td><td align="center">X.xx </td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td>What journal-quality tier do you expect this work <em>will</em> be published in?</td><td align="center">X.xx</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td align="center"></td><td></td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best.</em> </td><td align="center"><em>See</em> <a href="./#journal-metrics"><em>below</em></a> <em>for some benchmarks and guidelines.</em></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="364">Journal-tier metrics</th><th width="248" align="center">Journal-tier scale* (0.0–5.0)</th><th width="238">90% CI</th><th data-hidden><select></select></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="./#overall-assessment-on-the-journal-tier-scale">Overall assessment on the journal-tier scale</a>, i.e., what journal-quality tier <em>should</em> this work be published in?</td><td align="center">X.xx </td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td>What journal-quality tier do you expect this work <em>will</em> be published in?</td><td align="center">X.xx</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td></td><td align="center"></td><td></td><td></td><td></td></tr><tr><td>*Note: <em>0=lowest/none; 5=highest/best.</em> </td><td align="center"><em>See</em> <em>below</em> <em>for some benchmarks and guidelines.</em></td><td></td><td></td><td></td></tr></tbody></table>
 
 For the "Journal-tier" questions above, we are asking for a rating or prediction from 0.0 to 5.0 (see further discussion and benchmarks below). You can specify up to two digits (e.g., “4.4” or “2.0”). We use this 0.0–5.0 metric here (rather than 0–100) as we suspect it is more familiar to academics.&#x20;
 
@@ -312,8 +304,6 @@ In presenting your prediction and confidence interval for same, you might want t
 </details>
 
 #### Give a number between 0.0 and 5.0, along with a 90% CI
-
-
 
 
 
@@ -396,7 +386,7 @@ For _the_ two questions below, we will publish your responses and review unless 
 
 
 
-_Answers to the questions_ [_below will not be made public:_](#user-content-fn-6)[^6] &#x20;
+_Answers to the questions_ [_below will not be made public:_](#user-content-fn-5)[^5] &#x20;
 
 1. How would you rate this template and process?
 2. Do you have any suggestions or questions about this process or _The Unjournal_? (We will try to respond to your suggestions, and incorporate them in our practice.) \[Open response]
@@ -407,6 +397,16 @@ _Answers to the questions_ [_below will not be made public:_](#user-content-fn-6
 
 
 ## Other guidelines and notes
+
+<details>
+
+<summary>Note on the evaluation platform (13 Feb 2024)</summary>
+
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-6)[^6], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+
+</details>
+
+
 
 **Length/time spent:** This is up to you. We welcome detail, elaboration, and technical discussion.
 
@@ -444,16 +444,16 @@ We plan to pursue this further, to work with evaluators, raters, and researchers
 
 _Our data protection statement is linked_ [_here_](https://bit.ly/46y0LqH)_._
 
-[^1]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
+[^1]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
-[^2]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
+[^2]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field. I.e., (in Bayesian terminology) work that “substantially concentrates our posterior belief distributions around the initial expectations” is also highly valuable.
 
-[^3]: If research is conceptually and methodologically sound (including being adequately powered), carefully presented ‘null results’ can, in general, advance the field. I.e., (in Bayesian terminology) work that “substantially concentrates our posterior belief distributions around the initial expectations” is also highly valuable.
+[^3]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications in a clear 'multiverse analysis'?
 
-[^4]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications in a clear 'multiverse analysis'?
+[^4]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
 
-[^5]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+[^5]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
 
-[^6]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
+[^6]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
 
 [^7]: We plan to pursue this further, to work with evaluators, raters, and researchers  be able to present empirically-grounded descriptions of the attributes of research that falls into the different deciles.&#x20;
