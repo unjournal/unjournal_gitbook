@@ -49,6 +49,7 @@
     * [Suggesting research (forms, guidance)](policies-projects-evaluation-workflow/considering-projects/suggesting-research-forms.md)
     * ["Direct evaluation" track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)
   * [Evaluation](policies-projects-evaluation-workflow/evaluation/README.md)
+    * [For prospective evaluators](policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md)
     * [Guidelines for evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/README.md)
       * [Why these guidelines/metrics?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md)
       * [Evaluation form (Gdoc)](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/edit?usp=sharing)

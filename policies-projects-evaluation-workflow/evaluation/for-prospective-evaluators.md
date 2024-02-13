@@ -1,0 +1,67 @@
+# For prospective evaluators
+
+_**Thank you for your interest in evaluating research for**_** The Unjournal!**
+
+## **Who we are**
+
+_The Unjournal_ is a new organization doing journal-independent evaluations of academic research. You can read more about us [here](../../readme-1/).
+
+## What we are asking you to do
+
+1. **Write an evaluation of a specific research paper (or project):** essentially a standard, high-quality referee report.
+2. [**Give quantitative metrics and predictions about the** ](#user-content-fn-1)[^1]**research** by filling in a short form.
+3. Answer a short questionnaire about your background and our processes.
+
+See [guidelines-for-evaluators](guidelines-for-evaluators/ "mention") for further details and guidance.
+
+## Why be an evaluator?
+
+Why use your valuable time writing an _Unjournal_ evaluation? There are several reasons: helping high-impact research users, supporting open science and open access, and getting recognition and financial compensation.
+
+### Helping research users, helping science
+
+_The Unjournal's_ goal is to make impactful research more rigorous, and rigorous research more impactful, while supporting open access and open science. We encourage better research by making it easier for researchers to get feedback and credible ratings. We evaluate research in high-impact areas that make a difference to global welfare. Your evaluation will:
+
+1. **Help authors** improve their research, by giving early, high-quality feedback.
+2. **Help improve science** by providing **open-access, prompt, structured, public evaluations** of impactful research.&#x20;
+3. **Inform funding bodies and meta-scientists** as we build a database of research quality, strengths and weaknesses in different dimensions. **Help research users** learn what research to trust, when, and how.
+
+For more on our scientific mission, see [here](../../benefits-and-features/).
+
+### Public recognition
+
+Your evaluation will be made public and given a DOI. You have the option to be identified as the author of this evaluation or to remain anonymous, as you prefer.&#x20;
+
+### Financial compensation
+
+[You will be given a $400 honorarium](#user-content-fn-2)[^2] for providing a prompt[^3] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.
+
+See also #submitting claims Submitting claims and expenses
+
+
+
+<details>
+
+<summary>Additional rewards and incentives</summary>
+
+We may occasionally offer additional payments for specifically requested evaluation tasks, or raise the base payments for particularly hard-to-source expertise.
+
+July 2023: The above is our current policy; we are working to build an effective, fair, transparent, and straightforward system of honorariums, incentives, and awards for evaluators.
+
+Dec 2023: Note that we currently set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes. This may be revised upwards or downwards in future (and this will be announced and noted).
+
+</details>
+
+## What do I do next?
+
+If you're willing to be an evaluator, respond to the email invitation that we have sent you. You will then be sent a link to our evaluation form.&#x20;
+
+To learn more about our evaluation process, see[guidelines-for-evaluators](guidelines-for-evaluators/ "mention").
+
+
+
+[^1]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
+
+[^2]: Updated Feb. 2024
+
+[^3]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
