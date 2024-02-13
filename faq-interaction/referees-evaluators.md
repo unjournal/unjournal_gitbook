@@ -6,14 +6,17 @@
 [We refer to "evaluation"](#user-content-fn-1)[^1] because _The Unjournal_ does not _publish_ work; it only links, rates, and evaluates it.
 {% endhint %}
 
-_What we are asking evaluators (referees) to do:_ [Guidelines for Evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
+_What we are asking evaluators (referees) to do:_&#x20;
+
+* [For Prospective Evaluator](../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md)s
+* [Guidelines for Evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
 
 ## Choosing and working with evaluators
 
 ### How do we choose evaluators?
 
 * We follow standard procedures, considering complementary expertise, interest, and cross-citations, as well as confirming lack of conflict-of-interest. (See our internal guidelines for [choosing evaluators](../management-tech-details-discussion/management-process/choosing-evaluators/).)
-* We aim to consult those who have [opted-in to our referee pool](../benefits-and-features/) first.
+* We aim to consult those who have [opted-in to our evaluator pool](../readme-1/call-for-participants-research/) first.
 * We will favor evaluators with a track record of careful, in-depth, and insightful evaluation—while giving ECRs a chance to build such a record.
 
 ### Why do we pay evaluators?
