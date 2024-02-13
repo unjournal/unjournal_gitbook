@@ -4,7 +4,9 @@ description: See sections below
 
 # Evaluation
 
-\
-[guidelines-for-evaluators](guidelines-for-evaluators/ "mention")
+[for-prospective-evaluators.md](for-prospective-evaluators.md "mention"): An overview of what we are asking; payment and recognition details
 
-[choosing-evaluators](../../management-tech-details-discussion/management-process/choosing-evaluators/ "mention"): How we choose evaluators and avoid conflicts of interest (moved to bottom section)
+\
+[guidelines-for-evaluators](guidelines-for-evaluators/ "mention"): The Unjournal's evaluation guidelines, considering our priorities and criteria, the metrics we ask for, and how these are considered.
+
+_Other sections and subsections provide further resources, consider future initiatives, and discuss our rationales._ &#x20;
