@@ -27,6 +27,10 @@ We further discuss the case for this stream and sketch and consider some potenti
 
 ## Evaluation procedure and guidelines
 
+
+
+Internal discussion space: [Unjournal Evaluator Guidelines & Metrics](https://docs.google.com/document/d/1QVA0sCvrcKZLKlXuEwJBHKTBKvtn1ml7adTD-2j\_X4g/edit)&#x20;
+
 ### Feedback and discussion vs. evaluations
 
 > DR: I suspect that signed reviews (cf blog posts) provide good feedback and evaluation. However, when it comes to rating (quantitative measures of a paper's value), my impression from existing initiatives and conversations is that people are reluctant to award anything less than 5/5 'full marks'.

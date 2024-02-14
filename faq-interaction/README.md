@@ -10,7 +10,7 @@ _**We want to get authors, research groups, reviewers, and institutions involved
 
 ### **What is the Unjournal? (see** [**here**](../readme-1/#in-a-nutshell)**)**
 
-We will organize and fund **public journal-independent feedback, rating, and evaluation of hosted papers and dynamically-presented research projects.** We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
+We will organize and fund **public journal-independent feedback, rating, and evaluation of hosted** [_**papers and dynamically presented projects**_](#user-content-fn-1)[^1]**.** We will focus on work that is highly relevant to global priorities (especially in economics, social science, and impact evaluation). We will encourage better research by making it easier for researchers to get feedback and credible ratings on their work.
 
 ### **Does the Unjournal charge fees to anyone?**
 
@@ -22,7 +22,7 @@ At some point in the future we might consider sliding-scale fees for people subm
 
 ### **Is the Unjournal a journal?**
 
-**No**, we will not ‘publish’ any research; we will just commission _public evaluation_ and _rating_ of relevant research. Having your work evaluated in the Unjournal should not limit you from submitting [it to any publication](#user-content-fn-1)[^1].
+**No**, we will not ‘publish’ any research; we will just commission _public evaluation_ and _rating_ of relevant research. Having your work evaluated in the Unjournal should not limit you from submitting [it to any publication](#user-content-fn-2)[^2].
 
 ## Where does the Unjournal's funding come from, and how will it be sustainable?
 
@@ -30,7 +30,7 @@ At the moment, we have [grants](https://globalimpact.gitbook.io/the-unjournal-pr
 
 ## Public-facing [FAQ](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) (also embedded below)
 
-[This Google Doc](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) offers a space for[ you to publicly ask us any questions or comments you may have about the project. We can then publicly respond to these below as well.](#user-content-fn-2)[^2]
+[This Google Doc](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit?usp=sharing) offers a space for[ you to publicly ask us any questions or comments you may have about the project. We can then publicly respond to these below as well.](#user-content-fn-3)[^3]
 
 ## Specific FAQs
 
@@ -42,6 +42,8 @@ At the moment, we have [grants](https://globalimpact.gitbook.io/the-unjournal-pr
 
 1.
 
-[^1]: The only possible exception we can think of is that we require that the evaluation must be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics nor in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
+[^1]: &#x20;We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we mainly refer to these as "papers" throughout our web page, for simplicity&#x20;
 
-[^2]: Please "@" 'theunjournal@gmail.com' to make sure we're aware of your question.
+[^2]: The only possible exception we can think of is that we require that the evaluation must be linked to a publicly hosted version of the paper (working paper, preprint. etc.) Some journals and publishing houses have tried to forbid authors from hosting any other versions of their work. However, this is clearly not the case in economics nor in most of the fields we are focusing on. Pre-journal-publication working papers are ubiquitous and commonplace.
+
+[^3]: Please "@" 'theunjournal@gmail.com' to make sure we're aware of your question.

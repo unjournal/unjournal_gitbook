@@ -8,8 +8,8 @@ _The Unjournal_ is a new organization doing journal-independent evaluations of a
 
 ## What we are asking you to do
 
-1. **Write an evaluation of a specific research paper (or project):** essentially a standard, high-quality referee report.
-2. [**Give  about the** ](#user-content-fn-1)[^1]**research** by filling in a short form.
+1. **Write an evaluation of a specific research** [_**paper or project**_](#user-content-fn-1)[^1]**:** essentially a standard, high-quality referee report.
+2. [**Give  about the** ](#user-content-fn-2)[^2]**research** by filling in a short form.
 3. Answer a short questionnaire about your background and our processes.
 
 See [Guidelines for Evaluators](guidelines-for-evaluators/) for further details and guidance.
@@ -34,7 +34,7 @@ Your evaluation will be made public and given a DOI. You have the option to be i
 
 ### Financial compensation
 
-[You will be given a $400 honorarium](#user-content-fn-2)[^2] for providing a prompt[^3] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes.
+[You will be given a $400 honorarium](#user-content-fn-3)[^3] for providing a prompt[^4] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes.
 
 See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims)
 
@@ -63,16 +63,18 @@ To learn more about our evaluation process, see[guidelines-for-evaluators](guide
 
 <summary>Note on the evaluation platform (13 Feb 2024)</summary>
 
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-4)[^4], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-5)[^5], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
 
 </details>
 
 
 
-[^1]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
+[^1]: We refer to a 'paper or project' here.  We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we will refer to this as a 'paper'  throughout the discussion below, for simplicity.
 
-[^2]: Updated Feb. 2024
+[^2]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
-[^3]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
+[^3]: Updated Feb. 2024
 
-[^4]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
+[^4]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
+
+[^5]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
