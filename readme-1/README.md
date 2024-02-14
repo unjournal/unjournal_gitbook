@@ -32,11 +32,11 @@ description: We are not a journal!
 
 _The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are [a team of researchers](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team), practitioners, and open science advocates led by [David Reinstein](https://www.davidreinstein.org/).&#x20;
 
-_The Unjournal_ encourages better research by making it easier for researchers to get feedback and credible ratings. We coordinate and fund public journal-independent evaluation of hosted papers and dynamically presented projects. We publish evaluations, ratings, manager summaries, author responses, and links to evaluated research on [our PubPub page](https://unjournal.pubpub.org/).&#x20;
+_The Unjournal_ encourages better research by making it easier for researchers to get feedback and credible ratings. We coordinate and fund public journal-independent evaluation of hosted [_**papers and dynamically presented projects**_](#user-content-fn-1)[^1]. We publish evaluations, ratings, manager summaries, author responses, and links to evaluated research on [our PubPub page](https://unjournal.pubpub.org/).&#x20;
 
 _As the name suggests, **we are not a journal!**_&#x20;
 
-We are working independently of traditional academic journals to build an open platform and a sustainable system for feedback, ratings, and assessment. We are currently focusing on [_**quantitative work that informs global priorities in economics, policy, and other social sciences.**_ ](#user-content-fn-1)[^1]
+We are working independently of traditional academic journals to build an open platform and a sustainable system for feedback, ratings, and assessment. We are currently focusing on [_**quantitative work that informs global priorities in economics, policy, and other social sciences.**_ ](#user-content-fn-2)[^2]
 
 **How to get involved?**
 
@@ -60,10 +60,10 @@ At some point in the future, we might consider sliding-scale fees for people or 
 
 ## How do we do this?
 
-1. **Research submission/identification and selection:** We identify, solicit, and select relevant research work to be hosted on any open platform in any format [that can gain a time-stamped DOI.](#user-content-fn-2)[^2] Authors are encouraged to present their work in the ways they find most comprehensive and understandable. We support the use of [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that foster replicability and open science. (See: [the benefits of dynamic docs](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)).&#x20;
+1. **Research submission/identification and selection:** We identify, solicit, and select relevant research work to be hosted on any open platform in any format [that can gain a time-stamped DOI.](#user-content-fn-3)[^3] Authors are encouraged to present their work in the ways they find most comprehensive and understandable. We support the use of [dynamic documents](https://berkeley-scf.github.io/tutorial-dynamic-docs/) and other formats that foster replicability and open science. (See: [the benefits of dynamic docs](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)).&#x20;
 2. **Paid evaluators (AKA "reviewers"):** We compensate evaluators (essentially, reviewers) for providing thorough feedback on this work. (Read more: [Why do we pay?](../policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md))
 3. **Eliciting quantifiable and comparable metrics:** We aim to establish and generate credible measures of research quality and usefulness. We intend to benchmark these against traditional previous measures (such as journal tiers) and assess the reliability, consistency, and predictive power of these measures. (Read more: [Why quantitative metrics?](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md#why-numerical-ratings))
-4. **Public evaluation:** Reviews are typically public, including potential author responses. This facilitates dialogue and [enhances understanding](#user-content-fn-3)[^3].
+4. **Public evaluation:** Reviews are typically public, including potential author responses. This facilitates dialogue and [enhances understanding](#user-content-fn-4)[^4].
 5. **Linking, not publishing:** Our process is not "exclusive." Authors can submit their work to a journal (or other evaluation service) at any time. This approach also allows us to benchmark our evaluations against traditional publication outcomes.
 6. **Financial prizes:** We award financial prizes, paired with public presentations, to works judged to be the strongest.
 7. **Transparency:** We aim for maximum transparency in our processes and judgments.
@@ -105,7 +105,7 @@ So why haven't academia and the research community been able to move to somethin
 * **Allow less risky "bridging steps"**: As noted above, _The Unjournal_ allows researchers to submit their work to traditional journals. In fact, this will provide a _benchmark_ to help build our quantitative ratings and demonstrate their value.
 * **Communicate with researchers and stakeholders** to make our processes easy, clear, and useful to them.
 * **Make our output useful**_:_ It may take years for university departments and grant funders to incorporate journal-independent evaluations as part of their metrics and reward systems. _The Unjournal_ can be somewhat patient: our evaluation, rating, feedback, and communication will provide a valuable service to authors, policymakers, and other researchers in the meantime.
-* **Leverage new technology**_:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and makes[ formats other than static PDFs](#user-content-fn-4)[^4] more useful every day.
+* **Leverage new technology**_:_ A new set of open-access tools (such as [those funded by Sloan Scholarly Communications](https://sloan.org/grants-database?setsubprogram=9)) makes what we are trying to do easier, and makes[ formats other than static PDFs](#user-content-fn-5)[^5] more useful every day.
 * **Reward early adopters with prizes and recognition**: We can replace "fear of standing out" with "fear of missing out." In particular, authors and research institutions that commit to publicly engaging with evaluations and critiques of their work should be commended and rewarded. And we intend to do this.
 
 ## **Our webpage** **and our objectives**
@@ -149,10 +149,12 @@ See [contents-page.md](contents-page.md "mention")
    \
    _Please do weigh in, all suggestions and comments will be credited. See also_ _Unjournal_: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
 
-[^1]: We discuss our prioritization considerations under [what-research-to-target.md](../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md "mention")
+[^1]: &#x20;We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we mainly refer to these as "papers" throughout our web page, for simplicity&#x20;
 
-[^2]: We are working to encourage this and make it easy.
+[^2]: We discuss our prioritization considerations under [what-research-to-target.md](../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md "mention")
 
-[^3]: Understanding of the research, its connection to other work, its methods, strengths and limitations, its usefulness and policy relevance, etc.
+[^3]: We are working to encourage this and make it easy.
 
-[^4]: Examples of such tools include Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents).
+[^4]: Understanding of the research, its connection to other work, its methods, strengths and limitations, its usefulness and policy relevance, etc.
+
+[^5]: Examples of such tools include Hypothes.is (collaborative annotation) and [Quarto](https://www.quarto.org) and Jupyter notebooks (dynamic documents).
