@@ -133,6 +133,8 @@ _Percentile ranking (0-100%)_
 
 Judge the quality of the research heuristically. Consider all aspects of quality, credibility, importance to knowledge production, and importance to practice.&#x20;
 
+###
+
 ### Advancing our knowledge and practice
 
 _Percentile ranking (0-100%)_
@@ -150,6 +152,8 @@ Originality and cleverness should be weighted less than the typical journal, bec
 Do the paper's insights inform our beliefs about important parameters and about the effectiveness of interventions? **W**[**e do not require surprising results; sound and well-presented null results can be valuable.**](#user-content-fn-3)[^3]
 
 Does the project add useful value to other impactful research?
+
+###
 
 ### Methods: Justification, reasonableness, validity, robustness
 
@@ -174,6 +178,8 @@ Is the reasoning "transparent"? (See, e.g., [Open Philanthropy's guide](https://
 Are stated conclusions consistent with the evidence (or theoretical proofs) presented?&#x20;
 
 Are the data and/or analysis presented relevant to the arguments made? Are the tables, graphs, and diagrams easy to understand in the context of the narrative (e.g., no major errors in labeling)?
+
+###
 
 ### Open, collaborative, replicable science
 
@@ -204,6 +210,8 @@ Do the numbers in the paper and/or code output make sense? Are they internally c
 _**Useful building blocks**_
 
 Do the authors provide tools, resources, data, and outputs that might enable or enhance future work and meta-analysis?
+
+###
 
 ### Real-world relevance
 
@@ -261,7 +269,7 @@ _Journal ranking tier (0.0-5.0)_
 
 Assess this paper on the journal ranking scale described above, considering only its merit, particularly considering the category metrics we discussed above.
 
-Equivalently, [how would this paper be published](#user-content-fn-10)[^10] if:
+Equivalently, [where would this paper be published](#user-content-fn-10)[^10] if:
 
 1. the journal process was fair, unbiased, and free of noise, and that status, social connections, and lobbying to get the paper published didn’t matter;
 2. journals assessed research according to the category metrics we discussed above.
@@ -298,7 +306,7 @@ We would like you to state your "credible intervals." Loosely speaking, we hope 
 
 <summary>How do I come up with these intervals?</summary>
 
-You may know the concepts below, but you might be unfamiliar with applying them in a situation like this one.
+You may understand the concepts of uncertainty and credible intervals, but you might be unfamiliar with applying them in a situation like this one.
 
 You may have a certain best guess for the "Methods..." criterion. Still, even an expert can never be certain. E.g., you may misunderstand some aspect of the paper, there may be a method you are not familiar with, etc.
 
