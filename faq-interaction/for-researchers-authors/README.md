@@ -19,26 +19,26 @@ We will only need a link to a publicly hosted, DOI'd version of your work. We wi
 
 ### Conditional embargo
 
-### [Request via submission form ](#user-content-fn-5)[^5]
+You can request a condition embargo by emailing us at contact@unjournal.org, or via the submission form. Please explain what sort of embargo you are asking for, and your reasoning for this.  &#x20;
 
 By default, we would like _Unjournal_ evaluations to be made public. However, in special circumstances, and particularly for very early-career researchers, we may make exceptions.
 
 If there is an early-career researcher on the authorship team, we will allow authors to "embargo" the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite. For example, we might grant an embargo that lasts until after a PhD/postdoc’s upcoming job-market or until after publication in a mainstream journal, with a hard maximum of 14 months. (Of course, embargoes can be ended early at the request of the authors)
 
-In very special circumstances we may consider granting a "[conditional indefinite embargo.](#user-content-fn-6)[^6]"
+In very special circumstances we may consider granting a "[conditional indefinite embargo.](#user-content-fn-5)[^5]"
 
 ### What we may **ask of authors**
 
 If we consider your work for public evaluation, we may ask for _some_ of the below, but these are mainly optional. We will aim to make this very _light touch_ for authors.
 
-1. A link to a non-paywalled, hosted version of your work (which could be in [any format (\*)](#user-content-fn-7)[^7]— PDFs are not necessary) which [can be given a DOI](#user-content-fn-8)[^8].
-2. Responses to [clarification questions from our evaluators](#user-content-fn-9)[^9].
+1. A link to a non-paywalled, hosted version of your work (which could be in [any format (\*)](#user-content-fn-6)[^6]— PDFs are not necessary) which [can be given a DOI](#user-content-fn-7)[^7].
+2. Responses to [clarification questions from our evaluators](#user-content-fn-8)[^8].
 3. The evaluations and ratings will be posted publicly (and themselves given a DOI). We will allow you the right to respond before any of this is posted publicly, and your response will also be given a DOI and indexed..
-4. _We are considering asking for_ a link to data and code, if possible. We will help you to make it accessible. Note our project is not _principally_ about replication, and we are not insisting on this, nor able to provide this aid systematically [at this point in time](#user-content-fn-10)[^10].
+4. _We are considering asking for_ a link to data and code, if possible. We will help you to make it accessible. Note our project is not _principally_ about replication, and we are not insisting on this, nor able to provide this aid systematically [at this point in time](#user-content-fn-9)[^9].
 
 ## **Why should researchers and groups submit their work to and engage with **_**The Unjournal**_**?**
 
-_The biggest_ [_personal gains for authors are:_](#user-content-fn-11)[^11]
+_The biggest_ [_personal gains for authors are:_](#user-content-fn-10)[^10]
 
 1. **Substantive feedback** will help you improve your work (both the work being reviewed and future work). Substantive and useful feedback is often very hard to get, especially for young scholars.
 2. **Ratings = Markers of credibility for your work** that could help your career advancement, at least at the margin, and _could_ in the future help a great deal.
@@ -76,7 +76,7 @@ There are risks and rewards to any activity of course, and we cannot predict the
 
 ### **Exclusivity**
 
-[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-12)[^12], and perhaps they might enforce these more strongly if they fear competition from _The Unjournal._
+[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-11)[^11], and perhaps they might enforce these more strongly if they fear competition from _The Unjournal._
 
 * _The Unjournal_ is _not exclusive_. Having your paper reviewed and evaluated in _The Unjournal_ will not limit your options; you can still submit your work to traditional journals.
 * Following a traditional publishing route can also be risky: the world may change, and you may be seen as retrograde.
@@ -140,22 +140,20 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
 [^4]: At least _we_ are not making any exclusivity restrictions. Some journals might discourage you from publicly posting your work (a "pre-print"), but my impression is that this restriction is becoming less and less common or defensible. In economics journals, for example, such restrictions are extremely rare.    &#x20;
 
-[^5]: If you would like to request an exception to a public evaluation, you have the opportunity to explain your reasoning in the submission form.
+[^5]: E.g., where evaluations with ratings below a certain value will never be made public. In such cases, the evaluators will be informed of this in advance, and, if we publish some evaluations of the paper, it will be noted that this policy was in place.
 
-[^6]: E.g., where evaluations with ratings below a certain value will never be made public. In such cases, the evaluators will be informed of this in advance, and, if we publish some evaluations of the paper, it will be noted that this policy was in place.
+[^6]: See “[benefits of dynamic documents](../../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 
-[^7]: See “[benefits of dynamic documents](../../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
+[^7]: Again, remember that _we_ will not be "publishing" this work, just evaluating it. We can help you figure out how to host and add a DOI to it, however.
 
-[^8]: Again, remember that _we_ will not be "publishing" this work, just evaluating it. We can help you figure out how to host and add a DOI to it, however.
-
-[^9]: Recall that we assign 2–3 evaluators who will be paid to assess your work and who may be anonymous (22 Dec 2022: we are giving evaluators this choice).\
+[^8]: Recall that we assign 2–3 evaluators who will be paid to assess your work and who may be anonymous (22 Dec 2022: we are giving evaluators this choice).\
     \
     We may try to facilitate a confidential channel to enable a dialogue with the authors.\
     \
     In future iterations, through this process, we may encourage you to continue to update your work in communication with the evaluators, as a sort of "dynamic R\&R."
 
-[^10]: Updated, October 2023. We want to encourage this accessibility (and we are keen to work with I4replication and others on this in the future).
+[^9]: Updated, October 2023. We want to encourage this accessibility (and we are keen to work with I4replication and others on this in the future).
 
-[^11]: And remember: you are not giving up any opportunity to publish your research elsewhere.
+[^10]: And remember: you are not giving up any opportunity to publish your research elsewhere.
 
-[^12]: We think this is largely not a factor, as discussed below.
+[^11]: We think this is largely not a factor, as discussed below.
