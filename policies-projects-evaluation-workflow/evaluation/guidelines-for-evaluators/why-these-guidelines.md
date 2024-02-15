@@ -6,35 +6,41 @@ _31 Aug 2023:_ Our present approach is a "working solution" involving some ad-ho
 
 ## **Why numerical ratings?**
 
-Ultimately, we're trying to replace the question of "what tier of journal did a paper get into?" with "how highly was the paper rated?" We believe this is a more valuable metric, more fine-grained and less prone to gaming and to the randomness of things like the availability of journal space in a particular field. See our discussion of [Reshaping academic evaluation: beyond the binary...](../../../benefits-and-features/costs-of-playing-the-publication-game.md) .
+Ultimately, we're trying to replace the question of "what tier of journal did a paper get into?" with "how highly was the paper rated?" We believe this is a more valuable metric. It can be more fine-grained. It should be less prone to gaming. It aims to reduce randomness in the process, through  things like 'the availability of journal space in a particular field'. See our discussion of [Reshaping academic evaluation: beyond the binary...](../../../benefits-and-features/costs-of-playing-the-publication-game.md) .
 
-To get to this point, we need to have academia and stakeholders see our reviews as meaningful. We want the evaluations to begin to have some value that is measurable in the way “publication in the AER” is seen to have value. My (David Reinstein's) impression is that previous and ongoing efforts towards journal-independent evaluation tend not to have comparable metrics. Typically, they either have simple tick-boxes (like "This paper used correct statistical methods: yes/no") or enable descriptive evaluation without an overall rating.\
+To get to this point, we need to have academia and stakeholders see our evaluations as meaningful. We want the evaluations to begin to have some value that is measurable in the way “publication in the AER” is seen to have value.&#x20;
+
+While there are some ongoing efforts towards journal-independent evaluation, these [tend not use  comparable metrics](#user-content-fn-1)[^1]. Typically, they either have simple tick-boxes (like "this paper used correct statistical methods: yes/no") or they enable descriptive evaluation without an overall rating.\
 \
-As we are not a journal, and we don’t accept or reject research, we need another way of assigning value. We are working to determine the best way of doing this through quantitative ratings. We hope to be able to benchmark to "traditional" publication outcomes. Thus, we think it is important to ask for both an overall quality rating and a journal "prediction."
+As we are not a journal, and we don’t accept or reject research, we need another way of assigning value. We are working to determine the best way of doing this through quantitative ratings. We hope to be able to benchmark our evaluations to "traditional" publication outcomes. Thus, we think it is important to ask for both an overall quality rating and a journal ranking tier prediction.
 
 ## Why these categories?
 
-In addition to the overall assessment, we think it will be valuable to have the papers rated according to several categories. This could be particularly helpful to practitioners who may care about some concerns more than others. It also can be useful to future researchers who might want to focus on reading papers with particular strengths. (Optimistically, it could be useful in meta-analyses, as certain characteristics of papers could be weighed more heavily.) We think the use of categories might also be useful to authors and evaluators themselves in getting a sense of what we think research priorities should be, and thus how to consider an overall rating.
+In addition to the overall assessment, we think it will be valuable to have the papers rated according to several categories. This could be particularly helpful to practitioners who may care about some concerns more than others. It also can be useful to future researchers who might want to focus on reading papers with particular strengths. It could be useful in meta-analyses, as certain characteristics of papers could be weighed more heavily. We think the use of categories might also be useful to authors and evaluators themselves. It can help them get a sense of what we think research priorities should be, and thus help them consider an overall rating.
 
-However, these ideas have been largely ad-hoc and based on the impressions of our management team, which includes mainly a particular set of economists and psychologists. The process is still being developed. _Any feedback you have is welcome. For example,_ _are we overemphasizing certain aspects? Are we excluding some important categories?_
+However, these ideas have been largely ad-hoc and based on the impressions of our management team (a particular set of mainly economists and psychologists). The process is still being developed. _Any feedback you have is welcome. For example,_ _are we overemphasizing certain aspects? Are we excluding some important categories?_
 
 _We are also researching other frameworks, templates, and past practice; we hope to draw from validated, theoretically grounded projects such as_ [_RepliCATS_](https://replicats.research.unimelb.edu.au/resources/)_._
 
-## Why ask for confidence intervals?
+## Why ask for credible intervals?
 
 In eliciting expert judgment, it is helpful to differentiate the _level_ of confidence in predictions and recommendations. We want to know not only what you believe, but how strongly held your beliefs are. If you are less certain in one area, we should weigh the information you provide less heavily in updating our beliefs. This may also be particularly useful for practitioners.\
 \
-Obviously, there are challenges to any approach. Even experts in a quantitative field may struggle to convey their own uncertainty. They may also be inherently "poorly calibrated" (see discussions and tools for [calibration training](https://www.clearerthinking.org/post/2019/10/16/practice-making-accurate-predictions-with-our-new-tool)).  Some people may often be "confidently wrong." They might state very narrow [confidence intervals (or "credible intervals")](#user-content-fn-1)[^1], when the truth—where measurable—routinely falls outside these boundaries. People with greater discrimination may sometimes be _under_confident. One would want to consider and potentially correct for poor calibration (although it is not obvious how to do so if we have no "gold standard outcomes" to judge reviewers as over- or underconfident).\
+Obviously, there are challenges to any approach. Even experts in a quantitative field may struggle to convey their own uncertainty. They may also be inherently "poorly calibrated" (see discussions and tools for [calibration training](https://www.clearerthinking.org/post/2019/10/16/practice-making-accurate-predictions-with-our-new-tool)).  Some people may often be "confidently wrong." They might state very narrow "credible intervals", when the truth—where measurable—routinely falls outside these boundaries. People with greater discrimination may sometimes be _under_confident. One would want to consider and [potentially correct for poor calibration.](#user-content-fn-2)[^2]\
 \
-As a side benefit, this may be interesting for research [in and of itself](#user-content-fn-2)[^2], particularly as _The Unjournal_ grows. We see quantifying one's own uncertainty as a good exercise for academics (and everyone) to engage in; to try to be more precise in our stated confidence and aim to be well-calibrated.
+As a side benefit, this may be interesting for research [in and of itself](#user-content-fn-3)[^3], particularly as _The Unjournal_ grows. We see 'quantifying one's own uncertainty' as a good exercise for academics (and everyone) to engage in.&#x20;
 
 
 
 ## "Weightings" for each rating category (removed for now)
 
+<details>
+
+<summary>Weightings for each ratings category (removed for now)</summary>
+
 2 Oct 2023 -- We previously suggested 'weightings' for individual ratings, along with a note&#x20;
 
-> We give "suggested weights" as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment.
+We give "suggested weights" as an indication of our priorities and a suggestion for how you might average these together into an overall assessment; but please use your own judgment.
 
 _We included these weightings for several reasons:_&#x20;
 
@@ -50,6 +56,8 @@ _However, we decided to remove these weightings because:_
 1. Reduce clutter in an already overwhelming form and guidance doc. ‘More numbers’ can be particularly overwhelming
 2. These weights were ad-hoc, and they may suggest we have a more grounded ‘model of value’ than we already do. (And there is also some overlap in our categories anyways, something we are working on addressing.) &#x20;
 3. Some people interpreted what we intended incorrectly (e.g., they thought we were saying ‘relevance to global priorities’ is not an important thing)
+
+</details>
 
 ## Adjustments to metrics and guidelines/previous presentations
 
@@ -95,11 +103,11 @@ _We had included the note:_
 
 As well as:
 
-> Suggested weighting: 0. [Why 0?](#user-content-fn-3)[^3]
+> Suggested weighting: 0. [Why 0?](#user-content-fn-4)[^4]
 
 Elsewhere in that page we had noted:
 
-> As noted above, we give suggested weights (0–5) to suggest the importance of each category rating to your overall assessment, given _The Unjournal_'s priorities. [_But you don't need, and may not want to use these weightings precisely._](#user-content-fn-4)[^4]
+> As noted above, we give suggested weights (0–5) to suggest the importance of each category rating to your overall assessment, given _The Unjournal_'s priorities. [_But you don't need, and may not want to use these weightings precisely._](#user-content-fn-5)[^5]
 
 The weightings were presented once again along with each description in the section ["Category explanations: what you are rating"](./#category-explanations-what-you-are-rating).
 
@@ -113,7 +121,7 @@ The weightings were presented once again along with each description in the sect
 >
 > You may feel comfortable giving your "90% confidence interval," or you may prefer to give a "descriptive rating" of your confidence (from "extremely confident" to "not confident").
 >
-> Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval _or_ using our [scale described below](why-these-guidelines.md#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-5)[^5]&#x20;
+> Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval _or_ using our [scale described below](why-these-guidelines.md#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-6)[^6]&#x20;
 
 <details>
 
@@ -201,7 +209,7 @@ This work represents a strong and substantial achievement. It is highly rigorous
 
 <summary>Middle ratings (40–59, 60–74) (*)</summary>
 
-[**60–74.9**](#user-content-fn-6)[^6]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
+[**60–74.9**](#user-content-fn-7)[^7]**:** A very strong, solid, and relevant piece of work. It may have minor flaws or limitations, but overall it is very high-quality, meeting the standards of well-respected research professionals in this field.
 
 **40–59.9:** A useful contribution, with major strengths, but also some important flaws or limitations.
 
@@ -245,11 +253,13 @@ The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate
 
 
 
-[^1]: This distinction embodies the difference between the frequentist and Bayesian approaches to probability and statistics.
+[^1]: At least this is my (David Reinstein's) impression.
 
-[^2]: See especially Phil Tetlock’s work.
+[^2]: However, it is not obvious how to do so if we have no "gold standard outcomes" to judge reviewers as over- or underconfident.
 
-[^3]: 
+[^3]: See especially Phil Tetlock’s work.
+
+[^4]: 
 
     For the overall measures we don't want t you to consider this; we'd rather be more comparable to traditional publications, in this respect. Also note that our management team has already considered this work and evaluated it as relevant to global priorities, before passing it to evaluators. Nonetheless, we would like your informed assessment (and discussion).&#x20;
 
@@ -257,8 +267,8 @@ The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate
 
 
 
-[^4]: For example, you might weight categories less where you are more uncertain, or where the category seems less relevant.
+[^5]: For example, you might weight categories less where you are more uncertain, or where the category seems less relevant.
 
-[^5]: _Above, we completed both only for illustration purposes. Below, we give a suggested correspondence between these two measures._ &#x20;
+[^6]: _Above, we completed both only for illustration purposes. Below, we give a suggested correspondence between these two measures._ &#x20;
 
-[^6]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
+[^7]: This previously read "60-75"; we adjusted this because some evaluators found the overlap unclear.
