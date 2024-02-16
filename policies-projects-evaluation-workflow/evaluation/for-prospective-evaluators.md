@@ -9,7 +9,7 @@ _The Unjournal_ is a new organization doing journal-independent evaluations of a
 ## What we are asking you to do
 
 1. **Write an evaluation of a specific research** [_**paper or project**_](#user-content-fn-1)[^1]**:** essentially a standard, high-quality referee report.
-2. [**Give  about the** ](#user-content-fn-2)[^2]**research** by filling in a short form.
+2. [**Give quantitiative metrics and predictions about the** ](#user-content-fn-2)[^2]**research** by filling in a short form.
 3. Answer a short questionnaire about your background and our processes.
 
 See [Guidelines for Evaluators](guidelines-for-evaluators/) for further details and guidance.
