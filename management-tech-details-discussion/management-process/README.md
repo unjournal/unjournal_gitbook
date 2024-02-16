@@ -1,9 +1,14 @@
 # Evaluation manager process
 
 {% hint style="info" %}
+_**Update Feb. 2024:**_ We are moving the discussion of the _details_ of this process to an internal Coda link ([here](https://coda.io/d/The-Unjournal-Hub-internal\_d0KBG3dSZCs/Evaluation-Management\_suhOX#\_luMy4), accessible by team members only). We aim to only present the overview in broad strokes below. (We haven't done this yet).
+{% endhint %}
+
+
+
+{% hint style="info" %}
 See also [mapping-evaluation-workflow.md](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md "mention")for an overview and flowchart of our _full_ process (including the evaluation manager role).&#x20;
 
-_Update Feb. 2024:_ We are moving the discussion of the _details_ of this process to an internal Coda link ([here](https://coda.io/d/The-Unjournal-Hub-internal\_d0KBG3dSZCs/Evaluation-Management\_suhOX#\_luMy4), accessible by team members only). Below, we will only present the overview in broad strokes. \
 \
 _**Compensation:** As of Dec 2023, evaluation managers are compensated a_ minimum of $300 per project for their work. Further work on 'curating' the evaluation,  engaging further with authors and evaluators, writing detailed evaluation summary content, etc., can earn up to an additional $200.&#x20;
 {% endhint %}
