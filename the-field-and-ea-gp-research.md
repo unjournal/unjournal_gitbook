@@ -1,8 +1,6 @@
 # What is global-priorities-relevant research?
 
-{% hint style="info" %}
 On this page we link to and discuss [some takes](#user-content-fn-1)[^1] on answers to the questions, _Which research is most impactful? Which research should be prioritized?_
-{% endhint %}
 
 ## Syllabi
 
@@ -78,6 +76,18 @@ Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org
 
 ["Research agenda draft for GPI economics"](https://globalprioritiesinstitute.org/wp-content/uploads/Economics-research-agenda-draft.pdf)
 
+
+
+### Open Philanthropy&#x20;
+
+[Social Science Research Topics for Global Health and Wellbeing](https://www.openphilanthropy.org/research/social-science-research-topics-for-global-health-and-wellbeing/); posted on the EA Forum as "[Social science research we'd like to see on global health and wellbeing](https://forum.effectivealtruism.org/posts/3Y7c7MXf3BzgruTWv/social-science-research-we-d-like-to-see-on-global-health)"
+
+[Social Science Research Topics for Animal Welfare](https://www.openphilanthropy.org/research/social-science-research-topics-for-animal-welfare/) posted on the EA Forum as [Social science research we'd like to see on animal welfare](https://forum.effectivealtruism.org/posts/QyXcTAhzcQeLDckGL/social-science-research-we-d-like-to-see-on-animal-welfare)
+
+&#x20;[“Technical and Philosophical Questions That Might Affect Our Grantmaking”](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking) is a fairly brief discussion and overview linking mostly to OP-funded research.
+
+
+
 ## Other agendas and discussions
 
 _To be expanded, cataloged, and considered in more detail_
@@ -86,7 +96,7 @@ _To be expanded, cataloged, and considered in more detail_
 
 [Animal Charity Evaluators](https://animalcharityevaluators.org/research/): Their "[Methodology](https://animalcharityevaluators.org/research/methodology/)" and "Research briefs" are particularly helpful, and connect to a range of academic and policy research
 
-Open Philanthropy (OP): [“Technical and Philosophical Questions That Might Affect Our Grantmaking”](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking) is a fairly brief discussion and overview linking mostly to OP-funded research.
+
 
 <details>
 
