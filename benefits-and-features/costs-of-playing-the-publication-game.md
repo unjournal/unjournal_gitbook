@@ -50,7 +50,7 @@ The current system can sideline deserving work due to unpredictable outcomes. Th
 
 ### **Wasted feedback**
 
-Some reviewers write ten-page reports critiquing the paper in great detail (possibly to impress editors, or because they simply feel compelled to do so), even when they reject the paper. These reports are sometimes very informative and useful for the author and would also be very helpful for the wider public and research community to understand the nature of the debate and issues.
+Some reviewers write ten-page reports critiquing the paper in great detail[^3]  even when they reject the paper. These reports are sometimes very informative and useful for the author and would also be very helpful for the wider public and research community to understand the nature of the debate and issues.
 
 However, researchers often have a very narrow focus on getting the paper published as quickly and in as high-prestige a journal as possible. Unless the review is part of a 'Revise and Resubmit' that the author wants to fulfill, they may not actually put the comments into practice or address them in any way.
 
@@ -80,3 +80,5 @@ Anonymous; "This game takes away the creativity, the risk, the â€˜right to failâ
     * Slide collage of 'academics complaining' [beginning here](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit#slide=id.g15b6b3080d0\_0\_521)
 
 [^2]: ... or communicating their work, or teaching, or other productive activities,
+
+[^3]: Possibly to impress editors, or because they simply feel compelled to do so

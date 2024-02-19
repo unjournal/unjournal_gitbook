@@ -9,13 +9,17 @@ description: >-
 
 ## General process and requests
 
-### Our current proposed model of the review ('evaluation') process&#x20;
+### Our current model of the evaluation process&#x20;
 
-We generally seek [two evaluators](#user-content-fn-1)[^1]˟ (aka reviewers/referees') with research interests in your area, and with complementary expertise. You will have the opportunity to suggest particular areas in which you are [interested in receiving feedback and suggestions](#user-content-fn-2)[^2].˟ The evaluators will write detailed and helpful evaluations, and submit them either "signed" or anonymously. We will also ask the evaluators to give some forms of quantitative "rating" feedback, along with a few overall metrics and predictions about what tier and type of traditional journal this work would likely be published in, and where it _should_ be published _(see_ [_note_](#user-content-fn-3)[^3]_)_. All of these evaluations and ratings will typically be made public, but _you will have the right to respond before or after these are posted_.
+We generally seek [two evaluators](#user-content-fn-1)[^1] (aka reviewers or referees) with research interests in your area and with complementary expertise. You, the author, can suggest areas that you particularly want to [receive feedback and suggestions](#user-content-fn-2)[^2] on.&#x20;
 
-There will be a range of benefits for authors, as discussed below.
+The evaluators will write detailed and helpful evaluations, and submit them either "signed" or anonymously.  We ask the evaluators to give quantitative ratings along several dimensions. We also ask them to predict 'what journal tier' this _would_ [traditionally be published in](#user-content-fn-3)[^3], as well as what tier it _should_ be published in. Here are the [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention").
 
-We will only need a link to a publicly hosted, DOI'd version of your work. We will not "publish" your paper, and the fact that we are handling your paper will not limit you in any way. We are fine with you submitting it to any journal before, during, or after the process. _(_[_See note._](#user-content-fn-4)[^4]_)_
+All of these evaluations and ratings will typically be made public (see unjournal.pubpub.org), but _you will have the right to respond before or after these are posted_.
+
+There are a range of benefits for authors, as discussed below.
+
+To consider your research we only need a link to a publicly hosted version of your work, ideally with a DOI. We will not "publish" your paper (or dynamic document, etc.). The fact that we are handling your paper will not limit you in any way. We are fine with you submitting it to any journal before, during, or after the process. _(_[_See note._](#user-content-fn-4)[^4]_)_
 
 ### Conditional embargo
 
@@ -29,22 +33,22 @@ In very special circumstances we may consider granting a "[conditional indefinit
 
 ### What we may **ask of authors**
 
-If we consider your work for public evaluation, we may ask for _some_ of the below, but these are mainly optional. We will aim to make this very _light touch_ for authors.
+If we consider your work for public evaluation, we may ask for _some_ of the below, but these are mainly optional. We aim to make this very _light touch_ for authors.
 
 1. A link to a non-paywalled, hosted version of your work (which could be in [any format (\*)](#user-content-fn-6)[^6]— PDFs are not necessary) which [can be given a DOI](#user-content-fn-7)[^7].
 2. Responses to [clarification questions from our evaluators](#user-content-fn-8)[^8].
-3. The evaluations and ratings will be posted publicly (and themselves given a DOI). We will allow you the right to respond before any of this is posted publicly, and your response will also be given a DOI and indexed..
+3. The evaluations and ratings will be posted publicly (and themselves given a DOI). We will allow you the right to respond before any of this is posted publicly, and your response will also be given a DOI and indexed.
 4. _We are considering asking for_ a link to data and code, if possible. We will help you to make it accessible. Note our project is not _principally_ about replication, and we are not insisting on this, nor able to provide this aid systematically [at this point in time](#user-content-fn-9)[^9].
 
 ## **Why should researchers and groups submit their work to and engage with **_**The Unjournal**_**?**
 
 _The biggest_ [_personal gains for authors are:_](#user-content-fn-10)[^10]
 
-1. **Substantive feedback** will help you improve your work (both the work being reviewed and future work). Substantive and useful feedback is often very hard to get, especially for young scholars.
+1. **Substantive feedback** will help you improve the research you submit, and your future work.  Substantive and useful feedback is often very hard to get, especially for young scholars. _It's usually hard to get anyone to actually read your paper – we can help!_
 2. **Ratings = Markers of credibility for your work** that could help your career advancement, at least at the margin, and _could_ in the future help a great deal.
 3. The opportunity to **publicly respond to critiques and correct misunderstandings**.
-4. An **additional opportunity for evaluation** of your work with an emphasis on **impact.**  (See fold below).
-5. **Visibility** and attention to your work, which may lead to additional citations.
+4. An **additional opportunity for the evaluation** of your work with an emphasis on **impact** (see fold below). &#x20;
+5. Increasing the **visibility of**  your work, which may lead to additional citations.
 6. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, opening up new ambitious projects and attracting strong PhD students to your research groups.
 7. A reputation as an "**early adopter and innovator**" in open science.
 8. **Prizes:** You may win an [impactful-research-prize](../../readme-1/call-for-participants-research/impactful-research-prize/ "mention") which will be financial as well as reputational.
@@ -67,29 +71,33 @@ You may have "used up" the good journals in your field, or otherwise fallen thro
 
 ## **Is it ‘risky’ to have your work evaluated in **_**The Unjournal**_**?**
 
-There are risks and rewards to any activity of course, and we cannot predict the consequences of any given action. Here we consider some risks you may weigh against the benefits mentioned above.
+There are risks and rewards to any activity of course, and we can't predict the consequences of any given action. Here we consider some risks you may weigh against the benefits mentioned above.
 
 1. Exclusivity
 2. Public negative/neutral feedback
 3. Backlash against innovation or "seeming weird"
 4. Potential of the review process having a downward bias
 
+We consider and respond to these risks below. &#x20;
+
 ### **Exclusivity**
 
 [Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-11)[^11], and perhaps they might enforce these more strongly if they fear competition from _The Unjournal._
 
+_However:_
+
 * _The Unjournal_ is _not exclusive_. Having your paper reviewed and evaluated in _The Unjournal_ will not limit your options; you can still submit your work to traditional journals.
 * Following a traditional publishing route can also be risky: the world may change, and you may be seen as retrograde.
-* More importantly, publishing (especially in Economics) is slow and has highly variable outcomes. You typically wait months for a response—sometimes more than a year; may go through many cycles of rejection, revisions, and resubmission; and may ultimately end up with an outcome (rejection) that has zero value on your CV.
+* More importantly, publishing (especially in economics) is slow and has highly variable outcomes. You typically wait months for a response—sometimes more than a year; may go through many cycles of rejection, revisions, and resubmission; and may ultimately end up with an outcome (rejection) that has zero value on your CV.
   * With _The Unjournal_ your work will always be given feedback, an evaluation, and a public rating. And you can continue to improve it for future evaluation.
 
 ### **Public negative or neutral feedback**
 
 Our plan is to make reviews, feedback, and evaluations public. While there has been some movement towards open review, this is still not the standard mode. Typically when you submit your paper and it is rejected, you, your co-authors, the editor, and the people who wrote the reviews are the only people who actually know or see this.
 
-With _The Unjournal,_ you might get feedback and evaluation that is sometimes negative, and this may be made public. Is this an acceptable risk? I think so. Most academics expect that there will be many differing opinions about a piece of work, and everyone has received negative reviews throughout their career.
+With _The Unjournal,_ you might get feedback and evaluation that is sometimes negative, and this may be made public. _Is this an acceptable risk?_ I think so. Most academics expect that there will be many differing opinions about a piece of work, and everyone has received negative reviews throughout their career.
 
-Suppose instead, you go the standard route, put out a working paper, and submit your paper to a sequence of journals. Suppose you present it at many seminars and finally get it published—let's say three years later (not uncommon in Economics), in a middle-status field journal. Will people think that your paper was perfect and not criticized at all? Of course not. If it had been the perfect paper it would have been immediately accepted at a "top journal." What's more, the people in your field would have been the reviewers, attended seminars, and heard all the critiques of the paper.
+Suppose instead, you go the standard route, put out a working paper, and submit your paper to a sequence of journals. Suppose you present it at many seminars and finally get it published—let's say three years later (not uncommon in economics), in a middle-status field journal. _Will people think that your paper was perfect and not criticized at all?_ Of course not. If it had been the perfect paper it would have been immediately accepted at a "top journal." What's more, the people in your field would have been the reviewers, attended seminars, and heard all the critiques of the paper.
 
 Thus, getting public feedback that is mixed—in _The Unjournal_ (or anywhere)—should not particularly harm you or your research project.
 
@@ -100,13 +108,13 @@ _And this should be weighed against the benefits of having your work in_ The Unj
 
 These are all major advantages over the traditional journal route, where you essentially start over with each new submission, and new referees may overlook the same point and have the same misunderstandings each time.
 
-Nonetheless, we are planning some exceptions for early-career researchers, [in some cases _not publicly revealing_ negative evaluations of work. at least for a defined period, (and informing referees of this in advance)](./#conditional-embargo).
+Nonetheless, we are planning some exceptions for early-career researchers, in some cases _not publicly revealing_ negative evaluations of work, at least for a defined period (see [#conditional-embargo](./#conditional-embargo "mention"))
 
 ### **Backlash against innovation or "seeming weird"**
 
-Although the process is unusual, _The Unjournal_ is not a weird concept: we are providing evaluation and feedback on research, largely with standard metrics. We are simply not tying it to journals.
+Although the process is unusual, _The Unjournal_ is not a weird concept: we are providing evaluation and feedback on research, largely with standard metrics. We are simply not tying this to journals.
 
-### **Could our reviews tend to hurt papers more than help them?**
+### **Will our evaluations tend to hurt papers more than they help them?**
 
 _Unjournal_ evaluations should be seen as signals of research quality. Like all such signals, they are noisy. But authors may worry a bad signal will hurt a lot, and a good signal will only help a little.
 
@@ -114,7 +122,7 @@ _Unjournal_ evaluations should be seen as signals of research quality. Like all 
 
 In other words, people will take your transparency into account. If a reviewer evaluates a paper without much information on how others rate it, they might _suspect_ that there have been some substantial and important criticisms and that the paper has flaws. This is particularly the case if it has been around a while, they are submitting to a second-tier journal, etc.
 
-On the other hand, if I see that the author has submitted it to a transparent assessment service like _The Unjournal_, particularly if the author has submitted a lot of his or her work to this sort of public scrutiny, I will update positively, all else being equal. The author has demonstrated they are not afraid of public feedback and openness. I will consider the public critiques, of course, but I will take into account that this paper has been held up to more scrutiny than other work I might have seen.
+On the other hand, suppose I'm an outside observer. If I see that the author has submitted it to a transparent assessment service like _The Unjournal_ I would update positively, all else being equal. Even more so if the author has submitted a lot of his or her work to this sort of public scrutiny. They have demonstrated they are not afraid of public feedback and openness. I would consider the public critiques, of course, but I will take into account that this paper has been held up to more scrutiny than other work I might have seen.
 
 Of course, one cannot rule out that a negative evaluation will harm a paper's reputation, or its publication chances in any particular instance. I just don't expect this to occur _systematically._\
 \
@@ -124,10 +132,6 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
 ## Footnotes
 
-
-
-
-
 1. See “[benefits of dynamic documents](../../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 
 
@@ -136,7 +140,7 @@ _If getting any public feedback was so damaging, why would academics be eager to
 
 [^2]: You could also suggest reviewer names, but we may or may not choose these in particular.
 
-[^3]: See: [guidelines-for-evaluators](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention"). Where the paper has already been published, we elicit counterfactual responses
+[^3]: Where the paper has already been published in a peer-reviewed journal, we elicit counterfactual responses.
 
 [^4]: At least _we_ are not making any exclusivity restrictions. Some journals might discourage you from publicly posting your work (a "pre-print"), but my impression is that this restriction is becoming less and less common or defensible. In economics journals, for example, such restrictions are extremely rare.    &#x20;
 
