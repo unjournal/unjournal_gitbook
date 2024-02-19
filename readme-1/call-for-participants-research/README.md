@@ -12,8 +12,7 @@ If you are interested in being on _The_ _Unjournal_'s management committee, advi
 
 If you have research you would like us to assess (either your own or others'), please fill out [this form](https://bit.ly/ujsuggestr). You can also submit your own work [here](https://bit.ly/ujsubmitr), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
-\
-We're anticipating several job openings spanning research, communications, and operational/administrative roles. See our [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit), and express your interest in [this form](https://airtable.com/shrxGwooWtwZqY8cd).
+We've hired for roles spanning research, communications, and operations/administration. Here is a [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit) of some of these. We may offer similar roles in future.  Please express your general interest in working at The Unjournal in [this 'job interest' form](https://airtable.com/shrxGwooWtwZqY8cd).
 
 \
 _Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
@@ -83,7 +82,7 @@ We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, ap
 
 **Time commitment**: Case-by-case basis. For each evaluation, [here are some guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#length-and-time-possible-benchmarks) for the amount of time to spend.
 
-**Compensation**: We pay a minimum of $400 (updated Feb. 2024) for a prompt -time and complete evaluation, and offer additional prizes and incentives. [See here for more details](../../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md).
+**Compensation**: We pay a minimum of $400 (updated Feb. 2024) for a prompt and complete evaluation, and offer additional prizes and incentives. [See here for more details](../../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md).
 
 **Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for _The Unjournal_. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.
 

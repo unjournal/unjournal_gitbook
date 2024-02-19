@@ -7,6 +7,14 @@ description: >-
 
 # UJ Team: resources, onboarding
 
+{% hint style="info" %}
+19 Feb 2024: Much of the information below is out of date. We also plan to move most of  this content to our internal (Coda) system
+{% endhint %}
+
+
+
+
+
 See also (and integrate): Jordan's ['Onboarding notes'](https://docs.google.com/document/d/1Pw-PRvri7xdqO8HWpfCPjRDAZZhgjOlxCFZoJ3wE5IU/edit)
 
 ## Management team and administrators
@@ -139,8 +147,6 @@ This should be used for payments for evaluators. Please see the link below for h
 ## Authors
 
 [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention")
-
-
 
 
 

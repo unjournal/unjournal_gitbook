@@ -22,9 +22,9 @@ At some point in the future we might consider sliding-scale fees for people subm
 
 ### **Is the Unjournal a journal?**
 
-**No**, we will not ‘publish’ any research; we will just commission _public evaluation_ and _rating_ of relevant research. Having your work evaluated in the Unjournal should not limit you from submitting [it to any publication](#user-content-fn-2)[^2].
+**No**, we will not ‘publish’ any research; we will just commission _public evaluation_ and _rating_ of relevant research. Having your work evaluated in _The Unjournal_ should not limit you from submitting [it to any publication](#user-content-fn-2)[^2].
 
-## Where does the Unjournal's funding come from, and how will it be sustainable?
+## Where does The Unjournal's funding come from, and how will it be sustainable?
 
 At the moment, we have [grants](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/latest-updates#update-on-recent-progress-6-may-2023) from philanthropists and organizations who are particularly interested in the credibility of the research areas we are prioritizing. Ideally, I hope that the research and the evaluation output will provide high enough value to justify further direct funding. We might also aim for funding from governments and universities supporting the open-access agenda. I am not sure whether we would want or need to tie this to any bespoke services we would provide to these entities; I'm very concerned about conflicts of interest. We might also look into other options to help sustain our processes, such as sliding-scale submission fees to cover the cost of paying evaluators.
 
@@ -40,7 +40,7 @@ At the moment, we have [grants](https://globalimpact.gitbook.io/the-unjournal-pr
 
 [referees-evaluators.md](referees-evaluators.md "mention")
 
-1.
+
 
 [^1]: &#x20;We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we mainly refer to these as "papers" throughout our web page, for simplicity&#x20;
 

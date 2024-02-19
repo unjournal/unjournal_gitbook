@@ -1,17 +1,19 @@
 # Jobs and paid projects with The Unjournal
 
-30 Jun 2023: See [latest-updates.md](../latest-updates.md "mention"). We are scaling up, and I expect we will be hiring soon for the roles described below. These roles will be on a contract basis and mainly part-time.
+{% hint style="info" %}
+&#x20;19 Feb 2024.  We are not currently hiring, but expect to do so in the future
+{% endhint %}
 
-To indicate your potential interest in any of the roles described below, please fill out [this quick survey form](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd) and link (or upload) your CV or webpage.
+To indicate your potential interest in roles at The Unjournal, such as those described below, please fill out [this quick survey form](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd) and link (or upload) your CV or webpage.
 
-* If you already filled out this form for a role that has changed titles, don’t worry. You will still be considered for relevant and related roles.
+* If you already filled out this form for a role that has changed titles, don’t worry. You will still be considered for relevant and related roles in the future.
 * If you add your name to this form, we may contact you to offer you the opportunity to do paid project work and paid work tasks.
 
 Furthermore, if you are interested in conducting paid research evaluation for _The Unjournal_, or in joining our advisory board, please complete the form linked [here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
 
-Feel free to contact theunjournal@gmail.com with any questions.
+Feel free to contact contact@unjournal.org with any questions.
 
-## Quick links to roles below <a href="#h.ohxm7x2bjfvn" id="h.ohxm7x2bjfvn"></a>
+## Quick links to role descriptions below <a href="#h.ohxm7x2bjfvn" id="h.ohxm7x2bjfvn"></a>
 
 [administration-operations-and-management-roles.md](interested-in-working-for-the-unjournal/administration-operations-and-management-roles.md "mention")
 

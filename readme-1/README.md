@@ -40,13 +40,7 @@ We are working independently of traditional academic journals to build an open p
 
 **How to get involved?**
 
-\
-**Why **_**The Unjournal?**_\
-\
-Peer review is great, but conventional academic publication processes are wasteful, slow, and rent-extracting. They discourage innovation and prompt researchers to focus more on "gaming the system" than on the quality of their research. We will provide an immediate alternative, and at the same time, offer a bridge to a more efficient, informative, useful, and transparent research evaluation system.\
-
-
-We are looking for research papers to evaluate, as well as evalutators. If you want to suggest research, your own or someone else's, you can let us know [using this form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). If you want to be an evaluator, [apply here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy). You can [express your interest](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy) in being a member of the management team, advisory board, or reviewer pool. For more information, check our guide on [how to get involved](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research).  \
+We are looking for research papers to evaluate, as well as evaluators. If you want to suggest research, your own or someone else's, you can let us know [using this form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). If you want to be an evaluator, [apply here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy). You can [express your interest](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy) in being a member of the management team, advisory board, or reviewer pool. For more information, check our guide on [how to get involved](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research).  \
 \
 **Why **_**The Unjournal**_**?**\
 \
@@ -119,12 +113,11 @@ This GitBook serves as a platform to organize our ideas and resources and track 
 
 <summary>Feedback and discussion</summary>
 
-\
-**Discussion space:** I've set up a post-grant "'Unjournal: <mark style="background-color:orange;">Action plan discussion space"</mark> [<mark style="background-color:orange;">here</mark>](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)<mark style="background-color:orange;">.</mark>  **25 Jun 2022 update:** I have not kept the above discussion space fully updated.
+19 Feb 2024: We previously set up some discussion spaces; these have not been fully updated.&#x20;
 
-_**Please let me know if you want edit or comment access to the present Gitbook.**_\
-\
-_Please do weigh in; all suggestions and comments will be credited... See also_ _Unjournal_: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
+* Please let me know if you wish to engage (email contact@unjournal.org)
+* _Please let me know if you want edit or comment access to the present Gitbook._
+* _Please do weigh in; all suggestions and comments will be credited_
 
 </details>
 
@@ -132,22 +125,30 @@ _Please do weigh in; all suggestions and comments will be credited... See also_ 
 
 See [contents-page.md](contents-page.md "mention")
 
-## Slideshow:
-
-{% embed url="https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw_igWQOS3g/edit#slide=id.g15b6b3080d0_0_52" %}
-
-[Slides link](https://docs.google.com/presentation/d/194u2NNvFSvc3IOfQwIrF5d4W3eFyW9GXrw\_igWQOS3g/edit)
 
 
 
-## **Link:** [**Working public discussion space (post-grant)**](https://docs.google.com/document/d/1Ojb3a2X12av3c97wezYD6zLRkdo1xlx5r21cblf11JY/edit?usp=sharing)
 
-1. We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of _The Unjournal_'s approach. However, we are open to expanding and branching out.
-2. We are considering future outcomes like replication and citations.
-3. We will also consider funding later rounds of review or evaluations of improved and expanded versions of previously evaluated work.
-4. _**Please let me know if you want to edit or comment access to the present Gitbook.**_\
-   \
-   _Please do weigh in, all suggestions and comments will be credited. See also_ _Unjournal_: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit).
+<details>
+
+<summary>Orphaned notes -- please ignore</summary>
+
+
+
+* We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of _The Unjournal_'s approach. However, we are open to expanding and branching out.
+
+<!---->
+
+* We are considering future outcomes like replication and citations.
+
+<!---->
+
+* We will also consider funding later rounds of review or evaluations of improved and expanded versions of previously evaluated work.
+
+</details>
+
+\
+_Please do weigh in, all suggestions and comments will be credited. See also_ _Unjournal_: [public-facing FAQ in progress](https://docs.google.com/document/d/1czeeaLFg9BcsCOJLHYxvnym5icvwmOEtQyEGuc8aaXA/edit); remember to callout contact@unjournal.org if you make any comments
 
 [^1]: &#x20;We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we mainly refer to these as "papers" throughout our web page, for simplicity&#x20;
 
