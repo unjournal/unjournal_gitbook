@@ -6,7 +6,7 @@
 [We refer to "evaluation"](#user-content-fn-1)[^1] because _The Unjournal_ does not _publish_ work; it only links, rates, and evaluates it.
 {% endhint %}
 
-_What we are asking evaluators (referees) to do:_&#x20;
+_For more information about what we are asking evaluators (referees) to do, see:_&#x20;
 
 * [For Prospective Evaluators](../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md)
 * [Guidelines for Evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
@@ -24,7 +24,7 @@ _What we are asking evaluators (referees) to do:_&#x20;
 For several reasons:
 
 * It's equitable, especially for those not getting "service credit" for their refereeing work from their employer.
-* Paying evaluators can reduce adverse selection and conflicts of interest —arguably inherent to the traditional process where reviewers work for free.
+* Paying evaluators can reduce [adverse selection](#user-content-fn-2)[^2] and conflicts of interest —arguably inherent to the traditional process where reviewers work for free.
 * We need to use explicit incentives while _The Unjournal_ grows.
 * We can use payment as an incentive for high-quality work, and to access a wider range of expertise, including people not interested in submitting their own work to _The Unjournal_.
 
@@ -53,14 +53,14 @@ To limit this concern:
 
 We will put your evaluation on [PubPub](https://unjournal.pubpub.org) and give it a DOI. It cannot be redacted in the sense that this initial version will remain on the internet in some format. But you can add an addendum to the document later, which we will post and link, and the DOI can be adjusted to point to the revised version.
 
-### Are the research authors involved in Unjournal's review process and do they give consent?
+### Are the research authors involved in The Unjournal's review process and do they give consent?
 
 See the [for-researchers-authors.md](for-researchers-authors.md "mention") FAQ as well as the [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention").
 
 We have two main ways that papers and research projects enter the _Unjournal_ process:
 
-1. Authors [submit their work](#user-content-fn-2)[^2]; if we believe the work is relevant, we assign evaluators, and so on.
-2. We [select research](#user-content-fn-3)[^3] that seems potentially influential, impactful, and relevant for evaluation. In some cases, we request the authors' permission before sending out the papers for evaluation. In other cases (such as where senior authors release papers in the prestigious[ NBER ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)and CEPR series) we contact the authors  and request their engagement before proceeding, but we don't ask for permission_._&#x20;
+1. Authors [submit their work](#user-content-fn-3)[^3]; if we believe the work is relevant, we assign evaluators, and so on.
+2. We [select research](#user-content-fn-4)[^4] that seems potentially influential, impactful, and relevant for evaluation. In some cases, we request the authors' permission before sending out the papers for evaluation. In other cases (such as where senior authors release papers in the prestigious[ NBER ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)and CEPR series) we contact the authors and request their engagement before proceeding, but we don't ask for permission_._&#x20;
 
 For either track, authors are invited to be involved in several ways:
 
@@ -76,7 +76,7 @@ Otherwise, if you are remaining anonymous, please do not disclose your connectio
 
 Going forward:
 
-* We may later invite you to write and evaluate more about this piece of research . . .
+* We may later invite you to [write and evaluate more about this piece of research](#user-content-fn-5)[^5] . . .
 * . . . and to help us judge prizes (e.g., the [impactful-research-prize](../readme-1/call-for-participants-research/impactful-research-prize/ "mention")).
 * We may ask if you want to be involved in replication exercises (e.g., through the [Institute for Replication](https://i4replication.org/)).
 * As a general principle, we hope and intend always to see that you are fairly compensated for your time and effort.
@@ -85,7 +85,7 @@ Going forward:
 
 The evaluations provide at least three types of value, helping advance several paths in our [theory of change](../benefits-and-features/global-priorities-theory-of-change/):
 
-1. **For readers and users**: _Unjournal_ evaluations assess the reliability and usefulness of the paper along several dimensions—and make this public, so other researchers and policymakers can [learn from them.](#user-content-fn-4)[^4]
+1. **For readers and users**: _Unjournal_ evaluations assess the reliability and usefulness of the paper along several dimensions—and make this public, so other researchers and policymakers can [learn from them.](#user-content-fn-6)[^6]
 2. **For careers and improving research:** Evaluations provide metrics of quality. In the medium term, these should provide increased and accelerated career value, improving the research process. We aim to build metrics that are credibly comparable to the current "tier" of journal a paper is published in. But we aim to do this better in several ways:
    * More quickly, more reliably, more transparently, and without the unproductive overhead of dealing with journals (see '[reshaping evaluation](../benefits-and-features/costs-of-playing-the-publication-game.md)')
    * Allowing flexible, [transparent formats (such as dynamic documents)](../benefits-and-features/dynamic-documents-vs-living-projects/), thus improving the research process, benefiting research careers, and hopefully improving the research itself in impactful areas.
@@ -99,28 +99,14 @@ See our [guidelines for evaluators](../policies-projects-evaluation-workflow/eva
 
 
 
-<details>
-
-<summary>Notes</summary>
-
-* E.g., "Selection": Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration.
-
-<!---->
-
-* E.g., for wider audiences, such as on Wikipedia, the EA Forum, or Asterisk magazine, with potential further compensation.
-
-<!---->
-
-* 22 Dec 2022: We are still developing and improving this system.
-
-</details>
-
-
-
 [^1]: Still, we sometimes call the evaluators 'referees' for clarity.
 
-[^2]: Sometimes, after our reaching out to them.
+[^2]: Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration.
 
-[^3]: This occurs both through our internal [prioritization ](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-for-evaluation-wip.md)process, and through external suggestions, including through our contacts with organizations like [givewell.org](https://givewell.org/) and Open Philanthropy.
+[^3]: Sometimes this happens after we reach out to them to suggest they submit it.
 
-[^4]: They can better understand how to use it, what parts to use, and how much to believe it applies in different contexts, among other insights.
+[^4]: This occurs both through our internal [prioritization ](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research/)process, and through external suggestions, including through our contacts with organizations like [givewell.org](https://givewell.org/) and Open Philanthropy.
+
+[^5]: E.g., for wider audiences, such as on Wikipedia, the EA Forum, or Asterisk magazine, with potential further compensation.
+
+[^6]: They can better understand how to use it, what parts to use, and how much to believe it applies in different contexts, among other insights.
