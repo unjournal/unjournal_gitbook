@@ -1,4 +1,4 @@
-# Suggesting and prioritizing research, considering global priorities,
+# Suggesting and prioritizing research
 
 [the-field-and-ea-gp-research.md](../the-field-and-ea-gp-research.md "mention")
 
@@ -10,7 +10,7 @@
 
 [suggesting-research-forms.md](../policies-projects-evaluation-workflow/considering-projects/suggesting-research-forms.md "mention")
 
-[process-prioritizing-research-for-evaluation-wip.md](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research-for-evaluation-wip.md "mention")
+[process-prioritizing-research](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research/ "mention")
 
 
 

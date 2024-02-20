@@ -1,10 +1,10 @@
 # Prioritization ratings: discussion
 
-As noted in [process-prioritizing-research-for-evaluation-wip.md](../process-prioritizing-research-for-evaluation-wip.md "mention"), we ask people who suggest research to provide a numerical 0-100 rating:
+As noted in [.](./ "mention"), we ask people who suggest research to provide a numerical 0-100 rating:
 
 <figure><img src="https://lh7-us.googleusercontent.com/3FPOf56LHxTq0TwvrKrfJbkB0GorNNl3olUniyzicByqrKQ-Z-by4pqEQTzcTs07oOyQV_-iIABurM0pH8Sot37zRa7E-140pCGrTUsTA6qecIKkJz_CKRIx9sNLsWd2MhkOxAMwxSA34JNA-VCVi-E" alt=""><figcaption></figcaption></figure>
 
-We also ask people within our team to act as 'assessors' to give as second and third opinions on this.  This 'prioritization rating' is one of the criteria we will use to determine whether to commission research to be evaluated (along with author engagement, publication status, our capacity and expertise, etc.)  Again, see the [previous page](../process-prioritizing-research-for-evaluation-wip.md) for the current process.
+We also ask people within our team to act as 'assessors' to give as second and third opinions on this.  This 'prioritization rating' is one of the criteria we will use to determine whether to commission research to be evaluated (along with author engagement, publication status, our capacity and expertise, etc.)  Again, see the [previous page](./) for the current process.
 
 
 

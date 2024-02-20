@@ -1,4 +1,8 @@
-# Process: prioritizing research  (WIP)
+---
+description: This page is a work-in-progress
+---
+
+# Process: prioritizing research
 
 _15 Dec 2023: Our main current process involves_
 
