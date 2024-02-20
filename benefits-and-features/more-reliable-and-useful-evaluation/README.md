@@ -56,6 +56,23 @@ Here's how _The Unjournal_ can do this.
 1. _Early evaluation:_ We will evaluate potentially impactful research soon after it is released (as a working paper, preprint, etc.). We will encourage authors to submit their work for our evaluation, and we will [directly commission](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md) the evaluation of work from the highest-prestige authors.
 2. _We will pay evaluators_ with further incentives for timeliness (as well as carefulness, thoroughness, communication, and insight). [Evidence suggests](https://www.aeaweb.org/articles?id=10.1257/jep.28.3.169) that these incentives for promptness and other qualities are likely to work.
 3. _Public evaluations and ratings_: Rather than waiting years to see "what tier journal a paper lands in," the public can simply consult _The Unjournal_ to find credible evaluations and ratings.
-4. See [#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal](../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal "mention")
+4. See [#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal](../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal "mention")
+
+<details>
+
+<summary>Can <em>The Unjournal</em> "do feedback to authors better" than traditional journals?</summary>
+
+**Maybe we can?**
+
+* We pay evaluators.
+* The evaluations are public, and some sign their evaluations.
+  * → Evaluators may be more motivated to be careful and complete.
+
+**On the other hand . . .**&#x20;
+
+* For public evaluations, people might defer to being overly careful.
+* At standard journals, referees do want to impress editors, and often (but not always) leave very detailed comments and suggestions.
+
+</details>
 
 [^1]: Subject to some potential temply embargos and rare exceptions for sensitive early-career researchers. We discuss these elsewhere. As of June 2023 there have been no such embargos or exceptions.

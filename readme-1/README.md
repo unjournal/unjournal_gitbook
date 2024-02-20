@@ -24,7 +24,7 @@ description: We are not a journal!
 
 <!---->
 
-* ['Why would researchers want to submit their work' (a top FAQ)](../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
+* ['Why would researchers want to submit their work' (a top FAQ)](../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal)
 
 </details>
 

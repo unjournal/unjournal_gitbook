@@ -6,7 +6,7 @@ description: Text to accompany the Impactful Research Prize discussion
 
 ## Details of submissions to _The Unjournal_
 
-Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), especially our [FAQ on "why engage."](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) &#x20;
+Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), especially our [FAQ on "why engage."](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) &#x20;
 
 _Jan. 2024: We have lightly updated this page to reflect our current systems._
 
@@ -26,7 +26,7 @@ If you would like to submit more than one of your papers, you will need to compl
 
 ### Conditional embargo on the publishing of evaluations
 
-By default, we would like _Unjournal_ evaluations to be made public. We think public evaluations are generally good for authors, as explained [here](../../../faq-interaction/for-researchers-authors/#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
+By default, we would like _Unjournal_ evaluations to be made public. We think public evaluations are generally good for authors, as explained [here](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
 
 If there is an early-career researcher on the author team, we will allow authors to "embargo" the publication of the evaluation until a later date. This date is contingent, but not indefinite. The embargo lasts until after a PhD/postdoc’s upcoming job search or until it has been published in a mainstream journal, unless:
 
@@ -58,7 +58,7 @@ If we consider your work for public evaluation, we may ask for **some** of the i
 * By completing the submission form, you are providing your permission for us to post the evaluations publicly unless you request an embargo.
 * You will have a two-week window to respond through our platform before anything is posted publicly. Your responses can also be posted publicly.
 
-For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../../../faq-interaction/for-researchers-authors/).
+For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../../../faq-interaction/for-researchers-authors.md).
 
 #### [Here again is the link to submit your work on our platform.](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1)&#x20;
 

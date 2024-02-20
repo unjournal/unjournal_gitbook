@@ -77,6 +77,20 @@ We designed this process to balance three considerations with three target audie
 
 We discuss this, and how it relates to our impact and "theory of change", [here](../../../faq-interaction/referees-evaluators.md#the-value-of-these-evaluations-what-to-prioritize).
 
+<details>
+
+<summary>"But isn't The Unjournal mainly just about feedback to authors"?</summary>
+
+We accept that in the near-term an _Unjournal_ evaluation may not be seen to have substantial career value.&#x20;
+
+Furthermore, work we are considering _may_ tend be at an earlier stage. authors may submit work to us, thinking of this as a "pre-journal" step.  The papers we _select_ (e.g., from NBER) may also have been posted long before authors planned to submit them to journals.
+
+This may make the 'feedback for authors' and 'assessment for research users' aspects more important, relative to traditional journals' role. \
+\
+However, in the medium-term, a positive _Unjournal_ evaluation should gain  credibility and career value. This should make our evaluations an "endpoint" for a research paper.
+
+</details>
+
 
 
 ## Quantitative metrics
