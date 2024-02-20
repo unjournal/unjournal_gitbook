@@ -105,7 +105,7 @@ Finally, we consider how our choices will increase the visibility and solidify t
 
 We are aware of possible pitfalls of some elements of our vision.
 
-We are pursuing  a second "non-academic, high-impact policy work" track for evaluation. This may have direct impact and please SFF funders, but, if not done carefully, this may distract us from changing academic systems, and may cost us status in academia.&#x20;
+We are pursuing a second "high-impact policy and applied research" track for evaluation.  This will consider work that is not targeted at academic audiences. This may have direct impact and please SFF funders, but, if not done carefully, this may distract us from changing academic systems, and may cost us status in academia.&#x20;
 
 A focus on topics perceived as niche (e.g., the economics and game theory of AI governance and AI safety) may bring a similar tradeoff.
 

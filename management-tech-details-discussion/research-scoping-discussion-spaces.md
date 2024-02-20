@@ -76,7 +76,7 @@ _Some of the content in the sections below will overlap._
 2. Artificial intelligence; AI governance and strategy (is this in the UJ wheelhouse?)
 3. International cooperation and conflict
 
-## Non-academic/policy research stream
+## Applied research/Policy research stream
 
 See [discussion here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/management-tech-details-discussion/policies-issues-discussion#policy-work-not-mainly-intended-for-academic-audiences).\
 
