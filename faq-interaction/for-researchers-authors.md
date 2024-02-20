@@ -1,0 +1,163 @@
+# For researchers and authors
+
+### How does The Unjournal's evaluation process work?&#x20;
+
+We generally seek [two evaluators](#user-content-fn-1)[^1] (aka reviewers or referees) with research interests in your area and with complementary expertise. You, the author, can suggest areas that you want to [receive feedback and suggestions](#user-content-fn-2)[^2] on.&#x20;
+
+The evaluators write detailed and helpful evaluations, and submit them either "signed" or anonymously.  They provide quantitative ratings on several dimensions, such as methods, relevance, and communication. They predict what journal tier the research _will_ be published in, and what tier it _should_ be published in. Here are the [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention").
+
+These evaluations and ratings are typically made public (see [unjournal.pubpub.org](https://unjournal.pubpub.org)), but **you will have the right to respond before or after these are posted.**
+
+To consider your research we only need a link to a publicly hosted version of your work, ideally with a DOI. We will not "publish" your paper. The fact that we are handling your paper will not limit you in any way. You can submit it to any journal before, during, or after the process.
+
+### Can I ask for evaluations to be private?
+
+You can request a conditional embargo by emailing us at [contact@unjournal.org](mailto:contact@unjournal.org), or via the submission form. Please explain what sort of embargo you are asking for, and why. By default, we would like Unjournal evaluations to be made public promptly. However, in special circumstances, and particularly for very early-career researchers, we may make exceptions.
+
+If there is an early-career researcher on the authorship team, we may allow authors to "embargo" the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite. For example, we might grant an embargo that lasts until after a PhD/postdoc’s upcoming job-market or until after publication in a mainstream journal, with a hard maximum of 14 months. (Of course, embargoes can be ended early at the request of the authors.)
+
+In very special circumstances we may consider granting a "[conditional indefinite embargo.](#user-content-fn-3)[^3]"
+
+### Do you make any requests of **authors?**
+
+We may ask for some of the below, but these are mainly optional. We aim to make the process very light touch for authors.
+
+1. A link to a non-paywalled, hosted version of your work (in [any format](#user-content-fn-4)[^4]) which [can be given a DOI](#user-content-fn-5)[^5].
+2. Responses to [clarification questions from our evaluators](#user-content-fn-6)[^6].
+3. We may ask for a link to data and code, if possible. Note that our project is not _principally_ about replication, and we are not insisting on this.
+
+We also allow you to respond to evaluations, and we give your response its own DOI.
+
+### **Why should I submit my work to The Unjournal? Why should I engage with them?**
+
+The biggest personal gains for [authors are](#user-content-fn-7)[^7]:
+
+1. **Substantive feedback** will help you improve your research.  Substantive and useful feedback is often very hard to get, especially for young scholars. It's hard to get anyone to read your paper – we can help!
+2. **Ratings are markers of credibility for your work** that could help your career. Remember, we [select our research based on potential global relevance](global-priorities.md).
+3. The chance to **publicly respond to criticism and correct misunderstandings**.&#x20;
+4. Increasing the **visibility of** your work, which may lead to additional citations. We publicize our evaluations and the original papers on our social media feed. We may forward selected work to [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/) for coverage.
+5. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups.
+6. A reputation as an **early adopter and innovator** in open science.
+7. **Prizes:** You may win an [impactful-research-prize](../readme-1/call-for-participants-research/impactful-research-prize/ "mention") which will be financial as well as reputational.
+8. **Undervalued or updated work:** Your paper may have been "under-published". Perhaps there are a limited set of prestigious journals in your field. You now see ways you could improve the research. _The Unjournal can help; we will consider post-publication evaluation._ (See fold.)
+
+<details>
+
+<summary>Unjournal evaluations may particularly help you if...</summary>
+
+Your work may be "under-published" because of:&#x20;
+
+**Time pressure:** Perhaps you, or a co-author were in a hurry and submitted it to a "safe" but low-ranked journal.  It&#x20;
+
+**Interdisciplinary approaches:** It may have been considered by a journal in _one field,_ but it needs feedback and credibility from _other fields_ (e.g., theory vs. empirics, etc.).&#x20;
+
+**Improvements:**  You may have substantially improved and extended the work since its publication. The current journal system can only handle this if you claim it is a 'brand new paper'.  We aim to fix this (see [benefits-of-dynamic-documents.md](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md "mention"))
+
+**Limited journal opportunities:** You may have "used up" the good journals in your field, or otherwise fallen through the cracks.
+
+**You prioritized reliability and impact:** Perhaps your work paper is very impactful and the empirics are strong, but the field doesn't see it as innovative or clever. You need another opportunity.
+
+</details>
+
+
+
+### **Is it risky to have my work evaluated in The Unjournal?**
+
+There are risks and rewards to any activity, of course. Here we consider some risks you may weigh against the benefits mentioned above.
+
+1. Exclusivity
+2. Public negative feedback
+
+#### **Exclusivity**
+
+[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-8)[^8], and perhaps they might enforce these more strongly if they fear competition from The Unjournal.
+
+However, The Unjournal is not exclusive. Having your paper reviewed and evaluated in The Unjournal will not limit your options; you can still submit your work to traditional journals.
+
+#### **Public negative feedback**
+
+Our evaluations are public. While there has been some movement towards open review, this is still not standard. Typically when you submit your paper, reviews are private. With The Unjournal, you might get public negative evaluations.&#x20;
+
+We think this is an acceptable risk. Most academics expect that opinions will differ about a piece of work, and everyone has received negative reviews. Thus, getting public feedback — in The Unjournal or elsewhere — should not particularly harm you or your research project.
+
+Nonetheless, we are planning some exceptions for early-career researchers (see [#can-i-ask-for-evaluations-to-be-private](for-researchers-authors.md#can-i-ask-for-evaluations-to-be-private "mention")).
+
+Unjournal evaluations should be seen as [signals of research quality](global-priorities.md). Like all such signals, they are noisy. But submitting to The Unjournal shows you are confident in your work, and not afraid of public feedback.
+
+<details>
+
+<summary>How will these 'signals' be seen? (discussion)</summary>
+
+Authors might worry that "a bad signal will hurt a lot, and a good signal will only help a little."
+
+But if getting any public feedback was so damaging, why would academics be eager to present their work at seminars and conferences?
+
+The main point: _Unbiased signals cannot systematically lead to beliefs updating in one direction_.&#x20;
+
+For fancy and formal ways of saying this and related concepts, see [Martingales](https://galton.uchicago.edu/\~lalley/Courses/313/Martingales.pdf), [Conservation of Expected Evidence](https://www.lesswrong.com/tag/conservation-of-expected-evidence), Rational Expectations, and the Law of Iterated Expectations.
+
+In other words, _people will take your transparency into account_.
+
+If a reviewer evaluates a paper without much information on how others rated it, they might _suspect_ that there have been some substantial and important criticisms and that the paper has flaws. This is particularly the case if it has been around a while, they are submitting to a second-tier journal, etc.
+
+On the other hand, if I see that an author has submitted their work to a transparent assessment service like _The Unjournal_ I would update positively, all else being equal. I would consider the public critiques, of course, but I will take into account that this paper has been held up to more scrutiny than other work I might have seen.
+
+</details>
+
+
+
+### I received the message "Your paper is being evaluated by _The Unjournal_". What does this mean?
+
+Within our [direct-evaluation-track.md](../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention"), _The Unjournal_ directly chooses papers (from prominent archives, well-established researchers, etc.) to evaluate. We don't request authors' permission here.
+
+As you can see in our [evaluation workflow](../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md), on this track, we engage with authors at (at least) two points:&#x20;
+
+1. Informing the authors that the evaluation will take place, requesting they engage, and giving them the opportunity to request a [conditional embargo](for-researchers-authors.md#conditional-embargo) or specific types of feedback.
+   * &#x20;Of particular interest: _are we looking at the most recent version of the paper/project, or is there a further revised version we should be considering instead?_
+2. After the evaluations have been completed, the authors are given two weeks to respond, and have their response posted along with our 'package'. (Authors can also respond after we have posted the evaluations, and we will put their response in the same 'package', with a DOI etc.)
+
+### I received the message "The Unjournal can confirm we have received your submitted manuscript." What does this mean?
+
+Once we receive unsolicited work from an author or authors, we keep it in our database and have our team make a decision on prioritization. If your paper is prioritized for evaluation, _The Unjournal_ will notify you.&#x20;
+
+At present, we do not have a system to fully share the status of author submissions with authors. We hope to have one in place in the near future.
+
+You can still submit your work to any traditional journal.
+
+### What if we have revised the paper since the version evaluated by _The Unjournal_?
+
+_The Unjournal_ aims to evaluate the most recent version of a paper. We reach out to authors to ensure we have the latest version at the start of the evaluation process.&#x20;
+
+If substantial updates are made to a paper during the evaluation process, authors are encouraged to share the updated version. We then inform our evaluators and ask if they wish to revise their comments.&#x20;
+
+If the evaluators can't or don't respond, we will note this and still link the newest version.&#x20;
+
+Authors are encouraged to respond to evaluations by highlighting major revisions made to their paper, especially those relevant to the evaluators' critiques. If authors are not ready to respond to evaluations, we can post a placeholder response indicating that responses and/or a revised version of the paper are forthcoming.
+
+_Re-evaluation:_ If authors and evaluators are willing to engage, _The Unjournal_ is open to re-evaluating a revised version of a paper after publishing the evaluations of the initial version.&#x20;
+
+## Footnotes
+
+1. See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
+
+
+
+[^1]: Sometimes three evaluators,occasionally only one.      &#x20;
+
+[^2]: You can also suggest reviewer names, but we may not always follow these suggestions.
+
+[^3]: E.g., where evaluations with ratings below a certain value will never be made public. In such cases, the evaluators will be informed of this in advance, and, if we publish some evaluations of the paper, it will be noted that this policy was in place.
+
+[^4]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
+
+[^5]: Again, remember that _we_ will not be "publishing" this work, just evaluating it. We can help you figure out how to host and add a DOI to it, however.
+
+[^6]: Recall that we assign 2–3 evaluators who will be paid to assess your work and who may be anonymous (22 Dec 2022: we are giving evaluators this choice).\
+    \
+    We may try to facilitate a confidential channel to enable a dialogue with the authors.\
+    \
+    In future iterations, through this process, we may encourage you to continue to update your work in communication with the evaluators, as a sort of "dynamic R\&R."
+
+[^7]: The Unjournal also directly chooses work to evaluate, and reaches out to authors for their engagement.  The benefits below also pertain to these cases. We aim to  recognize and reward authors who engage with us.
+
+[^8]: We think this is largely not a factor, as discussed below.
