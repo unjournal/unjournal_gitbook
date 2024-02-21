@@ -1,6 +1,6 @@
 # Organizational roles and responsibilities
 
-**Management committee members**
+## **Management committee members**
 
 Activities of those on the management committee may involve a combination of the following (although you can choose your focus):
 
