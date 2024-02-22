@@ -1,5 +1,9 @@
 # Organizational roles and responsibilities
 
+{% hint style="info" %}
+22 Feb 2024: The Unjournal is scaling up, and looking to build our team. Please consider the roles below and express your interest [here](https://airtable.com/shrtMv4hNlv8aL7Yy) or contact us at contact@unjournal.org.
+{% endhint %}
+
 ## **Management committee members**
 
 Activities of those on the management committee may involve a combination of the following (although you can choose your focus):
