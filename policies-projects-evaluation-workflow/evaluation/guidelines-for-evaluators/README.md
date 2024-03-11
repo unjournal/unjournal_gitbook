@@ -235,7 +235,7 @@ Are the papers' assumptions and setup realistic and relevant to the real world? 
 
 Do the authors communicate their work in ways policymakers and decision-makers are likely to understand without being misleading and oversimplifying?
 
-Do the authors present practical _impact quantifications_, such as cost-effectiveness analyses? Do they report results enabling such analyses?
+Do the authors present practical _impact quantifications_, such as cost-effectiveness analyses? Do they report results that enable such analyses?
 
 ###
 
