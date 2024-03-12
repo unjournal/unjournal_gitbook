@@ -106,7 +106,7 @@ _To be expanded, cataloged, and considered in more detail_
 
 [Rethink Priorities 2021 strategy (forum post)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy): Some directional suggestions in the "Our current plans" section under "Our research going forward is expected to focus on:"
 
-[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic: <img src=".gitbook/assets/image (10).png" alt="" data-size="line">
+[UNICEF strategic plan](https://www.unicef.org/reports/unicef-strategic-plan-2022-2025): Not easy to link to research; they have a large number of priorities, goals, and principles; see infographic: <img src=".gitbook/assets/image (12).png" alt="" data-size="line">
 
 [Centre for Exploratory Altruism Research:](https://exploratory-altruism.org/) Their "[Findings](https://exploratory-altruism.org/research-findings/)" page considering relative cost-effectiveness; generally a shallow review/BOTEC spreadsheet approach. "CEARCH attempts to identify a cause’s _marginal expected value (MEV)_."&#x20;
 

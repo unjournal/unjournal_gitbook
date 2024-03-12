@@ -131,7 +131,7 @@ We are aiming for comparability across evaluators. If you  suspect that you are 
 
 For each metric, we ask you to provide a 90% credible interval as a measure of your uncertainty. Our interface provides slider bars to express your chosen intervals:
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 [_See below_](./#the-credible-intervals-expressing-uncertainty) _for more guidance on credible intervals._
