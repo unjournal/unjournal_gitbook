@@ -147,7 +147,7 @@ The weightings were presented once again along with each description in the sect
 
 <summary>[Previous guidelines] Example of confidence dots vs CI</summary>
 
-<img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (3).png" alt="" data-size="original">
 
 The example in the diagram above (click to zoom) illustrates the proposed correspondence.
 
@@ -249,7 +249,7 @@ The previous categories were 0–5, 5–20, 20–40, 40–60, 60–75, 75–90, 
 
 The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate\_your\_judgment.html) from Clearer Thinking is fairly helpful and fun for practicing and checking how good you are at expressing your uncertainty.  It requires creating account, but that doesn't take long. The 'Confidence Intervals' training seems particularly relevant for our purposes. \
 \
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (15).png>)
 
 </details>
 

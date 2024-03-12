@@ -73,7 +73,7 @@ _Request payment from_ The Unjournal. _Expenses will be processed once approved 
 
 * Claimants (evaluators etc.) must start an account (basically leave email and payment information) and submit an ['expense document' invoice](https://opencollective.com/the-unjournal/expenses/new). See below for an example of the payment process.\
   \
-  ![](<../.gitbook/assets/image (7).png>)
+  ![](<../.gitbook/assets/image (8).png>)
 * If making payments by Wise or Bank Transfer, you will [need to submit bank/payment information](#user-content-fn-1)[^1]. The box below shows which information is required.
 
 <details>
@@ -107,11 +107,11 @@ Additional invoice information
 
 </details>
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 * Finally, under "Description" (on the second page) please put "Evaluation of research material"\
   \
-  ![](<../.gitbook/assets/image (12).png>)
+  ![](<../.gitbook/assets/image (13).png>)
 
 {% hint style="info" %}
 Consideration for management: how to generate W2s -- these might be necessary for large expenses
