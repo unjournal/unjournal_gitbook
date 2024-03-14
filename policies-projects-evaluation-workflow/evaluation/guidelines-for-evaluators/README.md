@@ -161,7 +161,9 @@ Originality and cleverness should be weighted less than the typical journal, bec
 
 </details>
 
-Do the paper's insights inform our beliefs about important parameters and about the effectiveness of interventions? [**We do not require surprising results; sound and well-presented null results can also be valuable.**](#user-content-fn-4)[^4]
+Do the paper's insights inform our beliefs about important parameters and about the effectiveness of interventions?&#x20;
+
+[**We don't require surprising results; sound and well-presented null results can also be valuable.**](#user-content-fn-4)[^4]
 
 Does the project add useful value to other impactful research?
 
