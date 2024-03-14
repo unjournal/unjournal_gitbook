@@ -263,7 +263,9 @@ Journal ranking tiers are on a 0-5 scale, as follows:
 * 4/5: Marginal A-Journal/Top field journal
 * 5/5: A-journal/Top journal
 
-We give some example journal rankings [here](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0), based on SJR and ABS ratings.
+{% hint style="info" %}
+_**We give some example journal rankings**_ [_**here**_](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0), based on SJR and ABS ratings.
+{% endhint %}
 
 _We encourage you to_ [_consider a non-integer score_](#user-content-fn-11)[^11], e.g. 4.6 or 2.2.&#x20;
 
