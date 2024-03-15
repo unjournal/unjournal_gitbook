@@ -4,6 +4,19 @@
 Fill out this [quick survey](http://eepurl.com/ipFMdg) to get our updates by email. Data protection statement [here](https://bit.ly/46y0LqH).
 {% endhint %}
 
+## March 25 2024: Workshop: Innovations in Research Evaluation, Replicability, and Impact
+
+> Research evaluation is changing: New approaches go beyond the traditional journal model, promoting transparency, replicability, open science, open access, and global impact. You can be a part of this.
+
+\
+Join us on March 25 for an interactive workshop, featuring presentations from Macie Daley (Center for Open Science), [David Reinstein](http://davidreinstein.org) (The Unjournal), [Gary Charness](https://faculty.econ.ucsb.edu/\~charness/) (UC Santa Barbara), and The Unjournal’s Impactful Research Prize and Evaluator Prize winners. Breakout discussions, Q\&A, and interactive feedback sessions will consider innovations in open research evaluation, registered revisions, research impact, and open science methods and career opportunities.
+
+The event will be held fully online on Zoom, on March 25 from 9AM- 11:30 AM (EST) and 9:30 PM - Midnight (EST) to accommodate a range of time zones. UTC: 25-March 1pm-3:30pm and 26-March 1:30am-4am. The event is timetabled: feel free to participate in any part you wish.
+
+See the [event page here](https://bit.ly/UJevent) for all details, and to registr.
+
+
+
 ## Jan 2024: Impactful Research and Evaluation Prizes winners announced
 
 [impactful-research-prize-winners.md](impactful-research-prize-winners.md "mention")
