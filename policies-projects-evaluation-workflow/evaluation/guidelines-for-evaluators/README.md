@@ -6,7 +6,7 @@ description: >-
 
 # Guidelines for evaluators
 
-To download a printable version of these guidelines,  click the three dots (**⋮**) above and choose **Export as PDF**.
+You can download a pdf version of these guidelines [here](https://www.dropbox.com/scl/fi/ire1rt73giyw1qvq7mymg/evaluator\_guidelines\_march\_2024.pdf?rlkey=e3qrfhusuk84agmnfpkmnnpsz\&dl=0) (updated March 2024).
 
 {% hint style="info" %}
 Please see  [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
