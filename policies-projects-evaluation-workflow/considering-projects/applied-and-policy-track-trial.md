@@ -6,9 +6,9 @@
 
 Much of the most impactful research is not aimed at academic audiences and may never be submitted to academic journals. It is written in formats that are very different from traditional academic outputs, and cannot be easily judged by academics using the same standards. Nonetheless, this work may use technical approaches developed in academia, making it important to gain expert feedback and evaluation. &#x20;
 
-The Unjournal can help here. However,  to avoid confusion, we want to make this clearly distinct from our  main agenda,  aiming at impactful academia and research with similar standards.&#x20;
+The Unjournal can help here. However,  to avoid confusion, we want to make this clearly distinct from our  main agenda, which aims at impactful academically-aimed research.
 
-This we are trialing an “Applied & Policy Stream” which  will be clearly labeled as separate from our main stream. This may constitute roughly 10 or 15% of the work that we cover. Below, we refer to this as the “policy stream” for brevity
+This we are trialing an “Applied & Policy Stream” which  will be clearly labeled as separate from our main stream. This may constitute roughly 10 or 15% of the work that we cover. Below, we refer to this as the “policy stream” for brevity.
 
 \
 
