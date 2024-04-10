@@ -1,34 +1,16 @@
 # Fiscal hosting and expenses
 
-## Open Collective Foundation; information, documentation, and help <a href="#open-collective-foundation-information-documentation-and-help" id="open-collective-foundation-information-documentation-and-help"></a>
+## Open Collective Foundation <a href="#open-collective-foundation-information-documentation-and-help" id="open-collective-foundation-information-documentation-and-help"></a>
 
 Fiscal host: [Open Collective Foundation](https://opencollective.com/foundation) ("OCF"), which is a collective within the [Open Collective](https://opencollective.com/) ("OC").&#x20;
 
-{% hint style="info" %}
-OCF is dissolving. The Unjournal will be moving to a new legal status. We will announce this change once it has been&#x20;
-{% endhint %}
-
-As of&#x20;
-
-Contact point at OCF (as of June 2023): Mike Strode (mike@opencollective.com)
-
 Our OCF page is [https://opencollective.com/the-unjournal](https://opencollective.com/the-unjournal)​
 
-#### Documentation <a href="#documentation" id="documentation"></a>
+{% hint style="info" %}
+OCF is dissolving. The Unjournal will be moving to a new legal status. We will announce this change once it has been finalized.
+{% endhint %}
 
-1\. [Onboarding Video](https://www.loom.com/share/e7c8245251784196a6dde4f49cb3ab2a)
 
-2\. [Open Collective Foundation Documentation](https://docs.opencollective.foundation/)​
-
-#### To get help from OCF <a href="#to-get-help" id="to-get-help"></a>
-
-1\. Email contact@opencollective.foundation. Expect a reply within 3 business days
-
-2\. If it's urgent, ask on [OCF's slack channel if urgent](https://join.slack.com/share/enQtNTQwMTgyNDYyOTU3MS1jYTg4MWQ5YjkxZTNlZDUxZTA0MjdiY2Q2OTRmMzYzM2EzYjgwMmU0ZDg1YTM4OTQ1NDg0MDVmOWNkZTU0ZDVi?cdn\_fallback=1) #ocf
-
-3. Go to OCF, _not to_ Open Collective, for most things. (Maybe go to OC only for questions on the overriding web page platform. Note that if you use the 'help' on the page it often takes you to OC.)
-
-_Note, for support issues or tickets there is no record that users can view yet._
 
 ## Submitting and paying expenses/claims
 
