@@ -1,7 +1,9 @@
-# Management details, discussion
+# Key management details and discussion
+
+
 
 {% hint style="info" %}
-**In this section:** content intended mainly for managers and people deeply involved with the project. Move more technical and involved details and discussion here.
+9 Apr 2024: This section outlines our management structure and polices. More detailed content is being moved to our private (Coda.io) knowledge base.
 {% endhint %}
 
 {% hint style="info" %}

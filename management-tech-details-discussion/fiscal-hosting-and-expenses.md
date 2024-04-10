@@ -2,7 +2,13 @@
 
 ## Open Collective Foundation; information, documentation, and help <a href="#open-collective-foundation-information-documentation-and-help" id="open-collective-foundation-information-documentation-and-help"></a>
 
-Fiscal host: [Open Collective Foundation](https://opencollective.com/foundation) ("OCF"), which is a collective within the [Open Collective](https://opencollective.com/) ("OC").
+Fiscal host: [Open Collective Foundation](https://opencollective.com/foundation) ("OCF"), which is a collective within the [Open Collective](https://opencollective.com/) ("OC").&#x20;
+
+{% hint style="info" %}
+OCF is dissolving. The Unjournal will be moving to a new legal status. We will announce this change once it has been&#x20;
+{% endhint %}
+
+As of&#x20;
 
 Contact point at OCF (as of June 2023): Mike Strode (mike@opencollective.com)
 
@@ -113,8 +119,6 @@ Additional invoice information
   \
   ![](<../.gitbook/assets/image (13).png>)
 
-{% hint style="info" %}
-Consideration for management: how to generate W2s -- these might be necessary for large expenses
-{% endhint %}
+
 
 [^1]: if this proves too cumbersome for them, we can make a simple survey (Google form etc) to ask for this.\\
