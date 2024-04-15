@@ -256,9 +256,9 @@ To help universities and policymakers make sense of our evaluations, we want to 
 
 Journal ranking tiers are on a 0-5 scale, as follows:
 
-* 0/5: Marginally respectable, little to no value; not publishable in any journal with scrutiny or credible WP series; not likely to be cited by credible researchers
+* 0/5: "[Won't publish](#user-content-fn-11)[^11]/little to no value".  Unlikely to be cited by credible researchers
 * 1/5: OK/Somewhat valuable journal
-* 2/5: Marginal B-journal/Decent field journal
+  * 2/5: Marginal B-journal/Decent field journal
 * 3/5: Top B-journal/Strong field journal
 * 4/5: Marginal A-Journal/Top field journal
 * 5/5: A-journal/Top journal
@@ -267,7 +267,7 @@ Journal ranking tiers are on a 0-5 scale, as follows:
 _**We give some example journal rankings**_ [_**here**_](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0), based on SJR and ABS ratings.
 {% endhint %}
 
-_We encourage you to_ [_consider a non-integer score_](#user-content-fn-11)[^11], e.g. 4.6 or 2.2.&#x20;
+_We encourage you to_ [_consider a non-integer score_](#user-content-fn-12)[^12], e.g. 4.6 or 2.2.&#x20;
 
 As before, we ask for a 90% credible interval.&#x20;
 
@@ -276,16 +276,16 @@ As before, we ask for a 90% credible interval.&#x20;
 
 
 {% hint style="info" %}
-**PubPub note:** as of 14 March 2024, the PubPub form is _not_ allowing you to give non-integer responses. Until this is fixed, [please multiply these by 10 and enter these using the 0-50 slider.](#user-content-fn-12)[^12]&#x20;
+**PubPub note:** as of 14 March 2024, the PubPub form is _not_ allowing you to give non-integer responses. Until this is fixed, [please multiply these by 10 and enter these using the 0-50 slider.](#user-content-fn-13)[^13]&#x20;
 {% endhint %}
 
 #### **What journal ranking tier **_**should**_** this work be published in?**
 
 _Journal ranking tier (0.0-5.0)_
 
-Assess this paper on the journal ranking scale described above, considering only its merit, particularly considering the category metrics we discussed above.
+Assess this paper on the journal ranking scale described above, considering only its merit, giving some weight to the category metrics we discussed above.
 
-Equivalently, [where would this paper be published](#user-content-fn-13)[^13] if:
+Equivalently, [where would this paper be published](#user-content-fn-14)[^14] if:
 
 1. the journal process was fair, unbiased, and free of noise, and that status, social connections, and lobbying to get the paper published didn’t matter;
 2. journals assessed research according to the category metrics we discussed above.
@@ -312,7 +312,7 @@ We want policymakers, researchers, funders, and managers to be able to _use The 
 
 But it's hard to quantify statements like "very certain" or "somewhat uncertain" – different people may use the same phrases to mean different things. That's why we're  asking for you a more precise measure, your _credible intervals._ These metrics are particular useful for meta-science and meta-analysis.&#x20;
 
-You are also asked to give a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-14)[^14] _**that you believe is 90% likely to contain the true value.**_ See the fold below for further guidance.
+You are also asked to give a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-15)[^15] _**that you believe is 90% likely to contain the true value.**_ See the fold below for further guidance.
 
 <details>
 
@@ -324,7 +324,7 @@ You may have a certain best guess for the "Methods..." criterion. Still, even an
 
 Your uncertainty over this could be described by some distribution, representing your beliefs about the _true value_ of this criterion. Your "'best guess" should be the central mass point of this distribution.
 
-You are also asked to give a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-15)[^15] _**that you believe is 90% likely to contain the true value.**_
+You are also asked to give a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-16)[^16] _**that you believe is 90% likely to contain the true value.**_
 
 For some questions, the "true value" refers to something objective, e.g. will this work be published in a top-ranked journal? In other cases, like the percentile rankings, the true value means "if you had complete evidence, knowledge, and wisdom, what value would you choose?"&#x20;
 
@@ -344,12 +344,12 @@ Lastly, we ask evaluators about their background, and for feedback about the pro
 
 <summary>Survey questions for evaluators: details</summary>
 
-For the two questions below, we will [publish your responses](#user-content-fn-16)[^16] unless you specifically ask these questions  to be kept anonymous.&#x20;
+For the two questions below, we will [publish your responses](#user-content-fn-17)[^17] unless you specifically ask these questions  to be kept anonymous.&#x20;
 
 1. How long have you been in this field?
 2. How many proposals and papers have you evaluated? _(For journals, grants, and other peer review.)_
 
-Answers to the questions [below will not be made public:](#user-content-fn-17)[^17] &#x20;
+Answers to the questions [below will not be made public:](#user-content-fn-18)[^18] &#x20;
 
 1. How would you rate this template and process?
 2. Do you have any suggestions or questions about this process or _The Unjournal_? (We will try to respond to your suggestions, and incorporate them in our practice.) \[Open response]
@@ -365,7 +365,7 @@ Answers to the questions [below will not be made public:](#user-content-fn-17)[^
 
 <summary>Note on the evaluation platform (13 Feb 2024)</summary>
 
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-18)[^18], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-19)[^19], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
 
 </details>
 
@@ -409,22 +409,24 @@ Our data protection statement is linked [here](https://bit.ly/46y0LqH).
     \
     The Unjournal aims to focus on  research that has this potential, so this also helps us check our own prioritization.
 
-[^11]: E.g., if a paper/project would be most likely to be (or merits being) published in a journal that would rank about halfway between a top tier 'A journal' and a second tier (4/5) journal, you should rate it a 4.5. \
+[^11]: Not publishable in any journal that uses any scrutiny,  nor in any credible working paper series.
+
+[^12]: E.g., if a paper/project would be most likely to be (or merits being) published in a journal that would rank about halfway between a top tier 'A journal' and a second tier (4/5) journal, you should rate it a 4.5. \
     \
     Similarly, if you think it has an 80%  chance of (being/meriting) publication in a 'marginal B-journal' and a 20% chance of a Top B-journal, you should rate it 2.2.\
     \
     Please also use this continuous scale for providing credible _intervals_.
 
-[^12]: E.g., 1.1 becomes 11, 2.5 becomes 25, 4.3 becomes 43, etc.
+[^13]: E.g., 1.1 becomes 11, 2.5 becomes 25, 4.3 becomes 43, etc.
 
-[^13]: Please consider the paper in its current form, or with only minor revisions, unless instructed otherwise.
+[^14]: Please consider the paper in its current form, or with only minor revisions, unless instructed otherwise.
 
-[^14]: Technically, this is referring to the 'Highest Density Interval" (HDI).
+[^15]: Technically, this is referring to the 'Highest Density Interval" (HDI).
 
-[^15]: Technically, this is referring to the 'Highest Density Interval" (HDI), the densest interval of the (posterior) distribution, in Bayesian statistics. Technically, such an interval doesn't need to even contain the midpoint of the distribution, although we will generally assume it does, for our purposes.
+[^16]: Technically, this is referring to the 'Highest Density Interval" (HDI), the densest interval of the (posterior) distribution, in Bayesian statistics. Technically, such an interval doesn't need to even contain the midpoint of the distribution, although we will generally assume it does, for our purposes.
 
-[^16]: However, if you don't ask us to publish your name along with your evaluation, we may only report a range-coded version of these, to protect your anonymity.
+[^17]: However, if you don't ask us to publish your name along with your evaluation, we may only report a range-coded version of these, to protect your anonymity.
 
-[^17]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
+[^18]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
 
-[^18]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
+[^19]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
