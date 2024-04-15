@@ -16,24 +16,26 @@ Please see  [for-prospective-evaluators.md](../for-prospective-evaluators.md "me
 
 ## What we would like you to do
 
-1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-1)[^1]**,** similar to a standard, high-quality referee report.
-2. [**Give quantitative metrics and predictions** as described below.](#user-content-fn-2)[^2]
+1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-1)[^1]**,** similar to a standard, high-quality referee report. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
+2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-2)[^2].
 3. Answer a short questionnaire about your background and our processes.
 
 ## Writing the evaluation (aka 'the review')
 
-In writing your evaluation and providing ratings, please consider the following:
+In writing your evaluation and providing ratings, please consider the following.
 
-### _The Unjournal_'s criteria
+### _The Unjournal_'s expectations and criteria
 
-Broadly, the review should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)). Specifically, we'd like you to focus on our priorities:
+Broadly, the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods are appropriate and well-executed?  Explain why or why not.
+
+We'd also like you to pay some consideration to our priorities:
 
 1. Advancing our knowledge and practice
 2. Justification, reasonableness, validity, and robustness of methods
 3. Logic and communication
 4. Open, communicative, replicable science
 
-See our [guidelines below](./#overall-assessment) for more details on each of these. We are not asking you to _structure_ your review according to these metrics, just to pay extra attention to them.
+See our [guidelines below](./#overall-assessment) for more details on each of these. Please don't  _structure_ your review according to these metrics, just pay some attention to them.
 
 <details>
 

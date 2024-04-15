@@ -8,8 +8,8 @@ _The Unjournal_ is a new organization doing journal-independent evaluations of a
 
 ## What we are asking you to do
 
-1. **Write an evaluation of a specific research** [_**paper or project**_](#user-content-fn-1)[^1]**:** essentially a standard, high-quality referee report.
-2. [**Give quantitiative metrics and predictions about the** ](#user-content-fn-2)[^2]**research** by filling in a short form.
+1. **Write an evaluation of a specific research** [_**paper or project**_](#user-content-fn-1)[^1]**:** essentially a standard, high-quality referee report.&#x20;
+2. [**Give quantitative metrics and predictions about the** ](#user-content-fn-2)[^2]**research** by filling in a short form.
 3. Answer a short questionnaire about your background and our processes.
 
 See [Guidelines for Evaluators](guidelines-for-evaluators/) for further details and guidance.
@@ -34,7 +34,7 @@ Your evaluation will be made public and given a DOI. You have the option to be i
 
 ### Financial compensation
 
-[You will be given a $400 honorarium](#user-content-fn-3)[^3] for providing a prompt[^4] and complete evaluation and feedback ($300 base + $100 'promptness bonus'.) You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes.
+[You will be given a $400 honorarium](#user-content-fn-3)[^3] for providing a prompt[^4] and complete evaluation and feedback ($300 base + $100 'promptness bonus') in line with our expected standards. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation for incentives, bonuses, and prizes.
 
 See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims)
 
