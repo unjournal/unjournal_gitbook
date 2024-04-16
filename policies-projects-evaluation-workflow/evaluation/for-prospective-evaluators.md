@@ -1,15 +1,15 @@
 # For prospective evaluators
 
-_**Thank you for your interest in evaluating research for**_** The Unjournal!**
+_**Thanks for your interest in evaluating research for**_** The Unjournal!**
 
 ## **Who we are**
 
-_The Unjournal_ is a new organization doing journal-independent evaluations of academic research. You can read more about us [here](../../readme-1/).
+_The Unjournal_ is a nonprofit organization started in mid-2022.  We commission experts to publicly evaluate and rate research. Read more about us [here](../../readme-1/).
 
 ## What we are asking you to do
 
 1. **Write an evaluation of a specific research** [_**paper or project**_](#user-content-fn-1)[^1]**:** essentially a standard, high-quality referee report.&#x20;
-2. [**Give quantitative ratings and predictions about the** ](#user-content-fn-2)[^2]**research** by filling in a short form.
+2. [**Give quantitative ratings and predictions about the** ](#user-content-fn-2)[^2]**research** by filling in a structured form.
 3. Answer a short questionnaire about your background and our processes.
 
 See [Guidelines for Evaluators](guidelines-for-evaluators/) for further details and guidance.
