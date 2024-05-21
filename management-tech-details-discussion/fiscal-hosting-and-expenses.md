@@ -15,7 +15,7 @@ OCF is dissolving. The Unjournal will be moving to a new legal status. We will a
 ## Submitting and paying expenses/claims
 
 {% hint style="info" %}
-**Anonymity** **and payments**: **Evaluators, please use a pseudonym or the "salted hash" code we shared with you!**
+**Anonymity** **and payments**: **Evaluators, please use a pseudonym or the "salted hash" code we shared with you.**
 
 \
 **As our expenses on OCF are all visible to the public, if you request payment for an evaluation (even if you are signing it), please **_**use a pseudonym for your profile name.**_ (Use either the 'salted hash' we've provided, or make one up and tell us this pseudonym in other private correspondence.)
