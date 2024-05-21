@@ -12,9 +12,7 @@ You can download a pdf version of these guidelines [here](https://www.dropbox.co
 Please see  [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
 {% endhint %}
 
-
-
-## What we would like you to do
+## What we'd like you to do
 
 1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-1)[^1]**,** similar to a standard, high-quality referee report. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
 2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-2)[^2].
@@ -35,7 +33,7 @@ We'd also like you to pay some consideration to our priorities:
 3. Logic and communication
 4. Open, communicative, replicable science
 
-See our [guidelines below](./#overall-assessment) for more details on each of these. Please don't  _structure_ your review according to these metrics, just pay some attention to them.
+See our [guidelines below](./#overall-assessment) for more details on each of these. Please don't _structure_ your review according to these metrics, just pay some attention to them.
 
 <details>
 
@@ -129,12 +127,12 @@ We are aiming for comparability across evaluators. If you  suspect that you are 
 
 #### Midpoint rating and credible intervals&#x20;
 
-For each metric, we ask you to provide a 90% credible interval as a measure of your uncertainty. Our interface provides slider bars to express your chosen intervals:
+For each metric, we ask you to provide a 'midpoint rating' and a 90% credible interval as a measure of your uncertainty. Our interface provides slider bars to express your chosen intervals:
 
 <figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-[_See below_](./#the-credible-intervals-expressing-uncertainty) _for more guidance on credible intervals._
+[_See below_](./#the-credible-intervals-expressing-uncertainty) _for more guidance on uncertainty, credible intervals, and the midpoint rating as the 'median of your belief distribution'._
 {% endhint %}
 
 The table below summarizes the percentile rankings.
@@ -260,7 +258,7 @@ Journal ranking tiers are on a 0-5 scale, as follows:
 
 * 0/5: "[Won't publish](#user-content-fn-11)[^11]/little to no value".  Unlikely to be cited by credible researchers
 * 1/5: OK/Somewhat valuable journal
-  * 2/5: Marginal B-journal/Decent field journal
+* 2/5: Marginal B-journal/Decent field journal
 * 3/5: Top B-journal/Strong field journal
 * 4/5: Marginal A-Journal/Top field journal
 * 5/5: A-journal/Top journal
@@ -306,19 +304,19 @@ If this work has already been published, and you know where, please report the p
 
 
 
-## The credible intervals: expressing uncertainty
+## The midpoint and 'credible intervals': expressing uncertainty
 
 #### **What are we looking for and why?**
 
-We want policymakers, researchers, funders, and managers to be able to _use The Unjournal'_s evaluations to update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other and other sources of information. Evaluators may feel confident about their rating for one category, but less confident in another area. How much weight should readers   give to each? In this context, it is useful to _quantify the uncertainty_.&#x20;
+We want policymakers, researchers, funders, and managers to be able to _use The Unjournal'_s evaluations to update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other and other sources of information. Evaluators may feel confident about their rating for one category, but less confident in another area. How much weight should readers  give to each? In this context, it is useful to _quantify the uncertainty_.&#x20;
 
-But it's hard to quantify statements like "very certain" or "somewhat uncertain" – different people may use the same phrases to mean different things. That's why we're  asking for you a more precise measure, your _credible intervals._ These metrics are particular useful for meta-science and meta-analysis.&#x20;
+But it's hard to quantify statements like "very certain" or "somewhat uncertain" – different people may use the same phrases to mean different things. That's why we're asking for you a more precise measure, your _credible intervals._ These metrics are particularly useful for meta-science and meta-analysis.&#x20;
 
-You are also asked to give a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-15)[^15] _**that you believe is 90% likely to contain the true value.**_ See the fold below for further guidance.
+You are asked to give a 'midpoint' and a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-15)[^15] _**that you believe is 90% likely to contain the true value.**_ See the fold below for further guidance.
 
 <details>
 
-<summary>How do I come up with these intervals? (Further discussion)</summary>
+<summary>How do I come up with these intervals? (Discussion and guidance)</summary>
 
 You may understand the concepts of uncertainty and credible intervals, but you might be unfamiliar with applying them in a situation like this one.
 
@@ -332,11 +330,25 @@ For some questions, the "true value" refers to something objective, e.g. will th
 
 For more information on credible intervals, [this Wikipedia entry](https://www.wikiwand.com/en/Credible\_interval) may be helpful.
 
-If you are "[well calibrated](https://www.wikiwand.com/en/Calibrated\_probability\_assessment)", your 90% credible intervals should contain the true value 90% of the time. To understand this better, assess your ability, then practice to get better at estimating your confidence in results. [This web app](https://www.clearerthinking.org/tools/calibrate-your-judgment) will help you get practice at calibrating your judgments.
+If you are "[well calibrated](https://www.wikiwand.com/en/Calibrated\_probability\_assessment)", your 90% credible intervals should contain the true value 90% of the time.&#x20;
 
 </details>
 
+<details>
 
+<summary>Consider the midpoint as the 'median of your belief distribution'</summary>
+
+We also ask for the 'midpoint', the center dot on that slider. Essentially, we are asking for the _median of your belief distribution_. By this we mean the percentile ranking such that you believe "there's a 50% chance that  the paper's true rank is higher than this, and a 50% chance that it actually ranks lower than this."&#x20;
+
+</details>
+
+<details>
+
+<summary>Get better at this by 'calibrating your judgment'</summary>
+
+If you are "[well calibrated](https://www.wikiwand.com/en/Calibrated\_probability\_assessment)", your 90% credible intervals should contain the true value 90% of the time. To understand this better, assess your ability, and then practice to get better at estimating your confidence in results. [This web app](https://www.clearerthinking.org/tools/calibrate-your-judgment) will help you get practice at calibrating your judgments. We suggest you choose the "Calibrate your Judgment" tool, and select the "confidence intervals" exercise, choosing 90% confidence. Even a 10 or 20 minute practice session can help, and it's pretty fun.
+
+</details>
 
 ## Survey questions
 
@@ -383,9 +395,15 @@ Answers to the questions [below will not be made public:](#user-content-fn-18)[^
 
 </details>
 
-{% hint style="info" %}
-**Adjustments:** We have made some adjustments to this page and to our guidelines and processes; this is particularly relevant for considering earlier evaluations. See [#adjustments-to-metrics-and-guidelines-previous-presentations](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations "mention"). &#x20;
-{% endhint %}
+
+
+<details>
+
+<summary>Adjustments to earlier metrics; earlier evaluation forms</summary>
+
+We have made some adjustments to this page and to our guidelines and processes; this is particularly relevant for considering earlier evaluations. See [#adjustments-to-metrics-and-guidelines-previous-presentations](why-these-guidelines.md#adjustments-to-metrics-and-guidelines-previous-presentations "mention"). &#x20;
+
+</details>
 
 Our data protection statement is linked [here](https://bit.ly/46y0LqH).
 
