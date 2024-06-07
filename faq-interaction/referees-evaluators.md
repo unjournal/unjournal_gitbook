@@ -118,18 +118,19 @@ See our [guidelines for evaluators](../policies-projects-evaluation-workflow/eva
 
 _We still want your evaluation and ratings. Some things to consider as an evaluator in this situation._&#x20;
 
-1. We still want your quantitative ratings and predictions&#x20;
-2. A paper/project is not only a good to be judged on a single scale. How useful is it, and to who or what? We'd like you discuss its value in relation to previous work, it’s implications, what it suggests for research and practice, etc.&#x20;
-3. Even if the paper is great...&#x20;
-   1. Would you accept it in the “top journal in economics”? If not, why not?&#x20;
-   2. Would you hire someone based on this paper?
-   3. &#x20;Would you fund a major intervention (as a government policymaker, major philanthropist, etc.) based on this paper alone? If not, why not&#x20;
-   4. What are the most important and informative results of the paper?&#x20;
-   5. Can you quantify your confidence in these 'crucial' results, and their replicability and generalizability to other settings? Can you state your probabilistic bounds (confidence or credible intervals) on the quantitative results (e.g., 80% bounds on QALYs/DALYs/or WELLBYs per $1000)&#x20;
-   6. Would any other robustness checks or further work have the potential to increase your confidence (narrow your belief bounds) in this result? Which?&#x20;
-   7. Do the authors make it easy to reproduce the statistical (or other) results of the paper from shared data? Could they do more in this respect?&#x20;
-   8. Communication: Did you understand all of the paper? Was it easy to read? Are there any parts that could have been better explained?
-      1. Is it communicated in a way that would it be useful to policymakers? To other researchers in this field, or in the general discipline?
+A paper/project is not only a good to be judged on a single scale. How useful is it, and to who or what? We'd like you discuss its value in relation to previous work, it’s implications, what it suggests for research and practice, etc.&#x20;
+
+Even if the paper is great...&#x20;
+
+1. Would you accept it in the “top journal in economics”? If not, why not?&#x20;
+2. Would you hire someone based on this paper?
+3. &#x20;Would you fund a major intervention (as a government policymaker, major philanthropist, etc.) based on this paper alone? If not, why not&#x20;
+4. What are the most important and informative results of the paper?&#x20;
+5. Can you quantify your confidence in these 'crucial' results, and their replicability and generalizability to other settings? Can you state your probabilistic bounds (confidence or credible intervals) on the quantitative results (e.g., 80% bounds on QALYs/DALYs/or WELLBYs per $1000)
+6. Would any other robustness checks or further work have the potential to increase your confidence (narrow your belief bounds) in this result? Which?&#x20;
+7. Do the authors make it easy to reproduce the statistical (or other) results of the paper from shared data? Could they do more in this respect?&#x20;
+8. Communication: Did you understand all of the paper? Was it easy to read? Are there any parts that could have been better explained?
+9. Is it communicated in a way that would it be useful to policymakers? To other researchers in this field, or in the general discipline?
 
 
 
