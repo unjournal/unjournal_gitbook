@@ -8,7 +8,17 @@ description: Several expositions for different audiences, fleshing out ideas and
 
 ## Podcasts, presentations, and video
 
-### EA Anywhere (Youtube)&#x20;
+{% hint style="info" %}
+See/subscribe to [our YouTube channel](https://www.youtube.com/@TheUnjournal)
+{% endhint %}
+
+### Journal independent evaluation and The Unjournal
+
+{% embed url="https://www.youtube.com/watch?v=iG_dTJclYe0" %}
+
+
+
+### EA Anywhere (Youtube)  – bridging the gap between EA and academia
 
 {% embed url="https://www.youtube.com/watch?v=_b5wiSJX6NQ&list=PLwCHmz77VrK1Bi92uyDHE9XCH-bWc-7B_&index=6&t=2056s" %}
 EA Anywhere
