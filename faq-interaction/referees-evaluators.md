@@ -10,6 +10,7 @@ _For more information about what we are asking evaluators (referees) to do, see:
 
 * [For Prospective Evaluators](../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md)
 * [Guidelines for Evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
+*
 
 ## Choosing and working with evaluators
 
@@ -19,9 +20,11 @@ _For more information about what we are asking evaluators (referees) to do, see:
 * We aim to consult those who have [opted-in to our evaluator pool](../readme-1/call-for-participants-research/) first.
 * We favor evaluators with a track record of careful, in-depth, and insightful evaluation — while giving ECRs a chance to build such a record.
 
+###
+
 ### Why do we pay evaluators?
 
-For several reasons:
+For several reasons... (for more discussion, see  [why-pay-evaluators-reviewers.md](../policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md "mention"))
 
 * It's equitable, especially for those not getting "service credit" for their refereeing work from their employer.
 * Paying evaluators can reduce [adverse selection](#user-content-fn-2)[^2] and conflicts of interest —arguably inherent to the traditional process where reviewers work for free.
@@ -36,9 +39,15 @@ For several reasons:
 
 </details>
 
+
+
+## Evaluator concerns&#x20;
+
 ### **Can I submit an evaluation anonymously? How will you protect my anonymity?**
 
 Yes, we allow evaluators to choose whether they wish to remain anonymous or "sign" their evaluations. See [protecting-anonymity.md](../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention").
+
+
 
 ### I'm concerned about making my evaluation public; what if I make a mistake or write something I later regret?
 
@@ -81,6 +90,8 @@ Going forward:
 * We may ask if you want to be involved in replication exercises (e.g., through the [Institute for Replication](https://i4replication.org/)).
 * As a general principle, we hope and intend always to see that you are fairly compensated for your time and effort.
 
+## Evaluation value
+
 ### **What value do these evaluations provide, and for whom?**
 
 The evaluations provide at least three types of value, helping advance several paths in our [theory of change](../benefits-and-features/global-priorities-theory-of-change/):
@@ -91,9 +102,34 @@ The evaluations provide at least three types of value, helping advance several p
    * Allowing flexible, [transparent formats (such as dynamic documents)](../benefits-and-features/dynamic-documents-vs-living-projects/), thus improving the research process, benefiting research careers, and hopefully improving the research itself in impactful areas.
 3. **Feedback and suggestions for authors:** We expect that evaluators will provide feedback that is relevant to the authors, to help them make the paper better.
 
+See "what [https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/faq-interaction/referees-evaluators#what-value-do-these-evaluations-provide-and-for-whom](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/faq-interaction/referees-evaluators#what-value-do-these-evaluations-provide-and-for-whom)&#x20;
+
+
+
+## Evaluation quality and misunderstandings
+
 ### What should I prioritize in my evaluation process?
 
 See our [guidelines for evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/).
+
+
+
+### 'This paper is great, I would accept it without changes, what should I write/do?"
+
+_We still want your evaluation and ratings. Some things to consider as an evaluator in this situation._&#x20;
+
+1. We still want your quantitative ratings and predictions&#x20;
+2. A paper/project is not only a good to be judged on a single scale. How useful is it, and to who or what? We'd like you discuss its value in relation to previous work, it’s implications, what it suggests for research and practice, etc.&#x20;
+3. Even if the paper is great...&#x20;
+   1. Would you accept it in the “top journal in economics”? If not, why not?&#x20;
+   2. Would you hire someone based on this paper?
+   3. &#x20;Would you fund a major intervention (as a government policymaker, major philanthropist, etc.) based on this paper alone? If not, why not&#x20;
+   4. What are the most important and informative results of the paper?&#x20;
+   5. Can you quantify your confidence in these 'crucial' results, and their replicability and generalizability to other settings? Can you state your probabilistic bounds (confidence or credible intervals) on the quantitative results (e.g., 80% bounds on QALYs/DALYs/or WELLBYs per $1000)&#x20;
+   6. Would any other robustness checks or further work have the potential to increase your confidence (narrow your belief bounds) in this result? Which?&#x20;
+   7. Do the authors make it easy to reproduce the statistical (or other) results of the paper from shared data? Could they do more in this respect?&#x20;
+   8. Communication: Did you understand all of the paper? Was it easy to read? Are there any parts that could have been better explained?
+      1. Is it communicated in a way that would it be useful to policymakers? To other researchers in this field, or in the general discipline?
 
 
 

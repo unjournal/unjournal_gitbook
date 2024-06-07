@@ -15,7 +15,7 @@ Please see  [for-prospective-evaluators.md](../for-prospective-evaluators.md "me
 ## What we'd like you to do
 
 1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-1)[^1]**,** similar to a standard, high-quality referee report. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
-2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-2)[^2].
+2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-2)[^2].&#x20;
 3. Answer a short questionnaire about your background and our processes.
 
 ## Writing the evaluation (aka 'the review')
@@ -24,9 +24,9 @@ In writing your evaluation and providing ratings, please consider the following.
 
 ### _The Unjournal_'s expectations and criteria
 
-Broadly, the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods are appropriate and well-executed?  Explain why or why not.
+In many ways the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods are appropriate and well-executed?  Explain why or why not.
 
-We'd also like you to pay some consideration to our priorities:
+However, we'd also like you to pay some consideration to our priorities:
 
 1. Advancing our knowledge and practice
 2. Justification, reasonableness, validity, and robustness of methods
@@ -93,7 +93,9 @@ However, in the medium-term, a positive _Unjournal_ evaluation should gain  cred
 
 ## Quantitative metrics
 
-We ask for a set of nine quantitative metrics. For each metric, we ask for a score and a 90% credible interval. We describe these in detail below.
+We ask for a set of nine quantitative metrics. For each metric, we ask for a score and a 90% credible interval. We describe these in detail below.  (We explain [why we ask for these metrics here](why-these-guidelines.md).)
+
+
 
 ### Percentile rankings
 
@@ -405,7 +407,13 @@ We have made some adjustments to this page and to our guidelines and processes; 
 
 </details>
 
-Our data protection statement is linked [here](https://bit.ly/46y0LqH).
+{% hint style="info" %}
+If you still have questions, please contact us, or see our **FAQ on** [referees-evaluators.md](../../../faq-interaction/referees-evaluators.md "mention").
+{% endhint %}
+
+
+
+_Our data protection statement is linked_ [_here_](https://bit.ly/46y0LqH)_._
 
 [^1]: We refer to 'paper or project' here.  We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../../../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we will refer to this as a 'paper'  throughout the discussion below, for simplicity.
 
