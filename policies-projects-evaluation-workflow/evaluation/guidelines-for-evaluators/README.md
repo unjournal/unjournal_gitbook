@@ -101,7 +101,15 @@ We ask for a set of nine quantitative metrics. For each metric, we ask for a sco
 
 For some questions, we ask for a **percentile ranking** from 0-100%. This represents "what proportion of papers in the reference group are worse than this paper, by this criterion". A score of 100% means this is essentially the best paper in the reference group. 0% is the worst paper. A score of 50% means this is the median paper; i.e., half of all papers in the reference group do this better, and half do this worse, and so on.
 
-Here, the population of papers should be _**all serious research in the same area that you have encountered in the last three years.**_
+Here\[\*] the population of papers should be _**all serious research in the same area that you have encountered in the last three years.**_
+
+<details>
+
+<summary>[*] Unless this work is in our 'applied and policy stream', in which case...</summary>
+
+For the applied and policy stream the reference group should be all  applied and policy research you have read that is aiming at a similar audience, and that has similar goals.
+
+</details>
 
 <details>
 
