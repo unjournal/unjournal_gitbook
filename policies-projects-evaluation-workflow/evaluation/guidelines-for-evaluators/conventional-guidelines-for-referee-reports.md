@@ -4,17 +4,17 @@
 
 <details>
 
-<summary>Some general key points to consider</summary>
+<summary>Some key points</summary>
 
 * Cite evidence and reference specific parts of the research when giving feedback.
-* Try to justify your critiques and claims in a reasoning-transparent way, rather than merely ‘"passing judgment."
+* Justify your critiques and claims in a reasoning-transparent way, rather than merely ‘"passing judgment." Avoid comments like "this does not pass the smell test".&#x20;
 * Provide specific, actionable feedback to the author where possible.
-* When considering the authors’ arguments, consider the most reasonable interpretation of what they have written (and state what that is, to help the author make their point more clearly). See [steelmanning](https://www.lesswrong.com/tag/steelmanning).
+* Try to restate the authors’ arguments, clearly presenting the most reasonable interpretation of what they have written. See [steelmanning](https://www.lesswrong.com/tag/steelmanning).
 * Be collegial and encouraging, but also rigorous. Criticize and question specific parts of the research without suggesting criticism of the _researchers themselves._
 
 </details>
 
-We are happy for you to use whichever process and structure you feel comfortable with when writing a peer review.
+We're happy for you to use whichever process and structure you feel comfortable with when writing your evaluation content.
 
 <details>
 
@@ -22,22 +22,25 @@ We are happy for you to use whichever process and structure you feel comfortable
 
 _Core_
 
-* _Briefly_ summarize the work in context&#x20;
-* Highlight positive aspects of the paper, strengths and contributions, considered in the context of existing research.
-* _Most importantly:_ Identify and assess the paper's key claim(s). Are these supported by the evidence provided? Are the assumptions reasonable? Are the authors using appropriate methods?
-* Note major limitations and potential ways the work could be improved; where possible, reference methodological literature and discussion and work that models what you are suggesting.
+1. _Briefly_ summarize the work in context&#x20;
+2. Highlight positive aspects of the paper and its strengths and contributions, considered in the context of existing research.
+3. _Most importantly:_ Identify and assess the paper's most important and impactful claim(s). Are these supported by the evidence provided? Are the assumptions reasonable? Are the authors using appropriate methods?&#x20;
+4. Note major limitations and potential ways the work could be improved; where possible, reference methodological literature and discussion and work that models what you are suggesting.
 
-_Optional_
+_Optional/desirable_
 
+* Offer suggestions for increasing the impact of the work, for incorporating the work into global priorities research and impact evaluations, and for supporting and enhancing future work.
 * Discuss minor flaws and their potential revisions.
-  * Please don't spend a substantial amount of  time copyediting the work. If you like, you can give a few specific suggestions and then suggest that the author look to make other changes along these lines.
-* Offer suggestions for research agendas, increasing the impact of the work, incorporating the work into global priorities research and impact evaluations, and enhancing future work.
 * Desirable: formal ['claim identification and assessment'](https://docs.google.com/document/d/1mBkAmCVomcUt0Ks7hsxShTsjAbx3WVtFfMCnasGQxns/edit#heading=h.ljcrdyqus3l8)
+
+
+
+Please _don't_ spend time copyediting the work. If you like, you can give a few specific suggestions and then suggest that the author look to make other changes along these lines.
 
 </details>
 
 {% hint style="info" %}
-**Remember**: _The Unjournal_ doesn’t “publish” and doesn’t “accept or reject.” So don’t give an _Accept_, _Revise and Resubmit_, or _Reject_-type recommendation. We ask for quantitative metrics, written feedback, and expert discussion of the validity of the paper's main claims, methods, and  assumptions.
+**Remember**: _The Unjournal_ doesn’t “publish” and doesn’t “accept or reject.” So don’t give an _Accept_, _Revise-and-Resubmit'_, or _Reject_-type recommendation. We ask for quantitative metrics, written feedback, and expert discussion of the validity of the paper's main claims, methods, and assumptions.
 {% endhint %}
 
 ## Writing referee reports: resources and benchmarks
@@ -57,10 +60,13 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 [Peer Community In... Questionnaire ](https://peercommunityin.org/2022/05/20/questionnaire-for-reviewers/)(Open-science-aligned; perhaps less detail-oriented than we are aiming for)
 
-[Open Reviewers Reviewer Guide ](https://zenodo.org/record/5484087)(Journal-independent “pre-review”; detailed; targets ECRs)
+[Open Reviewers Reviewer Guide ](https://zenodo.org/record/5484087)(Journal-independent “PREreview”; detailed; targets ECRs)
 
 
 
-**General**
+**General, other fields**
 
 [The Wiley Online Library](https://authorservices.wiley.com/Reviewers/journal-reviewers/how-to-perform-a-peer-review/step-by-step-guide-to-reviewing-a-manuscript.html) (Conventional; general)
+
+["Peer review in the life sciences (Fraser)"](https://fraserlab.com/peer\_review/) (extensive resources;  only some of this is applicable to economics and social science)
+
