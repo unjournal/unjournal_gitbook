@@ -88,7 +88,7 @@
     * [Links to EA Forum/"EA journal"](parallel-partner-initiatives-and-resources/ea-and-ea-forum-initiatives/links-to-ea-forum-ea-journal.md)
   * [Other non-journal evaluation](parallel-partner-initiatives-and-resources/other-non-journal-evaluation.md)
   * [Economics survey (Charness et al.)](parallel-partner-initiatives-and-resources/economics-survey-charness-et-al.md)
-* [Key management details and discussion](management-tech-details-discussion/README.md)
+* [Management details \[mostly moved to Coda\]](management-tech-details-discussion/README.md)
   * [Governance of The Unjournal](management-tech-details-discussion/governance-of-the-unjournal.md)
   * [Fiscal hosting and expenses](management-tech-details-discussion/fiscal-hosting-and-expenses.md)
   * [Evaluation manager process](management-tech-details-discussion/management-process/README.md)
