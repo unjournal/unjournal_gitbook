@@ -142,7 +142,7 @@ For each metric, we ask you to provide a 'midpoint rating' and a 90% credible in
 <figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-[_See below_](./#the-credible-intervals-expressing-uncertainty) _for more guidance on uncertainty, credible intervals, and the midpoint rating as the 'median of your belief distribution'._
+[_See below_](./#the-midpoint-and-credible-intervals-expressing-uncertainty) _for more guidance on uncertainty, credible intervals, and the midpoint rating as the 'median of your belief distribution'._
 {% endhint %}
 
 The table below summarizes the percentile rankings.
@@ -318,7 +318,7 @@ If this work has already been published, and you know where, please report the p
 
 #### **What are we looking for and why?**
 
-We want policymakers, researchers, funders, and managers to be able to _use The Unjournal'_s evaluations to update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other and other sources of information. Evaluators may feel confident about their rating for one category, but less confident in another area. How much weight should readers  give to each? In this context, it is useful to _quantify the uncertainty_.&#x20;
+We want policymakers, researchers, funders, and managers to be able to _use The Unjournal'_s evaluations to update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other and other sources of information. Evaluators may feel confident about their rating for one category, but less confident in another area. How much weight should readers give to each? In this context, it is useful to _quantify the uncertainty_.&#x20;
 
 But it's hard to quantify statements like "very certain" or "somewhat uncertain" – different people may use the same phrases to mean different things. That's why we're asking for you a more precise measure, your _credible intervals._ These metrics are particularly useful for meta-science and meta-analysis.&#x20;
 
