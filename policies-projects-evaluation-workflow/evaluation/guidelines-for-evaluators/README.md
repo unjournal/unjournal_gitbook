@@ -6,10 +6,14 @@ description: >-
 
 # Guidelines for evaluators
 
+{% hint style="info" %}
+30 July 2024: These guidelines below apply to the evaluation form currently hosted on PubPub. We're adjusting this form somewhat – the new form is temporarily hosted in Coda [here (academic stream) ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version\_dGjfMZ1yXME)and [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) ([applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)). If you have any doubts on which form to complete, please ask the evaluation manager or contact contact@unjournal.org.
+{% endhint %}
+
 You can download a pdf version of these guidelines [here](https://www.dropbox.com/scl/fi/ire1rt73giyw1qvq7mymg/evaluator\_guidelines\_march\_2024.pdf?rlkey=e3qrfhusuk84agmnfpkmnnpsz\&dl=0) (updated March 2024).
 
 {% hint style="info" %}
-Please see  [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
+Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
 {% endhint %}
 
 ## What we'd like you to do
@@ -24,7 +28,7 @@ In writing your evaluation and providing ratings, please consider the following.
 
 ### _The Unjournal_'s expectations and criteria
 
-In many ways the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods are appropriate and well-executed?  Explain why or why not.
+In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods are appropriate and well-executed?  Explain why or why not.
 
 However, we'd also like you to pay some consideration to our priorities:
 
