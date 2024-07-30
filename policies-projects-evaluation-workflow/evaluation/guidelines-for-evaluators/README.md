@@ -7,7 +7,9 @@ description: >-
 # Guidelines for evaluators
 
 {% hint style="info" %}
-30 July 2024: These guidelines below apply to the evaluation form currently hosted on PubPub. We're adjusting this form somewhat – the new form is temporarily hosted in Coda [here (academic stream) ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version\_dGjfMZ1yXME)and [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) ([applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)). If you have any doubts on which form to complete, please ask the evaluation manager or contact contact@unjournal.org.
+30 July 2024: These guidelines below apply to the evaluation form currently hosted on PubPub. We're adjusting this form somewhat – the new form is temporarily hosted in Coda [here (academic stream) ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version\_dGjfMZ1yXME)and [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) ([applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)).  If you prefer, you are welcome to use the Coda form instead (just let us know).&#x20;
+
+If you have any doubts about which form to complete or about what we are looking for please ask the evaluation manager or email contact@unjournal.org.
 {% endhint %}
 
 You can download a pdf version of these guidelines [here](https://www.dropbox.com/scl/fi/ire1rt73giyw1qvq7mymg/evaluator\_guidelines\_march\_2024.pdf?rlkey=e3qrfhusuk84agmnfpkmnnpsz\&dl=0) (updated March 2024).
