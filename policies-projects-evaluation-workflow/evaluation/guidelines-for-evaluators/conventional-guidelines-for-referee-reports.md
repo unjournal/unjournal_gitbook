@@ -64,9 +64,24 @@ Report: [Improving Peer Review in Economics: Stocktaking and Proposal (Charness 
 
 
 
+
+
 **General, other fields**
 
 [The Wiley Online Library](https://authorservices.wiley.com/Reviewers/journal-reviewers/how-to-perform-a-peer-review/step-by-step-guide-to-reviewing-a-manuscript.html) (Conventional; general)
 
 ["Peer review in the life sciences (Fraser)"](https://fraserlab.com/peer\_review/) (extensive resources;  only some of this is applicable to economics and social science)
+
+
+
+#### Other templates and tools
+
+[Collaborative template: RRR assessment peer review](https://docs.google.com/document/d/1Oz6dHybbpVa2vgyl4bULHO7jS2DahtcQ8bknygFNYa8/edit#heading=h.gjdgxs)
+
+\
+[Introducing Structured PREreviews on PREreview.org](https://content.prereview.org/introducing-structured-prereviews-on-prereview-org/)
+
+\
+‘the 4 validities’ and [seaboat](https://www.seaboat.io/)\
+
 
