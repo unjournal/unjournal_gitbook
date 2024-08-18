@@ -67,6 +67,32 @@ Anonymous; "This game takes away the creativity, the risk, the â€˜right to failâ
 
 
 
+## The standard mode at top economics journals: [rough timings](#user-content-fn-4)[^4]
+
+Here's a rough sketch of the timings at top journals in economics
+
+```mermaid
+graph TD
+    Submit[Submit to a journal] --> |1-3 weeks| Screen{Initial Screening}
+    Screen --> Desk[Desk rejected] --> Reject[Rejection]
+    Screen --> Pass[Passes screening, assign. assoc. ed.] 
+    Pass --> |1-4 weeks| FindR[Find & invite reviewers, 2-3 accept]
+    FindR --> |1-6 months initially, 4-8 weeks for R&R| ReturnR[Reviewers return reports]
+    ReturnR --> |2-4 weeks| EdD{Editor's decision}
+    EdD -.- Shared[Reviews shared w/ authors only] 
+    Shared --> Accepted[Accepted for Publication]
+    Shared --> Reject[Rejection]
+    Shared --> RandR[Revise & resubmit]
+    RandR --> |4-12 weeks| AuthorRR[Authors do & submit revision]  
+    AuthorRR -->  FindR
+    Accepted --> |2 - 8 weeks| Posted[Posted on journal website]
+
+    style Shared fill:none,stroke:none
+
+    
+   
+```
+
 [^1]: * [Link](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr\_zTmaVpTfBg4A/edit#heading=h.e1wqoks5tivx) to earlier discussion space
 
     <!---->
@@ -76,3 +102,5 @@ Anonymous; "This game takes away the creativity, the risk, the â€˜right to failâ
 [^2]: ... or communicating their work, or teaching, or other productive activities,
 
 [^3]: Possibly to impress editors, or because they simply feel compelled to do so
+
+[^4]: These are informed guesses inferring from reports from papers like [Hadevand et al, 2024](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jel.20221653) 
