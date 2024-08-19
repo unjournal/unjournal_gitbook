@@ -69,7 +69,7 @@ Anonymous; "This game takes away the creativity, the risk, the â€˜right to failâ
 
 ## The standard mode at top economics journals
 
-[Here's a rough sketch](#user-content-fn-4)[^4] of the process and timings at top journals in economics. [Hadevand et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jel.20221653) report an average of _over 24 months_ between initial submisison and final acceptance (and nearly three years until publication).
+[Here's a rough sketch](#user-content-fn-4)[^4] of the process and timings at top journals in economics. [Hadevand et al](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jel.20221653) report an average of _over 24 months_ between initial submisson and final acceptance (and nearly three years until publication).
 
 ```mermaid
 graph TD
@@ -85,7 +85,11 @@ graph TD
     Shared --> RandR[Revise & resubmit]
     RandR --> |4-12 weeks| AuthorRR[Authors do & submit revision]  
     AuthorRR -->  FindR
-    Accepted --> |2 - 8 weeks| Posted[Posted on journal website]
+
+    Accepted --> Rep[Data editor reviews replication package] 
+    Rep --> |2 - 8 weeks| Posted[Posted on journal website]
+
+
 
     style Shared fill:none,stroke:none
 
