@@ -211,10 +211,6 @@ Does the project add useful value to other impactful research?
 
 
 
-###
-
-
-
 ### Logic and communication
 
 _Percentile ranking (0-100%)_
@@ -228,8 +224,6 @@ Is the [reasoning "transparent](#user-content-fn-10)[^10]"? Are assumptions made
 Are the conclusions consistent with the evidence (or formal proofs) presented? Do the authors accurately state the nature of their evidence, and the extent it supports their main claims?&#x20;
 
 Are the data and/or analysis presented relevant to the arguments made? Are the tables, graphs, and diagrams easy to understand in the context of the narrative (e.g., no major errors in labeling)?
-
-
 
 
 
@@ -254,6 +248,8 @@ Do the numbers in the paper and/or code output make sense? Are they internally c
 _**Useful building blocks**_
 
 Do the authors provide tools, resources, data, and outputs that might enable or enhance future work and meta-analysis?
+
+
 
 ### Relevance to global priorities, usefulness for practitioners\*\*[^11]
 
@@ -292,8 +288,6 @@ _Percentile ranking (0-100%)_
 Could the paper's topic and approach [_potentially_](#user-content-fn-14)[^14] help inform [global priorities, cause prioritization, and high-impact interventions?](../../../the-field-and-ea-gp-research.md)&#x20;
 
 </details>
-
-
 
 
 
@@ -458,8 +452,6 @@ Answers to the questions [below will not be made public:](#user-content-fn-22)[^
 [The Econometrics society](https://www.econometricsociety.org/publications/econometrica/browse/guidelines-referees) recommends a 2–3 page referee report; [Berk et al.](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.31.1.231) suggest this is relatively short, but confirm that brevity is desirable. [In a recent survey (Charness et al., 2022)](https://evalresearch.weebly.com/report---full-text.html), economists report spending (median and mean) about one day per report, with substantial shares reporting "half a day" and "two days." We expect that reviewers tend spend more time on papers for high-status journals, and when reviewing work that is closely tied to their own agenda.
 
 </details>
-
-
 
 <details>
 
