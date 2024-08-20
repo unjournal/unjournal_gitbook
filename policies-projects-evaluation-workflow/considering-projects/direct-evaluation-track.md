@@ -11,7 +11,7 @@ In addition to soliciting research [_submissions_](https://globalimpact.gitbook.
 1.  Choose a set of "top-tier working paper series" and medium-to-top-tier journals.
 
     This program started with the [NBER working paper series](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date).  We  expanded this beyond NBER to research posted in other exclusive working paper archives and to work where all authors seem to be prominent, secure, and established. See [#direct-evaluation-eligibility-rules-and-guidelines](direct-evaluation-track.md#direct-evaluation-eligibility-rules-and-guidelines "mention").   &#x20;
-2. Identify relevant papers in this series,following our stated criteria  (i.e., [relevance](./#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](./#why-does-it-need-more-review-what-are-some-key-issues-claims-to-vet)).\
+2. Identify relevant papers in this series, following our stated criteria  (i.e., [relevance](./#summary-why-is-it-relevant-and-worth-engaging-with), strength, [need for further review](./#why-does-it-need-more-review-what-are-some-key-issues-claims-to-vet)).\
    For NBER this tends to include
    * recently released work in the early stages of the journal peer-review process, particularly if it addresses a timely subject; as well as
    * work that has been around for many years, is widely cited and influential, yet has never been published in a peer-reviewed journal.
@@ -82,6 +82,12 @@ All NBER working papers are generally eligible, but watch for exceptions where a
 ### CEPR
 
 We treat these on a case-by-case basis and use discretion. All CEPR members are reasonably secure and successful, but their co-authors might not be, especially if these co-authors are PhD students they are supervising.
+
+### Journal-published papers (i.e., 'post-publication evaluation')
+
+In some areas and fields (e.g., psychology, animal product markets) the publication process is relatively rapid or it may fail to engage general expertise. In general, all papers that are already published in peer-reviewed journals are eligible for our direct track.&#x20;
+
+
 
 ### Papers or projects posted in any other working paper (pre-print) series
 
