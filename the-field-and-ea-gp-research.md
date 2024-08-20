@@ -2,6 +2,22 @@
 
 On this page we link to and discuss [some takes](#user-content-fn-1)[^1] on answers to the questions, _Which research is most impactful? Which research should be prioritized?_
 
+At The Unjournal, we are open to various approaches to the issues of "what is the most impactful research"?  Perhaps looking at some of the research, we have already evaluated and research we are prioritizing (public link coming soon) will give you some insights. However, it seems fair that we should give at least one candidate description or definition.
+
+## A candidate description/definition; 'direct global impact of research'
+
+The **direct global impact of a work of research**  is determined by the _value of the information_ that it provides in helping individuals, governments, funders, and policymakers make better decisions. While research may not definitively answer key questions it should leave us more informed (in a Bayesian sense, 'more concentrated belief distributions') about these. We will measure the value of these 'better choices' in terms of the extent these [improve the welfare of humans and other sentient beings, and the survival and flourishing of life and human civilization and values. ](#user-content-fn-2)[^2]
+
+The above comes close to how some people on The Unjournal team think about research impact and prioritization, but we don't plan to adopt an official guiding definition.&#x20;
+
+Note the above definition is meant to exclude more _basic_ research, which may also be high value, but which mainly serves as a building block for other research. In fact, The Unjournal _does_ consider the value of research as an input into other research, particularly when it directly influences direct policy-relevant  research, e.g., see ["Replicability & Generalisability: A Guide to CEA discounts" ](https://unjournal.pubpub.org/pub/evalsumtemplateapplied/release/1?readingCollection=02bc1831).
+
+It also excludes the value of "learning the truth" as an intrinsic good; we have tended not to make this a priority.
+
+For more guidance on how we apply this, see our [#high-level-considerations-for-prioritizing-research](policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md#high-level-considerations-for-prioritizing-research "mention").
+
+## Others' takes on this question, resources...&#x20;
+
 ## Syllabi
 
 Syllabi and course outlines that address global prioritization
@@ -129,7 +145,7 @@ _To be expanded, cataloged, and considered in more detail_
 ## Economics: overviews and prioritization exercises
 
 * ["What’s Worth Knowing? Economists’ Opinions about Economics" (Andre and Falk, 2022)](https://www.briq-institute.org/files/whats-worth-knowing.pdf): The survey, as reported in the paper, does not suggest a particular agenda, but it does suggest a direction . . . economists would generally like to see more work in certain applied areas.&#x20;
-* [Ten Years and Beyond: Economists Answer NSF's Call for Long-Term Research Agendas (Compendium, 2011](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1886598)): [This seems extremely relevant](#user-content-fn-2)[^2]. . . . NSF [asked economists and others](#user-content-fn-3)[^3] to "describe grand challenge questions . . . that transcend near-term funding cycles and are likely to drive next-generation research in the social, behavioral, and economic sciences.”&#x20;
+* [Ten Years and Beyond: Economists Answer NSF's Call for Long-Term Research Agendas (Compendium, 2011](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1886598)): [This seems extremely relevant](#user-content-fn-3)[^3]. . . . NSF [asked economists and others](#user-content-fn-4)[^4] to "describe grand challenge questions . . . that transcend near-term funding cycles and are likely to drive next-generation research in the social, behavioral, and economic sciences.”&#x20;
 
 ## Reinstein's slides/outline of this field and opportunities
 
@@ -153,8 +169,12 @@ Slides as single scrollable document
 
 [^1]: Note: Most of these links are associated with Effective Altruism; we intend to include a wider range of sources soon. This page is very much a work-in-progress.
 
-[^2]: However, I'm seeing little follow-through on these and some of the white papers seem hard to dig up.
+[^2]: Obviously, we have not defined how to measure "welfare improvements"  here.
 
 
 
-[^3]: In more detail: National Science Foundation’s Directorate for the Social, Behavioral and Economic Sciences (NSF/SBE) challenged economists and other relevant research communities “to step outside of present demands and to think boldly about future promises.” Specifically, NSF/SBE invited groups and individuals in August 2010 to write white papers that describe grand challenge questions in their sciences that transcend near-term funding cycles and are “likely to drive next generation research in the social, behavioral, and economic sciences.”
+[^3]: However, I'm seeing little follow-through on these and some of the white papers seem hard to dig up.
+
+
+
+[^4]: In more detail: National Science Foundation’s Directorate for the Social, Behavioral and Economic Sciences (NSF/SBE) challenged economists and other relevant research communities “to step outside of present demands and to think boldly about future promises.” Specifically, NSF/SBE invited groups and individuals in August 2010 to write white papers that describe grand challenge questions in their sciences that transcend near-term funding cycles and are “likely to drive next generation research in the social, behavioral, and economic sciences.”
