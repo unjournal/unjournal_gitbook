@@ -6,7 +6,9 @@ At The Unjournal, we are open to various approaches to the issues of "what is th
 
 ## A candidate description/definition; 'direct global impact of research'
 
-> The **direct global impact of a work of research**  is determined by the _value of the information_ that it provides in helping individuals, governments, funders, and policymakers make better decisions. While research may not definitively answer key questions it should leave us more informed (in a Bayesian sense, 'more concentrated belief distributions') about these. We will measure the value of these 'better choices' in terms of the extent these [improve the welfare of humans and other sentient beings, and the survival and flourishing of life and human civilization and values. ](#user-content-fn-2)[^2]
+
+
+> "The **direct global impact of a work of research**  is determined by the _value of the information_ that it provides in helping individuals, governments, funders, and policymakers make better decisions. While research may not definitively answer key questions it should leave us more informed (in a Bayesian sense, 'more concentrated belief distributions') about these. We will measure the value of these 'better choices' in terms of the extent these [improve the welfare of humans and other sentient beings, and the survival and flourishing of life and human civilization and values.](#user-content-fn-2)[^2]"
 
 The above comes close to how some people on The Unjournal team think about research impact and prioritization, but we don't plan to adopt an official guiding definition.&#x20;
 
