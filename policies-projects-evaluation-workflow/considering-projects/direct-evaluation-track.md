@@ -1,7 +1,3 @@
----
-description: Proposal and discussion of this here
----
-
 # "Direct evaluation" track
 
 ## Second track: Direct evaluation of prominent work
