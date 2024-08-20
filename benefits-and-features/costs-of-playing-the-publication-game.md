@@ -4,7 +4,7 @@
 
 ## Rate and give feedback, don’t accept/reject
 
-**Claim:** _Rating and feedback is better than an ‘all-or-nothing’ accept/reject process. Although people like to say “peer review is not binary”, the consequences are._
+**Claim:** _Rating and feedback is better than an ‘all-or-nothing’ accept/reject process. Although people like to say “peer review is not binary”, the consequences are._&#x20;
 
 “Publication in a top journal” is used as a signal and a measuring tool for two major purposes. First, policymakers, journalists, and other researchers look at _where a paper is published_ to assess whether the research is credible and reputable. Second, universities and other institutions use these _publication outcomes_ to guide hiring, tenure, promotion, grants, and other ‘rewards for researchers.’
 
@@ -88,6 +88,9 @@ graph TD
 
     Accepted --> Rep[Data editor reviews replication package] 
     Rep --> |2 - 8 weeks| Posted[Posted on journal website]
+
+    Reject --> Grey[Give up, 'grey lit.']
+    Reject --> Submit
 
 
 
