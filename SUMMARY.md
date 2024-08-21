@@ -90,7 +90,7 @@
   * [Economics survey (Charness et al.)](parallel-partner-initiatives-and-resources/economics-survey-charness-et-al.md)
 * [Management details \[mostly moved to Coda\]](management-tech-details-discussion/README.md)
   * [Governance of The Unjournal](management-tech-details-discussion/governance-of-the-unjournal.md)
-  * [Fiscal hosting and expenses](management-tech-details-discussion/fiscal-hosting-and-expenses.md)
+  * [Status, expenses, and payments](management-tech-details-discussion/fiscal-hosting-and-expenses.md)
   * [Evaluation manager process](management-tech-details-discussion/management-process/README.md)
     * [Choosing evaluators (considerations)](management-tech-details-discussion/management-process/choosing-evaluators/README.md)
       * [Avoiding COI](management-tech-details-discussion/management-process/choosing-evaluators/avoiding-coi.md)
