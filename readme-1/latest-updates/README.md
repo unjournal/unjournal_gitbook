@@ -1,7 +1,7 @@
-# Latest updates
+# Updates (earlier)
 
 {% hint style="info" %}
-Fill out this [quick survey](http://eepurl.com/ipFMdg) to get our updates by email. Data protection statement [here](https://bit.ly/46y0LqH).
+**22 Aug 2024:** we will be moving our latest updates to our [main home page 'news'.](https://www.unjournal.org/news)
 {% endhint %}
 
 ## March 25 2024: Workshop: Innovations in Research Evaluation, Replicability, and Impact
