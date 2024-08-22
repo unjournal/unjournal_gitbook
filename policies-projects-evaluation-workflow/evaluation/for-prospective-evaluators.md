@@ -34,7 +34,18 @@ Your evaluation will be made public and given a DOI. You have the option to be i
 
 ### Financial compensation
 
-[You will be given a $400 honorarium](#user-content-fn-3)[^3] for providing a prompt[^4] and complete evaluation and feedback ($300 base + $100 'promptness bonus') in line with our [expected standards](for-prospective-evaluators.md#what-we-are-asking-you-to-do). You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation for incentives, bonuses, and prizes.
+[You will be given a $200-$400 honorarium](#user-content-fn-3)[^3] for providing a prompt[^4] and complete evaluation and feedback ($100-$300 base + $100 'promptness bonus') in line with our [expected standards](for-prospective-evaluators.md#what-we-are-asking-you-to-do).&#x20;
+
+{% hint style="info" %}
+**Note, Aug. 2024**: we're adjusting the base compensation to reward strong work and experience. [_Minimum base compensation:_ ](#user-content-fn-5)[^5]
+
+* $100 + $100 for first-time evaluators
+* $300 + $100 for return Unjournal evaluators and those with previous strong public review experience.\
+  \
+  &#x20;We will be integrating other incentives and prizes into this, and are committed to [$450](https://x.com/450Movement) in average compensation per evaluation, including prizes.
+{% endhint %}
+
+You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation for incentives, bonuses, and prizes.
 
 See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims)
 
@@ -63,7 +74,7 @@ To learn more about our evaluation process, see[guidelines-for-evaluators](guide
 
 <summary>Note on the evaluation platform (13 Feb 2024)</summary>
 
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-5)[^5], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-6)[^6], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
 
 </details>
 
@@ -73,8 +84,10 @@ To learn more about our evaluation process, see[guidelines-for-evaluators](guide
 
 [^2]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
-[^3]: Updated Feb. 2024
+[^3]: Updated Aug. 2024
 
 [^4]: We will agree on a scheduled deadline. Generally, we aim for a three-week turnaround. Evaluations submitted after the agreed deadline (but still in a reasonable window) will earn a $300 honorarium.
 
-[^5]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
+[^5]: In some cases we may offer more than this. We'll let evaluators know their rate in advance.&#x20;
+
+[^6]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
