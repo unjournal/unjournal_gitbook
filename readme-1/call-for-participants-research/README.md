@@ -8,11 +8,9 @@ See [#in-a-nutshell](../#in-a-nutshell "mention") for an overview of _The Unjour
 
 {% hint style="info" %}
 **In brief (TLDR):**\
-If you are interested in being on _The_ _Unjournal_'s management committee, advisory board, or reviewer pool, please fill out [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (about 3–5 min).&#x20;
+If you are interested in being on _The_ _Unjournal_'s management committee, advisory board, or evaluator pool, please fill out [this form](https://bit.ly/ujteam) (about 3–5 min).&#x20;
 
-If you have research you would like us to assess (either your own or others'), please fill out [this form](https://bit.ly/ujsuggestr). You can also submit your own work [here](https://bit.ly/ujsubmitr), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
-
-We've hired for roles spanning research, communications, and operations/administration. Here is a [sketch](https://docs.google.com/document/d/1TPtHgqk-2fR9il6BrNtQA-PIKCounidzcBgGU58tgEg/edit) of some of these. We may offer similar roles in future.  Please express your general interest in working at The Unjournal in [this 'job interest' form](https://airtable.com/shrxGwooWtwZqY8cd).
+If you have research you would like us to assess, please fill out [this form](https://bit.ly/UJsuggest). You can also submit your own work [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
 \
 _Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
@@ -44,7 +42,7 @@ We maintain an **open call for participants** for four different roles:
 3. [**Field Specialists**](../organizational-roles-and-responsibilities/#field-specialists-fs) (who will often also be on the Advisory Board)
 4. A pool of **Evaluators** (who will be paid for their time and their work; we also draw evaluators from outside this pool)
 
-[The roles are explained in more detail here.](../organizational-roles-and-responsibilities/) You can express your interest (and enter our database) [here](https://airtable.com/shrtMv4hNlv8aL7Yy).
+[The roles are explained in more detail here.](../organizational-roles-and-responsibilities/) You can express your interest (and enter our database) [here](https://bit.ly/ujteam).
 
 <details>
 
@@ -82,7 +80,7 @@ We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, ap
 
 **Time commitment**: Case-by-case basis. For each evaluation, [here are some guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#length-and-time-possible-benchmarks) for the amount of time to spend.
 
-**Compensation**: We pay a minimum of $400 (updated Feb. 2024) for a prompt and complete evaluation, and offer additional prizes and incentives. [See here for more details](../../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md).
+**Compensation**: We pay a minimum of $200 (updated Aug. 2024) for a prompt and complete evaluation, $400 for _experienced_ evaluators. We offer additional prizes and incentives, and are committed to an average compensation of at least $450 per evaluator.  [See here for more details](../../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md).
 
 **Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for _The Unjournal_. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.
 
