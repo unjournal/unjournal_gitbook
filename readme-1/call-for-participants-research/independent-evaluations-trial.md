@@ -29,7 +29,7 @@ Doing an independent evaluation can also help _you_. We aim to provide feedback 
 We focus on rigorous, globally-impactful research in quantitative social science and policy-relevant research. (See [“What specific areas do we cover?”](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects/what-specific-areas-do-we-cover) for details.) We’re especially eager to receive independent evaluations of:
 
 1. Research we publicly prioritize: see our [public list of research](https://coda.io/d/Cross-Doc-Sync\_d7VdSLeCrpi/Unjournal-Research-of-interest-database-public\_suCwXMPL#\_lunMtjpm) we've prioritized or evaluated. (Also...[^4])&#x20;
-2. Research we previously evaluated (see above, as well as [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/) )\[5]
+2. Research we previously evaluated (see [public list](https://coda.io/d/Cross-Doc-Sync\_d7VdSLeCrpi/Unjournal-Research-of-interest-database-public\_suCwXMPL#\_lunMtjpm), as well as [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/) )
 3. Work that other people and organizations suggest as having high potential for impact/value of information (also see[ Evaluating Pivotal Questions](https://coda.io/d/\_ddIEzDONWdb/\_suamu))
 
 _You can also suggest research yourself_ [_here_](https://bit.ly/UJsuggest) _and then do an independent evaluation of it._
