@@ -135,6 +135,40 @@ Authors are encouraged to respond to evaluations by highlighting major revisions
 
 _Re-evaluation:_ If authors and evaluators are willing to engage, _The Unjournal_ is open to re-evaluating a revised version of a paper after publishing the evaluations of the initial version.&#x20;
 
+
+
+### Why should I provide an "author's response" to evaluations?
+
+We share evaluations with the authors and give them a chance to respond _before_ we make the evaluations public (and again afterward, at any point). We add these to our [evaluation packages on PubPub](https://unjournal.pubpub.org/completed-uj-evaluation-packages).  Evaluation manager's (public) reports and our further communications incorporate the paper, the evaluations, and the authors' responses. &#x20;
+
+Authors' responses could bring several benefits...
+
+1. Personally: a chance to correct misconceptions and explain their approach and planned steps. If you spot any clear errors or omissions, we give evaluators a chance to adjust their reports in response. The authors response can also help others (including the evaluators, as well as journal referees and grant funders) to have a more accurate and positive view of the research
+2. For research users, to get an informed balanced perspective on how to judge the work
+3. For other researchers, to better understand the methodological issues and approaches. This can serve to start a public dialogue and discussion to help build the field and research agenda. Ultimately, we aim to facilitate a back-and-forth between authors, evaluators, and others.
+
+### What should an 'author response' look like?
+
+**Examples:** We've received several detailed and informative author responses, such as:
+
+* [Gerster and Epperson, “Willful Ignorance and Moral Behavior” ](https://unjournal.pubpub.org/pub/2k4ycf19/release/1)
+* [Denkenberger et al on "Long term cost-effectiveness of resilient foods..."](https://unjournal.pubpub.org/pub/responseallfed/release/3)
+* [Trammell and Aschenbrenner, “Existential Risk and Growth”](https://unjournal.pubpub.org/pub/authorresponseexistentialrisk/release/1)[\
+  ](https://unjournal.pubpub.org/pub/responseallfed/release/3)
+
+\
+Evaluations may raise substantive doubts and questions, and make some specific suggestions, and ask [followup questions](#user-content-fn-11)[^11] about (e.g.) data, context, or assumptions. There's no need to respond to _every_ evaluator point; only you have something substantive: clarifying doubts, explaining the justification for your particular choices, and giving your thoughts on the suggestions (which will you incorporate, or not, and why?).&#x20;
+
+\
+A well-written author response would (ideally) have a clear narrative and group responses into themes.
+
+\
+Try to have a positive tone (no personal attacks etc.) but avoid  too much formality, politeness, or flattery. Revise-and-resubmit responses at standard journals sometimes begin each paragraph with "thank you for this excellent suggestion". Feel free to skip this; we want to focus on the substance.
+
+
+
+
+
 [^1]: Sometimes three evaluators, occassionally only one.      &#x20;
 
 [^2]: You can also suggest reviewer names, but we may not always follow these suggestions.
@@ -158,3 +192,5 @@ _Re-evaluation:_ If authors and evaluators are willing to engage, _The Unjournal
 [^9]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 
 [^10]: We think this is largely not a factor, as discussed below.
+
+[^11]: We encourage evaluators to ask clarification questions directly before submitting evaluations, but this is not always feasible.
