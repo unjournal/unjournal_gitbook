@@ -69,7 +69,7 @@ We discuss this topic [here](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1
 
 ### **Increase in evaluator compensation, incentives/rewards**
 
-We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. Details on this to come.
+We want to attract the strongest researchers to evaluate work for _The Unjournal_, and we want to encourage them to do careful, in-depth, useful work. [We've increased the base compensation](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) for (on-time, complete) evaluations to $400, and we are setting aside $150 per evaluation for incentives, rewards, and prizes. [Details on this to come.](#user-content-fn-2)[^2]
 
 _Please consider signing up for our evaluator pool (fill out_ [_the good old form_](https://airtable.com/shrtMv4hNlv8aL7Yy)_)._
 
@@ -283,3 +283,5 @@ Recall, we pay at least $250 per evaluation, we typically pay more in net ($350)
 _Hope these updates are helpful. Let me know if you have suggestions._
 
 [^1]: These updates will be semi-automatically pushed to our Mailchimp newsletter, and in future, to other feeds, such as a Substack blog.
+
+[^2]: See [here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators#financial-compensation) for our updated compensation.&#x20;
