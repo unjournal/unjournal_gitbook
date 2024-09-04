@@ -4,6 +4,12 @@
 
 _The Unjournal_ was founded by [David Reinstein](https://davidreinstein.org) <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">, who maintains this wiki/GitBook and other resources.
 
+{% hint style="info" %}
+**See our "**[**Team page**](https://www.unjournal.org/team)**" at Unjournal.org  for an updated profile of our team members**
+{% endhint %}
+
+
+
 ### Management Committee
 
 (Note[^1] on terminology)
@@ -54,6 +60,8 @@ See description under [_roles_](https://effective-giving-marketing.gitbook.io/un
 ## Field Specialists
 
 The table below shows _all_ the members of our team (including field specialists) taking on a research-monitoring role (see [here](../organizational-roles-and-responsibilities/#field-specialists-fs) for a description of this role).
+
+
 
 {% embed url="https://airtable.com/applDG6ifmUmeEJ7j/shrFwsCw7qpg8m0Ua" %}
 
