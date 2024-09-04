@@ -12,7 +12,7 @@ Our main approach has been to search for papers and then commission experts to p
 
 #### Elicit questions
 
-The Unjournal will ask impact-focused research-driven organizations such as GiveWell, Open Philanthropy, and Charity Entrepreneurship to identify specific quantifiable questions^\[We may later expand this to somewhat more open-ended and general questions; see below.] that impact their funding, policy, and research-direction choices. For example, if an organization is considering whether to fund a psychotherapeutic intervention in a LMIC, they might ask “How much does a brief course of non-specialist psychotherapy increase happiness, compared to the same amount spent on direct cash transfers?” We’re looking for the questions with the highest value-of-information (VOI) for the organization’s work over the next few years. We have some requirements — the questions should relate to The Unjournal’s coverage areas and engage rigorous research in economics, social science, policy, or impact quantification. Ideally, organizations will identify at least one piece of publicly-available research that relates to their question. But we are doing this mainly to help these organizations, so we will try to keep it simple and low-effort for them.
+The Unjournal will ask impact-focused research-driven organizations such as GiveWell, Open Philanthropy, and Charity Entrepreneurship to identify specific [quantifiable questions](#user-content-fn-1)[^1]. that impact their funding, policy, and research-direction choices. For example, if an organization is considering whether to fund a psychotherapeutic intervention in a LMIC, they might ask “How much does a brief course of non-specialist psychotherapy increase happiness, compared to the same amount spent on direct cash transfers?” We’re looking for the questions with the highest value-of-information (VOI) for the organization’s work over the next few years. We have some requirements — the questions should relate to The Unjournal’s coverage areas and engage rigorous research in economics, social science, policy, or impact quantification. Ideally, organizations will identify at least one piece of publicly-available research that relates to their question. But we are doing this mainly to help these organizations, so we will try to keep it simple and low-effort for them.
 
 #### Select, refine, and get feedback on the target questions
 
@@ -32,13 +32,13 @@ We will ask (and help) the organizations and interested parties to specify their
 
 Once we’ve converged on the target question, we’ll do a variation of our usual evaluation process.
 
-For each question we will prioritize roughly two to five [relevant research papers](#user-content-fn-1)[^1]. These papers may be suggested by the organization that suggested the question, sourced by The Unjournal, or discovered through community feedback ([see note](#user-content-fn-2)[^2]).&#x20;
+For each question we will prioritize roughly two to five [relevant research papers](#user-content-fn-2)[^2]. These papers may be suggested by the organization that suggested the question, sourced by The Unjournal, or discovered through community feedback ([see note](#user-content-fn-3)[^3]).&#x20;
 
 #### Commission expert evaluations of research, informing the target questions
 
-As we normally do, we’ll have ‘evaluation managers’ recruit [expert evaluators to assess each paper](#user-content-fn-3)[^3]. However, we’ll ask the evaluators to [focus on the target question](#user-content-fn-4)[^4], and to consider the target organization’s priorities.&#x20;
+As we normally do, we’ll have ‘evaluation managers’ recruit [expert evaluators to assess each paper](#user-content-fn-4)[^4]. However, we’ll ask the evaluators to [focus on the target question](#user-content-fn-5)[^5], and to consider the target organization’s priorities.&#x20;
 
-We’ll also [enable phased deliberation and discussion among evaluators](#user-content-fn-5)[^5]. This is inspired by the[ repliCATS project](https://replicats.research.unimelb.edu.au/), and some evidence suggesting that the (mechanistically aggregated) estimates of experts after deliberations [perform better](#user-content-fn-6)[^6] than their independent estimates (also mechanistically aggregated). We may also facilitate collaborative evaluations and ‘live reviews’, following the examples of [ASAPBio](https://asapbio.org/crowd-preprint-review), [PREreview](https://prereview.org/live-reviews), and others.
+We’ll also [enable phased deliberation and discussion among evaluators](#user-content-fn-6)[^6]. This is inspired by the[ repliCATS project](https://replicats.research.unimelb.edu.au/), and some evidence suggesting that the (mechanistically aggregated) estimates of experts after deliberations [perform better](#user-content-fn-7)[^7] than their independent estimates (also mechanistically aggregated). We may also facilitate collaborative evaluations and ‘live reviews’, following the examples of [ASAPBio](https://asapbio.org/crowd-preprint-review), [PREreview](https://prereview.org/live-reviews), and others.
 
 #### Get feedback from paper authors and from the target organization(s)
 
@@ -46,7 +46,7 @@ We will contact both the research authors (as per our standard process) and the 
 
 #### Prepare a “Synthesis Report”
 
-[We’ll commission one or more](#user-content-fn-7)[^7] evaluation managers to write a report as a summary of the research investigated.&#x20;
+[We’ll commission one or more](#user-content-fn-8)[^8] evaluation managers to write a report as a summary of the research investigated.&#x20;
 
 These reports should synthesize “What do the research,  evaluations, and responses say about the question/claim?” They should provide an overall metric relating to the truth value of the target question (or similar for the parameter of interest).  If and when we integrate prediction markets, they should decisively resolve the market claim.
 
@@ -74,8 +74,7 @@ We give detailed guidance with examples below:
 
 
 
-_Why do we want these pivotal questions to be 'operationalizable'?_\
-
+_Why do we want these pivotal questions to be 'operationalizable'?_
 
 {% content-ref url="why-operationalizable-questions.md" %}
 [why-operationalizable-questions.md](why-operationalizable-questions.md)
@@ -107,31 +106,33 @@ Remember that we plan to make all of this analysis and evaluation public.
 
 If you don’t represent an organization, we still welcome your suggestions, and will try to give feedback.&#x20;
 
-([Note on 'bounties](#user-content-fn-8)[^8]'.) &#x20;
+([Note on 'bounties](#user-content-fn-9)[^9]'.) &#x20;
 
 Please remember that we currently focus on quantitative \~social sciences fields, including economics, policy, and impact modeling (see [here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects/what-specific-areas-do-we-cover) for more detail on our coverage). Questions surrounding (for example) technical AI safety, microbiology, or measuring animal sentience are less likely to be in our domain.                                          &#x20;
 
 If you want to talk about this first, or if you have any questions, please send an email or [schedule a meeting](https://calendly.com/daaronr) with David Reinstein, our co-founder and director. \
 
 
-[^1]: Or dynamic ‘projects’, or non-academic rigorous work — see[ discussion here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/dynamic-documents-vs-living-projects), and notes on our ‘[applied stream](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects/applied-and-policy-track-trial)’.
+[^1]: We may later expand this to somewhat more open-ended and general questions; see discussion in later sections.
+
+[^2]: Or dynamic ‘projects’, or non-academic rigorous work — see[ discussion here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/dynamic-documents-vs-living-projects), and notes on our ‘[applied stream](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects/applied-and-policy-track-trial)’.
 
 
 
-[^2]: We discuss how this relates to our typical rules for ‘what we need permission to evaluate’ [here](https://coda.io/d/\_ddIEzDONWdb/Evaluating-Pivotal-Questions\_suamu#\_luJvW).
+[^3]: We discuss how this relates to our typical rules for ‘what we need permission to evaluate’ [here](https://coda.io/d/\_ddIEzDONWdb/Evaluating-Pivotal-Questions\_suamu#\_luJvW).
 
 
 
-[^3]: Naturally, we may ask some experts to evaluate multiple papers within the same question or theme.
+[^4]: Naturally, we may ask some experts to evaluate multiple papers within the same question or theme.
 
-[^4]: This could be integrated with the “claim evaluation” section we’re[ introducing](https://docs.google.com/document/d/1mBkAmCVomcUt0Ks7hsxShTsjAbx3WVtFfMCnasGQxns/edit#heading=h.ljcrdyqus3l8) to our evaluation forms (see [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)). We’ll also ask them to evaluate the paper according to The Unjournal’s [standard](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators) or [applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) guidelines. But we’ll cut them some slack here, and offer additional compensation for the extra work.
+[^5]: This could be integrated with the “claim evaluation” section we’re[ introducing](https://docs.google.com/document/d/1mBkAmCVomcUt0Ks7hsxShTsjAbx3WVtFfMCnasGQxns/edit#heading=h.ljcrdyqus3l8) to our evaluation forms (see [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)). We’ll also ask them to evaluate the paper according to The Unjournal’s [standard](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators) or [applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) guidelines. But we’ll cut them some slack here, and offer additional compensation for the extra work.
 
 
 
-[^5]: We have plans to do this in general (see[ sketch here](https://coda.io/d/\_ddIEzDONWdb/\_sujIB#\_luRE\_)). This seems particularly promising for this pivotal questions project, as we have a more well-defined and measurable task.
+[^6]: We have plans to do this in general (see[ sketch here](https://coda.io/d/\_ddIEzDONWdb/\_sujIB#\_luRE\_)). This seems particularly promising for this pivotal questions project, as we have a more well-defined and measurable task.
 
-[^6]: Here, we’re relying on Anca Hanea, a member of our Advisory Board who focuses on aggregating expert judgment. Academic work such as[ Rowe and Wright 2001](https://www.semanticscholar.org/paper/Expert-Opinions-in-Forecasting%3A-The-Role-of-the-Rowe-Wright/e315327ee3c6eebbb18152b9d9d97c1e31006b58) (“Delphi groups are somewhat more accurate than statistical groups (which are made up of noninteracting individuals whose judgments are aggregated)”) also seems to support this point.
+[^7]: Here, we’re relying on Anca Hanea, a member of our Advisory Board who focuses on aggregating expert judgment. Academic work such as[ Rowe and Wright 2001](https://www.semanticscholar.org/paper/Expert-Opinions-in-Forecasting%3A-The-Role-of-the-Rowe-Wright/e315327ee3c6eebbb18152b9d9d97c1e31006b58) (“Delphi groups are somewhat more accurate than statistical groups (which are made up of noninteracting individuals whose judgments are aggregated)”) also seems to support this point.
 
-[^7]: See details [here](https://coda.io/d/\_ddIEzDONWdb/Evaluating-Pivotal-Questions\_suamu#\_luNnx).
+[^8]: See details [here](https://coda.io/d/\_ddIEzDONWdb/Evaluating-Pivotal-Questions\_suamu#\_luNnx).
 
-[^8]: As noted above, we may offer bounties in the future for suggestions that we engage with. Any such bounty will also apply retroactively, to suggestions made in response to this post.
+[^9]: As noted above, we may offer bounties in the future for suggestions that we engage with. Any such bounty will also apply retroactively, to suggestions made in response to this post.

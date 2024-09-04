@@ -8,7 +8,7 @@ description: A "curated guide" to this GitBook; updated June 2023
 **You can now ask questions of this GitBook using a chatbot:** click the search bar or press cmd-k and choose _"ask Gitbook_."
 {% endhint %}
 
-## Key sections and subsections
+## Some key sections and subsections
 
 ### _Learn more about_ The Unjournal_, our goals and policies_
 
@@ -16,7 +16,7 @@ description: A "curated guide" to this GitBook; updated June 2023
 
 [writings](writings/ "mention") Writeups of the main points for a few different audiences
 
-[benefits-and-features](../benefits-and-features/ "mention") Some key benefits of the initiative and our approaches, with links to deeper commentary
+[benefits-and-features](../benefits-and-features/ "mention") Important benefits of journal-independent public evaluation and The Unjournal's approach, with links to deeper commentary
 
 [policies-projects-evaluation-workflow](../policies-projects-evaluation-workflow/ "mention") How we choose papers/projects to evaluate, how we assign evaluators, and so on
 
@@ -34,6 +34,6 @@ _These are of more interest to_ people within our team; _we are sharing these in
 
 [grants-and-proposals](../grants-and-proposals/ "mention") Successful proposals (ACX, SFF), other applications, initiatives
 
-[uj-team-resources-onboarding.md](../management-tech-details-discussion/uj-team-resources-onboarding.md "mention") Key resources and links for managers, advisory board members, staff, team members and others involved with _The Unjournal_ project
+[uj-team-resources-onboarding.md](../management-tech-details-discussion/uj-team-resources-onboarding.md "mention") Key resources and links for managers, advisory board members, staff, team members and others involved with _The Unjournal_ project.
 
-_Note: we may move some of this "internal interest content" over to our Clickup knowledge base._
+_Note: we have moved some of this "internal interest content" over to our Coda.io knowledge base._

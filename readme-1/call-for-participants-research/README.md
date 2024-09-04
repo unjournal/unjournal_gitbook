@@ -12,6 +12,8 @@ If you are interested in being on _The_ _Unjournal_'s management committee, advi
 
 If you have research you would like us to assess, please fill out [this form](https://bit.ly/UJsuggest). You can also submit your own work [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
+
+
 \
 _Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
 {% endhint %}
@@ -20,11 +22,11 @@ _Please note that while data submitted through the above forms may be shared int
 
 I am [David Reinstein](https://www.davidreinstein.org/), founder and co-director[^1] of _The Unjournal_. We have an open call for committee members, board members, reviewers, and suggestions for relevant work for _The Unjournal_ to evaluate.
 
-_The Unjournal_ [team](https://globalimpact.gitbook.io/archived-the-unjournal-project/readme-1/discussion-team) is building a system for credible, public, journal-independent feedback and evaluation of research.
+_The_ [_Unjournal_ team](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team) is building a system for credible, public, journal-independent feedback and evaluation of research.
 
 <details>
 
-<summary><em>Briefly,</em> The Unjournal<em>’s process (summarized again) is:</em></summary>
+<summary><em>Briefly,</em> The Unjournal<em>’s basic process is:</em></summary>
 
 * Identify, invite, or select contributions of relevant research _that_ [_is publicly hosted_](#user-content-fn-2)[^2] on any open platform or archive in any format.
 * Pay evaluators to give careful feedback on this work, with prizes and incentives for strong evaluation work.
