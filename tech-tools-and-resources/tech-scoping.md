@@ -3,7 +3,7 @@
 Updated see Gdoc on 'Editorial Management Tech needs [HERE](https://docs.google.com/document/d/1BXamZhkGj7SR2G3Ik6F9KXoRt-oG1Z6pIWWTIcKB6Jg/edit) and embedded at bottom (to do: integrate these discussions)
 
 {% hint style="info" %}
-We are eligible/may be eligible for _some_ nonprofit discounts through OCF. [See HERE](https://docs.opencollective.foundation/what-we-offer/nonprofit-discounts).
+We are eligible/may be eligible for _some_ nonprofit discounts
 {% endhint %}
 
 ## Core needs
