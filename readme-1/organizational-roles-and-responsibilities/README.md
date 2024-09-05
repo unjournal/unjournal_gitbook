@@ -1,7 +1,7 @@
 # Organizational roles and responsibilities
 
 {% hint style="info" %}
-22 Feb 2024: The Unjournal is scaling up, and looking to build our team. Please consider the roles below and express your interest [here](https://airtable.com/shrtMv4hNlv8aL7Yy) or contact us at contact@unjournal.org.
+5 Sep 2024: The Unjournal is still looking to build our team and evaluator pool. Please consider the roles below and [express your interest here](https://coda.io/form/Join-the-Unjournal\_dc3NLlpa-eq) or contact us at contact@unjournal.org.
 {% endhint %}
 
 ## **Management committee members**
@@ -33,7 +33,7 @@ _As an AB member..._
 
 * you agree to be listed on our page as being on the advisory board.
 * you have the option (but not the expectation or requirement) to join our Slack, and to check in once in a while.
-* you will be looped in for your input on some decisions surrounding _The Unjournal_'s policies and direction. Such communications might occur once per month, and you are not obligated to respond. (This will probably be accomplished through the Loomio.com tool.)&#x20;
+* you will be looped in for your input on some decisions surrounding _The Unjournal_'s policies and direction. Such communications might occur once per month, and you are not obligated to respond.&#x20;
 * you may be invited to occasional video meetings (again optional).
 * you are “in our system” and we may consult you for other work.&#x20;
 * you will be compensated for anything that requires a substantial amount of your time that does not overlap with your regular work.
@@ -74,7 +74,7 @@ Our [Incentives and norms](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFV
 
 **Who we are looking for**: For the FS roles, we are seeking active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the AB, also people with connections to academic, governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
 
-_Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3–5 min, using the same form for all roles)._
+_Interested?_ [_Please fill out_ _this form_](https://coda.io/form/Join-the-Unjournal\_dc3NLlpa-eq) _(about 3–5 min, using the same form for all roles)._
 
 <details>
 
@@ -139,7 +139,7 @@ See: [Unjournal Field Specialists: Incentives and norms (trial)](https://docs.go
 
 If you are interested in discussing any of the above in person, please email us ([contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)) to arrange a conversation.
 
-We invite you to fill in [this form](https://airtable.com/shrtMv4hNlv8aL7Yy) (the same as that linked above) to leave your contact information and outline which parts of the project interest you.
+We invite you to [fill in this form](https://coda.io/form/Join-the-Unjournal\_dc3NLlpa-eq) (the same as that linked above) to leave your contact information and outline which parts of the project interest you.
 
 _Note_: These descriptions are under continual refinement; see our [policies](../../policies-projects-evaluation-workflow/) for more details.
 
