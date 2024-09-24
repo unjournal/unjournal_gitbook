@@ -23,7 +23,7 @@ We are circulating a [press release](https://docs.google.com/document/d/e/2PACX-
 
 Our "Pilot Phase," involving ten papers and roughly 20 evaluations, is almost complete. We just released the evaluation package for ["The Governance Of Non-Profits And Their Social Impact: Evidence from a Randomized Program In Healthcare In DRC](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3).” We are now waiting on one last evaluation, followed by author responses and then "publishing" the final two packages at [https://unjournal.pubpub.org/](https://unjournal.pubpub.org/). (Remember: we publish the evaluations, responses and synthesis; we _link_ the research being evaluated.)
 
-We will make decisions and award our [Impactful Research Prize](../call-for-participants-research/impactful-research-prize/) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
+We will make decisions and award our [Impactful Research Prize](../call-for-participants-research/impactful-research-prize.md) (and possible seminars) and evaluator prizes soon after. The winners will be determined by a consensus of our management team and advisory board (potentially consulting external expertise). The choices will be largely driven by the ratings and predictions given by _Unjournal_ evaluators. After we make the choices, we will make our decision process public and transparent.
 
 ### **"What research should we prioritize for evaluation, and why?"**
 
@@ -129,7 +129,7 @@ While we wait for the new grant funding to come in, we are not sitting on our ha
 1. [“Banning wildlife trade can boost demand for unregulated threatened species”](https://unjournal.pubpub.org/pub/banning-wildlife-eval-summ/release/2)
 2. ["The Governance Of Non-Profits And Their Social Impact: Evidence From A Randomized Program In Healthcare In DRC”](https://unjournal.pubpub.org/pub/eval-sum-governance-nonprofits/release/3)
 
-With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide, announce, and award the recipients for the [Impactful Research Prize](../call-for-participants-research/impactful-research-prize/) and the prizes for evaluators, and organize online presentations/discussions (maybe linked to an "award ceremony"?).
+With three more evaluations already in progress, this will yield a total of 10 evaluated papers. Once these are completed, we will decide, announce, and award the recipients for the [Impactful Research Prize](../call-for-participants-research/impactful-research-prize.md) and the prizes for evaluators, and organize online presentations/discussions (maybe linked to an "award ceremony"?).
 
 ### Contracting, hiring, expansion
 
@@ -243,7 +243,7 @@ We're considering collaborations with other compatible initiatives, including...
 
 #### Management and administration, deadlines
 
-* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the [Impactful Research Prize](../call-for-participants-research/impactful-research-prize/) and the prizes for evaluators. Submission of papers and the processing of these has been somewhat slower than expected.
+* We are now under the [Open Collective Foundation](https://opencollective.com/the-unjournal) 'fiscal sponsorship' (this does not entail funding, only a legal and administrative home). We are postponing the deadline for judging the [Impactful Research Prize](../call-for-participants-research/impactful-research-prize.md) and the prizes for evaluators. Submission of papers and the processing of these has been somewhat slower than expected.
 
 #### Other news and media
 

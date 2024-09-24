@@ -87,7 +87,7 @@ Otherwise, if you are remaining anonymous, please do not disclose your connectio
 Going forward:
 
 * We may later invite you to [write and evaluate more about this piece of research](#user-content-fn-5)[^5] . . .
-* . . . and to help us judge prizes (e.g., the [impactful-research-prize](../readme-1/call-for-participants-research/impactful-research-prize/ "mention")).
+* . . . and to help us judge prizes (e.g., the [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention")).
 * We may ask if you want to be involved in replication exercises (e.g., through the [Institute for Replication](https://i4replication.org/)).
 * As a general principle, we hope and intend always to see that you are fairly compensated for your time and effort.
 
