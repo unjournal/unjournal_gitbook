@@ -6,27 +6,27 @@ description: Text to accompany the Impactful Research Prize discussion
 
 ## Details of submissions to _The Unjournal_
 
-Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), especially our [FAQ on "why engage."](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) &#x20;
+Note: This section largely repeats content in our [guide for researchers/authors](https://docs.google.com/document/d/1DAgVYq0LW5\_sx30XP7PeM3isBzsxvivqzxDFsZao7TA/edit?usp=sharing), especially our [FAQ on "why engage."](../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal) &#x20;
 
 _Jan. 2024: We have lightly updated this page to reflect our current systems._
 
 ### What we are looking for
 
-We describe the nature of the work we are looking to evaluate, along with examples, in [this forum post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_).  _Update 2024_: This is now better characterized under ["What research to target?"](../../../policies-projects-evaluation-workflow/considering-projects/what-research-to-target.md) and  ["What specific areas do we cover?"](../../../policies-projects-evaluation-workflow/considering-projects/what-specific-areas-do-we-cover.md).
+We describe the nature of the work we are looking to evaluate, along with examples, in [this forum post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see#Some\_suggested\_\_sort\_of\_things\_we\_might\_be\_looking\_for\_).  _Update 2024_: This is now better characterized under ["What research to target?"](considering-projects/what-research-to-target.md) and  ["What specific areas do we cover?"](considering-projects/what-specific-areas-do-we-cover.md).
 
 &#x20;If you are interested in submitting your work for public evaluation, we are looking for research which is **relevant to global priorities—especially quantitative social sciences—and impact evaluations. Work that would benefit from further feedback and evaluation is also of interest.**
 
-Your work will be evaluated using our evaluation guidelines and metrics. You can read these [here](../../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/) before submitting.
+Your work will be evaluated using our evaluation guidelines and metrics. You can read these [here](evaluation/guidelines-for-evaluators/) before submitting.
 
 **Important Note**: We are not a journal. By having your work evaluated, you will not be giving up the opportunity to have your work published in a journal. We simply operate a system that allows you to have your work independently evaluated.
 
-If you think your work fits our criteria and would like it to be publicly evaluated, please submit your work through [this form](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1).
+If you think your work fits our criteria and would like it to be publicly evaluated, please submit your work through [this form](https://bit.ly/UJsubmit).
 
 If you would like to submit more than one of your papers, you will need to complete a new form for each paper you submit.
 
 ### Conditional embargo on the publishing of evaluations
 
-By default, we would like _Unjournal_ evaluations to be made public. We think public evaluations are generally good for authors, as explained [here](../../../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
+By default, we would like _Unjournal_ evaluations to be made public. We think public evaluations are generally good for authors, as explained [here](../faq-interaction/for-researchers-authors.md#why-should-researchers-and-groups-submit-their-work-to-and-engage-with-the-unjournal). However, in special circumstances and particularly for very early-career researchers, we may make exceptions.
 
 If there is an early-career researcher on the author team, we will allow authors to "embargo" the publication of the evaluation until a later date. This date is contingent, but not indefinite. The embargo lasts until after a PhD/postdoc’s upcoming job search or until it has been published in a mainstream journal, unless:
 
@@ -58,7 +58,7 @@ If we consider your work for public evaluation, we may ask for **some** of the i
 * By completing the submission form, you are providing your permission for us to post the evaluations publicly unless you request an embargo.
 * You will have a two-week window to respond through our platform before anything is posted publicly. Your responses can also be posted publicly.
 
-For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../../../faq-interaction/for-researchers-authors.md).
+For more information on why authors may want to engage and what we may ask authors to do, please see [For researchers/authors](../faq-interaction/for-researchers-authors.md).
 
-#### [Here again is the link to submit your work on our platform.](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1)&#x20;
+#### [Here again is the link to submit your work on our platform. ](https://bit.ly/UJsubmit)
 

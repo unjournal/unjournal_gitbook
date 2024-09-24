@@ -10,9 +10,7 @@ See [#in-a-nutshell](../#in-a-nutshell "mention") for an overview of _The Unjour
 **In brief (TLDR):**\
 If you are interested in being on _The_ _Unjournal_'s management committee, advisory board, or evaluator pool, please fill out [this form](https://bit.ly/ujteam) (about 3–5 min).&#x20;
 
-If you have research you would like us to assess, please fill out [this form](https://bit.ly/UJsuggest). You can also submit your own work [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
-
-
+If you want to suggest research for us to assess, please fill out [this form](https://bit.ly/UJsuggest). You can also submit your _own_ work [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
 \
 _Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
