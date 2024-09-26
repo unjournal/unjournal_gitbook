@@ -48,6 +48,7 @@
     * [Suggesting research (forms, guidance)](policies-projects-evaluation-workflow/considering-projects/suggesting-research-forms-guidance.md)
     * ["Direct evaluation" track](policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md)
     * ["Applied and Policy" Track: trial](policies-projects-evaluation-workflow/considering-projects/applied-and-policy-track-trial.md)
+    * ['Conditional embargos' & exceptions](policies-projects-evaluation-workflow/considering-projects/conditional-embargos-and-exceptions.md)
   * [Evaluation](policies-projects-evaluation-workflow/evaluation/README.md)
     * [For prospective evaluators](policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md)
     * [Guidelines for evaluators](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/README.md)
