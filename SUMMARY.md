@@ -37,7 +37,7 @@
     * [Multiple dimensions of feedback](benefits-and-features/more-reliable-and-useful-evaluation/multiple-dimensions-of-meaningful-feedback.md)
 * [Frequently Asked Questions (FAQ)](faq-interaction/README.md)
   * [For research authors](faq-interaction/for-researchers-authors.md)
-  * [Evaluation (refereeing)](faq-interaction/referees-evaluators.md)
+  * [Evaluation ('refereeing')](faq-interaction/referees-evaluators.md)
   * [Suggesting and prioritizing research](faq-interaction/global-priorities.md)
 * [Our policies: evaluation & workflow](policies-projects-evaluation-workflow/README.md)
   * [Project submission, selection and prioritization](policies-projects-evaluation-workflow/considering-projects/README.md)

@@ -1,12 +1,12 @@
-# Evaluation (refereeing)
+# Evaluation ('refereeing')
 
 ## Evaluation guidelines and criteria
 
 {% hint style="info" %}
-[We refer to "evaluation"](#user-content-fn-1)[^1] because _The Unjournal_ does not _publish_ work; it only links, rates, and evaluates it.
+We generally refer to "evaluation" instead of "refereeing" because _The Unjournal_ does not _publish_ work; it only links, rates, and evaluates it.
 {% endhint %}
 
-_For more information about what we are asking evaluators (referees) to do, see:_&#x20;
+_For more information about what we are asking evaluators to do, see:_&#x20;
 
 * [For Prospective Evaluators](../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md)
 * [Guidelines for Evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)
@@ -17,7 +17,7 @@ _For more information about what we are asking evaluators (referees) to do, see:
 
 ### How do we choose evaluators?
 
-* We follow standard procedures, considering complementary expertise, interest, and cross-citations, as well as confirming no conflicts of interest. (See our internal guidelines for [choosing evaluators](../management-tech-details-discussion/management-process/choosing-evaluators/).)
+* We follow standard procedures, considering complementary expertise, interest, and cross-citations, as well as checking for conflicts of interest. (See our internal guidelines for [choosing evaluators](../management-tech-details-discussion/management-process/choosing-evaluators/).)
 * We aim to consult those who have [opted-in to our evaluator pool](../readme-1/call-for-participants-research/) first.
 * We favor evaluators with a track record of careful, in-depth, and insightful evaluation — while giving ECRs a chance to build such a record.
 
@@ -28,7 +28,7 @@ _For more information about what we are asking evaluators (referees) to do, see:
 For several reasons... (for more discussion, see  [why-pay-evaluators-reviewers.md](../policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md "mention"))
 
 * It's equitable, especially for those not getting "service credit" for their refereeing work from their employer.
-* Paying evaluators can reduce [adverse selection](#user-content-fn-2)[^2] and conflicts of interest —arguably inherent to the traditional process where reviewers work for free.
+* Paying evaluators can reduce [adverse selection](#user-content-fn-1)[^1] and conflicts of interest —arguably inherent to the traditional process where reviewers work for free.
 * We need to use explicit incentives while _The Unjournal_ grows.
 * We can use payment as an incentive for high-quality work, and to access a wider range of expertise, including people not interested in submitting their own work to _The Unjournal_.
 
@@ -69,8 +69,8 @@ See the [for-researchers-authors.md](for-researchers-authors.md "mention") FAQ a
 
 We have two main ways that papers and research projects enter the _Unjournal_ process:
 
-1. Authors [submit their work](#user-content-fn-3)[^3]; if we believe the work is relevant, we assign evaluators, and so on.
-2. We [select research](#user-content-fn-4)[^4] that seems potentially influential, impactful, and relevant for evaluation. In some cases, we request the authors' permission before sending out the papers for evaluation. In other cases (such as where senior authors release papers in the prestigious[ NBER ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)and CEPR series) we contact the authors and request their engagement before proceeding, but we don't ask for permission_._&#x20;
+1. Authors [submit their work](#user-content-fn-2)[^2]; if we believe the work is relevant, we assign evaluators, and so on.
+2. We [select research](#user-content-fn-3)[^3] that seems potentially influential, impactful, and relevant for evaluation. In some cases, we request the authors' permission before sending out the papers for evaluation. In other cases (such as where senior authors release papers in the prestigious[ NBER ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)and CEPR series) we contact the authors and request their engagement before proceeding, but we don't ask for permission_._&#x20;
 
 For either track, authors are invited to be involved in several ways:
 
@@ -86,7 +86,7 @@ Otherwise, if you are remaining anonymous, please do not disclose your connectio
 
 Going forward:
 
-* We may later invite you to [write and evaluate more about this piece of research](#user-content-fn-5)[^5] . . .
+* We may later invite you to [write and evaluate more about this piece of research](#user-content-fn-4)[^4] . . .
 * . . . and to help us judge prizes (e.g., the [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention")).
 * We may ask if you want to be involved in replication exercises (e.g., through the [Institute for Replication](https://i4replication.org/)).
 * As a general principle, we hope and intend always to see that you are fairly compensated for your time and effort.
@@ -97,7 +97,7 @@ Going forward:
 
 The evaluations provide at least three types of value, helping advance several paths in our [theory of change](../benefits-and-features/global-priorities-theory-of-change/):
 
-1. **For readers and users**: _Unjournal_ evaluations assess the reliability and usefulness of the paper along several dimensions—and make this public, so other researchers and policymakers can [learn from them.](#user-content-fn-6)[^6]
+1. **For readers and users**: _Unjournal_ evaluations assess the reliability and usefulness of the paper along several dimensions—and make this public, so other researchers and policymakers can [learn from them.](#user-content-fn-5)[^5]
 2. **For careers and improving research:** Evaluations provide metrics of quality. In the medium term, these should provide increased and accelerated career value, improving the research process. We aim to build metrics that are credibly comparable to the current "tier" of journal a paper is published in. But we aim to do this better in several ways:
    * More quickly, more reliably, more transparently, and without the unproductive overhead of dealing with journals (see '[reshaping evaluation](../benefits-and-features/costs-of-playing-the-publication-game.md)')
    * Allowing flexible, [transparent formats (such as dynamic documents)](../benefits-and-features/dynamic-documents-vs-living-projects/), thus improving the research process, benefiting research careers, and hopefully improving the research itself in impactful areas.
@@ -137,14 +137,12 @@ Even if the paper is great...&#x20;
 
 
 
-[^1]: Still, we sometimes call the evaluators 'referees' for clarity.
+[^1]: Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration.
 
-[^2]: Traditionally, reviewers may be more likely to accept an assignment when they have a particular interest in the paper under consideration.
+[^2]: Sometimes this happens after we reach out to them to suggest they submit it.
 
-[^3]: Sometimes this happens after we reach out to them to suggest they submit it.
+[^3]: This occurs both through our internal [prioritization ](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research/)process, and through external suggestions, including through our contacts with organizations like [givewell.org](https://givewell.org/) and Open Philanthropy.
 
-[^4]: This occurs both through our internal [prioritization ](../policies-projects-evaluation-workflow/considering-projects/process-prioritizing-research/)process, and through external suggestions, including through our contacts with organizations like [givewell.org](https://givewell.org/) and Open Philanthropy.
+[^4]: E.g., for wider audiences, such as on Wikipedia, the EA Forum, or Asterisk magazine, with potential further compensation.
 
-[^5]: E.g., for wider audiences, such as on Wikipedia, the EA Forum, or Asterisk magazine, with potential further compensation.
-
-[^6]: They can better understand how to use it, what parts to use, and how much to believe it applies in different contexts, among other insights.
+[^5]: They can better understand how to use it, what parts to use, and how much to believe it applies in different contexts, among other insights.

@@ -1,6 +1,6 @@
 # For research authors
 
-How does The Unjournal's evaluation process work?&#x20;
+### How does The Unjournal's evaluation process work?&#x20;
 
 We generally seek [two evaluators](#user-content-fn-1)[^1] (aka reviewers or referees) with research interests in your area and with complementary expertise. You, the author, can suggest areas that you want to [receive feedback and suggestions](#user-content-fn-2)[^2] on.&#x20;
 
@@ -165,15 +165,13 @@ Evaluations may raise substantive doubts and questions, and make some specific s
 A well-written author response would (ideally) have a clear narrative and group responses into themes.
 
 \
-Try to have a positive tone (no personal attacks etc.) but avoid  too much formality, politeness, or flattery. Revise-and-resubmit responses at standard journals sometimes begin each paragraph with "thank you for this excellent suggestion". Feel free to skip this; we want to focus on the substance.
-
-
+Try to have a positive tone (no personal attacks etc.) but avoid formality, over-politeness, or flattery. Revise-and-resubmit responses at standard journals sometimes begin each paragraph with "thank you for this excellent suggestion". Feel free to skip this; we want to focus on the substance.
 
 
 
 [^1]: Sometimes three evaluators, occassionally only one.      &#x20;
 
-[^2]: You can also suggest reviewer names, but we may not always follow these suggestions.
+[^2]: You can also suggest evaluator names, and we will consult a suggestion, but we naturally don't want people to be able to pick their own evaluators.
 
 [^3]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 
