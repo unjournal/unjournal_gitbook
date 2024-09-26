@@ -35,6 +35,10 @@ If there is an early-career researcher on the author team, we will allow authors
 
 If you would like to request an exception to a public evaluation, you will have the opportunity to explain your reasoning in the submission form.
 
+See "[Conditional embargos & exceptions](considering-projects/conditional-embargos-and-exceptions.md)" for more detail, and examples.
+
+
+
 ### Why might an author want to engage with _The Unjournal_?
 
 1. _The Unjournal_ presents an **additional opportunity for evaluation** of your work with an emphasis on **impact**.

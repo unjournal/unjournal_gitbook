@@ -14,33 +14,35 @@ To consider your research we only need a link to a publicly hosted version of yo
 
 You can request a conditional embargo by emailing us at [contact@unjournal.org](mailto:contact@unjournal.org), or via the submission form. Please explain what sort of embargo you are asking for, and why. By default, we would like Unjournal evaluations to be made public promptly. However, we may make exceptions in special circumstances, particularly for very early-career researchers.
 
-If there is an early-career researcher on the authorship team, we may allow authors to "embargo" the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite. For example, we might grant an embargo that lasts until after a PhD/postdoc’s upcoming job market or until after publication in a mainstream journal, with a hard maximum of 14 months. (Of course, embargoes can be ended early at the request of the authors.)
+If there is an early-career researcher on the authorship team, we may allow authors to "embargo" the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite.&#x20;
 
-In exceptional circumstances we may consider granting a "[conditional indefinite embargo.](#user-content-fn-3)[^3]"
+For further details on this, and examples, see ["Conditional embargoes and exceptions"](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/\~/changes/536/policies-projects-evaluation-workflow/considering-projects/conditional-embargos-and-exceptions).
+
+
 
 ### Do you make any requests of **authors?**
 
 We may ask for some of the below, but these are mainly optional. We aim to make the process very light touch for authors.
 
-1. A link to a non-paywalled, hosted version of your work (in [any format](#user-content-fn-4)[^4]) which [can be given a DOI](#user-content-fn-5)[^5].
-2. Responses to [clarification questions from our evaluators](#user-content-fn-6)[^6].
+1. A link to a non-paywalled, hosted version of your work (in [any format](#user-content-fn-3)[^3]) which [can be given a DOI](#user-content-fn-4)[^4].
+2. Responses to [clarification questions from our evaluators](#user-content-fn-5)[^5].
 3. We may ask for a link to data and code, if possible. Note that our project is not _principally_ about replication, and we are not insisting on this.
 
 We also allow you to respond to evaluations, and we give your response its own DOI.
 
 ### **Why should I submit my work to The Unjournal? Why should I engage with them?**
 
-_The biggest personal gains for_ [_authors are_](#user-content-fn-7)[^7]_:_
+_The biggest personal gains for_ [_authors are_](#user-content-fn-6)[^6]_:_
 
 1. **Substantive feedback** will help you improve your research.  Substantive and useful feedback is often very hard to get, especially for young scholars. It's hard to get anyone to read your paper – we can help!
 2. **Ratings are markers of credibility for your work** that could help your career. Remember, we [select our research based on potential global relevance](global-priorities.md).
 3. The chance to **publicly respond to criticism and correct misunderstandings**.&#x20;
-4. Increasing the **visibility of** your work, which may lead to additional citations. We publicize our evaluations and the original papers on our social media feed. We may forward selected work to [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/)[ for coverage](#user-content-fn-8)[^8].
+4. Increasing the **visibility of** your work, which may lead to additional citations. We publicize our evaluations and the original papers on our social media feed. We may forward selected work to [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/)[ for coverage](#user-content-fn-7)[^7].
 5. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups.
 6. A reputation as an **early adopter and innovator** in open science.
 7. **Prizes:** You may win an [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention") which will be financial as well as reputational.
 8. **Undervalued or updated work:** Your paper may have been "under-published". Perhaps there are a limited set of prestigious journals in your field. You now see ways you could improve the research. _The Unjournal can help; we will consider post-publication evaluation._ (See fold.)
-9. **Innovative formats:** Journals typically require you to submit a LaTeX or MS Word file, and to use their fussy formats and styles. You may want to use tools like [Quarto](https://quarto.org/) that integrate your code and data, allow you to present dynamic content, and enhance reproducibility. _The Unjournal_ [_encourages this_](#user-content-fn-9)[^9]_, and we can evaluate research in virtually any format._ &#x20;
+9. **Innovative formats:** Journals typically require you to submit a LaTeX or MS Word file, and to use their fussy formats and styles. You may want to use tools like [Quarto](https://quarto.org/) that integrate your code and data, allow you to present dynamic content, and enhance reproducibility. _The Unjournal_ [_encourages this_](#user-content-fn-8)[^8]_, and we can evaluate research in virtually any format._ &#x20;
 
 <details>
 
@@ -69,7 +71,7 @@ There are risks and rewards to any activity, of course. Here we consider some ri
 
 #### **Exclusivity**
 
-[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-10)[^10], and perhaps they might enforce these more strongly if they fear competition from The Unjournal.
+[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-9)[^9], and perhaps they might enforce these more strongly if they fear competition from The Unjournal.
 
 However, The Unjournal is not exclusive. Having your paper reviewed and evaluated in The Unjournal will not limit your options; you can still submit your work to traditional journals.
 
@@ -157,7 +159,7 @@ Authors' responses could bring several benefits...
   ](https://unjournal.pubpub.org/pub/responseallfed/release/3)
 
 \
-Evaluations may raise substantive doubts and questions, and make some specific suggestions, and ask [followup questions](#user-content-fn-11)[^11] about (e.g.) data, context, or assumptions. There's no need to respond to _every_ evaluator point; only you have something substantive: clarifying doubts, explaining the justification for your particular choices, and giving your thoughts on the suggestions (which will you incorporate, or not, and why?).&#x20;
+Evaluations may raise substantive doubts and questions, and make some specific suggestions, and ask [followup questions](#user-content-fn-10)[^10] about (e.g.) data, context, or assumptions. There's no need to respond to _every_ evaluator point; only you have something substantive: clarifying doubts, explaining the justification for your particular choices, and giving your thoughts on the suggestions (which will you incorporate, or not, and why?).&#x20;
 
 \
 A well-written author response would (ideally) have a clear narrative and group responses into themes.
@@ -173,24 +175,22 @@ Try to have a positive tone (no personal attacks etc.) but avoid  too much forma
 
 [^2]: You can also suggest reviewer names, but we may not always follow these suggestions.
 
-[^3]: E.g., where evaluations with ratings below a certain value will never be made public. In such cases, the evaluators will be informed of this in advance, and, if we publish some evaluations of the paper, it will be noted that this policy was in place.
+[^3]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 
-[^4]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
+[^4]: Again, remember that _we_ will not be "publishing" this work, just evaluating it. We can help you figure out how to host and add a DOI to it, however.
 
-[^5]: Again, remember that _we_ will not be "publishing" this work, just evaluating it. We can help you figure out how to host and add a DOI to it, however.
-
-[^6]: Recall that we assign 2–3 evaluators who will be paid to assess your work and who may be anonymous (22 Dec 2022: we are giving evaluators this choice).\
+[^5]: Recall that we assign 2–3 evaluators who will be paid to assess your work and who may be anonymous (22 Dec 2022: we are giving evaluators this choice).\
     \
     We may try to facilitate a confidential channel to enable a dialogue with the authors.\
     \
     In future iterations, through this process, we may encourage you to continue to update your work in communication with the evaluators, as a sort of "dynamic R\&R."
 
-[^7]: The Unjournal also directly chooses work to evaluate, and reaches out to authors for their engagement.  The benefits below also pertain to these cases. We aim to  recognize and reward authors who engage with us.
+[^6]: The Unjournal also directly chooses work to evaluate, and reaches out to authors for their engagement.  The benefits below also pertain to these cases. We aim to  recognize and reward authors who engage with us.
 
-[^8]: You may also be invited to write about your work for Asterisk magazine, and be generously compensated for this work.&#x20;
+[^7]: You may also be invited to write about your work for Asterisk magazine, and be generously compensated for this work.&#x20;
 
-[^9]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
+[^8]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 
-[^10]: We think this is largely not a factor, as discussed below.
+[^9]: We think this is largely not a factor, as discussed below.
 
-[^11]: We encourage evaluators to ask clarification questions directly before submitting evaluations, but this is not always feasible.
+[^10]: We encourage evaluators to ask clarification questions directly before submitting evaluations, but this is not always feasible.
