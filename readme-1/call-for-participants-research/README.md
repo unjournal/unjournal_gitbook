@@ -12,7 +12,7 @@ If you are interested in being on _The_ _Unjournal_'s management committee, advi
 
 If you want to suggest research for us to assess, please fill out [this form](https://bit.ly/UJsuggest). You can also submit your _own_ work [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
 
-Also see our [independent-evaluations-trial.md](independent-evaluations-trial.md "mention") and [pivotal-questions-initiative](../../pivotal-questions-initiative/ "mention").
+Also see our [independent-evaluations-trial](independent-evaluations-trial/ "mention") and [pivotal-questions-initiative](../../pivotal-questions-initiative/ "mention").
 
 \
 _Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
@@ -89,7 +89,7 @@ _Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7
 
 
 {% hint style="info" %}
-&#x20;_**Ready to get started doing evaluations and building a track record?**_ See our new  [independent-evaluations-trial.md](independent-evaluations-trial.md "mention") initiative, offering prizes and recognition for the best work. You can evaluate work in our [public database](https://coda.io/d/Public-Database-of-Research\_d7VdSLeCrpi/Unjournal-Research-with-potential-for-impact-database\_suCwXMPL#\_luqRnzt6), or suggest and evaluate work.
+&#x20;_**Ready to get started doing evaluations and building a track record?**_ See our new  [independent-evaluations-trial](independent-evaluations-trial/ "mention") initiative, offering prizes and recognition for the best work. You can evaluate work in our [public database](https://coda.io/d/Public-Database-of-Research\_d7VdSLeCrpi/Unjournal-Research-with-potential-for-impact-database\_suCwXMPL#\_luqRnzt6), or suggest and evaluate work.
 {% endhint %}
 
 
