@@ -8,9 +8,11 @@ See [#in-a-nutshell](../#in-a-nutshell "mention") for an overview of _The Unjour
 
 {% hint style="info" %}
 **In brief (TLDR):**\
-If you are interested in being on _The_ _Unjournal_'s management committee, advisory board, or evaluator pool, please fill out [this form](https://bit.ly/ujteam) (about 3–5 min).&#x20;
+If you are interested in being on _The_ _Unjournal_'s management committee, advisory board, or evaluator pool, please fill out [this form](https://bit.ly/ujteam) (about 3–5 min). &#x20;
 
 If you want to suggest research for us to assess, please fill out [this form](https://bit.ly/UJsuggest). You can also submit your _own_ work [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2).
+
+Also see our [independent-evaluations-trial.md](independent-evaluations-trial.md "mention") and [pivotal-questions-initiative](../../pivotal-questions-initiative/ "mention").
 
 \
 _Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked_ [_here_](https://bit.ly/46y0LqH)_._
@@ -46,7 +48,7 @@ We maintain an **open call for participants** for four different roles:
 
 <details>
 
-<summary>Some particular research area/field priorities (15 Aug 2023)</summary>
+<summary>Some particular research area/field priorities (Sept. 2024)</summary>
 
 We're interested in researchers and research-users who want to help us prioritize work for evaluation, and manage evaluations, considering
 
@@ -61,8 +63,6 @@ Some particular areas where we are hoping to expand our expertise (as of  15 Aug
 \- Biological & pandemic risk&#x20;
 
 \- AI governance, AI safety&#x20;
-
-\- Animal welfare, markets for animal products&#x20;
 
 \- Long-term trends, demography
 
@@ -85,6 +85,14 @@ We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, ap
 **Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for _The Unjournal_. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.
 
 _Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3–5 min, same form for all roles or involvement)._
+
+
+
+{% hint style="info" %}
+&#x20;_**Ready to get started doing evaluations and building a track record?**_ See our new  [independent-evaluations-trial.md](independent-evaluations-trial.md "mention") initiative, offering prizes and recognition for the best work. You can evaluate work in our [public database](https://coda.io/d/Public-Database-of-Research\_d7VdSLeCrpi/Unjournal-Research-with-potential-for-impact-database\_suCwXMPL#\_luqRnzt6), or suggest and evaluate work.
+{% endhint %}
+
+
 
 ## **Projects and papers**
 
