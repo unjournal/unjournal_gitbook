@@ -85,7 +85,15 @@ We will curate guidelines and learning materials from relevant fields and from a
 
 #### 4. Partnering with academic institutions <a href="#z17lk31ievyk" id="z17lk31ievyk"></a>
 
-We are reaching out to PhD programs and pre-PhD research-focused programs. Some curricula already involve “mock referee report” assignments. We hope professors will encourage their students to do these through our platform. In return, we’ll offer the incentives and promotion mentioned above, as well as resources, guidance, and some further feedback.
+We are reaching out to PhD programs and pre-PhD research-focused programs. Some curricula already involve “mock referee report” assignments. We hope professors will encourage their students to do these through our platform. In return, we’ll offer the incentives and promotion mentioned above, as well as resources, guidance, and some further feedback
+
+
+
+**5. Fostering a positive environment for anonymous and signed evaluations**
+
+We want to preserve a positive and productive environment. This is particularly important because we will be accepting _anonymous_ content. We will take steps to ensure that the system is not abused. If the evaluations have an excessively negative tone, have content that could be perceived as personal attacks, or have clearly spurious criticism, we will ask the evaluators to revise this, or we may decide not to post or link it.
+
+
 
 ### How does this benefit The Unjournal and our mission? <a href="#pjhe27a42t8s" id="pjhe27a42t8s"></a>
 
