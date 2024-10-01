@@ -1,12 +1,20 @@
+---
+description: >-
+  FAQ for authors of research The Unjournal selected for public evaluation, and
+  for authors considering submitting their work to The Unjournal for evaluation
+---
+
 # For research authors
+
+_You can fill out_ [_this form_](https://bit.ly/UJsubmit) _to submit your work, or email contact@unjournal.org with questions ._&#x20;
 
 ### How does The Unjournal's evaluation process work?&#x20;
 
-We generally seek [two evaluators](#user-content-fn-1)[^1] (aka reviewers or referees) with research interests in your area and with complementary expertise. You, the author, can suggest areas that you want to [receive feedback and suggestions](#user-content-fn-2)[^2] on.&#x20;
+We generally seek [two evaluators](#user-content-fn-1)[^1] (aka 'reviewers or referees') with research interests in your area and with complementary expertise. You, the author, can suggest areas you want to [get feedback and suggestions](#user-content-fn-2)[^2] on.&#x20;
 
-The evaluators write detailed and helpful evaluations, and submit them either "signed" or anonymously.  They provide quantitative ratings on several dimensions, such as methods, relevance, and communication. They predict what journal tier the research _will_ be published in, and what tier it _should_ be published in. Here are the [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention").
+The evaluators write detailed and helpful evaluations, and submit them either "signed" or anonymously. Using our evaluation forms, they provide quantitative ratings on several dimensions, such as methods, relevance, and communication. They predict what journal tier the research _will_ be published in, and what tier it _should_ be published in. Here are the [guidelines-for-evaluators](../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ "mention").
 
-These evaluations and ratings are typically made public (see [unjournal.pubpub.org](https://unjournal.pubpub.org)), but **you will have the right to respond before or after these are posted.**
+These evaluations and ratings are typically made public (see [unjournal.pubpub.org](https://unjournal.pubpub.org)), but **you will have the right to respond before (or after) these are posted.**
 
 To consider your research we only need a link to a publicly hosted version of your work, ideally with a DOI. We will not "publish" your paper. The fact that we are handling your paper will not limit you in any way. You can submit it to any journal before, during, or after the process.
 
@@ -16,7 +24,7 @@ You can request a conditional embargo by emailing us at [contact@unjournal.org](
 
 If there is an early-career researcher on the authorship team, we may allow authors to "embargo" the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite.&#x20;
 
-For further details on this, and examples, see ["Conditional embargoes and exceptions"](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/\~/changes/536/policies-projects-evaluation-workflow/considering-projects/conditional-embargos-and-exceptions).
+For further details on this, and examples, see ["Conditional embargos and exceptions"](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/\~/changes/536/policies-projects-evaluation-workflow/considering-projects/conditional-embargos-and-exceptions).
 
 
 
@@ -37,11 +45,11 @@ _The biggest personal gains for_ [_authors are_](#user-content-fn-6)[^6]_:_
 1. **Substantive feedback** will help you improve your research.  Substantive and useful feedback is often very hard to get, especially for young scholars. It's hard to get anyone to read your paper – we can help!
 2. **Ratings are markers of credibility for your work** that could help your career. Remember, we [select our research based on potential global relevance](global-priorities.md).
 3. The chance to **publicly respond to criticism and correct misunderstandings**.&#x20;
-4. Increasing the **visibility of** your work, which may lead to additional citations. We publicize our evaluations and the original papers on our social media feed. We may forward selected work to [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/)[ for coverage](#user-content-fn-7)[^7].
-5. **A connection** to the EA/Global Priorities communities and the Open Science movement. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups.
+4. Increasing the **visibility of** your work, which may lead to additional citations. We publicize our evaluations and the original papers on our social media feed, and occasionally in notebook and [longer-form content.](#user-content-fn-7)[^7]&#x20;
+5. **A connection** to the Open Science/Open Access and EA/Global Priorities communities. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups.
 6. A reputation as an **early adopter and innovator** in open science.
-7. **Prizes:** You may win an [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention") which will be financial as well as reputational.
-8. **Undervalued or updated work:** Your paper may have been "under-published". Perhaps there are a limited set of prestigious journals in your field. You now see ways you could improve the research. _The Unjournal can help; we will consider post-publication evaluation._ (See fold.)
+7. **Prizes:** You may win an [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention") (publicity, reputation, and substantial financial prizes).
+8. **Undervalued or updated work:** Your paper may have been "under-published". Perhaps there are a limited set of prestigious journals in your field. You now see ways you could improve the research. _The Unjournal can help; we will also consider 'post-peer-review publication' evaluation._&#x20;
 9. **Innovative formats:** Journals typically require you to submit a LaTeX or MS Word file, and to use their fussy formats and styles. You may want to use tools like [Quarto](https://quarto.org/) that integrate your code and data, allow you to present dynamic content, and enhance reproducibility. _The Unjournal_ [_encourages this_](#user-content-fn-8)[^8]_, and we can evaluate research in virtually any format._ &#x20;
 
 <details>
@@ -121,11 +129,11 @@ As you can see in our [evaluation workflow](../policies-projects-evaluation-work
 
 Once we receive unsolicited work from an author or authors, we keep it in our database and have our team decide on prioritization. If your paper is prioritized for evaluation, _The Unjournal_ will notify you.&#x20;
 
-At present, we do not have a system to fully share the status of author submissions with authors. We hope to have one in place in the near future.
+At present, we do not have a system to automatically share the status of author submissions with authors. We hope to put one in place. You can email us for clarification and updates.&#x20;
 
 You can still submit your work to any traditional journal.
 
-### What if we have revised the paper since the version evaluated by _The Unjournal_?
+### What if we (the authors) have revised the paper since the version evaluated by _The Unjournal_?
 
 _The Unjournal_ aims to evaluate the most recent version of a paper. We reach out to authors to ensure we have the latest version at the start of the evaluation process.&#x20;
 
@@ -167,8 +175,6 @@ A well-written author response would (ideally) have a clear narrative and group 
 \
 Try to have a positive tone (no personal attacks etc.) but avoid formality, over-politeness, or flattery. Revise-and-resubmit responses at standard journals sometimes begin each paragraph with "thank you for this excellent suggestion". Feel free to skip this; we want to focus on the substance.
 
-
-
 [^1]: Sometimes three evaluators, occassionally only one.      &#x20;
 
 [^2]: You can also suggest evaluator names, and we will consult a suggestion, but we naturally don't want people to be able to pick their own evaluators.
@@ -185,7 +191,7 @@ Try to have a positive tone (no personal attacks etc.) but avoid formality, over
 
 [^6]: The Unjournal also directly chooses work to evaluate, and reaches out to authors for their engagement.  The benefits below also pertain to these cases. We aim to  recognize and reward authors who engage with us.
 
-[^7]: You may also be invited to write about your work for Asterisk magazine, and be generously compensated for this work.&#x20;
+[^7]: We may also forward selected work to places like [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/), and you, the author, may also be recommended for (well-paid) writing work at places like this.
 
 [^8]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
 
