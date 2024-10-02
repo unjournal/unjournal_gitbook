@@ -1,8 +1,8 @@
 # Reviewers from previous journal submissions
 
-Did you just write a brilliant peer review for an economics (or social science, policy etc.) journal? Your work should not be wasted, there should be a way to share your insights and get credit.&#x20;
+Did you just write a brilliant peer review for an economics (or social science, policy, etc.) journal? Your work should not be wasted, there should be a way to share your insights and get credit.&#x20;
 
-Consider transforming these insights into a public "[independent evaluation](./)" for [The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/). This will benefit the community and help make research better and more impactful. And we can share your work. provide you feedback, and build a portfolio with The Unjournal, making it more likely we will hire you for paid work and compensate you at the higher rate. And we offer prizes for the best work.&#x20;
+Consider transforming these insights into a public "[independent evaluation](./)" for [The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/). This will benefit the community and help make research better and more impactful. And we can share your work and provide you feedback. This will help you build a portfolio with The Unjournal, making it more likely we'll hire you for paid work and compensate you at the higher rate. And we offer prizes for the best work.&#x20;
 
 You can do this either anonymously or sign your name.
 
