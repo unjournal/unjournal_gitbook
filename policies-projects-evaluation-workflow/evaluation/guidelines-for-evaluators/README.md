@@ -6,11 +6,7 @@ description: >-
 
 # Guidelines for evaluators
 
-{% hint style="info" %}
-Oct. 2024: These guidelines apply to the evaluation forms currently hosted in Coda [here (academic stream) ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version\_dGjfMZ1yXME)and [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) ([applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)).  If you are using the older version of the form, the guidelines are essentially the same.  You are welcome to use whichever version you prefer. If you have any doubts please ask the evaluation manager or email contact@unjournal.org.
-{% endhint %}
-
-You can download a pdf version of these guidelines [here](https://www.dropbox.com/scl/fi/ire1rt73giyw1qvq7mymg/evaluator\_guidelines\_march\_2024.pdf?rlkey=e3qrfhusuk84agmnfpkmnnpsz\&dl=0) (updated March 2024).
+_These guidelines apply to the evaluation forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version\_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)_)._&#x20;
 
 {% hint style="info" %}
 Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
@@ -18,8 +14,8 @@ Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "men
 
 ## What we'd like you to do
 
-1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-1)[^1]**,** similar to a standard, high-quality referee report. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
-2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-2)[^2].&#x20;
+1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-2)[^2]**,** similar to a standard, high-quality referee report. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
+2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-3)[^3].&#x20;
 3. Answer a short questionnaire about your background and our processes.
 
 ## Writing the evaluation (aka 'the review')
@@ -155,7 +151,7 @@ For each metric, we ask you to provide a 'midpoint rating' and a 90% credible in
 
 The table below summarizes the percentile rankings.
 
-<table><thead><tr><th width="465">Quantitative metric</th><th width="142" align="center">Scale</th><th data-hidden></th></tr></thead><tbody><tr><td>Overall assessment</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Claims, strength and characterization of evidence:</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Methods: Justification, reasonableness, validity, robustness</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Advancing knowledge and practice</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Logic and communication</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Open, collaborative, replicable science</td><td align="center">0 - 100%</td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3">Relevance to global priorities, usefulness for practitioners</a></td><td align="center">0 - 100%</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="465">Quantitative metric</th><th width="142" align="center">Scale</th><th data-hidden></th></tr></thead><tbody><tr><td>Overall assessment</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Claims, strength and characterization of evidence:</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Methods: Justification, reasonableness, validity, robustness</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Advancing knowledge and practice</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Logic and communication</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Open, collaborative, replicable science</td><td align="center">0 - 100%</td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-4">Relevance to global priorities, usefulness for practitioners</a></td><td align="center">0 - 100%</td><td></td></tr></tbody></table>
 
 ###
 
@@ -163,11 +159,11 @@ The table below summarizes the percentile rankings.
 
 _Percentile ranking (0-100%)_
 
-Judge the quality of the research heuristically. Consider all aspects of quality, credibility, importance to future impactful applied research, and practical relevance and usefulness.[importance to knowledge production, and importance to practice. ](#user-content-fn-4)[^4]
+Judge the quality of the research heuristically. Consider all aspects of quality, credibility, importance to future impactful applied research, and practical relevance and usefulness.[importance to knowledge production, and importance to practice. ](#user-content-fn-5)[^5]
 
 
 
-### Claims, strength and characterization of evidence \*\*[^5]
+### Claims, strength and characterization of evidence \*\*[^6]
 
 Do the authors do a good job of (i) stating their main questions and claims, (ii) providing strong evidence and powerful approaches to inform these, and (iii) correctly characterizing the nature of their evidence?
 
@@ -177,11 +173,11 @@ Do the authors do a good job of (i) stating their main questions and claims, (ii
 
 _Percentile ranking (0-100%)_
 
-Are the methods[^6] used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable?&#x20;
+Are the methods[^7] used well-justified and explained; are they a reasonable approach to answering the question(s) in this context? Are the underlying assumptions reasonable?&#x20;
 
-Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-7)[^7]
+Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-8)[^8]
 
-Avoiding bias and [questionable research practices](https://forrt.org/glossary/questionable-research-practices-or-/) (QRP): Did the authors take steps to reduce bias from opportunistic reporting [and QRP](#user-content-fn-8)[^8]? For example, did they do a strong pre-registration and pre-analysis plan, incorporate multiple hypothesis testing corrections, and report flexible specifications?&#x20;
+Avoiding bias and [questionable research practices](https://forrt.org/glossary/questionable-research-practices-or-/) (QRP): Did the authors take steps to reduce bias from opportunistic reporting [and QRP](#user-content-fn-9)[^9]? For example, did they do a strong pre-registration and pre-analysis plan, incorporate multiple hypothesis testing corrections, and report flexible specifications?&#x20;
 
 ###
 
@@ -189,7 +185,7 @@ Avoiding bias and [questionable research practices](https://forrt.org/glossary/q
 
 _Percentile ranking (0-100%)_
 
-To what extent does the project contribute to the field or to practice, particularly in ways that are relevant[^9] to global priorities and impactful interventions?
+To what extent does the project contribute to the field or to practice, particularly in ways that are relevant[^10] to global priorities and impactful interventions?
 
 (Applied stream: please focus on ‘improvements that are actually helpful’.)
 
@@ -205,7 +201,7 @@ Do the paper's insights inform our beliefs about important parameters and about 
 
 Does the project add useful value to other impactful research?
 
-[_We don't require surprising results; sound and well-presented null results can also be valuable._](#user-content-fn-10)[^10]
+[_We don't require surprising results; sound and well-presented null results can also be valuable._](#user-content-fn-11)[^11]
 
 
 
@@ -217,7 +213,7 @@ _Percentile ranking (0-100%)_
 
 Are the goals and questions of the paper clearly expressed? Are concepts clearly defined and referenced?
 
-Is the [reasoning "transparent](#user-content-fn-11)[^11]"? Are assumptions made explicit? Are all logical steps clear and correct? Does the writing make the argument easy to follow?
+Is the [reasoning "transparent](#user-content-fn-12)[^12]"? Are assumptions made explicit? Are all logical steps clear and correct? Does the writing make the argument easy to follow?
 
 Are the conclusions consistent with the evidence (or formal proofs) presented? Do the authors accurately state the nature of their evidence, and the extent it supports their main claims?&#x20;
 
@@ -249,9 +245,9 @@ Do the authors provide tools, resources, data, and outputs that might enable or 
 
 
 
-### Relevance to global priorities, usefulness for practitioners\*\*[^12]
+### Relevance to global priorities, usefulness for practitioners\*\*[^13]
 
-Are the paper’s chosen topic and approach [likely to be useful](#user-content-fn-13)[^13] to [global priorities, cause prioritization, and high-impact interventions?](../../../the-field-and-ea-gp-research.md)&#x20;
+Are the paper’s chosen topic and approach [likely to be useful](#user-content-fn-14)[^14] to [global priorities, cause prioritization, and high-impact interventions?](../../../the-field-and-ea-gp-research.md)&#x20;
 
 Does the paper consider real-world relevance and deal with policy and implementation questions? Are the setup, assumptions, and focus realistic?&#x20;
 
@@ -269,7 +265,7 @@ Do they communicate (at least in the abstract or introduction)  in ways policyma
 
 _Percentile ranking (0-100%)_
 
-Are the assumptions and setup realistic and relevant to the real world? [Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-14)[^14] &#x20;
+Are the assumptions and setup realistic and relevant to the real world? [Does the paper consider the real-world relevance of the arguments and results presented, perhaps engaging policy and implementation questions?](#user-content-fn-15)[^15] &#x20;
 
 Do the authors communicate their work in ways policymakers and decision-makers can understand, without misleading or oversimplifying?
 
@@ -283,7 +279,7 @@ Do the authors present practical _impact quantifications_, such as cost-effectiv
 
 _Percentile ranking (0-100%)_
 
-Could the paper's topic and approach [_potentially_](#user-content-fn-15)[^15] help inform [global priorities, cause prioritization, and high-impact interventions?](../../../the-field-and-ea-gp-research.md)&#x20;
+Could the paper's topic and approach [_potentially_](#user-content-fn-16)[^16] help inform [global priorities, cause prioritization, and high-impact interventions?](../../../the-field-and-ea-gp-research.md)&#x20;
 
 </details>
 
@@ -306,7 +302,7 @@ To help universities and policymakers make sense of our evaluations, we want to 
 
 Journal ranking tiers are on a 0-5 scale, as follows:
 
-* 0/5: "[Won't publish](#user-content-fn-16)[^16]/little to no value".  Unlikely to be cited by credible researchers
+* 0/5: "[Won't publish](#user-content-fn-17)[^17]/little to no value".  Unlikely to be cited by credible researchers
 * 1/5: OK/Somewhat valuable journal
 * 2/5: Marginal B-journal/Decent field journal
 * 3/5: Top B-journal/Strong field journal
@@ -317,14 +313,14 @@ Journal ranking tiers are on a 0-5 scale, as follows:
 _**We give some example journal rankings**_ [_**here**_](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0), based on SJR and ABS ratings.
 {% endhint %}
 
-_We encourage you to_ [_consider a non-integer score_](#user-content-fn-17)[^17], e.g. 4.6 or 2.2.&#x20;
+_We encourage you to_ [_consider a non-integer score_](#user-content-fn-18)[^18], e.g. 4.6 or 2.2.&#x20;
 
 As before, we ask for a 90% credible interval.&#x20;
 
 <table><thead><tr><th width="364">Journal ranking tiers</th><th width="248" align="center">Scale</th><th width="238">90% CI</th><th data-hidden><select></select></th><th data-hidden></th></tr></thead><tbody><tr><td>What journal ranking tier <em>should</em> this work be published in?</td><td align="center">0.0-5.0</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td>What journal ranking tier <em>will this</em> work be published in?</td><td align="center">0.0-5.0</td><td><em>lower, upper</em></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
-**PubPub note:** as of 14 March 2024, the PubPub form is _not_ allowing you to give non-integer responses. Until this is fixed, [please multiply these by 10 and enter these using the 0-50 slider](#user-content-fn-18)[^18] . (Or use the Coda form.)
+**PubPub note:** as of 14 March 2024, the PubPub form is _not_ allowing you to give non-integer responses. Until this is fixed, [please multiply these by 10 and enter these using the 0-50 slider](#user-content-fn-19)[^19] . (Or use the Coda form.)
 {% endhint %}
 
 #### **What journal ranking tier **_**should**_** this work be published in?**
@@ -333,7 +329,7 @@ _Journal ranking tier (0.0-5.0)_
 
 Assess this paper on the journal ranking scale described above, considering only its merit, giving some weight to the category metrics we discussed above.
 
-Equivalently, [where would this paper be published](#user-content-fn-19)[^19] if:
+Equivalently, [where would this paper be published](#user-content-fn-20)[^20] if:
 
 1. the journal process was fair, unbiased, and free of noise, and that status, social connections, and lobbying to get the paper published didn’t matter;
 2. journals assessed research according to the category metrics we discussed above.
@@ -360,7 +356,7 @@ We want policymakers, researchers, funders, and managers to be able to _use The 
 
 But it's hard to quantify statements like "very certain" or "somewhat uncertain" – different people may use the same phrases to mean different things. That's why we're asking for you a more precise measure, your _credible intervals._ These metrics are particularly useful for meta-science and meta-analysis.&#x20;
 
-You are asked to give a 'midpoint' and a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-20)[^20] _**that you believe is 90% likely to contain the true value.**_ See the fold below for further guidance.
+You are asked to give a 'midpoint' and a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-21)[^21] _**that you believe is 90% likely to contain the true value.**_ See the fold below for further guidance.
 
 <details>
 
@@ -372,7 +368,7 @@ You may have a certain best guess for the "Methods..." criterion. Still, even an
 
 Your uncertainty over this could be described by some distribution, representing your beliefs about the _true value_ of this criterion. Your "'best guess" should be the central mass point of this distribution.
 
-You are also asked to give a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-21)[^21] _**that you believe is 90% likely to contain the true value.**_
+You are also asked to give a 90% credible interval. Consider this as [_**the smallest interval**_](#user-content-fn-22)[^22] _**that you believe is 90% likely to contain the true value.**_
 
 For some questions, the "true value" refers to something objective, e.g. will this work be published in a top-ranked journal? In other cases, like the percentile rankings, the true value means "if you had complete evidence, knowledge, and wisdom, what value would you choose?"&#x20;
 
@@ -414,12 +410,12 @@ Lastly, we ask evaluators about their background, and for feedback about the pro
 
 <summary>Survey questions for evaluators: details</summary>
 
-For the two questions below, we will [publish your responses](#user-content-fn-22)[^22] unless you specifically ask these questions  to be kept anonymous.&#x20;
+For the two questions below, we will [publish your responses](#user-content-fn-23)[^23] unless you specifically ask these questions  to be kept anonymous.&#x20;
 
 1. How long have you been in this field?
 2. How many proposals and papers have you evaluated? _(For journals, grants, and other peer review.)_
 
-Answers to the questions [below will not be made public:](#user-content-fn-23)[^23] &#x20;
+Answers to the questions [below will not be made public:](#user-content-fn-24)[^24] &#x20;
 
 1. How would you rate this template and process?
 2. Do you have any suggestions or questions about this process or _The Unjournal_? (We will try to respond to your suggestions, and incorporate them in our practice.) \[Open response]
@@ -435,7 +431,7 @@ Answers to the questions [below will not be made public:](#user-content-fn-23)[^
 
 <summary>Note on the evaluation platform (13 Feb 2024)</summary>
 
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-24)[^24], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-25)[^25], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
 
 </details>
 
@@ -467,56 +463,58 @@ If you still have questions, please contact us, or see our **FAQ on** [referees-
 
 _Our data protection statement is linked_ [_here_](https://bit.ly/46y0LqH)_._
 
-[^1]: We refer to 'paper or project' here.  We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../../../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we will refer to this as a 'paper'  throughout the discussion below, for simplicity.
+[^1]: These forms will soon be moved to 'PubPub platform'. Older evaluations used slightly different forms, with slightly different guidelines.
 
-[^2]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
+[^2]: We refer to 'paper or project' here.  We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../../../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we will refer to this as a 'paper'  throughout the discussion below, for simplicity.
 
-[^3]: Note: These categories were separate on earlier forms (before about Oct. 2024)
+[^3]: You may want to glance at these tables before writing your report, to gain a sense of our priorities.
 
-[^4]: Applied stream: "... importance to future impactful applied research, and practical relevance and usefulness."
+[^4]: Note: These categories were separate on earlier forms (before about Oct. 2024)
 
-[^5]: August 2024: This new criteria is currently being incorporated into our forms.
+[^5]: Applied stream: "... importance to future impactful applied research, and practical relevance and usefulness."
 
-[^6]: "Methods" may include choice/collection of data, experiment or survey design, statistical analysis, and simulation, among other elements.
+[^6]: August 2024: This new criteria is currently being incorporated into our forms.
 
-[^7]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications in a clear 'multiverse analysis'?
+[^7]: "Methods" may include choice/collection of data, experiment or survey design, statistical analysis, and simulation, among other elements.
 
-[^8]: Examples of QRP include selective reporting, hypothesizing after results are known, changing methods without reporting, selective reporting of dependent variables, p-hacking, and (uncorrected) opportunistic stopping in data collection. See one relevant discussion [here](https://replicationindex.com/2015/01/24/qrps/).
+[^8]: E.g., did they give at least a reasonable range of robustness checks? At best, did they ‘map the space’ of possible reasonable specifications in a clear 'multiverse analysis'?
 
-[^9]: Directly or indirectly relevant; e.g., building tools that are likely to contribute to measuring high-impact interventions.
+[^9]: Examples of QRP include selective reporting, hypothesizing after results are known, changing methods without reporting, selective reporting of dependent variables, p-hacking, and (uncorrected) opportunistic stopping in data collection. See one relevant discussion [here](https://replicationindex.com/2015/01/24/qrps/).
 
-[^10]: Tightly estimated null results can advance the field. In Bayesian terminology, work that “substantially concentrates our posterior belief distributions around the initial expectations” is also highly informative.
+[^10]: Directly or indirectly relevant; e.g., building tools that are likely to contribute to measuring high-impact interventions.
 
-[^11]: See, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/) on reasoning transparency.
+[^11]: Tightly estimated null results can advance the field. In Bayesian terminology, work that “substantially concentrates our posterior belief distributions around the initial expectations” is also highly informative.
 
-[^12]: Aug. 2024: We've recently combined this from two criteria and we're integrating it into our forms. See the expandable boxes below for the older categories.
+[^12]: See, e.g., [Open Philanthropy's guide](https://www.openphilanthropy.org/research/reasoning-transparency/) on reasoning transparency.
 
-[^13]: Here we are asking you about whether i the research was _aimed_ in a way that had strong _potential_ to substantially help solve a high-value problem, or add a lot to global welfare.&#x20;
+[^13]: Aug. 2024: We've recently combined this from two criteria and we're integrating it into our forms. See the expandable boxes below for the older categories.
 
-[^14]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+[^14]: Here we are asking you about whether i the research was _aimed_ in a way that had strong _potential_ to substantially help solve a high-value problem, or add a lot to global welfare.&#x20;
 
-[^15]: Here we are asking you about whether i the research was _aimed_ in a way that had strong _potential_ to substantially help solve a high-value problem, or add a lot to global welfare. \
+[^15]: E.g., does it help us evaluate what to prioritize for interventions and policy, improve interventions and policy, or improve our research and knowledge capacity for these?
+
+[^16]: Here we are asking you about whether i the research was _aimed_ in a way that had strong _potential_ to substantially help solve a high-value problem, or add a lot to global welfare. \
     \
     The Unjournal aims to focus on research that has this potential, so this also helps us check our own prioritization.
 
-[^16]: Not publishable in any journal that uses any scrutiny,  nor in any credible working paper series.
+[^17]: Not publishable in any journal that uses any scrutiny,  nor in any credible working paper series.
 
-[^17]: E.g., if a paper/project would be most likely to be (or merits being) published in a journal that would rank about halfway between a top tier 'A journal' and a second tier (4/5) journal, you should rate it a 4.5. \
+[^18]: E.g., if a paper/project would be most likely to be (or merits being) published in a journal that would rank about halfway between a top tier 'A journal' and a second tier (4/5) journal, you should rate it a 4.5. \
     \
     Similarly, if you think it has an 80%  chance of (being/meriting) publication in a 'marginal B-journal' and a 20% chance of a Top B-journal, you should rate it 2.2.\
     \
     Please also use this continuous scale for providing credible _intervals_.
 
-[^18]: E.g., 1.1 becomes 11, 2.5 becomes 25, 4.3 becomes 43, etc.
+[^19]: E.g., 1.1 becomes 11, 2.5 becomes 25, 4.3 becomes 43, etc.
 
-[^19]: Please consider the paper in its current form, or with only minor revisions, unless instructed otherwise.
+[^20]: Please consider the paper in its current form, or with only minor revisions, unless instructed otherwise.
 
-[^20]: Technically, this is referring to the 'Highest Density Interval" (HDI).
+[^21]: Technically, this is referring to the 'Highest Density Interval" (HDI).
 
-[^21]: Technically, this is referring to the 'Highest Density Interval" (HDI), the densest interval of the (posterior) distribution, in Bayesian statistics. Technically, such an interval doesn't need to even contain the midpoint of the distribution, although we will generally assume it does, for our purposes.
+[^22]: Technically, this is referring to the 'Highest Density Interval" (HDI), the densest interval of the (posterior) distribution, in Bayesian statistics. Technically, such an interval doesn't need to even contain the midpoint of the distribution, although we will generally assume it does, for our purposes.
 
-[^22]: However, if you don't ask us to publish your name along with your evaluation, we may only report a range-coded version of these, to protect your anonymity.
+[^23]: However, if you don't ask us to publish your name along with your evaluation, we may only report a range-coded version of these, to protect your anonymity.
 
-[^23]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
+[^24]: 18 Sep 2023: we intend to summarize the comments in aggregate, but not in a way that you are identifiable.    &#x20;
 
-[^24]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
+[^25]: We are replacing the Google Docs with the tailored PubPub interface; the PubPub form should be more efficient and leave less room for misunderstanding. But we will still be flexible to let you link or upload your descriptive, free-form evaluation in whatever form you prefer.
