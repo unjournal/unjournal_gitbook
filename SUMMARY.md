@@ -60,7 +60,7 @@
     * [Protecting anonymity](policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md)
   * [Mapping evaluation workflow](policies-projects-evaluation-workflow/mapping-evaluation-workflow.md)
   * [Communicating results](policies-projects-evaluation-workflow/communicating-results.md)
-  * [Recap: submissions](policies-projects-evaluation-workflow/recap-submissions.md)
+  * [Recap: submissions](readme-1/call-for-participants-research/impactful-research-prize/recap-submissions.md)
 * [What is global-priorities-relevant research?](the-field-and-ea-gp-research.md)
 * ["Pivotal questions" initiative](pivotal-questions-initiative/README.md)
   * [‘Operationalizable’ questions](pivotal-questions-initiative/operationalizable-questions.md)

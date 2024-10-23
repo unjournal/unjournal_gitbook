@@ -30,17 +30,17 @@ description: We are not a journal!
 
 ## In a nutshell
 
-_The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are [a team of researchers](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team), practitioners, and open science advocates led by [David Reinstein](https://www.davidreinstein.org/).&#x20;
+_The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are a [team of researchers](https://www.unjournal.org/team), practitioners, and open science advocates led by [David Reinstein](https://www.davidreinstein.org/).&#x20;
 
 _The Unjournal_ encourages better research by making it easier for researchers to get feedback and credible ratings. We coordinate and fund public journal-independent evaluation of hosted [_**papers and dynamically presented projects**_](#user-content-fn-1)[^1]. We publish evaluations, ratings, manager summaries, author responses, and links to evaluated research on [our PubPub page](https://unjournal.pubpub.org/).&#x20;
 
-_As the name suggests, **we are not a journal!**_&#x20;
+_As the name suggests, we are not a journal!_&#x20;
 
 We are working independently of traditional academic journals to build an open platform and a sustainable system for feedback, ratings, and assessment. We are currently focusing on [_**quantitative work that informs global priorities in economics, policy, and other social sciences.**_ ](#user-content-fn-2)[^2]
 
 **How to get involved?**
 
-We are looking for research papers to evaluate, as well as evaluators. If you want to suggest research, your own or someone else's, you can let us know [using this form](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). If you want to be an evaluator, [apply here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy). You can [express your interest](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy) in being a member of the management team, advisory board, or reviewer pool. For more information, check our guide on [how to get involved](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research).  \
+We are looking for research papers to evaluate, as well as evaluators. If you want to suggest research, your own or someone else's, you can let us know [using this form](https://coda.io/form/Suggesting-research\_ddYqto0PuD0). We offer financial incentives for suggested research that we end up evaluating. If you want to be an evaluator, apply here. You can express your interest in being a member of the management team, advisory board, or reviewer pool. For more information, check our guide on [how to get involved](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research).  \
 \
 **Why **_**The Unjournal**_**?**\
 \
@@ -48,7 +48,7 @@ Peer review is great, but conventional academic publication processes are wastef
 
 **Does **_**The Unjournal**_** charge any fees?**
 
-No. We are a nonprofit organization (hosted by [OCF](https://opencollective.com/the-unjournal)) and we do not charge any fees for submitting and evaluating your research. We compensate evaluators for their time and even award prizes for strong research work, in contrast to most traditional journals. We do so thanks to funding from the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) and [Survival and Flourishing Fund](https://survivalandflourishing.fund/).&#x20;
+No. We are a US-registered tax exempt 501(c)(3) nonprofit, and we do not charge any fees for submitting and evaluating your research. We compensate evaluators for their time and even award prizes for strong research work, in contrast to most traditional journals. We do so thanks to funding from the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) and [Survival and Flourishing Fund](https://survivalandflourishing.fund/).&#x20;
 
 At some point in the future, we might consider sliding-scale fees for people or organizations submitting their work for _Unjournal_ evaluation, or for other services. If we do this, it would simply be a way to cover the compensation we pay evaluators and to cover our actual costs. Again, we are a _nonprofit_ and we will stay that way.
 
