@@ -41,7 +41,7 @@ Our management team and advisory board will vote on the prize winners in light o
 
 **Deadline:**  _Extended until 5 December (to ensure eligibility)._
 
-_Note: In a subsection below,_ [_Recap: submissions_](../../policies-projects-evaluation-workflow/recap-submissions.md)_, we outline the basic requirements for submissions to_ The Unjournal_._
+_Note: In a subsection below,_ [_Recap: submissions_](impactful-research-prize/recap-submissions.md)_, we outline the basic requirements for submissions to_ The Unjournal_._
 
 ### How we chose the research prize winners (2023)
 

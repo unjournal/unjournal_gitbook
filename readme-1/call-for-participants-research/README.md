@@ -20,9 +20,9 @@ _Please note that while data submitted through the above forms may be shared int
 
 ## Overview and call
 
-I am [David Reinstein](https://www.davidreinstein.org/), founder and co-director[^1] of _The Unjournal_. We have an open call for committee members, board members, reviewers, and suggestions for relevant work for _The Unjournal_ to evaluate.
+[David Reinstein](https://www.davidreinstein.org/) is the founder and co-director[^1] of _The Unjournal_. The organization is currently looking for field specialists and evaluators, as well as suggestions for relevant work for _The Unjournal_ to evaluate.
 
-_The_ [_Unjournal_ team](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team) is building a system for credible, public, journal-independent feedback and evaluation of research.
+_The Unjournal_ [team](https://www.unjournal.org/team) is building a system for credible, public, journal-independent feedback and evaluation of research.
 
 <details>
 
@@ -84,7 +84,7 @@ We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, ap
 
 **Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for _The Unjournal_. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.
 
-_Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7Yy) _(about 3–5 min, same form for all roles or involvement)._
+_Interested? Please fill out_ [_this form_ ](https://coda.io/form/Join-the-Unjournal\_dc3NLlpa-eq)_(about 3–5 min, same form for all roles or involvement)._
 
 
 
@@ -98,15 +98,11 @@ _Interested? Please fill out_ [_this form_](https://airtable.com/shrtMv4hNlv8aL7
 
 We are looking for high-quality, globally pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research. Please suggest research [here](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). (We offer bounties and prizes for useful suggestions – [see note](#user-content-fn-3)[^3].) For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and accompanying links.
 
-You can also [put forward your own work](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1).
-
-We provide a separate form for research suggestions[ here](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). We may follow up with you individually.
+You can also put [forward your own work](https://coda.io/form/Suggesting-research\_ddYqto0PuD0).
 
 ## Contact us
 
 If you are interested in discussing any of the above in person, please email us ([contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)) to arrange a conversation.
-
-We invite you to fill in [this form ](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy)to leave your contact information, as well as outlining which parts of the project you may be interested in.
 
 _Note_: This is under continual refinement; see our [policies](../../policies-projects-evaluation-workflow/) for more details.
 
