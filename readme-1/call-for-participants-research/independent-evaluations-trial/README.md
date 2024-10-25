@@ -1,6 +1,12 @@
 # Independent evaluations (trial)
 
 {% hint style="info" %}
+_Kickstarter incentive:_ After the first eight quality submissions (or by January 1, 2025 - whichever comes later) we will award a prize of $500 to the most valuable evaluation.
+{% endhint %}
+
+
+
+{% hint style="info" %}
 **Disambiguation**: The Unjournal focuses on _commissioning_ expert evaluations, guided by an ‘evaluation manager’ and compensating people for their work. (See the outline of our main process[ here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow)). We plan to continue to focus on that mode. Below we sketch an _additional_ parallel but separate approach.
 {% endhint %}
 
