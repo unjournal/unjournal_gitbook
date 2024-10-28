@@ -2,13 +2,13 @@
 
 ## The Pivotal Questions project in brief
 
-[The Unjournal](http://unjournal.org) commissions public evaluations of impactful research in quantitative social sciences fields. We are seeking _pivotal questions_ to guide our choice of research papers to commission for evaluation. We are contacting organizations that aim to use evidence to do the most good, and asking:&#x20;
+[The Unjournal](http://unjournal.org) commissions public evaluations of impactful research in quantitative social sciences fields. We are seeking _pivotal questions_ to guide our choice of research papers to commission for evaluation. We're contacting organizations that aim to use evidence to do the most good, and asking:&#x20;
 
 * _Which open questions most affect your policies and funding recommendations_?&#x20;
 * _For which questions would research yield the highest ‘value of information’?_\
 
 
-The Unjournal has focused on finding [_research papers_](#user-content-fn-1)[^1] that seems relevant to impactful questions and crucial considerations, and then commission experts to publicly evaluate them. (For more about our process, see [here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow)). Our field specialist teams search and monitor prominent archives (like [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date#listing-77041)), and consider [agendas from impactful organizations](https://airtable.com/applDG6ifmUmeEJ7j/shrQkVhLlJSpRKOGY), while keeping an eye on forums and social media.&#x20;
+The Unjournal has focused on finding [_research papers_](#user-content-fn-1)[^1] that seems relevant to impactful questions and crucial considerations, and then commissioning experts to publicly evaluate them. (For more about our process, see [here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow)). Our field specialist teams search and monitor prominent research archives (like [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date#listing-77041)), and consider [agendas from impactful organizations](https://airtable.com/applDG6ifmUmeEJ7j/shrQkVhLlJSpRKOGY), while keeping an eye on forums and social media.&#x20;
 
 We're now exploring turning this on its head and identifying _pivotal questions_ first and identifying evaluating a cluster of research that informs these. This could offer a more efficient and observable path to impact.  (For context, see our [ ‘logic model’ flowchart for our theory of change](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/global-priorities-theory-of-change).)\
 
@@ -17,10 +17,21 @@ We're now exploring turning this on its head and identifying _pivotal questions_
 
 #### Elicit questions
 
-The Unjournal will ask impact-focused research-driven organizations such as GiveWell, Open Philanthropy, and Charity Entrepreneurship to identify specific [quantifiable questions](#user-content-fn-2)[^2]. that impact their funding, policy, and research-direction choices. For example, if an organization is considering whether to fund a psychotherapeutic intervention in a LMIC, they might ask “How much does a brief course of non-specialist psychotherapy increase happiness, compared to the same amount spent on direct cash transfers?” We’re looking for the questions with the highest value-of-information (VOI) for the organization’s work over the next few years.&#x20;
+The Unjournal will ask impact-focused research-driven organizations such as Open Philanthropy and Charity Entrepreneurship to identify specific [quantifiable questions](#user-content-fn-2)[^2] that impact their funding, policy, and research-direction choices. For example, If GiveWell is considering recommending a charity running a CBT intervention in West Africa, they’d like to know “how much does a 16 week course of non-specialist psychotherapy increase self-reported happiness, compared to the same amount spent on direct cash transfers?”  We’re looking for the questions with the highest value-of-information (VOI) for the organization’s work over the next few years.&#x20;
 
 We have some requirements — the questions should relate to The Unjournal’s coverage areas and engage rigorous research in economics, social science, policy, or impact quantification. Ideally, organizations will identify at least one piece of publicly-available research that relates to their question. But we are doing this mainly to _help_ these organizations, so we will try to keep it simple and low-effort for them.
 
+<details>
+
+<summary>More examples of questions</summary>
+
+* If The Center for Humane Technology  is considering a political campaign for AI safety in California, they could consider “how much does television and social media advertisements increase the vote share for ballot initiatives supporting the regulation of technology and business for safety reasons?”
+* OP might be considering funding organizations that promote democracy, largely because they think democracies may be more resilient to global catastrophies. As a tractable proxy, they may want to know “by what percentage does a country being a democracy reduce the loss of life in a natural disaster on the scale of a 7+ magnitude earthquake”?
+* If a CE project is considering promoting farmed fish welfare legislation in India, they might ask “as the price of India-farmed fish increases by 10%, how much will consu
+
+</details>
+
+We will work to minimize the effort required from these organizations; e.g.,  by leveraging their existing writings and agendas to suggest potential high value-of-information questions. We will also crowdsource questions (via EA Forum, social media, etc.), offering bounties for valuable suggestions.\
 
 
 #### Select, refine, and get feedback on the target questions
