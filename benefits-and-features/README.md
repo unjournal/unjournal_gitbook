@@ -1,8 +1,6 @@
 # Why Unjournal?
 
-The features of The Unjournal, and what the project offers beyond the traditional academic publication methods.
-
-See sections below:
+_What do we offer, and how does it improve upon traditional academic review/publishing? See:_
 
 [costs-of-playing-the-publication-game.md](costs-of-playing-the-publication-game.md "mention"): Shows how The Unjournal's process reduces the traditionally high costs and 'games' associated with standard publication mechanisms.
 
