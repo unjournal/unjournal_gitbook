@@ -41,6 +41,6 @@ _We outline some further details in the link below._
 
 _See the link below for a full 'flowchart' map of our evaluation workflow_
 
-{% content-ref url="mapping-evaluation-workflow.md" %}
-[mapping-evaluation-workflow.md](mapping-evaluation-workflow.md)
+{% content-ref url="mapping-evaluation-workflow/" %}
+[mapping-evaluation-workflow](mapping-evaluation-workflow/)
 {% endcontent-ref %}

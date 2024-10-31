@@ -21,7 +21,7 @@ Activities of those on the management committee may involve a combination of the
 
 ## **Advisory board (AB) members**&#x20;
 
-Beyond direct roles within _The Unjournal_, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager when needed (see our [evaluation workflow](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md)).
+Beyond direct roles within _The Unjournal_, we're building a larger, more passive advisory board to be part of our network, to offer occasional feedback and guidance, and to act as an evaluation manager when needed (see our [evaluation workflow](../../policies-projects-evaluation-workflow/mapping-evaluation-workflow/)).
 
 There is essentially no minimum time commitment for advisory board members—only opportunities to engage.  We sketch some of the expectations in the fold below.
 
