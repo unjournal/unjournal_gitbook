@@ -1,20 +1,13 @@
 # Why Unjournal?
 
-_What do we offer, and how does it improve upon traditional academic review/publishing? See:_
+_What do we offer? How does it improve upon traditional academic review/publishing?_&#x20;
 
-[costs-of-playing-the-publication-game.md](costs-of-playing-the-publication-game.md "mention"): Shows how The Unjournal's process reduces the traditionally high costs and 'games' associated with standard publication mechanisms.
+[costs-of-playing-the-publication-game.md](costs-of-playing-the-publication-game.md "mention"): The Unjournal's process reduces the high costs and "gaming" associated with standard journal publication mechanisms.
 
-[promoting-open-robust-science.md](promoting-open-robust-science.md "mention"): The Unjournal promotes research replicability/robustness in line with the RRC agenda.
+[promoting-open-robust-science.md](promoting-open-robust-science.md "mention"): We promote research replicability and robustness in line with the RRC agenda.
 
-[global-priorities-theory-of-change](global-priorities-theory-of-change/ "mention"): The Unjournal aims to enhance research reliability, accessibility, and usefulness through a robust evaluation system, fostering a productive bridge between mainstream and EA-focused researchers.
+[global-priorities-theory-of-change](global-priorities-theory-of-change/ "mention"): We prioritize impactful work. Expert evaluators focus on reliability, robustness, and usefulness. This fosters a productive bridge between high-profile mainstream researchers and global-impact-focused organizations, researchers, and practitioners.
 
-* [aside-open-access-and-information-hazards.md](global-priorities-theory-of-change/aside-open-access-and-information-hazards.md "mention"): Addresses possible information hazards in open research.
+[more-reliable-and-useful-evaluation](more-reliable-and-useful-evaluation/ "mention"): We open up the evaluation process, making it more timely and transparent, and providing valuable public metrics and feedback for the benefit of authors, other researchers, and policymakers who may want to _use_ the research..
 
-[more-reliable-and-useful-evaluation](more-reliable-and-useful-evaluation/ "mention"): The Unjournal's open evaluation model expedites and enhances research reviews by providing transparent, incentivized feedback and valuable, public metrics.
-
-* [multiple-dimensions-of-meaningful-feedback.md](more-reliable-and-useful-evaluation/multiple-dimensions-of-meaningful-feedback.md "mention"): Discusses our method of obtaining separate evaluations on various aspects of a research project—methodological, theoretical, and applied—from diverse expert groups, which leads to more comprehensive and insightful feedback.
-
-[dynamic-documents-vs-living-projects](dynamic-documents-vs-living-projects/ "mention"): Explains the terms 'dynamic documents' and 'living projects' in relation to our model, and how they facilitate continuous growth in research projects.
-
-* [benefits-of-dynamic-documents.md](dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md "mention"): Why open dynamic documents (such as [Quarto](https://www.quarto.org)) are better for research than 'PDF prisons', the conventional static PDF format that dominates research.
-* [living-research-projects.md](dynamic-documents-vs-living-projects/living-research-projects.md "mention"): Details these 'living projects' and how, under our approach, they can continuously evolve, receive evaluations, and undergo improvements within the same environment.
+[dynamic-documents-vs-living-projects](dynamic-documents-vs-living-projects/ "mention"): By separating evaluation from journal publication, free research from the static 'PDF prisons'. This enables "dynamic documents/notebooks" that boost transparency and replicability, improved research communication through web-based formats. It also facilitates "living projects": research that can continuously grow, improving in response to feedback and incorporating new data and methods in the same environment.&#x20;
