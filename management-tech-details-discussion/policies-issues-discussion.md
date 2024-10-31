@@ -72,7 +72,7 @@ See the 'IDEAS protocol' and [Marcoci et al](https://bmcresnotes.biomedcentral.c
 
 ### Revisions as part of process?
 
-[#considering-for-future-enabling-minor-revisions](../policies-projects-evaluation-workflow/mapping-evaluation-workflow.md#considering-for-future-enabling-minor-revisions "mention")
+[#considering-for-future-enabling-minor-revisions](../policies-projects-evaluation-workflow/mapping-evaluation-workflow/#considering-for-future-enabling-minor-revisions "mention")
 
 ### Timing of releasing evaluations
 

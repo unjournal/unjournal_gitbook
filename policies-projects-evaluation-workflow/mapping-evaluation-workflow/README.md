@@ -1,10 +1,10 @@
 # Mapping evaluation workflow
 
-The flowchart below focuses on the _evaluation_ part of our process.
+The flowchart below focuses on the _evaluation_ part of our process in detail. See [mapping-evaluation-workflow.md](mapping-evaluation-workflow.md "mention") for a more condensed flowchart.
 
 ```mermaid
 graph TD
-  S["Author (A) submits work (W)"] -->|informal or Airtable/PubPub| MP[M and FS prioritize work]
+  S["Author (A) submits work (W)"] --> MP[M and FS prioritize work]
   NBER[Work enters 'prestige' archive ] --> MP 
   MP --> IA
 MP --> WE[Work to evaluate]
@@ -69,15 +69,15 @@ UJO --> UJPUB[Publicize, follow availability, <br/> bibliometrics.]
       * Author (or someone on their behalf) can complete a _submission form;_ this includes a potential "request for embargo" or other special treatment.
    2. Managers and field specialists select work (or the project is submitted independently of authors) and the management team agrees to prioritize it.
       * For either of these cases (1 or 2), authors are asked for _permission._
-   3. Alternate [_Direct Evaluation track_](considering-projects/direct-evaluation-track.md)_:_ "Work enters prestige archive" (NBER, CEPR, and some other cases).
+   3. Alternate [_Direct Evaluation track_](../considering-projects/direct-evaluation-track.md)_:_ "Work enters prestige archive" (NBER, CEPR, and some other cases).
       * Managers inform and consult the authors but permission [is not needed](#user-content-fn-1)[^1]. (Particularly relevant: we confirm with author that we have the latest updated version of the research.)
 2. Prioritization
    * _Following author submission_ ...
-     * Manager(s) (M) and Field Specialists (FS) prioritize work for review (see [Project selection and evaluation](considering-projects/)).
+     * Manager(s) (M) and Field Specialists (FS) prioritize work for review (see [Project selection and evaluation](../considering-projects/)).
    * _Following direct evaluation selection_...&#x20;
      * [M or FS may add additional (fn1) ](#user-content-fn-2)[^2]"evaluation suggestions" (see [examples here](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)) explaining why it's relevant, what to evaluate, etc., to be shared later with evaluators.&#x20;
    * If requested (in either case), M decides whether to grant embargo or other special treatment, notes this, and informs authors.
-3. [M assigns](#user-content-fn-3)[^3] an Evaluation Manager (EM – typically part of our [management team or advisory board](../readme-1/discussion-team/)) to selected project.
+3. [M assigns](#user-content-fn-3)[^3] an Evaluation Manager (EM – typically part of our [management team or advisory board](../../readme-1/discussion-team/)) to selected project.
 4. EM invites evaluators (aka "reviewers") and shares the paper to be evaluated along with (optionally) a brief summary of why _The_ _Unjournal_ thinks it's relevant, and what we are asking.
    * Potential evaluators are given full access to (almost) all information submitted by the author and M, and notified of any embargo or special treatment granted.
    * EM may make special requests to the evaluator as part of a management policy (e.g., "signed/unsigned evaluation only," short deadlines, extra incentives as part of an agreed policy, etc.).
@@ -128,7 +128,7 @@ _If "minor revisions" are requested_:
 
 We don't want to replicate the slow and inefficient processes of the traditional system. Essentially, we want evaluators to give a report and rating _as the paper stands._
 
-We also want to encourage papers as [permanent-beta ](../benefits-and-features/dynamic-documents-vs-living-projects/living-research-projects.md)projects. The authors can improve it, if they like, and resubmit it for a new evaluation.
+We also want to encourage papers as [permanent-beta ](../../benefits-and-features/dynamic-documents-vs-living-projects/living-research-projects.md)projects. The authors can improve it, if they like, and resubmit it for a new evaluation.
 
 [^1]: Not at NBER and mainly not at CEPR, but see discussion.&#x20;
 
