@@ -19,11 +19,13 @@ layout:
 
 # The Unjournal
 
-[The Unjournal](https://unjournal.org/) is making research better by evaluating what really matters. We aim to make _rigorous_ research more _impactful_ and _impactful_ research more _rigorous_.
+[The Unjournal](https://unjournal.org/) commissions public expert evaluation of open-access research: to make _rigorous_ research more _impactful_ and _impactful_ research more _rigorous_. We prioritize work that concretely informs global priorities, focusing on economics, quantitative social science, and policy.&#x20;
 
-Today's research evaluation process is _out-of-date_, it _discourages innovation,_ and it _encourages rent-seeking_. We provide _open_, _rigorous_ evaluation, focused on what's _practically important_ to researchers, policy-makers, and the world. We make it easier for researchers to get feedback and credible ratings of their work.
+Today's research evaluation process is out-of-date. Traditional journals capture rents while discouraging innovative formats. The current publish-or-perish incentive diverts researcher energy away from their core work and towards playing strategic journal-submission games.
 
-We currently focus on quantitative work that informs global priorities, especially in economics, policy, and social science. Click on the cards below to find out more about our mission, organizational structure, and ways to collaborate, or ['ask or search our page](#user-content-fn-1)[^1]' for answers to your questions.
+The Unjournal provides _open_, _rigorous_ evaluation, focusing on credibility, robustness, transparency, communication, and usefulness. We make it easier for researchers to get feedback and credible assessment of their work, so they can focus on _doing better and more useful research_. We publish and disseminate these evaluation reports and benchmarked ratings; often far earlier than traditional journals. This helps policymakers understand what research to trust and how to use it, and it helps other researchers and students learn from the critique and discussion.
+
+Click on the cards below to find out more about our mission, organizational structure, and ways to collaborate, or ['ask or search our page](#user-content-fn-1)[^1]' for answers to your questions.
 
 {% include ".gitbook/includes/home-page-grid.md" %}
 
