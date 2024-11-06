@@ -291,7 +291,7 @@ Could the paper's topic and approach [_potentially_](#user-content-fn-16)[^16] h
 
 <summary>Note: this is less relevant for work in our Applied Stream </summary>
 
-Most work in our [applied stream](../../considering-projects/applied-and-policy-track-trial.md) will not be targeting academic journals. Still, in some cases it might make sense to make this comparison; e.g., if particular aspects of the work might be rewritten and submitted to academic journals, or if the work uses certain techniques that might be directly compared to academic work.  If you believe a comparison makes sense, please consider giving an assessment below, making reference to our guidelines and how you are interpreting them in this case.
+Most work in our [applied stream](../../considering-projects/applied-and-policy-track.md) will not be targeting academic journals. Still, in some cases it might make sense to make this comparison; e.g., if particular aspects of the work might be rewritten and submitted to academic journals, or if the work uses certain techniques that might be directly compared to academic work.  If you believe a comparison makes sense, please consider giving an assessment below, making reference to our guidelines and how you are interpreting them in this case.
 
 </details>
 
