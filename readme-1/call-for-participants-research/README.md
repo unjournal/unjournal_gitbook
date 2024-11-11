@@ -7,7 +7,7 @@
 1. &#x20;_**Join our team:**  Complete_ [_this form_](https://bit.ly/ujteam) [_(about 3–5 min)_](#user-content-fn-1)[^1] _to apply for our..._
    1. **Evaluator pool**: to be eligible to be commissioned and paid to evaluate and rate research, mainly in quantitative social science and policy
    2. **Field specialist teams**: help identify, prioritize, and manage research evaluation in a particular field or cause area &#x20;
-   3. M**anagement team** or **advisory board**, to be part of our decision-making
+   3. **Management team** or **advisory board**, to be part of our decision-making
 2. **Suggest research for us to assess** using [this form](https://bit.ly/UJsuggest). We offer bounty rewards. Submit your _own_ research [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)
 3. **Do an Independent Evaluation** to build your portfolio, receive guidance, and be eligible for promotion and prizes. See details [independent-evaluations-trial](independent-evaluations-trial/ "mention")
 4. &#x20;Suggest [pivotal-questions](../../pivotal-questions/ "mention") for us to focus on
