@@ -1,4 +1,10 @@
-# "Pivotal questions" initiative
+# "Pivotal questions"
+
+
+
+{% hint style="info" %}
+Express your interest/suggest a pivotal question using [this form](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot\_dUpq6ZxNtdC).
+{% endhint %}
 
 ## The Pivotal Questions project in brief
 
