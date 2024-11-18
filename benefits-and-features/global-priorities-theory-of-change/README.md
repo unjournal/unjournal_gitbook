@@ -40,16 +40,21 @@ B6["Replicable, transparent, <br/> readable rsch."]:::Systemic --> RSXreliable
 B2-...-B6
 ```
 
-Our _theory of change_ is shown above as a series of possible paths; we indicate what is arguably the most "direct" path in yellow. All of these begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system (in green, at the top). These processes all lead to impactful research being more in-depth, more reliable, more accessible, and more useful, better informing decision-makers and leading to better decisions and outcomes (in green, at the bottom).
+Our _theory of change_ is shown above as a series of possible paths; we indicate what is arguably the most "direct" path in yellow. All of these paths begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system (in green, at the top). These processes all lead to impactful research being more in-depth, more reliable, more accessible, and more useful, and thus better informing decision-makers and leading to better decisions and outcomes (in green, at the bottom).
 
-Highlighting some of the key paths:
+{% hint style="info" %}
+You can zoom in on [#some-of-the-main-paths](./#some-of-the-main-paths "mention") below
+{% endhint %}
 
-1. (Yellow) Faster and better feedback on impactful research improves this work and better informs policymakers and philanthropists (yellow path).
-2.  (Blue) Our processes and incentives will foster ties between mainstream/prominent/academic/policy researchers and global-priorities or EA-focused researchers. This will improve the rigor, credibility, exposure, and influence of previously "EA niche" work while helping mainstream researchers better understand and incorporate ideas, principles, and methods from the EA and rationalist research communities (such as counterfactual impact, cause-neutrality, reasoning transparency, and so on.)
 
-    \
-    This process will also nudge mainstream academics towards focusing on impact and global priorities, and towards making their research and outputs more accessible and useable.
-3. (Pink) _The Unjournal_’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at "predicting publication outcomes," we will become a replacement for traditional processes, improving research overall—some of which will be highly impactful research.
+
+#### _**Highlighting some of the key paths:**_
+
+<mark style="background-color:yellow;">**(Yellow)**</mark> Faster and better feedback on impactful research improves this work and better informs policymakers and philanthropists.
+
+<mark style="background-color:blue;">**(Blue)**</mark> Our processes and incentives will foster ties between (a) mainstream and prominent academic and policy researchers and (b) global-priorities or EA-aligned researchers. This will improve the rigor, credibility, exposure, and influence of previously "EA niche" work while helping mainstream researchers better understand and incorporate ideas, principles, and methods from the EA and rationalist research communities (such as counterfactual impact, cause-neutrality, reasoning transparency, and so on.) This process will also nudge mainstream academics towards focusing on impact and global priorities, and towards making their research and outputs more accessible and useable.
+
+<mark style="background-color:red;">**(Pink)**</mark> _The Unjournal_’s more efficient, open, and flexible processes will become attractive to academics and stakeholders. As we become better at "predicting publication outcomes," we will become a replacement for traditional processes, improving research overall—some of which will be highly impactful research.
 
 ## Detailed explanations of key paths
 
