@@ -41,6 +41,24 @@ _We outline some further details in the link below._
 
 _See the link below for a full 'flowchart' map of our evaluation workflow_
 
+
+
+## Other approaches
+
+We are also piloting several initiatives that involve a different process. See:
+
+{% content-ref url="../pivotal-questions/" %}
+[pivotal-questions](../pivotal-questions/)
+{% endcontent-ref %}
+
+{% content-ref url="../readme-1/call-for-participants-research/independent-evaluations-trial/" %}
+[independent-evaluations-trial](../readme-1/call-for-participants-research/independent-evaluations-trial/)
+{% endcontent-ref %}
+
+
+
+
+
 {% content-ref url="mapping-evaluation-workflow/" %}
 [mapping-evaluation-workflow](mapping-evaluation-workflow/)
 {% endcontent-ref %}
