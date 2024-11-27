@@ -24,7 +24,7 @@ You can request a conditional embargo by emailing us at [contact@unjournal.org](
 
 If there is an early-career researcher on the authorship team, we may allow authors to "embargo" the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite.&#x20;
 
-For further details on this, and examples, see ["Conditional embargos and exceptions"](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/b1RpEkRWWqZAV4SlrFCt/\~/changes/536/policies-projects-evaluation-workflow/considering-projects/conditional-embargos-and-exceptions).
+For further details on this, and some examples, see [conditional-embargos-and-exceptions.md](../policies-projects-evaluation-workflow/considering-projects/conditional-embargos-and-exceptions.md "mention").
 
 
 
@@ -103,7 +103,7 @@ But if getting any public feedback was so damaging, why would academics be eager
 
 The main point: _Unbiased signals cannot systematically lead to beliefs updating in one direction_.&#x20;
 
-For fancy and formal ways of saying this and related concepts, see [Martingales](https://galton.uchicago.edu/\~lalley/Courses/313/Martingales.pdf), [Conservation of Expected Evidence](https://www.lesswrong.com/tag/conservation-of-expected-evidence), Rational Expectations, and the Law of Iterated Expectations.
+For fancy and formal ways of saying this and related concepts, see [Martingales](https://galton.uchicago.edu/~lalley/Courses/313/Martingales.pdf), [Conservation of Expected Evidence](https://www.lesswrong.com/tag/conservation-of-expected-evidence), Rational Expectations, and the Law of Iterated Expectations.
 
 In other words, _people will take your transparency into account_.
 
