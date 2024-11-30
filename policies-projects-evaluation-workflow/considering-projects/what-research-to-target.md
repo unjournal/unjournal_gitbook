@@ -1,7 +1,3 @@
----
-description: (for pilot and beyond)
----
-
 # What research to target?
 
 Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities (see linked discussion)](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2]. We want to see better research leading to better outcomes in the real world (see our '[Theory of Change](../../benefits-and-features/global-priorities-theory-of-change/)').
@@ -13,7 +9,7 @@ _See (earlier) discussion in public call/EA forum discussion_ [_HERE_](https://f
 To reach these goals, we need to select "the right research" for evaluation. We want to choose papers and projects that are highly relevant, methodologically promising, and that will benefit substantially from our evaluation work. We need to optimize how we select research so that our efforts remain mission-focused and _useful_. We also want to make our process transparent and fair. To do this, we are building a coherent set of criteria and goals, and a specific approach to guide this process. We explore several dimensions of these criteria below.
 
 {% hint style="info" %}
-_Management access only_: General discussion of prioritization in Gdoc [HERE](https://docs.google.com/document/d/1Ei-3t2bUazjlBOIg8chLxOrz\_sXl\_osAzrLU4hO1wDk/edit). Private discussion of specific papers in Airtable and links (e.g., [HERE](https://docs.google.com/document/d/14HXHQTqwJ5VOw-SBoJD8Sd3jathdO9geKdmhdOOx\_Gw/edit)). _We incorporate some of this discussion below._
+_Management access only_: General discussion of prioritization in Gdoc [HERE](https://docs.google.com/document/d/1Ei-3t2bUazjlBOIg8chLxOrz_sXl_osAzrLU4hO1wDk/edit). Private discussion of specific papers in our Coda resource. _We incorporate some of this discussion below._
 {% endhint %}
 
 ## High-level considerations for prioritizing research
@@ -119,7 +115,7 @@ We hope we have identified the important considerations (above); but we may be m
 
 ## Data:  what are we evaluating/considering?
 
-We present and analyze the specifics surrounding our current evaluation data in [this interactive notebook/dashboard here. ](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data\_analysis.html)
+We present and analyze the specifics surrounding our current evaluation data in [this interactive notebook/dashboard here. ](https://unjournal.github.io/unjournaldata/chapters/evaluation_data_analysis.html)
 
 
 
@@ -154,13 +150,9 @@ Do they need particular convincing? Do they need help making their engagement wi
 
 </details>
 
-
-
 [^1]: We discuss our prioritization considerations under [global-priorities.md](../../faq-interaction/global-priorities.md "mention")
 
 [^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
-
-
 
 [^3]: Our evaluations involve many hours of work from researchers with very specific expertise in the narrow research area and methods. In contrast, our prioritization is less intensive, and the field specialists will tend to have adjacent expertise.&#x20;
 
