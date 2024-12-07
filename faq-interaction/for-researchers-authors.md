@@ -162,17 +162,18 @@ Authors' responses could bring several benefits...
 
 ### What should an 'author response' look like?
 
+Evaluations may raise substantive doubts and questions, and make some specific suggestions, and ask [followup questions](#user-content-fn-12)[^12] about (e.g.) data, context, or assumptions. There's no need to respond to _every_ evaluator point. Only respond where you have something substantive: clarifying doubts, explaining the justification for your particular choices, and giving your thoughts on the suggestions (which will you incorporate, or not, and why?).&#x20;
+
+A well-written author response might have a clear narrative and group responses into themes.&#x20;
+
+Try to have a positive tone (no personal attacks etc.) but avoid formality, over-politeness, or flattery. Revise-and-resubmit responses at standard journals sometimes begin each paragraph with "thank you for this excellent suggestion". Feel free to skip this; we want to focus on the substance.\
+
+
 **Examples:** We've received several detailed and informative author responses, such as:
 
 * [Gerster and Epperson, “Willful Ignorance and Moral Behavior” ](https://unjournal.pubpub.org/pub/2k4ycf19/release/1)
 * [Denkenberger et al on "Long term cost-effectiveness of resilient foods..."](https://unjournal.pubpub.org/pub/responseallfed/release/3)
 * [Trammell and Aschenbrenner, “Existential Risk and Growth”](https://unjournal.pubpub.org/pub/authorresponseexistentialrisk/release/1)
-
-Evaluations may raise substantive doubts and questions, and make some specific suggestions, and ask [followup questions](#user-content-fn-12)[^12] about (e.g.) data, context, or assumptions. There's no need to respond to _every_ evaluator point. Only respond where you have something substantive: clarifying doubts, explaining the justification for your particular choices, and giving your thoughts on the suggestions (which will you incorporate, or not, and why?).&#x20;
-
-A well-written author response would (ideally) have a clear narrative and group responses into themes.
-
-Try to have a positive tone (no personal attacks etc.) but avoid formality, over-politeness, or flattery. Revise-and-resubmit responses at standard journals sometimes begin each paragraph with "thank you for this excellent suggestion". Feel free to skip this; we want to focus on the substance.
 
 [^1]: Sometimes three evaluators, occassionally only one.      &#x20;
 
