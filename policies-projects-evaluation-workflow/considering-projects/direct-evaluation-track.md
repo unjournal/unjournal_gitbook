@@ -70,6 +70,12 @@ _**Response:**_ We will be careful with this. Initially, we started this 'direct
 **Aside:** in the future, we hope to work directly with working paper series, associations, and research groups to get their approval and engagement with _Unjournal_ evaluations. We hope that having a large share of papers in your series evaluated will serve as a measure of confidence in your research quality. If you are involved in such a group and are interested in this, please reach out to us ([contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)).
 {% endhint %}
 
+{% hint style="info" %}
+_Dec 7, 2024:_ We have updated some of our rules and guidelines on this page. These will  be applied going forward (in future contacts with authors) but not retroactively.&#x20;
+{% endhint %}
+
+
+
 ## Direct evaluation of "prestige work": eligibility rules & guidelines
 
 ### **NBER**
