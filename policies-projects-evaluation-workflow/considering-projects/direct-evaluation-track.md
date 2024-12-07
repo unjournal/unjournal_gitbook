@@ -106,6 +106,10 @@ If the PhD student or untenured academic is otherwise clearly extremely high-per
 
 See also [#direct-evaluation-of-impactful-work](direct-evaluation-track.md#direct-evaluation-of-impactful-work "mention")
 
+{% hint style="info" %}
+_**Under review/R\&R at a journal?**_ The fact that the paper is under submission or in "revise and resubmit" at a top journal does _not_ preclude us from evaluating it. In some cases it may be particular important and helpful to evaluate work at this stage. But we'd like to be aware of this, as it can weigh into our considerations and timing. &#x20;
+{% endhint %}
+
 
 
 ## Direct evaluation of "impactful work"
