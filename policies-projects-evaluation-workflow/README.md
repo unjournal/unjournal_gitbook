@@ -31,7 +31,7 @@ People and organizations submit their own research or suggest research they beli
 We make all of this evaluation work public on [our PubPub page](https://unjournal.pubpub.org/), along with an _evaluation summary._ We create DOIs for each element and submit this work to scholarly search engines. We also present a summary and analysis of our [evaluation ratings data](https://unjournal.shinyapps.io/DataExplorer/).&#x20;
 
 \
-_We outline some further details in the link below._
+&#xNAN;_&#x57;e outline some further details in the link below._
 
 [communicating-results.md](communicating-results.md "mention")&#x20;
 
@@ -39,7 +39,7 @@ _We outline some further details in the link below._
 
 ### Flowchart
 
-_See the link below for a full 'flowchart' map of our evaluation workflow_
+_See_ [mapping-evaluation-workflow](mapping-evaluation-workflow/ "mention") _for a full 'flowchart' map of our evaluation workflow_
 
 
 
@@ -54,10 +54,6 @@ We are also piloting several initiatives that involve a different process. See:
 {% content-ref url="../readme-1/call-for-participants-research/independent-evaluations-trial/" %}
 [independent-evaluations-trial](../readme-1/call-for-participants-research/independent-evaluations-trial/)
 {% endcontent-ref %}
-
-
-
-
 
 {% content-ref url="mapping-evaluation-workflow/" %}
 [mapping-evaluation-workflow](mapping-evaluation-workflow/)
