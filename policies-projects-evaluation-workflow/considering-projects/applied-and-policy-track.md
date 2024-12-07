@@ -31,6 +31,14 @@ The compensation may be flexible as well; in some cases the work may be more inv
 
 _Careful flagging and signposting:_ To preserve the reputation of our academic-stream evaluations we need to make it clear, wherever people might see this work, that it is not being evaluated by the same standards as the academic stream and doesn't “count”  towards those metrics. &#x20;
 
+
+
+### Authors' permission in the Applied Stream
+
+This research is more likely to fall into the category of [#direct-evaluation-of-impactful-work](direct-evaluation-track.md#direct-evaluation-of-impactful-work "mention"), "already influencing a substantial amount of funding in impact-relevant areas, or substantially influencing policy considerations".&#x20;
+
+If the research itself is being funded by a global-impact focused foundation or donor, this will also constitute a strong _prima facie_ reason to commission an evaluation (without requiring the authors' consent). See [this post on the EA Forum](https://forum.effectivealtruism.org/posts/N3hsGxSPNMQS4wADy/should-the-unjournal-evaluate-1-research-outputs-per).
+
 [^1]: Note: we mostly called this the ‘Non-academic stream’ in the past. We’re revising this term to be clearer and more descriptive.
 
 [^2]: It could also include the strongest work published or link-posted on the EA Forum, where it is written in the style of a long-form research report.
