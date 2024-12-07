@@ -1,6 +1,11 @@
 # 'Conditional embargos' & exceptions
 
-You can request a conditional embargo by emailing us at [contact@unjournal.org](mailto:contact@unjournal.org), or via the submission/response form. Please explain what sort of embargo you are asking for, and why. By default, we'd like Unjournal evaluations to be made public promptly. However, we may make exceptions in special circumstances, particularly for very early-career researchers.
+You can request a conditional embargo by emailing us at [contact@unjournal.org](mailto:contact@unjournal.org), or via the submission/response form. Please explain what sort of embargo you are asking for, and why. By default, we'd like Unjournal evaluations to be made public promptly.&#x20;
+
+However, we may make exceptions in special circumstances particularly&#x20;
+
+* for very early-career researchers who are not clearly [#high-professional-status-less-career-sensitive](direct-evaluation-track.md#high-professional-status-less-career-sensitive "mention"),
+* where the research is not obviously already influencing a substantial amount of funding in impact-relevant areas, or substantially influencing policy considerations
 
 If there is an early-career researcher on the authorship team, we may allow authors to "embargo" the publication of the evaluation until a later date. Evaluators (referees) will be informed of this. This date can be contingent, but it should not be indefinite.&#x20;
 

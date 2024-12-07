@@ -28,8 +28,6 @@ _We do this systematically and transparently; authors shouldn't feel singled out
 
 </details>
 
-
-
 <details>
 
 <summary>The case for this "direct evaluation"</summary>
@@ -76,7 +74,7 @@ _**Response:**_ We will be careful with this. Initially, we started this 'direct
 
 ### **NBER**
 
-All NBER working papers are generally eligible, but we will be sensitive to cases where authors may be particularly vulnerable in their career. (Remember, we contact authors, so they can plead their case.)
+All NBER working papers are generally eligible, with [rare exceptions](#user-content-fn-1)[^1].&#x20;
 
 ### CEPR
 
@@ -90,20 +88,30 @@ In some areas and fields (e.g., psychology, animal product markets) the publicat
 
 ### Papers or projects posted in any other working paper (pre-print) series
 
-These are eligible (without author permission) if all authors/all lead authors&#x20;
+These are eligible (without author permission) if all authors/all lead authors "have high professional status" or are otherwise less career-sensitive to the consequences of this evaluation.&#x20;
 
-* have tenured or ‘long term’ positions at well-known, respected universities or other research institutions, or
-* have tenure-track positions at top universities (e.g., top-20 globally by some credible rankings), or
-* are clearly not pursuing an academic career (e.g., the "partner at the aid agency running the trial").&#x20;
+### High professional status/less career-sensitive
 
-On the other hand, if one or more authors is a PhD student [close to graduation](#user-content-fn-1)[^1] or an untenured academic outside a "top global program,’’ then we will ask for permission and potentially offer an embargo.
+We define this (at least for economics) as:
 
-Another possible exception to this exception: If the PhD student or untenured academic is otherwise clearly extremely high-performing by conventional metrics; e.g., an REStud "tourist" or someone with multiple published papers in top-5 journals. In such cases the paper might be considered eligible for direct evaluation.&#x20;
+* having a tenured or ‘long term’ positions at well-known, respected universities or other research institutions, or
+* having a tenure-track positions at a top universities (e.g., top-20 globally by some credible ranking) and having published one or more papers in a "top-five-equivalent" journal, or
+* clearly not pursuing an academic career (e.g., the "partner at the aid agency running the trial").&#x20;
+
+On the other hand, if one or more authors is a PhD student [close to graduation](#user-content-fn-2)[^2] or an untenured academic outside a "top global program,’’ then we will ask for permission and potentially offer an embargo.
+
+#### **Exceptions to these exceptions**
+
+If the PhD student or untenured academic is otherwise clearly extremely high-performing by conventional metrics; e.g., an REStud "tourist" or someone with multiple published papers in top-5 journals. In such cases the paper might be considered eligible for direct evaluation.&#x20;
+
+See also [#direct-evaluation-of-impactful-work](direct-evaluation-track.md#direct-evaluation-of-impactful-work "mention")
 
 
 
 ## Direct evaluation of "impactful work"
 
-We will also evaluate work directly, without requiring author permission... Where it is clear that this research is already influencing a substantial amount of funding in impact-relevant areas, or substantially influencing policy considerations. Much of this work will be evaluated as part of our [applied-and-policy-track.md](applied-and-policy-track.md "mention").
+We will also evaluate work directly, without requiring author permission, where it is clear that this research is already influencing a substantial amount of funding in impact-relevant areas, or substantially influencing policy considerations. Much of this work will be evaluated as part of our [applied-and-policy-track.md](applied-and-policy-track.md "mention").
 
-[^1]: If the PhD student is one of several authors, early in their PhD, and this is unlikely to be part of their core "job market package", this concern is less relevant.&#x20;
+[^1]: We will permit delays and embargos in cases where some of the authors do not already have a "strong professional standing" and where the evaluation comes at a pivotal time for their career. We define this [#high-professional-status-less-career-sensitive](direct-evaluation-track.md#high-professional-status-less-career-sensitive "mention")below.
+
+[^2]: If the PhD student is one of several authors, early in their PhD, and this is unlikely to be part of their core "job market package", this concern is less relevant.&#x20;
