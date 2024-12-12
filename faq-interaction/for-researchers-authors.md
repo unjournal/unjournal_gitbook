@@ -41,19 +41,20 @@ We also allow you to respond to evaluations, and we give your response its own D
 
 ### **Why should I submit my work to The Unjournal? Why should I engage with them?**
 
-_The biggest personal gains for_ [_authors are_](#user-content-fn-7)[^7]_:_
+<mark style="color:purple;">By submitting your research and engaging with public evaluation, you send a powerful public signal that</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**you are confident in your work, open to constructive criticism, and motivated to seek the truth!**</mark>
 
-1. **Sending a public signal that you are confident in your work, open to constructive criticism, and motivated to seek the truth.**&#x20;
-2. **Substantive feedback** will help you improve your research.  [Substantive and useful feedback](#user-content-fn-8)[^8] is often very hard to get, especially for young scholars. It's hard to get anyone to read your paper – we can help!
-3. **Being evaluated by The Unjournal is a sign of impact.** We [select our research based on potential global relevance](global-priorities.md).
-4. **Ratings are markers of credibility for your work** that could help your career.
-5. The chance to **publicly respond to criticism and correct misunderstandings**.&#x20;
-6. Increasing the **visibility of** your work, which may lead to additional citations. We publicize our evaluations and the original papers on our social media feed, and occasionally in notebook and [longer-form content.](#user-content-fn-9)[^9]&#x20;
-7. **A connection** to the Open Science/Open Access and EA/Global Priorities communities. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups.
-8. A reputation as an **early adopter and innovator** in open science.
-9. **Prizes:** You may win an [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention") (publicity, reputation, and substantial financial prizes). These prizes are tied, in part, to your engagement with The Unjournal.
-10. **Undervalued or updated work:** Your paper may have been "under-published". Perhaps there are a limited set of prestigious journals in your field. You now see ways you could improve the research. _The Unjournal can help; we will also consider 'post-peer-review publication' evaluation._&#x20;
-11. **Innovative formats:** Journals typically require you to submit a LaTeX or MS Word file, and to use their fussy formats and styles. You may want to use tools like [Quarto](https://quarto.org/) that integrate your code and data, allow you to present dynamic content, and enhance reproducibility. _The Unjournal_ [_encourages this_](#user-content-fn-10)[^10]_, and we can evaluate research in virtually any format._ &#x20;
+And there are further benefits to authors[^7]:
+
+1. **Substantive feedback** will help you improve your research.  [Substantive and useful feedback](#user-content-fn-8)[^8] is often very hard to get, especially for young scholars. It's hard to get anyone to read your paper – we can help!
+2. **Being evaluated by The Unjournal is a sign of impact.** We [select our research based on potential global relevance](global-priorities.md).
+3. **Ratings are markers of credibility for your work** that could help your career.
+4. The chance to **publicly respond to criticism and correct misunderstandings**.&#x20;
+5. Increasing the **visibility of** your work, which may lead to additional citations. We publicize our evaluations and the original papers on our social media feed, and occasionally in notebook and [longer-form content.](#user-content-fn-9)[^9]&#x20;
+6. **A connection** to the Open Science/Open Access and EA/Global Priorities communities. This may lead to grant opportunities, open up new ambitious projects, and attract strong PhD students to your research groups.
+7. A reputation as an **early adopter and innovator** in open science.
+8. **Prizes:** You may win an [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention") (publicity, reputation, and substantial financial prizes). These prizes are tied, in part, to your engagement with The Unjournal.
+9. **Undervalued or updated work:** Your paper may have been "under-published". Perhaps there are a limited set of prestigious journals in your field. You now see ways you could improve the research. _The Unjournal can help; we will also consider 'post-peer-review publication' evaluation._&#x20;
+10. **Innovative formats:** Journals typically require you to submit a LaTeX or MS Word file, and to use their fussy formats and styles. You may want to use tools like [Quarto](https://quarto.org/) that integrate your code and data, allow you to present dynamic content, and enhance reproducibility. _The Unjournal_ [_encourages this_](#user-content-fn-10)[^10]_, and we can evaluate research in virtually any format._ &#x20;
 
 <details>
 
@@ -191,7 +192,7 @@ Try to have a positive tone (no personal attacks etc.) but avoid formality, over
 
 [^6]: One of our evaluation criteria particularly considers this.&#x20;
 
-[^7]: The Unjournal also directly chooses work to evaluate, and reaches out to authors for their engagement.  The benefits below also pertain to these cases. We aim to  recognize and reward authors who engage with us.
+[^7]: The Unjournal also directly chooses work to evaluate, and reaches out to authors for their engagement and (in some cases) their permission.  The benefits below also pertain to these cases. We aim to  recognize and reward authors who engage with us.
 
 [^8]: 
 
