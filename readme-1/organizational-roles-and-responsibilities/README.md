@@ -112,7 +112,7 @@ See: [Unjournal Field Specialists: Incentives and norms (trial)](https://docs.go
 
 PhD students (and others) may be interested in getting involved but worried about making commitments[^2].  But getting busy students and researchers involved even minimally could keep us in touch with the cutting edge of research and help us forge collaborations in academia. So we're offering the [“Unjournal Research Affiliate”](#user-content-fn-3)[^3] role, which is  similar to the Field Specialists, but with less responsibility and time commitment.  It comes with [no baseline compensation](#user-content-fn-4)[^4], but URAs are eligible for the compensation for suggesting papers, high-value assessment prioritization, etc.
 
-### Unjournal Research Affiliates will be expected to
+#### Unjournal Research Affiliates will be expected to
 
 1. Join our Slack and Coda, but there is no expectation to check in regularly.
 2. Suggest 2-3 papers per term (Spring, Summer, Autumn), and explain why these have potential for impact. This comes with modest compensation; see above.
