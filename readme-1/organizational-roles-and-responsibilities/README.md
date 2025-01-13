@@ -25,7 +25,7 @@ Beyond direct roles within _The Unjournal_, we're building a larger, more passiv
 
 <details>
 
-<summary>Advisory board members: expectations (sketch: Aug. 15, 2023)</summary>
+<summary>Advisory board members: expectations </summary>
 
 _As an AB member..._
 
@@ -50,7 +50,7 @@ FSs will focus on a particular area of research, policy, or impactful outcome. T
 
 Our [Incentives and norms](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit) document also provides some guidance on the nature of work and the time involved.
 
-**Compensation:** We have put together a preliminary/trial compensation formula ([incentives and norms](https://docs.google.com/document/d/1aGVf9Hq6PRVy1dYFVvLw47Mg96ZMWKbq3G3wbQdD9ZE/edit)); we aim to fairly compensate people for time spent on work done to support _The Unjournal_, and to provide incentives for suggesting and helping to prioritize research for evaluation. In addition, [evaluation management work](../../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.
+**Compensation:** We aim to fairly compensate people for time spent on work done to support _The Unjournal_, and to provide incentives for suggesting and helping to prioritize research for evaluation. See the [Norms and Compensation](https://coda.io/@contact-unjournal/public-pages-of-the-unjournal/norms-compensation-for-fs-management-team-30) page.   [Evaluation management work](../../management-tech-details-discussion/management-process/) will be compensated at roughly $300–$450 per project.
 
 **Who we are looking for**: For the FS roles, we are seeking active researchers, practitioners, and stakeholders with a strong publication record and/or involvement in the research and/or research-linked policy and prioritization processes. For the AB, also people with connections to academic, governmental, or relevant non-profit institutions, and/or involvement in open science, publication, and research evaluation processes. People who can offer relevant advice, experience, guidance, or help communicate our goals, processes, and progress.
 
@@ -110,18 +110,33 @@ See: [Unjournal Field Specialists: Incentives and norms (trial)](https://docs.go
 
 ### Unjournal Research Affiliates (URA)
 
-PhD students (and others) may be interested in getting involved but worried about making commitments[^2].  But getting busy students and researchers involved even minimally could keep us in touch with the cutting edge of research and help us forge collaborations in academia. So we're offering the [“Unjournal Research Affiliate”](#user-content-fn-3)[^3] role, which is  similar to the Field Specialists, but with less responsibility and time commitment.  It comes with [no baseline compensation](#user-content-fn-4)[^4], but URAs are eligible for the compensation for suggesting papers, high-value assessment prioritization, etc.
+_We are looking to recruit a small number of "Unjournal Research Affiliates (URAs)"._  Applicants will selected based on (1) their ability to assess, discuss, and communicate the global impact of research, (2) their understanding of The Unjournal approach, (3) their research skills, interests, and experience.  &#x20;
+
+URAs will support open-evaluation and impactful, credible research, helping The Unjournal keep on top of the latest, most interesting, influential, and potentially impactful work. They will help raise awareness of The Unjournal, helping foster a transition to a better system. \
+\
+Being a URA offers a range of benefits:
+
+* It publicly signals your commitment to open science principles, innovation, and research impact.&#x20;
+* Credibility and career capital: URAs are chosen through a selective process, and will be publicly acknowledged&#x20;
+* Build contacts with others in your field and with related interests. Stay on top of cutting-edge research, discuss and understand its value and connection to the field and to policy/impact.&#x20;
+* Have a say in the agenda.&#x20;
+* Be compensated ($) and get credit for research surveying and scoping you are already doing. See the compensation details [here](https://coda.io/@contact-unjournal/public-pages-of-the-unjournal/norms-compensation-for-fs-management-team-30).
+* Build your portfolio and unlock other opportunities in this space in the future, such as Unjournal Field Specialist and management positions
+
+**Why this role?** PhD students (and others) may be interested in getting involved but worried about making commitments[^2].  But getting busy students and researchers involved even minimally could keep us in touch with the cutting edge of research and help us forge collaborations in academia. So we're offering the [“Unjournal Research Affiliate”](#user-content-fn-3)[^3] role, which is similar to the Field Specialist role, but with less responsibility and time commitment.  \
+\
+This role comes with [no baseline compensation](#user-content-fn-4)[^4], but URAs are eligible for incentive compensation for suggesting papers, for doing high-value assessment for prioritization, and more (see [here](https://coda.io/@contact-unjournal/public-pages-of-the-unjournal/norms-compensation-for-fs-management-team-30)).
 
 #### Unjournal Research Affiliates will be expected to
 
 1. Join our Slack and Coda, but there is no expectation to check in regularly.
-2. Suggest 2-3 papers per term (Spring, Summer, Autumn), and explain why these have potential for impact. This comes with modest compensation; see above.
-3. Give the 2nd opinion (assessment) for 3 papers per term.
-4. Vote on 5-10 papers per term; check in to vote 1x per month or more
+2. Suggest 2-3 papers per term (Spring, Summer, Autumn), and explain why these have potential for global impact. This comes with modest compensation; see above.
+3. Write up the prioritization assessment (the second opinion) for three papers per term.
+4. Vote on 5-10 papers per term; check in to vote once per month or more
 5. Understand and be able to explain The Unjournal to your colleagues/on social media
 6. Join at least one (one hour) FS or Unjournal general meeting per year.
 
-Evaluation management is not expected, but we may may consult URAs for occasional help in suggesting evaluators, with potential compensation.
+Evaluation management work is not expected, but we may may consult URAs for occasional help in suggesting evaluators, with potential compensation.
 
 
 
@@ -140,4 +155,3 @@ _Note_: These descriptions are under continual refinement; see our [policies](..
 [^3]: To avoid complication, we will list these as 'Field Specialists', potentially with an asterisk for clarification.&#x20;
 
 [^4]: We may apply for grants to fund some compensation for this in the future.
-
