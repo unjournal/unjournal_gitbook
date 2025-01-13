@@ -123,7 +123,7 @@ Being a URA offers a range of benefits:
 * Be compensated ($) and get credit for research surveying and scoping you are already doing. See the compensation details [here](https://coda.io/@contact-unjournal/public-pages-of-the-unjournal/norms-compensation-for-fs-management-team-30).
 * Build your portfolio and unlock other opportunities in this space in the future, such as Unjournal Field Specialist and management positions
 
-**Why this role?** PhD students (and others) may be interested in getting involved but worried about making commitments[^2].  But getting busy students and researchers involved even minimally could keep us in touch with the cutting edge of research and help us forge collaborations in academia. So we're offering the [“Unjournal Research Affiliate”](#user-content-fn-3)[^3] role, which is similar to the Field Specialist role, but with less responsibility and time commitment.  \
+**Why are we offering this role?** Early career researchers, especially PhD students  may be interested in getting involved but worried about making commitments[^2].  But getting busy students and researchers involved even minimally could keep us in touch with the cutting edge of research and help us forge collaborations in academia. So we're offering the [“Unjournal Research Affiliate”](#user-content-fn-3)[^3] role, which is similar to the Field Specialist role, but with less responsibility and time commitment.  \
 \
 This role comes with [no baseline compensation](#user-content-fn-4)[^4], but URAs are eligible for incentive compensation for suggesting papers, for doing high-value assessment for prioritization, and more (see [here](https://coda.io/@contact-unjournal/public-pages-of-the-unjournal/norms-compensation-for-fs-management-team-30)).
 
@@ -150,7 +150,7 @@ _Note_: These descriptions are under continual refinement; see our [policies](..
 
 [^1]: Our current budget covers an average of roughly 80 total hours per Management Committee member at this rate.
 
-[^2]: They are super-busy, especially in the first years, and the program will generally discourage them from any ‘distractions’.
+[^2]: PhD students  are super-busy, especially in the first years, and the program will generally discourage them from any ‘distractions’.
 
 [^3]: To avoid complication, we will list these as 'Field Specialists', potentially with an asterisk for clarification.&#x20;
 
