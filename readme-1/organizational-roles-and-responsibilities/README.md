@@ -112,7 +112,7 @@ See: [Unjournal Field Specialists: Incentives and norms (trial)](https://docs.go
 
 _We are looking to recruit a small number of "Unjournal Research Affiliates (URAs)"._  Applicants will selected based on (1) their ability to assess, discuss, and communicate the global impact of research, (2) their understanding of The Unjournal approach, (3) their research skills, interests, and experience.  &#x20;
 
-URAs will support open-evaluation and impactful, credible research, helping The Unjournal keep on top of the latest, most interesting, influential, and potentially impactful work. They will help raise awareness of The Unjournal, helping foster a transition to a better system. \
+URAs will support open evaluation and impactful, credible research, helping The Unjournal keep on top of the latest, most interesting, influential, and potentially impactful work. They will help raise awareness of The Unjournal, helping foster a transition to a better system. \
 \
 Being a URA offers a range of benefits:
 
@@ -137,6 +137,8 @@ This role comes with [no baseline compensation](#user-content-fn-4)[^4], but URA
 6. Join at least one (one hour) FS or Unjournal general meeting per year.
 
 Evaluation management work is not expected, but we may may consult URAs for occasional help in suggesting evaluators, with potential compensation.
+
+[_Apply here_](https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq) _for this and other roles._
 
 
 
