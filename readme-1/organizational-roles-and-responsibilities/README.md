@@ -1,7 +1,7 @@
 # Organizational roles and responsibilities
 
 {% hint style="info" %}
-5 Sep 2024: The Unjournal is still looking to build our team and evaluator pool. Please consider the roles below and [express your interest here](https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq) or contact us at contact@unjournal.org.
+14 Jan 2025: The Unjournal is still looking to build our team and evaluator pool. Please consider the roles below and [express your interest here](https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq) or contact us at contact@unjournal.org.
 {% endhint %}
 
 ## **Management committee members**
