@@ -118,7 +118,7 @@ _The Unjournal'_&#x73; field specialists choose an area they want to monitor. By
 
 </details>
 
-### Benefits of being a Field Specialist or UEA
+### Benefits of being a Field Specialist or URA
 
 * _Public Leadership:_ It publicly signals your commitment to open science principles, innovation, and research impact.&#x20;
 * _Professional Credibility & Recognition_: URAs are chosen through a selective process, and will be publicly acknowledged.  URAs gain valuable experience, strengthen their CV, and position themselves for potential future opportunities with The Unjournal (e.g., Field Specialist or management roles).
