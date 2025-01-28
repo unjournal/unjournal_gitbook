@@ -7,7 +7,8 @@
 1. &#x20;_**Join our team:**  Complete_ [_this form_](https://bit.ly/ujteam) [_(about 3–5 min)_](#user-content-fn-1)[^1] _to apply for our..._
    1. **Evaluator pool**: to be eligible to be commissioned and paid to evaluate and rate research, mainly in quantitative social science and policy
    2. **Field specialist teams**: help identify, prioritize, and manage research evaluation in a particular field or cause area &#x20;
-   3. **Management team** or **advisory board**, to be part of our decision-making
+   3. [**Unjournal Research Affiliates team**](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/scEoiIiYYQByE1FaibWQ/) to help suggest, prioritize, and discuss research (a lower-commitment role)
+   4. **Management team** or **advisory board**, to be part of our decision-making
 2. **Suggest research for us to assess** using [this form](https://bit.ly/UJsuggest). We offer bounty rewards. Submit your _own_ research [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)
 3. **Do an Independent Evaluation** to build your portfolio, receive guidance, and be eligible for promotion and prizes. See details [independent-evaluations-trial](independent-evaluations-trial/ "mention")
 4. &#x20;Suggest [pivotal-questions](../../pivotal-questions/ "mention") for us to focus on
@@ -82,12 +83,12 @@ We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, ap
 
 **Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for _The Unjournal_. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.
 
-_Interested? Please fill out_ [_this form_ ](https://coda.io/form/Join-the-Unjournal\_dc3NLlpa-eq)_(about 3–5 min, same form for all roles or involvement)._
+_Interested? Please fill out_ [_this form_ ](https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq)_(about 3–5 min, same form for all roles or involvement)._
 
 
 
 {% hint style="info" %}
-&#x20;_**Ready to get started doing evaluations and building a track record?**_ See our new  [independent-evaluations-trial](independent-evaluations-trial/ "mention") initiative, offering prizes and recognition for the best work. You can evaluate work in our [public database](https://coda.io/d/Public-Database-of-Research\_d7VdSLeCrpi/Unjournal-Research-with-potential-for-impact-database\_suCwXMPL#\_luqRnzt6), or suggest and evaluate work.
+&#x20;_**Ready to get started doing evaluations and building a track record?**_ See our new  [independent-evaluations-trial](independent-evaluations-trial/ "mention") initiative, offering prizes and recognition for the best work. You can evaluate work in our [public database](https://coda.io/d/Public-Database-of-Research_d7VdSLeCrpi/Unjournal-Research-with-potential-for-impact-database_suCwXMPL#_luqRnzt6), or suggest and evaluate work.
 {% endhint %}
 
 
@@ -96,7 +97,7 @@ _Interested? Please fill out_ [_this form_ ](https://coda.io/form/Join-the-Unjou
 
 We are looking for high-quality, globally pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research. Please suggest research [here](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). (We offer bounties and prizes for useful suggestions – [see note](#user-content-fn-4)[^4].) For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and accompanying links.
 
-You can also put [forward your own work](https://coda.io/form/Suggesting-research\_ddYqto0PuD0).
+You can also put [forward your own work](https://coda.io/form/Suggesting-research_ddYqto0PuD0).
 
 
 
