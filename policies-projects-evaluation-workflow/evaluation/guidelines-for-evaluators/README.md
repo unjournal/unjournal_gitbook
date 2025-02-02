@@ -6,7 +6,7 @@ description: >-
 
 # Guidelines for evaluators
 
-_These guidelines apply to the evaluation forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version\_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)_)._&#x20;
+_These guidelines apply to the evaluation forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_)._&#x20;
 
 {% hint style="info" %}
 Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
@@ -24,7 +24,7 @@ In writing your evaluation and providing ratings, please consider the following.
 
 ### _The Unjournal_'s expectations and criteria
 
-In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods are appropriate and well-executed?  Explain why or why not.
+In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods  appropriate and well-executed?  Explain why or why not.
 
 However, we'd also like you to pay some consideration to our priorities, including
 
@@ -57,7 +57,7 @@ We want you to evaluate the _most recent/relevant version of the paper/project t
 
 <details>
 
-<summary>Publishing  evaluations: considerations and exceptions</summary>
+<summary>Publishing evaluations: considerations and exceptions</summary>
 
 We may give early-career researchers the right to veto the publication of very negative evaluations or to embargo the release of these for a defined period. We will inform you in advance if this will be the case for the work you are evaluating.
 
@@ -310,7 +310,7 @@ Journal ranking tiers are on a 0-5 scale, as follows:
 * 5/5: A-journal/Top journal
 
 {% hint style="info" %}
-_**We give some example journal rankings**_ [_**here**_](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6\_oE54gdvCjxs0vac6WF8/edit#gid=0), based on SJR and ABS ratings.
+_**We give some example journal rankings**_ [_**here**_](https://docs.google.com/spreadsheets/d/1nnS0FMOIKz-3rFJMn-JsX-6_oE54gdvCjxs0vac6WF8/edit#gid=0), based on SJR and ABS ratings.
 {% endhint %}
 
 _We encourage you to_ [_consider a non-integer score_](#user-content-fn-18)[^18], e.g. 4.6 or 2.2.&#x20;
@@ -323,7 +323,7 @@ As before, we ask for a 90% credible interval.&#x20;
 **PubPub note:** as of 14 March 2024, the PubPub form is _not_ allowing you to give non-integer responses. Until this is fixed, [please multiply these by 10 and enter these using the 0-50 slider](#user-content-fn-19)[^19] . (Or use the Coda form.)
 {% endhint %}
 
-#### **What journal ranking tier **_**should**_** this work be published in?**
+#### **What journal ranking tier&#x20;**_**should**_**&#x20;this work be published in?**
 
 _Journal ranking tier (0.0-5.0)_
 
@@ -352,7 +352,7 @@ If this work has already been published, and you know where, please report the p
 
 #### **What are we looking for and why?**
 
-We want policymakers, researchers, funders, and managers to be able to _use The Unjournal'_s evaluations to update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other and other sources of information. Evaluators may feel confident about their rating for one category, but less confident in another area. How much weight should readers give to each? In this context, it is useful to _quantify the uncertainty_.&#x20;
+We want policymakers, researchers, funders, and managers to be able to _use The Unjournal'_&#x73; evaluations to update their beliefs and make better decisions. To do this well, they need to weigh multiple evaluations against each other and other sources of information. Evaluators may feel confident about their rating for one category, but less confident in another area. How much weight should readers give to each? In this context, it is useful to _quantify the uncertainty_.&#x20;
 
 But it's hard to quantify statements like "very certain" or "somewhat uncertain" – different people may use the same phrases to mean different things. That's why we're asking for you a more precise measure, your _credible intervals._ These metrics are particularly useful for meta-science and meta-analysis.&#x20;
 
@@ -372,9 +372,9 @@ You are also asked to give a 90% credible interval. Consider this as [_**the sma
 
 For some questions, the "true value" refers to something objective, e.g. will this work be published in a top-ranked journal? In other cases, like the percentile rankings, the true value means "if you had complete evidence, knowledge, and wisdom, what value would you choose?"&#x20;
 
-For more information on credible intervals, [this Wikipedia entry](https://www.wikiwand.com/en/Credible\_interval) may be helpful.
+For more information on credible intervals, [this Wikipedia entry](https://www.wikiwand.com/en/Credible_interval) may be helpful.
 
-If you are "[well calibrated](https://www.wikiwand.com/en/Calibrated\_probability\_assessment)", your 90% credible intervals should contain the true value 90% of the time.&#x20;
+If you are "[well calibrated](https://www.wikiwand.com/en/Calibrated_probability_assessment)", your 90% credible intervals should contain the true value 90% of the time.&#x20;
 
 </details>
 
@@ -390,7 +390,7 @@ We also ask for the 'midpoint', the center dot on that slider. Essentially, we a
 
 <summary>Get better at this by 'calibrating your judgment'</summary>
 
-If you are "[well calibrated](https://www.wikiwand.com/en/Calibrated\_probability\_assessment)", your 90% credible intervals should contain the true value 90% of the time. To understand this better, assess your ability, and then practice to get better at estimating your confidence in results. [This web app](https://www.clearerthinking.org/tools/calibrate-your-judgment) will help you get practice at calibrating your judgments. We suggest you choose the "Calibrate your Judgment" tool, and select the "confidence intervals" exercise, choosing 90% confidence. Even a 10 or 20 minute practice session can help, and it's pretty fun.
+If you are "[well calibrated](https://www.wikiwand.com/en/Calibrated_probability_assessment)", your 90% credible intervals should contain the true value 90% of the time. To understand this better, assess your ability, and then practice to get better at estimating your confidence in results. [This web app](https://www.clearerthinking.org/tools/calibrate-your-judgment) will help you get practice at calibrating your judgments. We suggest you choose the "Calibrate your Judgment" tool, and select the "confidence intervals" exercise, choosing 90% confidence. Even a 10 or 20 minute practice session can help, and it's pretty fun.
 
 </details>
 
@@ -431,7 +431,7 @@ Answers to the questions [below will not be made public:](#user-content-fn-24)[^
 
 <summary>Note on the evaluation platform (13 Feb 2024)</summary>
 
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-25)[^25], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-25)[^25], you can also submit your response in a Google Do&#x63;**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
 
 </details>
 
