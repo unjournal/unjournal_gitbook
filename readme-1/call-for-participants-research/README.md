@@ -35,12 +35,12 @@ _The Unjournal_ [team](https://www.unjournal.org/team) is building a system for 
 
 </details>
 
-We maintain an **open call for participants** for four different roles:
+We maintain an **open call for participants** for several different roles:
 
 1. [**Management Committee members**](../organizational-roles-and-responsibilities/#management-committee-members) (involving honorariums for time spent)
 2. [**Advisory Board**](../organizational-roles-and-responsibilities/#advisory-board-members-abm) members (no time commitment)
 3. [**Field Specialists**](../organizational-roles-and-responsibilities/#field-specialists-fs) (who will often also be on the Advisory Board)
-4. [#unjournal-research-affiliates-ura](../organizational-roles-and-responsibilities/#unjournal-research-affiliates-ura "mention")&#x20;
+4. [**Unjournal Research Affiliates**](../organizational-roles-and-responsibilities/#unjournal-research-affiliates-specifics-and-norms) (low commitment)&#x20;
 5. A pool of **Evaluators** (who will be paid for their time and their work; we also draw evaluators from outside this pool)
 
 [The roles are explained in more detail here.](../organizational-roles-and-responsibilities/) You can express your interest (and enter our database) [here](https://bit.ly/ujteam).
