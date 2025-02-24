@@ -7,37 +7,54 @@ classDef Multi fill:#bdf2c9
 classDef Integrate fill:#99bdf0
 classDef Systemic fill:#f0b6c4
 
-A0["UJ tools, incentives, <br/> platforms, emphasis"]:::Multi --enable-->  A["More efficient <br/> rsch. feedback/eval."]:::Multi 
-A0 --"we will"--- FocusEA["Focus on impactful <br/> rsch."]:::Direct --> EAR
-A --> EAR["+ evaluation of <br/> EA-aligned rsch."]:::Direct 
-EAR --> EARig["+ Rigor of EA-aligned <br/> rsch."]:::Direct 
-EARig --> A1["Impactful research <br/> improved"]:::Multi 
+A0["UJ tools, incentives,<br/>platforms, emphasis"]:::Multi
+   --enable--> A["More efficient<br/>rsch. feedback/eval."]:::Multi
 
-EAR["+ Eval. of EA-aligned <br/> research"]:::Direct --- OF["+ 'Open science'"]:::Direct --> EARO["More replicable, <br/> reliable"]:::Direct --> A1
-A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["+ Acad. focus <br/> on global priorities"]:::Integrate 
-PayAcad:::Integrate  --> A1["Impactful rsch. <br/> improved"]:::Multi 
+A0 --"we will"--> FocusEA["(+) Focus on impactful<br/>rsch."]:::Direct 
+FocusEA --> EAR["More evaluation of<br/>EA-aligned rsch."]:::Direct
+EAR --> EARig["(+) Rigor of EA-aligned<br/>rsch."]:::Direct
+EARig --> A1["Impactful research<br/>improved"]:::Multi
+
+EAR["(+) Eval. of EA-aligned<br/>research"]:::Direct 
+   -- "..." --> OF["(+) 'Open science'"]:::Direct 
+OF --> EARO["More replicable,<br/>reliable"]:::Direct
+EARO --> A1
+
+A0 --> PayAcad["Academics paid to eval.<br/>impactful rsch."]:::Integrate 
+PayAcad --> AcadAware[" Awareness/interest<br/>in impactful rsch."]:::Integrate
+AcadAware --> D1["(+) Acad. focus<br/>on global priorities"]:::Integrate
+PayAcad --> A1
+
 EARig --"Stronger work"--> AcadAware
 
-A  --> D["UJ Attractive <br/> to researchers"]
-A --> A1:::Multi 
-A --> A2["Decisionmakers better <br/> informed"]
-A0 --"Building"--> B["Reliable predictors of <br/> rsch. 'success'"]:::Systemic --> B2["UJ-style Eval. replaces <br/> Trad. journals"]:::Systemic 
-B["Reliable predictors of <br/> rsch. 'success'"] --> A2
+A --> D["UJ Attractive<br/>to researchers"]
+A --> A1
+A --> A2["Decisionmakers<br/>better informed"]
 
-D["UJ Attractive <br/> to researchers"]:::Systemic --> B2
-B1["UJ attractive <br/> to gatekeepers"]:::Systemic --> D["UJ Attractive <br/> to researchers"]
-D --> D1 --> A1:::Multi 
-B["Reliable predictors of <br/> rsch. 'success'"] --> B1["UJ attractive <br/> to gatekeepers"] --> B2 
-B2["UJ Eval. replaces <br/> Trad. journals"] --> B3["Rsch. eval. more efficient"]:::Systemic 
-B3 --> RSXreliable["Acad. rsch. more useful/ <br/> reliable"]:::Systemic
+A0 --"Building"--> B["Reliable predictors of<br/>rsch. 'success'"]:::Systemic
+B --> B2["UJ-style Eval.<br/>replaces Trad. journals"]:::Systemic
+B --> A2
 
-RSXreliable --"Some of which is impactful"--> A1 
-B2 --> B4["Open access"]:::Systemic 
-B4 --> A2["Decisionmakers better <br/> informed"]
-A1:::Multi  --> A2:::Direct
-A0 --"Incentivize and value"--> B6["Readable formats"]:::Systemic --> A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Multi --> O["+ Survival & flourishing"]:::Multi 
-B6["Replicable, transparent, <br/> readable rsch."]:::Systemic --> RSXreliable
-B2-...-B6
+D:::Systemic --> B2
+B1["UJ attractive<br/>to gatekeepers"]:::Systemic --> D
+D --> D1 --> A1
+B --> B1 --> B2
+
+B2 --> B3["Rsch. eval.<br/>more efficient"]:::Systemic
+B3 --> RSXrel["Acad. rsch. more<br/>useful/reliable"]:::Systemic
+RSXrel --"Some of which<br/>is impactful"--> A1
+
+B2 --> B4["Open access"]:::Systemic
+B4 --> A2
+A1 --> A2
+
+A0 --"Incentivize and value"--> B6["Readable formats"]:::Systemic
+B6 --> A2 --> E1["Better assessment of<br/>priorities, policy choices"]:::Multi
+E1 --> O["(+) Survival & flourishing"]:::Multi
+B6["Replicable, transparent,<br/>readable rsch."]:::Systemic --> RSXrel
+
+B2 -- "..." --> B6
+
 ```
 
 Our _theory of change_ is shown above as a series of possible paths; we indicate what is arguably the most "direct" path in yellow. All of these paths begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system (in green, at the top). These processes all lead to impactful research being more in-depth, more reliable, more accessible, and more useful, and thus better informing decision-makers and leading to better decisions and outcomes (in green, at the bottom).
@@ -93,10 +110,6 @@ This will help us achieve our focal, most tangible "theory of change" pathway (m
 ### Faster, better feedback; attractiveness to researchers and gatekeepers; improved research formats; and better and more useful research
 
 _The Unjournal_’s open feedback should also be valuable to the researchers themselves and their research community, catalyzing progress. As the _Unjournal_ Evaluation becomes a valuable outcome in itself, researchers can spend less time "gaming the journal system." Shared public evaluation will provide an important window to other researchers, helping them better understand the relevant cutting-edge concerns. _The Unjournal_ will permit research to be submitted in a wider variety of useful formats (e.g., dynamic documents and notebooks rather than "frozen pdfs"), enabling more useful, replicable content and less time spent formatting papers for particular journals. We will also allow researchers to improve their work _in situ_ and gain updated evaluations, rather than having to spin off new papers. This will make the literature more clear and less cluttered.
-
-
-
-
 
 ## "Some of the main paths"
 
