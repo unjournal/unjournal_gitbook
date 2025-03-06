@@ -1,6 +1,6 @@
 # For prospective evaluators
 
-_**Thanks for your interest in evaluating research for**_** The Unjournal!**
+_**Thanks for your interest in evaluating research for**_**&#x20;The Unjournal!**
 
 ## **Who we are**
 
@@ -36,28 +36,30 @@ Your evaluation will be made public and given a DOI. You have the option to be i
 
 [You will be given a $200-$400 honorarium](#user-content-fn-3)[^3] for providing a prompt[^4] and complete evaluation and feedback ($100-$300 base + $100 'promptness bonus') in line with our [expected standards](for-prospective-evaluators.md#what-we-are-asking-you-to-do).&#x20;
 
-{% hint style="info" %}
-**Note, Aug. 2024**: we're adjusting the base compensation to reward strong work and experience. [_Minimum base compensation:_ ](#user-content-fn-5)[^5]
+Our current baseline compensation has two tiers, aimed to reward strong previous work doing public evaluations and reviews for us and for others. These tiers are _not_ about academic seniority or credentials.&#x20;
 
-* $100 + $100 for first-time evaluators
-* $300 + $100 for return Unjournal evaluators and those with previous strong public review experience.\
-  \
-  &#x20;We will be integrating other incentives and prizes into this, and are committed to [$450](https://x.com/450Movement) in average compensation per evaluation, including prizes.
-{% endhint %}
+[_Minimum base compensation tiers:_ ](#user-content-fn-5)[^5]
 
-You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses. We currently (Feb. 2024) set aside an additional $150 per evaluation for incentives, bonuses, and prizes.
+1. $100 + $100 for first-time evaluators without demonstrated public review experience
+2. $300 + $100 for return Unjournal evaluators and those with previous strong _public_ review experience (for The Unjournal or through other initiatives).
 
-See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims)
+We will be integrating other incentives and prizes into this, and are committed to [$450](https://x.com/450Movement) in average compensation per evaluation, including prizes. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.&#x20;
+
+See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims).
+
+<details>
+
+<summary>Other ways to show evaluation experience</summary>
+
+In addition public evaluations and referee reports, we can accept critical syntheses and literature review papers and essays as example of evaluation experience. You can also share with us an example of a previous strong referee report you have written, that would be suitable for making public given the required permissions. (Also see [reviewers-from-previous-journal-submissions.md](../../readme-1/call-for-participants-research/independent-evaluations-trial/reviewers-from-previous-journal-submissions.md "mention") for a discussion of publicly sharing these).
+
+</details>
 
 <details>
 
 <summary>Additional rewards and incentives</summary>
 
 We may occasionally offer additional payments for specifically requested evaluation tasks, or raise the base payments for particularly hard-to-source expertise.
-
-July 2023: The above is our current policy; we are working to build an effective, fair, transparent, and straightforward system of honorariums, incentives, and awards for evaluators.
-
-Feb. 204: Note that we currently set aside an additional $150 per evaluation (i.e., per evaluator) for evaluator incentives, bonuses, and prizes. This may be revised upwards or downwards in future (and this will be announced and noted).
 
 </details>
 
@@ -74,7 +76,7 @@ To learn more about our evaluation process, see[guidelines-for-evaluators](guide
 
 <summary>Note on the evaluation platform (13 Feb 2024)</summary>
 
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-6)[^6], you can also submit your response in a Google Doc**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-6)[^6], you can also submit your response in a Google Do&#x63;**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
 
 </details>
 
