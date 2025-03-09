@@ -65,6 +65,10 @@ You can reserve some "sensitive" content in your report to be shared with only _
 
 </details>
 
+{% hint style="info" %}
+For a model of what we are looking for, see examples of Unjournal evaluations that we thought were particular strong [here](https://unjournal.pubpub.org/prize-winning-evaluations) ("Prize winning and commended evaluations"). &#x20;
+{% endhint %}
+
 ### **Target audiences**
 
 We designed this process to balance three considerations with three target audiences. Please consider each of these:&#x20;
