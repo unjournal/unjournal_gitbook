@@ -47,7 +47,7 @@ Please pay attention to anything our managers and editors specifically asked you
 
 <summary>The evaluation will be made public</summary>
 
-Unless you were advised otherwise, this evaluation, including the review and quantitative metrics, will be given a DOI and, hopefully, will enter the public research conversation. Authors will be given two weeks to respond to reviews before the evaluations, ratings, and responses are made public. You can choose whether you want to be identified publicly as an author of the evaluation.
+Unless you were advised otherwise, this evaluation, including the review and quantitative metrics, will be given a DOI and, hopefully, will enter the public research conversation. Authors will be given two weeks to respond to the evaluations (and evaluators can adjust if any obvious oversights are found) before the evaluations, ratings, and responses are made public. You can choose whether you want to be identified publicly as an author of the evaluation.
 
 </details>
 
