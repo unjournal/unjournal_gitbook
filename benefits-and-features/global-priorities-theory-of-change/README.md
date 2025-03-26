@@ -1,5 +1,7 @@
 # Global priorities: Theory of Change (Logic Model)
 
+
+
 ```mermaid
 graph TD
 classDef Direct fill:#faefaf
@@ -119,16 +121,16 @@ classDef Direct fill:#faefaf
 classDef Multi fill:#bdf2c9
 
 A0["UJ tools, incentives, <br/> platforms, emphasis"]:::Multi --"we will"--- FocusEA["Focus on impactful <br/> rsch."]:::Direct --> EAR
- EAR["+ evaluation of <br/> EA-aligned rsch."]:::Direct 
-EAR --> EARig["+ Rigor of EA-aligned <br/> rsch."]:::Direct 
-EAR["+ Eval. of EA-aligned <br/> research"]:::Direct --- OF["+ 'Open science'"]:::Direct --> EARO["More replicable, <br/> reliable"]:::Direct --> A1["Impactful research <br/> improved"]:::Multi 
-EARig --"Stronger work"--> AcadAware["+ Awareness/interest <br/> in impactful rsch."]
+ EAR["(+) evaluation of <br/> EA-aligned rsch."]:::Direct 
+EAR --> EARig["(+) Rigor of EA-aligned <br/> rsch."]:::Direct 
+EAR["(+) Eval. of EA-aligned <br/> research"]:::Direct --- OF["(+) 'Open science'"]:::Direct --> EARO["More replicable, <br/> reliable"]:::Direct --> A1["Impactful research <br/> improved"]:::Multi 
+EARig --"Stronger work"--> AcadAware["(+) Awareness & interest <br/> in impactful rsch."]
 A1:::Multi  --> A2["Decisionmakers better <br/> informed"]:::Direct
 D1 --> A1:::Multi 
 EARig --> A1:::Multi 
-A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["+ Acad. focus <br/> on global priorities"]:::Integrate 
+A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["(+) Acad. focus <br/> on global priorities"]:::Integrate 
 
-A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Multi --> O["+ Survival & flourishing"]:::Multi 
+A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Multi --> O["(+) Survival & flourishing"]:::Multi 
 
 ```
 
