@@ -90,7 +90,7 @@ We treat these on a case-by-case basis and use discretion. All CEPR members are 
 
 In some areas and fields (e.g., psychology, animal product markets) the publication process is relatively rapid or it may fail to engage general expertise. In general, all papers that are already published in peer-reviewed journals are eligible for our direct track.&#x20;
 
-
+(We discuss when we consider post-pub evaluation in  [formats-research-stage-publication-status.md](formats-research-stage-publication-status.md "mention"))
 
 ### Papers or projects posted in any other working paper (pre-print) series
 
