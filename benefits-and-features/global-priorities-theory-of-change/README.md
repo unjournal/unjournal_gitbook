@@ -128,7 +128,7 @@ EARig --"Stronger work"--> AcadAware["(+) Awareness & interest <br/> in impactfu
 A1:::Multi  --> A2["Decisionmakers better <br/> informed"]:::Direct
 D1 --> A1:::Multi 
 EARig --> A1:::Multi 
-A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["(+) Acad. focus <br/> on global priorities"]:::Integrate 
+A0 --> PayAcad["Academics paid to eval. <br/> impactful rsch."]:::Integrate --> AcadAware["(+) Awareness/interest <br/> in impactful rsch."]:::Integrate --> D1["(+) Acad. focus <br/> on global priorities"]:::Integrate 
 
 A2:::Multi --> E1["Better assessment of <br/> priorities, policy choices"]:::Multi --> O["(+) Survival & flourishing"]:::Multi 
 
