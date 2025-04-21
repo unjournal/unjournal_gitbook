@@ -1,9 +1,9 @@
 # "Pivotal questions"
 
-
-
 {% hint style="info" %}
-Express your interest/suggest a pivotal question using [this form](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot\_dUpq6ZxNtdC).
+Express your interest/suggest a pivotal question using [this form](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot_dUpq6ZxNtdC).
+
+We will try to keep a public record of our progress — see this '[forum sequence](https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2)' and this [public database of PQs](https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Pivotal-questions-database-Public-WIP_su3FOC8M)
 {% endhint %}
 
 ## The Pivotal Questions project in brief
@@ -14,7 +14,7 @@ Express your interest/suggest a pivotal question using [this form](https://coda.
 * _For which questions would research yield the highest ‘value of information’?_\
 
 
-The Unjournal has focused on finding [_research papers_](#user-content-fn-1)[^1] that seems relevant to impactful questions and crucial considerations, and then commissioning experts to publicly evaluate them. (For more about our process, see [here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow)). Our field specialist teams search and monitor prominent research archives (like [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date#listing-77041)), and consider [agendas from impactful organizations](https://airtable.com/applDG6ifmUmeEJ7j/shrQkVhLlJSpRKOGY), while keeping an eye on forums and social media.&#x20;
+The Unjournal has focused on finding [_research papers_](#user-content-fn-1)[^1] that seems relevant to impactful questions and crucial considerations, and then commissioning experts to publicly evaluate them. (For more about our process, see [here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow)). Our field specialist teams search and monitor prominent research archives (like [NBER](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public_date#listing-77041)), and consider [agendas from impactful organizations](https://airtable.com/applDG6ifmUmeEJ7j/shrQkVhLlJSpRKOGY), while keeping an eye on forums and social media.&#x20;
 
 We're now exploring turning this on its head and identifying _pivotal questions_ first and identifying evaluating a cluster of research that informs these. This could offer a more efficient and observable path to impact.  (For context, see our [ ‘logic model’ flowchart for our theory of change](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/global-priorities-theory-of-change).)\
 
@@ -52,7 +52,7 @@ Where practicable, we will operationalize the target questions as a claim on a p
 
 **Where feasible, post these on public prediction markets (such as Metaculus)**&#x20;
 
-If the question is well operationalized, and we have a clear approach to 'resolving it' after the evaluations and synthesis, we will post it on a reputation-based market like [Metaculus](https://metaculus.com/) or [Manifold](https://app.gitbook.com/s/scEoiIiYYQByE1FaibWQ/tools-and-examples/cole\_haus-modeling). Metaculus is offering 'minitaculus' platforms such as [this one on Sudan](https://www.metaculus.com/project/Sudan/) to enable these more flexible questions. &#x20;
+If the question is well operationalized, and we have a clear approach to 'resolving it' after the evaluations and synthesis, we will post it on a reputation-based market like [Metaculus](https://metaculus.com/) or [Manifold](https://app.gitbook.com/s/scEoiIiYYQByE1FaibWQ/tools-and-examples/cole_haus-modeling). Metaculus is offering 'minitaculus' platforms such as [this one on Sudan](https://www.metaculus.com/project/Sudan/) to enable these more flexible questions. &#x20;
 
 
 
@@ -136,10 +136,10 @@ We’re still refining this idea, and looking for your suggestions about what is
 
 #### Suggest target questions
 
-<mark style="background-color:yellow;">If you work for an impact-focused research organization and you are interested in participating in our pilot,</mark> <mark style="background-color:yellow;"></mark>_<mark style="background-color:yellow;">**please reach out to us at contact@unjournal.org to flag your interest and/or complete**</mark>_ [<mark style="background-color:yellow;">**this form**</mark>](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot\_dUpq6ZxNtdC)<mark style="background-color:yellow;">.</mark> We would like to see:
+<mark style="background-color:yellow;">If you work for an impact-focused research organization and you are interested in participating in our pilot,</mark> <mark style="background-color:yellow;"></mark>_<mark style="background-color:yellow;">**please reach out to us at contact@unjournal.org to flag your interest and/or complete**</mark>_ [<mark style="background-color:yellow;">**this form**</mark>](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot_dUpq6ZxNtdC)<mark style="background-color:yellow;">.</mark> We would like to see:
 
 * A brief description of what your organization does (linking your ‘about us’ page is fine)
-* A specific, [operationalized](https://docs.google.com/document/d/1rOp9\_7g7wG\_0gEGKWEL\_dCgZE4tlrjYhfZTTUlZcmBs/edit#heading=h.lmscceyw2s4z), high-value claim or research question you'd like to be evaluated, that falls within our scope (\~quantitative social science, economics, policy, and impact measurement)
+* A specific, [operationalized](https://docs.google.com/document/d/1rOp9_7g7wG_0gEGKWEL_dCgZE4tlrjYhfZTTUlZcmBs/edit#heading=h.lmscceyw2s4z), high-value claim or research question you'd like to be evaluated, that falls within our scope (\~quantitative social science, economics, policy, and impact measurement)
 * A brief explanation of _why_ this question is particularly high-value for your organization or your work, and, if applicable, how you have tried to answer it&#x20;
 * If possible, a link to at least one research paper that relates to this question&#x20;
 * Optionally, your current beliefs about this question (your ‘priors’)
@@ -166,20 +166,20 @@ If you want to talk about this first, or if you have any questions, please send 
 
 
 
-[^4]: We discuss how this relates to our typical rules for ‘what we need permission to evaluate’ [here](https://coda.io/d/\_ddIEzDONWdb/Evaluating-Pivotal-Questions\_suamu#\_luJvW).
+[^4]: We discuss how this relates to our typical rules for ‘what we need permission to evaluate’ [here](https://coda.io/d/_ddIEzDONWdb/Evaluating-Pivotal-Questions_suamu#_luJvW).
 
 [^5]: Naturally, we may ask some experts to evaluate multiple papers within the same question or theme.
 
-[^6]: This could be integrated with the “claim evaluation” section we’re[ introducing](https://docs.google.com/document/d/1mBkAmCVomcUt0Ks7hsxShTsjAbx3WVtFfMCnasGQxns/edit#heading=h.ljcrdyqus3l8) to our evaluation forms (see [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH)). \
+[^6]: This could be integrated with the “claim evaluation” section we’re[ introducing](https://docs.google.com/document/d/1mBkAmCVomcUt0Ks7hsxShTsjAbx3WVtFfMCnasGQxns/edit#heading=h.ljcrdyqus3l8) to our evaluation forms (see [here](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)). \
     \
-    We’ll also ask them to evaluate the paper according to The Unjournal’s [standard](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators) or [applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream\_dkjUPyzvHoH) guidelines. But we’ll cut them some slack here, and offer additional compensation for the extra work.
+    We’ll also ask them to evaluate the paper according to The Unjournal’s [standard](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators) or [applied stream](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) guidelines. But we’ll cut them some slack here, and offer additional compensation for the extra work.
 
 
 
-[^7]: We have plans to do this in general (see[ sketch here](https://coda.io/d/\_ddIEzDONWdb/\_sujIB#\_luRE\_)). This seems particularly promising for this pivotal questions project, as we have a more well-defined and measurable task.
+[^7]: We have plans to do this in general (see[ sketch here](https://coda.io/d/_ddIEzDONWdb/_sujIB#_luRE_)). This seems particularly promising for this pivotal questions project, as we have a more well-defined and measurable task.
 
 [^8]: Here, we’re relying on Anca Hanea, a member of our Advisory Board who focuses on aggregating expert judgment. Academic work such as[ Rowe and Wright 2001](https://www.semanticscholar.org/paper/Expert-Opinions-in-Forecasting%3A-The-Role-of-the-Rowe-Wright/e315327ee3c6eebbb18152b9d9d97c1e31006b58) (“Delphi groups are somewhat more accurate than statistical groups (which are made up of noninteracting individuals whose judgments are aggregated)”) also seems to support this point.
 
-[^9]: See details [here](https://coda.io/d/\_ddIEzDONWdb/Evaluating-Pivotal-Questions\_suamu#\_luNnx).
+[^9]: See details [here](https://coda.io/d/_ddIEzDONWdb/Evaluating-Pivotal-Questions_suamu#_luNnx).
 
 [^10]: As noted above, we may offer bounties in the future for suggestions that we engage with. Any such bounty will also apply retroactively, to suggestions made in response to this post.
