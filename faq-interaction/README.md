@@ -28,7 +28,7 @@ We have [grants](https://globalimpact.gitbook.io/the-unjournal-project-and-commu
 
 ## I have another question.
 
-Sure! Please contact us at [theunjournal@gmail.com](mailto:theunjournal@gmail.com).
+Sure! Please contact us at [contact@unjournal.org](mailto:contact@unjournal.org).
 
 ## Specific FAQs
 
