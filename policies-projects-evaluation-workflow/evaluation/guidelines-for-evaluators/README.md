@@ -6,7 +6,7 @@ description: >-
 
 # Guidelines for evaluators
 
-_These guidelines apply to the evaluation forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_)._&#x20;
+_These guidelines apply to the PubPub evaluation forms, as well as to the publicly visible formms_  [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_)._
 
 {% hint style="info" %}
 Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
@@ -14,9 +14,10 @@ Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "men
 
 ## What we'd like you to do
 
-1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-2)[^2]**,** similar to a standard, high-quality referee report. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
+1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-2)[^2]_**.**_ This _largely_ resembles a high-quality referee report for a traditional journal without the binary focus on 'should we accept or reject?'. Below, we describe some of our values and emphases. We _also_ value insights for less-technical practitioners, especially in your evaluation 'abstract'.&#x20;
 2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-3)[^3].&#x20;
-3. Answer a short questionnaire about your background and our processes.
+3. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
+4. Answer a short questionnaire about your background and our processes.
 
 ## Writing the evaluation (aka 'the review')
 
@@ -24,7 +25,7 @@ In writing your evaluation and providing ratings, please consider the following.
 
 ### _The Unjournal_'s expectations and criteria
 
-In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods  appropriate and well-executed?  Explain why or why not.
+In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods appropriate and well-executed?  Explain why or why not.
 
 However, we'd also like you to pay some consideration to our priorities, including
 
@@ -33,7 +34,7 @@ However, we'd also like you to pay some consideration to our priorities, includi
 3. Logic and communication, intellectual modesty, transparent reasoning
 4. Open, communicative, replicable science
 
-See our [guidelines below](./#overall-assessment) for more details on each of these. Please don't _structure_ your review according to these metrics, just pay some attention to them.
+See our [guidelines below](./#overall-assessment) for more details on each of these. You don't need to _structure_ your review according to these metrics, but please pay some attention to them.
 
 <details>
 
@@ -467,7 +468,7 @@ If you still have questions, please contact us, or see our **FAQ on** [referees-
 
 _Our data protection statement is linked_ [_here_](https://bit.ly/46y0LqH)_._
 
-[^1]: These forms will soon be moved to 'PubPub platform'. Older evaluations used slightly different forms, with slightly different guidelines.
+[^1]: Note: Older evaluations used slightly different forms, with slightly different guidelines.
 
 [^2]: We refer to 'paper or project' here.  We encourage the submission of a range of formats, including dynamic documents. See [dynamic-documents-vs-living-projects](../../../benefits-and-features/dynamic-documents-vs-living-projects/ "mention"). However, we will refer to this as a 'paper'  throughout the discussion below, for simplicity.
 
