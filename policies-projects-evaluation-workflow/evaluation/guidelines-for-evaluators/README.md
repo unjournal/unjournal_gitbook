@@ -14,7 +14,7 @@ Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "men
 
 ## What we'd like you to do
 
-1. **Write an evaluation of the target** [_**paper or project**_](#user-content-fn-2)[^2]_**.**_ This _largely_ resembles a high-quality referee report for a traditional journal without the binary focus on 'should we accept or reject?'. Below, we describe some of our values and emphases. We _also_ value insights for less-technical practitioners, especially in your evaluation 'abstract'.&#x20;
+1. **Write an evaluation of the** [_**paper or project**_](#user-content-fn-2)[^2]_**.**_ This _largely_ resembles a high-quality referee report for a traditional journal without the binary focus on 'should we accept or reject?'. Below, we describe some of our values and emphases. We _also_ value insights for less-technical practitioners, especially in your evaluation 'abstract'.&#x20;
 2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-3)[^3].&#x20;
 3. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
 4. Answer a short questionnaire about your background and our processes.
@@ -27,7 +27,7 @@ In writing your evaluation and providing ratings, please consider the following.
 
 In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods appropriate and well-executed?  Explain why or why not.
 
-However, we'd also like you to pay some consideration to our priorities, including
+_However, we'd also like you to pay some consideration to our priorities, including_
 
 1. Advancing our knowledge and supporting practitioners
 2. Justification, reasonableness, validity, and robustness of methods
@@ -40,7 +40,7 @@ See our [guidelines below](./#overall-assessment) for more details on each of th
 
 <summary>Specific requests for focus or feedback</summary>
 
-Please pay attention to anything our managers and editors specifically asked you to focus on. We may ask you to focus on specific areas of expertise. We may also forward specific feedback requests from authors.
+Please pay attention to anything our managers and editors specifically suggested that to focus on. We may ask you to focus on specific areas of expertise. We may also forward specific feedback requests from authors.&#x20;
 
 </details>
 
@@ -67,7 +67,7 @@ You can reserve some "sensitive" content in your report to be shared with only _
 </details>
 
 {% hint style="info" %}
-For a model of what we are looking for, see examples of Unjournal evaluations that we thought were particular strong [here](https://unjournal.pubpub.org/prize-winning-evaluations) ("Prize winning and commended evaluations"). &#x20;
+For a model of what we are looking for, see examples of Unjournal evaluations that we thought were particularly strong [here](https://unjournal.pubpub.org/prize-winning-evaluations) ("Prize winning and commended evaluations"). &#x20;
 {% endhint %}
 
 ### **Target audiences**
