@@ -7,7 +7,7 @@ _The Unjournal_ was founded by [David Reinstein](https://davidreinstein.org) <im
 {% hint style="info" %}
 **The information below may be outdated.**&#x20;
 
-* See our "[Team page](https://www.unjournal.org/team)" at Unjournal.org for an updated view of our team members.&#x20;
+* See our "[Team page](https://www.unjournal.org/team)" at Unjournal.org for an UPDATED view of our team members.&#x20;
 * Team members can see more details in our Coda page [here](https://coda.io/d/The-Unjournal-Hub-internal_d0KBG3dSZCs/Our-team_suYYbcbI#Our-team-table_tuiC-Ijy).&#x20;
 {% endhint %}
 
@@ -25,6 +25,7 @@ See description under [_roles_](../call-for-participants-research/#roles)_._
 * [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home), Senior Research Fellow, Institute of Environment & Sustainability, Lee Kuan Yew of School of Public Policy, National University of Singapore
 * [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ\&hl=en), Research Scientist (fellow) at [North-West University](https://www.nwu.ac.za/) (South Africa)
 * [Anirudh Tagat](https://www.anirudhtagat.com/), Research Author at the Department of Economics at [Monk Prayogshala](http://www.google.com/url?q=http%3A%2F%2Fwww.monkprayogshala.in\&sa=D\&sntz=1\&usg=AOvVaw0Q2v2r2Rf_7hISS6yEnqOt) (India)
+* Bob Kubinec, University of South Carolina
 
 ### Advisory board
 
