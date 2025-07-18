@@ -9,7 +9,7 @@
 > Research evaluation is changing: New approaches go beyond the traditional journal model, promoting transparency, replicability, open science, open access, and global impact. You can be a part of this.
 
 \
-Join us on March 25 for an interactive workshop, featuring presentations from Macie Daley (Center for Open Science), [David Reinstein](http://davidreinstein.org) (The Unjournal), [Gary Charness](https://faculty.econ.ucsb.edu/\~charness/) (UC Santa Barbara), and The Unjournal’s Impactful Research Prize and Evaluator Prize winners. Breakout discussions, Q\&A, and interactive feedback sessions will consider innovations in open research evaluation, registered revisions, research impact, and open science methods and career opportunities.
+Join us on March 25 for an interactive workshop, featuring presentations from Macie Daley (Center for Open Science), [David Reinstein](http://davidreinstein.org) (The Unjournal), [Gary Charness](https://faculty.econ.ucsb.edu/~charness/) (UC Santa Barbara), and The Unjournal’s Impactful Research Prize and Evaluator Prize winners. Breakout discussions, Q\&A, and interactive feedback sessions will consider innovations in open research evaluation, registered revisions, research impact, and open science methods and career opportunities.
 
 The event will be held fully online on Zoom, on March 25 from 9AM- 11:30 AM (EST) and 9:30 PM - Midnight (EST) to accommodate a range of time zones. UTC: 25-March 1pm-3:30pm and 26-March 1:30am-4am. The event is timetabled: feel free to participate in any part you wish.
 
@@ -35,11 +35,11 @@ You can see this output most concisely [in our PubPub collection here](https://u
 
 ![](<../../.gitbook/assets/image (1).png>)
 
-For a continuously updated overview of our process, including our evaluation metrics, see our "data journalism" notebook [hosted here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data\_analysis.html#basic-presentation).&#x20;
+For a continuously updated overview of our process, including our evaluation metrics, see our "data journalism" notebook [hosted here](https://unjournal.github.io/unjournaldata/chapters/evaluation_data_analysis.html#basic-presentation).&#x20;
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Just a peek at the content you can find in our lovely data notebook! Mind the interactive hover-overs etc.</p></figcaption></figure>
 
-Remember, we assign individual DOIs to all of these outputs (evaluation, responses, manager syntheses) and aim to get the evaluation data into all bibliometrics and scholarly databases. So far, Google Scholar [has picked up _one of our outputs._](https://scholar.google.com/scholar?hl=en\&as\_sdt=0%2C22\&q=source%3A%22the+unjournal%22\&btnG=\&oq=unjo) (The Google Scholar algorithm is a bit opaque—your tips are welcome.)&#x20;
+Remember, we assign individual DOIs to all of these outputs (evaluation, responses, manager syntheses) and aim to get the evaluation data into all bibliometrics and scholarly databases. So far, Google Scholar [has picked up _one of our outputs._](https://scholar.google.com/scholar?hl=en\&as_sdt=0%2C22\&q=source%3A%22the+unjournal%22\&btnG=\&oq=unjo) (The Google Scholar algorithm is a bit opaque—your tips are welcome.)&#x20;
 
 #### Following up on the pilot: prizes and seminars
 
@@ -111,10 +111,10 @@ Yes, I was on a podcast, but I still put my trousers on one arm at a time, just 
 I hope to do more of this sort of promotion: I'm happy to go on podcasts and other forums and answer questions about _The Unjournal_, respond to doubts you may have, consider your suggestions and discuss alternative initiatives.
 
 {% hint style="info" %}
-**Some (other) ways to follow **_**The Unjournal**_**'s progress**
+**Some (other) ways to follow&#x20;**_**The Unjournal**_**'s progress**
 
 * Check out our [PubPub page](https://unjournal.pubpub.org/) to read evaluations and author responses.
-* [Follow @GivingTools](https://twitter.com/GivingTools?ref\_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it).
+* [Follow @GivingTools](https://twitter.com/GivingTools?ref_src=twsrc%5Etfw) (David Reinstein) on Twitter or Mastodon, or the hashtag #unjournal (when I remember to use it).
 * Visit [action-and-progress](../../action-and-progress/ "mention") for an overview.
 {% endhint %}
 
@@ -127,7 +127,7 @@ Alternatively, fill out this [quick survey](http://eepurl.com/ipFMdg) to get thi
 ## Progress notes since last update
 
 {% hint style="info" %}
-**Progress notes:** We will keep track of important developments here before we incorporate them into the [official fortnightly "Update on recent progress](#user-content-fn-1)[^1]." Members of the UJ team can add further updates here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit); we will incorporate changes.
+**Progress notes:** We will keep track of important developments here before we incorporate them into the [official fortnightly "Update on recent progress](#user-content-fn-1)[^1]." Members of the UJ team can add further updates here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit); we will incorporate changes.
 {% endhint %}
 
 See also [previous-updates.md](previous-updates.md "mention")

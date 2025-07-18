@@ -1,5 +1,5 @@
 ---
-description: A "curated guide" to this GitBook; updated June 2023
+description: A "curated guide" to this GitBook; updated July 2025
 ---
 
 # Content overview
@@ -10,15 +10,15 @@ description: A "curated guide" to this GitBook; updated June 2023
 
 ## Some key sections and subsections
 
-### _Learn more about_ The Unjournal_, our goals and policies_
+### Learn more about The Unjournal, our goals and policies
 
-[faq-interaction](../faq-interaction/ "mention") For authors, evaluators, etc.
+[faq-interaction](../faq-interaction/ "mention") For authors, evaluators, and others interested in collaboration.
 
-[writings](writings/ "mention") Writeups of the main points for a few different audiences
+[writings](writings/ "mention") Write-ups of the main points for a few different audiences
 
 [benefits-and-features](../benefits-and-features/ "mention") Important benefits of journal-independent public evaluation and The Unjournal's approach, with links to deeper commentary
 
-[policies-projects-evaluation-workflow](../policies-projects-evaluation-workflow/ "mention") How we choose papers/projects to evaluate, how we assign evaluators, and so on
+[policies-projects-evaluation-workflow](../policies-projects-evaluation-workflow/ "mention") Description of our evaluation process
 
 ### Other resources and reading
 

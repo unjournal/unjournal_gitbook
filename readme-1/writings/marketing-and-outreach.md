@@ -129,7 +129,7 @@ The US government and traditional NGOs are often the key audience (and funders).
 \
 But most academics think more broadly than that. And Economics as a field has historically aimed at "the greatest social good."\
 \
-_The Unjournal_ will prioritize research that informs the most effective interventions and global priorities, for humanity (and animals) now and in the future.
+&#xNAN;_&#x54;he Unjournal_ will prioritize research that informs the most effective interventions and global priorities, for humanity (and animals) now and in the future.
 
 _**Target:** EAs and EA-aligned researchers, researchers who might be "converted"_
 

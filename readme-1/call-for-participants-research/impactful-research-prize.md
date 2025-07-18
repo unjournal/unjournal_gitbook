@@ -3,7 +3,7 @@
 {% hint style="info" %}
 As of **December 2023,** the prizes below have been chosen and will be soon announced. We are also scheduling an event linked to this prize. \
 \
-_**However**,_ we are preparing for even larger author and evaluator prizes for our next phase.  [Submit your research](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1) to _The Unjournal_ or serve as an evaluator to be eligible for future prizes (details to be announced).&#x20;
+&#xNAN;_**However**,_ we are preparing for even larger author and evaluator prizes for our next phase.  [Submit your research](https://airtable.com/applDG6ifmUmeEJ7j/shrcN2cwsXpmnkOL1) to _The Unjournal_ or serve as an evaluator to be eligible for future prizes (details to be announced).&#x20;
 {% endhint %}
 
 **Submit your work to be eligible for our “**_**Unjourna**_**l: Impactful Research Prize” and a range of other benefits including the opportunity for credible public evaluation and feedback.**
@@ -41,7 +41,7 @@ Our management team and advisory board will vote on the prize winners in light o
 
 **Deadline:**  _Extended until 5 December (to ensure eligibility)._
 
-_Note: In a subsection below,_ [_Recap: submissions_](impactful-research-prize/recap-submissions.md)_, we outline the basic requirements for submissions to_ The Unjournal_._
+_Note: In a subsection below,_ [_Recap: submissions_](impactful-research-prize/recap-submissions.md)_, we outline the basic requirements for submissions to_ The Unjourna&#x6C;_._
 
 ### How we chose the research prize winners (2023)
 

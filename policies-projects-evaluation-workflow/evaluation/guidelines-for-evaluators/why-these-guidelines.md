@@ -1,7 +1,7 @@
 # Why these guidelines/metrics?
 
 {% hint style="info" %}
-_31 Aug 2023:_ Our present approach is a "working solution" involving some ad-hoc and intuitive choices. We are re-evaluating the metrics we are asking for as well as the interface and framing. We are gathering some discussion [in this linked Gdoc](https://docs.google.com/document/d/1QVA0sCvrcKZLKlXuEwJBHKTBKvtn1ml7adTD-2j\_X4g/edit), incorporating feedback from our pilot evaluators and authors. We're also talking to people with expertise as well as considering past practice and other ongoing initiatives. We plan to consolidate that discussion and our consensus and/or conclusions into the present (Gitbook) site. &#x20;
+_31 Aug 2023:_ Our present approach is a "working solution" involving some ad-hoc and intuitive choices. We are re-evaluating the metrics we are asking for as well as the interface and framing. We are gathering some discussion [in this linked Gdoc](https://docs.google.com/document/d/1QVA0sCvrcKZLKlXuEwJBHKTBKvtn1ml7adTD-2j_X4g/edit), incorporating feedback from our pilot evaluators and authors. We're also talking to people with expertise as well as considering past practice and other ongoing initiatives. We plan to consolidate that discussion and our consensus and/or conclusions into the present (Gitbook) site. &#x20;
 {% endhint %}
 
 ## **Why numerical ratings?**
@@ -26,7 +26,7 @@ _We are also researching other frameworks, templates, and past practice; we hope
 
 In eliciting expert judgment, it is helpful to differentiate the _level_ of confidence in predictions and recommendations. We want to know not only what you believe, but how strongly held your beliefs are. If you are less certain in one area, we should weigh the information you provide less heavily in updating our beliefs. This may also be particularly useful for practitioners.\
 \
-Obviously, there are challenges to any approach. Even experts in a quantitative field may struggle to convey their own uncertainty. They may also be inherently "poorly calibrated" (see discussions and tools for [calibration training](https://www.clearerthinking.org/post/2019/10/16/practice-making-accurate-predictions-with-our-new-tool)).  Some people may often be "confidently wrong." They might state very narrow "credible intervals", when the truth—where measurable—routinely falls outside these boundaries. People with greater discrimination may sometimes be _under_confident. One would want to consider and [potentially correct for poor calibration.](#user-content-fn-2)[^2]\
+Obviously, there are challenges to any approach. Even experts in a quantitative field may struggle to convey their own uncertainty. They may also be inherently "poorly calibrated" (see discussions and tools for [calibration training](https://www.clearerthinking.org/post/2019/10/16/practice-making-accurate-predictions-with-our-new-tool)).  Some people may often be "confidently wrong." They might state very narrow "credible intervals", when the truth—where measurable—routinely falls outside these boundaries. People with greater discrimination may sometimes be _unde&#x72;_&#x63;onfident. One would want to consider and [potentially correct for poor calibration.](#user-content-fn-2)[^2]\
 \
 As a side benefit, this may be interesting for research [in and of itself](#user-content-fn-3)[^3], particularly as _The Unjournal_ grows. We see 'quantifying one's own uncertainty' as a good exercise for academics (and everyone) to engage in.&#x20;
 
@@ -81,9 +81,7 @@ Either:
 
 1. The 90% Confidence/Credible Interval (CI) input you see below (now a 'slider' in PubPub V7) or
 
-<!---->
-
-2. A five-point 'Likert style' measure of confidence, which we described qualitatively and explained how we would convert it into CIs when we report aggregations.&#x20;
+2) A five-point 'Likert style' measure of confidence, which we described qualitatively and explained how we would convert it into CIs when we report aggregations.&#x20;
 
 To make this process less confusing, to encourage careful quantification of uncertainty, and to enable better-justified aggregation of expert judgment, we are de-emphasizing the latter measure.&#x20;
 
@@ -123,7 +121,7 @@ The weightings were presented once again along with each description in the sect
 >
 > You may feel comfortable giving your "90% confidence interval," or you may prefer to give a "descriptive rating" of your confidence (from "extremely confident" to "not confident").
 >
-> Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence\_interval)/[credibility](https://en.wikipedia.org/wiki/Credible\_interval) interval _or_ using our [scale described below](why-these-guidelines.md#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-6)[^6]&#x20;
+> Quantify how certain you are about this rating, either giving a 90% [confidence](https://en.wikipedia.org/wiki/Confidence_interval)/[credibility](https://en.wikipedia.org/wiki/Credible_interval) interval _or_ using our [scale described below](why-these-guidelines.md#the-confidence-rating). ([_We prefer the 90% CI. Please don't give both._](#user-content-fn-6)[^6]&#x20;
 
 <details>
 
@@ -189,11 +187,7 @@ _For example:_
 
 * Most work in this area in the next ten years will be influenced by this paper.
 
-<!---->
-
-* This paper is substantially more rigorous or more insightful than existing work in this area in a way that matters for research and practice.
-
-<!---->
+- This paper is substantially more rigorous or more insightful than existing work in this area in a way that matters for research and practice.
 
 * The work makes a major, perhaps decisive contribution to a case for (or against) a policy or philanthropic intervention.
 
@@ -241,13 +235,13 @@ The previous categories were 0–5, 5–20, 20–40, 40–60, 60–75, 75–90, 
 
 [#more-reliable-precise-and-useful-metrics](../../../benefits-and-features/more-reliable-and-useful-evaluation/#more-reliable-precise-and-useful-metrics "mention") This page explains the value of the metrics we are seeking from evaluators.
 
-[Unjournal Evaluator Guidelines and Metrics - Discussion space](https://docs.google.com/document/d/1QVA0sCvrcKZLKlXuEwJBHKTBKvtn1ml7adTD-2j\_X4g/edit)
+[Unjournal Evaluator Guidelines and Metrics - Discussion space](https://docs.google.com/document/d/1QVA0sCvrcKZLKlXuEwJBHKTBKvtn1ml7adTD-2j_X4g/edit)
 
 <details>
 
 <summary>Calibration training tools</summary>
 
-The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate\_your\_judgment.html) from Clearer Thinking is fairly helpful and fun for practicing and checking how good you are at expressing your uncertainty.  It requires creating account, but that doesn't take long. The 'Confidence Intervals' training seems particularly relevant for our purposes. \
+The [Calibrate Your Judgment app](https://programs.clearerthinking.org/calibrate_your_judgment.html) from Clearer Thinking is fairly helpful and fun for practicing and checking how good you are at expressing your uncertainty.  It requires creating account, but that doesn't take long. The 'Confidence Intervals' training seems particularly relevant for our purposes. \
 \
 ![](<../../../.gitbook/assets/image (15).png>)
 

@@ -1,7 +1,7 @@
 # Evaluation manager process
 
 {% hint style="info" %}
-_**Update Feb. 2024:**_ We are moving the discussion of the _details_ of this process to an internal Coda link ([here](https://coda.io/d/The-Unjournal-Hub-internal\_d0KBG3dSZCs/Evaluation-Management\_suhOX#\_luMy4), accessible by team members only). We will present an overview in broad strokes below.&#x20;
+_**Update Feb. 2024:**_ We are moving the discussion of the _details_ of this process to an internal Coda link ([here](https://coda.io/d/The-Unjournal-Hub-internal_d0KBG3dSZCs/Evaluation-Management_suhOX#_luMy4), accessible by team members only). We will present an overview in broad strokes below.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -11,7 +11,7 @@ See also [mapping-evaluation-workflow](../../policies-projects-evaluation-workfl
 _**Compensation:** As of April Dec 2023, evaluation managers are compensated a_ minimum of $300 per project, and up to $500 for detailed work.  Further work on 'curating' the evaluation,  engaging further with authors and evaluators, writing detailed evaluation summary content, etc., can earn up to an additional $200.&#x20;
 
 {% hint style="info" %}
-**If you are the evaluation manager please follow the process described in our private Coda space** [**here**](https://coda.io/d/The-Unjournal-Hub-internal\_d0KBG3dSZCs/Eval-Mgmt-7-step-process-guide\_suNn2#\_lu-8l)
+**If you are the evaluation manager please follow the process described in our private Coda space** [**here**](https://coda.io/d/The-Unjournal-Hub-internal_d0KBG3dSZCs/Eval-Mgmt-7-step-process-guide_suNn2#_lu-8l)
 {% endhint %}
 
 
@@ -19,7 +19,7 @@ _**Compensation:** As of April Dec 2023, evaluation managers are compensated a_ 
 ### **In brief, evaluation managers:**
 
 1. Engage with our previous discussion of the papers; why we prioritized this work, what sort of evaluators would be appropriate, what to ask them to do.&#x20;
-2. Inform and engage with the paper's _authors_, asking them for updates and requests for feedback_._ The process varies depending on whether the work is part of our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention") or whether we require authors' permission. &#x20;
+2. Inform and engage with the paper's _authors_, asking them for updates and requests for feedbac&#x6B;_._ The process varies depending on whether the work is part of our [direct-evaluation-track.md](../../policies-projects-evaluation-workflow/considering-projects/direct-evaluation-track.md "mention") or whether we require authors' permission. &#x20;
 3. Find potential evaluators with relevant expertise, contact them. We generally seek two evaluators per paper.
 4. Suggest research-specific issues for evaluators to consider. Guide evaluators on our process.
 5. Read the evaluations as they come in, suggest additions or clarifications if necessary.

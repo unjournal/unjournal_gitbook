@@ -30,7 +30,7 @@ Those listed below are at least somewhat tied to Effective Altruism.
 
 #### Rhys-Bernard: reading syllabus - [An introduction to global priorities research for economists](https://forum.effectivealtruism.org/posts/dia3NcGCqLXhWmsaX/an-introduction-to-global-priorities-research-for-economists)
 
-#### Phil Trammel: "Topics in Economic Theory & Global Prioritization" - [2023 slides/syllabus/references](https://docs.google.com/document/d/1f8AR\_iftjgwh8n182U-LxIutmNkTTXq4OBLlM4FOU\_I/edit)&#x20;
+#### Phil Trammel: "Topics in Economic Theory & Global Prioritization" - [2023 slides/syllabus/references](https://docs.google.com/document/d/1f8AR_iftjgwh8n182U-LxIutmNkTTXq4OBLlM4FOU_I/edit)&#x20;
 
 [See also ](https://globalimpact.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples)
 
@@ -67,28 +67,28 @@ Nonetheless, the agenda cites some empirical and directly policy-relevant work, 
 
 Below, I (Reinstein) list the categories from GPI's 2020 agenda. I give a first-pass impression of the relevance of these categories for _The Unjournal_, in something like descending order (bold = most clearly relevant).
 
-[**1. The longtermism paradigm**](https://globalprioritiesinstitute.org/research-agenda-web-version/#1\_The\_longtermism\_paradigm):tada:
+[**1. The longtermism paradigm**](https://globalprioritiesinstitute.org/research-agenda-web-version/#1_The_longtermism_paradigm):tada:
 
-_**More relevant to**_** The Unjournal:**
+_**More relevant to**_**&#x20;The Unjournal:**
 
-* _**"**_[_**Reducing and mitigating catastrophic risk**_](https://globalprioritiesinstitute.org/research-agenda-web-version/#13\_Reducing\_and\_mitigating\_catastrophic\_risk)_**"**_
-* **"**[_**Economic growth, population growth, and inequality**_](https://globalprioritiesinstitute.org/research-agenda-web-version/#16\_Economic\_growth\_population\_growth\_and\_inequality)_**"**_
-* "[Forecasting the long-term future](https://globalprioritiesinstitute.org/research-agenda-web-version/#18\_Forecasting\_the\_long-term\_future)"
+* _**"**_[_**Reducing and mitigating catastrophic risk**_](https://globalprioritiesinstitute.org/research-agenda-web-version/#13_Reducing_and_mitigating_catastrophic_risk)_**"**_
+* **"**[_**Economic growth, population growth, and inequality**_](https://globalprioritiesinstitute.org/research-agenda-web-version/#16_Economic_growth_population_growth_and_inequality)_**"**_
+* "[Forecasting the long-term future](https://globalprioritiesinstitute.org/research-agenda-web-version/#18_Forecasting_the_long-term_future)"
 
-_Less relevant to_ The Unjournal: "[Intergenerational governance](https://globalprioritiesinstitute.org/research-agenda-web-version/#15\_Intergenerational\_governance)", "[The value of the future of humanity](https://globalprioritiesinstitute.org/research-agenda-web-version/#12\_The\_value\_of\_the\_future\_of\_humanity)", "[Articulation and evaluation of longtermism](https://globalprioritiesinstitute.org/research-agenda-web-version/#11\_Articulation\_and\_evaluation\_of\_longtermism)", "[Other ways of leveraging the size of the future](https://globalprioritiesinstitute.org/research-agenda-web-version/#14\_Other\_ways\_of\_leveraging\_the\_size\_of\_the\_future)", "[Moral uncertainty for longtermists](https://globalprioritiesinstitute.org/research-agenda-web-version/#17\_Moral\_uncertainty\_for\_longtermists)"
+_Less relevant to_ The Unjournal: "[Intergenerational governance](https://globalprioritiesinstitute.org/research-agenda-web-version/#15_Intergenerational_governance)", "[The value of the future of humanity](https://globalprioritiesinstitute.org/research-agenda-web-version/#12_The_value_of_the_future_of_humanity)", "[Articulation and evaluation of longtermism](https://globalprioritiesinstitute.org/research-agenda-web-version/#11_Articulation_and_evaluation_of_longtermism)", "[Other ways of leveraging the size of the future](https://globalprioritiesinstitute.org/research-agenda-web-version/#14_Other_ways_of_leveraging_the_size_of_the_future)", "[Moral uncertainty for longtermists](https://globalprioritiesinstitute.org/research-agenda-web-version/#17_Moral_uncertainty_for_longtermists)"
 
-[**2. General issues in global prioritisation**](https://globalprioritiesinstitute.org/research-agenda-web-version/#2\_General\_issues\_in\_global\_prioritisation)
+[**2. General issues in global prioritisation**](https://globalprioritiesinstitute.org/research-agenda-web-version/#2_General_issues_in_global_prioritisation)
 
-_**More relevant to**_** The Unjournal:**
+_**More relevant to**_**&#x20;The Unjournal:**
 
-* [**Distributions of cost-effectiveness**](https://globalprioritiesinstitute.org/research-agenda-web-version/#25\_Distributions\_of\_cost-effectiveness)
-* [Institutions](https://globalprioritiesinstitute.org/research-agenda-web-version/#28\_Institutions)
-* [Optimal timing and discounting](https://globalprioritiesinstitute.org/research-agenda-web-version/#23\_Optimal\_timing\_and\_discounting)
-* [Diversification and hedging](https://globalprioritiesinstitute.org/research-agenda-web-version/#24\_Diversification\_and\_hedging)
-* [Modelling altruism](https://globalprioritiesinstitute.org/research-agenda-web-version/#26\_Modelling\_altruism)
-* [Altruistic coordination](https://globalprioritiesinstitute.org/research-agenda-web-version/#27\_Altruistic\_coordination)
+* [**Distributions of cost-effectiveness**](https://globalprioritiesinstitute.org/research-agenda-web-version/#25_Distributions_of_cost-effectiveness)
+* [Institutions](https://globalprioritiesinstitute.org/research-agenda-web-version/#28_Institutions)
+* [Optimal timing and discounting](https://globalprioritiesinstitute.org/research-agenda-web-version/#23_Optimal_timing_and_discounting)
+* [Diversification and hedging](https://globalprioritiesinstitute.org/research-agenda-web-version/#24_Diversification_and_hedging)
+* [Modelling altruism](https://globalprioritiesinstitute.org/research-agenda-web-version/#26_Modelling_altruism)
+* [Altruistic coordination](https://globalprioritiesinstitute.org/research-agenda-web-version/#27_Altruistic_coordination)
 
-Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#21\_Decision-theoretic\_issues), [Epistemological issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#22\_Epistemological\_issues)
+Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#21_Decision-theoretic_issues), [Epistemological issues](https://globalprioritiesinstitute.org/research-agenda-web-version/#22_Epistemological_issues)
 
 </details>
 
@@ -135,7 +135,7 @@ _To be expanded, cataloged, and considered in more detail_
 * [Effective Thesis Project "research agendas"](https://effectivethesis.org/research-agendas/): This page is particularly detailed and contains a range of useful links to other agendas!
 * [80000 Hours research questions by discipline](https://80000hours.org/articles/research-questions-by-discipline/)
 * "[Cause X guide"](https://forum.effectivealtruism.org/posts/kFmFLcdSFKo2GFJkc/cause-x-guide)
-* [Cause-mapping resources (sheet with links, associated with Falk Lieder](https://docs.google.com/spreadsheets/d/1b8Tw0OpyTSh-qbW6yAD93asrI1nEwc2\_GseJRlh-kJM/edit#gid=460638401))
+* [Cause-mapping resources (sheet with links, associated with Falk Lieder](https://docs.google.com/spreadsheets/d/1b8Tw0OpyTSh-qbW6yAD93asrI1nEwc2_GseJRlh-kJM/edit#gid=460638401))
 
 ## **Psychology and well-being**
 
@@ -147,7 +147,7 @@ _To be expanded, cataloged, and considered in more detail_
 ## Economics: overviews and prioritization exercises
 
 * ["What’s Worth Knowing? Economists’ Opinions about Economics" (Andre and Falk, 2022)](https://www.briq-institute.org/files/whats-worth-knowing.pdf): The survey, as reported in the paper, does not suggest a particular agenda, but it does suggest a direction . . . economists would generally like to see more work in certain applied areas.&#x20;
-* [Ten Years and Beyond: Economists Answer NSF's Call for Long-Term Research Agendas (Compendium, 2011](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1886598)): [This seems extremely relevant](#user-content-fn-3)[^3]. . . . NSF [asked economists and others](#user-content-fn-4)[^4] to "describe grand challenge questions . . . that transcend near-term funding cycles and are likely to drive next-generation research in the social, behavioral, and economic sciences.”&#x20;
+* [Ten Years and Beyond: Economists Answer NSF's Call for Long-Term Research Agendas (Compendium, 2011](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1886598)): [This seems extremely relevant](#user-content-fn-3)[^3]. . . . NSF [asked economists and others](#user-content-fn-4)[^4] to "describe grand challenge questions . . . that transcend near-term funding cycles and are likely to drive next-generation research in the social, behavioral, and economic sciences.”&#x20;
 
 ## Reinstein's slides/outline of this field and opportunities
 

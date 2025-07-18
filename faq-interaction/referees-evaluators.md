@@ -70,7 +70,7 @@ See the [for-researchers-authors.md](for-researchers-authors.md "mention") FAQ a
 We have two main ways that papers and research projects enter the _Unjournal_ process:
 
 1. Authors [submit their work](#user-content-fn-2)[^2]; if we believe the work is relevant, we assign evaluators, and so on.
-2. We [select research](#user-content-fn-3)[^3] that seems potentially influential, impactful, and relevant for evaluation. In some cases, we request the authors' permission before sending out the papers for evaluation. In other cases (such as where senior authors release papers in the prestigious[ NBER ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public\_date)and CEPR series) we contact the authors and request their engagement before proceeding, but we don't ask for permission_._&#x20;
+2. We [select research](#user-content-fn-3)[^3] that seems potentially influential, impactful, and relevant for evaluation. In some cases, we request the authors' permission before sending out the papers for evaluation. In other cases (such as where senior authors release papers in the prestigious[ NBER ](https://www.nber.org/papers?page=1\&perPage=50\&sortBy=public_date)and CEPR series) we contact the authors and request their engagement before proceeding, but we don't ask for permissio&#x6E;_._&#x20;
 
 For either track, authors are invited to be involved in several ways:
 
