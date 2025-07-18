@@ -3,7 +3,7 @@
 ## Progress notes since last update
 
 {% hint style="info" %}
-**"Progress notes":** We will keep track of important developments here before we incorporate them into the [official fortnightly "Update on recent progress](#user-content-fn-1)[^1]." Members of the UJ team can add further updates here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI\_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit); we will incorporate changes.
+**"Progress notes":** We will keep track of important developments here before we incorporate them into the [official fortnightly "Update on recent progress](#user-content-fn-1)[^1]." Members of the UJ team can add further updates here or in [this linked Gdoc](https://docs.google.com/document/d/1jLLhbqRQHAD51xoI_HJIPU4R8-3MQtjvn6kuUfCi5BU/edit); we will incorporate changes.
 {% endhint %}
 
 
@@ -81,7 +81,7 @@ As part of _The Unjournal_’s general approach, we keep track of (and keep in c
 
 #### New [Advisory Board members](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team#advisory-board)
 
-* [Gary Charness](https://www.wikiwand.com/en/Gary\_Charness), Professor of Economics, UC Santa Barbara
+* [Gary Charness](https://www.wikiwand.com/en/Gary_Charness), Professor of Economics, UC Santa Barbara
 * [Nicolas Treich](https://www.nicolastreich.com/), Associate Researcher, INRAE, Member, Toulouse School of Economics (animal welfare agenda)
 * [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea), Associate Professor, expert judgment, biosciences, applied probability, uncertainty quantification
 * [Jordan Dworkin](https://fas.org/expert/jordan-dworkin/), Program Lead, Impetus Institute for Meta-science
@@ -120,7 +120,7 @@ Over the next 18 months, we aim to:
 2. Build credibility: _The Unjournal_ must consistently produce insightful, well-informed, and meaningful evaluations and perform effective curation and aggregation of these. The quality of our work should be substantiated and recognized.
 3. Expand our scale and scope: We aim to grow significantly while maintaining the highest standards of quality and credibility. Our loose target is to evaluate around 70 papers and projects over the next 18 months while also producing other valuable outputs and metrics.
 
-I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X\_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some "wish-list wins." Please free to add your comments and questions.
+I sketch these goals [HERE](https://docs.google.com/document/d/1C5CE8X_rgGEZnewdKFsbxSGw7l0PxmQvr8F4tv7ege8/edit?usp=sharing), along with our theory of change, specific steps and approaches we are considering, and some "wish-list wins." Please free to add your comments and questions.
 
 ### The pipeline flows on
 
@@ -190,7 +190,7 @@ We are now up to twelve total evaluations of five papers. Most of these are on o
 
 > Two more Unjournal Evaluation sets are out. Both papers consider randomized controlled trials (RCTs) involving cognitive behavioral therapy (CBT) for low-income households in two African countries (Kenya and Ghana). These papers come to very different conclusions as to the efficacy of this intervention.
 
-> These are part of _Unjournal'_s ['direct NBER evaluation' stream](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/bit.ly/unjournaldirect).
+> These are part of _Unjournal'_&#x73; ['direct NBER evaluation' stream](https://forum.effectivealtruism.org/posts/98LrrRzdwZadLe2oD/bit.ly/unjournaldirect).
 
 More evaluations coming out soon on themes including global health and development, the environment, governance, and social media.
 
@@ -262,17 +262,11 @@ We're considering collaborations with other compatible initiatives, including...
 
 * with quantitative backgrounds, especially in economics, policy, and social-science
 
-<!---->
-
-* comfortable with statistics, cost-effectiveness, impact evaluation, and or Fermi Montecarlo models,
-
-<!---->
+- comfortable with statistics, cost-effectiveness, impact evaluation, and or Fermi Montecarlo models,
 
 * with interest and knowledge of key impact-relevant areas (see [the-field-and-ea-gp-research.md](../../the-field-and-ea-gp-research.md "mention"); e.g., global health and development),
 
-<!---->
-
-* willing to dig into details, identify a paper's key claims, and consider the credibility of the research methodology and its execution.
+- willing to dig into details, identify a paper's key claims, and consider the credibility of the research methodology and its execution.
 
 </details>
 

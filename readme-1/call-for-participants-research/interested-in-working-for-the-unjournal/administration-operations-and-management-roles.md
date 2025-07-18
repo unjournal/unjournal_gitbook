@@ -46,7 +46,7 @@ _The Unjournal_ is looking to work with a proficient writer who is adept at comm
 
 **Further desirable skills and experience:**
 
-* Academic/research background in areas related to _The Unjournal’_s work
+* Academic/research background in areas related to _The Unjournal’_&#x73; work
 * Operations, administrative, and project management experience
 * Experience working in a small nonprofit institution
 * Experience with promotion and PR campaigns and working with journalists and bloggers

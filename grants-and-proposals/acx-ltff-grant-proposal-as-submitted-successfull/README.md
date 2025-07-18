@@ -6,7 +6,7 @@ description: Passed on to LTFF and funding was awarded
 
 ## acx unjournal app
 
-[_**frozen version as Dropbox paper here**_](https://paper.dropbox.com/doc/acx-unjournal-app--BW2Zmh7UOvCczJ5aiY8Pa\~ZGAQ-ERcmZnIhOVFwUWKLVYDSE)
+[_**frozen version as Dropbox paper here**_](https://paper.dropbox.com/doc/acx-unjournal-app--BW2Zmh7UOvCczJ5aiY8Pa~ZGAQ-ERcmZnIhOVFwUWKLVYDSE)
 
 * Passed on to LTFF and funding was awarded
 * Start date = \~21 February 2022
@@ -32,7 +32,7 @@ I am asking for funding to help replace this system, with EA 'taking the lead'. 
 ### The twelve-month plan
 
 \
-_I propose the following 12-month Proof of Concept: Proposal for EA-aligned research 'unjournal' collaboration mechanis_
+&#xNAN;_&#x49; propose the following 12-month Proof of Concept: Proposal for EA-aligned research 'unjournal' collaboration mechanis_
 
 1. Build a ‘founding committee’ of 5-8 experienced and enthusiastic EA-aligned/adjacent researchers at EA orgs, research academics, and practitioners (e.g., draw from speakers at recent EA Global meetings).
 
@@ -81,7 +81,7 @@ We aim to have roughly 25 research papers/projects reviewed/evaluated and 'commu
 ### Suggested policies (DR)
 
 \
-_My suggestions on the above, as a starting point..._
+&#xNAN;_&#x4D;y suggestions on the above, as a starting point..._
 
 * Given my own background, I would lean towards ‘empirical social science’ (including Economics) and impact evaluation and measurement (especially for ‘effective charitable interventions’)
 * Administration should be light-touch, to also be attractive to aligned academics
@@ -119,7 +119,7 @@ iv. OPEN SCIENCE AND DYNAMIC FORMATS
 
 IMO the best and most transparent way to present data-driven work (as well as much quantitative work) is in a dynamic document, where narrative, code, and results are presented in concert. Readers can ‘unfold for further details’. The precise reasoning, data, and generation of each result can be traced. These can also be updated and improved with time. Many researchers, particularly those involved in Open Science, find this the most attractive way to work and present their work. However, ‘frozen pdf prison’ and ‘use our bureaucratic system’ approaches makes this very difficult to use in traditional journals. As the ‘unjournal’ does not host papers, but merely assesses work with DOI’s (which can be, e.g. a hosted web page, as frozen at a particular point in time of review), we can facilitate this.\
 \
-_Will researchers find it ‘safe’ to share their work?_
+&#xNAN;_&#x57;ill researchers find it ‘safe’ to share their work?_
 
 A large group of Economists and academics tend to be conservative, risk-averse, and leader-following. But there are important exceptions and also substantial groups that seek to be particular innovative and iconoclastic.
 
@@ -128,7 +128,7 @@ The key concerns we will need to address (at least for some researchers).\
 i. Will my work be ‘trashed publicly in a way that hurts my reputation’? I think this is more for early-career; more experienced researchers will have a thicker skin and realize that it’s common-knowledge that some people disagree with their approaches.\
 ii. Will this tag me as ‘weird or non-academic’. This might be addressed by our making connections to academic bodies and established researchers.\
 \
-_How to get quality reviews and avoid slacking/free-riding by reviewers?_\
+&#xNAN;_&#x48;ow to get quality reviews and avoid slacking/free-riding by reviewers?_\
 Ideas:
 
 * compensation and rewarding quality as an incentive,
@@ -158,7 +158,7 @@ PRIZE as a powerful signal/scarce commodity The “prize for best submissions”
 We may try to harness and encourage additional tools for quality assessment, considering cross-links to prediction markets/Metaculus, the coin-based 'ResearchHub', etc.
 
 \
-_Will the evaluations be valued by gatekeepers (universities, grantmakers, etc.) and policy-makers?_\
+&#xNAN;_&#x57;ill the evaluations be valued by gatekeepers (universities, grantmakers, etc.) and policy-makers?_\
 This will ultimately depend on the credibility factors mentioned above. I expect they will have value to EA and open-science-oriented grantmakers fairly soon, especially if the publicly-posted reviews are of a high apparent quality.
 
 \
@@ -167,7 +167,7 @@ I expect academia to take longer to come on board. In the medium run they are li
 \
 I am optimistic because of my impression that non-traditional-journal outcomes (arXiv and impact factors, conference papers, cross-journal outlets, distill.pub) are becoming the source of value in several important disciplines\
 \
-_How will we choose referees? How to avoid conflicts of interest (and the perception of this)?_
+&#xNAN;_&#x48;ow will we choose referees? How to avoid conflicts of interest (and the perception of this)?_
 
 \
 This is an important issue. I believe there are ‘pretty good’ established protocols for this. I’d like to build specific prescribed rules for doing this, and make it transparent. We may be able to leverage tools, e.g., those involving GPT3 like elicit.org.
@@ -177,12 +177,12 @@ This is an important issue. I believe there are ‘pretty good’ established pr
 COI: We should partition the space of potential researchers and reviewers, and/or establish ‘distance measures’ (which may themselves be reported along with the review). There should be specified rules, e.g., ‘no one from the same organization or an organization that is partnering with the author’s organization’. Ideally EA-orgresearchers’ work should be reviewed by academic researchers, and to some extent vice-versa.
 
 \
-_How to support EA ideas, frameworks, and priorities while maintaining (actual and perceived) objectivity and academic rigor_
+&#xNAN;_&#x48;ow to support EA ideas, frameworks, and priorities while maintaining (actual and perceived) objectivity and academic rigor_
 
 (Needs discussion)
 
 \
-_Why hasn’t this been done before?_\
+&#xNAN;_&#x57;hy hasn’t this been done before?_\
 I believe it involves a collective action problem, as well as a coordination/lock-in problem that can be solved by bringing together the compatible interests of two groups. Academic researchers have expertise, credibility, but they are locked into traditional and inefficient systems. EA organizations/researchers have a direct interest in feedback and fostering this research, and have some funding and are _not_ locked into traditional systems.
 
 Yonatan Cale restating my claim:

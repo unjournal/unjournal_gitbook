@@ -7,7 +7,7 @@ description: This discussion is a work-in-progress
 1. We are targeting [global priorities-relevant research](../../the-field-and-ea-gp-research.md)...
 2. With the potential for impact, and with the potential for _Unjournal_ _evaluations_ to have an impact (see our [high-level considerations](what-research-to-target.md#high-level-considerations-for-prioritizing-research) and our [prioritization ratings](process-prioritizing-research/prioritization-ratings-discussion.md) discussions).
 3. Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities (see linked discussion)](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2], informing our [Theory of Change](../../benefits-and-features/global-priorities-theory-of-change/).
-4. We give a data presentation of the work we have already covered and the work we are prioritizing [here](https://unjournal.github.io/unjournaldata/chapters/evaluation\_data\_analysis.html), which will be continually updated.
+4. We give a data presentation of the work we have already covered and the work we are prioritizing [here](https://unjournal.github.io/unjournaldata/chapters/evaluation_data_analysis.html), which will be continually updated.
 
 _**But what does this mean in practice? What specific research fields, topics, and approaches are we likely to classify as 'relevant to evaluate'?**_
 
@@ -17,7 +17,7 @@ We give some lists and annotated examples below.
 
 As of January 2024 _The Unjournal_ focuses on ...&#x20;
 
-1. Research where the fundamental question being investigated involves _human_ behavior and beliefs and the consequences of these. This may involve markets, production processes, economic constraints, social interactions, technology, the 'market of ideas', individual psychology, government processes, and more. However, the main research question should _not_ revolve around issues outside of human behavior_,_ such as physical science, biology, or computer science and engineering. These areas are out of our scope (at least for now). &#x20;
+1. Research where the fundamental question being investigated involves _human_ behavior and beliefs and the consequences of these. This may involve markets, production processes, economic constraints, social interactions, technology, the 'market of ideas', individual psychology, government processes, and more. However, the main research question should _not_ revolve around issues outside of human behavio&#x72;_,_ such as physical science, biology, or computer science and engineering. These areas are out of our scope (at least for now). &#x20;
 2. Research that is fundamentally _quantitative_ and uses [_scientific_ methods](#user-content-fn-3)[^3]. It will generally involve or consider measurable inputs, choices, and outcomes; specific categorical or quantitative questions; analytical and mathematical reasoning; hypothesis testing and/or belief updating, etc.&#x20;
 3. Research that targets and addresses a single _specific_ question or goals, or a small cluster. It should not mainly be a broad discussion and overview of other research or conceptual issues.
 
@@ -32,7 +32,7 @@ This to generally involves the academic fields:
 * Applied "policy and impact evaluation" fields&#x20;
 * Life science/medicine where it targets human behavior/social science&#x20;
 
-_T_hese discipline/field boundaries are not strict; they may adapt as we grow
+_&#x54;_&#x68;ese discipline/field boundaries are not strict; they may adapt as we grow
 
 ### Why this field/method focus?
 
@@ -100,7 +100,7 @@ We are also _considering_ prioritizing work involving
 ### Examples of work we chose to prioritize or de-prioritize based on focus area
 
 {% hint style="info" %}
-T_o do: We will give and explain some examples here_
+&#x54;_&#x6F; do: We will give and explain some examples here_
 {% endhint %}
 
 [^1]: We discuss our prioritization considerations under [global-priorities.md](../../faq-interaction/global-priorities.md "mention")

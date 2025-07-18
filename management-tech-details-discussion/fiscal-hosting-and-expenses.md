@@ -8,7 +8,7 @@ The Unjournal is now an independent 501(c)(3) organization. We have new (and hop
 
 ## Submitting for payments and expenses&#x20;
 
-**Evaluators**: to claim your payment for evaluation work, please complete [this very brief form](https://coda.io/form/Evaluator-Payment-Form\_dcWCCK\_L6cH).
+**Evaluators**: to claim your payment for evaluation work, please complete [this very brief form](https://coda.io/form/Evaluator-Payment-Form_dcWCCK_L6cH).
 
 You will receive your payment via a [Wise](https://wise.com/home/) transfer (they may ask you for your bank information if you don't have an account with them).
 
@@ -30,7 +30,7 @@ This information should be moved to a different section
 
 The 'hash' itself represents a one-way encryption of either your name or email. We store this information in a database shared only internally at _The Unjournal_. If you are asking for full anonymity, this information is only kept on the hard drive of our co-manager, operations RA, and potentially the evaluator.\
 \
-_But if we used this_ anyone who knows your name or email could potentially 'check' if you were the person it pertained to. That's why we 'salt' it: we add an additional bit of 'salt', a password only known to our co-managers and operations RA before we encrypt it. This better protects your anonymity.
+&#xNAN;_&#x42;ut if we used this_ anyone who knows your name or email could potentially 'check' if you were the person it pertained to. That's why we 'salt' it: we add an additional bit of 'salt', a password only known to our co-managers and operations RA before we encrypt it. This better protects your anonymity.
 
 </details>
 

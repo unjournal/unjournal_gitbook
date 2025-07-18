@@ -15,4 +15,4 @@ _If they choose to stay anonymous, there should be no way for authors to be able
 5. We will provide platforms to enable anonymous and secure discussion between anonymous evaluators and others (authors, editors, etc.) Where an anonymous evaluator is involved, we will encourage these platforms to be used as much as possible. In particular, see [our (proposed) use of Cryptpad](https://docs.google.com/document/d/1sK70t0smdyt8sOtDf3Nn3TkUNTprdOkZqz7LpPjFLsQ/edit).
 
 \
-_Aside:_ In future, we may consider [allowing Evaluation Managers (formerly 'managing editors') to remain anonymous](../../management-tech-details-discussion/policies-issues-discussion.md#non-anonymity-of-managing-editors), and these tools will also be
+&#xNAN;_&#x41;side:_ In future, we may consider [allowing Evaluation Managers (formerly 'managing editors') to remain anonymous](../../management-tech-details-discussion/policies-issues-discussion.md#non-anonymity-of-managing-editors), and these tools will also be
