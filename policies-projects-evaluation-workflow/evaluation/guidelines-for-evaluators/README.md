@@ -6,7 +6,7 @@ description: >-
 
 # Guidelines for evaluators
 
-_These guidelines apply to the PubPub evaluation forms, as well as to the publicly visible formms_  [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_)._
+_These guidelines apply to the publicly visible forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_), as well as to our (legacy) PubPub forms._
 
 {% hint style="info" %}
 Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
@@ -14,9 +14,9 @@ Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "men
 
 ## What we'd like you to do
 
-1. **Write an evaluation of the** [_**paper or project**_](#user-content-fn-2)[^2]_**.**_ This _largely_ resembles a high-quality referee report for a traditional journal without the binary focus on 'should we accept or reject?'. Below, we describe some of our values and emphases. We _also_ value insights for less-technical practitioners, especially in your evaluation 'abstract'.&#x20;
+1. **Write an evaluation of the** [_**paper or project**_](#user-content-fn-2)[^2]_**.**_ To some extent, this resembles a high-quality referee report for a traditional journal without the binary focus on 'should we accept or reject?'. Below, we describe some of our values and emphases. We _also_ value insights for less-technical practitioners, especially in your evaluation 'abstract'.&#x20;
 2. [**Give quantitative metrics and predictions** as described below](#user-content-fn-3)[^3].&#x20;
-3. Please identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
+3. Identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
 4. Answer a short questionnaire about your background and our processes.
 
 ## Writing the evaluation (aka 'the review')
@@ -25,7 +25,7 @@ In writing your evaluation and providing ratings, please consider the following.
 
 ### _The Unjournal_'s expectations and criteria
 
-In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are the claims well-supported? Are the assumptions believable? Are the methods appropriate and well-executed?  Explain why or why not.
+In many ways, the written part of the evaluation should be similar to a report an academic would write for a traditional high-prestige journal (e.g., see some 'conventional guidelines' [here](conventional-guidelines-for-referee-reports.md)).  Most fundamentally, we want you to use your expertise to critically assess the main claims made by the authors.  Are they well-supported? Are the assumptions believable? Are the methods appropriate and well-executed?  Explain why or why not.
 
 _However, we'd also like you to pay some consideration to our priorities, including_
 
@@ -34,7 +34,7 @@ _However, we'd also like you to pay some consideration to our priorities, includ
 3. Logic and communication, intellectual modesty, transparent reasoning
 4. Open, communicative, replicable science
 
-See our [guidelines below](./#overall-assessment) for more details on each of these. You don't need to _structure_ your review according to these metrics, but please pay some attention to them.
+See our [guidelines below](./#overall-assessment) and the corresponding 'ratings' for more details on each of these. You don't need to _structure_ your review according to these metrics, but please pay some attention to them.
 
 <details>
 
@@ -86,11 +86,11 @@ We discuss this, and how it relates to our impact and "theory of change", [here]
 
 We accept that in the near-term an _Unjournal_ evaluation may not be seen to have substantial career value.&#x20;
 
-Furthermore, work we are considering _may_ tend be at an earlier stage. authors may submit work to us, thinking of this as a "pre-journal" step.  The papers we _select_ (e.g., from NBER) may also have been posted long before authors planned to submit them to journals.
+Furthermore, work we are considering _may_ tend be at an earlier stage. authors may submit work to us, thinking of this as a "pre-journal" step. The papers we _select_ (e.g., from NBER) may also have been posted long before authors planned to submit them to journals.
 
 This may make the 'feedback for authors' and 'assessment for research users' aspects more important, relative to traditional journals' role. \
 \
-However, in the medium-term, a positive _Unjournal_ evaluation should gain  credibility and career value. This should make our evaluations an "endpoint" for a research paper.
+However, in the medium-term, a positive _Unjournal_ evaluation should gain credibility and career value. This should help make our evaluations an "endpoint" and an important "career goal" for a research paper, replacing or supplementing the current "which journal tier" metric.
 
 </details>
 
@@ -102,7 +102,7 @@ We ask for a set of nine quantitative metrics. For each metric, we ask for a sco
 
 
 
-### Percentile rankings
+### Percentile rankings relative to a reference group
 
 For some questions, we ask for a **percentile ranking** from 0-100%. This represents "what proportion of papers in the reference group are worse than this paper, by this criterion". A score of 100% means this is essentially the best paper in the reference group. 0% is the worst paper. A score of 50% means this is the median paper; i.e., half of all papers in the reference group do this better, and half do this worse, and so on.
 
@@ -130,7 +130,7 @@ These will typically be written as 'working papers' and presented at academic se
 
 <summary>What counts as the "same area"?</summary>
 
-This is a judgment call. Here are some criteria to consider: first, does the work come from the same academic field and research subfield, and does it address questions that might be addressed using similar methods? Secondly, does it deal with the same substantive research question, or a closely related one? If the research you are evaluating is in a very niche topic, the comparison reference group should be expanded to consider work in other areas.
+This is a judgment call. Some criteria to consider... First, does the work come from the same academic field and research subfield, and does it address questions that might be addressed using similar methods? Second, does it deal with the same substantive research question, or a closely related one? If the research you are evaluating is in a very niche topic, the comparison reference group should be expanded to consider work in other areas.
 
 </details>
 
