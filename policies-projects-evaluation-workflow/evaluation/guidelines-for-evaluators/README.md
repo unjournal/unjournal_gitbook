@@ -138,7 +138,7 @@ This is a judgment call. Some criteria to consider... First, does the work come 
 
 <summary>"Research that you have encountered"</summary>
 
-We are aiming for comparability across evaluators. If you suspect  you are particularly exposed to higher-quality work in this category, compared to other likely evaluators, you may want to adjust your reference group downwards. (And of course vice-versa, if you suspect you are particularly exposed to lower-quality work.)
+We are aiming for comparability across evaluators. If you suspect you are particularly exposed to higher-quality work in this category, compared to other likely evaluators, you may want to adjust your reference group downwards. (And of course vice-versa, if you suspect you are particularly exposed to lower-quality work.)
 
 </details>
 
@@ -164,7 +164,7 @@ The table below summarizes the percentile rankings.
 
 _Percentile ranking (0-100%)_
 
-Judge the quality of the research heuristically. Consider all aspects of quality, credibility, importance to future impactful applied research, and practical relevance and usefulness.[importance to knowledge production, and importance to practice. ](#user-content-fn-5)[^5]
+Judge the quality of the research heuristically. Consider all aspects of quality, credibility, importance to future impactful applied research, and practical relevance and usefulness, [importance to knowledge production, and importance to practice. ](#user-content-fn-5)[^5]
 
 
 
@@ -436,7 +436,7 @@ Answers to the questions [below will not be made public:](#user-content-fn-24)[^
 
 <summary>Note on the evaluation platform (13 Feb 2024)</summary>
 
-12 Feb 2024: We are moving to a hosted form/interface in PubPub. That form is still somewhat a work-in-progress, and may need some further guidance; we try to provide this below, but please contact us with any questions. [If you prefer](#user-content-fn-25)[^25], you can also submit your response in a Google Do&#x63;**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that  directly.  &#x20;
+[If you prefer](#user-content-fn-25)[^25], you can  submit your response in a Google Do&#x63;**,** and share it back with us. Click [here](https://docs.google.com/document/d/1erOQ8qiWmgAmd9WdMLmuBGoxFkUJeQo2c8pc5wFAQbk/copy) to make a new copy of that directly.  &#x20;
 
 </details>
 
