@@ -325,7 +325,7 @@ As before, we ask for a 90% credible interval.&#x20;
 <table><thead><tr><th width="364">Journal ranking tiers</th><th width="248" align="center">Scale</th><th width="238">90% CI</th><th data-hidden><select></select></th><th data-hidden></th></tr></thead><tbody><tr><td>What journal ranking tier <em>should</em> this work be published in?</td><td align="center">0.0-5.0</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td>What journal ranking tier <em>will this</em> work be published in?</td><td align="center">0.0-5.0</td><td><em>lower, upper</em></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
-**PubPub note:** as of 14 March 2024, the PubPub form is _not_ allowing you to give non-integer responses. Until this is fixed, [please multiply these by 10 and enter these using the 0-50 slider](#user-content-fn-19)[^19] . (Or use the Coda form.)
+[PubPub note (less relevant now that PubPub is being phased out) ](#user-content-fn-19)[^19]
 {% endhint %}
 
 #### **What journal ranking tier&#x20;**_**should**_**&#x20;this work be published in?**
@@ -510,7 +510,7 @@ _Our data protection statement is linked_ [_here_](https://bit.ly/46y0LqH)_._
     \
     Please also use this continuous scale for providing credible _intervals_.
 
-[^19]: E.g., 1.1 becomes 11, 2.5 becomes 25, 4.3 becomes 43, etc.
+[^19]: The PubPub form did  _not_ allowing you to give non-integer responses to this question.  We asked people to multiply their score by 10 and enter these using the 0-50 slider .&#x20;
 
 [^20]: Please consider the paper in its current form, or with only minor revisions, unless instructed otherwise.
 
