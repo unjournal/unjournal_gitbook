@@ -1,9 +1,10 @@
 # "Pivotal questions"
 
 {% hint style="info" %}
-Express your interest/suggest a pivotal question using [this form](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot_dUpq6ZxNtdC).
+Suggest a pivotal question using [this form](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot_dUpq6ZxNtdC) (or express your interest as an organization).
 
-We will try to keep a public record of our progress — see this '[forum sequence](https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2)' and this [public database of PQs](https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Pivotal-questions-database-Public-WIP_su3FOC8M)
+Keep track of  of our progress: see this '[forum sequence](https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2)' and \
+this [public database of PQs](https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Pivotal-questions-database-Public-WIP_su3FOC8M).
 {% endhint %}
 
 ## The Pivotal Questions project in brief
