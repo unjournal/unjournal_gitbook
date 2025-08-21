@@ -41,7 +41,7 @@ Our current baseline compensation has two tiers, aimed to reward strong previous
 [_Minimum base compensation tiers:_ ](#user-content-fn-5)[^5]
 
 1. $100 + $100 for first-time evaluators without demonstrated public review experience
-2. $300 + $100 for return Unjournal evaluators and those with previous strong _public_ review experience (for The Unjournal or through other initiatives).
+2. $200-$300 + $100 for return Unjournal evaluators and those with previous strong _public_ review experience (for The Unjournal or through other initiatives).
 
 We will be integrating other incentives and prizes into this, ~~and are committed to~~ [~~$450~~](https://x.com/450Movement) ~~in average compensation per evaluation, including prizes~~.&#x20;
 
