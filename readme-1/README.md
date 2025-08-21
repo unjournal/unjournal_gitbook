@@ -4,8 +4,6 @@ coverY: 0
 
 # An Introduction to The Unjournal
 
-{% include "../.gitbook/includes/untitled.md" %}
-
 ## In a nutshell
 
 _The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are a [team of researchers](https://www.unjournal.org/team), practitioners, and open science advocates led by [David Reinstein](https://www.davidreinstein.org/).&#x20;
