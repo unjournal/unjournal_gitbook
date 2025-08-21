@@ -43,7 +43,13 @@ Our current baseline compensation has two tiers, aimed to reward strong previous
 1. $100 + $100 for first-time evaluators without demonstrated public review experience
 2. $300 + $100 for return Unjournal evaluators and those with previous strong _public_ review experience (for The Unjournal or through other initiatives).
 
-We will be integrating other incentives and prizes into this, and are committed to [$450](https://x.com/450Movement) in average compensation per evaluation, including prizes. You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.&#x20;
+We will be integrating other incentives and prizes into this, ~~and are committed to~~ [~~$450~~](https://x.com/450Movement) ~~in average compensation per evaluation, including prizes~~.&#x20;
+
+{% hint style="info" %}
+Aug 21, 2025: We are still committed to the $450 target in the medium-run (for on-time complete evaluations). However, because of temporary funding concerns, we cannot guarantee the $450 average for evaluations commissioned in the near-term. _Watch this space_ for updates.
+{% endhint %}
+
+You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.&#x20;
 
 See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims).
 
