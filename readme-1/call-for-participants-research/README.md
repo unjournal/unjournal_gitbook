@@ -4,15 +4,19 @@
 
 [The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/)  (see our [#in-a-nutshell](../#in-a-nutshell "mention")) wants your involvement, help, and feedback. We offer rewards and strive to compensate people for their time and effort.&#x20;
 
-1. &#x20;_**Join our team:**  Complete_ [_this form_](https://bit.ly/ujteam) [_(about 3–5 min)_](#user-content-fn-1)[^1] _to apply for our..._
+1. _**Read our evaluation packages**_ [**here**](https://unjournal.pubpub.org), add comments, cite the evaluations in your work, let us know how you found them useful and how we can improve.
+2. _**Make Unjournal evaluations part of your process,**_ using them to consider your funding and policy choices, encouraging your team or department to submit work for public evaluation, and make this part of your hiring, promotion, and research funding criteria.&#x20;
+3. _**Submit your research**_ for Unjournal to evaluate [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2). **Suggest research** for us to assess using [this form](https://bit.ly/UJsuggest). &#x20;
+4. _**Join our team:**  Complete_ [_this form_](https://bit.ly/ujteam) [_(about 3–5 min)_](#user-content-fn-1)[^1] _to apply for our..._
    1. **Evaluator pool**: to be eligible to be commissioned and paid to evaluate and rate research, mainly in quantitative social science and policy
-   2. **Field specialist teams**: help identify, prioritize, and manage research evaluation in a particular field or cause area. A related lower-commitment role: [#unjournal-research-affiliates-ura](../organizational-roles-and-responsibilities/#unjournal-research-affiliates-ura "mention")  help suggest, prioritize, and discuss research>
+   2. **Field specialist teams**: help identify, prioritize, and manage research evaluation in a particular field or cause area. A related lower-commitment role: [#unjournal-research-affiliates-ura](../organizational-roles-and-responsibilities/#unjournal-research-affiliates-ura "mention")  help suggest, prioritize, and discuss research
    3. **Management team** or **advisory board**, to be part of our decision-making
-2. **Suggest research for us to assess** using [this form](https://bit.ly/UJsuggest). We offer bounty rewards. Submit your _own_ research [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2)
-3. **Do an Independent Evaluation** to build your portfolio, receive guidance, and be eligible for promotion and prizes. See details [independent-evaluations-trial](independent-evaluations-trial/ "mention")
-4. &#x20;Suggest [pivotal-questions](../../pivotal-questions/ "mention") for us to focus on
+5. _**Do an Independent Evaluation**_ to build your portfolio, receive guidance, and be eligible for promotion and prizes. See details [independent-evaluations-trial](independent-evaluations-trial/ "mention")
+6. &#x20;**Suggest** [pivotal-questions](../../pivotal-questions/ "mention") for us to focus on
 
-_**Give us feedback:** Is anything unclear? What could be improved?_ Email contact@unjournal.org. We will offer rewards for the most useful suggestions.
+
+
+_**Give us feedback:** What did you find useful and how did you use the work?  Is anything unclear? What could be improved?_ Email contact@unjournal.org, and we will respond. We will offer rewards for the most useful suggestions.
 
 
 
