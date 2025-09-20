@@ -2,7 +2,7 @@
 
 ## **In brief**
 
-[The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/)  (see our [#in-a-nutshell](../#in-a-nutshell "mention")) wants your involvement, help, and feedback. We offer rewards and strive to compensate people for their time and effort.&#x20;
+[The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/)  (see our [#in-a-nutshell](../#in-a-nutshell "mention")) wants your involvement, help, and feedback. We offer recognize and compensate people for their time and effort.&#x20;
 
 1. _**Read our evaluation packages**_ [**here**](https://unjournal.pubpub.org), add comments, cite the evaluations in your work, let us know how you found them useful and how we can improve.
 2. _**Make Unjournal evaluations part of your process,**_ using them to consider your funding and policy choices, encouraging your team or department to submit work for public evaluation, and make this part of your hiring, promotion, and research funding criteria.&#x20;
