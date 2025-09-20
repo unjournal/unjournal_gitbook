@@ -4,10 +4,10 @@
 
 [The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/-MkORcaM5xGxmrnczq25/)  (see our [#in-a-nutshell](../#in-a-nutshell "mention")) wants your involvement, help, and feedback. We offer recognize and compensate people for their time and effort.&#x20;
 
-1. _**Read our evaluation packages**_ [**here**](https://unjournal.pubpub.org), add comments, cite the evaluations in your work, let us know how you found them useful and how we can improve.
+1. _**Read our evaluation packages**_ [**here**](https://unjournal.pubpub.org), add comments, [cite the evaluations in your work](#user-content-fn-1)[^1], let us know how you found them useful and how we can improve.
 2. _**Make Unjournal evaluations part of your process,**_ using them to consider your funding and policy choices, encouraging your team or department to submit work for public evaluation, and make this part of your hiring, promotion, and research funding criteria.&#x20;
 3. _**Submit your research**_ for Unjournal to evaluate [here](https://bit.ly/UJsubmit), or by contacting [contact@unjournal.org](https://app.gitbook.com/u/Kb2a1KdsgsTOM7ZYPPCIyGkho3Q2). **Suggest research** for us to assess using [this form](https://bit.ly/UJsuggest). &#x20;
-4. _**Join our team:**  Complete_ [_this form_](https://bit.ly/ujteam) [_(about 3–5 min)_](#user-content-fn-1)[^1] _to apply for our..._
+4. _**Join our team:**  Complete_ [_this form_](https://bit.ly/ujteam) [_(about 3–5 min)_](#user-content-fn-2)[^2] _to apply for our..._
    1. **Evaluator pool**: to be eligible to be commissioned and paid to evaluate and rate research, mainly in quantitative social science and policy
    2. **Field specialist teams**: help identify, prioritize, and manage research evaluation in a particular field or cause area. A related lower-commitment role: [#unjournal-research-affiliates-ura](../organizational-roles-and-responsibilities/#unjournal-research-affiliates-ura "mention")  help suggest, prioritize, and discuss research
    3. **Management team** or **advisory board**, to be part of our decision-making
@@ -22,7 +22,7 @@ _**Give us feedback:** What did you find useful and how did you use the work?  I
 
 ## Overview and call
 
-[David Reinstein](https://www.davidreinstein.org/) is the founder and co-director[^2] of _The Unjournal_. The organization is currently looking for field specialists and evaluators, as well as suggestions for relevant work for _The Unjournal_ to evaluate.
+[David Reinstein](https://www.davidreinstein.org/) is the founder and co-director[^3] of _The Unjournal_. The organization is currently looking for field specialists and evaluators, as well as suggestions for relevant work for _The Unjournal_ to evaluate.
 
 _The Unjournal_ [team](https://www.unjournal.org/team) is building a system for credible, public, journal-independent feedback and evaluation of research.
 
@@ -30,7 +30,7 @@ _The Unjournal_ [team](https://www.unjournal.org/team) is building a system for 
 
 <summary><em>Briefly,</em> The Unjournal<em>’s basic process is:</em></summary>
 
-* Identify, invite, or select contributions of relevant research _that_ [_is publicly hosted_](#user-content-fn-3)[^3] on any open platform or archive in any format.
+* Identify, invite, or select contributions of relevant research _that_ [_is publicly hosted_](#user-content-fn-4)[^4] on any open platform or archive in any format.
 * Pay evaluators to give careful feedback on this work, with prizes and incentives for strong evaluation work.
 * Elicit quantifiable and comparable metrics of research quality as credible measures of value (see: [evaluator guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/)). Synthesize the results of these evaluations in useful ways.
 * Publicly post and link all reviews of the work. Award financial prizes for the work judged strongest.
@@ -99,7 +99,7 @@ _Interested? Please fill out_ [_this form_ ](https://coda.io/form/Join-the-Unjou
 
 ## **Projects and papers**
 
-We are looking for high-quality, globally pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research. Please suggest research [here](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). (We offer bounties and prizes for useful suggestions – [see note](#user-content-fn-4)[^4].) For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and accompanying links.
+We are looking for high-quality, globally pivotal research projects to evaluate, particularly those embodying open science practices and innovative formats. We are putting out a call for relevant research. Please suggest research [here](https://airtable.com/applDG6ifmUmeEJ7j/shrAsvmrx05PDHfdw). (We offer bounties and prizes for useful suggestions – [see note](#user-content-fn-5)[^5].) For details of what we are looking for, and some potential examples, [see this post](https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/what-pivotal-and-useful-research-would-you-like-to-see) and accompanying links.
 
 You can also put [forward your own work](https://coda.io/form/Suggesting-research_ddYqto0PuD0).
 
@@ -113,12 +113,14 @@ _Note_: This is under continual refinement; see our [policies](../../policies-pr
 
 
 
-[^1]: Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked [here](https://bit.ly/46y0LqH).
+[^1]: How and why to cite Unjournal evaluations: [https://youtu.be/iukYQNjWuG0](https://youtu.be/iukYQNjWuG0)
+
+[^2]: Please note that while data submitted through the above forms may be shared internally within our Management Team, it will not be publicly disclosed. Data protection statement linked [here](https://bit.ly/46y0LqH).
 
 
 
-[^2]: Along with Gavin Taylor.
+[^3]: Along with Gavin Taylor.
 
-[^3]: We can help arrange hosting and help you get a time-stamped DOI.
+[^4]: We can help arrange hosting and help you get a time-stamped DOI.
 
-[^4]: Update July 2023: these prizes are not currently active, but we aim to launch this again soon; all suggestors will be eligible for prizes retroactively.
+[^5]: Update July 2023: these prizes are not currently active, but we aim to launch this again soon; all suggestors will be eligible for prizes retroactively.
