@@ -81,13 +81,13 @@ There are risks and rewards to any activity, of course. Here we consider some ri
 1. Exclusivity
 2. Public negative feedback
 
-#### **Exclusivity**
+#### **Exclusivity?**
 
 [Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-10)[^10], and perhaps they might enforce these more strongly if they fear competition from The Unjournal.
 
 However, The Unjournal is not exclusive. Having your paper reviewed and evaluated in The Unjournal will not limit your options; you can still submit your work to traditional journals.
 
-#### **Public negative feedback**
+#### **Possible public negative feedback**
 
 {% hint style="info" %}
 See Brian Nosek's response to this question [here](http://www.youtube.com/watch?v=vfCMdD7RSqE\&t=1914), echoing the same points.&#x20;
