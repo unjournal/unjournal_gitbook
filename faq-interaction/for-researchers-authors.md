@@ -54,7 +54,7 @@ And there are further benefits to authors[^7]:
 7. A reputation as an **early adopter and innovator** in open science.
 8. **Prizes:** You may win an [impactful-research-prize.md](../readme-1/call-for-participants-research/impactful-research-prize.md "mention") (publicity, reputation, and substantial financial prizes). These prizes are tied, in part, to your engagement with The Unjournal.
 9. **Undervalued or updated work:** Your paper may have been "under-published". Perhaps there are a limited set of prestigious journals in your field. You now see ways you could improve the research. _The Unjournal can help; we will also consider 'post-peer-review publication' evaluation._&#x20;
-10. **Innovative formats:** Journals typically require you to submit a LaTeX or MS Word file, and to use their fussy formats and styles. You may want to use tools like [Quarto](https://quarto.org/) that integrate your code and data, allow you to present dynamic content, and enhance reproducibility. _The Unjournal_ [_encourages this_](#user-content-fn-10)[^10]_, and we can evaluate research in virtually any format._ &#x20;
+10. **Innovative formats:** Journals typically require you to submit a LaTeX or MS Word file, and to use their fussy formats and styles. You may want to use tools like [Quarto](https://quarto.org/) that integrate your code and data, allow you to present dynamic content, and enhance reproducibility. _The Unjournal_ [_encourages this_](#user-content-fn-3)[^3]_, and we can evaluate research in virtually any format._ &#x20;
 
 <details>
 
@@ -83,15 +83,23 @@ There are risks and rewards to any activity, of course. Here we consider some ri
 
 #### **Exclusivity**
 
-[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-11)[^11], and perhaps they might enforce these more strongly if they fear competition from The Unjournal.
+[Some traditional journals might have restrictions on the public sharing of your work](#user-content-fn-10)[^10], and perhaps they might enforce these more strongly if they fear competition from The Unjournal.
 
 However, The Unjournal is not exclusive. Having your paper reviewed and evaluated in The Unjournal will not limit your options; you can still submit your work to traditional journals.
 
 #### **Public negative feedback**
 
+{% hint style="info" %}
+See Brian Nosek's response to this question [here](http://www.youtube.com/watch?v=vfCMdD7RSqE\&t=1914), echoing the same points.&#x20;
+{% endhint %}
+
 Our evaluations are public. While there has been some movement towards open review, this is still not standard. Typically when you submit your paper, reviews are private. With The Unjournal, you might get public negative evaluations.&#x20;
 
 We think this is an acceptable risk. Most academics expect that opinions will differ about a piece of work, and everyone has received negative reviews. Thus, getting public feedback — in The Unjournal or elsewhere — should not particularly harm you or your research project.
+
+> Brian Nosek, [on the fear of negative evaluations of our work](http://www.youtube.com/watch?v=vfCMdD7RSqE\&t=1914):  I certainly understand the fear. I shared it myself until I had the experience of realizing that's how people advance their careers. In scholarship, we are engaged in a community of skeptical inquiry. To advance one's career, you have to have people critiquing your work. If everyone is ignoring your work, you are not actually making progress in the field. Productive engagement with skeptical inquiry is a way that people improve their reputation and advance their careers.
+
+
 
 Nonetheless, we are planning some exceptions for early-career researchers (see [#can-i-ask-for-evaluations-to-be-private](for-researchers-authors.md#can-i-ask-for-evaluations-to-be-private "mention")).
 
@@ -163,7 +171,7 @@ Authors' responses could bring several benefits...
 
 ### What should an 'author response' look like?
 
-Evaluations may raise substantive doubts and questions, and make some specific suggestions, and ask [followup questions](#user-content-fn-12)[^12] about (e.g.) data, context, or assumptions. There's no need to respond to _every_ evaluator point. Only respond where you have something substantive: clarifying doubts, explaining the justification for your particular choices, and giving your thoughts on the suggestions (which will you incorporate, or not, and why?).&#x20;
+Evaluations may raise substantive doubts and questions, and make some specific suggestions, and ask [followup questions](#user-content-fn-11)[^11] about (e.g.) data, context, or assumptions. There's no need to respond to _every_ evaluator point. Only respond where you have something substantive: clarifying doubts, explaining the justification for your particular choices, and giving your thoughts on the suggestions (which will you incorporate, or not, and why?).&#x20;
 
 A well-written author response might have a clear narrative and group responses into themes.&#x20;
 
@@ -198,8 +206,6 @@ Try to have a positive tone (no personal attacks etc.) but avoid formality, over
 
 [^9]: We may also forward selected work to places like [Asterisk](https://forum.effectivealtruism.org/posts/Mts84Mv5cFHRYBBA8/introducing-asterisk)[ magazine](https://asteriskmag.com/), and you, the author, may also be recommended for (well-paid) writing work at places like this.
 
-[^10]: See “[benefits of dynamic documents](../benefits-and-features/dynamic-documents-vs-living-projects/benefits-of-dynamic-documents.md)"
+[^10]: We think this is largely not a factor, as discussed below.
 
-[^11]: We think this is largely not a factor, as discussed below.
-
-[^12]: We encourage evaluators to ask clarification questions directly before submitting evaluations, but this is not always feasible.
+[^11]: We encourage evaluators to ask clarification questions directly before submitting evaluations, but this is not always feasible.
