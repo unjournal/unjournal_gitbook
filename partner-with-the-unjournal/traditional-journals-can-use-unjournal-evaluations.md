@@ -45,13 +45,11 @@ When an Unjournal evaluation package exists for a submitted manuscript:
 
 * Encourage reviewers to consult the Unjournal package when appropriate
 * Editors or journal policies set the terms and guidance for how reviewers should consider previous evaluations in their writing and recommendations
-* Reviewers should form independent judgments and explicitly mention where their report was influenced by previous evaluations
-
-***
+* Reviewers should form independent judgments and explicitly note any aspects of their report that was influenced by previous evaluations
 
 ## Transparency and recognition&#x20;
 
-We would appreciate if you could recognize this partnership publicly;  both for transparency and to boost impact. We give some examples below.
+We would appreciate if you could recognize this partnership publicly,  both for transparency and to boost impact. We give some examples below.
 
 #### A. Sample policy statement&#x20;
 
@@ -63,15 +61,15 @@ Add to your author guidelines:
 > **Guidance for Reviewers**\
 > Reviewers may consult The Unjournal's evaluation package for context but should form independent judgments. If referenced, cite and link to the package in your report.
 
-#### B. Acknowledgment at Acceptance (When Used)
+#### B. Acknowledgment at Acceptance (when used)
 
-Include on hosted page and in a footnote on accepted papers that benefited from Unjournal evaluations:
+For accepted papers that benefited from Unjournal evaluations, include a statement like the one below on the hosted page and in a footnote in the paper.
 
 > This review process was informed by The Unjournal's evaluation package: \[link our package]. However, the reviewers take full responsibility for their judgments and recommendations and the final decisions were made by the editorial board independently of previous assessments.
 
 #### C. Public Recognition
 
-Permit The Unjournal to list your journal as a partner and acknowledge the relationship on our website and communications (e.g., similar to PCI-friendly journal listings). We would encourage you to do the same.
+Permit The Unjournal to list your journal as a partner and acknowledge the relationship on our website and communications (e.g., similar to PCI-friendly journal listings). We  encourage you to do the same.
 
 ***
 
