@@ -30,7 +30,7 @@ All evaluations are commissioned independently, conducted by domain and field ex
 
 ## What we're asking
 
-The steps below are similar to existing cascading and portable peer review agreements among journals, and "author-mediated transfer" policies (e.g., see [Economic Journal](https://academic.oup.com/ej/pages/general_instructions#submissionpast) policies).   &#x20;
+The steps below are similar to existing cascading and portable peer review agreements among journals, and "author-mediated transfer" policies (e.g., see  [The Economic Journal](https://academic.oup.com/ej/pages/general_instructions#submissionpast)'s policies).   &#x20;
 
 ### 1. **Editorial Triage** (Primary Request)
 
@@ -69,7 +69,7 @@ For accepted papers that benefited from Unjournal evaluations, include a stateme
 
 #### C. Public Recognition
 
-Permit The Unjournal to list your journal as a partner and acknowledge the relationship on our website and communications (e.g., similar to PCI-friendly journal listings). We  encourage you to do the same.
+Permit The Unjournal to list your journal as a partner and acknowledge the relationship on our website and communications (e.g., similar to PCI-friendly journal listings). We encourage you to do the same.
 
 ***
 
@@ -79,7 +79,7 @@ Permit The Unjournal to list your journal as a partner and acknowledge the relat
 
 Many journals publicly state they consider Peer Community In (PCI) evaluations and are listed as "PCI-friendly." Our proposal follows this established model of transparent recognition while maintaining editorial independence. [peercommunityin.org](https://peercommunityin.org/)
 
-#### **Economic Journal "Past Reports" Policy**
+#### **The Economic Journal "Past Reports" Policy**
 
 The Economic Journal explicitly encourages authors to include editor letters and referee reports from previous submissions (EJ Instructions §5.1 Supporting Information—Past Reports), allowing editors to use them in decisions. [OUP Academic](https://academic.oup.com/ej)
 
