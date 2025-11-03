@@ -4,7 +4,7 @@
 
 We invite academic journals to recognize The Unjournal's [public evaluation packages](https://unjournal.pubpub.org) in their editorial process. We envision a lightweight partnership that can reduce journals' reviewer and editorial burden, improve decision-making, increase transparency, and support open science, while preserving full journal independence.&#x20;
 
-When authors submit research _after_ Unjournal evaluation, journal editors could&#x20;
+When authors submit research that the Unjournal has evaluated, journal editors could&#x20;
 
 * Use our evaluations and ratings (e.g., ['merited journal tier'](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators#journal-ranking-tiers)) to consider whether to invite peer reviews, what sort of expertise is needed, and how to guide reviewers.
 * Encourage reviewers to read these evaluations, setting explicit policies for how previous assessments should be considered.
