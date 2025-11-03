@@ -109,7 +109,7 @@ _Reduced review burden:_ Use existing expert assessments to inform desk decision
 
 The Unjournal promotes public evaluation of hosted research as an alternative to "accept/reject" journal publications as a more efficient process and a more informative and measure research quality and usefulness.  But we recognize that moving from existing systems is difficult, people will work within current incentives, and journal-based peer review also adds value. We're working to leverage existing systems to facilitate a gradual transition.
 
-We want to raise awareness of our work, boost our credibility and demonstrate impact. Partnering with journals can do this and will encourage authors to submit their work with us and engage with our evaluations further
+We want to raise awareness of our work, boost our credibility and demonstrate impact. Partnering with journals can do this and will encourage authors to submit their work with us and engage with our evaluations further.
 
 
 
@@ -118,8 +118,8 @@ We want to raise awareness of our work, boost our credibility and demonstrate im
 We're happy to work with traditional journals in other  mutually-beneficial ways, such as:
 
 * (As noted above) Deeper integrations are possible where journals could commit to automatic decisions or interim processes based on Unjournal ratings.&#x20;
-* Sharing resources and insights about the review/evaluation process, guidelines for reviewers, etc. —  to help promote efficient, credible, transparent peer review and support open science
-* Editors may want to recommend that authors submit particularly Unjournal-relevant work to us,  either as an endpoint or as an initial step for further consideration\
+* Sharing resources and insights about the review/evaluation process, guidelines for reviewers, etc.   to help promote efficient, credible, transparent peer review and support open science.
+* Editors may want to recommend that authors submit particularly Unjournal-relevant work to us,  either as an endpoint or as an initial step for further consideration.\
 
 
 ## Anticipated concerns
