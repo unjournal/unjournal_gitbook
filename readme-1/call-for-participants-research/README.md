@@ -123,4 +123,4 @@ _Note_: This is under continual refinement; see our [policies](../../policies-pr
 
 [^4]: We can help arrange hosting and help you get a time-stamped DOI.
 
-[^5]: Update July 2023: these prizes are not currently active, but we aim to launch this again soon; all suggestors will be eligible for prizes retroactively.
+[^5]: We offer incentives for suggesting research we end up evaluating. See [Impactful Research Prize](impactful-research-prize.md) for current recognition programs.
