@@ -1,10 +1,8 @@
 # Governance of The Unjournal
 
-_Updated 11 Jan 2023_
-
 ### **Administrators, accounts**
 
-The official administrators are David Reinstein (working closely with the Operations Lead) and Gavin Taylor; both have control and oversight of the budget.
+The official administrators are David Reinstein (working closely with the Operations Lead); David and Anirudh Tagat (Co-Director) have control and oversight of the budget.
 
 ### **Roles: Founding and management committee**
 

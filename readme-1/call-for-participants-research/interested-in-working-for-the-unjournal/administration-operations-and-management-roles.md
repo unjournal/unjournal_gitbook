@@ -8,8 +8,6 @@ These are principally not research roles, but familiarity with research and rese
 
 ### Communications, Writing, and Public Relations Specialist <a href="#h.htvmrldrqnhn" id="h.htvmrldrqnhn"></a>
 
-_As of November 2023, we are soliciting applications for freelancers with skills in particular areas_&#x20;
-
 _The Unjournal_ is looking to work with a proficient writer who is adept at communicating with academics and researchers (particularly in economics, social science, and policy), journalists, policymakers, and philanthropists. As we are in our early stages, this is a generalist role. We need someone to help us explain what _The Unjournal_ does and why, make our processes easy to understand, and ensure our outputs (evaluations and research synthesis) are accessible and useful to non-specialists. We seek someone who values honesty and accuracy in communication; someone who has a talent for simplifying complex ideas and presenting them in a clear and engaging way.
 
 **The work is likely to include:**

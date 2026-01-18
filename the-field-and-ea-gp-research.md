@@ -39,7 +39,7 @@ Those listed below are at least somewhat tied to Effective Altruism.
 
 ### Other representative and relevant syllabi
 
-(To be included here)
+_We welcome suggestions for additional syllabi to include here. Contact us at [contact@unjournal.org](mailto:contact@unjournal.org)._
 
 ## **Funder/organization research agendas**
 
@@ -108,8 +108,6 @@ Less relevant:[ Decision-theoretic issues](https://globalprioritiesinstitute.org
 
 ## Other agendas and discussions
 
-_To be expanded, cataloged, and considered in more detail_
-
 [Happier Lives Institute](https://www.happierlivesinstitute.org/research-agenda.html) [research agenda](https://www.happierlivesinstitute.org/research-agenda.html) ("Research Priorities," 2021): A particularly well organized discussion. Each section has a list of relevant academic literature, some of which is recent and some of which is applied or empirical.
 
 [Animal Charity Evaluators](https://animalcharityevaluators.org/research/): Their "[Methodology](https://animalcharityevaluators.org/research/methodology/)" and "Research briefs" are particularly helpful, and connect to a range of academic and policy research
@@ -169,7 +167,7 @@ Slides as single scrollable document
 
 
 
-[^1]: Note: Most of these links are associated with Effective Altruism; we intend to include a wider range of sources soon. This page is very much a work-in-progress.
+[^1]: Note: Most of these links are associated with Effective Altruism; we aim to include a wider range of sources over time.
 
 [^2]: Obviously, we have not defined how to measure "welfare improvements"  here.
 
