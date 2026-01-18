@@ -1,2 +1,0 @@
-# Kotahi/Sciety (phasing out?)
-
