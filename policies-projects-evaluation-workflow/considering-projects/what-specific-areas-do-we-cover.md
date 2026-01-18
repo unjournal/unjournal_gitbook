@@ -15,7 +15,7 @@ We give some lists and annotated examples below.
 
 ## Fields, methods, and approaches
 
-As of January 2024 _The Unjournal_ focuses on ...&#x20;
+_The Unjournal_ focuses on ...&#x20;
 
 1. Research where the fundamental question being investigated involves _human_ behavior and beliefs and the consequences of these. This may involve markets, production processes, economic constraints, social interactions, technology, the 'market of ideas', individual psychology, government processes, and more. However, the main research question should _not_ revolve around issues outside of human behavio&#x72;_,_ such as physical science, biology, or computer science and engineering. These areas are out of our scope (at least for now). &#x20;
 2. Research that is fundamentally _quantitative_ and uses [_scientific_ methods](#user-content-fn-3)[^3]. It will generally involve or consider measurable inputs, choices, and outcomes; specific categorical or quantitative questions; analytical and mathematical reasoning; hypothesis testing and/or belief updating, etc.&#x20;
@@ -64,7 +64,7 @@ While we don't have rigid boundaries, we are nonetheless focusing on certain are
 
 ### Fields
 
-(As of Jan. 2024) we have mainly commissioned evaluations of work involving development economics and health-related outcomes and interventions in low-and middle-income countries.
+We have mainly commissioned evaluations of work involving development economics and health-related outcomes and interventions in low- and middle-income countries.
 
 As well as research involving
 
