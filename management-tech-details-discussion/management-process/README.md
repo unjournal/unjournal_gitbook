@@ -35,8 +35,6 @@ See also: &#x20;
 [choosing-evaluators](choosing-evaluators/)
 {% endcontent-ref %}
 
-###
-
 See also: [protecting-anonymity.md](../../policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md "mention")
 
 ### Some other important details

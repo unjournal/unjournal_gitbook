@@ -21,8 +21,6 @@ _For more information about what we are asking evaluators to do, see:_&#x20;
 * We aim to consult those who have [opted-in to our evaluator pool](../readme-1/call-for-participants-research/) first.
 * We favor evaluators with a track record of careful, in-depth, and insightful evaluation — while giving ECRs a chance to build such a record.
 
-###
-
 ### Why do we pay evaluators?
 
 For several reasons... (for more discussion, see  [why-pay-evaluators-reviewers.md](../policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md "mention"))
