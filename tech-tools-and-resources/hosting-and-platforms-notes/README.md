@@ -1,43 +1,54 @@
 # Hosting & platforms
 
-## Editorial management and paper intake: Kotahi
-
-{% embed url="https://unjournaldev.cloud68.co/login" %}
-
-14 Nov 2022: For now, only managers/editors and authors will interact with [this page](https://unjournaldev.cloud68.co/login). We plan to adapt it to become the interface for evaluations as well.
-
-13 Dec 2022: Moving in this direction
-
-Currently, the majority of our process is not done through Kotahi. We would need funds to make a more bespoke interface.
-
-### Host for Kotahi: Cloud68
-
-Domain name: [unjournal.org](https://unjournal.org) should take people to dashboard page (or login if necessary)
-
-Will change this to: unjournalplatform.org\
-\
-14 Nov 2022-- the login page is taking people to the wrong place for now
-
-## Output from evaluations goes to...
-
-Gets into a single hypothes.is account: [https://hypothes.is/users/TheUnjournal](https://hypothes.is/users/TheUnjournal)
-
-_This is essentially a workaround database. We are not using the full features of hypothes.is yet._ See [this slack thread](https://unjournalfriends.slack.com/archives/C03FF28KUC8/p1670510898279639)/this Gdoc for the thoughts and progress on this.
-
 {% hint style="info" %}
-_**As we often use Gdocs, see**_ [_**"Docs to md conversion"**_](https://docs.google.com/document/d/11daGp9fnWN4Vx03-\_ARoDgbvczlAAGu89OEMfOOiWp0/edit) _**tips**_
+**January 2026**: This page describes The Unjournal's current technical infrastructure for managing evaluations and publishing outputs.
 {% endhint %}
 
-## Main public curated space: Sciety.org
+## Evaluation hosting: PubPub
 
-[sciety-host-and-curate-evals.md](kotahi-sciety-phasing-out/sciety-host-and-curate-evals.md "mention")
+Our primary platform for publishing evaluation packages (evaluations, ratings, author responses, and manager summaries) is [PubPub](https://www.pubpub.org/).
 
-_Group in preparation:_
+**[unjournal.pubpub.org](https://unjournal.pubpub.org)** — Browse all published evaluations
 
-_Goal: get Unjournal.org to redirect here_
+We work with [Knowledge Futures](https://www.knowledgefutures.org/) to develop PubPub features that support journal-independent evaluation. Each evaluation receives a DOI and is indexed in academic search engines and bibliometrics.
 
-_Expected to be ready in early December 2022._
+## Editorial management: Coda
 
-{% embed url="https://sciety.org/groups" %}
-\\
-{% endembed %}
+We use [Coda](https://coda.io/) for internal workflow management, including:
+- Research prioritization and tracking
+- Evaluator recruitment and coordination
+- Evaluation form submissions
+- Payment processing
+
+Most team processes are documented in our internal Coda workspace (accessible to team members).
+
+## Knowledge base: GitBook
+
+This GitBook site serves as our public knowledge base, documenting:
+- Our policies, guidelines, and evaluation workflow
+- Background on The Unjournal's mission and approach
+- Resources for evaluators, authors, and partners
+- Historical records of our progress and development
+
+The GitBook is searchable and regularly updated. See [this-gitbook-editing-it-etc.md](this-gitbook-editing-it-etc.md "mention") for information on contributing.
+
+## Public resources
+
+| Resource | Purpose |
+|----------|---------|
+| [PubPub](https://unjournal.pubpub.org) | Published evaluations and author responses |
+| [GitBook](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space) | Policies, guidelines, and knowledge base |
+| [Interactive Dashboard](https://unjournal.shinyapps.io/uj-dashboard) | Evaluation metrics and statistics |
+| [Research Database (Coda)](https://coda.io/d/Cross-Doc-Sync_d7VdSLeCrpi/Unjournal-Research-of-interest-database-public_suCwXMPL#_lunMtjpm) | Research we've prioritized or are considering |
+| [Data & Analysis](https://unjournal.github.io/unjournaldata) | Detailed evaluation data analysis |
+
+<details>
+<summary>Archived: Previous platforms (2022-2023)</summary>
+
+During our pilot phase, we explored several platforms:
+
+- **Kotahi**: We initially used Kotahi for editorial management but moved away from it as our processes evolved. See [archived Kotahi documentation](kotahi-sciety-phasing-out/).
+- **Sciety**: We maintained a Sciety group for evaluation curation. While we remain interested in Sciety integration, our primary hosting is now on PubPub.
+- **Hypothes.is**: Used as a workaround database during early development.
+
+</details>

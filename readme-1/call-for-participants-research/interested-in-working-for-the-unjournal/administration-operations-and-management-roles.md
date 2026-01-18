@@ -1,18 +1,10 @@
 # Administration, operations and management roles
 
-These are principally not research roles, but familiarity with research and research environments will be helpful, and there is room for research involvement depending on the candidate’s interest, background, and skills/aptitudes.&#x20;
+{% hint style="warning" %}
+**January 2026**: We are not currently hiring for these positions. The role descriptions below are preserved as examples of positions we may hire for in the future. See the [main jobs page](./) for how to express interest.
+{% endhint %}
 
-There are currently one such role:
-
-
-
-[#h.htvmrldrqnhn](administration-operations-and-management-roles.md#h.htvmrldrqnhn "mention") (As of November 2023, still seeking freelancers)
-
-
-
-_Further note: We previously considered a “Management support and administrative professional” role. We are not planning to hire for this role currently. Those who indicated interest will be considered for other roles._
-
-[Express interest here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
+These are principally not research roles, but familiarity with research and research environments will be helpful, and there is room for research involvement depending on the candidate's interest, background, and skills/aptitudes.
 
 ### Communications, Writing, and Public Relations Specialist <a href="#h.htvmrldrqnhn" id="h.htvmrldrqnhn"></a>
 

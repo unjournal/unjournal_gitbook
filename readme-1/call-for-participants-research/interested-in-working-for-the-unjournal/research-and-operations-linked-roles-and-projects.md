@@ -1,7 +1,7 @@
 # Research & operations-linked roles & projects
 
-{% hint style="info" %}
-_We are again considering application for the 'evaluation metrics/meta-science' role. We will also consider all applicants for our_ [_field specialist_](../../organizational-roles-and-responsibilities/#field-specialists-fs) _positions, and for roles that may come up in the future._
+{% hint style="warning" %}
+**January 2026**: We are not currently hiring for these positions. The role descriptions below are preserved as examples of positions we may hire for in the future. See the [main jobs page](./) for how to express interest.
 {% endhint %}
 
 The potential roles discussed below combine research-linked work with operations and administrative responsibilities. Overall, this may include some combination of:
