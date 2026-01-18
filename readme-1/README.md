@@ -58,15 +58,14 @@ We also discuss other [parallel-partner-initiatives-and-resources](../parallel-p
 
 <summary><strong>Funding</strong></summary>
 
-29 Oct 2024: We have about a 9-12 month runway, which could be extended to cover our basic activities for a longer period. We are actively applying for grants and funding.&#x20;
+The Unjournal is funded by grants from philanthropic organizations focused on effective research and global priorities. We are actively applying for grants to sustain and expand our work.
 
-Our current support comes from:
+**Current and past funders include:**
+- [Survival and Flourishing Fund](../grants-and-proposals/survival-and-flourishing-fund-successful.md) (SFF)
+- [Long-Term Future Fund](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/) (LTFF) — our initial ACX grant was passed to LTFF
+- EA Infrastructure Fund (EAIF)
 
-[survival-and-flourishing-fund-successful.md](../grants-and-proposals/survival-and-flourishing-fund-successful.md "mention"); funds deposited Summer 2023.\
-\
-[acx-ltff-grant-proposal-as-submitted-successfull](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/ "mention") grant (ACX passed it to the Long Term Future Fund, who awarded it). Extended through mid-2023.\
-\
-We have submitted some other grant applications; e.g., see our unsuccessful [_FTX application here_](../grants-and-proposals/unsuccessful-applications/ftx-future-fund-for-further-funding-unsuccessful.md)_;_ other grant applications are linked below. We are sharing these in the spirit of transparency.
+We share our grant applications in the spirit of transparency — see our [grants and proposals](../grants-and-proposals/) section, including both successful and unsuccessful applications.
 
 </details>
 
