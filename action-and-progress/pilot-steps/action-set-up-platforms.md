@@ -44,5 +44,3 @@ Evaluations are curated [in our Sciety.org group](https://sciety.org/groups/the-
 (We currently use a hypothes.is workaround to have this feed into [Sciety](https://sciety.org/) so these show up as ‘evaluated pre-prints’ in their public database, gaining a DOI.
 
 [Notes, exploring the platform.](https://docs.google.com/document/d/1cXRRA8-wAkKEjpFe0ZOMUA6wWX-LBtcRRUhSJK7A1ps/edit)
-
-##

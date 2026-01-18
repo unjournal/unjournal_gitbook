@@ -93,15 +93,15 @@ Many funding agencies allow preliminary assessments to guide full applications.&
 
 ### For journals
 
-_Reduced review burden:_ Use existing expert assessments to inform desk decisions\
-\
-&#xNAN;_&#x46;aster turnaround:_ Expedite triage with pre-existing evaluations\
-\
-&#xNAN;_&#x45;nhanced transparency:_ Public Unjournal evaluations provide context and boost understanding of methodological considerations and the peer review process\
-\
-&#xNAN;_&#x51;uality signals:_ Authors with strong Unjournal evaluations will self-select to submit their work to journals that value them\
-\
-&#xNAN;_&#x43;ommunity leadership:_ Join journals advancing scholarly communication.  Demonstrate openness to open science practices.&#x20;
+_Reduced review burden:_ Use existing expert assessments to inform desk decisions
+
+_Faster turnaround:_ Expedite triage with pre-existing evaluations
+
+_Enhanced transparency:_ Public Unjournal evaluations provide context and boost understanding of methodological considerations and the peer review process
+
+_Quality signals:_ Authors with strong Unjournal evaluations will self-select to submit their work to journals that value them
+
+_Community leadership:_ Join journals advancing scholarly communication. Demonstrate openness to open science practices.&#x20;
 
 
 

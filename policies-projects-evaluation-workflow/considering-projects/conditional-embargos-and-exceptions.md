@@ -57,9 +57,7 @@ In exceptional circumstances we may consider granting a "[conditional indefinite
 
 </details>
 
-###
-
-_Note: the above are all exceptions to our regular rules, examples of embargos we might or  might not agree to._\
+_Note: the above are all exceptions to our regular rules, examples of embargos we might or might not agree to._
 
 
 

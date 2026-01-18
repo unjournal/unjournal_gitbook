@@ -158,8 +158,6 @@ The table below summarizes the percentile rankings.
 
 <table><thead><tr><th width="465">Quantitative metric</th><th width="142" align="center">Scale</th><th data-hidden></th></tr></thead><tbody><tr><td>Overall assessment</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Claims, strength and characterization of evidence:</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Methods: Justification, reasonableness, validity, robustness</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Advancing knowledge and practice</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Logic and communication</td><td align="center">0 - 100%</td><td></td></tr><tr><td>Open, collaborative, replicable science</td><td align="center">0 - 100%</td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-4">Relevance to global priorities, usefulness for practitioners</a></td><td align="center">0 - 100%</td><td></td></tr></tbody></table>
 
-###
-
 ### Overall assessment
 
 _Percentile ranking (0-100%)_
@@ -183,8 +181,6 @@ Are the methods[^7] used well-justified and explained; are they a reasonable app
 Are the results and methods likely to be robust to reasonable changes in the underlying assumptions? [Does the author demonstrate this?](#user-content-fn-8)[^8]
 
 Avoiding bias and [questionable research practices](https://forrt.org/glossary/questionable-research-practices-or-/) (QRP): Did the authors take steps to reduce bias from opportunistic reporting [and QRP](#user-content-fn-9)[^9]? For example, did they do a strong pre-registration and pre-analysis plan, incorporate multiple hypothesis testing corrections, and report flexible specifications?&#x20;
-
-###
 
 ### Advancing our knowledge and practice
 
