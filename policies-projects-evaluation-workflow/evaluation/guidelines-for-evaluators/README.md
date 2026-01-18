@@ -325,7 +325,7 @@ As before, we ask for a 90% credible interval.&#x20;
 <table><thead><tr><th width="364">Journal ranking tiers</th><th width="248" align="center">Scale</th><th width="238">90% CI</th><th data-hidden><select></select></th><th data-hidden></th></tr></thead><tbody><tr><td>What journal ranking tier <em>should</em> this work be published in?</td><td align="center">0.0-5.0</td><td><em>lower, upper</em></td><td></td><td></td></tr><tr><td>What journal ranking tier <em>will this</em> work be published in?</td><td align="center">0.0-5.0</td><td><em>lower, upper</em></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
-[PubPub note (less relevant now that PubPub is being phased out) ](#user-content-fn-19)[^19]
+[PubPub note](#user-content-fn-19)[^19]
 {% endhint %}
 
 #### **What journal ranking tier&#x20;**_**should**_**&#x20;this work be published in?**

@@ -1,27 +1,23 @@
 ---
-description: The steps we've taken and our plans; needs updating
+description: Our progress and ongoing work
 ---
 
 # Action and progress
 
-**This page and its sub-pages await updating**
+See [plan-of-action.md](../readme-1/plan-of-action.md "mention") for our current strategy.
 
-See also [plan-of-action.md](../readme-1/plan-of-action.md "mention")
+See [latest-updates](../readme-1/latest-updates/ "mention") for recent developments.
 
-See also [latest-updates](../readme-1/latest-updates/ "mention")
+<details>
+<summary>Archived: Pilot phase documentation (2022-2023)</summary>
 
-### Gantt Chart of next steps
+The Unjournal's pilot phase was completed in August 2023. The documentation below is preserved for historical reference:
 
-18 Jun 2023: This _needs updating_
+* [Pilot steps overview](pilot-steps/README.md)
+* [Building a founding committee](pilot-steps/action-build-founding-committee.md)
+* [Identifying key research](pilot-steps/action-identify-pilot-key-projects-papers.md)
+* [Setting up platforms](pilot-steps/action-set-up-platforms.md)
+* [Evaluation guidelines for pilot papers](pilot-steps/evaluation-referee-guidelines-for-pilot-papers.md)
+* [Identifying and engaging evaluators](pilot-steps/evaluators-reviewers-identify-contact-engage.md)
 
-{% embed url="https://airtable.com/shrGbB6b45GcdL0YJ/tblDnwRNHnruI9Kqw" %}
-
-* [action-build-founding-committee.md](pilot-steps/action-build-founding-committee.md "mention")
-* [action-identify-pilot-key-projects-papers.md](pilot-steps/action-identify-pilot-key-projects-papers.md "mention")
-* [action-set-up-platforms.md](pilot-steps/action-set-up-platforms.md "mention")
-* Initial evaluations; feedback on the process
-* Revise process; further set of evaluations
-* Disseminate and communicate (research, evaluations, processes); get further public feedback
-* Further funding; prepare for scaling-up
-
-Management: updates and CTA in gdoc shared in emails
+</details>

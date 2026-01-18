@@ -2,7 +2,7 @@
 
 On this page we link to and discuss [some takes](#user-content-fn-1)[^1] on answers to the questions, _Which research is most impactful? Which research should be prioritized?_
 
-At The Unjournal, we are open to various approaches to the issues of "what is the most impactful research"?  Perhaps looking at some of the research, we have already evaluated and research we are prioritizing (public link coming soon) will give you some insights. However, it seems fair that we should give at least one candidate description or definition.
+At The Unjournal, we are open to various approaches to the issues of "what is the most impactful research"? Perhaps looking at the research we have [already evaluated](https://unjournal.pubpub.org/) and [research we are prioritizing](https://coda.io/d/Cross-Doc-Sync_d7VdSLeCrpi/Unjournal-Research-of-interest-database-public_suCwXMPL#_lunMtjpm) will give you some insights. However, it seems fair that we should give at least one candidate description or definition.
 
 ## A candidate description/definition; 'direct global impact of research'
 

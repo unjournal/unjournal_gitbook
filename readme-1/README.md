@@ -91,6 +91,17 @@ This GitBook is a knowledge base that supplements our main public page, [unjourn
 1. Making "peer evaluation and rating" of open projects into a standard high-status outcome in academia and research, specifically within economics and social sciences. This stands in contrast to the conventional binary choice of accepting or rejecting papers to be published as PDFs and other static formats.
 2. Building a cohesive and efficient system for publishing, accruing credibility, and eliciting feedback for research aligned with effective altruism and global priorities. **Our ultimate aim is to&#x20;**_**make rigorous research more impactful, and impactful research more rigorous**_**.**
 
+## Data and Resources
+
+Explore our evaluation data and research through these resources:
+
+| Resource | Description |
+|----------|-------------|
+| [Evaluation Packages (PubPub)](https://unjournal.pubpub.org) | Read our published evaluations, ratings, and author responses |
+| [Interactive Dashboard](https://unjournal.shinyapps.io/uj-dashboard) | Explore evaluation metrics and trends interactively |
+| [Data & Analysis Website](https://unjournal.github.io/unjournaldata) | Detailed data analysis and methodology documentation |
+| [Research Database (Coda)](https://coda.io/d/Cross-Doc-Sync_d7VdSLeCrpi/Unjournal-Research-of-interest-database-public_suCwXMPL#_lunMtjpm) | Browse research we've prioritized or are considering for evaluation |
+
 ## Where do I go next?
 
 See [contents-page.md](contents-page.md "mention")

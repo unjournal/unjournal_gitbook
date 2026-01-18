@@ -19,7 +19,7 @@ These initiatives share significant overlap with The Unjournal's mission or are 
 | [PCI Economics (Coming soon?)](https://psych.peercommunityin.org/) | 📄 Open public evaluation initiat | We’re in contact/collaboration |
 | [PCI Psychology](https://psych.peercommunityin.org/) | 📄 Open public evaluation initiat | We’re in contact/collaboration |
 | [PRC Alliance (Publish, Review, Curate)](https://asapbio.org/reimagining-scholarly-publishing-outcomes-from-a-public-forum-to-discuss-the-publish-review-curate-prc-publishing-model/) | 🤝 Open science collaboration |  |
-| [PubPub](https://www.pubpub.org/) | 🔧 Platform/tool: reviewing/ratin | We are using it to host our evaluations. It has many strong features and we plan to fund further features. Winding down? |
+| [PubPub](https://www.pubpub.org/) | 🔧 Platform/tool: reviewing/ratin | We use PubPub to host our evaluations at unjournal.pubpub.org. It has many strong features and we continue to collaborate with Knowledge Futures on development. |
 | [eLife (hosted within Sciety)](https://elifesciences.org/about/) | 📄 Open public evaluation initiat | "eLife's is/was a fairly well respected (?) journal in Life Sciences. Their New Model (originally called 'publish, review, curate') was big news.  Their three month update seems fairly stable/successf |
 
 ## Other Related Initiatives

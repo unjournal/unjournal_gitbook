@@ -1,7 +1,7 @@
 # Jobs and paid projects with The Unjournal
 
-{% hint style="info" %}
-&#x20;19 Feb 2024.  We are not currently hiring, but expect to do so in the future
+{% hint style="warning" %}
+**January 2026**: We are not currently hiring for staff positions. However, we continue to recruit evaluators and field specialists. See our [evaluator signup form](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
 {% endhint %}
 
 To indicate your potential interest in roles at The Unjournal, such as those described below, please fill out [this quick survey form](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd) and link (or upload) your CV or webpage.

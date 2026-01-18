@@ -1,7 +1,7 @@
-# Independent evaluations (trial)
+# Independent evaluations
 
 {% hint style="info" %}
-_Kickstarter incentive:_ After the first 8 quality submissions (or by Jan. 1, 2025 - whichever comes later) we will award a prize of $500 to the strongest evaluation.
+We welcome independent evaluations and offer prizes for the strongest submissions. Contact us at [contact@unjournal.org](mailto:contact@unjournal.org) if you're interested.
 {% endhint %}
 
 {% hint style="info" %}
@@ -69,11 +69,9 @@ However, when we host or link these, we will keep them clearly separated and sig
 
 #### 2. Offering incentives <a href="#qk9saxbleg4l" id="qk9saxbleg4l"></a>
 
-_**Bounties:**_ We will offer prizes for the ‘most valuable independent evaluations’.&#x20;
+_**Bounties:**_ We offer prizes for the 'most valuable independent evaluations'. Strong submissions may receive prizes of $500 or more.
 
-As a start, after the first eight [quality submissions](#user-content-fn-8)[^8] (or by Jan. 1 2025, whichever comes later), we will award a prize of $500 to the most valuable evaluation.&#x20;
-
-Further details tbd. [As a reference... ](#user-content-fn-9)[^9]
+[As a reference... ](#user-content-fn-9)[^9]
 
 All evaluation submissions will be eligible for these prizes and “grandfathered in” to any prizes announced later. We will announce and promote the prize winners (unless they opt for anonymity).
 
@@ -112,7 +110,7 @@ We want to preserve a positive and productive environment. This is particularly 
 
 ### About _The Unjournal_ (unfold) <a href="#qry0gpgw5ga5" id="qry0gpgw5ga5"></a>
 
-[_The Unjournal_](http://unjournal.org/) commissions public evaluations of impactful research in quantitative social sciences fields. We are an alternative and a supplement to traditional academic peer-reviewed journals – separating evaluation from journals unlocks a [range of benefits](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features). We ask expert evaluators to write detailed, constructive, critical reports. We also solicit a set of structured ratings focused on research credibility, methodology, careful and calibrated presentation of evidence, reasoning transparency, replicability, relevance to global priorities, and usefulness for practitioners (including funders, project directors, and policymakers who rely on this research). While we have mainly targeted impactful research from _academia_, our [‘applied stream’](https://docs.google.com/document/d/1RwkmGJtaOcryK-tJs3mrs6DIAj411YRnsauaj6EE6WY/edit) covers impactful work that uses formal quantitative methods but is _not_ aimed at academic journals. So far, we’ve commissioned about 50 evaluations of 24 papers, and published these evaluation packages [on our PubPub community](https://unjournal.pubpub.org/), linked to academic search engines and bibliometrics.
+[_The Unjournal_](http://unjournal.org/) commissions public evaluations of impactful research in quantitative social sciences fields. We are an alternative and a supplement to traditional academic peer-reviewed journals – separating evaluation from journals unlocks a [range of benefits](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features). We ask expert evaluators to write detailed, constructive, critical reports. We also solicit a set of structured ratings focused on research credibility, methodology, careful and calibrated presentation of evidence, reasoning transparency, replicability, relevance to global priorities, and usefulness for practitioners (including funders, project directors, and policymakers who rely on this research). While we have mainly targeted impactful research from _academia_, our [‘applied stream’](https://docs.google.com/document/d/1RwkmGJtaOcryK-tJs3mrs6DIAj411YRnsauaj6EE6WY/edit) covers impactful work that uses formal quantitative methods but is _not_ aimed at academic journals. As of January 2026, we've commissioned over 100 evaluations of 53 papers, and published these evaluation packages [on our PubPub community](https://unjournal.pubpub.org/), linked to academic search engines and bibliometrics. See our [interactive dashboard](https://unjournal.shinyapps.io/uj-dashboard) for current statistics.
 
 [^1]: The Unjournal focuses on _commissioning_ expert evaluations, guided by an ‘evaluation manager’ and compensating people for their work. (See the outline of our main process[ here](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow)). We plan to continue to focus on that mode. Below we sketch an _additional_ parallel but separate approach.
 
