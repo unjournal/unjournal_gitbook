@@ -47,15 +47,11 @@ EA Anywhere
 
 <details>
 
-<summary>Earlier slide decks</summary>
+<summary>Earlier slide decks (2022)</summary>
 
-_July 2023_: The slide deck below was last updated in late 2022 and needs some revision. Nonetheless, it illustrates many of the key points that remain relevant.
+Earlier presentation materials from 2022 are preserved here for reference:
 
-[bit.ly/unjourrnalpresent](http://bit.ly/unjournalpresent)
-
-
-
-Nov  2022: Version targeted towards OSF/Open Science [HERE](https://docs.google.com/presentation/d/1zoC9au-Fc3WnBT4QRIPOLQ-J-PUlJVieJPt4Mi4sfm0/edit?usp=sharing)
+* Nov 2022: Version targeted towards OSF/Open Science [HERE](https://docs.google.com/presentation/d/1zoC9au-Fc3WnBT4QRIPOLQ-J-PUlJVieJPt4Mi4sfm0/edit?usp=sharing)
 
 </details>
 

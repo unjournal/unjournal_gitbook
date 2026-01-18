@@ -56,9 +56,8 @@ _Note: No single skill or experience is necessary independently. If in doubt, we
 **Length and timing:**
 
 * Flexible; to be specified and agreed with the contractor.
-* We are likely to hire one role starting in Summer 2023, and another starting in Autumn 2023.
 * Extensions, growth, and promotions are possible, depending on performance, fit, and our future funding.
 
 </details>
 
-[Express your interest here](https://www.google.com/url?q=https://airtable.com/shrxGwooWtwZqY8cd\&sa=D\&source=editors\&ust=1692112926473191\&usg=AOvVaw388wUH9VVv1Lv5AyWJ5l\_l). _(Nov. 2023: Note, we can not guarantee that we will be hiring for this role, because of changes in our approach.)_
+[Express your interest here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
