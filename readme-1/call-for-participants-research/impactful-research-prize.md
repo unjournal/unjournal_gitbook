@@ -4,11 +4,11 @@
 
 ### Evaluator prizes (2024-25)
 
-For the 2024-25 cycle, we focused on evaluator recognition, awarding $6,500 in prizes to evaluators who provided exceptionally credible, insightful, and detailed evaluations.
+For the 2024-25 cycle, we are focusing on evaluator recognition, with $6,500 in prizes for evaluators who provided exceptionally credible, insightful, and detailed evaluations. We are currently finalizing the winners and will announce them soon.
 
 ### Author recognition (2024-25)
 
-Given limited funds and a relatively small pool of author-submitted work during 2024-25, we shifted from monetary "author prizes" to recognition-based awards highlighting two dimensions:
+Given limited funds and a relatively small pool of author-submitted work during 2024-25, we are shifting from monetary "author prizes" to recognition-based awards highlighting two dimensions:
 
 - **Flowing Water Scholar**: Recognizing the most valuable author engagement and response—openness, epistemic modesty, willingness to update, growth mindset, and constructive dialogue with evaluators.
 - **Polaris Research**: Recognizing the strongest and most useful research, based on highly credible and detailed evaluation manager reports, careful evaluations, and high "merited journal tier" ratings.
