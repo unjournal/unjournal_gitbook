@@ -1,22 +1,35 @@
 # Impactful Research Prize
 
-## Current status (2024-25)
+## Current status (January 2026)
 
-The Unjournal is developing an ongoing author and evaluator recognition program building on our successful 2023 pilot prize. We aim to recognize and reward researchers whose work demonstrates rigor, transparency, and potential for real-world impact, as well as evaluators who provide exceptional public evaluations.
+### Evaluator prizes (2024-25)
+
+For the 2024-25 cycle, we focused on evaluator recognition, awarding $6,500 in prizes to evaluators who provided exceptionally credible, insightful, and detailed evaluations.
+
+### Author recognition (2024-25)
+
+Given limited funds and a relatively small pool of author-submitted work during 2024-25, we shifted from monetary "author prizes" to recognition-based awards highlighting two dimensions:
+
+- **Flowing Water Scholar**: Recognizing the most valuable author engagement and response—openness, epistemic modesty, willingness to update, growth mindset, and constructive dialogue with evaluators.
+- **Polaris Research**: Recognizing the strongest and most useful research, based on highly credible and detailed evaluation manager reports, careful evaluations, and high "merited journal tier" ratings.
+
+### Future prizes (2026 and beyond)
+
+We aim to establish an ongoing author prize with a monetary component for 2026 and beyond. This will particularly reward authors who submit their work and engage meaningfully with the evaluation process. The structure and scale will depend on our funding situation.
 
 **To be considered for future recognition:**
 
 - [Submit your research](https://bit.ly/UJsubmit) for Unjournal evaluation
-- Engage with the evaluation process by responding to evaluator feedback
+- Engage with the evaluation process by responding substantively to evaluator feedback
 - Sign up as an [evaluator](../../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md)
 
-Details of the 2024-25 recognition program will be announced on [unjournal.org](https://unjournal.org) and our [Bluesky feed](https://bsky.app/profile/unjournal.bsky.social). Contact [contact@unjournal.org](mailto:contact@unjournal.org) with questions.
+Updates will be announced on [unjournal.org](https://unjournal.org) and our [Bluesky feed](https://bsky.app/profile/unjournal.bsky.social). Contact [contact@unjournal.org](mailto:contact@unjournal.org) with questions.
 
 ---
 
 ## 2023 Pilot Prize (completed)
 
-Our inaugural Impactful Research Prize was awarded in early 2024. See [Impactful Research Prize Winners](../latest-updates/impactful-research-prize-winners.md) for the announcement.
+Our inaugural Impactful Research Prize was awarded in early 2024. See [Impactful Research Prize Winners](../latest-updates/impactful-research-prize-winners.md) for the full announcement.
 
 **Winners:**
 - **First Prize ($2,500):** Takahiro Kubo and co-authors for "[Banning wildlife trade can boost demand](https://unjournal.pubpub.org/pub/banning-wildlife-eval-summ/release/6)"
@@ -48,8 +61,6 @@ The pilot prize was announced in late 2022 as part of The Unjournal's first year
 Prize winners had the opportunity to present their work at an online seminar and prize ceremony co-hosted by The Unjournal, Rethink Priorities, and EAecon.
 
 **Eligibility:** All work evaluated by The Unjournal was eligible. Engagement with the evaluation process, including responding to evaluator comments, was a factor in determining winners.
-
-**Deadline:** Extended until 5 December 2022 (to ensure eligibility for evaluation during the pilot year).
 
 </details>
 
