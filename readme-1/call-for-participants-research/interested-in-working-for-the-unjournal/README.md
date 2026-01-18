@@ -1,34 +1,55 @@
 # Jobs and paid projects with The Unjournal
 
 {% hint style="warning" %}
-**January 2026**: We are not currently hiring for staff positions. However, we continue to recruit evaluators and field specialists. See our [evaluator signup form](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
+**January 2026**: We are not currently hiring for specific staff positions. However, we hope to hire for similar roles in the future, depending on grant funding and other considerations.
+
+People are welcome to submit their resume and expression of interest for future consideration using the form below.
+
+We continue to recruit **evaluators** and **field specialists** on an ongoing basis. See our [evaluator signup form](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
 {% endhint %}
 
-To indicate your potential interest in roles at The Unjournal, such as those described below, please fill out [this quick survey form](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd) and link (or upload) your CV or webpage.
+## Express your interest
 
-* If you already filled out this form for a role that has changed titles, don’t worry. You will still be considered for relevant and related roles in the future.
-* If you add your name to this form, we may contact you to offer you the opportunity to do paid project work and paid work tasks.
+To indicate your potential interest in roles at The Unjournal, please fill out [this quick survey form](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd) and link (or upload) your CV or webpage.
 
-Furthermore, if you are interested in conducting paid research evaluation for _The Unjournal_, or in joining our advisory board, please complete the form linked [here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
+* If you already filled out this form for a role that has changed titles, don't worry. You will still be considered for relevant and related roles in the future.
+* If you add your name to this form, we may contact you to offer you the opportunity to do paid project work.
+
+If you are interested in conducting paid research evaluation for _The Unjournal_, or in joining our advisory board, please complete the form linked [here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
 
 Feel free to contact contact@unjournal.org with any questions.
 
-## Quick links to role descriptions below <a href="#h.ohxm7x2bjfvn" id="h.ohxm7x2bjfvn"></a>
+## Other ways to get involved
 
-[administration-operations-and-management-roles.md](administration-operations-and-management-roles.md "mention")
+Not looking for a job but want to participate? See our [how to get involved](../) page for other opportunities including:
+- Submitting or suggesting research for evaluation
+- Becoming an evaluator
+- Joining as a field specialist
 
-[research-and-operations-linked-roles-and-projects.md](research-and-operations-linked-roles-and-projects.md "mention")
+## Additional information
 
-[standalone-project-impactful-research-scoping-temp.-pause.md](standalone-project-impactful-research-scoping-temp.-pause.md "mention")
+_The Unjournal_, a US-registered 501(c)(3) nonprofit, is an equal-opportunity employer and contractor. We are committed to creating an inclusive environment for all employees, volunteers, and contractors. We do not discriminate on the basis of race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetic information, disability, age, or veteran status.
 
-## Additional information <a href="#h.x2umqmm1vnqa" id="h.x2umqmm1vnqa"></a>
+See our data protection statement [linked here](https://docs.google.com/document/d/1dGhqonNHeH71F5pDlVB-m9Ods5jcmULR8qlcHXTU-MM/edit).
 
-[Express interest in any of these roles in our survey form.](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd)
+<details>
+<summary>Previously advertised positions (for reference)</summary>
 
-_The Unjournal_, a not-for-profit collective under the umbrella and fiscal sponsorship of the [Open Collective Foundation](https://www.google.com/url?q=https://opencollective.com/foundation\&sa=D\&source=editors\&ust=1692112926486271\&usg=AOvVaw3BjcohB75rECWCpnF53Yb-), is an equal-opportunity employer and contractor.  We are committed to creating an inclusive environment for all employees, volunteers, and contractors. We do not discriminate on the basis of race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetic information, disability, age, or veteran status.
+The positions below are examples of roles we have hired for in the past and may consider hiring for in the future, depending on funding and organizational needs.
 
-See our data protection statement [linked here](https://www.google.com/url?q=https://docs.google.com/document/d/1dGhqonNHeH71F5pDlVB-m9Ods5jcmULR8qlcHXTU-MM/edit\&sa=D\&source=editors\&ust=1692112926486562\&usg=AOvVaw0ET4ISQwmHk0zuxWjYgmTc).
+### Administration, operations and management roles
 
-{% hint style="info" %}
-**In addition to the jobs and paid projects listed here**, we are expanding our management team, advisory board, field specialist team pool, and evaluator pool. Most of these roles involve compensation/honorariums. See [advisory-team-roles-research-management.md](advisory-team-roles-research-management.md "mention")
-{% endhint %}
+See [administration-operations-and-management-roles.md](administration-operations-and-management-roles.md "mention") for details on:
+- Communications, Writing, and Public Relations Specialist
+
+### Research & operations-linked roles
+
+See [research-and-operations-linked-roles-and-projects.md](research-and-operations-linked-roles-and-projects.md "mention") for details on:
+- Research and Evaluation Specialist (RES)
+
+### Standalone projects
+
+See [standalone-project-impactful-research-scoping-temp.-pause.md](standalone-project-impactful-research-scoping-temp.-pause.md "mention") for details on:
+- Impactful Research Scoping project
+
+</details>
