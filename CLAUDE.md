@@ -55,3 +55,42 @@ GitBook uses custom syntax including:
 ## Style Guide
 
 The Unjournal maintains a style guide for documentation consistency: https://docs.google.com/document/d/10aooH_YCVX__pXFqnY1l8Kn2_DPX9wdHdR9AfImSuDs/edit
+
+## Key URLs
+
+- **Public GitBook**: `https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/`
+- **PubPub evaluations**: `https://unjournal.pubpub.org/`
+- **Shiny dashboard**: `https://unjournal.shinyapps.io/uj-dashboard/`
+- **Main website**: `https://unjournal.org`
+
+Note: The old URL `effective-giving-marketing.gitbook.io` redirects to the current `globalimpact.gitbook.io` domain.
+
+## Content Maintenance Notes
+
+### Statistics (update periodically)
+- As of January 2026: 100+ evaluations of 53 papers
+- Source of truth: Shiny dashboard and internal Coda
+
+### Archived content
+Historical content (pilot phase 2022-2023, old job postings, etc.) is preserved in `<details>` collapsible sections rather than deleted, to maintain persistent links.
+
+### Internal vs public links
+- Never link to internal Coda pages in public GitBook content (except parenthetically for team reference)
+- Use relative paths for internal GitBook links, not full URLs
+
+### Prize programs
+- 2023 pilot prize: Completed, winners announced
+- 2024-25: Evaluator prizes ($6,500), recognition-based author awards (Flowing Water Scholar, Polaris Research)
+- 2026+: Monetary author prizes planned, funding dependent
+
+## January 2026 Cleanup Summary
+
+Major cleanup performed including:
+- Fixed corrupted character encoding (`&#xNAN;` patterns)
+- Removed empty headers and duplicate orphan files
+- Updated Impactful Research Prize page with current 2024-25 status
+- Archived pilot phase content in collapsibles
+- Fixed old GitBook URLs to internal paths
+- Updated outdated date references
+- Removed Kotahi references from active pages (now archived)
+- Streamlined plan-of-action and funding sections
