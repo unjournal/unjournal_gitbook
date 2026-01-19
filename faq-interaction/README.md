@@ -24,7 +24,7 @@ In future, we may consider sliding-scale fees for people submitting their work f
 
 ### How is The Unjournal funded? Is it sustainable?
 
-We have [grants](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/latest-updates#update-on-recent-progress-6-may-2023) from philanthropists and organizations who are interested in our priority research areas. We hope that our work will provide enough value to justify further direct funding. We may also seek funding from governments and universities supporting the open-access agenda.&#x20;
+We have [grants](../grants-and-proposals/) from philanthropists and organizations who are interested in our priority research areas. We hope that our work will provide enough value to justify further direct funding. We may also seek funding from governments and universities supporting the open-access agenda.&#x20;
 
 ## I have another question.
 

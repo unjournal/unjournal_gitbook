@@ -21,7 +21,7 @@ We do not "accept or reject" papers; we are _evaluating_ research, not "publishi
 
 As an alternative to the traditional measure of worth—asking, "what tier did a paper get published in?"—_The Unjournal_ provides _metrics:_ We ask evaluators to provide a specific set of ratings and predictions about _aspects_ of the research, as well as aggregate measures. We make these public. We aim to synthesize and analyze these ratings in useful ways, as well as make this quantitative data accessible to meta-science researchers, meta-analysts, and tool builders.
 
-Feel free to check out our [ratings metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#metrics-overall-assessment-categories) and [prediction metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#journal-prediction-metrics) (these are our pilot metrics, we aim to refine these).
+Feel free to check out our [ratings metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#metrics-overall-assessment-categories) and [prediction metrics](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#journal-prediction-metrics).
 
 These metrics are separated into different categories designed to help researchers, readers, and users understand things like:
 
