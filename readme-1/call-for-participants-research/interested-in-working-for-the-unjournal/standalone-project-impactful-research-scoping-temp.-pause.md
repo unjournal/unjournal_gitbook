@@ -1,12 +1,16 @@
-# Standalone project: Impactful Research Scoping (temp. pause)
+# Standalone project: Impactful Research Scoping (paused)
 
-{% hint style="info" %}
-_**Nov. 2023 update**: We have paused this process focus to emphasize our_ [_field specialist_](../../organizational-roles-and-responsibilities/#field-specialists-fs) _positions. We hope to come back to hiring_ researchers _to implement these projects soon._&#x20;
+{% hint style="warning" %}
+**Archived**: This project was paused in late 2023 to focus on [field specialist](../../organizational-roles-and-responsibilities/#field-specialists-fs) positions. Similar research scoping work is now integrated into field specialist and evaluation manager roles. The description below is preserved for reference.
 {% endhint %}
+
+<details>
+
+<summary>Original project description (2023)</summary>
 
 ## Proposed projects
 
-We are planning to hire 3–7 researchers for a one-off paid project.&#x20;
+We planned to hire 3–7 researchers for a one-off paid project.&#x20;
 
 There are two opportunities: _Contracted Research (CR)_ and _Independent Projects (IP)_.
 
@@ -49,3 +53,5 @@ You can apply to the _CR_ and _IP_ positions together; we will automatically con
 **Get Involved!**
 
 If you are interested in involvement in either the _CR_ or _IP_ side of this project, please let us know [through our survey form here](https://airtable.com/appbPYEw9nURln7Qg/shrxGwooWtwZqY8cd).
+
+</details>
