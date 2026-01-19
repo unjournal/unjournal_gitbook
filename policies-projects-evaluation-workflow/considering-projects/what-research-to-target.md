@@ -37,7 +37,7 @@ _We ask the people who suggest particular research, and experts in the field:_
 
 ## Ultimate goals: what are we trying to optimize?&#x20;
 
-Put broadly, we need to consider how this research allows us to achieve our own goals in line with our [Global Priorities Theory of Change flowchart](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/benefits-and-features/global-priorities-theory-of-change), [targeting "ultimate outcomes."](#user-content-fn-5)[^5] The research we select and evaluate should meaningfully drive positive change. One way we might see this process:  “better research & more informative evaluation” → “better decision-making” → “better outcomes” for humanity and for non-human animals (i.e., the survival and flourishing of life and human civilization and values).&#x20;
+Put broadly, we need to consider how this research allows us to achieve our own goals in line with our [Global Priorities Theory of Change flowchart](../../benefits-and-features/global-priorities-theory-of-change/), [targeting "ultimate outcomes."](#user-content-fn-5)[^5] The research we select and evaluate should meaningfully drive positive change. One way we might see this process:  “better research & more informative evaluation” → “better decision-making” → “better outcomes” for humanity and for non-human animals (i.e., the survival and flourishing of life and human civilization and values).&#x20;
 
 ## Prioritizing research to achieve these goals
 
@@ -54,7 +54,7 @@ _What is the direct impact potential of the research?_
 This is a massive question many have tried to address (see sketches and links below). We respond to uncertainty around this question in several ways, including:
 
 * Consulting a range of sources, not only EA-linked sources.&#x20;
-  * EA and more or less adjacent:  [Agendas](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/the-field-and-ea-gp-research/what-is-ea-gp-relevant-research) and overviews, [Syllabi](https://effective-giving-marketing.gitbook.io/economics-for-ea-and-vice-versa/existing-resources-programs-examples).
+  * EA and more or less adjacent: [Agendas](../../the-field-and-ea-gp-research.md) and overviews.
   * Non-EA, e.g., [https://globalchallenges.org/](https://globalchallenges.org/).
 * Scoping what other sorts of work are representative inputs to GP-relevant work.&#x20;
   * Get a selection of seminal GP publications; look back to see what they are citing and categorize by journal/field/keywords/etc.&#x20;

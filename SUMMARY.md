@@ -71,7 +71,7 @@
   * [‘Operationalizable’ questions](pivotal-questions/operationalizable-questions.md)
   * [Why "operationalizable questions"?](pivotal-questions/why-operationalizable-questions.md)
 * [Action and progress](action-and-progress/README.md)
-  * [Plan of action (cross-link)](https://effective-giving-marketing.gitbook.io/the-unjournal-project-and-communication-space/readme-1/plan-of-action)
+  * [Plan of action](readme-1/plan-of-action.md)
 * [Grants and proposals](grants-and-proposals/README.md)
   * [Survival and Flourishing Fund (successful)](grants-and-proposals/survival-and-flourishing-fund-successful.md)
   * [ACX/LTFF grant proposal (as submitted, successful)](grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/README.md)
