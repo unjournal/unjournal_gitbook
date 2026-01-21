@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unjournal - Visual Diagrams</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --accent: #3b82f6;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg-primary);
+      min-height: 100vh;
+      color: var(--text-primary);
+    }
+
+    .header {
+      text-align: center;
+      padding: 2rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .header h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: rgba(0,0,0,0.3);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .control-group label {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    select, button {
+      background: var(--bg-secondary);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: var(--text-primary);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.9rem;
+    }
+
+    select:hover, button:hover {
+      border-color: var(--accent);
+    }
+
+    button.active {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .diagram-section {
+      margin-bottom: 3rem;
+    }
+
+    .diagram-title {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .diagram-title::before {
+      content: '';
+      width: 4px;
+      height: 1.2rem;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    .diagram-description {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .diagram-card {
+      border-radius: 16px;
+      padding: 2rem;
+      overflow: auto;
+      transition: all 0.3s ease;
+    }
+
+    /* Theme: Modern Light */
+    .theme-modern-light .diagram-card {
+      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    /* Theme: Modern Dark */
+    .theme-modern-dark .diagram-card {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    /* Theme: Warm */
+    .theme-warm .diagram-card {
+      background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+      box-shadow: 0 20px 40px rgba(217,119,6,0.15);
+    }
+
+    /* Theme: Cool */
+    .theme-cool .diagram-card {
+      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+      box-shadow: 0 20px 40px rgba(59,130,246,0.15);
+    }
+
+    /* Theme: Nature */
+    .theme-nature .diagram-card {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      box-shadow: 0 20px 40px rgba(34,197,94,0.15);
+    }
+
+    /* Animation styles */
+    .animate-nodes .node {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.5s ease forwards;
+    }
+
+    .animate-nodes .node:nth-child(1) { animation-delay: 0.1s; }
+    .animate-nodes .node:nth-child(2) { animation-delay: 0.2s; }
+    .animate-nodes .node:nth-child(3) { animation-delay: 0.3s; }
+    .animate-nodes .node:nth-child(4) { animation-delay: 0.4s; }
+    .animate-nodes .node:nth-child(5) { animation-delay: 0.5s; }
+    .animate-nodes .node:nth-child(6) { animation-delay: 0.6s; }
+    .animate-nodes .node:nth-child(7) { animation-delay: 0.7s; }
+    .animate-nodes .node:nth-child(8) { animation-delay: 0.8s; }
+    .animate-nodes .node:nth-child(9) { animation-delay: 0.9s; }
+    .animate-nodes .node:nth-child(10) { animation-delay: 1.0s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .legend {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 0.85rem;
+    }
+
+    .theme-modern-light .legend,
+    .theme-warm .legend,
+    .theme-cool .legend,
+    .theme-nature .legend {
+      background: rgba(0,0,0,0.05);
+      color: #475569;
+    }
+
+    .theme-modern-dark .legend {
+      background: rgba(255,255,255,0.05);
+      color: #94a3b8;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      border: 2px solid rgba(0,0,0,0.1);
+    }
+
+    .mermaid {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body class="theme-modern-light">
+
+  <header class="header">
+    <h1>THE UNJOURNAL</h1>
+    <p style="color: var(--text-secondary); margin-top: 0.5rem;">Visual Process Diagrams</p>
+  </header>
+
+  <div class="controls">
+    <div class="control-group">
+      <label>Theme:</label>
+      <select id="themeSelect" onchange="changeTheme(this.value)">
+        <option value="modern-light">Modern Light</option>
+        <option value="modern-dark">Modern Dark</option>
+        <option value="warm">Warm Amber</option>
+        <option value="cool">Cool Blue</option>
+        <option value="nature">Nature Green</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Animation:</label>
+      <button id="animateBtn" onclick="toggleAnimation()">Enable Animation</button>
+    </div>
+    <div class="control-group">
+      <button onclick="reRenderAll()">Re-render Diagrams</button>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <!-- Theory of Change -->
+    <section class="diagram-section">
+      <h2 class="diagram-title">Theory of Change</h2>
+      <p class="diagram-description">How The Unjournal creates positive global outcomes through better research evaluation.</p>
+      <div class="diagram-card">
+        <div class="mermaid" id="toc-diagram">
+graph TB
+    subgraph INPUT[" "]
+        A["<b>THE UNJOURNAL</b><br/>Tools &amp; Incentives"]
+    end
+
+    subgraph PROCESS[" "]
+        B["Better Research<br/>Evaluation"]
+        C["Focus on<br/>Impactful Research"]
+        D["Paid Expert<br/>Evaluators"]
+    end
+
+    subgraph OUTCOMES[" "]
+        E["Higher Quality<br/>Research"]
+        F["Open Science<br/>Practices"]
+        G["Academic Interest<br/>in Impact"]
+    end
+
+    subgraph IMPACT[" "]
+        H["Decision Makers<br/>Better Informed"]
+        I["Better Policy<br/>Choices"]
+        J["<b>POSITIVE<br/>GLOBAL OUTCOMES</b>"]
+    end
+
+    A --> B
+    A --> C
+    A --> D
+
+    B --> E
+    C --> E
+    C --> F
+    D --> G
+
+    E --> H
+    F --> H
+    G --> H
+
+    H --> I
+    I --> J
+
+    style A fill:#818cf8,stroke:#4f46e5,stroke-width:3px,color:#fff
+    style J fill:#34d399,stroke:#059669,stroke-width:3px,color:#fff
+    style B fill:#fbbf24,stroke:#d97706,stroke-width:2px
+    style C fill:#fbbf24,stroke:#d97706,stroke-width:2px
+    style D fill:#60a5fa,stroke:#2563eb,stroke-width:2px
+    style E fill:#a7f3d0,stroke:#059669,stroke-width:2px
+    style F fill:#a7f3d0,stroke:#059669,stroke-width:2px
+    style G fill:#93c5fd,stroke:#2563eb,stroke-width:2px
+    style H fill:#fde68a,stroke:#d97706,stroke-width:2px
+    style I fill:#bbf7d0,stroke:#16a34a,stroke-width:2px
+        </div>
+        <div class="legend">
+          <div class="legend-item"><span class="legend-color" style="background:#818cf8"></span> Starting point</div>
+          <div class="legend-item"><span class="legend-color" style="background:#fbbf24"></span> Direct actions</div>
+          <div class="legend-item"><span class="legend-color" style="background:#60a5fa"></span> Integration</div>
+          <div class="legend-item"><span class="legend-color" style="background:#a7f3d0"></span> Outcomes</div>
+          <div class="legend-item"><span class="legend-color" style="background:#34d399"></span> Ultimate impact</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Evaluation Workflow -->
+    <section class="diagram-section">
+      <h2 class="diagram-title">Evaluation Workflow</h2>
+      <p class="diagram-description">From research submission to published evaluation (7-10 weeks typical).</p>
+      <div class="diagram-card">
+        <div class="mermaid" id="workflow-diagram">
+graph LR
+    subgraph SUBMIT[" "]
+        A["Research<br/>Submitted"]
+    end
+
+    subgraph REVIEW[" "]
+        B["Team<br/>Prioritizes"]
+        C["Author<br/>Contacted"]
+    end
+
+    subgraph EVALUATE[" "]
+        D["Evaluators<br/>Assigned"]
+        E["5+ weeks"]
+        F["Reports<br/>Completed"]
+    end
+
+    subgraph PUBLISH[" "]
+        G["Author<br/>Response"]
+        H["Published<br/>with DOIs"]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+
+    style A fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    style B fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style D fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    style E fill:#f3f4f6,stroke:#6b7280,stroke-width:1px,stroke-dasharray:5
+    style F fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    style G fill:#fce7f3,stroke:#db2777,stroke-width:2px
+    style H fill:#dcfce7,stroke:#16a34a,stroke-width:3px
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="diagram-section">
+      <h2 class="diagram-title">Unjournal vs Traditional Journals</h2>
+      <p class="diagram-description">Key differences in timeline, transparency, and compensation.</p>
+      <div class="diagram-card">
+        <div class="mermaid" id="comparison-diagram">
+graph TB
+    subgraph TRAD["<b>TRADITIONAL JOURNAL</b>"]
+        T1["Submit"]
+        T2["Wait 1-6 months"]
+        T3["Reject or R&amp;R"]
+        T4["Revise 4-12 weeks"]
+        T5["Repeat cycle"]
+        T6["24+ months total"]
+    end
+
+    subgraph UJ["<b>THE UNJOURNAL</b>"]
+        U1["Submit"]
+        U2["Team prioritizes"]
+        U3["Evaluators paid<br/>$200-400"]
+        U4["5-7 weeks"]
+        U5["Public evaluation"]
+        U6["7-10 weeks total"]
+    end
+
+    T1 --> T2 --> T3 --> T4 --> T5 --> T6
+    U1 --> U2 --> U3 --> U4 --> U5 --> U6
+
+    style T1 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+    style T2 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+    style T3 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+    style T4 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+    style T5 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+    style T6 fill:#fca5a5,stroke:#b91c1c,stroke-width:3px
+
+    style U1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style U2 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style U3 fill:#bbf7d0,stroke:#059669,stroke-width:2px
+    style U4 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style U5 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style U6 fill:#86efac,stroke:#16a34a,stroke-width:3px
+        </div>
+      </div>
+    </section>
+
+    <!-- Prioritization -->
+    <section class="diagram-section">
+      <h2 class="diagram-title">Research Prioritization</h2>
+      <p class="diagram-description">How we decide which research to evaluate.</p>
+      <div class="diagram-card">
+        <div class="mermaid" id="priority-diagram">
+graph TB
+    A["Research<br/>Suggested"] --> B{"Globally<br/>Decision-Relevant?"}
+
+    B -->|"Yes"| C{"Prestigious or<br/>Influential?"}
+    B -->|"Not directly"| D{"Supports<br/>Impact Work?"}
+
+    C -->|"Yes"| E["<b>HIGH PRIORITY</b><br/>Definitely Evaluate"]
+    C -->|"Not yet"| F{"Strong<br/>Methodology?"}
+
+    D -->|"Yes"| G["MEDIUM PRIORITY<br/>Consider"]
+    D -->|"No"| H["LOW PRIORITY<br/>Not in scope"]
+
+    F -->|"Yes"| I["MEDIUM-HIGH<br/>Promising"]
+    F -->|"Weak"| H
+
+    style A fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    style B fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style F fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style E fill:#86efac,stroke:#16a34a,stroke-width:3px
+    style G fill:#fde68a,stroke:#d97706,stroke-width:2px
+    style I fill:#bbf7d0,stroke:#059669,stroke-width:2px
+    style H fill:#fecaca,stroke:#dc2626,stroke-width:2px
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>The Unjournal | <a href="https://unjournal.org">unjournal.org</a> | <a href="index.html">Download Images</a></p>
+  </footer>
+
+  <script>
+    // Initialize Mermaid with good defaults
+    const mermaidConfig = {
+      startOnLoad: true,
+      theme: 'base',
+      themeVariables: {
+        fontSize: '14px',
+        fontFamily: 'Inter, system-ui, sans-serif',
+        primaryColor: '#dbeafe',
+        primaryTextColor: '#1e293b',
+        primaryBorderColor: '#3b82f6',
+        lineColor: '#64748b',
+        secondaryColor: '#dcfce7',
+        tertiaryColor: '#fef3c7',
+        background: '#ffffff',
+        mainBkg: '#ffffff',
+        nodeBorder: '#64748b',
+        clusterBkg: 'transparent',
+        clusterBorder: 'transparent',
+        titleColor: '#1e293b',
+        edgeLabelBackground: '#ffffff'
+      },
+      flowchart: {
+        curve: 'basis',
+        padding: 20,
+        nodeSpacing: 50,
+        rankSpacing: 60,
+        htmlLabels: true,
+        useMaxWidth: true
+      }
+    };
+
+    mermaid.initialize(mermaidConfig);
+
+    function changeTheme(theme) {
+      document.body.className = 'theme-' + theme;
+
+      // Update mermaid theme variables based on selected theme
+      let newConfig = {...mermaidConfig};
+
+      if (theme === 'modern-dark') {
+        newConfig.themeVariables = {
+          ...newConfig.themeVariables,
+          primaryTextColor: '#f1f5f9',
+          lineColor: '#94a3b8',
+          background: '#1e293b',
+          mainBkg: '#1e293b',
+          edgeLabelBackground: '#1e293b'
+        };
+      }
+
+      mermaid.initialize(newConfig);
+      reRenderAll();
+    }
+
+    let animationEnabled = false;
+
+    function toggleAnimation() {
+      animationEnabled = !animationEnabled;
+      const btn = document.getElementById('animateBtn');
+      btn.textContent = animationEnabled ? 'Disable Animation' : 'Enable Animation';
+      btn.classList.toggle('active', animationEnabled);
+
+      document.querySelectorAll('.diagram-card').forEach(card => {
+        card.classList.toggle('animate-nodes', animationEnabled);
+      });
+
+      if (animationEnabled) {
+        reRenderAll();
+      }
+    }
+
+    async function reRenderAll() {
+      const diagrams = document.querySelectorAll('.mermaid');
+      for (const diagram of diagrams) {
+        const id = diagram.id;
+        const code = diagram.getAttribute('data-original') || diagram.textContent;
+        diagram.setAttribute('data-original', code);
+        diagram.innerHTML = code;
+        diagram.removeAttribute('data-processed');
+      }
+      await mermaid.run();
+    }
+
+    // Store original diagram code
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.mermaid').forEach(el => {
+        el.setAttribute('data-original', el.textContent);
+      });
+    });
+  </script>
+
+</body>
+</html>
