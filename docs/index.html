@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unjournal - Diagram Gallery</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+    }
+
+    .header {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: rgba(0,0,0,0.3);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+    }
+
+    .header .subtitle {
+      color: #94a3b8;
+      font-size: 1.1rem;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: rgba(0,0,0,0.2);
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav a {
+      color: #60a5fa;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .nav a:hover {
+      background: rgba(96, 165, 250, 0.2);
+    }
+
+    .download-bar {
+      background: rgba(0,0,0,0.3);
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .download-bar a {
+      color: #a78bfa;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    .download-bar a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .diagram-section {
+      margin-bottom: 4rem;
+      scroll-margin-top: 5rem;
+    }
+
+    .diagram-section h2 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      color: #f1f5f9;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .diagram-section h2::before {
+      content: '';
+      width: 4px;
+      height: 1.5rem;
+      background: linear-gradient(to bottom, #60a5fa, #a78bfa);
+      border-radius: 2px;
+    }
+
+    .diagram-section .description {
+      color: #94a3b8;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .download-links {
+      margin-bottom: 1rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .download-links a {
+      background: rgba(255,255,255,0.1);
+      color: #60a5fa;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      transition: all 0.2s;
+    }
+
+    .download-links a:hover {
+      background: rgba(96, 165, 250, 0.3);
+    }
+
+    .diagram-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      overflow-x: auto;
+    }
+
+    .mermaid {
+      display: flex;
+      justify-content: center;
+    }
+
+    .legend {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e2e8f0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+
+    .legend-color {
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    .footer a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .header h1 { font-size: 1.8rem; }
+      .container { padding: 1rem; }
+      .diagram-card { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      flowchart: {
+        curve: 'basis',
+        padding: 20
+      }
+    });
+  </script>
+
+  <header class="header">
+    <h1>THE UNJOURNAL</h1>
+    <p class="subtitle">Visual Guide to Our Processes & Theory of Change</p>
+  </header>
+
+  <nav class="nav">
+    <a href="#theory-of-change">Theory of Change</a>
+    <a href="#main-paths">Main Paths</a>
+    <a href="#eval-workflow">Evaluation Workflow</a>
+    <a href="#detailed-workflow">Detailed Workflow</a>
+    <a href="#journal-comparison">Journal Comparison</a>
+    <a href="#prioritization">Prioritization</a>
+  </nav>
+
+  <div class="download-bar">
+    Download all:
+    <a href="diagrams/svg/">SVG (scalable)</a> |
+    <a href="diagrams/png-default/">PNG Default</a> |
+    <a href="diagrams/png-dark/">PNG Dark</a> |
+    <a href="diagrams/png-forest/">PNG Forest</a> |
+    <a href="diagrams/png-neutral/">PNG Neutral</a>
+  </div>
+
+  <main class="container">
+
+    <!-- Theory of Change - Full -->
+    <section class="diagram-section" id="theory-of-change">
+      <h2>Theory of Change (Full)</h2>
+      <p class="description">
+        Our complete theory of change showing how The Unjournal's tools, incentives, and platforms lead to better research evaluation,
+        improved impactful research, better-informed decision makers, and ultimately positive outcomes for global priorities.
+      </p>
+      <div class="download-links">
+        <a href="diagrams/svg/theory-of-change-full.svg" download>SVG</a>
+        <a href="diagrams/png-default/theory-of-change-full.png" download>PNG Default</a>
+        <a href="diagrams/png-dark/theory-of-change-full.png" download>PNG Dark</a>
+        <a href="diagrams/png-forest/theory-of-change-full.png" download>PNG Forest</a>
+        <a href="diagrams/png-neutral/theory-of-change-full.png" download>PNG Neutral</a>
+      </div>
+      <div class="diagram-card">
+        <div class="mermaid">
+flowchart TD
+classDef Direct fill:#faefaf,stroke:#b8a000
+classDef Multi fill:#bdf2c9,stroke:#2d8a4e
+classDef Integrate fill:#99bdf0,stroke:#2563eb
+classDef Systemic fill:#f0b6c4,stroke:#be185d
+
+A0["UJ tools, incentives, platforms, emphasis"]:::Multi --enable-->  A["More efficient rsch. feedback/eval."]:::Multi
+A0 --"we will"--- FocusEA["Focus on impactful rsch."]:::Direct --> EAR
+A --> EAR["+ evaluation of EA-aligned rsch."]:::Direct
+EAR --> EARig["+ Rigor of EA-aligned rsch."]:::Direct
+EARig --> A1["Impactful research improved"]:::Multi
+
+EAR --- OF["+ 'Open science'"]:::Direct --> EARO["More replicable, reliable"]:::Direct --> A1
+A0 --> PayAcad["Academics paid to eval. impactful rsch."]:::Integrate --> AcadAware["+ Awareness/interest in impactful rsch."]:::Integrate --> D1["+ Acad. focus on global priorities"]:::Integrate
+PayAcad  --> A1
+EARig --"Stronger work"--> AcadAware
+
+A  --> D["UJ Attractive to researchers"]
+A --> A1
+A --> A2["Decisionmakers better informed"]
+A0 --"Building"--> B["Reliable predictors of rsch. 'success'"]:::Systemic --> B2["UJ-style Eval. replaces Trad. journals"]:::Systemic
+B --> A2
+
+D:::Systemic --> B2
+B1["UJ attractive to gatekeepers"]:::Systemic --> D
+D --> D1 --> A1
+B --> B1 --> B2
+B2 --> B3["Rsch. eval. more efficient"]:::Systemic
+B3 --> RSXreliable["Acad. rsch. more useful/reliable"]:::Systemic
+
+RSXreliable --"Some impactful"--> A1
+B2 --> B4["Open access"]:::Systemic
+B4 --> A2
+A1  --> A2:::Direct
+A0 --"Incentivize"--> B6["Readable formats"]:::Systemic --> A2:::Multi --> E1["Better policy choices"]:::Multi --> O["+ Survival & flourishing"]:::Multi
+B6 --> RSXreliable
+        </div>
+        <div class="legend">
+          <div class="legend-item"><span class="legend-color" style="background:#faefaf"></span> Direct path (Yellow)</div>
+          <div class="legend-item"><span class="legend-color" style="background:#bdf2c9"></span> Multi-step outcomes (Green)</div>
+          <div class="legend-item"><span class="legend-color" style="background:#99bdf0"></span> Academic integration (Blue)</div>
+          <div class="legend-item"><span class="legend-color" style="background:#f0b6c4"></span> Systemic change (Pink)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Paths -->
+    <section class="diagram-section" id="main-paths">
+      <h2>Main Paths (Simplified)</h2>
+      <p class="description">
+        A simplified view focusing on the most direct path from Unjournal's activities to improved research and better-informed decision makers.
+      </p>
+      <div class="download-links">
+        <a href="diagrams/svg/theory-of-change-main-paths.svg" download>SVG</a>
+        <a href="diagrams/png-default/theory-of-change-main-paths.png" download>PNG Default</a>
+        <a href="diagrams/png-dark/theory-of-change-main-paths.png" download>PNG Dark</a>
+      </div>
+      <div class="diagram-card">
+        <div class="mermaid">
+graph TD
+classDef Direct fill:#faefaf,stroke:#b8a000
+classDef Multi fill:#bdf2c9,stroke:#2d8a4e
+classDef Integrate fill:#99bdf0,stroke:#2563eb
+
+A0["UJ tools, incentives, platforms"]:::Multi --"we will"--> FocusEA["Focus on impactful research"]:::Direct
+FocusEA --> EAR["+ Evaluation of EA-aligned research"]:::Direct
+EAR --> EARig["+ Rigor of EA-aligned research"]:::Direct
+EAR --- OF["+ Open science"]:::Direct --> EARO["More replicable, reliable"]:::Direct
+EARO --> A1["Impactful research improved"]:::Multi
+EARig --> A1
+EARig --"Stronger work"--> AcadAware["+ Awareness in impactful research"]:::Integrate
+
+A0 --> PayAcad["Academics paid to evaluate"]:::Integrate --> AcadAware
+AcadAware --> D1["+ Academic focus on global priorities"]:::Integrate
+D1 --> A1
+
+A1 --> A2["Decision makers better informed"]:::Direct
+A2 --> E1["Better assessment of priorities"]:::Multi
+E1 --> O["+ Survival & flourishing"]:::Multi
+        </div>
+      </div>
+    </section>
+
+    <!-- Evaluation Workflow -->
+    <section class="diagram-section" id="eval-workflow">
+      <h2>Evaluation Workflow (Simplified)</h2>
+      <p class="description">
+        The core evaluation process: from research suggestion through prioritization, evaluation, author response, and publication with DOIs.
+      </p>
+      <div class="download-links">
+        <a href="diagrams/svg/evaluation-workflow-simplified.svg" download>SVG</a>
+        <a href="diagrams/png-default/evaluation-workflow-simplified.png" download>PNG Default</a>
+        <a href="diagrams/png-dark/evaluation-workflow-simplified.png" download>PNG Dark</a>
+      </div>
+      <div class="diagram-card">
+        <div class="mermaid">
+graph TD
+  S["RESEARCH SUGGESTED, identified, or submitted"]
+  S --> MP["UJ teams PRIORITIZE"]
+  MP --> |Low vote| DP[Deprioritize]
+  MP --> AA["Seek authors' permission/engagement"]
+  AA --> |"'No' from junior authors"| DP
+  AA -->  EM["EVAL. MANAGER assigned, contacts EVALUATORS"]
+  EM --> |5+ weeks| EVC["2-3 evaluators complete reports & ratings"]
+  EVC --> |2+ weeks| ARE["Authors respond"]
+  ARE -.->|EM considers| EMS["EM's summary"]
+  EVC -.->|EM considers| EMS
+  EMS --> UJO["UJ publishes output w/ DOIs"]
+  ARE --> UJO
+  EVC --> UJO
+
+  style S fill:#e0f2fe,stroke:#0284c7
+  style UJO fill:#dcfce7,stroke:#16a34a
+  style DP fill:#fef2f2,stroke:#dc2626
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Workflow -->
+    <section class="diagram-section" id="detailed-workflow">
+      <h2>Evaluation Workflow (Detailed)</h2>
+      <p class="description">
+        The complete evaluation workflow showing all steps, decision points, and information flows between authors, managers, and evaluators.
+      </p>
+      <div class="download-links">
+        <a href="diagrams/svg/evaluation-workflow-detailed.svg" download>SVG</a>
+        <a href="diagrams/png-default/evaluation-workflow-detailed.png" download>PNG Default</a>
+        <a href="diagrams/png-dark/evaluation-workflow-detailed.png" download>PNG Dark</a>
+      </div>
+      <div class="diagram-card">
+        <div class="mermaid">
+graph TD
+  S["Author submits work"] --> MP[Managers prioritize work]
+  NBER["Work enters 'prestige' archive"] --> MP
+  MP --> WE[Work to evaluate]
+  WE ..-  |May add| BEN["'Bespoke Evaluation Notes'"]
+
+  MS["Managers select & contact authors"] --> AP[Author: OK]
+  AP --> WE
+  MS --> AN[Author: NO] --> DE[Don't evaluate]
+
+  WE -->|Managers select| EM(("Evaluation Manager"))
+  EM .-> |May add tips| BEN
+
+  EM -->|Selects & contacts| UJEV(UJ evaluators)
+  UJEV --> |Accepts| EA((Evaluator))
+  BEN ..-|Incorporated| UJT[Template & guidelines]
+  EA --> |Scheduled| EVC[Evaluators complete evals]
+  EVC --> EC[\Evaluation content\]
+  EVC --> EVR[\Evaluation ratings\]
+  UJT --> |Shared with| EA
+
+  EC -->|Passed anonymously| EVPA[Shared with Author]
+  EVR --> EVPA
+  EVPA .-> ARE[\Authors' response\]
+
+  EVC .->|EV chooses|EVA[Anonymity]
+  EVC .->|EV chooses|EVS[Sign evaluation]
+
+  ARE .->|EM considers| EMS[\EM's summary\]
+  EVC ..- |EM considers| EMS
+
+  EMS --> UJO[/Published output w/ DOIs/]
+  EC --> UJO
+  ARE --> UJO
+  EVR --> |Reported in| UJO
+  EVS .-> |EV name| UJO
+
+  UJO --> UJPUB[Publicize & track]
+
+  style UJO fill:#dcfce7,stroke:#16a34a
+        </div>
+      </div>
+    </section>
+
+    <!-- Journal Comparison -->
+    <section class="diagram-section" id="journal-comparison">
+      <h2>Traditional Journal Process</h2>
+      <p class="description">
+        The traditional economics journal publication process showing typical timelines (24+ months from submission to publication)
+        and the cyclical nature of rejections and resubmissions. This is what The Unjournal aims to improve upon.
+      </p>
+      <div class="download-links">
+        <a href="diagrams/svg/journal-publication-process.svg" download>SVG</a>
+        <a href="diagrams/png-default/journal-publication-process.png" download>PNG Default</a>
+        <a href="diagrams/png-dark/journal-publication-process.png" download>PNG Dark</a>
+      </div>
+      <div class="diagram-card">
+        <div class="mermaid">
+graph TD
+    Submit[Submit to journal] --> |1-3 weeks| Screen{Initial Screening}
+    Screen --> Desk[Desk rejected] --> Reject[Rejection]
+    Screen --> Pass[Passes screening]
+    Pass --> |1-4 weeks| FindR[Find reviewers]
+    FindR --> |1-6 months| ReturnR[Reviewers return reports]
+    ReturnR --> |2-4 weeks| EdD{Editor's decision}
+    EdD --> Accepted[Accepted]
+    EdD --> Reject
+    EdD --> RandR[Revise & resubmit]
+    RandR --> |4-12 weeks| AuthorRR[Authors revise]
+    AuthorRR -->  FindR
+
+    Accepted --> Rep[Data editor review]
+    Rep --> |2-8 weeks| Posted[Published]
+
+    Reject --> Grey[Give up]
+    Reject --> Submit
+
+    style Reject fill:#fef2f2,stroke:#dc2626
+    style Posted fill:#dcfce7,stroke:#16a34a
+    style Grey fill:#fef9c3,stroke:#ca8a04
+        </div>
+      </div>
+    </section>
+
+    <!-- Prioritization -->
+    <section class="diagram-section" id="prioritization">
+      <h2>Research Prioritization Framework</h2>
+      <p class="description">
+        How we prioritize research for evaluation based on prestige, global decision-relevance, influence, and methodological quality.
+      </p>
+      <div class="download-links">
+        <a href="diagrams/svg/prioritization-prestigious-work.svg" download>SVG</a>
+        <a href="diagrams/svg/prioritization-less-prestigious-work.svg" download>SVG (Less Prestigious)</a>
+        <a href="diagrams/png-default/prioritization-prestigious-work.png" download>PNG</a>
+      </div>
+      <div class="diagram-card">
+        <div class="mermaid">
+graph TD
+    subgraph Prestigious["Prestigious & Fully-baked Work"]
+        A[Prestigious Work]
+        A -->|Global-Decision Relevant| B[PRIORITIZE]
+        A -->|Not Quite Relevant| C[Consider UJ Priorities]
+        C --> C1[Submitted Work]
+        C --> C2[Transparent Code/Data]
+        C --> C3[Supports Impactful Work]
+        C1 --> D[Potentially Prioritize]
+        C2 --> D
+        C3 --> D
+    end
+
+    subgraph LessPrestigious["Less Prestigious Work"]
+        E[Less Prestigious Work]
+        E -->|Influential| F[PRIORITIZE]
+        F --> F1[Academic Stream]
+        F --> F2[Policy Stream]
+        E -->|Less Influential but Relevant| G[Consider]
+        G --> G1[Methodological Strength]
+        G --> G2[Clarity and Logic]
+        G1 -->|Strong| H[Potentially Prioritize]
+        G2 -->|Strong| H
+    end
+
+    style B fill:#dcfce7,stroke:#16a34a
+    style F fill:#dcfce7,stroke:#16a34a
+    style D fill:#fef9c3,stroke:#ca8a04
+    style H fill:#fef9c3,stroke:#ca8a04
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>The Unjournal | <a href="https://unjournal.org">unjournal.org</a> | <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/">Documentation</a></p>
+    <p style="margin-top: 0.5rem;">Diagrams available in SVG (scalable) and PNG (multiple themes)</p>
+  </footer>
+
+</body>
+</html>

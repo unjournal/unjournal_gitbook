@@ -19,3 +19,6 @@ test.py
 *.auth
 .env
 .apikeys_ignore
+
+# Presentation assets working directory (not synced to GitBook)
+presentation-assets/
