@@ -37,6 +37,33 @@
       letter-spacing: 0.05em;
     }
 
+    .page-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.75rem;
+      background: rgba(0,0,0,0.4);
+      flex-wrap: wrap;
+    }
+
+    .page-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .page-nav a:hover {
+      background: rgba(59,130,246,0.2);
+    }
+
+    .page-nav a.current {
+      background: var(--accent);
+      color: white;
+    }
+
     .controls {
       display: flex;
       flex-wrap: wrap;
@@ -60,7 +87,7 @@
       color: var(--text-secondary);
     }
 
-    select, button {
+    select {
       background: var(--bg-secondary);
       border: 1px solid rgba(255,255,255,0.2);
       color: var(--text-primary);
@@ -71,17 +98,12 @@
       font-size: 0.9rem;
     }
 
-    select:hover, button:hover {
-      border-color: var(--accent);
-    }
-
-    button.active {
-      background: var(--accent);
+    select:hover {
       border-color: var(--accent);
     }
 
     .container {
-      max-width: 1400px;
+      max-width: 1600px;
       margin: 0 auto;
       padding: 2rem;
     }
@@ -110,24 +132,25 @@
       color: var(--text-secondary);
       margin-bottom: 1rem;
       font-size: 0.95rem;
+      line-height: 1.5;
     }
 
     .diagram-card {
       border-radius: 16px;
       padding: 2rem;
       overflow: auto;
-      transition: all 0.3s ease;
+      transition: background 0.3s ease;
     }
 
     /* Theme: Modern Light */
     .theme-modern-light .diagram-card {
-      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+      background: #ffffff;
       box-shadow: 0 20px 40px rgba(0,0,0,0.15);
     }
 
     /* Theme: Modern Dark */
     .theme-modern-dark .diagram-card {
-      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      background: #1e293b;
       box-shadow: 0 20px 40px rgba(0,0,0,0.4);
       border: 1px solid rgba(255,255,255,0.1);
     }
@@ -148,31 +171,6 @@
     .theme-nature .diagram-card {
       background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
       box-shadow: 0 20px 40px rgba(34,197,94,0.15);
-    }
-
-    /* Animation styles */
-    .animate-nodes .node {
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeInUp 0.5s ease forwards;
-    }
-
-    .animate-nodes .node:nth-child(1) { animation-delay: 0.1s; }
-    .animate-nodes .node:nth-child(2) { animation-delay: 0.2s; }
-    .animate-nodes .node:nth-child(3) { animation-delay: 0.3s; }
-    .animate-nodes .node:nth-child(4) { animation-delay: 0.4s; }
-    .animate-nodes .node:nth-child(5) { animation-delay: 0.5s; }
-    .animate-nodes .node:nth-child(6) { animation-delay: 0.6s; }
-    .animate-nodes .node:nth-child(7) { animation-delay: 0.7s; }
-    .animate-nodes .node:nth-child(8) { animation-delay: 0.8s; }
-    .animate-nodes .node:nth-child(9) { animation-delay: 0.9s; }
-    .animate-nodes .node:nth-child(10) { animation-delay: 1.0s; }
-
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
     }
 
     .legend {
@@ -237,6 +235,13 @@
     <p style="color: var(--text-secondary); margin-top: 0.5rem;">Visual Process Diagrams</p>
   </header>
 
+  <nav class="page-nav">
+    <a href="gallery.html" class="current">Themed Gallery</a>
+    <a href="index.html">Download Images</a>
+    <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/">Full Documentation</a>
+    <a href="https://unjournal.org">Main Website</a>
+  </nav>
+
   <div class="controls">
     <div class="control-group">
       <label>Theme:</label>
@@ -248,79 +253,104 @@
         <option value="nature">Nature Green</option>
       </select>
     </div>
-    <div class="control-group">
-      <label>Animation:</label>
-      <button id="animateBtn" onclick="toggleAnimation()">Enable Animation</button>
-    </div>
-    <div class="control-group">
-      <button onclick="reRenderAll()">Re-render Diagrams</button>
-    </div>
   </div>
 
   <main class="container">
 
-    <!-- Theory of Change -->
+    <!-- Theory of Change - FULL VERSION -->
     <section class="diagram-section">
-      <h2 class="diagram-title">Theory of Change</h2>
-      <p class="diagram-description">How The Unjournal creates positive global outcomes through better research evaluation.</p>
+      <h2 class="diagram-title">Theory of Change (Full)</h2>
+      <p class="diagram-description">
+        How The Unjournal creates positive global outcomes. <strong>Yellow</strong> = direct path,
+        <strong>Green</strong> = multi-step outcomes, <strong>Blue</strong> = academic integration,
+        <strong>Pink</strong> = systemic change.
+      </p>
       <div class="diagram-card">
-        <div class="mermaid" id="toc-diagram">
-graph TB
-    subgraph INPUT[" "]
-        A["<b>THE UNJOURNAL</b><br/>Tools &amp; Incentives"]
-    end
+        <div class="mermaid">
+flowchart TD
+    classDef direct fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#92400e
+    classDef multi fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#166534
+    classDef integrate fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e40af
+    classDef systemic fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#9d174d
 
-    subgraph PROCESS[" "]
-        B["Better Research<br/>Evaluation"]
-        C["Focus on<br/>Impactful Research"]
-        D["Paid Expert<br/>Evaluators"]
-    end
+    START["UJ: Tools, Incentives, Platforms"]:::multi
 
-    subgraph OUTCOMES[" "]
-        E["Higher Quality<br/>Research"]
-        F["Open Science<br/>Practices"]
-        G["Academic Interest<br/>in Impact"]
-    end
+    START -->|enables| EVAL["More Efficient Research Feedback"]:::multi
+    START -->|focuses on| FOCUS["Impactful Research"]:::direct
+    START -->|pays for| PAY["Academics Evaluate Impact Work"]:::integrate
+    START -->|builds| PREDICT["Reliable Quality Predictors"]:::systemic
 
-    subgraph IMPACT[" "]
-        H["Decision Makers<br/>Better Informed"]
-        I["Better Policy<br/>Choices"]
-        J["<b>POSITIVE<br/>GLOBAL OUTCOMES</b>"]
-    end
+    FOCUS --> MORE_EVAL["More Evaluation of High-Impact Research"]:::direct
+    EVAL --> MORE_EVAL
 
-    A --> B
-    A --> C
-    A --> D
+    MORE_EVAL --> RIGOR["Improved Rigor of Impact Research"]:::direct
+    MORE_EVAL --> OPEN["Open Science Practices"]:::direct
 
-    B --> E
-    C --> E
-    C --> F
-    D --> G
+    RIGOR --> IMPROVED["Impactful Research Improved"]:::multi
+    OPEN --> REPLICABLE["More Replicable and Reliable"]:::direct
+    REPLICABLE --> IMPROVED
 
-    E --> H
-    F --> H
-    G --> H
+    PAY --> AWARE["Academic Awareness of Impact Research"]:::integrate
+    RIGOR -->|stronger work| AWARE
+    AWARE --> ACAD_FOCUS["Academic Focus on Global Priorities"]:::integrate
+    PAY --> IMPROVED
+    ACAD_FOCUS --> IMPROVED
 
-    H --> I
-    I --> J
+    EVAL --> ATTRACT["UJ Attractive to Researchers"]:::systemic
+    PREDICT --> GATEKEEP["Attractive to Gatekeepers"]:::systemic
+    GATEKEEP --> ATTRACT
+    ATTRACT --> REPLACE["UJ-Style Replaces Traditional Journals"]:::systemic
+    PREDICT --> REPLACE
 
-    style A fill:#818cf8,stroke:#4f46e5,stroke-width:3px,color:#fff
-    style J fill:#34d399,stroke:#059669,stroke-width:3px,color:#fff
-    style B fill:#fbbf24,stroke:#d97706,stroke-width:2px
-    style C fill:#fbbf24,stroke:#d97706,stroke-width:2px
-    style D fill:#60a5fa,stroke:#2563eb,stroke-width:2px
-    style E fill:#a7f3d0,stroke:#059669,stroke-width:2px
-    style F fill:#a7f3d0,stroke:#059669,stroke-width:2px
-    style G fill:#93c5fd,stroke:#2563eb,stroke-width:2px
-    style H fill:#fde68a,stroke:#d97706,stroke-width:2px
-    style I fill:#bbf7d0,stroke:#16a34a,stroke-width:2px
+    REPLACE --> EFFICIENT["Research Evaluation More Efficient"]:::systemic
+    EFFICIENT --> USEFUL["Academic Research More Useful"]:::systemic
+    USEFUL -->|some is impactful| IMPROVED
+
+    REPLACE --> ACCESS["Open Access"]:::systemic
+    ACCESS --> INFORMED["Decision Makers Better Informed"]:::direct
+
+    IMPROVED --> INFORMED
+    START -->|incentivizes| FORMATS["Readable, Transparent Formats"]:::systemic
+    FORMATS --> INFORMED
+    FORMATS --> USEFUL
+
+    INFORMED --> POLICY["Better Policy Choices"]:::multi
+    POLICY --> OUTCOMES["Survival and Flourishing"]:::multi
         </div>
         <div class="legend">
-          <div class="legend-item"><span class="legend-color" style="background:#818cf8"></span> Starting point</div>
-          <div class="legend-item"><span class="legend-color" style="background:#fbbf24"></span> Direct actions</div>
-          <div class="legend-item"><span class="legend-color" style="background:#60a5fa"></span> Integration</div>
-          <div class="legend-item"><span class="legend-color" style="background:#a7f3d0"></span> Outcomes</div>
-          <div class="legend-item"><span class="legend-color" style="background:#34d399"></span> Ultimate impact</div>
+          <div class="legend-item"><span class="legend-color" style="background:#fef3c7;border-color:#d97706"></span> Direct path</div>
+          <div class="legend-item"><span class="legend-color" style="background:#dcfce7;border-color:#16a34a"></span> Multi-step outcomes</div>
+          <div class="legend-item"><span class="legend-color" style="background:#dbeafe;border-color:#2563eb"></span> Academic integration</div>
+          <div class="legend-item"><span class="legend-color" style="background:#fce7f3;border-color:#db2777"></span> Systemic change</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Theory of Change - SIMPLIFIED -->
+    <section class="diagram-section">
+      <h2 class="diagram-title">Theory of Change (Simplified)</h2>
+      <p class="diagram-description">The core path from better evaluation to better outcomes.</p>
+      <div class="diagram-card">
+        <div class="mermaid">
+flowchart TD
+    classDef direct fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    classDef multi fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+
+    A["Better Research Evaluation"]:::multi
+    B["Focus on Impactful Research"]:::direct
+    C["Paid Expert Evaluators"]:::multi
+
+    A --> D["Higher Quality Research"]:::direct
+    B --> D
+    B --> E["Open Science Practices"]:::direct
+    C --> F["Academic Interest in Impact"]:::multi
+
+    D --> G["Decision Makers Better Informed"]:::direct
+    E --> G
+    F --> G
+
+    G --> H["Better Policy Choices"]:::multi
+    H --> I["Positive Global Outcomes"]:::multi
         </div>
       </div>
     </section>
@@ -328,125 +358,98 @@ graph TB
     <!-- Evaluation Workflow -->
     <section class="diagram-section">
       <h2 class="diagram-title">Evaluation Workflow</h2>
-      <p class="diagram-description">From research submission to published evaluation (7-10 weeks typical).</p>
+      <p class="diagram-description">From research submission to published evaluation. Typical timeline: 7-10 weeks.</p>
       <div class="diagram-card">
-        <div class="mermaid" id="workflow-diagram">
-graph LR
-    subgraph SUBMIT[" "]
-        A["Research<br/>Submitted"]
-    end
+        <div class="mermaid">
+flowchart TD
+    classDef start fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    classDef process fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    classDef eval fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    classDef author fill:#fce7f3,stroke:#db2777,stroke-width:2px
+    classDef end_good fill:#dcfce7,stroke:#16a34a,stroke-width:3px
+    classDef end_bad fill:#fee2e2,stroke:#dc2626,stroke-width:2px
 
-    subgraph REVIEW[" "]
-        B["Team<br/>Prioritizes"]
-        C["Author<br/>Contacted"]
-    end
-
-    subgraph EVALUATE[" "]
-        D["Evaluators<br/>Assigned"]
-        E["5+ weeks"]
-        F["Reports<br/>Completed"]
-    end
-
-    subgraph PUBLISH[" "]
-        G["Author<br/>Response"]
-        H["Published<br/>with DOIs"]
-    end
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-
-    style A fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style B fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style D fill:#dbeafe,stroke:#2563eb,stroke-width:2px
-    style E fill:#f3f4f6,stroke:#6b7280,stroke-width:1px,stroke-dasharray:5
-    style F fill:#dbeafe,stroke:#2563eb,stroke-width:2px
-    style G fill:#fce7f3,stroke:#db2777,stroke-width:2px
-    style H fill:#dcfce7,stroke:#16a34a,stroke-width:3px
+    SUBMIT["Research Submitted or Identified"]:::start
+    SUBMIT --> PRIORITY["UJ Team Prioritizes"]:::process
+    PRIORITY -->|Low priority| DEPRI["Deprioritized"]:::end_bad
+    PRIORITY -->|High priority| CONTACT["Contact Authors for Permission"]:::process
+    CONTACT -->|Author declines| DEPRI
+    CONTACT -->|Author agrees| MANAGER["Evaluation Manager Assigned"]:::eval
+    MANAGER --> RECRUIT["Evaluators Recruited: 2-3 accept"]:::eval
+    RECRUIT -->|5+ weeks| REPORTS["Evaluators Complete Reports and Ratings"]:::eval
+    REPORTS -->|2 weeks| RESPONSE["Authors Write Response"]:::author
+    RESPONSE --> SUMMARY["Manager Writes Summary"]:::eval
+    REPORTS --> SUMMARY
+    SUMMARY --> PUBLISH["Published on PubPub with DOIs"]:::end_good
+    RESPONSE --> PUBLISH
+    REPORTS --> PUBLISH
+    PUBLISH --> PROMOTE["Promoted and Tracked"]:::process
         </div>
       </div>
     </section>
 
-    <!-- Comparison -->
+    <!-- Traditional Journal Comparison -->
     <section class="diagram-section">
-      <h2 class="diagram-title">Unjournal vs Traditional Journals</h2>
-      <p class="diagram-description">Key differences in timeline, transparency, and compensation.</p>
+      <h2 class="diagram-title">Traditional Journal Process (For Comparison)</h2>
+      <p class="diagram-description">The slow, opaque process that The Unjournal improves upon. Average: 24+ months in economics.</p>
       <div class="diagram-card">
-        <div class="mermaid" id="comparison-diagram">
-graph TB
-    subgraph TRAD["<b>TRADITIONAL JOURNAL</b>"]
-        T1["Submit"]
-        T2["Wait 1-6 months"]
-        T3["Reject or R&amp;R"]
-        T4["Revise 4-12 weeks"]
-        T5["Repeat cycle"]
-        T6["24+ months total"]
-    end
+        <div class="mermaid">
+flowchart TD
+    classDef bad fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+    classDef neutral fill:#f3f4f6,stroke:#6b7280,stroke-width:1px
+    classDef good fill:#dcfce7,stroke:#16a34a,stroke-width:2px
 
-    subgraph UJ["<b>THE UNJOURNAL</b>"]
-        U1["Submit"]
-        U2["Team prioritizes"]
-        U3["Evaluators paid<br/>$200-400"]
-        U4["5-7 weeks"]
-        U5["Public evaluation"]
-        U6["7-10 weeks total"]
-    end
+    SUBMIT["Submit to Journal"]:::neutral
+    SUBMIT -->|1-3 weeks| SCREEN{"Desk Review"}:::neutral
+    SCREEN --> DESK["Desk Rejected"]:::bad
+    SCREEN --> PASS["Passes to Reviewers"]:::neutral
+    PASS -->|1-4 weeks| FIND["Find Reviewers: 2-3 accept"]:::neutral
+    FIND -->|1-6 months| REVIEWS["Reviewers Return Reports"]:::neutral
+    REVIEWS -->|kept secret| DECISION{"Editor Decision"}:::neutral
+    DECISION --> ACCEPT["Accepted"]:::good
+    DECISION --> REJECT["Rejected"]:::bad
+    DECISION --> RR["Revise and Resubmit"]:::neutral
+    RR -->|4-12 weeks| REVISE["Authors Revise"]:::neutral
+    REVISE --> FIND
 
-    T1 --> T2 --> T3 --> T4 --> T5 --> T6
-    U1 --> U2 --> U3 --> U4 --> U5 --> U6
+    ACCEPT --> DATA["Data Editor Review"]:::neutral
+    DATA -->|2-8 weeks| PUBLISHED["Published"]:::good
 
-    style T1 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
-    style T2 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
-    style T3 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
-    style T4 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
-    style T5 fill:#fee2e2,stroke:#dc2626,stroke-width:2px
-    style T6 fill:#fca5a5,stroke:#b91c1c,stroke-width:3px
-
-    style U1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style U2 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style U3 fill:#bbf7d0,stroke:#059669,stroke-width:2px
-    style U4 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style U5 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style U6 fill:#86efac,stroke:#16a34a,stroke-width:3px
+    DESK --> RETRY["Try Another Journal"]:::bad
+    REJECT --> RETRY
+    RETRY --> SUBMIT
         </div>
       </div>
     </section>
 
     <!-- Prioritization -->
     <section class="diagram-section">
-      <h2 class="diagram-title">Research Prioritization</h2>
-      <p class="diagram-description">How we decide which research to evaluate.</p>
+      <h2 class="diagram-title">Research Prioritization Framework</h2>
+      <p class="diagram-description">How we decide which research to evaluate based on relevance, prestige, influence, and methodology.</p>
       <div class="diagram-card">
-        <div class="mermaid" id="priority-diagram">
-graph TB
-    A["Research<br/>Suggested"] --> B{"Globally<br/>Decision-Relevant?"}
+        <div class="mermaid">
+flowchart TD
+    classDef start fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    classDef question fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    classDef high fill:#dcfce7,stroke:#16a34a,stroke-width:3px
+    classDef medium fill:#fde68a,stroke:#d97706,stroke-width:2px
+    classDef low fill:#fee2e2,stroke:#dc2626,stroke-width:2px
 
-    B -->|"Yes"| C{"Prestigious or<br/>Influential?"}
-    B -->|"Not directly"| D{"Supports<br/>Impact Work?"}
+    START["Research Suggested"]:::start
+    START --> Q1{"Globally Decision-Relevant?"}:::question
 
-    C -->|"Yes"| E["<b>HIGH PRIORITY</b><br/>Definitely Evaluate"]
-    C -->|"Not yet"| F{"Strong<br/>Methodology?"}
+    Q1 -->|Yes| Q2{"Prestigious or Already Influential?"}:::question
+    Q1 -->|Not directly| Q3{"Supports Impactful Work?"}:::question
 
-    D -->|"Yes"| G["MEDIUM PRIORITY<br/>Consider"]
-    D -->|"No"| H["LOW PRIORITY<br/>Not in scope"]
+    Q2 -->|Prestigious and Relevant| HIGH["HIGH PRIORITY: Definitely Evaluate"]:::high
+    Q2 -->|Influential but not prestigious| HIGH2["HIGH PRIORITY: Policy Stream"]:::high
+    Q2 -->|Neither yet| Q4{"Strong Methodology?"}:::question
 
-    F -->|"Yes"| I["MEDIUM-HIGH<br/>Promising"]
-    F -->|"Weak"| H
+    Q3 -->|Yes: methods, tools| MEDIUM["MEDIUM: Consider If Capacity"]:::medium
+    Q3 -->|No| LOW["LOW: Not In Scope"]:::low
 
-    style A fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style B fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style F fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style E fill:#86efac,stroke:#16a34a,stroke-width:3px
-    style G fill:#fde68a,stroke:#d97706,stroke-width:2px
-    style I fill:#bbf7d0,stroke:#059669,stroke-width:2px
-    style H fill:#fecaca,stroke:#dc2626,stroke-width:2px
+    Q4 -->|Rigorous and clear| MEDIUM2["MEDIUM-HIGH: Promising Neglected Work"]:::medium
+    Q4 -->|Weak or unclear| LOW
         </div>
       </div>
     </section>
@@ -454,99 +457,34 @@ graph TB
   </main>
 
   <footer class="footer">
-    <p>The Unjournal | <a href="https://unjournal.org">unjournal.org</a> | <a href="index.html">Download Images</a></p>
+    <p>The Unjournal | <a href="https://unjournal.org">unjournal.org</a> | <a href="https://unjournal.pubpub.org/">Published Evaluations</a> | <a href="https://unjournal.shinyapps.io/uj-dashboard/">Dashboard</a></p>
   </footer>
 
   <script>
-    // Initialize Mermaid with good defaults
-    const mermaidConfig = {
+    mermaid.initialize({
       startOnLoad: true,
       theme: 'base',
       themeVariables: {
         fontSize: '14px',
         fontFamily: 'Inter, system-ui, sans-serif',
-        primaryColor: '#dbeafe',
-        primaryTextColor: '#1e293b',
-        primaryBorderColor: '#3b82f6',
         lineColor: '#64748b',
-        secondaryColor: '#dcfce7',
-        tertiaryColor: '#fef3c7',
-        background: '#ffffff',
-        mainBkg: '#ffffff',
-        nodeBorder: '#64748b',
+        primaryTextColor: '#1e293b',
         clusterBkg: 'transparent',
-        clusterBorder: 'transparent',
-        titleColor: '#1e293b',
-        edgeLabelBackground: '#ffffff'
+        clusterBorder: 'transparent'
       },
       flowchart: {
         curve: 'basis',
-        padding: 20,
-        nodeSpacing: 50,
-        rankSpacing: 60,
+        padding: 15,
+        nodeSpacing: 40,
+        rankSpacing: 50,
         htmlLabels: true,
         useMaxWidth: true
       }
-    };
-
-    mermaid.initialize(mermaidConfig);
+    });
 
     function changeTheme(theme) {
       document.body.className = 'theme-' + theme;
-
-      // Update mermaid theme variables based on selected theme
-      let newConfig = {...mermaidConfig};
-
-      if (theme === 'modern-dark') {
-        newConfig.themeVariables = {
-          ...newConfig.themeVariables,
-          primaryTextColor: '#f1f5f9',
-          lineColor: '#94a3b8',
-          background: '#1e293b',
-          mainBkg: '#1e293b',
-          edgeLabelBackground: '#1e293b'
-        };
-      }
-
-      mermaid.initialize(newConfig);
-      reRenderAll();
     }
-
-    let animationEnabled = false;
-
-    function toggleAnimation() {
-      animationEnabled = !animationEnabled;
-      const btn = document.getElementById('animateBtn');
-      btn.textContent = animationEnabled ? 'Disable Animation' : 'Enable Animation';
-      btn.classList.toggle('active', animationEnabled);
-
-      document.querySelectorAll('.diagram-card').forEach(card => {
-        card.classList.toggle('animate-nodes', animationEnabled);
-      });
-
-      if (animationEnabled) {
-        reRenderAll();
-      }
-    }
-
-    async function reRenderAll() {
-      const diagrams = document.querySelectorAll('.mermaid');
-      for (const diagram of diagrams) {
-        const id = diagram.id;
-        const code = diagram.getAttribute('data-original') || diagram.textContent;
-        diagram.setAttribute('data-original', code);
-        diagram.innerHTML = code;
-        diagram.removeAttribute('data-processed');
-      }
-      await mermaid.run();
-    }
-
-    // Store original diagram code
-    document.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('.mermaid').forEach(el => {
-        el.setAttribute('data-original', el.textContent);
-      });
-    });
   </script>
 
 </body>
