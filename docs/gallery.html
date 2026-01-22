@@ -215,6 +215,18 @@
       justify-content: center;
     }
 
+    /* Shape modifier for rectangle (sharp corners) */
+    body.shape-rectangle .mermaid .node rect,
+    body.shape-rectangle .mermaid .node polygon {
+      rx: 0 !important;
+      ry: 0 !important;
+    }
+
+    /* Animation helper styles */
+    .mermaid .node {
+      transform-origin: center center;
+    }
+
     .footer {
       text-align: center;
       padding: 2rem;
@@ -253,6 +265,45 @@
         <option value="nature">Nature Green</option>
       </select>
     </div>
+    <div class="control-group">
+      <label>Font Size:</label>
+      <select id="fontSizeSelect" onchange="changeFontSize(this.value)">
+        <option value="12">Small (12px)</option>
+        <option value="14" selected>Medium (14px)</option>
+        <option value="16">Large (16px)</option>
+        <option value="18">X-Large (18px)</option>
+        <option value="20">XX-Large (20px)</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Node Shape:</label>
+      <select id="shapeSelect" onchange="changeShape(this.value)">
+        <option value="rounded" selected>Rounded Rectangle</option>
+        <option value="rectangle">Rectangle</option>
+        <option value="stadium">Stadium/Pill</option>
+        <option value="hexagon">Hexagon</option>
+        <option value="parallelogram">Parallelogram</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Line Style:</label>
+      <select id="curveSelect" onchange="changeCurve(this.value)">
+        <option value="basis" selected>Smooth (Basis)</option>
+        <option value="linear">Straight (Linear)</option>
+        <option value="stepBefore">Step</option>
+        <option value="cardinal">Cardinal</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Animation:</label>
+      <select id="animationSelect" onchange="changeAnimation(this.value)">
+        <option value="none">None</option>
+        <option value="fade">Fade In</option>
+        <option value="slide">Slide In</option>
+        <option value="sequential">Sequential Reveal</option>
+      </select>
+    </div>
+    <button onclick="reRenderDiagrams()" style="background: var(--accent); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Apply Changes</button>
   </div>
 
   <main class="container">
@@ -461,30 +512,452 @@ flowchart TD
   </footer>
 
   <script>
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: 'base',
-      themeVariables: {
-        fontSize: '14px',
-        fontFamily: 'Inter, system-ui, sans-serif',
-        lineColor: '#64748b',
-        primaryTextColor: '#1e293b',
-        clusterBkg: 'transparent',
-        clusterBorder: 'transparent'
-      },
-      flowchart: {
-        curve: 'basis',
-        padding: 15,
-        nodeSpacing: 40,
-        rankSpacing: 50,
-        htmlLabels: true,
-        useMaxWidth: true
-      }
-    });
+    // Current settings
+    let currentSettings = {
+      fontSize: 14,
+      shape: 'rounded',
+      curve: 'basis',
+      animation: 'none'
+    };
 
+    // Initialize mermaid
+    function initMermaid() {
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: 'base',
+        themeVariables: {
+          fontSize: currentSettings.fontSize + 'px',
+          fontFamily: 'Inter, system-ui, sans-serif',
+          lineColor: '#64748b',
+          primaryTextColor: '#1e293b',
+          clusterBkg: 'transparent',
+          clusterBorder: 'transparent'
+        },
+        flowchart: {
+          curve: currentSettings.curve,
+          padding: 15,
+          nodeSpacing: 50,
+          rankSpacing: 60,
+          htmlLabels: true,
+          useMaxWidth: true
+        }
+      });
+    }
+
+    // Shape transformers - convert node syntax
+    const shapeTransforms = {
+      'rounded': (id, text) => `${id}["${text}"]`,
+      'rectangle': (id, text) => `${id}["${text}"]`,
+      'stadium': (id, text) => `${id}(["${text}"])`,
+      'hexagon': (id, text) => `${id}{{"${text}"}}`,
+      'parallelogram': (id, text) => `${id}[/"${text}"/]`
+    };
+
+    // Diagram definitions (node ID -> label text)
+    const diagramData = {
+      'toc-full': {
+        title: 'Theory of Change (Full)',
+        nodes: {
+          'START': 'UJ: Tools, Incentives, Platforms',
+          'EVAL': 'More Efficient Research Feedback',
+          'FOCUS': 'Impactful Research',
+          'PAY': 'Academics Evaluate Impact Work',
+          'PREDICT': 'Reliable Quality Predictors',
+          'MORE_EVAL': 'More Evaluation of High-Impact Research',
+          'RIGOR': 'Improved Rigor of Impact Research',
+          'OPEN': 'Open Science Practices',
+          'IMPROVED': 'Impactful Research Improved',
+          'REPLICABLE': 'More Replicable and Reliable',
+          'AWARE': 'Academic Awareness of Impact Research',
+          'ACAD_FOCUS': 'Academic Focus on Global Priorities',
+          'ATTRACT': 'UJ Attractive to Researchers',
+          'GATEKEEP': 'Attractive to Gatekeepers',
+          'REPLACE': 'UJ-Style Replaces Traditional Journals',
+          'EFFICIENT': 'Research Evaluation More Efficient',
+          'USEFUL': 'Academic Research More Useful',
+          'ACCESS': 'Open Access',
+          'INFORMED': 'Decision Makers Better Informed',
+          'FORMATS': 'Readable, Transparent Formats',
+          'POLICY': 'Better Policy Choices',
+          'OUTCOMES': 'Survival and Flourishing'
+        },
+        classes: {
+          'direct': ['FOCUS', 'MORE_EVAL', 'RIGOR', 'OPEN', 'REPLICABLE', 'INFORMED'],
+          'multi': ['START', 'EVAL', 'IMPROVED', 'POLICY', 'OUTCOMES'],
+          'integrate': ['PAY', 'AWARE', 'ACAD_FOCUS'],
+          'systemic': ['PREDICT', 'ATTRACT', 'GATEKEEP', 'REPLACE', 'EFFICIENT', 'USEFUL', 'ACCESS', 'FORMATS']
+        },
+        edges: [
+          ['START', 'EVAL', 'enables'],
+          ['START', 'FOCUS', 'focuses on'],
+          ['START', 'PAY', 'pays for'],
+          ['START', 'PREDICT', 'builds'],
+          ['FOCUS', 'MORE_EVAL', ''],
+          ['EVAL', 'MORE_EVAL', ''],
+          ['MORE_EVAL', 'RIGOR', ''],
+          ['MORE_EVAL', 'OPEN', ''],
+          ['RIGOR', 'IMPROVED', ''],
+          ['OPEN', 'REPLICABLE', ''],
+          ['REPLICABLE', 'IMPROVED', ''],
+          ['PAY', 'AWARE', ''],
+          ['RIGOR', 'AWARE', 'stronger work'],
+          ['AWARE', 'ACAD_FOCUS', ''],
+          ['PAY', 'IMPROVED', ''],
+          ['ACAD_FOCUS', 'IMPROVED', ''],
+          ['EVAL', 'ATTRACT', ''],
+          ['PREDICT', 'GATEKEEP', ''],
+          ['GATEKEEP', 'ATTRACT', ''],
+          ['ATTRACT', 'REPLACE', ''],
+          ['PREDICT', 'REPLACE', ''],
+          ['REPLACE', 'EFFICIENT', ''],
+          ['EFFICIENT', 'USEFUL', ''],
+          ['USEFUL', 'IMPROVED', 'some is impactful'],
+          ['REPLACE', 'ACCESS', ''],
+          ['ACCESS', 'INFORMED', ''],
+          ['IMPROVED', 'INFORMED', ''],
+          ['START', 'FORMATS', 'incentivizes'],
+          ['FORMATS', 'INFORMED', ''],
+          ['FORMATS', 'USEFUL', ''],
+          ['INFORMED', 'POLICY', ''],
+          ['POLICY', 'OUTCOMES', '']
+        ]
+      },
+      'toc-simple': {
+        title: 'Theory of Change (Simplified)',
+        nodes: {
+          'A': 'Better Research Evaluation',
+          'B': 'Focus on Impactful Research',
+          'C': 'Paid Expert Evaluators',
+          'D': 'Higher Quality Research',
+          'E': 'Open Science Practices',
+          'F': 'Academic Interest in Impact',
+          'G': 'Decision Makers Better Informed',
+          'H': 'Better Policy Choices',
+          'I': 'Positive Global Outcomes'
+        },
+        classes: {
+          'direct': ['B', 'D', 'E', 'G'],
+          'multi': ['A', 'C', 'F', 'H', 'I']
+        },
+        edges: [
+          ['A', 'D', ''], ['B', 'D', ''], ['B', 'E', ''], ['C', 'F', ''],
+          ['D', 'G', ''], ['E', 'G', ''], ['F', 'G', ''],
+          ['G', 'H', ''], ['H', 'I', '']
+        ]
+      },
+      'workflow': {
+        title: 'Evaluation Workflow',
+        nodes: {
+          'SUBMIT': 'Research Submitted or Identified',
+          'PRIORITY': 'UJ Team Prioritizes',
+          'DEPRI': 'Deprioritized',
+          'CONTACT': 'Contact Authors for Permission',
+          'MANAGER': 'Evaluation Manager Assigned',
+          'RECRUIT': 'Evaluators Recruited: 2-3 accept',
+          'REPORTS': 'Evaluators Complete Reports and Ratings',
+          'RESPONSE': 'Authors Write Response',
+          'SUMMARY': 'Manager Writes Summary',
+          'PUBLISH': 'Published on PubPub with DOIs',
+          'PROMOTE': 'Promoted and Tracked'
+        },
+        classes: {
+          'start': ['SUBMIT'],
+          'process': ['PRIORITY', 'CONTACT', 'PROMOTE'],
+          'eval': ['MANAGER', 'RECRUIT', 'REPORTS', 'SUMMARY'],
+          'author': ['RESPONSE'],
+          'end_good': ['PUBLISH'],
+          'end_bad': ['DEPRI']
+        },
+        edges: [
+          ['SUBMIT', 'PRIORITY', ''],
+          ['PRIORITY', 'DEPRI', 'Low priority'],
+          ['PRIORITY', 'CONTACT', 'High priority'],
+          ['CONTACT', 'DEPRI', 'Author declines'],
+          ['CONTACT', 'MANAGER', 'Author agrees'],
+          ['MANAGER', 'RECRUIT', ''],
+          ['RECRUIT', 'REPORTS', '5+ weeks'],
+          ['REPORTS', 'RESPONSE', '2 weeks'],
+          ['RESPONSE', 'SUMMARY', ''],
+          ['REPORTS', 'SUMMARY', ''],
+          ['SUMMARY', 'PUBLISH', ''],
+          ['RESPONSE', 'PUBLISH', ''],
+          ['REPORTS', 'PUBLISH', ''],
+          ['PUBLISH', 'PROMOTE', '']
+        ]
+      },
+      'journal': {
+        title: 'Traditional Journal Process',
+        nodes: {
+          'SUBMIT': 'Submit to Journal',
+          'SCREEN': 'Desk Review',
+          'DESK': 'Desk Rejected',
+          'PASS': 'Passes to Reviewers',
+          'FIND': 'Find Reviewers: 2-3 accept',
+          'REVIEWS': 'Reviewers Return Reports',
+          'DECISION': 'Editor Decision',
+          'ACCEPT': 'Accepted',
+          'REJECT': 'Rejected',
+          'RR': 'Revise and Resubmit',
+          'REVISE': 'Authors Revise',
+          'DATA': 'Data Editor Review',
+          'PUBLISHED': 'Published',
+          'RETRY': 'Try Another Journal'
+        },
+        classes: {
+          'bad': ['DESK', 'REJECT', 'RETRY'],
+          'neutral': ['SUBMIT', 'PASS', 'FIND', 'REVIEWS', 'RR', 'REVISE', 'DATA'],
+          'good': ['ACCEPT', 'PUBLISHED']
+        },
+        edges: [
+          ['SUBMIT', 'SCREEN', '1-3 weeks'],
+          ['SCREEN', 'DESK', ''],
+          ['SCREEN', 'PASS', ''],
+          ['PASS', 'FIND', '1-4 weeks'],
+          ['FIND', 'REVIEWS', '1-6 months'],
+          ['REVIEWS', 'DECISION', 'kept secret'],
+          ['DECISION', 'ACCEPT', ''],
+          ['DECISION', 'REJECT', ''],
+          ['DECISION', 'RR', ''],
+          ['RR', 'REVISE', '4-12 weeks'],
+          ['REVISE', 'FIND', ''],
+          ['ACCEPT', 'DATA', ''],
+          ['DATA', 'PUBLISHED', '2-8 weeks'],
+          ['DESK', 'RETRY', ''],
+          ['REJECT', 'RETRY', ''],
+          ['RETRY', 'SUBMIT', '']
+        ],
+        decisions: ['SCREEN', 'DECISION']
+      },
+      'prioritization': {
+        title: 'Research Prioritization Framework',
+        nodes: {
+          'START': 'Research Suggested',
+          'Q1': 'Globally Decision-Relevant?',
+          'Q2': 'Prestigious or Already Influential?',
+          'Q3': 'Supports Impactful Work?',
+          'Q4': 'Strong Methodology?',
+          'HIGH': 'HIGH PRIORITY: Definitely Evaluate',
+          'HIGH2': 'HIGH PRIORITY: Policy Stream',
+          'MEDIUM': 'MEDIUM: Consider If Capacity',
+          'MEDIUM2': 'MEDIUM-HIGH: Promising Neglected Work',
+          'LOW': 'LOW: Not In Scope'
+        },
+        classes: {
+          'start': ['START'],
+          'question': ['Q1', 'Q2', 'Q3', 'Q4'],
+          'high': ['HIGH', 'HIGH2'],
+          'medium': ['MEDIUM', 'MEDIUM2'],
+          'low': ['LOW']
+        },
+        edges: [
+          ['START', 'Q1', ''],
+          ['Q1', 'Q2', 'Yes'],
+          ['Q1', 'Q3', 'Not directly'],
+          ['Q2', 'HIGH', 'Prestigious and Relevant'],
+          ['Q2', 'HIGH2', 'Influential but not prestigious'],
+          ['Q2', 'Q4', 'Neither yet'],
+          ['Q3', 'MEDIUM', 'Yes: methods, tools'],
+          ['Q3', 'LOW', 'No'],
+          ['Q4', 'MEDIUM2', 'Rigorous and clear'],
+          ['Q4', 'LOW', 'Weak or unclear']
+        ],
+        decisions: ['Q1', 'Q2', 'Q3', 'Q4']
+      }
+    };
+
+    // Class definitions for each diagram type
+    const classStyles = {
+      'toc-full': `
+        classDef direct fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#92400e
+        classDef multi fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#166534
+        classDef integrate fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e40af
+        classDef systemic fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#9d174d`,
+      'toc-simple': `
+        classDef direct fill:#fef3c7,stroke:#d97706,stroke-width:2px
+        classDef multi fill:#dcfce7,stroke:#16a34a,stroke-width:2px`,
+      'workflow': `
+        classDef start fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+        classDef process fill:#fef3c7,stroke:#d97706,stroke-width:2px
+        classDef eval fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+        classDef author fill:#fce7f3,stroke:#db2777,stroke-width:2px
+        classDef end_good fill:#dcfce7,stroke:#16a34a,stroke-width:3px
+        classDef end_bad fill:#fee2e2,stroke:#dc2626,stroke-width:2px`,
+      'journal': `
+        classDef bad fill:#fee2e2,stroke:#dc2626,stroke-width:2px
+        classDef neutral fill:#f3f4f6,stroke:#6b7280,stroke-width:1px
+        classDef good fill:#dcfce7,stroke:#16a34a,stroke-width:2px`,
+      'prioritization': `
+        classDef start fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+        classDef question fill:#fef3c7,stroke:#d97706,stroke-width:2px
+        classDef high fill:#dcfce7,stroke:#16a34a,stroke-width:3px
+        classDef medium fill:#fde68a,stroke:#d97706,stroke-width:2px
+        classDef low fill:#fee2e2,stroke:#dc2626,stroke-width:2px`
+    };
+
+    // Generate mermaid code from diagram data
+    function generateMermaidCode(diagramId) {
+      const data = diagramData[diagramId];
+      const shape = currentSettings.shape;
+      const decisions = data.decisions || [];
+
+      let code = 'flowchart TD\n';
+      code += classStyles[diagramId] + '\n\n';
+
+      // Generate nodes with selected shape
+      for (const [id, text] of Object.entries(data.nodes)) {
+        if (decisions.includes(id)) {
+          // Decision nodes always use diamond shape
+          code += `    ${id}{"${text}"}\n`;
+        } else if (shape === 'rectangle') {
+          code += `    ${id}["${text}"]\n`;
+        } else if (shape === 'rounded') {
+          code += `    ${id}["${text}"]\n`;
+        } else if (shape === 'stadium') {
+          code += `    ${id}(["${text}"])\n`;
+        } else if (shape === 'hexagon') {
+          code += `    ${id}{{"${text}"}}\n`;
+        } else if (shape === 'parallelogram') {
+          code += `    ${id}[/"${text}"/]\n`;
+        }
+      }
+
+      code += '\n';
+
+      // Generate edges
+      for (const [from, to, label] of data.edges) {
+        if (label) {
+          code += `    ${from} -->|${label}| ${to}\n`;
+        } else {
+          code += `    ${from} --> ${to}\n`;
+        }
+      }
+
+      code += '\n';
+
+      // Apply classes
+      for (const [className, nodeIds] of Object.entries(data.classes)) {
+        for (const nodeId of nodeIds) {
+          code += `    class ${nodeId} ${className}\n`;
+        }
+      }
+
+      return code;
+    }
+
+    // Change handlers
     function changeTheme(theme) {
       document.body.className = 'theme-' + theme;
     }
+
+    function changeFontSize(size) {
+      currentSettings.fontSize = parseInt(size);
+    }
+
+    function changeShape(shape) {
+      currentSettings.shape = shape;
+      // Add body class for CSS-based shape modifications
+      document.body.classList.remove('shape-rectangle', 'shape-rounded', 'shape-stadium', 'shape-hexagon', 'shape-parallelogram');
+      document.body.classList.add('shape-' + shape);
+    }
+
+    function changeCurve(curve) {
+      currentSettings.curve = curve;
+    }
+
+    function changeAnimation(animation) {
+      currentSettings.animation = animation;
+    }
+
+    // Apply animation to diagram
+    function applyAnimation(container) {
+      const svg = container.querySelector('svg');
+      if (!svg) return;
+
+      const nodes = svg.querySelectorAll('.node');
+      const edges = svg.querySelectorAll('.edgePath');
+      const labels = svg.querySelectorAll('.edgeLabel');
+
+      const animation = currentSettings.animation;
+
+      if (animation === 'none') {
+        nodes.forEach(n => { n.style.opacity = 1; n.style.transform = 'none'; });
+        edges.forEach(e => { e.style.opacity = 1; });
+        labels.forEach(l => { l.style.opacity = 1; });
+        return;
+      }
+
+      // Reset all elements
+      nodes.forEach(n => { n.style.opacity = 0; n.style.transition = 'all 0.5s ease'; });
+      edges.forEach(e => { e.style.opacity = 0; e.style.transition = 'all 0.5s ease'; });
+      labels.forEach(l => { l.style.opacity = 0; l.style.transition = 'all 0.5s ease'; });
+
+      if (animation === 'fade') {
+        setTimeout(() => {
+          nodes.forEach(n => { n.style.opacity = 1; });
+          edges.forEach(e => { e.style.opacity = 1; });
+          labels.forEach(l => { l.style.opacity = 1; });
+        }, 100);
+      } else if (animation === 'slide') {
+        nodes.forEach(n => { n.style.transform = 'translateY(-20px)'; });
+        setTimeout(() => {
+          nodes.forEach(n => { n.style.opacity = 1; n.style.transform = 'translateY(0)'; });
+          edges.forEach(e => { e.style.opacity = 1; });
+          labels.forEach(l => { l.style.opacity = 1; });
+        }, 100);
+      } else if (animation === 'sequential') {
+        nodes.forEach((n, i) => {
+          setTimeout(() => {
+            n.style.opacity = 1;
+            n.style.transform = 'scale(1)';
+          }, i * 150);
+        });
+        setTimeout(() => {
+          edges.forEach((e, i) => {
+            setTimeout(() => { e.style.opacity = 1; }, i * 50);
+          });
+          labels.forEach((l, i) => {
+            setTimeout(() => { l.style.opacity = 1; }, i * 50);
+          });
+        }, nodes.length * 150);
+      }
+    }
+
+    // Re-render all diagrams
+    async function reRenderDiagrams() {
+      initMermaid();
+
+      const containers = document.querySelectorAll('.mermaid');
+      const diagramIds = ['toc-full', 'toc-simple', 'workflow', 'journal', 'prioritization'];
+
+      for (let i = 0; i < containers.length; i++) {
+        const container = containers[i];
+        const diagramId = diagramIds[i];
+
+        if (diagramData[diagramId]) {
+          const code = generateMermaidCode(diagramId);
+          container.innerHTML = code;
+          container.removeAttribute('data-processed');
+        }
+      }
+
+      await mermaid.run();
+
+      // Apply animations after render
+      containers.forEach(container => {
+        applyAnimation(container);
+      });
+    }
+
+    // Initial render on page load
+    document.addEventListener('DOMContentLoaded', async () => {
+      initMermaid();
+      await mermaid.run();
+
+      // Apply initial animation if set
+      document.querySelectorAll('.mermaid').forEach(container => {
+        applyAnimation(container);
+      });
+    });
   </script>
 
 </body>
