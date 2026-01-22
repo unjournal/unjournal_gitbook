@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unjournal - Theory of Change</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --r-main-font: 'Inter', sans-serif;
+      --r-heading-font: 'Inter', sans-serif;
+      --r-main-font-size: 28px;
+    }
+    .reveal { font-family: 'Inter', sans-serif; }
+    .reveal h1, .reveal h2, .reveal h3 { font-family: 'Inter', sans-serif; font-weight: 600; }
+    .reveal h1 { font-size: 2.2em; }
+    .reveal h2 { font-size: 1.6em; margin-bottom: 0.5em; }
+
+    /* Flowchart node styles */
+    .flow-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .flow-row {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .node {
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      font-size: 0.85em;
+      font-weight: 500;
+      max-width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .node:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    /* Color coding */
+    .node-start { background: linear-gradient(135deg, #dcfce7, #bbf7d0); border: 2px solid #16a34a; color: #166534; }
+    .node-direct { background: linear-gradient(135deg, #fef3c7, #fde68a); border: 2px solid #d97706; color: #92400e; }
+    .node-multi { background: linear-gradient(135deg, #dcfce7, #bbf7d0); border: 2px solid #16a34a; color: #166534; }
+    .node-integrate { background: linear-gradient(135deg, #dbeafe, #bfdbfe); border: 2px solid #2563eb; color: #1e40af; }
+    .node-systemic { background: linear-gradient(135deg, #fce7f3, #fbcfe8); border: 2px solid #db2777; color: #9d174d; }
+    .node-outcome { background: linear-gradient(135deg, #d1fae5, #a7f3d0); border: 3px solid #059669; color: #065f46; font-weight: 600; }
+
+    /* Arrow styles */
+    .arrow {
+      font-size: 2rem;
+      color: #64748b;
+      margin: 0.3rem 0;
+    }
+    .arrow-label {
+      font-size: 0.7em;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    /* Legend */
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      font-size: 0.7em;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+    }
+
+    /* Navigation hint */
+    .nav-hint {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.8em;
+      color: #94a3b8;
+      background: rgba(255,255,255,0.9);
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Slide-specific */
+    .slide-title {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+    }
+    .slide-title h1 { color: white; }
+    .slide-title p { color: #94a3b8; }
+
+    /* Fragment animations */
+    .reveal .fragment.fade-in-then-semi-out.visible:not(.current-fragment) {
+      opacity: 0.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Title Slide -->
+      <section class="slide-title">
+        <h1>The Unjournal</h1>
+        <p style="font-size: 1.2em; margin-top: 1rem;">Theory of Change</p>
+        <p style="margin-top: 2rem; font-size: 0.8em;">Use arrow keys or spacebar to navigate</p>
+      </section>
+
+      <!-- Overview Slide -->
+      <section>
+        <h2>How We Create Impact</h2>
+        <div class="legend">
+          <div class="legend-item"><span class="legend-color" style="background:#fef3c7;border:2px solid #d97706"></span> Direct Path</div>
+          <div class="legend-item"><span class="legend-color" style="background:#dcfce7;border:2px solid #16a34a"></span> Multi-step Outcomes</div>
+          <div class="legend-item"><span class="legend-color" style="background:#dbeafe;border:2px solid #2563eb"></span> Academic Integration</div>
+          <div class="legend-item"><span class="legend-color" style="background:#fce7f3;border:2px solid #db2777"></span> Systemic Change</div>
+        </div>
+        <p style="margin-top: 2rem; color: #64748b; font-size: 0.9em;">Press right arrow to walk through each step...</p>
+      </section>
+
+      <!-- Step 1: Starting Point -->
+      <section>
+        <h2>Starting Point</h2>
+        <div class="flow-container">
+          <div class="node node-start" style="font-size: 1.1em; padding: 1.5rem 2rem;">
+            The Unjournal:<br/>Tools, Incentives, Platforms
+          </div>
+        </div>
+        <p style="margin-top: 2rem; color: #64748b; font-size: 0.85em;">
+          We provide the infrastructure for better research evaluation
+        </p>
+      </section>
+
+      <!-- Step 2: Four Main Branches -->
+      <section>
+        <h2>Four Strategic Paths</h2>
+        <div class="flow-container">
+          <div class="node node-start">UJ: Tools, Incentives, Platforms</div>
+          <div class="arrow">↓</div>
+          <div class="flow-row">
+            <div class="fragment node node-multi">More Efficient<br/>Research Feedback</div>
+            <div class="fragment node node-direct">Focus on<br/>Impactful Research</div>
+            <div class="fragment node node-integrate">Academics Paid to<br/>Evaluate Impact Work</div>
+            <div class="fragment node node-systemic">Build Reliable<br/>Quality Predictors</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 3: Direct Impact Path -->
+      <section>
+        <h2>Direct Impact Path</h2>
+        <div class="flow-container">
+          <div class="flow-row">
+            <div class="node node-multi">Efficient Feedback</div>
+            <div class="node node-direct">Impactful Research Focus</div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-direct">More Evaluation of High-Impact Research</div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment flow-row">
+            <div class="node node-direct">Improved Rigor</div>
+            <div class="node node-direct">Open Science Practices</div>
+          </div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-direct">More Replicable & Reliable Research</div>
+        </div>
+      </section>
+
+      <!-- Step 4: Academic Integration -->
+      <section>
+        <h2>Academic Integration Path</h2>
+        <div class="flow-container">
+          <div class="node node-integrate">Academics Paid to Evaluate Impact Work</div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-integrate">Academic Awareness of Impact Research</div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-integrate">Academic Focus on Global Priorities</div>
+        </div>
+        <p class="fragment" style="margin-top: 1.5rem; color: #64748b; font-size: 0.85em;">
+          Stronger work from the direct path also increases academic awareness
+        </p>
+      </section>
+
+      <!-- Step 5: Systemic Change -->
+      <section>
+        <h2>Systemic Change Path</h2>
+        <div class="flow-container">
+          <div class="flow-row">
+            <div class="node node-systemic">Reliable Quality Predictors</div>
+            <div class="node node-multi">Efficient Feedback</div>
+          </div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment flow-row">
+            <div class="node node-systemic">Attractive to Gatekeepers</div>
+            <div class="node node-systemic">Attractive to Researchers</div>
+          </div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-systemic">UJ-Style Evaluation Replaces Traditional Journals</div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment flow-row">
+            <div class="node node-systemic">Research Evaluation More Efficient</div>
+            <div class="node node-systemic">Open Access</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 6: Convergence -->
+      <section>
+        <h2>All Paths Lead To...</h2>
+        <div class="flow-container">
+          <div class="flow-row" style="opacity: 0.6;">
+            <div class="node node-direct" style="font-size: 0.75em;">Improved Rigor</div>
+            <div class="node node-integrate" style="font-size: 0.75em;">Academic Focus</div>
+            <div class="node node-systemic" style="font-size: 0.75em;">Open Access</div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-multi" style="font-size: 1.1em;">Impactful Research Improved</div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-direct" style="font-size: 1.1em;">Decision Makers Better Informed</div>
+        </div>
+      </section>
+
+      <!-- Step 7: Final Outcomes -->
+      <section>
+        <h2>Ultimate Outcomes</h2>
+        <div class="flow-container">
+          <div class="node node-direct">Decision Makers Better Informed</div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-outcome" style="font-size: 1.1em;">Better Policy Choices</div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-outcome" style="font-size: 1.3em; padding: 1.5rem 2.5rem;">
+            Survival & Flourishing
+          </div>
+        </div>
+      </section>
+
+      <!-- Summary Slide -->
+      <section>
+        <h2>Complete Theory of Change</h2>
+        <div class="flow-container" style="font-size: 0.7em;">
+          <div class="node node-start">UJ: Tools, Incentives, Platforms</div>
+          <div class="arrow" style="font-size: 1.5rem;">↓</div>
+          <div class="flow-row">
+            <div class="node node-multi">Efficient Feedback</div>
+            <div class="node node-direct">Impact Focus</div>
+            <div class="node node-integrate">Paid Academics</div>
+            <div class="node node-systemic">Quality Predictors</div>
+          </div>
+          <div class="arrow" style="font-size: 1.5rem;">↓</div>
+          <div class="flow-row">
+            <div class="node node-direct">Better Research</div>
+            <div class="node node-integrate">Academic Awareness</div>
+            <div class="node node-systemic">System Change</div>
+          </div>
+          <div class="arrow" style="font-size: 1.5rem;">↓</div>
+          <div class="node node-outcome">Better Informed Decisions → Better Policy → Flourishing</div>
+        </div>
+      </section>
+
+      <!-- End Slide -->
+      <section class="slide-title">
+        <h1>Thank You</h1>
+        <p style="margin-top: 1.5rem;">
+          <a href="https://unjournal.org" style="color: #60a5fa;">unjournal.org</a>
+        </p>
+        <p style="margin-top: 1rem; font-size: 0.8em;">
+          <a href="gallery.html" style="color: #94a3b8;">← Back to Gallery</a>
+        </p>
+      </section>
+
+    </div>
+  </div>
+
+  <div class="nav-hint">Use ← → arrow keys or spacebar to navigate</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      controls: true,
+      progress: true,
+      center: true,
+      width: 1200,
+      height: 700
+    });
+  </script>
+</body>
+</html>

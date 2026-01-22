@@ -245,6 +245,8 @@
   <nav class="page-nav">
     <a href="gallery.html" class="current">Themed Gallery</a>
     <a href="index.html">Download Images</a>
+    <a href="reveal-theory-of-change.html">Theory of Change (Slides)</a>
+    <a href="reveal-evaluation-process.html">Evaluation Process (Slides)</a>
     <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/">Full Documentation</a>
     <a href="https://unjournal.org">Main Website</a>
   </nav>
@@ -318,13 +320,13 @@
     <button onclick="downloadCurrentSVG()" style="background: #059669; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Download SVG</button>
   </div>
 
-  <!-- Step-through animation alternatives notice -->
+  <!-- Step-through presentations -->
   <div class="alternatives-notice" style="background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.3); margin: 1rem auto; max-width: 1600px; padding: 1rem 2rem; border-radius: 8px;">
     <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">
-      <strong style="color: var(--text-primary);">Looking for animated step-through presentations?</strong>
-      Try <a href="https://github.com/maiermic/reveal-md-mermaid-animation-example" target="_blank" style="color: var(--accent);">Reveal.js with Mermaid fragments</a>,
-      <a href="https://www.canva.com/online-whiteboard/flowcharts/" target="_blank" style="color: var(--accent);">Canva</a>,
-      or <a href="https://flourish.studio/" target="_blank" style="color: var(--accent);">Flourish</a> for animated flowchart presentations.
+      <strong style="color: var(--text-primary);">Step-through presentations available:</strong>
+      <a href="reveal-theory-of-change.html" style="color: var(--accent);">Theory of Change</a> |
+      <a href="reveal-evaluation-process.html" style="color: var(--accent);">Evaluation Process</a>
+      — Use arrow keys to walk through each step. Great for conference presentations!
     </p>
   </div>
 
@@ -831,25 +833,27 @@ flowchart TD
       const data = diagramData[diagramId];
       const shape = currentSettings.shape;
       const decisions = data.decisions || [];
+      const maxChars = nodeWidthConfig[currentSettings.nodeWidth];
 
       let code = 'flowchart TD\n';
       code += classStyles[diagramId] + '\n\n';
 
-      // Generate nodes with selected shape
+      // Generate nodes with selected shape and text wrapping
       for (const [id, text] of Object.entries(data.nodes)) {
+        const wrappedText = wrapText(text, maxChars);
         if (decisions.includes(id)) {
           // Decision nodes always use diamond shape
-          code += `    ${id}{"${text}"}\n`;
+          code += `    ${id}{"${wrappedText}"}\n`;
         } else if (shape === 'rectangle') {
-          code += `    ${id}["${text}"]\n`;
+          code += `    ${id}["${wrappedText}"]\n`;
         } else if (shape === 'rounded') {
-          code += `    ${id}["${text}"]\n`;
+          code += `    ${id}["${wrappedText}"]\n`;
         } else if (shape === 'stadium') {
-          code += `    ${id}(["${text}"])\n`;
+          code += `    ${id}(["${wrappedText}"])\n`;
         } else if (shape === 'hexagon') {
-          code += `    ${id}{{"${text}"}}\n`;
+          code += `    ${id}{{"${wrappedText}"}}\n`;
         } else if (shape === 'parallelogram') {
-          code += `    ${id}[/"${text}"/]\n`;
+          code += `    ${id}[/"${wrappedText}"/]\n`;
         }
       }
 

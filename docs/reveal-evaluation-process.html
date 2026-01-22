@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unjournal - Evaluation Process</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --r-main-font: 'Inter', sans-serif;
+      --r-heading-font: 'Inter', sans-serif;
+      --r-main-font-size: 28px;
+    }
+    .reveal { font-family: 'Inter', sans-serif; }
+    .reveal h1, .reveal h2, .reveal h3 { font-family: 'Inter', sans-serif; font-weight: 600; }
+    .reveal h1 { font-size: 2.2em; }
+    .reveal h2 { font-size: 1.6em; margin-bottom: 0.5em; }
+
+    /* Flowchart node styles */
+    .flow-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+      margin-top: 1rem;
+    }
+    .flow-row {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .node {
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      font-size: 0.9em;
+      font-weight: 500;
+      max-width: 320px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .node:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    /* Color coding for workflow */
+    .node-start { background: linear-gradient(135deg, #e0f2fe, #bae6fd); border: 2px solid #0284c7; color: #0c4a6e; }
+    .node-process { background: linear-gradient(135deg, #fef3c7, #fde68a); border: 2px solid #d97706; color: #92400e; }
+    .node-eval { background: linear-gradient(135deg, #dbeafe, #bfdbfe); border: 2px solid #2563eb; color: #1e40af; }
+    .node-author { background: linear-gradient(135deg, #fce7f3, #fbcfe8); border: 2px solid #db2777; color: #9d174d; }
+    .node-success { background: linear-gradient(135deg, #dcfce7, #bbf7d0); border: 3px solid #16a34a; color: #166534; font-weight: 600; }
+    .node-fail { background: linear-gradient(135deg, #fee2e2, #fecaca); border: 2px solid #dc2626; color: #991b1b; }
+
+    /* Arrow styles */
+    .arrow {
+      font-size: 1.8rem;
+      color: #64748b;
+      margin: 0.2rem 0;
+    }
+    .arrow-label {
+      font-size: 0.75em;
+      color: #64748b;
+      font-style: italic;
+      background: #f8fafc;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      margin: 0.2rem 0;
+    }
+
+    /* Timeline indicator */
+    .timeline {
+      display: inline-block;
+      background: #f1f5f9;
+      color: #475569;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.8em;
+      margin-top: 0.5rem;
+    }
+
+    /* Legend */
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+      font-size: 0.7em;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .legend-color {
+      width: 18px;
+      height: 18px;
+      border-radius: 4px;
+    }
+
+    /* Navigation hint */
+    .nav-hint {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.8em;
+      color: #94a3b8;
+      background: rgba(255,255,255,0.9);
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Slide-specific */
+    .slide-title {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+    }
+    .slide-title h1 { color: white; }
+    .slide-title p { color: #94a3b8; }
+
+    /* Comparison */
+    .comparison {
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .comparison-col {
+      flex: 1;
+      max-width: 400px;
+    }
+    .comparison-col h3 {
+      font-size: 1em;
+      margin-bottom: 1rem;
+    }
+    .stat {
+      font-size: 2em;
+      font-weight: 700;
+      color: #2563eb;
+    }
+    .stat-bad {
+      color: #dc2626;
+    }
+
+    /* Branch indicator */
+    .branch {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    .branch-line {
+      width: 40px;
+      height: 2px;
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Title Slide -->
+      <section class="slide-title">
+        <h1>The Unjournal</h1>
+        <p style="font-size: 1.2em; margin-top: 1rem;">Evaluation Process</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9em;">How research gets evaluated in 7-10 weeks</p>
+        <p style="margin-top: 2rem; font-size: 0.8em;">Use arrow keys or spacebar to navigate</p>
+      </section>
+
+      <!-- Overview / Legend -->
+      <section>
+        <h2>Process Overview</h2>
+        <div class="legend" style="font-size: 0.85em;">
+          <div class="legend-item"><span class="legend-color" style="background:#e0f2fe;border:2px solid #0284c7"></span> Entry Point</div>
+          <div class="legend-item"><span class="legend-color" style="background:#fef3c7;border:2px solid #d97706"></span> UJ Process</div>
+          <div class="legend-item"><span class="legend-color" style="background:#dbeafe;border:2px solid #2563eb"></span> Evaluation</div>
+          <div class="legend-item"><span class="legend-color" style="background:#fce7f3;border:2px solid #db2777"></span> Author</div>
+          <div class="legend-item"><span class="legend-color" style="background:#dcfce7;border:2px solid #16a34a"></span> Published</div>
+        </div>
+        <p style="margin-top: 2rem; color: #64748b;">
+          Total timeline: <strong>7-10 weeks</strong> from prioritization to publication
+        </p>
+        <p style="margin-top: 1rem; color: #64748b; font-size: 0.9em;">
+          Press right arrow to walk through each step...
+        </p>
+      </section>
+
+      <!-- Step 1: Research Entry -->
+      <section>
+        <h2>Step 1: Research Enters</h2>
+        <div class="flow-container">
+          <div class="node node-start" style="font-size: 1.1em;">
+            Research Submitted or Identified
+          </div>
+          <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.85em;">
+            Research can be:
+          </p>
+          <div class="flow-row" style="margin-top: 1rem;">
+            <div class="fragment" style="text-align: center;">
+              <div style="font-size: 2em;">📝</div>
+              <div style="font-size: 0.85em; color: #475569;">Submitted<br/>by authors</div>
+            </div>
+            <div class="fragment" style="text-align: center;">
+              <div style="font-size: 2em;">🔍</div>
+              <div style="font-size: 0.85em; color: #475569;">Identified<br/>by UJ team</div>
+            </div>
+            <div class="fragment" style="text-align: center;">
+              <div style="font-size: 2em;">📚</div>
+              <div style="font-size: 0.85em; color: #475569;">From prestige<br/>archives (NBER)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 2: Prioritization -->
+      <section>
+        <h2>Step 2: Prioritization</h2>
+        <div class="flow-container">
+          <div class="node node-start">Research Submitted or Identified</div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-process">UJ Team Prioritizes</div>
+          <div class="fragment flow-row" style="margin-top: 1rem;">
+            <div>
+              <div class="arrow-label">Low priority</div>
+              <div class="arrow">↓</div>
+              <div class="node node-fail">Deprioritized</div>
+            </div>
+            <div>
+              <div class="arrow-label">High priority</div>
+              <div class="arrow">↓</div>
+              <div class="node node-process">Continue →</div>
+            </div>
+          </div>
+        </div>
+        <p class="fragment" style="margin-top: 1rem; color: #64748b; font-size: 0.85em;">
+          Priority based on: global relevance, methodology, author engagement
+        </p>
+      </section>
+
+      <!-- Step 3: Author Permission -->
+      <section>
+        <h2>Step 3: Author Permission</h2>
+        <div class="flow-container">
+          <div class="node node-process">High Priority Research</div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-process">Contact Authors for Permission</div>
+          <div class="fragment flow-row" style="margin-top: 1rem;">
+            <div>
+              <div class="arrow-label">Author declines</div>
+              <div class="arrow">↓</div>
+              <div class="node node-fail">Deprioritized</div>
+            </div>
+            <div>
+              <div class="arrow-label">Author agrees</div>
+              <div class="arrow">↓</div>
+              <div class="node node-author">Author Engaged!</div>
+            </div>
+          </div>
+        </div>
+        <p class="fragment" style="margin-top: 1rem; color: #64748b; font-size: 0.85em;">
+          Authors can provide context, request specific feedback areas
+        </p>
+      </section>
+
+      <!-- Step 4: Evaluation Manager -->
+      <section>
+        <h2>Step 4: Evaluation Manager Assigned</h2>
+        <div class="flow-container">
+          <div class="node node-author">Author Agrees</div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-eval" style="font-size: 1.1em;">
+            Evaluation Manager Assigned
+          </div>
+          <div class="fragment" style="margin-top: 1.5rem; text-align: center;">
+            <p style="color: #475569; font-size: 0.9em;">The Evaluation Manager:</p>
+            <div class="flow-row" style="margin-top: 1rem; font-size: 0.85em;">
+              <div style="background: #f8fafc; padding: 0.8rem; border-radius: 8px;">Recruits<br/>evaluators</div>
+              <div style="background: #f8fafc; padding: 0.8rem; border-radius: 8px;">Manages<br/>timeline</div>
+              <div style="background: #f8fafc; padding: 0.8rem; border-radius: 8px;">Writes<br/>summary</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 5: Evaluators -->
+      <section>
+        <h2>Step 5: Evaluators Recruited</h2>
+        <div class="flow-container">
+          <div class="node node-eval">Evaluation Manager</div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-eval">Evaluators Recruited: 2-3 Accept</div>
+          <div class="fragment timeline">Timeline: Selection takes ~1-2 weeks</div>
+        </div>
+        <div class="fragment" style="margin-top: 1.5rem;">
+          <p style="color: #475569; font-size: 0.9em;">Evaluators are:</p>
+          <ul style="list-style: none; margin-top: 0.5rem; font-size: 0.85em; color: #64748b;">
+            <li>✓ Subject matter experts</li>
+            <li>✓ Paid for their work</li>
+            <li>✓ Can choose anonymity or sign their evaluation</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Step 6: Evaluation Period -->
+      <section>
+        <h2>Step 6: Evaluation Period</h2>
+        <div class="flow-container">
+          <div class="node node-eval">2-3 Evaluators Recruited</div>
+          <div class="arrow">↓</div>
+          <div class="timeline">5+ weeks</div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-eval" style="font-size: 1.05em;">
+            Evaluators Complete Reports & Ratings
+          </div>
+        </div>
+        <div class="fragment" style="margin-top: 1.5rem;">
+          <p style="color: #475569; font-size: 0.9em;">Each evaluation includes:</p>
+          <div class="flow-row" style="margin-top: 1rem; font-size: 0.8em;">
+            <div style="background: #dbeafe; padding: 0.8rem 1rem; border-radius: 8px;">Written<br/>Report</div>
+            <div style="background: #dbeafe; padding: 0.8rem 1rem; border-radius: 8px;">Quantitative<br/>Ratings</div>
+            <div style="background: #dbeafe; padding: 0.8rem 1rem; border-radius: 8px;">Confidence<br/>Scores</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 7: Author Response -->
+      <section>
+        <h2>Step 7: Author Response</h2>
+        <div class="flow-container">
+          <div class="node node-eval">Evaluations Complete</div>
+          <div class="arrow">↓</div>
+          <div class="arrow-label">Shared anonymously with authors</div>
+          <div class="arrow">↓</div>
+          <div class="timeline">~2 weeks</div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-author">Authors Write Response</div>
+        </div>
+        <p class="fragment" style="margin-top: 1rem; color: #64748b; font-size: 0.85em;">
+          Authors can respond to feedback, clarify points, note planned revisions
+        </p>
+      </section>
+
+      <!-- Step 8: Manager Summary -->
+      <section>
+        <h2>Step 8: Manager Summary</h2>
+        <div class="flow-container">
+          <div class="flow-row" style="font-size: 0.9em;">
+            <div class="node node-eval">Evaluation Reports</div>
+            <div class="node node-author">Author Response</div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="arrow-label">Manager considers both</div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-eval">Evaluation Manager Writes Summary</div>
+        </div>
+        <p class="fragment" style="margin-top: 1rem; color: #64748b; font-size: 0.85em;">
+          Summary synthesizes key findings, agreements, and disagreements
+        </p>
+      </section>
+
+      <!-- Step 9: Publication -->
+      <section>
+        <h2>Step 9: Publication!</h2>
+        <div class="flow-container">
+          <div class="flow-row" style="font-size: 0.85em;">
+            <div class="node node-eval">Evaluations</div>
+            <div class="node node-author">Author Response</div>
+            <div class="node node-eval">Manager Summary</div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="fragment node node-success" style="font-size: 1.2em; padding: 1.2rem 2rem;">
+            Published on PubPub with DOIs
+          </div>
+          <div class="fragment arrow">↓</div>
+          <div class="fragment node node-process">Promoted & Tracked</div>
+        </div>
+      </section>
+
+      <!-- Comparison with Traditional -->
+      <section>
+        <h2>Unjournal vs Traditional Journals</h2>
+        <div class="comparison">
+          <div class="comparison-col fragment">
+            <h3 style="color: #16a34a;">The Unjournal</h3>
+            <div class="stat">7-10 weeks</div>
+            <ul style="list-style: none; font-size: 0.8em; margin-top: 1rem; color: #475569;">
+              <li>✓ Open evaluations</li>
+              <li>✓ Author can respond</li>
+              <li>✓ Evaluators paid</li>
+              <li>✓ DOIs for all outputs</li>
+            </ul>
+          </div>
+          <div class="comparison-col fragment">
+            <h3 style="color: #dc2626;">Traditional Journal</h3>
+            <div class="stat stat-bad">24+ months</div>
+            <ul style="list-style: none; font-size: 0.8em; margin-top: 1rem; color: #475569;">
+              <li>✗ Secret reviews</li>
+              <li>✗ Multiple rejections</li>
+              <li>✗ Unpaid reviewers</li>
+              <li>✗ Long revision cycles</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Full Process Summary -->
+      <section>
+        <h2>Complete Process</h2>
+        <div class="flow-container" style="font-size: 0.65em;">
+          <div class="node node-start">Research Identified</div>
+          <div class="arrow" style="font-size: 1.2rem;">↓</div>
+          <div class="node node-process">Prioritized → Author Permission</div>
+          <div class="arrow" style="font-size: 1.2rem;">↓</div>
+          <div class="node node-eval">Manager Assigns Evaluators</div>
+          <div class="arrow" style="font-size: 1.2rem;">↓</div>
+          <div class="timeline" style="font-size: 1.1em;">5+ weeks evaluation</div>
+          <div class="arrow" style="font-size: 1.2rem;">↓</div>
+          <div class="flow-row">
+            <div class="node node-eval">Reports & Ratings</div>
+            <div class="node node-author">Author Response</div>
+          </div>
+          <div class="arrow" style="font-size: 1.2rem;">↓</div>
+          <div class="node node-success">Published with DOIs</div>
+        </div>
+      </section>
+
+      <!-- End Slide -->
+      <section class="slide-title">
+        <h1>Get Involved</h1>
+        <div style="margin-top: 1.5rem;">
+          <p style="margin: 0.5rem 0;"><a href="https://unjournal.org" style="color: #60a5fa;">unjournal.org</a></p>
+          <p style="margin: 0.5rem 0; font-size: 0.9em;"><a href="https://unjournal.pubpub.org" style="color: #60a5fa;">See published evaluations</a></p>
+        </div>
+        <p style="margin-top: 2rem; font-size: 0.8em;">
+          <a href="gallery.html" style="color: #94a3b8;">← Back to Gallery</a>
+        </p>
+      </section>
+
+    </div>
+  </div>
+
+  <div class="nav-hint">Use ← → arrow keys or spacebar to navigate</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      controls: true,
+      progress: true,
+      center: true,
+      width: 1200,
+      height: 700
+    });
+  </script>
+</body>
+</html>
