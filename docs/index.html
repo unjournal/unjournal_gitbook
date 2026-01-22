@@ -34,6 +34,33 @@
       font-size: 1.1rem;
     }
 
+    .page-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.75rem;
+      background: rgba(0,0,0,0.4);
+      flex-wrap: wrap;
+    }
+
+    .page-nav a {
+      color: #60a5fa;
+      text-decoration: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .page-nav a:hover {
+      background: rgba(96, 165, 250, 0.2);
+    }
+
+    .page-nav a.current {
+      background: #3b82f6;
+      color: white;
+    }
+
     .nav {
       display: flex;
       justify-content: center;
@@ -205,6 +232,13 @@
     <h1>THE UNJOURNAL</h1>
     <p class="subtitle">Visual Guide to Our Processes & Theory of Change</p>
   </header>
+
+  <nav class="page-nav">
+    <a href="gallery.html">Themed Gallery</a>
+    <a href="index.html" class="current">Download Images</a>
+    <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/">Full Documentation</a>
+    <a href="https://unjournal.org">Main Website</a>
+  </nav>
 
   <nav class="nav">
     <a href="#theory-of-change">Theory of Change</a>
