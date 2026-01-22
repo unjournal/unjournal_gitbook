@@ -62,6 +62,10 @@ B2 -- "..." --> B6
 Our _theory of change_ is shown above as a series of possible paths; we indicate what is arguably the most "direct" path in yellow. All of these paths begin with our setting up, funding, communicating, and incentivizing participation in a strong, open, efficient research evaluation system (in green, at the top). These processes all lead to impactful research being more in-depth, more reliable, more accessible, and more useful, and thus better informing decision-makers and leading to better decisions and outcomes (in green, at the bottom).
 
 {% hint style="info" %}
+**Interactive presentation:** Walk through the Theory of Change step-by-step in our [slide presentation](https://unjournal.github.io/unjournal_gitbook/reveal-theory-of-change.html) (use arrow keys to navigate). Great for conferences and talks!
+{% endhint %}
+
+{% hint style="info" %}
 You can zoom in on [#some-of-the-main-paths](./#some-of-the-main-paths "mention") below
 {% endhint %}
 

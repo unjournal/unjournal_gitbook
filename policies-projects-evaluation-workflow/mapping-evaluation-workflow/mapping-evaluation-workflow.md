@@ -1,6 +1,10 @@
 # Evaluation workflow – Simplified
 
-A simplified rendering, skipping some steps and possibilities
+A simplified rendering, skipping some steps and possibilities.
+
+{% hint style="info" %}
+**Interactive presentation:** Walk through the evaluation process step-by-step in our [slide presentation](https://unjournal.github.io/unjournal_gitbook/reveal-evaluation-process.html) (use arrow keys to navigate). Includes timelines and comparison with traditional journals.
+{% endhint %}
 
 ```mermaid
 graph TD
