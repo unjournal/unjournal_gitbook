@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Unjournal - Visual Diagrams</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&family=Roboto+Mono:wght@400;500&family=Playfair+Display:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -222,11 +222,6 @@
       ry: 0 !important;
     }
 
-    /* Animation helper styles */
-    .mermaid .node {
-      transform-origin: center center;
-    }
-
     .footer {
       text-align: center;
       padding: 2rem;
@@ -266,19 +261,44 @@
       </select>
     </div>
     <div class="control-group">
-      <label>Font Size:</label>
-      <select id="fontSizeSelect" onchange="changeFontSize(this.value)">
-        <option value="12">Small (12px)</option>
-        <option value="14" selected>Medium (14px)</option>
-        <option value="16">Large (16px)</option>
-        <option value="18">X-Large (18px)</option>
-        <option value="20">XX-Large (20px)</option>
+      <label>Font:</label>
+      <select id="fontFamilySelect" onchange="changeFontFamily(this.value)">
+        <option value="Inter, system-ui, sans-serif" selected>Inter (Sans-serif)</option>
+        <option value="Source Sans Pro, sans-serif">Source Sans Pro</option>
+        <option value="Merriweather, Georgia, serif">Merriweather (Serif)</option>
+        <option value="Playfair Display, serif">Playfair Display</option>
+        <option value="Roboto Mono, monospace">Roboto Mono</option>
+        <option value="Georgia, serif">Georgia</option>
+        <option value="Arial, sans-serif">Arial</option>
+        <option value="Verdana, sans-serif">Verdana</option>
       </select>
     </div>
     <div class="control-group">
-      <label>Node Shape:</label>
+      <label>Size:</label>
+      <select id="fontSizeSelect" onchange="changeFontSize(this.value)">
+        <option value="11">11px</option>
+        <option value="12">12px</option>
+        <option value="14" selected>14px</option>
+        <option value="16">16px</option>
+        <option value="18">18px</option>
+        <option value="20">20px</option>
+        <option value="22">22px</option>
+        <option value="24">24px</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Node Width:</label>
+      <select id="nodeWidthSelect" onchange="changeNodeWidth(this.value)">
+        <option value="narrow">Narrow (wrap text)</option>
+        <option value="medium" selected>Medium</option>
+        <option value="wide">Wide</option>
+        <option value="auto">Auto (no wrap)</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Shape:</label>
       <select id="shapeSelect" onchange="changeShape(this.value)">
-        <option value="rounded" selected>Rounded Rectangle</option>
+        <option value="rounded" selected>Rounded</option>
         <option value="rectangle">Rectangle</option>
         <option value="stadium">Stadium/Pill</option>
         <option value="hexagon">Hexagon</option>
@@ -286,24 +306,26 @@
       </select>
     </div>
     <div class="control-group">
-      <label>Line Style:</label>
+      <label>Lines:</label>
       <select id="curveSelect" onchange="changeCurve(this.value)">
-        <option value="basis" selected>Smooth (Basis)</option>
-        <option value="linear">Straight (Linear)</option>
+        <option value="basis" selected>Smooth</option>
+        <option value="linear">Straight</option>
         <option value="stepBefore">Step</option>
         <option value="cardinal">Cardinal</option>
       </select>
     </div>
-    <div class="control-group">
-      <label>Animation:</label>
-      <select id="animationSelect" onchange="changeAnimation(this.value)">
-        <option value="none">None</option>
-        <option value="fade">Fade In</option>
-        <option value="slide">Slide In</option>
-        <option value="sequential">Sequential Reveal</option>
-      </select>
-    </div>
-    <button onclick="reRenderDiagrams()" style="background: var(--accent); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Apply Changes</button>
+    <button onclick="reRenderDiagrams()" style="background: var(--accent); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Apply</button>
+    <button onclick="downloadCurrentSVG()" style="background: #059669; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Download SVG</button>
+  </div>
+
+  <!-- Step-through animation alternatives notice -->
+  <div class="alternatives-notice" style="background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.3); margin: 1rem auto; max-width: 1600px; padding: 1rem 2rem; border-radius: 8px;">
+    <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">
+      <strong style="color: var(--text-primary);">Looking for animated step-through presentations?</strong>
+      Try <a href="https://github.com/maiermic/reveal-md-mermaid-animation-example" target="_blank" style="color: var(--accent);">Reveal.js with Mermaid fragments</a>,
+      <a href="https://www.canva.com/online-whiteboard/flowcharts/" target="_blank" style="color: var(--accent);">Canva</a>,
+      or <a href="https://flourish.studio/" target="_blank" style="color: var(--accent);">Flourish</a> for animated flowchart presentations.
+    </p>
   </div>
 
   <main class="container">
@@ -515,9 +537,18 @@ flowchart TD
     // Current settings
     let currentSettings = {
       fontSize: 14,
+      fontFamily: 'Inter, system-ui, sans-serif',
       shape: 'rounded',
       curve: 'basis',
-      animation: 'none'
+      nodeWidth: 'medium'
+    };
+
+    // Node width configurations (max chars per line for wrapping)
+    const nodeWidthConfig = {
+      'narrow': 15,
+      'medium': 25,
+      'wide': 40,
+      'auto': 999
     };
 
     // Initialize mermaid
@@ -527,7 +558,7 @@ flowchart TD
         theme: 'base',
         themeVariables: {
           fontSize: currentSettings.fontSize + 'px',
-          fontFamily: 'Inter, system-ui, sans-serif',
+          fontFamily: currentSettings.fontFamily,
           lineColor: '#64748b',
           primaryTextColor: '#1e293b',
           clusterBkg: 'transparent',
@@ -539,7 +570,8 @@ flowchart TD
           nodeSpacing: 50,
           rankSpacing: 60,
           htmlLabels: true,
-          useMaxWidth: true
+          useMaxWidth: true,
+          wrappingWidth: nodeWidthConfig[currentSettings.nodeWidth] * currentSettings.fontSize * 0.6
         }
       });
     }
@@ -846,11 +878,21 @@ flowchart TD
 
     // Change handlers
     function changeTheme(theme) {
-      document.body.className = 'theme-' + theme;
+      // Preserve shape class when changing theme
+      const shapeClass = 'shape-' + currentSettings.shape;
+      document.body.className = 'theme-' + theme + ' ' + shapeClass;
+    }
+
+    function changeFontFamily(font) {
+      currentSettings.fontFamily = font;
     }
 
     function changeFontSize(size) {
       currentSettings.fontSize = parseInt(size);
+    }
+
+    function changeNodeWidth(width) {
+      currentSettings.nodeWidth = width;
     }
 
     function changeShape(shape) {
@@ -864,62 +906,43 @@ flowchart TD
       currentSettings.curve = curve;
     }
 
-    function changeAnimation(animation) {
-      currentSettings.animation = animation;
+    // Wrap text for narrow nodes
+    function wrapText(text, maxChars) {
+      if (maxChars >= 999 || text.length <= maxChars) return text;
+      const words = text.split(' ');
+      const lines = [];
+      let currentLine = '';
+
+      for (const word of words) {
+        if ((currentLine + ' ' + word).trim().length <= maxChars) {
+          currentLine = (currentLine + ' ' + word).trim();
+        } else {
+          if (currentLine) lines.push(currentLine);
+          currentLine = word;
+        }
+      }
+      if (currentLine) lines.push(currentLine);
+      return lines.join('<br/>');
     }
 
-    // Apply animation to diagram
-    function applyAnimation(container) {
-      const svg = container.querySelector('svg');
-      if (!svg) return;
+    // Download current diagram as SVG
+    function downloadCurrentSVG() {
+      const diagrams = document.querySelectorAll('.mermaid svg');
+      const diagramNames = ['theory-of-change-full', 'theory-of-change-simple', 'evaluation-workflow', 'journal-process', 'prioritization'];
 
-      const nodes = svg.querySelectorAll('.node');
-      const edges = svg.querySelectorAll('.edgePath');
-      const labels = svg.querySelectorAll('.edgeLabel');
-
-      const animation = currentSettings.animation;
-
-      if (animation === 'none') {
-        nodes.forEach(n => { n.style.opacity = 1; n.style.transform = 'none'; });
-        edges.forEach(e => { e.style.opacity = 1; });
-        labels.forEach(l => { l.style.opacity = 1; });
-        return;
-      }
-
-      // Reset all elements
-      nodes.forEach(n => { n.style.opacity = 0; n.style.transition = 'all 0.5s ease'; });
-      edges.forEach(e => { e.style.opacity = 0; e.style.transition = 'all 0.5s ease'; });
-      labels.forEach(l => { l.style.opacity = 0; l.style.transition = 'all 0.5s ease'; });
-
-      if (animation === 'fade') {
-        setTimeout(() => {
-          nodes.forEach(n => { n.style.opacity = 1; });
-          edges.forEach(e => { e.style.opacity = 1; });
-          labels.forEach(l => { l.style.opacity = 1; });
-        }, 100);
-      } else if (animation === 'slide') {
-        nodes.forEach(n => { n.style.transform = 'translateY(-20px)'; });
-        setTimeout(() => {
-          nodes.forEach(n => { n.style.opacity = 1; n.style.transform = 'translateY(0)'; });
-          edges.forEach(e => { e.style.opacity = 1; });
-          labels.forEach(l => { l.style.opacity = 1; });
-        }, 100);
-      } else if (animation === 'sequential') {
-        nodes.forEach((n, i) => {
-          setTimeout(() => {
-            n.style.opacity = 1;
-            n.style.transform = 'scale(1)';
-          }, i * 150);
-        });
-        setTimeout(() => {
-          edges.forEach((e, i) => {
-            setTimeout(() => { e.style.opacity = 1; }, i * 50);
-          });
-          labels.forEach((l, i) => {
-            setTimeout(() => { l.style.opacity = 1; }, i * 50);
-          });
-        }, nodes.length * 150);
-      }
+      diagrams.forEach((svg, index) => {
+        const svgData = new XMLSerializer().serializeToString(svg);
+        const blob = new Blob([svgData], { type: 'image/svg+xml' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        const settings = `${currentSettings.fontFamily.split(',')[0].replace(/'/g, '')}-${currentSettings.fontSize}px-${currentSettings.shape}`;
+        a.download = `${diagramNames[index]}-${settings}.svg`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
     }
 
     // Re-render all diagrams
@@ -941,22 +964,12 @@ flowchart TD
       }
 
       await mermaid.run();
-
-      // Apply animations after render
-      containers.forEach(container => {
-        applyAnimation(container);
-      });
     }
 
     // Initial render on page load
     document.addEventListener('DOMContentLoaded', async () => {
       initMermaid();
       await mermaid.run();
-
-      // Apply initial animation if set
-      document.querySelectorAll('.mermaid').forEach(container => {
-        applyAnimation(container);
-      });
     });
   </script>
 
