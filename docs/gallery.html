@@ -251,6 +251,16 @@
     <a href="https://unjournal.org">Main Website</a>
   </nav>
 
+  <!-- Jump-to menu for diagrams -->
+  <nav class="diagram-nav" style="display: flex; justify-content: center; gap: 0.5rem; padding: 0.5rem; background: rgba(0,0,0,0.2); flex-wrap: wrap;">
+    <span style="color: var(--text-secondary); font-size: 0.85rem; margin-right: 0.5rem;">Jump to:</span>
+    <a href="#toc-full" style="color: var(--accent); text-decoration: none; font-size: 0.85rem; padding: 0.25rem 0.5rem; border-radius: 4px; background: rgba(59,130,246,0.1);">Theory of Change (Full)</a>
+    <a href="#toc-simple" style="color: var(--accent); text-decoration: none; font-size: 0.85rem; padding: 0.25rem 0.5rem; border-radius: 4px; background: rgba(59,130,246,0.1);">Theory of Change (Simple)</a>
+    <a href="#workflow" style="color: var(--accent); text-decoration: none; font-size: 0.85rem; padding: 0.25rem 0.5rem; border-radius: 4px; background: rgba(59,130,246,0.1);">Evaluation Workflow</a>
+    <a href="#journal" style="color: var(--accent); text-decoration: none; font-size: 0.85rem; padding: 0.25rem 0.5rem; border-radius: 4px; background: rgba(59,130,246,0.1);">Journal Comparison</a>
+    <a href="#prioritization" style="color: var(--accent); text-decoration: none; font-size: 0.85rem; padding: 0.25rem 0.5rem; border-radius: 4px; background: rgba(59,130,246,0.1);">Prioritization</a>
+  </nav>
+
   <div class="controls">
     <div class="control-group">
       <label>Theme:</label>
@@ -318,22 +328,23 @@
     </div>
     <button onclick="reRenderDiagrams()" style="background: var(--accent); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Apply</button>
     <button onclick="downloadCurrentSVG()" style="background: #059669; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Download SVG</button>
+    <button onclick="downloadCurrentPNG()" style="background: #7c3aed; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Download PNG</button>
   </div>
 
   <!-- Step-through presentations -->
-  <div class="alternatives-notice" style="background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.3); margin: 1rem auto; max-width: 1600px; padding: 1rem 2rem; border-radius: 8px;">
-    <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">
-      <strong style="color: var(--text-primary);">Step-through presentations available:</strong>
+  <div style="margin: 0.5rem auto; max-width: 1600px; padding: 0.5rem 2rem; text-align: center;">
+    <p style="margin: 0; font-size: 0.8rem; color: var(--text-secondary); font-style: italic;">
+      Step-through presentations also available:
       <a href="reveal-theory-of-change.html" style="color: var(--accent);">Theory of Change</a> |
       <a href="reveal-evaluation-process.html" style="color: var(--accent);">Evaluation Process</a>
-      — Use arrow keys to walk through each step. Great for conference presentations!
+      — use arrow keys to navigate
     </p>
   </div>
 
   <main class="container">
 
     <!-- Theory of Change - FULL VERSION -->
-    <section class="diagram-section">
+    <section class="diagram-section" id="toc-full">
       <h2 class="diagram-title">Theory of Change (Full)</h2>
       <p class="diagram-description">
         How The Unjournal creates positive global outcomes. <strong>Yellow</strong> = direct path,
@@ -402,7 +413,7 @@ flowchart TD
     </section>
 
     <!-- Theory of Change - SIMPLIFIED -->
-    <section class="diagram-section">
+    <section class="diagram-section" id="toc-simple">
       <h2 class="diagram-title">Theory of Change (Simplified)</h2>
       <p class="diagram-description">The core path from better evaluation to better outcomes.</p>
       <div class="diagram-card">
@@ -431,7 +442,7 @@ flowchart TD
     </section>
 
     <!-- Evaluation Workflow -->
-    <section class="diagram-section">
+    <section class="diagram-section" id="workflow">
       <h2 class="diagram-title">Evaluation Workflow</h2>
       <p class="diagram-description">From research submission to published evaluation. Typical timeline: 7-10 weeks.</p>
       <div class="diagram-card">
@@ -464,7 +475,7 @@ flowchart TD
     </section>
 
     <!-- Traditional Journal Comparison -->
-    <section class="diagram-section">
+    <section class="diagram-section" id="journal">
       <h2 class="diagram-title">Traditional Journal Process (For Comparison)</h2>
       <p class="diagram-description">The slow, opaque process that The Unjournal improves upon. Average: 24+ months in economics.</p>
       <div class="diagram-card">
@@ -498,7 +509,7 @@ flowchart TD
     </section>
 
     <!-- Prioritization -->
-    <section class="diagram-section">
+    <section class="diagram-section" id="prioritization">
       <h2 class="diagram-title">Research Prioritization Framework</h2>
       <p class="diagram-description">How we decide which research to evaluate based on relevance, prestige, influence, and methodology.</p>
       <div class="diagram-card">
@@ -946,6 +957,62 @@ flowchart TD
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
+      });
+    }
+
+    // Download current diagram as PNG
+    function downloadCurrentPNG() {
+      const diagrams = document.querySelectorAll('.mermaid svg');
+      const diagramNames = ['theory-of-change-full', 'theory-of-change-simple', 'evaluation-workflow', 'journal-process', 'prioritization'];
+      const settings = `${currentSettings.fontFamily.split(',')[0].replace(/'/g, '')}-${currentSettings.fontSize}px-${currentSettings.shape}`;
+
+      diagrams.forEach((svg, index) => {
+        // Clone the SVG to avoid modifying the original
+        const svgClone = svg.cloneNode(true);
+
+        // Get SVG dimensions
+        const bbox = svg.getBBox();
+        const width = Math.ceil(bbox.width + 40);
+        const height = Math.ceil(bbox.height + 40);
+
+        // Set explicit dimensions on clone
+        svgClone.setAttribute('width', width);
+        svgClone.setAttribute('height', height);
+
+        // Serialize SVG
+        const svgData = new XMLSerializer().serializeToString(svgClone);
+        const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+        const url = URL.createObjectURL(svgBlob);
+
+        // Create image and canvas for conversion
+        const img = new Image();
+        img.onload = function() {
+          const canvas = document.createElement('canvas');
+          const scale = 2; // Higher resolution
+          canvas.width = width * scale;
+          canvas.height = height * scale;
+
+          const ctx = canvas.getContext('2d');
+          ctx.scale(scale, scale);
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(0, 0, width, height);
+          ctx.drawImage(img, 0, 0);
+
+          // Download as PNG
+          canvas.toBlob(function(blob) {
+            const pngUrl = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = pngUrl;
+            a.download = `${diagramNames[index]}-${settings}.png`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(pngUrl);
+          }, 'image/png');
+
+          URL.revokeObjectURL(url);
+        };
+        img.src = url;
       });
     }
 
