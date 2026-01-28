@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unjournal — Open Evaluation of Impactful Research</title>
+  <meta name="description" content="The Unjournal provides rigorous, open peer evaluation of quantitative research informing global priorities — without the inefficiencies of traditional journals.">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: var(--primary);
+      color: var(--white);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.9rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .cta-section {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: var(--light-bg);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .cta-section h2 {
+      display: block;
+      border-bottom: none;
+      margin-bottom: 1rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.75rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin: 0.5rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #1a6ea0; }
+
+    .cta-button.secondary {
+      background: var(--white);
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+
+    .cta-button.secondary:hover { background: var(--light-bg); }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat .number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: block;
+    }
+
+    .stat .label {
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      header p { font-size: 1rem; }
+      nav a { margin: 0 0.5rem; font-size: 0.85rem; }
+      .stats { gap: 1.5rem; }
+      .cta-button { display: block; margin: 0.5rem auto; max-width: 280px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>The Unjournal</h1>
+  <p>Rigorous, open evaluation of quantitative research that matters for global priorities</p>
+</header>
+
+<nav>
+  <a href="#what">What We Do</a>
+  <a href="#why">Why It Matters</a>
+  <a href="#authors">For Authors</a>
+  <a href="#evaluators">For Evaluators</a>
+  <a href="#evaluations">Our Evaluations</a>
+</nav>
+
+<main>
+
+  <section id="what">
+    <h2>What We Do</h2>
+    <p>The Unjournal commissions rigorous, public peer evaluation of quantitative research — especially in economics, policy, and social science — that informs <strong>global priorities</strong> and the most effective interventions for improving lives.</p>
+    <p>We don't "publish" papers in the traditional sense. Instead, we provide <strong>journal-independent evaluation</strong>: expert assessments with quantitative ratings and detailed feedback, all made publicly available. Authors keep full control of their work and can submit it anywhere else.</p>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="number">100+</span>
+        <span class="label">Evaluations completed</span>
+      </div>
+      <div class="stat">
+        <span class="number">53</span>
+        <span class="label">Research papers assessed</span>
+      </div>
+      <div class="stat">
+        <span class="number">100+</span>
+        <span class="label">Expert evaluators</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2>Why It Matters</h2>
+    <p>Traditional academic publishing is slow, expensive, and often misaligned with real-world impact. Papers sit behind paywalls. Peer review is unpaid, opaque, and produces binary accept/reject decisions. Researchers spend months reformatting papers for different journals.</p>
+
+    <div class="highlight-box">
+      <strong>The Unjournal offers something better:</strong> paid evaluators, public and transparent feedback, quantitative ratings that go beyond simple pass/fail, and a process that works alongside — not instead of — traditional publication.
+    </div>
+
+    <p>We focus on research relevant to pressing global challenges: poverty alleviation, health interventions, animal welfare, existential risk reduction, and evidence-based policy. Our evaluations help funders, policymakers, and other researchers identify the most credible and impactful work.</p>
+  </section>
+
+  <section id="authors">
+    <h2>For Researchers &amp; Authors</h2>
+    <p>Submit your research for expert evaluation. There is no formatting requirement — we evaluate working papers, preprints, dynamic documents, and hosted projects, not just traditional PDFs.</p>
+    <ul>
+      <li>Receive detailed, constructive feedback from experts in your field</li>
+      <li>Get quantitative ratings on overall quality, methods, and real-world relevance</li>
+      <li>Non-exclusive: submitting to The Unjournal doesn't prevent you from publishing elsewhere</li>
+      <li>Author responses are published alongside evaluations, creating a transparent scholarly dialogue</li>
+    </ul>
+    <p><a href="https://bit.ly/UJsubmit">Submit your research</a> or learn more about <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects">what we look for</a>.</p>
+  </section>
+
+  <section id="evaluators">
+    <h2>For Evaluators</h2>
+    <p>We pay evaluators for their expertise. If you have a PhD or equivalent experience in economics, psychology, public policy, or related quantitative fields, consider joining our evaluator pool.</p>
+    <ul>
+      <li>Compensation for each evaluation ($300+ depending on scope)</li>
+      <li>Your evaluation is published and citable — real credit for review work</li>
+      <li>Prizes for exceptional evaluations ($6,500 in evaluator prizes for 2024–25)</li>
+      <li>Option for signed or anonymous reviews</li>
+    </ul>
+    <p>Learn more about <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators">becoming an evaluator</a>.</p>
+  </section>
+
+  <section id="evaluations">
+    <h2>Browse Our Evaluations</h2>
+    <p>All of our evaluations are publicly available. Explore the research we've assessed, read evaluator feedback, and see our quantitative ratings.</p>
+    <ul>
+      <li><a href="https://unjournal.pubpub.org/">Evaluation pages on PubPub</a> — full evaluation reports with author responses</li>
+      <li><a href="https://unjournal.shinyapps.io/uj-dashboard/">Interactive dashboard</a> — explore ratings, visualize data across all evaluations</li>
+      <li><a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/">Documentation &amp; policies</a> — how we work, what we prioritize, our guidelines</li>
+    </ul>
+  </section>
+
+  <div class="cta-section">
+    <h2>Get Involved</h2>
+    <p>Whether you're a researcher, evaluator, funder, or policymaker — there's a role for you.</p>
+    <a href="https://bit.ly/UJsubmit" class="cta-button">Submit Research</a>
+    <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators" class="cta-button secondary">Become an Evaluator</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>
