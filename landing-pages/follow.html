@@ -395,6 +395,108 @@
 
     footer a { color: #85c1e9; }
 
+    /* Embedded content */
+    .embed-section {
+      margin: 1.5rem 0;
+    }
+
+    .embed-section h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .embed-container {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .embed-container h4 {
+      font-size: 0.95rem;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .bsky-feed-wrapper {
+      max-height: 600px;
+      overflow-y: auto;
+      border-radius: 6px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .video-grid iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .metaculus-embed iframe {
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      min-height: 500px;
+    }
+
+    .ea-forum-preview {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .forum-post-card {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.1rem;
+      transition: box-shadow 0.2s;
+    }
+
+    .forum-post-card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    .forum-post-card .tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.3rem;
+    }
+
+    .forum-post-card h5 {
+      font-size: 0.95rem;
+      color: var(--primary);
+      margin-bottom: 0.3rem;
+      line-height: 1.4;
+    }
+
+    .forum-post-card h5 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .forum-post-card h5 a:hover {
+      color: var(--accent);
+    }
+
+    .forum-post-card .excerpt {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
     @media (max-width: 700px) {
       header h1 { font-size: 1.6rem; }
       header p.subtitle { font-size: 1rem; }
@@ -405,6 +507,8 @@
       .stats { gap: 1.5rem; }
       .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
       .footer-cta .btn-row { flex-direction: column; align-items: center; }
+      .video-grid { grid-template-columns: 1fr; }
+      .ea-forum-preview { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -418,6 +522,7 @@
 
 <nav>
   <a href="#social">Social Media</a>
+  <a href="#latest">Latest</a>
   <a href="#newsletter">Newsletter</a>
   <a href="#resources">Resources</a>
   <a href="#involved">Get Involved</a>
@@ -494,6 +599,65 @@
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <section id="latest">
+    <h2>Latest from The Unjournal</h2>
+    <p>See what we've been sharing, discussing, and presenting.</p>
+
+    <!-- Bluesky Feed -->
+    <div class="embed-container">
+      <h4>Recent Posts on Bluesky</h4>
+      <div class="bsky-feed-wrapper">
+        <bsky-embed username="unjournal.bsky.social" limit="5" link-target="_blank"></bsky-embed>
+      </div>
+    </div>
+
+    <!-- YouTube Videos -->
+    <div class="embed-container">
+      <h4>Presentations &amp; Talks</h4>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/iG_dTJclYe0" title="Journal-independent evaluation and The Unjournal" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/_b5wiSJX6NQ?start=2056" title="Bridging the gap between EA and academia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- EA Forum highlights -->
+    <div class="embed-container">
+      <h4>On the EA Forum</h4>
+      <div class="ea-forum-preview">
+        <div class="forum-post-card">
+          <div class="tag">Pivotal Questions</div>
+          <h5><a href="https://forum.effectivealtruism.org/posts/3Eh8MbqLwFBsD7GK2/how-much-do-plant-based-products-substitute-for-animal" target="_blank" rel="noopener">How much do plant-based products substitute for animal products?</a></h5>
+          <p class="excerpt">Evaluating evidence on whether plant-based alternatives actually reduce demand for animal products.</p>
+        </div>
+        <div class="forum-post-card">
+          <div class="tag">Pivotal Questions</div>
+          <h5><a href="https://forum.effectivealtruism.org/posts/7ha23d3qzXiCqYLDq/is-cultured-meat-commercially-viable-unjournal-s-first" target="_blank" rel="noopener">Is cultured meat commercially viable?</a></h5>
+          <p class="excerpt">The Unjournal's first "pivotal question" package examining the commercial viability of cultivated meat.</p>
+        </div>
+        <div class="forum-post-card">
+          <div class="tag">Forecasting</div>
+          <h5><a href="https://forum.effectivealtruism.org/posts/pxYdSh3hjSCEMk68z/call-for-questions-on-animal-focused-forecasting-tournament" target="_blank" rel="noopener">Call for questions: animal-focused forecasting tournament</a></h5>
+          <p class="excerpt">Help shape questions for Metaculus' first animal welfare forecasting tournament.</p>
+        </div>
+        <div class="forum-post-card">
+          <div class="tag">About Us</div>
+          <h5><a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2" target="_blank" rel="noopener">The Unjournal: EA Forum sequence</a></h5>
+          <p class="excerpt">Our complete series on the EA Forum covering our mission, process, and progress.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Metaculus Community -->
+    <div class="embed-container">
+      <h4>Metaculus Forecasting Community</h4>
+      <p style="font-size: 0.92rem; color: var(--text-light); margin-bottom: 0.75rem;">Follow our forecasting questions on pivotal research topics. Make your own predictions and see how the community forecasts key uncertainties.</p>
+      <div class="metaculus-embed">
+        <iframe src="https://www.metaculus.com/c/unjournal/" title="The Unjournal on Metaculus" loading="lazy"></iframe>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 0.5rem;"><a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Open in Metaculus</a> for the full interactive experience.</p>
     </div>
   </section>
 
@@ -619,5 +783,6 @@
   <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
 </footer>
 
+<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
 </body>
 </html>
