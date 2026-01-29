@@ -311,57 +311,9 @@
       margin-bottom: 1rem;
     }
 
-    .form-row {
-      display: flex;
-      gap: 0.75rem;
-      margin-bottom: 0.75rem;
+    .coda-embed {
+      margin: 1rem 0;
     }
-
-    .form-row input {
-      flex: 1;
-      padding: 0.65rem 0.9rem;
-      border: 1px solid var(--border);
-      border-radius: 5px;
-      font-size: 0.95rem;
-      font-family: inherit;
-    }
-
-    .form-row input:focus {
-      outline: none;
-      border-color: var(--green);
-      box-shadow: 0 0 0 2px rgba(39, 174, 96, 0.15);
-    }
-
-    .checkbox-group {
-      margin-bottom: 1rem;
-    }
-
-    .checkbox-group label {
-      display: block;
-      font-size: 0.92rem;
-      margin-bottom: 0.35rem;
-      cursor: pointer;
-      color: var(--text);
-    }
-
-    .checkbox-group input[type="checkbox"] {
-      margin-right: 0.5rem;
-    }
-
-    .form-submit {
-      background: var(--green);
-      color: var(--white);
-      border: none;
-      padding: 0.65rem 1.75rem;
-      border-radius: 5px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit;
-      transition: background 0.2s;
-    }
-
-    .form-submit:hover { background: var(--green-dark); }
 
     /* Footer CTA */
     .footer-cta {
@@ -411,7 +363,7 @@
   <p class="subtitle">The Unjournal is collaborating on Metaculus' first animal-focused forecasting tournament &mdash; harnessing collective intelligence to inform decisions that affect billions of animals.</p>
   <div class="hero-ctas">
     <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button" target="_blank" rel="noopener">Support This Project</a>
-    <a href="#signup" class="cta-button secondary">Get Notified When It Launches</a>
+    <a href="https://coda.io/form/Interest-in-the-Unjournal-Metaculus-Animal-Welfare-Forecasting-t_ddynk1kQ7XO" class="cta-button secondary" target="_blank" rel="noopener">Get Notified When It Launches</a>
   </div>
 </header>
 
@@ -422,6 +374,7 @@
   <a href="#questions">Sample Questions</a>
   <a href="#help">How to Help</a>
   <a href="#signup">Sign Up</a>
+
 </nav>
 
 <main>
@@ -505,7 +458,7 @@
         <div class="icon">&#128276;</div>
         <h3>Get Notified</h3>
         <p>Sign up to be notified when the tournament goes live and registration opens.</p>
-        <a href="#signup" class="cta-button-sm blue">Sign Up for Updates</a>
+        <a href="https://coda.io/form/Interest-in-the-Unjournal-Metaculus-Animal-Welfare-Forecasting-t_ddynk1kQ7XO" class="cta-button-sm blue" target="_blank" rel="noopener">Sign Up for Updates</a>
       </div>
       <div class="cta-card">
         <div class="icon">&#128214;</div>
@@ -520,26 +473,10 @@
     <div class="signup-section">
       <h3>Get Launch Notifications</h3>
       <p>The tournament launches in 2025. Sign up to be notified when it goes live.</p>
-      <form id="signupForm" action="https://formsubmit.co/contact@unjournal.org" method="POST">
-        <!-- Formsubmit.co config -->
-        <input type="hidden" name="_subject" value="Forecasting Tournament Signup">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://info.unjournal.org/forecasting-tournament/thanks.html">
-        <input type="hidden" name="_template" value="table">
-        <input type="text" name="_honey" style="display:none">
-        <div class="form-row">
-          <input type="email" name="email" placeholder="Email address *" required>
-          <input type="text" name="name" placeholder="Name (optional)">
-        </div>
-        <div class="checkbox-group">
-          <strong style="font-size: 0.92rem; display: block; margin-bottom: 0.4rem;">I'm interested in...</strong>
-          <label><input type="checkbox" name="interest" value="forecaster"> Participating as a forecaster</label>
-          <label><input type="checkbox" name="interest" value="donor"> Donating to support the tournament</label>
-          <label><input type="checkbox" name="interest" value="results"> Learning about results for my research/organization</label>
-          <label><input type="checkbox" name="interest" value="other"> Other</label>
-        </div>
-        <button type="submit" class="form-submit">Notify Me</button>
-      </form>
+      <div class="coda-embed">
+        <iframe src="https://coda.io/embed/dynk1kQ7XO" width="900" height="500" style="max-width: 100%; border: none; border-radius: 6px;" allow="fullscreen"></iframe>
+      </div>
+      <p class="note" style="margin-top: 0.75rem;">Or <a href="https://coda.io/form/Interest-in-the-Unjournal-Metaculus-Animal-Welfare-Forecasting-t_ddynk1kQ7XO" target="_blank" rel="noopener">open the form in a new tab</a>.</p>
     </div>
   </section>
 
@@ -547,7 +484,7 @@
     <h2>Be Part of the First Animal-Focused Forecasting Tournament</h2>
     <p>Better predictions. Better prioritization. Better outcomes for animals.</p>
     <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button" target="_blank" rel="noopener">Donate to Support</a>
-    <a href="#signup" class="cta-button secondary">Get Launch Updates</a>
+    <a href="https://coda.io/form/Interest-in-the-Unjournal-Metaculus-Animal-Welfare-Forecasting-t_ddynk1kQ7XO" class="cta-button secondary" target="_blank" rel="noopener">Get Launch Updates</a>
   </div>
 
 </main>
@@ -555,6 +492,7 @@
 <footer>
   <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
 </footer>
+
 
 
 </body>
