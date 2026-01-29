@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predict the Future of Animal Welfare — The Unjournal</title>
+  <meta name="description" content="The Unjournal is collaborating on Metaculus' first animal-focused forecasting tournament — harnessing collective intelligence to inform decisions that affect billions of animals.">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --green: #27ae60;
+      --green-dark: #1e8449;
+      --light-bg: #f7f9fb;
+      --light-green-bg: #f0faf4;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    /* Header / Hero */
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .hero-ctas {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    /* Navigation */
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    /* Main */
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--green);
+      display: inline-block;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    /* Question cards */
+    .question-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin: 1.25rem 0;
+    }
+
+    .question-card {
+      background: var(--light-green-bg);
+      border: 1px solid #d4efdf;
+      border-radius: 8px;
+      padding: 1.1rem 1.25rem;
+    }
+
+    .question-card .icon {
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .question-card .topic {
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: var(--green-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.25rem;
+    }
+
+    .question-card .text {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* Highlight box */
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--green);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* Three-column cards */
+    .three-col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin: 1.25rem 0;
+    }
+
+    .benefit-card {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.25rem;
+      text-align: center;
+    }
+
+    .benefit-card .icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .benefit-card h3 {
+      font-size: 1.05rem;
+      color: var(--primary);
+      margin-bottom: 0.4rem;
+    }
+
+    .benefit-card p {
+      font-size: 0.92rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+    }
+
+    /* CTA cards */
+    .cta-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin: 1.25rem 0;
+    }
+
+    .cta-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .cta-card .icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .cta-card h3 {
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .cta-card p {
+      font-size: 0.92rem;
+      color: var(--text-light);
+      margin-bottom: 1rem;
+    }
+
+    /* Buttons */
+    .cta-button {
+      display: inline-block;
+      background: var(--green);
+      color: var(--white);
+      padding: 0.7rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 0.4rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: var(--green-dark); color: var(--white); text-decoration: none; }
+
+    .cta-button.secondary {
+      background: var(--white);
+      color: var(--green);
+      border: 2px solid var(--green);
+    }
+
+    .cta-button.secondary:hover { background: var(--light-green-bg); color: var(--green); }
+
+    .cta-button.blue {
+      background: var(--accent);
+    }
+
+    .cta-button.blue:hover { background: #1a6ea0; }
+
+    .cta-button-sm {
+      display: inline-block;
+      background: var(--green);
+      color: var(--white);
+      padding: 0.5rem 1.25rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.92rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button-sm:hover { background: var(--green-dark); color: var(--white); text-decoration: none; }
+
+    .cta-button-sm.blue {
+      background: var(--accent);
+    }
+
+    .cta-button-sm.blue:hover { background: #1a6ea0; }
+
+    .cta-button-sm.outline {
+      background: var(--white);
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+
+    .cta-button-sm.outline:hover { background: var(--light-bg); color: var(--accent); }
+
+    /* Signup form */
+    .signup-section {
+      background: var(--light-green-bg);
+      border: 1px solid #d4efdf;
+      border-radius: 8px;
+      padding: 2rem;
+      margin: 1.5rem 0;
+    }
+
+    .signup-section h3 {
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .signup-section p {
+      color: var(--text-light);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .form-row input {
+      flex: 1;
+      padding: 0.65rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      font-size: 0.95rem;
+      font-family: inherit;
+    }
+
+    .form-row input:focus {
+      outline: none;
+      border-color: var(--green);
+      box-shadow: 0 0 0 2px rgba(39, 174, 96, 0.15);
+    }
+
+    .checkbox-group {
+      margin-bottom: 1rem;
+    }
+
+    .checkbox-group label {
+      display: block;
+      font-size: 0.92rem;
+      margin-bottom: 0.35rem;
+      cursor: pointer;
+      color: var(--text);
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      margin-right: 0.5rem;
+    }
+
+    .form-submit {
+      background: var(--green);
+      color: var(--white);
+      border: none;
+      padding: 0.65rem 1.75rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.2s;
+    }
+
+    .form-submit:hover { background: var(--green-dark); }
+
+    /* Footer CTA */
+    .footer-cta {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: var(--light-bg);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .footer-cta h2 {
+      display: block;
+      border-bottom: none;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.6rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .question-cards { grid-template-columns: 1fr; }
+      .three-col { grid-template-columns: 1fr; }
+      .cta-cards { grid-template-columns: 1fr; }
+      .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
+      .form-row { flex-direction: column; }
+      .hero-ctas { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="org-label">The Unjournal</div>
+  <h1>Predict the Future of Animal Welfare</h1>
+  <p class="subtitle">The Unjournal is collaborating on Metaculus' first animal-focused forecasting tournament &mdash; harnessing collective intelligence to inform decisions that affect billions of animals.</p>
+  <div class="hero-ctas">
+    <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button" target="_blank" rel="noopener">Support This Project</a>
+    <a href="#signup" class="cta-button secondary">Get Notified When It Launches</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">The Tournament</a>
+  <a href="#role">Unjournal's Role</a>
+  <a href="#who-benefits">Who Benefits</a>
+  <a href="#questions">Sample Questions</a>
+  <a href="#help">How to Help</a>
+  <a href="#signup">Sign Up</a>
+</nav>
+
+<main>
+
+  <section id="about">
+    <h2>What's This Tournament About?</h2>
+    <p>Forecasting tournaments bring together diverse predictors &mdash; researchers, analysts, and curious thinkers &mdash; to estimate the probability of future events. This will be <a href="https://www.metaculus.com/" target="_blank" rel="noopener">Metaculus</a>' first tournament focused entirely on animal welfare.</p>
+    <p>Questions will cover topics like:</p>
+
+    <div class="question-cards">
+      <div class="question-card">
+        <div class="icon">&#127793;</div>
+        <div class="topic">Plant-based market share</div>
+        <div class="text">Will plant-based meat alternatives reach 10% of US meat sales by 2030?</div>
+      </div>
+      <div class="question-card">
+        <div class="icon">&#128020;</div>
+        <div class="topic">Corporate commitments</div>
+        <div class="text">What percentage of companies will fulfill their cage-free egg pledges?</div>
+      </div>
+      <div class="question-card">
+        <div class="icon">&#129370;</div>
+        <div class="topic">Cultivated meat regulation</div>
+        <div class="text">Will cultivated meat be approved for sale in the EU by 2027?</div>
+      </div>
+      <div class="question-card">
+        <div class="icon">&#128200;</div>
+        <div class="topic">Consumption trends</div>
+        <div class="text">Will per-capita meat consumption decline in any G7 country by 2028?</div>
+      </div>
+    </div>
+    <p class="note">These are illustrative examples. Final tournament questions are being finalized with Metaculus.</p>
+
+    <div class="highlight-box">
+      <strong>Why does this matter?</strong> Better predictions lead to better prioritization, which leads to better outcomes for animals. Forecasting tournaments help surface what the community actually believes &mdash; and where the biggest uncertainties lie.
+    </div>
+  </section>
+
+  <section id="role">
+    <h2>How The Unjournal Is Involved</h2>
+    <p>The Unjournal's <strong>Pivotal Questions</strong> project tackles critical uncertainties in effective altruism research. We're collaborating with this tournament to:</p>
+    <ul>
+      <li>Help shape decision-relevant questions, drawing on our work on <a href="https://forum.effectivealtruism.org/posts/3Eh8MbqLwFBsD7GK2/how-much-do-plant-based-products-substitute-for-animal" target="_blank" rel="noopener">plant-based product substitution</a> and <a href="https://forum.effectivealtruism.org/posts/7ha23d3qzXiCqYLDq/is-cultured-meat-commercially-viable-unjournal-s-first" target="_blank" rel="noopener">cultured meat viability</a></li>
+      <li>Connect tournament forecasts with rigorous research evaluation</li>
+      <li>Integrate insights into our <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus community forecasts</a></li>
+    </ul>
+    <p>Our goal: synthesize forecasting data with academic evidence to create actionable "decision packages" for funders and advocates.</p>
+  </section>
+
+  <section id="who-benefits">
+    <h2>Who Will Use These Forecasts?</h2>
+    <div class="three-col">
+      <div class="benefit-card">
+        <div class="icon">&#128176;</div>
+        <h3>Funders</h3>
+        <p>More informed allocation across interventions</p>
+      </div>
+      <div class="benefit-card">
+        <div class="icon">&#128300;</div>
+        <h3>Researchers</h3>
+        <p>Clarity on which uncertainties matter most</p>
+      </div>
+      <div class="benefit-card">
+        <div class="icon">&#127970;</div>
+        <h3>Organizations</h3>
+        <p>Data to guide strategic direction</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="help">
+    <h2>How You Can Help</h2>
+    <div class="cta-cards">
+      <div class="cta-card">
+        <div class="icon">&#128157;</div>
+        <h3>Fund the Prize Pool</h3>
+        <p>The tournament needs a prize pool to incentivize quality forecasting. Even small donations help us reach our $15,000 goal.</p>
+        <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button-sm" target="_blank" rel="noopener">Donate on Manifund</a>
+      </div>
+      <div class="cta-card">
+        <div class="icon">&#128276;</div>
+        <h3>Get Notified</h3>
+        <p>Sign up to be notified when the tournament goes live and registration opens.</p>
+        <a href="#signup" class="cta-button-sm blue">Sign Up for Updates</a>
+      </div>
+      <div class="cta-card">
+        <div class="icon">&#128214;</div>
+        <h3>Learn More</h3>
+        <p>Read the full background on the EA Forum, including example questions and the theory of change.</p>
+        <a href="https://forum.effectivealtruism.org/posts/pxYdSh3hjSCEMk68z/call-for-questions-on-animal-focused-forecasting-tournament" class="cta-button-sm outline" target="_blank" rel="noopener">Read the Announcement</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="signup">
+    <div class="signup-section">
+      <h3>Get Launch Notifications</h3>
+      <p>The tournament launches in 2025. Sign up to be notified when it goes live.</p>
+      <form id="signupForm" action="https://formsubmit.co/contact@unjournal.org" method="POST">
+        <!-- Formsubmit.co config -->
+        <input type="hidden" name="_subject" value="Forecasting Tournament Signup">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://info.unjournal.org/forecasting-tournament/thanks.html">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        <div class="form-row">
+          <input type="email" name="email" placeholder="Email address *" required>
+          <input type="text" name="name" placeholder="Name (optional)">
+        </div>
+        <div class="checkbox-group">
+          <strong style="font-size: 0.92rem; display: block; margin-bottom: 0.4rem;">I'm interested in...</strong>
+          <label><input type="checkbox" name="interest" value="forecaster"> Participating as a forecaster</label>
+          <label><input type="checkbox" name="interest" value="donor"> Donating to support the tournament</label>
+          <label><input type="checkbox" name="interest" value="results"> Learning about results for my research/organization</label>
+          <label><input type="checkbox" name="interest" value="other"> Other</label>
+        </div>
+        <button type="submit" class="form-submit">Notify Me</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="footer-cta">
+    <h2>Be Part of the First Animal-Focused Forecasting Tournament</h2>
+    <p>Better predictions. Better prioritization. Better outcomes for animals.</p>
+    <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button" target="_blank" rel="noopener">Donate to Support</a>
+    <a href="#signup" class="cta-button secondary">Get Launch Updates</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+
+</body>
+</html>
