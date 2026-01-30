@@ -497,6 +497,52 @@
       line-height: 1.5;
     }
 
+    /* News feed */
+    .news-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .news-item {
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+    }
+
+    .news-item:last-child {
+      border-bottom: none;
+    }
+
+    .news-item .date {
+      flex-shrink: 0;
+      font-size: 0.8rem;
+      color: var(--text-light);
+      width: 90px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .news-item .news-content {
+      flex: 1;
+    }
+
+    .news-item .news-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .news-item .news-excerpt {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
     @media (max-width: 700px) {
       header h1 { font-size: 1.6rem; }
       header p.subtitle { font-size: 1rem; }
@@ -509,6 +555,8 @@
       .footer-cta .btn-row { flex-direction: column; align-items: center; }
       .video-grid { grid-template-columns: 1fr; }
       .ea-forum-preview { grid-template-columns: 1fr; }
+      .news-item { flex-direction: column; gap: 0.2rem; }
+      .news-item .date { width: auto; }
     }
   </style>
 </head>
@@ -613,6 +661,49 @@
       <div class="bsky-feed-wrapper">
         <bsky-embed username="unjournal.bsky.social" limit="5" link-target="_blank"></bsky-embed>
       </div>
+    </div>
+
+    <!-- News Feed -->
+    <div class="embed-container">
+      <h4>News from unjournal.org</h4>
+      <ul class="news-list">
+        <li class="news-item">
+          <span class="date">23 Dec 2025</span>
+          <div class="news-content">
+            <div class="news-title">Unjournal 2024&ndash;25 Evaluator Prize Nominations; inviting feedback</div>
+            <p class="news-excerpt">Accepting nominations for evaluator prizes and soliciting community feedback on the selection process.</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">4 Dec 2025</span>
+          <div class="news-content">
+            <div class="news-title">Stakeholder Feedback: help Unjournal measure &amp; enhance its impact</div>
+            <p class="news-excerpt">Gathering input from stakeholders to assess effectiveness and identify areas for improvement.</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">3 Nov 2025</span>
+          <div class="news-content">
+            <div class="news-title">A Hint at How to Solve the Puzzle of Fondness for Authoritarianism</div>
+            <p class="news-excerpt">Commentary on peer evaluations examining whether people prefer authoritarian systems, referencing Acemoglu et al.</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">7 Aug 2025</span>
+          <div class="news-content">
+            <div class="news-title">Announcing 2025 Evaluator Incentives</div>
+            <p class="news-excerpt">Compensating experts for evaluating and rating research with impact potential &mdash; average $450 per evaluation.</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">20 Aug 2024</span>
+          <div class="news-content">
+            <div class="news-title">Announcing Two New Pilot Projects</div>
+            <p class="news-excerpt">Introducing Pivotal Questions and Independent Evaluations &mdash; two experimental initiatives seeking collaborators.</p>
+          </div>
+        </li>
+      </ul>
+      <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 0.75rem; margin-bottom: 0;">Read all updates at <a href="https://www.unjournal.org/news" target="_blank" rel="noopener">unjournal.org/news</a>.</p>
     </div>
 
     <!-- YouTube Videos -->
