@@ -4,34 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is The Unjournal's GitBook documentation site. The Unjournal provides open, rigorous evaluation of quantitative research informing global priorities, especially in economics, policy, and social science.
+This is The Unjournal's knowledge base, communications, and outreach repository. The Unjournal provides open, rigorous evaluation of quantitative research informing global priorities, especially in economics, policy, and social science.
 
 The repository contains:
 - **GitBook content**: Markdown files organized by topic (policies, benefits, FAQ, grants, etc.)
 - **Landing pages** (`landing-pages/`): Static HTML pages hosted on `info.unjournal.org` (Linode), designed for Google Nonprofit Ad Grant campaigns
 - **Interactive docs** (`docs/`): Mermaid diagram gallery, Reveal.js presentations, and interactive process diagrams
-- **Newsletter automation**: Python scripts that send email digests via Mailchimp when commits include `#PushNewsletter`
+- **Newsletter automation** (inactive): Mailchimp email digest system, not currently in use
 
-## Newsletter System
+## Newsletter System (Inactive)
 
-The newsletter automation triggers on pushes to `main` when the commit message contains `#PushNewsletter`.
+> **Note:** This system is not actively used. The code remains in the repo for reference but the Mailchimp integration is not connected. The Unjournal's current newsletter goes out via Squarespace/other channels.
 
-### Commands
-
-```bash
-# Install dependencies
-poetry install
-
-# Run newsletter sender locally (requires Mailchimp env vars)
-poetry run python main.py
-```
-
-### Required Environment Variables
-- `MAILCHIMP_API_SERVER`
-- `MAILCHIMP_API_KEY`
-- `MAILCHIMP_SEGMENT_LIST`
-- `MAILCHIMP_SEGMENT_ID`
-- `NEWSLETTER_TEMPLATE_ID`
+The newsletter automation was designed to trigger on pushes to `main` when the commit message contains `#PushNewsletter`.
 
 ### Architecture
 
