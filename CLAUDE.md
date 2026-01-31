@@ -8,6 +8,8 @@ This is The Unjournal's GitBook documentation site. The Unjournal provides open,
 
 The repository contains:
 - **GitBook content**: Markdown files organized by topic (policies, benefits, FAQ, grants, etc.)
+- **Landing pages** (`landing-pages/`): Static HTML pages hosted on `info.unjournal.org` (Linode), designed for Google Nonprofit Ad Grant campaigns
+- **Interactive docs** (`docs/`): Mermaid diagram gallery, Reveal.js presentations, and interactive process diagrams
 - **Newsletter automation**: Python scripts that send email digests via Mailchimp when commits include `#PushNewsletter`
 
 ## Newsletter System
@@ -52,6 +54,34 @@ GitBook uses custom syntax including:
 - `{% code overflow="wrap" %}` - Code block formatting
 - YAML frontmatter for page layout configuration
 
+## Landing Pages (info.unjournal.org)
+
+Static HTML landing pages hosted on a Linode server (45.79.160.157) at `info.unjournal.org`. These exist because Squarespace (which hosts unjournal.org) has no content API, and Google Ad Grant campaigns need dedicated landing pages on a verified nonprofit domain.
+
+### Pages
+- `landing-pages/index.html` → `info.unjournal.org/` — General Unjournal overview
+- `landing-pages/forecasting-tournament.html` → `info.unjournal.org/forecasting-tournament/` — Animal welfare forecasting tournament (with Metaculus)
+- `landing-pages/follow.html` → `info.unjournal.org/follow/` — Social media, news, and engagement hub
+- `landing-pages/update-news.py` — Script that fetches RSS from `unjournal.org/news?format=rss` and updates the follow page's news section (runs daily via cron on Linode at 6 AM UTC)
+- `landing-pages/google-apps-script.js` — Reference only (unused); form backend uses Coda
+
+### Deployment
+Pages are deployed via `scp` to `/var/www/info.unjournal.org/` on the Linode server. Nginx serves them with Let's Encrypt HTTPS. DNS is an A record (`info` → `45.79.160.157`) in Squarespace's domain manager.
+
+```bash
+# Example deployment
+scp landing-pages/forecasting-tournament.html root@45.79.160.157:/var/www/info.unjournal.org/forecasting-tournament/index.html
+```
+
+## Interactive Docs (docs/)
+
+- `docs/gallery.html` — Mermaid diagram gallery with multiple diagram types and rendering options
+- `docs/reveal-*.html` — Reveal.js step-through presentations (evaluation process, theory of change)
+- `docs/interactive.html` — Interactive process diagram
+- `docs/diagrams/` — SVG/image assets for diagrams
+
+These are served directly via GitHub Pages or linked from GitBook content.
+
 ## Style Guide
 
 The Unjournal maintains a style guide for documentation consistency: https://docs.google.com/document/d/10aooH_YCVX__pXFqnY1l8Kn2_DPX9wdHdR9AfImSuDs/edit
@@ -62,6 +92,7 @@ The Unjournal maintains a style guide for documentation consistency: https://doc
 - **PubPub evaluations**: `https://unjournal.pubpub.org/`
 - **Shiny dashboard**: `https://unjournal.shinyapps.io/uj-dashboard/`
 - **Main website**: `https://unjournal.org`
+- **Ad Grant landing pages**: `https://info.unjournal.org`
 
 Note: The old URL `effective-giving-marketing.gitbook.io` redirects to the current `globalimpact.gitbook.io` domain.
 
