@@ -26,20 +26,26 @@ See also: [governance-of-the-unjournal.md](../../management-tech-details-discuss
 
 ## Advisory Board
 
-Our advisory board includes 14 members with expertise in economics, public health, statistics, and research methodology:
-
 * [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) — Columbia University
 * [Sam Abbott](https://samabbott.co.uk) — London School of Hygiene and Tropical Medicine
 * [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea) — University of Melbourne
-* [Gary Charness](https://www.wikiwand.com/en/Gary_Charness) — UC Santa Barbara
+* [Gary Charness](https://www.wikiwand.com/en/Gary_Charness) — UC Santa Barbara _(in memoriam, 1950–2024)_
 * [Jonathan Berman](https://www.london.edu/faculty-and-research/faculty-profiles/b/berman-j-z-1) — London Business School
 * [Daniela Cialfi](https://www.researchgate.net/profile/Daniela-Cialfi) — University of Chieti
-* [Jordan Dworkin](https://fas.org/expert/jordan-dworkin/) — Federation of American Scientists
+* [Jordan Dworkin](https://coefficientgiving.com/) — Coefficient Giving
 * [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/) — Asterisk Magazine
 * [Conor Hughes](https://pop.umn.edu/people/conor-hughes) — University of Minnesota
 * [Jana Lasser](https://www.janalasser.at/) — Graz University of Technology
 * [Nicolas Treich](https://www.nicolastreich.com/) — Toulouse School of Economics
-* [Michael Wiebe](https://michaelwiebe.com/) — Data Scientist, Economist Consultant
+* [Michael Wiebe](https://michaelwiebe.com/) — Economist
+* [Don A. Moore](https://haas.berkeley.edu/faculty/don-moore/) — Haas School of Business, UC Berkeley
+* [Kris Gulati](https://www.kris-gulati.com/) — UC Berkeley
+* [Demetrius Floudas](https://www.cambridge.org/) — University of Cambridge
+* [Lorenzo Pacchiardi](https://lorenzopacchiardi.me/) — University of Cambridge
+* [Stuart Buck](https://goodscienceproject.org/) — Good Science Project
+* [Michael Harre](https://www.sydney.edu.au/) — University of Sydney
+* [Tanya O'Garra](https://www.imperial.ac.uk/) — Imperial College London
+* [Paolo Crosetto](https://paolocrosetto.wordpress.com/) — INRAE
 
 ## Field Specialists
 

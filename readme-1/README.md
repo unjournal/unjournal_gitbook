@@ -63,7 +63,7 @@ The Unjournal is funded by grants from philanthropic organizations focused on ef
 **Current and past funders include:**
 - [Survival and Flourishing Fund](../grants-and-proposals/survival-and-flourishing-fund-successful.md) (SFF)
 - [Long-Term Future Fund](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/) (LTFF) — our initial ACX grant was passed to LTFF
-- EA Infrastructure Fund (EAIF)
+- EA Funds (EAIF; Pivotal Questions project)
 
 We share our grant applications in the spirit of transparency — see our [grants and proposals](../grants-and-proposals/) section, including both successful and unsuccessful applications.
 
