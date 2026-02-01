@@ -40,7 +40,7 @@ We increased the base compensation for evaluations to $400, and set aside $150 p
 
 ### Survival and Flourishing Fund grant
 
-We were awarded a grant of $304,000 from the Survival and Flourishing Fund. This will support The Unjournal through mid-2025.
+We were awarded a grant of $565,000 from the Survival and Flourishing Fund. This will support The Unjournal through mid-2025.
 
 ### What we've done and learned so far
 

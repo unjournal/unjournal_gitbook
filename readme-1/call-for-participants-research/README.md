@@ -61,7 +61,7 @@ We're interested in researchers and research-users who want to help us prioritiz
 
 
 
-Some particular areas where we are hoping to expand our expertise (as of  15 Aug 2023) include:
+Some particular areas where we are hoping to expand our expertise (as of Sept. 2024) include:
 
 \- Biological & pandemic risk&#x20;
 
@@ -83,7 +83,7 @@ We will reach out to evaluators (a.k.a. "reviewers") on a case-by-case basis, ap
 
 **Time commitment**: Case-by-case basis. For each evaluation, [here are some guidelines](../../policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/#length-and-time-possible-benchmarks) for the amount of time to spend.
 
-**Compensation**: We pay a minimum of $200 for a prompt and complete evaluation, $400 for _experienced_ evaluators. We offer additional prizes and incentives, and are committed to an average compensation of at least $450 per evaluator.  [See here for more details](../../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md).
+**Compensation**: We pay evaluators for their time and effort, targeting an average of $350 per evaluation including prizes and incentives (and aim to return to $450+ with future funding). [See here for more details](../../policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators.md).
 
 **Who we are looking for:** We are putting together a list of people interested in being an evaluator and doing paid referee work for _The Unjournal_. We generally prioritize the pool of evaluators who signed up for our database before reaching out more widely.
 
@@ -119,7 +119,7 @@ _Note_: This is under continual refinement; see our [policies](../../policies-pr
 
 
 
-[^3]: Along with Gavin Taylor.
+[^3]: Along with Anirudh Tagat.
 
 [^4]: We can help arrange hosting and help you get a time-stamped DOI.
 
