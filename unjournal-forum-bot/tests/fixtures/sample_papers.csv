@@ -1,0 +1,6 @@
+label_paper_title,authors,author_date,Abstract,research_url,doi,Funded by,N Referenced by,Deposit date (DOI),Journal publication title,doi_authors,publication_date_unjournal,Updated since UJ report -- manual confirmation,deposit date > unjournal pub date,doi_eval_summary
+A review of GiveWell's discount rate,"Jenny Kudymowa,James Hu","Kudymowa et al., 2023","This project reviews GiveWell's approach to discount rates.",https://example.com/paper1,,,,,,2023-06-01,,,
+A Welfare Analysis of Policies Impacting Climate Change,"Author One,Author Two","One et al., 2024","Analyzes welfare impacts of climate policies using MVPF framework.",https://example.com/paper2,doi.org/10.3386/w32728,,,,,,2024-01-15,,,https://doi.org/10.21428/d28e8e57.168646d1
+Accelerating Vaccine Innovation,"Author Three","Three, 2022","Studies parallel discovery approaches for vaccine development.",https://example.com/paper3,https://doi.org/10.3386/w30126,,,,,,2022-09-01,,,https://doi.org/10.21428/d28e8e57.59b7c04e
+Test Paper No Eval URL,"Author Four","Four, 2023","A paper without an evaluation URL.",https://example.com/paper4,,,,,,2023-03-01,,,
+Another Paper With Eval,"Author Five","Five, 2024","Another evaluated paper about global health interventions.",https://example.com/paper5,doi.org/10.1234/test,,,,,,2024-06-01,,,https://doi.org/10.21428/d28e8e57.abcdef01
