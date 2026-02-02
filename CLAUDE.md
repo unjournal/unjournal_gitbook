@@ -10,7 +10,35 @@ The repository contains:
 - **GitBook content**: Markdown files organized by topic (policies, benefits, FAQ, grants, etc.)
 - **Landing pages** (`landing-pages/`): Static HTML pages hosted on `info.unjournal.org` (Linode), designed for Google Nonprofit Ad Grant campaigns
 - **Interactive docs** (`docs/`): Mermaid diagram gallery, Reveal.js presentations, and interactive process diagrams
+- **Forum bot** (`unjournal-forum-bot/`): CLI tool that searches EA Forum for posts about Unjournal-evaluated papers and posts comments linking to evaluations
 - **Newsletter automation** (inactive): Mailchimp email digest system, not currently in use
+
+## Forum Bot (unjournal-forum-bot/)
+
+CLI tool that searches EA Forum (and eventually LessWrong) for posts referencing Unjournal-evaluated papers, and posts comments linking to the evaluations.
+
+### Setup
+- Python 3.11+, installed via `pip install -e ".[dev]"` in a venv
+- Requires `config.toml` (copy from `config.example.toml`) with EA Forum auth token + Algolia keys
+- See `scripts/capture_credentials.md` for how to get credentials from browser devtools
+
+### Key commands
+- `forum-bot run --dry-run` — scan papers, find matches, report what would be posted (default)
+- `forum-bot run --no-dry-run` — actually post comments (requires confirmation)
+- `forum-bot search "query"` — raw Algolia search for debugging
+- `forum-bot list-papers` — show loaded papers from CSV
+- `forum-bot introspect` — verify auth token and GraphQL schema
+
+### Architecture
+- **Algolia** for search (not GraphQL); **GraphQL** for fetching posts, comments, and posting
+- Auth via `loginToken` cookie (~5 year lifetime)
+- Type A matches (direct paper reference) can be auto-commented; Type B (related) are report-only
+- Double dedup: checks existing post comments via API + local `~/.unjournal-forum-bot/state.json`
+- LessWrong client is stubbed (`NotImplementedError`), pending bot account
+
+### Data source
+- CSV at `llm-uj-research-eval/data/paper_abstracts_meta_data/paper_abstracts_and_metadata.csv`
+- Only papers with `doi_eval_summary` (PubPub DOI URL) get comments
 
 ## Newsletter System (Inactive)
 
@@ -47,6 +75,7 @@ Static HTML landing pages hosted on a Linode server (45.79.160.157) at `info.unj
 - `landing-pages/index.html` → `info.unjournal.org/` — General Unjournal overview
 - `landing-pages/forecasting-tournament.html` → `info.unjournal.org/forecasting-tournament/` — Animal welfare forecasting tournament (with Metaculus)
 - `landing-pages/follow.html` → `info.unjournal.org/follow/` — Social media, news, and engagement hub
+- `landing-pages/donate.html` → `info.unjournal.org/donate/` — Donation/support page with interactive impact calculator (for Google Ad Grant campaigns)
 - `landing-pages/update-news.py` — Script that fetches RSS from `unjournal.org/news?format=rss` and updates the follow page's news section (runs daily via cron on Linode at 6 AM UTC)
 - `landing-pages/google-apps-script.js` — Reference only (unused); form backend uses Coda
 
