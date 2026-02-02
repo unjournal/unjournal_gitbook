@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16652212666"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16652212666');
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G908FSQH5J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-G908FSQH5J');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honorable Mention Lottery — The Unjournal 2024–25 Evaluator Prize</title>
+  <meta name="description" content="Transparent random draw to select two $500 prize winners from the five honorable mentions in The Unjournal's 2024–25 Evaluator Prize.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 720px;
+      --success: #27ae60;
+      --gold: #d4a017;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+      background: var(--light-bg);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #0d2137 100%);
+      color: var(--white);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      opacity: 0.7;
+      margin-bottom: 0.4rem;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.85;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+
+    p { margin-bottom: 1rem; }
+    a { color: var(--accent); }
+
+    /* Candidates list */
+    .candidate-list {
+      list-style: none;
+      margin: 1rem 0;
+      padding: 0;
+    }
+
+    .candidate-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.85rem 1rem;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 0.6rem;
+      transition: all 0.4s ease;
+      background: var(--white);
+    }
+
+    .candidate-list li .num {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      background: var(--light-bg);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--accent);
+    }
+
+    .candidate-list li .name {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .candidate-list li .paper {
+      font-size: 0.88rem;
+      color: var(--text-light);
+    }
+
+    .candidate-list li.winner {
+      border-color: var(--gold);
+      background: #fef9e7;
+    }
+
+    .candidate-list li.winner .num {
+      background: var(--gold);
+      color: var(--white);
+    }
+
+    .candidate-list li.not-selected {
+      opacity: 0.45;
+      border-color: #eee;
+    }
+
+    /* Draw controls */
+    .draw-controls {
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+
+    .seed-input-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .seed-input-group label {
+      font-weight: 600;
+      font-size: 0.92rem;
+      color: var(--primary);
+    }
+
+    .seed-input-group input {
+      font-family: 'Courier New', monospace;
+      font-size: 1rem;
+      padding: 0.5rem 0.75rem;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .seed-input-group input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .draw-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: inherit;
+    }
+
+    .draw-btn:hover { background: #1a6ea0; }
+
+    .draw-btn:disabled {
+      background: #bdc3c7;
+      cursor: not-allowed;
+    }
+
+    .reset-btn {
+      display: inline-block;
+      background: var(--white);
+      color: var(--text-light);
+      padding: 0.5rem 1.25rem;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 0.75rem;
+      font-family: inherit;
+      transition: border-color 0.2s;
+    }
+
+    .reset-btn:hover { border-color: var(--text-light); }
+
+    /* Results */
+    .result-box {
+      display: none;
+      background: #eafaf1;
+      border: 2px solid var(--success);
+      border-radius: 10px;
+      padding: 1.5rem 2rem;
+      margin: 1.5rem 0;
+      text-align: center;
+    }
+
+    .result-box.visible { display: block; }
+
+    .result-box h3 {
+      color: var(--success);
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .result-box .winner-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .result-box .winner-paper {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    /* Technical details */
+    .technical {
+      background: #f8f9fa;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-top: 1rem;
+      font-size: 0.88rem;
+      color: var(--text-light);
+    }
+
+    .technical h4 {
+      font-size: 0.92rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .technical code {
+      background: #eee;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      font-size: 0.85rem;
+    }
+
+    .technical pre {
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-size: 0.82rem;
+      margin: 0.5rem 0;
+      line-height: 1.5;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.25rem;
+      font-size: 0.85rem;
+      margin-top: 2rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      .card { padding: 1.25rem; }
+      .seed-input-group { flex-direction: column; }
+      .seed-input-group input { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 48px; margin-bottom: 0.4rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>Honorable Mention Lottery Draw</h1>
+  <p>Transparent random selection of two $500 prize winners from the five honorable mentions.</p>
+</header>
+
+<div class="container">
+
+  <a href="evaluator-prizes-2024-25.html" class="back-link">&larr; Back to Prize Announcement</a>
+
+  <div class="card">
+    <h2>How This Works</h2>
+    <p>Two of the five honorable mention recipients will receive an additional <strong>$500 prize</strong> each. Winners are selected by a transparent, deterministic random algorithm that anyone can verify.</p>
+    <p>The selection uses a seed value (which can be any agreed-upon string&mdash;such as a future stock closing price, hash, or other publicly verifiable value) to produce a deterministic shuffle of the candidates. The same seed always produces the same result, ensuring full reproducibility and transparency.</p>
+    <p>The algorithm is a seeded pseudorandom number generator (mulberry32) applied to a Fisher-Yates shuffle. All code runs entirely in your browser&mdash;nothing is sent to any server.</p>
+  </div>
+
+  <div class="card">
+    <h2>The Five Honorable Mentions</h2>
+    <ul class="candidate-list" id="candidateList">
+      <li data-idx="0">
+        <span class="num">1</span>
+        <div>
+          <div class="name">Matthew B. Jan&eacute;</div>
+          <div class="paper">&ldquo;Meaningfully Reducing Consumption of Meat and Animal Products&rdquo;</div>
+        </div>
+      </li>
+      <li data-idx="1">
+        <span class="num">2</span>
+        <div>
+          <div class="name">Anonymous evaluator</div>
+          <div class="paper">&ldquo;Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya&rdquo;</div>
+        </div>
+      </li>
+      <li data-idx="2">
+        <span class="num">3</span>
+        <div>
+          <div class="name">Gregory Lewis</div>
+          <div class="paper">&ldquo;The Returns to Science in the Presence of Technological Risks&rdquo;</div>
+        </div>
+      </li>
+      <li data-idx="3">
+        <span class="num">4</span>
+        <div>
+          <div class="name">Anonymous evaluator</div>
+          <div class="paper">&ldquo;The Macroeconomic Impact of Climate Change: Global vs. Local Temperature&rdquo;</div>
+        </div>
+      </li>
+      <li data-idx="4">
+        <span class="num">5</span>
+        <div>
+          <div class="name">Anonymous evaluator</div>
+          <div class="paper">&ldquo;The Wellbeing Cost-effectiveness of StrongMinds and Friendship Bench&rdquo;</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Run the Draw</h2>
+    <div class="seed-input-group">
+      <label for="seedInput">Seed value:</label>
+      <input type="text" id="seedInput" placeholder="Enter agreed seed..." value="">
+    </div>
+    <div class="draw-controls">
+      <button class="draw-btn" id="drawBtn" onclick="runDraw()">Draw Two Winners</button>
+      <button class="reset-btn" id="resetBtn" onclick="resetDraw()" style="display:none;">Reset</button>
+    </div>
+  </div>
+
+  <div class="result-box" id="resultBox">
+    <h3>Winners Selected!</h3>
+    <div id="resultContent"></div>
+  </div>
+
+  <div class="card">
+    <div class="technical">
+      <h4>Technical Details &amp; Verification</h4>
+      <p>The randomization algorithm is fully deterministic and runs client-side. To verify independently:</p>
+      <ol style="margin: 0.5rem 0 0.5rem 1.5rem;">
+        <li>The seed string is hashed using a simple hash function (cyrb53).</li>
+        <li>The hash seeds a mulberry32 PRNG.</li>
+        <li>A Fisher-Yates shuffle is applied to the candidate indices [0,1,2,3,4].</li>
+        <li>The first two elements of the shuffled array are the winners.</li>
+      </ol>
+      <p>You can verify the result by viewing this page's source code or running the equivalent algorithm in any programming language. The code below is the complete implementation:</p>
+      <pre id="codeBlock">// Hash function: cyrb53
+function cyrb53(str, seed = 0) {
+  let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+  for (let i = 0; i &lt; str.length; i++) {
+    let ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 &gt;&gt;&gt; 16), 2246822507);
+  h1 ^= Math.imul(h2 ^ (h2 &gt;&gt;&gt; 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 &gt;&gt;&gt; 16), 2246822507);
+  h2 ^= Math.imul(h1 ^ (h1 &gt;&gt;&gt; 13), 3266489909);
+  return 4294967296 * (2097151 &amp; h2) + (h1 &gt;&gt;&gt; 0);
+}
+
+// PRNG: mulberry32
+function mulberry32(a) {
+  return function() {
+    a |= 0; a = a + 0x6D2B79F5 | 0;
+    var t = Math.imul(a ^ a &gt;&gt;&gt; 15, 1 | a);
+    t = t + Math.imul(t ^ t &gt;&gt;&gt; 7, 61 | t) ^ t;
+    return ((t ^ t &gt;&gt;&gt; 14) &gt;&gt;&gt; 0) / 4294967296;
+  };
+}
+
+// Fisher-Yates shuffle with seeded PRNG
+function seededShuffle(arr, seed) {
+  const rng = mulberry32(seed);
+  const a = [...arr];
+  for (let i = a.length - 1; i &gt; 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Usage:
+const hash = cyrb53(seedString);
+const indices = seededShuffle([0,1,2,3,4], hash &amp; 0xFFFFFFFF);
+// Winners: indices[0], indices[1]</pre>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="evaluator-prizes-2024-25.html">Prize Announcement</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+<script>
+// Candidate data
+const candidates = [
+  { name: 'Matthew B. Jan\u00e9', paper: '\u201cMeaningfully Reducing Consumption of Meat and Animal Products\u201d' },
+  { name: 'Anonymous evaluator', paper: '\u201cUniversal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya\u201d' },
+  { name: 'Gregory Lewis', paper: '\u201cThe Returns to Science in the Presence of Technological Risks\u201d' },
+  { name: 'Anonymous evaluator', paper: '\u201cThe Macroeconomic Impact of Climate Change: Global vs. Local Temperature\u201d' },
+  { name: 'Anonymous evaluator', paper: '\u201cThe Wellbeing Cost-effectiveness of StrongMinds and Friendship Bench\u201d' }
+];
+
+// cyrb53 hash
+function cyrb53(str, seed = 0) {
+  let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+  for (let i = 0; i < str.length; i++) {
+    let ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507);
+  h1 ^= Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507);
+  h2 ^= Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return 4294967296 * (2097151 & h2) + (h1 >>> 0);
+}
+
+// mulberry32 PRNG
+function mulberry32(a) {
+  return function() {
+    a |= 0; a = a + 0x6D2B79F5 | 0;
+    var t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+
+// Fisher-Yates shuffle
+function seededShuffle(arr, seed) {
+  const rng = mulberry32(seed);
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function runDraw() {
+  const seedStr = document.getElementById('seedInput').value.trim();
+  if (!seedStr) {
+    document.getElementById('seedInput').style.borderColor = '#e74c3c';
+    document.getElementById('seedInput').focus();
+    return;
+  }
+  document.getElementById('seedInput').style.borderColor = '';
+
+  const hash = cyrb53(seedStr);
+  const seedInt = hash & 0xFFFFFFFF;
+  const shuffled = seededShuffle([0, 1, 2, 3, 4], seedInt);
+  const winner1 = shuffled[0];
+  const winner2 = shuffled[1];
+
+  // Update candidate list
+  const items = document.querySelectorAll('#candidateList li');
+  items.forEach((li, idx) => {
+    if (idx === winner1 || idx === winner2) {
+      li.classList.add('winner');
+      li.classList.remove('not-selected');
+    } else {
+      li.classList.add('not-selected');
+      li.classList.remove('winner');
+    }
+  });
+
+  // Show results
+  const resultBox = document.getElementById('resultBox');
+  const resultContent = document.getElementById('resultContent');
+  resultContent.innerHTML = `
+    <div style="margin: 0.75rem 0;">
+      <div class="winner-name">${candidates[winner1].name}</div>
+      <div class="winner-paper">${candidates[winner1].paper}</div>
+    </div>
+    <div style="margin: 0.75rem 0;">
+      <div class="winner-name">${candidates[winner2].name}</div>
+      <div class="winner-paper">${candidates[winner2].paper}</div>
+    </div>
+    <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 1rem; margin-bottom: 0;">
+      Seed: <code>${seedStr}</code> &nbsp;|&nbsp;
+      Hash: <code>${hash}</code> &nbsp;|&nbsp;
+      Shuffled order: <code>[${shuffled.join(', ')}]</code>
+    </p>
+  `;
+  resultBox.classList.add('visible');
+
+  // Update buttons
+  document.getElementById('drawBtn').disabled = true;
+  document.getElementById('resetBtn').style.display = 'inline-block';
+  document.getElementById('seedInput').readOnly = true;
+}
+
+function resetDraw() {
+  // Reset candidate styles
+  document.querySelectorAll('#candidateList li').forEach(li => {
+    li.classList.remove('winner', 'not-selected');
+  });
+
+  // Hide results
+  document.getElementById('resultBox').classList.remove('visible');
+
+  // Reset controls
+  document.getElementById('drawBtn').disabled = false;
+  document.getElementById('resetBtn').style.display = 'none';
+  document.getElementById('seedInput').readOnly = false;
+  document.getElementById('seedInput').value = '';
+  document.getElementById('seedInput').focus();
+}
+</script>
+
+</body>
+</html>

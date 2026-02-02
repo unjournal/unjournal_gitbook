@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16652212666"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16652212666');
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G908FSQH5J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-G908FSQH5J');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support The Unjournal — Donate to Open Research Evaluation</title>
+  <meta name="description" content="Support The Unjournal's mission to provide rigorous, open evaluation of research informing global priorities. Tax-deductible donations fund expert evaluators, prizes, and open science infrastructure.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Almarai:wght@400;700&display=swap">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-light: #24506e;
+      --accent: #2e86c1;
+      --accent-warm: #c0392b;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+      --green: #27ae60;
+      --green-dark: #1e8449;
+      --heading-font: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+      --body-font: 'Almarai', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--body-font);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-family: var(--body-font);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header h1 {
+      font-family: var(--heading-font);
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.1rem;
+      opacity: 0.92;
+      max-width: 660px;
+      margin: 0 auto 1.25rem;
+      line-height: 1.6;
+    }
+
+    header .tax-note {
+      font-size: 0.85rem;
+      opacity: 0.7;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-ctas {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      font-family: var(--body-font);
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-family: var(--heading-font);
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-family: var(--heading-font);
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-bottom: 0.4rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    ul { margin: 0.5rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+
+    /* Buttons */
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.7rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-family: var(--body-font);
+      font-weight: 700;
+      font-size: 1rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    .cta-button.secondary {
+      background: transparent;
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+
+    .cta-button.secondary:hover { background: var(--light-bg); color: var(--accent); }
+
+    .cta-button.donate {
+      background: var(--green);
+      font-size: 1.1rem;
+      padding: 0.8rem 2rem;
+    }
+
+    .cta-button.donate:hover { background: var(--green-dark); color: var(--white); }
+
+    .cta-button.hero-outline {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,0.7);
+    }
+
+    .cta-button.hero-outline:hover {
+      background: rgba(255,255,255,0.15);
+      color: var(--white);
+      border-color: var(--white);
+    }
+
+    /* Highlight box */
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* Stats row */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .stat { text-align: center; }
+
+    .stat .number {
+      font-family: var(--heading-font);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: block;
+    }
+
+    .stat .label {
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    /* ============================================
+       WHAT YOUR DONATION PAYS FOR
+       ============================================ */
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .impact-card {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: box-shadow 0.2s;
+      border: 1px solid transparent;
+    }
+
+    .impact-card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      border-color: var(--border);
+    }
+
+    .impact-card .amount {
+      font-family: var(--heading-font);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+    }
+
+    .impact-card .what {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 0.98rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .impact-card .detail {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    /* ============================================
+       DONOR RECOGNITION BOX
+       ============================================ */
+    .recognition-box {
+      background: linear-gradient(135deg, #fef9f0, #fdf5e6);
+      border: 1px solid #e8d5b5;
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      margin: 1.5rem 0;
+    }
+
+    .recognition-box h3 {
+      margin-top: 0;
+      color: var(--primary);
+    }
+
+    .recognition-box ul {
+      margin-bottom: 0;
+    }
+
+    /* ============================================
+       WAYS TO GIVE GRID
+       ============================================ */
+    .ways-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin: 1.25rem 0;
+    }
+
+    .way-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .way-card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      border-color: var(--accent);
+    }
+
+    .way-card .icon {
+      font-size: 2rem;
+      flex-shrink: 0;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: var(--light-bg);
+    }
+
+    .way-card .info { flex: 1; }
+
+    .way-card .info h3 {
+      margin-bottom: 0.25rem;
+      font-size: 1.05rem;
+    }
+
+    .way-card .info p {
+      font-size: 0.92rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+    }
+
+    /* ============================================
+       SEGMENT CARDS (tailored support)
+       ============================================ */
+    .segment-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      padding: 1.5rem 2rem;
+      margin: 1.5rem 0;
+      border-radius: 0 8px 8px 0;
+      transition: box-shadow 0.2s;
+    }
+
+    .segment-card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .segment-card h3 { margin-top: 0; }
+
+    .segment-card .audience {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.2rem 0.7rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .consult-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+    .consult-caption {
+      display: block;
+      font-size: 0.82rem;
+      color: var(--text-light);
+      margin-top: 0.3rem;
+      font-style: italic;
+    }
+
+    /* Recognition tiers */
+    .tier-list {
+      list-style: none;
+      margin: 0.75rem 0;
+      padding: 0;
+    }
+
+    .tier-list li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+    }
+
+    .tier-list li:last-child { border-bottom: none; }
+
+    .tier-amount {
+      font-weight: 700;
+      color: var(--accent);
+      min-width: 140px;
+      flex-shrink: 0;
+    }
+
+    /* ============================================
+       EXPLORE GRID
+       ============================================ */
+    .explore-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 1.25rem 0;
+    }
+
+    .explore-card {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.1rem;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+
+    .explore-card:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .explore-card .icon {
+      font-size: 1.6rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .explore-card h4 {
+      font-family: var(--heading-font);
+      font-size: 0.92rem;
+      color: var(--primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .explore-card p {
+      font-size: 0.82rem;
+      color: var(--text-light);
+      margin-bottom: 0.5rem;
+    }
+
+    .explore-card a {
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    /* ============================================
+       VIDEO EMBED
+       ============================================ */
+    .video-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      margin: 1.25rem 0;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+
+    .video-embed iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* ============================================
+       SUPPORTERS SECTION
+       ============================================ */
+    .supporters-section {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    .supporters-section h2 {
+      display: inline-block;
+    }
+
+    .supporters-section > p {
+      color: var(--text-light);
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .supporter-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .supporter-logos a {
+      display: inline-block;
+      opacity: 0.75;
+      transition: opacity 0.2s;
+      text-decoration: none;
+    }
+
+    .supporter-logos a:hover {
+      opacity: 1;
+    }
+
+    .supporter-logos .supporter-name {
+      font-family: var(--heading-font);
+      font-size: 1rem;
+      color: var(--primary);
+      padding: 0.75rem 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--light-bg);
+      display: inline-block;
+    }
+
+    /* ============================================
+       FOOTER CTA
+       ============================================ */
+    .footer-cta {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: var(--light-bg);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .footer-cta h2 {
+      font-family: var(--heading-font);
+      display: block;
+      border-bottom: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-cta p {
+      color: var(--text-light);
+      max-width: 560px;
+      margin: 0 auto 1.25rem;
+    }
+
+    .footer-cta .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-cta .consult-caption {
+      margin-top: 0.75rem;
+    }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    /* ============================================
+       RESPONSIVE
+       ============================================ */
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.7rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .ways-grid { grid-template-columns: 1fr; }
+      .explore-grid { grid-template-columns: 1fr; }
+      .impact-grid { grid-template-columns: 1fr; }
+      .hero-ctas { flex-direction: column; align-items: center; }
+      .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
+      .footer-cta .btn-row { flex-direction: column; align-items: center; }
+      .tier-list li { flex-direction: column; gap: 0.2rem; }
+      .tier-amount { min-width: unset; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org" style="color: inherit; text-decoration: none;">The Unjournal</a></div>
+  <h1>Support The Unjournal</h1>
+  <p class="subtitle">We're fixing how research gets evaluated &mdash; making rigorous research more impactful and impactful research more rigorous.</p>
+  <p class="tax-note">501(c)(3) nonprofit &bull; All donations tax-deductible &bull; We don't charge fees &mdash; your support makes this possible</p>
+  <div class="hero-ctas">
+    <a href="https://donorbox.org/the-unjournal-donations" class="cta-button donate" target="_blank" rel="noopener">Donate Now</a>
+    <a href="#pays-for" class="cta-button hero-outline">What Your Donation Pays For</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#why">Why Give</a>
+  <a href="#pays-for">Your Donation</a>
+  <a href="#ways">Ways to Give</a>
+  <a href="#tailored">For Organizations</a>
+  <a href="#track-record">Track Record</a>
+</nav>
+
+<main>
+
+  <!-- ============================================
+       WHY SUPPORT US
+       ============================================ -->
+  <section id="why">
+    <h2>Why Support Us?</h2>
+    <p>Every year, billions of dollars in philanthropic and policy decisions rely on academic research &mdash; yet this research is often poorly evaluated, stuck behind paywalls, or takes years to receive meaningful feedback. Traditional peer review is slow, secretive, and wastes researchers' time on journal-shopping rather than improving their work.</p>
+
+    <p><strong>We're changing that.</strong> The Unjournal commissions fast, transparent, expert evaluation of research that matters &mdash; research informing decisions about global health, animal welfare, catastrophic risks, and evidence-based policy. Our evaluations are public, quantified, and useful.</p>
+
+    <div class="highlight-box">
+      <h3 style="margin-top: 0;">We're helping transform academia</h3>
+      <p>The academic journal system &mdash; built around printed journals and binary accept/reject decisions &mdash; is archaic. It discourages innovation, extracts rents, and creates a collective action problem that traps researchers in a system everyone knows is broken.</p>
+      <p style="margin-bottom: 0.5rem;"><strong>The Unjournal is helping coordinate an exit:</strong></p>
+      <ul style="margin-bottom: 0;">
+        <li>Demonstrating that <strong>journal-independent evaluation</strong> can provide credible, useful feedback</li>
+        <li><strong>Encouraging a focus on impact</strong> &mdash; evaluating research that matters for real decisions</li>
+        <li><strong>Boosting transparency and open science</strong> &mdash; public evaluations with quantified ratings</li>
+        <li>Building the <strong>track record and infrastructure</strong> for universities, funders, and researchers to adopt better systems</li>
+        <li><strong><a href="https://llm-uj-research-eval.netlify.app/">Exploring AI's potential</a></strong> for credible, reliable peer review</li>
+      </ul>
+    </div>
+
+    <p><strong>Your donation directly funds:</strong></p>
+    <ul>
+      <li>Expert evaluator compensation ($350&ndash;450 per evaluation)</li>
+      <li><a href="https://unjournal.pubpub.org/prize-winning-evaluations">Prizes</a> for exceptional research and evaluation work</li>
+      <li>Our <a href="https://www.unjournal.org/pivotal-questions">Pivotal Questions initiative</a> &mdash; identifying high-value-of-information research questions</li>
+      <li>Infrastructure for open, journal-independent evaluation</li>
+      <li><a href="https://llm-uj-research-eval.netlify.app/">Tool-building and AI research</a> to understand how AI can support rigorous peer review</li>
+    </ul>
+
+    <h3>See The Unjournal in action</h3>
+    <div class="video-embed">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=UUCoziAtoBKGSn3Q3PBkgXEEg" title="The Unjournal on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p style="text-align: center; font-size: 0.9rem; color: var(--text-light);">
+      <a href="https://www.youtube.com/channel/UCoziAtoBKGSn3Q3PBkgXEEg" target="_blank" rel="noopener">Subscribe to our YouTube channel</a> for presentations, discussions, and updates.
+    </p>
+  </section>
+
+  <!-- ============================================
+       WHAT YOUR DONATION PAYS FOR
+       ============================================ -->
+  <section id="pays-for">
+    <h2>What Your Donation Pays For</h2>
+    <p>Every dollar goes toward commissioning expert evaluation of high-impact research. Here's what different levels of support make possible:</p>
+
+    <div class="impact-grid">
+      <div class="impact-card">
+        <div class="amount">$75</div>
+        <div class="what">Evaluator Prize set-aside</div>
+        <p class="detail">Funds our per-evaluation <a href="https://unjournal.pubpub.org/prize-winning-evaluations">Evaluator Prize</a> incentive, rewarding the most thorough and insightful reviews</p>
+      </div>
+      <div class="impact-card">
+        <div class="amount">$150</div>
+        <div class="what">Manager synthesis</div>
+        <p class="detail">Funds one evaluation manager's detailed synthesis of evaluator reports</p>
+      </div>
+      <div class="impact-card">
+        <div class="amount">$400</div>
+        <div class="what">One expert evaluation</div>
+        <p class="detail">Sponsors a complete expert evaluation of a research paper, published openly on <a href="https://unjournal.pubpub.org">PubPub</a></p>
+      </div>
+      <div class="impact-card">
+        <div class="amount">$1,200</div>
+        <div class="what">Full evaluation package</div>
+        <p class="detail">Funds 2&ndash;3 evaluators + a manager for a complete <a href="https://unjournal.pubpub.org">evaluation package</a></p>
+      </div>
+      <div class="impact-card">
+        <div class="amount">$5,000</div>
+        <div class="what">Thematic series</div>
+        <p class="detail">Sponsors a set of evaluations on a theme &mdash; e.g., lead exposure, animal welfare, or AI risk</p>
+      </div>
+      <div class="impact-card">
+        <div class="amount">$15,000+</div>
+        <div class="what">Named project</div>
+        <p class="detail">A named evaluation project or <a href="https://www.unjournal.org/pivotal-questions">Pivotal Question</a> investigation on a topic you help define</p>
+      </div>
+    </div>
+
+    <div class="recognition-box">
+      <h3>How we recognize your support</h3>
+      <p>We believe in transparency &mdash; including about our own funding. We're happy to recognize your contribution in ways that match your preference:</p>
+      <ul>
+        <li><strong>On our PubPub evaluation pages:</strong> Donors at the $1,200+ level (sponsoring a full evaluation package) can be acknowledged as the sponsor of that specific evaluation, visible on the published page at <a href="https://unjournal.pubpub.org">unjournal.pubpub.org</a></li>
+        <li><strong>Named evaluation series ($5,000+):</strong> A thematic series can carry your name or your organization's &mdash; e.g., "The [Your Name] Series on Climate Adaptation Research"</li>
+        <li><strong>In our annual reports and communications:</strong> With your permission, we acknowledge funders in our reports to the community, on the <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2">EA Forum</a>, and in presentations</li>
+        <li><strong>Larger contributions:</strong> For major gifts, we're happy to discuss recognition on <a href="https://unjournal.org">unjournal.org</a>, our <a href="https://unjournal.shinyapps.io/uj-dashboard/">interactive dashboard</a>, and other venues &mdash; <a href="https://calendly.com/daaronr">let's talk</a> about what makes sense</li>
+        <li><strong>Anonymous giving:</strong> We also welcome anonymous donations &mdash; just let us know your preference</li>
+      </ul>
+    </div>
+
+    <div style="text-align: center; margin-top: 1.5rem;">
+      <a href="https://donorbox.org/the-unjournal-donations" class="cta-button donate" target="_blank" rel="noopener">Donate Now</a>
+      <br>
+      <a href="donate-impact.html" style="font-size: 0.9rem; display: inline-block; margin-top: 0.75rem;">Try our interactive impact calculator &rarr;</a>
+    </div>
+  </section>
+
+  <!-- ============================================
+       WAYS TO GIVE
+       ============================================ -->
+  <section id="ways">
+    <h2>Ways to Give</h2>
+
+    <div class="ways-grid">
+      <div class="way-card">
+        <div class="icon">&#128179;</div>
+        <div class="info">
+          <h3>Donate Online</h3>
+          <p>One-time or monthly via <a href="https://donorbox.org/the-unjournal-donations" target="_blank" rel="noopener">Donorbox</a>. All donations are tax-deductible.</p>
+        </div>
+      </div>
+      <div class="way-card">
+        <div class="icon">&#128203;</div>
+        <div class="info">
+          <h3>Donor-Advised Funds</h3>
+          <p>Direct your Fidelity, Schwab, or other DAF to <strong>Unjournal Inc</strong>.</p>
+        </div>
+      </div>
+      <div class="way-card">
+        <div class="icon">&#128200;</div>
+        <div class="info">
+          <h3>Stock &amp; Crypto</h3>
+          <p>We accept appreciated securities and cryptocurrency. <a href="mailto:contact@unjournal.org">Contact us</a> to arrange.</p>
+        </div>
+      </div>
+      <div class="way-card">
+        <div class="icon">&#127970;</div>
+        <div class="info">
+          <h3>Employer Matching</h3>
+          <p>Many employers match gifts. <a href="https://doublethedonation.com/matching-gift-database/" target="_blank" rel="noopener">Check if yours does</a> and double your impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TAILORED SUPPORT OPPORTUNITIES
+       ============================================ -->
+  <section id="tailored">
+    <h2>Tailored Support Opportunities</h2>
+
+    <div class="segment-card">
+      <span class="audience">Evidence-Based Funders &amp; Grantmakers</span>
+      <h3><a href="https://www.unjournal.org/commissioned-evaluations-1">Commission evaluations</a> of research you rely on</h3>
+      <p>You're making multi-million dollar funding decisions based on academic research. But how confident are you in that research?</p>
+      <ul>
+        <li>Independent, expert assessment of research you fund or rely on</li>
+        <li>Faster feedback than traditional peer review (weeks, not years)</li>
+        <li>Quantified ratings benchmarked against comparable work</li>
+        <li>Public signal of your commitment to transparency and rigor</li>
+      </ul>
+      <p><strong><a href="https://www.unjournal.org/pivotal-questions">Pivotal Questions Partnership</a>:</strong> Tell us the open empirical questions that most affect your recommendations. We'll identify relevant research, commission evaluations, and synthesize findings.</p>
+      <a href="https://calendly.com/daaronr" class="cta-button secondary" target="_blank" rel="noopener">Let's Talk</a>
+      <span class="consult-caption">Discuss The Unjournal and your potential contribution with our founder, David Reinstein</span>
+    </div>
+
+    <div class="segment-card">
+      <span class="audience">Research Funders &amp; Foundations</span>
+      <h3>Get quality control on the research you fund</h3>
+      <p>You invest in academic research &mdash; but peer review is often years away. We provide independent, arms-length evaluation by world-leading experts.</p>
+      <p><strong><a href="https://www.unjournal.org/commissioned-evaluations-1">Sponsor a thematic evaluation series:</a></strong></p>
+      <ul>
+        <li><strong>Global Health &amp; Development:</strong> Water/sanitation, cash transfers, nutrition, lead exposure</li>
+        <li><strong>Animal Welfare:</strong> Farmed animal advocacy, alternative proteins, welfare economics</li>
+        <li><strong>Catastrophic Risks:</strong> AI governance, biosecurity, nuclear policy</li>
+        <li><strong>Climate &amp; Environment:</strong> Carbon pricing, adaptation, energy transition</li>
+      </ul>
+      <p><strong>Recognition tiers:</strong></p>
+      <ul class="tier-list">
+        <li><span class="tier-amount">$5,000&ndash;$14,999</span> Acknowledged sponsor on the <a href="https://unjournal.pubpub.org">published evaluation package</a></li>
+        <li><span class="tier-amount">$15,000&ndash;$49,999</span> Named evaluation series with your organization's branding</li>
+        <li><span class="tier-amount">Larger gifts</span> <a href="https://calendly.com/daaronr">Let's discuss</a> &mdash; recognition on our website, advisory input on research priorities, and more</li>
+      </ul>
+    </div>
+
+    <div class="segment-card">
+      <span class="audience">Research-Producing Organizations</span>
+      <h3>Signal confidence in your work through public evaluation</h3>
+      <p>By submitting your research for <a href="https://www.unjournal.org/for-researchers">Unjournal evaluation</a>, you send a powerful signal: you're confident in your approach, open to constructive criticism, and motivated by truth-seeking.</p>
+      <ul>
+        <li>Get detailed methodological feedback from independent experts</li>
+        <li>Build credibility with funders, policymakers, and peers</li>
+        <li>Demonstrate transparency and openness to critique</li>
+        <li>Improve your work based on actionable suggestions</li>
+      </ul>
+      <p>Contact <a href="mailto:contact@unjournal.org">contact@unjournal.org</a> to discuss evaluating your research portfolio.</p>
+    </div>
+
+    <div class="segment-card">
+      <span class="audience">Open Science Advocates</span>
+      <h3>Help us fix academic publishing</h3>
+      <p>The journal system is broken: slow, expensive, secretive, creating perverse incentives. <strong>The Unjournal offers a working alternative:</strong></p>
+      <ul>
+        <li>Public evaluations with accountability</li>
+        <li>Quantified ratings enabling comparison</li>
+        <li>Dynamic documents and living research (not frozen PDFs)</li>
+        <li>No paywalls, no article processing charges</li>
+      </ul>
+      <p>We're also <a href="https://llm-uj-research-eval.netlify.app/">exploring AI's potential</a> for supporting peer review &mdash; understanding where LLMs can help and where human expertise remains essential.</p>
+    </div>
+
+    <div class="segment-card">
+      <span class="audience">Event &amp; Workshop Sponsors</span>
+      <h3>Sponsor events that bring researchers and practitioners together</h3>
+      <p>We're building a community around better research evaluation. Your support can help fund:</p>
+      <ul>
+        <li><strong>In-person evaluation workshops</strong> &mdash; hands-on sessions where researchers receive and discuss evaluations of their work in real time</li>
+        <li><strong>Joint workshops with <a href="https://i4replication.org/">i4replication.org</a></strong> &mdash; combining replication research and open evaluation for maximum credibility</li>
+        <li><strong>Online public seminars</strong> &mdash; researcher/practitioner sessions with shared feedback, bringing evaluators, authors, and policy audiences together</li>
+        <li><strong><a href="https://www.unjournal.org/pivotal-questions">Pivotal Questions</a> workshops</strong> &mdash; focused sessions with organizations and policymakers to identify the open empirical questions that matter most for impact</li>
+      </ul>
+      <p>Event sponsorship includes recognition in all materials and communications. <a href="https://calendly.com/daaronr" target="_blank" rel="noopener">Let's discuss</a> what would be most valuable for your organization.</p>
+    </div>
+
+    <div class="segment-card">
+      <span class="audience">Individual Researchers</span>
+      <h3>Invest in the evaluation system you wish existed</h3>
+      <p>You know the problems: months gaming journals, opaque feedback, desk rejections. <strong>We're building something better:</strong></p>
+      <ul>
+        <li>Fair compensation for evaluation work (unlike volunteer peer review)</li>
+        <li>Recognition and prizes for rigorous, useful evaluations</li>
+        <li>Infrastructure for evaluating dynamic documents and code</li>
+        <li><a href="https://llm-uj-research-eval.netlify.app/">Research on AI-assisted evaluation</a> to improve peer review quality</li>
+      </ul>
+      <p><strong>Even small donations help</strong> &mdash; and signal to funders and institutions that researchers want reform.</p>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TRACK RECORD
+       ============================================ -->
+  <section id="track-record">
+    <h2>Our Track Record</h2>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="number">54+</span>
+        <span class="label">Evaluation packages</span>
+      </div>
+      <div class="stat">
+        <span class="number">100+</span>
+        <span class="label">Expert evaluations</span>
+      </div>
+      <div class="stat">
+        <span class="number">250+</span>
+        <span class="label">Vetted evaluators</span>
+      </div>
+      <div class="stat">
+        <span class="number">5+</span>
+        <span class="label">Cause areas covered</span>
+      </div>
+    </div>
+
+    <p>Research evaluated across global health, animal welfare, development economics, catastrophic risks, and policy. Our evaluations are indexed in academic databases (OpenAlex, Crossref, DataCite). Browse our <a href="https://unjournal.pubpub.org/prize-winning-evaluations">prize-winning evaluations</a> or read our recent write-ups on the <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2">EA Forum</a>.</p>
+
+    <h3>Explore our work</h3>
+    <div class="explore-grid">
+      <div class="explore-card">
+        <div class="icon">&#128209;</div>
+        <h4>Evaluation Packages</h4>
+        <p>All published evaluations</p>
+        <a href="https://unjournal.pubpub.org" target="_blank" rel="noopener">Browse on PubPub</a>
+      </div>
+      <div class="explore-card">
+        <div class="icon">&#128200;</div>
+        <h4>Interactive Dashboard</h4>
+        <p>Explore ratings &amp; data</p>
+        <a href="https://unjournal.shinyapps.io/uj-dashboard/" target="_blank" rel="noopener">Open Dashboard</a>
+      </div>
+      <div class="explore-card">
+        <div class="icon">&#128218;</div>
+        <h4>Data Blog</h4>
+        <p>Analysis of our output</p>
+        <a href="https://unjournal.github.io/unjournaldata/index.html" target="_blank" rel="noopener">View Analysis</a>
+      </div>
+      <div class="explore-card">
+        <div class="icon">&#129302;</div>
+        <h4>AI Evaluation Research</h4>
+        <p>LLM capabilities for peer review</p>
+        <a href="https://llm-uj-research-eval.netlify.app/" target="_blank" rel="noopener">Explore</a>
+      </div>
+      <div class="explore-card">
+        <div class="icon">&#127757;</div>
+        <h4>Pivotal Questions</h4>
+        <p>High-VOI research questions</p>
+        <a href="https://www.unjournal.org/pivotal-questions" target="_blank" rel="noopener">Learn More</a>
+      </div>
+      <div class="explore-card">
+        <div class="icon">&#128214;</div>
+        <h4>Knowledge Base</h4>
+        <p>Policies, process, guidelines</p>
+        <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/" target="_blank" rel="noopener">Read Docs</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       OUR SUPPORTERS
+       ============================================ -->
+  <section class="supporters-section" id="supporters">
+    <h2>Our Supporters</h2>
+    <p>We're grateful to the organizations and individuals who have funded our work and helped build open research evaluation.</p>
+    <div class="supporter-logos">
+      <a href="https://survivalandflourishing.fund/" target="_blank" rel="noopener">
+        <span class="supporter-name">Survival and Flourishing Fund</span>
+      </a>
+      <a href="https://funds.effectivealtruism.org/funds/far-future" target="_blank" rel="noopener">
+        <span class="supporter-name">Long-Term Future Fund</span>
+      </a>
+      <a href="https://funds.effectivealtruism.org/funds/ea-community" target="_blank" rel="noopener">
+        <span class="supporter-name">EA Infrastructure Fund</span>
+      </a>
+    </div>
+    <p style="font-size: 0.88rem;">Your name or organization could be here. <a href="https://donorbox.org/the-unjournal-donations" target="_blank" rel="noopener">Donate</a> or <a href="https://calendly.com/daaronr" target="_blank" rel="noopener">get in touch</a> to discuss support.</p>
+  </section>
+
+  <!-- ============================================
+       QUESTIONS
+       ============================================ -->
+  <section id="contact">
+    <h2>Questions?</h2>
+    <p><strong>Contact us:</strong> <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+    <p><strong>Learn more:</strong>
+      <a href="https://www.unjournal.org">Main website</a> &bull;
+      <a href="https://www.unjournal.org/commissioned-evaluations-1">Commissioned evaluations</a> &bull;
+      <a href="https://www.unjournal.org/for-researchers">For Researchers</a> &bull;
+      <a href="https://www.unjournal.org/for-evaluators">For Evaluators</a> &bull;
+      <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2">EA Forum series</a> &bull;
+      <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a>
+    </p>
+  </section>
+
+  <!-- ============================================
+       FOOTER CTA
+       ============================================ -->
+  <div class="footer-cta">
+    <h2>Fund Better Research Evaluation</h2>
+    <p>Every donation helps us demonstrate that open, journal-independent evaluation works &mdash; and builds the evidence base for systemic reform.</p>
+    <div class="btn-row">
+      <a href="https://donorbox.org/the-unjournal-donations" class="cta-button donate" target="_blank" rel="noopener">Donate Now</a>
+      <a href="https://calendly.com/daaronr" class="cta-button secondary" target="_blank" rel="noopener">Let's Talk</a>
+    </div>
+    <span class="consult-caption">Discuss The Unjournal and your potential contribution with our founder, David Reinstein</span>
+  </div>
+
+</main>
+
+<footer>
+  <p><em>The Unjournal is a registered 501(c)(3) nonprofit. All donations are tax-deductible to the extent permitted by law.</em></p>
+  <p style="margin-top: 0.5rem;">&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>
