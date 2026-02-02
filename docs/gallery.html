@@ -337,7 +337,8 @@
     </div>
     <button onclick="reRenderDiagrams()" style="background: var(--accent); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Apply</button>
     <button onclick="downloadCurrentSVG()" style="background: #059669; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Download SVG</button>
-    <button onclick="downloadCurrentPNG()" style="background: #7c3aed; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Download PNG</button>
+    <button onclick="downloadCurrentPNG(2)" style="background: #7c3aed; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit;">Download PNG</button>
+    <button onclick="downloadCurrentPNG(6)" style="background: #dc2626; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-family: inherit; font-weight: 600;">Download High-Res PNG (for video)</button>
   </div>
 
   <!-- Step-through presentations -->
@@ -970,10 +971,12 @@ flowchart TD
     }
 
     // Download current diagram as PNG
-    function downloadCurrentPNG() {
+    function downloadCurrentPNG(scale) {
+      scale = scale || 2;
       const diagrams = document.querySelectorAll('.mermaid svg');
       const diagramNames = ['theory-of-change-full', 'theory-of-change-simple', 'evaluation-workflow', 'journal-process', 'prioritization'];
       const settings = `${currentSettings.fontFamily.split(',')[0].replace(/'/g, '')}-${currentSettings.fontSize}px-${currentSettings.shape}`;
+      const resLabel = scale > 2 ? '-highres' : '';
 
       diagrams.forEach((svg, index) => {
         // Clone the SVG to avoid modifying the original
@@ -985,8 +988,18 @@ flowchart TD
         const height = Math.ceil(bbox.height + 40);
 
         // Set explicit dimensions on clone
-        svgClone.setAttribute('width', width);
-        svgClone.setAttribute('height', height);
+        svgClone.setAttribute('width', width * scale);
+        svgClone.setAttribute('height', height * scale);
+        svgClone.setAttribute('viewBox', `0 0 ${width} ${height}`);
+
+        // Embed font styling directly in SVG for reliable rendering
+        const styleEl = document.createElementNS('http://www.w3.org/2000/svg', 'style');
+        styleEl.textContent = `
+          text, .label, foreignObject div {
+            font-family: ${currentSettings.fontFamily} !important;
+          }
+        `;
+        svgClone.insertBefore(styleEl, svgClone.firstChild);
 
         // Serialize SVG
         const svgData = new XMLSerializer().serializeToString(svgClone);
@@ -997,22 +1010,20 @@ flowchart TD
         const img = new Image();
         img.onload = function() {
           const canvas = document.createElement('canvas');
-          const scale = 2; // Higher resolution
           canvas.width = width * scale;
           canvas.height = height * scale;
 
           const ctx = canvas.getContext('2d');
-          ctx.scale(scale, scale);
           ctx.fillStyle = '#ffffff';
-          ctx.fillRect(0, 0, width, height);
-          ctx.drawImage(img, 0, 0);
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
           // Download as PNG
           canvas.toBlob(function(blob) {
             const pngUrl = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = pngUrl;
-            a.download = `${diagramNames[index]}-${settings}.png`;
+            a.download = `${diagramNames[index]}-${settings}${resLabel}.png`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
