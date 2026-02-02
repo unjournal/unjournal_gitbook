@@ -74,10 +74,20 @@ Static HTML landing pages hosted on a Linode server (45.79.160.157) at `info.unj
 ### Pages
 - `landing-pages/index.html` → `info.unjournal.org/` — General Unjournal overview
 - `landing-pages/forecasting-tournament.html` → `info.unjournal.org/forecasting-tournament/` — Animal welfare forecasting tournament (with Metaculus)
-- `landing-pages/follow.html` → `info.unjournal.org/follow/` — Social media, news, and engagement hub
+- `landing-pages/forecasting-tournament-thanks.html` → `info.unjournal.org/forecasting-tournament/thanks.html` — Post-signup confirmation
+- `landing-pages/follow.html` → `info.unjournal.org/follow/` — Social media, news, and engagement hub (LinkedIn, Bluesky, YouTube, EA Forum, Metaculus, PubPub, podcasts)
 - `landing-pages/donate.html` → `info.unjournal.org/donate/` — Donation/support page with interactive impact calculator (for Google Ad Grant campaigns)
+- `landing-pages/evaluator-prizes-2024-25.html` → `info.unjournal.org/evaluator-prizes-2024-25/` — Evaluator prize winners announcement
+- `landing-pages/lottery.html` → `info.unjournal.org/lottery/` — Transparent random draw for honorable mention prizes
+- `landing-pages/unjournal-logo.jpg` → `info.unjournal.org/unjournal-logo.jpg` — Logo image used in all page headers
 - `landing-pages/update-news.py` — Script that fetches RSS from `unjournal.org/news?format=rss` and updates the follow page's news section (runs daily via cron on Linode at 6 AM UTC)
 - `landing-pages/google-apps-script.js` — Reference only (unused); form backend uses Coda
+
+### Design conventions
+- All pages use academic serif fonts: Libre Baskerville for headings, Georgia for body text (donate.html uses Almarai for body)
+- Unjournal logo (`unjournal-logo.jpg`) in every page header, linking to unjournal.org
+- Footer disclaimer on all pages: "To make the best use of our limited resources, this page was created with the help of Claude Code."
+- Color scheme: `--primary: #1a3a5c`, `--accent: #2e86c1`, consistent across all pages
 
 ### Deployment
 Pages are deployed via `scp` to `/var/www/info.unjournal.org/` on the Linode server. Nginx serves them with Let's Encrypt HTTPS. DNS is an A record (`info` → `45.79.160.157`) in Squarespace's domain manager.
@@ -89,12 +99,35 @@ scp landing-pages/forecasting-tournament.html root@45.79.160.157:/var/www/info.u
 
 ## Interactive Docs (docs/)
 
-- `docs/gallery.html` — Mermaid diagram gallery with multiple diagram types and rendering options
+Served via GitHub Pages at `https://unjournal.github.io/unjournal_gitbook/`.
+
+- `docs/gallery.html` — Mermaid diagram gallery with theme/font/shape/size controls and export buttons
 - `docs/reveal-*.html` — Reveal.js step-through presentations (evaluation process, theory of change)
 - `docs/interactive.html` — Interactive process diagram
 - `docs/diagrams/` — SVG/image assets for diagrams
 
-These are served directly via GitHub Pages or linked from GitBook content.
+### Diagram gallery features
+The gallery (`gallery.html`) renders 5 Mermaid flowcharts (Theory of Change full/simple, Evaluation Workflow, Journal Comparison, Prioritization) with live controls for theme, font, font size, node width, shape, and line style. Export options:
+- **Download SVG** — vector format, editable in Inkscape/Illustrator
+- **Download PNG** — 2x resolution raster
+- **Download High-Res PNG (for video)** — 6x resolution raster, suitable for Shotcut/video editors where zoom/pan is needed
+
+The PNG export re-renders diagrams with `htmlLabels: false` (pure SVG text) before canvas export, because browsers block `foreignObject` (HTML-in-SVG) when drawing onto canvas.
+
+### Pre-rendered high-resolution PNGs
+`docs/diagrams/png-highres/` contains 6x resolution PNGs rendered via `mmdc` (Mermaid CLI with headless browser). These are the most reliable high-quality exports for video editing:
+- `theory-of-change-full-highres.png` (4704 x 3828)
+- `theory-of-change-simple-highres.png` (4704 x 2976)
+- `evaluation-workflow-highres.png` (3342 x 7476)
+- `journal-process-highres.png` (4704 x 6228)
+- `prioritization-highres.png` (4704 x 3948)
+
+To regenerate with different settings, write `.mmd` files and run:
+```bash
+mmdc -i input.mmd -o output.png -s 6 -b white -t default
+```
+
+Requires `@mermaid-js/mermaid-cli` (`npm install -g @mermaid-js/mermaid-cli`).
 
 ## Style Guide
 
@@ -127,6 +160,16 @@ Historical content (pilot phase 2022-2023, old job postings, etc.) is preserved 
 - 2023 pilot prize: Completed, winners announced
 - 2024-25: Evaluator prizes ($6,500), recognition-based author awards (Flowing Water Scholar, Polaris Research)
 - 2026+: Monetary author prizes planned, funding dependent
+
+## February 2026 Accuracy Fixes
+
+Corrected several factual inaccuracies in GitBook content:
+- SFF grant amount: $304k → $565k (verified against SFF records)
+- Advisory board: synced with unjournal.org/team, added in memoriam for Gary Charness (d. 2024), updated Jordan Dworkin (Coefficient Giving), Michael Wiebe (Economist), added 8 missing members
+- Co-director: Gavin Taylor → Anirudh Tagat (Gavin is management team, former co-director)
+- Evaluator compensation: updated to current $350 average target (from outdated $200/$400/$450 language)
+- Funder list: clarified EA Funds (EAIF; Pivotal Questions project)
+- Research area priorities date: Aug 2023 → Sept. 2024
 
 ## January 2026 Cleanup Summary
 
