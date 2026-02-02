@@ -1,112 +1,195 @@
 ---
-description: This discussion is a work-in-progress
+description: Auto-generated from Coda. Last synced: 2026-02-02
 ---
 
-# What specific areas do we cover?
+# Research Fields and Areas
 
-1. We are targeting [global priorities-relevant research](../../the-field-and-ea-gp-research.md)...
-2. With the potential for impact, and with the potential for _Unjournal_ _evaluations_ to have an impact (see our [high-level considerations](what-research-to-target.md#high-level-considerations-for-prioritizing-research) and our [prioritization ratings](process-prioritizing-research/prioritization-ratings-discussion.md) discussions).
-3. Our [initial focus](#user-content-fn-1)[^1] is quantitative work that informs [global priorities (see linked discussion)](../../the-field-and-ea-gp-research.md), especially in [economics, policy, and social science](#user-content-fn-2)[^2], informing our [Theory of Change](../../benefits-and-features/global-priorities-theory-of-change/).
-4. We give a data presentation of the work we have already covered and the work we are prioritizing [here](https://unjournal.github.io/unjournaldata/chapters/evaluation_data_analysis.html), which will be continually updated.
+The Unjournal evaluates research across a broad range of fields, with particular emphasis on economics, social science, and policy-relevant work.
 
-_**But what does this mean in practice? What specific research fields, topics, and approaches are we likely to classify as 'relevant to evaluate'?**_
+- Affect dynamics
+- African politics
+- Agriculture/ Ag econ
+- AI Alignment/AI Safety
+- Altruism, other regarding behavior
+- Animal welfare
+- Antitrust
+- artificial intelligence
+- Attitudes and behaviors (Altruism, moral circles, animal consumption, effectiveness, political attitudes, etc.)
+- Bayesian inference
+- Behavior under uncertainty
+- Behavioral Economics
+- Behavioral Science
+- Biodiversity/conservation
+- Biology/Life science
+- Biosecurity
+- Biostatistics
+- cash grants
+- Cash Transfers
+- causal inference
+- Climate
+- Climate change education
+- Climate change/initiatives
+- Clinical psychology
+- Cognitive Science
+- Collective action  problems/social dilemmas
+- Collective goods
+- comparative health systems
+- Comparative politics
+- consumer ethics
+- consumer preferences
+- Corporate Social Responsibility/ESG
+- corruption
+- Covid-19
+- Creativity
+- Crime/conflict
+- Data Collection
+- Demography and Aging
+- Design science
+- Development and Growth
+- Development/Development Economics
+- Discrimination
+- ecology
+- Econometrics
+- Economic demography
+- Economic geography
+- economic growth
+- Economic History
+- Economic Systems
+- Economics of aging
+- economics of education
+- Economics of Information
+- Economics of the Internet/Digital Economy
+- Education
+- Educational interventions
+- Energy market modeling/Energy and commodities
+- engineering
+- Environment/Environment and Resource economics
+- Environmental science
+- epidemiology
+- Experimental Design/Experimental economics
+- expert beliefs, prediction markets, etc.
+- Expert judgment
+- FDI
+- Finance
+- financial inclusion/literacy
+- Firm Behavior
+- Fisheries and aquaculture
+- Food Systems/Food Security
+- Forecasting
+- foreign aid
+- GCR and X-risk
+- Gender/Gender Equity and Social Inclusion (GESI)
+- Global Health/ interventions
+- Globalization and International Relations/Global policy
+- Health of Immigrants
+- Health Policy/Health economics
+- Health, Education, and Welfare
+- Heterodox economics
+- Human trafficking
+- Human-computer interaction
+- Impact investing
+- Indonesia
+- Industrial Organization
+- Infectious Disease Modelling
+- Information Systems
+- Information technology
+- Information theory
+- Innovation and R&D
+- institutions/bureacracy
+- international development theory
+- International Economics
+- International security
+- International trade and welfare
+- Intimate Partner Violence
+- intra-household bargaining
+- Kenya
+- Labor Economics
+- Labor market policies and welfare
+- Labor Supply and Demand
+- Latin America
+- Law and Economics
+- Logistics and supply chains
+- macroecon: stability
+- Macroeconomics
+- Macroeconomics: Growth and development
+- Management
+- Market design lab experiments
+- Market Structure and Firm Performance
+- Markets for environmental services
+- Maternal/child health
+- Mechanism design
+- Media interventions
+- Medicine
+- Mental Health Interventions
+- meta-analysis
+- Metascience
+- Microeconomics
+- Microfinance
+- Migration
+- Misinformation/disinformation
+- Moral psychology
+- National Fiscal Issues
+- Natural disasters
+- Negative dark violent behavior and attitudes
+- Neuroimaging
+- Neuroscience
+- Nutrition
+- online survey and experiments research
+- Open science and replication
+- organizational economics
+- pandemic policy research
+- payment systems
+- Performance science
+- personal financial decision making
+- Personality Psychology
+- philanthropy/charitable giving
+- Philosophy
+- Policy
+- Policymaker decision-making
+- political behaviour (voting)
+- Political economy
+- political economy of development
+- Political economy of non-democracies
+- Political modeling
+- Political Science
+- Poverty and inequality
+- Poverty and Wellbeing
+- Progress studies
+- Psychology
+- Public Choice
+- Public Economics
+- public health
+- public services
+- Quasi-experimental evaluation of environmental policy
+- Regional and Urban Economics
+- remittances
+- Renewable Resources
+- Research methods
+- Science Communication
+- Science of consciousness
+- skills training and agriculture
+- Social contagion
+- Social impact of AI
+- Social network structure
+- Social norms
+- Social psychology
+- Sociotechnical systems
+- Spousal Abuse
+- supply-demand GE
+- survey experiments/surveys
+- Sustainability Transitions
+- Taxation
+- Telecom regulation
+- the economics of science and innovation
+- Urban/community resiliance
+- Vaccinations
+- Vietnam
+- Visual neuroscience
+- Warfare
+- WASH
+- Welfare and collective choice
+- well-being
 
-We give some lists and annotated examples below.
+---
 
-## Fields, methods, and approaches
-
-_The Unjournal_ focuses on ...&#x20;
-
-1. Research where the fundamental question being investigated involves _human_ behavior and beliefs and the consequences of these. This may involve markets, production processes, economic constraints, social interactions, technology, the 'market of ideas', individual psychology, government processes, and more. However, the main research question should _not_ revolve around issues outside of human behavio&#x72;_,_ such as physical science, biology, or computer science and engineering. These areas are out of our scope (at least for now). &#x20;
-2. Research that is fundamentally _quantitative_ and uses [_scientific_ methods](#user-content-fn-3)[^3]. It will generally involve or consider measurable inputs, choices, and outcomes; specific categorical or quantitative questions; analytical and mathematical reasoning; hypothesis testing and/or belief updating, etc.&#x20;
-3. Research that targets and addresses a single _specific_ question or goals, or a small cluster. It should not mainly be a broad discussion and overview of other research or conceptual issues.
-
-This to generally involves the academic fields:
-
-* Economics
-* Applied Statistics (and some other applied math)
-* Psychology&#x20;
-* Political Science
-* Other quantitative social science fields (perhaps Sociology)
-* Applied "business school" fields:  finance, accounting, operations, etc.
-* Applied "policy and impact evaluation" fields&#x20;
-* Life science/medicine where it targets human behavior/social science&#x20;
-
-_&#x54;_&#x68;ese discipline/field boundaries are not strict; they may adapt as we grow
-
-### Why this field/method focus?
-
-These were chosen in light of two main factors:
-
-1. Our founder and our team is most comfortable assessing and managing the consideration of research in these areas.
-2. These fields seem to be particularly amenable to, and able to benefit from our journal-independent evaluation approach. Other fields, such as biology, are already being 'served' by strong initiatives like [Peer Communities In](https://peercommunityin.org/).
-
-### Ex.: work we included/excluded based on field/method
-
-{% hint style="info" %}
-&#x20;_To do: We will give and explain some examples here_
-{% endhint %}
-
-
-
-## Outcomes, focus areas, and causes
-
-_The Unjournal's_ mission is to prioritize&#x20;
-
-* research with the strongest potential for a positive impact on global welfare&#x20;
-* where public _evaluation_ of this research will have the greatest impact&#x20;
-
-Given this broad goal, we consider research into any cause, topic, or outcome, as long as the research involves fields, methods, and approaches within our domain (see above), and as long as the work meets our other requirements (e.g., research must be publicly shared without a paywall).&#x20;
-
-While we don't have rigid boundaries, we are nonetheless focusing on certain areas:
-
-{% embed url="https://airtable.com/applDG6ifmUmeEJ7j/shr3tIhhydFyXvTpF" %}
-
-### Fields
-
-We have mainly commissioned evaluations of work involving development economics and health-related outcomes and interventions in low- and middle-income countries.
-
-As well as research involving
-
-* Environmental economics, conservation, harm to human health&#x20;
-* The social impact of AI and emerging technologies&#x20;
-* Economics, welfare, and governance
-* Catastrophic risks; predicting and responding to these risks
-* The economics of innovation; scientific progress and meta-science&#x20;
-* The economics of health, happiness, and wellbeing
-
-
-
-We are currently prioritizing further work involving&#x20;
-
-* Psychology, behavioral science, and attitudes: the spread of misinformation; other-regarding preferences and behavior; moral circles
-* Animal welfare: markets, attitudes
-* Methodological work informing high-impact research (e.g., methods for impact evaluation)
-
-
-
-We are also _considering_ prioritizing work involving
-
-* AI governance and safety&#x20;
-* Quantitative political science (voting, lobbying, attitudes)&#x20;
-* Political risks (including authoritarian governments and war and conflict)&#x20;
-* Institutional decisionmaking and policymaking
-* Long-term growth and trends; the long-term future of civilization; forecasting
-
-
-
-
-
-### Examples of work we chose to prioritize or de-prioritize based on focus area
-
-{% hint style="info" %}
-&#x54;_&#x6F; do: We will give and explain some examples here_
-{% endhint %}
-
-[^1]: We discuss our prioritization considerations under [global-priorities.md](../../faq-interaction/global-priorities.md "mention")
-
-[^2]: We target these areas (1) because of our current management team's expertise and (2) because these seem particularly in need of The Unjournal's approach. However, we are open to expanding and branching out.
-
-
-
-[^3]: Broadly, in the sense that Fang and Casadevall (2024) describe... "Science as it is presently understood possesses several essential characteristics: (i) an assumption that nature can be understood without having to invoke supernatural forces; (ii) a requirement for supporting evidence; (iii) arguments that conform to logical chains of reasoning; (iv) accumulation of knowledge that can change and undergo refinement over time as a result of new ideas or observations and improvements in methodology; and (v) predictive power"
+*183 fields tracked. Auto-generated from our internal database.*
