@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:globalimpact.gitbook.io)",
-      "WebFetch(domain:unjournal.github.io)",
-      "Bash(git commit:*)"
-    ]
-  }
-}

@@ -20,8 +20,6 @@ layout:
     visible: false
 ---
 
-> **About this repo:** This repository powers The Unjournal's [GitBook knowledge base](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/), static [landing pages](https://info.unjournal.org) for Google Ad Grant campaigns (hosted on Linode), [interactive diagrams and presentations](docs/), and communications automation. See [CLAUDE.md](CLAUDE.md) for full details.
-
 # The Unjournal
 
 [The Unjournal](https://app.gitbook.com/o/-MfFk4CTSGwVOPkwnRgx/s/scEoiIiYYQByE1FaibWQ/) is making research better by evaluating what really matters. We aim to make rigorous research more impactful and impactful research more rigorous.

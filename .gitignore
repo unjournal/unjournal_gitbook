@@ -22,3 +22,6 @@ test.py
 
 # Presentation assets working directory (not synced to GitBook)
 presentation-assets/
+
+# Claude Code local settings (contains SSH permissions, server IPs)
+.claude/settings.local.json
