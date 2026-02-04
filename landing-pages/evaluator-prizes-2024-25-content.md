@@ -42,7 +42,7 @@ This year, we are allocating **$6,500 in evaluator prizes** across four prize ti
 
 ### First Prize — $2,500
 
-**Masset and Waddington**
+**Masset and Sharma Waddington**
 *Evaluation of "Water Treatment and Child Mortality: A Meta-analysis and Cost-effectiveness Analysis"*
 Topics: Global Health, Development, Policy
 
