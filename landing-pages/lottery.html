@@ -338,9 +338,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="card">
     <h2>How This Works</h2>
-    <p>Two of the five honorable mention recipients will receive an additional <strong>$500 prize</strong> each. Winners are selected by a transparent, deterministic random algorithm that anyone can verify.</p>
-    <p>The selection uses a seed value (which can be any agreed-upon string&mdash;such as a future stock closing price, hash, or other publicly verifiable value) to produce a deterministic shuffle of the candidates. The same seed always produces the same result, ensuring full reproducibility and transparency.</p>
-    <p>The algorithm is a seeded pseudorandom number generator (mulberry32) applied to a Fisher-Yates shuffle. All code runs entirely in your browser&mdash;nothing is sent to any server.</p>
+    <p>Two of the five honorable mention recipients will receive an additional <strong>$500 prize</strong> each. We select the two lottery winners using a deterministic draw that anyone can reproduce.</p>
+
+    <h3 style="font-size: 1.05rem; color: var(--primary); margin: 1.25rem 0 0.5rem;">The Process</h3>
+    <ol style="margin: 0.5rem 0 1.25rem 1.5rem;">
+      <li style="margin-bottom: 0.5rem;"><strong>Pre-announcement (Day&nbsp;&minus;1):</strong> We announce on <a href="https://bsky.app/profile/unjournal.bsky.social" target="_blank" rel="noopener">Bluesky</a> the seed source and date: the seed will be based on the regular-session closing value (4:00&nbsp;pm&nbsp;ET) of the S&amp;P&nbsp;500 on the specified date.</li>
+      <li style="margin-bottom: 0.5rem;"><strong>Seed determination (Day&nbsp;0):</strong> After the market closes, we take the S&amp;P&nbsp;500 closing value (to 2 decimal places) and publish the exact seed string and the resulting winners.</li>
+      <li style="margin-bottom: 0.5rem;"><strong>Verification:</strong> Anyone can paste the seed into this page and get the same winners. The algorithm is fully deterministic&mdash;the same seed always produces the same result.</li>
+    </ol>
+
+    <div style="background: var(--light-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1rem;">
+      <h4 style="font-size: 0.95rem; color: var(--primary); margin-bottom: 0.4rem;">Seed Source</h4>
+      <p style="margin-bottom: 0.4rem;"><strong>Index:</strong> S&amp;P&nbsp;500 (SPX) &mdash; <a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener">official index page</a></p>
+      <p style="margin-bottom: 0.4rem;"><strong>Value:</strong> Regular-session closing value (4:00&nbsp;pm&nbsp;ET) on <strong>[DATE TBA]</strong>, displayed to 2 decimal places.</p>
+      <p style="margin-bottom: 0;"><strong>Reference source:</strong> <a href="https://www.marketwatch.com/investing/index/spx" target="_blank" rel="noopener">MarketWatch SPX page</a></p>
+    </div>
+
+    <p style="font-size: 0.92rem; color: var(--text-light);">The algorithm is a seeded pseudorandom number generator (mulberry32) applied to a Fisher-Yates shuffle. All code runs entirely in your browser&mdash;nothing is sent to any server.</p>
   </div>
 
   <div class="card">
@@ -388,7 +402,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2>Run the Draw</h2>
     <div class="seed-input-group">
       <label for="seedInput">Seed value:</label>
-      <input type="text" id="seedInput" placeholder="Enter agreed seed..." value="">
+      <input type="text" id="seedInput" placeholder="e.g. SPX-6025.47" value="">
     </div>
     <div class="draw-controls">
       <button class="draw-btn" id="drawBtn" onclick="runDraw()">Draw Two Winners</button>
