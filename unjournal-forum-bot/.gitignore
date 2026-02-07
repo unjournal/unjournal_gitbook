@@ -1,0 +1,19 @@
+# Secrets
+.env_do_not_share
+*.auth
+config.toml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# State
+state.json
+
+# IDE
+.idea/
+.vscode/

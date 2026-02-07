@@ -1,0 +1,62 @@
+🏆 The Unjournal's 2024-25 Evaluator Prizes
+Recognizing 8 of 80+ expert peer reviewers for outstanding public evaluation work. $6,500 in prizes.
+→ info.unjournal.org/evaluator-prizes-2024-25 🧵
+
+🥇 FIRST PRIZE: Edoardo Masset & Hugh Waddington
+Evaluated "Water Treatment & Child Mortality" meta-analysis.
+
+A "rare example of evaluators bringing systematic review and policy expertise directly to bear on a prominent and policy-relevant meta-analysis."
+
+They identified missing studies & protocol deviations. Noted that "odds ratio estimates differed between working paper drafts" and that "conclusions may need to be qualified."
+
+GiveWell found their review "very influential" — it "flagged issues that should be addressed." This evaluation informed real grantmaking decisions on chlorination interventions.
+
+🥈 SECOND PRIZE: David Reiley
+Evaluated "Does Online Fundraising Increase Charitable Giving? A Nationwide Field Experiment on Facebook"
+
+Reiley brought decades of experience in charitable giving economics and digital advertising practice to this evaluation.
+
+He delivered "one of the portfolio's most detailed reports" — combining technical credibility checks with practical sector insights and decision-facing guidance.
+
+He assessed researcher degrees of freedom, data robustness, and assumptions — while interpreting what results mean for fundraisers' measurement choices and advertising budgets.
+
+The goal: help high-impact charities optimize advertising by clarifying direct returns and potential crowding-out effects on related causes.
+
+🥈 SECOND PRIZE: Eleanor Tsai
+Evaluated "Maternal Cash Transfers for Gender Equity and Child Development: Experimental Evidence from India"
+
+Tsai "takes a large, rigorous RCT seriously" — focusing on what decision-makers care about: measurement validity, interpretation accuracy, and real-world applicability.
+
+Her approach treated the research seriously while stress-testing comparisons and questioning practical implementation in development policy contexts.
+
+🥈 SECOND PRIZE: Cannon Cloud
+Evaluated "Global Potential for Natural Regeneration in Deforested Tropical Regions"
+
+Cloud showed "tremendous effort, follow-through, and specific technical insight" — going "well beyond surface-level review."
+
+He raised substantive methodological concerns: temporal data leakage (predictors derived from outcomes, leading to "overly optimistic estimates"), outdated forest data, and potential confounding.
+
+Cloud engaged in collaborative dialogue with the co-evaluator and maintains ongoing conversations with authors — exemplifying productive scholarly engagement through open evaluation.
+
+🎖️ HONORABLE MENTION: Greg Lewis
+Evaluated "The Returns to Science in the Presence of Technological Risks"
+
+Lewis made "the clearest case" that the paper's framing unfairly compared all benefits of science against only biotechnology risks — while omitting other technological dangers like AI.
+
+He proposed a constructive solution: narrow to bioscience benefits for a fairer "like for like" comparison. The author praised this as "quite a good critique" and added new calculations in response.
+
+🎖️ HONORABLE MENTION: Matthew Jané
+Evaluated a meta-analysis on meat consumption interventions.
+
+Jané "acknowledged the authors' efforts while providing substantive, clearly articulated criticisms alongside specific recommendations" — aiming to strengthen the methodology.
+
+🎖️ Three anonymous reviewers provided strong evaluations: one emphasized external validity concerns in Kenya's UBI experiment; another brought clinical expertise to mental health cost-effectiveness analysis.
+
+Why reward peer review? Evaluation is essential infrastructure for good research — yet it's often invisible and unpaid. We want to change that.
+
+Public expert review improves evidence quality and can inform major funders' decisions. Open dialogue between evaluators and authors exemplifies how scholarship should work.
+
+The Unjournal pays evaluators ~$450/review. We believe rigorous peer review deserves real recognition and compensation.
+
+Interested in evaluating? Learn more at unjournal.org
+→ info.unjournal.org/evaluator-prizes-2024-25

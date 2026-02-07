@@ -1,0 +1,45 @@
+🏆 The Unjournal's 2024-25 Evaluator Prizes
+
+We're recognizing 8 expert peer reviewers for outstanding evaluation work — assessing others' research with rigor and transparency. $6,500 in prizes.
+
+These are evaluators, not the original authors. 🧵
+
+🥇 FIRST PRIZE ($2,000): @EdoardoMasset & Hugh Waddington
+
+Evaluated: "Water Treatment & Child Mortality: A Meta-analysis"
+
+They identified missing studies, caught protocol deviations, and flagged methodological fragility in the headline results. @GiveWell called their review "very influential."
+
+🥈 SECOND PRIZE: @david_reiley ($1,000)
+
+Evaluated: "Does Online Fundraising Increase Charitable Giving?"
+
+Applied technical credibility checks + deep sector knowledge of digital advertising economics. Provided actionable critique that strengthens the evidence base.
+
+🥈 SECOND PRIZE: Eleanor Tsai ($1,000)
+
+Evaluated: "Maternal Cash Transfers for Gender Equity & Child Development"
+
+Carefully assessed measurement validity, interpretation issues, and real-world contextual factors in this RCT on conditional transfers.
+
+🥈 SECOND PRIZE: Cannon Cloud ($1,000)
+
+Evaluated: "Global Potential for Natural Regeneration in Deforested Tropical Regions"
+
+Caught critical technical issues: temporal data leakage and model overfitting that could undermine the study's reforestation potential estimates.
+
+🎖️ HONORABLE MENTIONS:
+
+• Matthew Jané — animal welfare intervention meta-analysis
+• Gregory Lewis — tech risks & returns to science
+• 3 anonymous reviewers — UBI (Kenya), climate/GDP, mental health
+
+Each provided constructive expert critique.
+
+Why open evaluation matters:
+
+When expert reviewers publicly assess research, they catch issues that improve evidence quality. Sometimes this informs major funders' decisions.
+
+We pay evaluators ~$450/review because peer review deserves recognition.
+
+→ info.unjournal.org/evaluator-prizes-2024-25/
