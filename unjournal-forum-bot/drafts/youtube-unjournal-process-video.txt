@@ -5,28 +5,28 @@ TITLE:
 The Unjournal Process: How We Evaluate Research (Part 1)
 
 DESCRIPTION:
-How does The Unjournal evaluate research? This video walks through our six-step process for rigorous, transparent peer review.
+How does The Unjournal evaluate research? This video walks through our six-step process for rigorous, transparent peer review. This video was read and produced by an Unjournal field specialist.
 
-📋 THE PROCESS:
-1. Research submission & prioritization by field specialists
-2. Evaluation manager recruits expert reviewers
+THE PROCESS:
+1. Research curation/identification/submission, prioritization by field specialists on our team
+2. Evaluation manager recruits expert evaluators (reviewers)
 3. Detailed evaluation reports with quantitative ratings
-4. Author response before publication
+4. Author response, evaluators can adjust
 5. Manager synthesis and summary
-6. Public dissemination with DOIs
+6. Public dissemination (pubpub, academic databases) with DOIs
 
-🔑 KEY FEATURES:
-• Evaluators are compensated ($350-$450 per review)
+KEY FEATURES:
+• Evaluators are compensated (~avg. $350-$450 per review)
 • 3-5 week evaluation timelines
-• Benchmarked ratings across quality dimensions
-• Anonymous or signed evaluation options
+• Benchmarked ratings; overall across criteria
+• Anonymous or signed evaluations
 • All materials publicly accessible with DOIs
 
 The Unjournal provides open, rigorous evaluation of quantitative research — especially economics, policy, and social science relevant to global priorities.
 
-📚 Learn more: https://unjournal.org
-📊 See our evaluations: https://unjournal.pubpub.org
-📖 Full documentation: https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/
+Learn more: https://unjournal.org
+See our evaluations: https://unjournal.pubpub.org
+Full documentation: https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/
 
 #OpenScience #PeerReview #AcademicResearch #Economics #ResearchEvaluation
 
@@ -37,15 +37,10 @@ open science, peer review, research evaluation, academic publishing, economics r
 
 ---
 
-THUMBNAIL TEXT SUGGESTION:
-"How We Evaluate Research" or "The Unjournal Process"
-
----
-
 CATEGORY:
 Education or Science & Technology
 
 ---
 
 PLAYLIST:
-The Unjournal Explained (create new playlist)
+The Unjournal Explained

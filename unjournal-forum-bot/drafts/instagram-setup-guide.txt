@@ -1,0 +1,103 @@
+INSTAGRAM SETUP GUIDE FOR THE UNJOURNAL
+========================================
+
+Note: Account creation requires phone app.
+
+STEP 1: CREATE ACCOUNT (on phone)
+---------------------------------
+1. Download Instagram app
+2. Sign up with contact@unjournal.org
+3. Username options (check availability):
+   - unjournal (ideal)
+   - theunjournal
+   - unjournal_org
+4. Full name: "The Unjournal"
+
+STEP 2: CONVERT TO BUSINESS ACCOUNT
+-----------------------------------
+1. Settings → Account → Switch to Professional Account
+2. Select "Business" (not Creator)
+3. Category: "Science, Technology & Engineering" or "Education"
+4. Connect to a Facebook Page (create one if needed — required for API/dlvr.it)
+
+STEP 3: PROFILE SETUP
+---------------------
+Profile photo: Unjournal logo (same as other platforms)
+
+Bio (150 chars max):
+  Open peer evaluation of impactful research
+  Economics • Policy • Global priorities
+  New video ↓
+
+Website: https://unjournal.org
+Contact: contact@unjournal.org
+
+STEP 4: CONNECT TO DLVR.IT
+--------------------------
+1. Log into dlvr.it
+2. Destinations → Add New → Instagram
+3. Authorize via Facebook
+4. Add to existing route or create new one for visual content
+
+Note: Instagram requires image/video with every post. dlvr.it can auto-generate
+thumbnails from YouTube links, or you can attach custom images.
+
+
+CONTENT STRATEGY
+================
+
+1. YouTube Video Clips (Reels)
+   - Repost YouTube videos as Reels (under 90 seconds)
+   - Caption: Brief description + "Full video: link in bio"
+
+2. Quote Cards
+   - Compelling quotes from evaluations
+   - Simple design: quote on solid background with branding
+
+3. Evaluation Announcements
+   - Image: Paper title + key rating
+   - Caption: Findings, significance, link to evaluation
+
+4. Infographics
+   - Mermaid diagrams as images
+   - 6-step process as carousel
+   - "How We Rate Research" explainer
+
+5. Behind-the-Scenes
+   - Team updates, events, milestones
+
+
+FIRST 5 POSTS (suggested)
+=========================
+
+1. Introduction post
+   Image: Unjournal logo or branded graphic
+   Caption: "We're The Unjournal — providing open, rigorous evaluation of
+   research that matters. No gatekeeping, no publication bias. Just transparent
+   peer review with quantitative ratings. More at link in bio."
+
+2. The Unjournal Process video (Reel)
+   Upload the 2-minute YouTube video directly
+   Caption: "How does open peer evaluation work? Our 6-step process in
+   2 minutes. Full video on YouTube — link in bio."
+
+3. Evaluator Prizes announcement
+   Image: Graphic with prize winner names
+   Caption: Brief announcement + link
+
+4. Quote card from standout evaluation
+   Compelling finding from a top evaluation
+   Caption: Context + link to full evaluation
+
+5. Carousel: What We Evaluate
+   4-5 slides: global health, animal welfare, climate economics, AI policy, etc.
+   Caption: "Research that informs decisions on the world's most pressing problems."
+
+
+LIMITATIONS TO KNOW
+===================
+- Links aren't clickable in captions (only in bio)
+- Every post needs an image or video (no text-only)
+- Reels max 90 seconds
+- Stories disappear after 24 hours
+- "Link in bio" is standard workaround for sharing URLs
