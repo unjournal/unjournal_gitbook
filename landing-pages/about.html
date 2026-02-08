@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About The Unjournal — Open Evaluation of Impactful Research</title>
+  <meta name="description" content="The Unjournal provides rigorous, public evaluation of quantitative research informing global priorities. We are not a journal — we're something better.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="About The Unjournal — Open Evaluation of Impactful Research">
+  <meta property="og:description" content="Making rigorous research more impactful and impactful research more rigorous.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #0d2137 100%);
+      color: var(--white);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 30% 70%, rgba(46,134,193,0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 70% 30%, rgba(46,134,193,0.08) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      opacity: 0.75;
+      margin-bottom: 0.5rem;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.25;
+      position: relative;
+    }
+
+    header p.subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto;
+      font-style: italic;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.7rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      margin-top: 1.25rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* Nutshell callout */
+    .nutshell {
+      background: linear-gradient(135deg, #eaf2f8 0%, #d4e6f1 100%);
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .nutshell h2 {
+      border-bottom: none;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .nutshell .tagline {
+      font-size: 1.3rem;
+      font-family: 'Libre Baskerville', Georgia, serif;
+      color: var(--primary);
+      font-style: italic;
+      margin-bottom: 1.25rem;
+    }
+
+    .nutshell p {
+      max-width: 700px;
+      margin: 0 auto 1rem;
+      text-align: left;
+    }
+
+    /* What cards */
+    .what-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .what-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .what-card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+
+    .what-card .icon {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .what-card h3 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.4rem;
+    }
+
+    .what-card p {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    /* How different */
+    .different-box {
+      background: var(--light-bg);
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 1.5rem 0;
+    }
+
+    .different-box h3 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .different-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .diff-item {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-start;
+    }
+
+    .diff-item .check {
+      color: #27ae60;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+
+    .diff-item p {
+      font-size: 0.92rem;
+      margin-bottom: 0;
+    }
+
+    /* Stats */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .stat { text-align: center; }
+
+    .stat .number {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: block;
+    }
+
+    .stat .label {
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    /* Topics grid */
+    .topics-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+
+    .topic-tag {
+      display: inline-block;
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      background: var(--light-bg);
+      color: var(--primary);
+      border: 1px solid var(--border);
+    }
+
+    /* Involvement grid */
+    .involve-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.1rem;
+      margin: 1.25rem 0;
+    }
+
+    .involve-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+
+    .involve-card:hover {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+    .involve-card .icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .involve-card h4 {
+      font-size: 1rem;
+      color: var(--primary);
+      margin-bottom: 0.4rem;
+    }
+
+    .involve-card p {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+    }
+
+    .involve-link {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.4rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: background 0.2s;
+    }
+
+    .involve-link:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    /* CTA */
+    .cta-section {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: var(--light-bg);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .cta-section h2 {
+      display: block;
+      border-bottom: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-section p {
+      color: var(--text-light);
+      max-width: 560px;
+      margin: 0 auto 1.25rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.7rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 0.35rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    .cta-button.secondary {
+      background: var(--white);
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+
+    .cta-button.secondary:hover { background: var(--light-bg); color: var(--accent); }
+
+    /* Source link */
+    .source-link {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin: 2rem 0 0;
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    .source-link a {
+      font-weight: 600;
+    }
+
+    /* Section divider */
+    .section-divider {
+      border: none;
+      height: 1px;
+      background: var(--border);
+      margin: 2.5rem 0;
+    }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.7rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .what-grid { grid-template-columns: 1fr; }
+      .different-grid { grid-template-columns: 1fr; }
+      .involve-grid { grid-template-columns: 1fr; }
+      .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
+      .nutshell { padding: 1.5rem; }
+      .nutshell .tagline { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 60px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>About The Unjournal</h1>
+  <p class="subtitle">"Making rigorous research more impactful and impactful research more rigorous."</p>
+</header>
+
+<nav>
+  <a href="#nutshell">In a Nutshell</a>
+  <a href="#what">What We Do</a>
+  <a href="#how">How We're Different</a>
+  <a href="#topics">Research Areas</a>
+  <a href="#involved">Get Involved</a>
+</nav>
+
+<main>
+
+  <div class="nutshell" id="nutshell">
+    <h2>In a Nutshell</h2>
+    <div class="tagline">We are not a journal.</div>
+    <p>The Unjournal is an independent, nonprofit organization that coordinates <strong>expert public evaluation</strong> of research papers and projects. We publish evaluations, quantitative ratings, and author responses openly&mdash;creating transparent credibility signals for funders, policymakers, and other researchers.</p>
+    <p>We specifically target <strong>quantitative work that informs global priorities</strong> in economics, social science, and policy. Unlike traditional journals, researchers can submit work to us while simultaneously pursuing traditional publication. We charge no fees and compensate evaluators for their time.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="number">100+</span>
+      <span class="label">Evaluations completed</span>
+    </div>
+    <div class="stat">
+      <span class="number">53</span>
+      <span class="label">Research papers assessed</span>
+    </div>
+    <div class="stat">
+      <span class="number">100+</span>
+      <span class="label">Expert evaluators</span>
+    </div>
+    <div class="stat">
+      <span class="number">$0</span>
+      <span class="label">Submission fees</span>
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <section id="what">
+    <h2>What We Do</h2>
+
+    <div class="what-grid">
+
+      <div class="what-card">
+        <div class="icon">&#128270;</div>
+        <h3>Commission Evaluations</h3>
+        <p>We identify and select high-impact research, then engage qualified experts to provide rigorous, detailed assessments.</p>
+      </div>
+
+      <div class="what-card">
+        <div class="icon">&#128200;</div>
+        <h3>Quantitative Ratings</h3>
+        <p>Evaluators provide ratings across multiple dimensions: overall quality, methods, relevance, and communication&mdash;with confidence bounds.</p>
+      </div>
+
+      <div class="what-card">
+        <div class="icon">&#128214;</div>
+        <h3>Publish Everything</h3>
+        <p>Evaluations, ratings, and author responses are published on PubPub with DOIs, indexed in scholarly databases.</p>
+      </div>
+
+    </div>
+
+    <div class="highlight-box">
+      <strong>Our platform:</strong> All evaluations are publicly available at <a href="https://unjournal.pubpub.org/" target="_blank" rel="noopener">unjournal.pubpub.org</a>. Explore our ratings and data through our <a href="https://unjournal.shinyapps.io/uj-dashboard/" target="_blank" rel="noopener">interactive dashboard</a>.
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>How We're Different</h2>
+
+    <div class="different-box">
+      <h3>Not a journal. Something better.</h3>
+      <div class="different-grid">
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>Non-exclusive:</strong> Submit to us and traditional journals simultaneously</p>
+        </div>
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>No formatting:</strong> We evaluate research, not document styling</p>
+        </div>
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>Paid evaluators:</strong> $300+ per evaluation, plus prizes for quality work</p>
+        </div>
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>Public transparency:</strong> Evaluations visible to all, not hidden in inboxes</p>
+        </div>
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>Quantitative ratings:</strong> Nuanced signals beyond binary accept/reject</p>
+        </div>
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>Author responses:</strong> Public dialogue, not private revision cycles</p>
+        </div>
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>No fees:</strong> 501(c)(3) nonprofit, funded by grants</p>
+        </div>
+        <div class="diff-item">
+          <span class="check">&#10003;</span>
+          <p><strong>Impact focus:</strong> We prioritize real-world relevance over novelty</p>
+        </div>
+      </div>
+    </div>
+
+    <p>Operating as a 501(c)(3) nonprofit, The Unjournal is funded by organizations including the Effective Altruism Infrastructure Fund and Long-Term Future Fund. We charge no submission fees. All compensation to evaluators and prizes for quality work come from grants.</p>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="topics">
+    <h2>Research Areas</h2>
+    <p>We focus on quantitative research informing global priorities, especially in these areas:</p>
+
+    <div class="topics-grid">
+      <span class="topic-tag">Global Health</span>
+      <span class="topic-tag">Development Economics</span>
+      <span class="topic-tag">Animal Welfare</span>
+      <span class="topic-tag">Climate &amp; Environment</span>
+      <span class="topic-tag">Catastrophic Risk</span>
+      <span class="topic-tag">Institutional Reform</span>
+      <span class="topic-tag">AI Governance</span>
+      <span class="topic-tag">Technology &amp; Society</span>
+      <span class="topic-tag">Evidence-Based Policy</span>
+      <span class="topic-tag">Charitable Giving</span>
+      <span class="topic-tag">Forecasting</span>
+      <span class="topic-tag">Meta-Science</span>
+    </div>
+
+    <p>We're particularly interested in research that could inform high-stakes decisions by funders, policymakers, and organizations working on pressing global challenges. See our <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects" target="_blank" rel="noopener">prioritization guidelines</a> for more detail.</p>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="involved">
+    <h2>Get Involved</h2>
+    <p>The Unjournal welcomes contributions from researchers, evaluators, and anyone passionate about improving how research is assessed.</p>
+
+    <div class="involve-grid">
+
+      <div class="involve-card">
+        <div class="icon">&#128196;</div>
+        <h4>Submit Research</h4>
+        <p>Submit your work or suggest papers for evaluation. Non-exclusive&mdash;publish anywhere else too.</p>
+        <a href="https://bit.ly/UJsubmit" class="involve-link" target="_blank" rel="noopener">Submit</a>
+      </div>
+
+      <div class="involve-card">
+        <div class="icon">&#9997;</div>
+        <h4>Become an Evaluator</h4>
+        <p>PhD or equivalent? Get paid $300+ per evaluation. Your reviews are published and citable.</p>
+        <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="involve-link" target="_blank" rel="noopener">Join</a>
+      </div>
+
+      <div class="involve-card">
+        <div class="icon">&#127891;</div>
+        <h4>Join Our Team</h4>
+        <p>Interested in management, advisory, or operational roles? We're growing.</p>
+        <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="involve-link" target="_blank" rel="noopener">Connect</a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="cta-section">
+    <h2>Explore Our Work</h2>
+    <p>See our evaluations, browse the data, and learn more about how we're changing research assessment.</p>
+    <a href="https://unjournal.pubpub.org/" class="cta-button">Browse Evaluations</a>
+    <a href="https://unjournal.shinyapps.io/uj-dashboard/" class="cta-button secondary">Interactive Dashboard</a>
+    <a href="https://info.unjournal.org/follow" class="cta-button secondary">Follow Us</a>
+  </div>
+
+  <div class="source-link">
+    <strong>Source:</strong> This page summarizes content from our full documentation. <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1" target="_blank" rel="noopener">Read the complete About &amp; Team documentation</a>.
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>

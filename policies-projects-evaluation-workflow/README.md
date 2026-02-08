@@ -6,6 +6,14 @@ description: >-
 
 # Our policies: evaluation & workflow
 
+{% hint style="info" %}
+**Video overview:** Two minute overview of our 6-step evaluation process.
+{% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=ZCSeAmzMB50" %}
+The Unjournal Process: How We Evaluate Research
+{% endembed %}
+
 ### 1. Project submission, selection and prioritization
 
 People and organizations submit their own research or suggest research they believe may be high-impact. The Unjournal also directly monitors key sources of research and research agendas. Our team then systematically _prioritizes_ this research for evaluation.  _See the link below for further details._

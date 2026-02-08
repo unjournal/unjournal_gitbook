@@ -3,6 +3,10 @@
 The flowchart below focuses on the _evaluation_ part of our process in detail. See [mapping-evaluation-workflow.md](mapping-evaluation-workflow.md "mention") for a more condensed flowchart.
 
 {% hint style="info" %}
+**Video overview:** Two minute overview of our 6-step evaluation process.
+{% embed url="https://www.youtube.com/watch?v=ZCSeAmzMB50" %}
+{% endembed %}
+
 **Interactive presentation:** For a visual walk-through of our evaluation process, see our [step-by-step slide presentation](https://unjournal.github.io/unjournal_gitbook/reveal-evaluation-process.html) (use arrow keys to navigate).
 {% endhint %}
 
