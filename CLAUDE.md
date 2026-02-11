@@ -31,6 +31,9 @@ GitBook uses custom syntax including:
 
 ### Pages
 - `landing-pages/index.html` — General Unjournal overview
+- `landing-pages/about.html` — "In a Nutshell" overview of The Unjournal
+- `landing-pages/benefits.html` — Benefits & features of journal-independent evaluation
+- `landing-pages/for-authors.html` — FAQ and information for researchers/authors
 - `landing-pages/forecasting-tournament.html` — Animal welfare forecasting tournament (with Metaculus)
 - `landing-pages/forecasting-tournament-thanks.html` — Post-signup confirmation
 - `landing-pages/follow.html` — Social media, news, and engagement hub
@@ -63,6 +66,19 @@ The Unjournal maintains a style guide for documentation consistency: https://doc
 - **Shiny dashboard**: `https://unjournal.shinyapps.io/uj-dashboard/`
 - **Main website**: `https://unjournal.org`
 - **Ad Grant landing pages**: `https://info.unjournal.org`
+
+## Domain & Hosting Infrastructure
+
+### Domain Registration
+- **Registrar**: Squarespace Domains (migrated from Google Domains in 2023)
+- **DNS Management**: Google Workspace Admin — https://admin.google.com/ac/domains/ (login with contact@unjournal.org)
+- **Domain registered**: October 2022
+
+### info.unjournal.org Hosting
+- **Server**: Linode VPS at `45.79.160.157`
+- **Web server**: Nginx
+- **Document root**: `/var/www/info.unjournal.org/`
+- **Deploy**: SCP files to server, Nginx serves them automatically
 
 ## Content Maintenance Notes
 

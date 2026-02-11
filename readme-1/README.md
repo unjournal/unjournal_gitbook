@@ -4,6 +4,10 @@ coverY: 0
 
 # An Introduction to The Unjournal
 
+{% hint style="info" %}
+**Quick links:** [About landing page](https://info.unjournal.org/about.html) | [For authors](https://info.unjournal.org/for-authors.html) | [For evaluators](https://info.unjournal.org/for-evaluators.html) | [All info pages](https://info.unjournal.org/)
+{% endhint %}
+
 ## In a nutshell
 
 _The Unjournal_ seeks to make rigorous research more impactful and impactful research more rigorous. We are a [team of researchers](https://www.unjournal.org/team), practitioners, and open science advocates led by [David Reinstein](https://www.davidreinstein.org/).&#x20;

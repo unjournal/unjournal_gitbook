@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News &amp; Updates — The Unjournal</title>
+  <meta name="description" content="Latest news, announcements, and updates from The Unjournal — open evaluation of impactful research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="News & Updates — The Unjournal">
+  <meta property="og:description" content="Latest announcements and updates from The Unjournal.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 800px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    /* News items */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .news-item {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .news-item:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+
+    .news-item .date {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .news-item h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+    }
+
+    .news-item h3 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .news-item h3 a:hover {
+      color: var(--accent);
+    }
+
+    .news-item p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 0;
+      line-height: 1.6;
+    }
+
+    .news-item .tag {
+      display: inline-block;
+      background: var(--light-bg);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Year sections */
+    .year-section {
+      margin-bottom: 2.5rem;
+    }
+
+    .year-section h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Follow CTA */
+    .follow-cta {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .follow-cta p {
+      margin-bottom: 1rem;
+    }
+
+    .follow-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .follow-links a {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.5rem 1.25rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.2s;
+    }
+
+    .follow-links a:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.6rem; }
+      header p.subtitle { font-size: 1rem; }
+      .follow-links { flex-direction: column; align-items: center; }
+      .follow-links a { width: 200px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>News &amp; Updates</h1>
+  <p class="subtitle">Announcements, milestones, and updates from The Unjournal.</p>
+</header>
+
+<nav style="background: #fff; border-bottom: 1px solid #d5dbdb; padding: 0.75rem 1.5rem; text-align: center;">
+  <a href="index.html" style="color: #2e86c1; text-decoration: none; margin: 0 0.7rem; font-size: 0.92rem; font-weight: 500;">Home</a>
+  <a href="index.html#explore" style="color: #2e86c1; text-decoration: none; margin: 0 0.7rem; font-size: 0.92rem; font-weight: 500;">All Pages</a>
+</nav>
+
+<main>
+
+  <div class="year-section">
+    <h2>2026</h2>
+    <div class="news-list">
+
+      <div class="news-item">
+        <div class="date">February 9, 2026</div>
+        <h3><a href="evaluator-prizes-2024-25.html">2024-25 Evaluator Prize Winners Announced</a></h3>
+        <span class="tag">Prizes</span>
+        <p>We're excited to announce the winners of our 2024-25 Evaluator Prizes, recognizing exceptional contributions to rigorous, open evaluation of impactful research.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="year-section">
+    <h2>2025</h2>
+    <div class="news-list">
+
+      <div class="news-item">
+        <div class="date">December 23, 2025</div>
+        <h3>Evaluator Prize Nominations Open</h3>
+        <span class="tag">Prizes</span>
+        <p>We invite community feedback on evaluator nominations for the 2024-25 period. Help us recognize outstanding evaluation work.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="date">December 4, 2025</div>
+        <h3>Stakeholder Feedback Initiative</h3>
+        <span class="tag">Community</span>
+        <p>We're requesting input from our community to help measure and enhance our organizational impact. Your feedback shapes our direction.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="date">November 3, 2025</div>
+        <h3>Authoritarianism Research Discussion</h3>
+        <span class="tag">Research</span>
+        <p>A field specialist discusses our evaluations of research exploring whether people prefer authoritarian regimes or underestimate their costs.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="date">August 7, 2025</div>
+        <h3>2025 Evaluator Incentives Announced</h3>
+        <span class="tag">Evaluators</span>
+        <p>We've announced compensation for expert evaluators, averaging $450 per evaluation including various incentives and prizes.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="year-section">
+    <h2>2024</h2>
+    <div class="news-list">
+
+      <div class="news-item">
+        <div class="date">August 21, 2024</div>
+        <h3>Workshop Support: University of Cape Coast, Ghana</h3>
+        <span class="tag">Events</span>
+        <p>The Unjournal supported a data management and open evaluations workshop at the University of Cape Coast, advancing open science practices in Ghana.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="date">August 20, 2024</div>
+        <h3>New Pilot Projects Launch</h3>
+        <span class="tag">Initiatives</span>
+        <p>We launched two new initiatives: <a href="pivotal-questions.html">Pivotal Questions</a> and Independent Evaluations, expanding how we connect research to real-world decisions.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="date">May 24, 2024</div>
+        <h3>Call for Evaluators</h3>
+        <span class="tag">Evaluators</span>
+        <p>Open recruitment for researchers and academics interested in evaluation work. Join our growing network of expert evaluators.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="date">March 2024</div>
+        <h3>Research &amp; Open Science Events</h3>
+        <span class="tag">Events</span>
+        <p>Multiple announcements of co-hosted research and open science events throughout the spring.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="follow-cta">
+    <p><strong>Stay updated:</strong> Follow us on social media for the latest news and announcements.</p>
+    <div class="follow-links">
+      <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a>
+      <a href="https://www.linkedin.com/company/the-unjournal/">LinkedIn</a>
+      <a href="https://www.youtube.com/@theunjournal">YouTube</a>
+      <a href="follow.html">All Channels</a>
+    </div>
+  </div>
+
+  <p style="text-align: center; color: var(--text-light); font-size: 0.9rem; margin-top: 2rem;">
+    For a complete archive of updates, see our <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/" target="_blank">GitBook documentation</a>.
+  </p>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>

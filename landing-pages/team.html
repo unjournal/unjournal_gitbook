@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team — The Unjournal</title>
+  <meta name="description" content="Meet The Unjournal's management team, advisory board, and field specialists advancing open evaluation of impactful research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="Our Team — The Unjournal">
+  <meta property="og:description" content="Meet the people behind The Unjournal's mission to advance open science.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 1000px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.7rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 3rem; }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    /* Team grid */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .team-member {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .team-member:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+
+    .team-member .name {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .team-member .role {
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 0.35rem;
+    }
+
+    .team-member .affiliation {
+      color: var(--text-light);
+      font-size: 0.88rem;
+      font-style: italic;
+    }
+
+    /* Compact list for large groups */
+    .specialist-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 0.75rem;
+      margin: 1rem 0;
+    }
+
+    .specialist {
+      padding: 0.6rem 0.9rem;
+      background: var(--light-bg);
+      border-radius: 5px;
+      font-size: 0.92rem;
+    }
+
+    .specialist .name {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .specialist .affiliation {
+      color: var(--text-light);
+      font-size: 0.85rem;
+    }
+
+    /* Category sections */
+    .category-section {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .category-section h3 {
+      margin-top: 0;
+      font-size: 1rem;
+      color: var(--accent);
+    }
+
+    /* CTA section */
+    .cta-section {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      background: var(--primary);
+      color: var(--white);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .cta-section h2 {
+      color: var(--white);
+      border-bottom-color: #85c1e9;
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-section p {
+      opacity: 0.9;
+      max-width: 560px;
+      margin: 0 auto 1.25rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.75rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin: 0.35rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.6rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .team-grid { grid-template-columns: 1fr; }
+      .specialist-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>Our Team</h1>
+  <p class="subtitle">The researchers, advisors, and field specialists advancing open evaluation of impactful research.</p>
+</header>
+
+<nav>
+  <a href="#management">Management</a>
+  <a href="#advisory">Advisory Board</a>
+  <a href="#specialists">Field Specialists</a>
+  <a href="#join">Join Us</a>
+  <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
+</nav>
+
+<main>
+
+  <section id="management">
+    <h2>Management Team</h2>
+    <p>The core team coordinating The Unjournal's operations, research prioritization, and evaluator network.</p>
+
+    <div class="team-grid">
+      <div class="team-member">
+        <div class="name">David Reinstein</div>
+        <div class="role">Founding Director</div>
+        <div class="affiliation">Rethink Priorities</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Anirudh Tagat</div>
+        <div class="role">Co-Director</div>
+        <div class="affiliation">Monk Prayogshala</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Gavin Taylor</div>
+        <div class="role">Former Co-Director</div>
+        <div class="affiliation">RF Antivirals</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Bob Kubinec</div>
+        <div class="role">Management Team</div>
+        <div class="affiliation">University of South Carolina</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Hansika Kapoor</div>
+        <div class="role">Management Team</div>
+        <div class="affiliation">Monk Prayogshala</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Ryan Briggs</div>
+        <div class="role">Management Team</div>
+        <div class="affiliation">University of Guelph</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Alexander Herwix</div>
+        <div class="role">Management Team</div>
+        <div class="affiliation">Cologne Institute for Information Systems</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="advisory">
+    <h2>Advisory Board</h2>
+    <p>Distinguished researchers providing strategic guidance on evaluation standards, research priorities, and organizational direction.</p>
+
+    <div class="team-grid">
+      <div class="team-member">
+        <div class="name">Andrew Gelman</div>
+        <div class="affiliation">Columbia University</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Sam Abbott</div>
+        <div class="affiliation">London School of Hygiene and Tropical Medicine</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Anca Hanea</div>
+        <div class="affiliation">University of Melbourne</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Jordan Dworkin</div>
+        <div class="affiliation">Open Philanthropy</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Michael Wiebe</div>
+        <div class="affiliation">University of British Columbia</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Lorenzo Pacchiardi</div>
+        <div class="affiliation">University of Cambridge</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Stuart Buck</div>
+        <div class="affiliation">Good Science Project</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Michael Harre</div>
+        <div class="affiliation">University of Sydney</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Demetrius Floudas</div>
+        <div class="affiliation">University of Cambridge</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Sarah Reynolds</div>
+        <div class="affiliation">University of California, Berkeley</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Don A. Moore</div>
+        <div class="affiliation">Haas School of Business, UC Berkeley</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Kris Gulati</div>
+        <div class="affiliation">University of California, Berkeley</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Tanya O'Garra</div>
+        <div class="affiliation">Imperial College London</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Paolo Crosetto</div>
+        <div class="affiliation">INRAE</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Emmanuel Orkoh</div>
+        <div class="affiliation">The Nordic Africa Institute</div>
+      </div>
+
+      <div class="team-member">
+        <div class="name">Davit Jintcharadze</div>
+        <div class="role">Former Operations Manager</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="specialists">
+    <h2>Field Specialists &amp; Research Affiliates</h2>
+    <p>Over 50 researchers across multiple domains help us identify, prioritize, and evaluate impactful research. Our field specialists provide expertise in:</p>
+
+    <div class="category-section">
+      <h3>Development Economics &amp; Global Health</h3>
+      <p>Researchers focusing on poverty alleviation, health interventions, education, and development policy in low- and middle-income countries.</p>
+    </div>
+
+    <div class="category-section">
+      <h3>Environmental Economics &amp; Climate</h3>
+      <p>Specialists in climate policy, conservation, environmental regulation, and the economics of sustainability.</p>
+    </div>
+
+    <div class="category-section">
+      <h3>Behavioral Science &amp; Psychology</h3>
+      <p>Experts in decision-making, social psychology, other-regarding preferences, and behavioral interventions.</p>
+    </div>
+
+    <div class="category-section">
+      <h3>AI Governance &amp; Technology Policy</h3>
+      <p>Researchers studying the social impact of AI, technology regulation, and emerging technology governance.</p>
+    </div>
+
+    <div class="category-section">
+      <h3>Animal Welfare</h3>
+      <p>Specialists in animal welfare economics, attitudes research, and market dynamics affecting animal wellbeing.</p>
+    </div>
+
+    <div class="category-section">
+      <h3>Catastrophic &amp; Existential Risk</h3>
+      <p>Researchers working on long-term risks, forecasting, and interventions for civilizational resilience.</p>
+    </div>
+
+    <div class="category-section">
+      <h3>Meta-Science &amp; Research Methods</h3>
+      <p>Experts in research methodology, replication, statistical methods, and the science of science.</p>
+    </div>
+
+    <p style="margin-top: 1.5rem;">For a complete list of our field specialists and research affiliates, see our <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team" target="_blank">full team documentation</a>.</p>
+  </section>
+
+  <div class="cta-section" id="join">
+    <h2>Join Our Team</h2>
+    <p>We're always looking for researchers who share our commitment to rigorous, open evaluation of impactful research.</p>
+    <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="cta-button">Become an Evaluator</a>
+    <a href="mailto:contact@unjournal.org" class="cta-button" style="background: transparent; border: 2px solid #85c1e9;">Get in Touch</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>

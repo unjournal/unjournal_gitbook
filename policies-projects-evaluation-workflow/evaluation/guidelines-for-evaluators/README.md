@@ -6,7 +6,7 @@ description: >-
 
 # Guidelines for evaluators
 
-_These guidelines apply to the publicly visible forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_), as well as to our (legacy) PubPub forms._
+_These guidelines apply to the publicly visible forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_), as well as to our (legacy) PubPub forms. You can also preview our [draft evaluation interface](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/) (in development, not yet in use)._
 
 {% hint style="info" %}
 Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
