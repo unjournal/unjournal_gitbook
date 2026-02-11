@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pivotal Questions — The Unjournal</title>
+  <meta name="description" content="The Unjournal's Pivotal Questions initiative: identifying high-value research questions from impact-focused organizations and linking them to rigorous evidence.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="Pivotal Questions — The Unjournal">
+  <meta property="og:description" content="Identifying the research questions that matter most for policy and funding decisions.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+      --highlight: #8e44ad;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #8e44ad 0%, #5b2c6f 100%);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--highlight);
+      text-decoration: none;
+      margin: 0 0.7rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--highlight);
+      display: inline-block;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      margin-top: 1.25rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--highlight); }
+    a:hover { text-decoration: underline; }
+
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--highlight);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .core-question {
+      background: linear-gradient(135deg, #f5eef8 0%, #ebdef0 100%);
+      border: 2px solid var(--highlight);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      text-align: center;
+    }
+
+    .core-question p {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #5b2c6f;
+      margin-bottom: 0;
+    }
+
+    /* Process steps */
+    .process-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .step {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .step-number {
+      width: 44px;
+      height: 44px;
+      background: var(--highlight);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .step-content {
+      flex: 1;
+      padding-top: 0.25rem;
+    }
+
+    .step-content h4 {
+      font-size: 1.05rem;
+      color: var(--primary);
+      margin-bottom: 0.35rem;
+    }
+
+    .step-content p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+
+    /* Benefits grid */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .benefit-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .benefit-card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      border-color: var(--highlight);
+    }
+
+    .benefit-card h3 {
+      font-size: 1.05rem;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      color: var(--highlight);
+    }
+
+    .benefit-card p {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0;
+      line-height: 1.55;
+    }
+
+    /* CTA */
+    .cta-section {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: linear-gradient(135deg, #8e44ad 0%, #5b2c6f 100%);
+      color: var(--white);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .cta-section h2 {
+      color: var(--white);
+      border-bottom-color: rgba(255,255,255,0.4);
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-section p {
+      opacity: 0.9;
+      max-width: 560px;
+      margin: 0 auto 1.25rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--white);
+      color: var(--highlight);
+      padding: 0.75rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin: 0.35rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #f5eef8; color: var(--highlight); text-decoration: none; }
+
+    .cta-button.secondary {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+
+    .cta-button.secondary:hover { background: rgba(255,255,255,0.1); }
+
+    /* Source link */
+    .source-link {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin: 2rem 0 0;
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    .source-link a {
+      font-weight: 600;
+    }
+
+    .section-divider {
+      border: none;
+      height: 1px;
+      background: var(--border);
+      margin: 2.5rem 0;
+    }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.6rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .benefits-grid { grid-template-columns: 1fr; }
+      .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>Pivotal Questions</h1>
+  <p class="subtitle">Identifying high-value research questions from impact-focused organizations and linking them to rigorous evidence.</p>
+</header>
+
+<nav>
+  <a href="#what">What Is This</a>
+  <a href="#approach">Our Approach</a>
+  <a href="#process">The Process</a>
+  <a href="#benefits">Who Benefits</a>
+  <a href="#database">Database</a>
+  <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
+</nav>
+
+<main>
+
+  <section id="what">
+    <h2>What Are Pivotal Questions?</h2>
+    <p>The Pivotal Questions (PQ) initiative represents a shift in how we approach impactful research evaluation. Rather than starting with papers and asking "is this good research?", we start with decision-makers and ask:</p>
+
+    <div class="core-question">
+      <p>"Which unanswered, quantifiable questions matter most to organizations' policy or funding choices?"</p>
+    </div>
+
+    <p>By identifying the questions that would actually change decisions&mdash;if answered&mdash;we can focus research attention where it matters most. We then connect these questions to existing research, commission expert evaluations, and synthesize the evidence for decision-makers.</p>
+
+    <div class="highlight-box">
+      <strong>The goal:</strong> Bridge the gap between research production and research use. Ensure that rigorous evidence reaches the people making high-stakes decisions about global priorities.
+    </div>
+  </section>
+
+  <section id="approach">
+    <h2>Our Approach</h2>
+    <p>Traditional research prioritization often follows academic incentives rather than real-world impact. The Pivotal Questions initiative flips this:</p>
+
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <h3>Demand-Driven</h3>
+        <p>We start with the questions organizations actually need answered, not with what researchers happen to study.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Decision-Relevant</h3>
+        <p>Every question must be tied to a specific decision context. If the answer wouldn't change behavior, it's not pivotal.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Quantifiable</h3>
+        <p>Questions are operationalized into measurable claims that can be evaluated against evidence.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Evidence-Linked</h3>
+        <p>We curate relevant research and commission expert evaluations to assess what the evidence actually says.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="process">
+    <h2>The Process</h2>
+
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h4>Eliciting Questions</h4>
+          <p>Impact-focused organizations submit succinct, quantifiable questions grounded in real decision contexts. What would they do differently if they knew the answer?</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h4>Selecting &amp; Refining</h4>
+          <p>Our specialists review submissions, gather public feedback, and operationalize claims for measurement. We prioritize questions with the highest decision-relevance.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h4>Linking Research</h4>
+          <p>Teams curate relevant existing research and commission expert evaluators to assess the evidence and its implications for the question.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h4>Stakeholder Engagement</h4>
+          <p>Feedback from researchers and organizations is synthesized into reports with aggregated estimates of the current state of evidence.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">5</div>
+        <div class="step-content">
+          <h4>Publication</h4>
+          <p>Findings are published openly with accessible summaries and visualizations designed for decision-makers, not just academics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="benefits">
+    <h2>Who Benefits?</h2>
+
+    <h3>Funders &amp; Grantmakers</h3>
+    <p>Get clarity on which research investments would most inform your giving strategy. Know what the evidence actually says about interventions you're considering.</p>
+
+    <h3>Policymakers</h3>
+    <p>Access synthesized evidence on questions that matter for policy decisions. Understand not just "what works" but "how confident should we be?"</p>
+
+    <h3>Researchers</h3>
+    <p>Discover which questions practitioners actually need answered. Increase the impact of your work by addressing decision-relevant gaps.</p>
+
+    <h3>Implementing Organizations</h3>
+    <p>Submit your own pivotal questions. Get rigorous evidence synthesis on the uncertainties that most affect your programs.</p>
+  </section>
+
+  <section id="database">
+    <h2>Browse Our Questions</h2>
+    <p>We maintain a public database of pivotal questions, their status, and the evidence we've gathered. Explore what we're working on and suggest new questions.</p>
+
+    <div class="highlight-box">
+      <strong>Public Database:</strong> View our <a href="https://coda.io/@unjournal/pivotal-questions-public" target="_blank">Pivotal Questions database on Coda</a> to see current questions, their origins, and progress.
+    </div>
+  </section>
+
+  <div class="cta-section">
+    <h2>Have a Pivotal Question?</h2>
+    <p>If your organization faces a decision that hinges on uncertain evidence, we want to hear from you. Submit your question for consideration.</p>
+    <a href="https://coda.io/form/Submit-a-Pivotal-Question_dW9Nzn8DGKJ" class="cta-button">Submit a Question</a>
+    <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/pivotal-questions" class="cta-button secondary">Learn More</a>
+  </div>
+
+  <div class="source-link">
+    <strong>Learn more:</strong> Read our full <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/pivotal-questions" target="_blank" rel="noopener">Pivotal Questions documentation</a> for detailed information about this initiative.
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>

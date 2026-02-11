@@ -182,12 +182,66 @@
 
     footer a { color: #85c1e9; }
 
+    .site-nav-section {
+      background: var(--primary);
+      color: var(--white);
+      padding: 2.5rem;
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .site-nav-section h2 {
+      color: var(--white);
+      border-bottom-color: #85c1e9;
+      margin-bottom: 1.5rem;
+    }
+
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+
+    .nav-category h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.1rem;
+      color: #85c1e9;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid rgba(133, 193, 233, 0.3);
+    }
+
+    .nav-category ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-category li {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .nav-category a {
+      color: #85c1e9;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-category a:hover {
+      text-decoration: underline;
+      color: var(--white);
+    }
+
     @media (max-width: 600px) {
       header h1 { font-size: 1.5rem; }
       header p { font-size: 1rem; }
       nav a { margin: 0 0.5rem; font-size: 0.85rem; }
       .stats { gap: 1.5rem; }
       .cta-button { display: block; margin: 0.5rem auto; max-width: 280px; }
+      .nav-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+      .site-nav-section { padding: 1.5rem; }
     }
   </style>
 </head>
@@ -209,6 +263,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="#authors">For Authors</a>
   <a href="#evaluators">For Evaluators</a>
   <a href="#evaluations">Our Evaluations</a>
+  <a href="#explore">Explore</a>
 </nav>
 
 <main>
@@ -290,6 +345,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="https://bit.ly/UJsubmit" class="cta-button">Submit Research</a>
     <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators" class="cta-button secondary">Become an Evaluator</a>
   </div>
+
+  <section id="explore" class="site-nav-section">
+    <h2>Explore Our Pages</h2>
+    <div class="nav-grid">
+      <div class="nav-category">
+        <h3>About The Unjournal</h3>
+        <ul>
+          <li><a href="about.html">About Us</a> — Mission and history</li>
+          <li><a href="team.html">Our Team</a> — Management, advisors, specialists</li>
+          <li><a href="benefits.html">Benefits &amp; Features</a> — What makes us different</li>
+          <li><a href="news.html">News &amp; Updates</a> — Announcements</li>
+          <li><a href="follow.html">Follow &amp; Connect</a> — Social media</li>
+          <li><a href="donate.html">Support Our Work</a> — Help us expand</li>
+        </ul>
+      </div>
+      <div class="nav-category">
+        <h3>For Researchers &amp; Evaluators</h3>
+        <ul>
+          <li><a href="for-authors.html">For Authors</a> — Submission guide and FAQ</li>
+          <li><a href="for-evaluators.html">For Evaluators</a> — Join our evaluator pool</li>
+          <li><a href="https://coda.io/form/Author-Submission-Form_dZ4MMytY7aI">Submit Your Research</a></li>
+          <li><a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/considering-projects">What We Look For</a></li>
+        </ul>
+      </div>
+      <div class="nav-category">
+        <h3>Initiatives &amp; Programs</h3>
+        <ul>
+          <li><a href="pivotal-questions.html">Pivotal Questions</a> — Decision-relevant research</li>
+          <li><a href="evaluator-prizes-2024-25.html">Evaluator Prizes 2024–25</a></li>
+          <li><a href="lottery.html">Prize Lottery System</a></li>
+          <li><a href="forecasting-tournament.html">Animal Welfare Forecasting</a></li>
+        </ul>
+      </div>
+      <div class="nav-category">
+        <h3>Key Resources</h3>
+        <ul>
+          <li><a href="https://unjournal.org">unjournal.org</a> — Main website</li>
+          <li><a href="https://unjournal.pubpub.org/">PubPub</a> — Published evaluations</li>
+          <li><a href="https://unjournal.shinyapps.io/uj-dashboard/">Dashboard</a> — Data and visualizations</li>
+          <li><a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/">GitBook</a> — Full documentation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
 </main>
 

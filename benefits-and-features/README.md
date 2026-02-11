@@ -2,6 +2,10 @@
 
 _What do we offer? How does it improve upon traditional academic review/publishing?_&#x20;
 
+{% hint style="info" %}
+**Visual overview:** See our [benefits landing page](https://info.unjournal.org/benefits.html) for an illustrated summary of what makes The Unjournal different.
+{% endhint %}
+
 [costs-of-playing-the-publication-game.md](costs-of-playing-the-publication-game.md "mention"): The Unjournal's process reduces the high costs and "gaming" associated with standard journal publication mechanisms.
 
 [promoting-open-robust-science.md](promoting-open-robust-science.md "mention"): We promote research replicability and robustness in line with the RRC agenda.

@@ -7,6 +7,10 @@ description: >-
 
 # For research authors
 
+{% hint style="info" %}
+**Quick overview:** See our [author landing page](https://info.unjournal.org/for-authors.html) for a visual summary of benefits, the submission process, and FAQ.
+{% endhint %}
+
 _You can fill out_ [_this form_](https://bit.ly/UJsubmit) _to submit your work, or email contact@unjournal.org with questions ._&#x20;
 
 ### How does The Unjournal's evaluation process work?&#x20;

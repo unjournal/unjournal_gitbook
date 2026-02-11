@@ -2,6 +2,10 @@
 
 _**Thanks for your interest in evaluating research for**_**&#x20;The Unjournal!**
 
+{% hint style="info" %}
+**Quick overview:** See our [evaluator landing page](https://info.unjournal.org/for-evaluators.html) for a visual summary of evaluator benefits, compensation, and the evaluation process.
+{% endhint %}
+
 ## **Who we are**
 
 _The Unjournal_ is a nonprofit organization started in mid-2022.  We commission experts to publicly evaluate and rate research. Read more about us [here](../../readme-1/).

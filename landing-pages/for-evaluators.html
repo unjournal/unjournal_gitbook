@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Evaluators — The Unjournal</title>
+  <meta name="description" content="Join The Unjournal's evaluator pool. Get paid for expert peer review, build your public scholarly profile, and help advance open science.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="For Evaluators — The Unjournal">
+  <meta property="og:description" content="Get paid for expert peer review. Build your public scholarly profile.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+      --success: #27ae60;
+      --gold: #f4d03f;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.7rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      margin-top: 1.25rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    li { margin-bottom: 0.5rem; }
+
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .highlight-box.success {
+      border-left-color: var(--success);
+      background: #e8f8f0;
+    }
+
+    .highlight-box.gold {
+      border-left-color: var(--gold);
+      background: #fef9e7;
+    }
+
+    /* Compensation highlight */
+    .compensation-box {
+      background: linear-gradient(135deg, #1a3a5c 0%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+
+    .compensation-box .amount {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .compensation-box .label {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .compensation-box .note {
+      font-size: 0.9rem;
+      opacity: 0.7;
+      margin-top: 0.75rem;
+    }
+
+    /* Benefits grid */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .benefit-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .benefit-card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+
+    .benefit-card h3 {
+      font-size: 1.05rem;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .benefit-card p {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0;
+      line-height: 1.55;
+    }
+
+    /* Process steps */
+    .process-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+
+    .step {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .step-number {
+      width: 40px;
+      height: 40px;
+      background: var(--accent);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .step-content h4 {
+      font-size: 1rem;
+      color: var(--primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .step-content p {
+      font-size: 0.92rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+    }
+
+    /* Requirements list */
+    .requirements-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .requirement {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .requirement .check {
+      color: var(--success);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* CTA */
+    .cta-section {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: var(--light-bg);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .cta-section h2 {
+      display: block;
+      border-bottom: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-section p {
+      color: var(--text-light);
+      max-width: 560px;
+      margin: 0 auto 1.25rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.75rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin: 0.35rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    .cta-button.secondary {
+      background: var(--white);
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+
+    .cta-button.secondary:hover { background: var(--light-bg); color: var(--accent); }
+
+    /* Source link */
+    .source-link {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin: 2rem 0 0;
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    .source-link a {
+      font-weight: 600;
+    }
+
+    /* Section divider */
+    .section-divider {
+      border: none;
+      height: 1px;
+      background: var(--border);
+      margin: 2.5rem 0;
+    }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.6rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .benefits-grid { grid-template-columns: 1fr; }
+      .requirements-grid { grid-template-columns: 1fr; }
+      .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
+      .compensation-box .amount { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>For Evaluators</h1>
+  <p class="subtitle">Get paid for expert peer review. Your evaluations are published and citable&mdash;real credit for review work.</p>
+</header>
+
+<nav>
+  <a href="#why">Why Evaluate</a>
+  <a href="#compensation">Compensation</a>
+  <a href="#process">How It Works</a>
+  <a href="#qualifications">Who We Seek</a>
+  <a href="#apply">Apply</a>
+  <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
+</nav>
+
+<main>
+
+  <section id="why">
+    <h2>Why Evaluate for The Unjournal?</h2>
+    <p>Unlike traditional journals where peer review is unpaid, anonymous, and invisible, The Unjournal compensates evaluators, publishes their work openly, and gives them proper academic credit.</p>
+
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <h3>Paid Work</h3>
+        <p>We compensate evaluators for their expertise&mdash;averaging $450 per evaluation including base pay and incentives.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Published & Citable</h3>
+        <p>Your evaluation receives a DOI and is published on PubPub. Real scholarly credit for review work.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Prize Opportunities</h3>
+        <p>Exceptional evaluations are eligible for our <a href="evaluator-prizes-2024-25.html">annual prizes</a>&mdash;$6,500 awarded in 2024-25.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Signed or Anonymous</h3>
+        <p>Choose whether to sign your evaluation publicly or remain anonymous. Your choice, every time.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Flexible Timeline</h3>
+        <p>We work with your schedule. Most evaluations take 3-6 weeks, but we accommodate busy periods.</p>
+      </div>
+
+      <div class="benefit-card">
+        <h3>Impactful Research</h3>
+        <p>Evaluate research that matters&mdash;work informing global health, development, policy, and effective interventions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="compensation">
+    <h2>Compensation</h2>
+
+    <div class="compensation-box">
+      <span class="amount">~$450</span>
+      <span class="label">average compensation per evaluation</span>
+      <span class="note">Base pay + incentives + potential prizes</span>
+    </div>
+
+    <p>Our compensation structure includes:</p>
+    <ul>
+      <li><strong>Base payment:</strong> $300+ per evaluation (varies by scope and complexity)</li>
+      <li><strong>Incentive bonuses:</strong> Additional pay for thoroughness, timeliness, and quality</li>
+      <li><strong>Annual prizes:</strong> $6,500 in prizes for exceptional evaluations (2024-25)</li>
+    </ul>
+
+    <div class="highlight-box gold">
+      <strong>Prize recognition:</strong> Each year we recognize outstanding evaluations with monetary prizes and public acknowledgment. See our <a href="evaluator-prizes-2024-25.html">2024-25 prize winners</a>.
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="process">
+    <h2>How It Works</h2>
+
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h4>Join Our Pool</h4>
+          <p>Complete a simple form with your expertise areas and background. We'll add you to our evaluator database.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h4>Receive Invitations</h4>
+          <p>When we have research matching your expertise, we'll reach out with details and timeline. You can accept or decline.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h4>Conduct Your Evaluation</h4>
+          <p>Review the research using our structured guidelines. Provide written feedback and quantitative ratings across multiple dimensions.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h4>Publication & Payment</h4>
+          <p>Your evaluation is published on PubPub with a DOI. Payment is processed promptly after submission.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>What we ask of evaluators:</strong> Provide substantive, constructive feedback that helps authors improve their work. Rate research across dimensions like methodological rigor, real-world relevance, and contribution to the field. Be thorough but fair.
+    </div>
+
+    <h3>Evaluation Forms</h3>
+    <p>Our evaluation process uses structured forms to ensure consistency and thoroughness:</p>
+    <ul>
+      <li><strong>Current form:</strong> <a href="https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME" target="_blank">Academic evaluation form (Coda)</a> &mdash; the form evaluators currently use to submit evaluations</li>
+      <li><strong>Preview draft:</strong> <a href="https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/" target="_blank">Interactive evaluation form prototype</a> &mdash; a draft of our planned interface improvements (not yet in use)</li>
+    </ul>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="qualifications">
+    <h2>Who We're Looking For</h2>
+
+    <p>We seek evaluators with expertise in quantitative research methods and relevant subject areas. Ideal candidates have:</p>
+
+    <div class="requirements-grid">
+      <div class="requirement">
+        <span class="check">&#10003;</span>
+        <span>PhD or equivalent research experience</span>
+      </div>
+      <div class="requirement">
+        <span class="check">&#10003;</span>
+        <span>Expertise in economics, psychology, policy, or related quantitative fields</span>
+      </div>
+      <div class="requirement">
+        <span class="check">&#10003;</span>
+        <span>Track record of published research</span>
+      </div>
+      <div class="requirement">
+        <span class="check">&#10003;</span>
+        <span>Commitment to constructive, substantive feedback</span>
+      </div>
+      <div class="requirement">
+        <span class="check">&#10003;</span>
+        <span>Interest in global priorities research</span>
+      </div>
+      <div class="requirement">
+        <span class="check">&#10003;</span>
+        <span>Ability to assess methodological rigor</span>
+      </div>
+    </div>
+
+    <h3>Focus Areas</h3>
+    <p>We particularly need evaluators with expertise in:</p>
+    <ul>
+      <li>Development economics and global health</li>
+      <li>Environmental economics and climate policy</li>
+      <li>Behavioral science and psychology</li>
+      <li>AI governance and technology policy</li>
+      <li>Animal welfare research</li>
+      <li>Meta-science and research methods</li>
+      <li>Catastrophic and existential risk</li>
+    </ul>
+  </section>
+
+  <div class="cta-section" id="apply">
+    <h2>Join Our Evaluator Pool</h2>
+    <p>Complete a short form to be added to our database. We'll reach out when we have research matching your expertise.</p>
+    <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="cta-button">Apply to Evaluate</a>
+    <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators" class="cta-button secondary">Evaluator Guidelines</a>
+  </div>
+
+  <div class="source-link">
+    <strong>Learn more:</strong> Read our complete <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/for-prospective-evaluators" target="_blank" rel="noopener">information for prospective evaluators</a> and <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation" target="_blank" rel="noopener">evaluation policies</a>.
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>
