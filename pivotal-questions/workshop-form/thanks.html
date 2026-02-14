@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Wellbeing Measures Workshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --dark: #1a1a1a;
+      --text: #555;
+      --text-light: #888;
+      --brown: #8b5e3c;
+      --sage: #5a7a5a;
+      --font-serif: 'Source Serif 4', Georgia, serif;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .thank-you-container {
+      max-width: 560px;
+      padding: 48px 24px;
+      text-align: center;
+    }
+
+    .checkmark {
+      font-size: 48px;
+      margin-bottom: 16px;
+      color: var(--sage);
+    }
+
+    .thank-you-title {
+      font-family: var(--font-serif);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .thank-you-message {
+      font-size: 17px;
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0 0 24px;
+    }
+
+    .thank-you-links {
+      font-size: 15px;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    .thank-you-links a {
+      color: var(--brown);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .thank-you-links a:hover {
+      color: var(--dark);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 32px;
+      padding: 10px 20px;
+      font-size: 14px;
+      color: var(--text-light);
+      text-decoration: none;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+
+    .back-link:hover {
+      background: #fff;
+      border-color: #ccc;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-container">
+    <div class="checkmark">✓</div>
+    <h1 class="thank-you-title" id="thankYouTitle">Thank you!</h1>
+    <p class="thank-you-message">
+      Your availability and preferences have been recorded. We'll be in touch soon with a confirmed date and detailed agenda.
+    </p>
+    <p class="thank-you-links">
+      In the meantime, feel free to explore the
+      <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener">evaluation package</a>
+      and the
+      <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">Pivotal Questions</a>.
+    </p>
+    <a href="/" class="back-link">← Back to form</a>
+  </div>
+
+  <script>
+    // Try to personalize with name from sessionStorage
+    (function() {
+      const name = sessionStorage.getItem('workshopSubmitterName');
+      if (name) {
+        const firstName = name.split(' ')[0];
+        document.getElementById('thankYouTitle').textContent = `Thank you, ${firstName}!`;
+        sessionStorage.removeItem('workshopSubmitterName');
+      }
+    })();
+  </script>
+</body>
+</html>
