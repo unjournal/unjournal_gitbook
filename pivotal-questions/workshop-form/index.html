@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wellbeing Measures Workshop | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">Wellbeing Measures: Research & Policy Discussion</h1>
+      <p class="header-subtitle">An Unjournal Online Workshop on WELLBY Measurement, Scale-Use Heterogeneity, and DALY–WELLBY Interconvertibility</p>
+      <div class="header-meta">Target: March 2026 · Online · ~3.5 hours total. Scheduled segments — join for only the ones you're interested in</div>
+    </div>
+  </header>
+
+  <!-- Context Bar -->
+  <div class="context-bar">
+    <p class="context-text">
+      Following our <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener">evaluation of Benjamin et al.'s</a> "<em>Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being</em>," this workshop explores implications for the WELLBY measure and DALY–WELLBY interconvertibility — questions raised by Founders Pledge that affect how we compare interventions across health, mental health, and consumption.
+    </p>
+    <div class="context-links">
+      <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener" class="pill-link">Pivotal Questions Initiative →</a>
+      <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pill-link">Wellbeing PQ Formulations →</a>
+      <a href="https://forum.effectivealtruism.org/posts/kftzYdmZf4nj2ExN7/the-unjournal-s-pivotal-questions-initiative" target="_blank" rel="noopener" class="pill-link">EA Forum Post →</a>
+      <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener" class="pill-link">Benjamin et al. Evaluation →</a>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <main class="form-container">
+    <form name="workshop-availability" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" id="workshopForm">
+      <input type="hidden" name="bot-field">
+      <input type="hidden" name="form-name" value="workshop-availability">
+      <input type="hidden" name="gridAvailability" id="gridAvailabilityInput">
+
+      <!-- Section 1: About You -->
+      <section class="form-section">
+        <div class="section-header">
+          <span class="section-number">1</span>
+          <h2 class="section-title">About You</h2>
+        </div>
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="name" class="field-label">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required placeholder="Your full name" class="input">
+          </div>
+          <div class="form-field">
+            <label for="email" class="field-label">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com" class="input">
+          </div>
+          <div class="form-field">
+            <label for="affiliation" class="field-label">Affiliation <span class="optional">(optional)</span></label>
+            <input type="text" id="affiliation" name="affiliation" placeholder="e.g., University of X / Founders Pledge / Independent" class="input">
+          </div>
+          <div class="form-field">
+            <label for="role" class="field-label">Your primary role in this conversation <span class="optional">(optional)</span></label>
+            <select id="role" name="role" class="input select">
+              <option value="">Select...</option>
+              <option value="author">Author (Benjamin et al.)</option>
+              <option value="evaluator">Evaluator</option>
+              <option value="stakeholder">Stakeholder / Funder</option>
+              <option value="researcher">Academic Researcher</option>
+              <option value="practitioner">Practitioner / Policy</option>
+              <option value="uj_team">Unjournal Team</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Availability -->
+      <section class="form-section">
+        <div class="section-header">
+          <span class="section-number">2</span>
+          <h2 class="section-title">When Could You Join?</h2>
+        </div>
+        <p class="section-subtitle">All fields in this section are optional — use whichever is easiest. Even a rough sense of your availability helps.</p>
+
+        <!-- Free-text availability -->
+        <div class="availability-freetext">
+          <label for="freeAvailability" class="field-label">Tell us your availability in your own words</label>
+          <p class="field-hint">This is the easiest option — just describe when you're free in March. We'll use AI to find the best overlap across everyone. Include your time zone if it's not obvious.</p>
+          <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me in March, except the week of Mar 16. I could stay for 2-3 hours if it starts before 11 AM ET." or "Available Tue/Thu afternoons UK time throughout March."'></textarea>
+        </div>
+
+        <!-- Grid availability -->
+        <div class="availability-grid-section">
+          <div class="grid-header">
+            <label class="field-label">Or mark your availability on the grid <span class="optional">(optional)</span></label>
+            <p class="field-hint">Click cells for any time blocks you could join — even for part of the session. Click a date label to select the whole row. All times shown in US Eastern; hover for UK/CET.</p>
+          </div>
+
+          <div class="grid-wrapper">
+            <div class="grid-container" id="availabilityGrid">
+              <!-- Grid will be populated by JavaScript -->
+            </div>
+          </div>
+
+          <p class="grid-tip">Tip: You don't need to fill in the grid if you've described your availability above — either or both is fine.</p>
+        </div>
+      </section>
+
+      <!-- Section 3: Segment Interest -->
+      <section class="form-section">
+        <div class="section-header">
+          <span class="section-number">3</span>
+          <h2 class="section-title">Which Segments Interest You?</h2>
+        </div>
+        <p class="section-subtitle">All fields in this section are optional. You don't need to attend the full session — for each segment, let us know if you'd like to join and/or if you'd be interested in presenting or actively contributing.</p>
+
+        <!-- Segment headers -->
+        <div class="segment-headers">
+          <div class="segment-label-spacer"></div>
+          <div class="segment-checkbox-header">Join /<br>Listen</div>
+          <div class="segment-checkbox-header">Present /<br>Discuss</div>
+        </div>
+
+        <!-- Segments -->
+        <div class="segments-list" id="segmentsList">
+          <div class="segment-row" data-segment="stakeholder">
+            <div class="segment-info">
+              <div class="segment-name">Stakeholder Problem Statement</div>
+              <div class="segment-desc">How funders currently navigate WELLBY vs DALY (~15 min)</div>
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_stakeholder_join" value="yes" class="segment-checkbox join">
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_stakeholder_present" value="yes" class="segment-checkbox present">
+            </div>
+          </div>
+
+          <div class="segment-row" data-segment="paper">
+            <div class="segment-info">
+              <div class="segment-name">Paper Presentation: Benjamin et al.</div>
+              <div class="segment-desc">Scale-use heterogeneity findings & implications (~25 min)</div>
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_paper_join" value="yes" class="segment-checkbox join">
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_paper_present" value="yes" class="segment-checkbox present">
+            </div>
+          </div>
+
+          <div class="segment-row" data-segment="evaluator">
+            <div class="segment-info">
+              <div class="segment-name">Evaluator Responses & Discussion</div>
+              <div class="segment-desc">Key critiques, suggestions, author reaction (~25 min)</div>
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_evaluator_join" value="yes" class="segment-checkbox join">
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_evaluator_present" value="yes" class="segment-checkbox present">
+            </div>
+          </div>
+
+          <div class="segment-row" data-segment="pq1">
+            <div class="segment-info">
+              <div class="segment-name">WELLBY Reliability: Discussion</div>
+              <div class="segment-desc">Is the linear WELLBY reliable enough for cross-intervention comparison? (~25 min)</div>
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_pq1_join" value="yes" class="segment-checkbox join">
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_pq1_present" value="yes" class="segment-checkbox present">
+            </div>
+          </div>
+
+          <div class="segment-row" data-segment="pq2">
+            <div class="segment-info">
+              <div class="segment-name">DALY↔WELLBY Conversion: Discussion</div>
+              <div class="segment-desc">Approaches to interconvertibility — what works, what's missing? (~25 min)</div>
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_pq2_join" value="yes" class="segment-checkbox join">
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_pq2_present" value="yes" class="segment-checkbox present">
+            </div>
+          </div>
+
+          <div class="segment-row" data-segment="beliefs">
+            <div class="segment-info">
+              <div class="segment-name">Beliefs Elicitation</div>
+              <div class="segment-desc">We'll guide you through a short form to state your priors on operationalized pivotal questions (~15 min)</div>
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_beliefs_join" value="yes" class="segment-checkbox join">
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_beliefs_present" value="yes" class="segment-checkbox present">
+            </div>
+          </div>
+
+          <div class="segment-row" data-segment="practitioner">
+            <div class="segment-info">
+              <div class="segment-name">Practitioner Panel & Open Discussion</div>
+              <div class="segment-desc">How should funders navigate this now? What research would change minds? (~30 min)</div>
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_practitioner_join" value="yes" class="segment-checkbox join">
+            </div>
+            <div class="segment-checkbox-cell">
+              <input type="checkbox" name="segment_practitioner_present" value="yes" class="segment-checkbox present">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-field" style="margin-top: 24px;">
+          <label for="presentNotes" class="field-label">Brief notes on what you'd like to present or discuss <span class="optional">(optional)</span></label>
+          <textarea id="presentNotes" name="presentNotes" rows="3" class="input textarea" placeholder="e.g., 'I could present 5 min on our experience using WELLBYs for mental health CEA' or 'I'd like to raise the question of whether ordinal measures are sufficient'"></textarea>
+        </div>
+
+        <div class="form-field">
+          <label for="segmentSuggestions" class="field-label">Suggest a topic or segment we should add <span class="optional">(optional)</span></label>
+          <textarea id="segmentSuggestions" name="segmentSuggestions" rows="2" class="input textarea" placeholder="e.g., 'A segment on stated-preference methods for DALY↔WELLBY conversion' or 'Discussion of HLI's approach to WELLBY CEA'"></textarea>
+        </div>
+      </section>
+
+      <!-- Section 4: Recording & Publication -->
+      <section class="form-section">
+        <div class="section-header">
+          <span class="section-number">4</span>
+          <h2 class="section-title">Recording & Publication</h2>
+        </div>
+        <p class="section-subtitle">We plan to record the workshop and make it publicly available by default. We also plan to make the transcript available for AI-assisted queries (e.g., so researchers and funders can ask questions about the discussion). Your preferences:</p>
+
+        <div class="recording-options">
+          <label class="radio-card">
+            <input type="radio" name="recordingPref" value="full_public">
+            <span class="radio-label">Comfortable with full public recording, publication, and AI-queryable transcript</span>
+          </label>
+
+          <label class="radio-card">
+            <input type="radio" name="recordingPref" value="public_except">
+            <span class="radio-label">Comfortable with the above except for specific segments</span>
+          </label>
+
+          <label class="radio-card">
+            <input type="radio" name="recordingPref" value="internal_only">
+            <span class="radio-label">Prefer recording shared only with participants (not publicly)</span>
+          </label>
+
+          <label class="radio-card">
+            <input type="radio" name="recordingPref" value="no_recording">
+            <span class="radio-label">Prefer my segments not be recorded</span>
+          </label>
+        </div>
+
+        <div class="form-field recording-notes-field" id="recordingNotesField" style="display: none;">
+          <label for="recordingNotes" class="field-label">Please specify which segments or any additional notes</label>
+          <textarea id="recordingNotes" name="recordingNotes" rows="3" class="input textarea" placeholder="Please specify which segments or any additional notes..."></textarea>
+        </div>
+      </section>
+
+      <!-- Section 5: Async Discussion & Suggestions -->
+      <section class="form-section">
+        <div class="section-header">
+          <span class="section-number">5</span>
+          <h2 class="section-title">Async Discussion & Suggestions</h2>
+        </div>
+        <p class="section-subtitle">All fields in this section are optional.</p>
+
+        <label class="checkbox-card">
+          <input type="checkbox" name="asyncInterest" value="yes">
+          <div class="checkbox-content">
+            <div class="checkbox-label">I would participate in the async discussion space</div>
+            <div class="checkbox-desc">A shared document for structured comments and contributions before, during, and after the workshop</div>
+          </div>
+        </label>
+
+        <div class="form-field">
+          <label for="discussionSpaceSuggestions" class="field-label">Suggestions for the discussion space <span class="optional">(optional)</span></label>
+          <textarea id="discussionSpaceSuggestions" name="discussionSpaceSuggestions" rows="2" class="input textarea" placeholder="Questions you'd like seeded, format preferences, topics that deserve async treatment, resources to include..."></textarea>
+        </div>
+
+        <div class="form-field">
+          <label for="inviteeSuggestions" class="field-label">Suggestions for other invitees <span class="optional">(optional)</span></label>
+          <textarea id="inviteeSuggestions" name="inviteeSuggestions" rows="3" class="input textarea" placeholder="Researchers, practitioners, or funders who should be part of this conversation..."></textarea>
+        </div>
+
+        <div class="form-field">
+          <label for="otherNotes" class="field-label">Anything else? <span class="optional">(optional)</span></label>
+          <textarea id="otherNotes" name="otherNotes" rows="3" class="input textarea" placeholder="Questions, topics you'd like covered, constraints, or other thoughts..."></textarea>
+        </div>
+      </section>
+
+      <!-- Section 6: Questions & Claims -->
+      <section class="form-section">
+        <div class="section-header">
+          <span class="section-number">6</span>
+          <h2 class="section-title">Questions & Claims</h2>
+        </div>
+        <p class="section-subtitle">What questions or claims would you most like to see discussed or debated at this workshop?</p>
+
+        <div class="form-field">
+          <label for="questionsAndClaims" class="field-label">Your questions or claims <span class="optional">(optional)</span></label>
+          <textarea id="questionsAndClaims" name="questionsAndClaims" rows="4" class="input textarea" placeholder="e.g., 'I'd like to see a discussion of whether cardinality assumptions in WELLBYs are defensible' or 'Claim: DALY→WELLBY conversion factors are too uncertain to use in practice'"></textarea>
+        </div>
+      </section>
+
+      <!-- Submit -->
+      <div class="submit-section">
+        <button type="submit" class="submit-btn" id="submitBtn">Submit Availability & Preferences</button>
+        <p class="submit-note">Your responses help us find the best date and structure for everyone.</p>
+      </div>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
