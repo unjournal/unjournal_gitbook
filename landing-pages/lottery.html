@@ -333,13 +333,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 
 <nav style="background: #fff; border-bottom: 1px solid #d5dbdb; padding: 0.75rem 1.5rem; text-align: center;">
-  <a href="evaluator-prizes-2024-25.html" style="color: #2e86c1; text-decoration: none; margin: 0 0.7rem; font-size: 0.92rem; font-weight: 500;">Back to Prize Page</a>
+  <a href="/evaluator-prizes-2024-25/" style="color: #2e86c1; text-decoration: none; margin: 0 0.7rem; font-size: 0.92rem; font-weight: 500;">Back to Prize Page</a>
   <a href="index.html#explore" style="color: #2e86c1; text-decoration: none; margin: 0 0.7rem; font-size: 0.92rem; font-weight: 500;">All Pages</a>
 </nav>
 
 <div class="container">
 
-  <a href="./" class="back-link">&larr; Back to Prize Announcement</a>
+  <a href="/evaluator-prizes-2024-25/" class="back-link">&larr; Back to Prize Announcement</a>
+
+  <!-- RESULTS ANNOUNCEMENT -->
+  <div class="card" style="background: linear-gradient(135deg, #eafaf1 0%, #d5f5e3 100%); border: 2px solid #27ae60;">
+    <h2 style="color: #27ae60; border: none; margin-bottom: 0.5rem;">&#127942; Winners Announced!</h2>
+    <p style="margin-bottom: 1rem;">The lottery draw was completed on <strong>February 10, 2026</strong> using the S&amp;P&nbsp;500 closing value as the seed. The two winners of the $500 honorable mention prizes are:</p>
+
+    <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.25rem;">
+      <div style="background: #fff; border: 2px solid #d4a017; border-radius: 8px; padding: 1rem 1.25rem;">
+        <div style="font-weight: 700; color: #1a3a5c;">Matthew B. Jan&eacute;</div>
+        <div style="font-size: 0.9rem; color: #5d6d7e; font-style: italic;">&ldquo;Meaningfully Reducing Consumption of Meat and Animal Products&rdquo;</div>
+      </div>
+      <div style="background: #fff; border: 2px solid #d4a017; border-radius: 8px; padding: 1rem 1.25rem;">
+        <div style="font-weight: 700; color: #1a3a5c;">Anonymous evaluator</div>
+        <div style="font-size: 0.9rem; color: #5d6d7e; font-style: italic;">&ldquo;The Wellbeing Cost-effectiveness of StrongMinds and Friendship Bench&rdquo;</div>
+      </div>
+    </div>
+
+    <div style="background: #fff; border: 1px solid #d5dbdb; border-radius: 6px; padding: 0.85rem 1rem; font-size: 0.9rem;">
+      <p style="margin-bottom: 0.4rem;"><strong>Seed used:</strong> <code style="background: #eee; padding: 0.15rem 0.5rem; border-radius: 3px;">S&amp;P 500 6941.81</code></p>
+      <p style="margin-bottom: 0;"><strong>Bluesky thread:</strong> <a href="https://bsky.app/profile/unjournal.bsky.social/post/3mejyvynlic2j" target="_blank" rel="noopener">View the pre-announcement and results</a></p>
+    </div>
+
+    <p style="font-size: 0.88rem; color: #5d6d7e; margin-top: 1rem; margin-bottom: 0;">You can verify this result yourself by entering the seed <code>S&amp;P 500 6941.81</code> in the draw tool below.</p>
+  </div>
 
   <div class="card">
     <h2>How This Works</h2>
@@ -407,7 +431,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2>Run the Draw</h2>
     <div class="seed-input-group">
       <label for="seedInput">Seed value:</label>
-      <input type="text" id="seedInput" placeholder="e.g. SPX-6025.47" value="">
+      <input type="text" id="seedInput" placeholder="e.g. S&amp;P 500 6941.81" value="">
     </div>
     <div class="draw-controls">
       <button class="draw-btn" id="drawBtn" onclick="runDraw()">Draw Two Winners</button>
@@ -477,7 +501,7 @@ const indices = seededShuffle([0,1,2,3,4], hash &amp; 0xFFFFFFFF);
 </div>
 
 <footer>
-  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="./">Prize Announcement</a></p>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="/evaluator-prizes-2024-25/">Prize Announcement</a></p>
 <p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
 </footer>
 
