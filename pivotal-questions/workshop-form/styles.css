@@ -575,6 +575,7 @@ body {
   padding: 0;
 }
 
+.page-nav ul,
 .page-nav-links {
   display: flex;
   justify-content: center;
@@ -582,6 +583,12 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.page-nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .page-nav-link {
@@ -610,9 +617,9 @@ body {
 }
 
 .prose-container {
-  max-width: 660px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 48px 24px 80px;
+  padding: 48px 32px 80px;
 }
 
 .prose-container h2 {
@@ -728,9 +735,9 @@ body {
 
 /* Beliefs Page */
 .beliefs-intro {
-  max-width: 660px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 40px 24px 0;
+  padding: 40px 32px 0;
 }
 
 .beliefs-intro p {
@@ -779,9 +786,9 @@ body {
 
 /* Beliefs Question Cards */
 .beliefs-form-container {
-  max-width: 720px;
+  max-width: 760px;
   margin: 0 auto;
-  padding: 40px 24px 80px;
+  padding: 40px 32px 80px;
 }
 
 .pq-card {
@@ -1062,7 +1069,7 @@ body {
 
   /* About page responsive */
   .prose-container {
-    padding: 32px 16px 60px;
+    padding: 32px 20px 60px;
   }
 
   .prose-container h2 {
