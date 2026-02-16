@@ -30,7 +30,7 @@
 
   <!-- Intro -->
   <div class="beliefs-intro">
-    <p>These are some of the operationalized questions from our Wellbeing Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence—to see how views evolve and where consensus exists or doesn't.</p>
+    <p>These are some of the <strong>key</strong> operationalized questions from our Wellbeing Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence—to see how views evolve and where consensus exists or doesn't. <em>(All questions are optional.)</em></p>
 
     <div class="canonical-callout">
       <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH#_luVrD0mE" target="_blank" rel="noopener">canonical Wellbeing PQ formulations on Coda →</a>
@@ -68,9 +68,8 @@
         </button>
         <div class="pq-context" id="pq1a-context">
           <ul>
-            <li>A WELLBY is defined as an increase of 1 point for one person for one year on a 0–10 life satisfaction scale (e.g. Cantril's Ladder).</li>
-            <li>For comparing <em>changes</em> in wellbeing across interventions, what matters most is whether differences on the scale are comparable across individuals—not necessarily whether absolute levels have the same meaning.</li>
-            <li>Benjamin et al. (2023) found substantial scale-use heterogeneity. They develop methods using <strong>calibration questions</strong> (new survey items with objectively correct answers) and <strong>vignette exercises</strong> (rating hypothetical scenarios) to detect and partially adjust for this heterogeneity—roughly 30–50% in their sample, though generalizability remains uncertain.</li>
+            <li>For present purposes, a WELLBY is defined as an increase of 1 point for one person for one year on a 0–10 life satisfaction scale (e.g. Cantril's Ladder). (Note: definitions vary across contexts.)</li>
+            <li>Benjamin et al. (2023) found substantial scale-use heterogeneity. They develop methods using <strong>calibration questions</strong> (new survey items with objectively correct answers) and <strong>vignette exercises</strong> (rating hypothetical scenarios) that can reduce the estimated bias from scale-use heterogeneity—by roughly 30–50% in their sample, though generalizability remains uncertain.</li>
             <li>Related canonical question (<a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_01</a>): "What combination of (a) subjective wellbeing survey data [...], (b) income and health-outcome data, (c) metrics based on this data (e.g., linear or logarithmic WELLBYs, standard deviations, scale-use adjustments), and (d) possible conversions between different measures would be 'best' for making funding choices between interventions which may impact mental health, physical health, and/or consumption[?]"</li>
           </ul>
         </div>
@@ -134,7 +133,7 @@
         <div class="pq-tag">PQ2a · DALY/QALY–WELLBY Conversion · <span class="pq-code">DALY_01</span></div>
         <h2 class="pq-question">If the impact of one program is measured in WELLBYs [...] and another program impact is measured in DALYs [or QALYs], [...] what is the best numerical conversion or mapping between them?</h2>
         <p class="pq-subtext">From <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_01</a>: "If the impact of one program is measured in WELLBYs (as defined above) and another program impact is measured in DALYs, and we have a reported effect size and standard deviation for each, what is the best numerical conversion or mapping between them?" <em>(Note: QALYs may be more relevant than DALYs for this conversion—see context.)</em></p>
-        <p class="pq-why">Organizations currently treat 1 SD of improvement on mental health instruments as roughly equivalent to 1 SD on the WELLBY scale. The UK Treasury uses ~1 QALY ≈ 6-7 WELLBYs. Getting this conversion wrong means systematically over- or under-investing in mental health versus physical health interventions.</p>
+        <p class="pq-why">"Best" here means: the mapping that, if used for funding decisions, would lead to the highest expected welfare. Getting this conversion wrong means systematically over- or under-investing in mental health versus physical health interventions.</p>
 
         <button type="button" class="pq-context-toggle" data-target="pq2a-context">
           <span class="toggle-icon">▸</span> Context & definitions
@@ -142,7 +141,7 @@
         <div class="pq-context" id="pq2a-context">
           <ul>
             <li><strong>DALY vs QALY:</strong> DALYs measure health burden (years lost to disease/disability); QALYs measure health gained. For conversion purposes, QALYs are often more directly comparable—the canonical questions note "replace DALY with QALY" may be appropriate.</li>
-            <li>Currently, standard practice (used by HLI and Founders Pledge) treats SDs on different mental health instruments as interconvertible with WELLBY SDs on a roughly 1:1 basis.</li>
+            <li>Some organizations (including HLI and Founders Pledge) currently treat SDs on different mental health instruments as interconvertible with WELLBY SDs on a roughly 1:1 basis.</li>
             <li>The conversion between DALYs/QALYs and WELLBYs depends on the "neutral point" on the LS scale—the point below which life has negative value. This is currently unknown; one small study (Peasgood et al. 2018) suggested LS ≈ 2, but this is tentative.</li>
             <li>The relationship may also be non-linear—e.g., a WELLBY gained at very low wellbeing could be worth more than one gained at high wellbeing.</li>
           </ul>
@@ -150,8 +149,8 @@
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">If 1 QALY = X WELLBYs, what is your best estimate for X? (Current UK Treasury estimate: ~6-7. Range in literature: ~2-15.)</label>
-            <input type="number" name="pq2a_conversion" class="input" step="0.1" min="0" max="50" placeholder="e.g., 6.5">
+            <label class="pq-input-label">If you had to choose a single linear mapping for converting DALYs to WELLBYs (i.e., 1 DALY averted = X WELLBYs), what value of X would lead to the best decisions in typical funding contexts? <span class="input-note">(Reference: UK Treasury uses ~6-7 for QALYs; literature ranges ~2-15.)</span></label>
+            <input type="number" name="pq2a_conversion" class="input" step="0.1" min="0" max="50" placeholder="e.g., 6">
           </div>
           <div class="pq-input-group">
             <label class="pq-input-label">How confident are you in this estimate? (0% = pure guess, 100% = highly confident)</label>
@@ -161,7 +160,7 @@
             </div>
           </div>
           <div class="pq-input-group">
-            <label class="pq-input-label">What's your reasoning? Do you think the relationship is roughly linear, or does it depend on the starting point?</label>
+            <label class="pq-input-label">What's your reasoning? Does the "best" mapping depend on context (e.g., mental health vs physical health, geographic region)?</label>
             <textarea name="pq2a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
           </div>
         </div>
