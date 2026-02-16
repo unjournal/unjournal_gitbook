@@ -30,7 +30,11 @@
 
   <!-- Intro -->
   <div class="beliefs-intro">
-    <p>These are some of the operationalized questions from our <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">Wellbeing Pivotal Questions project</a>. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence—to see how views evolve and where consensus exists or doesn't.</p>
+    <p>These are some of the operationalized questions from our Wellbeing Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence—to see how views evolve and where consensus exists or doesn't.</p>
+
+    <div class="canonical-callout">
+      <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH#_luVrD0mE" target="_blank" rel="noopener">canonical Wellbeing PQ formulations on Coda →</a>
+    </div>
 
     <p>You don't need to be a specialist to contribute. We want your honest assessment and reasoning, whether you feel highly confident or very uncertain. Your input helps us understand the range of views in the field.</p>
 
@@ -66,14 +70,14 @@
           <ul>
             <li>A WELLBY is defined as an increase of 1 point for one person for one year on a 0–10 life satisfaction scale (e.g. Cantril's Ladder).</li>
             <li>For comparing <em>changes</em> in wellbeing across interventions, what matters most is whether differences on the scale are comparable across individuals—not necessarily whether absolute levels have the same meaning.</li>
-            <li>Benjamin et al. (2023) found substantial scale-use heterogeneity. They show that calibration questions can adjust for roughly 30–50% of this heterogeneity in their sample, though generalizability remains uncertain.</li>
+            <li>Benjamin et al. (2023) found substantial scale-use heterogeneity. They develop methods using <strong>calibration questions</strong> (new survey items with objectively correct answers) and <strong>vignette exercises</strong> (rating hypothetical scenarios) to detect and partially adjust for this heterogeneity—roughly 30–50% in their sample, though generalizability remains uncertain.</li>
             <li>Related canonical question (<a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_01</a>): "What combination of (a) subjective wellbeing survey data [...], (b) income and health-outcome data, (c) metrics based on this data (e.g., linear or logarithmic WELLBYs, standard deviations, scale-use adjustments), and (d) possible conversions between different measures would be 'best' for making funding choices between interventions which may impact mental health, physical health, and/or consumption[?]"</li>
           </ul>
         </div>
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">How likely is it that the WELLBY—possibly with adjustments like calibration questions—is a "good enough" measure for cross-intervention comparison in this context? (0% = certainly not reliable enough, 100% = certainly reliable enough)</label>
+            <label class="pq-input-label">How likely is it that the WELLBY—possibly with adjustments like calibration questions or vignettes—is a "good enough" measure for cross-intervention comparison in this context? (0% = certainly not reliable enough, 100% = certainly reliable enough)</label>
             <div class="pq-slider-container">
               <input type="range" name="pq1a_probability" class="pq-slider" min="0" max="100" value="50" oninput="this.nextElementSibling.textContent = this.value + '%'">
               <span class="pq-slider-value">50%</span>
@@ -110,7 +114,7 @@
             <select name="pq1b_measure" class="input select">
               <option value="">Select...</option>
               <option value="wellby_best">WELLBY (0-10 LS, linear) is best or near-best</option>
-              <option value="wellby_calibrated">WELLBY with calibration questions</option>
+              <option value="wellby_calibrated">WELLBY with calibration questions/vignettes</option>
               <option value="log_ls">Log-transformed life satisfaction</option>
               <option value="multi_item">Multi-item life satisfaction scale</option>
               <option value="composite">A composite or multi-dimensional measure</option>
@@ -229,11 +233,22 @@
       <!-- PQ3c: Calibration Impact (Metaculus) -->
       <div class="pq-card">
         <div class="pq-tag">PQ3c · Metaculus-style · Calibration Impact</div>
-        <h2 class="pq-question">If calibration questions (as in Benjamin et al.) were added to the major wellbeing surveys used in global health RCTs, would the resulting adjustments change the cost-effectiveness ranking of the top 5 interventions recommended by Founders Pledge?</h2>
+        <h2 class="pq-question">If calibration questions and/or vignettes (as in Benjamin et al.) were added to the major wellbeing surveys used in global health RCTs, would the resulting adjustments change the cost-effectiveness ranking of the top 5 interventions recommended by Founders Pledge?</h2>
+
+        <button type="button" class="pq-context-toggle" data-target="pq3c-context">
+          <span class="toggle-icon">▸</span> Resolution criteria
+        </button>
+        <div class="pq-context" id="pq3c-context">
+          <ul>
+            <li><strong>"Meaningful change"</strong> = at least one intervention currently in the top 5 moves out of the top 5, OR the #1 ranked intervention changes.</li>
+            <li>This assumes future RCTs incorporate these methods and Founders Pledge updates their CEA accordingly.</li>
+            <li>Note: This question is somewhat speculative—it asks about counterfactual methodology adoption and its downstream effects.</li>
+          </ul>
+        </div>
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">Probability that rankings change by ≥2 positions</label>
+            <label class="pq-input-label">Probability that adopting these methods would meaningfully change the top-5 rankings (see resolution criteria above)</label>
             <div class="pq-slider-container">
               <input type="range" name="pq3c_probability" class="pq-slider" min="0" max="100" value="35" oninput="this.nextElementSibling.textContent = this.value + '%'">
               <span class="pq-slider-value">35%</span>

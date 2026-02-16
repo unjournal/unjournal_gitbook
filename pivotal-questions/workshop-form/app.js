@@ -171,15 +171,80 @@
     const rows = document.querySelectorAll('.segment-row');
 
     rows.forEach(row => {
-      const checkboxes = row.querySelectorAll('input[type="checkbox"]');
+      const select = row.querySelector('.segment-select');
 
-      function updateRowState() {
-        const anyChecked = Array.from(checkboxes).some(cb => cb.checked);
-        row.classList.toggle('active', anyChecked);
+      if (select) {
+        function updateRowState() {
+          const hasValue = select.value !== '';
+          row.classList.toggle('active', hasValue);
+        }
+
+        select.addEventListener('change', updateRowState);
       }
-
-      checkboxes.forEach(cb => cb.addEventListener('change', updateRowState));
     });
+  }
+
+  // Handle segment drag-and-drop reordering
+  function setupSegmentDragAndDrop() {
+    const container = document.getElementById('segmentsList');
+    const orderInput = document.getElementById('segmentPriorityOrder');
+    if (!container || !orderInput) return;
+
+    let draggedEl = null;
+
+    function updateOrderInput() {
+      const rows = container.querySelectorAll('.segment-row');
+      const order = Array.from(rows).map(row => row.dataset.segment);
+      orderInput.value = order.join(',');
+    }
+
+    container.querySelectorAll('.segment-row').forEach(row => {
+      row.addEventListener('dragstart', (e) => {
+        draggedEl = row;
+        row.classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', row.dataset.segment);
+      });
+
+      row.addEventListener('dragend', () => {
+        row.classList.remove('dragging');
+        container.querySelectorAll('.segment-row').forEach(r => r.classList.remove('drag-over'));
+        draggedEl = null;
+        updateOrderInput();
+      });
+
+      row.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+        if (draggedEl && draggedEl !== row) {
+          row.classList.add('drag-over');
+        }
+      });
+
+      row.addEventListener('dragleave', () => {
+        row.classList.remove('drag-over');
+      });
+
+      row.addEventListener('drop', (e) => {
+        e.preventDefault();
+        row.classList.remove('drag-over');
+        if (draggedEl && draggedEl !== row) {
+          // Insert dragged element before or after current row based on position
+          const allRows = Array.from(container.querySelectorAll('.segment-row'));
+          const draggedIdx = allRows.indexOf(draggedEl);
+          const targetIdx = allRows.indexOf(row);
+
+          if (draggedIdx < targetIdx) {
+            row.parentNode.insertBefore(draggedEl, row.nextSibling);
+          } else {
+            row.parentNode.insertBefore(draggedEl, row);
+          }
+        }
+      });
+    });
+
+    // Initialize order
+    updateOrderInput();
   }
 
   // Handle recording preference notes visibility
@@ -229,6 +294,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     buildGrid();
     setupSegmentHighlighting();
+    setupSegmentDragAndDrop();
     setupRecordingNotes();
     setupValidation();
   });
