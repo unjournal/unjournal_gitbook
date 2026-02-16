@@ -3,27 +3,34 @@
   'use strict';
 
   document.addEventListener('DOMContentLoaded', function() {
-    // Handle context toggle buttons
-    const toggleButtons = document.querySelectorAll('.pq-context-toggle');
+    // Generic toggle handler for all collapsible sections
+    function setupToggle(toggleSelector) {
+      const toggleButtons = document.querySelectorAll(toggleSelector);
 
-    toggleButtons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        const targetId = this.getAttribute('data-target');
-        const contextDiv = document.getElementById(targetId);
+      toggleButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          const targetId = this.getAttribute('data-target');
+          const contentDiv = document.getElementById(targetId);
 
-        if (contextDiv) {
-          const isOpen = contextDiv.classList.contains('open');
+          if (contentDiv) {
+            const isOpen = contentDiv.classList.contains('open');
 
-          if (isOpen) {
-            contextDiv.classList.remove('open');
-            this.classList.remove('open');
-          } else {
-            contextDiv.classList.add('open');
-            this.classList.add('open');
+            if (isOpen) {
+              contentDiv.classList.remove('open');
+              this.classList.remove('open');
+            } else {
+              contentDiv.classList.add('open');
+              this.classList.add('open');
+            }
           }
-        }
+        });
       });
-    });
+    }
+
+    // Set up all toggle types
+    setupToggle('.pq-context-toggle');
+    setupToggle('.definition-toggle');
+    setupToggle('.subordinate-toggle');
 
     // Store name in sessionStorage for thank-you page
     const form = document.getElementById('beliefsForm');
