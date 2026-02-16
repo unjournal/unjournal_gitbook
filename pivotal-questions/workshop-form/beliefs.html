@@ -46,7 +46,51 @@
         <li><strong>For probability/percentage questions:</strong> Give your best estimate. If very uncertain, a wide range is fine—that's useful information too.</li>
         <li><strong>For open-ended questions:</strong> Even a sentence or two helps. We're looking for reasoning and considerations, not polished analysis.</li>
         <li><strong>You can return and update</strong> your responses as your views evolve. (Note: We will store each submission separately rather than overwriting previous responses.)</li>
+        <li><strong>Note on DALYs vs QALYs:</strong> These questions focus on DALYs as the comparison metric. If you think the QALY comparison is more relevant, please note that in your response.</li>
       </ul>
+    </div>
+
+    <!-- Shared Definitions -->
+    <div class="definitions-section">
+      <h3 class="definitions-title">Shared Definitions</h3>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-focal">
+          <span class="toggle-icon">▸</span> Focal example: StrongMinds vs malaria chemoprevention
+        </button>
+        <div class="definition-content" id="def-focal">
+          <blockquote>
+            Suppose Founders Pledge is considering whether to donate $100,000, either:
+            <ul>
+              <li>to StrongMinds (to treat depression in women in low-income settings through group interpersonal psychotherapy)</li>
+              <li>or to extend a seasonal malaria chemoprevention campaign.</li>
+            </ul>
+            Suppose they have substantial evidence on the impact of each intervention coming from RCTs combined with typical self-reported wellbeing surveys as well as objective income and health measures and outcomes. They also have the opportunity to fund the collection of more data in future studies.<br><br>
+            They want to allocate the funds to the intervention that leads to greater "social wellbeing or welfare" in expectation.
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-wellby">
+          <span class="toggle-icon">▸</span> What is a WELLBY?
+        </button>
+        <div class="definition-content" id="def-wellby">
+          <p>A WELLBY (Wellbeing-Year) is defined as one point of self-reported life satisfaction measured on a 0-to-10 Likert scale for one individual for one year (Frijters et al., 2020; Frijters and Krekel, 2021). It is typically measured using annual surveys.</p>
+          <p>We use the definition from Frijters et al, 2024, based on a life satisfaction scale (acknowledging that WELLBY has been defined differently in other contexts).</p>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-best">
+          <span class="toggle-icon">▸</span> What do we mean by "best"?
+        </button>
+        <div class="definition-content" id="def-best">
+          <p><strong>"Best"</strong> = leads to the decisions that yield the highest "true welfare" on average, in the particular relevant domain (e.g., in comparing mental health interventions in Africa), perhaps taking into account the cost of doing the measurements.</p>
+          <p>More precisely: the "best" measures and aggregations would be those that, if we collected and made decisions based on them, would yield policy and funding choices with the highest overall wellbeing or welfare in expectation. Consider reliability, practicality, cost, comparability, and other real-world considerations.</p>
+          <p>The "best" mappings would be those that, if used to make conversions between WELLBYs, DALYs, etc., would be likely to lead to the better/best decisions in most relevant situations.</p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -128,6 +172,97 @@
         </div>
       </div>
 
+      <!-- PQ1 Subordinate Questions (collapsed) -->
+      <div class="subordinate-questions">
+        <button type="button" class="subordinate-toggle" data-target="pq1-subordinate">
+          <span class="toggle-icon">▸</span> More detailed questions on WELLBY reliability <span class="optional">(optional)</span>
+        </button>
+        <div class="subordinate-content" id="pq1-subordinate">
+
+          <!-- WELL_01a -->
+          <div class="subordinate-card">
+            <div class="pq-tag">WELL_01a · Cost Ratio Extension</div>
+            <h3 class="pq-question">If you propose a measure other than linear WELLBY in your answer above, how much more would it cost to achieve the same welfare improvement using linear WELLBY instead?</h3>
+            <p style="font-size: 13px; color: #666; margin-bottom: 16px;">Consider the welfare-improvement from allocating $100,000 among a large set of charities/interventions given the information provided by the "best measure" you propose. How much more would it cost to achieve the same outcome using the linear WELLBY? (E.g., 1.1 = 10% more, 1.5 = 50% more, 3 = 3x as much.) If you think WELLBY is optimal, skip this question.</p>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Cost ratio</label>
+                <input type="number" name="well_01a_cost_ratio" class="input" step="0.1" min="1" max="10" placeholder="e.g., 1.2">
+              </div>
+              <div class="pq-input-group">
+                <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
+                <textarea name="well_01a_reasoning" class="input textarea" rows="2" placeholder="Your reasoning..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- WELL_04 -->
+          <div class="subordinate-card">
+            <div class="pq-tag">WELL_04 · Single vs Combined Measures</div>
+            <h3 class="pq-question">In contexts where interventions impact mental health, physical health, AND consumption: is it better to use a single WELLBY measure, or measure each dimension separately and then convert/combine?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Your view</label>
+                <select name="well_04_view" class="input select">
+                  <option value="">Select...</option>
+                  <option value="single_wellby">Single WELLBY is better—simplicity/consistency outweighs loss</option>
+                  <option value="separate_measures">Separate measures are better—WELLBY loses too much</option>
+                  <option value="depends">Depends on context (explain below)</option>
+                </select>
+              </div>
+              <div class="pq-input-group">
+                <label class="pq-input-label">In which contexts might one approach be better than the other? <span class="optional">(optional)</span></label>
+                <textarea name="well_04_reasoning" class="input textarea" rows="2" placeholder="Your thoughts..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- WELL_07 -->
+          <div class="subordinate-card">
+            <div class="pq-tag">WELL_07 · What Is Lost?</div>
+            <h3 class="pq-question">How much insight is lost by using WELLBY relative to other available measures in the "wellbeing space"? When will it steer us wrong?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <textarea name="well_07_response" class="input textarea" rows="3" placeholder="Your assessment..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- WELL_08 -->
+          <div class="subordinate-card">
+            <div class="pq-tag">WELL_08 · Life Satisfaction vs Experience</div>
+            <h3 class="pq-question">Would it be better to base the metric on life satisfaction or instantaneous experience measures (e.g., happiness, affect balance)?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <select name="well_08_view" class="input select">
+                  <option value="">Select...</option>
+                  <option value="life_satisfaction">Life satisfaction is better for these purposes</option>
+                  <option value="experience">Experience/happiness measures are better</option>
+                  <option value="both">Both should be used/combined</option>
+                  <option value="unsure">Unsure / depends on context</option>
+                </select>
+              </div>
+              <div class="pq-input-group">
+                <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
+                <textarea name="well_08_reasoning" class="input textarea" rows="2" placeholder="Your reasoning..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- WELL_09 -->
+          <div class="subordinate-card">
+            <div class="pq-tag">WELL_09 · Cantril Ladder Conversion</div>
+            <h3 class="pq-question">If we must rely on the Cantril ladder measure, how would we best convert it into a welfare metric for comparing interventions?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <textarea name="well_09_response" class="input textarea" rows="3" placeholder="Your suggestions..."></textarea>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       <!-- PQ2a: DALY/QALY-WELLBY Conversion — maps to DALY_01 -->
       <div class="pq-card">
         <div class="pq-tag">PQ2a · DALY/QALY–WELLBY Conversion · <span class="pq-code">DALY_01</span></div>
@@ -188,6 +323,40 @@
             <label class="pq-input-label">What conversion approach would you recommend, and why?</label>
             <textarea name="pq2b_method" class="input textarea" rows="4" placeholder="Your recommended approach and reasoning..."></textarea>
           </div>
+        </div>
+      </div>
+
+      <!-- PQ2 Subordinate Questions (collapsed) -->
+      <div class="subordinate-questions">
+        <button type="button" class="subordinate-toggle" data-target="pq2-subordinate">
+          <span class="toggle-icon">▸</span> More detailed questions on DALY–WELLBY conversion <span class="optional">(optional)</span>
+        </button>
+        <div class="subordinate-content" id="pq2-subordinate">
+
+          <!-- DALY_02 -->
+          <div class="subordinate-card">
+            <div class="pq-tag">DALY_02 · Founders Pledge Specific</div>
+            <h3 class="pq-question">Which mapping between WELLBYs and DALYs should Founders Pledge specifically use for comparisons like the focal example (StrongMinds vs malaria)?</h3>
+            <p style="font-size: 13px; color: #666; margin-bottom: 16px;">This asks about the best mapping for their particular use case, rather than a general-purpose conversion.</p>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <textarea name="daly_02_response" class="input textarea" rows="3" placeholder="Your recommendation..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- DALY_05 -->
+          <div class="subordinate-card">
+            <div class="pq-tag">DALY_05 · Loss from SD-SD Approach</div>
+            <h3 class="pq-question">What is the loss from the "1 SD change in WELLBY ≈ 1 SD change in DALY" approach currently used by some funders, relative to the best feasible approach?</h3>
+            <p style="font-size: 13px; color: #666; margin-bottom: 16px;">Where will this approach be particularly incorrect? Consider different intervention types, populations, or contexts.</p>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <textarea name="daly_05_response" class="input textarea" rows="3" placeholder="Your assessment of the loss and where it's worst..."></textarea>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 

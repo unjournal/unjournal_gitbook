@@ -1058,6 +1058,182 @@ body {
   grid-column: 1 / -1;
 }
 
+/* Shared Definitions Section */
+.definitions-section {
+  margin: 28px 0 0;
+  padding: 16px 0 0;
+  border-top: 1px solid var(--border-light);
+}
+
+.definitions-title {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 12px;
+}
+
+.definition-block {
+  margin-bottom: 8px;
+}
+
+.definition-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  background: #fafaf7;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.definition-toggle:hover {
+  background: var(--bg-alt);
+  border-color: #ccc;
+}
+
+.definition-toggle .toggle-icon {
+  font-size: 10px;
+  color: var(--text-light);
+  transition: transform 0.2s;
+}
+
+.definition-toggle.open .toggle-icon {
+  transform: rotate(90deg);
+}
+
+.definition-content {
+  display: none;
+  padding: 16px 18px;
+  margin: 4px 0 0;
+  background: #fafaf7;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+}
+
+.definition-content.open {
+  display: block;
+}
+
+.definition-content blockquote {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+  font-style: normal;
+}
+
+.definition-content blockquote ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.definition-content blockquote li {
+  margin-bottom: 6px;
+}
+
+.definition-content p {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+
+.definition-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Subordinate Questions Section */
+.subordinate-questions {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--border-light);
+}
+
+.subordinate-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.subordinate-toggle:hover {
+  color: var(--text);
+}
+
+.subordinate-toggle .toggle-icon {
+  font-size: 10px;
+  transition: transform 0.2s;
+}
+
+.subordinate-toggle.open .toggle-icon {
+  transform: rotate(90deg);
+}
+
+.subordinate-content {
+  display: none;
+  margin-top: 16px;
+}
+
+.subordinate-content.open {
+  display: block;
+}
+
+.subordinate-card {
+  background: #fafaf7;
+  border: 1px solid var(--border-light);
+  border-left: 3px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 12px;
+}
+
+.subordinate-card:last-child {
+  margin-bottom: 0;
+}
+
+.subordinate-card .pq-tag {
+  font-size: 10px;
+  color: var(--text-light);
+}
+
+.subordinate-card .pq-question {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.subordinate-card .pq-input-label {
+  font-size: 12px;
+}
+
+.subordinate-card .input {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.subordinate-card .pq-slider-value {
+  font-size: 14px;
+}
+
 /* Version Note */
 .version-note {
   font-size: 12px;
