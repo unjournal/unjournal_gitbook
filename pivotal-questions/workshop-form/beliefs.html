@@ -52,10 +52,11 @@
       <input type="hidden" name="form-name" value="beliefs-elicitation">
       <input type="hidden" name="bot-field">
 
-      <!-- PQ1a: WELLBY Usefulness -->
+      <!-- PQ1a: WELLBY Usefulness — maps to WELL_01, WELL_07 -->
       <div class="pq-card">
-        <div class="pq-tag">PQ1a · WELLBY Usefulness</div>
-        <h2 class="pq-question">Is the WELLBY (linear, 0–10 life satisfaction) a useful and reliable measure for comparing interventions—particularly those involving mental health, consumption, and life-saving—in the context that organizations like Founders Pledge use it?</h2>
+        <div class="pq-tag">PQ1a · WELLBY Usefulness · <span class="pq-code">WELL_01/07</span></div>
+        <h2 class="pq-question">How reliable is the WELLBY measure [...] relative to other available measures in the 'wellbeing space'? How much insight is lost by using WELLBY and when will it steer us wrong?</h2>
+        <p class="pq-subtext">Adapted from <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_07</a>: "How reliable is the WELLBY measure of well-being/mental health (as defined above) relative to other available measures in the 'wellbeing space' (including other transformations of the 0-10 life satisfaction scale)?"</p>
         <p class="pq-why">The WELLBY is used by several major funders (<a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">Happier Lives Institute</a>, <a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a>) to compare interventions across domains. The reliability of this approach matters for resource allocation decisions.</p>
 
         <button type="button" class="pq-context-toggle" data-target="pq1a-context">
@@ -66,6 +67,7 @@
             <li>A WELLBY is defined as an increase of 1 point for one person for one year on a 0–10 life satisfaction scale (e.g. Cantril's Ladder).</li>
             <li>For comparing <em>changes</em> in wellbeing across interventions, what matters most is whether differences on the scale are comparable across individuals—not necessarily whether absolute levels have the same meaning.</li>
             <li>Benjamin et al. (2023) found substantial scale-use heterogeneity. They show that calibration questions can adjust for roughly 30–50% of this heterogeneity in their sample, though generalizability remains uncertain.</li>
+            <li>Related canonical question (<a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_01</a>): "What combination of (a) subjective wellbeing survey data [...], (b) income and health-outcome data, (c) metrics based on this data (e.g., linear or logarithmic WELLBYs, standard deviations, scale-use adjustments), and (d) possible conversions between different measures would be 'best' for making funding choices between interventions which may impact mental health, physical health, and/or consumption[?]"</li>
           </ul>
         </div>
 
@@ -84,10 +86,11 @@
         </div>
       </div>
 
-      <!-- PQ1b: Best Measure -->
+      <!-- PQ1b: Best Measure — maps to WELL_02, WELL_03 -->
       <div class="pq-card">
-        <div class="pq-tag">PQ1b · Best Measure</div>
-        <h2 class="pq-question">Relative to the WELLBY, is there a different wellbeing measure (or transformation of the 0–10 scale) that would be substantially more useful for these funding decisions?</h2>
+        <div class="pq-tag">PQ1b · Best Measure · <span class="pq-code">WELL_02/03</span></div>
+        <h2 class="pq-question">Given the available collected data [...], how should [funders] measure the impact on wellbeing? [...] What measures of well-being should charities, NGOs, and RCTs collect for impact analysis?</h2>
+        <p class="pq-subtext">Adapted from <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_02</a>: "Given the available collected data from surveys and intervention trials, how should Founders' Pledge measure the impact on wellbeing in the context of mental health interventions? [...] Consider reliability, insight, and practicability." And <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_03</a>: "What measures of well-being [...] should charities, NGOs, and RCTs collect for impact analysis, particularly in contexts that may involve less tangible well-being outcomes (such as mental health interventions)? This could also include stated-preference and calibration surveys."</p>
         <p class="pq-why">Even if the WELLBY is "good enough," there might be better options—multi-item scales, log-transformed life satisfaction, or standardized composites. Switching measures has costs, so the improvement needs to be meaningful.</p>
 
         <button type="button" class="pq-context-toggle" data-target="pq1b-context">
@@ -97,6 +100,7 @@
           <ul>
             <li>Candidates include: multi-item life satisfaction scales (e.g. SWLS), experience sampling, the WB-Pro, WEMWBS, log-transformed 0-10 LS, or domain-specific instruments.</li>
             <li>Diener et al. (2018) found single-item life satisfaction has moderately high reliability (~0.70 correlation) with little validity loss compared to multi-item scales.</li>
+            <li>WELL_03 also asks: "How should these [measures] be used?"—considering not just what to collect but how to combine and interpret the data.</li>
           </ul>
         </div>
 
@@ -121,10 +125,11 @@
         </div>
       </div>
 
-      <!-- PQ2a: DALY-WELLBY Conversion -->
+      <!-- PQ2a: DALY/QALY-WELLBY Conversion — maps to DALY_01 -->
       <div class="pq-card">
-        <div class="pq-tag">PQ2a · DALY–WELLBY Conversion</div>
-        <h2 class="pq-question">How does a 1 standard deviation change in WELLBY compare to a 1 standard deviation change in DALYs, in terms of actual welfare impact?</h2>
+        <div class="pq-tag">PQ2a · DALY/QALY–WELLBY Conversion · <span class="pq-code">DALY_01</span></div>
+        <h2 class="pq-question">If the impact of one program is measured in WELLBYs [...] and another program impact is measured in DALYs [or QALYs], [...] what is the best numerical conversion or mapping between them?</h2>
+        <p class="pq-subtext">From <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_01</a>: "If the impact of one program is measured in WELLBYs (as defined above) and another program impact is measured in DALYs, and we have a reported effect size and standard deviation for each, what is the best numerical conversion or mapping between them?" <em>(Note: QALYs may be more relevant than DALYs for this conversion—see context.)</em></p>
         <p class="pq-why">Organizations currently treat 1 SD of improvement on mental health instruments as roughly equivalent to 1 SD on the WELLBY scale. The UK Treasury uses ~1 QALY ≈ 6-7 WELLBYs. Getting this conversion wrong means systematically over- or under-investing in mental health versus physical health interventions.</p>
 
         <button type="button" class="pq-context-toggle" data-target="pq2a-context">
@@ -132,8 +137,9 @@
         </button>
         <div class="pq-context" id="pq2a-context">
           <ul>
+            <li><strong>DALY vs QALY:</strong> DALYs measure health burden (years lost to disease/disability); QALYs measure health gained. For conversion purposes, QALYs are often more directly comparable—the canonical questions note "replace DALY with QALY" may be appropriate.</li>
             <li>Currently, standard practice (used by HLI and Founders Pledge) treats SDs on different mental health instruments as interconvertible with WELLBY SDs on a roughly 1:1 basis.</li>
-            <li>The conversion between DALYs and WELLBYs depends on the "neutral point" on the LS scale—the point below which life has negative value. This is currently unknown; one small study (Peasgood et al. 2018) suggested LS ≈ 2, but this is tentative.</li>
+            <li>The conversion between DALYs/QALYs and WELLBYs depends on the "neutral point" on the LS scale—the point below which life has negative value. This is currently unknown; one small study (Peasgood et al. 2018) suggested LS ≈ 2, but this is tentative.</li>
             <li>The relationship may also be non-linear—e.g., a WELLBY gained at very low wellbeing could be worth more than one gained at high wellbeing.</li>
           </ul>
         </div>
@@ -157,10 +163,11 @@
         </div>
       </div>
 
-      <!-- PQ2b: Best Conversion Method -->
+      <!-- PQ2b: Best Conversion Method — maps to DALY_03, DALY_05 -->
       <div class="pq-card">
-        <div class="pq-tag">PQ2b · Best Conversion Method</div>
-        <h2 class="pq-question">What is the best practical method for converting between WELLBYs and DALYs (or QALYs) for use in cost-effectiveness analyses?</h2>
+        <div class="pq-tag">PQ2b · Best Conversion Method · <span class="pq-code">DALY_03/05</span></div>
+        <h2 class="pq-question">If the effectiveness of some programs have already been measured in terms of WELLBYs, while others are measured in terms of DALYs, what method or what "mapping structure or approach" should we use to compare and convert between them?</h2>
+        <p class="pq-subtext">From <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_03</a>: "[...] E.g., direct units vs standard deviations, linear vs something else, etc.? [...] What numerical conversion factor(s) should we use between the two (possibly transformed) effectiveness metrics?" See also <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_05</a>: "What is the loss from the 'one SD change in WELLBY is equivalent to one SD change in DALY' approach [...] relative to the best feasible approach? Where will [this] approach be particularly incorrect?"</p>
         <p class="pq-why">Funders need a usable conversion now, even if imperfect. The question is whether the current approach (SD equivalence) is defensible, or whether a better practical method exists.</p>
 
         <button type="button" class="pq-context-toggle" data-target="pq2b-context">
@@ -169,6 +176,7 @@
         <div class="pq-context" id="pq2b-context">
           <ul>
             <li>Options include: SD-equivalence (current practice), regression-based approaches (linking LS data to DALY weights in the same populations), time-tradeoff surveys, or simply maintaining separate analyses and comparing rankings.</li>
+            <li>DALY_03 also asks: "If the optimal factor varies greatly from one domain to another (e.g. mental health, physical health, income/consumption; or rural Africa vs urban India), what are the domains where it varies the most?"</li>
           </ul>
         </div>
 
@@ -272,13 +280,16 @@
       </div>
     </form>
 
+    <!-- Version Note -->
+    <p class="version-note">Questions adapted from the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">canonical Wellbeing PQ formulations</a> (codes: WELL_01–07, DALY_01–05). Last updated: February 2026.</p>
+
     <!-- Footer Links -->
     <div class="footer-links">
       <div class="context-links">
         <a href="/" class="pill-link">Submit Workshop Availability →</a>
         <a href="/about.html" class="pill-link">About This Workshop →</a>
         <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="pill-link">Metaculus Community →</a>
-        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pill-link">Wellbeing PQ on Coda →</a>
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pill-link">Canonical PQs on Coda →</a>
       </div>
     </div>
   </main>
