@@ -979,6 +979,12 @@ body {
   line-height: 1.5;
 }
 
+.input-note {
+  font-weight: 400;
+  color: var(--text-light);
+  font-size: 12px;
+}
+
 /* Slider styles */
 .pq-slider-container {
   display: flex;
