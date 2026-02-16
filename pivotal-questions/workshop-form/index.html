@@ -122,108 +122,103 @@
           <span class="section-number">3</span>
           <h2 class="section-title">Which Segments Interest You?</h2>
         </div>
-        <p class="section-subtitle">All fields in this section are optional. You don't need to attend the full session — for each segment, let us know if you'd like to join and/or if you'd be interested in presenting or actively contributing.</p>
+        <p class="section-subtitle">All fields in this section are optional. You don't need to attend the full session. Drag segments to reorder by priority (most interested at top), or just select your interest level.</p>
 
-        <!-- Segment headers -->
-        <div class="segment-headers">
-          <div class="segment-label-spacer"></div>
-          <div class="segment-checkbox-header">Join /<br>Listen</div>
-          <div class="segment-checkbox-header">Present /<br>Discuss</div>
-        </div>
-
-        <!-- Segments -->
+        <!-- Segments - draggable for priority -->
         <div class="segments-list" id="segmentsList">
-          <div class="segment-row" data-segment="stakeholder">
+          <div class="segment-row" data-segment="stakeholder" draggable="true">
+            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
             <div class="segment-info">
               <div class="segment-name">Stakeholder Problem Statement</div>
               <div class="segment-desc">How funders currently navigate WELLBY vs DALY (~15 min)</div>
             </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_stakeholder_join" value="yes" class="segment-checkbox join">
-            </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_stakeholder_present" value="yes" class="segment-checkbox present">
-            </div>
+            <select name="segment_stakeholder" class="segment-select">
+              <option value="">—</option>
+              <option value="join">Join / Listen</option>
+              <option value="present">Present / Contribute</option>
+            </select>
           </div>
 
-          <div class="segment-row" data-segment="paper">
+          <div class="segment-row" data-segment="paper" draggable="true">
+            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
             <div class="segment-info">
               <div class="segment-name">Paper Presentation: Benjamin et al.</div>
               <div class="segment-desc">Scale-use heterogeneity findings & implications (~25 min)</div>
             </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_paper_join" value="yes" class="segment-checkbox join">
-            </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_paper_present" value="yes" class="segment-checkbox present">
-            </div>
+            <select name="segment_paper" class="segment-select">
+              <option value="">—</option>
+              <option value="join">Join / Listen</option>
+              <option value="present">Present / Contribute</option>
+            </select>
           </div>
 
-          <div class="segment-row" data-segment="evaluator">
+          <div class="segment-row" data-segment="evaluator" draggable="true">
+            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
             <div class="segment-info">
               <div class="segment-name">Evaluator Responses & Discussion</div>
               <div class="segment-desc">Key critiques, suggestions, author reaction (~25 min)</div>
             </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_evaluator_join" value="yes" class="segment-checkbox join">
-            </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_evaluator_present" value="yes" class="segment-checkbox present">
-            </div>
+            <select name="segment_evaluator" class="segment-select">
+              <option value="">—</option>
+              <option value="join">Join / Listen</option>
+              <option value="present">Present / Contribute</option>
+            </select>
           </div>
 
-          <div class="segment-row" data-segment="pq1">
+          <div class="segment-row" data-segment="pq1" draggable="true">
+            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
             <div class="segment-info">
               <div class="segment-name">WELLBY Reliability: Discussion</div>
               <div class="segment-desc">Is the linear WELLBY reliable enough for cross-intervention comparison? (~25 min)</div>
             </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_pq1_join" value="yes" class="segment-checkbox join">
-            </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_pq1_present" value="yes" class="segment-checkbox present">
-            </div>
+            <select name="segment_pq1" class="segment-select">
+              <option value="">—</option>
+              <option value="join">Join / Listen</option>
+              <option value="present">Present / Contribute</option>
+            </select>
           </div>
 
-          <div class="segment-row" data-segment="pq2">
+          <div class="segment-row" data-segment="pq2" draggable="true">
+            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
             <div class="segment-info">
               <div class="segment-name">DALY/QALY↔WELLBY Conversion: Discussion</div>
               <div class="segment-desc">Approaches to interconvertibility — what works, what's missing? (~25 min)</div>
             </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_pq2_join" value="yes" class="segment-checkbox join">
-            </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_pq2_present" value="yes" class="segment-checkbox present">
-            </div>
+            <select name="segment_pq2" class="segment-select">
+              <option value="">—</option>
+              <option value="join">Join / Listen</option>
+              <option value="present">Present / Contribute</option>
+            </select>
           </div>
 
-          <div class="segment-row" data-segment="beliefs">
+          <div class="segment-row" data-segment="beliefs" draggable="true">
+            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
             <div class="segment-info">
               <div class="segment-name">Beliefs Elicitation</div>
               <div class="segment-desc">We'll guide you through a short form to state your priors on operationalized pivotal questions (~15 min)</div>
             </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_beliefs_join" value="yes" class="segment-checkbox join">
-            </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_beliefs_present" value="yes" class="segment-checkbox present">
-            </div>
+            <select name="segment_beliefs" class="segment-select">
+              <option value="">—</option>
+              <option value="join">Join / Listen</option>
+              <option value="present">Present / Contribute</option>
+            </select>
           </div>
 
-          <div class="segment-row" data-segment="practitioner">
+          <div class="segment-row" data-segment="practitioner" draggable="true">
+            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
             <div class="segment-info">
               <div class="segment-name">Practitioner Panel & Open Discussion</div>
               <div class="segment-desc">How should funders navigate this now? What research would change minds? (~30 min)</div>
             </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_practitioner_join" value="yes" class="segment-checkbox join">
-            </div>
-            <div class="segment-checkbox-cell">
-              <input type="checkbox" name="segment_practitioner_present" value="yes" class="segment-checkbox present">
-            </div>
+            <select name="segment_practitioner" class="segment-select">
+              <option value="">—</option>
+              <option value="join">Join / Listen</option>
+              <option value="present">Present / Contribute</option>
+            </select>
           </div>
         </div>
+        <!-- Hidden field to capture segment order -->
+        <input type="hidden" name="segment_priority_order" id="segmentPriorityOrder" value="">
 
         <div class="form-field" style="margin-top: 24px;">
           <label for="presentNotes" class="field-label">Brief notes on what you'd like to present or discuss <span class="optional">(optional)</span></label>
@@ -310,7 +305,7 @@
           <span class="section-number">6</span>
           <h2 class="section-title">Questions & Claims</h2>
         </div>
-        <p class="section-subtitle">What questions or claims would you most like to see discussed or debated at this workshop?</p>
+        <p class="section-subtitle">What questions or claims would you most like to see discussed or debated at this workshop — other than (or adjusting) the <a href="/beliefs.html">explicit Pivotal Questions</a> we've already formulated?</p>
 
         <div class="form-field">
           <label for="questionsAndClaims" class="field-label">Your questions or claims <span class="optional">(optional)</span></label>
