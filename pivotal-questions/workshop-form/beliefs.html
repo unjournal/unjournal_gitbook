@@ -73,11 +73,11 @@
 
       <div class="definition-block">
         <button type="button" class="definition-toggle" data-target="def-wellby">
-          <span class="toggle-icon">▸</span> What is a WELLBY?
+          <span class="toggle-icon">▸</span> How are we defining a WELLBY here?
         </button>
         <div class="definition-content" id="def-wellby">
-          <p>A WELLBY (Wellbeing-Year) is defined as one point of self-reported life satisfaction measured on a 0-to-10 Likert scale for one individual for one year (Frijters et al., 2020; Frijters and Krekel, 2021). It is typically measured using annual surveys.</p>
-          <p>We use the definition from Frijters et al, 2024, based on a life satisfaction scale (acknowledging that WELLBY has been defined differently in other contexts).</p>
+          <p>For the current context, we define a WELLBY (Wellbeing-Year) as one point of self-reported life satisfaction measured on a 0-to-10 Likert scale for one individual for one year (following Frijters et al., 2020; Frijters and Krekel, 2021).</p>
+          <p>We follow the definition from Frijters et al., 2024, based on a life satisfaction scale (acknowledging that WELLBY has been defined differently in other contexts).</p>
         </div>
       </div>
 
@@ -120,15 +120,15 @@
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">How likely is it that the WELLBY—possibly with adjustments like calibration questions or vignettes—is a "good enough" measure for cross-intervention comparison in this context? (0% = certainly not reliable enough, 100% = certainly reliable enough)</label>
+            <label class="pq-input-label">What's driving your assessment? What evidence or considerations matter most?</label>
+            <textarea name="pq1a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">How likely is it that the simple WELLBY measure (<a href="#def-wellby" style="color: var(--brown);">as defined above</a>) is the best or near-best measure—yielding no less than 80% of the value of the best measure—for cross-intervention comparison in the <a href="#def-focal" style="color: var(--brown);">focal context</a>? (0% = very unlikely, 100% = very likely)</label>
             <div class="pq-slider-container">
               <input type="range" name="pq1a_probability" class="pq-slider" min="0" max="100" value="50" oninput="this.nextElementSibling.textContent = this.value + '%'">
               <span class="pq-slider-value">50%</span>
             </div>
-          </div>
-          <div class="pq-input-group">
-            <label class="pq-input-label">What's driving your assessment? What evidence or considerations matter most?</label>
-            <textarea name="pq1a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
           </div>
         </div>
       </div>
@@ -137,8 +137,15 @@
       <div class="pq-card">
         <div class="pq-tag">PQ1b · Best Measure · <span class="pq-code">WELL_02/03</span></div>
         <h2 class="pq-question">Given the available collected data [...], how should [funders] measure the impact on wellbeing? [...] What measures of well-being should charities, NGOs, and RCTs collect for impact analysis?</h2>
-        <p class="pq-subtext">Adapted from <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_02</a>: "Given the available collected data from surveys and intervention trials, how should Founders' Pledge measure the impact on wellbeing in the context of mental health interventions? [...] Consider reliability, insight, and practicability." And <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_03</a>: "What measures of well-being [...] should charities, NGOs, and RCTs collect for impact analysis, particularly in contexts that may involve less tangible well-being outcomes (such as mental health interventions)? This could also include stated-preference and calibration surveys."</p>
         <p class="pq-why">Even if the WELLBY is "good enough," there might be better options—multi-item scales, log-transformed life satisfaction, or standardized composites. Switching measures has costs, so the improvement needs to be meaningful.</p>
+
+        <button type="button" class="pq-context-toggle" data-target="pq1b-canonical">
+          <span class="toggle-icon">▸</span> Canonical question text (WELL_02/03)
+        </button>
+        <div class="pq-context" id="pq1b-canonical">
+          <p style="font-size: 13px; margin: 0 0 10px;">Adapted from <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_02</a>: "Given the available collected data from surveys and intervention trials, how should Founders' Pledge measure the impact on wellbeing in the context of mental health interventions? [...] Consider reliability, insight, and practicability."</p>
+          <p style="font-size: 13px; margin: 0;">And <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_03</a>: "What measures of well-being [...] should charities, NGOs, and RCTs collect for impact analysis, particularly in contexts that may involve less tangible well-being outcomes (such as mental health interventions)? This could also include stated-preference and calibration surveys."</p>
+        </div>
 
         <button type="button" class="pq-context-toggle" data-target="pq1b-context">
           <span class="toggle-icon">▸</span> Context & definitions
@@ -364,7 +371,7 @@
       <div class="pq-card">
         <div class="pq-tag">PQ3a · Metaculus-style · Research Uptake</div>
         <h2 class="pq-question">By 2030, will more than 50% of GiveWell's top charities include a WELLBY-based cost-effectiveness analysis alongside or instead of DALY-based analysis?</h2>
-        <p class="pq-why">This question gauges whether the WELLBY will gain institutional traction among the most influential funders.</p>
+        <p class="pq-why">This illustrative forecasting question gauges whether the WELLBY will gain institutional traction. <em>(Note: This is a discussion question for the workshop, not from the canonical PQ table.)</em></p>
 
         <div class="pq-inputs">
           <div class="pq-input-group">
@@ -384,11 +391,12 @@
       <!-- PQ3b: Expert Consensus (Metaculus) -->
       <div class="pq-card">
         <div class="pq-tag">PQ3b · Metaculus-style · Expert Consensus</div>
-        <h2 class="pq-question">What share of development economists and research-informed practitioners surveyed by The Unjournal (before end of 2027) will agree that "the WELLBY is a reasonably useful measure in this context, and switching to a different measure is unlikely to add much value"?</h2>
+        <h2 class="pq-question">If The Unjournal were to survey development economists and research-informed practitioners (before end of 2027), what share would agree that "the WELLBY is a reasonably useful measure in this context, and switching to a different measure is unlikely to add much value"?</h2>
+        <p class="pq-why"><em>(Note: This is a hypothetical scenario for discussion. We are not currently planning to conduct such a survey, though we would like to if feasible.)</em></p>
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">Your estimate of the share who will agree (0-100%)</label>
+            <label class="pq-input-label">Your estimate of the share who would agree (0-100%)</label>
             <input type="number" name="pq3b_share" class="input" min="0" max="100" placeholder="e.g., 45">
           </div>
           <div class="pq-input-group">
