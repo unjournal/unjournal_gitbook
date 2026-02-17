@@ -34,12 +34,22 @@ GitBook uses custom syntax including:
 - `landing-pages/about.html` — "In a Nutshell" overview of The Unjournal
 - `landing-pages/benefits.html` — Benefits & features of journal-independent evaluation
 - `landing-pages/for-authors.html` — FAQ and information for researchers/authors
+- `landing-pages/for-evaluators.html` — Information and recruitment for evaluators
+- `landing-pages/team.html` — Management team, advisory board, and field specialists
+- `landing-pages/news.html` — News feed page
+- `landing-pages/pivotal-questions.html` — High-value-of-information research initiative
 - `landing-pages/forecasting-tournament.html` — Animal welfare forecasting tournament (with Metaculus)
 - `landing-pages/forecasting-tournament-thanks.html` — Post-signup confirmation
 - `landing-pages/follow.html` — Social media, news, and engagement hub
 - `landing-pages/donate.html` — Donation/support page
 - `landing-pages/evaluator-prizes-2024-25.html` — Evaluator prize winners announcement
 - `landing-pages/lottery.html` — Transparent random draw for honorable mention prizes
+
+### Team Page Notes
+- **Source of truth**: Team structure is managed in Coda (`coda_org_unjournal` repo)
+- **Photos**: Sourced from Squarespace CDN (`images.squarespace-cdn.com`) via unjournal.org/team
+- **Manual sync**: When team changes, update both Coda (via `update_team.py`) and `team.html`
+- Team members without photos use initials placeholders (gradient background)
 
 ### Design conventions
 - All pages use academic serif fonts: Libre Baskerville for headings, Georgia for body text (donate.html uses Almarai for body)
@@ -66,6 +76,38 @@ The Unjournal maintains a style guide for documentation consistency: https://doc
 - **Shiny dashboard**: `https://unjournal.shinyapps.io/uj-dashboard/`
 - **Main website**: `https://unjournal.org`
 - **Ad Grant landing pages**: `https://info.unjournal.org`
+- **Wellbeing Workshop**: `https://unjournal-wellbeing-workshop.netlify.app` (also mirrored at `unjournal-workshop.netlify.app`)
+
+## Pivotal Questions Workshops (`pivotal-questions/`)
+
+Workshop scheduling and beliefs elicitation forms for the Pivotal Questions initiative.
+
+### Wellbeing Workshop (`pivotal-questions/workshop-form/`)
+- **Canonical URL**: `https://unjournal-wellbeing-workshop.netlify.app`
+- **Legacy URL**: `https://unjournal-workshop.netlify.app` (mirrors canonical, kept for existing links)
+- **Netlify Site ID**: `35c1d8a5-58ee-4e27-8157-acad9d373e45` (wellbeing-specific)
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 35c1d8a5-58ee-4e27-8157-acad9d373e45`
+
+#### Pages
+- `index.html` — Scheduling form (availability grid, segment interest)
+- `about.html` — Workshop overview and goals
+- `beliefs.html` — Pivotal Questions beliefs elicitation form
+- `thanks.html` / `beliefs-thanks.html` — Post-submission confirmations
+
+#### Forms (Netlify Forms)
+- `workshop-availability` — Scheduling submissions
+- `beliefs-elicitation` — Beliefs/forecasts submissions
+
+#### Design
+- Academic aesthetic: Source Serif 4 + DM Sans fonts
+- Color palette: `--bg: #f8f6f1`, `--sage: #5a7a5a`, `--brown: #8b5e3c`
+- Shared styles in `styles.css`, interactivity in `app.js` and `beliefs.js`
+
+### Future Workshops
+When creating additional PQ workshops (e.g., cultured meat):
+1. Create new directory under `pivotal-questions/`
+2. Create new Netlify site with topic-specific name (e.g., `unjournal-cultured-meat-workshop`)
+3. Use same design patterns and form structure
 
 ## Domain & Hosting Infrastructure
 
