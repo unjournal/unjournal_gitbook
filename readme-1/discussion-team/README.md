@@ -1,13 +1,15 @@
 ---
-description: Auto-generated from Coda. Last synced: 2026-02-16
+description: Auto-generated from Coda. Last synced: 2026-02-18
 ---
 
 # Our Team
 
 ## Management Team
 
+- [Alexander Herwix](https://www.researchgate.net/profile/Alexander-Herwix) — Leipzig University, Info. sys.
 - [Andrei Potlogea](https://sites.google.com/site/andreipotlogeaupf/)
 - [Anirudh Tagat](https://www.anirudhtagat.com) — Monk Prayogshala, Econ.
+- [Bob Kubinec](https://www.robertkubinec.com/) — University of Virginia
 - David Reinstein, Founder & Co-Director
 - [Gavin Taylor](https://www.linkedin.com/in/gavin-taylor-9a409453/?originalSubdomain=br) — IGDORE, Neurosci.
 - [Hansika Kapoor](https://www.hansikakapoor.in/) — Monk Prayogshala, Psych.
@@ -18,19 +20,16 @@ description: Auto-generated from Coda. Last synced: 2026-02-16
 - [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea) — University of Melbourne,RepliCATS
 - Daniela Cialfi — Econ.
 - Davit Jintcharadze (former Operations Manager)
-- Demetrius Floudas — University of Cambridge
-- [Don A. Moore](https://haas.berkeley.edu/faculty/don-moore/) — Haas School,UC Berkeley
-- Emmanuel Orkoh — Econ.
+- [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en) — North-West University, South Africa, Econ.
 - [Gustav Nilsonne](https://nilsonne.net/) — Karolinska Institutet, Neurosci.
 - [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/) — Asterisk magazine, Pub. health
-- Kris Gulati — Econ.
-- Lorenzo Pacchiardi
-- [Michael Harre](https://www.sydney.edu.au/science/about/our-people/academic-staff/michael-harre.html) — University of Sydney
+- [Jordan Dworkin](https://jordandworkin.com/) — Federation of American Scientists, Biostats.
+- [Kris Gulati](https://sites.google.com/view/kris-gulati/home) — UC Merced, Econ.
+- Lorenzo Pacchiardi — Leverhulme Centre for the Future of Intelligence
 - [Michael Wiebe](https://michaelwiebe.com/) — Econ.
 - [Nicolas Treich](https://scholar.google.fr/citations?user=-S6D7OsAAAAJ&hl=en) — Institut National de la Recherche pour l’Agriculture,l’Alimentation et l’Environnement (INRAe), Econ.
-- [Paolo Crosetto](https://paolocrosetto.wordpress.com/) — INRAE
-- [Stuart Buck](https://goodscienceproject.org/) — Good Science Project
-- Tanya O'Garra — Econ.
+- [Sarah Anne Reynolds](https://sites.google.com/view/sarah-a-reynolds/home) — World Bank, Econ., GH
+- [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home) — Imperial College London, Econ.
 - [Yannick Dupraz](https://sites.google.com/site/yannickdupraz/)
 
 ## Field Specialists
@@ -43,7 +42,7 @@ description: Auto-generated from Coda. Last synced: 2026-02-16
 - [Charlotte Lane](https://www.foodsecurityevidence.com/) — Food Security Evidence Brokerage,3ie
 - [David Manheim](https://scholar.google.com/citations?user=6-M1ZIUAAAAJ&hl=en) — Association for Long Term Existence and Resilience (ALTER),Technion - Israel Institute of Technology, Econ.
 - Eliana Hadjiandreou — Computational Affective and Social Cognition
-- Emmanuel Orkoh — Econ.
+- [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en) — North-West University, South Africa, Econ.
 - [Florian Habermacher](https://habermacher.net/) — Lucerne University,Swiss Institution for International Economics, Econ.
 - [Francesco Ramponi](https://scholar.google.com/citations?user=DdbGN6UAAAAJ&hl=en&oi=ao) — Harvard T.H. Chan School of Public Health, Econ., GH
 - [Gary McDowell](https://www.linkedin.com/in/gary-mcdowell-4551131a/) — IGDORE
@@ -54,19 +53,20 @@ description: Auto-generated from Coda. Last synced: 2026-02-16
 - [Josh Tasoff](https://scholar.google.com/citations?user=pyjguMoAAAAJ&hl=en) — Claremont Graduate University, Econ.
 - Julian Jamison — Global Priorities Institute,Exeter, Econ.
 - [Kevin J Kuruc](https://sites.google.com/view/kevinkuruc/home) — University of Texas at Austin, Econ.
-- Kris Gulati — Econ.
+- [Kris Gulati](https://sites.google.com/view/kris-gulati/home) — UC Merced, Econ.
 - [Lachlan Deer](https://lachlandeer.github.io/) — Tilburg University
 - [Lee Crawfurd](https://sites.google.com/view/leecrawfurd/home)
-- Lorenzo Pacchiardi
+- Lorenzo Pacchiardi — Leverhulme Centre for the Future of Intelligence
 - [Mattie Toma](https://www.mattietoma.com/) — University of Warwick
 - [Moritz Hennicke](https://hennicke.science/) — University of Bremen
 - Nathan Fiala — University of Connecticut, Econ.
 - [Priya Lall](https://www.linkedin.com/in/priya-lall-64152816/) — University of Oxford
 - Rakefet Cohen Ben-Arye
 - [Rosie Bettle](https://uk.linkedin.com/in/rosie-bettle-84a1051b0?original_referer=https%3A%2F%2Fwww.google.com%2F) — Founders Pledge
+- [Sarah Anne Reynolds](https://sites.google.com/view/sarah-a-reynolds/home) — World Bank, Econ., GH
 - Sean Brocklebank — Econ.
 - [Tabare Capitan](https://www.tabarecapitan.com) — SLU - Swedish University of Agricultural Sciences, Econ.
-- Tanya O'Garra — Econ.
+- [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home) — Imperial College London, Econ.
 - [Tristan Williams](https://www.linkedin.com/in/tristan-williams-916119216/) — Center for AI Policy
 - [Valentin Klotzbücher](https://valentink.quarto.pub/) — University Hospital Basel, Econ., GH
 - [Wayne Sandholtz](https://waynesandholtz.com/) — Nova School of Business and Economics, Econ.
@@ -74,7 +74,7 @@ description: Auto-generated from Coda. Last synced: 2026-02-16
 
 ## Unjournal Research Affiliates
 
-33 research affiliates contribute to research prioritization, evaluation management, and field expertise.
+27 research affiliates contribute to research prioritization, evaluation management, and field expertise.
 
 ## Evaluator Pool
 
