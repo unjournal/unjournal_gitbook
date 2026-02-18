@@ -13,9 +13,9 @@ These initiatives share significant overlap with The Unjournal's mission or are 
 | [COS LifeCycle Journal](https://lifecyclejournal.org/) | 📄 Open public evaluation initiative or innovative journal | Open review/evaluation. Unjournal is an evaluation provider. Emphasis on multiple points of evaluation throughout the research life cycle |
 | [Institute for Replication](https://i4replication.org/) | 🔄 replication/reproducibility/robustness | Goal: Robustness 'replication' of all top published papers in Econ, Poli Sci, etc. Strong template and lots of credible backers. We have planned collaborations with I4Rep. |
 | [Peer Communities In (PCI)/ PCI Journal](https://peercommunityin.org/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | PCI and the Peer Community Journal; See especially the PCI Psychology Community, and to a lesser extent the nascent Economics one |
-| [Pre-print review initiative (PREreview)](https://prereview.org/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | We provide ways for feedback to preprints to be done openly, rapidly, constructively, and by a global community of peers." |
+| [Pre-print review initiative (PREreview)](https://prereview.org/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | PREreview provides ways for feedback to preprints to be done openly, rapidly, constructively, and by a global community of peers. |
 | [Sciety](https://sciety.org/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) |  |
-| [Arcadia](https://research.arcadiascience.com/pub/perspective-publishing-round-one/release/2) | 📄 Open public evaluation initiative or innovative journal | Crowdsourced evaluations? Suggested by Stuart Buck.https://research.arcadiascience.com/ https://research.arcadiascience.com/reimagining-scientific-publishing |
+| [Arcadia](https://research.arcadiascience.com/pub/perspective-publishing-round-one/release/2) | 📄 Open public evaluation initiative or innovative journal | Crowdsourced evaluations. Arcadia Science envisions the research project, not just the standalone paper. See https://research.arcadiascience.com/ |
 | [PCI Economics (Coming soon?)](https://psych.peercommunityin.org/) | 📄 Open public evaluation initiative or innovative journal | We’re in contact/collaboration |
 | [PCI Psychology](https://psych.peercommunityin.org/) | 📄 Open public evaluation initiative or innovative journal | We’re in contact/collaboration |
 | [PRC Alliance (Publish, Review, Curate)](https://asapbio.org/reimagining-scholarly-publishing-outcomes-from-a-public-forum-to-discuss-the-publish-review-curate-prc-publishing-model/) | 🤝 Open science collaboration |  |
@@ -26,10 +26,9 @@ These initiatives share significant overlap with The Unjournal's mission or are 
 
 | Initiative | Type | Notes |
 |------------|------|-------|
-| ASAPBio | 📄 Open public evaluation initiative or innovative journal |  |
 | [Cascad](https://www.cascad.tech/) | 🔄 replication/reproducibility/robustness | "the first certification agency for scientific code & data" -- a possible source of worthy 'open' work |
 | [Economics e-journal](https://www.degruyterbrill.com/journal/key/econ/html) | 📄 Open public evaluation initiative or innovative journal | At least some detailed public evaluations, although they don’t make these as prominent as Unjournal. Founded 2007, owned by DeGruyter from 2020. |
-| [Kotahi](https://kotahi.community/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | Connected to |
+| [Kotahi](https://kotahi.community/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | Connected to Sciety, eLife, etc. Workflow and editorial management platform for open access publishing. |
 | [OSF Preprints](https://osf.io/preprints/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | Hosts (?) interfaces with multiple archives. "Pre or post-moderation". Facilitates and encourages (?) Plaudit and PREreview |
 | [Openreview.net](https://Openreview.net) | 📄 Open public evaluation initiative or innovative journal | Mostly CS |
 | [PLOS 'Published Peer Review"](https://theplosblog.plos.org/2022/06/observations-on-published-peer-review-history/) | 📄 Open public evaluation initiative or innovative journal | "PLOS is a nonprofit, Open Access publisher empowering researchers to accelerate progress in science and medicine." |
