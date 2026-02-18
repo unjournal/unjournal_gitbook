@@ -76,17 +76,17 @@ The Unjournal maintains a style guide for documentation consistency: https://doc
 - **Shiny dashboard**: `https://unjournal.shinyapps.io/uj-dashboard/`
 - **Main website**: `https://unjournal.org`
 - **Ad Grant landing pages**: `https://info.unjournal.org`
-- **Wellbeing Workshop**: `https://unjournal-wellbeing-workshop.netlify.app` (also mirrored at `unjournal-workshop.netlify.app`)
+- **Wellbeing Workshop**: `https://unjournal-workshop.netlify.app` (canonical; forms submit here)
 
 ## Pivotal Questions Workshops (`pivotal-questions/`)
 
 Workshop scheduling and beliefs elicitation forms for the Pivotal Questions initiative.
 
 ### Wellbeing Workshop (`pivotal-questions/workshop-form/`)
-- **Canonical URL**: `https://unjournal-wellbeing-workshop.netlify.app`
-- **Legacy URL**: `https://unjournal-workshop.netlify.app` (mirrors canonical, kept for existing links)
-- **Netlify Site ID**: `35c1d8a5-58ee-4e27-8157-acad9d373e45` (wellbeing-specific)
-- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 35c1d8a5-58ee-4e27-8157-acad9d373e45`
+- **Canonical URL**: `https://unjournal-workshop.netlify.app` (form submissions go here)
+- **Netlify Site ID**: `5b93849f-31cf-421c-81e8-17c7c036450a`
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 5b93849f-31cf-421c-81e8-17c7c036450a`
+- **Forms dashboard**: https://app.netlify.com/projects/unjournal-workshop/forms
 
 #### Pages
 - `index.html` — Scheduling form (availability grid, segment interest)
