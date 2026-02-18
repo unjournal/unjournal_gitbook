@@ -103,11 +103,34 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Color palette: `--bg: #f8f6f1`, `--sage: #5a7a5a`, `--brown: #8b5e3c`
 - Shared styles in `styles.css`, interactivity in `app.js` and `beliefs.js`
 
+### Cultivated Meat Workshop (`pivotal-questions/cm-workshop/`)
+- **URL**: `https://unjournal-cultured-meat-workshop.netlify.app`
+- **Netlify Site ID**: `2e59cdbb-5f83-4ff9-b8a9-9f4683a95ac7`
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 2e59cdbb-5f83-4ff9-b8a9-9f4683a95ac7`
+- **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
+- **Target date**: April 2026
+
+#### Pages
+- `index.html` — Scheduling form (April 2026 dates, 4 segments)
+- `about.html` — Workshop overview (TEAs, cost trajectories, AW implications)
+- `beliefs.html` — CM_01, CM_02, CM_10/11 + technical subquestions (CM_12-20)
+- `thanks.html` / `beliefs-thanks.html` — Post-submission confirmations
+
+#### Forms (Netlify Forms)
+- `cm-workshop-availability` — Scheduling submissions
+- `cm-beliefs-elicitation` — Beliefs/forecasts submissions
+
+#### Content Sources
+- PQ formulations from `/Users/yosemite/githubs/cm_pq_interface/cm_pq_downloads/`
+- TEA rankings and paper list from same location
+- Metaculus questions: CM_01, CM_03, CM_10, CM_11
+
 ### Future Workshops
-When creating additional PQ workshops (e.g., cultured meat):
+When creating additional PQ workshops:
 1. Create new directory under `pivotal-questions/`
-2. Create new Netlify site with topic-specific name (e.g., `unjournal-cultured-meat-workshop`)
+2. Create new Netlify site with topic-specific name
 3. Use same design patterns and form structure
+4. Add draft banners if preliminary
 
 ## Domain & Hosting Infrastructure
 

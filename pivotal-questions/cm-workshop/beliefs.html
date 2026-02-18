@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultivated Meat Pivotal Questions | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- DRAFT BANNER -->
+  <div class="draft-banner">
+    <strong>PRELIMINARY DRAFT</strong> — This page is under development. Questions and response formats are subject to change. <a href="mailto:contact@unjournal.org">Feedback welcome</a>.
+  </div>
+
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">Cultivated Meat Pivotal Questions</h1>
+      <p class="header-subtitle">State your beliefs on cost trajectories, commercial viability, and animal welfare implications of cultivated meat.</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="/" class="page-nav-link">Scheduling</a></li>
+      <li><a href="/about.html" class="page-nav-link">About</a></li>
+      <li><a href="/beliefs.html" class="page-nav-link active">Pivotal Questions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro -->
+  <div class="beliefs-intro">
+    <div class="draft-notice">
+      <strong>Note:</strong> These questions are preliminary formulations. We are refining the operationalization and response formats. Your input will help improve them.
+    </div>
+
+    <p>These are <strong>key</strong> operationalized questions from our Cultivated Meat Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the TEA evidence—to see how views evolve and where consensus exists or doesn't. <em>(All questions are optional.)</em></p>
+
+    <p>You don't need to be a specialist to contribute. We want your honest assessment and reasoning, whether you feel highly confident or very uncertain. Your input helps us understand the range of views in the field.</p>
+
+    <p>Several questions are live on our <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus forecasting page</a>. If you forecast on Metaculus, please share your username below so we can link your contributions.</p>
+
+    <div class="guidance-callout">
+      <div class="guidance-callout-title">How to respond</div>
+      <ul>
+        <li><strong>For cost estimates:</strong> Give your median estimate and consider your uncertainty range.</li>
+        <li><strong>For probability questions:</strong> Give your best estimate. If very uncertain, a wide range is fine—that's useful information too.</li>
+        <li><strong>For open-ended questions:</strong> Even a sentence or two helps. We're looking for reasoning and considerations, not polished analysis.</li>
+        <li><strong>You can return and update</strong> your responses as your views evolve.</li>
+      </ul>
+    </div>
+
+    <!-- Shared Definitions -->
+    <div class="definitions-section">
+      <h3 class="definitions-title">Shared Definitions</h3>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-ac">
+          <span class="toggle-icon">▸</span> Average Production Cost (AC)
+        </button>
+        <div class="definition-content" id="def-ac">
+          <blockquote>
+            <strong>Average Production Cost (AC)</strong> = (Annualized capital charge + all operating costs) ÷ annual kilograms of edible cultured-meat output
+            <ul>
+              <li><strong>Capital charge:</strong> From total capital investment (TCI) amortized over the plant life from a new firm that would enter this market, adjusted for market risk</li>
+              <li><strong>Operating costs include:</strong> Macronutrient & micronutrient media, utilities, consumables, labor, maintenance, and plant overhead</li>
+            </ul>
+            <strong>Does not include:</strong> R&D amortisation or clinical/regulatory approval costs (sunk costs), distribution, retail markups, downstream product formulation (making "nuggets" etc.), marketing, packaging, branding, corporate overhead, taxes, duties, or profits.
+          </blockquote>
+          <p><em>Why average production cost?</em> Standard economic theory predicts that under specific 'best-case' conditions, firms will operate at the minimum point of their average total cost curves and prices will converge to this level. This represents the lowest possible sustainable price in a free market.</p>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-chicken">
+          <span class="toggle-icon">▸</span> Cultured-chicken meat
+        </button>
+        <div class="definition-content" id="def-chicken">
+          <p><strong>Cultured-chicken meat:</strong> Chicken-imitating products. We consider the weight of these products <em>before any mixture with plant products</em>.</p>
+          <p><em>Why chicken?</em> Among the cultured meat products discussed, chicken has the highest stakes for animal welfare (assuming 'like substitutes for like'). However, forecasters could base estimates on bovine or generic-mammal TEAs and explain their conversion method.</p>
+          <p><em>Why "before mixture"?</em> Animal cells may be mixed with plant-based inputs to reduce costs. We want evaluators to focus on the cost of the most expensive and innovative part of production.</p>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-largescale">
+          <span class="toggle-icon">▸</span> Large-scale plants & target years
+        </button>
+        <div class="definition-content" id="def-largescale">
+          <p><strong>Large-scale plants:</strong> Plants producing more than 2 kt/yr (2,000 metric tons per year). We exclude smaller experimental/R&D facilities.</p>
+          <p><strong>Value units:</strong> Inflation-adjusted (CPI) 2025 US dollars.</p>
+          <p><strong>Target years:</strong></p>
+          <ul>
+            <li><strong>Very-short-run:</strong> End of 2026</li>
+            <li><strong>Short-run:</strong> December 31, 2031</li>
+            <li><strong>Medium-run:</strong> December 31, 2036</li>
+            <li><strong>Longer-run:</strong> December 31, 2051</li>
+          </ul>
+          <p><em>Why these years?</em> These are the years Rethink Priorities chose for their forecasting work, allowing us to harmonize and compare estimates. 2051 represents a "30-year terminal horizon" when production would have more or less achieved an efficient optimum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <main class="beliefs-form-container">
+    <form name="cm-beliefs-elicitation" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/beliefs-thanks.html" id="beliefsForm">
+      <input type="hidden" name="form-name" value="cm-beliefs-elicitation">
+      <input type="hidden" name="bot-field">
+
+      <!-- CM_01: Focal Cost Question -->
+      <div class="pq-card">
+        <div class="pq-tag">CM_01 · Focal Question · <span class="pq-code">Production Cost</span></div>
+        <h2 class="pq-question">What will be the average production cost (per edible kg) of cultured chicken meat in 2031, 2036, and 2051, across all large-scale plants in the world?</h2>
+        <p class="pq-subtext">See definitions above for <a href="#def-ac" style="color: var(--brown);">Average Production Cost</a>, <a href="#def-chicken" style="color: var(--brown);">cultured-chicken meat</a>, and <a href="#def-largescale" style="color: var(--brown);">large-scale plants</a>. Costs in 2025 USD.</p>
+        <p class="pq-why">This is the central question for assessing CM's commercial viability and animal welfare potential. Your estimates directly inform whether CM funding makes sense relative to alternatives.</p>
+
+        <button type="button" class="pq-context-toggle" data-target="cm01-context">
+          <span class="toggle-icon">▸</span> Context & reference points
+        </button>
+        <div class="pq-context" id="cm01-context">
+          <ul>
+            <li><strong>Optimistic TEAs:</strong> Pasitka et al. (2024) claims ~$6.2/lb ($13.7/kg) is achievable with continuous production and animal-free medium.</li>
+            <li><strong>Pessimistic TEAs:</strong> Humbird (2020) concluded cost parity is "highly unlikely" given biological and engineering constraints.</li>
+            <li><strong>Current conventional chicken:</strong> ~$2-4/kg wholesale in the US.</li>
+            <li><strong>Rethink Priorities (2022):</strong> Forecasted limited production through 2050 under most scenarios.</li>
+          </ul>
+        </div>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your median cost estimate for <strong>2031</strong> ($/kg, 2025 USD)</label>
+            <input type="number" name="cm01_cost_2031" class="input" step="1" min="0" max="10000" placeholder="e.g., 50">
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your median cost estimate for <strong>2036</strong> ($/kg, 2025 USD)</label>
+            <input type="number" name="cm01_cost_2036" class="input" step="1" min="0" max="10000" placeholder="e.g., 25">
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your median cost estimate for <strong>2051</strong> ($/kg, 2025 USD)</label>
+            <input type="number" name="cm01_cost_2051" class="input" step="1" min="0" max="10000" placeholder="e.g., 10">
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">What's driving your estimates? Which TEA assumptions do you find most/least credible?</label>
+            <textarea name="cm01_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- CM_02: Animal Welfare Investment Value -->
+      <div class="pq-card">
+        <div class="pq-tag">CM_02 · Goal-Oriented · <span class="pq-code">AW Investment Value</span></div>
+        <h2 class="pq-question">Is cultivated meat development a good investment from an animal welfare perspective?</h2>
+        <p class="pq-subtext">What is the expected-value (and probability distribution) of the impact on animal welfare from funding CM development? Consider marginal funding, very high funding levels, or impact relative to the best alternative interventions.</p>
+        <p class="pq-why">This connects the cost trajectory question to the actual funding decision animal welfare organizations face.</p>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your overall assessment of CM as an animal welfare investment</label>
+            <select name="cm02_assessment" class="input select">
+              <option value="">Select...</option>
+              <option value="excellent">Excellent — likely among the best AW investments available</option>
+              <option value="good">Good — positive EV but probably not top-tier</option>
+              <option value="uncertain">Highly uncertain — could be excellent or poor</option>
+              <option value="poor">Poor — likely worse than proven alternatives</option>
+              <option value="negative">Potentially negative — opportunity cost concerns dominate</option>
+            </select>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">What would most change your assessment? (e.g., specific cost thresholds, regulatory changes, etc.)</label>
+            <textarea name="cm02_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- CM_10/11: CM vs Corporate Campaigns -->
+      <div class="pq-card">
+        <div class="pq-tag">CM_10/11 · Metaculus · <span class="pq-code">CM vs Campaigns</span></div>
+        <h2 class="pq-question">Will the animal welfare benefit of donating $100,000 in 2026 to fund CM development exceed the benefit of donating the same amount to The Humane League's corporate campaigns?</h2>
+        <p class="pq-subtext">Measured by your preferred "welfare-footprint-like metric." This question compares CM funding to a well-established, measurable intervention.</p>
+        <p class="pq-why">This is the practical funding decision many animal welfare organizations face. <a href="https://www.metaculus.com/c/unjournal/40925/" target="_blank" rel="noopener">See this question on Metaculus →</a></p>
+
+        <button type="button" class="pq-context-toggle" data-target="cm10-context">
+          <span class="toggle-icon">▸</span> Context & considerations
+        </button>
+        <div class="pq-context" id="cm10-context">
+          <ul>
+            <li>THL corporate campaigns have documented track records: cage-free commitments, broiler welfare pledges, etc.</li>
+            <li>CM development benefits are speculative and depend on: cost trajectory, consumer acceptance, regulatory approval, substitution rates.</li>
+            <li>Consider both expected value and variance/risk profiles.</li>
+            <li>The comparison may differ by time horizon (short-term vs long-term impact).</li>
+          </ul>
+        </div>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Probability that CM funding yields greater animal welfare benefit than THL campaigns (0-100%)</label>
+            <div class="pq-slider-container">
+              <input type="range" name="cm10_probability" class="pq-slider" min="0" max="100" value="30" oninput="this.nextElementSibling.textContent = this.value + '%'">
+              <span class="pq-slider-value">30%</span>
+            </div>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">What's driving your estimate? What factors are most important?</label>
+            <textarea name="cm10_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subquestions Section (collapsed) -->
+      <div class="subordinate-questions">
+        <button type="button" class="subordinate-toggle" data-target="cm-subordinate">
+          <span class="toggle-icon">▸</span> Technical subquestions (CM_12-20) <span class="optional">(optional)</span>
+        </button>
+        <div class="subordinate-content" id="cm-subordinate">
+
+          <!-- CM_12: Hydrolysates -->
+          <div class="subordinate-card">
+            <div class="pq-tag">CM_12 · Hydrolysates</div>
+            <h3 class="pq-question">Will most cultured meat (by volume) be produced using hydrolysates as a replacement for expensive purified growth factors in 2036?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Probability (0-100%)</label>
+                <div class="pq-slider-container">
+                  <input type="range" name="cm12_probability" class="pq-slider" min="0" max="100" value="50" oninput="this.nextElementSibling.textContent = this.value + '%'">
+                  <span class="pq-slider-value">50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CM_13: Growth Factor Costs -->
+          <div class="subordinate-card">
+            <div class="pq-tag">CM_13 · Growth Factor Costs</div>
+            <h3 class="pq-question">What will be the average cost of recombinant growth factors per gram (of input) in commercial cultured meat production in 2036?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Cost estimate ($/gram)</label>
+                <input type="number" name="cm13_cost" class="input" step="0.01" min="0" placeholder="e.g., 0.50">
+              </div>
+            </div>
+          </div>
+
+          <!-- CM_14: Cell Media Costs -->
+          <div class="subordinate-card">
+            <div class="pq-tag">CM_14 · Cell Media Costs</div>
+            <h3 class="pq-question">What will be the cost of cell media per kg of cultured meat in 2036?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Cost estimate ($/kg of output)</label>
+                <input type="number" name="cm14_cost" class="input" step="1" min="0" placeholder="e.g., 15">
+              </div>
+            </div>
+          </div>
+
+          <!-- CM_16: Cell Density -->
+          <div class="subordinate-card">
+            <div class="pq-tag">CM_16 · Bioreactor Cell Density</div>
+            <h3 class="pq-question">What will be the highest cell density of cultivated meat produced in a 20,000 liter bioreactor by 2036?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Cell density estimate (cells/mL or g/L)</label>
+                <input type="text" name="cm16_density" class="input" placeholder="e.g., 50 million cells/mL or 30 g/L">
+              </div>
+            </div>
+          </div>
+
+          <!-- CM_17: Food-grade vs Pharmaceutical -->
+          <div class="subordinate-card">
+            <div class="pq-tag">CM_17 · Food-grade vs Pharmaceutical</div>
+            <h3 class="pq-question">By 2036, what percent of commercial cultured meat will be produced using food-grade cell media (as opposed to pharmaceutical-grade)?</h3>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Percentage using food-grade (0-100%)</label>
+                <div class="pq-slider-container">
+                  <input type="range" name="cm17_percentage" class="pq-slider" min="0" max="100" value="80" oninput="this.nextElementSibling.textContent = this.value + '%'">
+                  <span class="pq-slider-value">80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CM_20: Own Bioreactors -->
+          <div class="subordinate-card">
+            <div class="pq-tag">CM_20 · Custom Bioreactors</div>
+            <h3 class="pq-question">What share of cultured meat companies (those with capex over $10 million) will design and build their own bioreactors by 2036?</h3>
+            <p style="font-size: 13px; color: #666; margin-bottom: 16px;">Some reports suggest companies can design and build their own bioreactors for much lower cost than purchasing off-the-shelf pharmaceutical bioreactors.</p>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Percentage building own bioreactors (0-100%)</label>
+                <div class="pq-slider-container">
+                  <input type="range" name="cm20_percentage" class="pq-slider" min="0" max="100" value="40" oninput="this.nextElementSibling.textContent = this.value + '%'">
+                  <span class="pq-slider-value">40%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Metaculus-style Questions -->
+      <div class="pq-card">
+        <div class="pq-tag">CM_04 · Metaculus · <span class="pq-code">Chicken Slaughter</span></div>
+        <h2 class="pq-question">How many chickens will be slaughtered for meat globally in 2032 and 2052?</h2>
+        <p class="pq-subtext">Reference: 70.77 billion chickens were slaughtered globally in 2020 (Our World in Data). <a href="https://www.metaculus.com/questions/12702/chickens-slaughtered-for-meat/" target="_blank" rel="noopener">See this question on Metaculus →</a></p>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your estimate for <strong>2032</strong> (billions)</label>
+            <input type="number" name="cm04_2032" class="input" step="1" min="0" placeholder="e.g., 80">
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your estimate for <strong>2052</strong> (billions)</label>
+            <input type="number" name="cm04_2052" class="input" step="1" min="0" placeholder="e.g., 100">
+          </div>
+        </div>
+      </div>
+
+      <!-- Respondent Info -->
+      <div class="respondent-section">
+        <h3>About You</h3>
+        <div class="respondent-grid">
+          <div class="form-field">
+            <label for="name" class="field-label">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required class="input" placeholder="Your full name">
+          </div>
+          <div class="form-field">
+            <label for="email" class="field-label">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required class="input" placeholder="your@email.com">
+          </div>
+          <div class="form-field">
+            <label for="affiliation" class="field-label">Affiliation <span class="optional">(optional)</span></label>
+            <input type="text" id="affiliation" name="affiliation" class="input" placeholder="e.g., GFI / ACE / University of X">
+          </div>
+          <div class="form-field">
+            <label for="metaculus" class="field-label">Metaculus username <span class="optional">(optional)</span></label>
+            <input type="text" id="metaculus" name="metaculus_username" class="input" placeholder="Your Metaculus username">
+          </div>
+          <div class="form-field">
+            <label for="expertise" class="field-label">Relevant expertise <span class="optional">(optional)</span></label>
+            <select id="expertise" name="expertise" class="input select">
+              <option value="">Select...</option>
+              <option value="tea">Techno-economic analysis</option>
+              <option value="bioprocess">Bioprocess engineering / Cell culture</option>
+              <option value="aw_research">Animal welfare research</option>
+              <option value="aw_funder">Animal welfare funder</option>
+              <option value="forecasting">Forecasting</option>
+              <option value="general">General interest / no specific expertise</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-field full-width">
+            <label for="other_thoughts" class="field-label">Any other thoughts, questions, or considerations? <span class="optional">(optional)</span></label>
+            <textarea id="other_thoughts" name="other_thoughts" class="input textarea" rows="3" placeholder="Anything else you'd like to share..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <div class="submit-section">
+        <button type="submit" class="submit-btn" id="submitBtn">Submit Your Beliefs</button>
+        <p class="submit-note">Your responses are stored securely and will be used to inform the synthesis report.</p>
+      </div>
+    </form>
+
+    <!-- Version Note -->
+    <p class="version-note">Questions adapted from the Cultivated Meat PQ formulations (codes: CM_01–CM_20). <strong>PRELIMINARY DRAFT</strong> — Last updated: February 2026.</p>
+
+    <!-- Footer Links -->
+    <div class="footer-links">
+      <div class="context-links">
+        <a href="/" class="pill-link">Submit Workshop Availability →</a>
+        <a href="/about.html" class="pill-link">About This Workshop →</a>
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="pill-link">Metaculus Community →</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="beliefs.js"></script>
+</body>
+</html>
