@@ -1,5 +1,5 @@
 ---
-description: Auto-generated from Coda. Last synced: 2026-02-18
+description: "Auto-generated from Coda. Last synced: 2026-02-19"
 ---
 
 # Our Team
@@ -97,6 +97,6 @@ We maintain relationships with many researchers and initiatives in open science 
 
 </details>
 
----
+***
 
 *Interested in joining? See [how to get involved](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research) or [get in touch](mailto:contact@unjournal.org).*
