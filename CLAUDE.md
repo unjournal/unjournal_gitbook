@@ -125,6 +125,28 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - TEA rankings and paper list from same location
 - Metaculus questions: CM_01, CM_03, CM_10, CM_11
 
+### Plant-Based Substitution Workshop (`pivotal-questions/pba-workshop/`)
+- **URL**: `https://serene-lolly-dd36d9.netlify.app` (temporary name; rename via dashboard)
+- **Netlify Site ID**: `23164b31-16d6-4032-8070-1d23a3c70b1b`
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 23164b31-16d6-4032-8070-1d23a3c70b1b`
+- **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
+- **Target date**: May 2026
+
+#### Pages
+- `index.html` — Scheduling form (May 2026 dates, 4 segments)
+- `about.html` — Workshop overview (substitution evidence, methodology considerations)
+- `beliefs.html` — PBA_01 (focal: chicken consumption), PBA_02-03, PBA_06-08 (subquestions)
+- `thanks.html` / `beliefs-thanks.html` — Post-submission confirmations
+
+#### Forms (Netlify Forms)
+- `pba-workshop-availability` — Scheduling submissions
+- `pba-beliefs-elicitation` — Beliefs/forecasts submissions
+
+#### Content Sources
+- PQ formulations from Coda tables and EA Forum (Peacock 2021)
+- Question codes: PBA_01-08 (operationalized pivotal questions)
+- Metaculus questions: GFI vs THL comparison
+
 ### Future Workshops
 When creating additional PQ workshops:
 1. Create new directory under `pivotal-questions/`

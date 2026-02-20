@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant-Based Substitution Pivotal Questions | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Draft Banner -->
+  <div class="draft-banner">
+    <strong>PRELIMINARY DRAFT</strong> — These questions are still being refined. Your feedback will help shape the final formulations.
+  </div>
+
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">Plant-Based Substitution<br>Pivotal Questions</h1>
+      <p class="header-subtitle">State your beliefs on cross-price elasticity, substitution effects, and the animal welfare case for PBA funding.</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="/" class="page-nav-link">Scheduling</a></li>
+      <li><a href="/about.html" class="page-nav-link">About</a></li>
+      <li><a href="/beliefs.html" class="page-nav-link active">Pivotal Questions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro -->
+  <div class="beliefs-intro">
+    <div class="draft-notice">
+      <strong>Note:</strong> These questions are preliminary drafts. We're refining them based on feedback from researchers and stakeholders.
+    </div>
+
+    <p>These are operationalized questions from our Plant-Based Substitution Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence—to understand where consensus exists and where key uncertainties remain. <em>(All questions are optional.)</em></p>
+
+    <p>You don't need to be an agricultural economist to contribute. We want your honest assessment and reasoning, whether you feel highly confident or very uncertain.</p>
+
+    <div class="guidance-callout">
+      <div class="guidance-callout-title">How to respond</div>
+      <ul>
+        <li><strong>For quantitative questions:</strong> Give your best estimate. Wide uncertainty ranges are informative.</li>
+        <li><strong>For reasoning questions:</strong> Even a few sentences help. We're looking for considerations and intuitions.</li>
+        <li><strong>Speculative answers welcome:</strong> These are inherently uncertain questions—rough estimates based on intuition are valuable.</li>
+      </ul>
+    </div>
+
+    <!-- Shared Definitions -->
+    <div class="definitions-section">
+      <h3 class="definitions-title">Shared Definitions</h3>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-pba">
+          <span class="toggle-icon">▸</span> What do we mean by "plant-based alternatives" (PBAs)?
+        </button>
+        <div class="definition-content" id="def-pba">
+          <p><strong>PBAs / IB+:</strong> High-quality plant-based meat alternatives designed to closely imitate animal products. This includes Impossible Foods, Beyond Meat, and similar products. We focus on "hamburger-imitating" products as the reference case, though questions may also consider chicken nuggets and other forms.</p>
+          <p>We are <em>not</em> including traditional vegetarian products (e.g., veggie burgers, tofu) that don't aim to closely imitate meat texture and taste.</p>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-price-fall">
+          <span class="toggle-icon">▸</span> What do we mean by a "price fall"?
+        </button>
+        <div class="definition-content" id="def-price-fall">
+          <p><strong>Price fall:</strong> A permanent reduction in retail prices across all US grocery stores (with global extrapolation implied).</p>
+          <p><strong>"As a result of supply-side factors":</strong> We imagine this price change is caused by an external investment leading to innovation or increased production capacity—not by changing consumer preferences. This avoids endogeneity concerns where price changes and demand changes are both driven by the same underlying factor.</p>
+          <p>Examples: R&D breakthroughs, production subsidies, regulatory changes, or changes in market structure that reduce marginal costs.</p>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-elasticity">
+          <span class="toggle-icon">▸</span> What is a cross-price elasticity?
+        </button>
+        <div class="definition-content" id="def-elasticity">
+          <p><strong>Cross-price elasticity:</strong> The percentage change in demand for one product (e.g., chicken) resulting from a 1% change in the price of another product (e.g., plant-based burgers).</p>
+          <ul>
+            <li>If negative: products are <strong>substitutes</strong> (lower PBA price → less chicken demand)</li>
+            <li>If positive: products are <strong>complements</strong> (lower PBA price → more chicken demand)</li>
+            <li>If near zero: products are <strong>independent</strong></li>
+          </ul>
+          <p>Note: Some studies surprisingly find PBAs and certain meats are complements (possibly because flexitarians buy both), while others find substitution effects, especially for chicken.</p>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-welfare">
+          <span class="toggle-icon">▸</span> What do we mean by "animal welfare benefit"?
+        </button>
+        <div class="definition-content" id="def-welfare">
+          <p>For questions comparing animal welfare outcomes, we leave the specific metric to your judgment. Possible framings include:</p>
+          <ul>
+            <li>Welfare-footprint-style measures (suffering-years averted)</li>
+            <li>Number of factory-farmed animals affected</li>
+            <li>Your preferred metric considering both quantity and quality of life impacts</li>
+          </ul>
+          <p>The key comparison is usually: PBA funding vs. corporate welfare campaigns (e.g., The Humane League's chicken welfare campaigns).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <main class="beliefs-form-container">
+    <form name="pba-beliefs-elicitation" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/beliefs-thanks.html" id="beliefsForm">
+      <input type="hidden" name="form-name" value="pba-beliefs-elicitation">
+      <input type="hidden" name="bot-field">
+
+      <!-- PBA_01: Focal Question -->
+      <div class="pq-card">
+        <div class="pq-tag">PBA_01 · Focal Question · Substitution Effect</div>
+        <h2 class="pq-question">If the price of high-quality plant-based hamburgers fell by 10% everywhere, how would global chicken consumption change?</h2>
+        <p class="pq-subtext">More precisely: If the price of "IB+" products fell by 10% due to supply-side factors, what percent change would we see in factory-farmed chicken consumption the following year?</p>
+        <p class="pq-why">This is our focal empirical question. The answer directly informs whether PBA cost-reduction is an effective animal welfare strategy.</p>
+
+        <button type="button" class="pq-context-toggle" data-target="pba01-context">
+          <span class="toggle-icon">▸</span> Context & variants
+        </button>
+        <div class="pq-context" id="pba01-context">
+          <ul>
+            <li>Target: US consumption (extrapolate to global); both home and restaurant</li>
+            <li>Timeframe: Effect in the year following the price change</li>
+            <li>"Factory-farmed chickens" = broiler chickens raised in conventional production systems</li>
+            <li>Variants we may also ask about: 5% and 20% price reductions; effects on beef, pork, fish</li>
+          </ul>
+        </div>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your estimate: percent change in chicken consumption (negative = reduction)</label>
+            <div class="inline-input-group">
+              <input type="number" name="pba01_estimate" class="input" step="0.1" min="-50" max="50" placeholder="e.g., -0.5">
+              <span class="input-suffix">%</span>
+            </div>
+            <p class="input-note">Example: -0.5 means a 0.5% reduction in chicken consumption. Zero means no effect.</p>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">How confident are you? (0% = pure guess, 100% = highly confident)</label>
+            <div class="pq-slider-container">
+              <input type="range" name="pba01_confidence" class="pq-slider" min="0" max="100" value="25" oninput="this.nextElementSibling.textContent = this.value + '%'">
+              <span class="pq-slider-value">25%</span>
+            </div>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your reasoning and key considerations</label>
+            <textarea name="pba01_reasoning" class="input textarea" rows="3" placeholder="What evidence or intuitions inform your estimate?"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- PBA_02: Goal Question -->
+      <div class="pq-card">
+        <div class="pq-tag">PBA_02 · Goal Question · Investment Value</div>
+        <h2 class="pq-question">Is PBA research/development a good investment from an animal welfare perspective?</h2>
+        <p class="pq-subtext">Do PBAs displace animal-welfare-relevant animal product consumption enough to make investments in reducing their cost plausibly competitive with other animal welfare interventions?</p>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your assessment</label>
+            <select name="pba02_assessment" class="input select">
+              <option value="">Select...</option>
+              <option value="clearly_yes">Clearly yes—PBA funding is competitive or superior</option>
+              <option value="probably_yes">Probably yes—evidence suggests it's worthwhile</option>
+              <option value="uncertain">Uncertain—could go either way</option>
+              <option value="probably_no">Probably no—other interventions seem better</option>
+              <option value="clearly_no">Clearly no—PBA funding is not competitive</option>
+            </select>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Brief reasoning</label>
+            <textarea name="pba02_reasoning" class="input textarea" rows="3" placeholder="What drives your assessment?"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- PBA_03: Comparison Question -->
+      <div class="pq-card">
+        <div class="pq-tag">PBA_03 · Metaculus · Comparison</div>
+        <h2 class="pq-question">Does the animal welfare benefit of $100K to GFI for PBA development exceed $100K to THL for corporate campaigns?</h2>
+        <p class="pq-subtext">Compare: donating $100,000 in 2026 to the Good Food Institute to fund PBA cost reduction and availability vs. donating $100,000 to The Humane League's corporate animal welfare campaigns for chickens.</p>
+        <p class="pq-why">This frames the question in decision-relevant terms for funders choosing between these interventions.</p>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Probability that the GFI donation has greater animal welfare impact</label>
+            <div class="pq-slider-container">
+              <input type="range" name="pba03_probability" class="pq-slider" min="0" max="100" value="30" oninput="this.nextElementSibling.textContent = this.value + '%'">
+              <span class="pq-slider-value">30%</span>
+            </div>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
+            <textarea name="pba03_reasoning" class="input textarea" rows="2" placeholder="What factors inform your probability?"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subordinate Questions -->
+      <div class="subordinate-questions">
+        <button type="button" class="subordinate-toggle" data-target="pba-subordinate">
+          <span class="toggle-icon">▸</span> Additional methodological questions <span class="optional">(optional)</span>
+        </button>
+        <div class="subordinate-content" id="pba-subordinate">
+
+          <!-- PBA_06: Reliability -->
+          <div class="subordinate-card">
+            <div class="pq-tag">PBA_06 · Methodological</div>
+            <h3 class="pq-question">Can cross-price elasticities be reliably estimated in this context?</h3>
+            <p style="font-size: 13px; color: #666; margin-bottom: 16px;">Given selection effects, endogeneity concerns, and data limitations, how much should we trust existing estimates?</p>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <select name="pba06_view" class="input select">
+                  <option value="">Select...</option>
+                  <option value="reliable">Reliable enough—existing methods give useful estimates</option>
+                  <option value="somewhat">Somewhat reliable—useful but with substantial uncertainty</option>
+                  <option value="weak">Weak—major concerns about identification</option>
+                  <option value="unreliable">Not reliable—current estimates shouldn't inform decisions</option>
+                </select>
+              </div>
+              <div class="pq-input-group">
+                <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
+                <textarea name="pba06_reasoning" class="input textarea" rows="2" placeholder="What are the main methodological concerns?"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- PBA_07: Experiment Design -->
+          <div class="subordinate-card">
+            <div class="pq-tag">PBA_07 · Research Design</div>
+            <h3 class="pq-question">What experimental trial would yield useful cross-price elasticity estimates?</h3>
+            <p style="font-size: 13px; color: #666; margin-bottom: 16px;">If you could design a study to credibly estimate substitution effects, what would it look like?</p>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <textarea name="pba07_design" class="input textarea" rows="3" placeholder="Describe the study design (e.g., RCT in supermarkets, price subsidy experiment, etc.)"></textarea>
+              </div>
+              <div class="pq-input-group">
+                <label class="pq-input-label">Rough cost estimate <span class="optional">(optional)</span></label>
+                <input type="text" name="pba07_cost" class="input" placeholder="e.g., $500K-$2M">
+              </div>
+            </div>
+          </div>
+
+          <!-- PBA_08: Threshold -->
+          <div class="subordinate-card">
+            <div class="pq-tag">PBA_08 · Decision Threshold</div>
+            <h3 class="pq-question">What cross-price elasticity would justify funding PBA R&D?</h3>
+            <p style="font-size: 13px; color: #666; margin-bottom: 16px;">How high would the cross-price elasticity between PBAs and chicken need to be to make PBA funding competitive with other AW interventions?</p>
+            <div class="pq-inputs">
+              <div class="pq-input-group">
+                <label class="pq-input-label">Threshold elasticity (absolute value)</label>
+                <input type="number" name="pba08_threshold" class="input" step="0.01" min="0" max="5" placeholder="e.g., 0.1">
+                <p class="input-note">Example: 0.1 means a 10% PBA price drop leads to 1% chicken demand change</p>
+              </div>
+              <div class="pq-input-group">
+                <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
+                <textarea name="pba08_reasoning" class="input textarea" rows="2" placeholder="How did you arrive at this threshold?"></textarea>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Research Evidence -->
+      <div class="pq-card">
+        <div class="pq-tag">Evidence Assessment</div>
+        <h2 class="pq-question">Which research approaches do you find most credible for this question?</h2>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Rank the credibility of these approaches (1 = most credible)</label>
+            <div class="checkbox-group">
+              <label class="checkbox-option">
+                <input type="checkbox" name="evidence_scanner" value="scanner">
+                <span>Scanner data demand estimation (AIDS/QAIDS models)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="evidence_hypothetical" value="hypothetical">
+                <span>Hypothetical choice experiments (surveys)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="evidence_event" value="event">
+                <span>Event studies (first PBA purchase)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="evidence_field" value="field">
+                <span>Field experiments (retail interventions)</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="evidence_analogy" value="analogy">
+                <span>Analogies from plant-based milk</span>
+              </label>
+            </div>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Are there specific papers you find particularly credible or not credible? <span class="optional">(optional)</span></label>
+            <textarea name="evidence_papers" class="input textarea" rows="2" placeholder="E.g., 'Meier et al. (2024) seems most rigorous because...'"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Respondent Info -->
+      <div class="respondent-section">
+        <h3>About You</h3>
+        <div class="respondent-grid">
+          <div class="form-field">
+            <label for="name" class="field-label">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required class="input" placeholder="Your full name">
+          </div>
+          <div class="form-field">
+            <label for="email" class="field-label">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required class="input" placeholder="your@email.com">
+          </div>
+          <div class="form-field">
+            <label for="affiliation" class="field-label">Affiliation <span class="optional">(optional)</span></label>
+            <input type="text" id="affiliation" name="affiliation" class="input" placeholder="e.g., University / ACE / GFI">
+          </div>
+          <div class="form-field">
+            <label for="metaculus" class="field-label">Metaculus username <span class="optional">(optional)</span></label>
+            <input type="text" id="metaculus" name="metaculus_username" class="input" placeholder="Your Metaculus username">
+          </div>
+          <div class="form-field full-width">
+            <label for="other_thoughts" class="field-label">Any other thoughts or questions? <span class="optional">(optional)</span></label>
+            <textarea id="other_thoughts" name="other_thoughts" class="input textarea" rows="3" placeholder="Anything else you'd like to share..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <div class="submit-section">
+        <button type="submit" class="submit-btn" id="submitBtn">Submit Your Beliefs</button>
+        <p class="submit-note">Your responses will inform our evidence synthesis and workshop discussions.</p>
+      </div>
+    </form>
+
+    <!-- Version Note -->
+    <p class="version-note">Questions adapted from the Plant-Based Substitution PQ formulations (codes PBA_01–08). Draft version, February 2026.</p>
+
+    <!-- Footer Links -->
+    <div class="footer-links">
+      <div class="context-links">
+        <a href="/" class="pill-link">Submit Workshop Availability →</a>
+        <a href="/about.html" class="pill-link">About This Workshop →</a>
+        <a href="https://www.metaculus.com/c/unjournal/40222/" target="_blank" rel="noopener" class="pill-link">Metaculus: PBA Substitution →</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="beliefs.js"></script>
+</body>
+</html>
