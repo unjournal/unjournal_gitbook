@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Plant-Based Substitution Workshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --dark: #1a1a1a;
+      --text: #555;
+      --text-light: #888;
+      --brown: #8b5e3c;
+      --sage: #5a7a5a;
+      --font-serif: 'Source Serif 4', Georgia, serif;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .thank-you-container {
+      max-width: 560px;
+      padding: 48px 24px;
+      text-align: center;
+    }
+
+    .checkmark {
+      font-size: 48px;
+      margin-bottom: 16px;
+      color: var(--sage);
+    }
+
+    .thank-you-title {
+      font-family: var(--font-serif);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .thank-you-message {
+      font-size: 17px;
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0 0 24px;
+    }
+
+    .draft-notice {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      color: #856404;
+    }
+
+    .thank-you-links {
+      font-size: 15px;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    .thank-you-links a {
+      color: var(--brown);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .thank-you-links a:hover {
+      color: var(--dark);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 32px;
+      padding: 10px 20px;
+      font-size: 14px;
+      color: var(--text-light);
+      text-decoration: none;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+
+    .back-link:hover {
+      background: #fff;
+      border-color: #ccc;
+      color: var(--text);
+    }
+
+    .page-nav {
+      background: var(--dark);
+      border-bottom: 1px solid #333;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .page-nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .page-nav-link {
+      display: block;
+      padding: 12px 4px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #888;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+
+    .page-nav-link:hover {
+      color: #ccc;
+    }
+
+    body {
+      padding-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="/" class="page-nav-link">Scheduling</a></li>
+      <li><a href="/about.html" class="page-nav-link">About</a></li>
+      <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+    </ul>
+  </nav>
+
+  <div class="thank-you-container">
+    <div class="checkmark">✓</div>
+    <h1 class="thank-you-title" id="thankYouTitle">Thank you!</h1>
+    <div class="draft-notice">
+      <strong>Note:</strong> This workshop is still in planning. We'll confirm the date and agenda once we've gathered enough responses.
+    </div>
+    <p class="thank-you-message">
+      Your availability and preferences have been recorded. We'll be in touch once we've coordinated with key participants.
+    </p>
+    <p class="thank-you-links">
+      In the meantime, check out the
+      <a href="https://www.metaculus.com/c/unjournal/40222/" target="_blank" rel="noopener">Metaculus question on PBA substitution</a>
+      or explore the
+      <a href="/beliefs.html">pivotal questions</a>.
+    </p>
+    <a href="/" class="back-link">← Back to form</a>
+  </div>
+
+  <script>
+    (function() {
+      const name = sessionStorage.getItem('workshopSubmitterName');
+      if (name) {
+        const firstName = name.split(' ')[0];
+        document.getElementById('thankYouTitle').textContent = `Thank you, ${firstName}!`;
+        sessionStorage.removeItem('workshopSubmitterName');
+      }
+    })();
+  </script>
+</body>
+</html>
