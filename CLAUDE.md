@@ -126,7 +126,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Metaculus questions: CM_01, CM_03, CM_10, CM_11
 
 ### Plant-Based Substitution Workshop (`pivotal-questions/pba-workshop/`)
-- **URL**: `https://serene-lolly-dd36d9.netlify.app` (temporary name; rename via dashboard)
+- **URL**: `https://unjournal-pba-workshop.netlify.app`
 - **Netlify Site ID**: `23164b31-16d6-4032-8070-1d23a3c70b1b`
 - **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 23164b31-16d6-4032-8070-1d23a3c70b1b`
 - **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
