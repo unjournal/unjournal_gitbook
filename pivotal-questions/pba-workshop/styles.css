@@ -35,11 +35,12 @@
   --text: #555;
   --text-light: #888;
   --text-muted: #aaa;
-  --sage: #5a7a5a;
-  --sage-light: #dce8dc;
-  --sage-bg: #f4f8f4;
-  --brown: #8b5e3c;
-  --tan: #b8a88a;
+  /* PBA theme: earthy green tones */
+  --sage: #4a7c59;
+  --sage-light: #d4e5d8;
+  --sage-bg: #f0f6f2;
+  --brown: #6b7c3f;
+  --tan: #9fa87a;
   --border: #ddd;
   --border-light: #e8e2d8;
   --header-bg: #1a1a1a;
@@ -246,7 +247,7 @@ body {
 
 .input:focus {
   border-color: var(--sage);
-  box-shadow: 0 0 0 3px rgba(90, 122, 90, 0.1);
+  box-shadow: 0 0 0 3px rgba(74, 124, 89, 0.1);
 }
 
 .textarea {
@@ -263,19 +264,15 @@ body {
   padding-right: 36px;
 }
 
-/* Availability Free-text Box */
+/* Free-text availability */
 .availability-freetext {
-  padding: 20px;
-  background: var(--white);
-  border: 2px solid #d4cec4;
-  border-radius: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 
 .availability-freetext .field-label {
-  font-size: 14px;
   color: #333;
-  margin-bottom: 4px;
 }
 
 /* Availability Grid */
@@ -318,6 +315,19 @@ body {
   color: var(--text);
   background: var(--bg-alt);
   border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.grid-time-cell:hover {
+  background: var(--sage-light);
+  color: var(--sage);
+}
+
+.grid-time-cell.all-selected {
+  background: var(--sage);
+  color: white;
 }
 
 .grid-time-cell .tz-sub {
@@ -327,11 +337,31 @@ body {
   margin-top: 2px;
 }
 
+.grid-time-cell:hover .tz-sub,
+.grid-time-cell.all-selected .tz-sub {
+  color: inherit;
+  opacity: 0.8;
+}
+
 .grid-week-label {
+  display: block;
+  width: 100%;
+  text-align: left;
   font-size: 11px;
   color: var(--text-muted);
   font-weight: 500;
-  margin: 10px 0 4px 4px;
+  margin: 10px 0 4px 0;
+  padding: 4px 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+
+.grid-week-label:hover {
+  background: rgba(0,0,0,0.04);
+  color: var(--sage);
 }
 
 .grid-row {
@@ -361,8 +391,8 @@ body {
 
 .grid-date-btn.all-selected {
   background: var(--sage-light);
-  color: #3a5a3a;
-  border-color: #b8d4b8;
+  color: #2a5a3a;
+  border-color: #a8c8b8;
 }
 
 .grid-cell {
@@ -400,14 +430,6 @@ body {
 }
 
 /* Segment Interest */
-.segment-headers {
-  display: grid;
-  grid-template-columns: 1fr 90px 90px;
-  gap: 8px;
-  margin-bottom: 8px;
-  padding-right: 4px;
-}
-
 .segments-list {
   display: flex;
   flex-direction: column;
@@ -443,7 +465,7 @@ body {
 
 .segment-row.active {
   background: var(--sage-bg);
-  border-color: #b8d4b8;
+  border-color: #a8c8b8;
 }
 
 .segment-drag-handle {
@@ -490,17 +512,6 @@ body {
   border-color: var(--sage);
 }
 
-.segment-checkbox {
-  width: 18px;
-  height: 18px;
-  cursor: pointer;
-  accent-color: var(--sage);
-}
-
-.segment-checkbox.present {
-  accent-color: var(--brown);
-}
-
 /* Recording Options */
 .recording-options {
   display: flex;
@@ -541,50 +552,6 @@ body {
 
 .recording-notes-field {
   margin-top: 12px;
-}
-
-/* Checkbox Card */
-.checkbox-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 12px 16px;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.15s;
-  margin-bottom: 16px;
-}
-
-.checkbox-card:hover {
-  border-color: #ccc;
-}
-
-.checkbox-card:has(input:checked) {
-  background: #e8f0e8;
-  border: 2px solid var(--sage);
-}
-
-.checkbox-card input[type="checkbox"] {
-  margin-top: 3px;
-  accent-color: var(--sage);
-}
-
-.checkbox-content {
-  flex: 1;
-}
-
-.checkbox-label {
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
-}
-
-.checkbox-desc {
-  font-size: 13px;
-  color: var(--text-light);
-  margin-top: 2px;
 }
 
 /* Submit Section */
@@ -692,6 +659,19 @@ body {
   color: #444;
   line-height: 1.75;
   margin: 0 0 16px;
+}
+
+.prose-container ul,
+.prose-container ol {
+  margin: 0 0 16px;
+  padding-left: 24px;
+}
+
+.prose-container li {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 10px;
 }
 
 .prose-container a {
@@ -808,7 +788,7 @@ body {
 
 .guidance-callout {
   background: var(--sage-bg);
-  border: 1px solid #c8d8c8;
+  border: 1px solid #c0d4c4;
   border-radius: 10px;
   padding: 20px 24px;
   margin: 24px 0 0;
@@ -817,7 +797,7 @@ body {
 .guidance-callout-title {
   font-size: 14px;
   font-weight: 600;
-  color: #3a5a3a;
+  color: #2a5a3a;
   margin: 0 0 10px;
 }
 
@@ -1324,10 +1304,9 @@ body {
     margin-left: 0;
   }
 
-  .segment-headers,
   .segment-row {
-    grid-template-columns: 1fr 70px 70px;
-    gap: 4px;
+    grid-template-columns: 20px 1fr 100px;
+    gap: 6px;
   }
 
   .segment-name {

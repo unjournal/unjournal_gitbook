@@ -76,17 +76,20 @@ The Unjournal maintains a style guide for documentation consistency: https://doc
 - **Shiny dashboard**: `https://unjournal.shinyapps.io/uj-dashboard/`
 - **Main website**: `https://unjournal.org`
 - **Ad Grant landing pages**: `https://info.unjournal.org`
-- **Wellbeing Workshop**: `https://unjournal-workshop.netlify.app` (canonical; forms submit here)
+- **Wellbeing Workshop**: `https://uj-wellbeing-workshop.netlify.app`
+- **PBA Workshop**: `https://uj-pba-workshop.netlify.app`
+- **CM Workshop**: `https://uj-cm-workshop.netlify.app`
 
 ## Pivotal Questions Workshops (`pivotal-questions/`)
 
 Workshop scheduling and beliefs elicitation forms for the Pivotal Questions initiative.
 
 ### Wellbeing Workshop (`pivotal-questions/workshop-form/`)
-- **Canonical URL**: `https://unjournal-workshop.netlify.app` (form submissions go here)
-- **Netlify Site ID**: `5b93849f-31cf-421c-81e8-17c7c036450a`
-- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 5b93849f-31cf-421c-81e8-17c7c036450a`
-- **Forms dashboard**: https://app.netlify.com/projects/unjournal-workshop/forms
+- **URL**: `https://uj-wellbeing-workshop.netlify.app`
+- **Netlify Site ID**: `37a0205b-5cee-42c2-9388-fe0c17b5e5c6`
+- **Netlify Account**: `daaronr` (nonprofit)
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 37a0205b-5cee-42c2-9388-fe0c17b5e5c6`
+- **Forms dashboard**: https://app.netlify.com/projects/uj-wellbeing-workshop/forms
 
 #### Pages
 - `index.html` — Scheduling form (availability grid, segment interest)
@@ -104,9 +107,10 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Shared styles in `styles.css`, interactivity in `app.js` and `beliefs.js`
 
 ### Cultivated Meat Workshop (`pivotal-questions/cm-workshop/`)
-- **URL**: `https://unjournal-cultured-meat-workshop.netlify.app`
-- **Netlify Site ID**: `2e59cdbb-5f83-4ff9-b8a9-9f4683a95ac7`
-- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 2e59cdbb-5f83-4ff9-b8a9-9f4683a95ac7`
+- **URL**: `https://uj-cm-workshop.netlify.app`
+- **Netlify Site ID**: `7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e`
+- **Netlify Account**: `daaronr` (nonprofit)
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e`
 - **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
 - **Target date**: April 2026
 
@@ -126,9 +130,10 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Metaculus questions: CM_01, CM_03, CM_10, CM_11
 
 ### Plant-Based Substitution Workshop (`pivotal-questions/pba-workshop/`)
-- **URL**: `https://unjournal-pba-workshop.netlify.app`
-- **Netlify Site ID**: `23164b31-16d6-4032-8070-1d23a3c70b1b`
-- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 23164b31-16d6-4032-8070-1d23a3c70b1b`
+- **URL**: `https://uj-pba-workshop.netlify.app`
+- **Netlify Site ID**: `b065c5c3-a6c8-4261-8dac-13d17383ceaa`
+- **Netlify Account**: `daaronr` (nonprofit)
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site b065c5c3-a6c8-4261-8dac-13d17383ceaa`
 - **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
 - **Target date**: May 2026
 
@@ -143,9 +148,10 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - `pba-beliefs-elicitation` — Beliefs/forecasts submissions
 
 #### Content Sources
-- PQ formulations from Coda tables and EA Forum (Peacock 2021)
+- PQ formulations from Coda tables and EA Forum
 - Question codes: PBA_01-08 (operationalized pivotal questions)
 - Metaculus questions: GFI vs THL comparison
+- Forecasting Tournament integration
 
 ### Future Workshops
 When creating additional PQ workshops:

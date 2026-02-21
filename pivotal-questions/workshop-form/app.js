@@ -114,6 +114,66 @@
     updateGridInput();
   }
 
+  // Toggle entire week
+  function toggleWeek(weekDates) {
+    const allSelected = weekDates.every(d => isDateFullySelected(formatDateKey(d)));
+
+    weekDates.forEach(d => {
+      const dateKey = formatDateKey(d);
+      HOUR_BLOCKS.forEach(b => {
+        const key = `${dateKey}_${b.id}`;
+        gridAvailability[key] = !allSelected;
+
+        const cell = document.querySelector(`[data-cell="${key}"]`);
+        if (cell) {
+          cell.classList.toggle('selected', !allSelected);
+          cell.innerHTML = !allSelected ? '<span class="checkmark">✓</span>' : '';
+        }
+      });
+
+      const dateBtn = document.querySelector(`[data-date="${dateKey}"]`);
+      if (dateBtn) {
+        dateBtn.classList.toggle('all-selected', !allSelected);
+      }
+    });
+
+    updateGridInput();
+  }
+
+  // Check if all dates for a time block are selected
+  function isColumnFullySelected(blockId) {
+    return DATE_OPTIONS.every(d => gridAvailability[`${formatDateKey(d)}_${blockId}`]);
+  }
+
+  // Toggle entire column (time block across all dates)
+  function toggleColumn(blockId) {
+    const allSelected = isColumnFullySelected(blockId);
+
+    DATE_OPTIONS.forEach(d => {
+      const dateKey = formatDateKey(d);
+      const key = `${dateKey}_${blockId}`;
+      gridAvailability[key] = !allSelected;
+
+      const cell = document.querySelector(`[data-cell="${key}"]`);
+      if (cell) {
+        cell.classList.toggle('selected', !allSelected);
+        cell.innerHTML = !allSelected ? '<span class="checkmark">✓</span>' : '';
+      }
+
+      const dateBtn = document.querySelector(`[data-date="${dateKey}"]`);
+      if (dateBtn) {
+        dateBtn.classList.toggle('all-selected', isDateFullySelected(dateKey));
+      }
+    });
+
+    const colHeader = document.querySelector(`[data-block="${blockId}"]`);
+    if (colHeader) {
+      colHeader.classList.toggle('all-selected', !allSelected);
+    }
+
+    updateGridInput();
+  }
+
   // Build the availability grid
   function buildGrid() {
     const container = document.getElementById('availabilityGrid');
@@ -125,10 +185,10 @@
     html += '<div class="grid-time-headers">';
     html += '<div class="grid-tz-label">US Eastern →</div>';
     HOUR_BLOCKS.forEach(block => {
-      html += `<div class="grid-time-cell" title="${block.tz}">
+      html += `<button type="button" class="grid-time-cell" data-block="${block.id}" title="Click to select all ${block.label} slots · ${block.tz}">
         <div>${block.label}</div>
         <div class="tz-sub">${block.tz.split('·')[0].trim()}</div>
-      </div>`;
+      </button>`;
     });
     html += '</div>';
 
@@ -136,7 +196,7 @@
     const weekGroups = groupDatesByWeek(DATE_OPTIONS);
 
     Object.entries(weekGroups).forEach(([weekKey, dates]) => {
-      html += `<div class="grid-week-label">Week of ${formatDate(dates[0])}</div>`;
+      html += `<button type="button" class="grid-week-label" data-week="${weekKey}" title="Click to select/deselect entire week">Week of ${formatDate(dates[0])}</button>`;
 
       dates.forEach(d => {
         const dateKey = formatDateKey(d);
@@ -155,7 +215,18 @@
 
     container.innerHTML = html;
 
-    // Add event listeners
+    // Add event listeners for time column headers
+    container.querySelectorAll('.grid-time-cell').forEach(btn => {
+      btn.addEventListener('click', () => toggleColumn(btn.dataset.block));
+    });
+
+    // Add event listeners for week labels
+    container.querySelectorAll('.grid-week-label').forEach(btn => {
+      const weekDates = weekGroups[btn.dataset.week];
+      btn.addEventListener('click', () => toggleWeek(weekDates));
+    });
+
+    // Add event listeners for date rows
     container.querySelectorAll('.grid-date-btn').forEach(btn => {
       btn.addEventListener('click', () => toggleDate(btn.dataset.date));
     });
@@ -287,6 +358,17 @@
     form.addEventListener('submit', (e) => {
       // Store name in sessionStorage for thank you page
       sessionStorage.setItem('workshopSubmitterName', nameInput.value.trim());
+
+      // Show submitting state
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
+    });
+
+    // Handle form submission errors (Netlify)
+    form.addEventListener('error', () => {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit Availability & Preferences';
+      alert('There was an error submitting the form. Please try again.');
     });
   }
 
