@@ -89,7 +89,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Netlify Site ID**: `37a0205b-5cee-42c2-9388-fe0c17b5e5c6`
 - **Netlify Account**: `daaronr` (nonprofit)
 - **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 37a0205b-5cee-42c2-9388-fe0c17b5e5c6`
-- **Forms dashboard**: https://app.netlify.com/projects/uj-wellbeing-workshop/forms
+- **Forms dashboard**: https://app.netlify.com/sites/uj-wellbeing-workshop/forms
 
 #### Pages
 - `index.html` — Scheduling form (availability grid, segment interest)
@@ -111,6 +111,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Netlify Site ID**: `7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e`
 - **Netlify Account**: `daaronr` (nonprofit)
 - **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e`
+- **Forms dashboard**: https://app.netlify.com/sites/uj-cm-workshop/forms
 - **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
 - **Target date**: April 2026
 
@@ -134,6 +135,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Netlify Site ID**: `b065c5c3-a6c8-4261-8dac-13d17383ceaa`
 - **Netlify Account**: `daaronr` (nonprofit)
 - **Deploy**: `npx netlify-cli deploy --prod --dir=. --site b065c5c3-a6c8-4261-8dac-13d17383ceaa`
+- **Forms dashboard**: https://app.netlify.com/sites/uj-pba-workshop/forms
 - **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
 - **Target date**: May 2026
 
@@ -190,3 +192,67 @@ Historical content (pilot phase 2022-2023, old job postings, etc.) is preserved 
 - 2023 pilot prize: Completed, winners announced
 - 2024-25: Evaluator prizes ($6,500), recognition-based author awards (Flowing Water Scholar, Polaris Research)
 - 2026+: Monetary author prizes planned, funding dependent
+
+## Workshop Migration & Harmonization (Feb 2026)
+
+### What Was Done
+
+**Netlify Account Migration:**
+- Migrated all 3 workshop sites from `contact@unjournal.org` account to `daaronr` nonprofit account
+- Created new sites with shorter URLs (`uj-*` prefix instead of `unjournal-*`)
+- Set up 301 redirects on old URLs to preserve any shared links
+
+**URL Mapping:**
+| Old URL (contact account) | New URL (nonprofit account) |
+|---------------------------|----------------------------|
+| `unjournal-workshop.netlify.app` | `uj-wellbeing-workshop.netlify.app` |
+| `unjournal-pba-workshop.netlify.app` | `uj-pba-workshop.netlify.app` |
+| `unjournal-cultured-meat-workshop.netlify.app` | `uj-cm-workshop.netlify.app` |
+
+**Harmonization Across All Workshops:**
+- Recording section: Changed to softer language mentioning transcripts ("We hope to record... adjusting based on participant preferences")
+- Added header meta line to PBA with target date and duration
+- Added draft notice inside CM index form
+- Added Forecasting Tournament links to Wellbeing workshop
+- Added Coda PQ database links to CM workshop
+- Added Our World in Data link to CM beliefs (chicken slaughter data)
+- Fixed PBA beliefs "rank" instruction → "select credible approaches" (was using checkboxes, not ranking)
+- Standardized form field name to `segment_priority_order` (snake_case) across all workshops
+- Added error handling to form submissions (shows "Submitting..." state)
+- Enabled column selection for availability grid (click time headers to select entire column)
+
+### Current Status
+
+**Live Sites (nonprofit account - daaronr):**
+- ✅ `uj-wellbeing-workshop.netlify.app` - deployed and working
+- ✅ `uj-pba-workshop.netlify.app` - deployed and working
+- ✅ `uj-cm-workshop.netlify.app` - deployed and working
+
+**Redirects (contact account):**
+- ✅ Old URLs return 301 redirects to new URLs
+- ✅ Path preservation works (e.g., `/thanks.html` redirects to new `/thanks.html`)
+
+**Forms:**
+- All 6 forms configured with `data-netlify="true"`
+- Forms dashboard: Log into Netlify with `daaronr@gmail.com` → Teams → daaronr → each project → Forms
+
+**Thank You Pages:**
+- All `/thanks.html` and `/beliefs-thanks.html` pages return HTTP 200
+- Personalized greeting using sessionStorage
+
+### Pending / Next Steps
+
+1. **Cancel $9/month plan on contact@unjournal.org account** - After Feb 24 when it renews. The redirects will continue working as long as the account stays active (even on free tier).
+
+2. **Verify form submissions in Netlify dashboard** - Log into `daaronr@gmail.com` account, check Forms tab on each project to confirm test submissions were captured.
+
+3. **Form detection on old sites** - The old `unjournal-*` sites (contact account) have form detection enabled but may need a redeploy to detect forms. However, since they now redirect to new sites, this is not critical.
+
+4. **Consider custom domain** - Could set up `wellbeing.unjournal.org` etc. pointing to the Netlify sites for cleaner URLs.
+
+### Netlify CLI Notes
+
+- CLI authenticates via browser - make sure correct account is logged in before deploying
+- To check current login: `npx netlify-cli status`
+- To switch accounts: `npx netlify-cli logout && npx netlify-cli login`
+- SSH push may fail; use HTTPS as fallback: `git remote set-url origin https://github.com/unjournal/unjournal_gitbook.git`
