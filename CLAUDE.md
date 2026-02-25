@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+> **LOCAL DIRECTORY NOTE**: This directory (`unjournal-gitbook-knowledge-comms`) is the **canonical working copy** of the `unjournal/unjournal_gitbook` GitHub repo. There is a stale duplicate at `~/githubs/_STALE_unjournal_gitbook/` — do NOT use that one. It can be safely deleted once you confirm no scripts depend on it.
+
 ## Repository Overview
 
 This is The Unjournal's public knowledge base and communications repository. The Unjournal provides open, rigorous evaluation of quantitative research informing global priorities, especially in economics, policy, and social science.
@@ -79,6 +81,7 @@ The Unjournal maintains a style guide for documentation consistency: https://doc
 - **Wellbeing Workshop**: `https://uj-wellbeing-workshop.netlify.app`
 - **PBA Workshop**: `https://uj-pba-workshop.netlify.app`
 - **CM Workshop**: `https://uj-cm-workshop.netlify.app`
+- **All Workshops Landing**: `https://uj-pq-workshops.netlify.app`
 
 ## Pivotal Questions Workshops (`pivotal-questions/`)
 
@@ -154,6 +157,13 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Question codes: PBA_01-08 (operationalized pivotal questions)
 - Metaculus questions: GFI vs THL comparison
 - Forecasting Tournament integration
+
+### Workshops Landing Page (`pivotal-questions/workshops-landing/`)
+- **URL**: `https://uj-pq-workshops.netlify.app`
+- **Netlify Site ID**: `9abc4eb7-bc5c-4bfd-83c2-2fbcf1b8cfe9`
+- **Netlify Account**: `daaronr` (nonprofit)
+- **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 9abc4eb7-bc5c-4bfd-83c2-2fbcf1b8cfe9`
+- Single page listing all workshop cards with status badges and links
 
 ### Future Workshops
 When creating additional PQ workshops:

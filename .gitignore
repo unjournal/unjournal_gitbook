@@ -28,3 +28,9 @@ presentation-assets/
 
 # Local Netlify folder
 .netlify
+
+# Claude Code session artifacts (throughout repo)
+**/.claude/
+
+# Workshop planning - contains participant names, emails, availability data
+pivotal-questions/workshop_planning/

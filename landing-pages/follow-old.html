@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow The Unjournal — Stay Connected</title>
+  <meta name="description" content="Follow The Unjournal on social media, subscribe to our newsletter, and stay up to date on open evaluation of impactful research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.4rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    /* Social cards grid */
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin: 1.25rem 0;
+    }
+
+    .social-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .social-card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      border-color: var(--accent);
+    }
+
+    .social-card .icon {
+      font-size: 2rem;
+      flex-shrink: 0;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+
+    .social-card .info { flex: 1; }
+
+    .social-card .info h3 {
+      margin-bottom: 0.25rem;
+    }
+
+    .social-card .info p {
+      font-size: 0.92rem;
+      color: var(--text-light);
+      margin-bottom: 0.6rem;
+    }
+
+    .social-card .info .handle {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      font-family: monospace;
+    }
+
+    .follow-link {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.88rem;
+      transition: background 0.2s;
+    }
+
+    .follow-link:hover { text-decoration: none; }
+
+    .fl-blue { background: #e8f4fd; color: #1a6ea0; }
+    .fl-blue:hover { background: #d0e9f8; color: #1a6ea0; }
+
+    .fl-dark { background: #eaecee; color: #2c3e50; }
+    .fl-dark:hover { background: #d5d8dc; color: #2c3e50; }
+
+    .fl-red { background: #fde8e8; color: #c0392b; }
+    .fl-red:hover { background: #f9d5d5; color: #c0392b; }
+
+    .fl-orange { background: #fef3e2; color: #b45309; }
+    .fl-orange:hover { background: #fde8c8; color: #b45309; }
+
+    .fl-green { background: #e8f8f0; color: #1e8449; }
+    .fl-green:hover { background: #d4efdf; color: #1e8449; }
+
+    .fl-purple { background: #f0e6f6; color: #7d3c98; }
+    .fl-purple:hover { background: #e2d0ee; color: #7d3c98; }
+
+    /* Resource cards */
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin: 1.25rem 0;
+    }
+
+    .resource-card {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.25rem;
+      text-align: center;
+    }
+
+    .resource-card .icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .resource-card h3 {
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .resource-card p {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+    }
+
+    .resource-card a {
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    /* Newsletter section */
+    .newsletter-section {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+
+    .newsletter-section h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .newsletter-section p {
+      color: var(--text-light);
+      max-width: 560px;
+      margin: 0 auto 1rem;
+    }
+
+    .newsletter-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.7rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.2s;
+    }
+
+    .newsletter-btn:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    /* Highlight box */
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* Get involved section */
+    .involve-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.1rem;
+      margin: 1.25rem 0;
+    }
+
+    .involve-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .involve-card .icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .involve-card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .involve-card p {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+    }
+
+    .involve-link {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.45rem 1.1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.88rem;
+      transition: background 0.2s;
+    }
+
+    .involve-link:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    /* Stats */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .stat { text-align: center; }
+
+    .stat .number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: block;
+    }
+
+    .stat .label {
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    /* Footer CTA */
+    .footer-cta {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: var(--light-bg);
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    .footer-cta h2 {
+      display: block;
+      border-bottom: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-cta p {
+      color: var(--text-light);
+      max-width: 560px;
+      margin: 0 auto 1.25rem;
+    }
+
+    .footer-cta .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.7rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    .cta-button.secondary {
+      background: var(--white);
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+
+    .cta-button.secondary:hover { background: var(--light-bg); color: var(--accent); }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    /* Embedded content */
+    .embed-section {
+      margin: 1.5rem 0;
+    }
+
+    .embed-section h3 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .embed-container {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .embed-container h4 {
+      font-size: 0.95rem;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .bsky-feed-wrapper {
+      max-height: 600px;
+      overflow-y: auto;
+      border-radius: 6px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .video-grid iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .metaculus-embed iframe {
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      min-height: 500px;
+    }
+
+    .ea-forum-preview {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .forum-post-card {
+      background: var(--light-bg);
+      border-radius: 8px;
+      padding: 1.1rem;
+      transition: box-shadow 0.2s;
+    }
+
+    .forum-post-card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    .forum-post-card .tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.3rem;
+    }
+
+    .forum-post-card h5 {
+      font-size: 0.95rem;
+      color: var(--primary);
+      margin-bottom: 0.3rem;
+      line-height: 1.4;
+    }
+
+    .forum-post-card h5 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .forum-post-card h5 a:hover {
+      color: var(--accent);
+    }
+
+    .forum-post-card .excerpt {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    /* News feed */
+    .news-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .news-item {
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+    }
+
+    .news-item:last-child {
+      border-bottom: none;
+    }
+
+    .news-item .date {
+      flex-shrink: 0;
+      font-size: 0.8rem;
+      color: var(--text-light);
+      width: 90px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .news-item .news-content {
+      flex: 1;
+    }
+
+    .news-item .news-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .news-item .news-excerpt {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.6rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .social-grid { grid-template-columns: 1fr; }
+      .resource-grid { grid-template-columns: 1fr; }
+      .involve-grid { grid-template-columns: 1fr; }
+      .stats { gap: 1.5rem; }
+      .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
+      .footer-cta .btn-row { flex-direction: column; align-items: center; }
+      .video-grid { grid-template-columns: 1fr; }
+      .ea-forum-preview { grid-template-columns: 1fr; }
+      .news-item { flex-direction: column; gap: 0.2rem; }
+      .news-item .date { width: auto; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org" style="color: inherit; text-decoration: none;">The Unjournal</a></div>
+  <h1>Follow &amp; Engage with The Unjournal</h1>
+  <p class="subtitle">Find us on social media, explore our latest work, and discover ways to get involved in open research evaluation.</p>
+  <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.75rem;">This is a companion page &mdash; visit <a href="https://unjournal.org" style="color: #85c1e9;">unjournal.org</a> for our main site.</p>
+</header>
+
+<nav>
+  <a href="#social">Social Media</a>
+  <a href="#latest">Latest</a>
+  <a href="#newsletter">Newsletter</a>
+  <a href="#resources">Resources</a>
+  <a href="#involved">Get Involved</a>
+  <a href="#about">About Us</a>
+  <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
+</nav>
+
+<main>
+
+  <section id="social">
+    <h2>Follow Us</h2>
+    <p>Stay up to date with our latest evaluations, research highlights, and news about open science.</p>
+
+    <div class="social-grid">
+
+      <div class="social-card">
+        <div class="icon" style="background: #e8f4fd;">&#9729;</div>
+        <div class="info">
+          <h3>Bluesky</h3>
+          <p>Our primary social platform. New evaluations, research threads, and open science commentary.</p>
+          <div class="handle">@unjournal.bsky.social</div>
+          <br>
+          <a href="https://bsky.app/profile/unjournal.bsky.social" class="follow-link fl-blue" target="_blank" rel="noopener">Follow on Bluesky</a>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="icon" style="background: #fde8e8;">&#9655;</div>
+        <div class="info">
+          <h3>YouTube</h3>
+          <p>Presentations, seminars, and discussions on research evaluation and open science.</p>
+          <div class="handle">@TheUnjournal</div>
+          <br>
+          <a href="https://www.youtube.com/@unjournal-evaluations/videos" class="follow-link fl-red" target="_blank" rel="noopener">Subscribe on YouTube</a>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="icon" style="background: #eaecee;">&#128220;</div>
+        <div class="info">
+          <h3>EA Forum</h3>
+          <p>In-depth posts on our evaluations, methodology, and research priorities for global impact.</p>
+          <br>
+          <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2" class="follow-link fl-dark" target="_blank" rel="noopener">Read on EA Forum</a>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="icon" style="background: #f0e6f6;">&#128202;</div>
+        <div class="info">
+          <h3>Metaculus</h3>
+          <p>Our forecasting community &mdash; predictions on pivotal research questions and global priorities.</p>
+          <br>
+          <a href="https://www.metaculus.com/c/unjournal/" class="follow-link fl-purple" target="_blank" rel="noopener">Join on Metaculus</a>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="icon" style="background: #e8f8f0;">&#128214;</div>
+        <div class="info">
+          <h3>PubPub</h3>
+          <p>All our published evaluations with full reports, ratings, and author responses.</p>
+          <br>
+          <a href="https://unjournal.pubpub.org/" class="follow-link fl-green" target="_blank" rel="noopener">Browse Evaluations</a>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="icon" style="background: #e8f0fe;">&#128101;</div>
+        <div class="info">
+          <h3>LinkedIn</h3>
+          <p>Professional updates, team news, and research evaluation insights.</p>
+          <br>
+          <a href="https://www.linkedin.com/company/unjournal/" class="follow-link fl-blue" target="_blank" rel="noopener">Follow on LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="icon" style="background: #fef3e2;">&#127911;</div>
+        <div class="info">
+          <h3>Podcast Appearances</h3>
+          <p>Listen to our founder discuss open science and research evaluation reform.</p>
+          <br>
+          <a href="https://soundcloud.com/reproducibilitea/s3e12-revolutionizing-scientific-publishing-with-david-reinstein" class="follow-link fl-orange" target="_blank" rel="noopener">Listen on SoundCloud</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="latest">
+    <h2>Latest from The Unjournal</h2>
+    <p>See what we've been sharing, discussing, and presenting.</p>
+
+    <!-- Bluesky Feed -->
+    <div class="embed-container">
+      <h4>Recent Posts on Bluesky</h4>
+      <div class="bsky-feed-wrapper">
+        <bsky-embed username="unjournal.bsky.social" limit="5" link-target="_blank"></bsky-embed>
+      </div>
+    </div>
+
+    <!-- News Feed -->
+    <div class="embed-container">
+      <h4>News from unjournal.org</h4>
+            <ul class="news-list">
+        <li class="news-item">
+          <span class="date">23 Dec 2025</span>
+          <div class="news-content">
+            <div class="news-title"><a href="https://www.unjournal.org/news/unjournal-2024-25-evaluator-prize-nominations-inviting-feedback" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Unjournal 2024-25 Evaluator Prize Nominations; inviting feedback</a></div>
+            <p class="news-excerpt">The Unjournal commissions expert public evaluation of research with potential for global impact. We recognize and reward the most useful,...</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">4 Dec 2025</span>
+          <div class="news-content">
+            <div class="news-title"><a href="https://www.unjournal.org/news/stakeholder-feedback-help-unjournal-measure-amp-enhance-its-impact" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Stakeholder Feedback: help Unjournal measure &amp; enhance its impact</a></div>
+            <p class="news-excerpt">We&#x27;ve evaluated 55+ papers/projects across global health, animal welfare, AI governance, environmental risks, and development economics;...</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">3 Nov 2025</span>
+          <div class="news-content">
+            <div class="news-title"><a href="https://www.unjournal.org/news/a-hint-at-how-to-solve-the-puzzle-of-fondness-for-authoritarianism" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">A Hint at How to Solve the Puzzle of Fondness for Authoritarianism</a></div>
+            <p class="news-excerpt">Do some people prefer authoritarian regimes, or do they just underestimate their social and economic costs? Our field specialist discusses...</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">7 Aug 2025</span>
+          <div class="news-content">
+            <div class="news-title"><a href="https://www.unjournal.org/news/announcing-2025-evaluator-incentives" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Announcing 2025 Evaluator Incentives</a></div>
+            <p class="news-excerpt">At The Unjournal, we compensate experts for evaluating and rating research with impact potential. We committed to pay $450 per evaluation...</p>
+          </div>
+        </li>
+        <li class="news-item">
+          <span class="date">21 Aug 2024</span>
+          <div class="news-content">
+            <div class="news-title"><a href="https://www.unjournal.org/news/data-management-and-sharing-and-open-evaluations-workshop" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Data Management and Sharing, and Open Evaluations Workshop</a></div>
+            <p class="news-excerpt">The Unjournal provided funding and support to the “Data Management and Sharing, and Open Evaluations Workshop” at the University of Cape...</p>
+          </div>
+        </li>
+      </ul>
+      <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 0.75rem; margin-bottom: 0;">Read all updates at <a href="https://www.unjournal.org/news" target="_blank" rel="noopener">unjournal.org/news</a>.</p>
+    </div>
+
+    <!-- YouTube Videos -->
+    <div class="embed-container">
+      <h4>Presentations &amp; Talks</h4>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/FP2PdR4fwZ0" title="Evaluate research publicly: Basic Case for unjournal.org" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        <iframe src="https://www.youtube.com/embed/xMi1am_l9Pg" title="How does The Unjournal's prioritization and evaluation process work?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 0.75rem; margin-bottom: 0;">More videos on our <a href="https://www.youtube.com/@unjournal-evaluations/videos" target="_blank" rel="noopener">YouTube channel</a>.</p>
+    </div>
+
+    <!-- EA Forum highlights -->
+    <div class="embed-container">
+      <h4>On the EA Forum</h4>
+      <div class="ea-forum-preview">
+        <div class="forum-post-card">
+          <div class="tag">Pivotal Questions</div>
+          <h5><a href="https://forum.effectivealtruism.org/posts/3Eh8MbqLwFBsD7GK2/how-much-do-plant-based-products-substitute-for-animal" target="_blank" rel="noopener">How much do plant-based products substitute for animal products?</a></h5>
+          <p class="excerpt">Evaluating evidence on whether plant-based alternatives actually reduce demand for animal products.</p>
+        </div>
+        <div class="forum-post-card">
+          <div class="tag">Pivotal Questions</div>
+          <h5><a href="https://forum.effectivealtruism.org/posts/7ha23d3qzXiCqYLDq/is-cultured-meat-commercially-viable-unjournal-s-first" target="_blank" rel="noopener">Is cultured meat commercially viable?</a></h5>
+          <p class="excerpt">The Unjournal's first "pivotal question" package examining the commercial viability of cultivated meat.</p>
+        </div>
+        <div class="forum-post-card">
+          <div class="tag">Forecasting</div>
+          <h5><a href="https://forum.effectivealtruism.org/posts/pxYdSh3hjSCEMk68z/call-for-questions-on-animal-focused-forecasting-tournament" target="_blank" rel="noopener">Call for questions: animal-focused forecasting tournament</a></h5>
+          <p class="excerpt">Help shape questions for Metaculus' first animal welfare forecasting tournament.</p>
+        </div>
+        <div class="forum-post-card">
+          <div class="tag">About Us</div>
+          <h5><a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2" target="_blank" rel="noopener">The Unjournal: EA Forum sequence</a></h5>
+          <p class="excerpt">Our complete series on the EA Forum covering our mission, process, and progress.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Metaculus Community -->
+    <div class="embed-container">
+      <h4>Metaculus Forecasting Community</h4>
+      <p style="font-size: 0.92rem; color: var(--text-light); margin-bottom: 0.75rem;">Follow our forecasting questions on pivotal research topics. Make your own predictions and see how the community forecasts key uncertainties.</p>
+      <div class="metaculus-embed">
+        <iframe src="https://www.metaculus.com/c/unjournal/" title="The Unjournal on Metaculus" loading="lazy"></iframe>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 0.5rem;"><a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Open in Metaculus</a> for the full interactive experience.</p>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="newsletter-section">
+      <h3>Email Updates</h3>
+      <p>Get notified about new evaluations, research calls, and opportunities. Low volume &mdash; only substantive updates.</p>
+      <a href="http://eepurl.com/ipFMdg" class="newsletter-btn" target="_blank" rel="noopener">Subscribe to Updates</a>
+    </div>
+  </section>
+
+  <section id="resources">
+    <h2>Explore Our Work</h2>
+    <p>Dive into our evaluations, data, and documentation.</p>
+
+    <div class="resource-grid">
+      <div class="resource-card">
+        <div class="icon">&#128200;</div>
+        <h3>Interactive Dashboard</h3>
+        <p>Explore ratings and visualize data across all our evaluations</p>
+        <a href="https://unjournal.shinyapps.io/uj-dashboard/" target="_blank" rel="noopener">Open Dashboard</a>
+      </div>
+      <div class="resource-card">
+        <div class="icon">&#128209;</div>
+        <h3>Published Evaluations</h3>
+        <p>Full evaluation reports with quantitative ratings and author responses</p>
+        <a href="https://unjournal.pubpub.org/" target="_blank" rel="noopener">Browse on PubPub</a>
+      </div>
+      <div class="resource-card">
+        <div class="icon">&#128218;</div>
+        <h3>Documentation &amp; Policies</h3>
+        <p>How we work, what we prioritize, our evaluation guidelines</p>
+        <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/" target="_blank" rel="noopener">Read Docs</a>
+      </div>
+      <div class="resource-card">
+        <div class="icon">&#128187;</div>
+        <h3>Data &amp; Analysis</h3>
+        <p>Open data on all our evaluations and ratings for researchers</p>
+        <a href="https://unjournal.github.io/unjournaldata" target="_blank" rel="noopener">View Data</a>
+      </div>
+      <div class="resource-card">
+        <div class="icon">&#127757;</div>
+        <h3>Main Website</h3>
+        <p>Overview, team, news, and general information</p>
+        <a href="https://unjournal.org" target="_blank" rel="noopener">Visit unjournal.org</a>
+      </div>
+      <div class="resource-card">
+        <div class="icon">&#128240;</div>
+        <h3>News &amp; Announcements</h3>
+        <p>Latest updates, milestones, and organizational news</p>
+        <a href="https://www.unjournal.org/news" target="_blank" rel="noopener">Read News</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="involved">
+    <h2>Get Involved</h2>
+    <p>The Unjournal welcomes contributions from researchers, evaluators, and anyone passionate about improving how research is assessed. We compensate participants for their time and expertise. See more at <a href="https://www.unjournal.org/getting-involved" target="_blank" rel="noopener">unjournal.org/getting-involved</a>.</p>
+
+    <div class="involve-grid">
+      <div class="involve-card">
+        <div class="icon">&#128196;</div>
+        <h3>Submit Your Research</h3>
+        <p>Authors can submit working papers, preprints, or dynamic documents for expert evaluation. Non-exclusive &mdash; you can publish anywhere else too.</p>
+        <a href="https://coda.io/form/Author-Submission-Form_dZ4MMytY7aI" class="involve-link" target="_blank" rel="noopener">Author Submission</a>
+      </div>
+      <div class="involve-card">
+        <div class="icon">&#128269;</div>
+        <h3>Suggest Research</h3>
+        <p>Know impactful work that deserves rigorous public evaluation? Nominate papers and projects for us to assess.</p>
+        <a href="https://coda.io/form/Suggesting-research_ddYqto0PuD0" class="involve-link" target="_blank" rel="noopener">Suggest Research</a>
+      </div>
+      <div class="involve-card">
+        <div class="icon">&#9997;</div>
+        <h3>Become an Evaluator</h3>
+        <p>PhD or equivalent? Get paid $300+ for expert evaluations. Your review is published and citable. Prizes for exceptional work.</p>
+        <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="involve-link" target="_blank" rel="noopener">Join as Evaluator</a>
+      </div>
+      <div class="involve-card">
+        <div class="icon">&#127891;</div>
+        <h3>Join as Field Specialist</h3>
+        <p>Help prioritize research in specific cause areas. Field specialists identify high-value work and connect us with relevant experts.</p>
+        <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="involve-link" target="_blank" rel="noopener">Express Interest</a>
+      </div>
+      <div class="involve-card">
+        <div class="icon">&#128221;</div>
+        <h3>Independent Evaluations</h3>
+        <p>Conduct standalone evaluations of research you find important. We provide guidelines and can publish your evaluation on PubPub.</p>
+        <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/call-for-participants-research/independent-evaluations-trial" class="involve-link" target="_blank" rel="noopener">Learn More</a>
+      </div>
+      <div class="involve-card">
+        <div class="icon">&#129309;</div>
+        <h3>Join the Team</h3>
+        <p>Interested in management, advisory, or operational roles? We're building a team to scale open research evaluation.</p>
+        <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="involve-link" target="_blank" rel="noopener">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About The Unjournal</h2>
+    <p>The Unjournal commissions rigorous, public peer evaluation of quantitative research &mdash; especially in economics, policy, and social science &mdash; that informs <strong>global priorities</strong> and the most effective interventions for improving lives.</p>
+    <p>We don't "publish" papers in the traditional sense. Instead, we provide <strong>journal-independent evaluation</strong>: expert assessments with quantitative ratings and detailed feedback, all made publicly available. Authors keep full control of their work.</p>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="number">100+</span>
+        <span class="label">Evaluations completed</span>
+      </div>
+      <div class="stat">
+        <span class="number">53</span>
+        <span class="label">Research papers assessed</span>
+      </div>
+      <div class="stat">
+        <span class="number">100+</span>
+        <span class="label">Expert evaluators</span>
+      </div>
+      <div class="stat">
+        <span class="number">60+</span>
+        <span class="label">Field specialists</span>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>Why does this matter?</strong> Traditional academic publishing is slow, expensive, and often misaligned with real-world impact. The Unjournal offers paid evaluators, transparent public feedback, quantitative ratings beyond simple pass/fail, and a process that works alongside &mdash; not instead of &mdash; traditional publication.
+    </div>
+
+    <p>Meet our management team, advisory board, and field specialists on our <a href="https://www.unjournal.org/team" target="_blank" rel="noopener">Team page</a>.</p>
+  </section>
+
+  <div class="footer-cta">
+    <h2>Join the Open Evaluation Movement</h2>
+    <p>Whether you're a researcher, evaluator, funder, or policymaker &mdash; stay connected and be part of reforming how research is assessed.</p>
+    <div class="btn-row">
+      <a href="https://bsky.app/profile/unjournal.bsky.social" class="cta-button" target="_blank" rel="noopener">Follow on Bluesky</a>
+      <a href="http://eepurl.com/ipFMdg" class="cta-button secondary" target="_blank" rel="noopener">Subscribe to Updates</a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+</body>
+</html>

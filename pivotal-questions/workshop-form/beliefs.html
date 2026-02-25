@@ -33,7 +33,7 @@
     <p>These are some of the <strong>key</strong> operationalized questions from our Wellbeing Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence—to see how views evolve and where consensus exists or doesn't. <em>(All questions are optional.)</em></p>
 
     <div class="canonical-callout">
-      <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH#_luVrD0mE" target="_blank" rel="noopener">canonical Wellbeing PQ formulations on Coda →</a>
+      <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener">canonical Wellbeing PQ formulations on Coda →</a>
     </div>
 
     <p>You don't need to be a specialist to contribute. We want your honest assessment and reasoning, whether you feel highly confident or very uncertain. Your input helps us understand the range of views in the field.</p>
@@ -43,7 +43,7 @@
     <div class="guidance-callout">
       <div class="guidance-callout-title">How to respond</div>
       <ul>
-        <li><strong>For probability/percentage questions:</strong> Give your best estimate. If very uncertain, a wide range is fine—that's useful information too.</li>
+        <li><strong>For probability questions:</strong> State your best calibrated subjective probability. If very uncertain, a wide credible interval is fine—that's useful information too. (See "<a href="#def-probability" style="color: var(--brown);">How should I think about probability estimates?</a>" below.)</li>
         <li><strong>For open-ended questions:</strong> Even a sentence or two helps. We're looking for reasoning and considerations, not polished analysis.</li>
         <li><strong>You can return and update</strong> your responses as your views evolve. (Note: We will store each submission separately rather than overwriting previous responses.)</li>
         <li><strong>Note on DALYs vs QALYs:</strong> These questions focus on DALYs as the comparison metric. If you think the QALY comparison is more relevant, please note that in your response.</li>
@@ -91,6 +91,17 @@
           <p>The "best" mappings would be those that, if used to make conversions between WELLBYs, DALYs, etc., would be likely to lead to the better/best decisions in most relevant situations.</p>
         </div>
       </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-probability">
+          <span class="toggle-icon">▸</span> How should I think about probability estimates?
+        </button>
+        <div class="definition-content" id="def-probability">
+          <p>When we ask for a probability, we're asking for your <strong>best calibrated subjective probability</strong>—your honest credence given everything you know.</p>
+          <p>One way to think about this: Imagine an ideal research team with unlimited resources, time, and data—perhaps even a kind of omniscience where they could perfectly understand the welfare and psychological states of everyone affected. <strong>What probability would you assign that this idealized team would ultimately conclude the statement is true?</strong></p>
+          <p>Note: We avoid anchoring to "0% = impossible" and "100% = certain" because perfect certainty is rarely justified. If you believe something is extremely unlikely but not literally impossible, you might say 2-5%; if nearly certain but not absolutely, perhaps 95-98%.</p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -124,7 +135,7 @@
             <textarea name="pq1a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
           </div>
           <div class="pq-input-group">
-            <label class="pq-input-label">How likely is it that the simple WELLBY measure (<a href="#def-wellby" style="color: var(--brown);">as defined above</a>) is the best or near-best measure—yielding no less than 80% of the value of the best measure—for cross-intervention comparison in the <a href="#def-focal" style="color: var(--brown);">focal context</a>? (0% = very unlikely, 100% = very likely)</label>
+            <label class="pq-input-label">How likely is it that the simple WELLBY measure (<a href="#def-wellby" style="color: var(--brown);">as defined above</a>) is the best or near-best measure—yielding no less than 80% of the value of the best measure—for cross-intervention comparison in the <a href="#def-focal" style="color: var(--brown);">focal context</a>? <span class="input-note">(State your <a href="#def-probability" style="color: var(--brown);">best calibrated probability</a>.)</span></label>
             <div class="pq-slider-container">
               <input type="range" name="pq1a_probability" class="pq-slider" min="0" max="100" value="50" oninput="this.nextElementSibling.textContent = this.value + '%'">
               <span class="pq-slider-value">50%</span>
@@ -295,15 +306,28 @@
             <input type="number" name="pq2a_conversion" class="input" step="0.1" min="0" max="50" placeholder="e.g., 6">
           </div>
           <div class="pq-input-group">
-            <label class="pq-input-label">How confident are you in this estimate? (0% = pure guess, 100% = highly confident)</label>
-            <div class="pq-slider-container">
-              <input type="range" name="pq2a_confidence" class="pq-slider" min="0" max="100" value="30" oninput="this.nextElementSibling.textContent = this.value + '%'">
-              <span class="pq-slider-value">30%</span>
+            <label class="pq-input-label">What is your 80% credible interval for this conversion factor?</label>
+            <button type="button" class="credible-interval-toggle" onclick="this.nextElementSibling.classList.toggle('open')">
+              <span class="toggle-icon">▸</span> What is a credible interval?
+            </button>
+            <div class="credible-interval-explanation">
+              <p>An <strong>80% credible interval</strong> represents the range you believe has an 80% probability of containing the true value. There should be roughly a 10% chance the true value is below your lower bound, and a 10% chance it's above your upper bound.</p>
+              <p>This is more informative than a single "confidence" percentage because it captures both your best guess and how uncertain you are. For help calibrating your uncertainty estimates, try the <a href="https://www.clearerthinking.org/tools/calibrate-your-judgment" target="_blank" rel="noopener">Clearer Thinking calibration tool</a>.</p>
+            </div>
+            <div class="credible-interval-inputs">
+              <div class="ci-field">
+                <label>Lower bound (10th percentile)</label>
+                <input type="number" name="pq2a_ci_lower" class="input" step="0.1" min="0" max="50" placeholder="e.g., 3">
+              </div>
+              <div class="ci-field">
+                <label>Upper bound (90th percentile)</label>
+                <input type="number" name="pq2a_ci_upper" class="input" step="0.1" min="0" max="50" placeholder="e.g., 12">
+              </div>
             </div>
           </div>
           <div class="pq-input-group">
             <label class="pq-input-label">What's your reasoning? Does the "best" mapping depend on context (e.g., mental health vs physical health, geographic region)?</label>
-            <textarea name="pq2a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
+            <textarea name="pq2a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning... If you want to express uncertainty more specifically (e.g., distributions, probability of different ranges), please do so here."></textarea>
           </div>
         </div>
       </div>
@@ -375,7 +399,7 @@
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">Your probability estimate</label>
+            <label class="pq-input-label">State your <a href="#def-probability" style="color: var(--brown);">best calibrated probability</a></label>
             <div class="pq-slider-container">
               <input type="range" name="pq3a_probability" class="pq-slider" min="0" max="100" value="25" oninput="this.nextElementSibling.textContent = this.value + '%'">
               <span class="pq-slider-value">25%</span>
@@ -424,7 +448,7 @@
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">Probability that adopting these methods would meaningfully change the top-5 rankings (see resolution criteria above)</label>
+            <label class="pq-input-label">State your <a href="#def-probability" style="color: var(--brown);">best calibrated probability</a> that adopting these methods would meaningfully change the top-5 rankings (see resolution criteria above)</label>
             <div class="pq-slider-container">
               <input type="range" name="pq3c_probability" class="pq-slider" min="0" max="100" value="35" oninput="this.nextElementSibling.textContent = this.value + '%'">
               <span class="pq-slider-value">35%</span>

@@ -255,67 +255,52 @@
     });
   }
 
-  // Handle segment drag-and-drop reordering
-  function setupSegmentDragAndDrop() {
+  // Handle segment star (priority) clicks - cycles 0 → 1 → 2 → 0
+  function setupSegmentStars() {
     const container = document.getElementById('segmentsList');
-    const orderInput = document.getElementById('segmentPriorityOrder');
-    if (!container || !orderInput) return;
+    const priorityInput = document.getElementById('segmentPriorityOrder');
+    if (!container || !priorityInput) return;
 
-    let draggedEl = null;
+    const segmentStars = {}; // segment -> 0, 1, or 2
 
-    function updateOrderInput() {
-      const rows = container.querySelectorAll('.segment-row');
-      const order = Array.from(rows).map(row => row.dataset.segment);
-      orderInput.value = order.join(',');
+    function updatePriorityInput() {
+      // Format: segment:count,segment:count (only non-zero)
+      const entries = Object.entries(segmentStars)
+        .filter(([_, count]) => count > 0)
+        .map(([seg, count]) => `${seg}:${count}`);
+      priorityInput.value = entries.join(',');
     }
 
-    container.querySelectorAll('.segment-row').forEach(row => {
-      row.addEventListener('dragstart', (e) => {
-        draggedEl = row;
-        row.classList.add('dragging');
-        e.dataTransfer.effectAllowed = 'move';
-        e.dataTransfer.setData('text/plain', row.dataset.segment);
-      });
+    container.querySelectorAll('.segment-star').forEach(star => {
+      const segment = star.dataset.segment;
+      segmentStars[segment] = 0;
 
-      row.addEventListener('dragend', () => {
-        row.classList.remove('dragging');
-        container.querySelectorAll('.segment-row').forEach(r => r.classList.remove('drag-over'));
-        draggedEl = null;
-        updateOrderInput();
-      });
+      star.addEventListener('click', () => {
+        const row = star.closest('.segment-row');
+        const current = segmentStars[segment] || 0;
+        const next = (current + 1) % 3; // 0 → 1 → 2 → 0
+        segmentStars[segment] = next;
 
-      row.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        e.dataTransfer.dropEffect = 'move';
-        if (draggedEl && draggedEl !== row) {
-          row.classList.add('drag-over');
+        // Update display
+        if (next === 0) {
+          star.textContent = '☆';
+          star.classList.remove('starred', 'starred-2');
+          row.classList.remove('starred', 'starred-2');
+        } else if (next === 1) {
+          star.textContent = '★';
+          star.classList.add('starred');
+          star.classList.remove('starred-2');
+          row.classList.add('starred');
+          row.classList.remove('starred-2');
+        } else {
+          star.textContent = '★★';
+          star.classList.add('starred', 'starred-2');
+          row.classList.add('starred', 'starred-2');
         }
-      });
 
-      row.addEventListener('dragleave', () => {
-        row.classList.remove('drag-over');
-      });
-
-      row.addEventListener('drop', (e) => {
-        e.preventDefault();
-        row.classList.remove('drag-over');
-        if (draggedEl && draggedEl !== row) {
-          // Insert dragged element before or after current row based on position
-          const allRows = Array.from(container.querySelectorAll('.segment-row'));
-          const draggedIdx = allRows.indexOf(draggedEl);
-          const targetIdx = allRows.indexOf(row);
-
-          if (draggedIdx < targetIdx) {
-            row.parentNode.insertBefore(draggedEl, row.nextSibling);
-          } else {
-            row.parentNode.insertBefore(draggedEl, row);
-          }
-        }
+        updatePriorityInput();
       });
     });
-
-    // Initialize order
-    updateOrderInput();
   }
 
   // Handle recording preference notes visibility
@@ -376,7 +361,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     buildGrid();
     setupSegmentHighlighting();
-    setupSegmentDragAndDrop();
+    setupSegmentStars();
     setupRecordingNotes();
     setupValidation();
   });
