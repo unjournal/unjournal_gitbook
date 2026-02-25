@@ -21,13 +21,15 @@
   <style>
     :root {
       --primary: #1a3a5c;
+      --primary-dark: #0d1f30;
       --accent: #2e86c1;
+      --accent-light: #5dade2;
       --light-bg: #f7f9fb;
       --text: #2c3e50;
       --text-light: #5d6d7e;
       --border: #d5dbdb;
       --white: #ffffff;
-      --max-width: 1000px;
+      --max-width: 1100px;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -37,31 +39,47 @@
       color: var(--text);
       line-height: 1.7;
       font-size: 17px;
+      background: var(--light-bg);
     }
 
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Hero Header */
     header {
-      background: linear-gradient(135deg, var(--primary) 0%, #1a4a6c 100%);
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, #1a4a6c 100%);
       color: var(--white);
-      padding: 3rem 1.5rem 2.5rem;
+      padding: 3.5rem 1.5rem 3rem;
       text-align: center;
+      position: relative;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
     }
 
     header .org-label {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      opacity: 0.8;
-      margin-bottom: 0.75rem;
+      letter-spacing: 0.15em;
+      opacity: 0.7;
+      margin-bottom: 0.5rem;
+      position: relative;
     }
 
     header .org-label a { color: inherit; text-decoration: none; }
 
     header h1 {
       font-family: 'Libre Baskerville', Georgia, serif;
-      font-size: 2.2rem;
+      font-size: 2.6rem;
       font-weight: 700;
       margin-bottom: 0.75rem;
-      line-height: 1.3;
+      line-height: 1.2;
+      position: relative;
     }
 
     header p.subtitle {
@@ -69,8 +87,11 @@
       opacity: 0.9;
       max-width: 680px;
       margin: 0 auto;
+      font-style: italic;
+      position: relative;
     }
 
+    /* Navigation */
     nav {
       background: var(--white);
       border-bottom: 1px solid var(--border);
@@ -79,102 +100,193 @@
       position: sticky;
       top: 0;
       z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     }
 
     nav a {
-      color: var(--accent);
+      color: var(--primary);
       text-decoration: none;
       margin: 0 0.7rem;
       font-size: 0.92rem;
       font-weight: 500;
+      transition: color 0.2s;
     }
 
-    nav a:hover { text-decoration: underline; }
+    nav a:hover { color: var(--accent); text-decoration: none; }
 
+    /* Main Content */
     main {
       max-width: var(--max-width);
       margin: 0 auto;
-      padding: 2rem 1.5rem;
+      padding: 2.5rem 1.5rem;
     }
 
     section { margin-bottom: 3rem; }
 
-    h2 {
+    .section-header {
+      margin-bottom: 1.5rem;
+    }
+
+    .section-header h2 {
       font-family: 'Libre Baskerville', Georgia, serif;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       color: var(--primary);
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       padding-bottom: 0.3rem;
-      border-bottom: 2px solid var(--accent);
+      border-bottom: 3px solid var(--accent);
       display: inline-block;
     }
 
-    h3 {
-      font-size: 1.15rem;
-      color: var(--primary);
-      margin-bottom: 0.75rem;
-      margin-top: 1.5rem;
+    .section-header p {
+      color: var(--text-light);
+      margin-top: 0.5rem;
     }
 
-    p { margin-bottom: 1rem; }
-
-    a { color: var(--accent); }
-    a:hover { text-decoration: underline; }
-
-    /* Team grid */
+    /* Team grid with photos */
     .team-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1.25rem;
+      gap: 1.5rem;
       margin: 1.5rem 0;
     }
 
     .team-member {
       background: var(--white);
       border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.25rem;
-      transition: box-shadow 0.2s, border-color 0.2s;
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
     }
 
     .team-member:hover {
-      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
       border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .team-member .photo {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      overflow: hidden;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .team-member .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .team-member .photo .initials {
+      color: var(--white);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .team-member .info {
+      flex: 1;
+      min-width: 0;
     }
 
     .team-member .name {
       font-weight: 700;
       color: var(--primary);
-      font-size: 1.05rem;
+      font-size: 1.1rem;
       margin-bottom: 0.25rem;
+      line-height: 1.3;
+    }
+
+    .team-member .name a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .team-member .name a:hover {
+      color: var(--accent);
     }
 
     .team-member .role {
       color: var(--accent);
-      font-size: 0.9rem;
-      font-weight: 500;
-      margin-bottom: 0.35rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .team-member .role.director {
+      color: #d4a853;
     }
 
     .team-member .affiliation {
       color: var(--text-light);
       font-size: 0.88rem;
       font-style: italic;
+      line-height: 1.4;
     }
 
-    /* Compact list for large groups */
+    /* Advisory board - slightly smaller photos */
+    .advisory-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .advisory-grid .team-member .photo {
+      width: 60px;
+      height: 60px;
+    }
+
+    .advisory-grid .team-member .photo .initials {
+      font-size: 1.1rem;
+    }
+
+    /* Specialist cards - more compact */
+    .category-section {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border: 1px solid var(--border);
+    }
+
+    .category-section h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--light-bg);
+    }
+
     .specialist-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 0.75rem;
-      margin: 1rem 0;
     }
 
     .specialist {
       padding: 0.6rem 0.9rem;
       background: var(--light-bg);
-      border-radius: 5px;
+      border-radius: 6px;
       font-size: 0.92rem;
+      transition: all 0.2s;
+    }
+
+    .specialist:hover {
+      background: #e8eef4;
     }
 
     .specialist .name {
@@ -182,78 +294,111 @@
       color: var(--text);
     }
 
+    .specialist .name a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .specialist .name a:hover {
+      color: var(--accent);
+    }
+
     .specialist .affiliation {
       color: var(--text-light);
       font-size: 0.85rem;
     }
 
-    /* Category sections */
-    .category-section {
-      background: var(--light-bg);
-      border-radius: 8px;
-      padding: 1.5rem;
-      margin: 1.5rem 0;
-    }
-
-    .category-section h3 {
-      margin-top: 0;
-      font-size: 1rem;
-      color: var(--accent);
-    }
-
     /* CTA section */
     .cta-section {
       text-align: center;
-      padding: 2rem 1.5rem;
-      background: var(--primary);
+      padding: 2.5rem 2rem;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
       color: var(--white);
-      border-radius: 8px;
+      border-radius: 12px;
       margin: 2rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at 0% 100%, rgba(46,134,193,0.2) 0%, transparent 50%);
+      pointer-events: none;
     }
 
     .cta-section h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
       color: var(--white);
-      border-bottom-color: #85c1e9;
+      border-bottom: none;
       margin-bottom: 0.75rem;
+      font-size: 1.6rem;
+      position: relative;
     }
 
     .cta-section p {
       opacity: 0.9;
       max-width: 560px;
-      margin: 0 auto 1.25rem;
+      margin: 0 auto 1.5rem;
+      position: relative;
     }
 
     .cta-button {
       display: inline-block;
       background: var(--accent);
       color: var(--white);
-      padding: 0.75rem 2rem;
-      border-radius: 5px;
+      padding: 0.85rem 2rem;
+      border-radius: 6px;
       text-decoration: none;
       font-weight: 600;
       font-size: 1.05rem;
       margin: 0.35rem;
-      transition: background 0.2s;
+      transition: all 0.2s;
+      position: relative;
     }
 
-    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; transform: translateY(-2px); }
 
+    .cta-button.secondary {
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.5);
+    }
+
+    .cta-button.secondary:hover {
+      border-color: var(--white);
+      background: rgba(255,255,255,0.1);
+    }
+
+    /* Footer */
     footer {
-      background: var(--primary);
+      background: var(--primary-dark);
       color: var(--white);
       text-align: center;
       padding: 1.5rem;
       font-size: 0.9rem;
     }
 
-    footer a { color: #85c1e9; }
+    footer a { color: var(--accent-light); }
 
+    footer .meta {
+      font-size: 0.78rem;
+      opacity: 0.6;
+      margin-top: 0.75rem;
+    }
+
+    /* Responsive */
     @media (max-width: 700px) {
-      header h1 { font-size: 1.6rem; }
+      header h1 { font-size: 2rem; }
       header p.subtitle { font-size: 1rem; }
       nav a { margin: 0 0.4rem; font-size: 0.82rem; }
       .team-grid { grid-template-columns: 1fr; }
+      .advisory-grid { grid-template-columns: 1fr; }
       .specialist-grid { grid-template-columns: 1fr; }
+      .team-member { padding: 1.25rem; }
+      .team-member .photo { width: 60px; height: 60px; }
+      .cta-section { padding: 2rem 1.25rem; }
+      .cta-button { width: 100%; max-width: 280px; }
     }
   </style>
 </head>
@@ -264,7 +409,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <header>
-  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 60px; margin-bottom: 0.5rem; position: relative;"></a>
   <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
   <h1>Our Team</h1>
   <p class="subtitle">The researchers, advisors, and field specialists advancing open evaluation of impactful research.</p>
@@ -281,195 +426,368 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <main>
 
   <section id="management">
-    <h2>Management Team</h2>
-    <p>The core team coordinating The Unjournal's operations, research prioritization, and evaluator network.</p>
+    <div class="section-header">
+      <h2>Management Team</h2>
+      <p>The core team coordinating The Unjournal's operations, research prioritization, and evaluator network.</p>
+    </div>
 
     <div class="team-grid">
       <div class="team-member">
-        <div class="name">David Reinstein</div>
-        <div class="role">Founding Director</div>
-        <div class="affiliation">Rethink Priorities</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/7ccc72af-0374-45fd-abc8-5ec8626cbdfc/T03EAKQ2L87-U03ENAHJ96Z-513348555893-192.jpeg" alt="David Reinstein"></div>
+        <div class="info">
+          <div class="name"><a href="https://davidreinstein.org" target="_blank">David Reinstein</a></div>
+          <div class="role director">Founding Director</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Anirudh Tagat</div>
-        <div class="role">Co-Director</div>
-        <div class="affiliation">Monk Prayogshala</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/8acf70a1-4757-4329-9795-1dd969fd826b/1682923947952.jpeg" alt="Anirudh Tagat"></div>
+        <div class="info">
+          <div class="name"><a href="https://www.anirudhtagat.com" target="_blank">Anirudh Tagat</a></div>
+          <div class="role director">Co-Director</div>
+          <div class="affiliation">Monk Prayogshala</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Gavin Taylor</div>
-        <div class="role">Former Co-Director</div>
-        <div class="affiliation">RF Antivirals</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/421306a7-fb79-4938-ac41-746b3113e3e9/T03EAKQ2L87-U03FARTGDFW-96f0693ba99d-512.jpeg" alt="Gavin Taylor"></div>
+        <div class="info">
+          <div class="name"><a href="https://onscienceandacademia.org/t/gavin-taylor/356" target="_blank">Gavin Taylor</a></div>
+          <div class="role">Management Team</div>
+          <div class="affiliation">RF Antivirals</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Bob Kubinec</div>
-        <div class="role">Management Team</div>
-        <div class="affiliation">University of South Carolina</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/9e71e222-7bea-4094-b85e-6cb881b543a0/more_direct_camera_profile_cropped.jpg" alt="Bob Kubinec"></div>
+        <div class="info">
+          <div class="name"><a href="https://www.bobkubinec.com/" target="_blank">Bob Kubinec</a></div>
+          <div class="role">Management Team</div>
+          <div class="affiliation">University of South Carolina</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Hansika Kapoor</div>
-        <div class="role">Management Team</div>
-        <div class="affiliation">Monk Prayogshala</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/0ef526ab-e9a9-4c05-9ac5-5324f966071f/T03EAKQ2L87-U03MJTK53QD-6b3b3427a8c1-512.png" alt="Hansika Kapoor"></div>
+        <div class="info">
+          <div class="name"><a href="https://www.hansikakapoor.in/" target="_blank">Hansika Kapoor</a></div>
+          <div class="role">Management Team</div>
+          <div class="affiliation">Monk Prayogshala</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Ryan Briggs</div>
-        <div class="role">Management Team</div>
-        <div class="affiliation">University of Guelph</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/151e78f4-e6d5-4508-b694-2f5ce477d08b/T03EAKQ2L87-U03F43L0NSY-0877f27d4c86-512.jpeg" alt="Ryan Briggs"></div>
+        <div class="info">
+          <div class="name"><a href="https://www.ryancbriggs.net/" target="_blank">Ryan Briggs</a></div>
+          <div class="role">Management Team</div>
+          <div class="affiliation">University of Guelph</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Alexander Herwix</div>
-        <div class="role">Management Team</div>
-        <div class="affiliation">Cologne Institute for Information Systems</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/8a126779-f9cb-418d-9993-97ff4a43c62c/6414c3d8fc688f3774271939_a3171d_0fe17ad4cf354f83848997d9aafbf2b5%7Emv2.jpeg" alt="Alexander Herwix"></div>
+        <div class="info">
+          <div class="name"><a href="https://www.researchgate.net/profile/Alexander-Herwix" target="_blank">Alexander Herwix</a></div>
+          <div class="role">Management Team</div>
+          <div class="affiliation">Cologne Institute for Information Systems</div>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="advisory">
-    <h2>Advisory Board</h2>
-    <p>Distinguished researchers providing strategic guidance on evaluation standards, research priorities, and organizational direction.</p>
+    <div class="section-header">
+      <h2>Advisory Board</h2>
+      <p>Distinguished researchers providing strategic guidance on evaluation standards, research priorities, and organizational direction.</p>
+    </div>
 
-    <div class="team-grid">
+    <div class="advisory-grid">
       <div class="team-member">
-        <div class="name">Andrew Gelman</div>
-        <div class="affiliation">Columbia University</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/c607a8df-b24b-4309-8a8a-77eb98921aeb/Gelman.png" alt="Andrew Gelman"></div>
+        <div class="info">
+          <div class="name"><a href="http://www.stat.columbia.edu/~gelman/" target="_blank">Andrew Gelman</a></div>
+          <div class="affiliation">Columbia University</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Sam Abbott</div>
-        <div class="affiliation">London School of Hygiene and Tropical Medicine</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/2136d57b-fa81-4e7b-b2cf-7ce6414568e1/4299.jpg" alt="Sam Abbott"></div>
+        <div class="info">
+          <div class="name"><a href="https://samabbott.co.uk" target="_blank">Sam Abbott</a></div>
+          <div class="affiliation">London School of Hygiene and Tropical Medicine</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Anca Hanea</div>
-        <div class="affiliation">University of Melbourne</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/f7f04764-8f2d-4821-a899-a7458f3ace97/anca-hanea-square.jpg__300x300_q70_subsampling-2.jpg" alt="Anca Hanea"></div>
+        <div class="info">
+          <div class="name"><a href="https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea" target="_blank">Anca Hanea</a></div>
+          <div class="affiliation">University of Melbourne</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Jordan Dworkin</div>
-        <div class="affiliation">Open Philanthropy</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/8e7e199d-b30e-4813-ac39-af2268e7f1a8/1_8yvNHEAJ58rQnzePZP6akQ.jpg" alt="Jordan Dworkin"></div>
+        <div class="info">
+          <div class="name"><a href="https://jordandworkin.com/" target="_blank">Jordan Dworkin</a></div>
+          <div class="affiliation">Open Philanthropy</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Michael Wiebe</div>
-        <div class="affiliation">University of British Columbia</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/85333605-620d-4c6d-a5e6-ac0fcfc7e8d1/1564088507836.jpeg" alt="Michael Wiebe"></div>
+        <div class="info">
+          <div class="name"><a href="https://michaelwiebe.com/" target="_blank">Michael Wiebe</a></div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Lorenzo Pacchiardi</div>
-        <div class="affiliation">University of Cambridge</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/fb751e5e-cb2b-4457-9b5a-61d4404703d2/unnamed.jpg" alt="Lorenzo Pacchiardi"></div>
+        <div class="info">
+          <div class="name"><a href="https://lorenzopacchiardi.me/" target="_blank">Lorenzo Pacchiardi</a></div>
+          <div class="affiliation">University of Cambridge</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Stuart Buck</div>
-        <div class="affiliation">Good Science Project</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/c89dcc87-a6a2-48ff-9899-4dfcf2e1e8a3/Stuart-Buck_0085-1-185x185.jpeg" alt="Stuart Buck"></div>
+        <div class="info">
+          <div class="name"><a href="https://goodscienceproject.org/" target="_blank">Stuart Buck</a></div>
+          <div class="affiliation">Good Science Project</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Michael Harre</div>
-        <div class="affiliation">University of Sydney</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/fb33752f-ce94-43f3-b53d-5d77e28f331f/1712328469355.jpeg" alt="Michael Harre"></div>
+        <div class="info">
+          <div class="name"><a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/michael-harre.html" target="_blank">Michael Harre</a></div>
+          <div class="affiliation">University of Sydney</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Demetrius Floudas</div>
-        <div class="affiliation">University of Cambridge</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/b7c8b3df-1d6d-4e39-9c99-396e6407b684/LaTerreur+-Archmdns+2025.jpg" alt="Demetrius Floudas"></div>
+        <div class="info">
+          <div class="name">Demetrius Floudas</div>
+          <div class="affiliation">University of Cambridge</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Sarah Reynolds</div>
-        <div class="affiliation">University of California, Berkeley</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/59a06a98-bf3b-4951-9eae-82769fcdffb8/fancy+photo.jpg" alt="Sarah Reynolds"></div>
+        <div class="info">
+          <div class="name"><a href="https://sites.google.com/view/sarah-a-reynolds/home" target="_blank">Sarah Reynolds</a></div>
+          <div class="affiliation">UC Berkeley</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Don A. Moore</div>
-        <div class="affiliation">Haas School of Business, UC Berkeley</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/1ec133a8-3aed-445e-9dc9-997b0e542240/Professor-Don-Moore_Berkeley-Haas-768x768.jpg" alt="Don A. Moore"></div>
+        <div class="info">
+          <div class="name"><a href="https://haas.berkeley.edu/faculty/don-moore/" target="_blank">Don A. Moore</a></div>
+          <div class="affiliation">Haas School, UC Berkeley</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Kris Gulati</div>
-        <div class="affiliation">University of California, Berkeley</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/f88d3112-f7c8-48d8-a07c-177f5eabee0c/1636426002118.jpeg" alt="Kris Gulati"></div>
+        <div class="info">
+          <div class="name"><a href="https://www.kris-gulati.com/" target="_blank">Kris Gulati</a></div>
+          <div class="affiliation">UC Berkeley</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Tanya O'Garra</div>
-        <div class="affiliation">Imperial College London</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/f4c451a7-6da2-4157-b8fa-1087689911c0/Tanya+2023+%282%29.JPG" alt="Tanya O'Garra"></div>
+        <div class="info">
+          <div class="name"><a href="https://sites.google.com/view/tanyaogarra/home" target="_blank">Tanya O'Garra</a></div>
+          <div class="affiliation">Imperial College London</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Paolo Crosetto</div>
-        <div class="affiliation">INRAE</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/27496645-645a-4ce8-81d7-c7e2e4569f8e/rEOBTq9O.jpg" alt="Paolo Crosetto"></div>
+        <div class="info">
+          <div class="name"><a href="https://paolocrosetto.wordpress.com/" target="_blank">Paolo Crosetto</a></div>
+          <div class="affiliation">INRAE</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Emmanuel Orkoh</div>
-        <div class="affiliation">The Nordic Africa Institute</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/d6ce2f9e-1dce-43d6-99e3-a41eb5dc3ea6/davit.jpeg" alt="Davit Jintcharadze"></div>
+        <div class="info">
+          <div class="name">Davit Jintcharadze</div>
+          <div class="affiliation">Former Operations Manager</div>
+        </div>
       </div>
-
       <div class="team-member">
-        <div class="name">Davit Jintcharadze</div>
-        <div class="role">Former Operations Manager</div>
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/830d2816-5cd4-46c2-973d-d2b47b0dd8f5/orkow.png" alt="Emmanuel Orkoh"></div>
+        <div class="info">
+          <div class="name"><a href="https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en" target="_blank">Emmanuel Orkoh</a></div>
+          <div class="affiliation">Nordic Africa Institute</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><span class="initials">JB</span></div>
+        <div class="info">
+          <div class="name"><a href="https://www.london.edu/faculty-and-research/faculty-profiles/b/berman-j-z-1" target="_blank">Jonathan Berman</a></div>
+          <div class="affiliation">London Business School</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><span class="initials">DC</span></div>
+        <div class="info">
+          <div class="name"><a href="https://www.researchgate.net/profile/Daniela-Cialfi" target="_blank">Daniela Cialfi</a></div>
+          <div class="affiliation">University of Chieti</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><span class="initials">JE</span></div>
+        <div class="info">
+          <div class="name"><a href="https://www.linkedin.com/in/jake-eaton-phd-bb204634/" target="_blank">Jake Eaton</a></div>
+          <div class="affiliation">Asterisk</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><span class="initials">NT</span></div>
+        <div class="info">
+          <div class="name"><a href="https://www.nicolastreich.com/" target="_blank">Nicolas Treich</a></div>
+          <div class="affiliation">INRAE</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><span class="initials">GN</span></div>
+        <div class="info">
+          <div class="name"><a href="https://nilsonne.net/" target="_blank">Gustav Nilsonne</a></div>
+          <div class="affiliation">Karolinska Institutet</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><span class="initials">YD</span></div>
+        <div class="info">
+          <div class="name"><a href="https://sites.google.com/site/yannickdupraz/" target="_blank">Yannick Dupraz</a></div>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="specialists">
-    <h2>Field Specialists &amp; Research Affiliates</h2>
-    <p>Over 50 researchers across multiple domains help us identify, prioritize, and evaluate impactful research. Our field specialists provide expertise in:</p>
+    <div class="section-header">
+      <h2>Field Specialists &amp; Research Affiliates</h2>
+      <p>Over 50 researchers across multiple domains help us identify, prioritize, and evaluate impactful research.</p>
+    </div>
 
     <div class="category-section">
       <h3>Development Economics &amp; Global Health</h3>
-      <p>Researchers focusing on poverty alleviation, health interventions, education, and development policy in low- and middle-income countries.</p>
-    </div>
-
-    <div class="category-section">
-      <h3>Environmental Economics &amp; Climate</h3>
-      <p>Specialists in climate policy, conservation, environmental regulation, and the economics of sustainability.</p>
-    </div>
-
-    <div class="category-section">
-      <h3>Behavioral Science &amp; Psychology</h3>
-      <p>Experts in decision-making, social psychology, other-regarding preferences, and behavioral interventions.</p>
-    </div>
-
-    <div class="category-section">
-      <h3>AI Governance &amp; Technology Policy</h3>
-      <p>Researchers studying the social impact of AI, technology regulation, and emerging technology governance.</p>
+      <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://www.foodsecurityevidence.com/" target="_blank">Charlotte Lane</a></span> <span class="affiliation">(Food Security Evidence Brokerage, 3ie)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/joelchristoph/" target="_blank">Joel Christoph</a></span> <span class="affiliation">(Effective Thesis project)</span>
+        </div>
+        <div class="specialist">
+          <span class="name">Julian Jamison</span> <span class="affiliation">(Global Priorities Institute, Exeter)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/priya-lall-64152816/" target="_blank">Priya Lall</a></span> <span class="affiliation">(University of Oxford)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://waynesandholtz.com/" target="_blank">Wayne Sandholtz</a></span> <span class="affiliation">(Nova School of Business and Economics)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://blogs.worldbank.org/en/team/w/william-seitz" target="_blank">William Seitz</a></span> <span class="affiliation">(World Bank - PROGREEN)</span>
+        </div>
+      </div>
     </div>
 
     <div class="category-section">
       <h3>Animal Welfare</h3>
-      <p>Specialists in animal welfare economics, attitudes research, and market dynamics affecting animal wellbeing.</p>
+      <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://www.benbalmford.com/" target="_blank">Ben Balmford</a></span> <span class="affiliation">(Exeter)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/brinda-poojary-phd-ba075458/" target="_blank">Brinda Poojary</a></span> <span class="affiliation">(Humane Society International - India)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://habermacher.net/" target="_blank">Florian Habermacher</a></span> <span class="affiliation">(Lucerne University)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://sites.google.com/view/kevinkuruc/home" target="_blank">Kevin J Kuruc</a></span> <span class="affiliation">(University of Texas at Austin)</span>
+        </div>
+      </div>
     </div>
 
     <div class="category-section">
       <h3>Catastrophic &amp; Existential Risk</h3>
-      <p>Researchers working on long-term risks, forecasting, and interventions for civilizational resilience.</p>
+      <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/bryan-s-weber/" target="_blank">Bryan Weber</a></span> <span class="affiliation">(CUNY)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://scholar.google.com/citations?user=6-M1ZIUAAAAJ&hl=en" target="_blank">David Manheim</a></span> <span class="affiliation">(ALTER, Technion)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://drive.google.com/file/d/1bPqZhWCjjhCag9cQYsYT0_vo1gRN-MrV/view" target="_blank">Lorenzo Pacchiardi</a></span> <span class="affiliation">(Leverhulme Centre for the Future of Intelligence)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/tristan-williams-916119216/" target="_blank">Tristan Williams</a></span> <span class="affiliation">(Center for AI Policy)</span>
+        </div>
+      </div>
     </div>
 
     <div class="category-section">
-      <h3>Meta-Science &amp; Research Methods</h3>
-      <p>Experts in research methodology, replication, statistical methods, and the science of science.</p>
+      <h3>Innovation &amp; Meta-Science</h3>
+      <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://andrew-kao.github.io/" target="_blank">Andrew Kao</a></span> <span class="affiliation">(Harvard University)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/gary-mcdowell-4551131a/" target="_blank">Gary McDowell</a></span> <span class="affiliation">(IGDORE)</span>
+        </div>
+      </div>
     </div>
 
-    <p style="margin-top: 1.5rem;">For a complete list of our field specialists and research affiliates, see our <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team" target="_blank">full team documentation</a>.</p>
+    <div class="category-section">
+      <h3>Health &amp; Well-being</h3>
+      <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://scholar.google.com/citations?user=DdbGN6UAAAAJ&hl=en&oi=ao" target="_blank">Francesco Ramponi</a></span> <span class="affiliation">(Harvard T.H. Chan School of Public Health)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://valentink.quarto.pub/" target="_blank">Valentin Klotzbücher</a></span> <span class="affiliation">(University Hospital Basel)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-section">
+      <h3>Economics, Welfare &amp; Governance</h3>
+      <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://carinahausladen.github.io/" target="_blank">Carina Ines Hausladen</a></span> <span class="affiliation">(ETH Zurich)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://gregsasso.me/" target="_blank">Greg Sasso</a></span> <span class="affiliation">(University of Chicago)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://lachlandeer.github.io/" target="_blank">Lachlan Deer</a></span> <span class="affiliation">(Tilburg University)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.mattietoma.com/" target="_blank">Mattie Toma</a></span> <span class="affiliation">(University of Warwick)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://hennicke.science/" target="_blank">Moritz Hennicke</a></span> <span class="affiliation">(University of Bremen)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.tabarecapitan.com" target="_blank">Tabare Capitan</a></span> <span class="affiliation">(SLU - Swedish University of Agricultural Sciences)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-section">
+      <h3>Other Research Areas</h3>
+      <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name">Eliana Hadjiandreou</span> <span class="affiliation">(Computational Affective and Social Cognition)</span>
+        </div>
+      </div>
+    </div>
   </section>
 
   <div class="cta-section" id="join">
     <h2>Join Our Team</h2>
     <p>We're always looking for researchers who share our commitment to rigorous, open evaluation of impactful research.</p>
     <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="cta-button">Become an Evaluator</a>
-    <a href="mailto:contact@unjournal.org" class="cta-button" style="background: transparent; border: 2px solid #85c1e9;">Get in Touch</a>
+    <a href="mailto:contact@unjournal.org" class="cta-button secondary">Get in Touch</a>
   </div>
 
 </main>
 
 <footer>
   <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
-<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+  <p class="meta">This page is auto-generated from our <a href="https://coda.io/d/The-Unjournal-Hub-internal_d0KBG3dSZCs/Our-team_suYYbcbI">team database</a>. Last updated: 2026-02-12.</p>
 </footer>
 
 </body>

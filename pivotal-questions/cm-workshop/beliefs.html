@@ -42,7 +42,7 @@
     <p>These are <strong>key</strong> operationalized questions from our Cultivated Meat Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the TEA evidence—to see how views evolve and where consensus exists or doesn't. <em>(All questions are optional.)</em></p>
 
     <div class="canonical-callout">
-      <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Pivotal-questions-database-Public-WIP_su3FOC8M" target="_blank" rel="noopener">canonical PQ formulations on Coda →</a>
+      <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener">canonical PQ formulations on Coda →</a>
     </div>
 
     <p>You don't need to be a specialist to contribute. We want your honest assessment and reasoning, whether you feel highly confident or very uncertain. Your input helps us understand the range of views in the field.</p>
@@ -53,7 +53,7 @@
       <div class="guidance-callout-title">How to respond</div>
       <ul>
         <li><strong>For cost estimates:</strong> Give your median estimate and consider your uncertainty range.</li>
-        <li><strong>For probability questions:</strong> Give your best estimate. If very uncertain, a wide range is fine—that's useful information too.</li>
+        <li><strong>For probability questions:</strong> State your best calibrated subjective probability. If very uncertain, a wide credible interval is fine—that's useful information too. (See "<a href="#def-probability" style="color: var(--brown);">How should I think about probability estimates?</a>" below.)</li>
         <li><strong>For open-ended questions:</strong> Even a sentence or two helps. We're looking for reasoning and considerations, not polished analysis.</li>
         <li><strong>You can return and update</strong> your responses as your views evolve.</li>
       </ul>
@@ -106,6 +106,17 @@
             <li><strong>Longer-run:</strong> December 31, 2051</li>
           </ul>
           <p><em>Why these years?</em> These are the years Rethink Priorities chose for their forecasting work, allowing us to harmonize and compare estimates. 2051 represents a "30-year terminal horizon" when production would have more or less achieved an efficient optimum.</p>
+        </div>
+      </div>
+
+      <div class="definition-block">
+        <button type="button" class="definition-toggle" data-target="def-probability">
+          <span class="toggle-icon">▸</span> How should I think about probability estimates?
+        </button>
+        <div class="definition-content" id="def-probability">
+          <p>When we ask for a probability, we're asking for your <strong>best calibrated subjective probability</strong>—your honest credence given everything you know.</p>
+          <p>One way to think about this: Imagine an ideal research team with unlimited resources, time, and data—perhaps even a kind of omniscience where they could perfectly understand the welfare and psychological states of everyone affected. <strong>What probability would you assign that this idealized team would ultimately conclude the statement is true?</strong></p>
+          <p>Note: We avoid anchoring to "0% = impossible" and "100% = certain" because perfect certainty is rarely justified. If you believe something is extremely unlikely but not literally impossible, you might say 2-5%; if nearly certain but not absolutely, perhaps 95-98%.</p>
         </div>
       </div>
     </div>
@@ -203,7 +214,7 @@
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">Probability that CM funding yields greater animal welfare benefit than THL campaigns (0-100%)</label>
+            <label class="pq-input-label">State your <a href="#def-probability" style="color: var(--brown);">best calibrated probability</a> that CM funding yields greater animal welfare benefit than THL campaigns</label>
             <div class="pq-slider-container">
               <input type="range" name="cm10_probability" class="pq-slider" min="0" max="100" value="30" oninput="this.nextElementSibling.textContent = this.value + '%'">
               <span class="pq-slider-value">30%</span>
@@ -229,7 +240,7 @@
             <h3 class="pq-question">Will most cultured meat (by volume) be produced using hydrolysates as a replacement for expensive purified growth factors in 2036?</h3>
             <div class="pq-inputs">
               <div class="pq-input-group">
-                <label class="pq-input-label">Probability (0-100%)</label>
+                <label class="pq-input-label">State your <a href="#def-probability" style="color: var(--brown);">best calibrated probability</a></label>
                 <div class="pq-slider-container">
                   <input type="range" name="cm12_probability" class="pq-slider" min="0" max="100" value="50" oninput="this.nextElementSibling.textContent = this.value + '%'">
                   <span class="pq-slider-value">50%</span>
@@ -280,7 +291,7 @@
             <h3 class="pq-question">By 2036, what percent of commercial cultured meat will be produced using food-grade cell media (as opposed to pharmaceutical-grade)?</h3>
             <div class="pq-inputs">
               <div class="pq-input-group">
-                <label class="pq-input-label">Percentage using food-grade (0-100%)</label>
+                <label class="pq-input-label">State your best estimate of the percentage using food-grade</label>
                 <div class="pq-slider-container">
                   <input type="range" name="cm17_percentage" class="pq-slider" min="0" max="100" value="80" oninput="this.nextElementSibling.textContent = this.value + '%'">
                   <span class="pq-slider-value">80%</span>
@@ -296,7 +307,7 @@
             <p style="font-size: 13px; color: #666; margin-bottom: 16px;">Some reports suggest companies can design and build their own bioreactors for much lower cost than purchasing off-the-shelf pharmaceutical bioreactors.</p>
             <div class="pq-inputs">
               <div class="pq-input-group">
-                <label class="pq-input-label">Percentage building own bioreactors (0-100%)</label>
+                <label class="pq-input-label">State your best estimate of the percentage building own bioreactors</label>
                 <div class="pq-slider-container">
                   <input type="range" name="cm20_percentage" class="pq-slider" min="0" max="100" value="40" oninput="this.nextElementSibling.textContent = this.value + '%'">
                   <span class="pq-slider-value">40%</span>

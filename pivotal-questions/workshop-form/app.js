@@ -5,22 +5,43 @@
   'use strict';
 
   // Configuration
+  // Extended time slots to accommodate more time zones
   const HOUR_BLOCKS = [
-    { id: '9-11', label: '9–11 AM', tz: '2–4 PM UK · 3–5 PM CET' },
-    { id: '11-13', label: '11 AM–1 PM', tz: '4–6 PM UK · 5–7 PM CET' },
-    { id: '13-15', label: '1–3 PM', tz: '6–8 PM UK · 7–9 PM CET' },
-    { id: '15-17', label: '3–5 PM', tz: '8–10 PM UK · 9–11 PM CET' }
+    { id: '09-11', label: '9–11 AM', tz: '2–4 PM UK · 3–5 PM CET', highlighted: false },
+    { id: '11-13', label: '11 AM–1 PM', tz: '4–6 PM UK · 5–7 PM CET', highlighted: true },
+    { id: '13-15', label: '1–3 PM', tz: '6–8 PM UK · 7–9 PM CET', highlighted: true },
+    { id: '15-17', label: '3–5 PM', tz: '8–10 PM UK · 9–11 PM CET', highlighted: true },
+    { id: '17-19', label: '5–7 PM', tz: '10 PM–12 AM UK', highlighted: false }
   ];
 
-  // Generate weekdays from Mar 2 to Apr 3, 2026
+  // Likely coordination window: Mon-Thu, Mar 16-27, 11am-5pm ET
+  // Based on responses so far, but we show all times and let people select
+  const LIKELY_DATES_START = new Date(2026, 2, 16); // Mar 16
+  const LIKELY_DATES_END = new Date(2026, 2, 27);   // Mar 27
+  const LIKELY_DAYS = [1, 2, 3, 4]; // Mon-Thu
+
+  function isLikelySlot(date, blockId) {
+    const block = HOUR_BLOCKS.find(b => b.id === blockId);
+    if (!block || !block.highlighted) return false;
+
+    const day = date.getDay();
+    if (!LIKELY_DAYS.includes(day)) return false;
+
+    if (date < LIKELY_DATES_START || date > LIKELY_DATES_END) return false;
+
+    return true;
+  }
+
+  // Generate Mon-Fri from Mar 9 to Mar 27, 2026 (wider range)
   function generateDates() {
     const dates = [];
-    const start = new Date(2026, 2, 2); // Mar 2, 2026
-    const end = new Date(2026, 3, 3);   // Apr 3, 2026
+    const start = new Date(2026, 2, 9);  // Mar 9, 2026
+    const end = new Date(2026, 2, 27);   // Mar 27, 2026
 
     for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
       const day = d.getDay();
-      if (day !== 0 && day !== 6) { // Exclude weekends
+      // Mon-Fri (1-5), exclude Sat/Sun
+      if (day >= 1 && day <= 5) {
         dates.push(new Date(d));
       }
     }
@@ -206,7 +227,9 @@
 
         HOUR_BLOCKS.forEach(block => {
           const cellKey = `${dateKey}_${block.id}`;
-          html += `<div class="grid-cell" data-cell="${cellKey}" title="${formatDate(d)} ${block.label} ET (${block.tz})"></div>`;
+          const isHighlighted = isLikelySlot(d, block.id);
+          const highlightClass = isHighlighted ? ' grid-cell-highlighted' : '';
+          html += `<div class="grid-cell${highlightClass}" data-cell="${cellKey}" title="${formatDate(d)} ${block.label} ET (${block.tz})${isHighlighted ? ' — likely coordination window' : ''}"></div>`;
         });
 
         html += '</div>';
@@ -255,67 +278,52 @@
     });
   }
 
-  // Handle segment drag-and-drop reordering
-  function setupSegmentDragAndDrop() {
+  // Handle segment star (priority) clicks - cycles 0 → 1 → 2 → 0
+  function setupSegmentStars() {
     const container = document.getElementById('segmentsList');
-    const orderInput = document.getElementById('segmentPriorityOrder');
-    if (!container || !orderInput) return;
+    const priorityInput = document.getElementById('segmentPriorityOrder');
+    if (!container || !priorityInput) return;
 
-    let draggedEl = null;
+    const segmentStars = {}; // segment -> 0, 1, or 2
 
-    function updateOrderInput() {
-      const rows = container.querySelectorAll('.segment-row');
-      const order = Array.from(rows).map(row => row.dataset.segment);
-      orderInput.value = order.join(',');
+    function updatePriorityInput() {
+      // Format: segment:count,segment:count (only non-zero)
+      const entries = Object.entries(segmentStars)
+        .filter(([_, count]) => count > 0)
+        .map(([seg, count]) => `${seg}:${count}`);
+      priorityInput.value = entries.join(',');
     }
 
-    container.querySelectorAll('.segment-row').forEach(row => {
-      row.addEventListener('dragstart', (e) => {
-        draggedEl = row;
-        row.classList.add('dragging');
-        e.dataTransfer.effectAllowed = 'move';
-        e.dataTransfer.setData('text/plain', row.dataset.segment);
-      });
+    container.querySelectorAll('.segment-star').forEach(star => {
+      const segment = star.dataset.segment;
+      segmentStars[segment] = 0;
 
-      row.addEventListener('dragend', () => {
-        row.classList.remove('dragging');
-        container.querySelectorAll('.segment-row').forEach(r => r.classList.remove('drag-over'));
-        draggedEl = null;
-        updateOrderInput();
-      });
+      star.addEventListener('click', () => {
+        const row = star.closest('.segment-row');
+        const current = segmentStars[segment] || 0;
+        const next = (current + 1) % 3; // 0 → 1 → 2 → 0
+        segmentStars[segment] = next;
 
-      row.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        e.dataTransfer.dropEffect = 'move';
-        if (draggedEl && draggedEl !== row) {
-          row.classList.add('drag-over');
+        // Update display
+        if (next === 0) {
+          star.textContent = '☆';
+          star.classList.remove('starred', 'starred-2');
+          row.classList.remove('starred', 'starred-2');
+        } else if (next === 1) {
+          star.textContent = '★';
+          star.classList.add('starred');
+          star.classList.remove('starred-2');
+          row.classList.add('starred');
+          row.classList.remove('starred-2');
+        } else {
+          star.textContent = '★★';
+          star.classList.add('starred', 'starred-2');
+          row.classList.add('starred', 'starred-2');
         }
-      });
 
-      row.addEventListener('dragleave', () => {
-        row.classList.remove('drag-over');
-      });
-
-      row.addEventListener('drop', (e) => {
-        e.preventDefault();
-        row.classList.remove('drag-over');
-        if (draggedEl && draggedEl !== row) {
-          // Insert dragged element before or after current row based on position
-          const allRows = Array.from(container.querySelectorAll('.segment-row'));
-          const draggedIdx = allRows.indexOf(draggedEl);
-          const targetIdx = allRows.indexOf(row);
-
-          if (draggedIdx < targetIdx) {
-            row.parentNode.insertBefore(draggedEl, row.nextSibling);
-          } else {
-            row.parentNode.insertBefore(draggedEl, row);
-          }
-        }
+        updatePriorityInput();
       });
     });
-
-    // Initialize order
-    updateOrderInput();
   }
 
   // Handle recording preference notes visibility
@@ -376,7 +384,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     buildGrid();
     setupSegmentHighlighting();
-    setupSegmentDragAndDrop();
+    setupSegmentStars();
     setupRecordingNotes();
     setupValidation();
   });

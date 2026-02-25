@@ -123,88 +123,95 @@
           <span class="section-number">3</span>
           <h2 class="section-title">Which Segments Interest You?</h2>
         </div>
-        <p class="section-subtitle">For each segment, indicate whether you'd like to join/listen or present/contribute. Drag segments to reorder by priority (most interested at top).</p>
+        <p class="section-subtitle">All fields in this section are optional. You don't need to attend the full session — indicate your interest in passive or active participation for each segment. Click ☆ to cycle through priority levels: ★ (interested) or ★★ (high priority).</p>
 
         <div class="segments-list" id="segmentsList">
-          <div class="segment-row" draggable="true" data-segment="stakeholder-context">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="stakeholder-context">
+            <button type="button" class="segment-star" data-segment="stakeholder-context" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Stakeholder Context</div>
               <div class="segment-desc">Why ACE and funders care about PBA substitution effects (~15 min)</div>
             </div>
             <select name="segment_stakeholder" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" draggable="true" data-segment="evidence-review">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="evidence-review">
+            <button type="button" class="segment-star" data-segment="evidence-review" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Evidence Review</div>
               <div class="segment-desc">Scanner data studies, choice experiments, methodological challenges (~30 min)</div>
             </div>
             <select name="segment_evidence" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" draggable="true" data-segment="bray-paper">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="bray-paper">
+            <button type="button" class="segment-star" data-segment="bray-paper" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Bray et al. Paper Discussion</div>
               <div class="segment-desc">Price endogeneity puzzles: Why do IV and experimental estimates diverge? Implications for PBA research (~25 min)</div>
             </div>
             <select name="segment_bray" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" draggable="true" data-segment="substitution-discussion">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="substitution-discussion">
+            <button type="button" class="segment-star" data-segment="substitution-discussion" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Substitution Impact Discussion</div>
               <div class="segment-desc">Deep-dive on the focal question: How would a 10% PBA price drop affect chicken consumption? (~30 min)</div>
             </div>
             <select name="segment_substitution" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" draggable="true" data-segment="beliefs-elicitation">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="beliefs-elicitation">
+            <button type="button" class="segment-star" data-segment="beliefs-elicitation" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Pivotal Questions & Beliefs Elicitation</div>
               <div class="segment-desc">Walking through the PBA pivotal questions; eliciting participant beliefs and predictions (~20 min)</div>
             </div>
             <select name="segment_beliefs" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" draggable="true" data-segment="aw-roi-panel">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="aw-roi-panel">
+            <button type="button" class="segment-star" data-segment="aw-roi-panel" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Animal Welfare ROI Panel</div>
               <div class="segment-desc">Is PBA funding competitive with corporate campaigns? Decision-relevant thresholds (~30 min)</div>
             </div>
             <select name="segment_roi" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
         </div>
-        <input type="hidden" name="segment_priority_order" id="segmentPriorityOrder">
+        <!-- Hidden field to capture starred (high priority) segments -->
+        <input type="hidden" name="segment_priority_order" id="segmentPriorityOrder" value="">
       </section>
 
       <!-- Section 4: Recording & Publication -->
@@ -268,6 +275,23 @@
         <p class="submit-note">Your responses help us find the best date and structure for everyone.</p>
       </div>
     </form>
+
+    <!-- Other Workshops -->
+    <div class="other-workshops">
+      <h3>Other Planned Workshops</h3>
+      <p>The Unjournal is organizing several Pivotal Questions workshops in 2026:</p>
+      <div class="workshop-links">
+        <a href="https://uj-wellbeing-workshop.netlify.app/" class="workshop-link">
+          <strong>Wellbeing Measurement</strong>
+          <span>WELLBY reliability & DALY conversion · March 2026</span>
+        </a>
+        <a href="https://uj-cm-workshop.netlify.app/" class="workshop-link">
+          <strong>Cultivated Meat</strong>
+          <span>Cost trajectories & AW implications · April 2026</span>
+        </a>
+      </div>
+      <p class="all-workshops-link"><a href="https://uj-pq-workshops.netlify.app/">View all workshops →</a></p>
+    </div>
   </main>
 
   <script src="app.js"></script>

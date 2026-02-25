@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pivotal Questions Workshops | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --bg-alt: #f0ece4;
+      --dark: #1a1a1a;
+      --text: #444;
+      --text-light: #666;
+      --brown: #8b5e3c;
+      --sage: #5a7a5a;
+      --sage-light: #e8f0e8;
+      --font-serif: 'Source Serif 4', Georgia, serif;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      font-family: var(--font-sans);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+      color: white;
+      padding: 60px 24px 50px;
+      text-align: center;
+    }
+
+    .header-top {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      opacity: 0.8;
+      margin-bottom: 16px;
+    }
+
+    .header-title {
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 600;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .header-subtitle {
+      font-size: 18px;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Main content */
+    .main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .intro p {
+      font-size: 17px;
+      color: var(--text);
+      max-width: 700px;
+      margin: 0 auto 16px;
+    }
+
+    .intro a {
+      color: var(--brown);
+    }
+
+    /* Workshop cards */
+    .workshops-grid {
+      display: grid;
+      gap: 24px;
+    }
+
+    .workshop-card {
+      background: white;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      border: 1px solid #e8e4dc;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .workshop-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+
+    .workshop-card.draft {
+      border-left: 4px solid #ffc107;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .card-title {
+      font-family: var(--font-serif);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--dark);
+    }
+
+    .card-status {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .status-planning {
+      background: #fff3cd;
+      color: #856404;
+    }
+
+    .status-active {
+      background: var(--sage-light);
+      color: var(--sage);
+    }
+
+    .card-meta {
+      font-size: 14px;
+      color: var(--text-light);
+      margin-bottom: 12px;
+    }
+
+    .card-description {
+      font-size: 15px;
+      color: var(--text);
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+
+    .card-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .topic-tag {
+      font-size: 12px;
+      padding: 4px 10px;
+      background: var(--bg-alt);
+      color: var(--text-light);
+      border-radius: 4px;
+    }
+
+    .card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .card-link {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--brown);
+      text-decoration: none;
+      padding: 8px 16px;
+      border: 1px solid var(--brown);
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+
+    .card-link:hover {
+      background: var(--brown);
+      color: white;
+    }
+
+    .card-link.primary {
+      background: var(--sage);
+      border-color: var(--sage);
+      color: white;
+    }
+
+    .card-link.primary:hover {
+      background: #4a6a4a;
+      border-color: #4a6a4a;
+    }
+
+    /* Resources section */
+    .resources {
+      margin-top: 64px;
+      padding-top: 48px;
+      border-top: 1px solid #ddd;
+    }
+
+    .resources h2 {
+      font-family: var(--font-serif);
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .resources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .resource-link {
+      display: block;
+      padding: 16px 20px;
+      background: white;
+      border: 1px solid #e8e4dc;
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 14px;
+      transition: all 0.15s;
+    }
+
+    .resource-link:hover {
+      border-color: var(--brown);
+      color: var(--brown);
+    }
+
+    .resource-link strong {
+      display: block;
+      color: var(--dark);
+      margin-bottom: 4px;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 14px;
+      color: var(--text-light);
+      border-top: 1px solid #e8e4dc;
+    }
+
+    .footer a {
+      color: var(--brown);
+    }
+
+    @media (max-width: 600px) {
+      .header { padding: 40px 20px 36px; }
+      .main { padding: 32px 16px 60px; }
+      .workshop-card { padding: 24px; }
+      .card-links { flex-direction: column; }
+      .card-link { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">The Unjournal</div>
+    <h1 class="header-title">Pivotal Questions Workshops</h1>
+    <p class="header-subtitle">Expert workshops to synthesize evidence and elicit beliefs on high-value research questions</p>
+  </header>
+
+  <main class="main">
+    <div class="intro">
+      <p>The <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener">Pivotal Questions Initiative</a> identifies research questions where resolving uncertainty could substantially improve funding decisions in global health, animal welfare, and other cause areas.</p>
+      <p>These workshops bring together researchers, funders, and practitioners to review evidence, discuss methodological challenges, and elicit expert beliefs on key uncertainties.</p>
+    </div>
+
+    <div class="workshops-grid">
+      <!-- Wellbeing Workshop -->
+      <div class="workshop-card">
+        <div class="card-header">
+          <h2 class="card-title">Wellbeing Measurement Workshop</h2>
+          <span class="card-status status-active">Accepting Interest</span>
+        </div>
+        <div class="card-meta">Target: March 2026 · ~3.5 hours online</div>
+        <p class="card-description">Can WELLBY-based cost-effectiveness estimates be trusted for funding decisions? This workshop examines the reliability of wellbeing measures and whether DALYs and WELLBYs can be meaningfully compared.</p>
+        <div class="card-topics">
+          <span class="topic-tag">WELLBY reliability</span>
+          <span class="topic-tag">DALY–WELLBY conversion</span>
+          <span class="topic-tag">Global health CEA</span>
+        </div>
+        <div class="card-links">
+          <a href="https://uj-wellbeing-workshop.netlify.app/" class="card-link primary">Submit Availability</a>
+          <a href="https://uj-wellbeing-workshop.netlify.app/about.html" class="card-link">Learn More</a>
+          <a href="https://uj-wellbeing-workshop.netlify.app/beliefs.html" class="card-link">Pivotal Questions</a>
+        </div>
+      </div>
+
+      <!-- Cultivated Meat Workshop -->
+      <div class="workshop-card draft">
+        <div class="card-header">
+          <h2 class="card-title">Cultivated Meat Workshop</h2>
+          <span class="card-status status-planning">Early Planning</span>
+        </div>
+        <div class="card-meta">Target: April 2026 · ~2 hours online</div>
+        <p class="card-description">What will cultivated meat cost in 2031, 2036, and 2051? This workshop reviews techno-economic analyses (TEAs) and explores what the evidence means for animal welfare funding decisions.</p>
+        <div class="card-topics">
+          <span class="topic-tag">TEA evaluation</span>
+          <span class="topic-tag">Cost trajectories</span>
+          <span class="topic-tag">AW funding ROI</span>
+        </div>
+        <div class="card-links">
+          <a href="https://uj-cm-workshop.netlify.app/" class="card-link primary">Submit Availability</a>
+          <a href="https://uj-cm-workshop.netlify.app/about.html" class="card-link">Learn More</a>
+          <a href="https://uj-cm-workshop.netlify.app/beliefs.html" class="card-link">Pivotal Questions</a>
+        </div>
+      </div>
+
+      <!-- Plant-Based Substitution Workshop -->
+      <div class="workshop-card draft">
+        <div class="card-header">
+          <h2 class="card-title">Plant-Based Substitution Workshop</h2>
+          <span class="card-status status-planning">Early Planning</span>
+        </div>
+        <div class="card-meta">Target: May 2026 · ~2.5 hours online</div>
+        <p class="card-description">How much do plant-based alternatives substitute for animal products—especially chicken? This workshop examines cross-price elasticity evidence and its implications for animal welfare funding.</p>
+        <div class="card-topics">
+          <span class="topic-tag">Cross-price elasticity</span>
+          <span class="topic-tag">Substitution effects</span>
+          <span class="topic-tag">GFI vs THL funding</span>
+        </div>
+        <div class="card-links">
+          <a href="https://uj-pba-workshop.netlify.app/" class="card-link primary">Submit Availability</a>
+          <a href="https://uj-pba-workshop.netlify.app/about.html" class="card-link">Learn More</a>
+          <a href="https://uj-pba-workshop.netlify.app/beliefs.html" class="card-link">Pivotal Questions</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resources Section -->
+    <div class="resources">
+      <h2>Related Resources</h2>
+      <div class="resources-grid">
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener" class="resource-link">
+          <strong>Pivotal Questions Database</strong>
+          All operationalized questions on Coda
+        </a>
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="resource-link">
+          <strong>Metaculus Community</strong>
+          Forecasting questions and tournaments
+        </a>
+        <a href="https://info.unjournal.org/forecasting-tournament/" target="_blank" rel="noopener" class="resource-link">
+          <strong>Forecasting Tournament</strong>
+          Animal welfare forecasting with Metaculus
+        </a>
+        <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener" class="resource-link">
+          <strong>About Pivotal Questions</strong>
+          Initiative overview on GitBook
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p><a href="https://unjournal.org" target="_blank" rel="noopener">The Unjournal</a> · Rigorous evaluation of impactful research</p>
+  </footer>
+</body>
+</html>

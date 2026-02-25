@@ -133,63 +133,66 @@
           <span class="section-number">3</span>
           <h2 class="section-title">Which Segments Interest You?</h2>
         </div>
-        <p class="section-subtitle">All fields in this section are optional. You don't need to attend the full session — let us know which parts interest you most.</p>
+        <p class="section-subtitle">All fields in this section are optional. You don't need to attend the full session — indicate your interest in passive or active participation for each segment. Click ☆ to cycle through priority levels: ★ (interested) or ★★ (high priority).</p>
 
-        <!-- Segments -->
         <div class="segments-list" id="segmentsList">
-          <div class="segment-row" data-segment="stakeholder" draggable="true">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="stakeholder">
+            <button type="button" class="segment-star" data-segment="stakeholder" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Stakeholder Context</div>
               <div class="segment-desc">Why CM cost matters for animal welfare funding decisions (~15 min)</div>
             </div>
             <select name="segment_stakeholder" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" data-segment="tea_review" draggable="true">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="tea_review">
+            <button type="button" class="segment-star" data-segment="tea_review" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">TEA Evidence Review</div>
               <div class="segment-desc">Optimistic vs pessimistic TEAs, evaluator findings, key uncertainties (~30 min)</div>
             </div>
             <select name="segment_tea_review" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" data-segment="cost_discussion" draggable="true">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="cost_discussion">
+            <button type="button" class="segment-star" data-segment="cost_discussion" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Cost Trajectory Discussion + Beliefs</div>
               <div class="segment-desc">What will CM cost in 2031/36/51? Expert discussion & beliefs elicitation (~35 min)</div>
             </div>
             <select name="segment_cost_discussion" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
 
-          <div class="segment-row" data-segment="welfare_panel" draggable="true">
-            <div class="segment-drag-handle" title="Drag to reorder">⋮⋮</div>
+          <div class="segment-row" data-segment="welfare_panel">
+            <button type="button" class="segment-star" data-segment="welfare_panel" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">Animal Welfare ROI & Practitioner Panel</div>
               <div class="segment-desc">CM funding vs alternatives, what would change minds, open Q&A (~30 min)</div>
             </div>
             <select name="segment_welfare_panel" class="segment-select">
               <option value="">—</option>
-              <option value="join">Join / Listen</option>
-              <option value="present">Present / Contribute</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
             </select>
           </div>
         </div>
-        <!-- Hidden field to capture segment order -->
+        <!-- Hidden field to capture starred (high priority) segments -->
         <input type="hidden" name="segment_priority_order" id="segmentPriorityOrder" value="">
 
         <div class="form-field" style="margin-top: 24px;">
@@ -272,6 +275,23 @@
         <p class="submit-note">Your responses help us find the best date and structure for everyone.</p>
       </div>
     </form>
+
+    <!-- Other Workshops -->
+    <div class="other-workshops">
+      <h3>Other Planned Workshops</h3>
+      <p>The Unjournal is organizing several Pivotal Questions workshops in 2026:</p>
+      <div class="workshop-links">
+        <a href="https://uj-wellbeing-workshop.netlify.app/" class="workshop-link">
+          <strong>Wellbeing Measurement</strong>
+          <span>WELLBY reliability & DALY conversion · March 2026</span>
+        </a>
+        <a href="https://uj-pba-workshop.netlify.app/" class="workshop-link">
+          <strong>Plant-Based Substitution</strong>
+          <span>Cross-price elasticity & AW funding · May 2026</span>
+        </a>
+      </div>
+      <p class="all-workshops-link"><a href="https://uj-pq-workshops.netlify.app/">View all workshops →</a></p>
+    </div>
   </main>
 
   <script src="app.js"></script>
