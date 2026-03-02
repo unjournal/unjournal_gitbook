@@ -12,288 +12,164 @@
 <body>
   <!-- Draft Banner -->
   <div class="draft-banner">
-    <strong>PRELIMINARY DRAFT</strong> — This workshop is in early planning. Questions, dates, and structure may change substantially.
+    <strong>PRELIMINARY DRAFT</strong> — This workshop is in early planning. Content may change substantially.
   </div>
 
   <!-- Header -->
-  <header class="header">
+  <header class="header about-header">
     <div class="header-content">
       <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
-      <h1 class="header-title">Plant-Based Substitution Workshop</h1>
-      <p class="header-subtitle">How do plant-based products substitute for animal products? What does this mean for animal welfare funding decisions?</p>
-      <div class="header-meta">Target: May 2026 · Fully online · ~2.5 hours of live sessions + asynchronous participation</div>
+      <h1 class="header-title">About This Workshop</h1>
+      <p class="header-subtitle">Why understanding plant-based substitution matters for animal welfare funding decisions.</p>
     </div>
   </header>
 
   <!-- Navigation -->
   <nav class="page-nav">
     <ul class="page-nav-links">
-      <li><a href="/" class="page-nav-link active">Scheduling</a></li>
-      <li><a href="/about.html" class="page-nav-link">About</a></li>
+      <li><a href="/" class="page-nav-link active">About</a></li>
+      <li><a href="/schedule.html" class="page-nav-link">Schedule/Signup</a></li>
       <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
     </ul>
   </nav>
 
-  <!-- Context Bar -->
-  <div class="context-bar">
-    <p class="context-text">
-      This workshop examines the <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener">Plant-Based Substitution Pivotal Question</a>: how much do plant-based alternatives actually displace animal product consumption? Understanding this is crucial for animal welfare funders deciding between PBA investments and other interventions.
-    </p>
-    <div class="context-links">
-      <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener" class="pill-link">EA Forum: PBA PQ →</a>
-      <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener" class="pill-link">Pivotal Questions Initiative →</a>
-      <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="pill-link">Metaculus Community →</a>
-    </div>
-  </div>
-
-  <!-- Form -->
-  <main class="form-container">
+  <!-- Content -->
+  <main class="prose-container">
 
     <div class="draft-notice" style="margin-bottom: 24px;">
-      <strong>Note:</strong> This workshop is still in early planning. We're gathering initial interest and availability. Final dates and agenda will be confirmed once we have responses from key participants.
+      <strong>Note:</strong> This workshop is in early planning. The framing, evidence base, and participant list are still being developed.
     </div>
 
-    <!-- Availability Form -->
-    <form name="pba-workshop-availability" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" id="workshopForm">
-      <input type="hidden" name="form-name" value="pba-workshop-availability">
-      <input type="hidden" name="bot-field">
-      <input type="hidden" name="gridAvailability" id="gridAvailabilityInput">
+    <h2 id="question">The question</h2>
 
-      <!-- Section 1: About You -->
-      <section class="form-section">
-        <div class="section-header">
-          <span class="section-number">1</span>
-          <h2 class="section-title">About You</h2>
-        </div>
-        <div class="form-grid">
-          <div class="form-field">
-            <label for="name" class="field-label">Name <span class="required">*</span></label>
-            <input type="text" id="name" name="name" required class="input" placeholder="Your full name">
-          </div>
-          <div class="form-field">
-            <label for="email" class="field-label">Email <span class="required">*</span></label>
-            <input type="email" id="email" name="email" required class="input" placeholder="your@email.com">
-          </div>
-          <div class="form-field">
-            <label for="affiliation" class="field-label">Affiliation <span class="optional">(optional)</span></label>
-            <input type="text" id="affiliation" name="affiliation" class="input" placeholder="Organization or university">
-          </div>
-          <div class="form-field">
-            <label for="role" class="field-label">Your role/expertise <span class="optional">(optional)</span></label>
-            <input type="text" id="role" name="role" class="input" placeholder="e.g., Agricultural economist, AW researcher">
-          </div>
-        </div>
-      </section>
+    <p>Animal welfare funders face a strategic question: should they invest in reducing the cost and improving the quality of plant-based alternatives (PBAs), or focus on other interventions like corporate welfare campaigns? The answer depends heavily on a factual question that's surprisingly hard to answer: <strong>how much do plant-based products actually substitute for animal products?</strong> This is the focus of <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener">The Unjournal's Plant-Based Substitution Pivotal Question</a>.</p>
 
-      <!-- Section 2: Availability -->
-      <section class="form-section">
-        <div class="section-header">
-          <span class="section-number">2</span>
-          <h2 class="section-title">When Could You Join?</h2>
-        </div>
-        <p class="section-subtitle">All fields in this section are optional — use whichever is easiest. Even a rough sense of your availability helps.</p>
+    <p>If a 10% price reduction in Impossible Burgers leads many people to eat fewer chickens, that's a strong case for funding PBA development. If people who buy plant-based burgers are mostly substituting away from beef (not chicken), or if PBA buyers were already eating less meat, the case weakens considerably. The path from PBA improvements to animal welfare impact runs through these substitution effects.</p>
 
-        <!-- Free-text availability -->
-        <div class="availability-freetext">
-          <label for="freeAvailability" class="field-label">Tell us your availability in your own words</label>
-          <p class="field-hint">This is the easiest option — just describe when you're free in May 2026. We'll use AI to find the best overlap across everyone. Include your time zone if it's not obvious.</p>
-          <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me in May, except May 12-16. I could stay for 2-3 hours if it starts before 11 AM ET." or "Available Tue/Thu afternoons UK time throughout May."'></textarea>
-        </div>
+    <h2 id="measurement-challenges">Why this is hard to measure</h2>
 
-        <!-- Grid availability -->
-        <div class="availability-grid-section">
-          <div class="grid-header">
-            <label class="field-label">Or mark your availability on the grid <span class="optional">(optional)</span></label>
-            <p class="field-hint">Click cells for any time blocks you could join. Click a <strong>date</strong> to select that row, a <strong>time header</strong> to select that column, or a <strong>week label</strong> to select the whole week. All times US Eastern; hover for UK/CET.</p>
-          </div>
+    <p>Estimating substitution effects is notoriously difficult. We're interested in understanding substitution behavior more broadly—not precise "point" cross-price elasticities, which are unlikely to be constant across different price levels and contexts. Several key challenges complicate this:</p>
 
-          <div class="grid-wrapper">
-            <div class="grid-container" id="availabilityGrid">
-              <!-- Grid populated by JavaScript -->
-            </div>
-          </div>
+    <ul>
+      <li><strong>Price endogeneity:</strong> Stores don't vary prices randomly. They may reduce prices when they anticipate lower demand, which distorts observed price-quantity relationships. Standard econometric workarounds (instrumental variables, structural models) have significant limitations.</li>
+      <li><strong>Limited PBA data in key datasets:</strong> Major scanner datasets like Nielsen have limited coverage of plant-based alternatives, especially in the earlier years when these products were emerging. This restricts what questions can be answered with existing data.</li>
+      <li><strong>Long-term behavioral change:</strong> The most important substitution effects may operate over longer time horizons. As people see plant-based options as a feasible alternative, they may gradually alter their consumption patterns and even their identity around caring about animals—becoming "reducetarian," for example. Short-run elasticities may miss these dynamics.</li>
+      <li><strong>Functional form assumptions:</strong> Demand estimation requires strong assumptions about functional forms (AIDS, BLP models). Different specifications can yield very different elasticity estimates.</li>
+      <li><strong>Puzzling empirical patterns:</strong> Some studies find PBAs are <em>complements</em> to certain meats rather than substitutes—a counterintuitive result that likely reflects measurement difficulties rather than true consumer behavior. <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener">Bray et al. (2024)</a> document another puzzle: IV and experimental estimates often diverge in opposite directions from naive OLS.</li>
+    </ul>
 
-          <p class="grid-tip">Tip: You don't need to fill in the grid if you've described your availability above — either or both is fine.</p>
-        </div>
-      </section>
+    <p>These measurement challenges mean we should interpret existing estimates cautiously, while still extracting what information we can. The workshop will discuss which methods are most trustworthy and what further research could help.</p>
 
-      <!-- Section 3: Segment Interest -->
-      <section class="form-section">
-        <div class="section-header">
-          <span class="section-number">3</span>
-          <h2 class="section-title">Which Segments Interest You?</h2>
-        </div>
-        <p class="section-subtitle">All fields in this section are optional. You don't need to attend the full session — indicate your interest in passive or active participation for each segment. Click ☆ to cycle through priority levels: ★ (interested) or ★★ (high priority).</p>
+    <h2 id="evidence">The evidence landscape</h2>
 
-        <div class="segments-list" id="segmentsList">
-          <div class="segment-row" data-segment="stakeholder-context">
-            <button type="button" class="segment-star" data-segment="stakeholder-context" title="Click to set priority: ★ or ★★">☆</button>
-            <div class="segment-info">
-              <div class="segment-name">Stakeholder Context</div>
-              <div class="segment-desc">Why ACE and funders care about PBA substitution effects (~15 min)</div>
-            </div>
-            <select name="segment_stakeholder" class="segment-select">
-              <option value="">—</option>
-              <option value="listen">Listen</option>
-              <option value="discuss">Discuss</option>
-              <option value="present">Present</option>
-            </select>
-          </div>
+    <p>We've identified approximately 15 relevant empirical papers using various methods:</p>
 
-          <div class="segment-row" data-segment="evidence-review">
-            <button type="button" class="segment-star" data-segment="evidence-review" title="Click to set priority: ★ or ★★">☆</button>
-            <div class="segment-info">
-              <div class="segment-name">Evidence Review</div>
-              <div class="segment-desc">Scanner data studies, choice experiments, methodological challenges (~30 min)</div>
-            </div>
-            <select name="segment_evidence" class="segment-select">
-              <option value="">—</option>
-              <option value="listen">Listen</option>
-              <option value="discuss">Discuss</option>
-              <option value="present">Present</option>
-            </select>
-          </div>
-
-          <div class="segment-row" data-segment="bray-paper">
-            <button type="button" class="segment-star" data-segment="bray-paper" title="Click to set priority: ★ or ★★">☆</button>
-            <div class="segment-info">
-              <div class="segment-name">Bray et al. Paper Discussion</div>
-              <div class="segment-desc">Price endogeneity puzzles: Why do IV and experimental estimates diverge? Implications for PBA research (~25 min)</div>
-            </div>
-            <select name="segment_bray" class="segment-select">
-              <option value="">—</option>
-              <option value="listen">Listen</option>
-              <option value="discuss">Discuss</option>
-              <option value="present">Present</option>
-            </select>
-          </div>
-
-          <div class="segment-row" data-segment="substitution-discussion">
-            <button type="button" class="segment-star" data-segment="substitution-discussion" title="Click to set priority: ★ or ★★">☆</button>
-            <div class="segment-info">
-              <div class="segment-name">Substitution Impact Discussion</div>
-              <div class="segment-desc">Deep-dive on the focal question: How would a 10% PBA price drop affect chicken consumption? (~30 min)</div>
-            </div>
-            <select name="segment_substitution" class="segment-select">
-              <option value="">—</option>
-              <option value="listen">Listen</option>
-              <option value="discuss">Discuss</option>
-              <option value="present">Present</option>
-            </select>
-          </div>
-
-          <div class="segment-row" data-segment="beliefs-elicitation">
-            <button type="button" class="segment-star" data-segment="beliefs-elicitation" title="Click to set priority: ★ or ★★">☆</button>
-            <div class="segment-info">
-              <div class="segment-name">Pivotal Questions & Beliefs Elicitation</div>
-              <div class="segment-desc">Walking through the PBA pivotal questions; eliciting participant beliefs and predictions (~20 min)</div>
-            </div>
-            <select name="segment_beliefs" class="segment-select">
-              <option value="">—</option>
-              <option value="listen">Listen</option>
-              <option value="discuss">Discuss</option>
-              <option value="present">Present</option>
-            </select>
-          </div>
-
-          <div class="segment-row" data-segment="aw-roi-panel">
-            <button type="button" class="segment-star" data-segment="aw-roi-panel" title="Click to set priority: ★ or ★★">☆</button>
-            <div class="segment-info">
-              <div class="segment-name">Animal Welfare ROI Panel</div>
-              <div class="segment-desc">Is PBA funding competitive with corporate campaigns? Decision-relevant thresholds (~30 min)</div>
-            </div>
-            <select name="segment_roi" class="segment-select">
-              <option value="">—</option>
-              <option value="listen">Listen</option>
-              <option value="discuss">Discuss</option>
-              <option value="present">Present</option>
-            </select>
-          </div>
-        </div>
-        <!-- Hidden field to capture starred (high priority) segments -->
-        <input type="hidden" name="segment_priority_order" id="segmentPriorityOrder" value="">
-      </section>
-
-      <!-- Section 4: Recording & Publication -->
-      <section class="form-section">
-        <div class="section-header">
-          <span class="section-number">4</span>
-          <h2 class="section-title">Recording & Publication</h2>
-        </div>
-        <p class="section-subtitle">We hope to record the workshop, provide transcripts, and share discussion materials publicly — adjusting this based on participant preferences and recommendations. Please indicate your preferences:</p>
-
-        <div class="recording-options">
-          <label class="radio-card">
-            <input type="radio" name="recordingPref" value="full_public">
-            <span class="radio-label">Comfortable with full public recording and publication</span>
-          </label>
-
-          <label class="radio-card">
-            <input type="radio" name="recordingPref" value="public_except">
-            <span class="radio-label">Comfortable with the above except for specific segments</span>
-          </label>
-
-          <label class="radio-card">
-            <input type="radio" name="recordingPref" value="internal_only">
-            <span class="radio-label">Prefer recording shared only with participants (not publicly)</span>
-          </label>
-
-          <label class="radio-card">
-            <input type="radio" name="recordingPref" value="no_recording">
-            <span class="radio-label">Prefer my segments not be recorded</span>
-          </label>
-        </div>
-
-        <div class="form-field recording-notes-field" id="recordingNotesField" style="display: none;">
-          <label for="recordingNotes" class="field-label">Please specify which segments or any additional notes</label>
-          <textarea id="recordingNotes" name="recordingNotes" class="input textarea" rows="2" placeholder="Which segments or topics would you prefer not to be recorded?"></textarea>
-        </div>
-      </section>
-
-      <!-- Section 5: Suggestions -->
-      <section class="form-section">
-        <div class="section-header">
-          <span class="section-number">5</span>
-          <h2 class="section-title">Suggestions & Other Notes</h2>
-        </div>
-        <p class="section-subtitle">All fields in this section are optional.</p>
-
-        <div class="form-field">
-          <label for="inviteeSuggestions" class="field-label">Suggestions for other invitees <span class="optional">(optional)</span></label>
-          <textarea id="inviteeSuggestions" name="inviteeSuggestions" class="input textarea" rows="2" placeholder="Researchers, practitioners, or funders who should be part of this conversation..."></textarea>
-        </div>
-
-        <div class="form-field">
-          <label for="notes" class="field-label">Anything else? <span class="optional">(optional)</span></label>
-          <textarea id="notes" name="notes" class="input textarea" rows="3" placeholder="Questions, topics you'd like covered, or other thoughts..."></textarea>
-        </div>
-      </section>
-
-      <!-- Submit -->
-      <div class="submit-section">
-        <button type="submit" class="submit-btn" id="submitBtn">Submit Availability & Preferences</button>
-        <p class="submit-note">Your responses help us find the best date and structure for everyone.</p>
+    <div class="question-cards">
+      <div class="question-card">
+        <h3 class="question-card-title">Scanner data studies</h3>
+        <p class="question-card-text">Using grocery purchase data (Nielsen, IRI) to estimate demand systems and cross-price elasticities. Methods include AIDS/QAIDS models, though identification strategies vary in rigor.</p>
       </div>
-    </form>
 
-    <!-- Other Workshops -->
-    <div class="other-workshops">
-      <h3>Other Planned Workshops</h3>
-      <p>The Unjournal is organizing several Pivotal Questions workshops in 2026:</p>
-      <div class="workshop-links">
-        <a href="https://uj-wellbeing-workshop.netlify.app/" class="workshop-link">
-          <strong>Wellbeing Measurement</strong>
-          <span>WELLBY reliability & DALY conversion · March 2026</span>
-        </a>
-        <a href="https://uj-cm-workshop.netlify.app/" class="workshop-link">
-          <strong>Cultivated Meat</strong>
-          <span>Cost trajectories & AW implications · April 2026</span>
-        </a>
+      <div class="question-card">
+        <h3 class="question-card-title">Hypothetical choice experiments</h3>
+        <p class="question-card-text">Survey-based discrete choice experiments asking consumers to choose between product bundles at different prices. Useful for scenarios not yet observed, but may not reflect real behavior.</p>
       </div>
-      <p class="all-workshops-link"><a href="https://uj-pq-workshops.netlify.app/">View all workshops →</a></p>
+
+      <div class="question-card">
+        <h3 class="question-card-title">Event studies</h3>
+        <p class="question-card-text">Examining what happens to meat purchases when households first buy PBAs. Useful descriptively, but causal interpretation requires strong assumptions about timing.</p>
+      </div>
+
+      <div class="question-card">
+        <h3 class="question-card-title">Field experiments</h3>
+        <p class="question-card-text">Randomized interventions in retail settings (e.g., moving PBAs to the meat aisle). Limited studies exist, but these offer the strongest causal evidence.</p>
+      </div>
     </div>
+
+    <h2 id="goals">What we want to achieve</h2>
+
+    <p>This workshop brings together agricultural economists, animal welfare researchers, and funders to:</p>
+
+    <ol>
+      <li><strong>Review the evidence:</strong> Which studies are most credible? What can we actually conclude about substitution effects?</li>
+      <li><strong>Quantify uncertainty:</strong> What's a reasonable range for the cross-price elasticity between PBAs and chicken?</li>
+      <li><strong>Connect to decisions:</strong> Given current evidence, is PBA funding plausibly competitive with corporate campaigns?</li>
+      <li><strong>Identify research gaps:</strong> What study would most reduce uncertainty? Is it feasible?</li>
+    </ol>
+
+    <h2 id="workshop-structure">Preliminary agenda</h2>
+
+    <p><em>Note: This agenda is preliminary and will be refined based on participant input.</em></p>
+
+    <p>The workshop is planned for approximately <strong>2.5–3 hours online</strong>, with segments designed for flexibility:</p>
+
+    <ol>
+      <li><strong>Stakeholder Context</strong> (~15 min) — Why ACE and funders care about this question; current funding landscape</li>
+      <li><strong>Evidence Review</strong> (~30 min) — Overview of key studies; scanner data, choice experiments, methodological considerations</li>
+      <li><strong>Bray et al. Paper Discussion</strong> (~25 min) — Price endogeneity puzzles: why do instrumental variable and experimental estimates diverge? What does this mean for interpreting PBA research?</li>
+      <li><strong>Substitution Impact Discussion</strong> (~30 min) — Deep-dive on the focal question: effect of 10% PBA price reduction on chicken consumption</li>
+      <li><strong>Pivotal Questions & Beliefs Elicitation</strong> (~20 min) — Walking through the <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener">operationalized PBA pivotal questions</a>; eliciting and discussing participant beliefs</li>
+      <li><strong>Animal Welfare ROI Panel</strong> (~30 min) — Comparing PBA funding to corporate campaigns; decision-relevant thresholds</li>
+    </ol>
+
+    <h2 id="pivotal-questions">Pivotal Questions</h2>
+
+    <p>We've operationalized the key uncertainties into specific, answerable questions. These include:</p>
+
+    <ul>
+      <li><strong>PBA_01 (Focal):</strong> If the price of high-quality plant-based hamburgers fell by 10%, how would global chicken consumption change?</li>
+      <li><strong>PBA_02:</strong> Is PBA research a good investment from an animal welfare perspective?</li>
+      <li><strong>PBA_03:</strong> Does the AW benefit of $100K to GFI exceed $100K to THL corporate campaigns?</li>
+    </ul>
+
+    <p>Several of these are posted on <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus</a> for community forecasting.</p>
+
+    <p><a href="/beliefs.html">See all questions and share your beliefs →</a></p>
+
+    <!-- CTA Section -->
+    <div class="cta-section">
+      <div class="cta-buttons">
+        <a href="/schedule.html" class="btn-primary">Submit Your Availability →</a>
+        <a href="/beliefs.html" class="btn-secondary">View Pivotal Questions →</a>
+      </div>
+
+      <div class="context-links">
+        <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener" class="pill-link">EA Forum: PBA PQ →</a>
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener" class="pill-link">Specific PQs on Coda →</a>
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="pill-link">Metaculus Community →</a>
+        <a href="https://info.unjournal.org/forecasting-tournament/" target="_blank" rel="noopener" class="pill-link">Forecasting Tournament →</a>
+      </div>
+    </div>
+
   </main>
 
-  <script src="app.js"></script>
+  <!-- Hidden forms for Netlify detection -->
+  <form name="pba-workshop-availability" netlify netlify-honeypot="bot-field" hidden>
+    <input name="form-name" type="hidden" value="pba-workshop-availability">
+    <input name="bot-field">
+    <input name="name">
+    <input name="email">
+    <input name="affiliation">
+    <input name="role">
+    <input name="freeAvailability">
+    <input name="gridAvailability">
+    <input name="segment_stakeholder">
+    <input name="segment_evidence">
+    <input name="segment_bray">
+    <input name="segment_substitution">
+    <input name="segment_beliefs">
+    <input name="segment_roi">
+    <input name="segment_priority_order">
+    <input name="recordingPref">
+    <input name="recordingNotes">
+    <input name="inviteeSuggestions">
+    <input name="notes">
+  </form>
+  <form name="pba-beliefs-elicitation" netlify netlify-honeypot="bot-field" hidden>
+    <input name="form-name" type="hidden" value="pba-beliefs-elicitation">
+    <input name="bot-field">
+    <input name="name">
+    <input name="email">
+  </form>
 </body>
 </html>

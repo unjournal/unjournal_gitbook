@@ -25,13 +25,14 @@
       <li><a href="/" class="page-nav-link">Scheduling</a></li>
       <li><a href="/about.html" class="page-nav-link active">About</a></li>
       <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="/live/" class="page-nav-link">Live Sessions</a></li>
     </ul>
   </nav>
 
   <!-- Content -->
   <main class="prose-container">
 
-    <h2>The problem</h2>
+    <h2 id="problem">The problem</h2>
 
     <p>Organizations ranging from Effective Altruism-aligned funders like <a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a>, GiveWell, and Open Philanthropy to government agencies and development NGOs compare interventions across very different domains—physical health, mental health, poverty alleviation—to decide where resources can do the most good. To make these comparisons, they need a common unit of measurement.</p>
 
@@ -39,13 +40,13 @@
 
     <p>This is part of <a href="https://www.unjournal.org/" target="_blank" rel="noopener">The Unjournal's</a> <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener">Pivotal Questions initiative</a>: working with impact-focused organizations to identify their highest-value research questions, connect them to evidence, and commission expert evaluations that can inform real decisions.</p>
 
-    <h2>What sparked this workshop</h2>
+    <h2 id="sparked">What sparked this workshop</h2>
 
     <p>We recently commissioned an <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener">evaluation of Benjamin, Cooper, Heffetz, Kimball & Zhou's paper</a> "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being." This paper addresses a key question: whether people use wellbeing scales in comparable ways. If the <em>differences</em> in life satisfaction (not just absolute levels) aren't comparable across individuals, that poses a challenge for the WELLBY as a tool for comparing interventions.</p>
 
     <p>The paper develops methods using <strong>calibration questions</strong> (survey items with objectively correct answers) and <strong>vignette exercises</strong> (rating hypothetical scenarios) to detect and adjust for scale-use heterogeneity. The evaluators' verdict was encouraging but nuanced: the differences may not be as severe as some feared, but more work is needed. This raises immediate questions for anyone using WELLBYs to compare interventions—and prompted Founders Pledge to ask us to convene this discussion.</p>
 
-    <h2>What we want to achieve</h2>
+    <h2 id="goals">What we want to achieve</h2>
 
     <p>This workshop brings together the paper's authors, the evaluators who assessed it, funders who use these measures in their work, and researchers with relevant expertise. We're organizing the discussion around four key questions:</p>
 
@@ -67,19 +68,47 @@
 
       <div class="question-card">
         <h3 class="question-card-title">4. What should funders do now?</h3>
-        <p class="question-card-text">Given the current evidence, how should organizations navigate the DALY–WELLBY question in their cost-effectiveness analyses today? What uncertainty ranges should they use?</p>
+        <p class="question-card-text">When comparing a mental health intervention (measured in WELLBYs) to a physical health intervention (measured in DALYs), what's the defensible approach? What conversion factors and uncertainty ranges should CEA organizations use today—and what would change their minds?</p>
       </div>
     </div>
 
-    <h2>How the workshop is structured</h2>
+    <h2 id="workshop-structure">How the workshop is structured</h2>
 
-    <p><em>Note: This agenda is preliminary and subject to change based on participant availability and feedback.</em></p>
+    <p><em>Note: The exact structure is still being determined based on participant feedback. We will announce the precise agenda before the workshop date, so you can drop in for just the segments that interest you.</em></p>
 
-    <p>The workshop is <strong>fully online</strong>, with approximately 3.5 hours of live sessions scheduled in segments so you can join only the parts you're interested in. We also support <strong>asynchronous participation</strong>—you can submit beliefs and comments before or after the live event, and we'll integrate these into the discussion. We anticipate beginning with a stakeholder problem statement from Founders Pledge, followed by the paper presentation from the Benjamin et al. team and responses from the evaluators. The core of the workshop would consist of two focused discussion sessions—one on WELLBY reliability and one on DALY–WELLBY conversion—plus a beliefs elicitation exercise and a practitioner panel.</p>
+    <p>The workshop is <strong>fully online</strong>, with approximately 3.5 hours of live sessions scheduled in segments so you can join only the parts you're interested in. We also support <strong>asynchronous participation</strong>—you can submit beliefs and comments before or after the live event, and we'll integrate these into the discussion.</p>
+
+    <p><a href="#proposed-segments" class="toggle-link" onclick="document.getElementById('proposed-segments').classList.toggle('open'); this.textContent = this.textContent.includes('unfold') ? 'Proposed segments (hide)' : 'Proposed segments (unfold)'; return false;">Proposed segments (unfold)</a></p>
+
+    <div class="segment-details-box" id="proposed-segments">
+      <div class="segment-detail">
+        <strong>Stakeholder Problem Statement</strong> (~15 min): A funder representative (likely Founders Pledge) explains why this matters for their work—how they currently weigh WELLBYs vs DALYs in cost-effectiveness analyses and what uncertainties they face.
+      </div>
+      <div class="segment-detail">
+        <strong>Paper Presentation: Benjamin et al.</strong> (~25 min): The research team presents their findings on scale-use heterogeneity in self-reported wellbeing—how people use satisfaction scales differently, and what calibration methods can do about it.
+      </div>
+      <div class="segment-detail">
+        <strong>Evaluator Responses & Discussion</strong> (~25 min): Our independent evaluators share their assessment of the paper's methodology and findings, followed by author responses and open discussion.
+      </div>
+      <div class="segment-detail">
+        <strong>WELLBY Reliability Discussion</strong> (~25 min): Focused discussion on whether the linear WELLBY is reliable enough for comparing interventions. Covers cardinality assumptions, neutral points, and measurement challenges.
+      </div>
+      <div class="segment-detail">
+        <strong>DALY/QALY↔WELLBY Conversion</strong> (~25 min): How should we translate between health measures (DALYs, QALYs) and subjective wellbeing (WELLBYs)? Examines current approaches and what's missing.
+      </div>
+      <div class="segment-detail">
+        <strong>Beliefs Elicitation</strong> (~15 min): A guided exercise where participants state their probabilities on key operationalized questions (WELL_01, DALY_01, etc.), capturing expert views before and after discussion.
+      </div>
+      <div class="segment-detail">
+        <strong>Practitioner Panel & Open Discussion</strong> (~30 min): Representatives from Founders Pledge, Coefficient Giving, and other organizations discuss how they currently handle WELLBY-DALY comparisons, what they'd need to change their approach, and concrete recommendations for CEA practitioners. Aim: actionable takeaways that organizations can apply immediately.
+      </div>
+    </div>
 
     <p>We plan to record the workshop and make it publicly available by default, with an AI-queryable transcript so researchers and funders can easily search the discussion. Participants can opt out of recording for specific segments if needed.</p>
 
-    <h2>Pivotal Questions & Beliefs</h2>
+    <p><strong>Outputs:</strong> We'll produce a practitioner-focused summary document, belief elicitation results with confidence intervals, and structured notes. These will be shared with interested organizations who couldn't attend live, so the discussion can inform decisions beyond those in the room.</p>
+
+    <h2 id="pivotal-questions">Pivotal Questions & Beliefs</h2>
 
     <p>As part of this project, we've developed specific, operationalized questions (codes WELL_01–07 on WELLBY reliability, DALY_01–05 on interconvertibility) designed so that experts can state their beliefs quantitatively—and so that answers can directly inform funding decisions. We want to elicit beliefs before, during, and after reviewing the evidence, to see how expert views evolve. See the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">canonical formulations on Coda</a>.</p>
 

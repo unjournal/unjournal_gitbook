@@ -1,0 +1,194 @@
+# Wellbeing Workshop Configuration
+# Target: March 2026
+
+workshop:
+  id: "wellbeing-2026"
+  title: "Wellbeing Measures: Research & Policy Discussion"
+  short_name: "Wellbeing Workshop"
+  description: |
+    An Unjournal Online Workshop on WELLBY Measurement,
+    Scale-Use Heterogeneity, and DALY-WELLBY Interconvertibility.
+
+    Following The Unjournal's evaluation of Benjamin et al.'s paper on
+    "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being"
+  target_date: "2026-03-16"
+  duration_hours: 3.5
+  timezone: "US/Eastern"
+
+  urls:
+    scheduling_form: "https://uj-wellbeing-workshop.netlify.app"
+    beliefs_form: "https://uj-wellbeing-workshop.netlify.app/beliefs.html"
+    coda_pq_page: "https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH"
+    evaluation: "https://unjournal.pubpub.org/pub/evalsumheterogenity/"
+
+segments:
+  - id: "stakeholder"
+    title: "Stakeholder Problem Statement"
+    duration_min: 15
+    description: "How funders currently navigate WELLBY vs DALY in cost-effectiveness analysis"
+    speakers:
+      - name: "Peter Hickman"
+        affiliation: "Founders Pledge"
+        recording_pref: "internal_only"
+    discussion_prompts:
+      - "What uncertainties do you face when comparing mental health vs physical health interventions?"
+      - "How do you currently handle DALY-WELLBY conversion in practice?"
+      - "What would help you make better funding decisions?"
+    related_pqs: ["WELL_01", "DALY_01"]
+
+  - id: "paper"
+    title: "Paper Presentation: Benjamin et al."
+    duration_min: 25
+    description: "Scale-use heterogeneity findings and calibration methods"
+    speakers:
+      - name: "Dan Benjamin"
+        affiliation: "UCLA / NBER"
+        recording_pref: "full_public"
+      - name: "Miles Kimball"
+        affiliation: "University of Colorado Boulder"
+        recording_pref: "full_public"
+    discussion_prompts:
+      - "How generalizable are the calibration methods to LMIC contexts?"
+      - "What survey burden do these methods impose?"
+      - "How much do calibration adjustments change rankings of interventions?"
+    related_pqs: ["WELL_02", "WELL_03", "WELL_07"]
+
+  - id: "evaluator"
+    title: "Evaluator Responses & Discussion"
+    duration_min: 25
+    description: "Key critiques, suggestions, and author responses"
+    speakers:
+      - name: "Julian Jamison"
+        affiliation: "University of Exeter"
+        recording_pref: "full_public"
+    discussion_prompts:
+      - "What are the key methodological concerns?"
+      - "How should we interpret the magnitude of scale-use heterogeneity?"
+      - "What additional data or analysis would strengthen the findings?"
+    related_pqs: ["WELL_01", "WELL_04"]
+
+  - id: "pq1"
+    title: "WELLBY Reliability Discussion"
+    duration_min: 25
+    description: "Is the linear WELLBY reliable enough for cross-intervention comparison?"
+    discussion_prompts:
+      - "Is cardinality defensible (3→4 vs 7→8)?"
+      - "Where is the neutral point on life satisfaction scales?"
+      - "How much insight is lost vs other wellbeing measures?"
+      - "Should we use life satisfaction or experience measures?"
+    related_pqs: ["WELL_01", "WELL_04", "WELL_07", "WELL_08", "WELL_09"]
+
+  - id: "pq2"
+    title: "DALY/QALY↔WELLBY Conversion"
+    duration_min: 25
+    description: "Approaches to interconvertibility between health and wellbeing measures"
+    speakers:
+      - name: "Julian Jamison"
+        affiliation: "University of Exeter"
+        recording_pref: "full_public"
+    discussion_prompts:
+      - "What conversion factor should funders use (1 DALY = X WELLBYs)?"
+      - "Is SD-equivalence (1 SD WELLBY ≈ 1 SD DALY) defensible?"
+      - "What's lost from current rough conversion approaches?"
+    related_pqs: ["DALY_01", "DALY_02", "DALY_03", "DALY_05"]
+
+  - id: "beliefs"
+    title: "Beliefs Elicitation"
+    duration_min: 15
+    description: "Guided form to state priors on operationalized pivotal questions"
+    discussion_prompts:
+      - "State your probability that linear WELLBY is best/near-best measure"
+      - "State your DALY→WELLBY conversion factor estimate with uncertainty"
+      - "Predict research adoption and expert consensus by 2030"
+    related_pqs: ["WELL_01", "DALY_01"]
+
+  - id: "practitioner"
+    title: "Practitioner Panel & Open Discussion"
+    duration_min: 30
+    description: "Practical implications for funders and researchers"
+    speakers:
+      - name: "Matt Lerner"
+        affiliation: "Founders Pledge"
+        recording_pref: "internal_only"
+        availability_constraint: "Mon-Thu after 11am ET, after March 15"
+    discussion_prompts:
+      - "What practical guidance can we give today?"
+      - "What research findings would update your views?"
+      - "How should organizations communicate uncertainty in CEA?"
+    related_pqs: ["WELL_02", "DALY_02"]
+
+pivotal_questions:
+  # WELLBY Reliability (WELL_01-09)
+  - code: "WELL_01"
+    category: "WELLBY Reliability"
+    question: "How reliable is the WELLBY relative to other wellbeing measures for comparing interventions?"
+    type: "probability"
+
+  - code: "WELL_02"
+    category: "WELLBY Reliability"
+    question: "Given available data, how should funders measure wellbeing impact?"
+    type: "open_ended"
+
+  - code: "WELL_03"
+    category: "WELLBY Reliability"
+    question: "What measures should charities/NGOs/RCTs collect for impact analysis?"
+    type: "open_ended"
+
+  - code: "WELL_04"
+    category: "WELLBY Reliability"
+    question: "Is it better to use a single WELLBY measure or measure dimensions separately?"
+    type: "categorical"
+    options: ["single_wellby", "separate_measures", "depends_on_context"]
+
+  - code: "WELL_07"
+    category: "WELLBY Reliability"
+    question: "What is lost by using linear WELLBY instead of more complex measures?"
+    type: "open_ended"
+
+  - code: "WELL_08"
+    category: "WELLBY Reliability"
+    question: "Should the metric be based on life satisfaction or experience measures?"
+    type: "categorical"
+    options: ["life_satisfaction", "experience", "both", "unsure"]
+
+  - code: "WELL_09"
+    category: "WELLBY Reliability"
+    question: "If relying on Cantril ladder, how best to convert to welfare metric?"
+    type: "open_ended"
+
+  # DALY-WELLBY Conversion (DALY_01-05)
+  - code: "DALY_01"
+    category: "DALY-WELLBY Conversion"
+    question: "What is the best numerical conversion between WELLBYs and DALYs?"
+    type: "numeric_with_ci"
+    reference_range: [2, 15]
+    default: 6
+
+  - code: "DALY_02"
+    category: "DALY-WELLBY Conversion"
+    question: "Which mapping should Founders Pledge specifically use for StrongMinds vs malaria?"
+    type: "open_ended"
+
+  - code: "DALY_03"
+    category: "DALY-WELLBY Conversion"
+    question: "What mapping structure/approach should we use (direct units, SDs, other)?"
+    type: "open_ended"
+
+  - code: "DALY_05"
+    category: "DALY-WELLBY Conversion"
+    question: "What is the loss from the 1 SD WELLBY ≈ 1 SD DALY approach vs best feasible?"
+    type: "open_ended"
+
+coda:
+  folder_id: null  # Will be created in Unjournal workspace
+
+netlify:
+  site_id: "37a0205b-5cee-42c2-9388-fe0c17b5e5c6"
+  forms:
+    - name: "workshop-availability"
+      form_id: "699c9edf50f843000883f05e"
+    - name: "beliefs-elicitation"
+      form_id: null  # Fetch dynamically
+
+google_docs:
+  enabled: false  # V1 stretch goal

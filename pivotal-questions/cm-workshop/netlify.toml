@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# Redirect old about.html to root (now the home page)
+[[redirects]]
+  from = "/about.html"
+  to = "/"
+  status = 301

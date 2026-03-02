@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aggregated Results | Wellbeing Workshop | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    /* Results page specific styles */
+    .results-section {
+      margin: 40px 0;
+    }
+
+    .results-section h2 {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      color: var(--dark);
+      margin: 0 0 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--sage);
+    }
+
+    .metaculus-grid {
+      display: grid;
+      gap: 20px;
+      margin-top: 24px;
+    }
+
+    .metaculus-card {
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 24px;
+      transition: all 0.15s;
+    }
+
+    .metaculus-card:hover {
+      border-color: var(--sage);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    .metaculus-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .pq-code {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--tan);
+      letter-spacing: 0.5px;
+      background: var(--bg-alt);
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .metaculus-card h3 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+
+    .metaculus-card p {
+      font-size: 14px;
+      color: var(--text-light);
+      margin: 0 0 16px;
+      line-height: 1.5;
+    }
+
+    .metaculus-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--sage);
+      text-decoration: none;
+    }
+
+    .metaculus-link:hover {
+      text-decoration: underline;
+    }
+
+    .embed-placeholder {
+      padding: 48px 24px;
+      text-align: center;
+      background: var(--bg-alt);
+      border-radius: 8px;
+      margin-top: 24px;
+    }
+
+    .embed-placeholder p {
+      color: var(--text-light);
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .beliefs-summary {
+      background: var(--sage-bg);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+
+    .beliefs-summary h3 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 16px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .summary-stat {
+      background: var(--white);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .summary-stat .value {
+      font-family: var(--font-serif);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--sage);
+    }
+
+    .summary-stat .label {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 4px;
+    }
+
+    .coda-embed-section {
+      margin-top: 32px;
+    }
+
+    .coda-embed-section h3 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .attribution-note {
+      background: #f5f5f5;
+      border-left: 3px solid var(--text-light);
+      padding: 12px 16px;
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .attribution-note strong {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">Aggregated Results</h1>
+      <p class="header-subtitle">Beliefs elicitation summaries and Metaculus forecasts</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="../" class="page-nav-link">Scheduling</a></li>
+      <li><a href="../about.html" class="page-nav-link">About</a></li>
+      <li><a href="../beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="./" class="page-nav-link active">Live Sessions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="prose-container">
+
+    <!-- Beliefs Summary -->
+    <div class="results-section">
+      <h2>Workshop Beliefs Summary</h2>
+      <p>
+        Aggregated responses from workshop participants on the Pivotal Questions.
+        These reflect expert priors before and after workshop discussions.
+      </p>
+
+      <div class="beliefs-summary">
+        <h3>Response Statistics</h3>
+        <div class="summary-grid">
+          <div class="summary-stat">
+            <div class="value" id="total-responses">--</div>
+            <div class="label">Total Responses</div>
+          </div>
+          <div class="summary-stat">
+            <div class="value" id="unique-participants">--</div>
+            <div class="label">Unique Participants</div>
+          </div>
+          <div class="summary-stat">
+            <div class="value" id="questions-answered">--</div>
+            <div class="label">Questions Covered</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="embed-placeholder">
+        <p>Detailed beliefs visualizations will be available after the workshop.</p>
+        <p style="margin-top: 8px; font-size: 13px;">
+          <a href="../beliefs.html" style="color: var(--sage);">Submit your beliefs →</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Metaculus Questions -->
+    <div class="results-section">
+      <h2>Metaculus Forecasts</h2>
+      <p>
+        Formal forecasting questions on Metaculus for crowd predictions. These questions
+        were designed based on the workshop's Pivotal Questions to enable quantified forecasting.
+      </p>
+
+      <div class="metaculus-grid">
+        <!-- DALY_01 -->
+        <div class="metaculus-card">
+          <div class="metaculus-card-header">
+            <span class="pq-code">DALY_01</span>
+          </div>
+          <h3>What is the best numerical conversion factor between WELLBYs and DALYs?</h3>
+          <p>
+            If a charity prevents 1 DALY (Disability-Adjusted Life Year), approximately how many
+            WELLBYs does this represent? Current estimates range from 2-15.
+          </p>
+          <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="metaculus-link">
+            View on Metaculus →
+          </a>
+        </div>
+
+        <!-- WELL_04 -->
+        <div class="metaculus-card">
+          <div class="metaculus-card-header">
+            <span class="pq-code">WELL_04</span>
+          </div>
+          <h3>Is a single WELLBY measure better than measuring dimensions separately?</h3>
+          <p>
+            For comparing interventions affecting both mental and physical health, is it better
+            to use a single WELLBY measure or separate dimensional measures that are then combined?
+          </p>
+          <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="metaculus-link">
+            View on Metaculus →
+          </a>
+        </div>
+
+        <!-- WELL_08 -->
+        <div class="metaculus-card">
+          <div class="metaculus-card-header">
+            <span class="pq-code">WELL_08</span>
+          </div>
+          <h3>Should wellbeing CEA rely on life satisfaction or experience measures?</h3>
+          <p>
+            For cost-effectiveness analysis, should the primary metric be based on life satisfaction
+            (evaluative) or momentary experience/affect measures (experiential)?
+          </p>
+          <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="metaculus-link">
+            View on Metaculus →
+          </a>
+        </div>
+
+        <!-- WELL_01a -->
+        <div class="metaculus-card">
+          <div class="metaculus-card-header">
+            <span class="pq-code">WELL_01a</span>
+          </div>
+          <h3>How much more cost-effective would optimal measurement be vs linear WELLBY?</h3>
+          <p>
+            Consider allocating $100,000 optimally using the best feasible measure vs linear WELLBY.
+            What ratio of costs achieves equivalent welfare outcomes?
+          </p>
+          <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="metaculus-link">
+            View on Metaculus →
+          </a>
+        </div>
+      </div>
+
+      <div class="embed-placeholder" style="margin-top: 32px;">
+        <p>Metaculus question embeds will appear here once questions are posted.</p>
+        <p style="margin-top: 8px; font-size: 13px;">
+          <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" style="color: var(--sage);">
+            Visit Unjournal on Metaculus →
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Coda PQ Database -->
+    <div class="results-section">
+      <h2>Full PQ Database</h2>
+      <p>
+        The complete set of Wellbeing Pivotal Questions with definitions, notes, and status tracking.
+      </p>
+
+      <div class="coda-embed-section">
+        <div class="embed-placeholder">
+          <p>
+            <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH"
+               target="_blank" rel="noopener" style="color: var(--sage); font-weight: 500;">
+              Open Wellbeing PQ Database in Coda →
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Attribution -->
+    <div class="attribution-note">
+      <strong>Note:</strong> The Metaculus question drafts on this page were generated by Claude (Opus 4.5)
+      based on user-provided CSV data, Coda tables, and discussion with David Reinstein regarding workshop
+      structure and Metaculus suitability. Final questions require human review before posting.
+    </div>
+
+    <!-- Back Link -->
+    <div style="margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-light);">
+      <a href="./" style="color: var(--text); text-decoration: none; font-size: 14px;">
+        ← Back to Live Sessions
+      </a>
+    </div>
+  </main>
+</body>
+</html>
