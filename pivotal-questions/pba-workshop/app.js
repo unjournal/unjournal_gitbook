@@ -342,21 +342,38 @@
     // Initial state
     validateForm();
 
-    // On submit, pass name to thank you page
+    // On submit, use fetch for more reliable Netlify Forms submission
     form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
       // Store name in sessionStorage for thank you page
       sessionStorage.setItem('workshopSubmitterName', nameInput.value.trim());
 
       // Show submitting state
       submitBtn.disabled = true;
       submitBtn.textContent = 'Submitting...';
-    });
 
-    // Handle form submission errors (Netlify)
-    form.addEventListener('error', () => {
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Submit Availability & Preferences';
-      alert('There was an error submitting the form. Please try again.');
+      // Encode form data
+      const formData = new FormData(form);
+
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString()
+      })
+      .then(response => {
+        if (response.ok) {
+          window.location.href = '/thanks.html';
+        } else {
+          throw new Error('Form submission failed');
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Availability & Preferences';
+        alert('There was an error submitting the form. Please try again.');
+      });
     });
   }
 

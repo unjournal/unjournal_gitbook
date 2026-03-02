@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metaculus Questions | Wellbeing Workshop | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Metaculus page specific styles */
+    .metaculus-intro {
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+
+    .metaculus-intro h2 {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .metaculus-intro p {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0 0 12px;
+    }
+
+    .metaculus-intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    .question-grid {
+      display: grid;
+      gap: 24px;
+    }
+
+    .question-card {
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 24px;
+      transition: all 0.15s;
+    }
+
+    .question-card:hover {
+      border-color: var(--sage);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    .question-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+
+    .question-code {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--tan);
+      letter-spacing: 0.5px;
+      background: var(--bg-alt);
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .question-status {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    .status-draft {
+      background: #fff3e0;
+      color: #e65100;
+    }
+
+    .status-posted {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    .question-title {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      color: var(--dark);
+      margin: 0 0 12px;
+      line-height: 1.4;
+    }
+
+    .question-background {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0 0 16px;
+    }
+
+    .question-details {
+      background: var(--bg-alt);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .question-details h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 0 0 8px;
+    }
+
+    .question-details p {
+      font-size: 13px;
+      color: var(--text);
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .question-critique {
+      background: #fef3f2;
+      border-left: 3px solid #dc6b6b;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .question-critique h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #b91c1c;
+      margin: 0 0 8px;
+    }
+
+    .question-critique ul {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 13px;
+      color: #7f1d1d;
+    }
+
+    .question-critique li {
+      margin-bottom: 4px;
+    }
+
+    .question-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--sage);
+      text-decoration: none;
+      padding: 8px 16px;
+      border: 1px solid var(--sage);
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+
+    .question-link:hover {
+      background: var(--sage);
+      color: var(--white);
+    }
+
+    .recommendation-section {
+      background: var(--sage-bg);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 40px;
+    }
+
+    .recommendation-section h2 {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      color: var(--dark);
+      margin: 0 0 16px;
+    }
+
+    .recommendation-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .recommendation-table th,
+    .recommendation-table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid rgba(90, 122, 90, 0.2);
+    }
+
+    .recommendation-table th {
+      font-weight: 600;
+      color: var(--dark);
+    }
+
+    .recommendation-table td {
+      color: var(--text);
+    }
+
+    .rec-yes {
+      color: #2e7d32;
+      font-weight: 500;
+    }
+
+    .rec-maybe {
+      color: #e65100;
+      font-weight: 500;
+    }
+
+    .rec-no {
+      color: #b91c1c;
+      font-weight: 500;
+    }
+
+    .attribution-box {
+      background: #f5f5f5;
+      border-left: 3px solid var(--text-light);
+      padding: 16px 20px;
+      margin-top: 40px;
+      border-radius: 0 8px 8px 0;
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .attribution-box strong {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">Metaculus Questions</h1>
+      <p class="header-subtitle">Formal forecasting questions for quantified predictions on Wellbeing PQs</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="/" class="page-nav-link">Scheduling</a></li>
+      <li><a href="/about.html" class="page-nav-link">About</a></li>
+      <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="/live/" class="page-nav-link">Live Sessions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="prose-container">
+    <!-- Intro -->
+    <div class="metaculus-intro">
+      <h2>About These Questions</h2>
+      <p>
+        These questions are designed for posting to <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">The Unjournal's Metaculus community page</a>.
+        Metaculus is a forecasting platform where crowds predict outcomes on well-defined questions with clear resolution criteria.
+      </p>
+      <p>
+        Not all Pivotal Questions are suitable for Metaculus forecasting—some are too open-ended or lack clear resolution criteria.
+        Below are the questions from our Wellbeing PQ set that we've adapted for formal forecasting, along with critical notes on each.
+      </p>
+      <p>
+        <strong>Want to participate?</strong> Create a <a href="https://www.metaculus.com/accounts/signup/" target="_blank" rel="noopener">Metaculus account</a>
+        and follow <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">The Unjournal</a> to forecast on these questions when posted.
+      </p>
+    </div>
+
+    <!-- Questions -->
+    <div class="question-grid">
+      <!-- DALY_01 -->
+      <div class="question-card">
+        <div class="question-header">
+          <span class="question-code">DALY_01</span>
+          <span class="question-status status-draft">Draft</span>
+        </div>
+        <h3 class="question-title">What is the best numerical conversion factor between WELLBYs and DALYs?</h3>
+        <p class="question-background">
+          Cost-effectiveness analysis requires comparing interventions measured in different units.
+          GiveWell uses DALYs for physical health interventions; mental health researchers often use WELLBYs.
+          Funders comparing StrongMinds (WELLBYs) to malaria bednets (DALYs) need a conversion factor.
+          Current estimates range from 2-15 WELLBYs per DALY depending on methodology.
+        </p>
+
+        <div class="question-details">
+          <h4>Question</h4>
+          <p>If a charity prevents 1 DALY (Disability-Adjusted Life Year), approximately how many WELLBYs does this represent?</p>
+          <p style="margin-top: 8px;"><strong>Range:</strong> 1-20 (log scale) · <strong>Default:</strong> 6</p>
+        </div>
+
+        <div class="question-critique">
+          <h4>Critique & Considerations</h4>
+          <ul>
+            <li><strong>Strength:</strong> Concrete, numeric, directly actionable for funders</li>
+            <li><strong>Challenge:</strong> Resolution criteria unclear—no objective ground truth</li>
+            <li><strong>Suggestion:</strong> Consider "What conversion factor will Founders Pledge adopt by 2028?" for clearer resolution</li>
+          </ul>
+        </div>
+
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="question-link">
+          View on Metaculus →
+        </a>
+      </div>
+
+      <!-- WELL_04 -->
+      <div class="question-card">
+        <div class="question-header">
+          <span class="question-code">WELL_04</span>
+          <span class="question-status status-draft">Draft</span>
+        </div>
+        <h3 class="question-title">Is a single WELLBY measure better than measuring wellbeing dimensions separately?</h3>
+        <p class="question-background">
+          Single WELLBY uses one 0-10 life satisfaction question, converted to years.
+          Multi-dimensional approaches measure affect, life satisfaction, and eudaimonia separately, then combine.
+          Trade-off: simplicity vs information richness.
+        </p>
+
+        <div class="question-details">
+          <h4>Question</h4>
+          <p>For comparing interventions affecting both mental and physical health, which approach is better?</p>
+          <p style="margin-top: 8px;"><strong>Options:</strong> Single WELLBY (>60% contexts) · Multi-dimensional (>60% contexts) · Depends (~50/50)</p>
+        </div>
+
+        <div class="question-critique">
+          <h4>Critique & Considerations</h4>
+          <ul>
+            <li><strong>Strength:</strong> Clear binary/categorical framing possible</li>
+            <li><strong>Challenge:</strong> "Better" undefined—reliability? accuracy? practicality?</li>
+            <li><strong>Suggestion:</strong> Specify criterion: "Which produces more consistent intervention rankings across evaluators?"</li>
+          </ul>
+        </div>
+
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="question-link">
+          View on Metaculus →
+        </a>
+      </div>
+
+      <!-- WELL_08 -->
+      <div class="question-card">
+        <div class="question-header">
+          <span class="question-code">WELL_08</span>
+          <span class="question-status status-draft">Draft</span>
+        </div>
+        <h3 class="question-title">Should wellbeing CEA rely on life satisfaction or momentary experience measures?</h3>
+        <p class="question-background">
+          Life satisfaction is evaluative ("Overall, how satisfied are you with your life?").
+          Experience measures capture momentary affect via sampling or Day Reconstruction Method.
+          Kahneman distinguished these as different constructs with weak correlation.
+        </p>
+
+        <div class="question-details">
+          <h4>Question</h4>
+          <p>For cost-effectiveness analysis of interventions affecting wellbeing, which should be the primary metric?</p>
+          <p style="margin-top: 8px;"><strong>Options:</strong> Life satisfaction · Momentary experience · Both equally · Depends on intervention</p>
+        </div>
+
+        <div class="question-critique">
+          <h4>Critique & Considerations</h4>
+          <ul>
+            <li><strong>Strength:</strong> Well-defined constructs from psychology literature</li>
+            <li><strong>Challenge:</strong> May not have clear resolution—ongoing methodological debate</li>
+            <li><strong>Suggestion:</strong> Reframe as: "By 2030, will major CEA orgs primarily use life satisfaction (>70% weight)?"</li>
+          </ul>
+        </div>
+
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="question-link">
+          View on Metaculus →
+        </a>
+      </div>
+
+      <!-- WELL_01a -->
+      <div class="question-card">
+        <div class="question-header">
+          <span class="question-code">WELL_01a</span>
+          <span class="question-status status-draft">Draft</span>
+        </div>
+        <h3 class="question-title">How much more cost-effective would optimal wellbeing measurement be compared to linear WELLBY?</h3>
+        <p class="question-background">
+          Linear WELLBY assumes equal intervals (3→4 same as 7→8) and no scale-use heterogeneity adjustment.
+          Alternative measures may capture welfare more accurately but at higher measurement cost.
+        </p>
+
+        <div class="question-details">
+          <h4>Question</h4>
+          <p>Consider allocating $100,000 optimally using (a) the best feasible measure vs (b) linear WELLBY.
+             What ratio of costs achieves equivalent welfare outcomes?</p>
+          <p style="margin-top: 8px;"><strong>Range:</strong> 1.0-3.0 · <strong>Default:</strong> 1.1</p>
+        </div>
+
+        <div class="question-critique">
+          <h4>Critique & Considerations</h4>
+          <ul>
+            <li><strong>Challenge:</strong> Highly abstract—hard for forecasters to reason about</li>
+            <li><strong>Challenge:</strong> "Best feasible measure" is undefined—needs operationalization</li>
+            <li><strong>Suggestion:</strong> Reframe as "What % welfare is lost by using linear WELLBY?" (0-50% scale)</li>
+            <li><strong>Suggestion:</strong> Specify concrete alternatives (e.g., "scale-adjusted WELLBY" vs "linear WELLBY")</li>
+          </ul>
+        </div>
+
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="question-link">
+          View on Metaculus →
+        </a>
+      </div>
+    </div>
+
+    <!-- Recommendation Summary -->
+    <div class="recommendation-section">
+      <h2>Metaculus Suitability Summary</h2>
+      <table class="recommendation-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Recommended?</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>DALY_01</td>
+            <td class="rec-yes">Yes</td>
+            <td>Most concrete, directly actionable for funders</td>
+          </tr>
+          <tr>
+            <td>WELL_04</td>
+            <td class="rec-yes">Yes</td>
+            <td>Clear binary framing possible</td>
+          </tr>
+          <tr>
+            <td>WELL_08</td>
+            <td class="rec-yes">Yes</td>
+            <td>Well-defined psychological constructs</td>
+          </tr>
+          <tr>
+            <td>WELL_01a</td>
+            <td class="rec-maybe">Maybe</td>
+            <td>Needs reframing to be forecastable</td>
+          </tr>
+          <tr>
+            <td>WELL_03a</td>
+            <td class="rec-no">Probably not</td>
+            <td>Too hypothetical, unclear resolution</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Attribution -->
+    <div class="attribution-box">
+      <strong>Attribution:</strong> These question drafts were generated by Claude (Opus 4.5) based on:
+      user-provided CSV data ("Specific Wellbeing PQs and Metaculus questions"),
+      Coda tables from Unjournal hub_internal and public_pages docs,
+      and discussion with David Reinstein regarding workshop structure and Metaculus suitability.
+      These drafts require human review and refinement before posting to Metaculus.
+    </div>
+
+    <!-- Related Links -->
+    <div class="cta-section" style="margin-top: 40px;">
+      <h2>Related Resources</h2>
+      <div class="context-links" style="justify-content: flex-start;">
+        <a href="beliefs.html" class="pill-link">Beliefs Elicitation Form →</a>
+        <a href="live/results.html" class="pill-link">Workshop Results →</a>
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="pill-link">Unjournal on Metaculus →</a>
+        <a href="https://info.unjournal.org/forecasting-tournament/" target="_blank" rel="noopener" class="pill-link">Animal Welfare Tournament →</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

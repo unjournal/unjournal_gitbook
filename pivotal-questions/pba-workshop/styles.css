@@ -468,7 +468,9 @@ body {
   width: 40px;
   height: 28px;
   padding: 0;
+  margin: 0;
   border: none;
+  outline: none;
   background: transparent;
   font-size: 18px;
   color: #ccc;
@@ -476,6 +478,15 @@ body {
   transition: all 0.15s;
   border-radius: 4px;
   text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  line-height: 28px;
+}
+
+.segment-star:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .segment-star:hover {
@@ -522,6 +533,45 @@ body {
 .segment-select:focus {
   outline: none;
   border-color: var(--sage);
+}
+
+/* Segment Details Box */
+.segment-details-box {
+  display: none;
+  background: #fafaf7;
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.segment-details-box.open {
+  display: block;
+}
+
+.segment-detail {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.segment-detail:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.toggle-link {
+  color: var(--sage);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.toggle-link:hover {
+  text-decoration: underline;
 }
 
 /* Recording Options */

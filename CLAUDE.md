@@ -93,6 +93,10 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Netlify Account**: `daaronr` (nonprofit)
 - **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 37a0205b-5cee-42c2-9388-fe0c17b5e5c6`
 - **Forms dashboard**: https://app.netlify.com/sites/uj-wellbeing-workshop/forms
+- **Private tracking doc**: `/Users/yosemite/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md`
+- **Netlify API**: Use `NETLIFY_AUTH_TOKEN` in repo `.env` to fetch form submissions
+- **Form ID (workshop-availability)**: `699c9edf50f843000883f05e`
+- **Target date**: March 16, 2026 (Mon-Thu 11am-5pm ET best overlap)
 
 #### Pages
 - `index.html` — Scheduling form (availability grid, segment interest)
@@ -109,6 +113,13 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Color palette: `--bg: #f8f6f1`, `--sage: #5a7a5a`, `--brown: #8b5e3c`
 - Shared styles in `styles.css`, interactivity in `app.js` and `beliefs.js`
 
+#### Key Participants & Constraints (as of Feb 2026)
+- **Confirmed presenters**: Julian Jamison (PQ2), Dan Benjamin (paper), Miles Kimball (paper), Matt Lerner (practitioner), Peter Hickman (stakeholder)
+- **Recording constraints**: Matt Lerner and Peter Hickman require internal-only recording
+- **Matt Lerner (FP)**: Only available Mon-Thu after 11am ET, **after March 15**
+- **Alberto Prati**: On paternity leave from Mar 14 - offered to join later Spring session
+- **Caspar Kaiser**: Availability pending clarification (misunderstood "March ~3hrs" as "March 3rd")
+
 ### Cultivated Meat Workshop (`pivotal-questions/cm-workshop/`)
 - **URL**: `https://uj-cm-workshop.netlify.app`
 - **Netlify Site ID**: `7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e`
@@ -119,8 +130,8 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Target date**: April 2026
 
 #### Pages
-- `index.html` — Scheduling form (April 2026 dates, 4 segments)
-- `about.html` — Workshop overview (TEAs, cost trajectories, AW implications)
+- `index.html` — Workshop overview / About page (home page)
+- `schedule.html` — Scheduling form (April 2026 dates, 4 segments)
 - `beliefs.html` — CM_01, CM_02, CM_10/11 + technical subquestions (CM_12-20)
 - `thanks.html` / `beliefs-thanks.html` — Post-submission confirmations
 
@@ -143,8 +154,8 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Target date**: May 2026
 
 #### Pages
-- `index.html` — Scheduling form (May 2026 dates, 4 segments)
-- `about.html` — Workshop overview (substitution evidence, methodology considerations)
+- `index.html` — Workshop overview / About page (home page)
+- `schedule.html` — Scheduling form (May 2026 dates, 6 segments)
 - `beliefs.html` — PBA_01 (focal: chicken consumption), PBA_02-03, PBA_06-08 (subquestions)
 - `thanks.html` / `beliefs-thanks.html` — Post-submission confirmations
 
