@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DALY/QALY-WELLBY Conversion | Wellbeing Workshop | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    /* Segment page specific styles */
+    .segment-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .segment-meta {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .segment-number {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--tan);
+      letter-spacing: 0.5px;
+    }
+
+    .segment-duration {
+      font-size: 12px;
+      color: var(--text-light);
+      background: var(--bg-alt);
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+
+    .embed-section {
+      margin: 32px 0;
+    }
+
+    .embed-section h3 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .embed-container {
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .embed-placeholder {
+      padding: 48px 24px;
+      text-align: center;
+      background: var(--bg-alt);
+    }
+
+    .embed-placeholder p {
+      color: var(--text-light);
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .embed-placeholder a {
+      color: var(--sage);
+    }
+
+    iframe.doc-embed {
+      width: 100%;
+      height: 700px;
+      border: none;
+    }
+
+    iframe.coda-embed {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+
+    .related-pqs {
+      background: var(--sage-bg);
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 32px;
+    }
+
+    .related-pqs h4 {
+      font-family: var(--font-serif);
+      font-size: 14px;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .pq-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pq-tag {
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--white);
+      color: var(--sage);
+      padding: 4px 10px;
+      border-radius: 4px;
+      text-decoration: none;
+      border: 1px solid var(--sage);
+    }
+
+    .pq-tag:hover {
+      background: var(--sage);
+      color: var(--white);
+    }
+
+    .nav-arrows {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .nav-arrow {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 14px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+
+    .nav-arrow:hover {
+      background: var(--bg-alt);
+      color: var(--sage);
+    }
+
+    .nav-arrow.disabled {
+      color: var(--text-light);
+      pointer-events: none;
+    }
+
+    .speaker-info {
+      background: var(--bg-alt);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+    }
+
+    .speaker-info p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .speaker-info strong {
+      color: var(--dark);
+    }
+
+    .focal-question {
+      background: linear-gradient(135deg, var(--sage-bg) 0%, #e8efe8 100%);
+      border: 2px solid var(--sage);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .focal-question h3 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .focal-question p {
+      font-size: 15px;
+      color: var(--text);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .conversion-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 14px;
+    }
+
+    .conversion-table th,
+    .conversion-table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .conversion-table th {
+      background: var(--bg-alt);
+      font-weight: 600;
+      color: var(--dark);
+    }
+
+    .conversion-table td {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">DALY/QALY↔WELLBY Conversion</h1>
+      <p class="header-subtitle">Approaches to interconvertibility between health and wellbeing measures</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="../interest.html" class="page-nav-link">Interest/Feedback</a></li>
+      <li><a href="../about.html" class="page-nav-link">About</a></li>
+      <li><a href="../beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="./" class="page-nav-link active">Live Sessions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="prose-container wide">
+    <div class="segment-header">
+      <div class="segment-meta">
+        <span class="segment-number">SEGMENT 5</span>
+        <span class="segment-duration">25 minutes</span>
+      </div>
+    </div>
+
+    <div class="speaker-info">
+      <p><strong>Discussion Lead:</strong> Julian Jamison (University of Exeter)</p>
+      <p style="margin-top: 4px; font-size: 13px; color: var(--text-light);">
+        Julian will frame the DALY-WELLBY conversion question and facilitate discussion.
+      </p>
+    </div>
+
+    <!-- Focal Question -->
+    <div class="focal-question">
+      <h3>Focal Question (DALY_01)</h3>
+      <p>
+        If the impact of one program is measured in WELLBYs and another program impact is measured
+        in DALYs, and we have a reported effect size and standard deviation for each, what is the
+        best numerical conversion or mapping between them?
+      </p>
+      <p style="margin-top: 8px; font-size: 13px; color: var(--text-light);">
+        <em>Note: This may be treated as a secondary topic depending on time constraints.</em>
+      </p>
+    </div>
+
+    <h2>Overview</h2>
+    <p>
+      This segment addresses the practical challenge of comparing interventions measured in different
+      units. When funders want to compare StrongMinds (measured in WELLBYs) to malaria bednets
+      (measured in DALYs), what conversion factor should they use?
+    </p>
+
+    <h3>Current Approaches</h3>
+    <table class="conversion-table">
+      <thead>
+        <tr>
+          <th>Approach</th>
+          <th>Description</th>
+          <th>Limitations</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SD-equivalence</td>
+          <td>1 SD WELLBY ≈ 1 SD DALY</td>
+          <td>Assumes comparable distributions</td>
+        </tr>
+        <tr>
+          <td>Direct estimates</td>
+          <td>Literature-based conversion factors</td>
+          <td>Wide range (2-15 WELLBYs per DALY)</td>
+        </tr>
+        <tr>
+          <td>Stated preference</td>
+          <td>Survey-based trade-off elicitation</td>
+          <td>Framing effects, hypothetical bias</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Discussion Topics</h3>
+    <ul>
+      <li>What conversion approach minimizes expected welfare loss?</li>
+      <li>Should the conversion factor vary by intervention domain?</li>
+      <li>How much precision is lost using rough approaches?</li>
+      <li>What data would most reduce uncertainty?</li>
+    </ul>
+
+    <!-- Collaborative Notes (Google Doc) -->
+    <div class="embed-section">
+      <h3>📝 Collaborative Notes</h3>
+      <div class="embed-container">
+        <iframe
+          class="doc-embed"
+          src="https://docs.google.com/document/d/1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU/edit?tab=t.dsbbi5fqcns4&embedded=true"
+          title="Collaborative Notes - DALY/WELLBY Conversion">
+        </iframe>
+      </div>
+      <p style="margin-top: 8px; font-size: 13px;">
+        <a href="https://docs.google.com/document/d/1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU/edit?tab=t.dsbbi5fqcns4" target="_blank" rel="noopener" style="color: var(--sage);">Open in new tab →</a>
+      </p>
+    </div>
+
+    <!-- Q&A Form (Coda) -->
+    <div class="embed-section">
+      <h3>💬 Questions & Comments</h3>
+      <div class="embed-container">
+        <div class="embed-placeholder">
+          <p>Submit questions and comments through the form below.</p>
+          <p style="margin-top: 8px; font-size: 13px; color: var(--text-light);">
+            Note: Submissions are publicly visible to all participants.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related PQs -->
+    <div class="related-pqs">
+      <h4>Related Pivotal Questions</h4>
+      <div class="pq-list">
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pq-tag">DALY_01</a>
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pq-tag">DALY_02</a>
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pq-tag">DALY_03</a>
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pq-tag">DALY_05</a>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="nav-arrows">
+      <a href="wellby.html" class="nav-arrow">
+        ← WELLBY Reliability
+      </a>
+      <a href="../beliefs.html" class="nav-arrow">
+        Next: Beliefs Elicitation →
+      </a>
+    </div>
+  </main>
+</body>
+</html>
