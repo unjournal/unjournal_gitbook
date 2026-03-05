@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Workshop Sessions | Wellbeing Measures Workshop | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    /* Live session page specific styles */
+    .session-grid {
+      display: grid;
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .session-card {
+      display: block;
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 24px;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+
+    .session-card:hover {
+      border-color: var(--sage);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      transform: translateY(-2px);
+    }
+
+    .session-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .session-number {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--tan);
+      letter-spacing: 0.5px;
+    }
+
+    .session-duration {
+      font-size: 12px;
+      color: var(--text-light);
+      background: var(--bg-alt);
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+
+    .session-title {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 0 0 8px;
+    }
+
+    .session-desc {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.5;
+      margin: 0 0 12px;
+    }
+
+    .session-speakers {
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .session-speakers strong {
+      color: var(--text);
+    }
+
+    .session-status {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-top: 12px;
+    }
+
+    .status-upcoming {
+      background: #e8f0e8;
+      color: var(--sage);
+    }
+
+    .status-live {
+      background: #fee8e8;
+      color: #c44;
+    }
+
+    .status-completed {
+      background: var(--bg-alt);
+      color: var(--text-light);
+    }
+
+    .session-time {
+      font-size: 12px;
+      color: var(--sage);
+      background: var(--sage-bg);
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-weight: 500;
+    }
+
+    .privacy-notice {
+      background: #fff9e6;
+      border: 1px solid #e6d4a3;
+      border-left: 3px solid var(--brown);
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin: 32px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .privacy-notice strong {
+      color: var(--dark);
+    }
+
+    .results-link {
+      display: block;
+      background: var(--sage-bg);
+      border: 2px solid var(--sage);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 32px;
+      transition: all 0.15s;
+    }
+
+    .results-link:hover {
+      background: #dce8dc;
+    }
+
+    .results-link h3 {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      color: var(--dark);
+      margin: 0 0 8px;
+    }
+
+    .results-link p {
+      font-size: 14px;
+      color: var(--text);
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">Live Workshop Sessions</h1>
+      <p class="header-subtitle">Collaborative discussion spaces for workshop participants</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="../interest.html" class="page-nav-link">Interest/Feedback</a></li>
+      <li><a href="../about.html" class="page-nav-link">About</a></li>
+      <li><a href="../beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="./" class="page-nav-link active">Live Sessions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="prose-container">
+    <div style="background: #fee; border: 2px solid #c44; border-radius: 8px; padding: 20px; margin-bottom: 24px; text-align: center;">
+      <p style="margin: 0; font-weight: 600; color: #922; font-size: 16px;">⚠️ PRELIMINARY DRAFT — NOT FINALIZED</p>
+      <p style="margin: 8px 0 0 0; color: #666; font-size: 14px;">This is a tentative mockup of the live session structure. Speakers, timing, and segment details are subject to change. Please do not share this page yet.</p>
+    </div>
+
+    <div class="privacy-notice">
+      <strong>Participation Notice:</strong> Comments and Q&A submitted through embedded forms will be publicly visible.
+      Live discussion documents require the shared link to access. Some practitioner sessions have restricted access for confidential discussions.
+    </div>
+
+    <h2>Workshop Segments</h2>
+    <p>Each segment has its own discussion space with collaborative notes (Google Doc); some also have structured Q&A and belief elicitation embedded. Click a segment to join the discussion.</p>
+
+    <div class="session-grid">
+      <!-- Segment 1 -->
+      <a href="stakeholder.html" class="session-card">
+        <div class="session-card-header">
+          <span class="session-number">SEGMENT 1</span>
+          <span class="session-time">~11:00 AM ET</span>
+          <span class="session-duration">25 min</span>
+        </div>
+        <h3 class="session-title">Stakeholder Problem Statement & Pivotal Questions</h3>
+        <p class="session-desc">Stakeholders present their WELLBY/DALY challenges (~10 min each), then we introduce key PQs for belief elicitation (~5 min)</p>
+        <p class="session-speakers"><strong>Speakers:</strong> Peter Hickman (Coefficient Giving), Matt Lerner (Founders Pledge)</p>
+        <span class="session-status status-upcoming">Upcoming</span>
+      </a>
+
+      <!-- Segment 2 -->
+      <a href="paper.html" class="session-card">
+        <div class="session-card-header">
+          <span class="session-number">SEGMENT 2</span>
+          <span class="session-time">~11:30 AM ET</span>
+          <span class="session-duration">25 min</span>
+        </div>
+        <h3 class="session-title">Research Presentation: Benjamin et al.</h3>
+        <p class="session-desc">Scale-use heterogeneity findings, calibration methods, and implications for WELLBY measurement and cross-intervention comparison</p>
+        <p class="session-speakers"><strong>Speakers:</strong> Dan Benjamin (UCLA/NBER), Miles Kimball (CU Boulder)</p>
+        <span class="session-status status-upcoming">Upcoming</span>
+      </a>
+
+      <!-- Segment 3 -->
+      <a href="evaluator.html" class="session-card">
+        <div class="session-card-header">
+          <span class="session-number">SEGMENT 3</span>
+          <span class="session-time">~12:00 PM ET</span>
+          <span class="session-duration">25 min</span>
+        </div>
+        <h3 class="session-title">Evaluator Responses & Discussion</h3>
+        <p class="session-desc">Evaluation findings and technical research issues, author dialogue, brief context on the Unjournal and Pivotal Questions initiative</p>
+        <p class="session-speakers"><strong>Presenters/Discussants:</strong> Caspar Kaiser, David Reinstein, Valentin Klotzbücher</p>
+        <span class="session-status status-upcoming">Upcoming</span>
+      </a>
+
+      <!-- Break indicator -->
+      <div style="background: var(--bg-alt); border-radius: 8px; padding: 12px 20px; text-align: center; color: var(--text-light); font-size: 13px; margin: 8px 0;">
+        ☕ <strong style="color: var(--text);">30-minute break</strong> (~12:30 – 1:00 PM ET)
+      </div>
+
+      <!-- Segment 4 — After 30-min break -->
+      <a href="wellby.html" class="session-card">
+        <div class="session-card-header">
+          <span class="session-number">SEGMENT 4</span>
+          <span class="session-time">~1:00 PM ET</span>
+          <span class="session-duration">25 min</span>
+        </div>
+        <h3 class="session-title">WELLBY Reliability Discussion</h3>
+        <p class="session-desc">Is the linear WELLBY a useful and reliable measure for cross-intervention comparison, particularly in low-income country contexts?</p>
+        <p class="session-speakers">Open discussion</p>
+        <span class="session-status status-upcoming">Upcoming</span>
+      </a>
+
+      <!-- Segment 5 -->
+      <a href="daly.html" class="session-card">
+        <div class="session-card-header">
+          <span class="session-number">SEGMENT 5</span>
+          <span class="session-time">~1:30 PM ET</span>
+          <span class="session-duration">25 min</span>
+        </div>
+        <h3 class="session-title">DALY/QALY↔WELLBY Conversion</h3>
+        <p class="session-desc">Approaches to interconvertibility between health and wellbeing measures</p>
+        <p class="session-speakers"><strong>Discussion Lead:</strong> Julian Jamison (University of Exeter)</p>
+        <span class="session-status status-upcoming">Upcoming</span>
+      </a>
+
+      <!-- Segment 6 - Beliefs -->
+      <a href="../beliefs.html" class="session-card">
+        <div class="session-card-header">
+          <span class="session-number">SEGMENT 6</span>
+          <span class="session-time">~2:00 PM ET</span>
+          <span class="session-duration">15 min</span>
+        </div>
+        <h3 class="session-title">Beliefs Elicitation</h3>
+        <p class="session-desc">Reinstein explains the context; participants complete self-guided belief elicitation form</p>
+        <p class="session-speakers">David Reinstein + self-guided form</p>
+        <span class="session-status status-upcoming">Upcoming</span>
+      </a>
+
+      <!-- Segment 7 -->
+      <a href="practitioner.html" class="session-card">
+        <div class="session-card-header">
+          <span class="session-number">SEGMENT 7</span>
+          <span class="session-time">~2:20 PM ET</span>
+          <span class="session-duration">30 min</span>
+        </div>
+        <h3 class="session-title">Practitioner Panel & Open Discussion</h3>
+        <p class="session-desc">Brief presentations (~10 min each) on practical implications, followed by open Q&A. A private follow-up discussion among key participants will follow.</p>
+        <p class="session-speakers"><strong>Panelists:</strong> Matt Lerner (FP), Peter Hickman (CG)</p>
+        <span class="session-status status-upcoming">Upcoming</span>
+      </a>
+    </div>
+
+    <!-- Results Link -->
+    <a href="results.html" class="results-link">
+      <h3>📊 View Aggregated Results</h3>
+      <p>See beliefs elicitation summaries and Metaculus question forecasts</p>
+    </a>
+
+    <!-- Related Links -->
+    <div class="cta-section">
+      <h2>Related Resources</h2>
+      <div class="context-links" style="justify-content: flex-start;">
+        <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pill-link">Coda PQ Database →</a>
+        <a href="../metaculus.html" class="pill-link">Metaculus Questions →</a>
+        <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener" class="pill-link">Benjamin et al. Evaluation →</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
