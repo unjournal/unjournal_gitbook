@@ -22,13 +22,13 @@ Key challenges identified by Founders Pledge (Lerner):
 • Linearizing DALY-WELLBY conversion may be inappropriate
 
 Key challenge from Coefficient Giving (Hickman):
-• Skepticism about WELLBY reliability: claimed "WELLBY worth 0.1 DALYs"
+[SKIP? Skepticism about WELLBY reliability: claimed "WELLBY worth 0.1 DALYs" [This is not 'skepticism about reliability' -- adjust or cut this]]
 • Concern about experimenter demand effects in self-reported wellbeing data
 
 These practical challenges frame the workshop's focal questions.
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ ] Accept [X ] Modify [ ] Reject
 
 ---
 
@@ -41,7 +41,7 @@ Benjamin's Broader Research Program
 
 Beyond scale-use heterogeneity, Benjamin's research questions reliance on single broad measures. Key insight from correspondence:
 
-"People's choices suggest that they care about more than just life satisfaction and happiness."
+"People's choices suggest that they care about more than just life satisfaction and happiness." [DR: explain better ... what else?]
 
 Proposed "Ideal Approach" (Benjamin):
 1. Collect comprehensive wellbeing data across multiple specific dimensions
@@ -54,25 +54,27 @@ Practical Shortcut:
 • Visual calibrations offer partial scale-use corrections when full surveys too costly
 
 Implementation Context:
-• Israeli think tank (Reingewertz) implementing these methods—funding dependent
-• Benjamin suggested inviting Yaniv Reingewertz and Dimitry Taubinsky to discuss empirical applications
+• Israeli think tank (Reingewertz) implementing these methods—funding dependent [in a certain sense and a distinct context]
+•[Leave this out of GDOC Benjamin suggested inviting Yaniv Reingewertz and Dimitry Taubinsky to discuss empirical applications]
+
+
 ```
 
 **Add under "Questions for Authors":**
 
 ```
-Pre-submitted Questions for Discussion
+Pre-considered Questions for Discussion
 
 1. How feasible is the full "personal wellbeing indices" approach for organizations operating in LMICs?
 
-2. When is the 0.8-0.9 correlation shortcut (importance ratings) good enough vs. when do we need full stated-preference surveys?
+2. When is the 0.8-0.9 correlation shortcut (importance ratings) good enough vs. when do we need full stated-preference surveys? [check where this came from]
 
-3. Life-satisfaction questions may be interpreted differently regarding time duration—how should we handle this in cross-cultural contexts?
+3. Life-satisfaction questions may be interpreted differently regarding time duration—how should we handle this in cross-cultural contexts? [needs clarification]
 
 4. What's the minimum data collection that would meaningfully improve on raw linear WELLBYs?
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ ] Accept [ X] Modify [ ] Reject
 
 ---
 
@@ -81,28 +83,38 @@ Pre-submitted Questions for Discussion
 **Add under "Caspar Kaiser" as context:**
 
 ```
-Caspar Kaiser's Four Key Concerns (from pre-workshop discussion)
+- Major strengths of the paper
+- Major critiques of the paper, authors response, what still needs addressing/adding?
+- Implications for the Linear WELLBY approach 
+- Implications for the practical PQs
 
-1. Comparability: Can we trust 0-10 life satisfaction to mean the same across populations?
-
-2. Linearity: Does a move from 3→4 mean the same as 7→8 on the scale?
-
-3. Neutral Point: Where is the "neutral point" on the satisfaction scale? Is it 5? 0? Something else?
-
-4. Right Concepts: Are we measuring the right concepts? Life satisfaction vs. happiness vs. flourishing?
-
-Central Tension for Discussion:
-• Can we trust intervention effects on stated well-being given potential experimenter demand effects?
-• How do we distinguish genuine welfare improvements from reporting artifacts?
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
-
+**Decision:** [ ] Accept [ X] Modify [ ] Reject
+See suggested adjustments
 ---
 
 ## Tab 4: WELLBY Reliability
 
 **Add under "Discussion Notes" or as new section "Background for Discussion":**
+
+Caspar Kaiser's Four Key Concerns (from pre-workshop discussion)
+```
+1. Comparability: Can we trust 0-10 life satisfaction to mean the same across populations?
+
+2. Linearity: Does a move from 3→4 mean the same as 7→8 on the scale? [DR and is a movement from 3-5 'twice as good']
+
+3. Neutral Point: Where is the "neutral point" on the satisfaction scale? Is it 5? 0? Something else? [Explain why that matters in this context?]
+
+4. Right Concepts: Are we measuring the right concepts? Life satisfaction vs. happiness vs. flourishing?
+
+Consider -- which of the above are more/less important to the reliability of the Linear WELLBY approach? Which are more/less reasonable?  
+
+
+Additional concern for Discussion:
+• Can we trust intervention effects on stated well-being given potential experimenter demand effects?
+• How do we distinguish genuine welfare improvements from reporting artifacts?
+```
 
 ```
 Institutional Context
@@ -111,13 +123,15 @@ GiveWell (2023):
 • Conducted analysis of StrongMinds using WELLBYs
 • Acknowledged uncertainty but used framework for comparison
 
+[https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights -- "we believe that subjective well-being deserves more study."]
+
+
 IDinsight (2025):
 • GiveWell-funded research on beneficiary preference trade-offs
 • Expected to provide new data on how beneficiaries value different outcomes
 
 Open Philanthropy/Coefficient Giving:
 • Limited public documentation of subjective wellbeing methodology
-• Hickman's "0.1 DALY per WELLBY" claim warrants scrutiny
 
 Key Literature:
 • Cooper (2023): "New approaches to measuring welfare" (Fiscal Studies)
@@ -134,7 +148,7 @@ Discussion Prompts
 4. How should funders communicate uncertainty when WELLBY-based and DALY-based estimates diverge substantially?
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ X] Accept [ ] Modify [ ] Reject
 
 ---
 
@@ -175,7 +189,7 @@ Julian Jamison's Role:
 Julian has done early-stage scoping work on this question (~12 hours) including reading/synthesizing existing research and AI-generated reports. He proposes a 'pivotal question framework' approach.
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ X] Accept [ ] Modify [ ] Reject
 
 ---
 
@@ -190,7 +204,7 @@ Related Metaculus Questions:
 • See linked forecasting questions for community probability estimates
 
 The beliefs elicitation aims to:
-1. Capture participants' priors BEFORE hearing full evidence presentations
+1. Capture participants' priors BEFORE hearing full evidence presentations [and then again at an intermediate state]
 2. Allow comparison of pre- vs. post-workshop beliefs
 3. Aggregate expert opinion across different stakeholder types (funders, researchers, evaluators)
 
@@ -198,7 +212,7 @@ Interpretation Note:
 Different stakeholder types may have systematically different priors based on their organizational context. This is expected and valuable—it reveals where genuine uncertainty vs. organizational framing drives disagreement.
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ X ] Accept [ ] Modify [ ] Reject
 
 ---
 
