@@ -236,3 +236,237 @@ Once you approve (with any modifications), I'll:
 2. Apply Times New Roman formatting via the API
 
 Let me know which sections to proceed with!
+
+---
+
+## Q&A Section Template (Add to Bottom of Each Tab)
+
+**Purpose:** Structured Q&A with emoji-based upvoting. Add this as a separated section at the bottom of each tab.
+
+### Instructions Block (Add once at top of doc or in each tab)
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 HOW TO USE THIS Q&A SECTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+To ADD a question:
+  • Copy the template below, paste at the end of the questions list
+  • Replace [Your question] with your question
+  • Add your name
+
+To UPVOTE a question:
+  • Highlight the question text
+  • Click the emoji reaction icon (😊) in the right margin
+  • Select 👍 (or click an existing 👍 to add your vote)
+  • The count shows how many people upvoted
+
+Status key:
+  ⏳ Pending — not yet addressed
+  💬 Discussing — being discussed now
+  ✅ Answered — addressed in session
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Q&A Section Block (Add to bottom of each tab)
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 QUESTIONS FOR THIS SEGMENT
+    Upvote with 👍 emoji reaction · Add yours at the bottom
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▸ [Example: How does scale-use heterogeneity differ between high and low-income populations?] — D. Reinstein
+   Status: ⏳ Pending
+
+▸ [Your question here] — Your Name
+   Status: ⏳ Pending
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Template (copy this to add a question):
+
+▸ [Your question here] — Your Name
+   Status: ⏳ Pending
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Cross-Cutting Questions Section (Add to a separate tab or end of doc)
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 CROSS-CUTTING QUESTIONS
+    Questions that span multiple segments · Upvote with 👍
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▸ [Questions that don't fit a single segment go here] — Name
+   Status: ⏳ Pending
+   Relevant to: WELLBY, DALY conversion
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Alternative: Single Shared Q&A Tab
+
+If you prefer ONE Q&A location instead of per-segment, create a new tab called "Questions" with:
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 WORKSHOP QUESTIONS
+    Upvote with 👍 emoji reaction · Add yours at the bottom
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HOW TO PARTICIPATE:
+• To add a question: Copy the template at bottom, paste above it, fill in
+• To upvote: Highlight question → click emoji icon (😊) → select 👍
+• Tag your question with a segment if relevant
+
+STATUS KEY:  ⏳ Pending  |  💬 Discussing  |  ✅ Answered
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▸ How does scale-use heterogeneity differ between high and low-income populations? — D. Reinstein
+   [Benjamin paper / WELLBY reliability]
+   Status: ⏳ Pending
+
+▸ What's the minimum viable calibration approach for organizations with limited survey capacity? — Example
+   [Practitioner]
+   Status: ⏳ Pending
+
+▸ [Your question here] — Your Name
+   [Segment tag if relevant]
+   Status: ⏳ Pending
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE — Copy and paste above this line:
+
+▸ [Your question here] — Your Name
+   [Segment tag if relevant]
+   Status: ⏳ Pending
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+### Recommended Setup
+
+**Structure:**
+1. Add Q&A section to bottom of each segment tab (Stakeholder, Benjamin, Evaluator, WELLBY, DALY, Beliefs, Practitioner)
+2. Create ONE new tab called "Cross-Cutting & End-of-Session Questions" for questions that span segments
+
+---
+
+### Per-Segment Q&A Block (Add to bottom of each tab)
+
+Format "Questions" as **Heading 2** so it appears in the document outline for easy navigation.
+
+```
+[Heading 2:] Questions for This Segment
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Upvote: Highlight question → click 😊 emoji icon → select 👍
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▸ [Example question relevant to this segment?] — Name
+   ⏳ Pending
+
+▸
+   ⏳ Pending
+
+───────────────────────────────────────────────────────────
+Template — copy, paste above, fill in:
+▸ [Your question] — Your Name
+   ⏳ Pending
+───────────────────────────────────────────────────────────
+```
+
+---
+
+### Cross-Cutting & End-of-Session Questions Tab (New tab)
+
+Create a new tab with this content:
+
+```
+[Heading 1:] Cross-Cutting & End-of-Session Questions
+
+Questions that span multiple segments, or that arise during wrap-up discussion.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW TO PARTICIPATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+To ADD a question:
+  • Copy the template at bottom, paste above it, fill in your question
+
+To UPVOTE:
+  • Highlight the question text
+  • Click the emoji icon (😊) in the right margin
+  • Select 👍 (or click existing 👍 to add your vote)
+
+Status:  ⏳ Pending  ·  💬 Discussing  ·  ✅ Answered
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▸ How should funders communicate uncertainty when WELLBY and DALY estimates diverge dramatically? — Example
+   Relevant to: DALY conversion, Practitioner
+   ⏳ Pending
+
+▸ What's the minimum viable calibration approach for resource-constrained organizations? — Example
+   Relevant to: Benjamin paper, Practitioner
+   ⏳ Pending
+
+▸
+   Relevant to:
+   ⏳ Pending
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE — Copy and paste above this line:
+
+▸ [Your question] — Your Name
+   Relevant to: [segments]
+   ⏳ Pending
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+### Navigation Tips for Participants
+
+Add this to the top of the doc or in a "How to Use This Doc" section:
+
+```
+📍 QUICK NAVIGATION
+
+Use the Document Outline (View → Show outline) to jump between sections:
+• Each segment has a "Questions" heading at the bottom
+• Cross-cutting questions have their own tab
+
+To find all questions quickly: Ctrl/Cmd+F and search for "▸"
+```
+
+---
+
+### Design Notes
+
+**Why this format:**
+- Heavy line separators (━━━) create visual boundary from discussion content
+- "Questions" as Heading 2 = appears in outline for one-click navigation
+- Template at bottom means new questions always added in right place
+- Per-segment Q&A keeps questions contextual
+- Cross-cutting tab catches everything else
+
+**Limitation (honest):**
+- Google Docs has no true "anchoring" — if discussion content grows, Q&A section moves down
+- Mitigation: Use document outline to navigate; instruct participants to scroll to bottom
