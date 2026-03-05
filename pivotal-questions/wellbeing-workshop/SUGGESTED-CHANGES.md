@@ -1,6 +1,7 @@
 # Suggested Changes for Workshop Live Event Pages
 
 Based on content from:
+
 - [Benjamin Correspondence](https://docs.google.com/document/d/1k7RSMNivX4oa4i4nXkLNddtB54pS6IIHNoOCI-HFzwg/edit)
 - [FP/Lerner PQ Discussion](https://docs.google.com/document/d/1z-OgDLaKjVizmZEQUb5j2rfXRGMKCiFeEjBLT-pskpE/edit)
 - [Third doc](https://docs.google.com/document/d/1fKymxTxpgwx1SA9Qai0PZlhu1QA9mCEngCnrgJPIbBc/edit) - **NOTE: Too large to fetch; please review manually**
@@ -10,17 +11,19 @@ Based on content from:
 ## Summary of Key Themes from Source Docs
 
 ### From Benjamin Correspondence (Doc 1)
+
 - **Benjamin's core skepticism**: Single broad measures like "life satisfaction" are limited; people's choices suggest they care about more than just life satisfaction and happiness
 - **Proposed ideal approach**:
   1. Collect comprehensive wellbeing data across multiple specific dimensions
   2. Use stated-preference surveys to estimate how people trade off wellbeing aspects
   3. Create individual-level "personal wellbeing indices" for policy evaluation
   4. Apply calibration questions for interpersonal comparability
-- **Practical finding**: Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs (a feasible alternative)
+- **Practical finding**: Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs (a feasible alternative) [note: we should doublecheck/give a citation here]
 - **Visual calibrations** offer partial scale-use corrections when direct questions prove too costly
 - **Israeli think tank implementation** is underway but funding-dependent
 
 ### From FP/Lerner Discussion (Doc 2)
+
 - **Priority areas identified by Lerner**: Moral weights and DALY/WELLBY interconvertibility
 - **Three key problems**:
   1. Justifiability of treating mental health measurements as interconvertible with DALYs remains unclear
@@ -44,13 +47,13 @@ Based on content from:
 <h3>Key Tensions to Address</h3>
 <p>Practitioners face concrete challenges when comparing interventions:</p>
 <ul>
-  <li><strong>Dramatic estimate divergence:</strong> Using DALYs vs WELLBYs can produce vastly different cost-effectiveness rankings for the same interventions</li>
-  <li><strong>Conversion uncertainty:</strong> No consensus on whether linear conversion between measures is appropriate</li>
-  <li><strong>Mental health credibility:</strong> Can mental health interventions measured in WELLBYs be justifiably compared to physical health interventions measured in DALYs?</li>
+  <li><strong>Dramatic estimate divergence:</strong> Using DALYs vs WELLBYs can produce vastly different cost-effectiveness rankings for the same interventions (to do: insert a linked example here_</li>
+  <li><strong>Conversion uncertainty:</strong> No consensus on whether (log)linear conversion between measures is appropriate</li>
+  <li><strong>Mental health credibility:</strong> Can mental health interventions measured in WELLBYs be justifiably compared to physical health interventions measured in DALYs? (what was the source of this one -- doublecheck) </li>
 </ul>
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ ] Accept [ X] Modify [ ] Reject
 
 ---
 
@@ -72,14 +75,17 @@ Based on content from:
   <li>Applying calibration for interpersonal comparisons</li>
 </ul>
 <p style="font-size: 13px; color: var(--text-light);">
-  <em>Practical note: Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs, offering a feasible shortcut.</em>
+  <em>Practical note: Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs, offering a feasible shortcut. (citation needed here)</em>
 </p>
 ```
 
 **Add suggested invitee note (if not already contacted):**
+
 > Benjamin suggested inviting Yaniv Reingewertz (implementing these methods in Israel) and Dimitry Taubinsky.
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ ] Accept [X ] Modify [ ] Reject
+
+This needs more specificity -- it's vague. Consult their paper and correspondence again. I also don't see the discussion of the vignettes here.
 
 ---
 
@@ -111,7 +117,9 @@ Based on content from:
 </ul>
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ ] Accept [ X] Modify [ ] Reject
+
+Add the statement "we believe that subjective well-being deserves more study." by GW with the link to [https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights)
 
 ---
 
@@ -156,7 +164,8 @@ Based on content from:
 </ul>
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ ] Accept [X ] Modify [ ] Reject  
+Good but also provide specific and immediate citations and links to claims like "Wide range: 2-15 WELLBYs per DALY across studies".
 
 ---
 
@@ -186,7 +195,7 @@ Based on content from:
 </div>
 ```
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ X] Accept [ ] Modify [ ] Reject
 
 ---
 
@@ -197,7 +206,7 @@ Based on content from:
 - Update the "privacy notice" to reflect the softer recording stance
 - Add link to third Google Doc once you determine which segment it belongs to
 
-**Decision:** [ ] Accept [ ] Modify [ ] Reject
+**Decision:** [ X] Accept [ ] Modify [ ] Reject
 
 ---
 
@@ -205,19 +214,27 @@ Based on content from:
 
 If you have Google Docs for each segment, consider adding these discussion starters:
 
+[We do -- see the context]
+
 ### Stakeholder Segment Doc
+
 - **Question for funders:** When your cost-effectiveness estimates diverge dramatically based on WELLBY vs DALY methodology, how do you currently handle this?
 - **Question for researchers:** What data would you need to see to change your current approach?
 
 ### Paper Presentation Doc
+
 - **Pre-discussion prompt:** How feasible is it to implement Benjamin's "personal wellbeing indices" approach in practice?
 - **Follow-up:** Are importance ratings (0.8-0.9 correlation with stated preferences) good enough?
 
 ### WELLBY Reliability Doc
+
 - **Caspar Kaiser's 4 concerns** (from CLAUDE.md): comparability, linearity, neutral point, concepts
 - **Central tension:** Can we trust intervention effects on stated well-being given potential experimenter demand effects?
 
+[These should be fleshed out and explained in more detail]
+
 ### DALY Conversion Doc
+
 - **Hickman claim to address:** "WELLBY worth 0.1 DALYs" - what evidence supports or refutes this?
 - **Range discussion:** Why do estimates span 2-15 WELLBYs per DALY? What drives this variation?
 
@@ -226,6 +243,8 @@ If you have Google Docs for each segment, consider adding these discussion start
 ## Items I Couldn't Review
 
 - **Third Google Doc** (`1fKymxTxpgwx1SA9Qai0PZlhu1QA9mCEngCnrgJPIbBc`): Too large to fetch automatically. Please review manually and let me know if there's content that should be incorporated.
+
+[I had added it as a file -- why wasn't this integrated?]
 
 ---
 
