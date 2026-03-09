@@ -1340,6 +1340,14 @@ sequenceDiagram
       }
     });
 
+    // Dropdown menu functionality
+    document.querySelectorAll('.page-nav-dropdown').forEach(dropdown => {
+      const menu = dropdown.querySelector('.dropdown-menu');
+      dropdown.addEventListener('mouseenter', () => menu.style.display = 'block');
+      dropdown.addEventListener('mouseleave', () => menu.style.display = 'none');
+      dropdown.querySelector('a').addEventListener('click', e => e.preventDefault());
+    });
+
     // ============================================
     // Neutral Point Demo
     // ============================================
