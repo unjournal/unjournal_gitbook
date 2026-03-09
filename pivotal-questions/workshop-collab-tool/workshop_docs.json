@@ -1,0 +1,51 @@
+{
+  "tabbed_document": {
+    "documentId": "1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU",
+    "url": "https://docs.google.com/document/d/1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU/edit",
+    "sharing": "anyone_edit",
+    "tabs": {
+      "1. Stakeholder & PQs": {
+        "tabId": "t.0",
+        "segment": 1,
+        "workshopPage": "live/stakeholder.html"
+      },
+      "2. Benjamin et al.": {
+        "tabId": "t.flfoslfoknfy",
+        "segment": 2,
+        "workshopPage": "live/paper.html"
+      },
+      "3. Evaluator Discussion": {
+        "tabId": "t.c5j1hoqx4iu2",
+        "segment": 3,
+        "workshopPage": "live/evaluator.html"
+      },
+      "4. WELLBY Reliability": {
+        "tabId": "t.54qh1431dew",
+        "segment": 4,
+        "workshopPage": "live/wellby.html"
+      },
+      "5. DALY-WELLBY": {
+        "tabId": "t.dsbbi5fqcns4",
+        "segment": 5,
+        "workshopPage": "live/daly.html"
+      },
+      "6. Beliefs Elicitation": {
+        "tabId": "t.aqpbjqrdtadw",
+        "segment": 6,
+        "workshopPage": "beliefs.html"
+      }
+    }
+  },
+  "practitioner_document": {
+    "documentId": "1KKGjRkv5ytNrPoVLhHMoWepdr9D--fCD0aTv0hfV8LU",
+    "url": "https://docs.google.com/document/d/1KKGjRkv5ytNrPoVLhHMoWepdr9D--fCD0aTv0hfV8LU/edit",
+    "sharing": "restricted",
+    "segment": 7,
+    "workshopPage": "live/practitioner.html"
+  },
+  "folder": {
+    "folderId": "1xgt8wpiV-AcAtHuK4TXM25SyJCWAnf5t",
+    "name": "Wellbeing Workshop - Live Notes",
+    "url": "https://drive.google.com/drive/folders/1xgt8wpiV-AcAtHuK4TXM25SyJCWAnf5t"
+  }
+}

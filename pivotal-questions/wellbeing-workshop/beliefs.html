@@ -39,7 +39,7 @@
 
   <!-- Intro -->
   <div class="beliefs-intro">
-    <p>These are some of the <strong>key</strong> operationalized questions from our Wellbeing Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence and key arguments—to see how views evolve and where consensus exists. <em>(All questions are optional.)</em></p>
+    <p>These are some of the <strong>key</strong> operationalized questions from our Wellbeing Pivotal Questions project.<a href="#fn1" class="footnote" id="fnref1">[1]<span class="footnote-tooltip">Pivotal Questions: research questions where credible evidence could most shift funding decisions. We identify these through stakeholder collaboration, prioritizing by expected value of information.</span></a> We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence and key arguments—to see how views evolve and where consensus exists. <em>(All questions are optional.)</em></p>
 
     <div class="canonical-callout">
       <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener">canonical Wellbeing PQ formulations on Coda →</a>
@@ -123,9 +123,9 @@
       <!-- PQ1a: WELLBY Usefulness — maps to WELL_01, WELL_07 -->
       <div class="pq-card">
         <div class="pq-tag">PQ1a · WELLBY Usefulness · <span class="pq-code">WELL_01/07</span></div>
-        <h2 class="pq-question">How reliable is the WELLBY measure [...] relative to other available measures in the 'wellbeing space'? How much insight is lost by using WELLBY and when will it steer us wrong?</h2>
+        <h2 class="pq-question">How reliable is the linear WELLBY measure [...] relative to other available measures in the 'wellbeing space'? How much insight is lost by using linear WELLBY and when will it steer us wrong?</h2>
         <p class="pq-subtext">Adapted from <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_07</a>: "How reliable is the WELLBY measure of well-being/mental health (as defined above) relative to other available measures in the 'wellbeing space' (including other transformations of the 0-10 life satisfaction scale)?"</p>
-        <p class="pq-why">The WELLBY is used by several major funders (<a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">Happier Lives Institute</a>, <a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a>) to compare interventions across domains. The reliability of this approach matters for resource allocation decisions.</p>
+        <p class="pq-why">The WELLBY is used by several major funders<a href="#fn2" class="footnote" id="fnref2">[2]<span class="footnote-tooltip">Happier Lives Institute uses WELLBYs as their primary metric; Founders Pledge incorporates them alongside DALYs. GiveWell has explored WELLBY-based analysis but hasn't fully adopted it.</span></a> (<a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">Happier Lives Institute</a>, <a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a>) to compare interventions across domains. The reliability of this approach matters for resource allocation decisions.</p>
 
         <button type="button" class="pq-context-toggle" data-target="pq1a-context">
           <span class="toggle-icon">▸</span> Context & definitions
@@ -133,7 +133,7 @@
         <div class="pq-context" id="pq1a-context">
           <ul>
             <li>For present purposes, a WELLBY is defined as an increase of 1 point for one person for one year on a 0–10 life satisfaction scale (e.g. Cantril's Ladder). (Note: definitions vary across contexts.)</li>
-            <li>Benjamin et al. (2023) found substantial scale-use heterogeneity. They develop methods using <strong>calibration questions</strong> (new survey items with objectively correct answers) and <strong>vignette exercises</strong> (rating hypothetical scenarios) that can reduce the estimated bias from scale-use heterogeneity—by roughly 30–50% in their sample, though generalizability remains uncertain.</li>
+            <li>Benjamin et al. (2023) found substantial scale-use heterogeneity.<a href="#fn3" class="footnote" id="fnref3">[3]<span class="footnote-tooltip">Scale-use heterogeneity: different people use the 0-10 scale differently—what one person calls "7" might correspond to another's "5." This creates bias when comparing across individuals or groups.</span></a> They develop methods using <strong>calibration questions</strong><a href="#fn4" class="footnote" id="fnref4">[4]<span class="footnote-tooltip">Calibration questions have objectively correct answers (e.g., "1+1=?") that reveal how respondents use scales. If someone rates 2 as "very certain," we know they compress the scale.</span></a> (new survey items with objectively correct answers) and <strong>vignette exercises</strong><a href="#fn5" class="footnote" id="fnref5">[5]<span class="footnote-tooltip">Vignettes describe hypothetical people ("John has X, Y, Z characteristics"). By having respondents rate these standardized scenarios, researchers can compare individual scale use.</span></a> (rating hypothetical scenarios) that can reduce the estimated bias from scale-use heterogeneity—by roughly 30–50% in their sample, though generalizability remains uncertain.</li>
             <li>Related canonical question (<a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">WELL_01</a>): "What combination of (a) subjective wellbeing survey data [...], (b) income and health-outcome data, (c) metrics based on this data (e.g., linear or logarithmic WELLBYs, standard deviations, scale-use adjustments), and (d) possible conversions between different measures would be 'best' for making funding choices between interventions which may impact mental health, physical health, and/or consumption[?]"</li>
           </ul>
         </div>
@@ -304,7 +304,7 @@
           <ul>
             <li><strong>DALY vs QALY:</strong> DALYs measure health burden (years lost to disease/disability); QALYs measure health gained. For conversion purposes, QALYs are often more directly comparable—the canonical questions note "replace DALY with QALY" may be appropriate.</li>
             <li>Some organizations (including HLI and Founders Pledge) currently treat SDs on different mental health instruments as interconvertible with WELLBY SDs on a roughly 1:1 basis.</li>
-            <li>The conversion between DALYs/QALYs and WELLBYs depends on the "neutral point" on the LS scale—the point below which life has negative value. This is currently unknown; one small study (Peasgood et al. 2018) suggested LS ≈ 2, but this is tentative.</li>
+            <li>The conversion between DALYs/QALYs and WELLBYs depends on the "neutral point"<a href="#fn6" class="footnote" id="fnref6">[6]<span class="footnote-tooltip">The neutral point is the life satisfaction level where welfare equals zero—below this, welfare is negative. If neutral=5, then LS=3 represents negative welfare; if neutral=2, LS=3 is positive.</span></a> on the LS scale—the point below which life has negative value. This is currently unknown; one small study (Peasgood et al. 2018) suggested LS ≈ 2, but this is tentative.</li>
             <li>The relationship may also be non-linear—e.g., a WELLBY gained at very low wellbeing could be worth more than one gained at high wellbeing.</li>
           </ul>
         </div>
@@ -524,8 +524,37 @@
         <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener" class="pill-link">Canonical PQs on Coda →</a>
       </div>
     </div>
+
+    <!-- Footnotes Section -->
+    <div class="footnotes-section">
+      <h4>Notes</h4>
+      <ol>
+        <li id="fn1">Pivotal Questions: research questions where credible evidence could most shift funding decisions. We identify these through stakeholder collaboration, prioritizing by expected value of information.</li>
+        <li id="fn2">Happier Lives Institute uses WELLBYs as their primary metric; Founders Pledge incorporates them alongside DALYs. GiveWell has explored WELLBY-based analysis but hasn't fully adopted it.</li>
+        <li id="fn3">Scale-use heterogeneity: different people use the 0-10 scale differently—what one person calls "7" might correspond to another's "5." This creates bias when comparing across individuals or groups.</li>
+        <li id="fn4">Calibration questions have objectively correct answers (e.g., "1+1=?") that reveal how respondents use scales. If someone rates 2 as "very certain," we know they compress the scale.</li>
+        <li id="fn5">Vignettes describe hypothetical people. By having respondents rate these standardized scenarios, researchers can compare individual scale use.</li>
+        <li id="fn6">The neutral point is the life satisfaction level where welfare equals zero—below this, welfare is negative. If neutral=5, then LS=3 represents negative welfare; if neutral=2, LS=3 is positive.</li>
+      </ol>
+    </div>
   </main>
 
   <script src="beliefs.js"></script>
+  <!-- Footnote tooltip positioning script -->
+  <script>
+    document.querySelectorAll('a.footnote').forEach(footnote => {
+      const tooltip = footnote.querySelector('.footnote-tooltip');
+      if (tooltip) {
+        footnote.addEventListener('mouseenter', function() {
+          const rect = tooltip.getBoundingClientRect();
+          if (rect.right > window.innerWidth - 20) {
+            tooltip.classList.add('tooltip-left');
+          } else {
+            tooltip.classList.remove('tooltip-left');
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>

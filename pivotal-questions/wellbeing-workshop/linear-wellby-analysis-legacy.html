@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linear WELLBY Overview | Wellbeing Workshop | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Analysis page specific styles */
+    .page-wrapper {
+      display: flex;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .sidebar-toc {
+      width: 200px;
+      flex-shrink: 0;
+      padding: 48px 0;
+      position: sticky;
+      top: 0;
+      height: fit-content;
+      max-height: 100vh;
+      overflow-y: auto;
+      transition: width 0.2s, opacity 0.2s;
+    }
+
+    .sidebar-toc.collapsed {
+      width: 0;
+      opacity: 0;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .sidebar-toc nav {
+      padding-right: 24px;
+      border-right: 1px solid var(--border-light);
+    }
+
+    .toc-toggle {
+      position: fixed;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: var(--text);
+      z-index: 100;
+      transition: all 0.15s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .toc-toggle:hover {
+      background: var(--bg-alt);
+      border-color: var(--sage);
+    }
+
+    .toc-toggle.hidden-toc::after {
+      content: "☰";
+    }
+
+    .toc-toggle:not(.hidden-toc)::after {
+      content: "✕";
+    }
+
+    .sidebar-toc h4 {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-light);
+      margin: 0 0 12px;
+    }
+
+    .sidebar-toc ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar-toc li {
+      margin-bottom: 8px;
+    }
+
+    .sidebar-toc a {
+      font-size: 13px;
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 4px 0;
+      line-height: 1.4;
+      transition: color 0.15s;
+    }
+
+    .sidebar-toc a:hover {
+      color: var(--sage);
+    }
+
+    .sidebar-toc a.active {
+      color: var(--sage);
+      font-weight: 500;
+    }
+
+    .analysis-container {
+      flex: 1;
+      max-width: 820px;
+      padding: 48px 0 80px 32px;
+    }
+
+    @media (max-width: 900px) {
+      .page-wrapper {
+        display: block;
+      }
+
+      .sidebar-toc {
+        display: none;
+      }
+
+      .toc-toggle {
+        display: none;
+      }
+
+      .analysis-container {
+        padding: 48px 8px 80px;
+        max-width: 100%;
+      }
+    }
+
+    .content-note {
+      background: #fff9e6;
+      border: 1px solid #e6d4a3;
+      border-left: 3px solid var(--brown);
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin-bottom: 32px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .definition-box {
+      background: var(--sage-bg);
+      border: 2px solid var(--sage);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .definition-box h3 {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .definition-box p {
+      margin: 0 0 12px;
+    }
+
+    .definition-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .formal-notation {
+      font-family: 'Times New Roman', Georgia, serif;
+      font-size: 17px;
+      background: var(--white);
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin: 12px 0;
+      display: block;
+      line-height: 1.6;
+    }
+
+    .formal-notation.inline {
+      display: inline;
+      padding: 4px 8px;
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .assumption-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 700px) {
+      .assumption-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .assumption-card {
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 10px;
+      padding: 20px;
+      transition: border-color 0.15s;
+    }
+
+    .assumption-card:hover {
+      border-color: var(--sage);
+    }
+
+    .assumption-card h4 {
+      font-family: var(--font-serif);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 0 0 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .assumption-card .letter {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      background: var(--sage);
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .assumption-card .formal {
+      font-family: 'Times New Roman', Georgia, serif;
+      font-size: 14px;
+      color: var(--text);
+      background: var(--bg-alt);
+      padding: 6px 10px;
+      border-radius: 4px;
+      margin: 8px 0;
+      display: block;
+    }
+
+    .assumption-card p {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .section-heading {
+      font-family: var(--font-serif);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 48px 0 16px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .section-heading:first-of-type {
+      margin-top: 32px;
+      border-top: none;
+      padding-top: 0;
+    }
+
+    .subsection-heading {
+      font-family: var(--font-serif);
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 28px 0 12px;
+    }
+
+    .analysis-container p {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.75;
+      margin: 0 0 16px;
+    }
+
+    .analysis-container ul, .analysis-container ol {
+      margin: 0 0 16px;
+      padding-left: 24px;
+    }
+
+    .analysis-container li {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 8px;
+    }
+
+    /* Key takeaway boxes */
+    .key-takeaway {
+      background: linear-gradient(135deg, #f4f8f4 0%, #e8efe8 100%);
+      border: 1px solid var(--sage);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+
+    .key-takeaway p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .key-takeaway strong {
+      color: var(--sage);
+    }
+
+    /* Expandable details sections */
+    details {
+      margin: 16px 0;
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      background: #fafaf7;
+    }
+
+    details summary {
+      padding: 12px 16px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details summary::before {
+      content: "▸";
+      font-size: 12px;
+      color: var(--text-light);
+      transition: transform 0.2s;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    details[open] summary {
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    details .details-content {
+      padding: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    details .details-content p {
+      font-size: 14px;
+      margin: 0 0 12px;
+    }
+
+    details .details-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    details .details-content ul {
+      margin: 8px 0;
+      padding-left: 20px;
+    }
+
+    details .details-content li {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    /* Neutral point slider */
+    .neutral-point-demo {
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .neutral-point-demo h4 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 16px;
+    }
+
+    .scale-visual {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      margin-bottom: 16px;
+      position: relative;
+    }
+
+    .scale-visual::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(to right, #c44 0%, #eee 50%, #4a4 100%);
+      border-radius: 2px;
+      transform: translateY(-50%);
+      z-index: 0;
+    }
+
+    .scale-number {
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--white);
+      border: 2px solid var(--border);
+      border-radius: 50%;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      z-index: 1;
+    }
+
+    .scale-number.neutral {
+      background: var(--brown);
+      border-color: var(--brown);
+      color: white;
+      transform: scale(1.2);
+    }
+
+    .neutral-slider-container {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .neutral-slider-container label {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      min-width: 120px;
+    }
+
+    .neutral-slider {
+      flex: 1;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      height: 8px;
+      border-radius: 4px;
+      background: var(--border);
+      outline: none;
+      cursor: pointer;
+    }
+
+    .neutral-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--brown);
+      cursor: pointer;
+      border: none;
+    }
+
+    .neutral-slider::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--brown);
+      cursor: pointer;
+      border: none;
+    }
+
+    .neutral-slider::-webkit-slider-runnable-track {
+      height: 8px;
+      border-radius: 4px;
+      background: var(--border);
+    }
+
+    .neutral-slider::-moz-range-track {
+      height: 8px;
+      border-radius: 4px;
+      background: var(--border);
+    }
+
+    .neutral-value {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--brown);
+      min-width: 30px;
+      text-align: center;
+    }
+
+    .neutral-implications {
+      background: var(--bg-alt);
+      border-radius: 8px;
+      padding: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .neutral-implications p {
+      margin: 0 0 8px;
+      font-size: 14px;
+    }
+
+    .neutral-implications p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* WELLBY Calculator */
+    .calculator-box {
+      background: var(--white);
+      border: 2px solid var(--sage);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .calculator-box h4 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 16px;
+    }
+
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 500px) {
+      .calc-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .calc-field label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .calc-field input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 15px;
+      font-family: var(--font-sans);
+    }
+
+    .calc-field input:focus {
+      outline: none;
+      border-color: var(--sage);
+    }
+
+    .calc-result {
+      background: var(--sage-bg);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .calc-result .result-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--sage);
+    }
+
+    .calc-result .result-label {
+      font-size: 13px;
+      color: var(--text);
+      margin-top: 4px;
+    }
+
+    .calc-result .result-secondary {
+      font-size: 14px;
+      color: var(--text);
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #c8d8c8;
+    }
+
+    /* Comparison table */
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 14px;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .comparison-table th {
+      background: var(--bg-alt);
+      font-weight: 600;
+      color: var(--dark);
+      font-size: 13px;
+    }
+
+    .comparison-table td {
+      color: var(--text);
+      vertical-align: top;
+    }
+
+    .comparison-table tr:hover td {
+      background: #fafaf7;
+    }
+
+    .comparison-table .approach-name {
+      font-weight: 500;
+      color: var(--dark);
+    }
+
+    /* Strength/limitation cards */
+    .info-card {
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+    }
+
+    .info-card.strength {
+      background: #f4f8f4;
+      border-left: 3px solid var(--sage);
+    }
+
+    .info-card.limitation {
+      background: #fef7f4;
+      border-left: 3px solid #c97;
+    }
+
+    .info-card.empiric {
+      background: #f4f7fe;
+      border-left: 3px solid #5a7aaa;
+    }
+
+    .info-card.critique {
+      background: #fef4f7;
+      border-left: 3px solid #a75a7a;
+    }
+
+    .info-card.response {
+      background: #f7fef4;
+      border-left: 3px solid #5aa75a;
+    }
+
+    .info-card h5 {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 0 0 6px;
+    }
+
+    .info-card p {
+      font-size: 14px;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Open questions list */
+    .open-questions {
+      background: var(--sage-bg);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+
+    .open-questions h4 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 12px;
+    }
+
+    .open-questions ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .open-questions li {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    /* Source citations / footnotes */
+    .source-note {
+      font-size: 13px;
+      color: var(--text-light);
+      font-style: italic;
+      margin-top: 8px;
+    }
+
+    .source-note a {
+      color: var(--brown);
+    }
+
+    .footnote {
+      font-size: 12px;
+      color: var(--text-light);
+      vertical-align: super;
+      text-decoration: none;
+      margin-left: 1px;
+      position: relative;
+      cursor: help;
+    }
+
+    .footnote:hover {
+      color: var(--brown);
+    }
+
+    .footnote-tooltip {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--dark);
+      color: #fff;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      line-height: 1.5;
+      width: 320px;
+      max-width: 90vw;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      pointer-events: none;
+      text-align: left;
+      font-weight: normal;
+      vertical-align: baseline;
+      margin-bottom: 8px;
+    }
+
+    .footnote-tooltip::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 8px solid transparent;
+      border-top-color: var(--dark);
+    }
+
+    .footnote:hover .footnote-tooltip,
+    .footnote:focus .footnote-tooltip {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .footnote-tooltip a {
+      color: #8cb4e8;
+    }
+
+    .footnote-tooltip em {
+      font-style: italic;
+    }
+
+    /* Adjust tooltip position for footnotes near right edge */
+    .footnote-tooltip.tooltip-left {
+      left: auto;
+      right: 0;
+      transform: none;
+    }
+
+    .footnote-tooltip.tooltip-left::after {
+      left: auto;
+      right: 16px;
+      transform: none;
+    }
+
+    .footnotes-section {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .footnotes-section h4 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 16px;
+    }
+
+    .footnotes-section ol {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .footnotes-section li {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .footnotes-section a {
+      color: var(--brown);
+    }
+
+    /* Two-column debate layout */
+    .debate-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 600px) {
+      .debate-columns {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .debate-column h5 {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin: 0 0 12px;
+    }
+
+    .debate-column.critique h5 {
+      color: #a75a7a;
+    }
+
+    .debate-column.response h5 {
+      color: #5aa75a;
+    }
+
+    /* Back link */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--sage);
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer nav */
+    .footer-nav {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .footer-nav a {
+      color: var(--sage);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- VERSION NOTICE -->
+  <div style="background: var(--sage); color: #fff; padding: 12px 24px; text-align: center; font-size: 14px;">
+    <strong>Simpler Overview Version</strong> — Good starting point for practitioners.
+    <a href="linear-wellby-analysis.html" style="color: #c4e8c4; margin-left: 12px;">View expanded technical version →</a>
+  </div>
+
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal - Pivotal Questions Initiative</div>
+      <h1 class="header-title">Linear WELLBY: Validity & Reliability</h1>
+      <p class="header-subtitle">A technical analysis for comparing interventions in LMICs</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="interest.html" class="page-nav-link">Interest/Feedback</a></li>
+      <li><a href="about.html" class="page-nav-link">About</a></li>
+      <li><a href="beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="live/" class="page-nav-link">Live Sessions</a></li>
+    </ul>
+  </nav>
+
+  <!-- TOC Toggle Button -->
+  <button class="toc-toggle" id="tocToggle" title="Toggle table of contents"></button>
+
+  <!-- Main Content -->
+  <div class="page-wrapper">
+    <!-- Sidebar TOC -->
+    <aside class="sidebar-toc" id="sidebarToc">
+      <nav>
+        <h4>Contents</h4>
+        <ul>
+          <li><a href="#definition">1. Definition & Use-Case</a></li>
+          <li><a href="#neutral-point">2. Neutral Point</a></li>
+          <li><a href="#assumptions">3. Assumptions</a></li>
+          <li><a href="#empirics">4. Empirical Evidence</a></li>
+          <li><a href="#critiques">5. Critiques & Responses</a></li>
+          <li><a href="#alternatives">6. Alternatives</a></li>
+          <li><a href="#calculator">7. WELLBY Calculator</a></li>
+          <li><a href="#recommendations">8. Recommendations</a></li>
+          <li><a href="#open-questions">9. Open Questions</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="analysis-container">
+      <a href="live/wellby.html" class="back-link">← Back to WELLBY Discussion</a>
+
+    <div class="content-note" style="background: #f4f7fe; border-color: #c4d4e4; border-left-color: #5a7aaa;">
+      <strong>Annotate & Comment:</strong> Double-click any text to add a Hypothes.is annotation, or look for the <strong>&#60;&#62;</strong> icon in the top-right corner to open the annotation sidebar and see existing comments. No account needed to read; free account to post.
+    </div>
+
+    <details style="background: #fee; border: 1px solid #daa; border-left: 3px solid #c44; border-radius: 6px; margin-bottom: 16px;">
+      <summary style="padding: 14px 18px; cursor: pointer; font-size: 13px; font-weight: 600; color: #a44; border-bottom: none;">
+        ⚠️ AI-Generated Content (March 2025) — click to expand
+      </summary>
+      <div style="padding: 0 18px 14px; font-size: 13px; color: #555;">
+        <p style="margin: 0 0 8px;">This page was created through iterative prompting of Claude Code (Opus 4.5) and GPT-5.2 Pro, feeding in workshop discussion content and focal papers for our Pivotal Questions initiative.</p>
+        <p style="margin: 0 0 8px;">See primary sources<a href="#fn-primary" class="footnote" id="fnref-primary">[*]<span class="footnote-tooltip">Benjamin et al. 2023/2024, UK Green Book Wellbeing Guidance (HM Treasury 2021/2024), Bond & Lang 2019, Kaiser & Oswald 2022, Haushofer & Shapiro 2016/2018, World Happiness Report WELLBY chapter (Helliwell et al. 2021), OECD Guidelines on Measuring Subjective Well-being (2013/2024).</span></a> and additional sources<a href="#fn-additional" class="footnote" id="fnref-additional">[†]<span class="footnote-tooltip">Kaiser & Lepinteur 2025, Ferrer-i-Carbonell & Frijters 2004, King et al. 2004, Krueger & Schkade 2008, Liu & Netzer 2023, Fabian 2022, Plant 2025 (Grice-Schelling rational response theory).</span></a>.</p>
+        <p style="margin: 0;"><strong>This content requires further human verification.</strong> Specific claims, citations, and numerical details should be checked against the original literature before relying on them.</p>
+      </div>
+    </details>
+
+    <div class="content-note">
+      <strong>Purpose:</strong> This page provides technical background for workshop discussions. Content draws on academic sources and UK government guidance; specific claims should be verified against cited literature.
+    </div>
+
+    <!-- Section 1: Definition -->
+    <h2 id="definition" class="section-heading" style="border-top: none; padding-top: 0; margin-top: 0;">1. Definition and Use-Case</h2>
+
+    <p>
+      A <strong>WELLBY</strong> (wellbeing-adjusted life year) is a "common currency" approach: summarize an intervention's welfare impact as the change in subjective wellbeing per person-year, so interventions involving different mechanisms and outcomes(health, income, education, mental health) can be compared on a single scale.<a href="#fn1" class="footnote">[1]</a>
+    </p>
+
+    <div class="definition-box">
+      <h3>Unit Definition</h3>
+      <p><strong>1 WELLBY</strong> = a one-point change in life satisfaction (0-10 scale) × 1 person × 1 year</p>
+      <p class="source-note">Source: UK Green Book Wellbeing Guidance (HM Treasury, 2021/2024)</p>
+    </div>
+
+    <details>
+      <summary>Origins, alternative definitions, and adoption</summary>
+      <div class="details-content">
+        <p><strong>Original proposal:</strong> The WELLBY concept was introduced by <a href="https://doi.org/10.1002/hec.4090" target="_blank" rel="noopener">Frijters, Clark, Krekel & Layard (2020)</a> in <em>Health Economics</em> as a unit for comparing wellbeing gains across policy domains.</p>
+        <p><strong>UK Government adoption:</strong> The <a href="https://www.gov.uk/government/publications/green-book-supplementary-guidance-wellbeing" target="_blank" rel="noopener">UK Treasury Green Book Wellbeing Guidance</a> (2021, updated 2024) formally incorporated WELLBYs into government cost-benefit analysis.</p>
+        <p><strong>Alternative definitions:</strong> While most usage defines WELLBY using life satisfaction (Cantril ladder, 0-10), some researchers use affect-based measures (experienced happiness, positive/negative affect). The choice matters: life satisfaction captures evaluative wellbeing; affect captures momentary experience.</p>
+        <p><strong>Organizational adoption:</strong></p>
+        <ul>
+          <li><strong>Happier Lives Institute:</strong> Uses WELLBYs as primary metric for comparing charities</li>
+          <li><strong>Founders Pledge:</strong> Incorporates WELLBYs alongside DALYs in mental health CEA</li>
+          <li><strong>GiveWell:</strong> Has explored WELLBY-based analysis but not fully adopted</li>
+          <li><strong>UK Government:</strong> Official guidance for policy appraisal</li>
+        </ul>
+        <p style="font-size: 13px; color: var(--text-light); margin-top: 8px;">See also: <a href="https://www.nature.com/articles/s41599-024-03229-5" target="_blank" rel="noopener">Frijters et al. (2024) in Nature</a> for a recent overview.</p>
+      </div>
+    </details>
+
+    <p>
+      The standard question (OECD prototype): <em>"Overall, how satisfied are you with your life as a whole these days?"</em> with anchors 0 = "not at all satisfied" and 10 = "completely satisfied".<a href="#fn2" class="footnote">[2]</a>
+    </p>
+
+    <h3 class="subsection-heading">Incremental vs. Level-Based WELLBYs</h3>
+
+    <p>
+      A crucial distinction: are we summing <strong>changes</strong> relative to a counterfactual, or <strong>levels</strong> of wellbeing? These have different requirements.
+    </p>
+
+    <div class="formal-notation">
+      <strong>Incremental WELLBYs</strong> (what most intervention comparisons need):<br>
+      ΔWELLBY(k) = Σ<sub>i</sub> Σ<sub>t</sub> δ<sup>t</sup> (LS<sub>it</sub><sup>(k)</sup> − LS<sub>it</sub><sup>(0)</sup>)
+    </div>
+
+    <details style="margin: 12px 0 16px;">
+      <summary>Notation key</summary>
+      <div class="details-content">
+        <ul>
+          <li><strong>i</strong> = individual (summing across all people in the program)</li>
+          <li><strong>t</strong> = time period (summing across years of effect)</li>
+          <li><strong>LS</strong> = Life Satisfaction score (0-10 scale)</li>
+          <li><strong>δ</strong> = discount factor for future years (often 1 if not discounting; e.g., 0.97 for 3% annual discount)</li>
+          <li><strong>k</strong> = intervention group</li>
+          <li><strong>0</strong> = counterfactual/control group</li>
+        </ul>
+        <p style="font-size: 13px; color: var(--text-light); margin-top: 8px;"><em>In practice, RCT designs estimate LS<sup>(k)</sup> − LS<sup>(0)</sup> directly via experimental comparison rather than measuring the counterfactual literally.</em></p>
+      </div>
+    </details>
+
+    <div class="formal-notation">
+      <strong>Level-based WELLBYs</strong> (for mortality comparisons):<br>
+      W = Σ<sub>i</sub> Σ<sub>t</sub> δ<sup>t</sup> LS<sub>it</sub>
+    </div>
+
+    <p>
+      This second form requires a defined zero point (e.g., death = 0) and is <strong>not invariant</strong> to shifting the LS scale. The World Happiness Report makes "dead people score 0" an explicit assumption for level-based accounting.<a href="#fn3" class="footnote">[3]</a>
+    </p>
+
+    <details style="margin-bottom: 16px;">
+      <summary>When does level-based accounting matter?</summary>
+      <div class="details-content">
+        <p><strong>Level-based WELLBYs matter when:</strong></p>
+        <ul>
+          <li>Comparing interventions that <strong>change mortality rates</strong> (e.g., malaria prevention vs. psychotherapy)</li>
+          <li>Interventions that <strong>affect birth rates</strong> (in some accounting frameworks)</li>
+          <li>Any comparison where the <strong>number of person-years</strong> differs between scenarios</li>
+        </ul>
+        <p><strong>How dead people enter the sum:</strong> Dead people contribute 0 to the sum (they have no life satisfaction). This means saving a life adds (years gained × average LS) to the WELLBY total—but this calculation requires knowing where on the scale corresponds to "neutral" welfare.</p>
+        <p><strong>For interventions that don't change population</strong> (same people living the same number of years), incremental and level-based approaches are mathematically equivalent—the constant drops out when comparing.</p>
+      </div>
+    </details>
+
+    <div class="key-takeaway">
+      <p><strong>Key takeaway:</strong> If your comparisons are mainly incremental changes among living people, the neutral point often cancels out. If you compare interventions that affect mortality (or, in some accounting, birth rates), where the calculation involves life-years saved × average wellbeing, the origin becomes load-bearing.</p>
+    </div>
+
+    <!-- Section 2: Neutral Point -->
+    <h2 id="neutral-point" class="section-heading">2. When the Neutral Point Matters</h2>
+
+    <p>
+      There are two different "zeros" people reference:
+    </p>
+    <ul>
+      <li><strong>Neutral wellbeing:</strong> the point where life is neither good nor bad (u = 0)</li>
+      <li><strong>Death as zero:</strong> treating death as LS = 0 for life-year calculations</li>
+    </ul>
+
+    <p>
+      For <strong>incremental comparisons</strong> (program A vs. program B among the living), adding a constant c to everyone's LS doesn't change ΔLS. The neutral point is mostly irrelevant.
+    </p>
+
+    <p>
+      But for <strong>mortality comparisons</strong>—e.g., "WELLBYs from life extension = (life-years gained) × (average wellbeing level)"—the origin matters because a shift changes the integral.
+    </p>
+
+    <div class="neutral-point-demo">
+      <h4>Example: Why Origin Matters for Mortality Comparisons</h4>
+      <div class="scale-visual" id="scaleVisual">
+        <span class="scale-number">0</span>
+        <span class="scale-number">1</span>
+        <span class="scale-number">2</span>
+        <span class="scale-number">3</span>
+        <span class="scale-number">4</span>
+        <span class="scale-number">5</span>
+        <span class="scale-number">6</span>
+        <span class="scale-number">7</span>
+        <span class="scale-number">8</span>
+        <span class="scale-number">9</span>
+        <span class="scale-number">10</span>
+      </div>
+      <div class="neutral-slider-container">
+        <label for="neutralSlider">Neutral point:</label>
+        <input type="range" id="neutralSlider" class="neutral-slider" min="0" max="5" step="1" value="2">
+        <span class="neutral-value" id="neutralValue">2</span>
+      </div>
+      <div class="neutral-implications" id="neutralImplications">
+        <p><strong>Scenario:</strong> An LMIC program prevents a death, yielding 40 additional life-years at average LS = 5.</p>
+        <p><strong>If neutral = 0:</strong> Benefit = 40 × 5 = <strong>200 WELLBYs</strong></p>
+        <p><strong>If neutral = 2:</strong> Benefit = 40 × (5 − 2) = <strong>120 "above-neutral" WELLBYs</strong></p>
+        <p>This is a <strong>ranking-relevant</strong> difference when comparing mortality-focused interventions (malaria prevention) to non-mortality wellbeing programs (psychotherapy).</p>
+      </div>
+    </div>
+
+    <p class="source-note">
+      UK Green Book guidance discusses an indifference point around LS ≈ 2 for some respondents, while adopting a working assumption of 1. Peasgood et al. (2018) provide tentative estimates but acknowledge high uncertainty.<a href="#fn4" class="footnote">[4]</a>
+    </p>
+
+    <!-- Section 3: Assumptions -->
+    <h2 id="assumptions" class="section-heading">3. Assumptions for Validity</h2>
+
+    <p>
+      Using linear WELLBYs for cross-intervention comparison requires several assumptions. A common overstatement is that "equal scores mean equal welfare"—but this is <strong>stronger than most applications need</strong>.
+    </p>
+
+    <h3 class="subsection-heading">Level Comparability vs. Unit-Change Comparability</h3>
+
+    <p>
+      The key distinction is between two claims:
+    </p>
+
+    <ul>
+      <li><strong>Level comparability:</strong> LS<sup>A</sup> = 7 and LS<sup>B</sup> = 7 imply U<sup>A</sup> ≈ U<sup>B</sup> (rarely needed for incremental WELLBYs)</li>
+      <li><strong>Unit-change comparability:</strong> A one-point change has approximately the same welfare meaning across people/groups (what most incremental WELLBY applications require)</li>
+    </ul>
+
+    <p>
+      Formally, suppose each person has a <strong>reporting function</strong><a href="#fn-reporting" class="footnote" id="fnref-reporting">[rf]<span class="footnote-tooltip">A reporting function f<sub>i</sub>(·) maps a person's underlying ("true") welfare u to their reported life satisfaction score. It captures how individuals translate internal states into numerical responses—including factors like personality, cultural norms, and interpretation of scale anchors.</span></a>: LS<sub>it</sub> = f<sub>i</sub>(u<sub>it</sub>) + ε<sub>it</sub>. If f<sub>i</sub> differs across people, equal reported levels don't mean equal welfare. But it can still work for <em>differences</em> if the heterogeneity is "only a shift."
+    </p>
+
+    <h3 class="subsection-heading">Shifters vs. Stretchers</h3>
+
+    <p>
+      A useful decomposition is the <strong>affine model</strong>:
+    </p>
+
+    <div class="formal-notation">
+      u<sub>it</sub> = a<sub>i</sub> + b<sub>i</sub> × LS<sub>it</sub>
+    </div>
+
+    <div class="assumption-grid">
+      <div class="assumption-card">
+        <h4><span class="letter">S</span> Shifters Only (a<sub>i</sub> varies, b constant)</h4>
+        <p>Different intercepts: "some people always report +2 higher." <strong>Levels are not comparable, but differences are:</strong> Δu = b × ΔLS. Less damaging for incremental comparisons.</p>
+      </div>
+
+      <div class="assumption-card">
+        <h4><span class="letter">T</span> Stretchers (b<sub>i</sub> varies)</h4>
+        <p>Different slopes: "some people compress the scale." <strong>Both levels AND differences fail:</strong> Δu<sub>i</sub> = b<sub>i</sub> × ΔLS<sub>i</sub>. Can reverse cross-population comparisons.</p>
+      </div>
+    </div>
+
+    <p>
+      This distinction is not merely theoretical. Recent work on scale-use heterogeneity explicitly models "shifters" and "stretchers" and proposes calibration-question approaches to adjust for them.<a href="#fn5" class="footnote">[5]</a>
+    </p>
+
+    <div class="key-takeaway">
+      <p><strong>When does scale-use heterogeneity break comparisons?</strong> It's most dangerous when it differs systematically across the units you're comparing in ways that don't cancel—e.g., comparing ΔLS across studies, countries, or populations with different distributions of "stretch factors."</p>
+    </div>
+
+    <details>
+      <summary>When heterogeneity is less threatening</summary>
+      <div class="details-content">
+        <p><strong>Within one RCT, same instrument<a href="#fn-instrument" class="footnote" id="fnref-instrument">[inst]<span class="footnote-tooltip">An "instrument" here means the specific survey question used to measure life satisfaction—including exact wording, response scale (0-10 vs 1-7), anchor labels, and administration mode (face-to-face vs phone). The OECD prototype is one standardized instrument; different studies may use variations.</span></a>, random assignment:</strong> If treatment and control groups have the same distribution of reporting functions (by randomization), interpersonal noncomparability is less of a threat for estimating an average treatment effect. The main risks shift to measurement error noise and whether treatment changes scale-use itself (response shift).</p>
+        <p><strong>Same population distribution:</strong> If E[b | Population A] ≈ E[b | Population B], then comparing interventions by ΔLS is valid for ranking even if intercepts differ.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>When heterogeneity is most dangerous</summary>
+      <div class="details-content">
+        <p><strong>Comparing across studies/countries:</strong> Different instruments, translations, norms, and populations. If the distribution of stretch factors b<sub>i</sub> differs, "1 point-year" is not the same welfare unit across the evidence base.</p>
+        <p><strong>Ceiling/floor effects:</strong> Even with identical reporting functions, bounded scales can cause mechanical differences in responsiveness at high or low baselines.</p>
+      </div>
+    </details>
+
+    <h3 class="subsection-heading">The Four Core Assumptions (Expanded)</h3>
+
+    <div class="assumption-grid">
+      <div class="assumption-card">
+        <h4><span class="letter">A</span> Cardinality</h4>
+        <span class="formal">U(LS=4) − U(LS=3) = U(LS=8) − U(LS=7)</span>
+        <p>Equal intervals on the scale imply equal welfare differences: moving from 3→4 equals the same welfare gain as 7→8. <strong>What breaks if it fails:</strong> Summing is invalid; interventions targeting different baselines incomparable. <strong>Mitigation:</strong> Test robustness to log transformation.</p>
+      </div>
+
+      <div class="assumption-card">
+        <h4><span class="letter">B</span> Unit-Change Comparability</h4>
+        <span class="formal">ΔLS has ≈ same welfare meaning across people</span>
+        <p><strong>What breaks:</strong> Cross-person aggregation fails. <strong>Mitigation:</strong> Within-person designs; calibration vignettes; ensure same instrument across groups.</p>
+      </div>
+
+      <div class="assumption-card">
+        <h4><span class="letter">C</span> Temporal Aggregation</h4>
+        <span class="formal">W = ∫LS(t)dt is meaningful</span>
+        <p><strong>What breaks:</strong> Duration weighting is wrong. <strong>Why it might fail:</strong> Adaptation effects—people return to baseline. <strong>Mitigation:</strong> Long-term follow-up data.</p>
+      </div>
+
+      <div class="assumption-card">
+        <h4><span class="letter">D</span> Cross-Domain Validity</h4>
+        <span class="formal">LS captures welfare from all domains</span>
+        <p><strong>What breaks:</strong> LS misses physical suffering or other channels. <strong>Why it matters for LMICs:</strong> DALY-WELLBY conversion is fraught if LS only captures mood.</p>
+      </div>
+    </div>
+
+    <h3 class="subsection-heading">Response Shift: A Distinct Threat</h3>
+
+    <p>
+      Even if baseline scale-use heterogeneity cancels (by randomization), treatment can change the <strong>meaning</strong> of the respondent's self-evaluation. In quality-of-life research, this is called <strong>response shift</strong>: changes in internal standards, values, or conceptualization that alter how respondents answer over time.<a href="#fn6" class="footnote">[6]</a>
+    </p>
+
+    <p>
+      For wellbeing interventions in LMICs—especially psychosocial programs that may explicitly reframe cognition—response shift is not a corner case. If treatment changes the reporting function f<sub>i</sub>(·), observed ΔLS mixes "true welfare change" with "scale change," biasing the WELLBY estimate in either direction.
+    </p>
+
+    <!-- Section 4: Empirics -->
+    <h2 id="empirics" class="section-heading">4. Empirical Evidence</h2>
+
+    <h3 class="subsection-heading">Reliability: Noisy But Not Useless</h3>
+
+    <p>
+      OECD guidance synthesizes evidence that single-item life evaluations have <strong>test-retest correlations around 0.5-0.7</strong> over short windows (1 day to 2 weeks), with country-level means showing much higher stability.<a href="#fn7" class="footnote">[7]</a>
+    </p>
+
+    <p>
+      Krueger and Schkade (2008) found life satisfaction measured two weeks apart had correlation ≈ 0.59. Two implications for WELLBY CEA:
+    </p>
+    <ul>
+      <li>Measurement error attenuates estimated effects (bias toward zero)—small real effects may be undervalued</li>
+      <li>Noise inflates uncertainty—credible estimates need adequate sample sizes and good designs</li>
+    </ul>
+
+    <h3 class="subsection-heading">LMIC Evidence: Life Satisfaction Responds to Interventions</h3>
+
+    <div class="info-card empiric">
+      <h5>GiveDirectly Cash Transfers (Kenya)</h5>
+      <p><strong>Short-run:</strong> Haushofer & Shapiro (2016) report that unconditional cash transfers improved psychological wellbeing, including ~0.17 SD in life satisfaction and ~0.16 SD in happiness (WVS measures).<a href="#fn8" class="footnote">[8]</a></p>
+      <p style="margin-top: 8px;"><strong>Long-run (~3 years):</strong> Life satisfaction increased by ~0.08 SD (statistically significant); overall psychological wellbeing index by ~0.16 SD.<a href="#fn9" class="footnote">[9]</a></p>
+    </div>
+
+    <p>
+      These findings show: (1) LS measures have detectable signal in LMIC RCTs, not just noise; (2) effects can persist, meaning "duration" in WELLBY accounting is empirically relevant. They do <strong>not</strong> solve cross-study comparability—but demonstrate that in at least one setting, SWB is responsive.
+    </p>
+
+    <h3 class="subsection-heading">External Validity: Numbers Predict Behavior</h3>
+
+    <p>
+      A strong response to skepticism: even if the numbers seem arbitrary, do they behave like a measurement? Kaiser and Oswald show that single numeric feelings responses have strong predictive power—relationships to later "get-me-out-of-here" actions (changing neighborhoods, jobs, partners) tend to be replicable and close to linear in large longitudinal datasets.<a href="#fn10" class="footnote">[10]</a>
+    </p>
+
+    <!-- Section 5: Critiques and Responses -->
+    <h2 id="critiques" class="section-heading">5. Critiques and Responses</h2>
+
+    <p>
+      The hardest critique is about what the data cannot pin down. Bond and Lang (2019) argue that with ordinal response data, comparing "average happiness" between groups is generally not identified without strong assumptions—monotonic transformations can reverse results.<a href="#fn11" class="footnote">[11]</a>
+    </p>
+
+    <div class="debate-columns">
+      <div class="debate-column critique">
+        <h5>The Hard Critique</h5>
+        <ul>
+          <li>Ordinal nature makes mean comparisons non-identified</li>
+          <li>Monotonic transformations can reverse conclusions</li>
+          <li>Strong assumptions needed to treat "0.3 points" as "0.3 welfare units"</li>
+          <li>Key results depend on assumptions about the latent distribution<a href="#fn-latent" class="footnote" id="fnref-latent">[ld]<span class="footnote-tooltip">The "latent distribution" refers to the unobserved, underlying distribution of true welfare levels in a population. Since we only see reported scores (which may be transformed versions of true welfare), conclusions about welfare comparisons can depend on assumptions about this hidden distribution's shape.</span></a></li>
+        </ul>
+      </div>
+      <div class="debate-column response">
+        <h5>Responses and Mitigations</h5>
+        <ul>
+          <li>Predictive validity: SWB predicts consequential outcomes systematically</li>
+          <li>Survey response times can help solve identification (Liu & Netzer, AER 2023)</li>
+          <li>Explicit adjustment methods for scale-use heterogeneity exist</li>
+          <li>OECD (2024) concludes data remain meaningful for policy despite critiques</li>
+        </ul>
+      </div>
+    </div>
+
+    <p>
+      Clarifications for workshop discussions:
+    </p>
+    <ul>
+      <li>The critique is most directly aimed at <strong>cross-group mean comparisons</strong> and latent-variable interpretation</li>
+      <li>It does not automatically imply that within-study randomized treatment effects are meaningless</li>
+      <li>It implies you should be explicit about what assumptions let you treat reported changes as welfare units</li>
+    </ul>
+
+    <!-- Section 6: Alternatives -->
+    <h2 id="alternatives" class="section-heading">6. Alternatives and Relative Reliability</h2>
+
+    <p>
+      We cannot stop at "WELLBY is unreliable." Decision-makers must choose <em>something</em>, and the relevant question is comparative. "WELLBY vs. DALY" should be framed as a <strong>portfolio comparison problem under measurement uncertainty</strong>, not winner-take-all.
+    </p>
+
+    <h3 class="subsection-heading">DALYs and QALYs: Standardized But Narrower</h3>
+
+    <p>
+      <strong>DALY</strong> (Disability-Adjusted Life Year) = Years of Life Lost (YLL) + Years Lived with Disability (YLD).<a href="#fn12" class="footnote">[12]</a><br>
+      <strong>QALY</strong> (Quality-Adjusted Life Year) = years of life × health utility weight (0-1 scale, 1 = perfect health).<a href="#fn13" class="footnote">[13]</a>
+    </p>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Approach</th>
+          <th>Strengths (vs. WELLBYs)</th>
+          <th>Weaknesses (vs. WELLBYs)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="approach-name">DALY / QALY</td>
+          <td>Strong institutional standardization; large evidence bases; direct mortality/morbidity linkage</td>
+          <td>May miss welfare impacts not in health-state descriptions (empowerment, security, meaning); mental health weights can be contentious</td>
+        </tr>
+        <tr>
+          <td class="approach-name">Linear WELLBY</td>
+          <td>Captures what DALYs miss (mental health, subjective experience, non-health welfare); low respondent burden</td>
+          <td>All issues discussed above; cross-study comparability uncertain</td>
+        </tr>
+        <tr>
+          <td class="approach-name">Multi-item SWB scales</td>
+          <td>Higher reliability (averaging item noise); broader construct coverage</td>
+          <td>Higher burden; translation/cognitive testing challenges; same conceptual issues</td>
+        </tr>
+        <tr>
+          <td class="approach-name">Calibrated WELLBY</td>
+          <td>Reduces scale-use bias 30-50%<a href="#fn-calibration" class="footnote" id="fnref-calibration">[cal]<span class="footnote-tooltip">Benjamin et al. (2023/2024) estimate that calibration methods using vignette anchoring and visual scales can reduce interpersonal comparability bias by 30-50%, depending on the population and calibration approach used.</span></a></td>
+          <td>Complex; requires calibration items; LMIC feasibility unclear; introduces new assumptions</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      UK Green Book guidance explicitly suggests life satisfaction can reflect dimensions beyond standard QALY instruments (EQ-5D), making WELLBYs informative where QALYs are incomplete.<a href="#fn14" class="footnote">[14]</a>
+    </p>
+
+    <h3 class="subsection-heading">A Hybrid Decision Rule</h3>
+
+    <ul>
+      <li>Use <strong>DALYs/QALYs</strong> where the primary pathway is health and the evidence base is deep</li>
+      <li>Use <strong>WELLBYs</strong> where interventions plausibly change welfare through broader channels (especially mental health and social interventions), but require stronger transparency about measurement assumptions</li>
+      <li>When using WELLBYs across heterogeneous contexts, <strong>report sensitivity to scale-comparability assumptions</strong></li>
+    </ul>
+
+    <h3 class="subsection-heading">The Measurement Layer Problem</h3>
+
+    <p>
+      A practical constraint: many LMIC mental health studies report <strong>depression scales or symptom indices</strong>, not standard 0-10 life satisfaction. GiveWell's assessment of StrongMinds explicitly highlights uncertainty in translating depression improvements into life satisfaction gains.<a href="#fn15" class="footnote">[15]</a>
+    </p>
+
+    <p>
+      Even if you accept WELLBY as the target unit, the measurement layer forces choices:
+    </p>
+    <ul>
+      <li>Use DALYs/QALYs (more standard in health evaluation) even if they miss non-health welfare</li>
+      <li>Use life satisfaction directly, but only where trials collect it</li>
+      <li>Use mapping models (depression → LS), but carry mapping uncertainty explicitly</li>
+    </ul>
+
+    <!-- WELLBY Calculator -->
+    <h2 id="calculator" class="section-heading">7. WELLBY Calculator</h2>
+
+    <div class="calculator-box">
+      <h4>Incremental WELLBY Estimate</h4>
+      <p style="font-size: 13px; color: var(--text-light); margin: 0 0 16px;">Enter the average treatment effect on life satisfaction, duration of effect, number of beneficiaries, and program cost to estimate total WELLBYs and cost-effectiveness.</p>
+      <div class="calc-grid">
+        <div class="calc-field">
+          <label for="effectSize">Effect size (ΔLS points)<a href="#fn-effectsize" class="footnote" id="fnref-effectsize">[es]<span class="footnote-tooltip">The average treatment effect on life satisfaction—the difference in 0-10 life satisfaction between treatment and control groups. For reference: cash transfers typically show 0.1-0.3 point effects; psychotherapy interventions may show 0.3-0.8 point effects.</span></a></label>
+          <input type="number" id="effectSize" step="0.1" value="0.5" min="0" max="10">
+        </div>
+        <div class="calc-field">
+          <label for="duration">Duration (years)</label>
+          <input type="number" id="duration" step="0.5" value="2" min="0" max="50">
+        </div>
+        <div class="calc-field">
+          <label for="recipients">Number of recipients</label>
+          <input type="number" id="recipients" step="1" value="1000" min="1">
+        </div>
+        <div class="calc-field">
+          <label for="programCost">Total program cost ($)</label>
+          <input type="number" id="programCost" step="1000" value="100000" min="0">
+        </div>
+      </div>
+      <div class="calc-result">
+        <div class="result-value" id="totalWellbys">1,000</div>
+        <div class="result-label">Total WELLBYs generated</div>
+        <div class="result-secondary">
+          Cost per WELLBY: <strong id="costPerWellby">$100</strong>
+        </div>
+      </div>
+    </div>
+
+    <p class="source-note">
+      This simple calculator assumes constant effect size over the duration. Real applications should account for effect decay, discounting, and uncertainty ranges.
+    </p>
+
+    <!-- Section 8: Recommendations -->
+    <h2 id="recommendations" class="section-heading">8. Practical Recommendations</h2>
+
+    <h3 class="subsection-heading">For Funders Comparing Interventions</h3>
+    <ul>
+      <li>Treat WELLBY estimates as one input among several, not the final answer</li>
+      <li>Conduct sensitivity analyses across different approaches and assumptions</li>
+      <li>Report how rankings change if you assume different neutral points or scale comparability</li>
+      <li>Communicate uncertainty honestly rather than false precision</li>
+    </ul>
+
+    <h3 class="subsection-heading">For Researchers Designing Studies</h3>
+    <ul>
+      <li>Use standardized life satisfaction questions (OECD prototype) to enable cross-study comparison</li>
+      <li>Include long-term follow-up to capture duration effects</li>
+      <li>Consider calibration questions/vignettes if comparing across populations</li>
+      <li>Pre-register analysis plans including functional form choices</li>
+    </ul>
+
+    <h3 class="subsection-heading">Conditions for Stronger Inference</h3>
+    <ul>
+      <li><strong>Large effect sizes</strong> that overwhelm measurement error</li>
+      <li><strong>Within-person designs</strong> where each person serves as their own control</li>
+      <li><strong>Multiple wellbeing measures</strong> showing the same directional effect</li>
+      <li><strong>Triangulation</strong> with behavioral or objective outcomes</li>
+      <li><strong>Robustness checks</strong> across functional forms (log vs. linear)</li>
+    </ul>
+
+    <!-- Section 9: Open Questions -->
+    <h2 id="open-questions" class="section-heading">9. Open Questions (Research Agenda)</h2>
+
+    <p>
+      These questions represent high-value areas for future research that could meaningfully improve the reliability of WELLBY-based comparisons:
+    </p>
+
+    <ol>
+      <li><strong>Neutral point estimation:</strong> What is the actual neutral point on the 0-10 scale for different populations? How stable is it across contexts?</li>
+      <li><strong>Scale-use heterogeneity mapping:</strong> How do shifters vs. stretchers vary across LMIC populations, and can we predict which matters more in a given context?</li>
+      <li><strong>Cheap calibration methods:</strong> Can vignettes, anchoring questions, or other calibration approaches work in low-resource settings without excessive respondent burden?</li>
+      <li><strong>WELLBY-DALY relationship:</strong> What's the true mapping between WELLBYs and DALYs, and is it linear? How much does it vary by health condition?</li>
+      <li><strong>Demand effects and response shift:</strong> How do experimenter demand effects and response shift vary by intervention type? Are psychosocial interventions particularly vulnerable?</li>
+      <li><strong>Instrument standardization:</strong> What survey instruments and protocols minimize cross-study comparability problems while remaining feasible in diverse settings?</li>
+    </ol>
+
+    <div class="key-takeaway" style="margin-top: 24px;">
+      <p><strong>For funders and researchers:</strong> If you're working on any of these questions, we'd be interested to hear about it. These are central to our <a href="beliefs.html" style="color: var(--sage);">Pivotal Questions initiative</a>.</p>
+    </div>
+
+    <!-- Footnotes -->
+    <div class="footnotes-section">
+      <h4>References & Notes</h4>
+      <ol>
+        <li id="fn1">Frijters, P. & Krekel, C. (2021). <em>A Handbook for Wellbeing Policy-Making</em>. Oxford University Press. See also World Happiness Report (2021) WELLBY chapter.</li>
+        <li id="fn2">OECD (2013). <em>Guidelines on Measuring Subjective Well-being</em>. OECD Publishing. Question modules available at <a href="https://www.oecd.org/statistics/guidelines-on-measuring-subjective-well-being-9789264191655-en.htm" target="_blank" rel="noopener">oecd.org</a>.</li>
+        <li id="fn3">Helliwell, J.F., et al. (2021). "The WELLBY." <em>World Happiness Report 2021</em>, Chapter 6.</li>
+        <li id="fn4">HM Treasury (2021/2024). <em>Wellbeing Guidance for Appraisal: Supplementary Green Book Guidance</em>. See discussion of QALY-LS mapping and indifference points.</li>
+        <li id="fn5">Benjamin, D.J., et al. (2023). "Scale-Use Heterogeneity." Working paper. Also: King, G., et al. (2004). "Enhancing the Validity of Cross-Cultural Comparability of Survey Research." <em>American Political Science Review</em>.</li>
+        <li id="fn6">Sprangers, M.A. & Schwartz, C.E. (1999). "Integrating response shift into health-related quality of life research." <em>Social Science & Medicine</em>, 48(11), 1507-1515.</li>
+        <li id="fn7">OECD (2024). "How's Life? 2024" and "Measuring Well-being" technical notes. Also: Krueger, A.B. & Schkade, D.A. (2008). "The reliability of subjective well-being measures." <em>Journal of Public Economics</em>, 92(8-9), 1833-1845.</li>
+        <li id="fn8">Haushofer, J. & Shapiro, J. (2016). "The Short-term Impact of Unconditional Cash Transfers to the Poor." <em>Quarterly Journal of Economics</em>, 131(4), 1973-2042.</li>
+        <li id="fn9">Haushofer, J. & Shapiro, J. (2018). "The Long-Term Impact of Unconditional Cash Transfers." Working paper.</li>
+        <li id="fn10">Kaiser, C. & Oswald, A.J. (2022). "The scientific value of numerical measures of human feelings." <em>PNAS</em>, 119(42).</li>
+        <li id="fn11">Bond, T.N. & Lang, K. (2019). "The Sad Truth about Happiness Scales." <em>Journal of Political Economy</em>, 127(4), 1629-1640.</li>
+        <li id="fn12">WHO (2020). "Disability-Adjusted Life Years (DALYs)." Global Health Estimates methodology.</li>
+        <li id="fn13">NICE (UK). "Quality-adjusted life year (QALY)." <a href="https://www.nice.org.uk/glossary?letter=q" target="_blank" rel="noopener">NICE Glossary</a>.</li>
+        <li id="fn14">HM Treasury wellbeing guidance notes that life satisfaction reflects dimensions beyond EQ-5D (the standard QALY instrument), including social relationships, meaning, and autonomy.</li>
+        <li id="fn15">GiveWell (2023). "Our Assessment of Happier Lives Institute's Cost-Effectiveness Analysis of StrongMinds." Available at <a href="https://www.givewell.org" target="_blank" rel="noopener">givewell.org</a>.</li>
+      </ol>
+    </div>
+
+    <!-- Footer navigation -->
+    <div class="footer-nav">
+      <a href="live/wellby.html">← WELLBY Discussion</a>
+      <a href="beliefs.html">Beliefs Elicitation →</a>
+    </div>
+    </main>
+  </div><!-- end page-wrapper -->
+
+  <script>
+    // Neutral point slider interactivity
+    const slider = document.getElementById('neutralSlider');
+    const valueDisplay = document.getElementById('neutralValue');
+    const implications = document.getElementById('neutralImplications');
+    const scaleNumbers = document.querySelectorAll('.scale-number');
+
+    function updateNeutralPoint() {
+      const np = parseInt(slider.value);
+      valueDisplay.textContent = np;
+
+      const lifeYears = 40;
+      const avgLS = 5;
+      const rawWellbys = lifeYears * avgLS;
+      const adjustedWellbys = lifeYears * (avgLS - np);
+
+      implications.innerHTML = `
+        <p><strong>Scenario:</strong> An LMIC program prevents a death, yielding ${lifeYears} additional life-years at average LS = ${avgLS}.</p>
+        <p><strong>If neutral = 0:</strong> Benefit = ${lifeYears} × ${avgLS} = <strong>${rawWellbys} WELLBYs</strong></p>
+        <p><strong>If neutral = ${np}:</strong> Benefit = ${lifeYears} × (${avgLS} − ${np}) = <strong>${adjustedWellbys} "above-neutral" WELLBYs</strong></p>
+        <p>${np > 0 ? `This ${Math.round((1 - adjustedWellbys/rawWellbys) * 100)}% difference is <strong>ranking-relevant</strong> when comparing mortality-focused interventions to non-mortality wellbeing programs.` : 'With neutral = 0, all life satisfaction above zero represents positive welfare.'}</p>
+      `;
+
+      // Update scale visual
+      scaleNumbers.forEach((num, index) => {
+        if (index === np) {
+          num.classList.add('neutral');
+        } else {
+          num.classList.remove('neutral');
+        }
+      });
+    }
+
+    slider.addEventListener('input', updateNeutralPoint);
+    updateNeutralPoint();
+
+    // WELLBY Calculator
+    const effectSizeInput = document.getElementById('effectSize');
+    const durationInput = document.getElementById('duration');
+    const recipientsInput = document.getElementById('recipients');
+    const programCostInput = document.getElementById('programCost');
+    const totalWellbysDisplay = document.getElementById('totalWellbys');
+    const costPerWellbyDisplay = document.getElementById('costPerWellby');
+
+    function updateCalculator() {
+      const effectSize = parseFloat(effectSizeInput.value) || 0;
+      const duration = parseFloat(durationInput.value) || 0;
+      const recipients = parseInt(recipientsInput.value) || 0;
+      const cost = parseFloat(programCostInput.value) || 0;
+
+      const totalWellbys = effectSize * duration * recipients;
+      const costPerWellby = totalWellbys > 0 ? cost / totalWellbys : 0;
+
+      totalWellbysDisplay.textContent = totalWellbys.toLocaleString(undefined, {maximumFractionDigits: 0});
+      costPerWellbyDisplay.textContent = '$' + costPerWellby.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    }
+
+    [effectSizeInput, durationInput, recipientsInput, programCostInput].forEach(input => {
+      input.addEventListener('input', updateCalculator);
+    });
+    updateCalculator();
+
+    // Smooth scroll for TOC links
+    document.querySelectorAll('.sidebar-toc a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').slice(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.pushState(null, null, '#' + targetId);
+        }
+      });
+    });
+
+    // Highlight active section in TOC on scroll
+    const sections = document.querySelectorAll('.section-heading[id]');
+    const tocLinks = document.querySelectorAll('.sidebar-toc a');
+
+    function updateActiveToc() {
+      let current = '';
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 100) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      tocLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveToc);
+    updateActiveToc();
+
+    // TOC Toggle
+    const tocToggle = document.getElementById('tocToggle');
+    const sidebarToc = document.getElementById('sidebarToc');
+
+    // Check localStorage for saved preference
+    const tocHidden = localStorage.getItem('tocHidden') === 'true';
+    if (tocHidden) {
+      sidebarToc.classList.add('collapsed');
+      tocToggle.classList.add('hidden-toc');
+    }
+
+    tocToggle.addEventListener('click', function() {
+      sidebarToc.classList.toggle('collapsed');
+      tocToggle.classList.toggle('hidden-toc');
+      localStorage.setItem('tocHidden', sidebarToc.classList.contains('collapsed'));
+    });
+
+    // Footnote hover tooltips
+    document.querySelectorAll('a.footnote').forEach(footnote => {
+      const href = footnote.getAttribute('href');
+      if (href && href.startsWith('#fn')) {
+        const fnId = href.slice(1); // remove #
+        const fnElement = document.getElementById(fnId);
+        if (fnElement) {
+          // Create tooltip element
+          const tooltip = document.createElement('span');
+          tooltip.className = 'footnote-tooltip';
+          tooltip.innerHTML = fnElement.innerHTML;
+          footnote.appendChild(tooltip);
+
+          // Adjust position if near right edge
+          footnote.addEventListener('mouseenter', function() {
+            const rect = tooltip.getBoundingClientRect();
+            if (rect.right > window.innerWidth - 20) {
+              tooltip.classList.add('tooltip-left');
+            } else {
+              tooltip.classList.remove('tooltip-left');
+            }
+          });
+        }
+      }
+    });
+  </script>
+
+  <!-- Hypothes.is embed for annotation (works without browser extension) -->
+  <script>
+    window.hypothesisConfig = function () {
+      return {
+        branding: {
+          appBackgroundColor: 'white',
+          ctaBackgroundColor: '#5a7a5a',
+          ctaTextColor: 'white',
+          selectionFontFamily: 'Georgia, serif'
+        },
+        openSidebar: false,
+        theme: 'clean'
+      };
+    };
+  </script>
+  <script async src="https://hypothes.is/embed.js"></script>
+</body>
+</html>

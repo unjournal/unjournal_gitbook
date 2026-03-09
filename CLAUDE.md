@@ -87,7 +87,7 @@ The Unjournal maintains a style guide for documentation consistency: https://doc
 
 Workshop scheduling and beliefs elicitation forms for the Pivotal Questions initiative.
 
-### Wellbeing Workshop (`pivotal-questions/workshop-form/`)
+### Wellbeing Workshop (`pivotal-questions/wellbeing-workshop/`)
 - **URL**: `https://uj-wellbeing-workshop.netlify.app`
 - **Netlify Site ID**: `37a0205b-5cee-42c2-9388-fe0c17b5e5c6`
 - **Netlify Account**: `daaronr` (nonprofit)
@@ -113,12 +113,37 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Color palette: `--bg: #f8f6f1`, `--sage: #5a7a5a`, `--brown: #8b5e3c`
 - Shared styles in `styles.css`, interactivity in `app.js` and `beliefs.js`
 
-#### Key Participants & Constraints (as of Feb 2026)
-- **Confirmed presenters**: Julian Jamison (PQ2), Dan Benjamin (paper), Miles Kimball (paper), Matt Lerner (practitioner), Peter Hickman (stakeholder)
-- **Recording constraints**: Matt Lerner and Peter Hickman require internal-only recording
+#### Form IDs
+- `workshop-availability`: `699c9edf50f843000883f05e` (9 submissions as of Mar 3)
+- `beliefs-elicitation`: `699c9edf50f843000883f060` (0 submissions — 1 anonymous test deleted Mar 3, data preserved in tracking doc)
+
+#### Key Participants & Constraints (as of Mar 2026)
+- **Confirmed date**: Monday, March 16, 2026, 11am-5pm ET (4pm-10pm UK)
+- **13 confirmed participants** (+ Alberto Prati async only)
+- **Confirmed presenters**:
+  - Julian Jamison (PQ2 / DALY-WELLBY conversion)
+  - Dan Benjamin (paper presentation or broader approach) + Miles Kimball (co-author)
+  - Matt Lerner, Founders Pledge (PQ1, Beliefs Elicitation, Practitioner panel)
+  - Peter Hickman, Coefficient Giving (Stakeholder 5-min + Practitioner panel)
+  - Caspar Kaiser (WELLBY barriers discussion — comparability, linearity, neutral point, concepts)
+- **Recording**: Lerner and Hickman initially wanted internal-only but both flexible per follow-up emails ("no real confidentiality concerns" — Lerner; "flexible" — Hickman)
 - **Matt Lerner (FP)**: Only available Mon-Thu after 11am ET, **after March 15**
-- **Alberto Prati**: On paternity leave from Mar 14 - offered to join later Spring session
-- **Caspar Kaiser**: Availability pending clarification (misunderstood "March ~3hrs" as "March 3rd")
+- **Alberto Prati**: On paternity leave from Mar 14 — async or Spring follow-up
+- **Caspar Kaiser**: Confirmed all day Mar 16-19
+- **Dan Benjamin suggested inviting**: Yaniv Reingewertz (implementing Benjamin et al. in Israel), Dimitry Taubinsky
+
+#### Workshop Next Steps (as of Mar 3)
+1. Send calendar holds / confirmations to all participants
+2. Finalize segment schedule and timing within the 11am-5pm ET window
+3. Invite Yaniv Reingewertz per Dan Benjamin's suggestion
+4. Set up async channel (Google Docs + Coda Q&A)
+5. Confirm recording approach with Lerner/Hickman
+6. Deploy latest live session pages
+
+#### Key Discussion Themes
+- **WELLBY skepticism from funders**: Hickman claims "WELLBY worth 0.1 DALYs", "can't trust self-reported wellbeing due to demand effects"
+- **Academic barriers**: Kaiser's 4 concerns (comparability, linearity, neutral point, right concepts)
+- **Experimenter demand effects**: Central tension — can we trust intervention effects on stated well-being?
 
 ### Cultivated Meat Workshop (`pivotal-questions/cm-workshop/`)
 - **URL**: `https://uj-cm-workshop.netlify.app`

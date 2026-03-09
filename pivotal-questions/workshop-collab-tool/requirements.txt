@@ -19,6 +19,7 @@ pandas>=2.0
 codaio>=0.7
 requests>=2.28
 
-# Google Docs (optional, V1 stretch)
-# google-api-python-client>=2.0
-# google-auth-oauthlib>=1.0
+# Google Docs
+google-api-python-client>=2.0
+google-auth-oauthlib>=1.0
+google-auth-httplib2>=0.1

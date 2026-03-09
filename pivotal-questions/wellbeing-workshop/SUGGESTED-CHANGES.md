@@ -1,260 +1,319 @@
-# Suggested Changes for Workshop Live Event Pages
+# Suggested Changes for Wellbeing Workshop Pages
 
-Based on content from:
-
-- [Benjamin Correspondence](https://docs.google.com/document/d/1k7RSMNivX4oa4i4nXkLNddtB54pS6IIHNoOCI-HFzwg/edit)
-- [FP/Lerner PQ Discussion](https://docs.google.com/document/d/1z-OgDLaKjVizmZEQUb5j2rfXRGMKCiFeEjBLT-pskpE/edit)
-- [Third doc](https://docs.google.com/document/d/1fKymxTxpgwx1SA9Qai0PZlhu1QA9mCEngCnrgJPIbBc/edit) - **NOTE: Too large to fetch; please review manually**
+Based on Hypothes.is annotations (reviewed March 6, 2026). Items tagged `#implement` have been addressed where straightforward; items below require discussion or user input.
 
 ---
 
-## Summary of Key Themes from Source Docs
+## linear-wellby-analysis.html (User currently editing)
 
-### From Benjamin Correspondence (Doc 1)
+### High Priority - Formula Notation
 
-- **Benjamin's core skepticism**: Single broad measures like "life satisfaction" are limited; people's choices suggest they care about more than just life satisfaction and happiness
-- **Proposed ideal approach**:
-  1. Collect comprehensive wellbeing data across multiple specific dimensions
-  2. Use stated-preference surveys to estimate how people trade off wellbeing aspects
-  3. Create individual-level "personal wellbeing indices" for policy evaluation
-  4. Apply calibration questions for interpersonal comparability
-- **Practical finding**: Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs (a feasible alternative) [note: we should doublecheck/give a citation here]
-- **Visual calibrations** offer partial scale-use corrections when direct questions prove too costly
-- **Israeli think tank implementation** is underway but funding-dependent
+**Annotation:** "I'm missing the definition of the indices i and t, as well as the definition of the variable LS"
+**Quote:** `ΔWELLBY(k) = Σi Σt δt (LSit(k) − LSit(0))`
 
-### From FP/Lerner Discussion (Doc 2)
+**Suggestion:** Add a notation key before or after the formula:
 
-- **Priority areas identified by Lerner**: Moral weights and DALY/WELLBY interconvertibility
-- **Three key problems**:
-  1. Justifiability of treating mental health measurements as interconvertible with DALYs remains unclear
-  2. Using different metrics produces "dramatically different cost-effectiveness estimates"
-  3. Linearizing DALY-WELLBY conversion may be inappropriate
-- **Primary Question**: Is the WELLBY a reliable measure considering comparability across 0-10 scale, reliability relative to other instruments, interpersonal/scale-dependent validity
-- **GiveWell context**: 2023 StrongMinds analysis using WELLBYs; funds IDinsight research on beneficiary preference trade-offs (2025)
-- **Key literature cited**: Cooper (2023) "New approaches to measuring welfare"; "The WELLBY: a new measure of social value and progress" (Nature 2024)
-- **Dan Benjamin suggested inviting**: Yaniv Reingewertz (implementing Benjamin et al. in Israel), Dimitry Taubinsky
+- `i` = individual (summing across people)
+- `t` = time period (summing across years)
+- `LS` = Life Satisfaction score (0-10 scale)
+- `δt` = discount factor for year t
+- `k` = intervention, `0` = counterfactual
+
+--> Implement, agreed
 
 ---
 
-## Suggested Changes by Page
+**Annotation:** "Is this really how it's depicted in the literature? It's a bit confusing... the incremental one seems to require knowledge of a counterfactual"
+**Quote:** Same formula
 
-### 1. Stakeholder Page (`live/stakeholder.html`)
+**Discussion needed:** The notation implies you need both intervention and counterfactual life satisfaction levels. In practice, RCT designs estimate the *difference* directly. Consider clarifying that this is the underlying conceptual model, while in practice we estimate `LS(k) - LS(0)` via experimental comparison.
 
-**Add context on what stakeholders are wrestling with:**
+--> OK, this clarification is helpful, but some detail and revision to the notation might also make this clearer
 
-```html
-<!-- After the "Stakeholder Presentations" section, add: -->
-<h3>Key Tensions to Address</h3>
-<p>Practitioners face concrete challenges when comparing interventions:</p>
-<ul>
-  <li><strong>Dramatic estimate divergence:</strong> Using DALYs vs WELLBYs can produce vastly different cost-effectiveness rankings for the same interventions (to do: insert a linked example here_</li>
-  <li><strong>Conversion uncertainty:</strong> No consensus on whether (log)linear conversion between measures is appropriate</li>
-  <li><strong>Mental health credibility:</strong> Can mental health interventions measured in WELLBYs be justifiably compared to physical health interventions measured in DALYs? (what was the source of this one -- doublecheck) </li>
-</ul>
-```
 
-**Decision:** [ ] Accept [ X] Modify [ ] Reject
+
+
 
 ---
 
-### 2. Paper Presentation Page (`live/paper.html`)
+### High Priority - Level-Based WELLBYs Explanation
 
-**Add Benjamin's broader critique to contextualize the presentation:**
+**Annotation:** "Might benefit from some further explanation. How could Level-based be used for comparing interventions -- that's not clear here. How many people are we summing over? How do 'dead people' enter into that?"
+**Quote:** "This second form requires a defined zero point (e.g., death = 0)"
 
-```html
-<!-- After "Key Topics" section, add: -->
-<h3>Benjamin's Broader View on Wellbeing Measurement</h3>
-<p>
-  Beyond scale-use heterogeneity, Benjamin's research program questions the reliance on single broad measures.
-  Their proposed "gold standard" involves:
-</p>
-<ul>
-  <li>Collecting data across multiple specific wellbeing dimensions</li>
-  <li>Using stated-preference surveys to weight how people trade off aspects</li>
-  <li>Creating individual-level "personal wellbeing indices"</li>
-  <li>Applying calibration for interpersonal comparisons</li>
-</ul>
-<p style="font-size: 13px; color: var(--text-light);">
-  <em>Practical note: Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs, offering a feasible shortcut. (citation needed here)</em>
-</p>
-```
+**Suggestion:** Add explanatory text or footnote:
 
-**Add suggested invitee note (if not already contacted):**
+- Level-based WELLBYs matter when comparing interventions that affect mortality (or birth rates)
+- Dead people contribute 0 to the sum (they have no life satisfaction)
+- This requires knowing the "neutral point" - the LS level equivalent to death
+- For interventions that don't change population, incremental and level-based approaches are equivalent
 
-> Benjamin suggested inviting Yaniv Reingewertz (implementing these methods in Israel) and Dimitry Taubinsky.
+--> This explanation is not particularly helpful, need ot reformulate
 
-**Decision:** [ ] Accept [X ] Modify [ ] Reject
 
-This needs more specificity -- it's vague. Consult their paper and correspondence again. I also don't see the discussion of the vignettes here.
 
 ---
 
-### 3. WELLBY Reliability Page (`live/wellby.html`)
+### Medium Priority - Make AI-Generated Note a Folding Box
 
-**Strengthen the discussion prompts with specific concerns from docs:**
+**Annotation:** "Make this a folding box"
+**Quote:** AI-Generated Content notice
 
-```html
-<!-- Replace or augment "Discussion Prompts" with: -->
-<h3>Discussion Prompts</h3>
-<ul>
-  <li>What are the strongest arguments for and against using linear WELLBYs?</li>
-  <li><strong>Comparability:</strong> Can we trust 0-10 life satisfaction to mean the same thing across populations?</li>
-  <li><strong>Reliability:</strong> How does WELLBY reliability compare to other mental health instruments?</li>
-  <li><strong>Interpersonal validity:</strong> What calibration approaches are most promising for cross-person comparisons?</li>
-  <li>How much precision is lost using simple approaches vs. Benjamin's "personal wellbeing indices"?</li>
-</ul>
-```
+**Suggestion:** Wrap in `<details><summary>` to reduce visual clutter while keeping the warning accessible.
 
-**Add GiveWell/IDinsight context:**
+--> Implement please 
 
-```html
-<!-- Add to "Related Resources" or new section: -->
-<h3>Institutional Context</h3>
-<ul>
-  <li><strong>GiveWell (2023):</strong> Conducted analysis of StrongMinds using WELLBYs</li>
-  <li><strong>IDinsight (2025):</strong> GiveWell-funded research on beneficiary preference trade-offs</li>
-  <li><strong>Open Philanthropy/Coefficient Giving:</strong> Limited public documentation of subjective wellbeing methodology</li>
-</ul>
-```
 
-**Decision:** [ ] Accept [ X] Modify [ ] Reject
-
-Add the statement "we believe that subjective well-being deserves more study." by GW with the link to [https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights)
 
 ---
 
-### 4. DALY/WELLBY Conversion Page (`live/daly.html`)
+### Medium Priority - WELLBY Origin Box
 
-**Add the specific range from literature:**
+**Annotation:** "Link//reference the original WELLBY statement. Add a folding box discussing and linking the origin of the WELLBY, alternative definitions, if any, and how it has been used."
+**Quote:** "Source: UK Green Book Wellbeing Guidance (HM Treasury, 2021/2024)"
 
-```html
-<!-- In the conversion table, update the "Direct estimates" row: -->
-<tr>
-  <td>Direct estimates</td>
-  <td>Literature-based conversion factors (e.g., 1 SD WELLBY ≈ X DALYs)</td>
-  <td>Wide range: 2-15 WELLBYs per DALY across studies</td>
-</tr>
-```
+**Suggestion:** Add collapsible box with:
 
-**Add note on linearity concern:**
+- Link to original UK Treasury Green Book
+- Frijters et al. (2020) original proposal
+- Note on alternative definitions (some use affect/experience measures rather than life satisfaction)
+- Brief history of adoption (HLI, Founders Pledge, etc.)
 
-```html
-<!-- Add callout box: -->
-<div class="focal-question" style="border-color: #e65100; background: #fff3e0;">
-  <h3>Key Methodological Concern</h3>
-  <p>
-    Linearizing the DALY-WELLBY conversion may be inappropriate. The relationship may vary by:
-  </p>
-  <ul style="margin-top: 8px; font-size: 14px;">
-    <li>Starting baseline (median vs. lower percentiles)</li>
-    <li>Domain (mental health vs. physical health vs. consumption)</li>
-    <li>Population characteristics</li>
-  </ul>
-</div>
-```
-
-**Add literature references:**
-
-```html
-<!-- Add to Related Resources: -->
-<h3>Key Literature</h3>
-<ul>
-  <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1475-5890.12333" target="_blank">Cooper (2023): "New approaches to measuring welfare"</a></li>
-  <li><a href="https://www.nature.com/articles/s41599-024-03229-5" target="_blank">"The WELLBY: a new measure of social value and progress" (Nature 2024)</a></li>
-</ul>
-```
-
-**Decision:** [ ] Accept [X ] Modify [ ] Reject  
-Good but also provide specific and immediate citations and links to claims like "Wide range: 2-15 WELLBYs per DALY across studies".
+--> AGREE, implement this
 
 ---
 
-### 5. Practitioner Panel Page (`live/practitioner.html`)
+### Low Priority - Text Fixes
 
-**Add specific practitioner questions from Lerner discussion:**
+1. **Annotation:** "quick signup for a free account to post"
+  - Current text may need minor clarification
 
-```html
-<!-- Replace or augment "Key Questions" with: -->
-<h3>Key Questions</h3>
-<ul>
-  <li><strong>For now:</strong> What conversion factor or approach should funders use today when comparing WELLBY-measured and DALY-measured interventions?</li>
-  <li><strong>For research:</strong> What data collection would most reduce the uncertainty around mental health CEA?</li>
-  <li><strong>On communication:</strong> How should organizations communicate when their estimates dramatically diverge based on metric choice?</li>
-  <li><strong>On credibility:</strong> When can we justifiably treat mental health improvements as comparable to mortality/morbidity reductions?</li>
-</ul>
-```
+1. **Annotation:** "Adjust this to 'if you compare interventions that affect mortality (or, in some accounting, birth rates)'"
+  - Update "if you compare to mortality-preventing interventions" to be more precise
+2. **Annotation:** "Or 'for interventions that change mortality rates' perhaps?"
+  - Related to point above - clarify when level-based matters
 
-**Update recording notice (per CLAUDE.md notes about Lerner/Hickman flexibility):**
+--> AGREE, implement this
 
-```html
-<!-- Replace restricted-notice with softer version: -->
-<div class="restricted-notice" style="background: #e8f5e9; border-color: #a5d6a7; border-left-color: #4caf50;">
-  <strong>Recording Note:</strong> Both panelists have indicated flexibility on recording.
-  We expect to record with adjustments based on participant preferences.
-  Sensitive organizational details may be discussed off-record.
-</div>
-```
 
-**Decision:** [ X] Accept [ ] Modify [ ] Reject
 
 ---
 
-### 6. Main Index Page (`live/index.html`)
+### Discussion Items (Not Actionable Without Research)
 
-**No major changes needed, but consider:**
+**Annotation:** "Obviously this notation is extremely crude! I wonder if important nuance is lost here"
+**Quote:** `ΔU(3→4) = ΔU(7→8)`
 
-- Update the "privacy notice" to reflect the softer recording stance
-- Add link to third Google Doc once you determine which segment it belongs to
+**Response:** This is intentionally simplified to illustrate the cardinality assumption. The page already notes this is controversial and cites evidence against strict cardinality. No change needed unless user wants more nuance added.
 
-**Decision:** [ X] Accept [ ] Modify [ ] Reject
+--> This misses the point, you're writing something mathematically as if it's a function, but the argument to the function is not precise
 
----
 
-## Content for Google Docs (Workshop Collaborative Notes)
-
-If you have Google Docs for each segment, consider adding these discussion starters:
-
-[We do -- see the context]
-
-### Stakeholder Segment Doc
-
-- **Question for funders:** When your cost-effectiveness estimates diverge dramatically based on WELLBY vs DALY methodology, how do you currently handle this?
-- **Question for researchers:** What data would you need to see to change your current approach?
-
-### Paper Presentation Doc
-
-- **Pre-discussion prompt:** How feasible is it to implement Benjamin's "personal wellbeing indices" approach in practice?
-- **Follow-up:** Are importance ratings (0.8-0.9 correlation with stated preferences) good enough?
-
-### WELLBY Reliability Doc
-
-- **Caspar Kaiser's 4 concerns** (from CLAUDE.md): comparability, linearity, neutral point, concepts
-- **Central tension:** Can we trust intervention effects on stated well-being given potential experimenter demand effects?
-
-[These should be fleshed out and explained in more detail]
-
-### DALY Conversion Doc
-
-- **Hickman claim to address:** "WELLBY worth 0.1 DALYs" - what evidence supports or refutes this?
-- **Range discussion:** Why do estimates span 2-15 WELLBYs per DALY? What drives this variation?
 
 ---
 
-## Items I Couldn't Review
+## live/results.html
 
-- **Third Google Doc** (`1fKymxTxpgwx1SA9Qai0PZlhu1QA9mCEngCnrgJPIbBc`): Too large to fetch automatically. Please review manually and let me know if there's content that should be incorporated.
+**Annotation:** "Have this link to the *specific* linked metaculus forecast, not just the general community page. But we should also embed the more detailed belief elicitation that is already here."
 
-[I had added it as a file -- why wasn't this integrated?]
+**Status:** Results page was removed from live/index.html navigation (to avoid anchoring). Consider whether this page should be updated or remain hidden until after workshop.  
+  
+--> right, we don't want to show the results because we want to avoid anchoring. so maybe this bit should be removed/adjusted  
 
----
-
-## Next Steps
-
-1. Review each suggested change above
-2. For accepted changes, I can directly edit the HTML files
-3. For Google Doc content, you'll need to add manually (or share specific docs for me to suggest exact text placement)
-4. Review the third Google Doc manually and flag any additional content to incorporate
 
 ---
 
-*Generated: March 4, 2026*
+## live/daly.html
+
+**Annotation (from beliefs.html):** "It might be too many questions on conversion here if the workshop's not focusing on conversion. We might want to move some of these more detailed questions to a second outlinked page."
+
+**Discussion:** Consider whether DALY conversion questions should be on a separate "advanced" page if the workshop is primarily about WELLBY reliability.
+
+--> Not for the advanced; it's just a different subject, And we'll be building that page soon. you can also link to the live page for now -- [https://uj-wellbeing-workshop.netlify.app/live/daly](https://uj-wellbeing-workshop.netlify.app/live/daly)
+
+
+
+---
+
+## beliefs.html
+
+**Annotation:** "I'd like to link a 'calibrate your judgment' tool here over a very quick exercise."
+
+**Status:** Already added - link to Clearer Thinking calibration tool is in the credible interval explanation box.
+
+---
+
+## General - Remaining Discussion Items
+
+### From Benjamin Correspondence Doc
+
+- **"Practical finding: Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs"** — needs citation verification
+
+--> yes, can you find the citation to this
+
+
+
+- **Visual calibrations as partial scale-use corrections** — could be added to methodology discussion
+
+---
+
+--> proposed some addition here
+
+
+
+- **Israeli think tank implementation** — mention as real-world application?
+
+--> yes, if you have enough context. but the point of this is we're going to have a presentation illustrating work trying to implement the Benjamin methodology in some way, which will give us a sense of what's possible and the limitations  
+
+
+### From FP/Lerner Discussion Doc
+
+- **"Caspar Kaiser's 4 concerns: comparability, linearity, neutral point, concepts"** — could structure WELLBY reliability discussion around these  
+what do you wanna do with this?
+
+---
+
+## Implemented Changes (March 6, 2026)
+
+The following have been implemented across pages:
+
+- ✅ Removed "or submit them via beliefs elicitation form" from Q&A sections (all live pages)
+- ✅ Added workshop date to live/index.html header
+- ✅ Added Resources nav link to live/index.html
+- ✅ Removed "View Aggregated Results" link (anchoring concern)
+- ✅ Updated "structured Q&A (Coda)" reference
+- ✅ Added "linear" before WELLBY in beliefs.html questions
+- ✅ Privacy notice already a folding box (beliefs.html)
+- ✅ "and key arguments" already added (beliefs.html)
+- ✅ Submission type dropdown already added (beliefs.html)
+- ✅ Stakeholder segment updated to ~35 min with CG/FP ~10 min each
+- ✅ Stakeholder subtitle broadened from "WELLBY vs DALY" to "wellbeing metrics"
+- ✅ Evaluator page mentions PQ evaluators
+- ✅ Most index.html (main) changes already implemented
+- ✅ About.html changes already implemented ("experts and stakeholders", etc.)
+
+### Implemented March 6, 2026 (Session 2)
+
+- ✅ **Formula notation key added** - Collapsible section defining i, t, LS, δ, k with note about RCT estimation
+- ✅ **AI-Generated notice made collapsible** - Now a `<details>` element to reduce visual clutter
+- ✅ **WELLBY origin box added** - Collapsible section with Frijters et al. (2020), UK Treasury link, alternative definitions, organizational adoption list
+- ✅ **Mortality comparison text fixed** - Changed to "interventions that affect mortality (or, in some accounting, birth rates)"
+- ✅ **Level-based explanation added** - New collapsible section explaining when level-based accounting matters
+- ✅ **ΔU notation improved** - Changed from `ΔU(3→4)` to proper `U(LS=4) − U(LS=3)` format with explanation
+- ✅ **Results page anti-anchoring notice** - Added prominent pre-workshop placeholder warning
+- ✅ **Metaculus links clarified** - Added note that specific question links will be added once posted
+
+### Citation found for SUGGESTED-CHANGES.md item
+
+**"Importance ratings correlate 0.8-0.9 with stated-preference tradeoffs"** → This refers to:
+- Benjamin, Heffetz, Kimball & Szembrot (2014). "Beyond Happiness and Satisfaction: Toward Well-Being Indices Based on Stated Preference." *American Economic Review*, 104(9): 2698-2735.
+- The 0.81 correlation is between coefficient pairs from personal ("you") vs policy ("everyone") scenarios.
+
+---
+
+### Implemented March 6, 2026 (Session 3)
+
+- ✅ **live/index.html: "(Google Doc)" now linked** - Added hyperlink to collaborative notes Google Doc
+- ✅ **"Reporting function" definition added** - Tooltip explaining f<sub>i</sub>(·) as mapping from true welfare to reported LS
+- ✅ **"Instrument" definition added** - Tooltip explaining survey instrument (wording, scale, anchors, mode)
+- ✅ **"Latent distribution" definition added** - Tooltip explaining unobserved underlying welfare distribution
+- ✅ **30-50% bias reduction citation added** - Benjamin et al. (2023/2024) citation in comparison table
+- ✅ **Calculator effect size clarified** - Added explanatory text and tooltip with typical effect size ranges
+
+---
+
+### Major Revision March 6, 2026 (Session 4) — Deep Research Integration
+
+**Scope:** Substantial revision of `linear-wellby-analysis.html` integrating ChatGPT deep research report addressing 75+ Hypothes.is annotations.
+
+**Structural Changes:**
+- ✅ **12-section structure** — Replaced 9-section layout with workshop-neutral 12-section structure:
+  1. The decision problem
+  2. Definitions & notation
+  3. Validity & gold standards
+  4. Assumptions & failures
+  5. Identification critique (Bond & Lang)
+  6. Response times (Liu & Netzer)
+  7. Evidence
+  8. Scale-use heterogeneity
+  9. Neutral point & mortality
+  10. Metrics & translation
+  11. Worked examples
+  12. What frameworks do
+  + Workshop prompts & References
+
+- ✅ **Legacy version preserved** — Created `linear-wellby-analysis-legacy.html` with ARCHIVED notice for rollback
+
+**Interactive Modules:**
+- ✅ **Transformation sensitivity demo** — Slider for transformation curvature (θ), toggle between level-based vs change-based comparison; shows how rankings can flip under monotone transformations (Bond & Lang visualization)
+- ✅ **Shifter/stretcher calibration demo** — Two-population panels with shift (a) and stretch (b) sliders; shows why fixed effects only remove shifts, not stretches (Benjamin et al. method)
+- ✅ **Enhanced neutral point demo** — Slider for neutral point LS₀ with explicit formulas; shows when neutral point matters (mortality) vs cancels (incremental changes)
+
+**Mermaid Diagrams:**
+- ✅ **Measurement-to-decision pipeline** — Flowchart from intervention → study design → measured outcomes → translation layer → common currency → decision
+- ✅ **Time structure/discounting sequence** — Sequence diagram showing baseline → follow-up → later follow-ups with notes on persistence/decay assumptions
+
+**Content Improvements:**
+- ✅ **Rigorous definitions** — Added formal notation section with i, t, k, LS, δ, u definitions
+- ✅ **Bond & Lang expanded** — Full explanation of "non-identified," "latent distribution," monotone transformations
+- ✅ **Workshop-neutral framing** — Changed "Practical Recommendations" to "What frameworks actually do" (descriptive)
+- ✅ **Worked examples** — 4 examples showing where assumptions bite (same instrument, different instruments, mortality, stretch-factor differences)
+- ✅ **Proper citations** — 13 footnotes with hover tooltips; references to primary sources
+
+---
+
+### Implemented March 7, 2026 (Session 5) — Hypothes.is Annotation Review
+
+**Files modified:** `linear-wellby-analysis.html`, `daly-wellby-conversion.html`
+
+**Changes to linear-wellby-analysis.html:**
+- ✅ **Mermaid diagrams enlarged** — Increased CSS sizing (min-width: 600px, font-size: 16px); added mobile-responsive breakpoint
+- ✅ **Diagram explanations added** — Added "diagram-intro" text before each Mermaid diagram; added collapsible "How to read this diagram" section for the measurement-to-decision pipeline
+- ✅ **Focal question framing clarified** — Changed from "This workshop's focal question" to "A focal question for this workshop"; explicitly acknowledged DALY/QALY, capability approaches, and monetary valuation as alternatives
+- ✅ **Standard LS questions expanded** — Added Cantril ladder question text alongside OECD single-item; added note about difference between satisfaction vs. ladder framing
+- ✅ **Practical recommendations prompt added** — Added workshop prompt #6 asking "What should funders do now, given current evidence and uncertainty?"
+
+**Changes to daly-wellby-conversion.html:**
+- ✅ **Plant (2025) citation title fixed** — Changed from hallucinated "A Happy Possibility: Rational Behavior and the Cardinality Thesis" to actual title "A Happy Possibility About Happiness Scales: An Exploration of the Cardinality Assumption"
+
+**Additional changes (Session 5 continued):**
+- ✅ **Workshop goals expanded** — Changed "Workshop goal" to "Workshop goals" with three numbered objectives: (1) clarity about assumptions, (2) share information and synthesize expertise, (3) generate practical insights and actionable recommendations
+- ✅ **LMIC context added** — Added "especially in low- and middle-income countries (LMICs)" to opening paragraph about comparing interventions
+- ✅ **linear-wellby-analysis-technical.html synchronized** — Applied same updates: focal question clarification, workshop goals, LMIC context, Cantril ladder question
+
+---
+
+### Implemented March 9, 2026 (Session 6) — Demo Fixes & Literature Citations
+
+**Files modified:** `linear-wellby-analysis.html`
+
+**Transformation Sensitivity Demo fixed:**
+- ✅ **Demo data redesigned** — Changed intervention data so rankings can actually flip under transformation
+  - Old: B always won (larger raw effect, same post levels as A)
+  - New: A has smaller raw effect at HIGH levels (6-8), B has larger raw effect at LOW levels (2-5)
+  - Result: At θ=1 B wins (effect=2 vs 1); at θ≈1.5+ A wins (convex transformation amplifies high-level gains)
+- ✅ **Demo instruction text added** — Clear "Try it:" prompt explaining how to see the flip
+
+**Literature citations added:**
+- ✅ **Shifters vs. stretchers footnote [11]** — Added citation to Benjamin et al. (2012, 2014, 2023), Oswald (2008), Kaiser & Oswald (2022)
+- ✅ **Michael Plant footnotes [12, 13]** — Added Plant (2025) cardinality paper and HLI methodology citations
+- ✅ **HLI expanded** — Added "(Plant et al.)" and footnote link in organizational adoption list
+
+**Text corrections from annotations:**
+- ✅ **"The key critique" → "A key critique"** — Changed in TOC and section heading (subjective framing)
+- ✅ **"biasing" → "potentially biasing"** — More accurate hedging
+- ✅ **"corner case" → "rare edge case"** — Clearer terminology
+- ✅ **"MH" → "mental health"** — Expanded abbreviation in Mermaid diagram
+- ✅ **"cancels" explained** — Added footnote [14] with algebraic explanation of why neutral point cancels for incremental comparisons
+- ✅ **LMIC study examples footnote [15]** — Added Haushofer & Shapiro (2016, 2018) and StrongMinds examples
+
+**Changes to daly-wellby-conversion.html:**
+- ✅ **AI-Generated notice made collapsible** — Converted prominent warning box to `<details>` element per annotation request
+
+---
+
+**Note on annotation coverage:** Some annotations reference text from an older deployed version (e.g., "This workshop's focal question is not 'which countries are happier'", "bounded ordinal categories", "many workshop annotations objected") that no longer exists in current files. These items were likely addressed in earlier revision sessions.
+
+---
+
+*Last updated: March 9, 2026*

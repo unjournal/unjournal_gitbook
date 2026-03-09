@@ -22,7 +22,6 @@ Key challenges identified by Founders Pledge (Lerner):
 • Linearizing DALY-WELLBY conversion may be inappropriate
 
 Key challenge from Coefficient Giving (Hickman):
-[SKIP? Skepticism about WELLBY reliability: claimed "WELLBY worth 0.1 DALYs" [This is not 'skepticism about reliability' -- adjust or cut this]]
 • Concern about experimenter demand effects in self-reported wellbeing data
 
 These practical challenges frame the workshop's focal questions.
