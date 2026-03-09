@@ -889,11 +889,11 @@ flowchart LR
         </div>
       </details>
 
-      <details>
+      <details id="tech-defs">
         <summary><strong>Technical definitions (reporting function, instrument, latent distribution)</strong></summary>
         <div class="details-content">
           <p><strong>Instrument:</strong> The specific measurement tool—exact question wording, response format (0-10 vs 1-7), anchors, translation, survey mode.</p>
-          <p><strong>Reporting function:</strong> $f_i(\cdot)$ mapping latent welfare to reported score: $LS_{it} = f_i(u_{it}) + \varepsilon_{it}$</p>
+          <p><strong>Reporting function:</strong> The internal process by which a person translates their true wellbeing ($u$) into a number on the survey scale. Formally: $LS_{it} = f_i(u_{it}) + \varepsilon_{it}$. Different people may have different reporting functions—one person's "7" might correspond to another's "5" for the same underlying welfare level. This is the core of <em>scale-use heterogeneity</em>.</p>
           <p><strong>Latent distribution:</strong> The unobserved underlying welfare distribution. Since we only see reported scores, conclusions can depend on assumptions about this hidden distribution.</p>
         </div>
       </details>
@@ -952,7 +952,7 @@ sequenceDiagram
       </p>
 
       <p>
-        For wellbeing interventions—especially psychosocial programs that may explicitly reframe cognition—response shift is not a rare edge case. If treatment changes the reporting function $f_i(\cdot)$, observed $\Delta LS$ mixes "true welfare change" with "scale change," potentially biasing the WELLBY estimate in either direction.
+        For wellbeing interventions—especially psychosocial programs that may explicitly reframe cognition—response shift is not a rare edge case. If treatment changes the <a href="#tech-defs" style="color: var(--brown);">reporting function</a> $f_i(\cdot)$, observed $\Delta LS$ mixes "true welfare change" with "scale change," potentially biasing the WELLBY estimate in either direction.
       </p>
 
       <!-- Section 4: Bond & Lang -->
@@ -1163,7 +1163,7 @@ sequenceDiagram
           <tr>
             <td class="metric-name">DALY/QALY</td>
             <td>Standardized; large evidence bases; direct mortality link</td>
-            <td>May miss non-health welfare; MH weights contentious</td>
+            <td>May miss non-health welfare; mental health disability weights contentious</td>
           </tr>
           <tr>
             <td class="metric-name">Calibrated WELLBY</td>
