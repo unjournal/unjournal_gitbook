@@ -84,6 +84,19 @@ Consistent across all workshops:
 ```
 Fonts: Source Serif 4 (headings), DM Sans (body)
 
+### Code Patterns
+
+**Footnotes with hover tooltips:**
+Workshop pages use inline footnote references with hover tooltips AND bottom footnote lists. **These MUST stay in sync.** When editing footnotes:
+1. The `<span class="footnote-tooltip">` content must exactly match the `<li id="fnN">` text
+2. Update both locations when changing footnote text
+3. Pattern: `<a href="#fn1" class="footnote">[1]<span class="footnote-tooltip">Same text here</span></a>` ... `<li id="fn1">Same text here</li>`
+
+**Hypothes.is integration:**
+All workshop pages include:
+1. Visible banner after nav: "💬 Annotate this page — select any text to comment via Hypothes.is"
+2. Embed script before `</body>`: `<script async src="https://hypothes.is/embed.js"></script>`
+
 ## Workshop Collab Tool
 
 Python CLI for managing Coda workspaces (`workshop-collab-tool/`):
