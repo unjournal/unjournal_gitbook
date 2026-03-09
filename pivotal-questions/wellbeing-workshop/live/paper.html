@@ -221,6 +221,11 @@
     </ul>
   </nav>
 
+  <!-- Hypothes.is Annotation Banner -->
+  <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
+    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a> <span style="color: #888; font-size: 12px;">(free account to post; anyone can read)</span>
+  </div>
+
   <!-- Main Content -->
   <main class="prose-container wide">
     <div class="segment-header">
@@ -311,11 +316,6 @@
       </ol>
     </div>
 
-    <!-- Hypothes.is Annotation Prompt -->
-    <details style="margin-top: 32px; font-size: 13px; color: var(--text-light);">
-      <summary style="cursor: pointer;">💬 <strong>Annotate this page</strong> with Hypothes.is</summary>
-      <p style="margin: 8px 0 0 20px; line-height: 1.5;">Select any text and click "Annotate" in the popup, or use the sidebar (▶) on the right. <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: var(--sage);">Free account</a> required to post; anyone can read annotations.</p>
-    </details>
   </main>
 
   <!-- Footnote tooltip positioning script -->
@@ -334,5 +334,6 @@
       }
     });
   </script>
+  <script async src="https://hypothes.is/embed.js"></script>
 </body>
 </html>
