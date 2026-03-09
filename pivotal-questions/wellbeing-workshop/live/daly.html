@@ -243,8 +243,8 @@
   <main class="prose-container wide">
     <div class="segment-header">
       <div class="segment-meta">
-        <span class="segment-number">SEGMENT 5</span>
-        <span class="segment-duration">25 minutes</span>
+        <span class="segment-number">SEGMENT 3</span>
+        <span class="segment-duration">25 minutes (12:15–12:40 PM ET)</span>
       </div>
     </div>
 
@@ -271,7 +271,7 @@
     <h2>Overview</h2>
     <p>
       This segment addresses the practical challenge of comparing interventions measured in different
-      units. When funders want to compare StrongMinds (measured in WELLBYs) to malaria bednets
+      units. When funders want to compare StrongMinds<a href="#fn1" class="footnote" id="fnref1">[1]<span class="footnote-tooltip">StrongMinds: group-based interpersonal therapy for depression in sub-Saharan Africa. Cost-effectiveness estimates range from highly cost-effective to uncertain depending on WELLBY valuation method.</span></a> (measured in WELLBYs) to malaria bednets<a href="#fn2" class="footnote" id="fnref2">[2]<span class="footnote-tooltip">Malaria bednets are GiveWell's top-recommended intervention, with well-established DALY impact estimates. They serve as a common benchmark for comparing other interventions.</span></a>
       (measured in DALYs), what conversion factor should they use?
     </p>
 
@@ -286,17 +286,17 @@
       </thead>
       <tbody>
         <tr>
-          <td>SD-equivalence</td>
+          <td>SD-equivalence<a href="#fn3" class="footnote" id="fnref3">[3]<span class="footnote-tooltip">Standard deviation equivalence: treating 1 SD in WELLBY as equivalent to 1 SD in DALY. Simple but assumes distributions have comparable meaning, which may not hold.</span></a></td>
           <td>1 SD WELLBY ≈ 1 SD DALY</td>
           <td>Assumes comparable distributions</td>
         </tr>
         <tr>
           <td>Direct estimates</td>
-          <td>Literature-based conversion factors</td>
+          <td>Literature-based conversion factors<a href="#fn4" class="footnote" id="fnref4">[4]<span class="footnote-tooltip">Estimates vary widely: Frijters et al. suggest ~6 WELLBYs per DALY averted; some funders use higher values. Context and methodology drive differences.</span></a></td>
           <td>Wide range (2-15 WELLBYs per DALY)</td>
         </tr>
         <tr>
-          <td>Stated preference</td>
+          <td>Stated preference<a href="#fn5" class="footnote" id="fnref5">[5]<span class="footnote-tooltip">Directly asking people: "Would you trade X improvement in life satisfaction for Y years of life?" Vulnerable to framing effects—how questions are posed affects answers.</span></a></td>
           <td>Survey-based trade-off elicitation</td>
           <td>Framing effects, hypothetical bias</td>
         </tr>
@@ -311,12 +311,33 @@
       <li>What data would most reduce uncertainty?</li>
     </ul>
 
+    <h3>Relevant Pivotal Questions</h3>
+    <p>This discussion directly addresses several of our <a href="../beliefs.html" style="color: var(--sage);">Pivotal Questions</a>:</p>
+    <ul>
+      <li><strong>DALY_01:</strong> What is the best numerical conversion or mapping between WELLBYs and DALYs?</li>
+      <li><strong>DALY_02:</strong> Should the conversion factor vary by intervention domain?</li>
+      <li><strong>DALY_03:</strong> How much does the conversion factor matter for real funding decisions?</li>
+      <li><strong>DALY_05:</strong> What empirical data would most reduce WELLBY-DALY uncertainty?</li>
+    </ul>
+
     <h3>Key Literature</h3>
     <ul>
-      <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1475-5890.12333" target="_blank" rel="noopener" style="color: var(--sage);">Cooper (2023): "New approaches to measuring welfare"</a> (Fiscal Studies)</li>
-      <li><a href="https://www.nature.com/articles/s41599-024-03229-5" target="_blank" rel="noopener" style="color: var(--sage);">"The WELLBY: a new measure of social value and progress"</a> (Nature, 2024)</li>
+      <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1475-5890.12333" target="_blank" rel="noopener" style="color: var(--sage);">Cooper (2023): "New approaches to measuring welfare"</a><a href="#fn6" class="footnote" id="fnref6">[6]<span class="footnote-tooltip">Cooper's review in Fiscal Studies surveys methods for measuring welfare beyond GDP, including subjective wellbeing and capability approaches. Essential background for understanding WELLBY's theoretical foundations.</span></a> (Fiscal Studies)</li>
+      <li><a href="https://www.nature.com/articles/s41599-024-03229-5" target="_blank" rel="noopener" style="color: var(--sage);">"The WELLBY: a new measure of social value and progress"</a><a href="#fn7" class="footnote" id="fnref7">[7]<span class="footnote-tooltip">This Nature article by Frijters et al. presents the WELLBY framework and its application to policy evaluation. Key reference for understanding how WELLBYs are intended to be used.</span></a> (Nature, 2024)</li>
     </ul>
     <p style="font-size: 13px; color: var(--text-light);"><em>Note: The "2-15 WELLBYs per DALY" range cited in the table requires verification; sources vary.</em></p>
+
+    <!-- Pre-Read Document -->
+    <div style="background: linear-gradient(135deg, #f4f7fe 0%, #e8eef8 100%); border: 2px solid #5a7aaa; border-radius: 10px; padding: 16px 20px; margin: 24px 0;">
+      <h3 style="font-family: var(--font-serif); font-size: 16px; color: var(--dark); margin: 0 0 8px;">📄 Background: DALY↔WELLBY Conversion</h3>
+      <p style="font-size: 14px; color: var(--text); margin: 0 0 10px; line-height: 1.5;">
+        This document maps the key conversion approaches: UK Green Book (~7:1), empirical estimates (5-10 WELLBYs per QALY), and the conceptual issues underlying different methods.
+      </p>
+      <a href="../daly-wellby-conversion.html" style="display: inline-block; background: #5a7aaa; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">
+        View Analysis →
+      </a>
+      <p style="font-size: 12px; color: var(--text-light); margin: 10px 0 0;"><em>AI-assisted draft (Mar 2026) — <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7aaa;">annotate</a> errors directly.</em></p>
+    </div>
 
     <!-- Collaborative Notes (Google Doc) -->
     <div class="embed-section">
@@ -336,7 +357,7 @@
     <!-- Q&A Note -->
     <div class="embed-section">
       <h3>Questions & Comments</h3>
-      <p style="font-size: 14px; color: var(--text);">Add questions and comments directly to the <strong>collaborative notes</strong> above, or submit them via the <a href="../beliefs.html" style="color: var(--sage);">beliefs elicitation form</a>.</p>
+      <p style="font-size: 14px; color: var(--text);">Add questions and comments directly to the <strong>collaborative notes</strong> above.</p>
     </div>
 
     <!-- Related PQs -->
@@ -355,10 +376,41 @@
       <a href="wellby.html" class="nav-arrow">
         ← WELLBY Reliability
       </a>
-      <a href="../beliefs.html" class="nav-arrow">
-        Next: Beliefs Elicitation →
+      <a href="paper.html" class="nav-arrow">
+        Next: Paper Presentation →
       </a>
     </div>
+
+    <!-- Footnotes Section -->
+    <div class="footnotes-section">
+      <h4>Notes</h4>
+      <ol>
+        <li id="fn1">StrongMinds: group-based interpersonal therapy for depression in sub-Saharan Africa. Cost-effectiveness estimates range from highly cost-effective to uncertain depending on WELLBY valuation method.</li>
+        <li id="fn2">Malaria bednets are GiveWell's top-recommended intervention, with well-established DALY impact estimates. They serve as a common benchmark for comparing other interventions.</li>
+        <li id="fn3">Standard deviation equivalence: treating 1 SD in WELLBY as equivalent to 1 SD in DALY. Simple but assumes distributions have comparable meaning, which may not hold.</li>
+        <li id="fn4">Estimates vary widely: Frijters et al. suggest ~6 WELLBYs per DALY averted; some funders use higher values. Context and methodology drive differences.</li>
+        <li id="fn5">Stated preference: directly asking people trade-off questions. Vulnerable to framing effects—how questions are posed affects answers.</li>
+        <li id="fn6">Cooper's review in Fiscal Studies surveys methods for measuring welfare beyond GDP, including subjective wellbeing and capability approaches.</li>
+        <li id="fn7">Frijters et al. in Nature present the WELLBY framework and its application to policy evaluation. Key reference for the intended use of WELLBYs.</li>
+      </ol>
+    </div>
   </main>
+
+  <!-- Footnote tooltip positioning script -->
+  <script>
+    document.querySelectorAll('a.footnote').forEach(footnote => {
+      const tooltip = footnote.querySelector('.footnote-tooltip');
+      if (tooltip) {
+        footnote.addEventListener('mouseenter', function() {
+          const rect = tooltip.getBoundingClientRect();
+          if (rect.right > window.innerWidth - 20) {
+            tooltip.classList.add('tooltip-left');
+          } else {
+            tooltip.classList.remove('tooltip-left');
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>

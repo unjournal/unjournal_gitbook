@@ -225,13 +225,16 @@
   <main class="prose-container wide">
     <div class="segment-header">
       <div class="segment-meta">
-        <span class="segment-number">SEGMENT 2</span>
-        <span class="segment-duration">25 minutes</span>
+        <span class="segment-number">SEGMENT 5</span>
+        <span class="segment-duration">30 minutes (1:35–2:05 PM ET)</span>
       </div>
     </div>
 
     <div class="speaker-info">
       <p><strong>Speakers:</strong> Dan Benjamin (UCLA/NBER), Miles Kimball (CU Boulder)</p>
+      <p style="margin-top: 4px; font-size: 13px; color: var(--text-light);">
+        Authors will share an outline of their presentation and invitation for feedback in advance. Participants are encouraged to pre-read and pre-ask questions.
+      </p>
     </div>
 
     <!-- Paper Link -->
@@ -242,17 +245,17 @@
 
     <h2>Overview</h2>
     <p>
-      This segment presents the core research findings from Benjamin et al. on scale-use heterogeneity
+      This segment presents the core research findings from Benjamin et al.<a href="#fn1" class="footnote" id="fnref1">[1]<span class="footnote-tooltip">Benjamin, Cooper, Heffetz, Kimball & Zhou (2023). "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being." Full paper available via the Unjournal evaluation.</span></a> on scale-use heterogeneity
       in wellbeing surveys. The authors will discuss how different individuals use the 0-10 life
-      satisfaction scale differently, and propose calibration methods to address this measurement challenge.
+      satisfaction scale differently,<a href="#fn2" class="footnote" id="fnref2">[2]<span class="footnote-tooltip">Scale-use heterogeneity can manifest as: (1) different "anchoring" points, (2) different ranges used, (3) different interpretations of scale labels. All create bias in cross-person comparisons.</span></a> and propose calibration methods to address this measurement challenge.
     </p>
 
     <h3>Key Topics</h3>
     <ul>
-      <li>Evidence for scale-use heterogeneity across populations</li>
+      <li>Evidence for scale-use heterogeneity across populations<a href="#fn3" class="footnote" id="fnref3">[3]<span class="footnote-tooltip">The paper finds substantial heterogeneity in how people use scales—but also that <em>changes</em> in wellbeing may be more comparable than <em>levels</em>, which is encouraging for intervention evaluation.</span></a></li>
       <li>Implications for WELLBY calculations and comparisons</li>
-      <li>Proposed calibration approaches (vignette anchoring, etc.)</li>
-      <li>Limitations and open questions</li>
+      <li>Proposed calibration approaches (vignette anchoring, etc.)<a href="#fn4" class="footnote" id="fnref4">[4]<span class="footnote-tooltip">Vignette anchoring: asking respondents to rate hypothetical people's wellbeing. This reveals individual scale-use patterns and enables adjustment. Trade-off: increased survey length.</span></a></li>
+      <li>Limitations and open questions<a href="#fn5" class="footnote" id="fnref5">[5]<span class="footnote-tooltip">Key open questions include: (1) Do calibration methods work in LMIC contexts? (2) Does scale-use differ systematically between treatment and control groups (causing bias)? (3) How much precision do simple methods sacrifice?</span></a></li>
     </ul>
 
     <!-- Collaborative Notes (Google Doc) -->
@@ -288,13 +291,42 @@
 
     <!-- Navigation Arrows -->
     <div class="nav-arrows">
-      <a href="stakeholder.html" class="nav-arrow">
-        ← Stakeholder Problem
+      <a href="daly.html" class="nav-arrow">
+        ← DALY/WELLBY Conversion
       </a>
       <a href="evaluator.html" class="nav-arrow">
         Next: Evaluator Responses →
       </a>
     </div>
+
+    <!-- Footnotes Section -->
+    <div class="footnotes-section">
+      <h4>Notes</h4>
+      <ol>
+        <li id="fn1">Benjamin, Cooper, Heffetz, Kimball & Zhou (2023). "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being." Full paper available via the Unjournal evaluation.</li>
+        <li id="fn2">Scale-use heterogeneity can manifest as: (1) different "anchoring" points, (2) different ranges used, (3) different interpretations of scale labels. All create bias in cross-person comparisons.</li>
+        <li id="fn3">The paper finds substantial heterogeneity in how people use scales—but also that changes in wellbeing may be more comparable than levels, which is encouraging for intervention evaluation.</li>
+        <li id="fn4">Vignette anchoring: asking respondents to rate hypothetical people's wellbeing. This reveals individual scale-use patterns and enables adjustment. Trade-off: increased survey length.</li>
+        <li id="fn5">Key open questions include: (1) Do calibration methods work in LMIC contexts? (2) Does scale-use differ systematically between treatment and control groups? (3) How much precision do simple methods sacrifice?</li>
+      </ol>
+    </div>
   </main>
+
+  <!-- Footnote tooltip positioning script -->
+  <script>
+    document.querySelectorAll('a.footnote').forEach(footnote => {
+      const tooltip = footnote.querySelector('.footnote-tooltip');
+      if (tooltip) {
+        footnote.addEventListener('mouseenter', function() {
+          const rect = tooltip.getBoundingClientRect();
+          if (rect.right > window.innerWidth - 20) {
+            tooltip.classList.add('tooltip-left');
+          } else {
+            tooltip.classList.remove('tooltip-left');
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
