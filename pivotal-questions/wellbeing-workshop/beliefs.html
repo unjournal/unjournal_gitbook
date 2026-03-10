@@ -8,6 +8,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Section headers for beliefs page */
+    .section-header {
+      margin: 40px 0 24px 0;
+      padding: 20px 24px;
+      background: linear-gradient(135deg, #f4f8f4 0%, #e8f0e8 100%);
+      border-left: 4px solid var(--sage, #5a7a5a);
+      border-radius: 0 8px 8px 0;
+    }
+    .section-header:first-of-type {
+      margin-top: 0;
+    }
+    .section-title {
+      font-family: var(--font-serif, 'Source Serif 4', Georgia, serif);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--dark, #2c3e2c);
+      margin: 0 0 6px 0;
+    }
+    .section-description {
+      font-size: 14px;
+      color: var(--text-light, #666);
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
   <!-- Header -->
@@ -125,6 +150,12 @@
       <input type="hidden" name="form-name" value="beliefs-elicitation">
       <input type="hidden" name="bot-field">
 
+      <!-- ====== SECTION 1: WELLBY Reliability and Value ====== -->
+      <div class="section-header">
+        <h2 class="section-title">1. WELLBY Reliability and Value</h2>
+        <p class="section-description">How reliable is the linear WELLBY measure for comparing interventions?</p>
+      </div>
+
       <!-- PQ1a: WELLBY Usefulness — maps to WELL_01, WELL_07 -->
       <div class="pq-card">
         <div class="pq-tag">PQ1a · WELLBY Usefulness · <span class="pq-code">WELL_01/07</span></div>
@@ -205,7 +236,7 @@
       </div>
 
       <!-- PQ1 Subordinate Questions (collapsed) -->
-      <div class="subordinate-questions">
+      <div class="subordinate-questions" style="margin: 32px 0 40px 0;">
         <button type="button" class="subordinate-toggle" data-target="pq1-subordinate">
           <span class="toggle-icon">▸</span> More detailed questions on WELLBY reliability and measurement choices <span class="optional">(optional)</span>
         </button>
@@ -295,29 +326,36 @@
         </div>
       </div>
 
-      <!-- PQ2a: DALY/QALY-WELLBY Conversion — maps to DALY_01 -->
+      <!-- ====== SECTION 2: Conversions Between Measures ====== -->
+      <div class="section-header">
+        <h2 class="section-title">2. Conversions Between Measures</h2>
+        <p class="section-description">How should we convert between WELLBYs and DALYs/QALYs?</p>
+      </div>
+
+      <!-- PQ2: DALY/QALY-WELLBY Conversion — merged from DALY_01, DALY_03, DALY_05 -->
       <div class="pq-card">
-        <div class="pq-tag">PQ2a · DALY/QALY–WELLBY Conversion · <span class="pq-code">DALY_01</span></div>
-        <h2 class="pq-question">If the impact of one program is measured in WELLBYs [...] and another program impact is measured in DALYs [or QALYs], [...] what is the best numerical conversion or mapping between them?</h2>
-        <p class="pq-subtext">From <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_01</a>: "If the impact of one program is measured in WELLBYs (as defined above) and another program impact is measured in DALYs, and we have a reported effect size and standard deviation for each, what is the best numerical conversion or mapping between them?" <em>(Note: QALYs may be more relevant than DALYs for this conversion—see context.)</em></p>
+        <div class="pq-tag">PQ2 · DALY/QALY–WELLBY Conversion · <span class="pq-code">DALY_01/03/05</span></div>
+        <h2 class="pq-question">If some programs are measured in WELLBYs and others in DALYs/QALYs, what is the best numerical conversion or mapping between them—and what method or approach should we use?</h2>
+        <p class="pq-subtext">From <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_01</a>: "If the impact of one program is measured in WELLBYs [...] and another in DALYs, what is the best numerical conversion or mapping between them?" Also from <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_03</a>: "What method or 'mapping structure' should we use?" <em>(Note: QALYs may be more relevant than DALYs for this conversion—see context.)</em></p>
         <p class="pq-why">"Best" here means: the mapping that, if used for funding decisions, would lead to the highest expected welfare. Getting this conversion wrong means systematically over- or under-investing in mental health versus physical health interventions.</p>
 
-        <button type="button" class="pq-context-toggle" data-target="pq2a-context">
+        <button type="button" class="pq-context-toggle" data-target="pq2-context">
           <span class="toggle-icon">▸</span> Context & definitions
         </button>
-        <div class="pq-context" id="pq2a-context">
+        <div class="pq-context" id="pq2-context">
           <ul>
             <li><strong>DALY vs QALY:</strong> DALYs measure health burden (years lost to disease/disability); QALYs measure health gained. For conversion purposes, QALYs are often more directly comparable—the canonical questions note "replace DALY with QALY" may be appropriate.</li>
             <li>Some organizations (including HLI and Founders Pledge) currently treat SDs on different mental health instruments as interconvertible with WELLBY SDs on a roughly 1:1 basis.</li>
             <li>The conversion between DALYs/QALYs and WELLBYs depends on the "neutral point"<a href="#fn6" class="footnote" id="fnref6">[6]<span class="footnote-tooltip">The neutral point is the life satisfaction level where welfare equals zero—below this, welfare is negative. If neutral=5, then LS=3 represents negative welfare; if neutral=2, LS=3 is positive.</span></a> on the LS scale—the point below which life has negative value. This is currently unknown; one small study (Peasgood et al. 2018) suggested LS ≈ 2, but this is tentative.</li>
             <li>The relationship may also be non-linear—e.g., a WELLBY gained at very low wellbeing could be worth more than one gained at high wellbeing.</li>
+            <li><strong>Approaches include:</strong> SD-equivalence (current practice), regression-based approaches (linking LS data to DALY weights in the same populations), time-tradeoff surveys, or maintaining separate analyses and comparing rankings.</li>
           </ul>
         </div>
 
         <div class="pq-inputs">
           <div class="pq-input-group">
             <label class="pq-input-label">If you had to choose a single linear mapping for converting DALYs to WELLBYs (i.e., 1 DALY averted = X WELLBYs), what value of X would lead to the best decisions in typical funding contexts? <span class="input-note">(Reference: UK Treasury uses ~6-7 for QALYs; literature ranges ~2-15.)</span></label>
-            <input type="number" name="pq2a_conversion" class="input" step="0.1" min="0" max="50" placeholder="e.g., 6">
+            <input type="number" name="pq2_conversion" class="input" step="0.1" min="0" max="50" placeholder="e.g., 6">
           </div>
           <div class="pq-input-group">
             <label class="pq-input-label">What is your 80% credible interval for this conversion factor?</label>
@@ -331,48 +369,27 @@
             <div class="credible-interval-inputs">
               <div class="ci-field">
                 <label>Lower bound (10th percentile)</label>
-                <input type="number" name="pq2a_ci_lower" class="input" step="0.1" min="0" max="50" placeholder="e.g., 3">
+                <input type="number" name="pq2_ci_lower" class="input" step="0.1" min="0" max="50" placeholder="e.g., 3">
               </div>
               <div class="ci-field">
                 <label>Upper bound (90th percentile)</label>
-                <input type="number" name="pq2a_ci_upper" class="input" step="0.1" min="0" max="50" placeholder="e.g., 12">
+                <input type="number" name="pq2_ci_upper" class="input" step="0.1" min="0" max="50" placeholder="e.g., 12">
               </div>
             </div>
           </div>
           <div class="pq-input-group">
             <label class="pq-input-label">What's your reasoning? Does the "best" mapping depend on context (e.g., mental health vs physical health, geographic region)?</label>
-            <textarea name="pq2a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning... If you want to express uncertainty more specifically (e.g., distributions, probability of different ranges), please do so here."></textarea>
+            <textarea name="pq2_reasoning" class="input textarea" rows="3" placeholder="Your reasoning... If you want to express uncertainty more specifically (e.g., distributions, probability of different ranges), please do so here."></textarea>
           </div>
-        </div>
-      </div>
-
-      <!-- PQ2b: Best Conversion Method — maps to DALY_03, DALY_05 -->
-      <div class="pq-card">
-        <div class="pq-tag">PQ2b · Best Conversion Method · <span class="pq-code">DALY_03/05</span></div>
-        <h2 class="pq-question">If the effectiveness of some programs have already been measured in terms of WELLBYs, while others are measured in terms of DALYs, what method or what "mapping structure or approach" should we use to compare and convert between them?</h2>
-        <p class="pq-subtext">From <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_03</a>: "[...] E.g., direct units vs standard deviations, linear vs something else, etc.? [...] What numerical conversion factor(s) should we use between the two (possibly transformed) effectiveness metrics?" See also <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">DALY_05</a>: "What is the loss from the 'one SD change in WELLBY is equivalent to one SD change in DALY' approach [...] relative to the best feasible approach? Where will [this] approach be particularly incorrect?"</p>
-        <p class="pq-why">Funders need a usable conversion now, even if imperfect. The question is whether the current approach (SD equivalence) is defensible, or whether a better practical method exists.</p>
-
-        <button type="button" class="pq-context-toggle" data-target="pq2b-context">
-          <span class="toggle-icon">▸</span> Context & definitions
-        </button>
-        <div class="pq-context" id="pq2b-context">
-          <ul>
-            <li>Options include: SD-equivalence (current practice), regression-based approaches (linking LS data to DALY weights in the same populations), time-tradeoff surveys, or simply maintaining separate analyses and comparing rankings.</li>
-            <li>DALY_03 also asks: "If the optimal factor varies greatly from one domain to another (e.g. mental health, physical health, income/consumption; or rural Africa vs urban India), what are the domains where it varies the most?"</li>
-          </ul>
-        </div>
-
-        <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">What conversion approach would you recommend, and why?</label>
-            <textarea name="pq2b_method" class="input textarea" rows="4" placeholder="Your recommended approach and reasoning..."></textarea>
+            <label class="pq-input-label">What conversion <em>method or approach</em> would you recommend? <span class="input-note">(E.g., direct units vs standard deviations, linear vs non-linear, context-specific factors, etc.)</span></label>
+            <textarea name="pq2_method" class="input textarea" rows="3" placeholder="Your recommended approach..."></textarea>
           </div>
         </div>
       </div>
 
       <!-- PQ2 Subordinate Questions (collapsed) -->
-      <div class="subordinate-questions">
+      <div class="subordinate-questions" style="margin: 32px 0 40px 0;">
         <button type="button" class="subordinate-toggle" data-target="pq2-subordinate">
           <span class="toggle-icon">▸</span> More detailed questions on DALY–WELLBY conversion <span class="optional">(optional)</span>
         </button>
@@ -405,6 +422,30 @@
         </div>
       </div>
 
+      <!-- ====== SECTION 3: Predictions and Policy ====== -->
+      <div class="section-header">
+        <h2 class="section-title">3. Predictions and Policy</h2>
+        <p class="section-description">Forecasting questions about expert consensus, research uptake, and measurement impact.</p>
+      </div>
+
+      <!-- PQ3b: Expert Consensus (Metaculus) — listed first per user request -->
+      <div class="pq-card">
+        <div class="pq-tag">PQ3b · Metaculus-style · Expert Consensus</div>
+        <h2 class="pq-question">If The Unjournal were to survey development economists and research-informed practitioners (before end of 2027), what share would agree that "the linear WELLBY (as defined above) is a reasonably useful measure in this context, and switching to a different measure is unlikely to add much value"?</h2>
+        <p class="pq-why"><em>(Note: This is a hypothetical scenario for discussion. We are not currently planning to conduct such a survey, though we would like to if feasible.)</em></p>
+
+        <div class="pq-inputs">
+          <div class="pq-input-group">
+            <label class="pq-input-label">Your estimate of the share who would agree (0-100%)</label>
+            <input type="number" name="pq3b_share" class="input" min="0" max="100" placeholder="e.g., 45">
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
+            <textarea name="pq3b_reasoning" class="input textarea" rows="2" placeholder="Your reasoning..."></textarea>
+          </div>
+        </div>
+      </div>
+
       <!-- PQ3a: Research Uptake (Metaculus) -->
       <div class="pq-card">
         <div class="pq-tag">PQ3a · Metaculus-style · Research Uptake</div>
@@ -422,24 +463,6 @@
           <div class="pq-input-group">
             <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
             <textarea name="pq3a_reasoning" class="input textarea" rows="2" placeholder="Your reasoning..."></textarea>
-          </div>
-        </div>
-      </div>
-
-      <!-- PQ3b: Expert Consensus (Metaculus) -->
-      <div class="pq-card">
-        <div class="pq-tag">PQ3b · Metaculus-style · Expert Consensus</div>
-        <h2 class="pq-question">If The Unjournal were to survey development economists and research-informed practitioners (before end of 2027), what share would agree that "the linear WELLBY (as defined above) is a reasonably useful measure in this context, and switching to a different measure is unlikely to add much value"?</h2>
-        <p class="pq-why"><em>(Note: This is a hypothetical scenario for discussion. We are not currently planning to conduct such a survey, though we would like to if feasible.)</em></p>
-
-        <div class="pq-inputs">
-          <div class="pq-input-group">
-            <label class="pq-input-label">Your estimate of the share who would agree (0-100%)</label>
-            <input type="number" name="pq3b_share" class="input" min="0" max="100" placeholder="e.g., 45">
-          </div>
-          <div class="pq-input-group">
-            <label class="pq-input-label">Brief reasoning <span class="optional">(optional)</span></label>
-            <textarea name="pq3b_reasoning" class="input textarea" rows="2" placeholder="Your reasoning..."></textarea>
           </div>
         </div>
       </div>
