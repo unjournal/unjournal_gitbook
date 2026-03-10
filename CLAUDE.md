@@ -96,7 +96,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Private tracking doc**: `/Users/yosemite/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md`
 - **Netlify API**: Use `NETLIFY_AUTH_TOKEN` in repo `.env` to fetch form submissions
 - **Form ID (workshop-availability)**: `699c9edf50f843000883f05e`
-- **Target date**: March 16, 2026 (Mon-Thu 11am-5pm ET best overlap)
+- **Confirmed date**: Monday, March 16, 2026, 11am-4pm ET (3pm-8pm UK)
 
 #### Pages
 - `index.html` — Scheduling form (availability grid, segment interest)
@@ -118,7 +118,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - `beliefs-elicitation`: `699c9edf50f843000883f060` (0 submissions — 1 anonymous test deleted Mar 3, data preserved in tracking doc)
 
 #### Key Participants & Constraints (as of Mar 2026)
-- **Confirmed date**: Monday, March 16, 2026, 11am-5pm ET (4pm-10pm UK)
+- **Confirmed date**: Monday, March 16, 2026, 11am-4pm ET (3pm-8pm UK)
 - **13 confirmed participants** (+ Alberto Prati async only)
 - **Confirmed presenters**:
   - Julian Jamison (PQ2 / DALY-WELLBY conversion)
@@ -134,7 +134,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 
 #### Workshop Next Steps (as of Mar 3)
 1. Send calendar holds / confirmations to all participants
-2. Finalize segment schedule and timing within the 11am-5pm ET window
+2. Finalize segment schedule and timing within the 11am-4pm ET window
 3. Invite Yaniv Reingewertz per Dan Benjamin's suggestion
 4. Set up async channel (Google Docs + Coda Q&A)
 5. Confirm recording approach with Lerner/Hickman

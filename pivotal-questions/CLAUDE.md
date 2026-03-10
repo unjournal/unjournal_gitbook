@@ -168,8 +168,8 @@ Main tabbed doc ID: `1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU`
 ## Wellbeing Workshop — Current State (as of Mar 4, 2026)
 
 ### Confirmed Date & Time
-**Monday, March 16, 2026 — 11am–5pm ET (4pm–10pm UK)**
-~3.5 hours of live sessions within a 6-hour window (drop in for segments of interest)
+**Monday, March 16, 2026 — 11am–4pm ET (3pm–8pm UK)**
+~3.5 hours of live sessions within a 5-hour window (drop in for segments of interest)
 
 ### Confirmed Participants (14 total)
 
