@@ -317,3 +317,60 @@ The following have been implemented across pages:
 ---
 
 *Last updated: March 9, 2026*
+---
+
+## Outstanding Annotation Items (March 10, 2026)
+
+### about.html - OOM Claim Needs Source
+
+**Quote:** "Cost-effectiveness estimates vary by an order of magnitude depending on how WELLBYs are valued relative to DALYs."
+**Annotation:** "What's the source for this OOM claim?? Find and link it with a verbatim quote. Also it's not in our 'evaluation summary' as far as I know"
+
+**Status:** NEEDS USER INPUT
+- The claim is in footnote [3] but lacks citation
+- The annotation questions whether this OOM variance is documented
+- Possible sources: HLI's StrongMinds CEA variations? GiveWell's analysis?
+- **Action needed:** Find specific citation or reframe the claim
+
+---
+
+### about.html - "Does any of this matter?" addition
+
+**Quote:** End of question 1 ("Where is the neutral point on the scale?")
+**Annotation:** Add at the end: "Does any of this matter? Is the linear WELLBY likely to yield 'as good/similar' recommendations as other methods when comparing interventions?"
+
+**Status:** NEEDS USER INPUT - this is already added to about.html, verify if index.html also needs it
+
+---
+
+### linear-wellby-analysis.html - "cancels" explanation
+
+**Quote:** Text mentioning that something "cancels"
+**Annotation:** "'cancels' is vague -- explain what is meant here in a footnote"
+
+**Status:** NEEDS LOCATION - couldn't find this text; may have been removed or reworded
+
+---
+
+### linear-wellby-analysis.html - "average happiness" focus
+
+**Quote:** "comparing 'average happiness'"
+**Annotation:** "But we're focused on interventions, not on average happiness between groups. - Be more specific to this."
+
+**Status:** NEEDS USER INPUT - the Bond & Lang critique is framed around group comparisons but the workshop focus is intervention comparison. May need framing adjustment.
+
+---
+
+## Implemented This Session (March 10, 2026)
+
+- ✅ **index.html:** Changed "Open Philanthropy" → "Coefficient Giving" with hyperlink
+- ✅ **index.html:** Changed "CEA organizations" → "impact-focused organizations"
+- ✅ **index.html:** Removed "and what would change their minds" from question 4
+- ✅ **index.html:** Removed "and why does it matter for comparing interventions" from question 1
+- ✅ **daly-wellby-conversion.html:** Changed "Open Philanthropy" → "Coefficient Giving"
+- ✅ **about.html:** Made participants table collapsible
+- ✅ **about.html:** Changed "Paper Presentation" → "Research Presentation"
+- ✅ **about.html:** Removed "and what would change their minds" from question 4
+- ✅ **live/daly.html:** Added beliefs elicitation and Metaculus links to DALY_01 focal question
+- ✅ **live/results.html:** Updated DALY_01 Metaculus link to specific question URL
+
