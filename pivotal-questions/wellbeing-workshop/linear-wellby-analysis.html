@@ -442,8 +442,8 @@
 
     .mermaid svg {
       max-width: 100%;
-      min-width: 600px;
-      min-height: 180px;
+      min-width: 700px;
+      min-height: 220px;
     }
 
     @media (max-width: 700px) {
@@ -740,11 +740,11 @@
         <strong>Annotate & Comment:</strong> Double-click any text to add a Hypothes.is annotation. No account needed to read; quick signup for a free account to post.
       </div>
 
-      <!-- Version links for comparison -->
+      <!-- Link to full research report -->
       <div style="background: #f4f7fe; border: 1px solid #c4d4e4; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 13px;">
-        <strong>Page versions:</strong>
-        <a href="linear-wellby-analysis-legacy.html" style="color: var(--sage); margin-left: 8px;">Simpler overview</a> ·
-        <a href="linear-wellby-analysis-technical.html" style="color: var(--sage); margin-left: 4px;">Full technical (12 sections)</a>
+        <strong>Source document:</strong>
+        <a href="deep-research-report.html" style="color: var(--sage); margin-left: 8px;">Full Deep Research Report</a>
+        <span style="color: var(--text-light);"> — detailed notation, formal frameworks, and extensive citations</span>
       </div>
 
       <details style="background: #fee; border: 1px solid #daa; border-left: 3px solid #c44; margin-bottom: 16px;">
@@ -797,8 +797,99 @@
       </p>
 
       <p>
-        <strong>A focal question for this workshop:</strong> How reliably can we compare interventions by aggregating changes in reported wellbeing (the WELLBY approach), especially across different studies and contexts? This is one of several comparison frameworks; others include DALY/QALY-based approaches, capability approaches, and direct monetary valuation. The workshop examines the linear WELLBY's reliability <em>relative to</em> these alternatives, not in isolation.
+        A focal question for this workshop: How reliably can we compare interventions, especially in LMICs, by aggregating changes in reported wellbeing (the WELLBY approach), especially across different studies and contexts? This is one of several comparison frameworks; others include DALY/QALY-based approaches, capability approaches, and direct monetary valuation. The workshop examines the linear WELLBY's reliability <em>relative to</em> these alternatives, not in isolation.
       </p>
+
+      <!-- Focal Case: Concrete comparison examples -->
+      <details class="collapsible-section" style="margin: 24px 0; border: 2px solid var(--sage); border-radius: 10px; background: var(--sage-bg);">
+        <summary style="cursor: pointer; padding: 16px 20px; font-weight: 600; font-size: 16px; color: var(--dark);">
+          🔬 The Focal Case: StrongMinds vs AMF (click to expand)
+        </summary>
+        <div style="padding: 0 20px 20px;">
+          <p style="margin-top: 16px; font-style: italic; color: var(--text-light);">
+            The debate over whether mental health interventions outperform anti-malaria bednets illustrates why WELLBY methodology matters. This comparison—central to effective altruism discourse—hinges on contested assumptions about measuring and aggregating wellbeing gains.
+          </p>
+
+          <h4 style="font-size: 15px; margin: 20px 0 12px; color: var(--sage); border-bottom: 1px solid var(--border-light); padding-bottom: 6px;">The Interventions</h4>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+            <div style="background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 14px;">
+              <strong style="color: var(--brown);">StrongMinds</strong>
+              <p style="font-size: 13px; margin: 8px 0 0;">Group interpersonal therapy (IPT-G) for depression, primarily in Uganda, Zambia, and other African countries. Community health workers deliver 12-week group sessions to women with moderate-to-severe depression.</p>
+            </div>
+            <div style="background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 14px;">
+              <strong style="color: var(--brown);">Against Malaria Foundation (AMF)</strong>
+              <p style="font-size: 13px; margin: 8px 0 0;">Distributes long-lasting insecticide-treated bednets (LLINs) in malaria-endemic regions. GiveWell's top-rated charity for over a decade, with extensive mortality reduction evidence.</p>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+            <div style="background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 14px;">
+              <strong style="color: var(--brown);">Friendship Bench</strong>
+              <p style="font-size: 13px; margin: 8px 0 0;">Problem-solving therapy delivered by trained community health workers ("grandmother counselors") on park benches in Zimbabwe. The <a href="https://doi.org/10.1001/jama.2016.19102" target="_blank" rel="noopener" style="color: var(--sage);">Chibanda et al. (2016)</a> cluster RCT showed significant effects on depression symptoms.</p>
+            </div>
+            <div style="background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 14px;">
+              <strong style="color: var(--brown);">GiveDirectly</strong>
+              <p style="font-size: 13px; margin: 8px 0 0;">Unconditional cash transfers (~$1,000) to poor households in Kenya and Uganda. <a href="https://doi.org/10.1093/qje/qjw025" target="_blank" rel="noopener" style="color: var(--sage);">Haushofer & Shapiro (2016)</a> RCT measured life satisfaction directly, finding 0.16 SD improvement at 9 months.</p>
+            </div>
+          </div>
+
+          <h4 style="font-size: 15px; margin: 20px 0 12px; color: var(--sage); border-bottom: 1px solid var(--border-light); padding-bottom: 6px;">What Data Was Collected?</h4>
+
+          <table style="width: 100%; font-size: 13px; border-collapse: collapse; background: var(--white); border-radius: 6px; overflow: hidden;">
+            <thead>
+              <tr style="background: var(--bg-alt);">
+                <th style="padding: 10px; text-align: left; border-bottom: 1px solid var(--border);">Intervention</th>
+                <th style="padding: 10px; text-align: left; border-bottom: 1px solid var(--border);">Study Design</th>
+                <th style="padding: 10px; text-align: left; border-bottom: 1px solid var(--border);">Primary Outcome</th>
+                <th style="padding: 10px; text-align: left; border-bottom: 1px solid var(--border);">Follow-up</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">StrongMinds</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">Multiple RCTs; also quasi-experimental</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">PHQ-9 (depression scale); some LS</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">3-6 months typical</td>
+              </tr>
+              <tr>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">AMF</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">Cochrane meta-analyses of bednet RCTs</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">Child mortality; malaria cases</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">1-2 years</td>
+              </tr>
+              <tr>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">Friendship Bench</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">Cluster RCT (Chibanda 2016)</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">SSQ-14 (Shona symptom scale)</td>
+                <td style="padding: 10px; border-bottom: 1px solid var(--border-light);">6 months</td>
+              </tr>
+              <tr>
+                <td style="padding: 10px;">GiveDirectly</td>
+                <td style="padding: 10px;">RCTs (Haushofer-Shapiro)</td>
+                <td style="padding: 10px;">Life satisfaction (0-10)</td>
+                <td style="padding: 10px;">9 months; 3-year follow-up</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 style="font-size: 15px; margin: 20px 0 12px; color: var(--sage); border-bottom: 1px solid var(--border-light); padding-bottom: 6px;">The Translation Challenge</h4>
+
+          <p style="font-size: 14px;">To compare these interventions, evaluators must translate different metrics into a common currency:</p>
+          <ul style="font-size: 13px; margin: 12px 0;">
+            <li><strong>AMF → WELLBYs:</strong> Convert DALYs averted to life-years, then assign WELLBY values to those years. Requires assumptions about the wellbeing level of lives saved.</li>
+            <li><strong>StrongMinds → WELLBYs:</strong> Convert depression scale changes (PHQ-9) to life satisfaction changes using cross-sectional correlations. Then extrapolate effect duration beyond measured follow-up.</li>
+            <li><strong>GiveDirectly → WELLBYs:</strong> Direct measurement of LS changes, but requires duration assumptions (do effects persist?).</li>
+          </ul>
+
+          <div style="background: #fff9e6; border: 1px solid #e6d4a3; border-left: 3px solid var(--brown); border-radius: 6px; padding: 14px; margin: 16px 0; font-size: 13px;">
+            <strong>The Controversy:</strong> <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener" style="color: var(--brown);">Happier Lives Institute</a> estimated StrongMinds at ~47 WELLBYs per $1,000—potentially more cost-effective than AMF. <a href="https://www.givewell.org/research/intervention-reports/strongminds" target="_blank" rel="noopener" style="color: var(--brown);">GiveWell's 2023 assessment</a> disagreed, citing concerns about: (1) mapping depression scales to LS, (2) assumed effect duration, (3) demand effects in self-reported outcomes, and (4) publication bias.
+          </div>
+
+          <p style="font-size: 13px; margin: 16px 0 0; color: var(--text-light);">
+            <strong>📚 Further reading:</strong> See <a href="readings.html" style="color: var(--sage);">Unjournal evaluations of mental health research</a> for independent expert assessments of the underlying evidence.
+          </p>
+        </div>
+      </details>
 
       <!-- Mermaid: Measurement-to-decision pipeline -->
       <p class="diagram-intro">
@@ -812,8 +903,8 @@ flowchart LR
   D --> E[Common currency<br/>WELLBY / DALY / $]
   E --> F[Decision]
       </div>
-      <details style="margin-top: 8px;">
-        <summary><strong>How to read this diagram</strong></summary>
+      <details style="margin-top: 8px;" open>
+        <summary><strong>How to read this diagram</strong> <span style="font-size: 12px; font-weight: normal; color: var(--text-light);">(click to collapse)</span></summary>
         <div class="details-content">
           <ul>
             <li><strong>Intervention → Study design:</strong> The program being evaluated is studied through some research design (RCT, quasi-experiment, etc.)</li>
@@ -864,13 +955,14 @@ flowchart LR
 
       <h3 class="subsection-heading">Incremental vs. Level-Based Accounting</h3>
 
-      <p><strong>Incremental WELLBYs</strong><a href="#fn18" class="footnote">[18]<span class="footnote-tooltip">"Incremental" vs "level-based" is descriptive language used in this document. The literature typically just refers to "WELLBYs" with context clarifying whether the focus is on changes (differences) or absolute levels.</span></a> (what most intervention comparisons need):</p>
+      <p><strong>Incremental WELLBYs</strong><a href="#fn18" class="footnote">[18]<span class="footnote-tooltip">"Incremental" vs "level-based" is descriptive language used in this document. The literature typically just refers to "WELLBYs" with context clarifying whether the focus is on changes (differences) or absolute levels. Incremental WELLBYs are captured by observing differences between comparable treated and untreated populations—useful when mortality effects are negligible or balanced across groups.</span></a>:</p>
 
       <div class="formal-notation">
         $\Delta W(k) = \sum_{i} \sum_{t} \delta^t \left( LS_{it}^{(k)} - LS_{it}^{(0)} \right)$
       </div>
+      <p style="font-size: 12px; color: var(--text-light); margin-top: -8px;"><em>Where: $i$ = individuals, $t$ = time periods, $LS$ = life satisfaction (0-10), $\delta$ = discount factor, $k$ = intervention, $0$ = counterfactual. See <a href="#" onclick="document.querySelector('details summary').click(); return false;" style="color: var(--sage);">notation key</a> below for details.</em></p>
 
-      <p><strong>Level-based WELLBYs</strong> (for interventions that change mortality rates):</p>
+      <p><strong>Level-based WELLBYs</strong> (relevant for comparing interventions that affect mortality or, in some accounting, birth rates):</p>
 
       <div class="formal-notation">
         $W = \sum_{i} \sum_{t} \delta^t \, LS_{it}$
@@ -886,7 +978,7 @@ flowchart LR
             <li>$\delta$ = discount factor for future years</li>
             <li>$k$ = intervention; $0$ = counterfactual</li>
           </ul>
-          <p><em>In practice, RCTs estimate $LS^{(k)} - LS^{(0)}$ directly via experimental comparison.</em></p>
+          <p><em>In practice, RCTs estimate $LS^{(k)} - LS^{(0)}$ directly via experimental comparison of treatment and control group outcomes.</em></p>
         </div>
       </details>
 
@@ -903,18 +995,21 @@ flowchart LR
       <h2 id="sec-assumptions" class="section-heading">3. Core assumptions</h2>
 
       <p>
-        Using linear WELLBYs for cross-intervention comparison requires assumptions. The claim "equal scores mean equal welfare" is <strong>stronger than most applications need</strong>—what matters for intervention comparison is whether <em>changes</em> in scores reflect comparable welfare changes.
+        Using linear WELLBYs for cross-intervention comparison requires assumptions.<a href="#fn-benjamin" class="footnote">[B]<span class="footnote-tooltip"><a href="https://doi.org/10.1146/annurev-economics-051520-030532" target="_blank" rel="noopener" style="color: var(--sage);">Benjamin, Cooper, Heffetz & Kimball (2024)</a>. "From Happiness Data to Economic Conclusions." <em>Annual Review of Economics</em>. Articulates four key assumptions for SWB-based welfare analysis.</span></a> The claim "equal scores mean equal welfare" is <strong>stronger than most applications need</strong>—what matters for intervention comparison is whether <em>changes</em> in scores reflect comparable welfare changes.
       </p>
 
       <div class="assumption-grid">
-        <div class="assumption-card">
-          <h4>Cardinality (linearity)</h4>
+        <div class="assumption-card" style="border-left: 3px solid var(--brown);">
+          <h4>Cardinality (linearity) <span style="font-size: 11px; color: var(--brown); font-weight: normal;">⚠ Key contested assumption</span></h4>
           <p>Equal intervals on the scale imply equal welfare differences: moving from 3→4 equals the same welfare gain as 7→8. If violated, summing may distort comparisons.<a href="#fn12" class="footnote">[12]<span class="footnote-tooltip">Plant (2024) explores conditions under which treating LS as cardinal is defensible. See also HLI's cost-effectiveness methodology.</span></a></p>
+          <p style="font-size: 12px; color: var(--text-light); margin-top: 8px;"><em>Many practitioners consider this the most consequential assumption—and the least obviously defensible. See the <a href="#sec-bond-lang" style="color: var(--sage);">Bond & Lang critique</a> for why scale transformations matter.</em></p>
         </div>
 
         <div class="assumption-card">
           <h4>Unit-change comparability</h4>
           <p>A one-point change has approximately the same welfare meaning across people. This is weaker than requiring equal levels to mean equal welfare.</p>
+          <p style="font-size: 12px; color: var(--text-light); margin-top: 8px;"><strong>Why this is sufficient:</strong> For comparing intervention effects, we don't need equal levels to mean equal welfare—only that <em>changes</em> are comparable. If Person A is always 2 points happier than B at any objective welfare level, that doesn't bias intervention comparisons as long as a 1-point gain means the same for both.</p>
+          <p style="font-size: 12px; color: var(--text-light); margin-top: 8px;"><strong>Trade-off implication:</strong> Would you trade 2 years at LS=7 for 1 year at LS=9? If a one-point change has the same welfare meaning, these should be equivalent (2 WELLBYs each). If not—if gains at higher levels feel "less valuable"—the assumption is violated.</p>
         </div>
 
         <div class="assumption-card">
@@ -923,8 +1018,8 @@ flowchart LR
         </div>
 
         <div class="assumption-card">
-          <h4>Cross-domain capture</h4>
-          <p>Life satisfaction incorporates welfare from many domains (health, income, relationships), not merely transient "mood."</p>
+          <h4>Cross-domain capture (contested)</h4>
+          <p>Life satisfaction <em>aims</em> to incorporate welfare from many domains (health, income, relationships). However, the key question is whether our measures capture what actually matters for individuals' <a href="https://doi.org/10.1093/oxfordhb/9780199959303.013.0010" target="_blank">prudential value</a>—this could be life satisfaction, happiness, transient affect, or something else entirely. Life satisfaction may only capture <em>some</em> aspects of what matters, and more work is needed at the intersection of social science and philosophy to clarify this.</p>
         </div>
       </div>
 
@@ -933,25 +1028,12 @@ flowchart LR
 
       <p><strong>Why this matters for intervention comparison:</strong> WELLBY calculations aggregate wellbeing gains over time. If Intervention A produces a 0.5-point LS boost for 2 years while Intervention B produces a 0.3-point boost for 5 years, B yields more total WELLBYs—but only if the effects actually persist as assumed. The time dimension is often the largest source of uncertainty.</p>
 
-      <p class="diagram-intro">
-        <strong>The time structure</strong> shows how WELLBY estimation requires assumptions about effect persistence. Most studies measure outcomes at baseline and one or two follow-ups;<a href="#fn15" class="footnote">[15]<span class="footnote-tooltip">E.g., Haushofer & Shapiro (2016, 2018) measure SWB at 9 months and 3 years after Kenya cash transfers; StrongMinds studies typically follow up at 3-6 months post-treatment.</span></a> extrapolating beyond measured timepoints involves uncertainty:
-      </p>
-      <div class="mermaid">
-sequenceDiagram
-  participant t0 as Baseline (t=0)
-  participant t1 as Follow-up (t=1)
-  participant tT as Later (t>1)
-  Note over t0,tT: Persistence, decay, response shift?
-  t0->>t1: Measure LS, mental health scales
-  t1->>tT: Repeat for duration estimate
-  Note over t0,tT: Discounting δ^t if aggregating
-      </div>
-      <p class="diagram-caption">Studies measure at baseline and follow-up(s). Extrapolating to later periods requires assumptions about persistence (does the effect last?) and discounting (are future wellbeing gains worth less than present ones?).</p>
+      <p>Most studies measure outcomes at baseline and one or two follow-ups;<a href="#fn15" class="footnote">[15]<span class="footnote-tooltip"><strong>LMIC examples:</strong> Haushofer & Shapiro (2016, 2018) measure SWB at 9 months and 3 years after Kenya cash transfers; StrongMinds studies typically follow up at 3-6 months post-treatment; GiveDirectly studies (Kenya, Uganda) measure at 1-3 years; BRAC graduation programs measure at 2+ years. Most LMIC wellbeing RCTs have 1-2 follow-up points with limited long-term tracking.</span></a> extrapolating beyond measured timepoints requires assumptions about persistence (does the effect last?) and discounting (are future wellbeing gains worth less than present ones?).</p>
 
       <h3 class="subsection-heading">Response Shift: a distinct threat</h3>
 
       <p>
-        Even if baseline scale-use heterogeneity cancels (by randomization), treatment can change the <em>meaning</em> of the respondent's self-evaluation. This is called <strong>response shift</strong>: changes in internal standards, values, or conceptualization that alter how respondents answer over time.<a href="#fn-rshift" class="footnote">[rs]<span class="footnote-tooltip">Sprangers & Schwartz (1999). "Integrating response shift into health-related quality of life research." Social Science & Medicine.</span></a>
+        Even if baseline scale-use heterogeneity cancels out<a href="#fn20" class="footnote">[20]<span class="footnote-tooltip">"Cancels out" means: in a randomized trial, individual differences in scale use (shifters) are equally distributed between treatment and control groups, so when we compare average changes, these individual differences subtract out. This is similar to how fixed effects absorb level differences.</span></a> (by randomization), treatment can change the <em>meaning</em> of the respondent's self-evaluation. This is called <strong>response shift</strong>: changes in internal standards, values, or conceptualization that alter how respondents answer over time.<a href="#fn-rshift" class="footnote">[rs]<span class="footnote-tooltip">Sprangers & Schwartz (1999). "Integrating response shift into health-related quality of life research." Social Science & Medicine.</span></a>
       </p>
 
       <p>
@@ -962,17 +1044,37 @@ sequenceDiagram
       <h2 id="sec-bond-lang" class="section-heading">4. A key critique: identification and transformations</h2>
 
       <p>
-        Bond & Lang (2019) argue that with ordinal happiness data, comparing average wellbeing between groups is <strong>not identified</strong> without strong assumptions—monotonic transformations can reverse conclusions.<a href="#fn3" class="footnote">[3]<span class="footnote-tooltip">Bond, T.N. & Lang, K. (2019). "The Sad Truth about Happiness Scales." <em>JPE</em>, 127(4).</span></a> While their critique focuses on cross-group comparisons (e.g., "are Germans happier than French?"), similar issues can arise when comparing <em>intervention effects</em>—for example, when treatment and control groups have different baseline levels, or when comparing effects across studies in different populations.
+        Bond & Lang (2019) argue that with ordinal happiness data, comparing average wellbeing between groups (e.g., "are Germans happier than Americans?") is <strong>not identified</strong> without strong assumptions—monotonic transformations can reverse conclusions.<a href="#fn3" class="footnote">[3]<span class="footnote-tooltip">Bond, T.N. & Lang, K. (2019). "The Sad Truth about Happiness Scales." <em>JPE</em>, 127(4).</span></a> <em>However, our focus is on intervention effects, where randomization mitigates some (but not all) of these concerns—see box below.</em>
       </p>
 
-      <h3 class="subsection-heading">What "non-identified" means</h3>
+      <div style="background: #e8f4e8; border: 1px solid #c5ddc5; border-left: 3px solid var(--sage); border-radius: 6px; padding: 14px 18px; margin: 16px 0; font-size: 14px;">
+        <strong>Response: Kaiser & Lepinteur (2023)</strong> argue that Bond & Lang's critique, while mathematically correct, relies on transformations that are empirically implausible. In practice, the transformations needed to reverse conclusions often require welfare to be <em>decreasing</em> in reported happiness at certain ranges—which contradicts the basic validity of self-reports. When restricting to plausible monotonic transformations, most happiness findings remain robust. See: <a href="https://doi.org/10.1007/s10902-022-00605-5" target="_blank" rel="noopener" style="color: var(--sage);">Kaiser & Lepinteur, "The Reliability of Ordinal Happiness Data" (JOHS, 2023)</a>.
+      </div>
 
-      <p>
-        A parameter is "identified" when data + assumptions pin down a unique value. With ordinal responses (someone reports "7"), we only know their underlying welfare falls in <em>some range</em> corresponding to "7"—we don't know the exact welfare level. The problem: if Person A reports "7" and Person B reports "6", we know A reported higher, but not <em>how much</em> higher in welfare terms.
-      </p>
-      <p>
-        Many different assumptions about the welfare scale could generate the same pattern of observed responses. Under some assumptions, A might be only slightly better off; under others, dramatically so. Without additional structure (like assuming the scale is linear), average welfare comparisons are "non-identified"—the data alone cannot tell us which group is better off.
-      </p>
+      <div class="key-takeaway" style="background: #f5f9f5; border-color: var(--sage);">
+        <p><strong>But our focus is intervention effect estimates, not cross-country happiness comparisons.</strong> Bond & Lang's core examples involve comparing average happiness between groups (e.g., "are Germans happier than French?"). For <em>within-study</em> intervention comparisons—randomized treatment vs. control, especially in LMIC RCTs—the situation is less dire: randomization ensures similar baseline scale-use distributions, so we're comparing <em>changes</em> within comparable groups rather than absolute levels across different populations. The identification problem resurfaces when comparing effect sizes <em>across</em> studies conducted in different populations, or when treatment and control groups differ systematically at baseline.</p>
+      </div>
+
+      <details class="collapsible-section" style="margin: 16px 0; border: 1px solid var(--border-light); border-radius: 8px;">
+        <summary style="cursor: pointer; padding: 12px 16px; background: var(--bg-alt); font-weight: 600; font-size: 14px;">
+          What "non-identified" means (technical detail)
+        </summary>
+        <div style="padding: 16px;">
+          <p>
+            A parameter is <strong>identified</strong> when data + assumptions pin down a unique value. With ordinal responses (someone reports "7"), we only know their underlying welfare falls in <em>some range</em> corresponding to "7"—we don't know the exact welfare level.
+          </p>
+          <p>
+            <strong>Concrete example:</strong> Suppose Person A reports "7" and Person B reports "6". We know A reported higher, but not <em>how much</em> higher in welfare terms. Consider two possible mappings from reported scores to actual welfare:
+          </p>
+          <ul style="margin: 12px 0;">
+            <li><strong>Mapping 1 (linear):</strong> "6" = 60 utils, "7" = 70 utils → A is 10 utils better off</li>
+            <li><strong>Mapping 2 (concave):</strong> "6" = 50 utils, "7" = 52 utils → A is only 2 utils better off</li>
+          </ul>
+          <p>
+            Both mappings are consistent with the observed data (A reported higher than B). Without additional structure (like assuming the scale is linear), we cannot determine which mapping is correct. This is why average welfare comparisons are "non-identified"—the data alone cannot tell us the magnitude of the difference.
+          </p>
+        </div>
+      </details>
 
       <h3 class="subsection-heading">Why this matters for intervention comparison</h3>
 
@@ -985,6 +1087,7 @@ sequenceDiagram
       <div class="interactive-module" id="widget-transform">
         <h4>Transformation Sensitivity Demo</h4>
         <p style="font-size: 13px; color: var(--text-light); margin-bottom: 8px;"><strong>What this shows:</strong> Bond & Lang's critique hinges on the fact that we only observe <em>ordinal</em> responses (1, 2, 3...), not the underlying welfare. Any monotonic transformation $g(x)$ that preserves order is equally consistent with the data—but different transformations can reverse which group has higher mean welfare.</p>
+        <p style="font-size: 13px; color: var(--text-light); margin-bottom: 8px;"><strong>What is a monotonic transformation?</strong> A function that preserves ordering—if A>B before, then g(A)>g(B) after. Examples: squaring (x²), square root (√x), or log(x). These change the <em>spacing</em> between values without changing which is larger.</p>
         <p style="font-size: 13px; color: var(--text-light); margin-bottom: 16px;">Below, $g(x) = x^θ$ transforms raw LS scores. When θ=1 (linear), LS is used directly. When θ>1 (convex), high scores are stretched more than low scores. When θ<1 (concave), the opposite.</p>
         <div class="module-controls">
           <div class="control-group">
@@ -1113,7 +1216,86 @@ sequenceDiagram
       </div>
 
       <div class="key-takeaway">
-        <p><strong>When does the neutral point matter?</strong> When comparing mortality-focused interventions to non-mortality wellbeing programs. For comparisons among living people only, the neutral point typically cancels out: since both treatment and control are measured from the same baseline, subtracting that baseline from both sides leaves the <em>difference</em> unchanged.<a href="#fn14" class="footnote">[14]</a></p>
+        <p><strong>When does the neutral point matter?</strong> When comparing interventions that affect mortality to those that don't. For comparisons among living people only, the neutral point typically cancels out: since both treatment and control are measured from the same baseline, subtracting that baseline from both sides leaves the <em>difference</em> unchanged.<a href="#fn14" class="footnote">[14]</a></p>
+      </div>
+
+      <h3 class="subsection-heading">Empirical neutral point estimates</h3>
+
+      <p>
+        Recent work has attempted to estimate the neutral point empirically. The estimates vary widely (0.6 to 6.0 on a 0-10 scale) depending on the elicitation method and sample. HLI is advising the UK Green Book guidelines and has compiled the following estimates:<a href="#fn-neutral-table" class="footnote">[*]<span class="footnote-tooltip">Table compiled by Samuel Dupret (HLI), shared March 2026. Note that different questions elicit very different values—asking about "life no longer worth living" yields lower estimates than asking about "minimally acceptable" levels.</span></a>
+      </p>
+
+      <div style="overflow-x: auto; margin: 20px 0;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: var(--bg-alt);">
+          <thead>
+            <tr style="background: var(--sage); color: white;">
+              <th style="padding: 10px; text-align: left; border: 1px solid var(--border-light);">Source</th>
+              <th style="padding: 10px; text-align: center; border: 1px solid var(--border-light);">Value</th>
+              <th style="padding: 10px; text-align: left; border: 1px solid var(--border-light);">Method</th>
+              <th style="padding: 10px; text-align: left; border: 1px solid var(--border-light);">Sample</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 8px; border: 1px solid var(--border-light);"><a href="https://forum.effectivealtruism.org/posts/cpYR9TsG8BdtETo6u/can-we-trust-wellbeing-surveys-a-pilot-study-of" target="_blank" rel="noopener" style="color: var(--sage);">Samuelsson et al. (2023) - HLI pilot</a></td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600;">1.26</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Asked when life is no longer worth living on 0-10 LS scale</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">N=79, UK</td>
+            </tr>
+            <tr style="background: #fafafa;">
+              <td style="padding: 8px; border: 1px solid var(--border-light);"><a href="https://forum.effectivealtruism.org/posts/cpYR9TsG8BdtETo6u/can-we-trust-wellbeing-surveys-a-pilot-study-of" target="_blank" rel="noopener" style="color: var(--sage);">Samuelsson et al. (2023) - HLI pilot</a></td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600;">5.30</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Asked where balance between satisfied/dissatisfied on 0-10 LS</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">N=128, UK</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Peasgood et al. (unpublished)</td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600;">2.00</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Time trade-offs (QALY method rather than wellbeing scale)</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">N=75, UK</td>
+            </tr>
+            <tr style="background: #fff3e0;">
+              <td style="padding: 8px; border: 1px solid var(--border-light);"><a href="https://www.idinsight.org/wp-content/uploads/2021/04/IDinsight_BeneficiaryPreferencesFinalReport.pdf" target="_blank" rel="noopener" style="color: var(--sage);">IDinsight Beneficiary Survey (2019)</a></td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600; color: #e65100;">0.56</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">"At what point on the ladder is it worse than dying?"</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light); font-weight: 600;">N=70, Ghana & Kenya</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Moss (Rethink Priorities, unpublished)</td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600;">2.49</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Asked level preferring alive to dead (converted 0-100 → 0-10)</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">N=35, likely UK</td>
+            </tr>
+            <tr style="background: #fafafa;">
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Moss (Rethink Priorities, unpublished)</td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600;">6.05</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Asked minimally acceptable level to live an extra year</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">N=101, likely UK</td>
+            </tr>
+            <tr style="background: #e3f2fd;">
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Jamison et al. (forthcoming)</td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600;">2.39</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Policy comparison: saving people from dying (0-100 → 0-10)</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">N=1800 (Brazil, China, UK)</td>
+            </tr>
+            <tr style="background: #e3f2fd;">
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Jamison et al. (forthcoming)</td>
+              <td style="padding: 8px; text-align: center; border: 1px solid var(--border-light); font-weight: 600;">2.54</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">Policy comparison: saving people from non-existence (0-100 → 0-10)</td>
+              <td style="padding: 8px; border: 1px solid var(--border-light);">N=1800 (Brazil, China, UK)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="alert-box" style="background: #fff8e1; border-left-color: #ffc107;">
+        <p><strong>Key observations:</strong></p>
+        <ul style="margin: 8px 0 0 0; padding-left: 20px;">
+          <li><strong>Question framing matters enormously:</strong> "Life no longer worth living" (1.26) vs "minimally acceptable" (6.05) yields 5× difference</li>
+          <li><strong>The only LMIC estimate (IDinsight, Ghana/Kenya) is the lowest at 0.56</strong>—though small sample and different question framing</li>
+          <li><strong>Jamison et al. provides the largest cross-country sample</strong> (N=1800 across Brazil, China, UK) with estimates around 2.4-2.5</li>
+          <li><a href="https://www.gov.uk/government/publications/green-book-supplementary-guidance-wellbeing" target="_blank" rel="noopener" style="color: var(--sage);">HM Treasury (UK Green Book)</a> currently uses 1.0 (based on suicide rates); Frijters & Krekel recommend 2.0</li>
+        </ul>
       </div>
 
       <!-- Section 7: Evidence & Alternatives -->
@@ -1122,7 +1304,7 @@ sequenceDiagram
       <h3 class="subsection-heading">Reliability: noisy but not useless</h3>
 
       <p>
-        Single-item life evaluations have test-retest correlations around 0.5-0.7 over short windows.<a href="#fn5" class="footnote">[5]<span class="footnote-tooltip">Krueger & Schkade (2008). "The reliability of subjective well-being measures."</span></a> This means measurement error attenuates estimated effects—small real effects may be undervalued.
+        Single-item life evaluations have test-retest correlations around 0.5-0.7 over short windows.<a href="#fn5" class="footnote">[5]<span class="footnote-tooltip">Krueger & Schkade (2008). "The reliability of subjective well-being measures."</span></a> This means measurement error attenuates estimated effects—small real effects may be undervalued. For relative comparisons: if measurement error is similar across interventions and contexts, attenuation affects absolute magnitudes but may preserve relative rankings. However, if noise levels differ (e.g., different survey modes, cultural contexts, or outcome domains), relative comparisons become less reliable.
       </p>
 
       <h3 class="subsection-heading">Predictive validity</h3>
@@ -1145,14 +1327,14 @@ sequenceDiagram
         <p style="margin: 12px 0 0; font-size: 13px; color: var(--text-light);">These findings show LS measures have detectable signal in LMIC RCTs, not just noise—and effects can persist.<a href="#fn7" class="footnote">[7]<span class="footnote-tooltip">Haushofer & Shapiro (2016). "The Short-term Impact of Unconditional Cash Transfers." QJE. Also 2018 long-term follow-up working paper.</span></a></p>
       </div>
 
-      <h3 class="subsection-heading">The measurement layer problem</h3>
+      <h3 class="subsection-heading">The outcome translation problem</h3>
 
       <p>
         Many LMIC mental health studies report <strong>depression scales or symptom indices</strong>, not standard 0-10 life satisfaction. GiveWell's assessment of StrongMinds explicitly highlights uncertainty in translating depression improvements into life satisfaction gains.<a href="#fn-givewell" class="footnote">[gw]<span class="footnote-tooltip">GiveWell (2023). "Our Assessment of Happier Lives Institute's Cost-Effectiveness Analysis of StrongMinds." Notes substantial uncertainty in depression-to-LS mapping.</span></a>
       </p>
 
       <p>
-        Even if you accept WELLBY as the target unit, the measurement layer forces choices: use DALYs/QALYs (more standard in health evaluation) even if they miss non-health welfare, use life satisfaction directly but only where trials collect it, or use <strong>mapping models</strong>—statistical relationships estimated from observational data that predict life satisfaction from other measures (e.g., "a 1-SD reduction in PHQ-9 depression score corresponds to ~0.4 points higher LS")—but carry mapping uncertainty explicitly.
+        Even if you accept WELLBY as the target unit, outcome translation forces choices: use DALYs/QALYs (more standard in health evaluation) even if they miss non-health welfare, use life satisfaction directly but only where trials collect it, or use <strong>mapping models</strong>—statistical relationships estimated from observational data that predict life satisfaction from other measures (e.g., "a 1-SD reduction in PHQ-9 depression score corresponds to ~0.4 points higher LS")—but carry mapping uncertainty explicitly.
       </p>
 
       <h3 class="subsection-heading">Comparison with alternatives</h3>
@@ -1314,6 +1496,7 @@ sequenceDiagram
           <li id="fn17"><strong>DALY/QALY vs WELLBY measurement:</strong> DALYs use disability weights derived from population surveys where respondents compare hypothetical health states (GBD studies). QALYs often use patient assessments via instruments like EQ-5D. WELLBYs ask each individual to rate their own life satisfaction directly.</li>
           <li id="fn18">"Incremental" vs "level-based" is descriptive language used in this document to distinguish two common uses of WELLBYs. The academic literature typically just refers to "WELLBYs" with context clarifying whether the focus is on intervention effects (changes) or absolute welfare levels (for mortality calculations).</li>
           <li id="fn19">Within-person designs reduce scale-use heterogeneity across individuals but may introduce demand effects—participants may feel motivated to report improvement to please researchers, especially for psychosocial interventions with non-blinded delivery.</li>
+          <li id="fn20">"Cancels out" in randomization context: if scale-use differences (shifters and stretchers) are randomly distributed between treatment and control groups, within-study comparisons remain valid—the average effect estimate is unbiased. The problem arises when (a) comparing across studies with different scale-use distributions, or (b) treatment itself changes the reporting function (response shift, discussed above), which randomization cannot address.</li>
         </ol>
       </div>
 

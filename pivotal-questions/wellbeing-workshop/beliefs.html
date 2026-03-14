@@ -11,26 +11,52 @@
   <style>
     /* Section headers for beliefs page */
     .section-header {
-      margin: 40px 0 24px 0;
-      padding: 20px 24px;
-      background: linear-gradient(135deg, #f4f8f4 0%, #e8f0e8 100%);
-      border-left: 4px solid var(--sage, #5a7a5a);
-      border-radius: 0 8px 8px 0;
+      margin: 48px 0 24px 0;
+      padding: 0 0 12px 0;
+      border-bottom: 2px solid var(--sage, #5a7a5a);
     }
     .section-header:first-of-type {
       margin-top: 0;
     }
     .section-title {
       font-family: var(--font-serif, 'Source Serif 4', Georgia, serif);
-      font-size: 22px;
+      font-size: 24px;
       font-weight: 600;
       color: var(--dark, #2c3e2c);
-      margin: 0 0 6px 0;
+      margin: 0 0 4px 0;
     }
     .section-description {
       font-size: 14px;
       color: var(--text-light, #666);
       margin: 0;
+    }
+
+    /* Triple slider layout for credible intervals */
+    .pq-triple-slider {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      background: var(--bg-alt, #f8f6f1);
+      padding: 16px 20px;
+      border-radius: 8px;
+      border: 1px solid var(--border-light, #e5e5e5);
+    }
+    .pq-triple-slider .slider-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .pq-triple-slider .slider-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text, #333);
+    }
+    .pq-triple-slider .slider-group:first-child .slider-label {
+      color: var(--sage, #5a7a5a);
+      font-weight: 600;
+    }
+    .pq-slider-secondary {
+      opacity: 0.85;
     }
   </style>
 </head>
@@ -50,6 +76,7 @@
     <ul class="page-nav-links">
       <li><a href="/interest.html" class="page-nav-link">Interest/Feedback</a></li>
       <li><a href="/about.html" class="page-nav-link">About</a></li>
+      <li><a href="/readings.html" class="page-nav-link">Readings</a></li>
       <li><a href="/beliefs.html" class="page-nav-link active">Pivotal Questions</a></li>
       <li><a href="/live/" class="page-nav-link">Live Sessions</a></li>
     </ul>
@@ -64,15 +91,28 @@
   <div class="beliefs-intro" style="background: #fff9e6; border: 1px solid #e6d4a3; border-left: 3px solid #8b5e3c; margin-bottom: 0; padding: 16px 24px;">
     <details>
       <summary style="cursor: pointer; font-weight: 600; font-size: 14px;">Privacy Notice (click to expand)</summary>
-      <p style="margin: 8px 0 0 0; font-size: 14px;">Your responses will be used in our research synthesis and may be shared in aggregated or anonymized form. We may quote specific responses with attribution unless you request otherwise. If you prefer your responses remain anonymous, please indicate this in the "other thoughts" field at the bottom of the form.</p>
+      <p style="margin: 8px 0 0 0; font-size: 14px;">Your responses will be used in our research synthesis and may be shared in aggregated or anonymized form. We may quote specific responses with attribution unless you request otherwise. If you prefer your responses to remain anonymous, please use a pseudonym and try to use the same one consistently if you're providing multiple responses. If you are fine with internal recognition but don't want any public attribution, please let us know and share any other concerns in the "other thoughts" field at the bottom of the form.</p>
     </details>
   </div>
 
   <!-- Intro -->
   <div class="beliefs-intro">
-    <p>See the key operationalized questions<a href="#fn10" class="footnote" id="fnref10">[10]<span class="footnote-tooltip">Full specifications and context: <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank">canonical Wellbeing PQ formulations on Coda</a></span></a> from our Wellbeing Pivotal Questions project.<a href="#fn1" class="footnote" id="fnref1">[1]<span class="footnote-tooltip">Pivotal Questions: research questions where credible evidence could most shift funding decisions. We identify these through stakeholder collaboration, prioritizing by expected value of information.</span></a> We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence and key arguments—to see how views evolve and where consensus exists.<a href="#fn11" class="footnote" id="fnref11">[11]<span class="footnote-tooltip">Some questions are also posted to <a href="https://www.metaculus.com/c/unjournal/" target="_blank">The Unjournal's Metaculus forecasting page</a> for crowd prediction.</span></a> <em>(All questions are optional.)</em></p>
+    <div style="background: #e8f4e8; border: 1px solid #c5ddc5; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 14px;">
+      <strong>📊 Forecast on Metaculus:</strong> Some of these questions have corresponding forecasting questions on <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" style="color: var(--sage); font-weight: 600;">The Unjournal's Metaculus community</a>. See linked questions below.
+    </div>
+
+    <p>See the key operationalized questions<a href="#fn10" class="footnote" id="fnref10">[10]<span class="footnote-tooltip">Full specifications and context: see the <em>canonical Wellbeing PQ formulations on Coda</em> (link in footnote below).</span></a> from our Wellbeing Pivotal Questions project.<a href="#fn1" class="footnote" id="fnref1">[1]<span class="footnote-tooltip">Pivotal Questions: research questions where credible evidence could most shift funding decisions. We identify these through stakeholder collaboration, prioritizing by expected value of information.</span></a> We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the evidence and key arguments—to see how views evolve and where consensus exists.<a href="#fn11" class="footnote" id="fnref11">[11]<span class="footnote-tooltip">Some questions are also posted to The Unjournal's Metaculus forecasting page (link in footnote below).</span></a> <em>(All questions are optional.)</em></p>
 
     <p>You don't need to be a specialist to contribute. We want your honest assessment and reasoning, whether you feel highly confident or very uncertain. Your input helps us understand the range of views in the field. If you forecast on Metaculus, please share your username below so we can link your contributions.</p>
+
+    <!-- Focal Case Callout -->
+    <div style="background: linear-gradient(135deg, var(--sage-bg) 0%, #e8efe8 100%); border: 2px solid var(--sage); border-radius: 10px; padding: 16px 20px; margin: 20px 0;">
+      <h4 style="font-family: var(--font-serif); font-size: 15px; color: var(--dark); margin: 0 0 8px;">🔬 Background: The Focal Case</h4>
+      <p style="font-size: 13px; color: var(--text); margin: 0 0 10px; line-height: 1.5;">
+        These pivotal questions are motivated by a practical funding question: comparing mental health interventions (StrongMinds, Friendship Bench) measured in WELLBYs to bednet distribution (AMF) measured in DALYs. HLI and GiveWell reach strikingly different conclusions—a 16× range in cost-effectiveness estimates driven by methodological choices.
+      </p>
+      <a href="linear-wellby-analysis.html" style="color: var(--sage); font-size: 13px; font-weight: 500;">Read the detailed focal case analysis →</a>
+    </div>
 
     <div class="guidance-callout">
       <div class="guidance-callout-title">How to respond</div>
@@ -81,6 +121,7 @@
         <li><strong>For open-ended questions:</strong> Even a sentence or two helps. We're looking for reasoning and considerations, not polished analysis.</li>
         <li><strong>You can return and update</strong> your responses as your views evolve. (Note: We will store each submission separately rather than overwriting previous responses.)</li>
         <li><strong>Note on DALYs vs QALYs:</strong> These questions focus on DALYs as the comparison metric. If you think the QALY comparison is more relevant, please note that in your response.</li>
+        <li><strong>Feedback on framing:</strong> If you have thoughts on how these questions are framed, we're interested in that too. You can put this in the discussion boxes or as a <a href="https://web.hypothes.is/" target="_blank" rel="noopener" style="color: var(--brown);">Hypothes.is</a> annotation on this page.</li>
       </ul>
     </div>
 
@@ -131,9 +172,10 @@
           <span class="toggle-icon">▸</span> How should I think about probability estimates?
         </button>
         <div class="definition-content" id="def-probability">
-          <p>When we ask for a probability, we're asking for your <strong>best calibrated subjective probability</strong>—your honest credence given everything you know.</p>
+          <p>When we ask for a probability, we're asking for your <strong>best <a href="#fn-calibrated" class="footnote" id="fnref-calibrated">calibrated<span class="footnote-tooltip">Calibration means when you say something will happen X% of the time, it should occur X% of the time—not much more nor less. For 80% credible intervals, the true values should fall in those intervals close to 80% of the time. If it happens less than 8/10 times, you're being overconfident (stating too narrow intervals). If more than 8/10 times, you're being underconfident (stating overly wide intervals).</span></a> subjective probability</strong>—your honest credence given everything you know.</p>
           <p>One way to think about this: Imagine an ideal research team with unlimited resources, time, and data—perhaps even a kind of omniscience where they could perfectly understand the welfare and psychological states of everyone affected. <strong>What probability would you assign that this idealized team would ultimately conclude the statement is true?</strong></p>
           <p>Note: We avoid anchoring to "0% = impossible" and "100% = certain" because perfect certainty is rarely justified. If you believe something is extremely unlikely but not literally impossible, you might say 2-5%; if nearly certain but not absolutely, perhaps 95-98%.</p>
+          <p><strong>Practice calibration:</strong> If you'd like to practice translating your confidence into probabilities, try <a href="https://www.quantifiedintuitions.org/calibration" target="_blank" rel="noopener">Quantified Intuitions' Calibration Training</a> (requires Google sign-in).</p>
         </div>
       </div>
     </div>
@@ -146,7 +188,7 @@
       <input type="hidden" name="bot-field">
 
       <!-- ====== SECTION 1: WELLBY Reliability and Value ====== -->
-      <div class="section-header">
+      <div class="section-header" id="section-wellby-reliability">
         <h2 class="section-title">1. WELLBY Reliability and Value</h2>
         <p class="section-description">How reliable is the linear WELLBY measure for comparing interventions?</p>
       </div>
@@ -170,16 +212,55 @@
         </div>
 
         <div class="pq-inputs">
+          <!-- General question discussion -->
           <div class="pq-input-group">
-            <label class="pq-input-label">State your beliefs and key considerations here.</label>
-            <textarea name="pq1a_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
+            <label class="pq-input-label">Consider the broad question above about <strong>relative WELLBY reliability</strong> for contexts like the <a href="#def-focal" style="color: var(--brown);">focal context</a>.</label>
+            <textarea name="pq1a_general_thoughts" class="input textarea" rows="3" placeholder="What are your thoughts on the reliability of linear WELLBY for comparing interventions in LMICs? Any key considerations, concerns, or reasons for confidence?"></textarea>
+          </div>
+
+          <!-- Operationalized version -->
+          <h4 style="color: var(--brown); font-size: 14px; margin: 24px 0 12px; font-weight: 600;">Operationalized version</h4>
+          <div class="pq-input-group">
+            <label class="pq-input-label">What share of this value is obtained, in expectation, from using the simple linear WELLBY measure (<a href="#def-wellby" style="color: var(--brown);">as defined above</a>) for all interventions?</label>
+            <p style="font-size: 13px; color: var(--text-light); margin: 8px 0 16px;">For example: 1.0 = WELLBY captures all the value of the best measure; 0.5 = WELLBY captures half the value; 0 = WELLBY provides no useful information for these comparisons.</p>
+
+            <div class="pq-triple-slider">
+              <div class="slider-group">
+                <label class="slider-label">Your central estimate (expected value)</label>
+                <div class="pq-slider-container">
+                  <input type="range" name="pq1a_central" class="pq-slider" min="0" max="100" value="70" oninput="this.nextElementSibling.textContent = (this.value / 100).toFixed(2)">
+                  <span class="pq-slider-value">0.70</span>
+                </div>
+              </div>
+
+              <div class="slider-group">
+                <label class="slider-label">Lower bound of your 80% credible interval (10th percentile)</label>
+                <div class="pq-slider-container">
+                  <input type="range" name="pq1a_ci_lower" class="pq-slider pq-slider-secondary" min="0" max="100" value="40" oninput="this.nextElementSibling.textContent = (this.value / 100).toFixed(2)">
+                  <span class="pq-slider-value">0.40</span>
+                </div>
+              </div>
+
+              <div class="slider-group">
+                <label class="slider-label">Upper bound of your 80% credible interval (90th percentile)</label>
+                <div class="pq-slider-container">
+                  <input type="range" name="pq1a_ci_upper" class="pq-slider pq-slider-secondary" min="0" max="100" value="90" oninput="this.nextElementSibling.textContent = (this.value / 100).toFixed(2)">
+                  <span class="pq-slider-value">0.90</span>
+                </div>
+              </div>
+            </div>
+
+            <button type="button" class="credible-interval-toggle" onclick="this.nextElementSibling.classList.toggle('open')" style="margin-top: 12px;">
+              <span class="toggle-icon">▸</span> What is an 80% credible interval?
+            </button>
+            <div class="credible-interval-explanation">
+              <p>An <strong>80% credible interval</strong> represents the range you believe has an 80% probability of containing the true value. There should be roughly a 10% chance the true value is below your lower bound, and a 10% chance it's above your upper bound.</p>
+              <p>Wide intervals indicate high uncertainty; narrow intervals indicate confidence. Both are informative—we want to understand the range of expert views.</p>
+            </div>
           </div>
           <div class="pq-input-group">
-            <label class="pq-input-label">How likely is it that the simple WELLBY measure (<a href="#def-wellby" style="color: var(--brown);">as defined above</a>) is the best or near-best measure—yielding no less than 80% of the value of the best measure—for cross-intervention comparison in the <a href="#def-focal" style="color: var(--brown);">focal context</a>? <span class="input-note">(State your <a href="#def-probability" style="color: var(--brown);">best calibrated probability</a>.)</span></label>
-            <div class="pq-slider-container">
-              <input type="range" name="pq1a_probability" class="pq-slider" min="0" max="100" value="50" oninput="this.nextElementSibling.textContent = this.value + '%'">
-              <span class="pq-slider-value">50%</span>
-            </div>
+            <label class="pq-input-label">State your reasoning and key considerations here.</label>
+            <textarea name="pq1a_reasoning" class="input textarea" rows="3" placeholder="What factors inform your estimate? Where does your uncertainty come from?"></textarea>
           </div>
         </div>
       </div>
@@ -210,8 +291,16 @@
         </div>
 
         <div class="pq-inputs">
+          <!-- General question discussion -->
           <div class="pq-input-group">
-            <label class="pq-input-label">Which measure would you recommend as the primary metric?</label>
+            <label class="pq-input-label">Consider both questions above: what measures to use <em>given available data</em>, and what measures <em>should be collected</em> going forward.</label>
+            <textarea name="pq1b_general_thoughts" class="input textarea" rows="3" placeholder="Your thoughts on which measures and transformations (e.g., linear vs log, single-item vs multi-item, with/without calibration) would be best for cross-intervention comparison. Consider both existing data and future data collection."></textarea>
+          </div>
+
+          <!-- Operationalized version -->
+          <h4 style="color: var(--brown); font-size: 14px; margin: 24px 0 12px; font-weight: 600;">Operationalized version</h4>
+          <div class="pq-input-group">
+            <label class="pq-input-label">Which measure would you recommend as the primary metric, assuming future RCTs can collect more data and responses (at a cost)?</label>
             <select name="pq1b_measure" class="input select">
               <option value="">Select...</option>
               <option value="wellby_best">WELLBY (0-10 LS, linear) is best or near-best</option>
@@ -322,7 +411,7 @@
       </div>
 
       <!-- ====== SECTION 2: Conversions Between Measures ====== -->
-      <div class="section-header">
+      <div class="section-header" id="section-conversions">
         <h2 class="section-title">2. Conversions Between Measures</h2>
         <p class="section-description">How should we convert between WELLBYs and DALYs/QALYs?</p>
       </div>
@@ -418,7 +507,7 @@
       </div>
 
       <!-- ====== SECTION 3: Predictions and Policy ====== -->
-      <div class="section-header">
+      <div class="section-header" id="section-predictions">
         <h2 class="section-title">3. Predictions and Policy</h2>
         <p class="section-description">Forecasting questions about expert consensus, research uptake, and measurement impact.</p>
       </div>
@@ -498,12 +587,12 @@
         <h3>About You</h3>
         <div class="respondent-grid">
           <div class="form-field">
-            <label for="name" class="field-label">Name <span class="required">*</span></label>
-            <input type="text" id="name" name="name" required class="input" placeholder="Your full name">
+            <label for="name" class="field-label">Name or pseudonym <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required class="input" placeholder="Your name or a pseudonym">
           </div>
           <div class="form-field">
-            <label for="email" class="field-label">Email <span class="required">*</span></label>
-            <input type="email" id="email" name="email" required class="input" placeholder="your@email.com">
+            <label for="email" class="field-label">Email <span class="optional">(optional)</span></label>
+            <input type="email" id="email" name="email" class="input" placeholder="your@email.com">
           </div>
           <div class="form-field">
             <label for="submission_type" class="field-label">Submission type <span class="optional">(optional)</span></label>
@@ -551,17 +640,25 @@
     <!-- Footnotes Section -->
     <div class="footnotes-section">
       <h4>Notes</h4>
-      <ol>
-        <li id="fn1">Pivotal Questions: research questions where credible evidence could most shift funding decisions. We identify these through stakeholder collaboration, prioritizing by expected value of information.</li>
-        <li id="fn2">Happier Lives Institute uses WELLBYs as their primary metric; Founders Pledge incorporates them alongside DALYs. GiveWell has explored WELLBY-based analysis but hasn't fully adopted it.</li>
-        <li id="fn3">Scale-use heterogeneity: different people use the 0-10 scale differently—what one person calls "7" might correspond to another's "5." This creates bias when comparing across individuals or groups.</li>
-        <li id="fn4">Calibration questions have objectively correct answers (e.g., "1+1=?") that reveal how respondents use scales. If someone rates 2 as "very certain," we know they compress the scale.</li>
-        <li id="fn5">Vignettes describe hypothetical people ("John has X, Y, Z characteristics"). By having respondents rate these standardized scenarios, researchers can compare individual scale use.</li>
-        <li id="fn6">The neutral point is the life satisfaction level where welfare equals zero—below this, welfare is negative. If neutral=5, then LS=3 represents negative welfare; if neutral=2, LS=3 is positive.</li>
-        <li id="fn10">Full specifications and context available in the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener">canonical Wellbeing PQ formulations on Coda</a>.</li>
-        <li id="fn11">Some questions are also posted to <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">The Unjournal's Metaculus forecasting page</a> for crowd prediction.</li>
+      <ol class="footnote-list">
+        <li id="fn1" value="1">Pivotal Questions: research questions where credible evidence could most shift funding decisions. We identify these through stakeholder collaboration, prioritizing by expected value of information.</li>
+        <li id="fn2" value="2">Happier Lives Institute uses WELLBYs as their primary metric; Founders Pledge incorporates them alongside DALYs. GiveWell has explored WELLBY-based analysis but hasn't fully adopted it.</li>
+        <li id="fn3" value="3">Scale-use heterogeneity: different people use the 0-10 scale differently—what one person calls "7" might correspond to another's "5." This creates bias when comparing across individuals or groups.</li>
+        <li id="fn4" value="4">Calibration questions have objectively correct answers (e.g., "1+1=?") that reveal how respondents use scales. If someone rates 2 as "very certain," we know they compress the scale.</li>
+        <li id="fn5" value="5">Vignettes describe hypothetical people ("John has X, Y, Z characteristics"). By having respondents rate these standardized scenarios, researchers can compare individual scale use.</li>
+        <li id="fn6" value="6">The neutral point is the life satisfaction level where welfare equals zero—below this, welfare is negative. If neutral=5, then LS=3 represents negative welfare; if neutral=2, LS=3 is positive.</li>
+        <li id="fn10" value="10">Full specifications and context available in the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener">canonical Wellbeing PQ formulations on Coda</a>.</li>
+        <li id="fn11" value="11">Some questions are also posted to <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">The Unjournal's Metaculus forecasting page</a> for crowd prediction.</li>
       </ol>
     </div>
+
+    <!-- AI Disclaimer -->
+    <details style="margin-top: 32px; font-size: 13px; color: var(--text-light);">
+      <summary style="cursor: pointer;">About this page</summary>
+      <div style="padding: 12px 0; line-height: 1.6;">
+        <p style="margin: 0;">Some content on these workshop pages was drafted with AI assistance based on our own source materials, notes, and research. We've reviewed it carefully, but errors or unclear passages may remain. If you spot anything incorrect or confusing, please let us know—ideally via a <a href="https://web.hypothes.is/" target="_blank" rel="noopener" style="color: var(--sage);">Hypothes.is annotation</a> on the relevant passage, or by emailing contact@unjournal.org.</p>
+      </div>
+    </details>
 
   </main>
 
