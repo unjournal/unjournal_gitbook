@@ -25,6 +25,7 @@
     <ul class="page-nav-links">
       <li><a href="/interest.html" class="page-nav-link">Interest/Feedback</a></li>
       <li><a href="/about.html" class="page-nav-link active">About</a></li>
+      <li><a href="/readings.html" class="page-nav-link">Readings</a></li>
       <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
       <li><a href="/live/" class="page-nav-link">Live Sessions</a></li>
     </ul>
@@ -42,28 +43,52 @@
 
     <p>Organizations ranging from Effective Altruism-aligned funders like <a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a>, <a href="https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights" target="_blank" rel="noopener">GiveWell</a>, and <a href="https://coefficientgiving.org/research/cost-effectiveness/" target="_blank" rel="noopener">Coefficient Giving</a> to government agencies and development NGOs compare interventions across very different domains—physical health, mental health, poverty alleviation—to decide where resources can do the most good. To make these comparisons, they need a common unit of measurement.</p>
 
-    <p>Two measures feature prominently in these analyses.<a href="#fn9" class="footnote" id="fnref9">[9]<span class="footnote-tooltip">Other measures include QALYs (quality-adjusted life years), income-equivalent measures, and multi-dimensional poverty indices. QALYs differ from DALYs in both direction (measuring health gained vs. lost) and methodology—QALY weights often come from individual patient assessments (e.g., EQ-5D questionnaires), while DALY weights come from population surveys rating hypothetical states.</span></a> The DALY (disability-adjusted life year)<a href="#fn1" class="footnote" id="fnref1">[1]<span class="footnote-tooltip">Developed for the Global Burden of Disease Study (Murray & Lopez, 1996). One DALY represents one year of healthy life lost—either through premature death (YLL) or living with disability (YLD). DALYs are calculated using disability weights derived from population surveys (GBD 2010+) where respondents compare hypothetical health states. Unlike QALYs, DALYs don't typically involve asking individuals about their own health—they apply standardized weights to epidemiological prevalence data.</span></a> comes from health economics and captures years of healthy life lost to disease or disability. The WELLBY (wellbeing-adjusted life year)<a href="#fn2" class="footnote" id="fnref2">[2]<span class="footnote-tooltip">Introduced by Frijters et al. (2020). One WELLBY equals a 1-point increase on the 0–10 life satisfaction scale, for one person, for one year. This assumes scale points are meaningful and comparable—the "linear WELLBY" assumption.</span></a> is based on self-reported life satisfaction, typically measured on a 0–10 scale. Each has strengths and limitations—and how they relate to each other, and whether either reliably captures what matters for human welfare, directly affects which interventions get prioritized.</p>
+    <p>Two measures feature prominently in these analyses.<a href="#fn9" class="footnote" id="fnref9">[9]<span class="footnote-tooltip"><strong>QALYs</strong>: patients report health states (EQ-5D) → mapped to utility values via population-derived tariffs. Used in clinical cost-effectiveness (NICE). <strong>DALYs</strong>: disability weights from population paired-comparison surveys → applied to epidemiological data. Used in global health (GBD, GiveWell, DCP3). Key differences include perspective, whose preferences count, and data requirements... <em style="color: #8cb4e8;">[click for more]</em></span></a> The DALY (disability-adjusted life year)<a href="#fn1" class="footnote" id="fnref1">[1]<span class="footnote-tooltip">GBD Study (Murray & Lopez, 1996). One DALY = one year of healthy life lost (YLL + YLD). Two-stage process: (1) <em>Valuation</em>—disability weights from population surveys comparing paired hypothetical states; (2) <em>Measurement</em>—weights applied to epidemiological prevalence data (disease registries, DHS/MICS surveys, vital statistics). This "top-down" approach makes DALYs tractable across countries... <em style="color: #8cb4e8;">[click for more]</em></span></a> comes from health economics and captures years of healthy life lost to disease or disability. The WELLBY (wellbeing-adjusted life year)<a href="#fn2" class="footnote" id="fnref2">[2]<span class="footnote-tooltip">Introduced by Frijters et al. (2020). One WELLBY equals a 1-point increase on the 0–10 life satisfaction scale, for one person, for one year. This assumes scale points are meaningful and comparable—the "linear WELLBY" assumption.</span></a> is based on self-reported life satisfaction, typically measured on a 0–10 scale. Each has strengths and limitations—and how they relate to each other directly affects which interventions get prioritized. For instance, different WELLBY-to-DALY conversion factors can change whether a mental health program in sub-Saharan Africa ranks above or below malaria prevention in cost-effectiveness analyses.</p>
 
-    <p>This is part of <a href="https://www.unjournal.org/" target="_blank" rel="noopener">The Unjournal's</a> <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener">Pivotal Questions initiative</a>: working with impact-focused organizations to identify their highest-value research questions, connect them to evidence, and commission expert evaluations that can inform real decisions.</p>
+    <p><a href="#daly-qaly-box" class="toggle-link" onclick="document.getElementById('daly-qaly-box').classList.toggle('open'); this.textContent = this.textContent.includes('unfold') ? 'Why DALYs, not QALYs? (hide)' : 'Why DALYs, not QALYs? (unfold)'; return false;">Why DALYs, not QALYs? (unfold)</a></p>
+
+    <div class="segment-details-box" id="daly-qaly-box">
+      <p style="margin-top: 0;">This workshop focuses on <strong>DALYs</strong> as the health-economic comparator because they dominate in the global health and LMIC intervention contexts where impact-focused funders operate:</p>
+      <ul style="margin-bottom: 12px;">
+        <li><strong>Global Burden of Disease (GBD)</strong> and <strong>WHO-CHOICE</strong> frameworks use DALYs as the standard metric</li>
+        <li><strong>GiveWell</strong> reports cost-effectiveness in terms of "cost per DALY averted"</li>
+        <li><strong>Disease Control Priorities (DCP3)</strong>—the authoritative reference for LMIC health interventions—uses DALYs throughout</li>
+        <li>DALYs require only epidemiological prevalence data (available from disease registries, DHS/MICS surveys, vital statistics), whereas QALYs typically require patient-reported outcome data that's expensive to collect in resource-limited settings</li>
+      </ul>
+      <p style="margin-bottom: 0;">QALYs remain important in high-income clinical settings (NICE cost-effectiveness thresholds, FDA value assessments), but when comparing a mental health intervention in Uganda to malaria bednets in Kenya, DALYs are the practical common currency. The methodological questions about WELLBY-to-health-metric conversion apply similarly to both DALYs and QALYs, so insights from this workshop should transfer.</p>
+    </div>
+
+    <p>This is part of <a href="https://www.unjournal.org/" target="_blank" rel="noopener">The Unjournal's</a> <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener">Pivotal Questions initiative</a>: working with impact-focused organizations to identify their highest-value research questions, connect them to evidence, and commission expert evaluations and stakeholder input that can inform real decisions.</p>
 
     <h2 id="sparked">What sparked this workshop</h2>
 
     <p>This workshop emerged from converging work streams. First, we collaborated with <a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a> to identify their highest-value research questions—<a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener">Pivotal Questions</a> where credible evidence could most shift their funding decisions. WELLBY reliability and DALY-WELLBY interconvertibility ranked among the most decision-relevant.</p>
 
-    <p>Second, we commissioned an <a href="https://unjournal.pubpub.org/pub/evalsumstrongminds/" target="_blank" rel="noopener">evaluation of HLI's cost-effectiveness analysis of StrongMinds and Friendship Bench</a>—mental health interventions whose estimated impact depends heavily on WELLBY measurement. This highlighted practical stakes: how you interpret self-reported life satisfaction changes can swing an intervention from "highly effective" to "uncertain."<a href="#fn3" class="footnote" id="fnref3">[3]<span class="footnote-tooltip">StrongMinds delivers group interpersonal therapy (IPT) for depression in sub-Saharan Africa. Cost-effectiveness estimates vary by an order of magnitude depending on how WELLBYs are valued relative to DALYs. See our evaluation summary for details.</span></a> This sharpened the need for clarity on WELLBY validity.</p>
+    <p>Second, we commissioned an <a href="https://unjournal.pubpub.org/pub/evalsumstrongminds/" target="_blank" rel="noopener">evaluation of HLI's cost-effectiveness analysis of StrongMinds and Friendship Bench</a>—mental health interventions whose estimated impact depends heavily on WELLBY measurement. This highlighted practical stakes: how you interpret self-reported life satisfaction changes can swing an intervention from "highly effective" to "uncertain."<a href="#fn3" class="footnote" id="fnref3">[3]<span class="footnote-tooltip">StrongMinds delivers group interpersonal therapy (IPT) for depression in sub-Saharan Africa. Cost-effectiveness estimates vary substantially depending on analytical choices: GiveWell's assessment suggests a range from ~5% to ~80% as cost-effective as marginal AMF funding, roughly a 16× spread. See our <a href="https://unjournal.pubpub.org/pub/evalsumstrongminds/">evaluation summary</a> and the <a href="https://www.givewell.org/international/technical/programs/strongminds-happier-lives-institute">GiveWell assessment</a>.</span></a> This sharpened the need for clarity on WELLBY validity.</p>
 
-    <p>Third, we commissioned an <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener">evaluation of Benjamin, Cooper, Heffetz, Kimball & Zhou's paper</a> "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being." This paper addresses whether people use wellbeing scales in comparable ways. If <em>differences in scale use and preference heterogeneity</em><a href="#fn4" class="footnote" id="fnref4">[4]<span class="footnote-tooltip">Scale-use heterogeneity: different people interpret and use the 0–10 scale differently. One person's "7" might correspond to another person's "5" in terms of actual experienced wellbeing. Preference heterogeneity means people may value the same life circumstances differently. Both create noise and potential bias in cross-person comparisons.</span></a> mean that changes in life satisfaction (not just absolute levels) aren't comparable across individuals, that poses a challenge for the WELLBY as a tool for comparing interventions. The paper develops methods using <strong>calibration questions</strong><a href="#fn5" class="footnote" id="fnref5">[5]<span class="footnote-tooltip">Questions asking respondents to rate well-defined scenarios (e.g., "How satisfied would you be if you won $1,000?"). By observing how people rate the same reference points, researchers can estimate and adjust for individual differences in scale use.</span></a> and <strong>vignette exercises</strong><a href="#fn6" class="footnote" id="fnref6">[6]<span class="footnote-tooltip">Respondents rate hypothetical people's life satisfaction based on descriptions. E.g., "Sarah has a stable job and good health. Rate her life satisfaction." This reveals how individuals anchor the scale, enabling cross-person calibration.</span></a> to detect and adjust for scale-use heterogeneity. The evaluators' verdict was encouraging but nuanced: the differences in scale use may not be as severe as some feared, but more work is needed—particularly on whether the calibration methods generalize to low-income settings and whether scale-use heterogeneity differs systematically across treatment and control groups.</p>
+    <p>Third, we commissioned an <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener">evaluation of Benjamin, Cooper, Heffetz, Kimball & Zhou's paper</a> "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being." This paper addresses whether people use wellbeing scales in comparable ways. If <em>differences in scale use and preference heterogeneity</em><a href="#fn4" class="footnote" id="fnref4">[4]<span class="footnote-tooltip">Scale-use heterogeneity: different people interpret and use the 0–10 scale differently. One person's "7" might correspond to another person's "5" in terms of actual experienced wellbeing. Preference heterogeneity means people may value the same life circumstances differently. Both create noise and potential bias in cross-person comparisons.</span></a> mean that changes in life satisfaction (not just absolute levels) aren't comparable across individuals, that poses a challenge for the WELLBY as a tool for comparing interventions. The paper develops methods using <strong>calibration questions</strong><a href="#fn5" class="footnote" id="fnref5">[5]<span class="footnote-tooltip">Survey items with objectively correct answers—the same for all respondents. Benjamin et al. use <em>visual</em> calibration (e.g., "How dark is this circle?") to reveal individual scale-use tendencies without text-interpretation issues.</span></a> and <strong>vignette exercises</strong><a href="#fn6" class="footnote" id="fnref6">[6]<span class="footnote-tooltip">Unlike traditional anchoring vignettes (rating hypothetical people), Benjamin et al.'s vignettes ask respondents to imagine situations in their <em>own</em> life and rate dimensions of well-being for <em>themselves</em>. Part of an "ideal approach" that also requires multi-dimensional wellbeing questions and stated-preference surveys.</span></a> to detect and adjust for scale-use heterogeneity. The evaluators' verdict was encouraging but nuanced: the differences in scale use may not be as severe as some feared, but key questions remain—particularly whether calibration methods tested in high-income samples work in LMIC contexts, and whether treatment and control groups use scales differently (which could bias effect estimates even when calibration is applied).</p>
 
     <p>Together, these considerations led us to propose this workshop to Founders Pledge, who agreed it would be valuable—bringing together researchers, evaluators, and funders to make progress on questions that directly affect funding priorities.</p>
 
+    <!-- Focal Case Callout -->
+    <div style="background: linear-gradient(135deg, var(--sage-bg) 0%, #e8efe8 100%); border: 2px solid var(--sage); border-radius: 12px; padding: 20px 24px; margin: 32px 0;">
+      <h3 style="font-family: var(--font-serif); font-size: 18px; color: var(--dark); margin: 0 0 12px;">🔬 The Focal Case: StrongMinds vs AMF</h3>
+      <p style="font-size: 14px; color: var(--text); margin: 0 0 12px; line-height: 1.6;">
+        The practical question motivating this workshop: How should funders compare mental health interventions (StrongMinds, Friendship Bench) measured in WELLBYs against bednet distribution (AMF) measured in DALYs? HLI estimates ~47 WELLBYs per $1,000 for StrongMinds; GiveWell's analysis puts it at 5–80% as cost-effective as AMF—<strong>a 16× range driven by methodological choices</strong>.
+      </p>
+      <p style="font-size: 14px; margin: 0;">
+        <a href="linear-wellby-analysis.html" style="color: var(--sage); font-weight: 600;">Read the detailed focal case analysis →</a>
+      </p>
+    </div>
+
     <h2 id="goals">What we want to achieve</h2>
 
-    <p>This workshop brings together authors of several papers in this area, Unjournal evaluators, funders who use these measures in their work, and researchers with relevant expertise. We're organizing the discussion around four key questions:</p>
+    <p>This workshop aims to bridge the gap between researchers and practitioners on wellbeing measurement—enabling better communication, identifying points of consensus and key uncertainties, and ultimately driving better funding decisions.<a href="#fn11" class="footnote" id="fnref11">[11]<span class="footnote-tooltip">Theory of change: Help researchers understand practitioners' highest-value questions; help practitioners understand relevant research; enable collaboration by agreeing on terminology and identifying cruxes; state beliefs openly with calibrated uncertainty; drive better decisions on LMIC intervention measurement and funding.</span></a> We're organizing the discussion around four key questions:</p>
 
     <div class="question-cards">
       <div class="question-card">
         <h3 class="question-card-title">1. Is the linear WELLBY reliable enough?</h3>
-        <p class="question-card-text">Can we treat a 1-point improvement in life satisfaction as meaning the same thing for different people and starting points?<a href="#fn7" class="footnote" id="fnref7">[7]<span class="footnote-tooltip">This is the "cardinality" assumption: that scale intervals are equal (3→4 = 7→8). Without it, summing WELLBYs across people is invalid. Evidence is mixed—some studies suggest diminishing sensitivity at higher levels.</span></a> Does improving one person's wellbeing from 1→3 equal improving two people's wellbeing from 1→2? Does a move from 3→4 mean the same as 7→8? Where is the "neutral point"<a href="#fn8" class="footnote" id="fnref8">[8]<span class="footnote-tooltip">The neutral point is the life satisfaction level representing neither positive nor negative welfare—essentially the boundary between "life worth living" and "suffering." Estimates range from 2-5 on the 0-10 scale. Peasgood et al. (2018) tentatively estimate ~2.</span></a> on the scale? Does any of this matter—is the linear WELLBY likely to yield similar recommendations as other methods when comparing interventions?</p>
+        <p class="question-card-text">Can we treat a 1-point improvement in life satisfaction as meaning the same thing for different people and starting points?<a href="#fn7" class="footnote" id="fnref7">[7]<span class="footnote-tooltip">This is the "cardinality" assumption: that scale intervals are equal (3→4 = 7→8). Without it, summing WELLBYs across people is invalid. Evidence is mixed—some studies suggest diminishing sensitivity at higher levels.</span></a> Does improving one person's wellbeing from 1→3 equal improving two people's wellbeing from 1→2? Does a move from 3→4 mean the same as 7→8? Where is the "neutral point"<a href="#fn8" class="footnote" id="fnref8">[8]<span class="footnote-tooltip">The neutral point is where wellbeing is neither positive nor negative. <em>Why it matters:</em> If we weight gains below vs. above this threshold differently, its location directly affects which interventions look most cost-effective—and it affects DALY-WELLBY conversion. Estimates: 2-5 on 0-10 scale... <em style="color: #8cb4e8;">[click for more]</em></span></a> on the scale? Does any of this matter—is the linear WELLBY likely to yield similar recommendations as other methods when comparing interventions?</p>
       </div>
 
       <div class="question-card">
@@ -104,10 +129,10 @@
         <strong><a href="/live/wellby.html" style="color: inherit;">WELLBY Reliability Discussion</a></strong> (~25 min): Focused discussion on whether the linear WELLBY is reliable enough for comparing interventions. Covers cardinality assumptions, neutral points, and measurement challenges.
       </div>
       <div class="segment-detail">
-        <strong><a href="/live/daly.html" style="color: inherit;">DALY/QALY↔WELLBY Conversion</a></strong> (~25 min): How should we translate between health measures (DALYs, QALYs) and subjective wellbeing (WELLBYs)? Examines current approaches and what's missing.
+        <strong><a href="/live/daly.html" style="color: inherit;">DALY/QALY↔WELLBY Conversion</a></strong> (~25 min): Samuel Dupret (HLI) presents HLI's approach to DALY-WELLBY conversion and moral weights; Julian Jamison (University of Exeter) leads discussion. Examines current approaches and what empirical evidence would most reduce uncertainty.
       </div>
       <div class="segment-detail">
-        <strong><a href="/beliefs.html" style="color: inherit;">Beliefs Elicitation</a></strong> (~15 min): A guided exercise where participants state their probabilities on key operationalized questions (WELL_01, DALY_01, etc.), capturing expert views before and after discussion.
+        <strong><a href="/beliefs.html" style="color: inherit;">Beliefs Elicitation</a></strong> (~15 min): A guided exercise where participants state their probabilities on key operationalized questions (WELL_01, DALY_01, etc.), capturing expert and stakeholder views before and after discussion.
       </div>
       <div class="segment-detail">
         <strong><a href="/live/practitioner.html" style="color: inherit;">Practitioner Panel & Open Discussion</a></strong> (~30 min): Representatives from Founders Pledge, Coefficient Giving, and other organizations discuss how they currently handle WELLBY-DALY comparisons, what they'd need to change their approach, and concrete recommendations. Aim: actionable takeaways that organizations can apply immediately.
@@ -120,13 +145,35 @@
 
     <h2 id="pivotal-questions">Pivotal Questions & Beliefs</h2>
 
-    <p>As part of this project, we've developed specific, operationalized questions (codes WELL_01–07 on WELLBY reliability, DALY_01–05 on interconvertibility) designed so that experts and stakeholders can state their beliefs quantitatively—and so that answers can directly inform funding decisions.<a href="#fn10" class="footnote" id="fnref10">[10]<span class="footnote-tooltip">For full specifications, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">canonical formulations on Coda</a>. Three of these questions are also posted on our <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus forecasting page</a>.</span></a> We want to elicit beliefs before, during, and after reviewing the evidence, to see how expert and stakeholder views evolve.</p>
+    <p><a href="/beliefs.html" style="color: var(--sage); font-weight: 500;">See key questions and share your beliefs →</a></p>
 
-    <p><a href="/beliefs.html">See key questions and share your beliefs →</a></p>
+    <p>As part of this project, we've developed specific, operationalized questions (codes WELL_01–07 on WELLBY reliability, DALY_01–05 on interconvertibility) designed so that experts and stakeholders can state their beliefs quantitatively—and so that answers can directly inform funding decisions.<a href="#fn10" class="footnote" id="fnref10">[10]<span class="footnote-tooltip">For full specifications, see the canonical formulations on Coda. Three of these questions are also posted on our Metaculus forecasting page. <em style="color: #8cb4e8;">[links in footnote]</em></span></a> We want to elicit beliefs before, during, and after reviewing the evidence, to see how expert and stakeholder views evolve.</p>
+
+    <h2 id="pre-reads">Pre-Read Resources: Framing the Discussion</h2>
+
+    <p>To help participants get on the same page before the workshop, we've prepared two analysis documents that map the key issues, assumptions, and evidence. These aren't meant to resolve debates—they're meant to <strong>structure them</strong>: "Here are the important issues; let's discuss them one by one."</p>
+
+    <div class="question-cards" style="grid-template-columns: 1fr 1fr;">
+      <div class="question-card" style="border-color: var(--sage);">
+        <h3 class="question-card-title" style="color: var(--sage);">📄 Linear WELLBY Analysis</h3>
+        <p class="question-card-text">When is the "linear WELLBY" defensible for comparing interventions? Covers the core assumptions (cardinality, comparability, neutral point), the Bond & Lang identification critique, scale-use heterogeneity (shifters vs. stretchers), and what calibration methods can and can't fix.</p>
+        <p style="margin-top: 12px;"><a href="linear-wellby-analysis.html" style="color: var(--sage); font-weight: 600;">Read the analysis →</a></p>
+      </div>
+
+      <div class="question-card" style="border-color: var(--brown);">
+        <h3 class="question-card-title" style="color: var(--brown);">📄 DALY↔WELLBY Conversion</h3>
+        <p class="question-card-text">How should we translate between DALYs/QALYs and WELLBYs? Reviews empirical anchors (UK Green Book ~7:1, empirical estimates 5–10), conceptual issues (health vs. subjective wellbeing), and practical implications for CEA decisions.</p>
+        <p style="margin-top: 12px;"><a href="daly-wellby-conversion.html" style="color: var(--brown); font-weight: 600;">Read the analysis →</a></p>
+      </div>
+    </div>
+
+    <p style="font-size: 14px; color: var(--text-light); margin-top: 16px;"><strong>Note:</strong> These documents were AI-assisted drafts (March 2026) that integrate deep research and annotation feedback. They're shared for workshop discussion—please <a href="https://hypothes.is" target="_blank" rel="noopener">annotate</a> errors or concerns directly on the pages.</p>
+
+    <p style="margin-top: 16px;"><a href="readings.html" style="color: var(--sage); font-weight: 600;">📚 Full recommended readings list →</a> <span style="font-size: 13px; color: var(--text-light);">— includes Benjamin et al. (2023), Plant (2024), Bond & Lang (2019), GiveWell/HLI analyses, and papers by workshop participants</span></p>
 
     <h2 id="participants">Confirmed Participants</h2>
 
-    <p><a href="#participant-table" class="toggle-link" onclick="document.getElementById('participant-table').classList.toggle('open'); this.textContent = this.textContent.includes('show') ? 'See participants (hide)' : 'See participants (show)'; return false;">See participants (show)</a></p>
+    <p><a href="#participant-table" class="toggle-link" onclick="document.getElementById('participant-table').classList.toggle('open'); this.textContent = this.textContent.includes('show') ? 'See confirmed participants (hide)' : 'See confirmed participants — 24 live + 2 async (show)'; return false;">See confirmed participants — 24 live + 2 async (show)</a></p>
 
     <div class="segment-details-box" id="participant-table">
     <table style="width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 24px;">
@@ -210,7 +257,7 @@
         </tr>
         <tr style="border-bottom: 1px solid var(--border-light);">
           <td style="padding: 10px 12px;">Yaniv Reingewertz</td>
-          <td style="padding: 10px 12px;">JDC Myers Brookdale Institute</td>
+          <td style="padding: 10px 12px;">University of Haifa / Myers-JDC-Brookdale</td>
           <td style="padding: 10px 12px;">Participant</td>
         </tr>
         <tr style="border-bottom: 1px solid var(--border-light);">
@@ -229,9 +276,44 @@
           <td style="padding: 10px 12px;">Participant</td>
         </tr>
         <tr style="border-bottom: 1px solid var(--border-light);">
+          <td style="padding: 10px 12px;">Ori Heffetz</td>
+          <td style="padding: 10px 12px;">Cornell University</td>
+          <td style="padding: 10px 12px;">Presenter (beliefs elicitation, SWB measurement)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border-light);">
+          <td style="padding: 10px 12px;">Kristen Cooper</td>
+          <td style="padding: 10px 12px;">Gordon College</td>
+          <td style="padding: 10px 12px;">Participant (Benjamin et al. co-author)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border-light);">
+          <td style="padding: 10px 12px;">Mo Putera</td>
+          <td style="padding: 10px 12px;">ARMoR</td>
+          <td style="padding: 10px 12px;">Participant (CEA practitioner)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border-light);">
+          <td style="padding: 10px 12px;">Michael Plant</td>
+          <td style="padding: 10px 12px;">Happier Lives Institute / Oxford</td>
+          <td style="padding: 10px 12px;">Discussant (all segments)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border-light);">
+          <td style="padding: 10px 12px;">Samuel Dupret</td>
+          <td style="padding: 10px 12px;">Happier Lives Institute</td>
+          <td style="padding: 10px 12px;">Presenter: DALY-WELLBY conversion</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border-light);">
+          <td style="padding: 10px 12px;">Joel McGuire</td>
+          <td style="padding: 10px 12px;">Happier Lives Institute</td>
+          <td style="padding: 10px 12px;">Moral weights / DALY-WELLBY</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border-light);">
           <td style="padding: 10px 12px;">Alberto Prati</td>
           <td style="padding: 10px 12px;">&mdash;</td>
           <td style="padding: 10px 12px;">Async contributor</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border-light);">
+          <td style="padding: 10px 12px;">Huw Evans</td>
+          <td style="padding: 10px 12px;">Kaya Guides</td>
+          <td style="padding: 10px 12px;">Async contributor (WELLBY practitioner)</td>
         </tr>
       </tbody>
     </table>
@@ -263,18 +345,27 @@
     <div class="footnotes-section">
       <h4>Notes</h4>
       <ol>
-        <li id="fn1">Developed for the Global Burden of Disease Study (Murray & Lopez, 1996). One DALY represents one year of healthy life lost—either through premature death (YLL) or living with disability (YLD). DALYs are calculated using disability weights derived from population surveys (GBD 2010+) where respondents compare hypothetical health states. Unlike QALYs, DALYs don't typically involve asking individuals about their own health—they apply standardized weights to epidemiological prevalence data.</li>
+        <li id="fn1">Developed for the Global Burden of Disease Study (<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(96)07495-8/fulltext" target="_blank" rel="noopener">Murray & Lopez, 1996</a>). One DALY represents one year of healthy life lost—either through premature death (YLL) or living with disability (YLD). The DALY framework separates two steps: (1) <strong>Valuation</strong>—disability weights (0–1 scale, where 1 = death-equivalent) come from population surveys where respondents compare paired hypothetical health states ("which person is healthier?"), not from patients rating their own conditions; (2) <strong>Measurement</strong>—these standardized weights are applied to epidemiological prevalence data (disease registries, hospital records, household surveys like DHS/MICS, vital statistics, cause-of-death registration) to estimate population-level burden. This "top-down" approach—using standardized weights applied to surveillance data—makes DALYs tractable for comparing interventions across countries with variable health infrastructure. <a href="daly-wellby-conversion.html#sec-definitions" style="color: var(--sage);">See detailed definitions →</a></li>
         <li id="fn2">Introduced by Frijters et al. (2020). One WELLBY equals a 1-point increase on the 0–10 life satisfaction scale, for one person, for one year. This assumes scale points are meaningful and comparable—the "linear WELLBY" assumption.</li>
-        <li id="fn3">StrongMinds delivers group interpersonal therapy (IPT) for depression in sub-Saharan Africa. Cost-effectiveness estimates vary by an order of magnitude depending on how WELLBYs are valued relative to DALYs. See our evaluation summary for details.</li>
+        <li id="fn3">StrongMinds delivers group interpersonal therapy (IPT) for depression in sub-Saharan Africa. Cost-effectiveness estimates are highly sensitive to assumptions about WELLBY measurement validity and WELLBY-to-DALY conversion factors. See our <a href="https://unjournal.pubpub.org/pub/evalsumstrongminds/" target="_blank" rel="noopener">evaluation summary</a> for details.</li>
         <li id="fn4">Scale-use heterogeneity: different people interpret and use the 0–10 scale differently. One person's "7" might correspond to another person's "5" in terms of actual experienced wellbeing. Preference heterogeneity means people may value the same life circumstances differently. Both create noise and potential bias in cross-person comparisons.</li>
-        <li id="fn5">Questions asking respondents to rate well-defined scenarios (e.g., "How satisfied would you be if you won $1,000?"). By observing how people rate the same reference points, researchers can estimate and adjust for individual differences in scale use.</li>
-        <li id="fn6">Respondents rate hypothetical people's life satisfaction based on descriptions. E.g., "Sarah has a stable job and good health. Rate her life satisfaction." This reveals how individuals anchor the scale, enabling cross-person calibration.</li>
+        <li id="fn5"><strong>Calibration questions</strong> are survey items with objectively correct answers—the same for all respondents. Benjamin et al.'s innovation uses <em>visual</em> calibration: e.g., "How dark is this circle?" on a 0–100 scale. Because the true answer is identical for everyone, differences in responses reveal individual scale-use tendencies. This avoids interpretation issues that arise with text-based scenarios.</li>
+        <li id="fn6"><strong>Vignette calibration</strong> in Benjamin et al. does <em>not</em> use traditional "anchoring vignettes" where you rate hypothetical people (e.g., "Rate Sarah's life satisfaction"). They critique that approach—respondents may lack empathy or project their own circumstances. Instead, their vignettes ask respondents to imagine specific situations in their <em>own</em> life and rate a dimension of well-being for <em>themselves</em> (e.g., "your ability to remember things" given a hypothetical constraint). These methods are part of an "ideal approach" that also requires collecting self-reported wellbeing across multiple dimensions plus stated-preference surveys.</li>
         <li id="fn7">This is the "cardinality" assumption: that scale intervals are equal (3→4 = 7→8). Without it, summing WELLBYs across people is invalid. Evidence is mixed—some studies suggest diminishing sensitivity at higher levels.</li>
-        <li id="fn8">The neutral point is the life satisfaction level representing neither positive nor negative welfare—essentially the boundary between "life worth living" and "suffering." Estimates range from 2-5 on the 0-10 scale. Peasgood et al. (2018) tentatively estimate ~2.</li>
-        <li id="fn9">Other measures include QALYs (quality-adjusted life years), income-equivalent measures, and multi-dimensional poverty indices. QALYs differ from DALYs in both direction (measuring health gained vs. lost) and methodology—QALY weights often come from individual patient assessments (e.g., EQ-5D questionnaires), while DALY weights come from population surveys rating hypothetical states.</li>
+        <li id="fn8">The neutral point is the life satisfaction level representing neither positive nor negative welfare—the boundary between "life worth living" and "suffering." <em>Why it matters:</em> If we weight gains to people below vs. above this threshold differently (e.g., prioritizing those in negative welfare states), the neutral point location directly affects which interventions look most cost-effective. The point also affects DALY-WELLBY conversion, since DALYs implicitly assume death-equivalent = 0. Estimates range from 2-5 on the 0-10 scale; Peasgood et al. (2018) tentatively estimate ~2.</li>
+        <li id="fn9"><strong>QALYs</strong> (quality-adjusted life years) measure health gains: one QALY = one year in perfect health. QALYs have a two-stage process: (1) patients describe their health state via instruments like <a href="https://euroqol.org/information-and-support/eq-5d-instruments/" target="_blank" rel="noopener">EQ-5D</a> (rating mobility, self-care, usual activities, pain, anxiety/depression); (2) these descriptions are mapped to utility values via scoring tariffs derived from general population valuation exercises (time trade-off, standard gamble, discrete choice). QALYs dominate in clinical cost-effectiveness analysis (e.g., <a href="https://www.nice.org.uk/process/pmg36/chapter/economic-evaluation" target="_blank" rel="noopener">NICE</a> uses £20,000–30,000/QALY thresholds). <strong>DALYs</strong> measure health losses using a different architecture: disability weights come from population surveys comparing paired hypothetical states (not patient self-assessments), then applied top-down to epidemiological data. <em>Key differences:</em> (a) <strong>Perspective</strong>—QALYs evaluate specific treatments for specific patients; DALYs compare population-level burden across countries; (b) <strong>Whose preferences</strong>—DALY weights reflect general public assessments, while QALY values can reflect patient or public perspectives (these systematically diverge due to hedonic adaptation—patients often rate conditions less severely than the public imagines); (c) <strong>Data requirements</strong>—QALYs need patient-reported outcomes; DALYs can be estimated from surveillance data, making them tractable in LMICs. Other measures include income-equivalent metrics and multi-dimensional poverty indices. <a href="daly-wellby-conversion.html#sec-definitions" style="color: var(--sage);">See detailed definitions →</a></li>
         <li id="fn10">For full specifications, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Wellbeing-PQ_suPg8sEH" target="_blank" rel="noopener">canonical formulations on Coda</a>. Three of these questions are also posted on our <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus forecasting page</a>.</li>
+        <li id="fn11"><strong>Theory of change:</strong> Help researchers understand practitioners' highest-value questions; help practitioners understand relevant research; enable collaboration by agreeing on terminology and identifying cruxes; state beliefs openly with calibrated uncertainty; drive better decisions on LMIC intervention measurement and funding.</li>
       </ol>
     </div>
+
+    <!-- AI Disclaimer -->
+    <details style="margin-top: 32px; font-size: 13px; color: var(--text-light);">
+      <summary style="cursor: pointer;">About this page</summary>
+      <div style="padding: 12px 0; line-height: 1.6;">
+        <p style="margin: 0;">Some content on these workshop pages was drafted with AI assistance based on our own source materials, notes, and research. We've reviewed it carefully, but errors or unclear passages may remain. If you spot anything incorrect or confusing, please let us know—ideally via a <a href="https://web.hypothes.is/" target="_blank" rel="noopener" style="color: var(--sage);">Hypothes.is annotation</a> on the relevant passage, or by emailing contact@unjournal.org.</p>
+      </div>
+    </details>
 
   </main>
 
