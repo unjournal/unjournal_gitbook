@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linear WELLBYs for Comparing Interventions in LMICs — Deep Research Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]'], ['$$', '$$']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --sage: #5a7a5a;
+      --brown: #8b5e3c;
+      --text: #2d3748;
+      --text-light: #5a6a7a;
+      --border-light: #d8d4cc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .header {
+      background: linear-gradient(135deg, #4a6a4a 0%, #3a5a3a 100%);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .header h1 {
+      font-family: 'Source Serif 4', serif;
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .header p {
+      font-size: 14px;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 16px;
+      color: white;
+      opacity: 0.8;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .back-link:hover { opacity: 1; text-decoration: underline; }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .meta-box {
+      background: #fff;
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 32px;
+      font-size: 13px;
+    }
+    .meta-box strong { color: var(--brown); }
+    #content h1 { display: none; }
+    #content h2 {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1.5rem;
+      color: var(--sage);
+      margin: 48px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--sage);
+    }
+    #content h3 {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1.15rem;
+      color: var(--brown);
+      margin: 32px 0 12px;
+    }
+    #content p {
+      margin-bottom: 16px;
+    }
+    #content ul, #content ol {
+      margin: 16px 0 16px 24px;
+    }
+    #content li {
+      margin-bottom: 8px;
+    }
+    #content blockquote {
+      border-left: 3px solid var(--sage);
+      padding-left: 16px;
+      margin: 20px 0;
+      color: var(--text-light);
+      font-style: italic;
+    }
+    #content strong {
+      color: var(--text);
+    }
+    #content code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+    #content a {
+      color: var(--sage);
+    }
+    .mjx-container {
+      overflow-x: auto;
+      padding: 8px 0;
+    }
+    /* Hide citation artifacts from the markdown */
+    #content p:has(> a[href*="citeturn"]),
+    #content a[href*="citeturn"] {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Linear WELLBYs for Comparing Interventions in LMICs</h1>
+    <p>Deep research report — source material for the workshop analysis page</p>
+    <a href="linear-wellby-analysis.html" class="back-link">&larr; Back to Linear WELLBY Analysis</a>
+  </div>
+
+  <div class="container">
+    <div class="meta-box">
+      <strong>About this document:</strong> This is the full research report that informed the <a href="linear-wellby-analysis.html">Linear WELLBY Analysis</a> page. It contains detailed notation, formal frameworks, and extensive citations. Generated via deep research synthesis (March 2026).
+    </div>
+
+    <div id="content">Loading...</div>
+  </div>
+
+  <script>
+    // Fetch and render the markdown
+    fetch('related_content/deep-research-report.md')
+      .then(response => response.text())
+      .then(md => {
+        // Clean up citation artifacts (citeturnXXXX patterns with invisible Unicode markers)
+        // The source file has U+E200/U+E202/U+E201 (private use area) chars around citations
+        // Pattern: \uE200cite\uE202turn...\uE201
+        md = md.replace(/[\uE200-\uE202]*\s*cite[\uE200-\uE202]*(turn\d+\w*[\uE200-\uE202]*)+/g, '');
+
+        // Protect math blocks from marked processing
+        const mathBlocks = [];
+
+        // Protect display math \[...\]
+        md = md.replace(/\\\[([\s\S]*?)\\\]/g, (match, content) => {
+          mathBlocks.push('\\[' + content + '\\]');
+          return '%%MATH' + (mathBlocks.length - 1) + '%%';
+        });
+
+        // Protect inline math \(...\)
+        md = md.replace(/\\\((.*?)\\\)/g, (match, content) => {
+          mathBlocks.push('\\(' + content + '\\)');
+          return '%%MATH' + (mathBlocks.length - 1) + '%%';
+        });
+
+        // Convert markdown to HTML
+        let html = marked.parse(md);
+
+        // Restore math blocks
+        html = html.replace(/%%MATH(\d+)%%/g, (match, index) => mathBlocks[parseInt(index)]);
+
+        document.getElementById('content').innerHTML = html;
+
+        // Trigger MathJax to process the new content
+        if (window.MathJax && window.MathJax.typesetPromise) {
+          MathJax.typesetPromise().catch(err => console.log('MathJax error:', err));
+        }
+      })
+      .catch(err => {
+        document.getElementById('content').innerHTML = '<p>Error loading content. <a href="related_content/deep-research-report.md">View raw markdown</a></p>';
+        console.error(err);
+      });
+  </script>
+
+  <!-- Hypothes.is -->
+  <script async src="https://hypothes.is/embed.js"></script>
+</body>
+</html>

@@ -874,6 +874,7 @@ flowchart LR
           $QALY = \sum_t q_t \times \Delta t$
         </div>
         <p style="font-size: 13px; margin-top: 8px;">where $q_t \in [0,1]$ is a health utility weight (sometimes negative for "worse than death" states). 1 QALY = 1 year in perfect health.<a href="#fn4" class="footnote">[4]<span class="footnote-tooltip">NICE Glossary. QALYs are widely used in health technology assessment.</span></a></p>
+        <p style="font-size: 13px; margin-top: 8px;"><strong>Key methodological feature:</strong> QALY weights typically come from <em>patient self-reports</em> using instruments like EQ-5D (a brief questionnaire covering mobility, self-care, usual activities, pain/discomfort, anxiety/depression) or from time trade-off / standard gamble exercises where individuals value their own or hypothetical health states. This contrasts with DALY disability weights, which come from population surveys comparing hypothetical states (not patient self-assessments).</p>
       </div>
 
       <details>
@@ -886,6 +887,62 @@ flowchart LR
             <li><strong>Aggregation differs.</strong> DALYs are population-summed burdens; QALYs are individual-level benefit calculations.</li>
           </ul>
           <p>For conversion purposes, 1 DALY averted ≈ 1 QALY gained is a common working assumption, but it's not definitionally true.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><strong>QALY valuation methods in detail</strong></summary>
+        <div class="details-content">
+          <p>QALYs typically have a <strong>two-stage process</strong>:</p>
+          <ol>
+            <li><strong>Health state description:</strong> Often comes from the patient. The <a href="https://euroqol.org/eq-5d-instruments/" target="_blank" rel="noopener">EQ-5D</a> asks patients to rate their current health across five dimensions (mobility, self-care, usual activities, pain/discomfort, anxiety/depression) at three or five severity levels.</li>
+            <li><strong>Utility valuation:</strong> These descriptions are mapped to utility values (0–1 scale) through scoring tariffs derived from general population valuation exercises.</li>
+          </ol>
+          <p>The valuation exercises that create these tariffs include:</p>
+          <ul>
+            <li><strong>Time trade-off (TTO):</strong> "Would you prefer 10 years in health state X, or 7 years in perfect health?" The indifference point reveals the utility.</li>
+            <li><strong>Standard gamble:</strong> "Would you prefer certain health state X, or a 70% chance of perfect health with 30% chance of death?" Reveals risk-adjusted utility.</li>
+            <li><strong>Discrete choice experiments:</strong> Respondents choose between paired health states, allowing statistical estimation of attribute weights.</li>
+            <li><strong>Visual analogue scale (VAS):</strong> Direct rating on a 0–100 thermometer scale (less preferred due to known biases).</li>
+          </ul>
+          <p>The key point: while <em>describing</em> the health state often involves patients, <em>valuing</em> that state typically uses general population preferences—though this varies by decision-maker (<a href="https://www.nice.org.uk/process/pmg36/chapter/economic-evaluation" target="_blank" rel="noopener">NICE prefers general population values</a>; some analyses use patient values).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><strong>Whose preferences count? The adaptation divergence</strong></summary>
+        <div class="details-content">
+          <p>A crucial distinction that affects DALY↔QALY↔WELLBY comparisons:</p>
+          <ul>
+            <li><strong>DALY disability weights</strong> reflect the <em>general public's</em> assessment of how bad various health states are. Respondents compare hypothetical states they haven't experienced.</li>
+            <li><strong>QALY utility values</strong> can reflect either <em>general public</em> or <em>patient</em> perspectives, depending on the instrument and decision-maker's preference.</li>
+          </ul>
+          <p><strong>These systematically diverge due to hedonic adaptation.</strong> Patients who have adapted to a chronic condition often rate it as less severe than the general public imagines. For example:</p>
+          <ul>
+            <li>People with paraplegia often report higher quality of life than non-disabled people predict they would have (<a href="https://doi.org/10.1007/s11136-006-9109-8" target="_blank" rel="noopener">Ubel et al., 2005</a>)</li>
+            <li>Dialysis patients rate their quality of life higher than the general public's expectations (<a href="https://doi.org/10.1016/S0895-4356(99)00029-6" target="_blank" rel="noopener">De Wit et al., 2000</a>)</li>
+          </ul>
+          <p>This creates a fundamental tension: should we value avoiding a condition based on how people imagine it (public preferences) or how people actually experience it (patient preferences)? DALYs implicitly choose the former; WELLBYs implicitly choose the latter.</p>
+          <p>For cross-metric conversion, this means <strong>adaptation effects may be double-counted or ignored</strong> depending on which direction you convert and what assumptions you make.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><strong>DALY valuation methods: paired comparison surveys</strong></summary>
+        <div class="details-content">
+          <p>DALY disability weights are derived through a fundamentally different approach than QALY utilities:</p>
+          <ul>
+            <li><strong>Paired comparison:</strong> "Which person is healthier—Person A with moderate depression, or Person B with severe hearing loss?" Respondents compare brief lay descriptions of health states.</li>
+            <li><strong>Population health equivalence:</strong> "Which is worse—1000 people living with condition X, or 2000 people living with condition Y for half as long?"</li>
+          </ul>
+          <p>The GBD 2019 study collected approximately 60,000 responses from 9 countries to set disability weights for 234 distinct health states (<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30925-9/fulltext" target="_blank" rel="noopener">Lancet GBD 2019</a>).</p>
+          <p><strong>Key design choices:</strong></p>
+          <ul>
+            <li>Respondents are the general public, not patients with those conditions</li>
+            <li>They compare <em>hypothetical</em> health states they may never have experienced</li>
+            <li>The descriptions focus on <em>health</em> specifically—not overall welfare, social functioning, or quality of life</li>
+          </ul>
+          <p>This makes DALYs narrower than WELLBYs by design: they measure "loss of health" rather than "loss of welfare."</p>
         </div>
       </details>
 
@@ -928,6 +985,35 @@ flowchart LR
         <div class="details-content">
           <p>WHO's methods documentation explicitly states that the DALY framework evolved from earlier "welfare/quality of life" framing toward quantifying <strong>loss of health</strong> (departures from perfect health). Disability weights are intended to reflect <em>health states</em>, not social value, stigma, or general quality-of-life.</p>
           <p>This means DALYs and WELLBYs are measuring different targets, even in principle. A "conversion" is really a <em>mapping between proxies</em>, not a unit transformation within the same construct.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><strong>Why DALYs (not QALYs) are the focus for LMIC intervention comparison</strong></summary>
+        <div class="details-content">
+          <p>This workshop—and most global health cost-effectiveness analysis—focuses on <strong>DALYs</strong> rather than QALYs because DALYs dominate in the low- and middle-income country (LMIC) contexts where impact-focused funders operate:</p>
+          <ul>
+            <li><strong>Global Burden of Disease (GBD)</strong> and <strong>WHO-CHOICE</strong> frameworks use DALYs as the standard metric for cross-country burden estimation</li>
+            <li><strong>GiveWell</strong> reports intervention cost-effectiveness in terms of "cost per DALY averted"</li>
+            <li><strong>Disease Control Priorities (DCP3)</strong>—the authoritative reference for LMIC health interventions—uses DALYs throughout its analyses<a href="#fn23" class="footnote">[23]</a></li>
+            <li><strong>Data infrastructure:</strong> DALYs require only epidemiological prevalence data (available from disease registries, DHS/MICS household surveys, vital statistics), whereas QALYs typically require patient-reported outcome data (EQ-5D, SF-6D) that's expensive to collect in resource-limited settings</li>
+          </ul>
+          <p>QALYs remain important in high-income clinical settings (NICE cost-effectiveness thresholds in the UK, FDA value assessments in the US), but when comparing a mental health intervention in Uganda to malaria bednets in Kenya, DALYs are the practical common currency.</p>
+          <p>The methodological questions about WELLBY-to-health-metric conversion apply similarly to both DALYs and QALYs, so insights from this workshop should transfer to either framework.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><strong>Cash transfers and the case for WELLBYs</strong></summary>
+        <div class="details-content">
+          <p>Cash transfers illustrate why DALY-only measurement can be limiting:</p>
+          <ul>
+            <li>DALYs can capture health impacts of cash transfers (reduced child mortality, improved nutrition), but many benefits don't map neatly onto disability weights: <strong>reduced stress, increased agency, improved school attendance, consumption smoothing</strong>.</li>
+            <li>This is precisely where WELLBYs become appealing—life satisfaction surveys can capture broader welfare effects in a single metric that integrates across domains.</li>
+            <li><a href="https://www.givedirectly.org/research-at-give-directly/" target="_blank" rel="noopener">GiveDirectly's evaluations</a> use subjective wellbeing measures alongside consumption data to capture these effects.<a href="#fn24" class="footnote">[24]</a></li>
+            <li>The <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">Happier Lives Institute</a> has built cost-effectiveness estimates for cash transfers in WELLBY terms specifically to make them commensurable with health interventions assessed in DALYs.</li>
+          </ul>
+          <p>This commensurability question—<strong>how many DALYs averted equals one WELLBY gained?</strong>—is one of the central tensions this workshop is positioned to address. The conversion is not straightforward and involves strong assumptions about the relationship between health states and life satisfaction.</p>
         </div>
       </details>
 
@@ -1520,24 +1606,39 @@ flowchart LR
         <h4>References</h4>
         <ol>
           <li id="fn1">The Unjournal Pivotal Questions database, codes DALY_01 / DALY_03 / DALY_05. See also: <a href="beliefs.html">beliefs elicitation page</a>.</li>
-          <li id="fn2">WHO (2020). <em>Methods and data sources for global burden of disease estimates</em>. The framework distinguishes "loss of health" from welfare or quality-of-life.</li>
-          <li id="fn3">WHO (2020). <em>WHO methods and data sources for global burden of disease estimates 2000-2019</em>. Technical paper.</li>
-          <li id="fn4">NICE. "Quality-adjusted life year (QALY)." <a href="https://www.nice.org.uk/glossary?letter=q" target="_blank" rel="noopener">NICE Glossary</a>.</li>
-          <li id="fn5">HM Treasury (2021). <em>Wellbeing Guidance for Appraisal: Supplementary Green Book Guidance</em>.</li>
+          <li id="fn2">WHO (2020). <em>Methods and data sources for global burden of disease estimates</em>. The framework distinguishes "loss of health" from welfare or quality-of-life. <a href="https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/global-health-estimates-leading-causes-of-dalys" target="_blank" rel="noopener">WHO GHE Methods</a>.</li>
+          <li id="fn3">WHO (2020). <em>WHO methods and data sources for global burden of disease estimates 2000-2019</em>. Technical paper. <a href="https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2019_daly-methods.pdf" target="_blank" rel="noopener">PDF</a>.</li>
+          <li id="fn4">NICE. "Quality-adjusted life year (QALY)." <a href="https://www.nice.org.uk/glossary?letter=q" target="_blank" rel="noopener">NICE Glossary</a>. See also: <a href="https://www.nice.org.uk/process/pmg36/chapter/economic-evaluation" target="_blank" rel="noopener">NICE Methods Guide</a>.</li>
+          <li id="fn5">HM Treasury (2021). <em>Wellbeing Guidance for Appraisal: Supplementary Green Book Guidance</em>. <a href="https://www.gov.uk/government/publications/green-book-supplementary-guidance-wellbeing" target="_blank" rel="noopener">GOV.UK</a>.</li>
           <li id="fn6">Founders Pledge (2024). Internal cost-effectiveness framework documentation.</li>
           <li id="fn7">HM Treasury (2021). The guidance explicitly derives 7 WELLBYs per QALY from an 8-to-1 LS span.</li>
           <li id="fn8">Peasgood, T., et al. (2018). "The impact of health on wellbeing: A comparison of SWB and health utility instruments." Cited in UK Green Book guidance.</li>
-          <li id="fn9">Frijters, P., et al. (2024). "Using wellbeing for public policy: taking stock." <em>Nature Human Behaviour</em>.</li>
-          <li id="fn10">Mukuria, C., et al. (2016). EEPRU report comparing SWB measures and health measures.</li>
-          <li id="fn11">GiveWell (2023). "Our Assessment of Happier Lives Institute's Cost-Effectiveness Analysis of StrongMinds."</li>
+          <li id="fn9">Frijters, P., et al. (2024). "Using wellbeing for public policy: taking stock." <em>Nature Human Behaviour</em>. <a href="https://doi.org/10.1038/s41562-023-01760-0" target="_blank" rel="noopener">DOI</a>.</li>
+          <li id="fn10">Mukuria, C., et al. (2016). EEPRU report comparing SWB measures and health measures. <a href="https://eepru.sites.sheffield.ac.uk/reports" target="_blank" rel="noopener">EEPRU Reports</a>.</li>
+          <li id="fn11">GiveWell (2023). "Our Assessment of Happier Lives Institute's Cost-Effectiveness Analysis of StrongMinds." <a href="https://www.givewell.org/research/incubation-grants/happier-lives-institute-march-2023" target="_blank" rel="noopener">GiveWell</a>.</li>
           <li id="fn12">Plant, M. (2024). "A Happy Possibility About Happiness (And Other Subjective) Scales: An Investigation and Tentative Defence of the Cardinality Thesis." <a href="https://wellbeing.hmc.ox.ac.uk/publications/a-happy-possibility-about-happiness-and-other-subjective-scales-an-investigation-and-tentative-defence-of-the-cardinality-thesis/" target="_blank" rel="noopener">Wellbeing Research Centre working paper</a>.</li>
-          <li id="fn13">Benjamin, D.J., et al. (2023). "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being." NBER WP 31728.</li>
-          <li id="fn14">Bond, T.N. & Lang, K. (2019). "The Sad Truth about Happiness Scales." <em>Journal of Political Economy</em>.</li>
-          <li id="fn15">OECD (2021). "United Kingdom." Case study in OECD Guidelines on Measuring Subjective Well-being.</li>
-          <li id="fn16">HLI (2023). "StrongMinds cost-effectiveness analysis." Happier Lives Institute. Available at <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">happierlivesinstitute.org</a>.</li>
-          <li id="fn17">"Least regret" (or "minimax regret") is a formal criterion from decision theory developed by Leonard Savage (1951). The approach chooses the action that minimizes the maximum regret—the difference between the outcome of the chosen action and the best possible outcome—across all possible states of the world. In the context of DALY↔WELLBY conversion, this means choosing mapping assumptions that minimize expected decision error across plausible true conversion values.</li>
+          <li id="fn13">Benjamin, D.J., et al. (2023). "Adjusting for Scale-Use Heterogeneity in Self-Reported Well-Being." <a href="https://www.nber.org/papers/w31728" target="_blank" rel="noopener">NBER WP 31728</a>.</li>
+          <li id="fn14">Bond, T.N. & Lang, K. (2019). "The Sad Truth about Happiness Scales." <em>Journal of Political Economy</em>. <a href="https://doi.org/10.1086/701679" target="_blank" rel="noopener">DOI</a>.</li>
+          <li id="fn15">OECD (2021). "United Kingdom." Case study in <em>OECD Guidelines on Measuring Subjective Well-being</em>. <a href="https://doi.org/10.1787/9789264191655-en" target="_blank" rel="noopener">OECD</a>.</li>
+          <li id="fn16">HLI (2023). "StrongMinds cost-effectiveness analysis." Happier Lives Institute. <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">happierlivesinstitute.org</a>.</li>
+          <li id="fn17">"Least regret" (or "minimax regret") is a formal criterion from decision theory developed by Leonard Savage (1951). The approach chooses the action that minimizes the maximum regret—the difference between the outcome of the chosen action and the best possible outcome—across all possible states of the world.</li>
+          <li id="fn18">Murray, C.J.L. & Lopez, A.D. (1996). <em>The Global Burden of Disease</em>. WHO/Harvard/World Bank. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(96)07495-8/fulltext" target="_blank" rel="noopener">Lancet summary</a>.</li>
+          <li id="fn19">GBD 2019 Collaborators. "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019." <em>Lancet</em> 2020. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30925-9/fulltext" target="_blank" rel="noopener">Full text</a>.</li>
+          <li id="fn20">EuroQol Group. EQ-5D instruments for measuring health-related quality of life. <a href="https://euroqol.org/eq-5d-instruments/" target="_blank" rel="noopener">euroqol.org</a>.</li>
+          <li id="fn21">Ubel, P.A., et al. (2005). "Misimagining the unimaginable: The disability paradox and health care decision making." <em>Health Psychology</em>. <a href="https://doi.org/10.1037/0278-6133.24.4.S57" target="_blank" rel="noopener">DOI</a>.</li>
+          <li id="fn22">De Wit, G.A., et al. (2000). "Quality of life and the valuation of health state utilities." <em>Journal of Clinical Epidemiology</em>. <a href="https://doi.org/10.1016/S0895-4356(99)00029-6" target="_blank" rel="noopener">DOI</a>.</li>
+          <li id="fn23">Disease Control Priorities, 3rd Edition (DCP3). World Bank. <a href="https://www.dcp-3.org/" target="_blank" rel="noopener">dcp-3.org</a>. Uses DALYs throughout for LMIC health intervention prioritization.</li>
+          <li id="fn24">GiveDirectly evaluations using subjective wellbeing measures alongside consumption data. See <a href="https://www.givedirectly.org/research-at-give-directly/" target="_blank" rel="noopener">GiveDirectly Research</a>.</li>
         </ol>
       </div>
+
+      <!-- AI Disclaimer -->
+      <details style="margin-top: 32px; font-size: 13px; color: var(--text-light);">
+        <summary style="cursor: pointer;">About this page</summary>
+        <div style="padding: 12px 0; line-height: 1.6;">
+          <p style="margin: 0;">Some content on these workshop pages was drafted with AI assistance based on our own source materials, notes, and research. We've reviewed it carefully, but errors or unclear passages may remain. If you spot anything incorrect or confusing, please let us know—ideally via a <a href="https://web.hypothes.is/" target="_blank" rel="noopener" style="color: var(--sage);">Hypothes.is annotation</a> on the relevant passage, or by emailing contact@unjournal.org.</p>
+        </div>
+      </details>
 
       <!-- Footer navigation -->
       <div class="footer-nav">

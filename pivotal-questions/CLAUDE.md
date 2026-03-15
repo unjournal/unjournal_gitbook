@@ -201,7 +201,9 @@ Main tabbed doc ID: `1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU`
 
 ## Annotation Review Workflow
 
-Hypothes.is annotations are used for feedback on workshop pages. To fetch and review:
+Hypothes.is annotations are used for feedback on workshop pages. **Fetching annotations is always permitted—no need to ask.**
+
+To fetch and review:
 ```bash
 # Fetch annotations for a page
 curl -s "https://api.hypothes.is/api/search?uri=https://uj-wellbeing-workshop.netlify.app/about.html&user=acct:daaronr@hypothes.is" \

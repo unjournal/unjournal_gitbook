@@ -352,9 +352,9 @@ From David Reinstein's LinkedIn connections (Dec 2025 export):
 | Name                    | Organization       | Role                               | Email                                                                                 | Status                    |
 | ----------------------- | ------------------ | ---------------------------------- | ------------------------------------------------------------------------------------- | ------------------------- |
 | **Alex Cohen**          | GiveWell           | Principal Researcher               | [alex.cohen@givewell.org](mailto:alex.cohen@givewell.org)                             | ✓ DRAFT                   |
-| **Teryn Mattox**        | GiveWell           | Director of Research               | —                                                                                     | High priority, need email |
+| **Teryn Mattox**        | GiveWell           | Director of Research               | —                                                                                    | High priority, need email |
 | **Andrew Martin**       | GiveWell           | Senior Research Analyst            | —                                                                                     | Connected Oct 2024        |
-| **Rosie Bettle**        | GiveWell           | Senior Researcher                  | —                                                                                     | Connected Feb 2023        |
+| **Rosie Bettle**        | GiveWell           | Senior Researcher                  | 11—                                                                                   | Connected Feb 2023        |
 | **Melanie Basnak**      | Open Philanthropy  | Senior Program Officer             | [melanie.basnak@openphilanthropy.org](mailto:melanie.basnak@openphilanthropy.org)     | ✓ DRAFT                   |
 | **Benjamin Tereick**    | Coefficient Giving | Assoc Program Officer, Forecasting | [benjamin.tereick@openphilanthropy.org](mailto:benjamin.tereick@openphilanthropy.org) | ✓ DRAFT                   |
 | **C. Katriel Friedman** | Founders Pledge    | Senior Researcher                  | [katriel.friedman@gmail.com](mailto:katriel.friedman@gmail.com)                       | ✓ DRAFT                   |
