@@ -18,7 +18,7 @@ _NB: Linked content is still being adjusted_
 
 2. **How should we convert between DALYs/QALYs and WELLBYs** for making these comparisons?
 
-These questions stem from our 'Pivotal Questions' discussion with Founders Pledge; it also seems relevant to [GiveWell](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights)  Coefficient Giving, and others. 
+These questions stem from our 'Pivotal Questions' project questions discussion with Founders Pledge; it also seems relevant to [GiveWell](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights)  Coefficient Giving, and others. 
 
 **Confirmed participants include:**
 
@@ -65,16 +65,38 @@ EA Forum post: https://forum.effectivealtruism.org/posts/ht85W2DkoZEj2wBJo/onlin
 
 ---
 
-## Bluesky / X Post
+## Bluesky / X — Single Post (for dlvr.it)
 
-How should funders compare interventions measured in DALYs vs WELLBYs? No consensus yet.
+How should funders measure and compare interventions across health, mental health, and poverty? WELLBYs, DALYs, and calibrated measures each have strengths — but which you use can substantially change what looks most cost-effective.
 
-The Unjournal is hosting a small-group workshop on March 16 with Dan Benjamin, Julian Jamison, Caspar Kaiser, and practitioners from Founders Pledge & Coefficient Giving.
-
-Modular format, drop in for what interests you. A few spots left.
+The Unjournal is hosting an online workshop March 16 with 26 researchers & practitioners to work through this.
 
 Details: uj-wellbeing-workshop.netlify.app/about
-Interest form: uj-wellbeing-workshop.netlify.app/interest
+
+---
+
+## Bluesky / X — Thread Version
+
+**Post 1** (hook):
+How should funders measure and compare interventions across health, mental health, and poverty? WELLBYs, DALYs, and calibrated measures each have strengths — but which you use, and how you translate between them, can substantially change what looks most cost-effective.
+
+Workshop on March 16. 🧵
+
+**Post 2** (substance):
+This is part of The Unjournal's Pivotal Questions project (globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions) — identifying the research questions where credible evidence could most shift funding decisions.
+
+26 researchers & practitioners will discuss WELLBY reliability, scale-use heterogeneity, and DALY-WELLBY conversion.
+
+**Post 3** (who):
+Participants include Dan Benjamin (UCLA), Ori Heffetz (Cornell), Caspar Kaiser (Warwick), Michael Plant (HLI), Julian Jamison (Exeter), and funders from Founders Pledge & Coefficient Giving.
+
+**Post 4** (format + CTA):
+Online, modular format (11am–4pm ET / 3–8pm UK) — drop in for segments of interest. Async participation and feedback welcome too.
+
+A few spots remain.
+
+Details: uj-wellbeing-workshop.netlify.app/about
+Interest: uj-wellbeing-workshop.netlify.app/interest
 
 ---
 
