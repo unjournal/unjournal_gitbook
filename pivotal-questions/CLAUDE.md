@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Safety: Sharing Links
+
+**Dropbox links:** Before including any Dropbox link in emails or shared content, ask: "Are you sure you want to share this Dropbox link? Please confirm it points to a specific file and not a folder containing private content." (A folder link was nearly shared by mistake in March 2026.)
+
 ## Directory Overview
 
 This `pivotal-questions/` directory contains workshop sites and tooling for The Unjournal's Pivotal Questions initiative — a process for identifying high-value-of-information research questions and commissioning expert evaluations.
@@ -141,6 +145,40 @@ python -m src.gdocs.update_tab_content --tab "4. WELLBY Reliability" --append "N
 
 Credentials: `~/.config/unjournal/google_credentials.json` and `google_token.json`
 Main tabbed doc ID: `1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU`
+
+### Transcript Appending
+
+The `scripts/append_transcript_to_gdoc.py` script splits the workshop transcript by segment and appends formatted content to each Google Doc tab:
+
+```bash
+cd workshop-collab-tool
+
+# Dry run — preview segment splitting without uploading
+python scripts/append_transcript_to_gdoc.py --dry-run
+
+# Append transcripts to all tabs
+python scripts/append_transcript_to_gdoc.py
+```
+
+**Features:**
+- Splits transcript by segment timestamps (defined in `SEGMENTS` list)
+- Normalizes terminology: wellbees→WELLBYs, dollies/DALIs→DALYs, Own Journal→Unjournal
+- Breaks long speeches into readable paragraphs (~80 words, at natural transitions)
+- Formats speaker headers as `▸ [timestamp] Speaker Name`
+
+**Transcript source:** `wellbeing-workshop/wellbeing-workshop-transcript.md`
+
+**Segment mapping:**
+| Tab | Transcript Time |
+|-----|-----------------|
+| Stakeholder & PQs | 0:00–0:39 |
+| WELLBY Reliability | 0:39–1:16 |
+| DALY-WELLBY | 1:16–2:08 |
+| Benjamin et al. + Evaluators | 2:22–3:44 |
+| Beliefs Elicitation | 3:44–4:05 |
+| Practitioner Panel | 4:05–end |
+
+**Note:** Google Docs API cannot create tabs programmatically — only read/write to existing tabs.
 
 ## Planned: Linear WELLBY Analysis Page
 

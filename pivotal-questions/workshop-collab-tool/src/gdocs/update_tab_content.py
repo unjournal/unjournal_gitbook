@@ -69,6 +69,38 @@ def get_tab_end_index(doc, tab_id: str) -> int:
     return 1
 
 
+def create_sub_tab(docs_service, doc_id: str, parent_tab_id: str, title: str) -> str:
+    """Create a new sub-tab (child tab) under an existing tab.
+
+    Returns the new tab's ID.
+    """
+    import uuid
+    # Generate a unique tab ID
+    new_tab_id = f"t.{uuid.uuid4().hex[:12]}"
+
+    requests = [
+        {
+            'insertTab': {
+                'tab': {
+                    'tabProperties': {
+                        'tabId': new_tab_id,
+                        'title': title,
+                        'parentTabId': parent_tab_id,
+                    }
+                },
+                'insertionIndex': 0,  # First child position
+            }
+        }
+    ]
+
+    result = docs_service.documents().batchUpdate(
+        documentId=doc_id,
+        body={'requests': requests}
+    ).execute()
+
+    return new_tab_id
+
+
 def append_to_tab(docs_service, doc_id: str, tab_id: str, text: str, font_family: str = "Times New Roman"):
     """Append text to the end of a specific tab with formatting."""
     # Get current document to find end index
