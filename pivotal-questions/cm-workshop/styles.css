@@ -1,6 +1,44 @@
 /* Workshop Scheduling Form - Styles */
 /* Academic aesthetic: warm, professional, NOT generic SaaS */
 
+/* CSS Tooltips */
+.tip {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted #888;
+}
+.tip .tip-text {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2c3e50;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  width: max-content;
+  max-width: 320px;
+  z-index: 100;
+  pointer-events: none;
+  transition: opacity 0.15s, visibility 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-bottom: 6px;
+  white-space: normal;
+  text-align: left;
+  font-weight: normal;
+}
+.tip .tip-text a {
+  color: #8cb4d8;
+}
+.tip:hover .tip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Draft Banner */
 .draft-banner {
   background: #fff3cd;
