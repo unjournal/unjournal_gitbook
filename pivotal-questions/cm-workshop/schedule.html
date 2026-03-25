@@ -10,18 +10,13 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- DRAFT BANNER -->
-  <div class="draft-banner">
-    <strong>PRELIMINARY DRAFT</strong> — This page is under development. Content, structure, and dates are subject to change. <a href="mailto:contact@unjournal.org">Feedback welcome</a>.
-  </div>
-
   <!-- Header -->
   <header class="header">
     <div class="header-content">
       <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
       <h1 class="header-title">Cultivated Meat: Cost Trajectories & Welfare Implications</h1>
       <p class="header-subtitle">An Unjournal Workshop on Techno-Economic Analyses, Commercial Viability, and Animal Welfare ROI</p>
-      <div class="header-meta">Target: April 2026 · Fully online · ~2 hours of live sessions + asynchronous participation</div>
+      <div class="header-meta">Late April / Early May 2026 · Fully online · ~3 hours of sessions over 4 hours (with breaks) + async</div>
     </div>
   </header>
 
@@ -31,19 +26,23 @@
       <li><a href="/" class="page-nav-link">About</a></li>
       <li><a href="/schedule.html" class="page-nav-link active">Schedule/Signup</a></li>
       <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <!-- Survey link hidden until after the workshop -->
     </ul>
   </nav>
+
+  <!-- Hypothes.is Annotation Banner -->
+  <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
+    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a> <span class="tip" style="color: #888; font-size: 12px;">(we monitor and respond to all comments)<span class="tip-text">We actively monitor Hypothes.is annotations and try to respond and adjust to all feedback.</span></span>
+  </div>
 
   <!-- Context Bar -->
   <div class="context-bar">
     <p class="context-text">
-      Following our <a href="https://unjournal.pubpub.org/pub/evalsumlimitedmeadprod/" target="_blank" rel="noopener">evaluation of Rethink Priorities' cultured meat forecasting work</a> and ongoing TEA evaluations, this workshop explores what the evidence tells us about cultivated meat's cost trajectory and its implications for animal welfare funding decisions.
+      This workshop focuses on cultivated meat's <em>production cost trajectory</em> — the most pivotal and tractable question for animal welfare funding decisions. See the <a href="/" style="color: var(--sage);">workshop overview</a> for full context and resources.
     </p>
     <div class="context-links">
-      <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/pivotal-questions" target="_blank" rel="noopener" class="pill-link">Pivotal Questions Initiative →</a>
-      <a href="https://forum.effectivealtruism.org/posts/7ha23d3qzXiCqYLDq/is-cultured-meat-commercially-viable-unjournal-s-first" target="_blank" rel="noopener" class="pill-link">EA Forum: CM Viability →</a>
-      <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="pill-link">Metaculus Questions →</a>
-      <a href="https://unjournal.pubpub.org/pub/evalsumlimitedmeadprod/" target="_blank" rel="noopener" class="pill-link">RP Evaluation →</a>
+      <a href="https://unjournal.github.io/cm_pq_modeling/" target="_blank" rel="noopener" class="pill-link">📊 Cost Model →</a>
+      <a href="https://www.metaculus.com/c/unjournal/38815/" target="_blank" rel="noopener" class="pill-link">CM_01 on Metaculus →</a>
     </div>
   </div>
 
@@ -51,7 +50,7 @@
   <main class="form-container">
 
     <div class="draft-notice" style="margin-bottom: 24px;">
-      <strong>Note:</strong> This workshop is still in early planning. We're gathering initial interest and availability. Final dates and agenda will be confirmed once we have responses from key participants.
+      <strong>We're planning for late April or very early May 2026.</strong> Please indicate your availability below — we'll confirm the exact date once we hear from key participants.
     </div>
 
     <form name="cm-workshop-availability" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" id="workshopForm">
@@ -92,6 +91,10 @@
               <option value="other">Other</option>
             </select>
           </div>
+          <div class="form-field" id="roleOtherField" style="display: none;">
+            <label for="roleOther" class="field-label">Please describe your role</label>
+            <input type="text" id="roleOther" name="roleOther" placeholder="e.g., Policy analyst, Bioprocess engineer, Science journalist" class="input">
+          </div>
         </div>
       </section>
 
@@ -106,14 +109,16 @@
         <!-- Free-text availability -->
         <div class="availability-freetext">
           <label for="freeAvailability" class="field-label">Tell us your availability in your own words</label>
-          <p class="field-hint">This is the easiest option — just describe when you're free in April. We'll use AI to find the best overlap across everyone. Include your time zone if it's not obvious.</p>
+          <p class="field-hint">Just tell us when you're free from mid-April to early May. We'll find the best overlap across everyone. Include your time zone if it's not obvious.</p>
           <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me in April, except the week of Apr 13. I could stay for the full 2 hours." or "Available Tue/Thu afternoons UK time throughout April."'></textarea>
         </div>
 
-        <!-- Grid availability -->
-        <div class="availability-grid-section">
+        <!-- Grid availability (collapsible) -->
+        <details class="availability-grid-section">
+          <summary style="cursor: pointer; font-weight: 500; color: var(--sage); margin-bottom: 12px;">
+            Or mark your availability on the grid <span class="optional" style="font-weight: 400;">(optional — click to expand)</span>
+          </summary>
           <div class="grid-header">
-            <label class="field-label">Or mark your availability on the grid <span class="optional">(optional)</span></label>
             <p class="field-hint">Click cells for any time blocks you could join. Click a <strong>date</strong> to select that row, a <strong>time header</strong> to select that column, or a <strong>week label</strong> to select the whole week. All times US Eastern; hover for UK/CET.</p>
           </div>
 
@@ -124,7 +129,7 @@
           </div>
 
           <p class="grid-tip">Tip: You don't need to fill in the grid if you've described your availability above — either or both is fine.</p>
-        </div>
+        </details>
       </section>
 
       <!-- Section 3: Segment Interest -->
@@ -137,39 +142,25 @@
 
         <div class="segment-details-box" id="segment-details">
           <div class="segment-detail">
-            <strong>Stakeholder Context</strong> (~15 min): Why cultivated meat cost matters for animal welfare funders—how cost trajectories affect funding decisions between CM investment and other interventions.
+            <strong>TEA Landscape: Where Do They Disagree?</strong> (~40 min): Walking through the optimistic-to-pessimistic spectrum (Pasitka → CE Delft → Humbird). Which assumptions drive the 10x cost gap? What's changed since 2022?
           </div>
           <div class="segment-detail">
-            <strong>TEA Evidence Review</strong> (~30 min): Survey of existing techno-economic analyses, from optimistic projections (e.g., Pasitka et al.'s $6/lb claim) to more pessimistic assessments. What do Unjournal evaluations tell us?
+            <strong>Crux 1: Media Costs & Growth Factors</strong> (~45 min): The biggest variable cost. GFI's amino acid data vs Humbird's assumptions. Will hydrolysates replace purified growth factors? Realistic media costs per kg by 2036.
           </div>
           <div class="segment-detail">
-            <strong>Cost Trajectory Discussion + Beliefs</strong> (~35 min): Deep-dive on the key question: What will CM cost in 2031, 2036, and 2051? Expert discussion with structured beliefs elicitation.
+            <strong>Crux 2: Bioreactors, Scale-Up & Cell Density</strong> (~40 min): Pharma-grade vs food-grade vs custom-built. Achievable cell densities at scale. Batch vs continuous perfusion. The gap between TEA projections and commercial reality.
           </div>
           <div class="segment-detail">
-            <strong>Animal Welfare ROI & Practitioner Panel</strong> (~30 min): Is CM funding competitive with other AW interventions given current evidence? What would change minds? Open Q&A with funders and researchers.
+            <strong>CM_01 Beliefs & Synthesis</strong> (~40 min): Given the discussion, what will CM cost per kg in 2031, 2036, 2051? Structured beliefs elicitation. Where do we agree/disagree? What research would have highest value of information?
           </div>
         </div>
 
         <div class="segments-list" id="segmentsList">
-          <div class="segment-row" data-segment="stakeholder">
-            <button type="button" class="segment-star" data-segment="stakeholder" title="Click to set priority: ★ or ★★">☆</button>
-            <div class="segment-info">
-              <div class="segment-name">Stakeholder Context</div>
-              <div class="segment-desc">Why CM cost matters for animal welfare funding decisions (~15 min)</div>
-            </div>
-            <select name="segment_stakeholder" class="segment-select">
-              <option value="">—</option>
-              <option value="listen">Listen</option>
-              <option value="discuss">Discuss</option>
-              <option value="present">Present</option>
-            </select>
-          </div>
-
           <div class="segment-row" data-segment="tea_review">
             <button type="button" class="segment-star" data-segment="tea_review" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
-              <div class="segment-name">TEA Evidence Review</div>
-              <div class="segment-desc">Optimistic vs pessimistic TEAs, evaluator findings, key uncertainties (~30 min)</div>
+              <div class="segment-name">TEA Landscape: Where Do They Disagree?</div>
+              <div class="segment-desc">Optimistic vs pessimistic TEAs, what drives the 10x cost gap (~40 min)</div>
             </div>
             <select name="segment_tea_review" class="segment-select">
               <option value="">—</option>
@@ -179,13 +170,13 @@
             </select>
           </div>
 
-          <div class="segment-row" data-segment="cost_discussion">
-            <button type="button" class="segment-star" data-segment="cost_discussion" title="Click to set priority: ★ or ★★">☆</button>
+          <div class="segment-row" data-segment="media_costs">
+            <button type="button" class="segment-star" data-segment="media_costs" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
-              <div class="segment-name">Cost Trajectory Discussion + Beliefs</div>
-              <div class="segment-desc">What will CM cost in 2031/36/51? Expert discussion & beliefs elicitation (~35 min)</div>
+              <div class="segment-name">Crux 1: Media Costs & Growth Factors</div>
+              <div class="segment-desc">Amino acids, hydrolysates, growth factors — the biggest variable cost (~45 min)</div>
             </div>
-            <select name="segment_cost_discussion" class="segment-select">
+            <select name="segment_media_costs" class="segment-select">
               <option value="">—</option>
               <option value="listen">Listen</option>
               <option value="discuss">Discuss</option>
@@ -193,13 +184,69 @@
             </select>
           </div>
 
-          <div class="segment-row" data-segment="welfare_panel">
-            <button type="button" class="segment-star" data-segment="welfare_panel" title="Click to set priority: ★ or ★★">☆</button>
+          <div class="segment-row" data-segment="bioreactors">
+            <button type="button" class="segment-star" data-segment="bioreactors" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
-              <div class="segment-name">Animal Welfare ROI & Practitioner Panel</div>
-              <div class="segment-desc">CM funding vs alternatives, what would change minds, open Q&A (~30 min)</div>
+              <div class="segment-name">Crux 2: Bioreactors, Scale-Up & Cell Density</div>
+              <div class="segment-desc">Equipment costs, cell density at scale, batch vs perfusion (~40 min)</div>
             </div>
-            <select name="segment_welfare_panel" class="segment-select">
+            <select name="segment_bioreactors" class="segment-select">
+              <option value="">—</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
+            </select>
+          </div>
+
+          <div class="segment-row" data-segment="beliefs_synthesis">
+            <button type="button" class="segment-star" data-segment="beliefs_synthesis" title="Click to set priority: ★ or ★★">☆</button>
+            <div class="segment-info">
+              <div class="segment-name">CM_01 Beliefs & Synthesis</div>
+              <div class="segment-desc">What will CM cost in 2031/36/51? Beliefs elicitation, key disagreements, next steps (~40 min)</div>
+            </div>
+            <select name="segment_beliefs_synthesis" class="segment-select">
+              <option value="">—</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
+            </select>
+          </div>
+
+          <div class="segment-row" data-segment="business_environment">
+            <button type="button" class="segment-star" data-segment="business_environment" title="Click to set priority: ★ or ★★">☆</button>
+            <div class="segment-info">
+              <div class="segment-name">Business, Government & Cost of Capital</div>
+              <div class="segment-desc">Regulatory environment, philanthropic funding landscape, and financing costs</div>
+            </div>
+            <select name="segment_business_environment" class="segment-select">
+              <option value="">—</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
+            </select>
+          </div>
+
+          <div class="segment-row" data-segment="cm_background">
+            <button type="button" class="segment-star" data-segment="cm_background" title="Click to set priority: ★ or ★★">☆</button>
+            <div class="segment-info">
+              <div class="segment-name">How Is Cultured Meat Produced?</div>
+              <div class="segment-desc">A cost-focused background overview for participants less familiar with the production process</div>
+            </div>
+            <select name="segment_cm_background" class="segment-select">
+              <option value="">—</option>
+              <option value="listen">Listen</option>
+              <option value="discuss">Discuss</option>
+              <option value="present">Present</option>
+            </select>
+          </div>
+
+          <div class="segment-row" data-segment="modeling_hack">
+            <button type="button" class="segment-star" data-segment="modeling_hack" title="Click to set priority: ★ or ★★">☆</button>
+            <div class="segment-info">
+              <div class="segment-name">TEA Modeling & Forecasting (Post-Workshop)</div>
+              <div class="segment-desc">Hands-on: constructing TEAs, uncertainty modeling, and forecasting. Extended hack session (2–5 hours, separate day possible)</div>
+            </div>
+            <select name="segment_modeling_hack" class="segment-select">
               <option value="">—</option>
               <option value="listen">Listen</option>
               <option value="discuss">Discuss</option>
@@ -257,33 +304,6 @@
         </div>
       </section>
 
-      <!-- Section 5: Async Discussion & Suggestions -->
-      <section class="form-section" id="suggestions">
-        <div class="section-header">
-          <span class="section-number">5</span>
-          <h2 class="section-title">Async Discussion & Suggestions</h2>
-        </div>
-        <p class="section-subtitle">All fields in this section are optional.</p>
-
-        <label class="checkbox-card">
-          <input type="checkbox" name="asyncInterest" value="yes">
-          <div class="checkbox-content">
-            <div class="checkbox-label">I would participate in the async discussion space</div>
-            <div class="checkbox-desc">A shared document for structured comments and contributions before, during, and after the workshop</div>
-          </div>
-        </label>
-
-        <div class="form-field">
-          <label for="inviteeSuggestions" class="field-label">Suggestions for other invitees <span class="optional">(optional)</span></label>
-          <textarea id="inviteeSuggestions" name="inviteeSuggestions" rows="3" class="input textarea" placeholder="TEA authors, industry experts, funders who should be part of this conversation..."></textarea>
-        </div>
-
-        <div class="form-field">
-          <label for="otherNotes" class="field-label">Anything else? <span class="optional">(optional)</span></label>
-          <textarea id="otherNotes" name="otherNotes" rows="3" class="input textarea" placeholder="Questions, topics you'd like covered, constraints, or other thoughts..."></textarea>
-        </div>
-      </section>
-
       <!-- Submit -->
       <div class="submit-section">
         <button type="submit" class="submit-btn" id="submitBtn">Submit Availability & Preferences</button>
@@ -293,12 +313,12 @@
 
     <!-- Other Workshops -->
     <div class="other-workshops">
-      <h3>Other Planned Workshops</h3>
-      <p>The Unjournal is organizing several Pivotal Questions workshops in 2026:</p>
+      <h3>Other Pivotal Questions Workshops</h3>
+      <p>The Unjournal is organizing several workshops in 2026:</p>
       <div class="workshop-links">
         <a href="https://uj-wellbeing-workshop.netlify.app/" class="workshop-link">
           <strong>Wellbeing Measurement</strong>
-          <span>WELLBY reliability & DALY conversion · March 2026</span>
+          <span>WELLBY reliability & DALY conversion · held March 16</span>
         </a>
         <a href="https://uj-pba-workshop.netlify.app/" class="workshop-link">
           <strong>Plant-Based Substitution</strong>
@@ -310,5 +330,6 @@
   </main>
 
   <script src="app.js"></script>
+  <script async src="https://hypothes.is/embed.js"></script>
 </body>
 </html>

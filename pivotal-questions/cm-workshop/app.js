@@ -12,11 +12,11 @@
     { id: '15-17', label: '3–5 PM', tz: '8–10 PM UK · 9–11 PM CET' }
   ];
 
-  // Generate weekdays from Apr 1 to May 1, 2026
+  // Generate weekdays from Apr 15 to May 8, 2026
   function generateDates() {
     const dates = [];
-    const start = new Date(2026, 3, 1); // Apr 1, 2026
-    const end = new Date(2026, 4, 1);   // May 1, 2026
+    const start = new Date(2026, 3, 15); // Apr 15, 2026
+    const end = new Date(2026, 4, 8);    // May 8, 2026
 
     for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
       const day = d.getDay();
@@ -318,6 +318,16 @@
     });
   }
 
+  // Show/hide "Other" role text field
+  function setupRoleOther() {
+    const roleSelect = document.getElementById('role');
+    const otherField = document.getElementById('roleOtherField');
+    if (!roleSelect || !otherField) return;
+    roleSelect.addEventListener('change', () => {
+      otherField.style.display = roleSelect.value === 'other' ? 'block' : 'none';
+    });
+  }
+
   // Form validation
   function setupValidation() {
     const form = document.getElementById('workshopForm');
@@ -380,6 +390,7 @@
     setupSegmentHighlighting();
     setupSegmentStars();
     setupRecordingNotes();
+    setupRoleOther();
     setupValidation();
   });
 })();

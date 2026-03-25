@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post-Workshop Survey | Cultivated Meat Pivotal Questions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .survey-container { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
+    .survey-intro { background: var(--white); border: 1px solid var(--border-light); border-radius: 10px; padding: 24px 28px; margin-bottom: 32px; line-height: 1.7; }
+    .survey-intro p { margin: 0 0 12px; font-size: 15px; }
+    .survey-intro p:last-child { margin-bottom: 0; }
+    .incentive-box { background: linear-gradient(135deg, var(--sage-bg) 0%, #e8efe8 100%); border: 2px solid var(--sage); border-radius: 10px; padding: 16px 20px; margin: 20px 0 0; font-size: 14px; }
+    .incentive-box strong { color: var(--sage); }
+    .survey-section { background: var(--white); border: 1px solid var(--border-light); border-radius: 10px; padding: 24px 28px; margin-bottom: 24px; }
+    .survey-section-title { font-family: var(--font-serif); font-size: 20px; font-weight: 600; color: var(--dark); margin: 0 0 4px; padding-bottom: 10px; border-bottom: 2px solid var(--sage); }
+    .survey-section-desc { font-size: 13px; color: var(--text-light); margin: 8px 0 20px; }
+    .form-group { margin-bottom: 24px; }
+    .form-group.extra-space { margin-top: 32px; }
+    .form-group:last-child { margin-bottom: 0; }
+    .form-label { display: block; font-size: 14px; font-weight: 500; color: var(--dark); margin-bottom: 6px; line-height: 1.5; }
+    .form-sublabel { display: block; font-size: 13px; color: var(--text-light); margin-bottom: 8px; }
+    .form-input, .form-textarea, .form-select { width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 6px; font-family: var(--font-sans); font-size: 14px; color: var(--dark); background: var(--white); transition: border-color 0.2s; }
+    .form-input:focus, .form-textarea:focus, .form-select:focus { outline: none; border-color: var(--sage); box-shadow: 0 0 0 3px rgba(90, 122, 90, 0.1); }
+    .form-textarea { resize: vertical; line-height: 1.6; }
+    .rating-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-light); margin-top: 4px; padding: 0 4px; }
+    .radio-group { display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
+    .radio-item { display: flex; align-items: flex-start; gap: 8px; font-size: 14px; color: var(--text); }
+    .radio-item input[type="radio"] { margin-top: 3px; accent-color: var(--sage); }
+    .optional { color: var(--text-light); font-weight: 400; font-size: 12px; }
+    .beliefs-callout { background: #fff9e6; border: 1px solid #e6d4a3; border-left: 3px solid var(--brown); border-radius: 6px; padding: 16px 20px; margin-bottom: 24px; font-size: 14px; line-height: 1.6; }
+    .beliefs-callout a { color: var(--brown); font-weight: 500; }
+    .submit-section { text-align: center; margin-top: 32px; }
+    .submit-btn { background: var(--sage); color: white; border: none; padding: 14px 48px; font-size: 16px; font-weight: 600; border-radius: 8px; cursor: pointer; font-family: var(--font-sans); transition: background 0.2s; }
+    .submit-btn:hover { background: #4a6a4a; }
+    .submit-note { font-size: 13px; color: var(--text-light); margin-top: 10px; }
+    .star-rating-table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+    .star-rating-table td { padding: 8px 6px; border-bottom: 1px solid var(--border-light); font-size: 13px; vertical-align: middle; }
+    .star-rating-table tr:last-child td { border-bottom: none; }
+    .star-rating-table td:first-child { color: var(--text); width: 60%; }
+    .star-rating-table td:last-child { text-align: right; white-space: nowrap; }
+    .star-btn { background: none; border: 1px solid var(--border); border-radius: 4px; padding: 4px 8px; cursor: pointer; font-size: 14px; margin-left: 4px; transition: all 0.15s; color: var(--text-light); }
+    .star-btn:hover { border-color: var(--sage); }
+    .star-btn.active { background: var(--sage-bg); border-color: var(--sage); color: var(--sage); }
+    .sentiment-table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+    .sentiment-table td { padding: 8px 6px; border-bottom: 1px solid var(--border-light); font-size: 13px; vertical-align: middle; }
+    .sentiment-table tr:last-child td { border-bottom: none; }
+    .sentiment-table td:first-child { color: var(--text); width: 55%; }
+    .sentiment-table td:last-child { text-align: right; white-space: nowrap; }
+    .sentiment-btn { background: none; border: 1px solid var(--border); border-radius: 4px; padding: 3px 8px; cursor: pointer; font-size: 13px; font-weight: 600; margin-left: 3px; transition: all 0.15s; color: var(--text-light); min-width: 32px; }
+    .sentiment-btn:hover { border-color: var(--sage); }
+    .sentiment-btn.active-pos { background: #e8f4e8; border-color: var(--sage); color: var(--sage); }
+    .sentiment-btn.active-neg { background: #fde8e8; border-color: #c44; color: #c44; }
+  </style>
+</head>
+<body>
+  <!-- Draft notice (subtle, no full header until workshop takes place) -->
+  <div style="background: #faf8f0; border-bottom: 1px solid #e0d8c8; padding: 8px 20px; font-size: 12px; text-align: center; color: #888;">
+    Draft — This survey will be available after the workshop. <a href="mailto:contact@unjournal.org" style="color: #5a7a5a;">Questions?</a>
+  </div>
+
+  <!-- Minimal header (will become full header after workshop) -->
+  <header style="padding: 16px 24px; text-align: center;">
+    <div style="font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">The Unjournal · Pivotal Questions Initiative</div>
+    <h1 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; margin: 6px 0 2px; color: #2c3e2c;">Post-Workshop Survey</h1>
+    <p style="font-size: 13px; color: #888; margin: 0;">Cultivated Meat Workshop · April 2026</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="/" class="page-nav-link">About</a></li>
+      <li><a href="/schedule.html" class="page-nav-link">Schedule/Signup</a></li>
+      <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="/survey.html" class="page-nav-link active">Survey</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hypothes.is Annotation Banner -->
+  <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
+    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a>
+  </div>
+
+  <div class="survey-container">
+
+    <div class="survey-intro">
+      <p>Thank you for participating in The Unjournal's Cultivated Meat Pivotal Questions workshop. Your feedback helps us <strong>measure the workshop's impact</strong> and <strong>improve future workshops</strong>.</p>
+      <p><strong>All questions are optional.</strong> A 5-minute response is perfectly fine. This survey is <strong>anonymous by default</strong>.</p>
+
+      <div class="incentive-box">
+        <strong>We value your time:</strong> We'll award a <strong>$50 gift voucher</strong> via random draw, plus a separate <strong>$50 award for the most useful feedback</strong>. You can nominate a charity to receive the award if you prefer anonymity.
+      </div>
+    </div>
+
+    <!-- Beliefs Elicitation Reminder -->
+    <div class="beliefs-callout">
+      <strong>Have you submitted your beliefs?</strong> If you haven't completed the <a href="/beliefs.html">CM Pivotal Questions beliefs elicitation</a>, please do so — it's central to the project. If your beliefs have shifted, we welcome updated submissions.
+    </div>
+
+    <form name="cm-post-workshop-survey" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/survey-thanks.html" id="surveyForm">
+      <input type="hidden" name="form-name" value="cm-post-workshop-survey">
+      <input type="hidden" name="bot-field">
+
+      <!-- SECTION 1: Impact & Value -->
+      <div class="survey-section">
+        <h2 class="survey-section-title">1. Workshop Impact & Value</h2>
+        <p class="survey-section-desc">Help us understand what you got out of the workshop.</p>
+
+        <div class="form-group">
+          <label class="form-label">Compared to other workshops or conferences you've attended, where would you rank this one?</label>
+          <span class="form-sublabel">0 = least valuable, 50 = median, 100 = best you've attended</span>
+          <div style="margin-top: 10px;">
+            <input type="range" id="percentileSlider" min="0" max="100" value="50" style="width: 100%;" oninput="document.getElementById('percentileValue').value=this.value; document.getElementById('percentileLabel').textContent=this.value+'th percentile'">
+            <input type="hidden" name="value_percentile" id="percentileValue" value="50">
+            <span id="percentileLabel" style="font-size: 13px; color: var(--sage);">50th percentile</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Please explain your rating. What made this workshop valuable (or not)?</label>
+          <textarea name="value_explanation" class="form-textarea" rows="4" placeholder="What drove your rating?"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Did the workshop change your views about anything important for research, funding, or practice?</label>
+          <textarea name="belief_changes_open" class="form-textarea" rows="4" placeholder="Describe any shifts in your views..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Which of these areas do you understand better? <span class="optional">(✓ = agree, ✓✓ = strongly agree)</span></label>
+          <table class="star-rating-table">
+            <tr><td>TEA methodology and assumptions</td><td><button type="button" class="star-btn" data-field="area_tea" data-val="1">✓</button><button type="button" class="star-btn" data-field="area_tea" data-val="2">✓✓</button><input type="hidden" name="area_tea" value=""></td></tr>
+            <tr><td>Cost projection uncertainty</td><td><button type="button" class="star-btn" data-field="area_cost" data-val="1">✓</button><button type="button" class="star-btn" data-field="area_cost" data-val="2">✓✓</button><input type="hidden" name="area_cost" value=""></td></tr>
+            <tr><td>Media costs and hydrolysates</td><td><button type="button" class="star-btn" data-field="area_media" data-val="1">✓</button><button type="button" class="star-btn" data-field="area_media" data-val="2">✓✓</button><input type="hidden" name="area_media" value=""></td></tr>
+            <tr><td>Commercial viability timeline</td><td><button type="button" class="star-btn" data-field="area_viability" data-val="1">✓</button><button type="button" class="star-btn" data-field="area_viability" data-val="2">✓✓</button><input type="hidden" name="area_viability" value=""></td></tr>
+            <tr><td>Animal welfare ROI calculations</td><td><button type="button" class="star-btn" data-field="area_welfare" data-val="1">✓</button><button type="button" class="star-btn" data-field="area_welfare" data-val="2">✓✓</button><input type="hidden" name="area_welfare" value=""></td></tr>
+            <tr><td>How funders should think about CM</td><td><button type="button" class="star-btn" data-field="area_funders" data-val="1">✓</button><button type="button" class="star-btn" data-field="area_funders" data-val="2">✓✓</button><input type="hidden" name="area_funders" value=""></td></tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- SECTION 2: Sessions & Format -->
+      <div class="survey-section">
+        <h2 class="survey-section-title">2. Sessions & Format</h2>
+        <p class="survey-section-desc">Help us improve future workshops.</p>
+
+        <div class="form-group">
+          <label class="form-label">Rate the sessions <span class="optional">(leave blank if you didn't attend)</span></label>
+          <table class="star-rating-table">
+            <tr><td>Stakeholder Context</td><td><button type="button" class="star-btn" data-field="session_stakeholder" data-val="0">0</button><button type="button" class="star-btn" data-field="session_stakeholder" data-val="1">★</button><button type="button" class="star-btn" data-field="session_stakeholder" data-val="2">★★</button><button type="button" class="star-btn" data-field="session_stakeholder" data-val="3">★★★</button><input type="hidden" name="session_stakeholder" value=""></td></tr>
+            <tr><td>TEA Evidence Review</td><td><button type="button" class="star-btn" data-field="session_tea" data-val="0">0</button><button type="button" class="star-btn" data-field="session_tea" data-val="1">★</button><button type="button" class="star-btn" data-field="session_tea" data-val="2">★★</button><button type="button" class="star-btn" data-field="session_tea" data-val="3">★★★</button><input type="hidden" name="session_tea" value=""></td></tr>
+            <tr><td>Cost Trajectory Discussion</td><td><button type="button" class="star-btn" data-field="session_cost" data-val="0">0</button><button type="button" class="star-btn" data-field="session_cost" data-val="1">★</button><button type="button" class="star-btn" data-field="session_cost" data-val="2">★★</button><button type="button" class="star-btn" data-field="session_cost" data-val="3">★★★</button><input type="hidden" name="session_cost" value=""></td></tr>
+            <tr><td>Animal Welfare ROI Panel</td><td><button type="button" class="star-btn" data-field="session_welfare" data-val="0">0</button><button type="button" class="star-btn" data-field="session_welfare" data-val="1">★</button><button type="button" class="star-btn" data-field="session_welfare" data-val="2">★★</button><button type="button" class="star-btn" data-field="session_welfare" data-val="3">★★★</button><input type="hidden" name="session_welfare" value=""></td></tr>
+          </table>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">What worked well and what could be improved?</label>
+          <textarea name="format_open" class="form-textarea" rows="4" placeholder="Your thoughts on format, pacing, structure..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Format preferences <span class="optional">(−− disagree strongly, − disagree, + agree, ++ strongly agree)</span></label>
+          <table class="sentiment-table">
+            <tr><td>More focused — fewer topics, deeper dive</td><td>
+              <button type="button" class="sentiment-btn" data-field="fmt_fewer_topics" data-val="--">−−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_fewer_topics" data-val="-">−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_fewer_topics" data-val="+">+</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_fewer_topics" data-val="++">++</button>
+              <input type="hidden" name="fmt_fewer_topics" value="">
+            </td></tr>
+            <tr><td>More technical depth</td><td>
+              <button type="button" class="sentiment-btn" data-field="fmt_technical" data-val="--">−−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_technical" data-val="-">−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_technical" data-val="+">+</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_technical" data-val="++">++</button>
+              <input type="hidden" name="fmt_technical" value="">
+            </td></tr>
+            <tr><td>More applied/funder context</td><td>
+              <button type="button" class="sentiment-btn" data-field="fmt_applied" data-val="--">−−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_applied" data-val="-">−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_applied" data-val="+">+</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_applied" data-val="++">++</button>
+              <input type="hidden" name="fmt_applied" value="">
+            </td></tr>
+            <tr><td>Longer workshop</td><td>
+              <button type="button" class="sentiment-btn" data-field="fmt_longer" data-val="--">−−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_longer" data-val="-">−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_longer" data-val="+">+</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_longer" data-val="++">++</button>
+              <input type="hidden" name="fmt_longer" value="">
+            </td></tr>
+            <tr><td>Follow-up series</td><td>
+              <button type="button" class="sentiment-btn" data-field="fmt_followup" data-val="--">−−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_followup" data-val="-">−</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_followup" data-val="+">+</button>
+              <button type="button" class="sentiment-btn" data-field="fmt_followup" data-val="++">++</button>
+              <input type="hidden" name="fmt_followup" value="">
+            </td></tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- SECTION 3: Recording & About You -->
+      <div class="survey-section">
+        <h2 class="survey-section-title">3. Recording & About You</h2>
+        <p class="survey-section-desc">All fields optional.</p>
+
+        <div class="form-group">
+          <label class="form-label">What sharing level are you comfortable with?</label>
+          <div class="radio-group">
+            <label class="radio-item"><input type="radio" name="recording_permission" value="full_public"> Full public sharing</label>
+            <label class="radio-item"><input type="radio" name="recording_permission" value="participants_only"> Participants only</label>
+            <label class="radio-item"><input type="radio" name="recording_permission" value="no_sharing"> Don't share my segments</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Name <span class="optional">(optional)</span></label>
+          <input type="text" name="name" class="form-input" placeholder="Leave blank to remain anonymous">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Email <span class="optional">(for follow-up or incentive)</span></label>
+          <input type="email" name="email" class="form-input" placeholder="your@email.com">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Incentive preference</label>
+          <div class="radio-group">
+            <label class="radio-item"><input type="radio" name="incentive_preference" value="voucher"> Gift voucher</label>
+            <label class="radio-item"><input type="radio" name="incentive_preference" value="charity"> Donate to charity</label>
+            <label class="radio-item"><input type="radio" name="incentive_preference" value="decline"> No incentive needed</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Anything else?</label>
+          <textarea name="anything_else" class="form-textarea" rows="3" placeholder="Final thoughts, suggestions..."></textarea>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <div class="submit-section">
+        <button type="submit" class="submit-btn" id="submitBtn">Submit Survey</button>
+        <p class="submit-note">Thank you for your feedback!</p>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Star rating buttons
+    document.querySelectorAll('.star-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const hidden = this.parentElement.querySelector('input[type="hidden"]');
+        const siblings = this.parentElement.querySelectorAll('.star-btn');
+        if (hidden.value === this.dataset.val) {
+          hidden.value = '';
+          siblings.forEach(s => s.classList.remove('active'));
+        } else {
+          hidden.value = this.dataset.val;
+          siblings.forEach(s => s.classList.remove('active'));
+          this.classList.add('active');
+        }
+      });
+    });
+
+    // Sentiment buttons
+    document.querySelectorAll('.sentiment-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const hidden = this.parentElement.querySelector('input[type="hidden"]');
+        const siblings = this.parentElement.querySelectorAll('.sentiment-btn');
+        if (hidden.value === this.dataset.val) {
+          hidden.value = '';
+          siblings.forEach(s => { s.classList.remove('active-pos'); s.classList.remove('active-neg'); });
+        } else {
+          hidden.value = this.dataset.val;
+          siblings.forEach(s => { s.classList.remove('active-pos'); s.classList.remove('active-neg'); });
+          this.classList.add(this.dataset.val.includes('+') ? 'active-pos' : 'active-neg');
+        }
+      });
+    });
+
+    // Submit state
+    document.getElementById('surveyForm').addEventListener('submit', function() {
+      const btn = document.getElementById('submitBtn');
+      btn.textContent = 'Submitting...';
+      btn.disabled = true;
+    });
+  </script>
+  <script async src="https://hypothes.is/embed.js"></script>
+</body>
+</html>

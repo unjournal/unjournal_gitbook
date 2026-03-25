@@ -30,8 +30,14 @@
       <li><a href="/" class="page-nav-link">About</a></li>
       <li><a href="/schedule.html" class="page-nav-link">Schedule/Signup</a></li>
       <li><a href="/beliefs.html" class="page-nav-link active">Pivotal Questions</a></li>
+      <!-- Survey link hidden until after the workshop -->
     </ul>
   </nav>
+
+  <!-- Hypothes.is Annotation Banner -->
+  <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
+    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a> <span class="tip" style="color: #888; font-size: 12px;">(we monitor and respond to all comments)<span class="tip-text">We actively monitor Hypothes.is annotations and try to respond and adjust to all feedback.</span></span>
+  </div>
 
   <!-- Intro -->
   <div class="beliefs-intro">
@@ -39,7 +45,7 @@
       <strong>Note:</strong> These questions are preliminary formulations. We are refining the operationalization and response formats. Your input will help improve them.
     </div>
 
-    <p>These are <strong>key</strong> operationalized questions from our Cultivated Meat Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the TEA evidence—to see how views evolve and where consensus exists or doesn't. <em>(All questions are optional.)</em></p>
+    <p>These are key operationalized questions from our Cultivated Meat Pivotal Questions project. We want to elicit expert and stakeholder beliefs—before, during, and after reviewing the TEA evidence—to see how views evolve and where consensus exists or doesn't. <em>(All questions are optional.)</em></p>
 
     <div class="canonical-callout">
       <strong>📋 Full question specifications:</strong> For more detail, context, and the complete set of operationalized questions, see the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Specific-PQs-Metaculus-Questions_sul3xyZw#_lu73KZ40" target="_blank" rel="noopener">canonical PQ formulations on Coda →</a>
@@ -47,7 +53,7 @@
 
     <p>You don't need to be a specialist to contribute. We want your honest assessment and reasoning, whether you feel highly confident or very uncertain. Your input helps us understand the range of views in the field.</p>
 
-    <p><strong>🔮 Forecasting:</strong> Several questions are live on our <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus forecasting page</a>. This project connects to <a href="https://info.unjournal.org/forecasting-tournament/" target="_blank" rel="noopener">The Unjournal's Animal Welfare Forecasting Tournament</a> in collaboration with Metaculus. If you forecast on Metaculus, please share your username below so we can link your contributions.</p>
+    <p><strong>🔮 Forecasting:</strong> The focal cost question is live on Metaculus: <a href="https://www.metaculus.com/c/unjournal/38815/" target="_blank" rel="noopener">CM_01 — production cost per kg →</a>. The expert-aggregation version is at <a href="https://www.metaculus.com/c/unjournal/39317/" target="_blank" rel="noopener">CM_03 →</a>. If you forecast on Metaculus, please share your username below so we can link your contributions.</p>
 
     <div class="guidance-callout">
       <div class="guidance-callout-title">How to respond</div>
@@ -131,7 +137,7 @@
       <!-- CM_01: Focal Cost Question -->
       <div class="pq-card">
         <div class="pq-tag">CM_01 · Focal Question · <span class="pq-code">Production Cost</span></div>
-        <h2 class="pq-question">What will be the average production cost (per edible kg) of cultured chicken meat in 2031, 2036, and 2051, across all large-scale plants in the world?</h2>
+        <h2 class="pq-question">What will be the average production cost (per edible kg) of cultured chicken meat in 2036, across all large-scale plants in the world?</h2>
         <p class="pq-subtext">See definitions above for <a href="#def-ac" style="color: var(--brown);">Average Production Cost</a>, <a href="#def-chicken" style="color: var(--brown);">cultured-chicken meat</a>, and <a href="#def-largescale" style="color: var(--brown);">large-scale plants</a>. Costs in 2025 USD.</p>
         <p class="pq-why">This is the central question for assessing CM's commercial viability and animal welfare potential. Your estimates directly inform whether CM funding makes sense relative to alternatives.</p>
 
@@ -149,19 +155,11 @@
 
         <div class="pq-inputs">
           <div class="pq-input-group">
-            <label class="pq-input-label">Your median cost estimate for <strong>2031</strong> ($/kg, 2025 USD)</label>
-            <input type="number" name="cm01_cost_2031" class="input" step="1" min="0" max="10000" placeholder="e.g., 50">
-          </div>
-          <div class="pq-input-group">
             <label class="pq-input-label">Your median cost estimate for <strong>2036</strong> ($/kg, 2025 USD)</label>
             <input type="number" name="cm01_cost_2036" class="input" step="1" min="0" max="10000" placeholder="e.g., 25">
           </div>
           <div class="pq-input-group">
-            <label class="pq-input-label">Your median cost estimate for <strong>2051</strong> ($/kg, 2025 USD)</label>
-            <input type="number" name="cm01_cost_2051" class="input" step="1" min="0" max="10000" placeholder="e.g., 10">
-          </div>
-          <div class="pq-input-group">
-            <label class="pq-input-label">What's driving your estimates? Which TEA assumptions do you find most/least credible?</label>
+            <label class="pq-input-label">What's driving your estimate? Which TEA assumptions do you find most/least credible?</label>
             <textarea name="cm01_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
           </div>
         </div>
@@ -187,8 +185,26 @@
             </select>
           </div>
           <div class="pq-input-group">
-            <label class="pq-input-label">What would most change your assessment? (e.g., specific cost thresholds, regulatory changes, etc.)</label>
-            <textarea name="cm02_reasoning" class="input textarea" rows="3" placeholder="Your reasoning..."></textarea>
+            <label class="pq-input-label">What share of the animal welfare benefit of the <em>next best intervention</em> does CM funding achieve? <span class="optional">(optional)</span></label>
+            <p class="field-hint" style="font-size: 12px; color: var(--text-light); margin: 4px 0 8px;">E.g., 50% = CM funding achieves half the AW impact per dollar of THL campaigns. Over 100% = CM funding is better than the alternative.</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+              <div>
+                <label style="font-size: 12px; color: var(--text-light);">Lower bound (10th %ile)</label>
+                <input type="number" name="cm02_benefit_low" class="input" step="1" min="0" max="1000" placeholder="e.g., 5">
+              </div>
+              <div>
+                <label style="font-size: 12px; color: var(--text-light);">Your median estimate (%)</label>
+                <input type="number" name="cm02_benefit_median" class="input" step="1" min="0" max="1000" placeholder="e.g., 40">
+              </div>
+              <div>
+                <label style="font-size: 12px; color: var(--text-light);">Upper bound (90th %ile)</label>
+                <input type="number" name="cm02_benefit_high" class="input" step="1" min="0" max="1000" placeholder="e.g., 200">
+              </div>
+            </div>
+          </div>
+          <div class="pq-input-group">
+            <label class="pq-input-label">What would most change your assessment? <span class="optional">(optional)</span></label>
+            <textarea name="cm02_reasoning" class="input textarea" rows="3" placeholder="E.g., specific cost thresholds, regulatory changes, consumer acceptance evidence..."></textarea>
           </div>
         </div>
       </div>
@@ -233,6 +249,7 @@
           <span class="toggle-icon">▸</span> Technical subquestions (CM_12-20) <span class="optional">(optional)</span>
         </button>
         <div class="subordinate-content" id="cm-subordinate">
+          <p style="font-size: 14px; color: var(--text-light); margin: 0 0 16px; line-height: 1.5;">The cost answer depends on several cost-relevant technical factors. Your views on these subquestions help us understand <em>why</em> experts disagree on the headline number.</p>
 
           <!-- CM_12: Hydrolysates -->
           <div class="subordinate-card">
@@ -246,6 +263,9 @@
                   <span class="pq-slider-value">50%</span>
                 </div>
               </div>
+              <div class="pq-input-group">
+                <textarea name="cm12_comment" class="input textarea" rows="2" placeholder="Brief comment on your reasoning (optional)" style="font-size: 13px;"></textarea>
+              </div>
             </div>
           </div>
 
@@ -257,6 +277,9 @@
               <div class="pq-input-group">
                 <label class="pq-input-label">Cost estimate ($/gram)</label>
                 <input type="number" name="cm13_cost" class="input" step="0.01" min="0" placeholder="e.g., 0.50">
+              </div>
+              <div class="pq-input-group">
+                <textarea name="cm13_comment" class="input textarea" rows="2" placeholder="Brief comment on your reasoning (optional)" style="font-size: 13px;"></textarea>
               </div>
             </div>
           </div>
@@ -270,6 +293,9 @@
                 <label class="pq-input-label">Cost estimate ($/kg of output)</label>
                 <input type="number" name="cm14_cost" class="input" step="1" min="0" placeholder="e.g., 15">
               </div>
+              <div class="pq-input-group">
+                <textarea name="cm14_comment" class="input textarea" rows="2" placeholder="Brief comment on your reasoning (optional)" style="font-size: 13px;"></textarea>
+              </div>
             </div>
           </div>
 
@@ -281,6 +307,9 @@
               <div class="pq-input-group">
                 <label class="pq-input-label">Cell density estimate (cells/mL or g/L)</label>
                 <input type="text" name="cm16_density" class="input" placeholder="e.g., 50 million cells/mL or 30 g/L">
+              </div>
+              <div class="pq-input-group">
+                <textarea name="cm16_comment" class="input textarea" rows="2" placeholder="Brief comment on your reasoning (optional)" style="font-size: 13px;"></textarea>
               </div>
             </div>
           </div>
@@ -296,6 +325,9 @@
                   <input type="range" name="cm17_percentage" class="pq-slider" min="0" max="100" value="80" oninput="this.nextElementSibling.textContent = this.value + '%'">
                   <span class="pq-slider-value">80%</span>
                 </div>
+              </div>
+              <div class="pq-input-group">
+                <textarea name="cm17_comment" class="input textarea" rows="2" placeholder="Brief comment on your reasoning (optional)" style="font-size: 13px;"></textarea>
               </div>
             </div>
           </div>
@@ -313,27 +345,12 @@
                   <span class="pq-slider-value">40%</span>
                 </div>
               </div>
+              <div class="pq-input-group">
+                <textarea name="cm20_comment" class="input textarea" rows="2" placeholder="Brief comment on your reasoning (optional)" style="font-size: 13px;"></textarea>
+              </div>
             </div>
           </div>
 
-        </div>
-      </div>
-
-      <!-- Metaculus-style Questions -->
-      <div class="pq-card">
-        <div class="pq-tag">CM_04 · Metaculus · <span class="pq-code">Chicken Slaughter</span></div>
-        <h2 class="pq-question">How many chickens will be slaughtered for meat globally in 2032 and 2052?</h2>
-        <p class="pq-subtext">Reference: 70.77 billion chickens were slaughtered globally in 2020 (<a href="https://ourworldindata.org/grapher/animals-slaughtered-for-meat" target="_blank" rel="noopener">Our World in Data</a>). <a href="https://www.metaculus.com/questions/12702/chickens-slaughtered-for-meat/" target="_blank" rel="noopener">See this question on Metaculus →</a></p>
-
-        <div class="pq-inputs">
-          <div class="pq-input-group">
-            <label class="pq-input-label">Your estimate for <strong>2032</strong> (billions)</label>
-            <input type="number" name="cm04_2032" class="input" step="1" min="0" placeholder="e.g., 80">
-          </div>
-          <div class="pq-input-group">
-            <label class="pq-input-label">Your estimate for <strong>2052</strong> (billions)</label>
-            <input type="number" name="cm04_2052" class="input" step="1" min="0" placeholder="e.g., 100">
-          </div>
         </div>
       </div>
 
@@ -398,5 +415,6 @@
   </main>
 
   <script src="beliefs.js"></script>
+  <script async src="https://hypothes.is/embed.js"></script>
 </body>
 </html>

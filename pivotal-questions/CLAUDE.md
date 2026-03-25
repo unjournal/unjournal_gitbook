@@ -6,6 +6,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Dropbox links:** Before including any Dropbox link in emails or shared content, ask: "Are you sure you want to share this Dropbox link? Please confirm it points to a specific file and not a folder containing private content." (A folder link was nearly shared by mistake in March 2026.)
 
+## Gmail Drafts
+
+When creating Gmail drafts via `mcp__gmail__draft_email`, always use HTML formatting with serif font:
+
+```
+mimeType: "multipart/alternative"
+body: "Plain text version..."
+htmlBody: "<div style=\"font-family: serif; font-size: 14px; line-height: 1.5;\">...content...</div>"
+```
+
+- Must provide both `body` (plain text fallback) and `htmlBody` (formatted)
+- Use `mimeType: "multipart/alternative"` to send both versions
+- Use embedded hyperlinks (`<a href="URL">link text</a>`) instead of pasting raw URLs
+- Convert plain text line breaks to `<br>` or `<p>` tags in HTML
+- **Avoid bold text** — it looks AI-generated. Use *italics* (`<em>`) if emphasis is needed
+- **Keep font size consistent** throughout the email — don't use smaller text for P.S. or footnotes
+- Keep styling minimal and professional
+
 ## Directory Overview
 
 This `pivotal-questions/` directory contains workshop sites and tooling for The Unjournal's Pivotal Questions initiative — a process for identifying high-value-of-information research questions and commissioning expert evaluations.
@@ -100,6 +118,50 @@ Workshop pages use inline footnote references with hover tooltips AND bottom foo
 All workshop pages include:
 1. Visible banner after nav: "💬 Annotate this page — select any text to comment via Hypothes.is"
 2. Embed script before `</body>`: `<script async src="https://hypothes.is/embed.js"></script>`
+
+### Transcript Summary Page
+
+The wellbeing workshop includes a formatted transcript summary (`transcript.html`) that combines direct quotes with editorial summaries.
+
+**Formatting conventions:**
+
+| Format | Meaning | Example |
+|--------|---------|---------|
+| `"Text in quotes"` | Verbatim or lightly edited | `<p>"I'm from Coefficient Giving."</p>` |
+| `[Bracketed text]` | Summary/paraphrase with hover tooltip | `<span class="summary" data-original="original wording">[condensed version]</span>` |
+
+**"Lightly edited" means:**
+- Removing filler words (um, like, you know)
+- Fixing obvious transcription errors
+- Minor grammar smoothing
+- Combining fragmented sentences
+- Never changing meaning
+
+**CSS classes:**
+```css
+.summary {
+  color: #5a6a7a;
+  background: #f0f4f7;
+  padding: 2px 6px;
+  border-radius: 3px;
+  cursor: help;
+  text-decoration: underline dotted #aab;
+}
+/* Hover tooltip via data-original attribute */
+```
+
+**Expandable figures:**
+Figures use `<details class="collapsible">` elements with:
+- Click-to-expand behavior (avoids overwhelming the page)
+- Nested `<details>` for additional images
+- Images stored in `images/hli-slides/` (from HLI presentation) and `images/benjamin-paper/` (from Benjamin et al. paper)
+
+**Source files:**
+- `transcript.html` — Summary with quotes/paraphrases
+- `transcript-full.html` — Full transcript with timestamp anchors
+- `wellbeing-workshop-transcript.md` — Raw markdown source
+- `images/hli-slides/*.png` — Extracted slides from HLI WELLBY-DALY presentation
+- `images/benjamin-paper/*.png` — Extracted figures from Benjamin et al. paper
 
 ## Workshop Collab Tool
 
@@ -248,6 +310,51 @@ curl -s "https://api.hypothes.is/api/search?uri=https://uj-wellbeing-workshop.ne
   -H "Authorization: Bearer $HYPOTHESIS_PAT"
 ```
 When creating annotations, preface comment text with "Claude: " per global instructions.
+
+## Related Repositories (PQ Ecosystem)
+
+The Pivotal Questions initiative spans multiple repos. This workshop directory is the **engagement and elicitation hub**; the others handle modeling, data, and forecasting:
+
+| Repo | Local Path | Purpose | Key Link |
+|------|-----------|---------|----------|
+| **CM PQ Modeling** | `~/githubs/cm_pq_modeling/` | Cultured meat cost modeling dashboard (Quarto + OJS, Monte Carlo) | [Live dashboard](https://unjournal.github.io/cm_pq_modeling/) |
+| **UJ Metaculus Automation** | `~/githubs/UJ_metaculus_automation/` | Metaculus API client for PQ forecasting data | [Unjournal community](https://www.metaculus.com/c/unjournal/) |
+| **Coda Org Unjournal** | `~/githubs/coda_org_unjournal/` | Source of truth for PQ operationalizations, research tables, evaluator data | [PQ database (Coda)](https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/PQs-Finalized-operationalizations-Metaculus_sul3xyZw) |
+| **Unjournal GitBook** (parent) | `~/githubs/unjournal-gitbook-knowledge-comms/` | Public knowledge base; contains `landing-pages/pivotal-questions.html` and GitBook PQ pages | [PQ landing page](https://info.unjournal.org/pivotal-questions.html) |
+
+### Coda PQ Content (hub_internal/)
+
+The `coda_org_unjournal/coda_content/hub_internal/` directory contains **56 PQ-related files** exported from Coda:
+
+- **PQ operationalizations**: `pq_types_operationalizations_.csv`, `detail_view_--_operationalized_pqs.csv`, `top_pivotal_questions_detailed_display_view.csv`
+- **Wellbeing PQs (WELL_01–WELL_10)**: `wellbeing_pqs_canvas-*.md`, `specific_wellbeing_pqs_and_metaculus_questions_*.csv`, `wellby_pq_research_sources.csv`
+- **CM PQs (CM_01–CM_20)**: `cell_cultured_meat_cost_price_pq_canvas-*.md`, `specific_cultured_meat_cost_price_pqs_metaculus_questions.csv`
+- **PBA PQs (PBA_01–PBA_08)**: `plant_based_pq_canvas-*.md`, `specific_plant-pqs_operationalizations_unfold_.csv`
+- **Research & evaluators**: `pq_relevant_research_research_table_version_.csv`, `pq_evaluation_responses_all_steps_.csv`, `pq_evaluator_candidates_wellbeing_wellby_.csv`
+- **Process docs**: `mining_for_pivotal_questions_steps_and_notes_canvas-*.md`, `evaluating_pivotal_questions_canvas-*.md`
+
+### How They Connect
+
+```
+Coda (source of truth)
+  ├── PQ operationalizations → workshop beliefs.html forms
+  ├── Research tables → workshop readings/references
+  └── Evaluator data → participant outreach
+                          ↓
+cm_pq_modeling (CM cost model)
+  ├── TEA parameters → CM workshop beliefs questions (CM_12-20)
+  └── Dashboard → linked from CM workshop pages
+                          ↓
+UJ_metaculus_automation (forecasting)
+  ├── Metaculus questions ↔ PQ codes (WELL_*, CM_*, PBA_*)
+  └── Forecast data → workshop results aggregation
+                          ↓
+This repo (workshop sites)
+  ├── Beliefs elicitation forms (all 3 topics)
+  ├── Live session pages (wellbeing)
+  ├── Transcript processing → Google Docs
+  └── Workshop collab tool (Coda/Netlify/GDocs integration)
+```
 
 ## Key Files Outside This Directory
 

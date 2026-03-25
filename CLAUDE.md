@@ -151,8 +151,8 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Netlify Account**: `daaronr` (nonprofit)
 - **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e`
 - **Forms dashboard**: https://app.netlify.com/sites/uj-cm-workshop/forms
-- **Status**: PRELIMINARY DRAFT (prominent caveats throughout)
-- **Target date**: April 2026
+- **Status**: Active — invitations being sent
+- **Target date**: Late April / early May 2026
 
 #### Pages
 - `index.html` — Workshop overview / About page (home page)
@@ -165,7 +165,7 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - `cm-beliefs-elicitation` — Beliefs/forecasts submissions
 
 #### Content Sources
-- PQ formulations from `/Users/yosemite/githubs/cm_pq_interface/cm_pq_downloads/`
+- PQ formulations from Coda hub_internal (`~/githubs/coda_org_unjournal/coda_content/hub_internal/`) — see `cell_cultured_meat_cost_price_pq_canvas-*.md` and `specific_cultured_meat_cost_price_pqs_metaculus_questions.csv`
 - TEA rankings and paper list from same location
 - Metaculus questions: CM_01, CM_03, CM_10, CM_11
 
