@@ -328,6 +328,28 @@
     });
   }
 
+  // Download responses as text file
+  function setupDownload() {
+    var btn = document.getElementById('downloadBtn');
+    var form = document.getElementById('workshopForm');
+    if (!btn || !form) return;
+    btn.addEventListener('click', function() {
+      var fd = new FormData(form);
+      var lines = ['CM Workshop — Your Availability Responses', 'Downloaded: ' + new Date().toISOString(), ''];
+      fd.forEach(function(val, key) {
+        if (key === 'form-name' || key === 'bot-field') return;
+        if (val) lines.push(key + ': ' + val);
+      });
+      var blob = new Blob([lines.join('\n')], {type: 'text/plain'});
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      var name = (fd.get('name') || 'responses').replace(/\s+/g, '_');
+      a.download = 'cm-availability-' + name + '.txt';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+  }
+
   // Form validation
   function setupValidation() {
     const form = document.getElementById('workshopForm');
@@ -391,6 +413,7 @@
     setupSegmentStars();
     setupRecordingNotes();
     setupRoleOther();
+    setupDownload();
     setupValidation();
   });
 })();

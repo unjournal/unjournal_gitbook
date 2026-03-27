@@ -111,7 +111,7 @@
         <div class="availability-freetext">
           <label for="freeAvailability" class="field-label">Tell us your availability in your own words</label>
           <p class="field-hint">Just tell us when you're free from mid-April to early May. We'll find the best overlap across everyone. Include your time zone if it's not obvious.</p>
-          <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me in April, except the week of Apr 13. I could stay for the full 2 hours." or "Available Tue/Thu afternoons UK time throughout April."'></textarea>
+          <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me, except the week of Apr 20. I could stay for the full session (~4 hours with breaks)." or "Available Tue/Thu afternoons UK time, late April through early May."'></textarea>
         </div>
 
         <!-- Grid availability (collapsible) -->
@@ -152,7 +152,19 @@
             <strong>Crux 2: Bioreactors, Scale-Up & Cell Density</strong> (~40 min): Pharma-grade vs food-grade vs custom-built. Achievable cell densities at scale. Batch vs continuous perfusion. The gap between TEA projections and commercial reality.
           </div>
           <div class="segment-detail">
-            <strong>CM_01 Beliefs & Synthesis</strong> (~40 min): Given the discussion, what will CM cost per kg in 2031, 2036, 2051? Structured beliefs elicitation. Where do we agree/disagree? What research would have highest value of information?
+            <strong>CM_01 Beliefs & Synthesis</strong> (~40 min): Given the discussion, what will CM cost per kg in 2036? Structured beliefs elicitation. Where do we agree/disagree? What research would have highest value of information?
+          </div>
+          <div class="segment-detail" style="border-top: 1px dashed #ddd; padding-top: 12px; margin-top: 8px;">
+            <em style="color: var(--text-light);">Additional / optional segments:</em>
+          </div>
+          <div class="segment-detail">
+            <strong>Business, Government & Cost of Capital</strong>: Regulatory environment, philanthropic funding landscape, and how financing costs affect the cost trajectory.
+          </div>
+          <div class="segment-detail">
+            <strong>How Is Cultured Meat Produced?</strong>: A cost-focused background overview for participants less familiar with the production process. See also our <a href="https://unjournal.github.io/cm_pq_modeling/learn.html" target="_blank" rel="noopener" style="color: var(--sage);">learning resources</a>.
+          </div>
+          <div class="segment-detail">
+            <strong>TEA Modeling & Forecasting (Post-Workshop)</strong>: Hands-on session — constructing TEAs, uncertainty modeling, and forecasting. Extended (2–5 hours, may be scheduled separately).
           </div>
         </div>
 
@@ -309,6 +321,10 @@
       <div class="submit-section">
         <button type="submit" class="submit-btn" id="submitBtn">Submit Availability & Preferences</button>
         <p class="submit-note">Your responses help us find the best date and structure for everyone.</p>
+        <p style="margin-top: 12px; font-size: 13px; color: var(--text-light);">
+          <button type="button" id="downloadBtn" style="background: none; border: 1px solid var(--border); padding: 6px 14px; border-radius: 6px; font-size: 13px; color: var(--sage); cursor: pointer;">Download a copy of your responses</button>
+          <span style="margin-left: 8px;">— saves a text file to your device.</span>
+        </p>
       </div>
     </form>
 
