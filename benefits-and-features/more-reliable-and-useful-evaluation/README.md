@@ -4,7 +4,7 @@
 
 Traditional peer review is a closed process, with reviewers' and editors' comments and recommendations hidden from the public.
 
-In contrast, a[ll _Unjournal_ evaluations\*](#user-content-fn-1)[^1] (along with authors' responses and evaluation manager summaries) are made public and easily accessible. We give each of these a separate DOI and work to make sure each enters the literature and bibliometric databases. We aim further to curate these, making it easy to see the evaluators' comments in the context of the research project (e.g., with sidebar/hover annotation).
+In contrast, a[ll _Unjournal_ evaluations\*](#user-content-fn-1)[^1] (along with authors' responses and evaluation manager summaries) are made public and easily accessible. We give each of these a separate DOI under our ISSN (3071-2173) and work to make sure each enters the literature and bibliometric databases. We aim further to curate these, making it easy to see the evaluators' comments in the context of the research project (e.g., with sidebar/hover annotation).
 
 Open evaluation is more useful:
 

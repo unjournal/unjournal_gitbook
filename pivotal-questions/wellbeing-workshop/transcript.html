@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop Summary | Wellbeing Workshop | The Unjournal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Transcript-specific styles */
+    .transcript-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .part-header {
+      background: linear-gradient(135deg, var(--sage-bg) 0%, #e8efe8 100%);
+      border: 2px solid var(--sage);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 48px 0 32px;
+    }
+
+    .part-header h2 {
+      font-family: var(--font-serif);
+      font-size: 28px;
+      color: var(--dark);
+      margin: 0 0 8px;
+    }
+
+    .part-header .part-meta {
+      font-size: 14px;
+      color: var(--text-light);
+      margin: 0 0 12px;
+    }
+
+    .part-header .part-desc {
+      font-size: 15px;
+      color: var(--text);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .section-header {
+      border-bottom: 2px solid var(--border-light);
+      padding-bottom: 12px;
+      margin: 40px 0 20px;
+    }
+
+    .section-header h3 {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      color: var(--dark);
+      margin: 0 0 4px;
+    }
+
+    .section-header .timestamp {
+      font-size: 12px;
+      color: var(--tan);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .speaker-block {
+      margin: 24px 0;
+    }
+
+    .speaker-name {
+      font-weight: 600;
+      color: var(--sage);
+      font-size: 15px;
+      margin: 0 0 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .speaker-name .affiliation {
+      font-weight: 400;
+      color: var(--text-light);
+      font-size: 13px;
+    }
+
+    .speaker-block p {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--text);
+      margin: 0 0 12px;
+    }
+
+    .speaker-block p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Quote vs Summary styling */
+    .direct-quote {
+      color: var(--text);
+    }
+
+    .summary {
+      color: #5a6a7a;
+      background: #f0f4f7;
+      padding: 2px 6px;
+      border-radius: 3px;
+      position: relative;
+      cursor: help;
+      text-decoration: underline dotted #aab;
+      text-underline-offset: 2px;
+    }
+
+    .summary[data-original]::after {
+      content: attr(data-original);
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      background: #333;
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-style: normal;
+      white-space: normal;
+      min-width: 300px;
+      max-width: 500px;
+      width: max-content;
+      line-height: 1.5;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      pointer-events: none;
+      text-align: left;
+    }
+
+    .summary[data-original]:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Keep tooltips within viewport */
+    @media (max-width: 900px) {
+      .summary[data-original]::after {
+        left: auto;
+        right: 0;
+        min-width: 250px;
+        max-width: 320px;
+      }
+    }
+
+    .paraphrase {
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    /* Collapsible sections */
+    details.collapsible {
+      margin: 16px 0;
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      background: var(--bg-alt);
+    }
+
+    details.collapsible summary {
+      padding: 12px 16px;
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--dark);
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    details.collapsible summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.collapsible summary::before {
+      content: "▶";
+      font-size: 10px;
+      color: var(--sage);
+      transition: transform 0.2s;
+    }
+
+    details.collapsible[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    details.collapsible .content {
+      padding: 0 16px 16px;
+      border-top: 1px solid var(--border-light);
+    }
+
+    /* Speaker anchors */
+    .speaker-anchor {
+      color: var(--text-light);
+      text-decoration: none;
+      font-size: 12px;
+      opacity: 0;
+      transition: opacity 0.15s;
+      margin-left: 8px;
+    }
+
+    .speaker-name:hover .speaker-anchor {
+      opacity: 1;
+    }
+
+    .speaker-anchor:hover {
+      color: var(--sage);
+    }
+
+    /* Sidebar TOC */
+    .sidebar-toc {
+      position: fixed;
+      top: 120px;
+      left: 20px;
+      width: 240px;
+      max-height: calc(100vh - 160px);
+      overflow-y: auto;
+      background: white;
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      z-index: 100;
+      transition: transform 0.3s, opacity 0.3s;
+      font-size: 13px;
+    }
+
+    .sidebar-toc.hidden {
+      transform: translateX(-260px);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .sidebar-toc-header {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-light);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      background: white;
+    }
+
+    .sidebar-toc-header h4 {
+      margin: 0;
+      font-size: 13px;
+      color: var(--dark);
+    }
+
+    .sidebar-toc-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      color: var(--text-light);
+      font-size: 14px;
+    }
+
+    .sidebar-toc-toggle:hover {
+      color: var(--sage);
+    }
+
+    .sidebar-toc-content {
+      padding: 8px 0;
+    }
+
+    .sidebar-toc-content a {
+      display: block;
+      padding: 6px 14px;
+      color: var(--text);
+      text-decoration: none;
+      border-left: 2px solid transparent;
+      transition: all 0.15s;
+    }
+
+    .sidebar-toc-content a:hover {
+      background: var(--bg-alt);
+      border-left-color: var(--sage);
+      color: var(--sage);
+    }
+
+    .sidebar-toc-content a.part-link {
+      font-weight: 600;
+      color: var(--dark);
+      padding-top: 10px;
+    }
+
+    .sidebar-toc-content a.speaker-link {
+      padding-left: 24px;
+      font-size: 12px;
+      color: var(--text-light);
+    }
+
+    /* Toggle button when sidebar is hidden */
+    .toc-show-btn {
+      position: fixed;
+      top: 120px;
+      left: 20px;
+      background: white;
+      border: 1px solid var(--border-light);
+      border-radius: 6px;
+      padding: 8px 12px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      z-index: 99;
+      font-size: 13px;
+      color: var(--sage);
+      display: none;
+    }
+
+    .toc-show-btn.visible {
+      display: block;
+    }
+
+    /* Adjust main content when sidebar is visible */
+    @media (min-width: 1200px) {
+      .transcript-container {
+        margin-left: 280px;
+        max-width: 850px;
+      }
+    }
+
+    @media (max-width: 1199px) {
+      .sidebar-toc {
+        display: none;
+      }
+      .toc-show-btn {
+        display: none !important;
+      }
+    }
+
+    /* Color legend */
+    .color-legend {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .legend-swatch {
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+    }
+
+    .legend-swatch.quote {
+      background: #fff;
+      border: 1px solid var(--text);
+    }
+
+    .legend-swatch.summary {
+      background: #f0f4f7;
+      border: 1px dotted #aab;
+    }
+
+    .key-point {
+      background: #fffbf0;
+      border-left: 3px solid var(--tan);
+      padding: 12px 16px;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+
+    .key-point strong {
+      color: var(--brown);
+    }
+
+    .resource-embed {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 24px 0;
+    }
+
+    .resource-embed h4 {
+      font-family: var(--font-serif);
+      font-size: 14px;
+      color: var(--dark);
+      margin: 0 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .resource-embed .resource-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .resource-link {
+      font-size: 12px;
+      color: var(--sage);
+      text-decoration: none;
+      padding: 6px 12px;
+      border: 1px solid var(--sage);
+      border-radius: 4px;
+      transition: all 0.15s;
+    }
+
+    .resource-link:hover {
+      background: var(--sage);
+      color: white;
+    }
+
+    .figure-box {
+      background: #f8f9fa;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .figure-box img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+
+    .figure-box .caption {
+      font-size: 13px;
+      color: var(--text-light);
+      margin: 12px 0 0;
+      font-style: italic;
+    }
+
+    .figure-placeholder {
+      background: linear-gradient(135deg, #e8e8e8 0%, #f5f5f5 100%);
+      border: 2px dashed #ccc;
+      border-radius: 8px;
+      padding: 32px 24px;
+      text-align: center;
+      color: #888;
+      font-size: 14px;
+    }
+
+    .toc {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin: 24px 0 40px;
+    }
+
+    .toc h3 {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      color: var(--dark);
+      margin: 0 0 16px;
+    }
+
+    .toc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .toc-list li {
+      margin: 8px 0;
+    }
+
+    .toc-list a {
+      color: var(--sage);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .toc-list a:hover {
+      text-decoration: underline;
+    }
+
+    .toc-part {
+      font-weight: 600;
+      color: var(--dark);
+      margin-top: 16px;
+    }
+
+    .toc-part:first-child {
+      margin-top: 0;
+    }
+
+    .speakers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    .speaker-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .speaker-card h4 {
+      font-size: 15px;
+      color: var(--dark);
+      margin: 0 0 4px;
+    }
+
+    .speaker-card .role {
+      font-size: 13px;
+      color: var(--text-light);
+      margin: 0;
+    }
+
+    .bullet-list {
+      margin: 12px 0;
+      padding-left: 24px;
+    }
+
+    .bullet-list li {
+      margin: 6px 0;
+      line-height: 1.6;
+    }
+
+    .draft-notice {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 24px 0;
+      font-size: 14px;
+    }
+
+    .nav-section {
+      display: flex;
+      justify-content: space-between;
+      margin: 48px 0;
+      padding: 24px 0;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--sage);
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px 16px;
+      border: 1px solid var(--sage);
+      border-radius: 6px;
+    }
+
+    .nav-btn:hover {
+      background: var(--sage);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header about-header">
+    <div class="header-content">
+      <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
+      <h1 class="header-title">Workshop Summary</h1>
+      <p class="header-subtitle">March 16, 2026 · 11am–4pm ET · ~4.5 hours</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="page-nav">
+    <ul class="page-nav-links">
+      <li><a href="about.html" class="page-nav-link">About</a></li>
+      <li><a href="readings.html" class="page-nav-link">Readings</a></li>
+      <li><a href="beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="live/" class="page-nav-link">Live Sessions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hypothes.is Annotation Banner -->
+  <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
+    💬 <strong>Annotate this summary</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a>
+  </div>
+
+  <!-- Sidebar TOC (visible on wide screens) -->
+  <aside class="sidebar-toc" id="sidebarToc">
+    <div class="sidebar-toc-header">
+      <h4>Contents</h4>
+      <button class="sidebar-toc-toggle" onclick="toggleSidebar()" title="Hide sidebar">✕</button>
+    </div>
+    <div class="sidebar-toc-content">
+      <a href="#part1" class="part-link">1. Stakeholder Perspectives</a>
+      <a href="#reinstein-intro" class="speaker-link">→ David Reinstein</a>
+      <a href="#hickman-cg" class="speaker-link">→ Peter Hickman</a>
+      <a href="#lerner-fp" class="speaker-link">→ Matt Lerner</a>
+      <a href="#part2" class="part-link">2. WELLBY Reliability</a>
+      <a href="#kaiser-concerns" class="speaker-link">→ Caspar Kaiser</a>
+      <a href="#kimball-scale" class="speaker-link">→ Miles Kimball</a>
+      <a href="#heffetz-regression" class="speaker-link">→ Ori Heffetz</a>
+      <a href="#part3" class="part-link">3. DALY-WELLBY Conversion</a>
+      <a href="live/daly.html" class="speaker-link" style="color: var(--sage);">📄 Live Session Page</a>
+      <a href="#part4" class="part-link">4. Benjamin et al. Paper</a>
+      <a href="live/paper.html" class="speaker-link" style="color: var(--sage);">📄 Live Session Page</a>
+      <a href="#part5" class="part-link">5. Evaluator Discussion</a>
+      <a href="live/evaluator.html" class="speaker-link" style="color: var(--sage);">📄 Live Session Page</a>
+      <a href="#part6" class="part-link">6. Beliefs Elicitation</a>
+      <a href="beliefs.html" class="speaker-link" style="color: var(--sage);">📄 PQ Form</a>
+      <a href="#part7" class="part-link">7. Practitioner Panel</a>
+      <a href="live/practitioner.html" class="speaker-link" style="color: var(--sage);">📄 Live Session Page</a>
+    </div>
+  </aside>
+  <button class="toc-show-btn" id="tocShowBtn" onclick="toggleSidebar()">☰ Contents</button>
+
+  <main class="transcript-container" style="padding-top: 32px; padding-bottom: 64px;">
+
+    <div class="draft-notice">
+      <strong>📝 Summary with Selected Quotes:</strong> This document combines direct quotes with editorial summaries for readability.
+      <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e0e0e0; font-size: 14px; line-height: 1.8;">
+        <p style="margin: 0 0 8px;"><strong style="color: var(--text);">"Text in quotes"</strong> — verbatim or lightly edited<span class="summary" data-original="Lightly edited means: removing filler words (um, like, you know), fixing obvious transcription errors, minor grammar smoothing, and combining fragmented sentences—without changing meaning." style="margin-left: 4px; font-size: 12px; cursor: help;">ⓘ</span></p>
+        <p style="margin: 0;"><span class="summary" data-original="This is what the original speaker said, shown on hover" style="font-weight: 600;">[Bracketed summary text]</span> — condensed paraphrase <span style="font-size: 12px; color: var(--text-light);">(hover to see original wording)</span></p>
+      </div>
+      <p style="margin: 12px 0 0; font-size: 13px;">For the raw automated transcript, see the <a href="transcript-full.html">full transcript page</a> or <a href="wellbeing-workshop-transcript.md">markdown file</a>.</p>
+    </div>
+
+    <!-- Compact Table of Contents -->
+    <details class="collapsible" style="margin-bottom: 24px;">
+      <summary>📑 Table of Contents · Jump to Part</summary>
+      <div class="content" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; padding-top: 12px;">
+        <div><a href="#part1" style="color: var(--sage); font-weight: 600;">1. Stakeholders</a> <span style="color: #888; font-size: 11px;">(~40m)</span><br><small><a href="#hickman-cg">Hickman</a> · <a href="#lerner-fp">Lerner</a></small></div>
+        <div><a href="#part2" style="color: var(--sage); font-weight: 600;">2. WELLBY Reliability</a> <span style="color: #888; font-size: 11px;">(~35m)</span><br><small><a href="#kaiser-concerns">Kaiser</a> · <a href="#kimball-scale">Kimball</a></small></div>
+        <div><a href="#part3" style="color: var(--sage); font-weight: 600;">3. DALY-WELLBY</a> <span style="color: #888; font-size: 11px;">(~50m)</span> <a href="live/daly.html" style="font-size: 11px;">📄</a></div>
+        <div><a href="#part4" style="color: var(--sage); font-weight: 600;">4. Benjamin et al.</a> <span style="color: #888; font-size: 11px;">(~35m)</span> <a href="live/paper.html" style="font-size: 11px;">📄</a></div>
+        <div><a href="#part5" style="color: var(--sage); font-weight: 600;">5. Evaluator</a> <span style="color: #888; font-size: 11px;">(~35m)</span> <a href="live/evaluator.html" style="font-size: 11px;">📄</a></div>
+        <div><a href="#part6" style="color: var(--sage); font-weight: 600;">6. Beliefs</a> <span style="color: #888; font-size: 11px;">(~20m)</span> <a href="beliefs.html" style="font-size: 11px;">📄</a></div>
+        <div><a href="#part7" style="color: var(--sage); font-weight: 600;">7. Practitioner Panel</a> <span style="color: #888; font-size: 11px;">(~25m)</span> <a href="live/practitioner.html" style="font-size: 11px;">📄</a></div>
+      </div>
+    </details>
+
+    <!-- Speakers (collapsible) -->
+    <details class="collapsible">
+      <summary>👥 Speakers (12 participants)</summary>
+      <div class="content">
+        <div class="speakers-grid" style="margin-top: 12px;">
+          <div class="speaker-card"><h4><a href="#reinstein-intro">David Reinstein</a></h4><p class="role">The Unjournal · Organizer</p></div>
+          <div class="speaker-card"><h4><a href="#hickman-cg">Peter Hickman</a></h4><p class="role">Coefficient Giving</p></div>
+          <div class="speaker-card"><h4><a href="#lerner-fp">Matt Lerner</a></h4><p class="role">Founders Pledge</p></div>
+          <div class="speaker-card"><h4>Daniel Benjamin</h4><p class="role">UCLA/NBER · Author</p></div>
+          <div class="speaker-card"><h4><a href="#kimball-scale">Miles Kimball</a></h4><p class="role">CU Boulder · Author</p></div>
+          <div class="speaker-card"><h4><a href="#heffetz-regression">Ori Heffetz</a></h4><p class="role">Cornell · Author</p></div>
+          <div class="speaker-card"><h4><a href="#kaiser-concerns">Caspar Kaiser</a></h4><p class="role">U of Warwick · Evaluator</p></div>
+          <div class="speaker-card"><h4>Michael Plant</h4><p class="role">Happier Lives Institute</p></div>
+          <div class="speaker-card"><h4>Samuel Dupret</h4><p class="role">Researcher</p></div>
+          <div class="speaker-card"><h4>Julian Jamison</h4><p class="role">U of Exeter · Facilitator</p></div>
+          <div class="speaker-card"><h4>Dean Jamison</h4><p class="role">DALY Co-author</p></div>
+          <div class="speaker-card"><h4>Joel McGuire</h4><p class="role">Happier Lives Institute</p></div>
+        </div>
+      </div>
+    </details>
+
+    <!-- ========== PART 1 ========== -->
+    <div class="part-header" id="part1">
+      <h2>Part 1: Opening & Stakeholder Perspectives</h2>
+      <p class="part-meta">Duration: ~40 minutes · Timestamp: 0:00–0:39 · <a href="live/stakeholder.html" style="color: var(--sage);">📄 Live Session Page</a></p>
+      <p class="part-desc">David Reinstein sets the workshop context, then Peter Hickman (Coefficient Giving) and Matt Lerner (Founders Pledge) present their organizations' frameworks for valuing wellbeing outcomes.</p>
+      <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+        <a href="https://www.dropbox.com/scl/fi/zjw1bx1xfofifffjhyzor/01_opening.mp4?rlkey=yp16yx9n0brwzu3kc8gh6c7f3&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/01_opening.jpg" alt="Opening" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Opening</p>
+        </a>
+        <a href="https://www.dropbox.com/scl/fi/9r41vf9fje92ro70gqju0/02_hickman_cg.mp4?rlkey=j3le6c84pfivs883w2rhof8sp&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/02_hickman_cg.jpg" alt="Hickman" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Hickman (CG)</p>
+        </a>
+        <a href="https://www.dropbox.com/scl/fi/1dr1iz59zl358et0h33aw/03_lerner_fp.mp4?rlkey=a6xw99tohx9j0l7ocsr1w9pwe&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/03_lerner_fp.jpg" alt="Lerner" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Lerner (FP)</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Welcome -->
+    <div class="section-header" id="welcome">
+      <span class="timestamp">0:00</span>
+      <h3>Welcome & Workshop Goals</h3>
+      <a href="transcript-full.html#t-00-00-05" style="font-size: 11px; color: var(--text-light);">📜 Full transcript</a>
+    </div>
+
+    <div class="speaker-block" id="reinstein-intro">
+      <p class="speaker-name">David Reinstein <span class="affiliation">The Unjournal</span><a href="#reinstein-intro" class="speaker-anchor">#</a></p>
+
+      <p>"Thank you so much for coming. <span class="summary" data-original="it's really great to meet you all">[We're pleased to have everyone here.]</span> We're trying to keep to a strict schedule, so that people can jump into the sessions they're interested in."</p>
+
+      <p>"I'm an economist, I'm the founder of The Unjournal. I'm not an expert in this area, so please don't let me dominate the discussion, although it's something I've been thinking about quite a bit."</p>
+
+      <div class="key-point">
+        <strong>Workshop goals:</strong> "I want to bring together researchers and practitioners in what I think's an unusual, particularly open, focused, and productive way. People who are funders, people who are doing technical research..."
+        <ul class="bullet-list">
+          <li>"Foster communication—what is it that we need to resolve between ourselves and can resolve, and what do we agree on?"</li>
+          <li><span class="summary" data-original="You know, ideally, and this is ambitious, we want to state and measure our beliefs openly within the group. Now and through the asynchronous follow-up. driving, hopefully, high-value Bayesian updating">[Beliefs elicitation session for "high-value Bayesian updating"]</span></li>
+          <li>"And, you know, ultimately, better choices, particularly over interventions and funding in low-income countries."</li>
+        </ul>
+      </div>
+
+      <p><strong>The focus here is different:</strong> "What are the best ways to measure and compare the relative benefits and cost-effectiveness of different interventions, particularly thinking about well-being? <span class="summary" data-original="Focusing on things like bed nets versus short cognitive behavioral therapy sessions in lower, middle-income… or low-income countries in… often in Africa, Sub-Saharan Africa, cash transfers, etc.">[Bed nets vs. CBT vs. cash transfers in LMICs.]</span>"</p>
+
+      <p>"We're not trying to set a firm scientific precedent, necessarily. Policymakers need to make choices <em>now</em> and want to know what their best options are."</p>
+
+      <p><strong>Proposed premises:</strong></p>
+      <ul class="bullet-list">
+        <li>"Well-being is an important goal—though we might disagree about how measurable it is."</li>
+        <li>"Self-reports carry some information. They're probably not totally uninformative."</li>
+        <li>"These extreme representative-agent assumptions will be violated in some way, so showing a violation will not be highly informative to us or to policymakers."</li>
+      </ul>
+
+      <p>"What we're worried about is: what measurement approaches lead to better decisions, and how much do the violations matter?"</p>
+    </div>
+
+    <!-- Coefficient Giving -->
+    <div class="section-header" id="coefficient">
+      <span class="timestamp">0:09</span>
+      <h3>Coefficient Giving's Framework</h3>
+      <a href="transcript-full.html#t-00-09-00" style="font-size: 11px; color: var(--text-light);">📜 Full transcript</a>
+    </div>
+
+    <details style="margin: 16px 0; background: var(--bg-alt); border-radius: 8px; padding: 4px 16px;">
+      <summary style="cursor: pointer; font-size: 13px; padding: 10px 0; color: var(--sage); font-weight: 500;">📊 Hickman's slides — Coefficient Giving's framework (click to expand)</summary>
+      <div style="position: relative; width: 100%; padding-bottom: 56.25%; margin: 8px 0 12px; border-radius: 6px; overflow: hidden;">
+        <iframe src="https://docs.google.com/presentation/d/1p3mrx2pJsojh19Qibj37Ihnkn_faHcCqa7lV33Iz8go/embed?start=false&loop=false&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+      </div>
+    </details>
+
+    <div class="speaker-block" id="hickman-cg">
+      <p class="speaker-name">Peter Hickman <span class="affiliation">Coefficient Giving</span><a href="#hickman-cg" class="speaker-anchor">#</a></p>
+
+      <p>"I'm from Coefficient Giving, which, if you haven't heard, is the new name of Open Philanthropy. And I wanted to set the table a little bit by talking about our current framework for valuing outcomes."</p>
+
+      <div class="key-point">
+        <strong>The punchline:</strong> "We don't currently have a value for a unit of well-being that is kind of canonical and we're using in our cost-effectiveness evaluations. But we're open to admitting that that's a blind spot."
+      </div>
+
+      <p><span class="summary" data-original="We directed as much money as we have ever directed last year, reaching the $1 billion mark. Our mission is to help others as much as we can with the resources available to us.">[Coefficient Giving reached $1 billion in giving last year, with a mission to help others as much as possible.]</span> "Part of the DNA is not picking certain cause areas initially, but being open to whatever helps others the most."</p>
+
+      <p><strong>Their framework focuses on causes that are:</strong> "Important, so affecting a lot of people, affecting them a lot. Neglected, not just being covered by everyone else. <span class="paraphrase">[And]</span> tractable, so we can make a difference."</p>
+
+      <p><strong>On the "CG dollar":</strong> "Our unit of impact's the Coefficient Giving dollar, which is defined as the value of giving $1 to someone with an income of $50,000 a year. So basically, you can think about that as the baseline—we just give our donors' money to people in high-income countries, and everything else we would do is compared against that."</p>
+
+      <p>"Our bar is high. We need an SROI of 2000× in order to make the grant."</p>
+
+      <p><strong>On income:</strong> "An easy way to get, like, 100× return is just to give money to people in low-income countries who might be 100 times poorer than $50,000 a year, and you'd immediately have a 100×."</p>
+
+      <p><strong>On health:</strong> <span class="summary" data-original="We're valuing health using DALYs, and defining a DALY to be worth $100,000... 100,000 CG dollars. So that is currently kind of our big assumption about comparing different outcomes.">[They value DALYs at $100,000 CG dollars—their key assumption for comparing outcomes.]</span></p>
+
+      <p><strong>Where the $100K/DALY came from:</strong> <span class="summary" data-original="they settled on this $100,000 per DALY value by kind of triangulating between, primarily, studies of preferences that people have between income and health, looking at value of statistical life literature, also how each of them were affecting people's well-being, and then also GiveWell and other actors' values">[They triangulated from preference studies between income and health, VSL literature, wellbeing effects, and GiveWell's values.]</span> "If you look at it, you'll see there's a pretty big range of numbers you get out from the value of statistical life literature."</p>
+
+      <p><strong>On subjective wellbeing:</strong> "There's definitely more to life than income and health, and we don't want to just categorically say we're not going to value people feeling happier about their lives." <span class="summary" data-original="And kind of, in my view, it's also potentially a unifying framework for comparing any outcomes. You just look at how these other outcomes affect self-reported well-being, and then you are good to go.">[He sees it as a potential unifying framework for comparing any outcomes.]</span></p>
+
+      <p><strong>The practical question:</strong> "Would a grant that focuses on self-reported well-being, that isn't cashing out in income or in health, plausibly be above our bar? So that's kind of... when we have that kind of case in hand, then it becomes more practically important to really figure out what we think about this institutionally."</p>
+
+      <p><strong>Their concerns:</strong> "The crux is—on my end, and I think others on my team would share—is a worry about experimenter demand: that if we get increases in self-reported well-being, it's because that's what people thought that they should tell the surveyors and experimenters. And then just kind of general concerns about scale use."</p>
+    </div>
+
+    <!-- Founders Pledge -->
+    <div class="section-header" id="founders">
+      <span class="timestamp">0:18</span>
+      <h3>Founders Pledge's Wellbeing Journey</h3>
+      <a href="transcript-full.html#t-00-18-40" style="font-size: 11px; color: var(--text-light);">📜 Full transcript</a>
+    </div>
+
+    <div class="speaker-block" id="lerner-fp">
+      <p class="speaker-name">Matt Lerner <span class="affiliation">Founders Pledge</span><a href="#lerner-fp" class="speaker-anchor">#</a></p>
+
+      <p>"I work at Founders Pledge, I run the research team, I've been there for almost 5 years. <span class="summary" data-original="a key thing about our well-being journey as it is, is that when I started, the research team was, like, 3 people, including me, and now it's, like, 17 people">[When I started, we were 3 people—now we're 17.]</span> Our way of approaching well-being has maybe not kept pace with the needs of a growing team."</p>
+
+      <p><strong>Where we started (2021):</strong> "We had a very small number of interventions that were, in principle, well-being focused, and primarily they were mental health, depression, anxiety interventions. <span class="summary" data-original="we had, like, 2 or 3 of these">[About 2-3 of these.]</span>"</p>
+
+      <p>"The cost-effectiveness analyses were just very, very straightforwardly using disability weights to estimate the DALY cost of major depression. <span class="summary" data-original="for those who know, which should be almost everybody here, that involves picking between mild, moderate, or severe depression from the disability weights">[This means picking mild, moderate, or severe from the disability weights.]</span>"</p>
+
+      <p>"One thing that transpired when we started to do a few re-evaluations was just this issue that, like, the cost-effectiveness started to look different depending on how you decided to linearize, and whether you picked mild, moderate, or severe."</p>
+
+      <p><strong>The principle:</strong> "There are already existing mental health and well-being measurement instruments. Is it possible to find some way to measure <span class="summary" data-original="well-being interventions in well-being or mental health interventions in standard deviations of mental health">[interventions in standard deviations of mental health]</span>, rather than try to make them interconvertible with having a toothache?"</p>
+
+      <p>"I use the toothache example because we came to the view, based on some but not very extensive data, that certain types of conditions are systematically over- or under-weighted in the disability weights."</p>
+
+      <p><strong>Joel McGuire's contribution:</strong> "Joel published a paper <span class="paraphrase">[in Nature Human Behaviour]</span> that I found fairly convincing. The basic idea was, look, on different measurements of mental health and subjective well-being, you can basically have a consistent valuation for standard deviations in terms of income doublings."</p>
+
+      <p><strong>Their approach:</strong> <span class="summary" data-original="we had the WELLBY to income doublings conversion from Joel's work... we had income doubling to lives saved... we had lives saved to DALYs, which is pretty straightforward... and then we sort of backed out the DALY to WELLBY conversion">[They converted WELLBY → income doublings → lives saved → DALYs, then backed out DALY-to-WELLBY.]</span> "So we had, sort of, two sides of a triangle, and then we filled in the third to make it so that all of those different are interconvertible."</p>
+
+      <p><strong>When they use native units:</strong> "In cases where we felt there was strong reason to suspect that disability weights are underestimating the effect, we use native units. Oral pain is one example where if you look at it in terms of disability weights, it looks not so useful to work on, but if you look at it in terms of well-being, it looks a lot more promising."</p>
+
+      <p><strong>Open questions:</strong></p>
+      <ul class="bullet-list">
+        <li>"This linearization—if you do linearize, it suggests weird things about the scales. Mostly, I've been comfortable with this because the actual movement across both scales is so small that the conceptual issue with the linearization doesn't arise."</li>
+        <li>"This nagging uncertainty as to just how convertible all these different scales are—is one standard deviation on a depression instrument really the same as one standard deviation on Cantril's ladder?"</li>
+        <li><span class="summary" data-original="For converting to Welby SDs, we use SDs from the World Happiness Report. I sort of don't know how much to trust those SDs at the country level. And I'm also not sure... don't have a lot of confidence that SDs estimated at the country level are going to be applicable for, like, a depression intervention implemented in some rural village.">"For converting to WELLBY SDs, we use SDs from the World Happiness Report. I don't know how much to trust those at country level, or whether they're applicable to a depression intervention in a rural village."</span></li>
+      </ul>
+
+      <p><strong>The optimism:</strong> "If we could get to a place of more confidence and a more deployable methodology, then I do think there's a horizon of stuff that we could evaluate that we can't currently evaluate that effectively. When we look at stuff outside the sphere of depression and anxiety—so, like, schizophrenia—then I feel that we are somewhat unsure how to look at stuff like that right now."</p>
+
+      <div class="key-point">
+        <strong>The ordinality point:</strong> "Much of the value is gained by having the ordinality preserved. <span class="summary" data-original="if the conversions that we are using preserve ordinality across the interventions that we are interested in, then we're much more comfortable with having... less conceptually coherent estimates">[If conversions preserve ordinality across interventions, they're comfortable with less exact estimates.]</span> We do want to know if stuff is an order of magnitude or two orders of magnitude better than something else."
+      </div>
+    </div>
+
+    <div class="resource-embed">
+      <h4>📚 Related Resources</h4>
+      <div class="resource-links">
+        <a href="https://coefficientgiving.org/research/cost-effectiveness/" target="_blank" rel="noopener" class="resource-link">Coefficient Giving Framework</a>
+        <a href="https://www.founderspledge.com/" target="_blank" rel="noopener" class="resource-link">Founders Pledge</a>
+        <a href="https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/moral-weights" target="_blank" rel="noopener" class="resource-link">GiveWell Moral Weights</a>
+      </div>
+    </div>
+
+    <!-- ========== PART 2 ========== -->
+    <div class="part-header" id="part2">
+      <h2>Part 2: WELLBY Reliability Discussion</h2>
+      <p class="part-meta">Duration: ~35 minutes · Timestamp: 0:39–1:16 · <a href="live/wellby.html" style="color: var(--sage);">📄 Live Session Page</a></p>
+      <p class="part-desc">Caspar Kaiser outlines the four key concerns about WELLBY validity. Miles Kimball and Ori Heffetz discuss how scale use correction dramatically changes income coefficients.</p>
+      <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+        <a href="https://www.dropbox.com/scl/fi/uiy93funxvsy9nxtsb5a1/04_kaiser_concerns.mp4?rlkey=swfefd65jp6kbt8l1e7ygpg9c&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/04_kaiser_concerns.jpg" alt="Kaiser" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Kaiser's Concerns</p>
+        </a>
+        <a href="https://www.dropbox.com/scl/fi/oyrb437br3dky0ofwyej2/05_scale_use.mp4?rlkey=xy42mjdpe20ik8lkbft0q0viy&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/05_scale_use.jpg" alt="Scale Use" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Scale-Use Discussion</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="section-header" id="four-concerns">
+      <span class="timestamp">0:46</span>
+      <h3>The Four Concerns</h3>
+      <a href="transcript-full.html#t-00-46-21" style="font-size: 11px; color: var(--text-light);">📜 Full transcript</a>
+    </div>
+
+    <div class="speaker-block" id="kaiser-concerns">
+      <p class="speaker-name">Caspar Kaiser <span class="affiliation">U of Warwick</span><a href="#kaiser-concerns" class="speaker-anchor">#</a></p>
+
+      <p>"I'm an assistant professor at Warwick Business School, have been working for most of my academic career on questions of well-being measurement. I'm also the chair of the board of the Happier Lives Institute, but all the views that I'm expressing here are strictly mine, and are with pretty large probability, divergent from those of HLI. Michael and I disagree on a great many things, though not all things."</p>
+
+      <p><strong>Two axes to consider:</strong></p>
+
+      <p><span class="summary" data-original="There's two ways of thinking about this... maybe there are two sets of axes of concern">[There are two sets of concerns:]</span> <strong>statistical assumptions</strong> and <strong>philosophical considerations</strong>.</p>
+
+      <p>"Under what conditions will the WELLBY pick out what we care about? If we're consequentialists and welfarists—believing only effects on welfare matter for determining goodness—then we say the WELLBY measures that. But under what conditions is this true?"</p>
+
+      <div class="key-point">
+        <strong>The four key assumptions:</strong>
+        <ol class="bullet-list">
+          <li><strong>Comparability</strong> — <span class="summary" data-original="suppose that I have this intervention, and the intervention causes, and I have causal evidence that people change the numbers that people say. Now, the question that I have to ask myself, well, is it the case that it changed the way people use the scale? So, you know, taking, for example, psychotherapy, is it the case that now people just think about these numbers in a different way? Or is it, in fact, the case that the latent underlying construct has changed?">"If an intervention changes the numbers people report, did it change how they <em>use the scale</em>, or did the <em>latent underlying construct</em> actually change? Only the latter validates the WELLBY."</span></li>
+          <li><strong>Linearity</strong> — <span class="summary" data-original="It might be the case that the difference between a 3 and a 4, in terms of the underlying well-being, is different from a move from a 7 to an 8. And in that case, it matters strongly whether we're moving the 3s to the 4, or we are moving the 7s to the 8s.">"The difference between 3 and 4 might not equal the difference between 7 and 8 in underlying wellbeing terms. If so, it matters greatly whether we're moving 3s to 4s or 7s to 8s."</span></li>
+          <li><strong>Neutrality</strong> — <span class="summary" data-original="especially in cases where you want to make comparisons between increasing the quantity of life to the quality of life... you need to know, roughly speaking, the position on these well-being scales, where we, as an impartial decision maker, would be indifferent between that particular person's life continuing or not. It's kind of a grim thing to be figuring out, but it seems, like, really, really key.">"For quantity-vs-quality comparisons, we need a neutral point: at what level would we be indifferent about a life continuing? Grim, but really key."</span></li>
+          <li><strong>Right concepts</strong> — <span class="summary" data-original="for the case of the wellbe, typically this is cashed out in terms of questions about a person's overall life satisfaction. This is making a substantive view on what makes a life go well. It can be cashed out, I think, in terms of a philosophical view that might be called a global desire satisfaction view... But there are very many other different views about what might make a life go well. Many of you, maybe in this workshop, including, I think, myself, might be hedonists.">"Life satisfaction questions embody a substantive philosophical view—roughly: global desire satisfaction. But many other views exist. Many of you, including myself, might be hedonists. And in that case, answers to a life satisfaction question might come apart from a question about hedonism."</span></li>
+        </ol>
+      </div>
+
+      <p><strong>On interventions and scale use:</strong> "The entire statistical machinery that's been developed in these papers directly applies to, you know, people doing RCTs. And probably what we should just be doing is asking questions about people's memories of past life satisfaction and vignette questions, and maybe calibration questions in these RCTs. Like, that would seem like the obvious thing to do."</p>
+
+      <p><strong>On practical implementation:</strong> "All you need is two vignette questions. The minimal thing to do for... to implement at least Dan Benjamin's method is two vignette questions. That's the minimum you need."</p>
+
+      <p><strong>Critical point:</strong> <span class="summary" data-original="Every other metric—income doublings, DALYs, QALYs—has concerns that roughly map onto this same structure. We just don't worry about them because they're older.">"Every other metric—income doublings, DALYs, QALYs—has concerns that roughly map onto this same structure. We just don't worry about them because they're older."</span></p>
+    </div>
+
+    <div class="section-header" id="scale-use">
+      <span class="timestamp">0:57</span>
+      <h3>Scale Use Correction and Income Coefficients</h3>
+      <a href="transcript-full.html#t-00-57-00" style="font-size: 11px; color: var(--text-light);">📜 Full transcript</a>
+    </div>
+
+    <div class="speaker-block" id="kimball-scale">
+      <p class="speaker-name">Miles Kimball <span class="affiliation">CU Boulder</span><a href="#kimball-scale" class="speaker-anchor">#</a></p>
+
+      <p>"I think it's helpful to not get hung up on cardinality as if it's a technical question, because I think it's just as much an ethical question. If we had—if people understand the scale as it is, then you can ask them their attitudes about inequality on that."</p>
+
+      <p>"So this question of what's the appropriate curvature is really a question about inequality aversion for measures of well-being like this, and I think that would be a very useful thing to do. So anyway, I'd encourage us not to get hung up on it as a purely technical question, although there are technical issues in measuring inequality aversion on a scale like this."</p>
+
+      <p><strong>Scale use correction matters in less obvious ways:</strong></p>
+
+      <p><span class="summary" data-original="if you do care about inequality in well-being as measured, then you're gonna count a corrected point as being worth more for somebody at a lower level, but you can't know if somebody has a lower level on the common scale without correcting for scale use">"If you care about inequality in measured wellbeing, you'll count a corrected point as worth more for someone at a lower level. But you can't know if someone has a lower level on the common scale without correcting for scale use first."</span></p>
+
+      <div class="key-point">
+        <strong>Key finding:</strong> "Scale use correction changes the income coefficients, so if you convert to income with, in the usual way, by dividing whatever effect size you have on the income coefficient, you're gonna get a much bigger number. Like, when we converted unemployment, we got <strong>5 times as big a number</strong> after scale use correction. Scale use correction has a particularly large effect on the income coefficient."
+      </div>
+    </div>
+
+    <div class="speaker-block" id="heffetz-regression">
+      <p class="speaker-name">Ori Heffetz <span class="affiliation">Cornell</span><a href="#heffetz-regression" class="speaker-anchor">#</a></p>
+
+      <p>"The 'happiness regression' approach: you regress those answers to the question—rate yourself on a ladder from 0 to 10, or what's your life satisfaction from 0 to 10—on a bunch of features of the respondents, among which is their log income. And other things. So, for example, employment status."</p>
+
+      <p><span class="summary" data-original="And then you can find, by the ratio of the coefficients, under some assumptions, you can basically price, you can say, if you give people X dollars or give them a job, compare an unemployed to an employed person, there are indifference between the two in the sense of these two will have the same effect on their self-reported well-being.">"By coefficient ratios, you can price things—find indifference between X dollars and having a job."</span> "And so this has been used to price all sorts of things that we can't price. Unemployment is one important example."</p>
+
+      <p>"We show in the paper that Dan will present later, and Caspar will discuss, that while scale use correction doesn't change the sign of things—so with or without scale use correction, unemployment is a bad thing, pretty bad, you know, large negative coefficients, and income is a good thing, large positive coefficients—it does <strong>dramatically change the ratios</strong>."</p>
+
+      <p>"In one example, we have the leading example with our data set that we collected, with, I think, around 10,000 respondents on the Understanding America panel. We show that you can change the ratio, so how you price unemployment in money could change <strong>by a factor of 5</strong> if you correct versus the raw data. That's a big deal. That's a project that moves up five-fold when the funders here consider which project to evaluate."</p>
+
+      <p><strong>Question wording matters:</strong> "It actually matters which question you asked. Sometimes little changes in the wording of the question could affect what time scale did you ask me about. So, one question, I would focus about the past few days or week, another question, I'll focus on the past year, or maybe my entire life. And this also makes dramatic differences, again, sometimes in order of magnitude. Because if I was answering about my entire life, one intervention is not going to move me much. If I was focusing on this week, one intervention, even with short-run effects, would move me a lot."</p>
+    </div>
+
+    <div class="resource-embed">
+      <h4>📄 Key Paper</h4>
+      <div class="resource-links">
+        <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-economics-081623-021136" target="_blank" rel="noopener" class="resource-link">Benjamin et al. — From Happiness Data to Economic Conclusions</a>
+        <a href="https://www.dropbox.com/scl/fi/l04s3xl1i5ys7k4s58g4c/benjamin-annual-review-2024.mp3" target="_blank" rel="noopener" class="resource-link">🎧 Audio Summary (~7 min)</a>
+        <a href="shared_readings/Benjamin_2023_Scale_Use_Heterogeneity.pdf" class="resource-link">PDF</a>
+      </div>
+    </div>
+
+    <!-- ========== PART 3 ========== -->
+    <div class="part-header" id="part3">
+      <h2>Part 3: DALY-WELLBY Conversion Discussion</h2>
+      <p class="part-meta">Duration: ~50 minutes · Timestamp: 1:16–2:08 · <a href="live/daly.html" style="color: var(--sage);">📄 Live Session Page</a></p>
+      <p class="part-desc">Samuel Dupret explains the fundamental differences between DALYs and WELLBYs. Dean Jamison shares the history of DALYs and current limitations.</p>
+      <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+        <a href="https://www.dropbox.com/scl/fi/7mnzf5f0cy5szvdmk6gr5/06_daly_history.mp4?rlkey=9quaaiqjv5dyhialcevisy1sr&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/06_daly_history.jpg" alt="DALY History" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 DALY History</p>
+        </a>
+        <a href="https://www.dropbox.com/scl/fi/2p4hnaiskt94o29d2ev4m/07_daly_wellby.mp4?rlkey=sot8lbsdljfzbmfhwi4pg48lb&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/07_daly_wellby.jpg" alt="DALY-WELLBY" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 DALY↔WELLBY</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="section-header" id="core-difference">
+      <span class="timestamp">1:29</span>
+      <h3>The Core Difference Between DALYs and WELLBYs</h3>
+      <a href="transcript-full.html#t-01-29-30" style="font-size: 11px; color: var(--text-light);">📜 Full transcript</a>
+    </div>
+
+    <div class="speaker-block" id="dupret-daly">
+      <p class="speaker-name">Samuel Dupret <span class="affiliation">Happier Lives Institute</span><a href="#dupret-daly" class="speaker-anchor">#</a></p>
+
+      <p>"The core thing here is that we are quantifying well-being over time." <span class="summary" data-original="there's been a lot of mention of Wellbe SDs, and I just wanted to take a moment to say what that is">[On WELLBY SDs:]</span> "At the Happier Lives Institute, when we do evaluations of cost-effectiveness of charities and interventions in low- and middle-income countries, we don't have these rich data sets using a 0-to-10 well-being scale. There's lots and lots of RCTs on different scales."</p>
+
+      <p><span class="summary" data-original="because it's standard meta-analyses to kind of look at standard deviations, we thought, okay, let's try and cross-compare them and make use of data which isn't an official subjective well-being">[So they convert to standard deviations—standard meta-analysis practice—then convert to 0-to-10 scale.]</span></p>
+
+      <div class="key-point">
+        <strong>The 2×2 difference between DALYs and WELLBYs:</strong>
+        <p style="margin: 8px 0;">"The core difference is: what's the weight that you give to conditions between these two things? One is doing well-being, one is doing health."</p>
+        <p style="margin: 8px 0;">"The other difference is how these things are obtained. The DALY weights are obtained by the general public, who doesn't necessarily have the condition, making pairwise health judgments. <span class="summary" data-original="they ask, like, which of these is less healthy? Depression or cancer? And they're given lots of these questions">[They ask: which is less healthy, depression or cancer?]</span> Whereas for WELLBYs, we use self-reports—so it's the people with the condition saying how satisfied they are with their lives."</p>
+      </div>
+
+      <p><strong>Affective forecasting problems:</strong> "People making judgments about how bad different conditions are, when they don't have these conditions, are likely to make mistakes about how bad a different condition is to live with."</p>
+
+      <p><span class="summary" data-original="Diane Melkaf, they did this with QALYs, but it's the kind of same idea. They find that people rate moderate mobility issues just as bad as mental health issues, but if you ask people on their life satisfaction who have these issues, it's actually way worse to have a moderate mental health issue than a moderate mobility issue.">"Research finds: people rate moderate mobility issues as bad as mental health issues in disability weights. But ask people who have these issues about their life satisfaction—it's actually way worse to have a moderate mental health issue."</span></p>
+
+      <p><strong>Strange DALY findings:</strong> "In different versions of the DALY weights, the difference between having cancer with or without treatment is often very, very small. And that just seems very strange, as a health state." <span class="summary" data-original="Apparently, blindness is not weighted very highly, because it's about well-being and not about health">"Also: blindness is not weighted very highly, because it's 'about well-being and not about health'—but if you're blind and that affects your relationships, your wealth, and all sorts of different things, well-being would capture that."</span></p>
+
+      <p><strong>The empirical evidence:</strong> "We used data that the Happiness Research Institute, which is not us, collected from the SHARE panel—all the Europeans—and they have data on life satisfaction for different health conditions." <span class="summary" data-original="they compare the coefficients for life satisfaction to the disability weights. They don't do exactly disability weights, they take the years of life with disability and divide it by the number of cases">[They compared life satisfaction coefficients to disability weights for 16 conditions.]</span></p>
+
+      <p>"You can see the disability weight doesn't go very high. The maximum would be 1, so this is not very high. And then this is the loss in well-being. The condition that has the biggest loss in well-being is more than one point on a 0-to-10 scale: depression. And you can see there seems to be two of these that have more effect on well-being than the others, and these happen to be the mental health conditions."</p>
+
+      <p><span class="summary" data-original="If the weights between the well... between the disability weights and the wellbe weights were the same, you just get the straight lines across, and actually here there's quite a lot of movement.">"If disability weights and WELLBY weights were the same, you'd get straight lines. But there's quite a lot of movement—mental health conditions shift dramatically."</span></p>
+    </div>
+
+    <details class="collapsible" style="margin: 24px 0;">
+      <summary style="cursor: pointer; font-weight: 600; color: var(--sage); padding: 12px 16px; background: var(--bg-alt); border-radius: 8px; border: 1px solid var(--border-light);">📊 Figure: Disability Weights vs Life Satisfaction Loss (click to expand)</summary>
+      <div class="content" style="padding: 16px; background: var(--white); border: 1px solid var(--border-light); border-top: none; border-radius: 0 0 8px 8px;">
+        <p style="font-size: 14px; margin-bottom: 12px;"><strong>Key finding:</strong> Mental health conditions (depression, anxiety) show >1 point life satisfaction loss on a 0–10 scale, while physical conditions with similar DALY weights show much smaller losses.</p>
+        <img src="images/hli-slides/dw-vs-ls-scatter.png" alt="Scatter plot showing disability weights vs life satisfaction loss for 16 health conditions" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 12px;">
+        <details style="margin-top: 12px;">
+          <summary style="cursor: pointer; font-size: 13px; color: var(--sage);">📊 View slope chart visualization</summary>
+          <img src="images/hli-slides/slope-chart.png" alt="Slope chart showing how conditions move between DALY and WELLBY rankings" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin-top: 8px;">
+        </details>
+        <p style="font-size: 12px; color: var(--text-light); margin: 12px 0 8px;"><em>Source: HLI analysis using SHARE data (European panel, 45+) and GBD disability weights.</em></p>
+        <a href="materials/hli-wellby-daly-conversion-slides.pdf" target="_blank" rel="noopener" style="font-size: 13px; color: var(--sage);">📄 View full HLI presentation (PDF) →</a>
+      </div>
+    </details>
+
+    <div class="section-header" id="daly-origin">
+      <span class="timestamp">1:16</span>
+      <h3>The Origin of DALYs</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Julian Jamison <span class="affiliation">U of Exeter</span></p>
+      <p>My father happens to be visiting—Dean Jamison, who helped originate DALYs and was lead editor of the Global Burden of Disease. He's not a big fan of DALYs now.</p>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Dean Jamison <span class="affiliation">Co-author, Global Burden of Disease</span></p>
+
+      <p>"I'm a co-author of the first published Global Burden of Disease using DALYs, and have followed that literature subsequently."</p>
+
+      <p>"The disease burden measurement has ended up in a somewhat different place than the use of DALYs for economic evaluation or cost-effectiveness evaluation. Mostly in practice around economists using for economic evaluation, discounted DALYs—so a child death is worth 30 DALYs, whereas the Global Burden of Disease has a child death worth 70 or 80 DALYs."</p>
+
+      <p><span class="summary" data-original="You can't talk about using cost-effectiveness as a way of judging how much you're reducing burden of disease, because the DALY, the burden of disease DALY, has evolved very substantially, and in some ways, quantitatively, quite importantly.">"So you can't talk about using cost-effectiveness as a way of judging how much you're reducing burden of disease, because the DALY has evolved very substantially."</span></p>
+
+      <p>"I've just been embarked on an exercise for the Lancet, which has a Commission on Investing in Health, which I chair. And we're dealing with non-fatal outcomes much more substantially than we have before."</p>
+
+      <p>"I examined what I thought were the 25 most important non-fatal outcomes. Blindness, deafness, major depressive disorders, manic depressive illness, dental caries... Pretty much anything that looked fairly big, but things like menstruation appear on that as a clear major use of health services."</p>
+
+      <div class="key-point">
+        <strong>"About half of them have no easily ascertained YLD <span class="paraphrase">[Years Lost to Disability]</span> measure."</strong> "And in my view, many of the ones that do have the associated disability weights and the associated durations that are <em>prima facie simply not sensible</em>."
+      </div>
+
+      <p>"So even before you get to the question of comparison with mortality risk... there's a serious incompleteness if you're thinking about healthcare, to the whole YLD structure. My colleagues are not happy with me about this conclusion, because the YLD and the DALY are well-established as the measure both of burden and the cost-effectiveness variable. But it's very much on our minds."</p>
+
+      <p>"As we get seriously into trying to look at all forms of non-fatal conditions addressed by healthcare systems, it's quite clear that the YLD is just not going to do that."</p>
+    </div>
+
+    <details class="collapsible" style="margin: 24px 0;">
+      <summary style="cursor: pointer; font-weight: 600; color: var(--sage); padding: 12px 16px; background: var(--bg-alt); border-radius: 8px; border: 1px solid var(--border-light);">📊 HLI Regression Models: Converting DALYs to WELLBYs (click to expand)</summary>
+      <div class="content" style="padding: 16px; background: var(--white); border: 1px solid var(--border-light); border-top: none; border-radius: 0 0 8px 8px;">
+        <p style="font-size: 14px; margin-bottom: 12px;">HLI's regression approach for deriving WELLBY weights from SHARE panel data:</p>
+        <div style="display: grid; gap: 12px;">
+          <img src="images/hli-slides/regression-model-1.png" alt="HLI regression model showing methodology" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+          <details>
+            <summary style="cursor: pointer; font-size: 13px; color: var(--sage);">📊 Additional regression specifications</summary>
+            <img src="images/hli-slides/regression-model-2.png" alt="Additional regression specifications" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin-top: 8px;">
+            <img src="images/hli-slides/regression-model-3.png" alt="Regression results with controls" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin-top: 8px;">
+          </details>
+        </div>
+        <details style="margin-top: 16px;">
+          <summary style="cursor: pointer; font-size: 13px; color: var(--sage);">📊 WELLBY estimates and aggregate weights</summary>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 8px;">
+            <img src="images/hli-slides/wellby-estimates.png" alt="WELLBY estimates for different conditions" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+            <img src="images/hli-slides/aggregate-weights.png" alt="Aggregate weights comparison" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+          </div>
+        </details>
+        <p style="font-size: 12px; color: var(--text-light); margin: 12px 0 0;"><em>Source: HLI presentation by Michael Plant, using SHARE panel data.</em></p>
+      </div>
+    </details>
+
+    <div class="resource-embed">
+      <h4>📚 DALY-WELLBY Conversion Resources</h4>
+      <div class="resource-links">
+        <a href="daly-wellby-conversion.html" class="resource-link">Workshop Analysis: DALY-WELLBY Conversion</a>
+        <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener" class="resource-link">Happier Lives Institute</a>
+        <a href="shared_readings/Huang_Frijters_2018_Life_Satisfaction_QALYs.pdf" class="resource-link">Frijters on LS & QALYs (PDF)</a>
+      </div>
+    </div>
+
+    <!-- ========== PART 4 ========== -->
+    <div class="part-header" id="part4">
+      <h2>Part 4: Benjamin et al. Paper Presentation</h2>
+      <p class="part-meta">Duration: ~35 minutes · Timestamp: 2:25–3:10 · <a href="live/paper.html" style="color: var(--sage);">📄 Live Session Page</a></p>
+      <p class="part-desc">Daniel Benjamin presents the scale use heterogeneity paper: the problem, calibration questions, and the correction method.</p>
+      <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+        <a href="https://www.dropbox.com/scl/fi/er81k750uo5nec9l0n19p/08_benjamin_paper.mp4?rlkey=sq2kmgk483mm1sforzos1k2t5&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/08_benjamin_paper.jpg" alt="Benjamin Paper" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Benjamin Paper</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="section-header" id="scale-heterogeneity">
+      <span class="timestamp">2:34</span>
+      <h3>Scale Use Heterogeneity: The Problem and Solution</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Daniel Benjamin <span class="affiliation">UCLA/NBER</span></p>
+
+      <p>"Thank you for having us. This is joint work with Kristen Cooper, Ori Heffetz, Miles Kimball, and Jinan Zhao."</p>
+
+      <p><strong>The topic:</strong> "If David says 70 and Valentin says 80 on life satisfaction, we'd think Valentin is more satisfied. But maybe those numbers mean the same thing because they're using scales differently."</p>
+
+      <p><strong>Our data:</strong> <span class="summary" data-original="In the previous version, we had collected an online mTurk sample. In the new version, we've collected data from the Understanding America study, which is... a study that aims to be nationally representative of the U.S. population. It's an internet panel. About 10,000 people.">[In the new version, they collected data from the Understanding America Study—a nationally representative internet panel of ~10,000 people.]</span></p>
+
+      <p><strong>The question:</strong> "Over the past year, on average, how would you have rated how satisfied you are with your life?" <span class="paraphrase">[0-100 slider scale]</span></p>
+
+      <p><strong>The fundamental problem:</strong> <span class="summary" data-original="The fundamental problem that we face with scale use heterogeneity is that people differ from each other, both in what they're... True situation is. But also how they translate that situation to the response. And we can't disentangle those two things.">[People differ in their true situation AND in how they translate that situation to a response. We can't disentangle these without an empirical tool.]</span></p>
+
+      <div class="key-point">
+        <strong>The tool: Calibration questions.</strong> <span class="summary" data-original="And so, we need an empirical tool to solve that identification problem, and that empirical tool is what we call a calibration question. So it's designed to measure that mapping from situation to response.">[These measure the mapping from situation to response.]</span>
+        <p style="margin: 8px 0 0;"><strong>Two types:</strong></p>
+        <ol class="bullet-list" style="margin-top: 8px;">
+          <li><strong>Vignettes</strong> — "There's a little story about a person. And then the question is: If this situation described your life during the past year, on average, how would you have rated how satisfied you are with your life?"</li>
+          <li><strong>Visual calibration questions</strong> — "How dark is this circle?" <span class="paraphrase">[0-100 scale]</span></li>
+        </ol>
+      </div>
+
+      <p><span class="summary" data-original="We asked... three such calibration, three such vignettes... One of them is designed to be a kind of low level of life satisfaction, one a medium level, and one a high level, so we get some... some variation.">[They use three vignettes (low/medium/high life satisfaction scenarios) and three visual questions.]</span></p>
+
+      <p><strong>Why consider cross-scale correction?</strong> <span class="summary" data-original="it may be that that's what you have in your data, you don't have calibration questions for the dimension you're interested in. But, you know, there are also reasons why you might be... Worried about biases and the way people answer particular vignettes">[Maybe you only have calibration questions for a different dimension. Also, you might worry about biases in how people answer particular vignettes.]</span></p>
+    </div>
+
+    <details class="collapsible" style="margin: 24px 0;">
+      <summary style="cursor: pointer; font-weight: 600; color: var(--sage); padding: 12px 16px; background: var(--bg-alt); border-radius: 8px; border: 1px solid var(--border-light);">
+        📊 Figure 4: Calibration Question vs SWB Correlations (click to expand)
+      </summary>
+      <div class="content" style="padding: 16px; background: var(--white); border: 1px solid var(--border-light); border-top: none; border-radius: 0 0 8px 8px;">
+        <p style="font-size: 14px; margin-bottom: 12px;"><strong>Key finding:</strong> People who rate calibration questions (vignettes) higher also report higher life satisfaction. Panels C and D show vignette-based correlations (r=0.39 for means, r=0.46 for standard deviations).</p>
+        <img src="images/benjamin-paper/figure4-cq-swb-correlations.png" alt="Figure 4 from Benjamin et al.: Four scatter plots showing correlations between calibration question ratings and SWB ratings" style="max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 12px;">
+        <div style="background: #f8f9fa; padding: 16px; border-radius: 6px; margin-bottom: 12px;">
+          <p style="font-size: 13px; color: var(--text); margin: 0 0 8px;"><strong>Reading the figure:</strong></p>
+          <ul style="font-size: 13px; margin: 0; padding-left: 20px;">
+            <li><strong>Panels A & B:</strong> Visual calibration questions (circles) vs SWB ratings</li>
+            <li><strong>Panels C & D:</strong> Vignette calibration questions vs SWB ratings</li>
+            <li>Each point = one respondent; black line = regression fit</li>
+            <li>Positive slopes confirm scale-use heterogeneity exists</li>
+          </ul>
+        </div>
+        <p style="font-size: 13px; color: var(--text-light); margin: 0;"><strong>Implication:</strong> If two people report the same life satisfaction number, they may actually differ in true satisfaction—the one who rates vignettes higher is likely less satisfied than their number suggests.</p>
+        <p style="margin-top: 12px; font-size: 13px;"><a href="https://www.nber.org/papers/w33154" target="_blank" rel="noopener" style="color: var(--sage);">📄 Benjamin et al. (2024) NBER Working Paper →</a></p>
+      </div>
+    </details>
+
+    <div class="speaker-block">
+      <p><strong>Key findings:</strong></p>
+      <ul class="bullet-list">
+        <li><strong>Finding 2:</strong> <span class="summary" data-original="we can look at the... how their ratings of the vignettes changed, and that's what I'm showing on the x-axis, and on the y-axis, how their rating of their own life satisfaction changed. And those changes are also positively correlated with each other."><em>Changes</em> in vignette ratings correlate with <em>changes</em> in life satisfaction over time.</span> <span class="summary" data-original="The reason why that's interesting is because, to the extent that economists deal with the issue of scale-use heterogeneity at all... It's by including... it's by studying panel data... and including a fixed effect for the individual... But that only... works if the scale use of a person is fixed over time. And what this is showing is that actually the scale use is changing over time.">[This matters because the economist's solution—panel fixed effects—only works if scale use is fixed over time. It's not.]</span></li>
+        <li><strong>Finding 3:</strong> <span class="summary" data-original="The point here is that two of these three vignettes have positive and, you know, clearly quite different from... statistically different from zero coefficients, indicating that... that controlling for your actual height the ratings that you give to the vignettes is predictive of how you rate your own height on the 0 to 100 scale.">[For height and weight (where we have objective measures), vignette ratings predict self-ratings even controlling for actual height/weight.]</span> "We think that's really, you know, pretty powerful evidence that scale use heterogeneity really is driving the differences in the self-reports."</li>
+      </ul>
+    </div>
+
+    <div class="section-header" id="correction-method">
+      <span class="timestamp">2:50</span>
+      <h3>The Correction Method</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Daniel Benjamin <span class="affiliation">UCLA/NBER</span></p>
+
+      <p>"The point here is gonna be that it's actually very simple and transparent."</p>
+
+      <p><strong>Step 1:</strong> <span class="summary" data-original="So what we need to do then is estimate this equation... for each individual these two coefficients, an intercept A and a stretcher B, that govern how high or low their use of scales are and how much of the scale they use, how spread out it is.">[Estimate each person's translation function—an intercept (shift) and slope (stretch)—using their calibration question responses.]</span></p>
+
+      <p><span class="summary" data-original="The first question is translation brought to whose scale?... And what we use as the common scale is the sample mean, but it doesn't matter. Turns out with a... if you have linear translation functions, you would get the same results in terms of things like ratios of regression coefficients, no matter who you picked.">[We convert everyone to a "common scale" (sample mean). With linear translation functions, results like coefficient ratios are invariant to whose scale you pick.]</span></p>
+
+      <p><strong>Step 2:</strong> <span class="summary" data-original="And then I evaluate that function, the sample mean for the self-report question... And we call that the scale use only benchmark, because it is just capturing differences across people in their scale use. We're entering the same 85 number, or the same R-bar for everybody.">[For each person, create a "scale-use-only benchmark"—evaluate their estimated translation function at the sample mean. This captures only scale use differences.]</span></p>
+
+      <p><strong>Step 3:</strong> <span class="summary" data-original="and then I can run a regression. Of that scale use only benchmark, on... whatever covariates I have in the regression, so income, age, marital status, whatever, And... What we show is that that gives us an adjustment">[Regress the scale-use-only benchmark on covariates. These coefficients are adjustments to naive regression coefficients.]</span></p>
+
+      <div class="key-point">
+        <strong>Results:</strong>
+        <table style="width: 100%; margin: 12px 0; font-size: 14px; border-collapse: collapse;">
+          <tr style="background: #f5f5f5;">
+            <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Covariate</th>
+            <th style="padding: 8px; text-align: right; border: 1px solid #ddd;">Unadjusted</th>
+            <th style="padding: 8px; text-align: right; border: 1px solid #ddd;">Same-Dimension Corrected</th>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">Age (demeaned)</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">2.49</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">3.46</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">Unemployed</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">-5.83</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">-7.21</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">Log income</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">3.65</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">5.93</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd;">Married</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">5.21</td>
+            <td style="padding: 8px; text-align: right; border: 1px solid #ddd;">5.47</td>
+          </tr>
+        </table>
+        <strong>The income coefficient increases substantially</strong> after correction—this matters enormously for any pricing exercise dividing by the income coefficient.
+      </div>
+
+      <p><strong>Validation:</strong> <span class="summary" data-original="the fact that they go up means that there's a closer correspondence. Between the subjective ratings and the objective measures. After you do the scale use correction.">[For height and weight, correlations between objective measures and subjective ratings go up after scale use correction.]</span> <span class="paraphrase">[Height: 0.49 → 0.60; Weight: 0.23 → 0.51]</span></p>
+    </div>
+
+    <div class="resource-embed">
+      <h4>📄 Paper & Evaluation</h4>
+      <div class="resource-links">
+        <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener" class="resource-link">Unjournal Evaluation Summary</a>
+        <a href="shared_readings/Benjamin_2023_Scale_Use_Heterogeneity.pdf" class="resource-link">Paper (PDF)</a>
+        <a href="shared_readings/added_suggestions_resources/Dan_Benjamin_shared_Guide for Calculating Benchmarks Using Calibration Questions.pdf" class="resource-link">Calibration Guide (PDF)</a>
+      </div>
+    </div>
+
+    <!-- ========== PART 5 ========== -->
+    <div class="part-header" id="part5">
+      <h2>Part 5: Evaluator Discussion</h2>
+      <p class="part-meta">Duration: ~35 minutes · Timestamp: 3:10–3:44 · <a href="live/evaluator.html" style="color: var(--sage);">📄 Live Session Page</a></p>
+      <p class="part-desc">Caspar Kaiser presents his evaluation of the Benjamin et al. paper, followed by technical discussion between the authors and evaluators.</p>
+      <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+        <a href="https://www.dropbox.com/scl/fi/607p22x26giiz5d3vx3fb/09_evaluator.mp4?rlkey=o25phd77d8arey12hu2ilkga2&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/09_evaluator.jpg" alt="Evaluator" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Evaluator Discussion</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="section-header" id="kaiser-evaluation">
+      <span class="timestamp">3:11</span>
+      <h3>Caspar Kaiser's Evaluation</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Caspar Kaiser <span class="affiliation">U of Warwick · Evaluator</span></p>
+
+      <p><strong>The two core contributions:</strong></p>
+      <ol class="bullet-list">
+        <li><span class="summary" data-original="This idea of introducing calibration questions, understood as questions about kind of... Objective sense percepts, like brightness of a circle, numerosity of triangles.">[Introducing calibration questions (including visual ones like circle brightness)]</span></li>
+        <li><span class="summary" data-original="And then there's the other novel contribution, and that is a econometric approach to using data of that sort... Here, the key contribution is to show how one can estimate an or less regression, or fancier things that takes account not only shifts in people's scale use, but also stretches.">[An econometric approach that handles both <strong>shifts</strong> (different average levels) AND <strong>stretches</strong> (different amounts of scale used)]</span></li>
+      </ol>
+
+      <div class="key-point">
+        <strong>The crux:</strong> <span class="summary" data-original="The crux of this entire literature... is... whether we believe that Individuals, especially in the case of vignettes, have a common perception Of the thing that the vignette is being asked about.">[There seems to be a trade-off between two assumptions.]</span>
+        <ul class="bullet-list" style="margin-top: 8px;">
+          <li><strong>Response consistency</strong> — <span class="summary" data-original="the assumption that the way I'm using the scale to assess the brightness of a circle is kind of the same as the scale that I'm using to assess my own life satisfaction, now that assumption is kind of hard to argue over">[Do people use the same scale for calibration questions as for rating their own lives?]</span>
+            <br><span style="font-size: 13px; color: var(--text-light);"><span class="summary" data-original="So in that case, you know, that seems, like, easy to buy.">[Easy to believe for visual questions.]</span> Harder to argue for abstract vignettes.</span></li>
+          <li><strong>Common perception</strong> — <span class="summary" data-original="In the case of a... of the brightness of a circle, You might easily believe that. Right? Because, I mean... There's little reason why, you know, my sense organs Should systematically differ from mild sense organs">[Do people perceive calibration stimuli the same way?]</span>
+            <br><span style="font-size: 13px; color: var(--text-light);">Easy for visual questions. <span class="summary" data-original="suppose that I am on... at a low income... I will now fill in these aspects, these economic aspects of John's life. And I would do this in a way that is different from a richer person">[Harder for life satisfaction vignettes—if I'm low-income, I might fill in unmentioned economic aspects differently than a rich person.]</span></span></li>
+        </ul>
+        <span class="summary" data-original="What I want to say here is. that it seems like there is this trade-off between the common perception assumption and the response consistency assumption.">[If you want response consistency, use life satisfaction vignettes. If you want common perception, use visual calibration questions. The ideal would satisfy both.]</span>
+      </div>
+
+      <p><strong>On the validation exercise:</strong> "I really like the validation exercise, where you essentially show, like, hey, you know, once we are adjusting for these scale use differences, we're actually better at correlating, for example, objective and subjective height and weight. Like, this is... this is, to me, strong evidence that we're improving, in some way, our subjective measurement." <span class="paraphrase">[Make this finding more prominent!]</span></p>
+
+      <p><strong>What I'd want to see:</strong></p>
+      <ul class="bullet-list">
+        <li><span class="summary" data-original="One is, show... and you've done this now, you didn't do this in the, I think, in the original paper, like, oh, let's vary the calibration questions, do we get the same results?">[Sensitivity analysis varying calibration questions]</span></li>
+        <li><span class="summary" data-original="Increasingly, we're thinking of using well-being data in low- and middle-income countries, and we currently have no idea what's going on there in terms of, like, scale use differences">[Extension to LMIC contexts—we know nothing about scale use in intervention settings there]</span></li>
+        <li><span class="summary" data-original="And then, for the practitioners in the room, and more broadly, we need a Stata package, we need an R package, maybe for the nerds, we need a Julia package, and the other nerds, a Python package">[Software packages (Stata, R, Python) for practitioners]</span></li>
+      </ul>
+    </div>
+
+    <div class="resource-embed">
+      <h4>📊 Caspar's Presentation</h4>
+      <div class="resource-links">
+        <a href="materials/caspar-kaiser-scale-heterogeneity-slides.pdf" class="resource-link">Slides (PDF)</a>
+        <a href="https://unjournal.pubpub.org/pub/e1heterogenity/draft?access=apyc3edk" target="_blank" rel="noopener" class="resource-link">Full Evaluation</a>
+        <a href="https://unjournal.pubpub.org/pub/e2heterogenity/draft?access=a3fwelxg" target="_blank" rel="noopener" class="resource-link">Alberto Prati's Evaluation</a>
+      </div>
+    </div>
+
+    <div class="section-header" id="technical-discussion">
+      <span class="timestamp">3:29</span>
+      <h3>Technical Discussion</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Daniel Benjamin <span class="affiliation">UCLA/NBER</span></p>
+
+      <p><span class="summary" data-original="On the response consistency / common perception trade-off: In the new paper, we've made major progress on theoretical foundations.">[On the response consistency / common perception trade-off: In the new paper, we've made major progress on theoretical foundations.]</span></p>
+
+      <p><span class="summary" data-original="Many violations of common perception are actually fine. 'Fill-in-the-blank bias'—people inserting their own situation into vignette gaps—we were worried about this, but it doesn't invalidate the approach unless there's complete overwriting">[Many violations of common perception are actually fine. "Fill-in-the-blank bias" (people inserting their own situation into vignette gaps)—we were worried about this, but it doesn't invalidate the approach unless there's complete overwriting (ignoring the vignette entirely).]</span></p>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Miles Kimball <span class="affiliation">CU Boulder</span></p>
+
+      <p><span class="summary" data-original="Our method is transparent—the adjustment comes from a simple regression of the scale-use-only benchmark on covariates. In contrast, CHOPIT is opaque. A probit-like procedure can hide problems you don't realize.">[Our method is transparent—the adjustment comes from a simple regression of the scale-use-only benchmark on covariates. In contrast, CHOPIT (the older method) is opaque.]</span></p>
+
+      <p>"Our approach is invariant to heteroscedasticity. CHOPIT is very sensitive to it."</p>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Caspar Kaiser <span class="affiliation">U of Warwick</span></p>
+
+      <p>"The key thing is: we know nothing about interventions. In observational datasets, yes, you can do adjustments and they make a difference. But what matters for this workshop is: if I give people cash or psychotherapy or bed nets, <strong>will they change how they use their scales</strong>?"</p>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Miles Kimball <span class="affiliation">CU Boulder</span></p>
+
+      <div class="key-point">
+        <strong>On calibration questions in RCTs:</strong> "I put a suggestion in the chat. The height/weight approach can be valuable because it identifies not just scale use changes but also <strong>demand effects</strong>."
+        <p style="margin: 8px 0 0;">"If you ask about an objective outcome both objectively and subjectively, with calibration questions, you can identify these separately. That's something we're very interested in pursuing."</p>
+      </div>
+    </div>
+
+    <!-- ========== PART 6 ========== -->
+    <div class="part-header" id="part6">
+      <h2>Part 6: Beliefs Elicitation Session</h2>
+      <p class="part-meta">Duration: ~20 minutes · Timestamp: 3:44–4:05 · <a href="beliefs.html" style="color: var(--sage);">📄 PQ Form</a></p>
+      <p class="part-desc">David explains the belief elicitation exercise, covering the focal case and key questions about WELLBY reliability and DALY-WELLBY conversion.</p>
+      <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+        <a href="https://www.dropbox.com/scl/fi/hldnwwajo6o38yanspvak/10_beliefs.mp4?rlkey=n0v9bjw4ih9u6othytxiikwcw&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/10_beliefs.jpg" alt="Beliefs" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Beliefs Elicitation</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">David Reinstein <span class="affiliation">The Unjournal</span></p>
+
+      <p>"So, why are we doing this belief elicitation? And this is sort of a trial. We're working out the kinks, trying to see what will work in terms of eliciting the beliefs of stakeholders and experts."</p>
+
+      <p><strong>Goals:</strong></p>
+      <ul class="bullet-list">
+        <li><span class="summary" data-original="The idea is, slash was, to capture your, we call them, what do you, if you like it, prior beliefs. Before hearing the full evidence presentations. And then at an intermediate stage. To sort of measure a sort of updating, if there's any.">[Capture prior beliefs before evidence presentations, then measure updating]</span></li>
+        <li><span class="summary" data-original="And then, you know, in principle, and this is a whole field, one wants to aggregate expert opinion to inform other people.">[Aggregate expert opinion to inform decision-makers]</span></li>
+        <li>"I think doing this helps focus our ideas. I didn't realize it until you were forced to frame a precise question."</li>
+        <li><span class="summary" data-original="grant funders are very interested in having a sense of what impact we are having, and this is one potential way of measuring impact... are we actually... before people read the thing versus after, does it actually shift their beliefs?">[Measure workshop impact—did we actually shift beliefs?]</span></li>
+      </ul>
+
+      <p><strong>On measuring impact:</strong> "It's very hard to measure the impact of research work. The meta-research work that we're doing, but this is the ambitious approach. To try to see, are we actually... before people read the thing versus after, does it actually shift their beliefs? And if they can even identify how those beliefs enter into their policy choices and their value, well, then you've actually got a tip-to-tail, you know, purported measure of your impact. It's not easy, but one has to try."</p>
+
+      <p><strong>Challenges:</strong> <span class="summary" data-original="Obviously there's challenges in doing this well, you know, posing the questions correctly... we still understand questions and communication differently. And even for very quantitative academics and practitioners and researchers, I think. Stating one's beliefs in a quantified way, and saying here's what... here are my 80% credible intervals is difficult.">[Posing questions correctly is challenging—even quantitative researchers find it difficult to state beliefs in quantified form with credible intervals.]</span></p>
+
+      <div class="key-point">
+        <strong>The focal case:</strong>
+        <p style="margin: 8px 0 0;">"Suppose Founders Pledge is considering whether to recommend a donation of $100,000 to either StrongMinds or seasonal malaria chemoprevention. They have substantial evidence, from a variety... a few different types of measures, including well-being surveys on these different interventions, which are in maybe similar but not identical context, maybe in different countries, affecting different groups."</p>
+      </div>
+
+      <p><strong>Key questions:</strong></p>
+      <ol class="bullet-list">
+        <li>"How reliable is the linear WELLBY measure, stated in general terms, for the focal context?"</li>
+        <li><span class="summary" data-original="How should funders measure the impact on well-being. What measure would you recommend? And then... How would you convert between these measures? What would be the best mapping? What would be the best linear mapping?">[What conversion factor between DALYs and WELLBYs should be used?]</span></li>
+        <li><span class="summary" data-original="If calibration questions, etc, were added. Would this change meaningfully? What do I mean by meaningfully? The cost-effectiveness ranking of the top 5 interventions recommended">[Would calibration questions meaningfully change the cost-effectiveness ranking of top interventions?]</span></li>
+      </ol>
+
+      <p><strong>Caspar Kaiser's question:</strong> "It says 'relative to other available measures.' Which is different from 'other possible measures.'"</p>
+
+      <p><strong>Reinstein:</strong> "Yeah, that's good feedback. One is: if I have to make a decision now, which should I use? The other is: if I could collect other measures and took into account the cost of collection, which would be better?"</p>
+    </div>
+
+    <div class="resource-embed">
+      <h4>🎯 Participate</h4>
+      <div class="resource-links">
+        <a href="beliefs.html" class="resource-link">Beliefs Elicitation Form</a>
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="resource-link">Metaculus Questions</a>
+      </div>
+    </div>
+
+    <!-- ========== PART 7 ========== -->
+    <div class="part-header" id="part7">
+      <h2>Part 7: Practitioner Panel & Wrap-Up</h2>
+      <p class="part-meta">Duration: ~25 minutes · Timestamp: 4:05–4:32 · <a href="live/practitioner.html" style="color: var(--sage);">📄 Live Session Page</a></p>
+      <p class="part-desc">Ori Heffetz offers four key reflections. Matt Lerner and Peter Hickman share funder takeaways. Michael Plant responds on HLI's practical approach.</p>
+      <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+        <a href="https://www.dropbox.com/scl/fi/z2v3i4vvj7oxb2v1wey2b/11_practitioner.mp4?rlkey=x1du561prdi4o09f9lteebnjj&dl=0" target="_blank" rel="noopener" style="text-decoration: none; text-align: center;">
+          <img src="images/video-thumbnails/11_practitioner.jpg" alt="Practitioner" style="width: 150px; border-radius: 6px; border: 1px solid var(--border-light);">
+          <p style="margin: 4px 0 0; font-size: 11px; color: var(--sage);">🎬 Practitioner Panel</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="section-header" id="heffetz-reflections">
+      <span class="timestamp">4:05</span>
+      <h3>Ori Heffetz's Reflections</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Ori Heffetz <span class="affiliation">Cornell</span></p>
+
+      <p>"Let me say four things."</p>
+
+      <p><strong>First:</strong> "We started the day with the funders. And I kept asking myself, are they all utilitarian? They never said anything about that. We talk about measures and metrics and stuff, and I thought, wait a second. Are they not prioritarian? Is $1 the same, regardless of who you give it to?" <span class="summary" data-original="There are ethical questions and methodological questions that are quite distinct... We probably focus on second-order things, and we never discuss the first order thing.">[These ethical questions are distinct from methodological ones. We probably focused on second-order things while skipping the first-order question.]</span></p>
+
+      <p><strong>Second:</strong> <span class="summary" data-original="The practical advice that we give, it's clear that there are two types of practical advice. One type of practical advice is Given what you have now, and the metrics that we have, and all the data constraints... What best advice we can give you? And we can contrast that with advice as to, here is one or two or five more questions that if you add to your RCT, evaluation questionnaires.">[There are two types of practical advice:]</span></p>
+      <ul class="bullet-list">
+        <li>Given current data and constraints, what's best?</li>
+        <li>What 2-5 additional questions should go in your next RCT?</li>
+      </ul>
+      <p><span class="summary" data-original="Certainly, our paper is geared mostly towards new data collection... But we could also talk about... What do we do with the big problem was the fact that we only have some answers for some samples in rich countries, but we're actually interested in poor countries.">[Our paper is mostly geared toward new data collection. But we could also discuss extrapolation—using rich-country data for poor-country contexts.]</span></p>
+
+      <details class="collapsible" style="margin: 24px 0;">
+        <summary style="cursor: pointer; font-weight: 600; color: var(--sage); padding: 12px 16px; background: var(--bg-alt); border-radius: 8px; border: 1px solid var(--border-light);">
+          📊 Table: Practical Recommendations for Practitioners
+        </summary>
+        <div class="content" style="padding: 16px; background: var(--white); border: 1px solid var(--border-light); border-top: none; border-radius: 0 0 8px 8px;">
+          <p style="font-size: 14px; margin-bottom: 12px;">From Benjamin et al.—recommendations organized by effort required and research readiness:</p>
+          <table style="width: 100%; font-size: 13px; border-collapse: collapse; margin-bottom: 12px;">
+            <tr style="background: #f5f5f5;">
+              <th style="padding: 10px; text-align: left; border: 1px solid #ddd; width: 30%;"></th>
+              <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Ready to Apply</th>
+              <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Needs More R&D</th>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #ddd; font-weight: 600; background: #fafafa;">No Extra Survey Items</td>
+              <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">
+                • Use adjustment factors from published studies<br>
+                • Apply demographic-based corrections
+              </td>
+              <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">
+                • Cross-country extrapolation<br>
+                • Pooling adjustments across studies
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid #ddd; font-weight: 600; background: #fafafa;">Add 2–5 Survey Items</td>
+              <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">
+                • Include vignette questions in RCTs<br>
+                • Visual calibration questions (e.g., "how dark is this circle?")
+              </td>
+              <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">
+                • Develop LMIC-specific vignettes<br>
+                • Test cross-domain calibration validity
+              </td>
+            </tr>
+          </table>
+          <p style="font-size: 13px; color: var(--text-light); margin: 0;"><strong>Key takeaway:</strong> Adding just 2–5 calibration questions to your next survey or RCT can substantially improve comparability. The cost is minimal; the payoff is substantial bias reduction.</p>
+        </div>
+      </details>
+
+      <p><strong>Third:</strong> "There is a fundamental difference between Kali and Dali... and the well-being. Which is, they don't rely on a question. They don't rely on a question. We can calculate them with data... with administrative data. But once you move to questions... you want to make sure that everybody answers the same question."</p>
+
+      <p><span class="summary" data-original="We also have work that shows that, no, the answer is no. People understand the question differently. The broader it is, the more interpretation to the question you have.">[We have work showing: people understand questions differently. The broader the question, the more interpretation.]</span> "You ask people, do you have leg pain? Then probably everybody answers the same question. You ask people to put yourself on a ladder and think about your whole life, you get a whole lot of different interpretations."</p>
+
+      <p><span class="summary" data-original="We show that these interpretations are systematically associated with demographics. They could be systematically associated with the treatment, etc. So, we're in trouble.">[These interpretations are systematically associated with demographics and could be associated with treatment.]</span></p>
+
+      <div class="key-point">
+        <strong>Fourth:</strong> "We do what we can, we do the best we can with the best data we can. So again, I'm exactly the opposite of a nihilist."
+        <p style="margin: 8px 0 0;"><span class="summary" data-original="But these metrics are not there yet. We cannot fully delegate the decisions to these metrics, and eventually just compare a bunch of numbers... We should definitely use all of these things and improve them, but it's just one input. Human judgment with all the biases and problems is another imperfect input.">[But these metrics aren't ready for full delegation. Eventually we want to automate—have metrics we can trust. We're heading there. But for now, human judgment with all its biases is another imperfect input alongside the metrics.]</span></p>
+        <p style="margin: 8px 0 0;">"Sometimes we will see that if we use health-related measures, the mental health things come at the bottom, but if we use wellbeing, it comes at the top. What to do? Well, what to do? To do what we've always been doing: to <strong>think</strong>. And to think, and to think about other things, and to listen to other people, and to decide in that way."</p>
+      </div>
+    </div>
+
+    <div class="section-header" id="funder-reflections">
+      <span class="timestamp">4:17</span>
+      <h3>Funder Reflections</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Matt Lerner <span class="affiliation">Founders Pledge</span></p>
+
+      <p>"One reflection is... I'll quote you, Ori, that we're in trouble. I think we're in a different kind of trouble."</p>
+
+      <p><span class="summary" data-original="getting to a point of higher confidence about wellbe measurements, is possible with the right attention, which I think already is part of what you were saying, like, sort of, like, being careful and attentive to the details of specific interventions and studies. with the right energy and time input can get you to a point of, like, feeling fairly... fairly okay about your conclusions, and I guess when I say we're trouble, I mean we... like, on my team or trouble, because I don't think we really have that time or energy.">[Getting to higher confidence about WELLBY measurements is possible with the right attention—being careful about details of specific interventions and studies. The trouble for my team is we don't have that time and energy.]</span></p>
+
+      <p><span class="summary" data-original="Maybe part of the... part of the takeaway here might be, well, geez, like, maybe we're doing as well as we can, given the constraints... I feel a little bit more optimistic than that, because I feel like... Especially with, sort of, careful deployment of AI, I think we could do a better job, automating some of the conversion stuff.">[Maybe doing better requires more time and energy than we have available. Though I'm optimistic about careful AI deployment for automating some conversion work.]</span></p>
+
+      <p>"The other reflection I have is... the unavoidability of the core philosophical question of, like, what is the outcome of interest, actually? And... I'm now less confident than I was at the beginning that, for instance, types of things like the evident correlation between affective mood and subjective well-being are evidence that we're all just kind of getting at the same underlying quantity of concern."</p>
+
+      <p>"Maybe I need to talk to Michael about moral philosophy some more."</p>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Peter Hickman <span class="affiliation">Coefficient Giving</span></p>
+
+      <p>"I think my vague worries and ideas about subjective well-being measurements have become more precise through seeing some of the specific concerns and how they're being addressed in the Benjamin et al. paper."</p>
+
+      <p><span class="summary" data-original="This has... also highlighted what issues we didn't discuss today, namely the kind of badness of death point, and how that is probably the key crux for us in whether we'd want to kind of, like, focus on interventions where subjective well-being was the main outcome versus focusing on life-saving interventions.">[We didn't discuss the <strong>badness of death</strong> point—probably the key crux for whether we'd focus on subjective wellbeing interventions versus life-saving interventions.]</span></p>
+
+      <p>"I would like to see some direct thinking about whether people are just going to give you higher answers after an intervention because they want to please the research team. And that might inflate results. So, that's kind of still an outstanding crux."</p>
+    </div>
+
+    <div class="section-header" id="hli-approach">
+      <span class="timestamp">4:25</span>
+      <h3>Michael Plant on HLI's Approach</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Michael Plant <span class="affiliation">Happier Lives Institute</span></p>
+
+      <p>"It's really fascinating hearing this, but I notice as I'm doing it, I'm having a slightly out-of-body experience with Matt and Peter being like, 'Oh, this sounds like... I don't know how we would do this. How would we implement it?' I'm like, we're doing it! We built a car, we're driving a car. Now, it might be that the car is imaginary, and in fact, it doesn't really go anywhere. But this is stuff that we've been forging ahead with."</p>
+
+      <p>"I would be absolutely delighted to talk to Founders Pledge, Coefficient, as you're now called, in greatest detail, to tell you how do we actually try and solve these problems. Now, you might not agree with our answers... but we probably have answers to some of these things, or at least have thought about them."</p>
+
+      <p><span class="summary" data-original="We take a kind of... you know, maybe sort of simple approach, like, we think well-being is what matters, we think it can be reasonably well measured by subjective well-being... It is the case in doing this that we have to kind of break a huge amount of rocks, like, okay, what is, in fact, the well-being weight for this and this and this?">[We take a (perhaps) simple approach: wellbeing is what matters, it can be reasonably well measured by subjective wellbeing. In doing this, we have to break a huge amount of rocks—determining wellbeing weights for this and that.]</span></p>
+
+      <p>"We're hoping that those rocks have to be broken once. And really, part of the reason we exist is that much, much bigger, more significant players in the space can make use of this."</p>
+
+      <div class="key-point">
+        <strong>Limitation:</strong> "The wellbeing approach, it's a bit like a train—it's powerful if you're trying to do quality of life, if you want to do quality of life to saving lives, or animals, or the environment, I don't have solutions for those. We're just kind of back into normal difficult trade-offs, so it's useful in a kind of narrow domain."
+      </div>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Matt Lerner <span class="affiliation">Founders Pledge</span></p>
+
+      <p>"There's sort of a clarifying point for the academics, as we sort of bridge the academic versus donor world. When I say it's, like, hard for us to learn to drive the car, what I sort of mean is: HLI's and our estimates of cost-effectiveness for these different interventions vary right now by a maximum of maybe a factor of 2 to 5×. And it's kind of a big deal in terms of allocation. But in the scope of all philanthropy, it's kind of a narcissism of small differences thing."</p>
+
+      <p><span class="summary" data-original="my hope remains that we can get to a world where... Even those differences are sort of washed out, and also that a team like mine without the expertise of Michael's team, can sort of derive, like, a heuristic... a heuristic approach here.">[My hope is we can wash out even those differences—that a team without Michael's expertise can derive a heuristic approach.]</span></p>
+
+      <p>"What I'm coming away thinking: maybe the heuristic approach is not well-suited. This is complicated."</p>
+    </div>
+
+    <!-- Closing -->
+    <div class="section-header">
+      <span class="timestamp">4:28</span>
+      <h3>Closing</h3>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">David Reinstein <span class="affiliation">The Unjournal</span></p>
+
+      <p>"I think we've potentially learned about these methods and potentially had some questions answered. I think there were some questions that were raised that weren't sufficiently addressed that hopefully we can continue to raise and continue this discussion asynchronously."</p>
+
+      <p><strong>Outstanding questions:</strong></p>
+      <ul class="bullet-list">
+        <li><span class="summary" data-original="For instance, you know, the question about the Scale... how... how much the scale use changes in response to the sort... some of the sort of interventions we... we've talked about. my sense is that that's something that would be sort of crux-y">[How much does scale use change in response to interventions? (This seems crux-y)]</span></li>
+        <li><span class="summary" data-original="I also mentioned, you know, evidence relevant to the linear scale use against what you might argue to be sort of gold standards of how do people say that they would trade off, you know, between movements, between 7 and 8s and 1 and 2s">[Evidence on linear scale use against gold standards—how do people trade off movements between 7-8 versus 1-2?]</span></li>
+      </ul>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">Caspar Kaiser</p>
+      <p>"Thank you, that was great."</p>
+    </div>
+
+    <div class="speaker-block">
+      <p class="speaker-name">David Reinstein</p>
+      <p><span class="summary" data-original="I hope we've understood each other's work, questions, and cruxes better, enabling more valuable communication going forward.">[Thanks to everyone for being part of this experiment. I hope we've understood each other's work, questions, and cruxes better, enabling more valuable communication going forward.]</span></p>
+    </div>
+
+    <p style="text-align: center; color: var(--text-light); margin: 48px 0 24px; font-style: italic;">End of Workshop: 4:32 PM ET</p>
+
+    <!-- Resources -->
+    <div class="resource-embed" style="margin-top: 48px;">
+      <h4>📚 Key Resources</h4>
+      <div class="resource-links">
+        <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-economics-081623-021136" target="_blank" rel="noopener" class="resource-link">Benjamin et al. — Annual Review</a>
+        <a href="https://unjournal.pubpub.org/pub/evalsumheterogenity/" target="_blank" rel="noopener" class="resource-link">Unjournal Evaluation</a>
+        <a href="linear-wellby-analysis.html" class="resource-link">Linear WELLBY Analysis</a>
+        <a href="daly-wellby-conversion.html" class="resource-link">DALY-WELLBY Conversion</a>
+        <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="resource-link">Metaculus Questions</a>
+        <a href="https://docs.google.com/document/d/1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU/edit" target="_blank" rel="noopener" class="resource-link">Collaborative Notes (Google Doc)</a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-section">
+      <a href="live/" class="nav-btn">← Live Sessions Index</a>
+      <a href="beliefs.html" class="nav-btn">Beliefs Elicitation →</a>
+    </div>
+
+    <p style="font-size: 13px; color: var(--text-light); text-align: center; margin-top: 24px;">
+      <em>Transcript edited for readability. Minor corrections appear in <span class="paraphrase">[brackets]</span>. Housekeeping remarks and technical interruptions removed. Timestamps indicate approximate position in original recording.</em>
+    </p>
+
+  </main>
+
+  <script>
+    // Sidebar TOC toggle
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebarToc');
+      const showBtn = document.getElementById('tocShowBtn');
+      sidebar.classList.toggle('hidden');
+      showBtn.classList.toggle('visible', sidebar.classList.contains('hidden'));
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.pushState(null, null, this.getAttribute('href'));
+        }
+      });
+    });
+  </script>
+  <script async src="https://hypothes.is/embed.js"></script>
+</body>
+</html>
