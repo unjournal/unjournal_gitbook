@@ -693,7 +693,6 @@
   <!-- Navigation -->
   <nav class="page-nav">
     <ul class="page-nav-links">
-      <li><a href="interest.html" class="page-nav-link">Interest/Feedback</a></li>
       <li><a href="about.html" class="page-nav-link">About</a></li>
       <li><a href="beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
       <li><a href="live/" class="page-nav-link">Live Sessions</a></li>
@@ -706,6 +705,22 @@
       </li>
     </ul>
   </nav>
+
+  <!-- Post-Workshop Notice -->
+  <div style="background: linear-gradient(135deg, #e8f4e8 0%, #d4e8d4 100%); border-bottom: 2px solid #5a7a5a; padding: 16px 20px; text-align: center;">
+    <p style="margin: 0 0 8px; font-size: 15px; color: #2d4a2d; font-weight: 600;">
+      ✓ The workshop took place on March 16, 2026
+    </p>
+    <p style="margin: 0; font-size: 14px; color: #3d5a3d; line-height: 1.5;">
+      We're continuing the discussion asynchronously and will be publicly sharing key materials soon. This site is evolving into a resource page.
+      <br><a href="/survey.html" style="color: #5a7a5a; font-weight: 600;">Share your feedback →</a> ·
+      <a href="/beliefs.html" style="color: #5a7a5a;">Complete the beliefs elicitation</a> ·
+      <a href="https://docs.google.com/document/d/1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU/edit" target="_blank" style="color: #5a7a5a;">Join the discussion (Google Doc)</a>
+    </p>
+    <p style="margin: 8px 0 0; font-size: 12px; color: #6b8a6b;">
+      <a href="https://uj-wellbeing-workshop-archive.netlify.app/" target="_blank" style="color: #6b8a6b; text-decoration: underline;">View archived version from workshop day</a>
+    </p>
+  </div>
 
   <!-- TOC Toggle Button -->
   <button class="toc-toggle" id="tocToggle" title="Toggle table of contents"></button>
@@ -882,7 +897,7 @@
           </ul>
 
           <div style="background: #fff9e6; border: 1px solid #e6d4a3; border-left: 3px solid var(--brown); border-radius: 6px; padding: 14px; margin: 16px 0; font-size: 13px;">
-            <strong>The Controversy:</strong> <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener" style="color: var(--brown);">Happier Lives Institute</a> estimated StrongMinds at ~40 WELLBYs per $1,000 (November 2024)—potentially more cost-effective than AMF. <a href="https://www.givewell.org/research/intervention-reports/strongminds" target="_blank" rel="noopener" style="color: var(--brown);">GiveWell's 2023 assessment</a> disagreed, citing concerns about: (1) mapping depression scales to LS, (2) assumed effect duration, (3) demand effects in self-reported outcomes, and (4) publication bias.
+            <strong>The Controversy:</strong> <a href="https://www.happierlivesinstitute.org/report/strongminds-cost-effectiveness-analysis/" target="_blank" rel="noopener" style="color: var(--brown);">Happier Lives Institute</a> estimated StrongMinds at ~40 WELLBYs per $1,000 (November 2024)—potentially more cost-effective than AMF. <a href="https://www.givewell.org/international/technical/programs/strongminds-happier-lives-institute" target="_blank" rel="noopener" style="color: var(--brown);">GiveWell's 2023 assessment</a> disagreed, citing concerns about: (1) mapping depression scales to LS, (2) assumed effect duration, (3) demand effects in self-reported outcomes, and (4) publication bias. See <a href="https://www.happierlivesinstitute.org/report/response-to-givewells-assessment-of-strongminds/" target="_blank" rel="noopener" style="color: var(--brown);">HLI's response</a>.
           </div>
 
           <p style="font-size: 13px; margin: 16px 0 0; color: var(--text-light);">
@@ -940,7 +955,7 @@ flowchart LR
             <li><a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">Happier Lives Institute</a> (Plant et al.): Primary metric for charity comparison; extensive cost-effectiveness analyses<a href="#fn13" class="footnote">[13]<span class="footnote-tooltip">HLI cost-effectiveness analyses; see also Plant (2024) on cardinality.</span></a></li>
             <li><a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a>: Uses WELLBYs alongside DALYs for mental health CEA</li>
             <li><a href="https://www.givewell.org/" target="_blank" rel="noopener">GiveWell</a>: Has explored WELLBY analysis but with significant reservations</li>
-            <li><strong>UK Government:</strong> Official guidance for policy appraisal</li>
+            <li><a href="https://www.gov.uk/government/publications/green-book-supplementary-guidance-wellbeing" target="_blank" rel="noopener"><strong>UK Government:</strong></a> Official guidance for policy appraisal (the "Green Book")</li>
           </ul>
         </div>
       </details>
@@ -953,7 +968,7 @@ flowchart LR
 
       <p style="font-size: 13px; color: var(--text-light);">These two framings—satisfaction vs. ladder position—are often used interchangeably, but may capture subtly different constructs. Cross-study comparisons should note which instrument (survey question format) was used.</p>
 
-      <h3 class="subsection-heading">Incremental vs. Level-Based Accounting</h3>
+      <h3 class="subsection-heading">Incremental vs. Level-Based Frameworks</h3>
 
       <p><strong>Incremental WELLBYs</strong><a href="#fn18" class="footnote">[18]<span class="footnote-tooltip">"Incremental" vs "level-based" is descriptive language used in this document. The literature typically just refers to "WELLBYs" with context clarifying whether the focus is on changes (differences) or absolute levels. Incremental WELLBYs are captured by observing differences between comparable treated and untreated populations—useful when mortality effects are negligible or balanced across groups.</span></a>:</p>
 
@@ -962,7 +977,7 @@ flowchart LR
       </div>
       <p style="font-size: 12px; color: var(--text-light); margin-top: -8px;"><em>Where: $i$ = individuals, $t$ = time periods, $LS$ = life satisfaction (0-10), $\delta$ = discount factor, $k$ = intervention, $0$ = counterfactual. See <a href="#" onclick="document.querySelector('details summary').click(); return false;" style="color: var(--sage);">notation key</a> below for details.</em></p>
 
-      <p><strong>Level-based WELLBYs</strong> (relevant for comparing interventions that affect mortality or, in some accounting, birth rates):</p>
+      <p><strong>Level-based WELLBYs</strong> (relevant for comparing interventions that affect mortality or, in some conceptual frameworks, birth rates):</p>
 
       <div class="formal-notation">
         $W = \sum_{i} \sum_{t} \delta^t \, LS_{it}$
@@ -996,6 +1011,10 @@ flowchart LR
 
       <p>
         Using linear WELLBYs for cross-intervention comparison requires assumptions.<a href="#fn-benjamin" class="footnote">[B]<span class="footnote-tooltip"><a href="https://doi.org/10.1146/annurev-economics-051520-030532" target="_blank" rel="noopener" style="color: var(--sage);">Benjamin, Cooper, Heffetz & Kimball (2024)</a>. "From Happiness Data to Economic Conclusions." <em>Annual Review of Economics</em>. Articulates four key assumptions for SWB-based welfare analysis.</span></a> The claim "equal scores mean equal welfare" is <strong>stronger than most applications need</strong>—what matters for intervention comparison is whether <em>changes</em> in scores reflect comparable welfare changes.
+      </p>
+
+      <p style="font-size: 13px; color: var(--text-light); font-style: italic; margin-bottom: 20px;">
+        <strong>Note:</strong> The Benjamin et al. framework offers limited direct focus on comparing interventions in LMICs using RCT data—the central context for our workshop. There may be a research gap here, though <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener" style="color: var(--sage);">HLI has been doing significant applied work in this space</a>—more discussion is needed on how their research connects to these conceptual frameworks. <em>(Tessa Peasgood kindly shared this paper with workshop participants.)</em>
       </p>
 
       <div class="assumption-grid">
@@ -1500,7 +1519,7 @@ flowchart LR
           <li id="fn10">GiveWell (2023). "Our Assessment of Happier Lives Institute's Cost-Effectiveness Analysis of StrongMinds."</li>
           <li id="fn11">Benjamin, D.J., Heffetz, O., Kimball, M.S. & Szembrot, N. (2014). "Beyond Happiness and Satisfaction: Toward Well-Being Indices Based on Stated Preference." <em>AER</em>, 104(9). The shifters/stretchers framework is elaborated in Benjamin et al. (2023) NBER WP 31728.</li>
           <li id="fn12">Plant, M. (2024). "A Happy Possibility About Happiness (And Other Subjective) Scales: An Investigation and Tentative Defence of the Cardinality Thesis." <a href="https://wellbeing.hmc.ox.ac.uk/publications/a-happy-possibility-about-happiness-and-other-subjective-scales-an-investigation-and-tentative-defence-of-the-cardinality-thesis/" target="_blank" rel="noopener">Wellbeing Research Centre working paper</a>.</li>
-          <li id="fn13">McGuire, J., Langford, K., & Plant, M. (2024). "The Wellbeing Cost-Effectiveness of StrongMinds and Friendship Bench." Happier Lives Institute Report. See also their <a href="https://www.happierlivesinstitute.org/givedirectly-comprehensive-summary/" target="_blank" rel="noopener">GiveDirectly analysis</a> and <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">other CEAs</a>.</li>
+          <li id="fn13">McGuire, J. et al. (2024). "The Wellbeing Cost-Effectiveness of StrongMinds and Friendship Bench." Happier Lives Institute Report. Note: HLI's scope is global, not limited to LMICs—they evaluate interventions worldwide. See also their <a href="https://www.happierlivesinstitute.org/givedirectly-comprehensive-summary/" target="_blank" rel="noopener">GiveDirectly analysis</a>, <a href="https://www.happierlivesinstitute.org/report/hlis-response-to-givewells-analysis-of-strongminds/" target="_blank" rel="noopener">response to GiveWell</a>, and <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">other CEAs</a>.</li>
           <li id="fn14">When comparing intervention effects for living people, the neutral point cancels algebraically: (LS_treatment − LS₀) − (LS_control − LS₀) = LS_treatment − LS_control.</li>
           <li id="fn15">LMIC study examples: Haushofer & Shapiro (2016, 2018) measured SWB at 9 months and 3 years post cash transfers in Kenya; StrongMinds evaluations typically follow up at 3-6 months.</li>
           <li id="fn16">Limited LMIC-specific research exists on neutral point estimation. Peasgood et al. (2018) provide estimates for UK populations; whether these generalize to LMIC contexts is unclear.</li>
