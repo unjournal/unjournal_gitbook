@@ -71,6 +71,12 @@ Served via GitHub Pages at `https://unjournal.github.io/unjournal_gitbook/`.
 
 The Unjournal maintains a style guide for documentation consistency: https://docs.google.com/document/d/10aooH_YCVX__pXFqnY1l8Kn2_DPX9wdHdR9AfImSuDs/edit
 
+## Journal Metadata
+
+- **ISSN**: 3071-2173 (assigned March 2026)
+- **DOI Prefix**: 10.21428/d28e8e57 (via PubPub/Crossref)
+- **PubPub Community**: https://unjournal.pubpub.org
+
 ## Key URLs
 
 - **Public GitBook**: `https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/`
