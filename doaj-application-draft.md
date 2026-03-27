@@ -11,8 +11,7 @@ Reference PDF of all questions: https://doaj.org/static/doaj/docs/DOAJquestions-
 Yes — all evaluations, ratings, and author responses are freely available immediately upon publication with no registration required.
 
 **URL to formal OA policy:**
-https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/policies-and-templates
-(May want to add a dedicated OA statement page)
+https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/open-access-policy
 
 **Year OA publishing began:**
 2023
@@ -112,4 +111,4 @@ References deposited with Crossref (check if open references are enabled in PubP
 
 3. **"Journal" framing:** The ISSN establishes The Unjournal as a serial publication. The application should emphasize that while non-traditional in format, the content is peer-reviewed scholarly output with DOIs, editorial oversight, and structured evaluation criteria.
 
-4. **OA policy page:** Consider creating a dedicated "Open Access Policy" page on the GitBook or PubPub community to provide a clean URL for the application.
+4. **OA policy page:** Created at `policies-projects-evaluation-workflow/open-access-policy.md` in the GitBook — will be live once merged and synced.
