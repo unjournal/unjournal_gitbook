@@ -21,16 +21,31 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Periodical",
-    "name": "The Unjournal",
-    "issn": "3071-2173",
-    "url": "https://unjournal.org",
-    "description": "Open evaluation of quantitative research informing global priorities",
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Unjournal",
-      "url": "https://unjournal.org"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "The Unjournal",
+        "url": "https://unjournal.org",
+        "logo": "https://info.unjournal.org/unjournal-logo.jpg",
+        "description": "Open evaluation of quantitative research informing global priorities",
+        "email": "contact@unjournal.org",
+        "sameAs": [
+          "https://unjournal.pubpub.org",
+          "https://www.wikidata.org/wiki/Q138041434"
+        ]
+      },
+      {
+        "@type": "Periodical",
+        "name": "The Unjournal",
+        "issn": "3071-2173",
+        "url": "https://unjournal.pubpub.org",
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Unjournal",
+          "url": "https://unjournal.org"
+        }
+      }
+    ]
   }
   </script>
   <style>

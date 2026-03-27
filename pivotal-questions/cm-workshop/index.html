@@ -33,7 +33,7 @@
 
   <!-- Hypothes.is Annotation Banner -->
   <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
-    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a> <span class="tip" style="color: #888; font-size: 12px;">(free account to post; anyone can read)<span class="tip-text">We monitor and try to respond and adjust to all comments.</span></span>
+    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a> <span class="tip" style="color: #888; font-size: 12px;">(we aim to respond to all comments)<span class="tip-text">We actively monitor Hypothes.is annotations and aim to respond and adjust to all feedback.</span></span>
   </div>
 
   <!-- Content -->
@@ -249,7 +249,7 @@
   </main>
   <script async src="https://hypothes.is/embed.js"></script>
 
-  <!-- Hidden forms for Netlify detection -->
+  <!-- Hidden forms for Netlify detection — must match ALL actual form fields -->
   <form name="cm-workshop-availability" netlify netlify-honeypot="bot-field" hidden>
     <input name="form-name" type="hidden" value="cm-workshop-availability">
     <input name="bot-field">
@@ -257,18 +257,21 @@
     <input name="email">
     <input name="affiliation">
     <input name="role">
+    <input name="roleOther">
     <input name="freeAvailability">
     <input name="gridAvailability">
     <input name="segment_tea_review">
     <input name="segment_media_costs">
     <input name="segment_bioreactors">
     <input name="segment_beliefs_synthesis">
+    <input name="segment_business_environment">
+    <input name="segment_cm_background">
+    <input name="segment_modeling_hack">
     <input name="segment_priority_order">
     <input name="presentNotes">
     <input name="segmentSuggestions">
     <input name="recordingPref">
     <input name="recordingNotes">
-    <input name="asyncInterest">
     <input name="inviteeSuggestions">
     <input name="otherNotes">
   </form>
@@ -277,6 +280,31 @@
     <input name="bot-field">
     <input name="name">
     <input name="email">
+    <input name="affiliation">
+    <input name="metaculus_username">
+    <input name="expertise">
+    <input name="cm01_cost_2036">
+    <input name="cm01_reasoning">
+    <input name="cm02_assessment">
+    <input name="cm02_benefit_low">
+    <input name="cm02_benefit_median">
+    <input name="cm02_benefit_high">
+    <input name="cm02_reasoning">
+    <input name="cm10_probability">
+    <input name="cm10_reasoning">
+    <input name="cm12_probability">
+    <input name="cm12_comment">
+    <input name="cm13_cost">
+    <input name="cm13_comment">
+    <input name="cm14_cost">
+    <input name="cm14_comment">
+    <input name="cm16_density">
+    <input name="cm16_comment">
+    <input name="cm17_percentage">
+    <input name="cm17_comment">
+    <input name="cm20_percentage">
+    <input name="cm20_comment">
+    <input name="other_thoughts">
   </form>
 </body>
 </html>
