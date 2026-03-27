@@ -26,6 +26,7 @@
       <li><a href="/" class="page-nav-link">About</a></li>
       <li><a href="/schedule.html" class="page-nav-link active">Schedule/Signup</a></li>
       <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="/resources.html" class="page-nav-link">Resources</a></li>
       <!-- Survey link hidden until after the workshop -->
     </ul>
   </nav>
@@ -38,7 +39,7 @@
   <!-- Context Bar -->
   <div class="context-bar">
     <p class="context-text">
-      This workshop focuses on cultivated meat's <em>production cost trajectory</em> — the most pivotal and tractable question for animal welfare funding decisions. See the <a href="/" style="color: var(--sage);">workshop overview</a> for full context and resources.
+      This workshop focuses on cultivated meat's <em>production cost trajectory</em> — a high-value, tractable question for animal welfare funding decisions. See the <a href="/" style="color: var(--sage);">workshop overview</a> for full context and resources.
     </p>
     <div class="context-links">
       <a href="https://unjournal.github.io/cm_pq_modeling/" target="_blank" rel="noopener" class="pill-link">📊 Cost Model →</a>
@@ -110,7 +111,7 @@
         <div class="availability-freetext">
           <label for="freeAvailability" class="field-label">Tell us your availability in your own words</label>
           <p class="field-hint">Just tell us when you're free from mid-April to early May. We'll find the best overlap across everyone. Include your time zone if it's not obvious.</p>
-          <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me in April, except the week of Apr 13. I could stay for the full 2 hours." or "Available Tue/Thu afternoons UK time throughout April."'></textarea>
+          <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me, except the week of Apr 20. I could stay for the full session (~4 hours with breaks)." or "Available Tue/Thu afternoons UK time, late April through early May."'></textarea>
         </div>
 
         <!-- Grid availability (collapsible) -->
@@ -142,7 +143,7 @@
 
         <div class="segment-details-box" id="segment-details">
           <div class="segment-detail">
-            <strong>TEA Landscape: Where Do They Disagree?</strong> (~40 min): Walking through the optimistic-to-pessimistic spectrum (Pasitka → CE Delft → Humbird). Which assumptions drive the 10x cost gap? What's changed since 2022?
+            <strong>TEA Landscape: Where Do They Disagree?</strong> (~40 min): Walking through the optimistic-to-pessimistic spectrum (Pasitka → CE Delft → Humbird). Which assumptions drive the large cost gap? What's changed since 2022?
           </div>
           <div class="segment-detail">
             <strong>Crux 1: Media Costs & Growth Factors</strong> (~45 min): The biggest variable cost. GFI's amino acid data vs Humbird's assumptions. Will hydrolysates replace purified growth factors? Realistic media costs per kg by 2036.
@@ -151,7 +152,19 @@
             <strong>Crux 2: Bioreactors, Scale-Up & Cell Density</strong> (~40 min): Pharma-grade vs food-grade vs custom-built. Achievable cell densities at scale. Batch vs continuous perfusion. The gap between TEA projections and commercial reality.
           </div>
           <div class="segment-detail">
-            <strong>CM_01 Beliefs & Synthesis</strong> (~40 min): Given the discussion, what will CM cost per kg in 2031, 2036, 2051? Structured beliefs elicitation. Where do we agree/disagree? What research would have highest value of information?
+            <strong>CM_01 Beliefs & Synthesis</strong> (~40 min): Given the discussion, what will CM cost per kg in 2036? Structured beliefs elicitation. Where do we agree/disagree? What research would have highest value of information?
+          </div>
+          <div class="segment-detail" style="border-top: 1px dashed #ddd; padding-top: 12px; margin-top: 8px;">
+            <em style="color: var(--text-light);">Additional / optional segments:</em>
+          </div>
+          <div class="segment-detail">
+            <strong>Business, Government & Cost of Capital</strong>: Regulatory environment, philanthropic funding landscape, and how financing costs affect the cost trajectory.
+          </div>
+          <div class="segment-detail">
+            <strong>How Is Cultured Meat Produced?</strong>: A cost-focused background overview for participants less familiar with the production process. See also our <a href="https://unjournal.github.io/cm_pq_modeling/learn.html" target="_blank" rel="noopener" style="color: var(--sage);">learning resources</a>.
+          </div>
+          <div class="segment-detail">
+            <strong>TEA Modeling & Forecasting (Post-Workshop)</strong>: Hands-on session — constructing TEAs, uncertainty modeling, and forecasting. Extended (2–5 hours, may be scheduled separately).
           </div>
         </div>
 
@@ -160,7 +173,7 @@
             <button type="button" class="segment-star" data-segment="tea_review" title="Click to set priority: ★ or ★★">☆</button>
             <div class="segment-info">
               <div class="segment-name">TEA Landscape: Where Do They Disagree?</div>
-              <div class="segment-desc">Optimistic vs pessimistic TEAs, what drives the 10x cost gap (~40 min)</div>
+              <div class="segment-desc">Optimistic vs pessimistic TEAs, what drives the large cost gap (~40 min)</div>
             </div>
             <select name="segment_tea_review" class="segment-select">
               <option value="">—</option>
@@ -308,6 +321,10 @@
       <div class="submit-section">
         <button type="submit" class="submit-btn" id="submitBtn">Submit Availability & Preferences</button>
         <p class="submit-note">Your responses help us find the best date and structure for everyone.</p>
+        <p style="margin-top: 12px; font-size: 13px; color: var(--text-light);">
+          <button type="button" id="downloadBtn" style="background: none; border: 1px solid var(--border); padding: 6px 14px; border-radius: 6px; font-size: 13px; color: var(--sage); cursor: pointer;">Download a copy of your responses</button>
+          <span style="margin-left: 8px;">— saves a text file to your device.</span>
+        </p>
       </div>
     </form>
 
@@ -318,11 +335,11 @@
       <div class="workshop-links">
         <a href="https://uj-wellbeing-workshop.netlify.app/" class="workshop-link">
           <strong>Wellbeing Measurement</strong>
-          <span>WELLBY reliability & DALY conversion · held March 16</span>
+          <span>WELLBY reliability & DALY conversion · held March 2026</span>
         </a>
         <a href="https://uj-pba-workshop.netlify.app/" class="workshop-link">
           <strong>Plant-Based Substitution</strong>
-          <span>Cross-price elasticity & AW funding · May 2026</span>
+          <span>Cross-price elasticity & AW funding · May-June 2026</span>
         </a>
       </div>
       <p class="all-workshops-link"><a href="https://uj-pq-workshops.netlify.app/">View all workshops →</a></p>
