@@ -38,7 +38,8 @@ https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/po
 CC BY (Creative Commons Attribution) — check specific PubPub community settings to confirm
 
 **URL where license terms appear:**
-Each PubPub publication page shows the license. Also: https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/policies-and-templates
+https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/open-access-policy
+(Also shown in the footer of each PubPub publication page)
 
 **Is licensing info embedded in articles?**
 Yes — PubPub embeds CC license in the page footer and metadata of each pub
@@ -111,4 +112,4 @@ References deposited with Crossref (check if open references are enabled in PubP
 
 3. **"Journal" framing:** The ISSN establishes The Unjournal as a serial publication. The application should emphasize that while non-traditional in format, the content is peer-reviewed scholarly output with DOIs, editorial oversight, and structured evaluation criteria.
 
-4. **OA policy page:** Created at `policies-projects-evaluation-workflow/open-access-policy.md` in the GitBook — will be live once merged and synced.
+4. **OA policy page:** Live at https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/open-access-policy
