@@ -61,6 +61,7 @@
     * [Protecting anonymity](policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md)
   * [Mapping evaluation workflow](policies-projects-evaluation-workflow/mapping-evaluation-workflow/README.md)
     * [Evaluation workflow – Simplified](policies-projects-evaluation-workflow/mapping-evaluation-workflow/mapping-evaluation-workflow.md)
+  * [Open Access Policy](policies-projects-evaluation-workflow/open-access-policy.md)
   * [Communicating results](policies-projects-evaluation-workflow/communicating-results.md)
   * [Recap: submissions](readme-1/call-for-participants-research/impactful-research-prize/recap-submissions.md)
 * [Partner with The Unjournal](partner-with-the-unjournal/README.md)
