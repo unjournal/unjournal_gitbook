@@ -914,7 +914,6 @@
   <!-- Navigation -->
   <nav class="page-nav">
     <ul class="page-nav-links">
-      <li><a href="interest.html" class="page-nav-link">Interest/Feedback</a></li>
       <li><a href="about.html" class="page-nav-link">About</a></li>
       <li><a href="beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
       <li><a href="live/" class="page-nav-link">Live Sessions</a></li>
@@ -1306,9 +1305,14 @@
       </thead>
       <tbody>
         <tr>
-          <td class="approach-name">DALY / QALY</td>
-          <td>Strong institutional standardization; large evidence bases; direct mortality/morbidity linkage</td>
-          <td>May miss welfare impacts not in health-state descriptions (empowerment, security, meaning); mental health weights can be contentious</td>
+          <td class="approach-name">DALY</td>
+          <td>Standardized globally (GBD); large evidence base; direct mortality link; institutional acceptance</td>
+          <td>May miss non-health welfare; disability weights derived from hypothetical population ratings rather than patient experience; equivalence between a year with disability and corresponding fraction of a year of life lost is assumed, not verified</td>
+        </tr>
+        <tr>
+          <td class="approach-name">QALY</td>
+          <td>Patient-derived weights (via EQ-5D etc.); widely used in health technology assessment (e.g., NICE)</td>
+          <td>Narrower than WELLBYs (health states only, may miss empowerment, meaning, security); EQ-5D may not capture mental health conditions well</td>
         </tr>
         <tr>
           <td class="approach-name">Linear WELLBY</td>
@@ -1322,7 +1326,7 @@
         </tr>
         <tr>
           <td class="approach-name">Calibrated WELLBY</td>
-          <td>Reduces scale-use bias 30-50%<a href="#fn-calibration" class="footnote" id="fnref-calibration">[cal]<span class="footnote-tooltip">Benjamin et al. (2023/2024) estimate that calibration methods using vignette anchoring and visual scales can reduce interpersonal comparability bias by 30-50%, depending on the population and calibration approach used.</span></a></td>
+          <td>May reduce scale-use bias (magnitude is context-dependent)<a href="#fn-calibration" class="footnote" id="fnref-calibration">[cal]<span class="footnote-tooltip">Benjamin et al. (2023) "Adjusting for Scale-Use Heterogeneity" (NBER WP 31728) develop methods to adjust for scale-use differences using calibration questions. The degree of bias reduction depends on the population, calibration approach, and outcome of interest.</span></a></td>
           <td>Complex; requires calibration items; LMIC feasibility unclear; introduces new assumptions</td>
         </tr>
       </tbody>
@@ -1392,29 +1396,32 @@
       This simple calculator assumes constant effect size over the duration. Real applications should account for effect decay, discounting, and uncertainty ranges.
     </p>
 
-    <!-- Section 8: Recommendations -->
-    <h2 id="recommendations" class="section-heading">8. Practical Recommendations</h2>
+    <!-- Section 8: Considerations for Discussion -->
+    <h2 id="recommendations" class="section-heading">8. Considerations for discussion</h2>
 
-    <h3 class="subsection-heading">For Funders Comparing Interventions</h3>
+    <p style="font-size: 14px; color: var(--text-light); margin-bottom: 16px;"><em>The following are practices and considerations found in the literature—not workshop conclusions or endorsements. A key goal of the workshop is to assess which of these, if any, represent genuine improvements over current practice.</em></p>
+
+    <h3 class="subsection-heading">What are funders currently doing?</h3>
+    <p>Some funders and evaluators report using approaches such as:</p>
     <ul>
-      <li>Treat WELLBY estimates as one input among several, not the final answer</li>
-      <li>Conduct sensitivity analyses across different approaches and assumptions</li>
-      <li>Report how rankings change if you assume different neutral points or scale comparability</li>
-      <li>Communicate uncertainty honestly rather than false precision</li>
+      <li>Sensitivity analyses across different approaches and assumptions</li>
+      <li>Reporting how intervention rankings change under alternative neutral point or comparability assumptions</li>
+      <li>Combining WELLBY estimates with other evidence types</li>
     </ul>
 
-    <h3 class="subsection-heading">For Researchers Designing Studies</h3>
+    <h3 class="subsection-heading">What methodological improvements have been proposed?</h3>
+    <p>Researchers have proposed various approaches, each with trade-offs:</p>
     <ul>
-      <li>Use standardized life satisfaction questions (OECD prototype) to enable cross-study comparison</li>
-      <li>Include long-term follow-up to capture duration effects</li>
-      <li>Consider calibration questions/vignettes if comparing across populations</li>
-      <li>Pre-register analysis plans including functional form choices</li>
+      <li>Standardized life satisfaction questions (OECD recommended module) for cross-study comparison</li>
+      <li>Long-term follow-up to capture duration effects and hedonic adaptation</li>
+      <li>Calibration questions/vignettes when comparing across populations</li>
+      <li>Pre-registration of analysis plans including functional form choices</li>
     </ul>
 
-    <h3 class="subsection-heading">Conditions for Stronger Inference</h3>
+    <h3 class="subsection-heading">Under what conditions might WELLBY comparisons be more reliable?</h3>
     <ul>
       <li><strong>Large effect sizes</strong> that overwhelm measurement error</li>
-      <li><strong>Within-person designs</strong> where each person serves as their own control</li>
+      <li><strong>Within-person designs</strong> where each person serves as their own control (though these may introduce demand effects)</li>
       <li><strong>Multiple wellbeing measures</strong> showing the same directional effect</li>
       <li><strong>Triangulation</strong> with behavioral or objective outcomes</li>
       <li><strong>Robustness checks</strong> across functional forms (log vs. linear)</li>
@@ -1424,7 +1431,7 @@
     <h2 id="open-questions" class="section-heading">9. Open Questions (Research Agenda)</h2>
 
     <p>
-      These questions represent high-value areas for future research that could meaningfully improve the reliability of WELLBY-based comparisons:
+      The following questions have been identified by researchers in this area as areas where additional evidence could meaningfully improve the reliability of WELLBY-based comparisons:
     </p>
 
     <ol>
