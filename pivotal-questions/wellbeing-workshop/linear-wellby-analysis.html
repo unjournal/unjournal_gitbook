@@ -437,13 +437,13 @@
     .mermaid {
       margin: 24px 0;
       text-align: center;
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .mermaid svg {
       max-width: 100%;
       min-width: 700px;
-      min-height: 220px;
+      min-height: 300px;
     }
 
     @media (max-width: 700px) {
@@ -693,7 +693,6 @@
   <!-- Navigation -->
   <nav class="page-nav">
     <ul class="page-nav-links">
-      <li><a href="interest.html" class="page-nav-link">Interest/Feedback</a></li>
       <li><a href="about.html" class="page-nav-link">About</a></li>
       <li><a href="beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
       <li><a href="live/" class="page-nav-link">Live Sessions</a></li>
@@ -706,6 +705,22 @@
       </li>
     </ul>
   </nav>
+
+  <!-- Post-Workshop Notice -->
+  <div style="background: linear-gradient(135deg, #e8f4e8 0%, #d4e8d4 100%); border-bottom: 2px solid #5a7a5a; padding: 16px 20px; text-align: center;">
+    <p style="margin: 0 0 8px; font-size: 15px; color: #2d4a2d; font-weight: 600;">
+      ✓ The workshop took place on March 16, 2026
+    </p>
+    <p style="margin: 0; font-size: 14px; color: #3d5a3d; line-height: 1.5;">
+      We're continuing the discussion asynchronously and will be publicly sharing key materials soon. This site is evolving into a resource page.
+      <br><a href="/survey.html" style="color: #5a7a5a; font-weight: 600;">Share your feedback →</a> ·
+      <a href="/beliefs.html" style="color: #5a7a5a;">Complete the beliefs elicitation</a> ·
+      <a href="https://docs.google.com/document/d/1NMtWjoKU52tJQwUV99Bf8XXYdLoFLviTQq6AslzKQQU/edit" target="_blank" style="color: #5a7a5a;">Join the discussion (Google Doc)</a>
+    </p>
+    <p style="margin: 8px 0 0; font-size: 12px; color: #6b8a6b;">
+      <a href="https://uj-wellbeing-workshop-archive.netlify.app/" target="_blank" style="color: #6b8a6b; text-decoration: underline;">View archived version from workshop day</a>
+    </p>
+  </div>
 
   <!-- TOC Toggle Button -->
   <button class="toc-toggle" id="tocToggle" title="Toggle table of contents"></button>
@@ -882,7 +897,7 @@
           </ul>
 
           <div style="background: #fff9e6; border: 1px solid #e6d4a3; border-left: 3px solid var(--brown); border-radius: 6px; padding: 14px; margin: 16px 0; font-size: 13px;">
-            <strong>The Controversy:</strong> <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener" style="color: var(--brown);">Happier Lives Institute</a> estimated StrongMinds at ~40 WELLBYs per $1,000 (November 2024)—potentially more cost-effective than AMF. <a href="https://www.givewell.org/research/intervention-reports/strongminds" target="_blank" rel="noopener" style="color: var(--brown);">GiveWell's 2023 assessment</a> disagreed, citing concerns about: (1) mapping depression scales to LS, (2) assumed effect duration, (3) demand effects in self-reported outcomes, and (4) publication bias.
+            <strong>The Controversy:</strong> <a href="https://www.happierlivesinstitute.org/report/strongminds-cost-effectiveness-analysis/" target="_blank" rel="noopener" style="color: var(--brown);">Happier Lives Institute</a> estimated StrongMinds at ~40 WELLBYs per $1,000 (November 2024)—potentially more cost-effective than AMF. <a href="https://www.givewell.org/international/technical/programs/strongminds-happier-lives-institute" target="_blank" rel="noopener" style="color: var(--brown);">GiveWell's 2023 assessment</a> disagreed, citing concerns about: (1) mapping depression scales to LS, (2) assumed effect duration, (3) demand effects in self-reported outcomes, and (4) publication bias. See <a href="https://www.happierlivesinstitute.org/report/response-to-givewells-assessment-of-strongminds/" target="_blank" rel="noopener" style="color: var(--brown);">HLI's response</a>.
           </div>
 
           <p style="font-size: 13px; margin: 16px 0 0; color: var(--text-light);">
@@ -896,12 +911,13 @@
         <strong>The measurement-to-decision pipeline</strong> illustrates why comparing interventions requires multiple translation steps. Each box represents a stage where methodological choices affect final conclusions:
       </p>
       <div class="mermaid">
+%%{init: {'theme': 'default', 'themeVariables': {'fontSize': '18px'}}}%%
 flowchart LR
-  A[Intervention] --> B[Study design]
-  B --> C[Measured outcomes<br/>LS / DALY / depression]
-  C --> D[Translation layer<br/>mapping, calibration]
-  D --> E[Common currency<br/>WELLBY / DALY / $]
-  E --> F[Decision]
+  A["Intervention<br/>(e.g., cash transfer,<br/>mental health program)"] --> B["Study design<br/>(RCT, quasi-experiment)"]
+  B --> C["Measured outcomes<br/>LS / DALY / depression scale"]
+  C --> D["Translation layer<br/>mapping, calibration,<br/>assumptions"]
+  D --> E["Common currency<br/>WELLBY / DALY / $"]
+  E --> F["Decision /<br/>deliberation"]
       </div>
       <details style="margin-top: 8px;" open>
         <summary><strong>How to read this diagram</strong> <span style="font-size: 12px; font-weight: normal; color: var(--text-light);">(click to collapse)</span></summary>
@@ -927,6 +943,7 @@ flowchart LR
       <div class="definition-box">
         <h3>WELLBY Definition</h3>
         <p><strong>1 WELLBY</strong> = a one-point change in life satisfaction (0-10 scale) × 1 person × 1 year</p>
+        <p style="font-size: 13px; color: var(--text-light); margin-top: 10px; border-left: 3px solid var(--border); padding-left: 12px;"><strong>Standard LS question (ONS/UK):</strong> <em>"Overall, how satisfied are you with your life nowadays? Please answer on a scale of 0 to 10, where 0 means 'not at all satisfied' and 10 means 'completely satisfied'."</em></p>
         <p class="source-note" style="font-size: 13px; color: var(--text-light); margin-top: 8px;">Source: <a href="https://www.gov.uk/government/publications/green-book-supplementary-guidance-wellbeing" target="_blank" rel="noopener" style="color: var(--brown);">UK Green Book Wellbeing Guidance</a> (HM Treasury, 2021/2024)</p>
       </div>
 
@@ -940,7 +957,7 @@ flowchart LR
             <li><a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">Happier Lives Institute</a> (Plant et al.): Primary metric for charity comparison; extensive cost-effectiveness analyses<a href="#fn13" class="footnote">[13]<span class="footnote-tooltip">HLI cost-effectiveness analyses; see also Plant (2024) on cardinality.</span></a></li>
             <li><a href="https://www.founderspledge.com/" target="_blank" rel="noopener">Founders Pledge</a>: Uses WELLBYs alongside DALYs for mental health CEA</li>
             <li><a href="https://www.givewell.org/" target="_blank" rel="noopener">GiveWell</a>: Has explored WELLBY analysis but with significant reservations</li>
-            <li><strong>UK Government:</strong> Official guidance for policy appraisal</li>
+            <li><a href="https://www.gov.uk/government/publications/green-book-supplementary-guidance-wellbeing" target="_blank" rel="noopener"><strong>UK Government:</strong></a> Official guidance for policy appraisal (the "Green Book")</li>
           </ul>
         </div>
       </details>
@@ -953,22 +970,22 @@ flowchart LR
 
       <p style="font-size: 13px; color: var(--text-light);">These two framings—satisfaction vs. ladder position—are often used interchangeably, but may capture subtly different constructs. Cross-study comparisons should note which instrument (survey question format) was used.</p>
 
-      <h3 class="subsection-heading">Incremental vs. Level-Based Accounting</h3>
+      <h3 class="subsection-heading">Incremental vs. Level-Based Frameworks</h3>
 
       <p><strong>Incremental WELLBYs</strong><a href="#fn18" class="footnote">[18]<span class="footnote-tooltip">"Incremental" vs "level-based" is descriptive language used in this document. The literature typically just refers to "WELLBYs" with context clarifying whether the focus is on changes (differences) or absolute levels. Incremental WELLBYs are captured by observing differences between comparable treated and untreated populations—useful when mortality effects are negligible or balanced across groups.</span></a>:</p>
 
       <div class="formal-notation">
         $\Delta W(k) = \sum_{i} \sum_{t} \delta^t \left( LS_{it}^{(k)} - LS_{it}^{(0)} \right)$
       </div>
-      <p style="font-size: 12px; color: var(--text-light); margin-top: -8px;"><em>Where: $i$ = individuals, $t$ = time periods, $LS$ = life satisfaction (0-10), $\delta$ = discount factor, $k$ = intervention, $0$ = counterfactual. See <a href="#" onclick="document.querySelector('details summary').click(); return false;" style="color: var(--sage);">notation key</a> below for details.</em></p>
+      <p style="font-size: 12px; color: var(--text-light); margin-top: -8px;"><em>Where $LS_{it}$ is person $i$'s life satisfaction at time $t$ (on a 0-10 scale), $\delta$ is a discount factor for future periods, $k$ indexes the intervention, and $0$ is the counterfactual (no intervention). The sum runs over all individuals $i$ and time periods $t$. See <a href="#" onclick="document.getElementById('notation-key').open = true; return false;" style="color: var(--sage);">notation key</a> below for details.</em></p>
 
-      <p><strong>Level-based WELLBYs</strong> (relevant for comparing interventions that affect mortality or, in some accounting, birth rates):</p>
+      <p><strong>Level-based WELLBYs</strong> (relevant for comparing interventions that affect mortality or, in some conceptual frameworks, birth rates):</p>
 
       <div class="formal-notation">
         $W = \sum_{i} \sum_{t} \delta^t \, LS_{it}$
       </div>
 
-      <details>
+      <details id="notation-key">
         <summary><strong>Notation key</strong></summary>
         <div class="details-content">
           <ul>
@@ -995,7 +1012,11 @@ flowchart LR
       <h2 id="sec-assumptions" class="section-heading">3. Core assumptions</h2>
 
       <p>
-        Using linear WELLBYs for cross-intervention comparison requires assumptions.<a href="#fn-benjamin" class="footnote">[B]<span class="footnote-tooltip"><a href="https://doi.org/10.1146/annurev-economics-051520-030532" target="_blank" rel="noopener" style="color: var(--sage);">Benjamin, Cooper, Heffetz & Kimball (2024)</a>. "From Happiness Data to Economic Conclusions." <em>Annual Review of Economics</em>. Articulates four key assumptions for SWB-based welfare analysis.</span></a> The claim "equal scores mean equal welfare" is <strong>stronger than most applications need</strong>—what matters for intervention comparison is whether <em>changes</em> in scores reflect comparable welfare changes.
+        Using linear WELLBYs for cross-intervention comparison requires assumptions.<a href="#fn-benjamin" class="footnote">[B]<span class="footnote-tooltip"><a href="https://doi.org/10.1146/annurev-economics-051520-030532" target="_blank" rel="noopener" style="color: var(--sage);">Benjamin, Cooper, Heffetz & Kimball (2024)</a>. "From Happiness Data to Economic Conclusions." <em>Annual Review of Economics</em>. Articulates four key assumptions for SWB-based welfare analysis. See also Frijters & Krekel (2021), <em>A Handbook for Wellbeing Policy-Making</em>, and <a href="https://www.gov.uk/government/publications/green-book-supplementary-guidance-wellbeing" target="_blank" rel="noopener" style="color: var(--sage);">UK Green Book supplementary guidance on wellbeing</a> (HM Treasury, 2021/2024).</span></a> The claim "equal scores mean equal welfare" is <strong>stronger than most applications need</strong>—what matters for intervention comparison is whether <em>changes</em> in scores reflect comparable welfare changes.
+      </p>
+
+      <p style="font-size: 13px; color: var(--text-light); font-style: italic; margin-bottom: 20px;">
+        <strong>Note:</strong> The Benjamin et al. framework offers limited direct focus on comparing interventions in LMICs using RCT data—the central context for our workshop. There may be a research gap here, though <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener" style="color: var(--sage);">HLI has been doing significant applied work in this space</a>—more discussion is needed on how their research connects to these conceptual frameworks. <em>(Tessa Peasgood kindly shared this paper with workshop participants.)</em>
       </p>
 
       <div class="assumption-grid">
@@ -1003,11 +1024,12 @@ flowchart LR
           <h4>Cardinality (linearity) <span style="font-size: 11px; color: var(--brown); font-weight: normal;">⚠ Key contested assumption</span></h4>
           <p>Equal intervals on the scale imply equal welfare differences: moving from 3→4 equals the same welfare gain as 7→8. If violated, summing may distort comparisons.<a href="#fn12" class="footnote">[12]<span class="footnote-tooltip">Plant (2024) explores conditions under which treating LS as cardinal is defensible. See also HLI's cost-effectiveness methodology.</span></a></p>
           <p style="font-size: 12px; color: var(--text-light); margin-top: 8px;"><em>Many practitioners consider this the most consequential assumption—and the least obviously defensible. See the <a href="#sec-bond-lang" style="color: var(--sage);">Bond & Lang critique</a> for why scale transformations matter.</em></p>
+          <p style="font-size: 12px; color: var(--text-light); margin-top: 8px; border-left: 2px solid var(--brown); padding-left: 10px;"><em>Personal note (David Reinstein): Of the four assumptions, this is the one I find least plausible and most important. If the scale is not cardinal, then summing and averaging life satisfaction scores is not meaningful, and intervention comparisons built on such sums may be unreliable.</em></p>
         </div>
 
         <div class="assumption-card">
           <h4>Unit-change comparability</h4>
-          <p>A one-point change has approximately the same welfare meaning across people. This is weaker than requiring equal levels to mean equal welfare.</p>
+          <p>A one-point change has approximately the same welfare meaning across people. This is weaker than requiring equal levels to mean equal welfare.<a href="#fn23" class="footnote">[23]<span class="footnote-tooltip">Strictly, interpersonal comparability of <em>levels</em> (LS_A = 7 implies U_A = U_B when LS_B = 7) is not necessary for intervention comparison. If Person A experiences higher welfare at all reported scores but the <em>differences</em> between scores are comparable across individuals, then within-person changes can still be meaningfully compared. In other words, we need comparability of scale intervals, not of scale positions. This weaker condition is what "unit-change comparability" captures.</span></a></p>
           <p style="font-size: 12px; color: var(--text-light); margin-top: 8px;"><strong>Why this is sufficient:</strong> For comparing intervention effects, we don't need equal levels to mean equal welfare—only that <em>changes</em> are comparable. If Person A is always 2 points happier than B at any objective welfare level, that doesn't bias intervention comparisons as long as a 1-point gain means the same for both.</p>
           <p style="font-size: 12px; color: var(--text-light); margin-top: 8px;"><strong>Trade-off implication:</strong> Would you trade 2 years at LS=7 for 1 year at LS=9? If a one-point change has the same welfare meaning, these should be equivalent (2 WELLBYs each). If not—if gains at higher levels feel "less valuable"—the assumption is violated.</p>
         </div>
@@ -1052,7 +1074,7 @@ flowchart LR
       </div>
 
       <div class="key-takeaway" style="background: #f5f9f5; border-color: var(--sage);">
-        <p><strong>But our focus is intervention effect estimates, not cross-country happiness comparisons.</strong> Bond & Lang's core examples involve comparing average happiness between groups (e.g., "are Germans happier than French?"). For <em>within-study</em> intervention comparisons—randomized treatment vs. control, especially in LMIC RCTs—the situation is less dire: randomization ensures similar baseline scale-use distributions, so we're comparing <em>changes</em> within comparable groups rather than absolute levels across different populations. The identification problem resurfaces when comparing effect sizes <em>across</em> studies conducted in different populations, or when treatment and control groups differ systematically at baseline.</p>
+        <p><strong>Our focus is comparing specific interventions (e.g., "does StrongMinds produce more wellbeing per dollar than cash transfers?"), not ranking countries by average happiness.</strong> Bond & Lang's core examples involve comparing average happiness <em>between groups</em> (e.g., "are Germans happier than French?")—a context where the identification problem is most severe. For <em>within-study</em> intervention comparisons—randomized treatment vs. control, especially in LMIC RCTs—randomization ensures similar baseline scale-use distributions, so we are comparing <em>changes</em> within comparable groups rather than absolute levels across different populations. The identification problem resurfaces when comparing effect sizes <em>across</em> studies conducted in different populations (e.g., a depression intervention in Uganda vs. a cash transfer in Kenya), or when treatment and control groups differ systematically at baseline.</p>
       </div>
 
       <details class="collapsible-section" style="margin: 16px 0; border: 1px solid var(--border-light); border-radius: 8px;">
@@ -1113,7 +1135,7 @@ flowchart LR
       <!-- Section 5: Scale-Use Heterogeneity -->
       <h2 id="sec-scale-use" class="section-heading">5. Scale-use heterogeneity: shifters vs. stretchers</h2>
 
-      <p>A useful framework is the <strong>affine model</strong>, which posits that individuals differ in how they use the scale. This model separates two types of scale-use differences:<a href="#fn11" class="footnote">[11]<span class="footnote-tooltip">The "shifters vs. stretchers" framework derives from Benjamin et al. (2012, 2014, 2023). See also Oswald (2008) and Kaiser & Oswald (2022) on scale-use heterogeneity.</span></a></p>
+      <p>When comparing different interventions using WELLBY estimates, a key concern is that different people (or populations) may use the life satisfaction scale differently. A useful framework is the <strong>affine model</strong>, which separates two types of scale-use differences:<a href="#fn11" class="footnote">[11]<span class="footnote-tooltip">The "shifters vs. stretchers" framework derives from Benjamin et al. (2012, 2014, 2023). See also Oswald (2008) and Kaiser & Oswald (2022) on scale-use heterogeneity.</span></a> This matters especially when comparing intervention effects measured in different study populations—for example, a mental health program in Uganda vs. a cash transfer in Kenya.</p>
 
       <div class="formal-notation">
         $u_{it} = a_i + b_i \cdot LS_{it}$
@@ -1182,7 +1204,7 @@ flowchart LR
       <!-- Section 6: Neutral Point -->
       <h2 id="sec-neutral-point" class="section-heading">6. Neutral point and mortality</h2>
 
-      <p>Two different "zeros" people reference (see HLI's <a href="https://www.happierlivesinstitute.org/report/the-elephant-in-the-bednet/" target="_blank" rel="noopener">"The Elephant in the Bednet"</a> for a comprehensive treatment):</p>
+      <p>When comparing interventions that affect mortality (e.g., bednets) against those that affect only wellbeing among the living (e.g., mental health programs), the choice of "zero point" becomes critical. Two different "zeros" are relevant (see HLI's <a href="https://www.happierlivesinstitute.org/report/the-elephant-in-the-bednet/" target="_blank" rel="noopener">"The Elephant in the Bednet"</a> for a comprehensive treatment):</p>
       <ul>
         <li><strong>Neutral wellbeing:</strong> the point where life is neither good nor bad</li>
         <li><strong>Death as zero:</strong> treating "dead people score 0" for life-year calculations</li>
@@ -1320,10 +1342,14 @@ flowchart LR
         <strong>What this means:</strong> "Predictive validity" asks whether LS scores relate to real-world behaviors and outcomes in expected ways. If LS contains meaningful information about welfare, lower scores should predict people making costly changes (moving, quitting jobs, leaving relationships) to improve their situation.
       </p>
       <p>
-        Kaiser & Oswald show that single numeric feelings responses do predict these consequential outcomes—relationships tend to be replicable and approximately linear.<a href="#fn6" class="footnote">[6]<span class="footnote-tooltip">Kaiser & Oswald (2022). "The Scientific Value of Numerical Measures of Human Feelings." <em>PNAS</em>. See also Plant (2024) for additional evidence that LS measures predict consequential outcomes and respond to changes (like income transfers) we expect to matter.</span></a> This suggests LS captures something meaningful, though it doesn't directly prove magnitudes are comparable across people.
+        Kaiser & Oswald show that single numeric feelings responses do predict these consequential outcomes—relationships tend to be replicable and approximately linear.<a href="#fn6" class="footnote">[6]<span class="footnote-tooltip">Kaiser & Oswald (2022). "The Scientific Value of Numerical Measures of Human Feelings." <em>PNAS</em>. See also Plant (2024) for additional evidence that LS measures predict consequential outcomes and respond to changes (like income transfers) we expect to matter.</span></a> This is notable because a single "made-up feelings integer" turns out to have more predictive power for subsequent costly actions (e.g., moving house, leaving a partner, quitting a job, visiting a hospital) than a collection of standard socioeconomic variables including income, employment, and education.<a href="#fn27" class="footnote">[27]<span class="footnote-tooltip">Kaiser & Oswald (2022), Table 2: a single feelings integer outperforms combined socioeconomic predictors for "get-me-out-of-here" actions across UK, German, and Australian panel data. For example, moving from LS=3 to LS=7 is associated with roughly halving the probability of leaving one's neighbourhood in the subsequent period.</span></a> This suggests LS captures something meaningful, though it doesn't directly prove magnitudes are comparable across people.
       </p>
       <p style="font-size: 14px; color: var(--text-light); margin-top: 8px;">
         <em>Note:</em> Predictive validity is <strong>necessary but not sufficient</strong> for using WELLBYs. A measure could predict outcomes yet still be noisy, inconsistent across groups, or respond to treatments in ways that don't reflect welfare gains. It establishes that LS isn't pure noise—not that it's ready for precise cross-intervention comparison.
+      </p>
+
+      <p style="font-size: 14px; color: var(--text-light); margin-top: 8px;">
+        <strong>Response times as identification:</strong> Liu & Netzer (2023) propose using survey response times to help solve identification problems in ordered response models.<a href="#fn28" class="footnote">[28]<span class="footnote-tooltip">Liu, S. & Netzer, N. (2023). "Happy Times: Measuring Happiness Using Response Times." <em>AER</em>, 113(12), 3289-3322. The intuition: if two people both report "7" but one answers instantly while another deliberates, the fast responder is likely further from the boundary between "7" and adjacent categories—their latent happiness is more clearly in the "7" range. This "chronometric effect" provides distributional information that the response alone cannot.</span></a> The counterintuitive insight is that how quickly someone answers a happiness question contains information about the distribution of their underlying wellbeing—not just their point estimate. Their evidence is mixed: conventional distributional assumptions are rejected in some cases but broadly supported overall.
       </p>
 
       <h3 class="subsection-heading">LMIC evidence: GiveDirectly cash transfers</h3>
@@ -1365,9 +1391,14 @@ flowchart LR
             <td>Scale-use, comparability assumptions; cross-study issues</td>
           </tr>
           <tr>
-            <td class="metric-name">DALY/QALY<a href="#fn17" class="footnote">[17]<span class="footnote-tooltip"><strong>Key measurement difference:</strong> DALYs/QALYs use <em>external</em> disability weights derived from population surveys rating hypothetical health states—not individual self-reports of the person's own wellbeing. WELLBYs directly ask each person their life satisfaction.</span></a></td>
-            <td>Standardized; large evidence bases; direct mortality link</td>
-            <td>May miss non-health welfare; mental health disability weights contentious</td>
+            <td class="metric-name">DALY<a href="#fn17" class="footnote">[17]<span class="footnote-tooltip"><strong>DALYs</strong> (Disability-Adjusted Life Years) = Years of Life Lost + Years Lived with Disability. Disability weights come from Global Burden of Disease population surveys where respondents rate hypothetical health states—not from the affected individual's own experience.</span></a></td>
+            <td>Standardized globally (GBD); large evidence base; direct mortality link; institutional acceptance</td>
+            <td>May miss non-health welfare; mental health disability weights derived from hypothetical ratings rather than patient experience; whether a year with disability is truly equivalent to the corresponding fraction of a year of life lost remains contested<a href="#fn29" class="footnote">[29]<span class="footnote-tooltip">The DALY framework assumes that a disability weight of, say, 0.5 means living one year in that state is equivalent to losing half a year of life. This equivalence is built into the metric by construction, not empirically verified. For mental health conditions, where subjective experience may diverge from external ratings, this assumption is particularly uncertain.</span></a></td>
+          </tr>
+          <tr>
+            <td class="metric-name">QALY<a href="#fn30" class="footnote">[30]<span class="footnote-tooltip"><strong>QALYs</strong> (Quality-Adjusted Life Years) = years of life x health utility weight (0-1). Unlike DALYs, QALYs often derive weights from patient assessments via instruments like EQ-5D, making them somewhat closer to self-report—though still anchored to health-state descriptions rather than overall life satisfaction.</span></a></td>
+            <td>Patient-derived weights (via EQ-5D etc.); widely used in health technology assessment (e.g., NICE)</td>
+            <td>Narrower than WELLBYs (health states only, may miss empowerment, meaning, security); EQ-5D may not capture mental health conditions well</td>
           </tr>
           <tr>
             <td class="metric-name">Scale-adjusted SWB<a href="#fn22" class="footnote">[22]<span class="footnote-tooltip"><strong>Scale-adjusted SWB:</strong> Subjective wellbeing measures adjusted for scale-use heterogeneity using techniques from Benjamin et al. (2023)—e.g., vignette anchoring or statistical correction for "shifters" and "stretchers." Aims to make scores more comparable across individuals and groups.</span></a></td>
@@ -1417,27 +1448,31 @@ flowchart LR
       <!-- Section 9: Practical Considerations -->
       <h2 id="sec-practical" class="section-heading">9. Considerations for discussion</h2>
 
-      <p style="font-size: 14px; color: var(--text-light); margin-bottom: 16px;"><em>These are common practices and considerations mentioned in the literature—not workshop conclusions. One goal of the workshop is to assess which of these (if any) represent genuine best practices.</em></p>
+      <p style="font-size: 14px; color: var(--text-light); margin-bottom: 16px;"><em>The following are practices and considerations found in the literature—not workshop conclusions or endorsements. A key goal of the workshop is to assess which of these, if any, represent genuine improvements over current practice, and what their practical limitations are.</em></p>
 
-      <h3 class="subsection-heading">Approaches funders currently use</h3>
+      <h3 class="subsection-heading">What are funders currently doing?</h3>
+      <p>Some funders and evaluators (e.g., <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener" style="color: var(--sage);">HLI</a>, <a href="https://founderspledge.com/" target="_blank" rel="noopener" style="color: var(--sage);">Founders Pledge</a>) report using approaches such as:</p>
       <ul>
         <li>Sensitivity analyses across different neutral points and scale-comparability assumptions</li>
-        <li>Reporting how rankings change under different assumptions</li>
-        <li>Combining WELLBY estimates with other evidence types</li>
+        <li>Reporting how intervention rankings change under alternative assumptions</li>
+        <li>Combining WELLBY estimates with other evidence types (e.g., objective indicators, expert judgment)</li>
       </ul>
+      <p style="font-size: 13px; color: var(--text-light);">Whether these practices adequately address the measurement concerns discussed above is itself a question for discussion.</p>
 
-      <h3 class="subsection-heading">Approaches researchers consider</h3>
+      <h3 class="subsection-heading">What methodological improvements have been proposed?</h3>
+      <p>Researchers have proposed various approaches to strengthen WELLBY-based comparisons. Each involves trade-offs between feasibility and rigor:</p>
       <ul>
-        <li>Standardized life satisfaction questions (OECD prototype) for cross-study comparison</li>
-        <li>Long-term follow-up to capture duration effects and potential adaptation</li>
-        <li>Calibration questions/vignettes when comparing across populations</li>
+        <li>Standardized life satisfaction questions (e.g., the <a href="https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html" target="_blank" rel="noopener" style="color: var(--sage);">OECD recommended module</a>, updated 2025) for cross-study comparability</li>
+        <li>Long-term follow-up to capture duration effects and potential hedonic adaptation</li>
+        <li>Calibration questions or vignettes when comparing across populations (Benjamin et al., 2023)</li>
         <li>Pre-registration of analysis plans including functional form choices</li>
       </ul>
 
-      <h3 class="subsection-heading">Conditions that may support stronger inference</h3>
+      <h3 class="subsection-heading">Under what conditions might WELLBY comparisons be more reliable?</h3>
+      <p>Several conditions have been suggested in the literature as potentially supporting stronger inference, though each carries its own caveats:</p>
       <ul>
         <li>Large effect sizes that overwhelm measurement error</li>
-        <li>Within-person designs where each person serves as their own control<a href="#fn19" class="footnote">[19]<span class="footnote-tooltip">Caveat: Within-person designs can introduce demand effects—participants may feel motivated to report improvement to please researchers. This is a particular concern for psychosocial interventions.</span></a></li>
+        <li>Within-person designs where each person serves as their own control<a href="#fn19" class="footnote">[19]<span class="footnote-tooltip">Caveat: Within-person designs can introduce demand effects—participants may feel motivated to report improvement to please researchers. This is a particular concern for psychosocial interventions with non-blinded delivery.</span></a></li>
         <li>Multiple wellbeing measures showing the same directional effect</li>
         <li>Triangulation with behavioral or objective outcomes</li>
       </ul>
@@ -1445,7 +1480,7 @@ flowchart LR
       <!-- Section 10: Open Questions -->
       <h2 id="sec-open-questions" class="section-heading">10. Open questions (research agenda)</h2>
 
-      <p>High-value areas for future research that could meaningfully improve the reliability of WELLBY-based comparisons:</p>
+      <p>The following questions have been identified by researchers in this area (including workshop participants and authors cited above) as areas where additional evidence could meaningfully improve the reliability of WELLBY-based comparisons:</p>
 
       <ol>
         <li><strong>Neutral point estimation:</strong> What is the actual neutral point on the 0-10 scale for different populations? How stable is it across contexts?<a href="#fn16" class="footnote">[16]<span class="footnote-tooltip">Limited LMIC-specific research exists on neutral point estimation. Peasgood et al. (2018) provide estimates for UK populations; whether these generalize to LMIC contexts is unclear.</span></a></li>
@@ -1481,7 +1516,11 @@ flowchart LR
       </div>
 
       <div class="workshop-prompt">
-        <p><strong>6.</strong> <em>Practical recommendations:</em> What should funders do <strong>now</strong>, given current evidence and uncertainty? What specific guidance can we offer for making decisions while better evidence is developed?</p>
+        <p><strong>6.</strong> How should the choice between DALYs, QALYs, and WELLBYs depend on the type of intervention being evaluated? Are there cases where one metric is clearly more appropriate?</p>
+      </div>
+
+      <div class="workshop-prompt">
+        <p><strong>7.</strong> Given current evidence and uncertainty, what would you want to see change in how funders use WELLBY estimates? What would make you more (or less) confident in their use for cross-intervention comparison?</p>
       </div>
 
       <!-- References -->
@@ -1489,7 +1528,7 @@ flowchart LR
         <h4>References</h4>
         <ol>
           <li id="fn1">Frijters, P., Clark, A.E., Krekel, C. & Layard, R. (2020). "A Happy Choice: Wellbeing as the Goal of Government." <em>Health Economics</em>, 29(12).</li>
-          <li id="fn2">OECD (2013/2024). <em>Guidelines on Measuring Subjective Well-being</em>.</li>
+          <li id="fn2">OECD (2013; <a href="https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html" target="_blank" rel="noopener">2025 update</a>). <em>Guidelines on Measuring Subjective Well-being</em>. The 2025 update incorporates a decade of measurement experience and concludes that SWB data are meaningful for policy despite critiques, while recommending improved harmonization.</li>
           <li id="fn3">Bond, T.N. & Lang, K. (2019). "The Sad Truth about Happiness Scales." <em>Journal of Political Economy</em>, 127(4).</li>
           <li id="fn4">Benjamin, D.J. et al. (2023). "Adjusting for Scale-Use Heterogeneity." NBER WP 31728.</li>
           <li id="fn5">Krueger, A.B. & Schkade, D.A. (2008). "The reliability of subjective well-being measures." <em>Journal of Public Economics</em>.</li>
@@ -1500,16 +1539,21 @@ flowchart LR
           <li id="fn10">GiveWell (2023). "Our Assessment of Happier Lives Institute's Cost-Effectiveness Analysis of StrongMinds."</li>
           <li id="fn11">Benjamin, D.J., Heffetz, O., Kimball, M.S. & Szembrot, N. (2014). "Beyond Happiness and Satisfaction: Toward Well-Being Indices Based on Stated Preference." <em>AER</em>, 104(9). The shifters/stretchers framework is elaborated in Benjamin et al. (2023) NBER WP 31728.</li>
           <li id="fn12">Plant, M. (2024). "A Happy Possibility About Happiness (And Other Subjective) Scales: An Investigation and Tentative Defence of the Cardinality Thesis." <a href="https://wellbeing.hmc.ox.ac.uk/publications/a-happy-possibility-about-happiness-and-other-subjective-scales-an-investigation-and-tentative-defence-of-the-cardinality-thesis/" target="_blank" rel="noopener">Wellbeing Research Centre working paper</a>.</li>
-          <li id="fn13">McGuire, J., Langford, K., & Plant, M. (2024). "The Wellbeing Cost-Effectiveness of StrongMinds and Friendship Bench." Happier Lives Institute Report. See also their <a href="https://www.happierlivesinstitute.org/givedirectly-comprehensive-summary/" target="_blank" rel="noopener">GiveDirectly analysis</a> and <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">other CEAs</a>.</li>
+          <li id="fn13">McGuire, J. et al. (2024). "The Wellbeing Cost-Effectiveness of StrongMinds and Friendship Bench." Happier Lives Institute Report. Note: HLI's scope is global, not limited to LMICs—they evaluate interventions worldwide. See also their <a href="https://www.happierlivesinstitute.org/givedirectly-comprehensive-summary/" target="_blank" rel="noopener">GiveDirectly analysis</a>, <a href="https://www.happierlivesinstitute.org/report/hlis-response-to-givewells-analysis-of-strongminds/" target="_blank" rel="noopener">response to GiveWell</a>, and <a href="https://www.happierlivesinstitute.org/" target="_blank" rel="noopener">other CEAs</a>.</li>
           <li id="fn14">When comparing intervention effects for living people, the neutral point cancels algebraically: (LS_treatment − LS₀) − (LS_control − LS₀) = LS_treatment − LS_control.</li>
           <li id="fn15">LMIC study examples: Haushofer & Shapiro (2016, 2018) measured SWB at 9 months and 3 years post cash transfers in Kenya; StrongMinds evaluations typically follow up at 3-6 months.</li>
           <li id="fn16">Limited LMIC-specific research exists on neutral point estimation. Peasgood et al. (2018) provide estimates for UK populations; whether these generalize to LMIC contexts is unclear.</li>
-          <li id="fn17"><strong>DALY/QALY vs WELLBY measurement:</strong> DALYs use disability weights derived from population surveys where respondents compare hypothetical health states (GBD studies). QALYs often use patient assessments via instruments like EQ-5D. WELLBYs ask each individual to rate their own life satisfaction directly.</li>
+          <li id="fn17"><strong>DALYs</strong> (Disability-Adjusted Life Years) = Years of Life Lost (YLL) + Years Lived with Disability (YLD). Disability weights are derived from Global Burden of Disease (GBD) population surveys where respondents rate hypothetical health states—not from the affected individual's own experience. WELLBYs, by contrast, ask each individual to rate their own life satisfaction directly.</li>
           <li id="fn18">"Incremental" vs "level-based" is descriptive language used in this document to distinguish two common uses of WELLBYs. The academic literature typically just refers to "WELLBYs" with context clarifying whether the focus is on intervention effects (changes) or absolute welfare levels (for mortality calculations).</li>
           <li id="fn19">Within-person designs reduce scale-use heterogeneity across individuals but may introduce demand effects—participants may feel motivated to report improvement to please researchers, especially for psychosocial interventions with non-blinded delivery.</li>
           <li id="fn20">"Cancels out" in randomization context: if scale-use differences (shifters and stretchers) are randomly distributed between treatment and control groups, within-study comparisons remain valid—the average effect estimate is unbiased. The problem arises when (a) comparing across studies with different scale-use distributions, or (b) treatment itself changes the reporting function (response shift, discussed above), which randomization cannot address.</li>
           <li id="fn21">Benjamin, D.J., Heffetz, O., Kimball, M.S. & Rees-Jones, A. (2012). "What Do You Think Would Make You Happier?" <em>JEP</em>; Benjamin et al. (2014) "Beyond Happiness and Satisfaction" <em>AER</em>. Benjamin, Cooper, Heffetz, Kimball & Kundu (2026). "What Do People Want?" (working paper) finds life satisfaction itself ranks relatively low among things people want. Importantly, social desirability concerns lead people to understate how much they care about mental health.</li>
           <li id="fn22"><strong>Scale-adjusted SWB:</strong> Subjective wellbeing scores adjusted for scale-use heterogeneity—different people use the 0-10 scale differently ("shifters" use consistently higher/lower values; "stretchers" use more/less of the scale's range). Methods include vignette anchoring and statistical corrections. See Benjamin et al. (2023) "Adjusting for Scale-Use Heterogeneity" NBER WP 31728.</li>
+          <li id="fn23">Interpersonal comparability of <em>levels</em> (LS_A = 7 implies U_A = U_B when LS_B = 7) is not necessary for intervention comparison if we can instead assume that <em>differences</em> are equivalent across people. If Person A experiences higher welfare at all reported scores but the differences between scores are comparable, then within-person changes can still be meaningfully compared across individuals. This weaker condition—comparability of scale intervals rather than scale positions—is what "unit-change comparability" captures.</li>
+          <li id="fn27">Kaiser & Oswald (2022), Table 2: a single "made-up feelings integer" outperforms combined socioeconomic predictors (income, employment, education, children, homeownership) for predicting subsequent "get-me-out-of-here" actions—moving house, leaving a partner, quitting a job, visiting a hospital—across UK (BHPS), German (SOEP), and Australian (HILDA) panel data.</li>
+          <li id="fn28">Liu, S. & Netzer, N. (2023). "Happy Times: Measuring Happiness Using Response Times." <em>American Economic Review</em>, 113(12), 3289-3322. Response times provide information about the distribution of latent wellbeing through a "chronometric effect": people who are far from the boundary between adjacent response categories answer faster.</li>
+          <li id="fn29">The DALY framework assumes that a disability weight of, say, 0.5 means living one year in that state is equivalent to losing half a year of life. This equivalence is built into the metric by construction, not empirically verified. For mental health conditions, where subjective experience may diverge from external hypothetical ratings, this assumption is particularly uncertain.</li>
+          <li id="fn30"><strong>QALYs</strong> (Quality-Adjusted Life Years) = years of life x health utility weight (0-1 scale). Unlike DALYs, QALYs often derive weights from patient self-assessments via instruments like EQ-5D, making them somewhat closer to self-report. However, they remain anchored to health-state descriptions rather than overall life satisfaction, and may not capture mental health conditions well. See NICE technology appraisal guidance for institutional usage.</li>
         </ol>
       </div>
 
