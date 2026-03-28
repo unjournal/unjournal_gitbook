@@ -30,8 +30,14 @@
       <li><a href="/" class="page-nav-link">About</a></li>
       <li><a href="/schedule.html" class="page-nav-link">Schedule/Signup</a></li>
       <li><a href="/beliefs.html" class="page-nav-link active">Pivotal Questions</a></li>
+      <li><a href="/survey.html" class="page-nav-link">Survey</a></li>
     </ul>
   </nav>
+
+  <!-- Hypothes.is Annotation Banner -->
+  <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
+    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a>
+  </div>
 
   <!-- Intro -->
   <div class="beliefs-intro">
@@ -133,10 +139,20 @@
 
       <!-- PBA_01: Focal Question -->
       <div class="pq-card">
-        <div class="pq-tag">PBA_01 · Focal Question · Substitution Effect</div>
+        <div class="pq-tag">PBA_01 · Focal Question · Substitution Effect · <a href="https://www.metaculus.com/c/unjournal/40222/" target="_blank" rel="noopener" style="color: #6b8cba; font-size: 11px;">Metaculus →</a></div>
         <h2 class="pq-question">If the price of high-quality plant-based hamburgers fell by 10% everywhere, how would global chicken consumption change?</h2>
         <p class="pq-subtext">More precisely: If the price of "IB+" products fell by 10% due to supply-side factors, what percent change would we see in factory-farmed chicken consumption the following year?</p>
         <p class="pq-why">This is our focal empirical question. The answer directly informs whether PBA cost-reduction is an effective animal welfare strategy.</p>
+
+        <button type="button" class="pq-context-toggle" data-target="pba01-cross-category">
+          <span class="toggle-icon">▸</span> Why "plant-based hamburgers" affecting <em>chicken</em> consumption? <span style="font-size: 12px; color: #888; font-weight: normal;">(cross-category substitution explained)</span>
+        </button>
+        <div class="pq-context" id="pba01-cross-category">
+          <p style="margin-bottom: 10px;"><strong>TLDR:</strong> Impossible Beef is a well-defined product category with clear pricing and high quality, but <em>chicken</em> consumption is far more animal-welfare-relevant than beef. We ask about this cross-category effect because it captures the pathway with the highest stakes.</p>
+          <p style="margin-bottom: 10px;"><strong>Why plant-based <em>beef</em> as the intervention?</strong> Products like Impossible Burger and Beyond Burger are well-defined, nationally available, and widely discussed in terms of price parity. Unlike plant-based chicken alternatives, which vary significantly in quality and form across brands, these hamburger imitators provide a clean, measurable reference case for price-change scenarios.</p>
+          <p style="margin-bottom: 10px;"><strong>Why measure the effect on <em>chicken</em>?</strong> From an animal welfare perspective, chicken consumption has far higher stakes than beef. Producing a given weight of chicken meat involves many more animals (and arguably more suffering per calorie) than beef. If cheaper plant-based burgers lead even some consumers to eat fewer chickens — perhaps by normalizing plant-based eating or by directly replacing chicken meals — that effect matters enormously for animal welfare, even though it crosses product categories.</p>
+          <p style="margin-bottom: 6px;"><strong>Is this realistic?</strong> Cross-category substitution may seem counter-intuitive, but the evidence is mixed. Some consumers may treat all meats as partially interchangeable with PBAs, while others substitute strictly within categories. We also consider within-category variants (e.g., PBA chicken nuggets replacing chicken). See the <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2#Why_focus_on_chicken_consumption_" target="_blank" rel="noopener" style="color: var(--sage);">EA Forum discussion: Why chicken?</a> and <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2#Why_focus_on_Impossible_Beyond_Beef_" target="_blank" rel="noopener" style="color: var(--sage);">Why Impossible/Beyond Beef?</a> for more detail.</p>
+        </div>
 
         <button type="button" class="pq-context-toggle" data-target="pba01-context">
           <span class="toggle-icon">▸</span> Context & variants
@@ -188,7 +204,7 @@
 
       <!-- PBA_02: Goal Question -->
       <div class="pq-card">
-        <div class="pq-tag">PBA_02 · Goal Question · Investment Value</div>
+        <div class="pq-tag">PBA_02 · Goal Question · Investment Value · <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" style="color: #6b8cba; font-size: 11px;">Metaculus →</a></div>
         <h2 class="pq-question">Is PBA research/development a good investment from an animal welfare perspective?</h2>
         <p class="pq-subtext">Do PBAs displace animal-welfare-relevant animal product consumption enough to make investments in reducing their cost plausibly competitive with other animal welfare interventions?</p>
 
@@ -213,7 +229,7 @@
 
       <!-- PBA_03: Comparison Question -->
       <div class="pq-card">
-        <div class="pq-tag">PBA_03 · Metaculus · Comparison</div>
+        <div class="pq-tag">PBA_03 · Metaculus · Comparison · <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" style="color: #6b8cba; font-size: 11px;">Metaculus →</a></div>
         <h2 class="pq-question">Does the animal welfare benefit of $100K to GFI for PBA development exceed $100K to THL for corporate campaigns?</h2>
         <p class="pq-subtext">Compare: donating $100,000 in 2026 to the Good Food Institute to fund PBA cost reduction and availability vs. donating $100,000 to The Humane League's corporate animal welfare campaigns for chickens.</p>
         <p class="pq-why">This frames the question in decision-relevant terms for funders choosing between these interventions. <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">See related questions on Metaculus →</a></p>
@@ -385,5 +401,6 @@
   </main>
 
   <script src="beliefs.js"></script>
+  <script async src="https://hypothes.is/embed.js"></script>
 </body>
 </html>

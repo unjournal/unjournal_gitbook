@@ -30,8 +30,14 @@
       <li><a href="/" class="page-nav-link active">About</a></li>
       <li><a href="/schedule.html" class="page-nav-link">Schedule/Signup</a></li>
       <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
+      <li><a href="/survey.html" class="page-nav-link">Survey</a></li>
     </ul>
   </nav>
+
+  <!-- Hypothes.is Annotation Banner -->
+  <div style="background: linear-gradient(90deg, #f5f9f5 0%, #f0f4f0 100%); border-bottom: 1px solid #e0e8e0; padding: 10px 20px; font-size: 13px; text-align: center; color: #555;">
+    💬 <strong>Annotate this page</strong> — select any text to comment via <a href="https://hypothes.is" target="_blank" rel="noopener" style="color: #5a7a5a; text-decoration: underline;">Hypothes.is</a> <span style="color: #888; font-size: 12px;">(free account to post; anyone can read)</span>
+  </div>
 
   <!-- Content -->
   <main class="prose-container">
@@ -42,7 +48,7 @@
 
     <h2 id="question">The question</h2>
 
-    <p>Animal welfare funders face a strategic question: should they invest in reducing the cost and improving the quality of plant-based alternatives (PBAs), or focus on other interventions like corporate welfare campaigns? The answer depends heavily on a factual question that's surprisingly hard to answer: <strong>how much do plant-based products actually substitute for animal products?</strong> This is the focus of <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener">The Unjournal's Plant-Based Substitution Pivotal Question</a>.</p>
+    <p>Animal welfare funders face a strategic question: should they invest in reducing the cost and improving the quality of plant-based alternatives (PBAs), or focus on other interventions like corporate welfare campaigns? The answer depends heavily on a factual question that's surprisingly hard to answer: <strong>how much do plant-based products actually replace animal products?</strong> This is the focus of <a href="https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2/p/3Eh8MbqLwFBsD7GK2" target="_blank" rel="noopener">The Unjournal's Plant-Based Substitution Pivotal Question</a>.</p>
 
     <p>If a 10% price reduction in Impossible Burgers leads many people to eat fewer chickens, that's a strong case for funding PBA development. If people who buy plant-based burgers are mostly substituting away from beef (not chicken), or if PBA buyers were already eating less meat, the case weakens considerably. The path from PBA improvements to animal welfare impact runs through these substitution effects.</p>
 
@@ -139,9 +145,26 @@
         <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener" class="pill-link">Metaculus Community →</a>
         <a href="https://info.unjournal.org/forecasting-tournament/" target="_blank" rel="noopener" class="pill-link">Forecasting Tournament →</a>
       </div>
+
+      <!-- Other PQ Workshops -->
+      <div style="margin-top: 24px; padding: 16px 20px; background: var(--bg-alt); border-radius: 8px; text-align: center;">
+        <p style="margin: 0 0 10px; font-size: 13px; color: var(--text-light); font-weight: 500;">Other Pivotal Questions Workshops</p>
+        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+          <a href="https://uj-wellbeing-workshop.netlify.app/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; background: white; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; color: var(--text); text-decoration: none;">
+            <span style="font-size: 16px;">🧠</span> Wellbeing Measurement <span style="color: var(--text-light); font-size: 11px;">(Mar 2026)</span>
+          </a>
+          <a href="https://uj-cm-workshop.netlify.app/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; background: white; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; color: var(--text); text-decoration: none;">
+            <span style="font-size: 16px;">🥩</span> Cultivated Meat <span style="color: var(--text-light); font-size: 11px;">(Apr 2026)</span>
+          </a>
+          <a href="https://uj-pq-workshops.netlify.app/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; background: var(--sage-bg); border: 1px solid var(--sage); border-radius: 6px; font-size: 13px; color: var(--sage); text-decoration: none; font-weight: 500;">
+            All Workshops →
+          </a>
+        </div>
+      </div>
     </div>
 
   </main>
+  <script async src="https://hypothes.is/embed.js"></script>
 
   <!-- Hidden forms for Netlify detection -->
   <form name="pba-workshop-availability" netlify netlify-honeypot="bot-field" hidden>
