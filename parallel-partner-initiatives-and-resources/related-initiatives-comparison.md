@@ -26,6 +26,7 @@ These initiatives share significant overlap with The Unjournal's mission or are 
 
 | Initiative | Type | Notes |
 |------------|------|-------|
+| ASAPBio | 📄 Open public evaluation initiative or innovative journal |  |
 | [Cascad](https://www.cascad.tech/) | 🔄 replication/reproducibility/robustness | "the first certification agency for scientific code & data" -- a possible source of worthy 'open' work |
 | [Economics e-journal](https://www.degruyterbrill.com/journal/key/econ/html) | 📄 Open public evaluation initiative or innovative journal | At least some detailed public evaluations, although they don’t make these as prominent as Unjournal. Founded 2007, owned by DeGruyter from 2020. |
 | [Kotahi](https://kotahi.community/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | Connected to Sciety, eLife, etc. Workflow and editorial management platform for open access publishing. |
