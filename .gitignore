@@ -34,3 +34,30 @@ presentation-assets/
 
 # Workshop planning - contains participant names, emails, availability data
 pivotal-questions/workshop_planning/
+
+# Private workshop files (prefixed with _ by convention)
+# Includes survey responses, beliefs summaries, dashboards with participant data
+pivotal-questions/**/_survey-response-*.md
+pivotal-questions/**/_survey-summary*.md
+pivotal-questions/**/_survey-dashboard*.html
+pivotal-questions/**/_beliefs-summary*.md
+pivotal-questions/**/_beliefs-responses-viewer*.html
+
+# Email drafts — may contain personal correspondence
+pivotal-questions/**/email-draft-*.md
+
+# Raw VTT transcript files (auto-generated, large)
+pivotal-questions/**/*.vtt
+
+# Outreach tracking — contains contact details and response status
+pivotal-questions/**/outreach-status*.md
+
+# Workshop improvement plans and agent configs (internal)
+pivotal-questions/WORKSHOP-IMPROVEMENTS-PLAN.md
+pivotal-questions/AGENTS.md
+
+# Workshop archive (may contain private session data)
+pivotal-questions/wellbeing-workshop-archive/
+
+# Hypothesis annotation logs
+pivotal-questions/**/scripts/logs/

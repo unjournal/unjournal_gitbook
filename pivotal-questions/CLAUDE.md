@@ -265,39 +265,15 @@ python scripts/append_transcript_to_gdoc.py
 
 **Status**: Planned, awaiting deep research integration
 
-## Wellbeing Workshop — Current State (as of Mar 4, 2026)
+## Wellbeing Workshop — Current State
 
-### Confirmed Date & Time
 **Monday, March 16, 2026 — 11am–4pm ET (3pm–8pm UK)**
 ~3.5 hours of live sessions within a 5-hour window (drop in for segments of interest)
 
-### Confirmed Participants (14 total)
-
-| Participant | Affiliation | Role | Key Segments |
-|------------|-------------|------|--------------|
-| Peter Hickman | Coefficient Giving | Stakeholder/Evaluator | **Present**: Stakeholder, Practitioner |
-| Matt Lerner | Founders Pledge | Stakeholder | **Present**: PQ1, Beliefs, Practitioner |
-| Dan Benjamin | UCLA/NBER | Paper Author | **Present**: Paper segment |
-| Miles Kimball | CU Boulder | Paper Author | **Present**: Paper segment |
-| Caspar Kaiser | U of Warwick | Evaluator | **Discuss**: Evaluator, PQ1, Practitioner |
-| Julian Jamison | U of Exeter | Presenter | **Present**: PQ2 (DALY-WELLBY) |
-| Valentin Klotzbücher | U of Basel | UJ Team | All segments |
-| Christian Krekel | LSE | Researcher | Join multiple |
-| Loren Fryxell | City St George's | Researcher | Listen to all |
-| Zhuoran Du | UNSW | Researcher | Listen (11–1pm ET only) |
-| Anthony Lepinteur | U of Luxembourg | Researcher | 4–6pm UK (late join) |
-| Daniel Rogger | World Bank Group | — | Join PQ1, PQ2, Practitioner |
-| Anirudh Tagat | — | — | Confirmed |
-| Alberto Prati | — | — | **Async only** (paternity leave) |
-
-### Recording Status
-- Most participants: full public
-- Lerner (FP) and Hickman (CG): initially internal-only but both flexible ("no real confidentiality concerns" — Lerner)
-
-### Key Discussion Themes
-- **WELLBY skepticism from funders**: Hickman claims "WELLBY worth 0.1 DALYs", questions demand effects
-- **Academic barriers**: Kaiser's 4 concerns (comparability, linearity, neutral point, right concepts)
-- **Experimenter demand effects**: Can we trust intervention effects on stated well-being?
+### Private Workshop Context
+Participant roster, recording preferences, scheduling constraints, and discussion themes have been moved out of this public repo. See:
+- **`~/unjournal-private/workshop-tracking/workshop-claude-context.md`** — full participant table, recording status, discussion themes
+- **`~/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md`** — survey responses and feedback tracking
 
 ## Annotation Review Workflow
 
@@ -358,7 +334,7 @@ This repo (workshop sites)
 
 ## Key Files Outside This Directory
 
-- **Root CLAUDE.md**: Contains participant constraints, form IDs, and workshop-specific operational details
-- **Private tracking**: `/Users/yosemite/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md` — full participant roster, availability grids, segment preferences, presenter confirmations
+- **Root CLAUDE.md**: Contains deploy commands, form IDs, and workshop-specific technical details
+- **Private tracking**: `~/unjournal-private/workshop-tracking/` — participant data, feedback, and operational context (not in this repo)
 - **Netlify token**: Root `.env` contains `NETLIFY_AUTH_TOKEN`
 - **Hypothesis PAT**: `workshop-collab-tool/.env` contains `HYPOTHESIS_PAT`

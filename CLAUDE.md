@@ -99,7 +99,6 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - **Netlify Account**: `daaronr` (nonprofit)
 - **Deploy**: `npx netlify-cli deploy --prod --dir=. --site 37a0205b-5cee-42c2-9388-fe0c17b5e5c6`
 - **Forms dashboard**: https://app.netlify.com/sites/uj-wellbeing-workshop/forms
-- **Private tracking doc**: `/Users/yosemite/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md`
 - **Netlify API**: Use `NETLIFY_AUTH_TOKEN` in repo `.env` to fetch form submissions
 - **Form ID (workshop-availability)**: `699c9edf50f843000883f05e`
 - **Confirmed date**: Monday, March 16, 2026, 11am-4pm ET (3pm-8pm UK)
@@ -119,37 +118,10 @@ Workshop scheduling and beliefs elicitation forms for the Pivotal Questions init
 - Color palette: `--bg: #f8f6f1`, `--sage: #5a7a5a`, `--brown: #8b5e3c`
 - Shared styles in `styles.css`, interactivity in `app.js` and `beliefs.js`
 
-#### Form IDs
-- `workshop-availability`: `699c9edf50f843000883f05e` (9 submissions as of Mar 3)
-- `beliefs-elicitation`: `699c9edf50f843000883f060` (0 submissions — 1 anonymous test deleted Mar 3, data preserved in tracking doc)
-
-#### Key Participants & Constraints (as of Mar 2026)
-- **Confirmed date**: Monday, March 16, 2026, 11am-4pm ET (3pm-8pm UK)
-- **13 confirmed participants** (+ Alberto Prati async only)
-- **Confirmed presenters**:
-  - Julian Jamison (PQ2 / DALY-WELLBY conversion)
-  - Dan Benjamin (paper presentation or broader approach) + Miles Kimball (co-author)
-  - Matt Lerner, Founders Pledge (PQ1, Beliefs Elicitation, Practitioner panel)
-  - Peter Hickman, Coefficient Giving (Stakeholder 5-min + Practitioner panel)
-  - Caspar Kaiser (WELLBY barriers discussion — comparability, linearity, neutral point, concepts)
-- **Recording**: Lerner and Hickman initially wanted internal-only but both flexible per follow-up emails ("no real confidentiality concerns" — Lerner; "flexible" — Hickman)
-- **Matt Lerner (FP)**: Only available Mon-Thu after 11am ET, **after March 15**
-- **Alberto Prati**: On paternity leave from Mar 14 — async or Spring follow-up
-- **Caspar Kaiser**: Confirmed all day Mar 16-19
-- **Dan Benjamin suggested inviting**: Yaniv Reingewertz (implementing Benjamin et al. in Israel), Dimitry Taubinsky
-
-#### Workshop Next Steps (as of Mar 3)
-1. Send calendar holds / confirmations to all participants
-2. Finalize segment schedule and timing within the 11am-4pm ET window
-3. Invite Yaniv Reingewertz per Dan Benjamin's suggestion
-4. Set up async channel (Google Docs + Coda Q&A)
-5. Confirm recording approach with Lerner/Hickman
-6. Deploy latest live session pages
-
-#### Key Discussion Themes
-- **WELLBY skepticism from funders**: Hickman claims "WELLBY worth 0.1 DALYs", "can't trust self-reported wellbeing due to demand effects"
-- **Academic barriers**: Kaiser's 4 concerns (comparability, linearity, neutral point, right concepts)
-- **Experimenter demand effects**: Central tension — can we trust intervention effects on stated well-being?
+#### Private Workshop Context
+Participant details, scheduling constraints, discussion themes, and form submission counts have been moved to the private tracking file to avoid exposing names and opinions in a public repo. See:
+- **`~/unjournal-private/workshop-tracking/workshop-claude-context.md`** — full participant details, next steps, discussion themes
+- **`~/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md`** — survey responses and feedback tracking
 
 ### Cultivated Meat Workshop (`pivotal-questions/cm-workshop/`)
 - **URL**: `https://uj-cm-workshop.netlify.app`
@@ -222,7 +194,7 @@ When creating additional PQ workshops:
 - **Domain registered**: October 2022
 
 ### info.unjournal.org Hosting
-- **Server**: Linode VPS at `45.79.160.157`
+- **Server**: Linode VPS (see `~/unjournal-private/workshop-tracking/workshop-claude-context.md` for IP)
 - **Web server**: Nginx
 - **Document root**: `/var/www/info.unjournal.org/`
 - **Deploy**: SCP files to server, Nginx serves them automatically
@@ -286,7 +258,7 @@ Historical content (pilot phase 2022-2023, old job postings, etc.) is preserved 
 
 **Forms:**
 - All 6 forms configured with `data-netlify="true"`
-- Forms dashboard: Log into Netlify with `daaronr@gmail.com` → Teams → daaronr → each project → Forms
+- Forms dashboard: Log into Netlify (daaronr account) → Teams → daaronr → each project → Forms
 
 **Thank You Pages:**
 - All `/thanks.html` and `/beliefs-thanks.html` pages return HTTP 200
@@ -294,13 +266,9 @@ Historical content (pilot phase 2022-2023, old job postings, etc.) is preserved 
 
 ### Pending / Next Steps
 
-1. **Cancel $9/month plan on contact@unjournal.org account** - After Feb 24 when it renews. The redirects will continue working as long as the account stays active (even on free tier).
+1. **Verify form submissions in Netlify dashboard** - Check Forms tab on each project to confirm submissions are being captured.
 
-2. **Verify form submissions in Netlify dashboard** - Log into `daaronr@gmail.com` account, check Forms tab on each project to confirm test submissions were captured.
-
-3. **Form detection on old sites** - The old `unjournal-*` sites (contact account) have form detection enabled but may need a redeploy to detect forms. However, since they now redirect to new sites, this is not critical.
-
-4. **Consider custom domain** - Could set up `wellbeing.unjournal.org` etc. pointing to the Netlify sites for cleaner URLs.
+2. **Consider custom domain** - Could set up `wellbeing.unjournal.org` etc. pointing to the Netlify sites for cleaner URLs.
 
 ### Netlify CLI Notes
 
