@@ -28,7 +28,9 @@ GitBook is connected to this repo (`unjournal/unjournal_gitbook`, `main` branch)
 
 If the Changes tab isn't visible, the sync may not have run yet — wait a minute and refresh.
 
-Note: we may switch sync direction to "GitHub to GitBook" in future to eliminate this step.
+Note: when GitBook merges, it writes a commit back to GitHub. So after merging in GitBook, always run `git pull --rebase origin main` before making further local edits, or the next push will be rejected.
+
+We may switch sync direction to "GitHub to GitBook" in future to eliminate the merge step entirely.
 
 ## GitBook Content Structure
 
