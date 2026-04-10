@@ -26,26 +26,30 @@ htmlBody: "<div style=\"font-family: serif; font-size: 14px; line-height: 1.5;\"
 
 ## Directory Overview
 
-This `pivotal-questions/` directory contains workshop sites and tooling for The Unjournal's Pivotal Questions initiative — a process for identifying high-value-of-information research questions and commissioning expert evaluations.
+This `pivotal-questions/` directory contains:
+- **GitBook content** (must stay here): `README.md`, `operationalizable-questions.md`, `why-operationalizable-questions.md`
+- **CM workshop site** (`cm-workshop/`) — still here, pending migration after May 8, 2026
+- **Workshop tooling docs** (`workshop-outreach/`, planning files)
+
+> **Migration note (April 2026):** Workshop sites for wellbeing, PBA, and the workshops landing page have moved to the private repo `~/githubs/UJ_PQ_data_beliefs_project/`. All four live Netlify sites continue to work at the same URLs. For beliefs data, survey responses, transcripts, and analysis work, see that repo.
 
 ## Workshop Sites
 
-Four static sites deployed to Netlify (all under `daaronr` nonprofit account):
-
-| Workshop | Directory | URL | Site ID |
-|----------|-----------|-----|---------|
-| Wellbeing | `wellbeing-workshop/` | `uj-wellbeing-workshop.netlify.app` | `37a0205b-5cee-42c2-9388-fe0c17b5e5c6` |
-| Cultivated Meat | `cm-workshop/` | `uj-cm-workshop.netlify.app` | `7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e` |
-| Plant-Based | `pba-workshop/` | `uj-pba-workshop.netlify.app` | `b065c5c3-a6c8-4261-8dac-13d17383ceaa` |
-| Landing | `workshops-landing/` | `uj-pq-workshops.netlify.app` | `9abc4eb7-bc5c-4bfd-83c2-2fbcf1b8cfe9` |
+| Workshop | Source location | URL | Site ID |
+|----------|----------------|-----|---------|
+| Wellbeing | `~/githubs/UJ_PQ_data_beliefs_project/wellbeing-workshop/site/` | `uj-wellbeing-workshop.netlify.app` | `37a0205b-5cee-42c2-9388-fe0c17b5e5c6` |
+| Cultivated Meat | `cm-workshop/` ← still here | `uj-cm-workshop.netlify.app` | `7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e` |
+| Plant-Based | `~/githubs/UJ_PQ_data_beliefs_project/pba-workshop/` | `uj-pba-workshop.netlify.app` | `b065c5c3-a6c8-4261-8dac-13d17383ceaa` |
+| Landing | `~/githubs/UJ_PQ_data_beliefs_project/workshops-landing/` | `uj-pq-workshops.netlify.app` | `9abc4eb7-bc5c-4bfd-83c2-2fbcf1b8cfe9` |
 
 ## Deployment
 
-Deploy any workshop site from its directory:
+CM workshop (still in this repo):
 ```bash
-cd wellbeing-workshop
-npx netlify-cli deploy --prod --dir=. --site 37a0205b-5cee-42c2-9388-fe0c17b5e5c6
+npx netlify-cli deploy --prod --dir=/Users/yosemite/githubs/unjournal-gitbook-knowledge-comms/pivotal-questions/cm-workshop --site 7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e
 ```
+
+All other workshops — deploy from `UJ_PQ_data_beliefs_project`. See `CLAUDE.md` in that repo for commands.
 
 Check/switch Netlify account:
 ```bash
@@ -265,15 +269,39 @@ python scripts/append_transcript_to_gdoc.py
 
 **Status**: Planned, awaiting deep research integration
 
-## Wellbeing Workshop — Current State
+## Wellbeing Workshop — Current State (as of Mar 4, 2026)
 
+### Confirmed Date & Time
 **Monday, March 16, 2026 — 11am–4pm ET (3pm–8pm UK)**
 ~3.5 hours of live sessions within a 5-hour window (drop in for segments of interest)
 
-### Private Workshop Context
-Participant roster, recording preferences, scheduling constraints, and discussion themes have been moved out of this public repo. See:
-- **`~/unjournal-private/workshop-tracking/workshop-claude-context.md`** — full participant table, recording status, discussion themes
-- **`~/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md`** — survey responses and feedback tracking
+### Confirmed Participants (14 total)
+
+| Participant | Affiliation | Role | Key Segments |
+|------------|-------------|------|--------------|
+| Peter Hickman | Coefficient Giving | Stakeholder/Evaluator | **Present**: Stakeholder, Practitioner |
+| Matt Lerner | Founders Pledge | Stakeholder | **Present**: PQ1, Beliefs, Practitioner |
+| Dan Benjamin | UCLA/NBER | Paper Author | **Present**: Paper segment |
+| Miles Kimball | CU Boulder | Paper Author | **Present**: Paper segment |
+| Caspar Kaiser | U of Warwick | Evaluator | **Discuss**: Evaluator, PQ1, Practitioner |
+| Julian Jamison | U of Exeter | Presenter | **Present**: PQ2 (DALY-WELLBY) |
+| Valentin Klotzbücher | U of Basel | UJ Team | All segments |
+| Christian Krekel | LSE | Researcher | Join multiple |
+| Loren Fryxell | City St George's | Researcher | Listen to all |
+| Zhuoran Du | UNSW | Researcher | Listen (11–1pm ET only) |
+| Anthony Lepinteur | U of Luxembourg | Researcher | 4–6pm UK (late join) |
+| Daniel Rogger | World Bank Group | — | Join PQ1, PQ2, Practitioner |
+| Anirudh Tagat | — | — | Confirmed |
+| Alberto Prati | — | — | **Async only** (paternity leave) |
+
+### Recording Status
+- Most participants: full public
+- Lerner (FP) and Hickman (CG): initially internal-only but both flexible ("no real confidentiality concerns" — Lerner)
+
+### Key Discussion Themes
+- **WELLBY skepticism from funders**: Hickman claims "WELLBY worth 0.1 DALYs", questions demand effects
+- **Academic barriers**: Kaiser's 4 concerns (comparability, linearity, neutral point, right concepts)
+- **Experimenter demand effects**: Can we trust intervention effects on stated well-being?
 
 ## Annotation Review Workflow
 
@@ -334,7 +362,7 @@ This repo (workshop sites)
 
 ## Key Files Outside This Directory
 
-- **Root CLAUDE.md**: Contains deploy commands, form IDs, and workshop-specific technical details
-- **Private tracking**: `~/unjournal-private/workshop-tracking/` — participant data, feedback, and operational context (not in this repo)
+- **Root CLAUDE.md**: Contains participant constraints, form IDs, and workshop-specific operational details
+- **Private tracking**: `/Users/yosemite/unjournal-private/workshop-tracking/wellbeing-workshop-feedback.md` — full participant roster, availability grids, segment preferences, presenter confirmations
 - **Netlify token**: Root `.env` contains `NETLIFY_AUTH_TOKEN`
 - **Hypothesis PAT**: `workshop-collab-tool/.env` contains `HYPOTHESIS_PAT`
