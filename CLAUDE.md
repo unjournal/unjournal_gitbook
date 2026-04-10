@@ -15,6 +15,21 @@ The repository contains:
 
 Internal operations, deployment scripts, and automation tools are in the private [ops-internal](https://github.com/unjournal/ops-internal) repo.
 
+## GitBook GitHub Sync — Publishing Workflow
+
+GitBook is connected to this repo (`unjournal/unjournal_gitbook`, `main` branch) with sync direction **GitBook → GitHub**. This means GitHub pushes arrive as *pending incoming changes* in GitBook and **do not go live automatically**.
+
+**After every `git push` that should update the live GitBook:**
+1. Go to [app.gitbook.com](https://app.gitbook.com) → The Unjournal space
+2. Open the changed page in the editor
+3. Click the **"Changes"** tab (top of editor) — you'll see the incoming commit
+4. Make a trivial edit if needed to activate the Merge button, then click **"Merge"**
+5. The live page at `globalimpact.gitbook.io/...` will update immediately
+
+If the Changes tab isn't visible, the sync may not have run yet — wait a minute and refresh.
+
+Note: we may switch sync direction to "GitHub to GitBook" in future to eliminate this step.
+
 ## GitBook Content Structure
 
 - `SUMMARY.md` - Table of contents defining navigation structure
