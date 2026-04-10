@@ -1,5 +1,0 @@
-# Interest/Feedback form is now at /interest.html
-/interest /interest.html 200
-/feedback /interest.html 200
-
-# Root now serves about.html content (copied to index.html)
