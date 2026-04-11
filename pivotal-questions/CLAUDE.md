@@ -28,28 +28,30 @@ htmlBody: "<div style=\"font-family: serif; font-size: 14px; line-height: 1.5;\"
 
 This `pivotal-questions/` directory contains:
 - **GitBook content** (must stay here): `README.md`, `operationalizable-questions.md`, `why-operationalizable-questions.md`
-- **CM workshop site** (`cm-workshop/`) — still here, pending migration after May 8, 2026
-- **Workshop tooling docs** (`workshop-outreach/`, planning files)
+- **Archive**: `_archive/` — old workshop site HTML and tooling (migrated to new repo)
 
-> **Migration note (April 2026):** Workshop sites for wellbeing, PBA, and the workshops landing page have moved to the private repo `~/githubs/UJ_PQ_data_beliefs_project/`. All four live Netlify sites continue to work at the same URLs. For beliefs data, survey responses, transcripts, and analysis work, see that repo.
+> **Migration complete (April 2026):** All workshop sites and tooling have moved to the private repo `~/githubs/UJ_PQ_data_beliefs_project/`. Old copies are in `_archive/` here. For any workshop work, use the new repo.
 
 ## Workshop Sites
 
-| Workshop | Source location | URL | Site ID |
-|----------|----------------|-----|---------|
-| Wellbeing | `~/githubs/UJ_PQ_data_beliefs_project/wellbeing-workshop/site/` | `uj-wellbeing-workshop.netlify.app` | `37a0205b-5cee-42c2-9388-fe0c17b5e5c6` |
-| Cultivated Meat | `cm-workshop/` ← still here | `uj-cm-workshop.netlify.app` | `7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e` |
-| Plant-Based | `~/githubs/UJ_PQ_data_beliefs_project/pba-workshop/` | `uj-pba-workshop.netlify.app` | `b065c5c3-a6c8-4261-8dac-13d17383ceaa` |
-| Landing | `~/githubs/UJ_PQ_data_beliefs_project/workshops-landing/` | `uj-pq-workshops.netlify.app` | `9abc4eb7-bc5c-4bfd-83c2-2fbcf1b8cfe9` |
+All four sites now deploy from `~/githubs/UJ_PQ_data_beliefs_project/`. **Do not deploy from this directory.**
+
+| Workshop | Source location (new repo) | URL | Site ID |
+|----------|---------------------------|-----|---------|
+| Wellbeing | `wellbeing-workshop/site/` | `uj-wellbeing-workshop.netlify.app` | `37a0205b-5cee-42c2-9388-fe0c17b5e5c6` |
+| Cultivated Meat | `cm-workshop/site/` | `uj-cm-workshop.netlify.app` | `7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e` |
+| Plant-Based | `pba-workshop/` | `uj-pba-workshop.netlify.app` | `b065c5c3-a6c8-4261-8dac-13d17383ceaa` |
+| Landing | `workshops-landing/` | `uj-pq-workshops.netlify.app` | `9abc4eb7-bc5c-4bfd-83c2-2fbcf1b8cfe9` |
 
 ## Deployment
 
-CM workshop (still in this repo):
+All workshops — deploy from `UJ_PQ_data_beliefs_project`:
 ```bash
-npx netlify-cli deploy --prod --dir=/Users/yosemite/githubs/unjournal-gitbook-knowledge-comms/pivotal-questions/cm-workshop --site 7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e
+npx netlify-cli deploy --prod --dir=~/githubs/UJ_PQ_data_beliefs_project/cm-workshop/site --site 7c6efdd4-f6db-4b13-8355-0bb5b64d0e6e
+npx netlify-cli deploy --prod --dir=~/githubs/UJ_PQ_data_beliefs_project/wellbeing-workshop/site --site 37a0205b-5cee-42c2-9388-fe0c17b5e5c6
+npx netlify-cli deploy --prod --dir=~/githubs/UJ_PQ_data_beliefs_project/pba-workshop --site b065c5c3-a6c8-4261-8dac-13d17383ceaa
+npx netlify-cli deploy --prod --dir=~/githubs/UJ_PQ_data_beliefs_project/workshops-landing --site 9abc4eb7-bc5c-4bfd-83c2-2fbcf1b8cfe9
 ```
-
-All other workshops — deploy from `UJ_PQ_data_beliefs_project`. See `CLAUDE.md` in that repo for commands.
 
 Check/switch Netlify account:
 ```bash

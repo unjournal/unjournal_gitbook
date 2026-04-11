@@ -16,7 +16,7 @@
       <div class="header-top">The Unjournal · Pivotal Questions Initiative</div>
       <h1 class="header-title">Cultivated Meat: Cost Trajectories & Welfare Implications</h1>
       <p class="header-subtitle">An Unjournal Workshop on Techno-Economic Analyses, Commercial Viability, and Animal Welfare ROI</p>
-      <div class="header-meta">Late April / Early May 2026 · Fully online · ~3 hours of sessions over 4 hours (with breaks) + async</div>
+      <div class="header-meta">Fri May 8, 2026 · 11am–3pm ET · Fully online · ~3.5 hours + async participation</div>
     </div>
   </header>
 
@@ -27,6 +27,7 @@
       <li><a href="/schedule.html" class="page-nav-link active">Schedule/Signup</a></li>
       <li><a href="/beliefs.html" class="page-nav-link">Pivotal Questions</a></li>
       <li><a href="/resources.html" class="page-nav-link">Resources</a></li>
+      <li><a href="/#workshop-structure" class="page-nav-link">Agenda</a></li>
       <!-- Survey link hidden until after the workshop -->
     </ul>
   </nav>
@@ -57,8 +58,24 @@
   <!-- Form -->
   <main class="form-container">
 
-    <div class="draft-notice" style="margin-bottom: 24px;">
-      <strong>We're planning for late April or very early May 2026.</strong> Please indicate your availability below — we'll confirm the exact date once we hear from key participants.
+    <div style="background: linear-gradient(135deg, #e4f0e4 0%, #d8ecd8 100%); border: 2px solid #5a7a5a; border-radius: 10px; padding: 18px 22px; margin-bottom: 20px;">
+      <p style="margin: 0 0 4px; font-family: 'DM Sans', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.7px; color: #5a7a5a; font-weight: 700;">Date confirmed</p>
+      <p style="margin: 0 0 6px; font-size: 18px; font-weight: 600; color: #1d3d1d; line-height: 1.2;">Friday 8 May 2026 · 11:00am–3:00pm ET</p>
+      <p style="margin: 0 0 14px; font-size: 13px; color: #3d5a3d;">4:00–8:00pm UK &nbsp;·&nbsp; 17:00–21:00 CET &nbsp;·&nbsp; Three sessions of ~70 min each. <a href="/#workshop-structure" style="color: #5a7a5a; font-weight: 600;">See the planned agenda →</a></p>
+
+      <p style="margin: 0 0 6px; font-size: 13px; font-weight: 600; color: #2d4a2d; font-family: 'DM Sans', sans-serif;">Additional sessions for those who can't make the main workshop:</p>
+      <ul style="margin: 0 0 14px 18px; font-size: 13px; color: #3d5a3d; line-height: 1.75; padding: 0;">
+        <li>
+          <strong>Wed 6 May · 11:00am–12:00pm ET</strong> (16:00–17:00 CET)
+          <span class="tip"> — <em>informal pre-session</em><span class="tip-text">A casual conversation for those with scheduling conflicts on May 8. No preparation needed — David will carry key inputs forward into the main workshop.</span></span>
+        </li>
+        <li>
+          <strong>Fri 8 May · 9:00–10:00am ET</strong> (15:00–16:00 CET)
+          <span class="tip"> — <em>European morning drop-in</em><span class="tip-text">An informal drop-in two hours before the main session, aimed at EU/UK participants who can't stay into the evening. No prep needed. Input carried forward into the main workshop.</span></span>
+        </li>
+      </ul>
+
+      <p style="margin: 0; font-size: 13px; color: #3d5a3d; line-height: 1.5;">Even if none of these times work, we'll share pre-workshop materials, a beliefs survey, post-workshop notes, and a public transcript (with participant permission). Fill in the form below to express your interest, flag your content priorities, and set recording preferences — it all helps us tailor the sessions.</p>
     </div>
 
     <form name="cm-workshop-availability" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" id="workshopForm">
@@ -106,38 +123,69 @@
         </div>
       </section>
 
-      <!-- Section 2: Availability -->
+      <!-- Section 2: Session Attendance -->
       <section class="form-section" id="availability">
         <div class="section-header">
           <span class="section-number">2</span>
-          <h2 class="section-title">When Could You Join?</h2>
+          <h2 class="section-title">Which Sessions Are You Planning to Attend?</h2>
         </div>
-        <p class="section-subtitle">All fields in this section are optional — use whichever is easiest. Even a rough sense of your availability helps.</p>
+        <p class="section-subtitle">Check any you expect to join. All optional — you're welcome to attend just one session. Leave everything blank if you're only interested in async participation.</p>
 
-        <!-- Free-text availability -->
-        <div class="availability-freetext">
-          <label for="freeAvailability" class="field-label">Tell us your availability in your own words</label>
-          <p class="field-hint">Just tell us when you're free from mid-April to early May. We'll find the best overlap across everyone. Include your time zone if it's not obvious.</p>
-          <textarea id="freeAvailability" name="freeAvailability" rows="3" class="input textarea" placeholder='e.g., "Most weekday mornings ET work for me, except the week of Apr 20. I could stay for the full session (~4 hours with breaks)." or "Available Tue/Thu afternoons UK time, late April through early May."'></textarea>
-        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin: 16px 0 4px;">
 
-        <!-- Grid availability (collapsible) -->
-        <details class="availability-grid-section">
-          <summary style="cursor: pointer; font-weight: 500; color: var(--sage); margin-bottom: 12px;">
-            Or mark your availability on the grid <span class="optional" style="font-weight: 400;">(optional — click to expand)</span>
-          </summary>
-          <div class="grid-header">
-            <p class="field-hint">Click cells for any time blocks you could join. Click a <strong>date</strong> to select that row, a <strong>time header</strong> to select that column, or a <strong>week label</strong> to select the whole week. All times US Eastern; hover for UK/CET.</p>
-          </div>
-
-          <div class="grid-wrapper">
-            <div class="grid-container" id="availabilityGrid">
-              <!-- Grid will be populated by JavaScript -->
+          <label style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; cursor: pointer; font-size: 14px; line-height: 1.5;">
+            <input type="checkbox" name="session_may6_presession" value="yes" style="margin-top: 3px; flex-shrink: 0; accent-color: var(--sage);">
+            <div>
+              <span style="display: block; margin-bottom: 2px; font-size: 11px; font-weight: 700; font-family: 'DM Sans', sans-serif; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px;">Wed 6 May · 11:00am–12:00pm ET · 16:00–17:00 CET</span>
+              <em>Informal pre-session</em> — casual conversation for those who can't make the main day. No prep needed.
             </div>
-          </div>
+          </label>
 
-          <p class="grid-tip">Tip: You don't need to fill in the grid if you've described your availability above — either or both is fine.</p>
-        </details>
+          <label style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; cursor: pointer; font-size: 14px; line-height: 1.5;">
+            <input type="checkbox" name="session_may8_morning_dropin" value="yes" style="margin-top: 3px; flex-shrink: 0; accent-color: var(--sage);">
+            <div>
+              <span style="display: block; margin-bottom: 2px; font-size: 11px; font-weight: 700; font-family: 'DM Sans', sans-serif; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px;">Fri 8 May · 9:00–10:00am ET · 15:00–16:00 CET</span>
+              <em>European morning drop-in</em> — informal, no prep. For EU/UK participants who can't stay into the evening.
+            </div>
+          </label>
+
+          <div style="margin: 10px 0 4px; padding: 0 2px; font-size: 11px; font-weight: 700; font-family: 'DM Sans', sans-serif; text-transform: uppercase; letter-spacing: 0.6px; color: var(--sage);">Main workshop · Fri 8 May · 11am–3pm ET</div>
+
+          <label style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; background: white; border: 1px solid var(--sage-light, #a3bfa3); border-radius: 8px; cursor: pointer; font-size: 14px; line-height: 1.5;">
+            <input type="checkbox" name="session_s1" value="yes" style="margin-top: 3px; flex-shrink: 0; accent-color: var(--sage);">
+            <div>
+              <span style="display: block; margin-bottom: 2px; font-size: 11px; font-weight: 700; font-family: 'DM Sans', sans-serif; color: var(--sage); text-transform: uppercase; letter-spacing: 0.5px;">11:00am–12:10pm ET · 17:00–18:10 CET</span>
+              <strong>S1 · Technical Foundations</strong> — Media costs &amp; growth factors, bioreactor costs &amp; cell density, Beefy-R TEA overview
+            </div>
+          </label>
+
+          <label style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; background: white; border: 1px solid var(--sage-light, #a3bfa3); border-radius: 8px; cursor: pointer; font-size: 14px; line-height: 1.5;">
+            <input type="checkbox" name="session_s2" value="yes" style="margin-top: 3px; flex-shrink: 0; accent-color: var(--sage);">
+            <div>
+              <span style="display: block; margin-bottom: 2px; font-size: 11px; font-weight: 700; font-family: 'DM Sans', sans-serif; color: var(--sage); text-transform: uppercase; letter-spacing: 0.5px;">12:25–1:35pm ET · 18:25–19:35 CET</span>
+              <strong>S2 · Scale-up &amp; Industry Realities</strong> — Commercial viability gap, CDMO-based TEA perspectives, open crux discussion
+            </div>
+          </label>
+
+          <label style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; background: white; border: 1px solid var(--sage-light, #a3bfa3); border-radius: 8px; cursor: pointer; font-size: 14px; line-height: 1.5;">
+            <input type="checkbox" name="session_s3" value="yes" style="margin-top: 3px; flex-shrink: 0; accent-color: var(--sage);">
+            <div>
+              <span style="display: block; margin-bottom: 2px; font-size: 11px; font-weight: 700; font-family: 'DM Sans', sans-serif; color: var(--sage); text-transform: uppercase; letter-spacing: 0.5px;">1:50–3:00pm ET · 19:50–21:00 CET</span>
+              <strong>S3 · Synthesis, Beliefs &amp; Next Steps</strong> — CM_01 cost trajectory beliefs, animal welfare funding implications, research gaps
+            </div>
+          </label>
+
+        </div>
+
+        <div class="form-field" style="margin-top: 20px;">
+          <label for="schedulingNotes" class="field-label">Can't make these times — or want to arrange something? <span class="optional">(optional)</span></label>
+          <p class="field-hint">If you'd like to join an informal session at a different time, participate asynchronously, or suggest a separate conversation, note it here.</p>
+          <textarea id="schedulingNotes" name="schedulingNotes" rows="3" class="input textarea" placeholder='e.g. "I can only make the May 6 pre-session" · "Only async — please send materials" · "Could we arrange a 30-min call at a different time?"'></textarea>
+        </div>
+
+        <!-- Kept for JS compatibility -->
+        <div id="availabilityGrid" style="display:none;"></div>
+
       </section>
 
       <!-- Section 3: Segment Interest -->
@@ -327,7 +375,7 @@
       <!-- Submit -->
       <div class="submit-section">
         <button type="submit" class="submit-btn" id="submitBtn">Submit Availability & Preferences</button>
-        <p class="submit-note">Your responses help us find the best date and structure for everyone.</p>
+        <p class="submit-note">Your responses help us tailor the sessions and ensure everyone can participate in some form — live or async.</p>
         <p style="margin-top: 12px; font-size: 13px; color: var(--text-light);">
           <button type="button" id="downloadBtn" style="background: none; border: 1px solid var(--border); padding: 6px 14px; border-radius: 6px; font-size: 13px; color: var(--sage); cursor: pointer;">Download a copy of your responses</button>
           <span style="margin-left: 8px;">— saves a text file to your device.</span>
