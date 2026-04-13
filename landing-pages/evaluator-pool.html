@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluator Pool — The Unjournal</title>
+  <meta name="description" content="Statistics and demographics of The Unjournal's evaluator pool: ~230 vetted researchers across economics, psychology, global health, and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="Evaluator Pool — The Unjournal">
+  <meta property="og:description" content="~230 vetted researchers from 50+ countries evaluate research for The Unjournal.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e86c1;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 960px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Georgia, 'Times New Roman', serif; color: var(--text); line-height: 1.7; background: var(--white); }
+    h1, h2, h3 { font-family: 'Libre Baskerville', Georgia, serif; color: var(--primary); }
+
+    header {
+      background: var(--primary);
+      color: var(--white);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    header img { height: 48px; border-radius: 8px; }
+    header a { color: var(--white); text-decoration: none; }
+    header nav { margin-left: auto; display: flex; gap: 1.5rem; font-size: 0.9rem; }
+    header nav a:hover { text-decoration: underline; }
+
+    main { max-width: var(--max-width); margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+    .page-title { font-size: 2rem; margin-bottom: 0.5rem; }
+    .page-subtitle { color: var(--text-light); font-size: 1.05rem; margin-bottom: 2rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.2rem;
+      margin: 2rem 0;
+    }
+    .stat-card {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .stat-card .number {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primary);
+      display: block;
+    }
+    .stat-card .label {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      margin-top: 0.3rem;
+    }
+
+    section { margin-top: 2.5rem; }
+    section h2 { font-size: 1.4rem; margin-bottom: 1rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--border); }
+
+    .chart-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    @media (max-width: 700px) { .chart-section { grid-template-columns: 1fr; } }
+
+    .chart-box {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+    .chart-box h3 { font-size: 1rem; margin-bottom: 1rem; color: var(--primary); }
+
+    .bar-chart { display: flex; flex-direction: column; gap: 0.5rem; }
+    .bar-row { display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; }
+    .bar-label { min-width: 120px; text-align: right; color: var(--text); flex-shrink: 0; }
+    .bar-track { flex: 1; background: #e8edf2; border-radius: 4px; height: 22px; position: relative; overflow: hidden; }
+    .bar-fill { height: 100%; background: var(--accent); border-radius: 4px; display: flex; align-items: center; padding-left: 6px; }
+    .bar-value { font-size: 0.78rem; color: var(--white); font-weight: 600; white-space: nowrap; }
+    .bar-value-outside { font-size: 0.78rem; color: var(--text-light); margin-left: 4px; white-space: nowrap; }
+
+    .consent-summary {
+      background: #f0f7e6;
+      border: 1px solid #c5dba5;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .consent-summary h3 { color: #3a6b1e; margin-bottom: 0.8rem; }
+    .consent-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 600px) { .consent-grid { grid-template-columns: 1fr; } }
+    .consent-item { font-size: 0.9rem; }
+    .consent-item strong { color: #3a6b1e; }
+
+    .evaluator-list-section {
+      margin-top: 2.5rem;
+    }
+    .evaluator-disclaimer {
+      background: #fff8e1;
+      border: 1px solid #f0d58c;
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.9rem;
+      color: #6d5a00;
+    }
+    .evaluator-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.8rem;
+    }
+    .evaluator-card {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.9rem 1.1rem;
+    }
+    .evaluator-card .name {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 0.95rem;
+    }
+    .evaluator-card .name a { color: var(--primary); text-decoration: none; }
+    .evaluator-card .name a:hover { text-decoration: underline; }
+    .evaluator-card .detail {
+      font-size: 0.82rem;
+      color: var(--text-light);
+      margin-top: 0.2rem;
+    }
+
+    .source-link {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: var(--light-bg);
+      border-radius: 8px;
+      font-size: 0.88rem;
+      color: var(--text-light);
+    }
+    .source-link a { color: var(--accent); }
+
+    .cta-section {
+      text-align: center;
+      margin: 3rem 0 1rem;
+      padding: 2rem;
+      background: var(--light-bg);
+      border-radius: 12px;
+    }
+    .cta-section h2 { border: none; margin-bottom: 0.8rem; }
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.7rem 1.8rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      margin-top: 0.8rem;
+    }
+    .cta-button:hover { background: #1a6da3; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-light);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="https://unjournal.org"><img src="unjournal-logo.jpg" alt="The Unjournal"></a>
+  <a href="https://unjournal.org" style="font-family: 'Libre Baskerville', serif; font-size: 1.2rem; font-weight: 700;">The Unjournal</a>
+  <nav>
+    <a href="about.html">About</a>
+    <a href="for-evaluators.html">For Evaluators</a>
+    <a href="team.html">Team</a>
+    <a href="news.html">News</a>
+  </nav>
+</header>
+
+<main>
+
+  <h1 class="page-title">Our Evaluator Pool</h1>
+  <p class="page-subtitle">The Unjournal draws on a diverse, international pool of researchers who provide rigorous, paid evaluations of impactful research. Over 300 have signed up; of these, roughly 230 have been vetted and prioritized based on expertise and relevance. Below is a snapshot as of <strong id="last-updated">March 2026</strong>.</p>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <span class="number">~230</span>
+      <span class="label">Vetted evaluators</span>
+    </div>
+    <div class="stat-card">
+      <span class="number">50+</span>
+      <span class="label">Countries represented</span>
+    </div>
+    <div class="stat-card">
+      <span class="number">51%</span>
+      <span class="label">Hold PhDs</span>
+    </div>
+    <div class="stat-card">
+      <span class="number">100+</span>
+      <span class="label">Evaluations completed</span>
+    </div>
+  </div>
+
+  <!-- DEMOGRAPHICS -->
+  <section>
+    <h2>Pool Demographics</h2>
+    <p>Based on information provided by evaluators when joining the pool. Not all fields are filled by every evaluator.</p>
+
+    <div class="chart-section">
+
+      <div class="chart-box">
+        <h3>Highest Degree (237 responses)</h3>
+        <div class="bar-chart">
+          <div class="bar-row">
+            <span class="bar-label">PhD</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 51%"><span class="bar-value">120</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Masters</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 36%"><span class="bar-value">86</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Bachelors</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 9%"><span class="bar-value-outside">22</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Other / MD / JD</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 3%"><span class="bar-value-outside">6</span></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-box">
+        <h3>Top Expertise Areas (248 responses)</h3>
+        <div class="bar-chart">
+          <div class="bar-row">
+            <span class="bar-label">Economics</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 60%"><span class="bar-value">43+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Psychology / Behavioral</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 22%"><span class="bar-value-outside">12+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Global Health</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 15%"><span class="bar-value-outside">8+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Political Science</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 12%"><span class="bar-value-outside">6+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Statistics</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 10%"><span class="bar-value-outside">5+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Computer Science</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 8%"><span class="bar-value-outside">4+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Env. / Earth Sciences</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 8%"><span class="bar-value-outside">4+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">AI / Catastrophic Risk</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 6%"><span class="bar-value-outside">3+</span></div></div>
+          </div>
+        </div>
+        <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 0.6rem;">Many evaluators list multiple areas. "+" indicates additional evaluators who list this as a secondary field.</p>
+      </div>
+
+      <div class="chart-box">
+        <h3>Position / Career Stage (224 responses)</h3>
+        <div class="bar-chart">
+          <div class="bar-row">
+            <span class="bar-label">PhD Student</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 50%"><span class="bar-value">32</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Junior Faculty</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 42%"><span class="bar-value">27</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Think Tank / Semi-academic</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 28%"><span class="bar-value">18</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Non-academic Researcher</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 27%"><span class="bar-value">17</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Student (UG/Masters)</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 19%"><span class="bar-value">12</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Tenured Faculty</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 17%"><span class="bar-value">11</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Other / Practitioner</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 15%"><span class="bar-value-outside">26</span></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-box">
+        <h3>Top Countries (201 responses)</h3>
+        <div class="bar-chart">
+          <div class="bar-row">
+            <span class="bar-label">United States</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 60%"><span class="bar-value">60</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">United Kingdom</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 24%"><span class="bar-value">24</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Germany</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 11%"><span class="bar-value-outside">11</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">India</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 11%"><span class="bar-value-outside">11</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Canada</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 8%"><span class="bar-value-outside">8</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">France</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 6%"><span class="bar-value-outside">6</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Australia</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 6%"><span class="bar-value-outside">6</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">Netherlands</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 5%"><span class="bar-value-outside">5+</span></div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">40+ other countries</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 35%; background: #8db3d9;"><span class="bar-value">70+</span></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONSENT SURVEY RESULTS -->
+  <section>
+    <h2>Evaluator Consent Survey Results</h2>
+    <p>We surveyed our evaluator pool about their preferences for data sharing and public identification. Responses from 36 evaluators (out of ~230 vetted in the pool) are summarized below. We plan to extend this survey to more evaluators.</p>
+
+    <div class="consent-summary">
+      <h3>Key Findings (36 respondents)</h3>
+      <div class="consent-grid">
+        <div class="consent-item">
+          <strong>81%</strong> (29 of 36) consented to their name being shared publicly as a member of the evaluator pool
+        </div>
+        <div class="consent-item">
+          <strong>97%</strong> (35 of 36) want to remain in the evaluator pool
+        </div>
+        <div class="consent-item">
+          <strong>97%</strong> (36 of 37) consent to sharing their name with other evaluators in the pool
+        </div>
+        <div class="consent-item">
+          <strong>81%</strong> (30 of 37) consent broadly to sharing with open science organizations
+        </div>
+      </div>
+      <p style="font-size: 0.85rem; margin-top: 1rem; color: #4a7a2a;">Note: Even evaluators who share their name as pool members retain full anonymity for specific evaluations they complete, unless they choose otherwise.</p>
+    </div>
+  </section>
+
+  <!-- CONSENTING EVALUATORS -->
+  <section class="evaluator-list-section">
+    <h2 id="listed-evaluators"><a href="#listed-evaluators" style="color: inherit; text-decoration: none;">Evaluators Who Chose to Be Listed</a></h2>
+    <div class="evaluator-disclaimer">
+      <strong>Important:</strong> The following is a <strong>subset</strong> of our evaluator pool who explicitly consented to being publicly identified as members. Most pool members have not yet been surveyed, and many who were surveyed also consented but are not shown below if they did not provide a name. This list does not represent the full pool, which includes ~230 vetted evaluators (300+ total signups). Being listed here does <em>not</em> reveal which specific papers, if any, a person has evaluated.
+    </div>
+
+    <div class="evaluator-grid">
+      <div class="evaluator-card">
+        <div class="name"><a href="https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea" target="_blank" rel="noopener">Anca Hanea</a></div>
+        <div class="detail">University of Melbourne</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name">Anirudh Tagat</div>
+        <div class="detail">Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="http://middlepatheco.com/" target="_blank" rel="noopener">Arika Virapongse</a></div>
+        <div class="detail">Ronin Institute / Middle Path EcoSolutions</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name">Arturo Macias</div>
+        <div class="detail">Banco de Espa&ntilde;a &middot; Economics, Political Science</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name">Ben Balmford</div>
+        <div class="detail">Global Health, Environmental Sciences, Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://b-l-a-k-e.com" target="_blank" rel="noopener">Blake Lee-Whiting</a></div>
+        <div class="detail">University of Toronto &middot; PhD Candidate, Political Science</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://tr.linkedin.com/in/prof-dr-bulent-acma-1a33075" target="_blank" rel="noopener">Bulent Acma</a></div>
+        <div class="detail">Anadolu University &middot; Agricultural Sciences, Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name">Charlotte Coogan</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://about.me/davidmanheim" target="_blank" rel="noopener">David Manheim</a></div>
+        <div class="detail">Catastrophic Risks, AI Governance &amp; Safety</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://exh960.wixsite.com/mysite" target="_blank" rel="noopener">Eliana Hadjiandreou</a></div>
+        <div class="detail">UT Austin &middot; Postdoc, Psychology &amp; Behavioral Science</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://www.linkedin.com/in/elisabeth-julie-vargo-12347a83" target="_blank" rel="noopener">Elisabeth Julie Vargo</a></div>
+        <div class="detail">IGDORE &middot; Psychology, Statistics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://www.linkedin.com/in/francescoramponi/" target="_blank" rel="noopener">Francesco Ramponi</a></div>
+        <div class="detail">Harvard T.H. Chan School &middot; Global Public Health, Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://gabrielareto.weebly.com/" target="_blank" rel="noopener">Gabriel Arellano</a></div>
+        <div class="detail">University of Michigan &middot; Statistics, Environmental Science</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name">Hansika Kapoor</div>
+        <div class="detail">Psychology</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://jack-fitzgerald.github.io/" target="_blank" rel="noopener">Jack Fitzgerald</a></div>
+        <div class="detail">Vrije Universiteit Amsterdam &middot; PhD, Economics &amp; Statistics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://www.linkedin.com/in/jp93/" target="_blank" rel="noopener">Jay Patel</a></div>
+        <div class="detail">University of Maryland &middot; PhD Student, Psychology &amp; Cognitive Science</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://www.researchgate.net/profile/Maik-Huettinger" target="_blank" rel="noopener">Maik Huettinger</a></div>
+        <div class="detail">ESSCA &middot; Professor, Economics &amp; Philosophy</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://marcomavina.com" target="_blank" rel="noopener">Marco Avi&ntilde;a</a></div>
+        <div class="detail">Harvard &middot; Graduate Student, Political Science</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://max.pm/cv/" target="_blank" rel="noopener">Max R. P. Grossmann</a></div>
+        <div class="detail">University of Cologne &middot; PhD Student, Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/michael-harre.html" target="_blank" rel="noopener">Michael Harre</a></div>
+        <div class="detail">University of Sydney &middot; Senior Lecturer, Complex Systems</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://www.linkedin.com/in/mnoetel/" target="_blank" rel="noopener">Michael Noetel</a></div>
+        <div class="detail">University of Queensland &middot; Associate Professor, Statistics &amp; AI</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://nathanfiala.com" target="_blank" rel="noopener">Nathan Fiala</a></div>
+        <div class="detail">University of Connecticut &middot; Professor, Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://sites.google.com/view/pfeldman" target="_blank" rel="noopener">Paul Feldman</a></div>
+        <div class="detail">Texas A&amp;M &middot; Assistant Professor, Economics &amp; Behavioral Science</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://mcwayrm.github.io/" target="_blank" rel="noopener">Ryan McWay</a></div>
+        <div class="detail">University of Minnesota &middot; PhD Student, Environmental Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://www.tabarecapitan.com" target="_blank" rel="noopener">Tabar&eacute; Capit&aacute;n</a></div>
+        <div class="detail">Swedish Univ. of Agricultural Sciences &middot; Economics</div>
+      </div>
+      <div class="evaluator-card">
+        <div class="name"><a href="https://ethicalseafoodresearch.com" target="_blank" rel="noopener">Wasseem Emam</a></div>
+        <div class="detail">Ethical Seafood Research / Univ. of Stirling &middot; Animal Behavior, Biological Sciences</div>
+      </div>
+    </div>
+    <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 1rem;">Dr Carlos Vazquez-Hernandez also consented but could not be matched to a full profile.</p>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <h2>Join Our Evaluator Pool</h2>
+    <p>Get paid for expert peer review. Build your public scholarly profile. Help advance open science.</p>
+    <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" class="cta-button">Apply to Evaluate</a>
+  </div>
+
+  <div class="source-link">
+    <strong>Data sources:</strong> Evaluator demographics from <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Statistics-Evaluator-pool_sunNUx0l#_luakesYJ" target="_blank" rel="noopener">Coda evaluator pool statistics</a>. Consent survey conducted in 2025&ndash;2026. Dashboard last updated March 2026.
+    <br>
+    <strong>For the full interactive view:</strong> See the <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Statistics-Evaluator-pool_sunNUx0l#_luakesYJ" target="_blank" rel="noopener">Coda statistics page</a>.
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+  <p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">This page was created with the help of Claude Code.</p>
+</footer>
+
+</body>
+</html>
