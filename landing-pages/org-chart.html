@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizational Chart — The Unjournal</title>
+  <meta name="description" content="The Unjournal's organizational structure: leadership, management committee, advisory board, field specialists, and evaluator pool.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="Organizational Chart — The Unjournal">
+  <meta property="og:description" content="Interactive org chart showing The Unjournal's structure, roles, and current members.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-dark: #0d1f30;
+      --accent: #2e86c1;
+      --accent-light: #5dade2;
+      --gold: #c9820a;
+      --gold-light: #f0a500;
+      --gold-bg: #fef9f0;
+      --blue-node: #2567a3;
+      --blue-node-hover: #1a4f82;
+      --amber-node: #c97c10;
+      --amber-node-hover: #a86308;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 1100px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+      background: var(--light-bg);
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    header .org-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      opacity: 0.7;
+      margin-bottom: 0.5rem;
+      position: relative;
+    }
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+      position: relative;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+      font-style: italic;
+      position: relative;
+    }
+
+    /* Nav */
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: var(--text-light);
+      font-size: 0.9rem;
+      margin: 0 0.75rem;
+      font-family: Georgia, serif;
+    }
+    nav a:hover { color: var(--accent); text-decoration: none; }
+
+    nav .logo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-right: 1.5rem;
+    }
+    nav .logo-link img {
+      height: 26px;
+      width: auto;
+      vertical-align: middle;
+    }
+
+    /* Main content */
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    /* Intro section */
+    .intro {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.75rem 2rem;
+      margin-bottom: 2.5rem;
+      font-size: 1rem;
+      color: var(--text-light);
+    }
+    .intro p { margin-bottom: 0.5rem; }
+    .intro p:last-child { margin-bottom: 0; }
+    .intro strong { color: var(--text); }
+
+    /* Legend */
+    .legend {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      align-items: center;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .legend-swatch {
+      width: 18px;
+      height: 18px;
+      border-radius: 4px;
+    }
+    .swatch-governance { background: var(--blue-node); }
+    .swatch-operational { background: var(--amber-node); }
+
+    /* Org Chart Container */
+    .org-chart-wrapper {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 2.5rem 1.5rem 2rem;
+      margin-bottom: 3rem;
+      overflow-x: auto;
+    }
+
+    .org-chart {
+      min-width: 700px;
+      position: relative;
+    }
+
+    /* SVG connector lines */
+    .connectors {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+    }
+
+    .connector-line {
+      stroke: #9eb6cc;
+      stroke-width: 2;
+      fill: none;
+    }
+    .connector-double {
+      stroke: #9eb6cc;
+      stroke-width: 1.5;
+    }
+
+    /* Org levels */
+    .org-level {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      position: relative;
+      margin-bottom: 0;
+    }
+
+    .level-spacer {
+      height: 2.5rem;
+    }
+
+    /* Org nodes */
+    .org-node {
+      border-radius: 10px;
+      padding: 0.85rem 1.25rem;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+      position: relative;
+      user-select: none;
+      min-width: 160px;
+      max-width: 200px;
+    }
+
+    .org-node:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+
+    .org-node.expanded {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    .org-node .node-title {
+      font-family: Georgia, serif;
+      font-weight: bold;
+      font-size: 0.95rem;
+      line-height: 1.3;
+      color: var(--white);
+      margin-bottom: 0.2rem;
+    }
+
+    .org-node .node-name {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.88);
+      font-style: italic;
+      line-height: 1.2;
+    }
+
+    .org-node .node-count {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.75);
+      margin-top: 0.15rem;
+    }
+
+    .org-node .expand-indicator {
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.65);
+      margin-top: 0.3rem;
+      letter-spacing: 0.03em;
+    }
+
+    /* Governance nodes (blue) */
+    .node-governance {
+      background: linear-gradient(135deg, var(--blue-node) 0%, #1e5a8f 100%);
+      border: 2px solid #1a4f82;
+    }
+    .node-governance:hover { filter: brightness(1.08); }
+    .node-governance.expanded { background: linear-gradient(135deg, #1a4f82 0%, #163d6b 100%); }
+
+    /* Unfilled / proposed role nodes */
+    .node-unfilled {
+      background: linear-gradient(135deg, #3d7db8 0%, #2a5f8f 100%);
+      border: 2px dashed #6aa3cc;
+      opacity: 0.75;
+    }
+    .node-unfilled:hover { opacity: 0.9; filter: brightness(1.06); }
+    .node-unfilled .node-title { font-style: italic; }
+
+    /* Cause-area group headers inside field-specialist panel */
+    .cause-group-header {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+      margin: 1rem 0 0.4rem;
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .cause-group-header:first-child { margin-top: 0; }
+
+    /* Proposed roles box */
+    .proposed-roles-box {
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      margin: 1rem auto;
+      max-width: 720px;
+      overflow: hidden;
+    }
+    .proposed-roles-box .panel-header {
+      cursor: pointer;
+      background: var(--light-bg);
+      transition: background 0.15s ease;
+    }
+    .proposed-roles-box .panel-header:hover { background: #edf2f7; }
+    .proposed-roles-box .panel-header h3 { color: var(--text-light); font-style: italic; font-size: 1rem; }
+    .proposed-roles-box .panel-body { display: none; border-top: 1px dashed var(--border); }
+    .proposed-roles-box.open .panel-body { display: block; }
+
+    /* Operational nodes (amber) */
+    .node-operational {
+      background: linear-gradient(135deg, var(--amber-node) 0%, #a86308 100%);
+      border: 2px solid #9b5a07;
+    }
+    .node-operational:hover { filter: brightness(1.08); }
+    .node-operational.expanded { background: linear-gradient(135deg, #a86308 0%, #8d4f05 100%); }
+
+    /* Role detail panels */
+    .role-panel {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin: 0.75rem auto;
+      max-width: 720px;
+      overflow: hidden;
+      display: none;
+    }
+
+    .role-panel.visible {
+      display: block;
+      animation: fadeSlideIn 0.2s ease;
+    }
+
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(-8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .panel-header {
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .panel-header h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .panel-header .role-tagline {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    .panel-body {
+      padding: 1rem 1.5rem 1.25rem;
+    }
+
+    .panel-section {
+      margin-bottom: 1rem;
+    }
+    .panel-section:last-child { margin-bottom: 0; }
+
+    .panel-section h4 {
+      font-family: Georgia, serif;
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-light);
+      margin-bottom: 0.5rem;
+    }
+
+    .panel-section p {
+      font-size: 0.92rem;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .panel-section ul {
+      font-size: 0.92rem;
+      color: var(--text);
+      padding-left: 1.25rem;
+      line-height: 1.7;
+    }
+
+    .members-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+      gap: 0.4rem;
+      font-size: 0.87rem;
+    }
+
+    .member-item {
+      padding: 0.3rem 0.5rem;
+      background: var(--light-bg);
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .member-item a {
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    .member-item .affil {
+      font-size: 0.78rem;
+      color: var(--text-light);
+      display: block;
+      line-height: 1.3;
+    }
+
+    .compensation-badge {
+      display: inline-block;
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.2rem 0.5rem;
+      font-size: 0.82rem;
+      color: var(--text-light);
+      margin-top: 0.3rem;
+    }
+
+    /* Roles reference section */
+    .roles-reference {
+      margin-top: 3rem;
+    }
+
+    .roles-reference h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.6rem;
+      color: var(--primary);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .role-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+
+    .role-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      background: var(--white);
+      transition: background 0.15s ease;
+    }
+    .role-card-header:hover { background: var(--light-bg); }
+
+    .role-card-title {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.1rem;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .role-badge {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .badge-governance { background: var(--blue-node); }
+    .badge-operational { background: var(--amber-node); }
+
+    .role-card-toggle {
+      font-size: 1.2rem;
+      color: var(--text-light);
+      transition: transform 0.2s ease;
+    }
+
+    .role-card.open .role-card-toggle { transform: rotate(180deg); }
+
+    .role-card-body {
+      display: none;
+      padding: 0 1.5rem 1.25rem;
+      border-top: 1px solid var(--border);
+    }
+    .role-card.open .role-card-body { display: block; }
+
+    .role-card-body p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-top: 0.75rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.7;
+    }
+
+    .role-card-body ul {
+      font-size: 0.93rem;
+      color: var(--text);
+      padding-left: 1.25rem;
+      line-height: 1.8;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.75rem;
+    }
+
+    .meta-item {
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+    .meta-item strong { color: var(--text); }
+
+    /* Links section */
+    .links-section {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      margin-top: 2.5rem;
+    }
+
+    .links-section h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .link-card {
+      padding: 0.75rem 1rem;
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.92rem;
+    }
+    .link-card a { font-weight: bold; }
+    .link-card p { font-size: 0.82rem; color: var(--text-light); margin-top: 0.2rem; }
+
+    /* Footer */
+    footer {
+      background: var(--primary-dark);
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.9rem;
+    }
+    footer a { color: rgba(255,255,255,0.85); }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+      header h1 { font-size: 1.9rem; }
+      .org-chart-wrapper { padding: 1.5rem 0.75rem; }
+      .org-node { min-width: 130px; max-width: 160px; padding: 0.65rem 0.9rem; }
+      .org-node .node-title { font-size: 0.85rem; }
+      .org-level { gap: 0.75rem; }
+      .members-grid { grid-template-columns: 1fr 1fr; }
+      nav .logo-link { display: none; }
+      .meta-row { gap: 0.75rem; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header>
+  <div class="org-label">
+    <a href="https://unjournal.org">The Unjournal</a>
+  </div>
+  <h1>Organizational Chart</h1>
+  <p class="subtitle">Structure, roles, and current members — click any role to expand</p>
+</header>
+
+<nav>
+  <a href="https://unjournal.org" class="logo-link">
+    <img src="unjournal-logo.jpg" alt="The Unjournal">
+    unjournal.org
+  </a>
+  <a href="https://info.unjournal.org/team.html">Team</a>
+  <a href="https://info.unjournal.org/about.html">About</a>
+  <a href="https://info.unjournal.org/for-evaluators.html">For Evaluators</a>
+  <a href="https://info.unjournal.org/for-authors.html">For Authors</a>
+  <a href="https://info.unjournal.org/">All pages</a>
+</nav>
+
+<main>
+
+  <div class="intro">
+    <p><strong>Click any role in the chart below</strong> to see a description of responsibilities, time commitments, compensation, and current members.</p>
+    <p>See also: <a href="https://info.unjournal.org/team.html">team page with photos</a> &middot; <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/organizational-roles-and-responsibilities">full role descriptions (GitBook)</a> &middot; <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team/">team list (GitBook)</a></p>
+  </div>
+
+  <div class="legend">
+    <strong style="font-size:0.9rem; color:var(--text-light);">Role type:</strong>
+    <div class="legend-item">
+      <div class="legend-swatch swatch-governance"></div>
+      <span style="font-size:0.9rem;">Governance &amp; leadership</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch swatch-operational"></div>
+      <span style="font-size:0.9rem;">Operational &amp; research roles</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch" style="background:var(--blue-node); border:2px dashed #6aa3cc;"></div>
+      <span style="font-size:0.9rem;">Dashed border = currently unfilled</span>
+    </div>
+  </div>
+
+  <!-- Org Chart -->
+  <div class="org-chart-wrapper">
+    <div class="org-chart" id="orgChart">
+
+      <!-- Level 1: Directors -->
+      <div class="org-level" id="level-directors">
+        <div class="org-node node-governance" id="node-founding-director" onclick="togglePanel('founding-director')" role="button" tabindex="0">
+          <div class="node-title">Founding Director</div>
+          <div class="node-name">David Reinstein</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+        <div class="org-node node-governance" id="node-co-director" onclick="togglePanel('co-director')" role="button" tabindex="0">
+          <div class="node-title">Co-Director</div>
+          <div class="node-name">Anirudh Tagat</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+      </div>
+
+      <div class="level-spacer"></div>
+
+      <!-- SVG connector: directors → management -->
+      <svg class="connectors" id="svg-connectors" aria-hidden="true" style="position:relative; height:0; overflow:visible; display:block;">
+      </svg>
+
+      <!-- Level 2: Operations Lead + Management + Advisory -->
+      <div class="org-level" id="level-boards">
+        <div class="org-node node-governance node-unfilled" id="node-ops-lead" onclick="togglePanel('ops-lead')" role="button" tabindex="0">
+          <div class="node-title">Operations Lead *</div>
+          <div class="node-count">* currently unfilled</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+        <div class="org-node node-governance" id="node-management" onclick="togglePanel('management')" role="button" tabindex="0">
+          <div class="node-title">Management Committee</div>
+          <div class="node-count">7 members</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+        <div class="org-node node-governance" id="node-advisory" onclick="togglePanel('advisory')" role="button" tabindex="0">
+          <div class="node-title">Advisory Board</div>
+          <div class="node-count">21 members</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+      </div>
+
+      <div class="level-spacer"></div>
+
+      <!-- Level 3: Operational roles -->
+      <div class="org-level" id="level-operational">
+        <div class="org-node node-operational" id="node-ops" onclick="togglePanel('ops')" role="button" tabindex="0">
+          <div class="node-title">Ops / Project Contractors</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+        <div class="org-node node-operational" id="node-field-specialists" onclick="togglePanel('field-specialists')" role="button" tabindex="0">
+          <div class="node-title">Field Specialists</div>
+          <div class="node-count">38 members</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+        <div class="org-node node-operational" id="node-uras" onclick="togglePanel('uras')" role="button" tabindex="0">
+          <div class="node-title">Research Affiliates (URAs)</div>
+          <div class="node-count">27 members</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+      </div>
+
+      <div class="level-spacer"></div>
+
+      <!-- Level 4: Evaluator Pool -->
+      <div class="org-level">
+        <div class="org-node node-operational" id="node-evaluators" onclick="togglePanel('evaluators')" role="button" tabindex="0">
+          <div class="node-title">Evaluator Pool</div>
+          <div class="node-count">200+ members</div>
+          <div class="expand-indicator">click to expand</div>
+        </div>
+      </div>
+
+    </div><!-- end .org-chart -->
+
+    <!-- Connecting lines drawn by JS after layout -->
+
+    <!-- Role detail panels (shown on click) -->
+    <div id="panel-founding-director" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--blue-node);">
+        <h3>Founding Director</h3>
+        <div class="role-tagline">Leads organizational strategy, research focus, and partnerships</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>Current member</h4>
+          <div class="members-grid">
+            <div class="member-item">
+              <a href="https://www.davidreinstein.org/" target="_blank">David Reinstein</a>
+              <span class="affil">Founding Director &amp; Co-Director</span>
+            </div>
+          </div>
+        </div>
+        <div class="panel-section">
+          <h4>Role description</h4>
+          <p>The Founding Director provides overall organizational direction, leads fundraising and partnerships, and co-directs day-to-day operations with the Co-Director. David Reinstein initiated The Unjournal in 2022 and has shaped its model of journal-independent evaluation for impactful research.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-co-director" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--blue-node);">
+        <h3>Co-Director</h3>
+        <div class="role-tagline">Shares leadership; manages operations and evaluation pipelines</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>Current member</h4>
+          <div class="members-grid">
+            <div class="member-item">
+              <a href="https://www.anirudhtagat.com" target="_blank">Anirudh Tagat</a>
+              <span class="affil">Monk Prayogshala &middot; Economics</span>
+            </div>
+          </div>
+        </div>
+        <div class="panel-section">
+          <h4>Role description</h4>
+          <p>The Co-Director shares leadership responsibilities, coordinates evaluation management, and supports organizational growth. Anirudh Tagat brings expertise in behavioral economics and developing-world research contexts.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-management" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--blue-node);">
+        <h3>Management Committee</h3>
+        <div class="role-tagline">Guides Unjournal decision-making, vision, and organizational structure</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>Current members</h4>
+          <div class="members-grid">
+            <div class="member-item">
+              <a href="https://www.researchgate.net/profile/Alexander-Herwix" target="_blank">Alexander Herwix</a>
+              <span class="affil">Cologne CIIS &middot; Info. Systems</span>
+            </div>
+            <div class="member-item">
+              <a href="https://sites.google.com/site/andreipotlogeaupf/" target="_blank">Andrei Potlogea</a>
+              <span class="affil">University of Edinburgh</span>
+            </div>
+            <div class="member-item">
+              <a href="https://www.robertkubinec.com/" target="_blank">Bob Kubinec</a>
+              <span class="affil">University of South Carolina</span>
+            </div>
+            <div class="member-item">
+              <a href="https://www.linkedin.com/in/gavin-taylor-9a409453/" target="_blank">Gavin Taylor</a>
+              <span class="affil">RF Antivirals (former Co-director)</span>
+            </div>
+            <div class="member-item">
+              <a href="https://www.hansikakapoor.in/" target="_blank">Hansika Kapoor</a>
+              <span class="affil">Monk Prayogshala &middot; Psychology</span>
+            </div>
+            <div class="member-item">
+              <a href="https://www.ryancbriggs.net/" target="_blank">Ryan Briggs</a>
+              <span class="affil">University of Guelph &middot; Pol. Science</span>
+            </div>
+            <div class="member-item">
+              <a href="https://valentink.quarto.pub/" target="_blank">Valentin Klotzbücher</a>
+              <span class="affil">University Hospital Basel &middot; Global Health</span>
+            </div>
+          </div>
+        </div>
+        <div class="panel-section">
+          <h4>Role in the organization</h4>
+          <p>The Management Committee guides Unjournal decision-making, vision, and structure. It does not manage Field Specialists or URAs in a line-management sense — those roles operate with substantial autonomy. MC members are typically senior researchers who also serve as evaluation managers for specific research areas.</p>
+        </div>
+        <div class="panel-section">
+          <h4>Responsibilities</h4>
+          <ul>
+            <li>Setting research focus, priorities, and evaluation guidelines</li>
+            <li>Reviewer/evaluator assignment and evaluation pipeline decisions</li>
+            <li>Prize distribution and recognition programs</li>
+            <li>Defining rules, metrics, and organizational policy</li>
+            <li>Planning organizational direction and strategy</li>
+            <li>Serving as evaluation managers for specific research areas</li>
+          </ul>
+        </div>
+        <div class="panel-section">
+          <h4>Commitment &amp; compensation</h4>
+          <p>
+            <span class="compensation-badge">15–20 hrs/year minimum</span>
+            <span class="compensation-badge">$57.50/hr for first 20 hrs</span>
+            <span class="compensation-badge">$300–$450/paper as evaluation manager</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-advisory" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--blue-node);">
+        <h3>Advisory Board</h3>
+        <div class="role-tagline">Provides strategic guidance, disciplinary expertise, and institutional credibility</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>Current members</h4>
+          <div class="members-grid">
+            <div class="member-item">
+              <a href="https://www.stat.columbia.edu/~gelman/" target="_blank">Andrew Gelman</a>
+              <span class="affil">Columbia University &middot; Statistics</span>
+            </div>
+            <div class="member-item">
+              <a href="https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea" target="_blank">Anca Hanea</a>
+              <span class="affil">U. of Melbourne &middot; RepliCATS</span>
+            </div>
+            <div class="member-item">
+              Daniela Cialfi
+              <span class="affil">Università d'Annunzio &middot; Econ.</span>
+            </div>
+            <div class="member-item">
+              <a href="https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en" target="_blank">Emmanuel Orkoh</a>
+              <span class="affil">Nordic Africa Institute</span>
+            </div>
+            <div class="member-item">
+              <a href="https://nilsonne.net/" target="_blank">Gustav Nilsonne</a>
+              <span class="affil">Karolinska Institutet &middot; Neurosci.</span>
+            </div>
+            <div class="member-item">
+              <a href="https://www.linkedin.com/in/jake-eaton-phd-bb204634/" target="_blank">Jake Eaton</a>
+              <span class="affil">Asterisk Magazine &middot; Public health</span>
+            </div>
+            <div class="member-item">
+              <a href="https://jordandworkin.com/" target="_blank">Jordan Dworkin</a>
+              <span class="affil">Open Philanthropy</span>
+            </div>
+            <div class="member-item">
+              Jonathan Berman
+              <span class="affil">London Business School</span>
+            </div>
+            <div class="member-item">
+              <a href="https://sites.google.com/view/kris-gulati/home" target="_blank">Kris Gulati</a>
+              <span class="affil">UC Berkeley &middot; Economics</span>
+            </div>
+            <div class="member-item">
+              Lorenzo Pacchiardi
+              <span class="affil">U. of Cambridge &middot; Future of Intelligence</span>
+            </div>
+            <div class="member-item">
+              <a href="https://sites.google.com/view/michael-harre" target="_blank">Michael Harre</a>
+              <span class="affil">U. of Sydney</span>
+            </div>
+            <div class="member-item">
+              <a href="https://michaelwiebe.com/" target="_blank">Michael Wiebe</a>
+              <span class="affil">U. of British Columbia &middot; Econ.</span>
+            </div>
+            <div class="member-item">
+              <a href="https://scholar.google.fr/citations?user=-S6D7OsAAAAJ&hl=en" target="_blank">Nicolas Treich</a>
+              <span class="affil">INRAe &middot; Economics</span>
+            </div>
+            <div class="member-item">
+              Don A. Moore
+              <span class="affil">UC Berkeley (Haas) &middot; Management</span>
+            </div>
+            <div class="member-item">
+              <a href="https://demetriusfloudas.com/" target="_blank">Demetrius Floudas</a>
+              <span class="affil">U. of Cambridge</span>
+            </div>
+            <div class="member-item">
+              Paolo Crosetto
+              <span class="affil">INRAE</span>
+            </div>
+            <div class="member-item">
+              Sam Abbott
+              <span class="affil">LSHTM</span>
+            </div>
+            <div class="member-item">
+              <a href="https://sites.google.com/view/sarah-a-reynolds/home" target="_blank">Sarah Reynolds</a>
+              <span class="affil">UC Berkeley &middot; Econ., Global Health</span>
+            </div>
+            <div class="member-item">
+              Stuart Buck
+              <span class="affil">Good Science Project</span>
+            </div>
+            <div class="member-item">
+              <a href="https://sites.google.com/view/tanyaogarra/home" target="_blank">Tanya O'Garra</a>
+              <span class="affil">Imperial College London &middot; Econ.</span>
+            </div>
+            <div class="member-item">
+              <a href="https://sites.google.com/site/yannickdupraz/" target="_blank">Yannick Dupraz</a>
+              <span class="affil">CNRS &amp; Paris Dauphine</span>
+            </div>
+            <div class="member-item">
+              <a href="https://uk.linkedin.com/in/rosie-bettle-84a1051b0" target="_blank">Rosie Bettle</a>
+              <span class="affil">Founders Pledge</span>
+            </div>
+          </div>
+        </div>
+        <div class="panel-section">
+          <h4>Responsibilities</h4>
+          <ul>
+            <li>Listing on organizational webpage as an advisor</li>
+            <li>Optional Slack participation and occasional input on policy</li>
+            <li>Optional attendance at video meetings</li>
+            <li>Consultation on specific work assignments when needed</li>
+          </ul>
+        </div>
+        <div class="panel-section">
+          <h4>Commitment &amp; compensation</h4>
+          <p>
+            <span class="compensation-badge">Flexible — no minimum requirement</span>
+            <span class="compensation-badge">Paid for substantial work beyond regular employment</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-ops-lead" class="role-panel">
+      <div class="panel-header" style="border-left: 4px dashed var(--blue-node);">
+        <h3>Operations Lead <em style="font-weight:normal; font-size:0.9em;">(currently unfilled)</em></h3>
+        <div class="role-tagline">Day-to-day administration, contractor coordination, and budget oversight</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>About this role</h4>
+          <p>The Operations Lead works closely with the Founding Director on day-to-day administration and budget oversight. This is a paid, ongoing role (not project-based). The former Operations Lead was Davit Jintcharadze.</p>
+        </div>
+        <div class="panel-section">
+          <h4>Responsibilities</h4>
+          <ul>
+            <li>Day-to-day organizational administration and coordination</li>
+            <li>Budget oversight in collaboration with the Founding Director</li>
+            <li>Contractor management and project delivery coordination</li>
+            <li>Internal and external communications management</li>
+            <li>Supporting evaluation pipeline logistics</li>
+            <li>Onboarding of new team members and evaluators</li>
+          </ul>
+        </div>
+        <div class="panel-section">
+          <h4>Commitment &amp; compensation</h4>
+          <p>
+            <span class="compensation-badge">Ongoing paid role</span>
+            <span class="compensation-badge">~$30–55/hr</span>
+          </p>
+        </div>
+        <div class="panel-section">
+          <p>Interested? Email <a href="mailto:contact@unjournal.org">contact@unjournal.org</a> or see <a href="https://unjournal.org" target="_blank">unjournal.org</a> for any current postings.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-ops" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--amber-node);">
+        <h3>Ops / Project Contractors</h3>
+        <div class="role-tagline">Operational support, communications, data management, and project delivery</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>About this role</h4>
+          <p>Contractors provide operational and technical support across a range of functions including communications, web development, data management, outreach, and coordination. Roles are project-based and vary in scope and duration.</p>
+          <p style="margin-top:0.5rem;">For current openings, see <a href="https://unjournal.org" target="_blank">unjournal.org</a> or contact <a href="mailto:contact@unjournal.org">contact@unjournal.org</a>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-field-specialists" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--amber-node);">
+        <h3>Field Specialists</h3>
+        <div class="role-tagline">Monitor research fields, source papers, and provide expert assessments</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>Current members — by cause area</h4>
+          <p style="font-size:0.82rem; color:var(--text-light); margin-bottom:0.5rem;">Some members span multiple areas or also hold Management Committee / Advisory Board roles.</p>
+
+          <div class="cause-group-header">Development Economics</div>
+          <div class="members-grid">
+            <div class="member-item"><a href="https://www.anirudhtagat.com" target="_blank">Anirudh Tagat</a><span class="affil">Monk Prayogshala</span></div>
+            <div class="member-item"><a href="https://www.ryancbriggs.net/" target="_blank">Ryan Briggs</a><span class="affil">U. of Guelph &middot; Pol. Science</span></div>
+            <div class="member-item"><a href="https://michaelwiebe.com/" target="_blank">Michael Wiebe</a><span class="affil">UBC &middot; Econ.</span></div>
+            <div class="member-item">Nathan Fiala<span class="affil">U. of Connecticut &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en" target="_blank">Emmanuel Orkoh</a><span class="affil">Nordic Africa Institute</span></div>
+            <div class="member-item"><a href="https://www.robertkubinec.com/" target="_blank">Bob Kubinec</a><span class="affil">U. of South Carolina</span></div>
+            <div class="member-item">Masyhur Hilmy</div>
+            <div class="member-item"><a href="https://waynesandholtz.com/" target="_blank">Wayne Sandholtz</a><span class="affil">Nova SBE &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://sites.google.com/view/leecrawfurd/home" target="_blank">Lee Crawfurd</a></div>
+            <div class="member-item"><a href="https://sites.google.com/site/yannickdupraz/" target="_blank">Yannick Dupraz</a><span class="affil">CNRS &amp; Paris Dauphine</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/elena-brionesalonso" target="_blank">Elena Briones Alonso</a></div>
+            <div class="member-item"><a href="https://blogs.worldbank.org/en/team/w/william-seitz" target="_blank">William Seitz</a><span class="affil">World Bank - PROGREEN</span></div>
+            <div class="member-item"><a href="https://lachlandeer.github.io/" target="_blank">Lachlan Deer</a><span class="affil">Tilburg University</span></div>
+          </div>
+
+          <div class="cause-group-header">Global Health and Well-being</div>
+          <div class="members-grid">
+            <div class="member-item"><a href="https://www.linkedin.com/in/jake-eaton-phd-bb204634/" target="_blank">Jake Eaton</a><span class="affil">Asterisk Magazine</span></div>
+            <div class="member-item"><a href="https://uk.linkedin.com/in/rosie-bettle-84a1051b0" target="_blank">Rosie Bettle</a><span class="affil">Founders Pledge</span></div>
+            <div class="member-item"><a href="https://www.foodsecurityevidence.com/" target="_blank">Charlotte Lane</a><span class="affil">3ie / Food Security</span></div>
+            <div class="member-item"><a href="https://sites.google.com/view/shobhitkulshreshtha/" target="_blank">Shobhit Kulshreshtha</a><span class="affil">Tilburg University</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/jonah-s-goldberg/" target="_blank">Jonah Goldberg</a><span class="affil">Harvard Glob. Health &amp; Pop.</span></div>
+            <div class="member-item"><a href="https://valentink.quarto.pub/" target="_blank">Valentin Klotzbücher</a><span class="affil">U. Hospital Basel</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/priya-lall-64152816/" target="_blank">Priya Lall</a><span class="affil">U. of Oxford</span></div>
+            <div class="member-item"><a href="https://scholar.google.com/citations?user=DdbGN6UAAAAJ&hl=en&oi=ao" target="_blank">Francesco Ramponi</a><span class="affil">Harvard Chan SPH</span></div>
+            <div class="member-item"><a href="https://sites.google.com/view/sarah-a-reynolds/home" target="_blank">Sarah Reynolds</a><span class="affil">UC Berkeley &middot; Econ., GH</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/chisom-nri-ezedi-mbbs-md-mph-phd-fwacp-5a1325123" target="_blank">Chisom Nri-Ezedi</a></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/eliseeracine/" target="_blank">Elise Racine</a></div>
+          </div>
+
+          <div class="cause-group-header">Economics, Welfare, and Governance</div>
+          <div class="members-grid">
+            <div class="member-item">David Reinstein<span class="affil">Founding Director</span></div>
+            <div class="member-item">Julian Jamison<span class="affil">Global Priorities Inst. / Exeter</span></div>
+            <div class="member-item"><a href="https://www.tabarecapitan.com" target="_blank">Tabare Capitan</a><span class="affil">SLU &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/joelchristoph/" target="_blank">Joel Christoph</a><span class="affil">Effective Thesis &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://sites.google.com/site/andreipotlogeaupf/" target="_blank">Andrei Potlogea</a><span class="affil">U. of Edinburgh</span></div>
+            <div class="member-item"><a href="https://gregsasso.me/" target="_blank">Greg Sasso</a><span class="affil">U. of Chicago</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/bryan-s-weber/" target="_blank">Bryan Weber</a><span class="affil">CUNY</span></div>
+            <div class="member-item">Daniel Horn</div>
+            <div class="member-item"><a href="https://hennicke.science/" target="_blank">Moritz Hennicke</a><span class="affil">U. of Bremen</span></div>
+            <div class="member-item">Sean Brocklebank</div>
+          </div>
+
+          <div class="cause-group-header">Psychology, Behavioral Science, Attitudes</div>
+          <div class="members-grid">
+            <div class="member-item"><a href="https://www.hansikakapoor.in/" target="_blank">Hansika Kapoor</a><span class="affil">Monk Prayogshala</span></div>
+            <div class="member-item">Jonathan Berman<span class="affil">London Business School</span></div>
+            <div class="member-item"><a href="https://www.mattietoma.com/" target="_blank">Mattie Toma</a><span class="affil">U. of Warwick</span></div>
+            <div class="member-item"><a href="https://carinahausladen.github.io/" target="_blank">Carina Hausladen</a><span class="affil">ETH Zurich &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://hannahmetzler.eu/" target="_blank">Hannah Metzler</a></div>
+            <div class="member-item">Eliana Hadjiandreou<span class="affil">Computational Affective Cognition</span></div>
+            <div class="member-item">Rakefet Cohen Ben-Arye</div>
+          </div>
+
+          <div class="cause-group-header">Innovation, Meta-Science, Social Impact of Technology</div>
+          <div class="members-grid">
+            <div class="member-item">Daniela Cialfi<span class="affil">Università d'Annunzio &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://jordandworkin.com/" target="_blank">Jordan Dworkin</a><span class="affil">Open Philanthropy</span></div>
+            <div class="member-item"><a href="https://sites.google.com/view/kris-gulati/home" target="_blank">Kris Gulati</a><span class="affil">UC Berkeley &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://andrew-kao.github.io/" target="_blank">Andrew Kao</a><span class="affil">Harvard &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/gavin-taylor-9a409453/" target="_blank">Gavin Taylor</a><span class="affil">RF Antivirals</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/gary-mcdowell-4551131a/" target="_blank">Gary McDowell</a><span class="affil">IGDORE</span></div>
+          </div>
+
+          <div class="cause-group-header">Environmental Economics</div>
+          <div class="members-grid">
+            <div class="member-item"><a href="https://sites.google.com/view/tanyaogarra/home" target="_blank">Tanya O'Garra</a><span class="affil">Imperial College London</span></div>
+            <div class="member-item"><a href="https://www.benbalmford.com/" target="_blank">Ben Balmford</a><span class="affil">Exeter &middot; Econ.</span></div>
+          </div>
+
+          <div class="cause-group-header">Animal Welfare (Markets, Attitudes)</div>
+          <div class="members-grid">
+            <div class="member-item"><a href="https://scholar.google.com/citations?user=pyjguMoAAAAJ&hl=en" target="_blank">Josh Tasoff</a><span class="affil">Claremont Graduate U. &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://sites.google.com/view/kevinkuruc/home" target="_blank">Kevin Kuruc</a><span class="affil">UT Austin &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://habermacher.net/" target="_blank">Florian Habermacher</a><span class="affil">Lucerne / SIDIE &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://scholar.google.fr/citations?user=-S6D7OsAAAAJ&hl=en" target="_blank">Nicolas Treich</a><span class="affil">INRAe &middot; Econ.</span></div>
+            <div class="member-item"><a href="https://faunalytics.org/author/ashleyemeader/" target="_blank">Ash Meader</a><span class="affil">Faunalytics</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/brinda-poojary-phd-ba075458/" target="_blank">Brinda Poojary</a><span class="affil">Humane Society International</span></div>
+          </div>
+
+          <div class="cause-group-header">Catastrophic Risks, AI Governance and Safety</div>
+          <div class="members-grid">
+            <div class="member-item"><a href="https://scholar.google.com/citations?user=6-M1ZIUAAAAJ&hl=en" target="_blank">David Manheim</a><span class="affil">Technion / ALTER</span></div>
+            <div class="member-item"><a href="https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea" target="_blank">Anca Hanea</a><span class="affil">U. of Melbourne</span></div>
+            <div class="member-item"><a href="https://www.researchgate.net/profile/Alexander-Herwix" target="_blank">Alexander Herwix</a><span class="affil">Cologne CIIS</span></div>
+            <div class="member-item"><a href="https://www.linkedin.com/in/tristan-williams-916119216/" target="_blank">Tristan Williams</a><span class="affil">Center for AI Policy</span></div>
+          </div>
+        </div>
+        <div class="panel-section">
+          <h4>Responsibilities</h4>
+          <ul>
+            <li>Monitor a designated research field monthly; source ~3 papers per academic term</li>
+            <li>Write "second opinion" assessments on submitted research</li>
+            <li>Vote on papers for evaluation commissioning</li>
+            <li>Attend quarterly field group meetings (approximate)</li>
+            <li>Optionally serve as evaluation managers ($300–$450/paper)</li>
+            <li>Represent organizational mission to colleagues and on social media</li>
+          </ul>
+        </div>
+        <div class="panel-section">
+          <h4>Target profile</h4>
+          <p>Active researchers and practitioners with strong publication records and policy engagement. Typically PhD-level in economics, social science, or related quantitative fields.</p>
+        </div>
+        <div class="panel-section">
+          <h4>Commitment &amp; compensation</h4>
+          <p>
+            <span class="compensation-badge">1–4 hrs/month, flexible</span>
+            <span class="compensation-badge">Paid for research surveying</span>
+            <span class="compensation-badge">Incentive pay for recommendations</span>
+          </p>
+        </div>
+        <div class="panel-section">
+          <p><a href="https://info.unjournal.org/for-evaluators.html">Interested in becoming a field specialist? See the evaluator/specialist page.</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-uras" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--amber-node);">
+        <h3>Unjournal Research Affiliates (URAs)</h3>
+        <div class="role-tagline">Early-career researchers who recommend papers and contribute assessments</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>About this role</h4>
+          <p>27 URAs contribute to research prioritization, evaluation management, and field expertise. The URA role is designed for early-career researchers and PhD students who can assess research impact but have limited time.</p>
+        </div>
+        <div class="panel-section">
+          <h4>Responsibilities</h4>
+          <ul>
+            <li>Recommend 2–3 papers per academic term with impact rationale</li>
+            <li>Complete three "second opinion" assessments per term</li>
+            <li>Participate in monthly voting on prioritized papers</li>
+            <li>Maintain semi-active Slack presence</li>
+            <li>Attend minimum one annual meeting (1 hour)</li>
+            <li>Optionally advise on evaluation manager suggestions</li>
+          </ul>
+        </div>
+        <div class="panel-section">
+          <h4>Target profile</h4>
+          <p>Early-career researchers and PhD students who can assess research impact in quantitative social science fields. Designed for busy schedules with no strict baseline commitment.</p>
+        </div>
+        <div class="panel-section">
+          <h4>Commitment &amp; compensation</h4>
+          <p>
+            <span class="compensation-badge">Low time commitment; no strict baseline</span>
+            <span class="compensation-badge">No baseline pay; incentive pay for recommendations</span>
+          </p>
+        </div>
+        <div class="panel-section">
+          <p><a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" target="_blank">Interested in becoming a URA? Apply here.</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-evaluators" class="role-panel">
+      <div class="panel-header" style="border-left: 4px solid var(--amber-node);">
+        <h3>Evaluator Pool</h3>
+        <div class="role-tagline">Expert researchers who conduct paid evaluations of specific papers</div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-section">
+          <h4>Scale &amp; independence</h4>
+          <p>Over 200 people have signed up to assess research for The Unjournal, including approximately 90 PhD holders and 40 professors. <strong>The Evaluator Pool is a distinct, separate role</strong> — members in any other role (Management Committee, Advisory Board, Field Specialists, URAs) may also participate in the Evaluator Pool for specific papers where they have relevant expertise.</p>
+        </div>
+        <div class="panel-section">
+          <h4>Subject areas</h4>
+          <div class="members-grid" style="grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));">
+            <div class="member-item">Development economics</div>
+            <div class="member-item">Global health and well-being</div>
+            <div class="member-item">Economics, welfare, and governance</div>
+            <div class="member-item">Psychology and behavioral science</div>
+            <div class="member-item">Innovation and meta-science</div>
+            <div class="member-item">Environmental economics</div>
+            <div class="member-item">Animal welfare</div>
+            <div class="member-item">Catastrophic risks and AI governance</div>
+          </div>
+        </div>
+        <div class="panel-section">
+          <h4>What evaluators do</h4>
+          <ul>
+            <li>Provide substantive written feedback on assigned research papers</li>
+            <li>Rate papers on quality, rigor, and relevance metrics</li>
+            <li>May provide quantitative predictions about research claims</li>
+            <li>Evaluations published publicly on <a href="https://unjournal.pubpub.org" target="_blank">unjournal.pubpub.org</a></li>
+          </ul>
+        </div>
+        <div class="panel-section">
+          <h4>Compensation</h4>
+          <p>
+            <span class="compensation-badge">Paid per evaluation completed</span>
+            <span class="compensation-badge">Annual evaluator prizes ($6,500 total, 2024–25)</span>
+          </p>
+        </div>
+        <div class="panel-section">
+          <p><a href="https://info.unjournal.org/for-evaluators.html">Learn more and sign up to be an evaluator.</a></p>
+          <p style="margin-top:0.4rem;"><a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Statistics-Evaluator-pool_sunNUx0l#_luakesYJ" target="_blank">View evaluator pool statistics.</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proposed / Unfilled Roles collapsible -->
+    <div class="proposed-roles-box" id="proposed-roles-box" style="margin-top:1rem;">
+      <div class="panel-header" onclick="document.getElementById('proposed-roles-box').classList.toggle('open')" style="border-left: 4px dashed var(--border);">
+        <h3>Proposed future roles (not currently filled)</h3>
+        <span style="font-size:0.85rem; color:var(--text-light);">click to expand</span>
+      </div>
+      <div class="panel-body" style="padding:1rem 1.5rem 1.25rem;">
+        <div class="panel-section">
+          <h4>Communications / Writing &amp; PR Specialist</h4>
+          <p>Promotion, internal and external communications, process documentation, and research dissemination. Skills: strong writing across academic, journalistic, and technical contexts; understanding of research institutions.</p>
+          <p><span class="compensation-badge">~200 hrs budgeted</span> <span class="compensation-badge">$30–55/hr</span> <span class="compensation-badge">Not currently hiring</span></p>
+        </div>
+        <div class="panel-section">
+          <h4>Research and Evaluation Specialist</h4>
+          <p>Identify and synthesize relevant research, build evaluator pools for new areas, synthesize evaluation insights into accessible summaries, liaise with researchers and policymakers.</p>
+          <p><span class="compensation-badge">~300 hrs budgeted</span> <span class="compensation-badge">$25–55/hr</span> <span class="compensation-badge">Not currently hiring</span></p>
+        </div>
+        <div class="panel-section">
+          <p>Interested in a future role? Email <a href="mailto:contact@unjournal.org">contact@unjournal.org</a> to express interest.</p>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end org-chart-wrapper -->
+
+  <p style="font-size:0.85rem; color:var(--text-light); text-align:center; margin-top:0.75rem; margin-bottom:2.5rem;">
+    The chart shows formal role categories. The Management Committee guides Unjournal decision-making, vision, and structure — roles like Field Specialists and URAs operate with substantial autonomy. Anyone in any role may also participate as an evaluator. The Evaluator Pool is an independent, parallel track.
+  </p>
+
+  <!-- Full role reference -->
+  <div class="roles-reference">
+    <h2>Roles at a Glance</h2>
+
+    <div class="role-card" id="rc-governance">
+      <div class="role-card-header" onclick="toggleRoleCard('rc-governance')">
+        <div class="role-card-title">
+          <span class="role-badge badge-governance"></span>
+          Governance &amp; Leadership Roles
+        </div>
+        <span class="role-card-toggle">&#8964;</span>
+      </div>
+      <div class="role-card-body">
+        <p>The <strong>Founding Director</strong> and <strong>Co-Director</strong> lead The Unjournal's overall strategy, fundraising, and operations. The <strong>Management Committee</strong> consists of senior researchers who guide decision-making, organizational vision, and structure — including research priorities, evaluation policy, and prize programs. Typical commitment is 15–20 hours per year at $57.50/hr, plus $300–$450 per paper as evaluation managers. The <strong>Advisory Board</strong> provides broader institutional guidance and disciplinary expertise with a flexible time commitment. The <strong>Operations Lead</strong> (currently unfilled) works closely with the Founding Director on day-to-day administration and budget oversight.</p>
+        <p>See full details: <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/organizational-roles-and-responsibilities" target="_blank">organizational roles and responsibilities (GitBook)</a></p>
+      </div>
+    </div>
+
+    <div class="role-card" id="rc-operational">
+      <div class="role-card-header" onclick="toggleRoleCard('rc-operational')">
+        <div class="role-card-title">
+          <span class="role-badge badge-operational"></span>
+          Operational &amp; Research Roles
+        </div>
+        <span class="role-card-toggle">&#8964;</span>
+      </div>
+      <div class="role-card-body">
+        <p><strong>Field Specialists</strong> are active researchers who monitor designated fields monthly, sourcing and assessing papers — 1–4 hours/month, paid for their work. <strong>Unjournal Research Affiliates (URAs)</strong> are typically early-career researchers contributing paper recommendations and second-opinion assessments on a flexible schedule. <strong>Ops/Project Contractors</strong> support communications, web development, data management, and event coordination on a project basis.</p>
+        <p>Interested in any of these roles? <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" target="_blank">Apply here</a> or email <a href="mailto:contact@unjournal.org">contact@unjournal.org</a>.</p>
+      </div>
+    </div>
+
+    <div class="role-card" id="rc-evaluators">
+      <div class="role-card-header" onclick="toggleRoleCard('rc-evaluators')">
+        <div class="role-card-title">
+          <span class="role-badge badge-operational"></span>
+          Evaluator Pool
+        </div>
+        <span class="role-card-toggle">&#8964;</span>
+      </div>
+      <div class="role-card-body">
+        <p>The Evaluator Pool is The Unjournal's largest group — over 200 researchers who have signed up to conduct paid evaluations of specific assigned papers. Evaluators are recruited by evaluation managers, matched to their expertise, and paid per evaluation. Their work — written feedback, ratings, and quantitative predictions — is published openly on <a href="https://unjournal.pubpub.org" target="_blank">PubPub</a>. Annual prizes of $6,500 recognize outstanding evaluation work.</p>
+        <p><a href="https://info.unjournal.org/for-evaluators.html">Learn more on the evaluator page.</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Links -->
+  <div class="links-section">
+    <h3>Related pages</h3>
+    <div class="links-grid">
+      <div class="link-card">
+        <a href="https://info.unjournal.org/team.html">Team page</a>
+        <p>Photos and bios for management team, advisory board, and field specialists</p>
+      </div>
+      <div class="link-card">
+        <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/organizational-roles-and-responsibilities" target="_blank">Role descriptions (GitBook)</a>
+        <p>Full role descriptions with time commitments and compensation details</p>
+      </div>
+      <div class="link-card">
+        <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1/discussion-team/" target="_blank">Team list (GitBook)</a>
+        <p>Full team list auto-synced from Coda</p>
+      </div>
+      <div class="link-card">
+        <a href="https://info.unjournal.org/for-evaluators.html">For evaluators</a>
+        <p>Sign up to evaluate research, learn about compensation and process</p>
+      </div>
+      <div class="link-card">
+        <a href="https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq" target="_blank">Join The Unjournal</a>
+        <p>Apply to join as a field specialist, URA, evaluator, or management team member</p>
+      </div>
+      <div class="link-card">
+        <a href="https://unjournal.pubpub.org" target="_blank">Evaluations (PubPub)</a>
+        <p>Published evaluations, ratings, and author responses</p>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p><a href="https://unjournal.org">The Unjournal</a> &middot; <a href="https://info.unjournal.org/">info.unjournal.org</a> &middot; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+  <p style="margin-top:0.5rem; font-size:0.82rem;">A US 501(c)(3) nonprofit. Open evaluation of impactful research.</p>
+</footer>
+
+<script>
+  // Toggle a role panel in the org chart
+  function togglePanel(roleId) {
+    var panelId = 'panel-' + roleId;
+    var nodeId = 'node-' + roleId;
+    var panel = document.getElementById(panelId);
+    var node = document.getElementById(nodeId);
+    if (!panel) return;
+
+    var isVisible = panel.classList.contains('visible');
+
+    // Close all panels
+    document.querySelectorAll('.role-panel').forEach(function(p) {
+      p.classList.remove('visible');
+    });
+    document.querySelectorAll('.org-node').forEach(function(n) {
+      n.classList.remove('expanded');
+    });
+
+    if (!isVisible) {
+      panel.classList.add('visible');
+      if (node) node.classList.add('expanded');
+
+      // Scroll panel into view
+      setTimeout(function() {
+        panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 50);
+    }
+  }
+
+  // Toggle role reference cards
+  function toggleRoleCard(cardId) {
+    var card = document.getElementById(cardId);
+    if (!card) return;
+    card.classList.toggle('open');
+  }
+
+  // Keyboard accessibility for org nodes
+  document.querySelectorAll('.org-node').forEach(function(node) {
+    node.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        node.click();
+      }
+    });
+  });
+
+  // Draw SVG connecting lines between org levels
+  function drawConnectors() {
+    var chartEl = document.getElementById('orgChart');
+    var svgEl = document.getElementById('svg-connectors');
+    if (!svgEl || !chartEl) return;
+
+    var chartRect = chartEl.getBoundingClientRect();
+
+    function getCenter(el) {
+      var r = el.getBoundingClientRect();
+      return {
+        x: r.left - chartRect.left + r.width / 2,
+        y: r.top - chartRect.top + r.height / 2,
+        top: r.top - chartRect.top,
+        bottom: r.top - chartRect.top + r.height,
+        left: r.left - chartRect.left,
+        right: r.left - chartRect.left + r.width,
+        width: r.width
+      };
+    }
+
+    var lines = [];
+
+    // Director ↔ Director double line
+    var fd = getCenter(document.getElementById('node-founding-director'));
+    var cd = getCenter(document.getElementById('node-co-director'));
+    lines.push('<line class="connector-double" x1="' + fd.right + '" y1="' + (fd.top + fd.y - fd.top * 1 + 10) + '" x2="' + cd.left + '" y2="' + (cd.top + cd.y - cd.top * 1 + 10) + '" />');
+
+    function midY(a, b) { return (a.bottom + b.top) / 2; }
+
+    var mgmt = getCenter(document.getElementById('node-management'));
+    var adv = getCenter(document.getElementById('node-advisory'));
+    var ops = getCenter(document.getElementById('node-ops'));
+    var fs = getCenter(document.getElementById('node-field-specialists'));
+    var uras = getCenter(document.getElementById('node-uras'));
+    var ev = getCenter(document.getElementById('node-evaluators'));
+
+    // Founding Director → Management
+    var fdCenter = getCenter(document.getElementById('node-founding-director'));
+    var mid1 = midY(fdCenter, mgmt);
+    lines.push('<polyline class="connector-line" points="' + fdCenter.x + ',' + fdCenter.bottom + ' ' + fdCenter.x + ',' + mid1 + ' ' + mgmt.x + ',' + mid1 + ' ' + mgmt.x + ',' + mgmt.top + '" />');
+
+    // Management → Advisory (horizontal)
+    lines.push('<line class="connector-line" x1="' + mgmt.right + '" y1="' + mgmt.y + '" x2="' + adv.left + '" y2="' + adv.y + '" />');
+
+    // Director → Ops (direct)
+    var mid2 = midY(fdCenter, ops);
+    lines.push('<polyline class="connector-line" points="' + fdCenter.x + ',' + fdCenter.bottom + ' ' + fdCenter.x + ',' + mid2 + ' ' + ops.x + ',' + mid2 + ' ' + ops.x + ',' + ops.top + '" />');
+
+    // Management → Field Specialists
+    var mid3 = midY(mgmt, fs);
+    lines.push('<polyline class="connector-line" points="' + mgmt.x + ',' + mgmt.bottom + ' ' + mgmt.x + ',' + mid3 + ' ' + fs.x + ',' + mid3 + ' ' + fs.x + ',' + fs.top + '" />');
+
+    // Management → URAs (via Advisory connection level)
+    lines.push('<polyline class="connector-line" points="' + adv.x + ',' + adv.bottom + ' ' + adv.x + ',' + mid3 + ' ' + uras.x + ',' + mid3 + ' ' + uras.x + ',' + uras.top + '" />');
+
+    // Field Specialists → Evaluator Pool
+    var mid4 = midY(fs, ev);
+    lines.push('<polyline class="connector-line" points="' + fs.x + ',' + fs.bottom + ' ' + fs.x + ',' + mid4 + ' ' + ev.x + ',' + mid4 + ' ' + ev.x + ',' + ev.top + '" />');
+
+    svgEl.innerHTML = lines.join('\n');
+  }
+
+  // Draw on load and resize
+  window.addEventListener('load', function() {
+    setTimeout(drawConnectors, 100);
+  });
+  window.addEventListener('resize', drawConnectors);
+</script>
+</body>
+</html>

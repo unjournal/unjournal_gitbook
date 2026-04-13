@@ -1,8 +1,12 @@
 ---
-description: "Auto-generated from Coda. Last synced: 2026-02-19"
+description: "Auto-generated from Coda. Last synced: 2026-04-13"
 ---
 
 # Our Team
+
+{% hint style="info" %}
+**Visual overviews:** [Team page with photos](https://info.unjournal.org/team.html) · [Interactive org chart](https://info.unjournal.org/org-chart.html) — role descriptions, hover-overs, and member lists.
+{% endhint %}
 
 ## Management Team
 
@@ -14,17 +18,18 @@ description: "Auto-generated from Coda. Last synced: 2026-02-19"
 - [Gavin Taylor](https://www.linkedin.com/in/gavin-taylor-9a409453/?originalSubdomain=br) — IGDORE, Neurosci.
 - [Hansika Kapoor](https://www.hansikakapoor.in/) — Monk Prayogshala, Psych.
 - [Ryan Briggs](https://www.ryancbriggs.net/) — University of Guelph, Pol. Sci
+- [Valentin Klotzbücher](https://valentink.quarto.pub/) — University Hospital Basel, GH (also Field Specialist)
 
 ## Advisory Board
 
-- [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea) — University of Melbourne,RepliCATS
+- [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea) — University of Melbourne, RepliCATS
 - Daniela Cialfi — Econ.
-- Davit Jintcharadze (former Operations Manager)
+- [Rosie Bettle](https://uk.linkedin.com/in/rosie-bettle-84a1051b0) — Founders Pledge (also Field Specialist)
 - [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en) — North-West University, South Africa, Econ.
 - [Gustav Nilsonne](https://nilsonne.net/) — Karolinska Institutet, Neurosci.
 - [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/) — Asterisk magazine, Pub. health
-- [Jordan Dworkin](https://jordandworkin.com/) — Federation of American Scientists, Biostats.
-- [Kris Gulati](https://sites.google.com/view/kris-gulati/home) — UC Merced, Econ.
+- [Jordan Dworkin](https://jordandworkin.com/) — Open Philanthropy
+- [Kris Gulati](https://sites.google.com/view/kris-gulati/home) — UC Berkeley, Econ.
 - Lorenzo Pacchiardi — Leverhulme Centre for the Future of Intelligence
 - [Michael Wiebe](https://michaelwiebe.com/) — Econ.
 - [Nicolas Treich](https://scholar.google.fr/citations?user=-S6D7OsAAAAJ&hl=en) — Institut National de la Recherche pour l’Agriculture,l’Alimentation et l’Environnement (INRAe), Econ.
@@ -38,6 +43,9 @@ description: "Auto-generated from Coda. Last synced: 2026-02-19"
 - [Ben Balmford](https://www.benbalmford.com/) — Exeter, Econ.
 - [Brinda Poojary](https://www.linkedin.com/in/brinda-poojary-phd-ba075458/?originalSubdomain=in) — Humane Society International - India,India Animal Fund
 - [Bryan Weber](https://www.linkedin.com/in/bryan-s-weber/) — CUNY
+- [Chisom Nri-Ezedi](https://www.linkedin.com/in/chisom-nri-ezedi-mbbs-md-mph-phd-fwacp-5a1325123) — Global Public Health
+- [Elena Briones Alonso](https://www.linkedin.com/in/elena-brionesalonso) — Development Economics
+- [Elise Racine](https://www.linkedin.com/in/eliseeracine/) — Global Public Health
 - [Carina Ines Hausladen](https://carinahausladen.github.io/) — EtH Zurich, Econ.
 - [Charlotte Lane](https://www.foodsecurityevidence.com/) — Food Security Evidence Brokerage,3ie
 - [David Manheim](https://scholar.google.com/citations?user=6-M1ZIUAAAAJ&hl=en) — Association for Long Term Existence and Resilience (ALTER),Technion - Israel Institute of Technology, Econ.
@@ -62,7 +70,7 @@ description: "Auto-generated from Coda. Last synced: 2026-02-19"
 - Nathan Fiala — University of Connecticut, Econ.
 - [Priya Lall](https://www.linkedin.com/in/priya-lall-64152816/) — University of Oxford
 - Rakefet Cohen Ben-Arye
-- [Rosie Bettle](https://uk.linkedin.com/in/rosie-bettle-84a1051b0?original_referer=https%3A%2F%2Fwww.google.com%2F) — Founders Pledge
+- [Rosie Bettle](https://uk.linkedin.com/in/rosie-bettle-84a1051b0) — Founders Pledge (also Advisory Board)
 - [Sarah Anne Reynolds](https://sites.google.com/view/sarah-a-reynolds/home) — World Bank, Econ., GH
 - Sean Brocklebank — Econ.
 - [Tabare Capitan](https://www.tabarecapitan.com) — SLU - Swedish University of Agricultural Sciences, Econ.

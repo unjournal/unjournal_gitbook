@@ -5,7 +5,7 @@ coverY: 0
 # An Introduction to The Unjournal
 
 {% hint style="info" %}
-**Quick links:** [About landing page](https://info.unjournal.org/about.html) | [For authors](https://info.unjournal.org/for-authors.html) | [For evaluators](https://info.unjournal.org/for-evaluators.html) | [All info pages](https://info.unjournal.org/)
+**Quick links:** [About landing page](https://info.unjournal.org/about.html) | [For authors](https://info.unjournal.org/for-authors.html) | [For evaluators](https://info.unjournal.org/for-evaluators.html) | [Team & org chart](https://info.unjournal.org/team.html) | [All info pages](https://info.unjournal.org/)
 {% endhint %}
 
 ## In a nutshell
