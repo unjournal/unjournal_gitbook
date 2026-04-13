@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Evaluations — The Unjournal</title>
+  <meta name="description" content="Browse 100+ open peer evaluations of research informing global priorities. Learn about The Unjournal's two evaluation tracks, rating criteria, and research focus areas.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "The Unjournal",
+        "url": "https://unjournal.org",
+        "logo": "https://info.unjournal.org/unjournal-logo.jpg",
+        "description": "Open evaluation of quantitative research informing global priorities",
+        "email": "contact@unjournal.org",
+        "sameAs": [
+          "https://unjournal.pubpub.org",
+          "https://www.wikidata.org/wiki/Q138041434"
+        ]
+      },
+      {
+        "@type": "Periodical",
+        "name": "The Unjournal",
+        "issn": "3071-2173",
+        "url": "https://unjournal.pubpub.org",
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Unjournal",
+          "url": "https://unjournal.org"
+        }
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="Our Evaluations — The Unjournal">
+  <meta property="og:description" content="Browse 100+ open peer evaluations of research informing global priorities.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-dark: #0d1f30;
+      --accent: #2e86c1;
+      --accent-light: #5dade2;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 1100px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #0d1f30, #1a3a5c, #1a4a6c);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    header .org-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      opacity: 0.7;
+      margin-bottom: 0.5rem;
+      position: relative;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+      position: relative;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+      font-style: italic;
+      position: relative;
+    }
+
+    /* Stat bar */
+    .stat-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+      background: rgba(255,255,255,0.07);
+      border-top: 1px solid rgba(255,255,255,0.12);
+      margin-top: 2rem;
+      position: relative;
+    }
+
+    .stat-item {
+      flex: 1;
+      min-width: 160px;
+      text-align: center;
+      padding: 1.25rem 1rem;
+      border-right: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .stat-item:last-child { border-right: none; }
+
+    .stat-item .stat-number {
+      display: block;
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #f4d03f;
+      line-height: 1;
+      margin-bottom: 0.35rem;
+    }
+
+    .stat-item .stat-label {
+      font-size: 0.82rem;
+      opacity: 0.75;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+    }
+
+    /* Nav */
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 0.8rem;
+      font-size: 0.88rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    nav a:hover { color: var(--accent); text-decoration: none; }
+
+    nav .nav-all-pages {
+      background: var(--primary);
+      color: var(--white);
+      padding: 0.3rem 0.85rem;
+      border-radius: 4px;
+      font-size: 0.82rem;
+      margin-left: 1rem;
+    }
+
+    nav .nav-all-pages:hover { background: var(--accent); color: var(--white); }
+
+    /* Sections */
+    section {
+      padding: 4rem 1.5rem;
+    }
+
+    .section-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.85rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 3px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 0.6rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    .section-light { background: var(--white); }
+    .section-alt { background: var(--light-bg); }
+
+    /* Callout box */
+    .callout {
+      background: #eef4fb;
+      border-left: 5px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      margin: 1.75rem 0;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.97rem;
+    }
+
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* Track cards */
+    .tracks-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .track-card {
+      background: var(--white);
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 3px 14px rgba(0,0,0,0.06);
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .track-card:hover {
+      box-shadow: 0 6px 22px rgba(0,0,0,0.1);
+      border-color: var(--accent);
+    }
+
+    .track-card .track-label {
+      display: inline-block;
+      background: var(--primary);
+      color: var(--white);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.25rem 0.7rem;
+      border-radius: 3px;
+      margin-bottom: 1rem;
+    }
+
+    .track-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .track-card ul {
+      margin: 0 0 0 1.25rem;
+      padding: 0;
+    }
+
+    .track-card li {
+      margin-bottom: 0.55rem;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .track-note {
+      background: var(--light-bg);
+      border-top: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+      margin-top: 1.5rem;
+      border-radius: 8px;
+      font-size: 0.92rem;
+      color: var(--text-light);
+    }
+
+    /* Criteria table */
+    .criteria-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.75rem 0;
+      font-size: 0.95rem;
+    }
+
+    .criteria-table thead th {
+      background: var(--primary);
+      color: var(--white);
+      padding: 0.85rem 1.1rem;
+      text-align: left;
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-weight: 700;
+    }
+
+    .criteria-table thead th:first-child { border-radius: 6px 0 0 0; }
+    .criteria-table thead th:last-child { border-radius: 0 6px 0 0; }
+
+    .criteria-table tbody tr:nth-child(even) {
+      background: var(--light-bg);
+    }
+
+    .criteria-table tbody tr:hover {
+      background: #e8f0f8;
+    }
+
+    .criteria-table td {
+      padding: 0.85rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    .criteria-table td:first-child {
+      font-weight: 600;
+      color: var(--primary);
+      width: 30%;
+      white-space: nowrap;
+    }
+
+    .criteria-extra {
+      margin-top: 1.25rem;
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      font-size: 0.92rem;
+    }
+
+    .criteria-extra p:last-child { margin-bottom: 0; }
+
+    /* Research areas grid */
+    .areas-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+      margin: 2rem 0;
+    }
+
+    .area-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.4rem 1.25rem;
+      transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+    }
+
+    .area-card:hover {
+      box-shadow: 0 5px 18px rgba(0,0,0,0.09);
+      border-color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    .area-card h3 {
+      font-size: 0.98rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.35;
+    }
+
+    .area-card p {
+      font-size: 0.87rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    /* Access section */
+    .access-meta {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      font-size: 0.93rem;
+    }
+
+    .access-meta p { margin-bottom: 0.4rem; }
+    .access-meta p:last-child { margin-bottom: 0; }
+
+    .cta-buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1.75rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.75rem;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.97rem;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+      font-family: Georgia, 'Times New Roman', serif;
+    }
+
+    .btn:hover { transform: translateY(-2px); text-decoration: none; }
+
+    .btn-primary {
+      background: var(--accent);
+      color: var(--white);
+    }
+
+    .btn-primary:hover { background: #2471a3; color: var(--white); }
+
+    .btn-outline {
+      background: var(--white);
+      color: var(--primary);
+      border: 2px solid var(--primary);
+    }
+
+    .btn-outline:hover { background: var(--primary); color: var(--white); }
+
+    /* Submit section */
+    .submit-info {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2.5rem;
+      align-items: start;
+      margin: 1.5rem 0;
+    }
+
+    .submit-info ul {
+      margin: 0.75rem 0 0.75rem 1.25rem;
+      padding: 0;
+    }
+
+    .submit-info li {
+      margin-bottom: 0.55rem;
+      font-size: 0.95rem;
+    }
+
+    .submit-aside {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .submit-aside .turnaround {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .submit-aside p {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 1.25rem;
+    }
+
+    .submit-aside p:last-child { margin-bottom: 0; }
+
+    /* Final CTA section */
+    .final-cta {
+      background: var(--primary-dark);
+      color: var(--white);
+      text-align: center;
+      padding: 4rem 1.5rem;
+    }
+
+    .final-cta h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.9rem;
+      color: var(--white);
+      border: none;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    .final-cta p {
+      font-size: 1.05rem;
+      opacity: 0.85;
+      max-width: 560px;
+      margin: 0 auto 2rem;
+    }
+
+    .final-cta .cta-buttons {
+      justify-content: center;
+    }
+
+    .btn-white {
+      background: var(--white);
+      color: var(--primary-dark);
+      border: 2px solid var(--white);
+    }
+
+    .btn-white:hover { background: transparent; color: var(--white); }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,0.5);
+    }
+
+    .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+
+    /* Footer */
+    footer {
+      background: #0d1f30;
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.88rem;
+    }
+
+    footer a {
+      color: var(--accent-light);
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    .footer-links { margin-bottom: 0.75rem; }
+
+    .footer-copy { margin-bottom: 0.5rem; }
+
+    .footer-note {
+      font-size: 0.8rem;
+      opacity: 0.55;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .tracks-grid { grid-template-columns: 1fr; }
+      .areas-grid { grid-template-columns: repeat(2, 1fr); }
+      .submit-info { grid-template-columns: 1fr; }
+      header h1 { font-size: 2rem; }
+    }
+
+    @media (max-width: 600px) {
+      .areas-grid { grid-template-columns: 1fr; }
+      .stat-item { min-width: 140px; }
+      nav a { margin: 0 0.4rem; font-size: 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 60px; margin-bottom: 0.75rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>Our Evaluations</h1>
+  <p class="subtitle">Open, rigorous evaluation of quantitative research — published with DOIs, not locked behind journal decisions.</p>
+  <div class="stat-bar">
+    <div class="stat-item">
+      <span class="stat-number">100+</span>
+      <span class="stat-label">Evaluations published</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">55+</span>
+      <span class="stat-label">Papers evaluated</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">2–3</span>
+      <span class="stat-label">Evaluators per paper</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">7</span>
+      <span class="stat-label">Rating criteria</span>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#tracks">Two Tracks</a>
+  <a href="#criteria">Rating Criteria</a>
+  <a href="#research-areas">Research Areas</a>
+  <a href="#access">Access</a>
+  <a href="#submit">Submit</a>
+  <a href="index.html#explore" class="nav-all-pages">All Pages</a>
+</nav>
+
+<!-- Section 1: Overview -->
+<section id="overview" class="section-light">
+  <div class="section-inner">
+    <h2>Overview</h2>
+    <p>The Unjournal publishes expert evaluations of quantitative research informing global priorities. Each evaluation includes a structured written assessment and numerical ratings across seven criteria, with evaluator-provided confidence intervals. All evaluations are open-access and assigned DOIs via PubPub and Crossref.</p>
+    <p>We work with researchers whose work bears on important global challenges — in global health and development, animal welfare, catastrophic risks, environmental policy, and related areas. Evaluators are field specialists selected by our management team and field specialists network.</p>
+
+    <div class="callout">
+      <p><strong>We are not a journal.</strong> Authors do not "submit to" The Unjournal for acceptance or rejection. We evaluate research that already exists — working papers, preprints, and published papers — and publish those evaluations openly alongside the work.</p>
+    </div>
+
+    <p>Authors are notified when their work is selected for evaluation and receive the evaluations before publication, with the opportunity to respond. Evaluator identity may be kept confidential at the evaluator's discretion.</p>
+  </div>
+</section>
+
+<!-- Section 2: Two Tracks -->
+<section id="tracks" class="section-alt">
+  <div class="section-inner">
+    <h2>Two Evaluation Tracks</h2>
+    <p>Research enters our evaluation process through one of two routes. Both tracks use the same evaluation standards, the same publication format, and the same author engagement process.</p>
+
+    <div class="tracks-grid">
+      <div class="track-card">
+        <span class="track-label">Track 1</span>
+        <h3>Commissioned Evaluations</h3>
+        <ul>
+          <li>The Unjournal's management committee and field specialists identify high-priority research and commission evaluations proactively.</li>
+          <li>The research team contacts authors to inform them and invite engagement.</li>
+          <li>Authors receive completed evaluations before publication and may write a response.</li>
+          <li>Most of our evaluations to date have followed this track.</li>
+        </ul>
+      </div>
+
+      <div class="track-card">
+        <span class="track-label">Track 2</span>
+        <h3>Author-Submitted or Recommended</h3>
+        <ul>
+          <li>Authors submit their own working papers or preprints directly for evaluation.</li>
+          <li>Researchers may also recommend others' work for consideration.</li>
+          <li>All submissions are reviewed by our management team for fit with research priorities.</li>
+          <li>If accepted, 2–3 evaluators are commissioned and the standard process follows.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="track-note">
+      Both tracks: same evaluation standards &middot; same publication format &middot; same author engagement process &middot; same DOI assignment and open-access publication
+    </div>
+  </div>
+</section>
+
+<!-- Section 3: Rating Criteria -->
+<section id="criteria" class="section-light">
+  <div class="section-inner">
+    <h2>Rating Criteria</h2>
+    <p>Each evaluator rates the paper on seven criteria using a 0–100 scale. For each rating, evaluators also provide a lower and upper confidence bound, representing uncertainty in their assessment. The criteria are:</p>
+
+    <table class="criteria-table">
+      <thead>
+        <tr>
+          <th style="width: 28%;">Criterion</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Overall assessment</td>
+          <td>Holistic quality and contribution of the research</td>
+        </tr>
+        <tr>
+          <td>Advancing knowledge</td>
+          <td>Contribution to understanding and practice in the field</td>
+        </tr>
+        <tr>
+          <td>Methods</td>
+          <td>Justification, reasonableness, and validity of methods used</td>
+        </tr>
+        <tr>
+          <td>Logic and communication</td>
+          <td>Clarity, rigor, and accessibility of the argument</td>
+        </tr>
+        <tr>
+          <td>Real-world relevance</td>
+          <td>Applicability to policy, practice, or real decisions</td>
+        </tr>
+        <tr>
+          <td>Global priorities relevance</td>
+          <td>Relevance to causes of high importance to humanity</td>
+        </tr>
+        <tr>
+          <td>Open science</td>
+          <td>Data availability, pre-registration, reproducibility</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="criteria-extra">
+      <p>In addition to the 0–100 ratings, evaluators provide two further assessments: a <strong>predicted journal tier</strong> (ordinal ranking of the venue where this paper would likely be published), and a judgment of whether the paper <strong>merits journal publication</strong> (yes / borderline / no).</p>
+      <p>All numerical ratings are accompanied by evaluator-specified lower and upper confidence bounds, making uncertainty explicit rather than hidden.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 4: Research Priority Areas -->
+<section id="research-areas" class="section-alt">
+  <div class="section-inner">
+    <h2>Research Priority Areas</h2>
+    <p>We prioritize quantitative research in areas where rigorous evidence most directly bears on reducing suffering and improving outcomes at scale.</p>
+
+    <div class="areas-grid">
+      <div class="area-card">
+        <h3>Global Health &amp; Development Economics</h3>
+        <p>RCTs, quasi-experimental studies, and systematic reviews of health interventions, poverty alleviation, education, and public policy in low- and middle-income contexts.</p>
+      </div>
+
+      <div class="area-card">
+        <h3>Animal Welfare (Markets, Attitudes, Interventions)</h3>
+        <p>Research on consumer behavior, corporate campaigns, welfare science, and policy affecting farm and wild animals.</p>
+      </div>
+
+      <div class="area-card">
+        <h3>Catastrophic Risks &amp; AI Governance</h3>
+        <p>Research on biosecurity, nuclear risk, AI safety and alignment, and governance of emerging technologies.</p>
+      </div>
+
+      <div class="area-card">
+        <h3>Environmental Economics</h3>
+        <p>Climate policy, natural capital, biodiversity, and the economics of environmental interventions.</p>
+      </div>
+
+      <div class="area-card">
+        <h3>Economics, Welfare, and Governance</h3>
+        <p>Political economy, behavioral public policy, development institutions, and evidence-based governance.</p>
+      </div>
+
+      <div class="area-card">
+        <h3>Psychology &amp; Behavioral Science</h3>
+        <p>Experimental and applied research on behavior change, attitudes, persuasion, and decision-making relevant to global priorities.</p>
+      </div>
+
+      <div class="area-card">
+        <h3>Innovation &amp; Meta-Science</h3>
+        <p>Research evaluation reform, open science, replication, and the sociology and economics of research production.</p>
+      </div>
+
+      <div class="area-card">
+        <h3>Global Priorities Research</h3>
+        <p>Theoretical and empirical work on how to prioritize interventions across cause areas, including cross-cause comparisons.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 5: Access Evaluations -->
+<section id="access" class="section-light">
+  <div class="section-inner">
+    <h2>Access Evaluations</h2>
+    <p>All evaluations are published open-access with DOIs. You can browse them on our PubPub community or explore aggregated ratings and trends using our interactive dashboard.</p>
+
+    <div class="access-meta">
+      <p><strong>ISSN:</strong> 3071-2173 &nbsp;&middot;&nbsp; <strong>DOI prefix:</strong> 10.21428/d28e8e57 (via PubPub / Crossref)</p>
+      <p><strong>Publisher:</strong> The Unjournal &nbsp;&middot;&nbsp; <strong>Access:</strong> All evaluations are freely available online</p>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="https://unjournal.pubpub.org/" class="btn btn-primary">Browse on PubPub</a>
+      <a href="https://unjournal.shinyapps.io/uj-dashboard/" class="btn btn-outline">Interactive dashboard</a>
+    </div>
+
+    <p>The interactive dashboard shows ratings distributions across papers, trends over time, and breakdowns by research area and evaluator. Data are updated as new evaluations are published.</p>
+  </div>
+</section>
+
+<!-- Section 6: Submit or Recommend Research -->
+<section id="submit" class="section-alt">
+  <div class="section-inner">
+    <h2>Submit or Recommend Research</h2>
+    <p>Authors may submit their own working papers or preprints for consideration. Researchers may also recommend others' work. We review all submissions for fit with our research priorities.</p>
+
+    <div class="submit-info">
+      <div>
+        <ul>
+          <li>Use the submission form to tell us about the paper and why it fits our priorities.</li>
+          <li>We review all submissions and respond with a decision on fit.</li>
+          <li>If accepted, we commission 2–3 evaluators with relevant expertise.</li>
+          <li>Authors receive evaluations before publication and may write a response.</li>
+          <li>Both the evaluations and any author response are published openly with DOIs.</li>
+        </ul>
+        <div class="cta-buttons" style="margin-top: 1.5rem;">
+          <a href="https://coda.io/form/Submit-your-research-for-Unjournal-evaluation_dR3oLpvDhOB" class="btn btn-primary">Submit or recommend research &rarr;</a>
+          <a href="for-authors.html" class="btn btn-outline">Full information for researchers &rarr;</a>
+        </div>
+      </div>
+
+      <div class="submit-aside">
+        <span class="turnaround">2–4 months</span>
+        <p>Typical turnaround from submission acceptance to evaluation publication</p>
+        <p style="font-size: 0.88rem; color: var(--text-light);">Timelines vary based on evaluator availability and research complexity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="final-cta">
+  <h2>Rigorous evaluation. Open science. No journal gatekeeping.</h2>
+  <p>All evaluations are open-access, citable with DOIs, and published alongside the research — not hidden behind editorial decisions.</p>
+  <div class="cta-buttons">
+    <a href="https://unjournal.pubpub.org/" class="btn btn-white">Browse evaluations</a>
+    <a href="https://coda.io/form/Submit-your-research-for-Unjournal-evaluation_dR3oLpvDhOB" class="btn btn-ghost">Submit your research</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://unjournal.org">unjournal.org</a>
+    <a href="https://unjournal.pubpub.org/">Evaluations</a>
+    <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a>
+    <a href="mailto:contact@unjournal.org">contact@unjournal.org</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 The Unjournal | unjournal.org</div>
+  <p class="footer-note">To make the best use of our limited resources, this page was created with the help of Claude Code. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>

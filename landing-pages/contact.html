@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — The Unjournal</title>
+  <meta name="description" content="Get in touch with The Unjournal. Contact us about evaluations, research submission, press inquiries, partnerships, or general questions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="Contact — The Unjournal">
+  <meta property="og:description" content="Reach The Unjournal team for evaluation inquiries, research submission, press, or partnerships.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-dark: #0d1f30;
+      --accent: #2e86c1;
+      --accent-light: #5dade2;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 860px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+      background: var(--light-bg);
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, #1a4a6c 100%);
+      color: var(--white);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header .org-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      opacity: 0.7;
+      margin-bottom: 0.5rem;
+    }
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+    }
+
+    header p.subtitle {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+      font-style: italic;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 0.7rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--accent); }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    section { margin-bottom: 3rem; }
+
+    .section-header {
+      margin-bottom: 1.5rem;
+    }
+    .section-header h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.5rem;
+      color: var(--primary);
+      padding-bottom: 0.3rem;
+      border-bottom: 3px solid var(--accent);
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    .section-header p {
+      color: var(--text-light);
+      margin-top: 0.4rem;
+    }
+
+    /* Contact cards */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.75rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .contact-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+
+    .contact-card h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-bottom: 0.6rem;
+    }
+
+    .contact-card p {
+      color: var(--text-light);
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-card .contact-link {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--accent);
+    }
+
+    /* General email block */
+    .primary-contact {
+      background: var(--white);
+      border: 2px solid var(--accent);
+      border-radius: 10px;
+      padding: 2rem 2.25rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .primary-contact .label {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1rem;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.82rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .primary-contact .email-addr {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .primary-contact .email-addr a {
+      color: var(--primary);
+    }
+
+    .primary-contact .email-note {
+      color: var(--text-light);
+      font-size: 0.9rem;
+      font-style: italic;
+      margin-top: 0.3rem;
+    }
+
+    /* Social links */
+    .social-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+
+    .social-link {
+      display: inline-block;
+      padding: 0.55rem 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--primary);
+      font-size: 0.92rem;
+      font-weight: 500;
+      background: var(--white);
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+
+    .social-link:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* Divider */
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+
+    /* Key links box */
+    .quick-links {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem 1.75rem;
+    }
+
+    .quick-links h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .quick-links ul {
+      list-style: none;
+      columns: 2;
+      column-gap: 2rem;
+    }
+
+    .quick-links ul li {
+      padding: 0.25rem 0;
+      font-size: 0.92rem;
+      break-inside: avoid;
+    }
+
+    .quick-links ul li::before {
+      content: "→ ";
+      color: var(--accent);
+    }
+
+    footer {
+      background: var(--primary-dark);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+    footer a { color: var(--accent-light); }
+    footer .meta { font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.9rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .primary-contact { padding: 1.5rem; }
+      .quick-links ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 60px; margin-bottom: 0.5rem; position: relative;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>Contact Us</h1>
+  <p class="subtitle">Questions, submissions, press inquiries, or partnership proposals — we'd like to hear from you.</p>
+</header>
+
+<nav>
+  <a href="#general">General</a>
+  <a href="#specific">By Topic</a>
+  <a href="#social">Follow Us</a>
+  <a href="#links">Key Links</a>
+  <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
+</nav>
+
+<main>
+
+  <section id="general">
+    <div class="section-header">
+      <h2>General Contact</h2>
+      <p>For most inquiries, email is the best route.</p>
+    </div>
+
+    <div class="primary-contact">
+      <div>
+        <div class="label">Main email</div>
+        <div class="email-addr"><a href="mailto:contact@unjournal.org">contact@unjournal.org</a></div>
+        <div class="email-note">We aim to respond within a few business days.</div>
+      </div>
+    </div>
+
+    <p>You can also reach us through any of the channels below, or by messaging the <a href="https://davidreinstein.org" target="_blank" rel="noopener">Founding Director</a> directly if your query is urgent.</p>
+  </section>
+
+  <hr>
+
+  <section id="specific">
+    <div class="section-header">
+      <h2>By Topic</h2>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <h3>Submit or Recommend Research</h3>
+        <p>Authors and researchers can submit papers directly through our Coda form. We review all submissions for fit with our research priorities.</p>
+        <a href="https://coda.io/form/Submit-your-research-for-Unjournal-evaluation_dR3oLpvDhOB" class="contact-link" target="_blank" rel="noopener">Submit via form</a>
+        <br><a href="for-authors.html" class="contact-link" style="font-size: 0.88rem;">Full information for researchers</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>Become an Evaluator</h3>
+        <p>Researchers interested in evaluating papers for The Unjournal can sign up through our Airtable form. We welcome researchers at all career stages.</p>
+        <a href="https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy" class="contact-link" target="_blank" rel="noopener">Sign up via form</a>
+        <br><a href="for-evaluators.html" class="contact-link" style="font-size: 0.88rem;">Full evaluator information</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>Press &amp; Media</h3>
+        <p>For press inquiries, interview requests, or to be added to our press list, please email us with "Press" in the subject line.</p>
+        <a href="mailto:contact@unjournal.org?subject=Press%20inquiry" class="contact-link">contact@unjournal.org</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>Partnerships &amp; Collaborations</h3>
+        <p>We are open to partnerships with research organizations, funders, open science initiatives, and policy institutions aligned with our mission.</p>
+        <a href="mailto:contact@unjournal.org?subject=Partnership%20inquiry" class="contact-link">contact@unjournal.org</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>Join the Team</h3>
+        <p>Interested in a Field Specialist, URA, advisory, or operational role? See our org chart for current openings, or get in touch.</p>
+        <a href="org-chart.html" class="contact-link">View org chart</a>
+        <br><a href="getting-involved.html" class="contact-link" style="font-size: 0.88rem;">Get involved overview</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>Support &amp; Donations</h3>
+        <p>The Unjournal is a nonprofit initiative. If you are interested in supporting our work financially, we'd welcome a conversation.</p>
+        <a href="donate.html" class="contact-link">Donate / Support us</a>
+        <br><a href="mailto:contact@unjournal.org?subject=Funding%20inquiry" class="contact-link" style="font-size: 0.88rem;">Discuss funding</a>
+      </div>
+
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="social">
+    <div class="section-header">
+      <h2>Follow Us</h2>
+      <p>Stay updated on new evaluations, announcements, and discussions.</p>
+    </div>
+
+    <div class="social-row">
+      <a href="https://bsky.app/profile/unjournal.bsky.social" class="social-link" target="_blank" rel="noopener">Bluesky</a>
+      <a href="https://www.linkedin.com/company/unjournal/" class="social-link" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://twitter.com/unjournal_" class="social-link" target="_blank" rel="noopener">X (Twitter)</a>
+      <a href="https://unjournal.pubpub.org/" class="social-link" target="_blank" rel="noopener">PubPub (evaluations)</a>
+      <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/" class="social-link" target="_blank" rel="noopener">GitBook docs</a>
+    </div>
+
+    <p style="margin-top: 1.25rem; color: var(--text-light); font-size: 0.92rem;">
+      See our full <a href="follow.html">follow &amp; social hub</a> for all channels, RSS, and newsletter sign-up.
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="links">
+    <div class="section-header">
+      <h2>Key Links</h2>
+    </div>
+    <div class="quick-links">
+      <h3>Useful destinations</h3>
+      <ul>
+        <li><a href="https://unjournal.pubpub.org/" target="_blank" rel="noopener">Evaluations on PubPub</a></li>
+        <li><a href="https://unjournal.shinyapps.io/uj-dashboard/" target="_blank" rel="noopener">Interactive dashboard</a></li>
+        <li><a href="evaluations.html">About our evaluations</a></li>
+        <li><a href="for-authors.html">For researchers / authors</a></li>
+        <li><a href="for-evaluators.html">For evaluators</a></li>
+        <li><a href="team.html">Our team</a></li>
+        <li><a href="org-chart.html">Org chart</a></li>
+        <li><a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/" target="_blank" rel="noopener">Full documentation (GitBook)</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="pivotal-questions.html">Pivotal Questions initiative</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+  <p class="meta">ISSN 3071-2173 &nbsp;|&nbsp; <a href="https://unjournal.pubpub.org">PubPub</a> &nbsp;|&nbsp; <a href="https://www.wikidata.org/wiki/Q138041434">Wikidata</a></p>
+</footer>
+
+</body>
+</html>

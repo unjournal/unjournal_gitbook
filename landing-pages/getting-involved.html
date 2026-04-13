@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved — The Unjournal</title>
+  <meta name="description" content="Evaluate research, submit your work, or join The Unjournal's open peer evaluation initiative. Remote, flexible roles for researchers at all career stages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <meta property="og:title" content="Get Involved — The Unjournal">
+  <meta property="og:description" content="Evaluate research, submit your work, or join The Unjournal's open peer evaluation initiative.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-dark: #0d1f30;
+      --accent: #2e86c1;
+      --accent-light: #5dade2;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --max-width: 1100px;
+      --success: #27ae60;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0d1f30, #1a3a5c, #1a4a6c);
+      color: var(--white);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    header .org-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+
+    header .org-label a { color: inherit; text-decoration: none; }
+
+    header h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    header p.subtitle {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.7rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    nav .nav-all-pages {
+      border-left: 1px solid var(--border);
+      padding-left: 0.9rem;
+      margin-left: 0.2rem;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+
+    section { margin-bottom: 3rem; }
+
+    h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.55rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    h3 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      margin-top: 1.25rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+      color: var(--primary);
+      margin-bottom: 0.25rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    /* Overview callout */
+    .overview-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem 1.5rem;
+      margin: 0 0 2.5rem;
+      border-radius: 0 6px 6px 0;
+      font-size: 1.02rem;
+      color: var(--text);
+    }
+
+    /* Highlight box */
+    .highlight-box {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.15rem 1.5rem;
+      margin: 1.25rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .highlight-box.success {
+      border-left-color: var(--success);
+      background: #e8f8f0;
+    }
+
+    /* Section divider */
+    .section-divider {
+      border: none;
+      height: 1px;
+      background: var(--border);
+      margin: 2.5rem 0;
+    }
+
+    /* CTA buttons */
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.7rem 1.75rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 0.3rem 0.3rem 0.3rem 0;
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover { background: #1a6ea0; color: var(--white); text-decoration: none; }
+
+    .cta-button.secondary {
+      background: var(--white);
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+
+    .cta-button.secondary:hover { background: var(--light-bg); color: var(--accent); }
+
+    /* Evaluation criteria list */
+    .criteria-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.4rem 1.5rem;
+      margin: 0.75rem 0 1rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    .criteria-list li {
+      padding: 0.3rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .criteria-list li::before {
+      content: "— ";
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Two-card grid (submit section) */
+    .two-card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .track-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.75rem 1.5rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .track-card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+
+    .track-card h3 {
+      margin-top: 0;
+      margin-bottom: 0.6rem;
+      font-size: 1.1rem;
+    }
+
+    .track-card p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 0.6rem;
+      line-height: 1.6;
+    }
+
+    .track-card ul {
+      font-size: 0.93rem;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .track-card .cta-button {
+      margin-top: 0.5rem;
+    }
+
+    /* Three-column grid (team roles) */
+    .three-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .role-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .role-card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      border-color: var(--accent);
+    }
+
+    .role-card h3 {
+      margin-top: 0;
+      margin-bottom: 0.6rem;
+      font-size: 1.05rem;
+      color: var(--primary);
+    }
+
+    .role-card p, .role-card ul {
+      font-size: 0.93rem;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 0.6rem;
+    }
+
+    .role-card .role-meta {
+      font-size: 0.87rem;
+      color: var(--text-light);
+      margin-bottom: 0.5rem;
+    }
+
+    .role-card .cta-button {
+      margin-top: auto;
+      padding-top: 0.6rem;
+      font-size: 0.9rem;
+      padding: 0.55rem 1.2rem;
+    }
+
+    /* Other ways section */
+    .ways-list {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+
+    .ways-list li {
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .ways-list li:last-child { border-bottom: none; }
+
+    .ways-list .way-label {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-weight: 700;
+      color: var(--primary);
+      min-width: 140px;
+      flex-shrink: 0;
+      font-size: 0.97rem;
+    }
+
+    .ways-list .way-desc {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* Final CTA block */
+    .final-cta {
+      background: linear-gradient(135deg, #0d1f30, #1a3a5c);
+      color: var(--white);
+      text-align: center;
+      padding: 3rem 1.5rem;
+      border-radius: 8px;
+      margin: 2.5rem 0 1rem;
+    }
+
+    .final-cta h2 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.55rem;
+      color: var(--white);
+      border-bottom: none;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .final-cta .cta-button {
+      background: var(--white);
+      color: var(--primary);
+      margin: 0.4rem;
+    }
+
+    .final-cta .cta-button:hover {
+      background: var(--light-bg);
+      color: var(--primary);
+    }
+
+    footer {
+      background: #0d1f30;
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a { color: #85c1e9; }
+
+    @media (max-width: 800px) {
+      header h1 { font-size: 1.65rem; }
+      header p.subtitle { font-size: 1rem; }
+      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      .two-card-grid { grid-template-columns: 1fr; }
+      .three-card-grid { grid-template-columns: 1fr; }
+      .criteria-list { grid-template-columns: 1fr; }
+      .cta-button { display: block; margin: 0.4rem auto; max-width: 320px; text-align: center; }
+      .ways-list .way-label { min-width: 110px; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 60px; margin-bottom: 0.5rem;"></a>
+  <div class="org-label"><a href="https://unjournal.org">The Unjournal</a></div>
+  <h1>Get Involved</h1>
+  <p class="subtitle">Evaluate research, submit your work, or join The Unjournal's team.</p>
+</header>
+
+<nav>
+  <a href="#evaluate">Evaluate</a>
+  <a href="#submit">Submit Research</a>
+  <a href="#join-team">Join the Team</a>
+  <a href="#contact">Other Ways</a>
+  <a href="index.html#explore" class="nav-all-pages">All Pages</a>
+</nav>
+
+<main>
+
+  <div class="overview-box">
+    The Unjournal is an open initiative. There are four ways to contribute &mdash; as an evaluator, a researcher, a field specialist or advisor, or a team member. All roles are remote and flexible.
+  </div>
+
+  <!-- Section 1: Evaluate -->
+  <section id="evaluate">
+    <h2>Evaluate Research</h2>
+
+    <h3>Who we're looking for</h3>
+    <p>Researchers at any career stage with expertise in quantitative social science, economics, global health, animal welfare, psychology, AI/tech policy, or related fields. PhD students and early-career researchers are welcome.</p>
+
+    <h3>What's involved</h3>
+    <p>You receive a paper in your area of expertise and provide:</p>
+    <ul>
+      <li>A structured written evaluation (2&ndash;5 pages)</li>
+      <li>Numerical ratings on 7 criteria, each with confidence intervals</li>
+    </ul>
+    <p>Most evaluations take 5&ndash;15 hours. Timelines are flexible and agreed in advance.</p>
+
+    <h3>Compensation</h3>
+    <p>Evaluators receive <strong>$250&ndash;$400 per completed evaluation</strong>, paid via Wise or PayPal. Your evaluation is published with a DOI on PubPub (ISSN 3071-2173) &mdash; a citable scholarly output that appears on your CV.</p>
+
+    <div class="highlight-box success">
+      <strong>Current areas of particular need:</strong> Global health &amp; development economics, animal welfare, catastrophic risks &amp; AI safety, behavioral science, meta-science.
+    </div>
+
+    <h3>Evaluation criteria</h3>
+    <p>Evaluators rate each paper on seven dimensions:</p>
+    <ul class="criteria-list">
+      <li>Overall assessment</li>
+      <li>Advancing knowledge and practice</li>
+      <li>Methods (justification, reasonableness, validity)</li>
+      <li>Logic and communication</li>
+      <li>Real-world relevance</li>
+      <li>Global priorities relevance</li>
+      <li>Open science practices</li>
+    </ul>
+
+    <p>
+      <a href="https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy" class="cta-button">Sign up to evaluate</a>
+      <a href="for-evaluators.html" class="cta-button secondary">Full evaluator FAQ</a>
+    </p>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- Section 2: Submit Research -->
+  <section id="submit">
+    <h2>Submit or Recommend Research</h2>
+
+    <p>There are two ways to bring research to The Unjournal: submit your own work for evaluation, or recommend a paper by someone else.</p>
+
+    <div class="two-card-grid">
+      <div class="track-card">
+        <h3>Submit your own work</h3>
+        <p>You are an author who wants expert evaluation of your paper or preprint.</p>
+        <ul>
+          <li>Free to submit; no publication fees</li>
+          <li>We prioritize papers in our research focus areas</li>
+          <li>Choose between confidential or public evaluation</li>
+          <li>Receive written feedback and numerical ratings from 2&ndash;3 evaluators</li>
+        </ul>
+        <a href="https://coda.io/form/Submit-your-research-for-Unjournal-evaluation_dR3oLpvDhOB" class="cta-button">Submit your research</a>
+      </div>
+
+      <div class="track-card">
+        <h3>Recommend others' work</h3>
+        <p>You know of a paper that deserves rigorous, open evaluation.</p>
+        <ul>
+          <li>Recommend papers in our priority areas, including work by others</li>
+          <li>Recommendations from the research community help us identify impactful work</li>
+          <li>We consider all recommendations</li>
+        </ul>
+        <a href="https://coda.io/form/Submit-your-research-for-Unjournal-evaluation_dR3oLpvDhOB" class="cta-button">Recommend a paper</a>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>Research focus areas:</strong> We prioritize quantitative research bearing on global priorities &mdash; global health &amp; development economics, animal welfare, catastrophic risks, environmental economics, behavioral and social science.
+    </div>
+
+    <p><a href="for-authors.html">Full information for researchers &rarr;</a></p>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- Section 3: Join the Team -->
+  <section id="join-team">
+    <h2>Join the Team</h2>
+
+    <p>The Unjournal is built on the contributions of researchers and specialists across many fields. We have roles suited to different levels of availability and expertise.</p>
+
+    <div class="three-card-grid">
+
+      <div class="role-card">
+        <h3>Field Specialist</h3>
+        <p>Help identify and prioritize research in your area of expertise.</p>
+        <ul>
+          <li>Nominate papers for evaluation</li>
+          <li>Review research priorities</li>
+          <li>Provide field context and guidance</li>
+        </ul>
+        <p class="role-meta">Time commitment: low &mdash; approximately 2&ndash;5 hours per month typical. Currently voluntary (no compensation), though this may change.</p>
+        <a href="mailto:contact@unjournal.org" class="cta-button secondary">Inquire about field specialist role</a>
+      </div>
+
+      <div class="role-card">
+        <h3>Research Affiliate / URA</h3>
+        <p>Undergraduate, graduate, or early-career researchers assisting with research tasks.</p>
+        <ul>
+          <li>Literature review and data analysis</li>
+          <li>Research synthesis</li>
+          <li>Evaluation management support</li>
+        </ul>
+        <p class="role-meta">Flexible hours. May receive academic credit or stipend depending on arrangement and institutional context.</p>
+        <a href="mailto:contact@unjournal.org" class="cta-button secondary">Inquire about URA/affiliate role</a>
+      </div>
+
+      <div class="role-card">
+        <h3>Advisory Board &amp; Management</h3>
+        <p>Senior researchers providing strategic guidance or operational leadership.</p>
+        <ul>
+          <li>Advisory board roles filled by invitation based on field fit</li>
+          <li>Operational roles: remote, paid positions</li>
+          <li>Current opening: Operations Lead (~$30&ndash;55/hr)</li>
+        </ul>
+        <p class="role-meta">Management roles are filled based on organizational need and fit.</p>
+        <a href="org-chart.html" class="cta-button secondary">View org chart</a>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- Section 4: Other Ways -->
+  <section id="contact">
+    <h2>Other Ways to Help</h2>
+
+    <ul class="ways-list">
+      <li>
+        <span class="way-label">Spread the word</span>
+        <span class="way-desc">Share our evaluations, cite them in your work, and mention The Unjournal to researchers whose papers could benefit from rigorous open evaluation.</span>
+      </li>
+      <li>
+        <span class="way-label">Press &amp; media</span>
+        <span class="way-desc">For press inquiries, contact us at <a href="mailto:contact@unjournal.org">contact@unjournal.org</a>.</span>
+      </li>
+      <li>
+        <span class="way-label">Partnerships</span>
+        <span class="way-desc">We are interested in partnerships with research organizations, funders, and open science initiatives. Contact us to discuss how we might work together.</span>
+      </li>
+      <li>
+        <span class="way-label">Donate</span>
+        <span class="way-desc">We are a nonprofit initiative. Your support helps us sustain evaluations, pay evaluators fairly, and expand our reach. <a href="donate.html">Support us &rarr;</a></span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Final CTA -->
+  <div class="final-cta">
+    <h2>Ready to get involved?</h2>
+    <a href="https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy" class="cta-button">Sign up as evaluator</a>
+    <a href="https://coda.io/form/Submit-your-research-for-Unjournal-evaluation_dR3oLpvDhOB" class="cta-button">Submit research</a>
+    <a href="contact.html" class="cta-button">Contact us</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+</footer>
+
+</body>
+</html>
