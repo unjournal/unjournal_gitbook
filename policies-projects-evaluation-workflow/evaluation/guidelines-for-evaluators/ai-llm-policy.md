@@ -6,7 +6,7 @@ description: >-
 
 # AI/LLM use in evaluations
 
-_Working policy as of April 2026. This is an evolving policy; we have consulted with our Management Team but have not formally confirmed all aspects._
+_This is an evolving policy; we have consulted with our Management Team but have not formally confirmed all aspects._
 
 ## Framework
 
@@ -14,10 +14,10 @@ Our goal is relevant, insightful, and correct evaluations that fairly assess res
 
 At the same time, we are mindful of other concerns:
 
-- continuing to cultivate and demonstrate the value of our evaluation process;
-- encouraging people to continue to work with us;
-- capturing credible and independent sources of judgment and reasoning;
-- being transparent with readers of our evaluations.
+* continuing to cultivate and demonstrate the value of our evaluation process;
+* encouraging people to continue to work with us;
+* capturing credible and independent sources of judgment and reasoning;
+* being transparent with readers of our evaluations.
 
 ## What we provide to evaluators
 
@@ -53,8 +53,8 @@ Evaluators must stand by all content and language in their report as their own j
 
 ## Related evidence and context
 
-Emerging evidence points toward a complementary role for AI in peer review processes like ours. Biswas et al. (2025), "[AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot](https://arxiv.org/abs/2604.13940)" (arXiv:2604.13940), report that a large-scale survey of AAAI-26 authors and program committee members showed that participants not only found AI reviews useful, but actually preferred them to human reviews on key dimensions such as technical accuracy and research suggestions. The system processed all 22,977 full-paper submissions in under a day using frontier models with tool use and safeguards.
+Emerging evidence points toward a complementary role for AI in peer review processes like ours. Biswas et al. (2025), [AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot](https://arxiv.org/abs/2604.13940)(arXiv:2604.13940), report on a large-scale survey of AAAI-26 authors and program committee members and found "participants not only found AI reviews useful, but actually preferred them to human reviews on key dimensions such as technical accuracy and research suggestions" The system processed all 22,977 full-paper submissions in under a day using frontier models with tool use and safeguards.
 
-This offers promising evidence for AI-assisted peer review at scale. The Unjournal's approach is complementary: rather than replacing human evaluators with AI, we use AI checks as a supplement after human evaluation — preserving independent expert judgment while adding an additional consistency check.
+This offers promising evidence for AI-assisted peer review at scale. But we are being cautions — we consider we use AI checks as a complement and a supplement to human evaluation, preserving independent expert judgment while adding an additional consistency check and source of suggestions.
 
-Also relevant: Johnny Coates' ["Best Practices for preprint peer review services in the use of AI"](https://docs.google.com/document/d/17Fz4opzft7mfvVMbnU8bnwXNabWnuw8F8YWS3whLMqM/edit?tab=t.0).
+_Also relevant: Johnny Coates'_ [_"Best Practices for preprint peer review services in the use of AI"_](https://docs.google.com/document/d/17Fz4opzft7mfvVMbnU8bnwXNabWnuw8F8YWS3whLMqM/edit?tab=t.0)_._
