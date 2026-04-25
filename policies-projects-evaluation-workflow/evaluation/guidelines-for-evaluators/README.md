@@ -19,6 +19,10 @@ Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "men
 3. Identify the paper's main claims and carefully assess their validity, leveraging your own background and expertise.
 4. Answer a short questionnaire about your background and our processes.
 
+{% hint style="info" %}
+**AI/LLM tools:** See our [AI/LLM use policy](ai-llm-policy.md) for guidance on how you may — and may not — use AI tools in your evaluation, what transparency we require, and the AI-generated checks we will share with you after submission.
+{% endhint %}
+
 ## Writing the evaluation (aka 'the review')
 
 In writing your evaluation and providing ratings, please consider the following.

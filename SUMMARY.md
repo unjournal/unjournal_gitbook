@@ -58,6 +58,7 @@
       * [Why these guidelines/metrics?](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/why-these-guidelines.md)
       * [Proposed curating robustness replication](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/proposed-curating-robustness-replication.md)
       * [Conventional guidelines for referee reports](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/conventional-guidelines-for-referee-reports.md)
+      * [AI/LLM use in evaluations](policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators/ai-llm-policy.md)
     * [Why pay evaluators (reviewers)?](policies-projects-evaluation-workflow/evaluation/why-pay-evaluators-reviewers.md)
     * [Protecting anonymity](policies-projects-evaluation-workflow/evaluation/protecting-anonymity.md)
   * [Mapping evaluation workflow](policies-projects-evaluation-workflow/mapping-evaluation-workflow/README.md)

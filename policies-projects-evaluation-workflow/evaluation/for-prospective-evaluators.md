@@ -18,6 +18,10 @@ _The Unjournal_ is a nonprofit organization started in mid-2022.  We commission 
 
 See [Guidelines for Evaluators](guidelines-for-evaluators/) for further details and guidance.
 
+{% hint style="info" %}
+**AI/LLM tools:** The Unjournal has a working policy on AI/LLM use in evaluations. Evaluators may use AI tools selectively, but must report their use and stand by all content as their own independent judgment. See our [AI/LLM use policy](guidelines-for-evaluators/ai-llm-policy.md).
+{% endhint %}
+
 ## Why be an evaluator?
 
 Why use your valuable time writing an _Unjournal_ evaluation? There are several reasons: helping high-impact research users, supporting open science and open access, and getting recognition and financial compensation.
