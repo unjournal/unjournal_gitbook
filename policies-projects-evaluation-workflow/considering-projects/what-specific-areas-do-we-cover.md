@@ -88,6 +88,7 @@ We are currently prioritizing further work involving&#x20;
 We are also _considering_ prioritizing work involving
 
 * AI governance and safety&#x20;
+* [Impactful legal scholarship evaluation](../../readme-1/call-for-participants-research/impactful-legal-scholarship-evaluation.md), especially where legal work is relevant to AI governance, biosecurity, animal welfare, or other global priorities. This is paused/exploratory as of May 2026 and would require legal-scholarship leadership.
 * Quantitative political science (voting, lobbying, attitudes)&#x20;
 * Political risks (including authoritarian governments and war and conflict)&#x20;
 * Institutional decisionmaking and policymaking

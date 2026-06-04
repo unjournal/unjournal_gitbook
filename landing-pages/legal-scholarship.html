@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impactful Legal Scholarship Evaluation | The Unjournal</title>
+  <meta name="description" content="A concise status and planning page for The Unjournal's exploratory work on public expert evaluation of high-impact legal scholarship.">
+  <link rel="canonical" href="https://info.unjournal.org/legal-scholarship.html">
+  <meta property="og:title" content="Impactful Legal Scholarship Evaluation | The Unjournal">
+  <meta property="og:description" content="Status and planning page for The Unjournal's exploratory work on public expert evaluation of high-impact legal scholarship.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600;700&display=swap">
+  <style>
+    :root {
+      --ink: #21313c;
+      --muted: #5f6f7a;
+      --paper: #fbfcfb;
+      --band: #eef3f1;
+      --line: #d8e1de;
+      --navy: #19364d;
+      --teal: #2f7d7a;
+      --gold: #b4762b;
+      --red: #9c4f41;
+      --white: #ffffff;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    a { color: var(--teal); }
+    a:hover { color: var(--navy); }
+
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 48px 24px 34px;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      color: #c8d9d7;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 {
+      font-family: "Libre Baskerville", Georgia, serif;
+      line-height: 1.22;
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 4vw, 3.65rem);
+      margin: 0 0 16px;
+      max-width: 920px;
+    }
+
+    .subtitle {
+      color: #d7e4e2;
+      font-size: 1.12rem;
+      max-width: 820px;
+      margin: 0;
+    }
+
+    .header-link {
+      color: #d7e4e2;
+      display: inline-block;
+      font-weight: 700;
+      margin-top: 14px;
+    }
+
+    .header-link:hover { color: var(--white); }
+
+    nav {
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+
+    nav .wrap {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 12px 24px;
+    }
+
+    nav a {
+      color: var(--navy);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main { padding: 34px 24px 54px; }
+
+    section {
+      border-top: 1px solid var(--line);
+      padding: 34px 0 0;
+      margin-top: 34px;
+    }
+
+    section:first-child {
+      border-top: 0;
+      padding-top: 0;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: var(--navy);
+      font-size: 1.55rem;
+      margin: 0 0 16px;
+    }
+
+    h3 {
+      color: var(--navy);
+      font-size: 1.05rem;
+      margin: 0 0 8px;
+    }
+
+    p { margin: 0 0 14px; }
+
+    ul, ol {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li { margin: 0 0 8px; }
+
+    .status {
+      background: #f6eee9;
+      border: 1px solid #e7cec2;
+      border-left: 6px solid var(--red);
+      border-radius: 8px;
+      padding: 18px 20px;
+    }
+
+    .status strong {
+      color: #78392f;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .annotation-banner {
+      background: #f2f6f4;
+      border-bottom: 1px solid var(--line);
+      color: var(--ink);
+      font-size: 0.92rem;
+      padding: 10px 24px;
+      text-align: center;
+    }
+
+    .lede-grid {
+      display: grid;
+      gap: 22px;
+      grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+    }
+
+    .panel {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .panel.compact p:last-child,
+    .panel.compact ul:last-child,
+    .panel.compact ol:last-child {
+      margin-bottom: 0;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .tag {
+      background: var(--band);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      font-size: 0.84rem;
+      font-weight: 600;
+      padding: 4px 10px;
+    }
+
+    .grid-2,
+    .grid-3 {
+      display: grid;
+      gap: 16px;
+    }
+
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    .metric {
+      border-left: 4px solid var(--teal);
+    }
+
+    .metric:nth-child(2) { border-left-color: var(--gold); }
+    .metric:nth-child(3) { border-left-color: var(--navy); }
+    .metric:nth-child(4) { border-left-color: var(--red); }
+
+    .timeline {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .step {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      position: relative;
+    }
+
+    .step .number {
+      color: var(--gold);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 12px 0 0;
+      width: 100%;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 12px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--navy);
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .source-list {
+      columns: 2;
+      column-gap: 34px;
+      margin-left: 0;
+      list-style: none;
+    }
+
+    .source-list li {
+      break-inside: avoid;
+      border-bottom: 1px solid var(--line);
+      margin: 0;
+      padding: 9px 0;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .cta {
+      align-items: center;
+      background: var(--navy);
+      border-radius: 8px;
+      color: var(--white);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: space-between;
+      padding: 22px 24px;
+    }
+
+    .cta p { margin: 0; max-width: 720px; }
+
+    .button {
+      background: var(--white);
+      border-radius: 5px;
+      color: var(--navy);
+      display: inline-block;
+      font-weight: 800;
+      padding: 10px 16px;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      color: var(--navy);
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 24px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    @media (max-width: 860px) {
+      .lede-grid,
+      .grid-2,
+      .grid-3,
+      .timeline {
+        grid-template-columns: 1fr;
+      }
+
+      .source-list { columns: 1; }
+
+      nav { position: static; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">The Unjournal | exploratory expansion</div>
+      <h1>Impactful legal scholarship evaluation</h1>
+      <p class="subtitle">A concise public status and planning page for reviving structured expert evaluation of legal research in areas such as AI governance, biosecurity, animal welfare, and global health.</p>
+      <a class="header-link" href="https://forum.effectivealtruism.org/posts/rgaQWtcqc7XzGpPub/legal-scholarship-is-it-high-impact-should-unjournal">Read the public EA Forum discussion</a>
+    </div>
+  </header>
+
+  <nav aria-label="Page sections">
+    <div class="wrap">
+      <a href="#status">Status</a>
+      <a href="#model">Model</a>
+      <a href="#curation">Curation path</a>
+      <a href="#plan">Revival plan</a>
+      <a href="#pilots">Pilot options</a>
+      <a href="#sources">Sources</a>
+    </div>
+  </nav>
+  <div class="annotation-banner">
+    <strong>Annotate this page</strong>: select text to comment via the embedded Hypothes.is sidebar. If the sidebar does not appear, use the Hypothes.is browser extension or bookmarklet.
+  </div>
+
+  <main>
+    <div class="wrap">
+      <section id="status" class="lede-grid">
+        <div>
+          <div class="status">
+            <strong>Status, May 2026: paused/exploratory.</strong>
+            We deprioritized this in late 2025 while handling other priorities and funding/operations constraints, and because we had not found a clear legal-scholarship champion. We would consider reviving it if we found a senior or promising mid-career legal scholar to help lead it, ideally alongside existing law-and-AI, animal welfare law, or legal-priorities initiatives.
+          </div>
+          <p style="margin-top: 18px;">The Unjournal has mainly focused on public evaluation of quantitative social science, economics, and policy research. We have also explored whether our model could extend to <strong>high-impact legal scholarship</strong>: legal research that might shape regulation, litigation, judicial reasoning, law-school curricula, advocacy, and policy design.</p>
+          <p>The practical model is to evaluate already-public legal research, publish citable expert assessments, invite author responses where useful, and produce ratings that scholars, law reviews, funders, workshops, and policy groups can interpret as an additional signal. A lighter-weight version would start with prioritization and curation: using a human-AI workflow to build a public list of high-impact legal research candidates, then inviting experts, practitioners, and research users to suggest additions, label entries, and explain which items most deserve public evaluation.</p>
+        </div>
+        <aside class="panel compact">
+          <h2>Current ask</h2>
+          <p>We are looking for a credible legal-scholarship lead or close partner who can help us run a small pilot, candidate-prioritization project, or workshop-linked evaluation. We would also value feedback from legal scholars and research users, plus loose commitments to join an advisory board if this moves forward.</p>
+          <div class="tag-row">
+            <span class="tag">Legal scholar lead</span>
+            <span class="tag">Candidate curation</span>
+            <span class="tag">Law and AI partner</span>
+            <span class="tag">Animal welfare law</span>
+            <span class="tag">Pilot papers</span>
+            <span class="tag">Paid labeling</span>
+            <span class="tag">Evaluator pool</span>
+            <span class="tag">Workshop route</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="model">
+        <h2>Why legal scholarship might be a strong fit</h2>
+        <div class="grid-3">
+          <article class="panel compact">
+            <h3>Legal work can be directly influential</h3>
+            <p>Scholarship can shape legislation, court reasoning, agency action, policy design, and what future lawyers are taught to treat as authoritative. This is especially true in the US, where jurisprudence carries unusual weight and scholarly argument often feeds the reasoning that courts, clerks, litigators, and agencies draw on when they confront novel questions. An <a href="https://scholarship.law.cornell.edu/clr/vol96/iss6/12/">empirical study of the federal courts of appeals</a> finds that judicial use of legal scholarship is substantial and has been rising.</p>
+          </article>
+          <article class="panel compact">
+            <h3>There may be a review gap</h3>
+            <p>In the US, many high-prestige law reviews, such as Harvard Law Review, Yale Law Journal, and Stanford Law Review, are <a href="https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2021.787768/full">edited by law students</a> rather than through the expert peer review standard in most other fields. These editors are typically JD candidates, not senior scholars or PhD researchers, and usually have little direct experience conducting serious legal research. Public expert evaluation could fill that gap, add an independent quality signal, and direct attention toward legal work with potential global impact or catastrophic-risk relevance.</p>
+          </article>
+          <article class="panel compact">
+            <h3>Early feedback can matter</h3>
+            <p>Legal scholarship leans heavily on working papers: drafts circulate on SSRN and through workshops, and are often read, cited, and acted on well before formal law-review placement, which can lag by a year or more. That long window is exactly where fast, structured expert feedback could improve a paper and give authors, workshops, student editors, funders, policy teams, and practitioners a signal to act on before publication and citation catch up.</p>
+          </article>
+        </div>
+
+        <h2 style="margin-top: 30px;">Proposed evaluation model</h2>
+        <div class="grid-2">
+          <div class="panel compact">
+            <h3>Standard Unjournal model, legal version</h3>
+            <ul>
+              <li>Identify and curate public legal research with unusually high expected value for evaluation.</li>
+              <li>Commission legal scholars, practitioners, and relevant subject-matter experts to assess the work.</li>
+              <li>Pay evaluators for full evaluations, with a rough target around $500 where funding allows.</li>
+              <li>Evaluate legal claims, reasoning, practical usefulness, likely influence, impact pathway, and limitations.</li>
+              <li>Let authors respond where appropriate.</li>
+              <li>Publish citable evaluations and ratings, with evaluator anonymity optional.</li>
+              <li>Discuss implications with practitioner organizations, impact-driven funders, workshops, and policy groups where the research or evaluation could inform decisions.</li>
+            </ul>
+          </div>
+          <div class="panel compact">
+            <h3>Legal-specific adaptations</h3>
+            <ul>
+              <li>Complement law reviews rather than replace them: authors may still need journal placement for career, citation, and field-recognition reasons.</li>
+              <li>Avoid hosting papers unless there is a clear reason; SSRN, journal sites, institutional repositories, and author pages can remain the paper source.</li>
+              <li>Allow papers to be curated by our team, partner organizations, workshops, funders, or external nominators, not only submitted by authors.</li>
+              <li>Focus on assessable legal scholarship: legal reasoning, doctrine, institutional design, statutory interpretation, comparative law, or law-relevant empirical and policy claims, rather than general opinion pieces.</li>
+              <li>Decide whether the first pilot should emphasize the US context, where the review gap and role of jurisprudence may be especially salient, or include European and international legal scholarship from the start.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="criteria">
+        <h2>Prioritization and evaluation criteria</h2>
+        <p>The working framework separates <strong>prioritizing research for evaluation</strong> from <strong>evaluating the quality of the research itself</strong>. A paper can be high quality but low priority for Unjournal evaluation if further public review has little expected value. The reverse can also hold: a flawed but influential paper may deserve public scrutiny if an expert evaluation would help users interpret it.</p>
+        <div class="grid-2">
+          <article class="panel metric compact">
+            <h3>Global or societal impact</h3>
+            <p>Does the research address or inform important issues such as AI safety and governance, biosecurity, animal welfare, health, rule of law, catastrophic risk, or other global-priorities-relevant areas in ways that suggest meaningful near-term paths to global impact?</p>
+          </article>
+          <article class="panel metric compact">
+            <h3>Applicability, prominence, and influence</h3>
+            <p>Could the arguments affect courts, regulators, policymakers, advocacy organizations, funders, law reviews, workshops, or future legal scholarship? Is the paper already widely read, quoted, used, or influential enough that public expert evaluation could improve how decision-makers and funders interpret it?</p>
+          </article>
+          <article class="panel metric compact">
+            <h3>Contribution to legal theory and practice</h3>
+            <p>Does the work add something useful to legal reasoning, doctrine, institutional design, comparative law, or interdisciplinary practice? This matters, but we would likely weight it less than law journals do when it is disconnected from practical or near-term impact.</p>
+          </article>
+          <article class="panel metric compact">
+            <h3>Evaluability</h3>
+            <p>Does the work make specific claims that legal experts can meaningfully assess, rather than broad synthesis, conventional wisdom, or informal social commentary?</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="curation">
+        <h2>Curation-first path</h2>
+        <p>A lower-commitment way to restart this is to adapt The Unjournal's prioritization workflow to legal scholarship. Instead of beginning with full public evaluations, we could first build a public candidate list and ask legal scholars, practitioners, policy researchers, and research users to suggest, label, and discuss entries. This would be integrated with AI tools for initial search, filtering, clustering, and summarization, while leaving final prioritization judgments to people with relevant legal and policy expertise. See our early <a href="https://uj-prioritization-prototype.netlify.app/">prioritization prototype</a>, which currently focuses mainly on economics and related research rather than law.</p>
+        <div class="grid-2">
+          <article class="panel compact">
+            <h3>What contributors would do</h3>
+            <ul>
+              <li>Suggest public legal papers, drafts, reports, or research agendas with possible global-priorities relevance.</li>
+              <li>Add labels such as "highly impactful," "not practical," "needs legal expert review," "too broad," "strong AI-safety relevance," or "good post-publication review candidate."</li>
+              <li>Briefly explain the path to impact, tractability, and what kind of evaluation would add value.</li>
+              <li>Nominate legal scholars or practitioners who could evaluate or advise on the work.</li>
+            </ul>
+          </article>
+          <article class="panel compact">
+            <h3>Why start here</h3>
+            <ul>
+              <li>It creates a public-good filter: a pre-screened map of what legal research may be worth reading or evaluating.</li>
+              <li>It is cheaper and faster than commissioning full evaluations immediately.</li>
+              <li>It gives potential champions a concrete artifact to react to rather than an abstract proposal.</li>
+              <li>Small incentives could reward useful labeling, suggestions, and short prioritization notes.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="plan">
+        <h2>Revival plan</h2>
+        <p>Our working conclusion is practical: if we can secure legal-scholarship ownership, we should restart with a narrow first use case. That could be a candidate-prioritization project, a workshop-linked pilot, or full evaluations of one to three papers.</p>
+        <div class="timeline">
+          <article class="step">
+            <div class="number">Step 1</div>
+            <h3>Find a champion</h3>
+            <p>Recruit a senior or promising mid-career legal scholar, or a small partner group, to advise on field norms, credibility, evaluator selection, and scope.</p>
+          </article>
+          <article class="step">
+            <div class="number">Step 2</div>
+            <h3>Build the candidate list</h3>
+            <p>Collect public legal research candidates and invite lightweight labels, short prioritization notes, and evaluator nominations.</p>
+          </article>
+          <article class="step">
+            <div class="number">Step 3</div>
+            <h3>Refresh and choose a pilot</h3>
+            <p>Update the candidate set from the earlier pass, since many papers and priorities may now be stale, then select one to three papers or working papers in a concrete area such as AI liability, law-following AI, biosecurity governance, or animal welfare law.</p>
+          </article>
+          <article class="step">
+            <div class="number">Step 4</div>
+            <h3>Evaluate and assess</h3>
+            <p>Commission serious, in-depth evaluations where warranted, allow author responses, share outputs with relevant communities such as law-and-AI groups, animal welfare advocates, funders, workshops, and policy users, and assess whether the outputs are highly credible to legal audiences, useful to practitioners, and likely to inform work with global impact.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pilots">
+        <h2>Pilot options and planning content</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Option</th>
+              <th>Why it is promising</th>
+              <th>What we would need</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>High-impact legal research candidate list</td>
+              <td>A curation-first project could quickly become useful if legal scholars, practitioners, policy researchers, and research users label suggestions and discuss why each paper is or is not evaluation-worthy. AI tools could help with initial search, filtering, clustering, and summaries, as in our early <a href="https://uj-prioritization-prototype.netlify.app/">prioritization prototype</a>.</td>
+              <td>A lightweight database, clear labels, modest incentives for useful suggestions, and a few people willing to seed and review the first entries.</td>
+            </tr>
+            <tr>
+              <td>AI safety, AI governance, and animal welfare legal papers</td>
+              <td>Fast-moving, high-stakes areas where legal arguments may influence regulation, liability, institutional design, welfare standards, and safety norms.</td>
+              <td>Law-and-AI scholars, animal welfare law experts, evaluator candidates, and a short list of public papers with concrete legal claims.</td>
+            </tr>
+            <tr>
+              <td>Workshop-linked evaluations</td>
+              <td>Workshops already screen papers, convene relevant scholars, and generate feedback. That makes them an intermediate signal: not a final quality judgment, but a credible place to find papers, evaluators, discussants, and potential advisors.</td>
+              <td>A workshop partner willing to nominate papers, let us add structured evaluation around selected drafts, and possibly connect us to board members or evaluators.</td>
+            </tr>
+            <tr>
+              <td>Post-publication review of influential articles</td>
+              <td>Some legal scholarship remains influential after journal placement. Public expert evaluation could still help readers judge use and limits.</td>
+              <td>Clear selection criteria and evaluators willing to review already-published work without turning it into general commentary.</td>
+            </tr>
+            <tr>
+              <td>Prize or call for high-impact legal scholarship</td>
+              <td>A prize could draw attention and submissions, especially around global catastrophic risk or AI governance.</td>
+              <td>Funding, visibility, credible judges, and a clear explanation of what counts as impactful legal scholarship.</td>
+            </tr>
+            <tr>
+              <td>Funder-linked evaluation requirements</td>
+              <td>Funders could ask grantees or applicants to get at least one relevant public evaluation, making engagement less dependent on author self-selection.</td>
+              <td>A funder or fellowship program willing to treat public evaluation as a useful research-quality and public-good signal.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="grid-2" style="margin-top: 20px;">
+          <div class="panel compact">
+            <h3>Candidate themes from the notes</h3>
+            <ul>
+              <li>AI liability and tort law for catastrophic risk.</li>
+              <li>Law-following AI and AI agents under the rule of law.</li>
+              <li>Compute governance, monitoring, and regulatory authority.</li>
+              <li>Biosecurity governance, international institutions, and liability.</li>
+              <li>Animal welfare and international legal frameworks.</li>
+              <li>Deepfakes, information integrity, and democratic resilience.</li>
+            </ul>
+          </div>
+          <div class="panel compact">
+            <h3>Open questions before launch</h3>
+            <ul>
+              <li>Will public negative evaluations deter authors from engaging?</li>
+              <li>Can we start with public prioritization and labeling before asking authors to accept full public evaluations?</li>
+              <li>Should the first pilot focus on preprints, workshop papers, or post-publication review?</li>
+              <li>Should the first pilot focus mainly on the US context because of the greater review gap and role of court jurisprudence, even if US legal scholars may be harder or more expensive to recruit?</li>
+              <li>Can we recruit strong legal scholars and practitioners to complete serious, in-depth evaluations at the available compensation?</li>
+              <li>Which ratings are useful without becoming misleading in legal contexts?</li>
+              <li>What does an "AI-safety framing" require? The likely answer is not ideological agreement, but a willingness to evaluate whether a paper improves AI-risk governance, legal incentives, institutional control, or law-following AI.</li>
+              <li>How should the model differ between US law reviews and European peer-reviewed legal scholarship?</li>
+              <li>Which partners would make the signal credible enough to matter?</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="sources">
+        <h2>Source materials and context</h2>
+        <p class="note">This page is a public summary. It does not quote private Slack messages, private meeting transcripts, or sensitive outreach notes. Some working notes are access-controlled; review sharing settings before wider circulation.</p>
+        <ul class="source-list">
+          <li><a href="https://forum.effectivealtruism.org/posts/rgaQWtcqc7XzGpPub/legal-scholarship-is-it-high-impact-should-unjournal">EA Forum post: Legal scholarship: Is it high-impact?</a></li>
+          <li><a href="https://docs.google.com/document/d/1LbN8nAPh_iKZRoae3BkaQAQhsekKPpcfEST9yfuXr1o/edit?tab=t.0">Legal Research Prioritization and Evaluation Framework</a></li>
+          <li><a href="https://docs.google.com/document/d/1B5bJw64Gc2oSPhlxwzkqyIqKenpPg1d_oApEidAxFew/edit?tab=t.0">Prioritizing papers in legal scholarship</a></li>
+          <li><a href="https://docs.google.com/document/d/1a5jUbb86v2FA5l3FEd9G1jhEpQslFuoAvUO-HqStcGU/edit?usp=sharing">Impactful legal research ideas</a></li>
+          <li><a href="https://uj-prioritization-prototype.netlify.app/">Early prioritization prototype</a></li>
+          <li><a href="https://law-ai.org/about-the-institute-for-law-ai/">Institute for Law & AI</a></li>
+          <li><a href="https://clair-ai.org/">Center for Law & AI Risk</a></li>
+          <li><a href="https://www.lawfaremedia.org/article/proceedings-of-the-2025-workshop-on-law-following-ai">Proceedings of the 2025 Workshop on Law-Following AI</a></li>
+          <li><a href="https://scholarship.law.cornell.edu/clr/vol96/iss6/12/">Schwartz &amp; Petherbridge, "The Use of Legal Scholarship by the Federal Courts of Appeals: An Empirical Study," 96 Cornell Law Review 1345 (2011)</a></li>
+          <li><a href="https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2021.787768/full">Stojanovski et al., "Peer Review in Law Journals," Frontiers in Research Metrics and Analytics 6 (2021)</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="cta">
+          <p><strong>Interested in helping revive this?</strong> The highest-value next step is a conversation with a legal scholar or organization that can help lead a narrow pilot and make the evaluation signal credible to legal audiences.</p>
+          <a class="button" href="mailto:contact@unjournal.org?subject=Impactful%20legal%20scholarship%20evaluation">Contact The Unjournal</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>The Unjournal. Public expert evaluation of research with potential for global impact.</p>
+    </div>
+  </footer>
+  <script>
+    window.hypothesisConfig = function () {
+      return {
+        openSidebar: true,
+        showHighlights: true
+      };
+    };
+  </script>
+  <script async src="https://hypothes.is/embed.js"></script>
+</body>
+</html>

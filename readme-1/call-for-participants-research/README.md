@@ -75,6 +75,8 @@ Some particular areas where we are hoping to expand our expertise (as of Sept. 2
 
 \- Social impact of new technology (including AI)
 
+\- [Impactful legal scholarship evaluation](impactful-legal-scholarship-evaluation.md) (paused/exploratory as of May 2026; potentially revived if we find a legal-scholarship champion and partner organizations)
+
 </details>
 
 ## **Evaluators**
