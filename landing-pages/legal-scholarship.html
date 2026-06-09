@@ -205,13 +205,52 @@
     }
 
     .tag {
-      background: var(--band);
-      border: 1px solid var(--line);
-      border-radius: 999px;
+      background: transparent;
+      border: 0;
+      border-left: 3px solid var(--teal);
+      border-radius: 0;
       color: var(--ink);
       font-size: 0.84rem;
       font-weight: 600;
-      padding: 4px 10px;
+      padding: 2px 0 2px 8px;
+    }
+
+    .tag-label {
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 700;
+      margin: 12px 0 0;
+      text-transform: uppercase;
+    }
+
+    .tip {
+      border-bottom: 1px dotted var(--teal);
+      cursor: help;
+      text-decoration: none;
+    }
+
+    details.fold {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin: 12px 0;
+      padding: 0;
+    }
+
+    details.fold > summary {
+      color: var(--navy);
+      cursor: pointer;
+      font-weight: 800;
+      list-style-position: inside;
+      padding: 14px 18px;
+    }
+
+    details.fold[open] > summary {
+      border-bottom: 1px solid var(--line);
+    }
+
+    details.fold > .fold-body {
+      padding: 18px;
     }
 
     .grid-2,
@@ -350,10 +389,10 @@
 <body>
   <header>
     <div class="wrap">
-      <div class="eyebrow">The Unjournal | exploratory expansion</div>
+      <div class="eyebrow">The Unjournal | reconsidering exploratory expansion</div>
       <h1>Impactful legal scholarship evaluation</h1>
       <p class="subtitle">A concise public status and planning page for reviving structured expert evaluation of legal research in areas such as AI governance, biosecurity, animal welfare, and global health.</p>
-      <a class="header-link" href="https://forum.effectivealtruism.org/posts/rgaQWtcqc7XzGpPub/legal-scholarship-is-it-high-impact-should-unjournal">Read the public EA Forum discussion</a>
+      <a class="header-link" href="https://forum.effectivealtruism.org/posts/rgaQWtcqc7XzGpPub/legal-scholarship-is-it-high-impact-should-unjournal">Read the earlier public EA Forum discussion</a>
     </div>
   </header>
 
@@ -376,16 +415,17 @@
       <section id="status" class="lede-grid">
         <div>
           <div class="status">
-            <strong>Status, May 2026: paused/exploratory.</strong>
+            <strong>Status, May 2026: paused; reconsidering.</strong>
             We deprioritized this in late 2025 while handling other priorities and funding/operations constraints, and because we had not found a clear legal-scholarship champion. We would consider reviving it if we found a senior or promising mid-career legal scholar to help lead it, ideally alongside existing law-and-AI, animal welfare law, or legal-priorities initiatives.
           </div>
           <p style="margin-top: 18px;">The Unjournal has mainly focused on public evaluation of quantitative social science, economics, and policy research. We have also explored whether our model could extend to <strong>high-impact legal scholarship</strong>: legal research that might shape regulation, litigation, judicial reasoning, law-school curricula, advocacy, and policy design.</p>
-          <p>The practical model is to evaluate already-public legal research, publish citable expert assessments, invite author responses where useful, and produce ratings that scholars, law reviews, funders, workshops, and policy groups can interpret as an additional signal. A lighter-weight version would start with prioritization and curation: using a human-AI workflow to build a public list of high-impact legal research candidates, then inviting experts, practitioners, and research users to suggest additions, label entries, and explain which items most deserve public evaluation.</p>
+          <p>The practical model is to evaluate <abbr class="tip" title="Legal scholarship often circulates publicly as SSRN working papers, workshop drafts, and preprints before formal law-review placement.">already-public legal research</abbr>, publish citable expert assessments, invite author responses where useful, and produce ratings that scholars, law reviews, funders, workshops, and policy groups can interpret as an additional signal. A lighter-weight version would start with <abbr class="tip" title="Finding and ranking candidate papers before commissioning full evaluations.">prioritization and curation</abbr>.</p>
         </div>
         <aside class="panel compact">
           <h2>Current ask</h2>
           <p>We are looking for a credible legal-scholarship lead or close partner who can help us run a small pilot, candidate-prioritization project, or workshop-linked evaluation. We would also value feedback from legal scholars and research users, plus loose commitments to join an advisory board if this moves forward.</p>
-          <div class="tag-row">
+          <p class="tag-label">Current needs and routes</p>
+          <div class="tag-row" aria-label="Current needs and routes">
             <span class="tag">Legal scholar lead</span>
             <span class="tag">Candidate curation</span>
             <span class="tag">Law and AI partner</span>
@@ -407,7 +447,7 @@
           </article>
           <article class="panel compact">
             <h3>There may be a review gap</h3>
-            <p>In the US, many high-prestige law reviews, such as Harvard Law Review, Yale Law Journal, and Stanford Law Review, are <a href="https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2021.787768/full">edited by law students</a> rather than through the expert peer review standard in most other fields. These editors are typically JD candidates, not senior scholars or PhD researchers, and usually have little direct experience conducting serious legal research. Public expert evaluation could fill that gap, add an independent quality signal, and direct attention toward legal work with potential global impact or catastrophic-risk relevance.</p>
+            <p>In the US, many high-prestige law reviews, such as Harvard Law Review, Yale Law Journal, and Stanford Law Review, are edited by law students rather than through the expert peer review standard in most other fields. These editors are typically JD candidates, not senior scholars or PhD researchers, and usually have little direct experience conducting serious legal research. Public expert evaluation could fill that gap, add an independent quality signal, and direct attention toward legal work with potential global impact or catastrophic-risk relevance.</p>
           </article>
           <article class="panel compact">
             <h3>Early feedback can matter</h3>
@@ -415,79 +455,87 @@
           </article>
         </div>
 
-        <h2 style="margin-top: 30px;">Proposed evaluation model</h2>
-        <div class="grid-2">
-          <div class="panel compact">
-            <h3>Standard Unjournal model, legal version</h3>
-            <ul>
-              <li>Identify and curate public legal research with unusually high expected value for evaluation.</li>
-              <li>Commission legal scholars, practitioners, and relevant subject-matter experts to assess the work.</li>
-              <li>Pay evaluators for full evaluations, with a rough target around $500 where funding allows.</li>
-              <li>Evaluate legal claims, reasoning, practical usefulness, likely influence, impact pathway, and limitations.</li>
-              <li>Let authors respond where appropriate.</li>
-              <li>Publish citable evaluations and ratings, with evaluator anonymity optional.</li>
-              <li>Discuss implications with practitioner organizations, impact-driven funders, workshops, and policy groups where the research or evaluation could inform decisions.</li>
-            </ul>
+        <details class="fold" id="evaluation-model">
+          <summary>Proposed evaluation model</summary>
+          <div class="fold-body grid-2">
+            <div class="compact">
+              <h3>Standard Unjournal model, legal version</h3>
+              <ul>
+                <li>Identify and curate public legal research with unusually high expected value for evaluation.</li>
+                <li>Commission legal scholars, practitioners, and relevant subject-matter experts to assess the work.</li>
+                <li>Pay evaluators for full evaluations, with a rough target around $500 where funding allows.</li>
+                <li>Evaluate legal claims, reasoning, practical usefulness, likely influence, impact pathway, and limitations.</li>
+                <li>Let authors respond where appropriate.</li>
+                <li>Publish citable evaluations and ratings, with evaluator anonymity optional.</li>
+                <li>Discuss implications with practitioner organizations, impact-driven funders, workshops, and policy groups where the research or evaluation could inform decisions.</li>
+              </ul>
+            </div>
+            <div class="compact">
+              <h3>Legal-specific adaptations</h3>
+              <ul>
+                <li>Recruit evaluators who can judge legal reasoning, doctrine, statutory interpretation, institutional feasibility, jurisdiction-specific context, and likely use by courts, agencies, advocates, or policymakers.</li>
+                <li>Adapt ratings so they distinguish scholarly quality from practical legal usefulness, citation value, policy relevance, and expected global impact.</li>
+                <li>Make the workflow compatible with the US law-review submission market, workshop circulation, SSRN drafts, and post-publication review of influential articles.</li>
+                <li>Separate US-focused pilots from European or international legal scholarship where journal norms, peer review, and the role of jurisprudence differ.</li>
+                <li>Clarify when a piece is legal scholarship rather than adjacent policy commentary, and when a practitioner review would be more valuable than an academic review.</li>
+              </ul>
+            </div>
           </div>
-          <div class="panel compact">
-            <h3>Legal-specific adaptations</h3>
-            <ul>
-              <li>Complement law reviews rather than replace them: authors may still need journal placement for career, citation, and field-recognition reasons.</li>
-              <li>Avoid hosting papers unless there is a clear reason; SSRN, journal sites, institutional repositories, and author pages can remain the paper source.</li>
-              <li>Allow papers to be curated by our team, partner organizations, workshops, funders, or external nominators, not only submitted by authors.</li>
-              <li>Focus on assessable legal scholarship: legal reasoning, doctrine, institutional design, statutory interpretation, comparative law, or law-relevant empirical and policy claims, rather than general opinion pieces.</li>
-              <li>Decide whether the first pilot should emphasize the US context, where the review gap and role of jurisprudence may be especially salient, or include European and international legal scholarship from the start.</li>
-            </ul>
-          </div>
-        </div>
+        </details>
       </section>
 
       <section id="criteria">
         <h2>Prioritization and evaluation criteria</h2>
         <p>The working framework separates <strong>prioritizing research for evaluation</strong> from <strong>evaluating the quality of the research itself</strong>. A paper can be high quality but low priority for Unjournal evaluation if further public review has little expected value. The reverse can also hold: a flawed but influential paper may deserve public scrutiny if an expert evaluation would help users interpret it.</p>
-        <div class="grid-2">
-          <article class="panel metric compact">
-            <h3>Global or societal impact</h3>
-            <p>Does the research address or inform important issues such as AI safety and governance, biosecurity, animal welfare, health, rule of law, catastrophic risk, or other global-priorities-relevant areas in ways that suggest meaningful near-term paths to global impact?</p>
-          </article>
-          <article class="panel metric compact">
-            <h3>Applicability, prominence, and influence</h3>
-            <p>Could the arguments affect courts, regulators, policymakers, advocacy organizations, funders, law reviews, workshops, or future legal scholarship? Is the paper already widely read, quoted, used, or influential enough that public expert evaluation could improve how decision-makers and funders interpret it?</p>
-          </article>
-          <article class="panel metric compact">
-            <h3>Contribution to legal theory and practice</h3>
-            <p>Does the work add something useful to legal reasoning, doctrine, institutional design, comparative law, or interdisciplinary practice? This matters, but we would likely weight it less than law journals do when it is disconnected from practical or near-term impact.</p>
-          </article>
-          <article class="panel metric compact">
-            <h3>Evaluability</h3>
-            <p>Does the work make specific claims that legal experts can meaningfully assess, rather than broad synthesis, conventional wisdom, or informal social commentary?</p>
-          </article>
-        </div>
+        <details class="fold">
+          <summary>Show criteria</summary>
+          <div class="fold-body grid-2">
+            <article class="panel metric compact">
+              <h3>Global or societal impact</h3>
+              <p>Does the research address or inform important issues such as AI safety and governance, biosecurity, animal welfare, health, rule of law, catastrophic risk, or other global-priorities-relevant areas in ways that suggest meaningful near-term paths to global impact?</p>
+            </article>
+            <article class="panel metric compact">
+              <h3>Applicability, prominence, and influence</h3>
+              <p>Could the arguments affect courts, regulators, policymakers, advocacy organizations, funders, law reviews, workshops, or future legal scholarship? Is the paper already widely read, quoted, used, or influential enough that public expert evaluation could improve how decision-makers and funders interpret it?</p>
+            </article>
+            <article class="panel metric compact">
+              <h3>Contribution to legal theory and practice</h3>
+              <p>Does the work add something useful to legal reasoning, doctrine, institutional design, comparative law, or interdisciplinary practice? This matters, but we would likely weight it less than law journals do when it is disconnected from practical or near-term impact.</p>
+            </article>
+            <article class="panel metric compact">
+              <h3>Evaluability</h3>
+              <p>Does the work make specific claims that legal experts can meaningfully assess, rather than broad synthesis, conventional wisdom, or informal social commentary?</p>
+            </article>
+          </div>
+        </details>
       </section>
 
       <section id="curation">
         <h2>Curation-first path</h2>
-        <p>A lower-commitment way to restart this is to adapt The Unjournal's prioritization workflow to legal scholarship. Instead of beginning with full public evaluations, we could first build a public candidate list and ask legal scholars, practitioners, policy researchers, and research users to suggest, label, and discuss entries. This would be integrated with AI tools for initial search, filtering, clustering, and summarization, while leaving final prioritization judgments to people with relevant legal and policy expertise. See our early <a href="https://uj-prioritization-prototype.netlify.app/">prioritization prototype</a>, which currently focuses mainly on economics and related research rather than law.</p>
-        <div class="grid-2">
-          <article class="panel compact">
-            <h3>What contributors would do</h3>
-            <ul>
-              <li>Suggest public legal papers, drafts, reports, or research agendas with possible global-priorities relevance.</li>
-              <li>Add labels such as "highly impactful," "not practical," "needs legal expert review," "too broad," "strong AI-safety relevance," or "good post-publication review candidate."</li>
-              <li>Briefly explain the path to impact, tractability, and what kind of evaluation would add value.</li>
-              <li>Nominate legal scholars or practitioners who could evaluate or advise on the work.</li>
-            </ul>
-          </article>
-          <article class="panel compact">
-            <h3>Why start here</h3>
-            <ul>
-              <li>It creates a public-good filter: a pre-screened map of what legal research may be worth reading or evaluating.</li>
-              <li>It is cheaper and faster than commissioning full evaluations immediately.</li>
-              <li>It gives potential champions a concrete artifact to react to rather than an abstract proposal.</li>
-              <li>Small incentives could reward useful labeling, suggestions, and short prioritization notes.</li>
-            </ul>
-          </article>
-        </div>
+        <p>A lower-commitment way to restart this is to adapt The Unjournal's prioritization workflow to legal scholarship. Instead of beginning with full public evaluations, we could first build a public candidate list and ask legal scholars, practitioners, policy researchers, and research users to suggest, label, and discuss entries. This would be integrated with AI tools for initial search, filtering, clustering, and summarization, while leaving final prioritization judgments to people with relevant legal and policy expertise. See our <a href="https://uj-prioritization-prototype.netlify.app/">early automated prioritization prototype</a>, which is outside legal research and currently focuses mainly on economics and related work.</p>
+        <details class="fold">
+          <summary>Contributor workflow and rationale</summary>
+          <div class="fold-body grid-2">
+            <article class="compact">
+              <h3>What contributors would do</h3>
+              <ul>
+                <li>Suggest public legal papers, drafts, reports, or research agendas with possible global-priorities relevance.</li>
+                <li>Add labels such as "highly impactful," "not practical," "needs legal expert review," "too broad," "strong AI-safety relevance," or "good post-publication review candidate."</li>
+                <li>Briefly explain the path to impact, tractability, and what kind of evaluation would add value.</li>
+                <li>Nominate legal scholars or practitioners who could evaluate or advise on the work.</li>
+              </ul>
+            </article>
+            <article class="compact">
+              <h3>Why start here</h3>
+              <ul>
+                <li>It creates a public-good filter: a pre-screened map of what legal research may be worth reading or evaluating.</li>
+                <li>It is cheaper and faster than commissioning full evaluations immediately.</li>
+                <li>It gives potential champions a concrete artifact to react to rather than an abstract proposal.</li>
+                <li>Small incentives could reward useful labeling, suggestions, and short prioritization notes.</li>
+              </ul>
+            </article>
+          </div>
+        </details>
       </section>
 
       <section id="plan">
@@ -519,92 +567,106 @@
 
       <section id="pilots">
         <h2>Pilot options and planning content</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Option</th>
-              <th>Why it is promising</th>
-              <th>What we would need</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>High-impact legal research candidate list</td>
-              <td>A curation-first project could quickly become useful if legal scholars, practitioners, policy researchers, and research users label suggestions and discuss why each paper is or is not evaluation-worthy. AI tools could help with initial search, filtering, clustering, and summaries, as in our early <a href="https://uj-prioritization-prototype.netlify.app/">prioritization prototype</a>.</td>
-              <td>A lightweight database, clear labels, modest incentives for useful suggestions, and a few people willing to seed and review the first entries.</td>
-            </tr>
-            <tr>
-              <td>AI safety, AI governance, and animal welfare legal papers</td>
-              <td>Fast-moving, high-stakes areas where legal arguments may influence regulation, liability, institutional design, welfare standards, and safety norms.</td>
-              <td>Law-and-AI scholars, animal welfare law experts, evaluator candidates, and a short list of public papers with concrete legal claims.</td>
-            </tr>
-            <tr>
-              <td>Workshop-linked evaluations</td>
-              <td>Workshops already screen papers, convene relevant scholars, and generate feedback. That makes them an intermediate signal: not a final quality judgment, but a credible place to find papers, evaluators, discussants, and potential advisors.</td>
-              <td>A workshop partner willing to nominate papers, let us add structured evaluation around selected drafts, and possibly connect us to board members or evaluators.</td>
-            </tr>
-            <tr>
-              <td>Post-publication review of influential articles</td>
-              <td>Some legal scholarship remains influential after journal placement. Public expert evaluation could still help readers judge use and limits.</td>
-              <td>Clear selection criteria and evaluators willing to review already-published work without turning it into general commentary.</td>
-            </tr>
-            <tr>
-              <td>Prize or call for high-impact legal scholarship</td>
-              <td>A prize could draw attention and submissions, especially around global catastrophic risk or AI governance.</td>
-              <td>Funding, visibility, credible judges, and a clear explanation of what counts as impactful legal scholarship.</td>
-            </tr>
-            <tr>
-              <td>Funder-linked evaluation requirements</td>
-              <td>Funders could ask grantees or applicants to get at least one relevant public evaluation, making engagement less dependent on author self-selection.</td>
-              <td>A funder or fellowship program willing to treat public evaluation as a useful research-quality and public-good signal.</td>
-            </tr>
-          </tbody>
-        </table>
+        <details class="fold">
+          <summary>Show pilot options</summary>
+          <div class="fold-body">
+            <table>
+              <thead>
+                <tr>
+                  <th>Option</th>
+                  <th>Why it is promising</th>
+                  <th>What we would need</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>High-impact legal research candidate list</td>
+                  <td>A curation-first project could quickly become useful if legal scholars, practitioners, policy researchers, and research users label suggestions and discuss why each paper is or is not evaluation-worthy. AI tools could help with initial search, filtering, clustering, and summaries, as in our early automated prioritization prototype outside legal research.</td>
+                  <td>A lightweight database, clear labels, modest incentives for useful suggestions, and a few people willing to seed and review the first entries.</td>
+                </tr>
+                <tr>
+                  <td>AI safety, AI governance, and animal welfare legal papers</td>
+                  <td>Fast-moving, high-stakes areas where legal arguments may influence regulation, liability, institutional design, welfare standards, and safety norms.</td>
+                  <td>Law-and-AI scholars, animal welfare law experts, evaluator candidates, and a short list of public papers with concrete legal claims.</td>
+                </tr>
+                <tr>
+                  <td>Workshop-linked evaluations</td>
+                  <td>Workshops already screen papers, convene relevant scholars, and generate feedback. That makes them an intermediate signal: not a final quality judgment, but a credible place to find papers, evaluators, discussants, and potential advisors.</td>
+                  <td>A workshop partner willing to nominate papers, let us add structured evaluation around selected drafts, and possibly connect us to board members or evaluators.</td>
+                </tr>
+                <tr>
+                  <td>Post-publication review of influential articles</td>
+                  <td>Some legal scholarship remains influential after journal placement. Public expert evaluation could still help readers judge use and limits.</td>
+                  <td>Clear selection criteria and evaluators willing to review already-published work without turning it into general commentary.</td>
+                </tr>
+                <tr>
+                  <td>Prize or call for high-impact legal scholarship</td>
+                  <td>A prize could draw attention and submissions, especially around global catastrophic risk or AI governance.</td>
+                  <td>Funding, visibility, credible judges, and a clear explanation of what counts as impactful legal scholarship.</td>
+                </tr>
+                <tr>
+                  <td>Funder-linked evaluation requirements</td>
+                  <td>Funders could ask grantees or applicants to get at least one relevant public evaluation, making engagement less dependent on author self-selection.</td>
+                  <td>A funder or fellowship program willing to treat public evaluation as a useful research-quality and public-good signal.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
 
         <div class="grid-2" style="margin-top: 20px;">
-          <div class="panel compact">
-            <h3>Candidate themes from the notes</h3>
-            <ul>
-              <li>AI liability and tort law for catastrophic risk.</li>
-              <li>Law-following AI and AI agents under the rule of law.</li>
-              <li>Compute governance, monitoring, and regulatory authority.</li>
-              <li>Biosecurity governance, international institutions, and liability.</li>
-              <li>Animal welfare and international legal frameworks.</li>
-              <li>Deepfakes, information integrity, and democratic resilience.</li>
-            </ul>
-          </div>
-          <div class="panel compact">
-            <h3>Open questions before launch</h3>
-            <ul>
-              <li>Will public negative evaluations deter authors from engaging?</li>
-              <li>Can we start with public prioritization and labeling before asking authors to accept full public evaluations?</li>
-              <li>Should the first pilot focus on preprints, workshop papers, or post-publication review?</li>
-              <li>Should the first pilot focus mainly on the US context because of the greater review gap and role of court jurisprudence, even if US legal scholars may be harder or more expensive to recruit?</li>
-              <li>Can we recruit strong legal scholars and practitioners to complete serious, in-depth evaluations at the available compensation?</li>
-              <li>Which ratings are useful without becoming misleading in legal contexts?</li>
-              <li>What does an "AI-safety framing" require? The likely answer is not ideological agreement, but a willingness to evaluate whether a paper improves AI-risk governance, legal incentives, institutional control, or law-following AI.</li>
-              <li>How should the model differ between US law reviews and European peer-reviewed legal scholarship?</li>
-              <li>Which partners would make the signal credible enough to matter?</li>
-            </ul>
-          </div>
+          <details class="fold">
+            <summary>Candidate themes</summary>
+            <div class="fold-body compact">
+              <p class="note">We thank Ziyi Wang for substantial earlier work on candidate themes.</p>
+              <ul>
+                <li>AI liability and tort law for catastrophic risk.</li>
+                <li>Law-following AI and AI agents under the rule of law.</li>
+                <li>Compute governance, monitoring, and regulatory authority.</li>
+                <li>Biosecurity governance, international institutions, and liability.</li>
+                <li>Animal welfare and international legal frameworks.</li>
+                <li>Deepfakes, information integrity, and democratic resilience.</li>
+              </ul>
+            </div>
+          </details>
+          <details class="fold">
+            <summary>Open questions before launch</summary>
+            <div class="fold-body compact">
+              <ul>
+                <li>Could the possibility of public negative evaluations deter authors from engaging?</li>
+                <li>Can we start with public prioritization and labeling before asking authors to accept full public evaluations?</li>
+                <li>Should the first pilot focus on preprints, workshop papers, or post-publication review?</li>
+                <li>Should the first pilot focus mainly on the US context because of the greater review gap and role of court jurisprudence, even if US legal scholars may be harder or more expensive to recruit?</li>
+                <li>Can we recruit strong legal scholars and practitioners to complete serious, in-depth evaluations at the available compensation?</li>
+                <li>Which ratings are useful without becoming misleading in legal contexts?</li>
+                <li>What does an "AI-safety framing" require? The likely answer is not ideological agreement, but a willingness to evaluate whether a paper improves AI-risk governance, legal incentives, institutional control, or law-following AI.</li>
+                <li>How should the model differ between US law reviews and European peer-reviewed legal scholarship?</li>
+                <li>Which partners would make the signal credible enough to matter?</li>
+              </ul>
+            </div>
+          </details>
         </div>
       </section>
 
       <section id="sources">
         <h2>Source materials and context</h2>
         <p class="note">This page is a public summary. It does not quote private Slack messages, private meeting transcripts, or sensitive outreach notes. Some working notes are access-controlled; review sharing settings before wider circulation.</p>
-        <ul class="source-list">
-          <li><a href="https://forum.effectivealtruism.org/posts/rgaQWtcqc7XzGpPub/legal-scholarship-is-it-high-impact-should-unjournal">EA Forum post: Legal scholarship: Is it high-impact?</a></li>
-          <li><a href="https://docs.google.com/document/d/1LbN8nAPh_iKZRoae3BkaQAQhsekKPpcfEST9yfuXr1o/edit?tab=t.0">Legal Research Prioritization and Evaluation Framework</a></li>
-          <li><a href="https://docs.google.com/document/d/1B5bJw64Gc2oSPhlxwzkqyIqKenpPg1d_oApEidAxFew/edit?tab=t.0">Prioritizing papers in legal scholarship</a></li>
-          <li><a href="https://docs.google.com/document/d/1a5jUbb86v2FA5l3FEd9G1jhEpQslFuoAvUO-HqStcGU/edit?usp=sharing">Impactful legal research ideas</a></li>
-          <li><a href="https://uj-prioritization-prototype.netlify.app/">Early prioritization prototype</a></li>
-          <li><a href="https://law-ai.org/about-the-institute-for-law-ai/">Institute for Law & AI</a></li>
-          <li><a href="https://clair-ai.org/">Center for Law & AI Risk</a></li>
-          <li><a href="https://www.lawfaremedia.org/article/proceedings-of-the-2025-workshop-on-law-following-ai">Proceedings of the 2025 Workshop on Law-Following AI</a></li>
-          <li><a href="https://scholarship.law.cornell.edu/clr/vol96/iss6/12/">Schwartz &amp; Petherbridge, "The Use of Legal Scholarship by the Federal Courts of Appeals: An Empirical Study," 96 Cornell Law Review 1345 (2011)</a></li>
-          <li><a href="https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2021.787768/full">Stojanovski et al., "Peer Review in Law Journals," Frontiers in Research Metrics and Analytics 6 (2021)</a></li>
-        </ul>
+        <details class="fold">
+          <summary>Show links</summary>
+          <div class="fold-body">
+            <ul class="source-list">
+              <li><a href="https://forum.effectivealtruism.org/posts/rgaQWtcqc7XzGpPub/legal-scholarship-is-it-high-impact-should-unjournal">EA Forum post: Legal scholarship: Is it high-impact?</a></li>
+              <li><a href="https://docs.google.com/document/d/1LbN8nAPh_iKZRoae3BkaQAQhsekKPpcfEST9yfuXr1o/edit?tab=t.0">Legal Research Prioritization and Evaluation Framework</a></li>
+              <li><a href="legal-scholarship-candidates.html">Public candidate papers and themes page</a></li>
+              <li><a href="https://docs.google.com/document/d/1a5jUbb86v2FA5l3FEd9G1jhEpQslFuoAvUO-HqStcGU/edit?usp=sharing">Impactful legal research ideas</a></li>
+              <li><a href="https://uj-prioritization-prototype.netlify.app/">Early automated prioritization prototype outside legal research</a></li>
+              <li><a href="https://law-ai.org/about-the-institute-for-law-ai/">Institute for Law & AI</a></li>
+              <li><a href="https://clair-ai.org/">Center for Law & AI Risk</a></li>
+              <li><a href="https://www.lawfaremedia.org/article/proceedings-of-the-2025-workshop-on-law-following-ai">Proceedings of the 2025 Workshop on Law-Following AI</a></li>
+              <li><a href="https://scholarship.law.cornell.edu/clr/vol96/iss6/12/">Schwartz &amp; Petherbridge, "The Use of Legal Scholarship by the Federal Courts of Appeals: An Empirical Study," 96 Cornell Law Review 1345 (2011)</a></li>
+            </ul>
+          </div>
+        </details>
       </section>
 
       <section>
