@@ -10,8 +10,8 @@
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Predict the Future of Animal Welfare — The Unjournal</title>
-  <meta name="description" content="The Unjournal is collaborating on Metaculus' first animal-focused forecasting tournament — harnessing collective intelligence to inform decisions that affect billions of animals.">
+  <title>Animal Futures Tournament — The Unjournal</title>
+  <meta name="description" content="The Animal Futures Tournament is on Metaculus. Forecast decision-relevant questions on farmed animal welfare, alternative proteins, wild animal welfare, AI, and animal futures.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
@@ -19,10 +19,10 @@
     :root {
       --primary: #1a3a5c;
       --accent: #2e86c1;
-      --green: #27ae60;
-      --green-dark: #1e8449;
-      --light-bg: #f7f9fb;
-      --light-green-bg: #f0faf4;
+      --green: #2e6f5e;
+      --green-dark: #1e5042;
+      --light-bg: #f4f6f7;
+      --light-green-bg: #edf5f1;
       --text: #2c3e50;
       --text-light: #5d6d7e;
       --border: #d5dbdb;
@@ -41,40 +41,74 @@
 
     /* Header / Hero */
     header {
-      background: linear-gradient(135deg, var(--primary) 0%, #1a4a6c 100%);
+      background: linear-gradient(90deg, rgba(13, 32, 46, 0.88), rgba(13, 32, 46, 0.58)), url('/chicken-free-range.jpg') center 43% / cover no-repeat;
       color: var(--white);
-      padding: 3rem 1.5rem 2.5rem;
-      text-align: center;
+      padding: 2rem 1.5rem 3.5rem;
+      text-align: left;
+      min-height: 520px;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-inner {
+      width: min(var(--max-width), 100%);
+      margin: 0 auto;
+    }
+
+    .hero-logo {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 4px;
+      padding: 0.35rem 0.45rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-logo img {
+      height: 48px;
+      display: block;
     }
 
     header .org-label {
       font-size: 0.9rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      opacity: 0.8;
+      opacity: 0.92;
       margin-bottom: 0.75rem;
     }
 
     header h1 {
       font-family: 'Libre Baskerville', Georgia, serif;
-      font-size: 2.2rem;
+      font-size: clamp(2rem, 4vw, 3.25rem);
       font-weight: 700;
       margin-bottom: 0.75rem;
-      line-height: 1.3;
+      line-height: 1.18;
+      max-width: 760px;
     }
 
     header p.subtitle {
       font-size: 1.15rem;
-      opacity: 0.9;
-      max-width: 680px;
-      margin: 0 auto 1.5rem;
+      opacity: 0.95;
+      max-width: 720px;
+      margin: 0 0 1.5rem;
     }
 
     .hero-ctas {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       gap: 0.75rem;
       flex-wrap: wrap;
+    }
+
+    .live-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.45);
+      border-radius: 999px;
+      padding: 0.32rem 0.75rem;
+      margin-bottom: 1rem;
+      font-size: 0.86rem;
+      font-family: Arial, sans-serif;
+      letter-spacing: 0.02em;
     }
 
     /* Navigation */
@@ -86,12 +120,16 @@
       position: sticky;
       top: 0;
       z-index: 10;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.85rem 1.4rem;
     }
 
     nav a {
       color: var(--accent);
       text-decoration: none;
-      margin: 0 0.75rem;
+      margin: 0;
       font-size: 0.92rem;
       font-weight: 500;
     }
@@ -143,11 +181,6 @@
       padding: 1.1rem 1.25rem;
     }
 
-    .question-card .icon {
-      font-size: 1.4rem;
-      margin-bottom: 0.3rem;
-    }
-
     .question-card .topic {
       font-weight: 600;
       font-size: 0.85rem;
@@ -194,11 +227,6 @@
       text-align: center;
     }
 
-    .benefit-card .icon {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
     .benefit-card h3 {
       font-size: 1.05rem;
       color: var(--primary);
@@ -225,11 +253,6 @@
       border-radius: 8px;
       padding: 1.5rem;
       text-align: center;
-    }
-
-    .cta-card .icon {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
     }
 
     .cta-card h3 {
@@ -302,31 +325,6 @@
 
     .cta-button-sm.outline:hover { background: var(--light-bg); color: var(--accent); }
 
-    /* Signup form */
-    .signup-section {
-      background: var(--light-green-bg);
-      border: 1px solid #d4efdf;
-      border-radius: 8px;
-      padding: 2rem;
-      margin: 1.5rem 0;
-    }
-
-    .signup-section h3 {
-      font-size: 1.2rem;
-      color: var(--primary);
-      margin-bottom: 0.5rem;
-    }
-
-    .signup-section p {
-      color: var(--text-light);
-      font-size: 0.95rem;
-      margin-bottom: 1rem;
-    }
-
-    .coda-embed {
-      margin: 1rem 0;
-    }
-
     /* Footer CTA */
     .footer-cta {
       text-align: center;
@@ -355,16 +353,202 @@
 
     /* Responsive */
     @media (max-width: 700px) {
-      header h1 { font-size: 1.6rem; }
+      header { min-height: 480px; }
+      header h1 { font-size: 2rem; }
       header p.subtitle { font-size: 1rem; }
-      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      nav { gap: 0.45rem 1rem; }
+      nav a { font-size: 0.82rem; }
+      nav a:last-child {
+        border-left: none !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+      }
       .question-cards { grid-template-columns: 1fr; }
       .three-col { grid-template-columns: 1fr; }
       .cta-cards { grid-template-columns: 1fr; }
       .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
       .form-row { flex-direction: column; }
-      .hero-ctas { flex-direction: column; align-items: center; }
+      .hero-ctas { flex-direction: column; align-items: flex-start; }
     }
+
+    /* Natural info-page polish: quieter than the older ad-page treatment. */
+    :root {
+      --accent: #2e6f85;
+      --warm: #8b5e3c;
+      --paper: #fbfaf7;
+      --highlight: #2e6f85;
+    }
+
+    body { background: var(--paper, #fbfaf7); }
+
+    header::before,
+    header::after,
+    .cta-section::before,
+    .cta-section::after {
+      display: none !important;
+    }
+
+    header a { color: var(--white, #fff); }
+    header h1,
+    header p,
+    header p.subtitle,
+    header .org-label { color: var(--white, #fff) !important; }
+
+    main {
+      background: var(--white, #fff);
+    }
+
+    nav {
+      box-shadow: none !important;
+    }
+
+    nav a,
+    a {
+      color: var(--accent, #2e6f85);
+    }
+
+    h2,
+    .section-header h2 {
+      border-bottom-color: var(--accent, #2e6f85) !important;
+    }
+
+    .highlight-box,
+    .source-link {
+      border-left-color: var(--accent, #2e6f85) !important;
+      background: var(--light-bg, #f7f9fb) !important;
+    }
+
+    .benefit-card,
+    .what-card,
+    .contact-card,
+    .news-item,
+    .role-card,
+    .output-card,
+    .eval-card,
+    .faq-item,
+    .card {
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .benefit-card:hover,
+    .what-card:hover,
+    .contact-card:hover,
+    .news-item:hover,
+    .role-card:hover,
+    .output-card:hover,
+    .eval-card:hover,
+    .card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.06) !important;
+      border-color: var(--accent, #2e6f85) !important;
+      transform: none !important;
+    }
+
+    .cta-section,
+    .site-nav-section {
+      background: var(--primary, #1a3a5c) !important;
+      color: var(--white, #fff) !important;
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .cta-section h2,
+    .site-nav-section h2 {
+      color: var(--white, #fff) !important;
+      border-bottom-color: rgba(255,255,255,0.4) !important;
+    }
+
+    .cta-button,
+    .follow-links a,
+    .action-link {
+      border-radius: 5px !important;
+    }
+
+    .launch-panel {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 1.25rem;
+      align-items: start;
+      background: #f7f9fb;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .launch-panel h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .launch-actions {
+      border-left: 1px solid var(--border);
+      padding-left: 1.25rem;
+    }
+
+    .tournament-facts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      margin: 1.25rem 0;
+    }
+
+    .fact {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.85rem;
+      text-align: center;
+    }
+
+    .fact strong {
+      display: block;
+      color: var(--primary);
+      font-size: 1.05rem;
+      line-height: 1.3;
+    }
+
+    .fact span {
+      display: block;
+      color: var(--text-light);
+      font-size: 0.82rem;
+      line-height: 1.35;
+      margin-top: 0.2rem;
+    }
+
+    .small-list {
+      margin-left: 1.1rem;
+      font-size: 0.95rem;
+    }
+
+    .image-credit {
+      font-size: 0.78rem;
+      color: var(--text-light);
+      margin-top: 1.5rem;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      .launch-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .launch-actions {
+        border-left: none;
+        border-top: 1px solid var(--border);
+        padding-left: 0;
+        padding-top: 1rem;
+      }
+
+      .tournament-facts {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    footer {
+      background: var(--primary, #1a3a5c) !important;
+    }
+
   </style>
 </head>
 <body>
@@ -374,23 +558,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <header>
-  <a href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal" style="height: 56px; margin-bottom: 0.5rem;"></a>
-  <div class="org-label">The Unjournal</div>
-  <h1>Predict the Future of Animal Welfare</h1>
-  <p class="subtitle">The Unjournal is collaborating on Metaculus' first animal-focused forecasting tournament &mdash; harnessing collective intelligence to inform decisions that affect billions of animals.</p>
-  <div class="hero-ctas">
-    <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button" target="_blank" rel="noopener">Support This Project</a>
-    <a href="#signup" class="cta-button secondary">Get Notified When It Launches</a>
+  <div class="hero-inner">
+    <a class="hero-logo" href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal"></a>
+    <div class="org-label">Metaculus, Sentient Futures, and The Unjournal</div>
+    <div class="live-badge">Launch page live; questions open June 12, 2026</div>
+    <h1>Animal Futures Tournament</h1>
+    <p class="subtitle">Forecast decision-relevant questions on farmed animal welfare, alternative proteins, wild animal welfare, and how advanced AI may shape animals' lives.</p>
+    <div class="hero-ctas">
+      <a href="https://www.metaculus.com/tournament/33016/" class="cta-button" target="_blank" rel="noopener">View on Metaculus</a>
+      <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button secondary" target="_blank" rel="noopener">Support the Prize Pool</a>
+    </div>
   </div>
 </header>
 
 <nav>
   <a href="#about">The Tournament</a>
   <a href="#who-benefits">Who Benefits</a>
-  <a href="#questions">Sample Questions</a>
+  <a href="#questions">Questions</a>
   <a href="#help">How to Help</a>
   <a href="#role">Unjournal's Role</a>
-  <a href="#signup">Sign Up</a>
+  <a href="https://www.metaculus.com/tournament/33016/" target="_blank" rel="noopener">View on Metaculus</a>
   <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
 </nav>
 
@@ -398,35 +585,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <section id="about">
     <h2>What's This Tournament About?</h2>
-    <p>Forecasting tournaments bring together diverse predictors &mdash; researchers, analysts, and curious thinkers &mdash; to estimate the probability of future events. This will be <a href="https://www.metaculus.com/" target="_blank" rel="noopener">Metaculus</a>' first tournament focused entirely on animal welfare.</p>
-    <p>Questions will cover topics like:</p>
+    <p>Every day, billions of animals suffer in ways we can prevent, but only if resources are directed wisely. People working to reduce that suffering face hard questions with thin evidence: which interventions work, where the next dollar should go, and how the landscape will shift over the next few years.</p>
+    <p>The <a href="https://www.metaculus.com/tournament/33016/" target="_blank" rel="noopener">Animal Futures Tournament on Metaculus</a> asks forecasters to help answer these questions. Each question was crowdsourced from the animal advocacy community and vetted for decision-relevance, so a forecast could plausibly inform a real funding or strategy decision.</p>
+    <p>The tournament builds on Metaculus's earlier animal welfare and alternative protein forecasting work. It is run in partnership with Sentient Futures and The Unjournal, and the prize pool was funded by the community via Manifund.</p>
 
-    <div class="question-cards">
-      <div class="question-card">
-        <div class="icon">&#127793;</div>
-        <div class="topic">Plant-based market share</div>
-        <div class="text">Will plant-based meat alternatives reach 10% of US meat sales by 2030?</div>
+    <div class="launch-panel">
+      <div>
+        <h3>Key details</h3>
+        <div class="tournament-facts">
+          <div class="fact"><strong>June 12, 2026</strong><span>questions open</span></div>
+          <div class="fact"><strong>July 1, 2027</strong><span>tournament closes</span></div>
+          <div class="fact"><strong>16</strong><span>forecasting questions</span></div>
+          <div class="fact"><strong>$3,400</strong><span>prize pool</span></div>
+        </div>
+        <p>You do not need to be an animal advocate to take part. Whether you have spent years in the movement or you are a forecaster looking for fresh, decision-relevant questions, your predictions are welcome and useful.</p>
       </div>
-      <div class="question-card">
-        <div class="icon">&#128020;</div>
-        <div class="topic">Corporate commitments</div>
-        <div class="text">What percentage of companies will fulfill their cage-free egg pledges?</div>
-      </div>
-      <div class="question-card">
-        <div class="icon">&#129370;</div>
-        <div class="topic">Cultivated meat regulation</div>
-        <div class="text">Will cultivated meat be approved for sale in the EU by 2027?</div>
-      </div>
-      <div class="question-card">
-        <div class="icon">&#128200;</div>
-        <div class="topic">Consumption trends</div>
-        <div class="text">Will per-capita meat consumption decline in any G7 country by 2028?</div>
+      <div class="launch-actions">
+        <p><strong>Go straight to the tournament:</strong></p>
+        <a href="https://www.metaculus.com/tournament/33016/" class="cta-button" target="_blank" rel="noopener">Open Metaculus Tournament</a>
+        <p class="note">Metaculus has the full question list, participation flow, rules, scoring, and leaderboard details. Bot accounts may participate, but each entrant can enter only once, either as a bot or a normal user.</p>
       </div>
     </div>
-    <p class="note">These are illustrative examples. Final tournament questions are being finalized with Metaculus.</p>
+
+    <p>Questions span farmed animal welfare commitments, alternative proteins, wild animal welfare, and the ways advanced AI may come to shape the lives of animals.</p>
+
+    <div id="questions" class="question-cards">
+      <div class="question-card">
+        <div class="topic">Alternative proteins</div>
+        <div class="text">Will plant-based meat and seafood reach 10% of US retail packaged meat dollar sales before 2031?</div>
+      </div>
+      <div class="question-card">
+        <div class="topic">Cultivated meat policy</div>
+        <div class="text">How many additional US states will enact bans on cultivated meat before July 2027?</div>
+      </div>
+      <div class="question-card">
+        <div class="topic">Aquaculture</div>
+        <div class="text">What proportion of global fish production will be from aquaculture in 2040?</div>
+      </div>
+      <div class="question-card">
+        <div class="topic">AI and animals</div>
+        <div class="text">How many of the top 2026 AI labs will reference animal welfare in their models' guidelines at the end of 2034?</div>
+      </div>
+      <div class="question-card">
+        <div class="topic">Wild animal welfare</div>
+        <div class="text">How much funding will Wild Animal Initiative receive in 2026?</div>
+      </div>
+      <div class="question-card">
+        <div class="topic">Farmed animal welfare</div>
+        <div class="text">How many of Europe's top 20 grocery retailers will have public shrimp welfare commitments before July 2027?</div>
+      </div>
+    </div>
+    <p class="note">These are examples from the Metaculus tournament page. The full set also includes questions on in-ovo sexing, octopus farming, cultivated meat approvals, meat production, screwworm cases, animal-welfare model benchmarks, and related policy outcomes.</p>
 
     <div class="highlight-box">
-      <strong>Why does this matter?</strong> Better predictions lead to better prioritization, which leads to better outcomes for animals. Forecasting tournaments help surface what the community actually believes &mdash; and where the biggest uncertainties lie.
+      <strong>Why does this matter?</strong> Better predictions can improve prioritization. Forecasting tournaments help surface what the community actually believes, how quickly those beliefs move with new evidence, and where the biggest uncertainties remain.
     </div>
   </section>
 
@@ -434,17 +646,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2>Who Will Use These Forecasts?</h2>
     <div class="three-col">
       <div class="benefit-card">
-        <div class="icon">&#128176;</div>
         <h3>Funders</h3>
         <p>More informed allocation across interventions</p>
       </div>
       <div class="benefit-card">
-        <div class="icon">&#128300;</div>
         <h3>Researchers</h3>
         <p>Clarity on which uncertainties matter most</p>
       </div>
       <div class="benefit-card">
-        <div class="icon">&#127970;</div>
         <h3>Organizations</h3>
         <p>Data to guide strategic direction</p>
       </div>
@@ -455,20 +664,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2>How You Can Help</h2>
     <div class="cta-cards">
       <div class="cta-card">
-        <div class="icon">&#128157;</div>
+        <h3>Follow and forecast</h3>
+        <p>Follow the tournament now, then make and update predictions once questions open on June 12, 2026.</p>
+        <a href="https://www.metaculus.com/tournament/33016/" class="cta-button-sm" target="_blank" rel="noopener">Open Metaculus</a>
+      </div>
+      <div class="cta-card">
         <h3>Fund the Prize Pool</h3>
-        <p>The tournament needs a prize pool to incentivize quality forecasting. Even small donations help us reach our $15,000 goal.</p>
-        <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button-sm" target="_blank" rel="noopener">Donate on Manifund</a>
+        <p>The $3,400 prize pool was funded by the community via Manifund. Further support can help expand this line of decision-relevant forecasting.</p>
+        <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button-sm blue" target="_blank" rel="noopener">Donate on Manifund</a>
         <br><span class="note" style="display: inline-block; margin-top: 0.5rem;">Or <a href="https://donorbox.org/the-unjournal-donations" target="_blank" rel="noopener">donate via The Unjournal</a>, leaving a comment 'AW Tournament'; all funds will be passed directly.</span>
       </div>
       <div class="cta-card">
-        <div class="icon">&#128276;</div>
-        <h3>Get Notified</h3>
-        <p>Sign up to be notified when the tournament goes live and registration opens.</p>
-        <a href="#signup" class="cta-button-sm blue">Sign Up for Updates</a>
-      </div>
-      <div class="cta-card">
-        <div class="icon">&#128214;</div>
         <h3>Learn More</h3>
         <p>Read the full background on the EA Forum, including example questions and the theory of change.</p>
         <a href="https://forum.effectivealtruism.org/posts/pxYdSh3hjSCEMk68z/call-for-questions-on-animal-focused-forecasting-tournament" class="cta-button-sm outline" target="_blank" rel="noopener">Read the Announcement</a>
@@ -478,7 +684,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <section id="role">
     <h2>How The Unjournal Is Involved</h2>
-    <p>The Unjournal's <strong>Pivotal Questions</strong> project tackles critical uncertainties in effective altruism research. We're collaborating with this tournament to:</p>
+    <p>The Unjournal's <a href="https://info.unjournal.org/pivotal-questions.html"><strong>Pivotal Questions</strong></a> project tackles critical uncertainties in effective altruism research. We are partnering with Sentient Futures and Metaculus on this tournament to:</p>
     <ul>
       <li>Help shape decision-relevant questions, drawing on our work on <a href="https://forum.effectivealtruism.org/posts/3Eh8MbqLwFBsD7GK2/how-much-do-plant-based-products-substitute-for-animal" target="_blank" rel="noopener">plant-based product substitution</a> and <a href="https://forum.effectivealtruism.org/posts/7ha23d3qzXiCqYLDq/is-cultured-meat-commercially-viable-unjournal-s-first" target="_blank" rel="noopener">cultured meat viability</a></li>
       <li>Connect tournament forecasts with rigorous research evaluation</li>
@@ -487,30 +693,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Our goal: synthesize forecasting data with academic evidence to create actionable "decision packages" for funders and advocates.</p>
   </section>
 
-  <section id="signup">
-    <div class="signup-section">
-      <h3>Get Launch Notifications</h3>
-      <p>The tournament launches in February/March 2026. Sign up to be notified when it goes live.</p>
-      <div class="coda-embed">
-        <iframe src="https://coda.io/embed/dynk1kQ7XO" width="900" height="500" style="max-width: 100%; border: none; border-radius: 6px;" allow="fullscreen"></iframe>
-      </div>
-      <p class="note" style="margin-top: 0.75rem;">Or <a href="https://coda.io/form/Interest-in-the-Unjournal-Metaculus-Animal-Welfare-Forecasting-t_ddynk1kQ7XO" target="_blank" rel="noopener">open the form in a new tab</a>.</p>
-    </div>
-  </section>
-
   <div class="footer-cta">
-    <h2>Be Part of the First Animal-Focused Forecasting Tournament</h2>
-    <p>Better predictions. Better prioritization. Better outcomes for animals.</p>
-    <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button" target="_blank" rel="noopener">Donate on Manifund</a>
+    <h2>Be Part of the Animal Futures Tournament</h2>
+    <p>Follow the tournament, compete for prizes, and help build a more informed, more effective movement.</p>
+    <a href="https://www.metaculus.com/tournament/33016/" class="cta-button" target="_blank" rel="noopener">Open Metaculus Tournament</a>
+    <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button secondary" target="_blank" rel="noopener">Support the Prize Pool</a>
     <a href="https://donorbox.org/the-unjournal-donations" class="cta-button blue" target="_blank" rel="noopener">Donate via The Unjournal</a>
-    <a href="#signup" class="cta-button secondary">Get Launch Updates</a>
   </div>
+
+  <p class="image-credit">Hero image: <a href="https://commons.wikimedia.org/wiki/File:Chicken_free_range_1.jpg" target="_blank" rel="noopener">"Chicken free range 1"</a> by AnemoneProjectors, via Wikimedia Commons, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>.</p>
 
 </main>
 
 <footer>
   <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
-<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">Maintained by The Unjournal team. Suggestions and corrections welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
 </footer>
 
 
