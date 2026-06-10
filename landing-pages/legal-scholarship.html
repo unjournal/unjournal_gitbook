@@ -512,7 +512,27 @@
 
       <section id="curation">
         <h2>Curation-first path</h2>
-        <p>A lower-commitment way to restart this is to adapt The Unjournal's prioritization workflow to legal scholarship. Instead of beginning with full public evaluations, we could first build a public candidate list and ask legal scholars, practitioners, policy researchers, and research users to suggest, label, and discuss entries. This would be integrated with AI tools for initial search, filtering, clustering, and summarization, while leaving final prioritization judgments to people with relevant legal and policy expertise. See our <a href="https://uj-prioritization-prototype.netlify.app/">early automated prioritization prototype</a>, which is outside legal research and currently focuses mainly on economics and related work.</p>
+        <p>A lower-commitment way to restart this is to adapt The Unjournal's prioritization workflow to legal scholarship. Instead of beginning with full public evaluations, we could first build a public candidate list and ask legal scholars, practitioners, policy researchers, and research users to suggest, label, and discuss entries. This would be integrated with AI tools for initial search, filtering, clustering, and summarization, while leaving final prioritization judgments to people with relevant legal and policy expertise. We have begun doing exactly this: our <a href="https://uj-prioritization-prototype.netlify.app/legal/">legal scholarship prioritization prototype</a>, described just below, is an early AI-assisted version of this candidate list, alongside a <a href="https://uj-prioritization-prototype.netlify.app/">parallel prototype covering economics and related research</a>.</p>
+
+        <article class="panel" id="legal-dashboard" style="margin-top: 18px;">
+          <h3 style="margin-top: 0;">Prototype in action: the legal prioritization dashboard</h3>
+          <p>To make this concrete, and to give a sense of the kind of research we have in mind, we have built an early, AI-assisted <a href="https://uj-prioritization-prototype.netlify.app/legal/">legal scholarship prioritization dashboard</a>. A first automated pass scanned roughly 360 public legal papers (law-review articles, SSRN working drafts, and forthcoming pieces) and scored each one from 0 to 10 on five weighted dimensions that track the criteria above:</p>
+          <ul class="compact">
+            <li><strong>Global or societal impact</strong> (about 35%): AI safety, biosecurity, animal welfare, catastrophic risk, or rule of law.</li>
+            <li><strong>Influence potential</strong> (about 25%): whether the work could affect courts, regulators, or policymakers.</li>
+            <li><strong>Contribution and evaluability</strong> (about 20%): whether it advances legal reasoning with claims experts can meaningfully assess.</li>
+            <li><strong>Prominence</strong> (about 10%): venue, authorship, and citation signals.</li>
+            <li><strong>Timing</strong> (about 10%): draft stage and open policy windows.</li>
+          </ul>
+          <p>Each paper is sorted into a bucket from "prioritize now" through "monitor," "deprioritize," and "out of scope," and tagged by theme: AI liability and tort law, law-following AI and AI agents, compute governance, biosecurity governance, animal welfare law, deepfakes and information integrity, rule of law, and global health law. A few of the candidates it currently surfaces near the top:</p>
+          <ul class="compact">
+            <li>"Regulating Deepfakes at Home and Abroad," Jane C. Ginsburg and Graeme W. Austin (SSRN draft).</li>
+            <li>"A Pragmatic Approach to Regulating AI Agents," Philipp Hacker and Matthias Holweg (SSRN draft).</li>
+            <li>"Acting with AI: An Interaction-Based Framework for Agentic Tort Liability," Yiheng Yao (SSRN draft).</li>
+            <li>"Frontier AI Regulation: Managing Emerging Risks to Public Safety," Markus Anderljung and co-authors (SSRN draft).</li>
+          </ul>
+          <p class="note"><strong>This is an exploratory prototype.</strong> The scores are AI-generated and not yet calibrated against human prioritization decisions, so treat them as rough triage rather than considered judgments. We would value your feedback: try the <a href="https://uj-prioritization-prototype.netlify.app/legal/">dashboard</a>, tell us where the rankings look wrong, and suggest papers or themes we are missing.</p>
+        </article>
         <details class="fold">
           <summary>Contributor workflow and rationale</summary>
           <div class="fold-body grid-2">
@@ -659,7 +679,8 @@
               <li><a href="https://docs.google.com/document/d/1LbN8nAPh_iKZRoae3BkaQAQhsekKPpcfEST9yfuXr1o/edit?tab=t.0">Legal Research Prioritization and Evaluation Framework</a></li>
               <li><a href="legal-scholarship-candidates.html">Public candidate papers and themes page</a></li>
               <li><a href="https://docs.google.com/document/d/1a5jUbb86v2FA5l3FEd9G1jhEpQslFuoAvUO-HqStcGU/edit?usp=sharing">Impactful legal research ideas</a></li>
-              <li><a href="https://uj-prioritization-prototype.netlify.app/">Early automated prioritization prototype outside legal research</a></li>
+              <li><a href="https://uj-prioritization-prototype.netlify.app/legal/">Legal scholarship prioritization dashboard (AI-assisted prototype)</a></li>
+              <li><a href="https://uj-prioritization-prototype.netlify.app/">Parallel prioritization prototype for economics and related research</a></li>
               <li><a href="https://law-ai.org/about-the-institute-for-law-ai/">Institute for Law & AI</a></li>
               <li><a href="https://clair-ai.org/">Center for Law & AI Risk</a></li>
               <li><a href="https://www.lawfaremedia.org/article/proceedings-of-the-2025-workshop-on-law-following-ai">Proceedings of the 2025 Workshop on Law-Following AI</a></li>
