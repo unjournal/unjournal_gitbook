@@ -11,7 +11,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animal Futures Tournament — The Unjournal</title>
-  <meta name="description" content="The Animal Futures Tournament is on Metaculus. Forecast decision-relevant questions on farmed animal welfare, alternative proteins, wild animal welfare, AI, and animal futures.">
+  <meta name="description" content="Join the Animal Futures Tournament on Metaculus: forecast decision-relevant questions on animal welfare, alternative proteins, wild animal welfare, AI, and policy. $3,400 prize pool.">
+  <link rel="canonical" href="https://info.unjournal.org/forecasting-tournament/">
+  <meta property="og:title" content="Animal Futures Tournament on Metaculus">
+  <meta property="og:description" content="Forecast decision-relevant questions on animal welfare, alternative proteins, wild animal welfare, AI, and policy. $3,400 prize pool.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://info.unjournal.org/forecasting-tournament/">
+  <meta property="og:image" content="https://info.unjournal.org/chicken-free-range.jpg">
+  <meta property="og:image:alt" content="Free-range chickens outdoors">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Animal Futures Tournament on Metaculus">
+  <meta name="twitter:description" content="Forecast decision-relevant questions on animal welfare, alternative proteins, wild animal welfare, AI, and policy. $3,400 prize pool.">
+  <meta name="twitter:image" content="https://info.unjournal.org/chicken-free-range.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Animal Futures Tournament",
+    "description": "A Metaculus forecasting tournament on decision-relevant questions in animal welfare, alternative proteins, wild animal welfare, AI, and policy.",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "startDate": "2026-06-12",
+    "endDate": "2027-07-01",
+    "url": "https://info.unjournal.org/forecasting-tournament/",
+    "image": "https://info.unjournal.org/chicken-free-range.jpg",
+    "organizer": {
+      "@type": "Organization",
+      "name": "The Unjournal",
+      "url": "https://unjournal.org"
+    },
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://www.metaculus.com/tournament/33016/"
+    }
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
@@ -175,10 +209,20 @@
     }
 
     .question-card {
+      display: block;
       background: var(--light-green-bg);
       border: 1px solid #d4efdf;
       border-radius: 8px;
       padding: 1.1rem 1.25rem;
+      color: var(--text);
+      text-decoration: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .question-card:hover {
+      background: #e7f1ec;
+      border-color: var(--green);
+      text-decoration: none;
     }
 
     .question-card .topic {
@@ -521,6 +565,50 @@
       font-size: 0.95rem;
     }
 
+    .participation-list {
+      margin: 0.8rem 0 1.1rem 1.1rem;
+      font-size: 0.98rem;
+    }
+
+    .participation-list strong {
+      color: var(--primary);
+    }
+
+    header .participation-list {
+      color: var(--white);
+      margin-left: 1.2rem;
+      max-width: 720px;
+    }
+
+    header .participation-list strong {
+      color: var(--white);
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .faq-item {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem;
+    }
+
+    .faq-item h3 {
+      color: var(--primary);
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .faq-item p {
+      margin-bottom: 0;
+      font-size: 0.94rem;
+    }
+
     .image-credit {
       font-size: 0.78rem;
       color: var(--text-light);
@@ -543,6 +631,10 @@
       .tournament-facts {
         grid-template-columns: 1fr 1fr;
       }
+
+      .faq-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     footer {
@@ -561,23 +653,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="hero-inner">
     <a class="hero-logo" href="https://unjournal.org"><img src="/unjournal-logo.jpg" alt="The Unjournal"></a>
     <div class="org-label">Metaculus and The Unjournal</div>
-    <div class="live-badge">Launch page live; questions open June 12, 2026</div>
+    <div class="live-badge" data-open-status>Launch page live; questions open June 12, 2026</div>
     <h1>Animal Futures Tournament</h1>
     <p class="subtitle">Forecast decision-relevant questions on farmed animal welfare, alternative proteins, wild animal welfare, and how advanced AI may shape animals' lives.</p>
+    <ul class="participation-list">
+      <li><strong>Participation is free.</strong></li>
+      <li><strong>You can forecast any subset of questions.</strong></li>
+      <li><strong>Forecasts can be updated as evidence changes.</strong></li>
+    </ul>
     <div class="hero-ctas">
-      <a href="https://www.metaculus.com/tournament/33016/" class="cta-button" target="_blank" rel="noopener">View on Metaculus</a>
-      <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button secondary" target="_blank" rel="noopener">Support the Prize Pool</a>
+      <a href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=main_cta" class="cta-button metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="hero" target="_blank" rel="noopener">Join the Tournament on Metaculus</a>
     </div>
   </div>
 </header>
 
 <nav>
   <a href="#about">The Tournament</a>
-  <a href="#who-benefits">Who Benefits</a>
+  <a href="#forecasters">For Forecasters</a>
+  <a href="#animal-advocates">For Animal Advocates</a>
   <a href="#questions">Questions</a>
+  <a href="#ai-and-animals">AI & Animals</a>
+  <a href="#faq">FAQ</a>
   <a href="#help">How to Help</a>
   <a href="#role">Unjournal's Role</a>
-  <a href="https://www.metaculus.com/tournament/33016/" target="_blank" rel="noopener">View on Metaculus</a>
+  <a href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=nav_cta" class="metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="nav" target="_blank" rel="noopener">Join on Metaculus</a>
   <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
 </nav>
 
@@ -586,54 +685,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section id="about">
     <h2>What's This Tournament About?</h2>
     <p>Every day, billions of animals suffer in ways we can prevent, but only if resources are directed wisely. People working to reduce that suffering face hard questions with thin evidence: which interventions work, where the next dollar should go, and how the landscape will shift over the next few years.</p>
-    <p>The <a href="https://www.metaculus.com/tournament/33016/" target="_blank" rel="noopener">Animal Futures Tournament on Metaculus</a> asks forecasters to help answer these questions. Each question was crowdsourced from the animal advocacy community and vetted for decision-relevance, so a forecast could plausibly inform a real funding or strategy decision.</p>
+    <p>The <a href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=body_link" class="metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="body-link" target="_blank" rel="noopener">Animal Futures Tournament on Metaculus</a> asks forecasters to help answer these questions. Each question was crowdsourced from the animal advocacy community and vetted for decision-relevance, so a forecast could plausibly inform a real funding or strategy decision.</p>
     <p>The tournament builds on Metaculus's earlier animal welfare and alternative protein forecasting work. The Unjournal is helping connect the forecasts to decision-relevant research questions, and the prize pool was funded by the community via Manifund.</p>
 
     <div class="launch-panel">
       <div>
         <h3>Key details</h3>
         <div class="tournament-facts">
-          <div class="fact"><strong>June 12, 2026</strong><span>questions open</span></div>
+          <div class="fact"><strong>June 12, 2026</strong><span data-open-fact>questions open</span></div>
           <div class="fact"><strong>July 1, 2027</strong><span>tournament closes</span></div>
           <div class="fact"><strong>16</strong><span>forecasting questions</span></div>
           <div class="fact"><strong>$3,400</strong><span>prize pool</span></div>
         </div>
         <p>You do not need to be an animal advocate to take part. Whether you have spent years in the movement or you are a forecaster looking for fresh, decision-relevant questions, your predictions are welcome and useful.</p>
+        <ul class="small-list">
+          <li>Participation is free.</li>
+          <li>You can forecast one question, several questions, or the full set.</li>
+          <li>Your forecasts can be updated as evidence changes.</li>
+        </ul>
       </div>
       <div class="launch-actions">
         <p><strong>Go straight to the tournament:</strong></p>
-        <a href="https://www.metaculus.com/tournament/33016/" class="cta-button" target="_blank" rel="noopener">Open Metaculus Tournament</a>
-        <p class="note">Metaculus has the full question list, participation flow, rules, scoring, and leaderboard details. Bot accounts may participate, but each entrant can enter only once, either as a bot or a normal user.</p>
+        <a href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=details_panel_cta" class="cta-button metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="details-panel" target="_blank" rel="noopener">Join the Tournament on Metaculus</a>
+        <p class="note">Metaculus has the full question list, participation flow, rules, scoring, and leaderboard details.</p>
       </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>What happens after I click?</strong> <span data-open-action>You will be taken to Metaculus, where you can create an account, follow the tournament, and forecast questions once open.</span>
     </div>
 
     <p>Questions span farmed animal welfare commitments, alternative proteins, wild animal welfare, and the ways advanced AI may come to shape the lives of animals.</p>
 
     <div id="questions" class="question-cards">
-      <div class="question-card">
+      <a class="question-card metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="question-card-alternative-proteins" href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=question_card" target="_blank" rel="noopener">
         <div class="topic">Alternative proteins</div>
         <div class="text">Will plant-based meat and seafood reach 10% of US retail packaged meat dollar sales before 2031?</div>
-      </div>
-      <div class="question-card">
+      </a>
+      <a class="question-card metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="question-card-cultivated-meat-policy" href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=question_card" target="_blank" rel="noopener">
         <div class="topic">Cultivated meat policy</div>
         <div class="text">How many additional US states will enact bans on cultivated meat before July 2027?</div>
-      </div>
-      <div class="question-card">
+      </a>
+      <a class="question-card metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="question-card-aquaculture" href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=question_card" target="_blank" rel="noopener">
         <div class="topic">Aquaculture</div>
         <div class="text">What proportion of global fish production will be from aquaculture in 2040?</div>
-      </div>
-      <div class="question-card">
+      </a>
+      <a id="ai-and-animals" class="question-card metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="question-card-ai-and-animals" href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=question_card" target="_blank" rel="noopener">
         <div class="topic">AI and animals</div>
         <div class="text">How many of the top 2026 AI labs will reference animal welfare in their models' guidelines at the end of 2034?</div>
-      </div>
-      <div class="question-card">
+      </a>
+      <a class="question-card metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="question-card-wild-animal-welfare" href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=question_card" target="_blank" rel="noopener">
         <div class="topic">Wild animal welfare</div>
         <div class="text">How much funding will Wild Animal Initiative receive in 2026?</div>
-      </div>
-      <div class="question-card">
+      </a>
+      <a class="question-card metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="question-card-farmed-animal-welfare" href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=question_card" target="_blank" rel="noopener">
         <div class="topic">Farmed animal welfare</div>
         <div class="text">How many of Europe's top 20 grocery retailers will have public shrimp welfare commitments before July 2027?</div>
-      </div>
+      </a>
     </div>
     <p class="note">These are examples from the Metaculus tournament page. The full set also includes questions on in-ovo sexing, octopus farming, cultivated meat approvals, meat production, screwworm cases, animal-welfare model benchmarks, and related policy outcomes.</p>
 
@@ -642,7 +750,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <section id="who-benefits">
+  <section id="forecasters">
+    <h2>For Forecasters</h2>
+    <p>This is a low-friction way to work on concrete, decision-relevant questions. You can enter a single forecast, focus on the subset you know best, and revise your predictions as new evidence arrives.</p>
+  </section>
+
+  <section id="animal-advocates">
     <h2>Who Will Use These Forecasts?</h2>
     <div class="three-col">
       <div class="benefit-card">
@@ -665,14 +778,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="cta-cards">
       <div class="cta-card">
         <h3>Follow and forecast</h3>
-        <p>Follow the tournament now, then make and update predictions once questions open on June 12, 2026.</p>
-        <a href="https://www.metaculus.com/tournament/33016/" class="cta-button-sm" target="_blank" rel="noopener">Open Metaculus</a>
+        <p>Follow the tournament, make predictions, and update them as evidence changes.</p>
+        <a href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=help_card_cta" class="cta-button-sm metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="help-card" target="_blank" rel="noopener">Open Metaculus</a>
       </div>
       <div class="cta-card">
-        <h3>Fund the Prize Pool</h3>
-        <p>The $3,400 prize pool was funded by the community via Manifund. Further support can help expand this line of decision-relevant forecasting.</p>
-        <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button-sm blue" target="_blank" rel="noopener">Donate on Manifund</a>
-        <br><span class="note" style="display: inline-block; margin-top: 0.5rem;">Or <a href="https://donorbox.org/the-unjournal-donations" target="_blank" rel="noopener">donate via The Unjournal</a>, leaving a comment 'AW Tournament'; all funds will be passed directly.</span>
+        <h3>Share with forecasters</h3>
+        <p>Send the tournament to people who enjoy calibrated predictions, policy forecasting, or animal-welfare research.</p>
+        <a href="#questions" class="cta-button-sm outline">See Sample Questions</a>
       </div>
       <div class="cta-card">
         <h3>Learn More</h3>
@@ -688,17 +800,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <ul>
       <li>Help shape decision-relevant questions, drawing on our work on <a href="https://forum.effectivealtruism.org/posts/3Eh8MbqLwFBsD7GK2/how-much-do-plant-based-products-substitute-for-animal" target="_blank" rel="noopener">plant-based product substitution</a> and <a href="https://forum.effectivealtruism.org/posts/7ha23d3qzXiCqYLDq/is-cultured-meat-commercially-viable-unjournal-s-first" target="_blank" rel="noopener">cultured meat viability</a></li>
       <li>Connect tournament forecasts with rigorous research evaluation</li>
-      <li>Integrate insights into our <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus community forecasts</a></li>
+      <li>Integrate insights into our <a href="https://www.metaculus.com/c/unjournal/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=unjournal_metaculus_community" target="_blank" rel="noopener">Metaculus community forecasts</a></li>
     </ul>
     <p>Our goal: synthesize forecasting data with academic evidence to create actionable "decision packages" for funders and advocates.</p>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h3>Do I need to be an expert?</h3>
+        <p>No. Topic experts and general forecasters both add value, especially when they make their uncertainty explicit.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is it free?</h3>
+        <p>Yes. Participation is free, and the tournament has a $3,400 prize pool.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do I need to forecast every question?</h3>
+        <p>No. You can forecast any subset of questions.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What is Metaculus?</h3>
+        <p>Metaculus is an online forecasting platform where people make and update probabilistic predictions on important questions.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How are prizes awarded?</h3>
+        <p>Metaculus hosts the rules, scoring, leaderboard, and prize details on the tournament page.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can bots participate?</h3>
+        <p>Metaculus handles the tournament rules. Bot accounts may participate under Metaculus rules, but each entrant can enter only once.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="support">
+    <h2>Support the Prize Pool</h2>
+    <p>The ad goal is tournament participation, but additional support can help expand this line of decision-relevant forecasting.</p>
+    <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button-sm blue" target="_blank" rel="noopener">Donate on Manifund</a>
+    <span class="note" style="display: inline-block; margin-left: 0.5rem;">Or <a href="https://donorbox.org/the-unjournal-donations" target="_blank" rel="noopener">donate via The Unjournal</a>, leaving a comment "AW Tournament"; all funds will be passed directly.</span>
   </section>
 
   <div class="footer-cta">
     <h2>Be Part of the Animal Futures Tournament</h2>
     <p>Follow the tournament, compete for prizes, and help build a more informed, more effective movement.</p>
-    <a href="https://www.metaculus.com/tournament/33016/" class="cta-button" target="_blank" rel="noopener">Open Metaculus Tournament</a>
-    <a href="https://manifund.org/projects/metaculus-first-animal-focused-forecasting-tournament" class="cta-button secondary" target="_blank" rel="noopener">Support the Prize Pool</a>
-    <a href="https://donorbox.org/the-unjournal-donations" class="cta-button blue" target="_blank" rel="noopener">Donate via The Unjournal</a>
+    <p>Your forecast helps clarify which animal welfare bets look most promising, most uncertain, or most neglected.</p>
+    <a href="https://www.metaculus.com/tournament/33016/?utm_source=unjournal&amp;utm_medium=referral&amp;utm_campaign=animal_futures_google_ads&amp;utm_content=bottom_cta" class="cta-button metaculus-cta" data-conversion="metaculus-tournament" data-cta-location="bottom" target="_blank" rel="noopener">Join the Tournament on Metaculus</a>
   </div>
 
   <p class="image-credit">Hero image: <a href="https://commons.wikimedia.org/wiki/File:Chicken_free_range_1.jpg" target="_blank" rel="noopener">"Chicken free range 1"</a> by AnemoneProjectors, via Wikimedia Commons, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>.</p>
@@ -712,5 +860,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+<script>
+  (function () {
+    var openDate = new Date('2026-06-12T00:00:00-04:00');
+    var now = new Date();
+    if (now >= openDate) {
+      document.querySelectorAll('[data-open-status]').forEach(function (el) {
+        el.textContent = 'Tournament live; questions are open';
+      });
+      document.querySelectorAll('[data-open-fact]').forEach(function (el) {
+        el.textContent = 'questions are open';
+      });
+      document.querySelectorAll('[data-open-action]').forEach(function (el) {
+        el.textContent = 'You will be taken to Metaculus, where you can create an account, follow the tournament, and start forecasting.';
+      });
+    }
+
+    function pushEvent(name, payload) {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(Object.assign({ event: name }, payload));
+    }
+
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest ? event.target.closest('a[href]') : null;
+      if (!link) return;
+
+      var href = link.href;
+      var isOutbound = link.hostname && link.hostname !== window.location.hostname;
+      if (link.classList.contains('metaculus-cta') || link.dataset.conversion === 'metaculus-tournament') {
+        pushEvent('metaculus_cta_click', {
+          conversion_name: 'animal_futures_tournament_click',
+          cta_location: link.dataset.ctaLocation || 'unknown',
+          link_url: href
+        });
+      }
+
+      if (isOutbound) {
+        pushEvent('outbound_click', {
+          link_domain: link.hostname,
+          link_url: href,
+          link_text: (link.textContent || '').trim().slice(0, 120)
+        });
+      }
+    });
+  })();
+</script>
 </body>
 </html>
