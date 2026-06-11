@@ -120,6 +120,15 @@
 
     nav a:hover { text-decoration: underline; }
 
+    nav a.featured {
+      background: var(--teal);
+      border-radius: 999px;
+      color: var(--white);
+      margin-left: auto;
+      padding: 5px 14px;
+    }
+    nav a.featured:hover { background: var(--navy); color: var(--white); text-decoration: none; }
+
     main { padding: 34px 24px 54px; }
 
     section {
@@ -190,6 +199,13 @@
       border-radius: 8px;
       padding: 20px;
     }
+
+    .panel.featured {
+      background: var(--band);
+      border: 1px solid var(--teal);
+      border-left: 5px solid var(--teal);
+    }
+    .panel.featured h3 { color: var(--navy); }
 
     .panel.compact p:last-child,
     .panel.compact ul:last-child,
@@ -404,6 +420,7 @@
       <a href="#plan">Revival plan</a>
       <a href="#pilots">Pilot options</a>
       <a href="#sources">Sources</a>
+      <a class="featured" href="https://uj-prioritization-prototype.netlify.app/legal/" target="_blank" rel="noopener">Prioritization dashboard ↗</a>
     </div>
   </nav>
   <div class="annotation-banner">
@@ -514,7 +531,7 @@
         <h2>Curation-first path</h2>
         <p>A lower-commitment way to restart this is to adapt The Unjournal's prioritization workflow to legal scholarship. Instead of beginning with full public evaluations, we could first build a public candidate list and ask legal scholars, practitioners, policy researchers, and research users to suggest, label, and discuss entries. This would be integrated with AI tools for initial search, filtering, clustering, and summarization, while leaving final prioritization judgments to people with relevant legal and policy expertise. We have begun doing exactly this: our <a href="https://uj-prioritization-prototype.netlify.app/legal/">legal scholarship prioritization prototype</a>, described just below, is an early AI-assisted version of this candidate list, alongside a <a href="https://uj-prioritization-prototype.netlify.app/">parallel prototype covering economics and related research</a>.</p>
 
-        <article class="panel" id="legal-dashboard" style="margin-top: 18px;">
+        <article class="panel featured" id="legal-dashboard" style="margin-top: 18px;">
           <h3 style="margin-top: 0;">Prototype in action: the legal prioritization dashboard</h3>
           <p>To make this concrete, and to give a sense of the kind of research we have in mind, we have built an early, AI-assisted <a href="https://uj-prioritization-prototype.netlify.app/legal/">legal scholarship prioritization dashboard</a>. A first automated pass scanned roughly 360 public legal papers (law-review articles, SSRN working drafts, and forthcoming pieces) and scored each one from 0 to 10 on five weighted dimensions that track the criteria above:</p>
           <ul class="compact">
