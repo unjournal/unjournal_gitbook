@@ -7,7 +7,7 @@
 {% hint style="info" %}
 Suggest a pivotal question using [this form](https://coda.io/form/Expression-of-Interest-for-The-Unjournal-Pilot_dUpq6ZxNtdC) (or express your interest as an organization).
 
-Track our progress: [forum sequence](https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2) · [public PQ database](https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Pivotal-questions-database-Public-WIP_su3FOC8M) · [Metaculus forecasting community](https://www.metaculus.com/c/unjournal/)
+Track our progress: [forum sequence](https://forum.effectivealtruism.org/s/kazWBBYXm2Rvya3y2) · [public PQ database](https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Pivotal-questions-database-Public-WIP_su3FOC8M) · [Metaculus forecasting community](https://www.metaculus.com/c/unjournal/) · [Forum Cruxes & Pivotal Questions explorer](https://uj-prioritization-prototype.netlify.app/cruxes/) (a living map of EA Forum / LessWrong cruxes that feed candidate PQs)
 
 Our [workshop series](https://uj-pq-workshops.netlify.app) brings together researchers, evaluators, and funders to elicit beliefs and deliberate on specific pivotal questions — see below for current workshops.
 {% endhint %}
@@ -103,7 +103,7 @@ Impact-focused funders — including [Founders Pledge](https://www.founderspledg
 
 This workshop brought together researchers (including [Benjamin, Cooper, Heffetz, Kimball & Zhou](https://unjournal.pubpub.org/pub/evalsumheterogenity/), whose paper on scale-use heterogeneity The Unjournal evaluated), evaluators, and funders to make progress on these methodological questions.
 
-[Workshop site and materials →](https://uj-wellbeing-workshop.netlify.app)
+[Workshop site and materials →](https://uj-wellbeing-workshop.netlify.app) · [Related forum cruxes (WELLBY) →](https://uj-prioritization-prototype.netlify.app/cruxes/?area=Subjective%20wellbeing%20%2F%20WELLBY)
 
 ### Cultivated meat: cost and price trajectory
 
@@ -113,7 +113,7 @@ Can cultivated meat reach price parity with conventional meat? Techno-economic a
 
 See also: [EA Forum post on this PQ](https://forum.effectivealtruism.org/posts/7ha23d3qzXiCqYLDq/is-cultured-meat-commercially-viable-unjournal-s-first) and [interactive cost-modeling dashboard](https://unjournal.github.io/cm_pq_modeling/).
 
-[Workshop site and signup →](https://uj-cm-workshop.netlify.app)
+[Workshop site and signup →](https://uj-cm-workshop.netlify.app) · [Related forum cruxes (alt-protein) →](https://uj-prioritization-prototype.netlify.app/cruxes/?area=Alt-protein%20economics)
 
 ### Plant-based substitution
 
@@ -121,7 +121,7 @@ _Preliminary — May 2026_
 
 How much do plant-based alternatives actually displace conventional animal products, especially chicken? The cross-price elasticity of substitution is highly uncertain, and the answer bears directly on how funders evaluate corporate campaigns promoting plant-based foods and the broader alternative protein sector.
 
-[Workshop site (preliminary) →](https://uj-pba-workshop.netlify.app)
+[Workshop site (preliminary) →](https://uj-pba-workshop.netlify.app) · [Related forum cruxes (alt-protein) →](https://uj-prioritization-prototype.netlify.app/cruxes/?area=Alt-protein%20economics)
 
 ***
 
