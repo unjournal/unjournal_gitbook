@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a Pivotal Question - The Unjournal</title>
+  <meta name="description" content="Submit a decision-relevant research question to The Unjournal's Pivotal Questions initiative.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --accent: #2e6f85;
+      --warm: #8b5e3c;
+      --paper: #fbfaf7;
+      --light-bg: #f7f9fb;
+      --text: #2c3e50;
+      --text-light: #5d6d7e;
+      --border: #d5dbdb;
+      --white: #ffffff;
+      --danger: #9f2d20;
+      --success: #236b45;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      background: var(--paper);
+      line-height: 1.6;
+      font-size: 17px;
+    }
+    header {
+      background: #f1eee7;
+      border-bottom: 1px solid #ded8cd;
+      padding: 2rem 1.25rem;
+      text-align: center;
+    }
+    header img { height: 52px; margin-bottom: 0.5rem; }
+    header h1 {
+      margin: 0.35rem 0 0.5rem;
+      color: var(--primary);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2rem;
+      line-height: 1.25;
+    }
+    header p {
+      max-width: 720px;
+      margin: 0 auto;
+      color: var(--text);
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      gap: 1.25rem;
+    }
+    form, aside {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+    form { padding: 1.25rem; }
+    aside {
+      align-self: start;
+      position: sticky;
+      top: 1rem;
+      padding: 1rem;
+    }
+    fieldset {
+      border: 0;
+      padding: 0;
+      margin: 0 0 1.65rem;
+    }
+    legend {
+      color: var(--primary);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      padding: 0;
+    }
+    label {
+      display: block;
+      font-weight: 700;
+      color: var(--primary);
+      margin: 1rem 0 0.35rem;
+    }
+    .hint {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.1rem;
+      height: 1.1rem;
+      border-radius: 50%;
+      border: 1px solid #c9dce2;
+      color: var(--accent);
+      font-size: 0.78rem;
+      margin-left: 0.25rem;
+      cursor: help;
+      vertical-align: text-top;
+    }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid #c4ccd2;
+      border-radius: 5px;
+      padding: 0.72rem 0.78rem;
+      font-family: inherit;
+      font-size: 1rem;
+      color: var(--text);
+      background: #fff;
+    }
+    textarea { min-height: 116px; resize: vertical; }
+    input:focus, select:focus, textarea:focus {
+      outline: 3px solid rgba(46, 111, 133, 0.18);
+      border-color: var(--accent);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0 1rem;
+    }
+    .example {
+      margin: 0.35rem 0 0;
+      color: var(--text-light);
+      font-size: 0.9rem;
+    }
+    .screen-reader-field {
+      position: absolute;
+      left: -10000px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    .checkbox-row {
+      display: flex;
+      gap: 0.6rem;
+      align-items: flex-start;
+      margin-top: 1rem;
+    }
+    .checkbox-row input {
+      width: auto;
+      margin-top: 0.3rem;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+    button, .link-button {
+      border: 0;
+      border-radius: 5px;
+      padding: 0.78rem 1.2rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    button.primary { background: var(--accent); color: #fff; }
+    button.secondary, .link-button { background: #eef5f7; color: var(--primary); }
+    button:disabled { opacity: 0.55; cursor: not-allowed; }
+    aside h2 {
+      color: var(--primary);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.1rem;
+      margin: 0 0 0.65rem;
+    }
+    .score {
+      display: flex;
+      align-items: baseline;
+      gap: 0.35rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+    .score strong { font-size: 2rem; line-height: 1; }
+    .notice {
+      border-left: 4px solid var(--accent);
+      background: var(--light-bg);
+      padding: 0.8rem 0.9rem;
+      border-radius: 0 5px 5px 0;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .notice.error {
+      border-left-color: var(--danger);
+      background: #fff5f2;
+      color: var(--danger);
+    }
+    .notice.success {
+      border-left-color: var(--success);
+      background: #f0faf4;
+      color: var(--success);
+    }
+    .issue-list {
+      margin: 0.6rem 0 1rem;
+      padding: 0;
+      list-style: none;
+    }
+    .issue-list li {
+      border-top: 1px solid var(--border);
+      padding: 0.7rem 0;
+      font-size: 0.92rem;
+    }
+    .issue-list strong { color: var(--primary); }
+    .small {
+      color: var(--text-light);
+      font-size: 0.88rem;
+    }
+    @media (max-width: 860px) {
+      main { grid-template-columns: 1fr; padding: 1rem; }
+      aside { position: static; }
+      .grid { grid-template-columns: 1fr; }
+      header h1 { font-size: 1.55rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://unjournal.org"><img src="unjournal-logo.jpg" alt="The Unjournal"></a>
+    <h1>Submit a Pivotal Question</h1>
+    <p>Use this guided form to turn a broad uncertainty into a question we can evaluate, forecast, workshop, or connect to existing evidence.</p>
+  </header>
+
+  <main>
+    <form id="pq-form" novalidate>
+      <input class="screen-reader-field" type="text" name="website" id="website" tabindex="-1" autocomplete="off">
+
+      <fieldset>
+        <legend>Your context</legend>
+        <div class="grid">
+          <div>
+            <label for="submitterName">Name</label>
+            <input id="submitterName" name="submitterName" autocomplete="name">
+          </div>
+          <div>
+            <label for="submitterEmail">Email</label>
+            <input id="submitterEmail" name="submitterEmail" type="email" autocomplete="email">
+          </div>
+        </div>
+        <div class="grid">
+          <div>
+            <label for="organization">Organization or affiliation</label>
+            <input id="organization" name="organization" autocomplete="organization">
+          </div>
+          <div>
+            <label for="role">Your role</label>
+            <select id="role" name="role">
+              <option value="">Select one</option>
+              <option>Funder or grantmaker</option>
+              <option>Researcher</option>
+              <option>Policy or program practitioner</option>
+              <option>Evaluator or reviewer</option>
+              <option>Interested observer</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>The question</legend>
+        <label for="topicArea">Topic area</label>
+        <input id="topicArea" name="topicArea" placeholder="Animal welfare, global health, AI governance, wellbeing measurement, climate, etc.">
+
+        <label for="questionTitle">Short title <span class="hint" title="A compact label for triage and database display.">?</span></label>
+        <input id="questionTitle" name="questionTitle" required placeholder="Example: Plant-based chicken substitution effect">
+
+        <label for="questionText">Pivotal question <span class="hint" title="Phrase this as a question that can eventually be answered with evidence, forecasts, or expert judgment.">?</span></label>
+        <textarea id="questionText" name="questionText" required placeholder="Example: By 2030, what share of US plant-based chicken purchases will substitute for chicken meat rather than other foods or incremental consumption?"></textarea>
+        <p class="example">Stronger questions usually include a population, outcome, comparison, and timeframe.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Why it matters</legend>
+        <label for="decisionContext">Decision this would inform <span class="hint" title="Describe the concrete funding, policy, research, or program choice this could change.">?</span></label>
+        <textarea id="decisionContext" name="decisionContext" required placeholder="What decision is currently blocked or fragile because this is uncertain?"></textarea>
+
+        <label for="decisionMakers">Who would use the answer?</label>
+        <textarea id="decisionMakers" name="decisionMakers" placeholder="Name an organization, type of funder, policymaker, research group, or program team."></textarea>
+
+        <label for="decisionChanges">What would change under different answers? <span class="hint" title="This is the core decision-relevance test. Give at least two answer-contingent actions if possible.">?</span></label>
+        <textarea id="decisionChanges" name="decisionChanges" required placeholder="Example: If substitution is below 20%, animal-welfare funders may shift from consumer product grants toward institutional procurement or policy campaigns. If above 60%, they may fund scale-up and retail adoption work."></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>How it could be answered</legend>
+        <label for="measurementTarget">What should be measured? <span class="hint" title="Name the observable quantity, outcome, claim, or probability.">?</span></label>
+        <textarea id="measurementTarget" name="measurementTarget" required placeholder="Example: The causal substitution rate from plant-based chicken purchases to reduced chicken meat purchases among US consumers."></textarea>
+
+        <div class="grid">
+          <div>
+            <label for="measurementUnit">Unit, scale, or indicator</label>
+            <input id="measurementUnit" name="measurementUnit" required placeholder="Percent substitution, kg chicken avoided per kg sold, probability by year, etc.">
+          </div>
+          <div>
+            <label for="timeframe">Timeframe</label>
+            <input id="timeframe" name="timeframe" placeholder="By 2030, next grant cycle, five-year effect, etc.">
+          </div>
+        </div>
+
+        <label for="currentBelief">Current belief or rough range</label>
+        <textarea id="currentBelief" name="currentBelief" placeholder="Optional: your best guess, uncertainty range, or what would surprise you."></textarea>
+
+        <label for="evidenceLinks">Relevant evidence, links, or disagreements</label>
+        <textarea id="evidenceLinks" name="evidenceLinks" placeholder="Papers, datasets, forecasts, expert disagreements, forum posts, reports, or people we should consult."></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Use and follow-up</legend>
+        <label for="publicPermission">May we publicly discuss this question?</label>
+        <select id="publicPermission" name="publicPermission">
+          <option value="ask-first">Ask me before public attribution or discussion</option>
+          <option value="anonymous-ok">Public discussion is OK if my name and organization are omitted</option>
+          <option value="public-ok">Public discussion with attribution is OK</option>
+          <option value="private-only">Keep this private unless I explicitly approve later</option>
+        </select>
+
+        <label class="checkbox-row" for="followUpOk">
+          <input id="followUpOk" name="followUpOk" type="checkbox" checked>
+          <span>You may contact me with follow-up questions.</span>
+        </label>
+      </fieldset>
+
+      <div class="actions">
+        <button type="button" class="secondary" id="review-button">Review my draft</button>
+        <button type="submit" class="primary" id="submit-button">Submit question</button>
+        <a class="link-button" href="pivotal-questions.html">Back to Pivotal Questions</a>
+      </div>
+    </form>
+
+    <aside aria-live="polite">
+      <h2>Draft review</h2>
+      <div id="status" class="notice">Fill in the form, then use "Review my draft" for pushbacks before submitting.</div>
+      <div id="score" class="score" hidden><strong>0</strong><span>/100</span></div>
+      <ul id="issues" class="issue-list"></ul>
+      <p class="small">The review is a triage aid. It checks whether the question is measurable, decision-relevant, and specific enough for follow-up.</p>
+    </aside>
+  </main>
+
+  <script>
+    const API_BASE = window.PQ_INTAKE_API_BASE || 'https://api.unjournal.org';
+    const form = document.getElementById('pq-form');
+    const reviewButton = document.getElementById('review-button');
+    const submitButton = document.getElementById('submit-button');
+    const statusBox = document.getElementById('status');
+    const scoreBox = document.getElementById('score');
+    const issuesList = document.getElementById('issues');
+    const storageKey = 'unjournal-pq-intake-draft';
+
+    function formData() {
+      const data = Object.fromEntries(new FormData(form).entries());
+      data.followUpOk = document.getElementById('followUpOk').checked;
+      data.source = 'pivotal_question_intake';
+      return data;
+    }
+
+    function setStatus(message, type) {
+      statusBox.textContent = message;
+      statusBox.className = 'notice' + (type ? ' ' + type : '');
+    }
+
+    function renderCritique(critique) {
+      if (!critique) return;
+      scoreBox.hidden = false;
+      scoreBox.querySelector('strong').textContent = critique.score ?? 0;
+      issuesList.innerHTML = '';
+      const issues = critique.issues || [];
+      if (issues.length === 0) {
+        const item = document.createElement('li');
+        item.innerHTML = '<strong>No major gaps found.</strong><br>The draft looks specific enough for triage.';
+        issuesList.appendChild(item);
+      } else {
+        issues.forEach((issue) => {
+          const item = document.createElement('li');
+          item.innerHTML = '<strong>' + escapeHtml(issue.label || 'Issue') + '</strong><br>' + escapeHtml(issue.message || '');
+          issuesList.appendChild(item);
+        });
+      }
+      setStatus(critique.summary || 'Draft reviewed.', critique.readyToSubmit ? 'success' : '');
+    }
+
+    function escapeHtml(value) {
+      return String(value || '').replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[char]));
+    }
+
+    function localCritique(data) {
+      const checks = [
+        ['measurementTarget', 'Measurement', 'Specify the observable outcome and data source.', 12],
+        ['measurementUnit', 'Units or scale', 'Name the unit, denominator, probability scale, or threshold.', 4],
+        ['decisionChanges', 'Decision relevance', 'Say what would be done differently under different answers.', 16],
+        ['timeframe', 'Timeframe', 'Add the relevant year, window, or decision deadline.', 3],
+        ['evidenceLinks', 'Existing evidence', 'List relevant papers, datasets, forecasts, or expert disagreements.', 8]
+      ];
+      const issues = [];
+      let score = 100;
+      checks.forEach(([field, label, message, minWords]) => {
+        const words = String(data[field] || '').trim().split(/\s+/).filter(Boolean);
+        if (words.length < minWords) {
+          issues.push({ field, label, message });
+          score -= 14;
+        }
+      });
+      if (!data.decisionMakers) {
+        issues.push({ field: 'decisionMakers', label: 'Decision maker', message: 'Name the actor or class of actors whose decision would change.' });
+        score -= 8;
+      }
+      score = Math.max(0, Math.min(100, score));
+      return {
+        score,
+        readyToSubmit: score >= 70 && issues.length <= 2,
+        issues,
+        summary: score >= 70 ? 'This draft is usable for triage.' : 'This draft needs more precision before review.'
+      };
+    }
+
+    async function postJson(path, data) {
+      const response = await fetch(API_BASE + path, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        const errors = payload.errors || ['Request failed'];
+        throw new Error(errors.join(' '));
+      }
+      return payload;
+    }
+
+    async function reviewDraft() {
+      const data = formData();
+      reviewButton.disabled = true;
+      setStatus('Reviewing the draft...', '');
+      try {
+        const payload = await postJson('/api/pq/critique', data);
+        renderCritique(payload.critique);
+      } catch (error) {
+        renderCritique(localCritique(data));
+        setStatus('Using the local review because the API is not reachable yet.', '');
+      } finally {
+        reviewButton.disabled = false;
+      }
+    }
+
+    form.addEventListener('input', () => {
+      localStorage.setItem(storageKey, JSON.stringify(formData()));
+    });
+
+    reviewButton.addEventListener('click', reviewDraft);
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const data = formData();
+      submitButton.disabled = true;
+      setStatus('Submitting...', '');
+      try {
+        const payload = await postJson('/api/pq/submit', data);
+        renderCritique(payload.critique);
+        localStorage.removeItem(storageKey);
+        setStatus('Submitted. Thank you; we have recorded this question for review.', 'success');
+        form.reset();
+      } catch (error) {
+        setStatus(error.message || 'Submission failed. Please try again or email contact@unjournal.org.', 'error');
+      } finally {
+        submitButton.disabled = false;
+      }
+    });
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
+      Object.entries(saved).forEach(([key, value]) => {
+        const field = form.elements[key];
+        if (!field) return;
+        if (field.type === 'checkbox') field.checked = Boolean(value);
+        else field.value = value;
+      });
+    } catch (error) {
+      localStorage.removeItem(storageKey);
+    }
+  </script>
+</body>
+</html>
