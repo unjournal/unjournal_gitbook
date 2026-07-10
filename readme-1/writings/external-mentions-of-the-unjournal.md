@@ -3,7 +3,7 @@
 This page tracks **genuinely new, third-party references to The Unjournal**. It is maintained as a deduplicated public record rather than a repeated search digest.
 
 {% hint style="info" %}
-Until the GitBook change is manually merged and published, the reliable public version is the GitHub-rendered page for this file. Its full revision history is also public.
+The maintained public tracker is hosted at [https://unjournal.github.io/unjournal_gitbook/](https://unjournal.github.io/unjournal_gitbook/). The source and revision history are public in the repository's `gh-pages` branch.
 {% endhint %}
 
 ## Inclusion rules
@@ -26,12 +26,13 @@ Routine directory listings, search-result snippets, scraped mirrors, duplicate s
 ## How this page was constructed and is maintained
 
 1. **Initial construction:** ChatGPT created the tracker on 10 July 2026 in The Unjournal's public `unjournal/unjournal_gitbook` GitHub repository, following a request to replace repetitive chat digests with a persistent public record.
-2. **Search scope:** scheduled searches examine the open web, news and blogs, academic citations, podcasts, forums, directories, GitHub, and relevant social and research communities for explicit Unjournal mentions or links.
-3. **Verification:** candidate items are checked for a direct source, publication date, author or account, relevance, and substantive content before inclusion.
-4. **Deduplication:** each candidate is compared with all entries already recorded. Canonical URLs, URL variants, titles, authors, quoted text, mirrors, reposts, and syndicated copies are considered together so the same underlying reference is not repeatedly added.
-5. **Editorial classification:** accepted items receive a High, Medium, or Low importance label and a concise description. Inclusion does not imply endorsement by The Unjournal.
-6. **Updates and notifications:** the page is changed only when a genuinely new qualifying item is found. High-importance additions trigger ChatGPT and email notifications. Medium- and Low-importance additions may be recorded silently.
-7. **Auditability:** the source and revision history are public on GitHub, providing a dated record of additions, removals, and reclassifications.
+2. **Hosting:** the public page is generated from the repository's dedicated `gh-pages` branch, with the tracker stored as the branch-root `index.html` file.
+3. **Search scope:** scheduled searches examine the open web, news and blogs, academic citations, podcasts, forums, directories, GitHub, and relevant social and research communities for explicit Unjournal mentions or links.
+4. **Verification:** candidate items are checked for a direct source, publication date, author or account, relevance, and substantive content before inclusion.
+5. **Deduplication:** each candidate is compared with all entries already recorded. Canonical URLs, URL variants, titles, authors, quoted text, mirrors, reposts, and syndicated copies are considered together so the same underlying reference is not repeatedly added.
+6. **Editorial classification:** accepted items receive a High, Medium, or Low importance label and a concise description. Inclusion does not imply endorsement by The Unjournal.
+7. **Updates and notifications:** the page is changed only when a genuinely new qualifying item is found. High-importance additions trigger ChatGPT and email notifications. Medium- and Low-importance additions may be recorded silently.
+8. **Auditability:** the source and revision history are public on GitHub, providing a dated record of additions, removals, and reclassifications.
 
 **Current limitation:** the maintained tracker begins prospectively from 10 July 2026. It is not yet a complete historical inventory of every earlier mention. Automated discovery may also miss content that is private, unindexed, deleted, paywalled, or otherwise inaccessible to the search tools.
 
@@ -42,4 +43,4 @@ _No qualifying new mentions have yet been added under this maintained system._
 ## Maintenance log
 
 - **10 July 2026:** Created the deduplicated tracker and documented how it was constructed.
-- **10 July 2026:** Corrected the publication setup after confirming that GitBook requires a manual merge and GitHub Pages was not enabled for this repository. The GitHub-rendered Markdown page is the working public version until GitBook publication is completed.
+- **10 July 2026:** Added a dedicated `gh-pages` branch with a root `index.html` page and linked this GitBook page to the hosted tracker.
