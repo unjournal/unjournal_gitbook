@@ -3,7 +3,7 @@
 This page tracks **genuinely new, third-party references to The Unjournal**. It is maintained as a deduplicated public record rather than a repeated search digest.
 
 {% hint style="info" %}
-The immediately accessible public version is hosted on GitHub Pages: [External mentions of The Unjournal](https://unjournal.github.io/unjournal_gitbook/external-mentions.html).
+Until the GitBook change is manually merged and published, the reliable public version is the GitHub-rendered page for this file. Its full revision history is also public.
 {% endhint %}
 
 ## Inclusion rules
@@ -41,4 +41,5 @@ _No qualifying new mentions have yet been added under this maintained system._
 
 ## Maintenance log
 
-- **10 July 2026:** Created the deduplicated tracker, documented how it was constructed, and added a directly accessible GitHub Pages version.
+- **10 July 2026:** Created the deduplicated tracker and documented how it was constructed.
+- **10 July 2026:** Corrected the publication setup after confirming that GitBook requires a manual merge and GitHub Pages was not enabled for this repository. The GitHub-rendered Markdown page is the working public version until GitBook publication is completed.
