@@ -22,6 +22,7 @@
   * [Explanations & outreach](readme-1/writings/README.md)
     * [Press releases](readme-1/writings/press-releases.md)
     * [Outreach texts](readme-1/writings/marketing-and-outreach.md)
+    * [External mentions of The Unjournal](readme-1/writings/external-mentions-of-the-unjournal.md)
     * [Related articles and work](readme-1/writings/related-articles-and-work.md)
   * [Updates (earlier)](readme-1/latest-updates/README.md)
     * [Impactful Research Prize Winners](readme-1/latest-updates/impactful-research-prize-winners.md)
