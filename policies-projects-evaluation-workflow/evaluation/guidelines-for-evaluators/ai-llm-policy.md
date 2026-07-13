@@ -10,7 +10,7 @@ _This is an evolving policy; we have consulted with our Management Team but have
 
 ## Framework
 
-Our goal is relevant, insightful, and "correct[^1]" evaluations that fairly assess research credibility and value, help researchers improve their work, and help practitioners and other researchers use it appropriately. We want evaluators to have access to all tools that facilitate this.
+Our goal is relevant, insightful, and "correct[^1]" evaluations that fairly assess research credibility and value as well as  the credibility of specific claims, help researchers improve their work, and help practitioners and other researchers use it appropriately. We want evaluators (and our process) to have access to all tools that facilitate this.
 
 At the same time, we are mindful of other concerns, including:
 
@@ -22,16 +22,16 @@ At the same time, we are mindful of other concerns, including:
 * supporting global priorities for the wellbeing of humans, animals, and society;&#x20;
 * keeping AI's role in research aligned with human and social interest, preserving human oversight and control, and understanding AI capabilities and alignment in these areas.
 
-## AI audit and evaluation tools we will  provide
+## AI audit and evaluation tools we will provide
 
-_Before the evaluations:_ We will recommend facilitate the use of consistency and 'bug-checking' tools, such as RegCheck (a preregistration checker).
+_Before the evaluations:_ We will recommend facilitate the use of consistency and 'bug-checking' tools, such as RegCheck (a preregistration checker); we aim to assess the available tools, including those listed [here](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/tools.html).
 
 _After evaluators have submitted their initial evaluations_, we aim to provide (and later share publicly):
 
 1. State of the art (flagship model, bespoke agent-based tools, etc.) AI evaluations of the paper
-2. AI consistency checks of the evaluation against the paper
+2. AI consistency checks of the human evaluation against the paper
 
-Evaluators are advised adjust their evaluations (and perhaps ratings) if they are confident the LLM has identified an important misunderstanding or omission, noting any such adjustments. If resources and bandwidth allows, they will also be encouraged to provide feedback on these AI evaluations, serving as a valuable benchmarking output in itself.&#x20;
+Evaluators are advised adjust their evaluations (and perhaps adjust their ratings) if they are confident the LLM has identified an important misunderstanding or omissionin their evaluation, and to note any such adjustments. If resources and bandwidth allows, they will also be encouraged to provide feedback on these AI evaluations, which will serve as a valuable benchmarking output in itself.&#x20;
 
 _Consider_:&#x20;
 
