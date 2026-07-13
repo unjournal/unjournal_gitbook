@@ -10,42 +10,52 @@ _This is an evolving policy; we have consulted with our Management Team but have
 
 ## Framework
 
-Our goal is relevant, insightful, and correct evaluations that fairly assess research credibility and value, help researchers improve their work, and help practitioners and other researchers use it appropriately. We want evaluators to have access to all tools that facilitate this.
+Our goal is relevant, insightful, and "correct[^1]" evaluations that fairly assess research credibility and value, help researchers improve their work, and help practitioners and other researchers use it appropriately. We want evaluators to have access to all tools that facilitate this.
 
-At the same time, we are mindful of other concerns:
+At the same time, we are mindful of other concerns, including:
 
 * continuing to cultivate and demonstrate the value of our evaluation process;
-* encouraging people to continue to work with us;
+* encouraging researchers and practitioners to continue to work with us;
 * capturing credible and independent sources of judgment and reasoning;
-* being transparent with readers of our evaluations.
+* being transparent with readers of our evaluations;
+* [communicating our work in useful ways with stakeholders;](#user-content-fn-2)[^2]
+* supporting global priorities for the wellbeing of humans, animals, and society;&#x20;
+* keeping AI's role in research aligned with human and social interest, preserving human oversight and control, and understanding AI capabilities and alignment in these areas.
 
-## What we provide to evaluators
+## AI audit and evaluation tools we will  provide
 
-After evaluators have submitted their initial evaluations, we aim to provide (and later share publicly):
+_Before the evaluations:_ We will recommend facilitate the use of consistency and 'bug-checking' tools, such as RegCheck (a preregistration checker).
 
-1. Flagship model / deep-research LLM evaluations of the paper
-2. LLM consistency checks of the evaluation against the paper
+_After evaluators have submitted their initial evaluations_, we aim to provide (and later share publicly):
 
-Evaluators are encouraged to provide feedback on these, and may adjust their evaluations if they are confident the LLM has identified an important misunderstanding — noting any such adjustments.
+1. State of the art (flagship model, bespoke agent-based tools, etc.) AI evaluations of the paper
+2. AI consistency checks of the evaluation against the paper
 
-We will also recommend and try to facilitate other 'bug-checking' tools, such as RegCheck (a preregistration checker).
+Evaluators are advised adjust their evaluations (and perhaps ratings) if they are confident the LLM has identified an important misunderstanding or omission, noting any such adjustments. If resources and bandwidth allows, they will also be encouraged to provide feedback on these AI evaluations, serving as a valuable benchmarking output in itself.&#x20;
+
+_Consider_:&#x20;
+
+* Shall we publicly report both the initial and revised ratings?
+* Should we encourage evaluators _not_ to update their ratings in response to seeing AI ratings or general characterizations; only to specific identified misunderstandings/omissions.&#x20;
 
 ## What evaluators may use
 
-Evaluators may use AI language model tools selectively. Appropriate uses include looking up or clarifying content in the paper (e.g. using NotebookLM as a reference tool), or running extensive checks that are not feasible to do by hand — in which case the AI-assisted section should appear separately (in a dedicated section, link, or footnote) with at least a hand-checked sample.
+Evaluators may use AI tools selectively. Appropriate uses include looking up or clarifying content in the paper (e.g. using NotebookLM as a reference tool), or running extensive checks that are not feasible to do by hand: in which case the AI-assisted section should appear separately (in a dedicated section, link, or footnote) and the evaluators should include at least a hand-checked sample.
 
-Evaluators are encouraged not to use AI tools for overall evaluations or for the ratings and predictions components, except as described above under what we provide.
+_Consider:_ Where the evaluator lacks expertise in a particular subject, shall we recommend against using AI tools to complement their own knowledge or expertise, except where this involves a simple 'lookup or clarification'? Rationale — we aim to provide a corpus human expertise and judgment, rather than to propagate existing AI model content ('contamination'). While, in principle, experts could augment their understanding by using AI to learn about a specific technique and improve their human advising, this again seems likely to lead to  'contamination'.  As a compromise, evaluators could include small \~appendix sections specifying the specific queries they performed, and the insights gined from these, but these should not form the main substance of the report.
+
+Evaluators are encouraged _not_ to use AI tools for overall evaluations or for the ratings and predictions components, except as described above under what we provide.
 
 ## Transparency requirements
 
-Evaluators must report how AI tools were used, ideally by:
+Evaluators must report how AI tools were used by:
 
-1. Providing links to their AI chats or explanations
+1. Providing links to their AI chats or explanations (where possible)
 2. Explicitly identifying any sections of text that were generated by LLMs
 
 ## Human work requirement
 
-Evaluators are expected to put in at least 8 hours of human work, over and above the processing time of any LLM tools.
+Evaluators are expected to put in at least 8 hours of human work, over and above the latent processing time of any LLM tools.
 
 ## Standing by your evaluation
 
@@ -53,8 +63,14 @@ Evaluators must stand by all content and language in their report as their own j
 
 ## Related evidence and context
 
-Emerging evidence points toward a complementary role for AI in peer review processes like ours. Biswas et al. (2025), [AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot](https://arxiv.org/abs/2604.13940)(arXiv:2604.13940), report on a large-scale survey of AAAI-26 authors and program committee members and found "participants not only found AI reviews useful, but actually preferred them to human reviews on key dimensions such as technical accuracy and research suggestions" The system processed all 22,977 full-paper submissions in under a day using frontier models with tool use and safeguards.
+_13 Jul 2026 —_ this bears updating. One internal update — our own [experimentation with late-2025 tools](https://llm-uj-research-eval.netlify.app/appendix_llm_traces) suggested these provided substantial value, and made points that often overlapped with our human evaluators (even though these evaluations should have been out of the model context window). &#x20;
 
-This offers promising evidence for AI-assisted peer review at scale. But we are being cautions — we consider we use AI checks as a complement and a supplement to human evaluation, preserving independent expert judgment while adding an additional consistency check and source of suggestions.
+_Previous note;_  Emerging evidence points toward a complementary role for AI in peer review processes like ours. Biswas et al. (2025), [AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot](https://arxiv.org/abs/2604.13940)(arXiv:2604.13940), report on a large-scale survey of AAAI-26 authors and program committee members and found "participants not only found AI reviews useful, but actually preferred them to human reviews on key dimensions such as technical accuracy and research suggestions". The system processed all 22,977 full-paper submissions in under a day using frontier models with tool use and safeguards.
+
+This offers promising evidence for AI-assisted peer review at scale. But we are being cautious — we consider we use AI checks as a complement and a supplement to human evaluation, preserving independent expert judgment while adding an additional consistency check and source of suggestions.
 
 _Also relevant: Johnny Coates'_ [_"Best Practices for preprint peer review services in the use of AI"_](https://docs.google.com/document/d/17Fz4opzft7mfvVMbnU8bnwXNabWnuw8F8YWS3whLMqM/edit?tab=t.0)_._
+
+[^1]: Naturally there are different interpretations of methodology, context, relevance, etc. By _correct_ we mean accurately reflecting the paper's content, embodying expertise, making careful calibrated statements, factually accurate, consistent with a reasonaable methodological approach, etc.
+
+[^2]: 13 Jul 2026 — added the latter three bullet points to emphasize the risks of deferring too much to AI, and the benefits of keeping a human-in-the loop and checking the capabilities and alignment of AI work.&#x20;
