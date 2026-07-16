@@ -38,9 +38,17 @@ Routine directory listings, search-result snippets, scraped mirrors, duplicate s
 
 ## Newly found mentions
 
-_No qualifying new mentions have yet been added under this maintained system._
+### High — Cannon Cloud's tropical-regeneration reanalysis repository
+
+**Source date:** repository last modified 23 March 2026; discovered 16 July 2026.
+
+Cannon Cloud's public repository for a *Nature* Matters Arising manuscript states that a pre-submission version was evaluated by The Unjournal and links directly to the corresponding evaluation package. This is a substantive author-side citation and reuse of an Unjournal evaluation in the research workflow.
+
+- [View the repository](https://github.com/CannonCloud/tropical-regeneration-reanalysis)
+- [View the cited Unjournal evaluation](https://unjournal.pubpub.org/pub/evalsumnaturalregeneration/)
 
 ## Maintenance log
 
+- **16 July 2026:** Added Cannon Cloud's repository citation and link to the Unjournal natural-regeneration evaluation.
 - **10 July 2026:** Created the deduplicated tracker and documented how it was constructed.
 - **10 July 2026:** Added a dedicated `gh-pages` branch with a root `index.html` page and linked this GitBook page to the hosted tracker.
