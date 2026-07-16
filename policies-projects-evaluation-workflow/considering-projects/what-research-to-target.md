@@ -59,6 +59,16 @@ This is a massive question many have tried to address (see sketches and links be
 * Scoping what other sorts of work are representative inputs to GP-relevant work.&#x20;
   * Get a selection of seminal GP publications; look back to see what they are citing and categorize by journal/field/keywords/etc.&#x20;
 
+<details>
+
+<summary>Where economists add value on AI-related questions</summary>
+
+Economists (and other social scientists) tend to add the most value on _conditional_ questions — "if AI capabilities advance in a particular way, what happens to wages, growth, market structure, or policy?" — where their models and empirical tools have a comparative advantage. They typically add less value on forecasts that implicitly bundle these conditionals with predictions about the pace of AI progress itself (e.g., scaling trajectories and capability timelines), where they generally have no special insight.
+
+When prioritizing and evaluating AI-related research, it may be useful to separate these components: value the conditional-on-AI-progress analysis on its merits, and treat embedded capability forecasts as an input best sourced from elsewhere (e.g., forecasting platforms, technical AI researchers).
+
+</details>
+
 **Neglectedness**&#x20;
 
 Where is the current journal system failing GP-relevant work the most . . . in ways we can address?

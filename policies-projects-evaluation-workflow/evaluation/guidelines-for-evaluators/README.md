@@ -6,7 +6,7 @@ description: >-
 
 # Guidelines for evaluators
 
-_These guidelines apply to the publicly visible forms_ [_currently hosted_](#user-content-fn-1)[^1] _in Coda_ [_here (academic stream)_ ](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME)_and_ [_here_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH) _(_[_applied stream_](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH)_), as well as to our (legacy) PubPub forms. You can also preview our [draft evaluation interface](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/) (in development, not yet in use)._
+_These guidelines apply to the evaluation forms we currently use:[^1] the newer [interactive academic form](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/) and [interactive applied form](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form_applied/), plus the Coda [academic stream form](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME) and [applied stream form](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH). Evaluators can use either the interactive form or the appropriate Coda form, unless their evaluation manager gives paper-specific instructions._
 
 {% hint style="info" %}
 Please see [for-prospective-evaluators.md](../for-prospective-evaluators.md "mention") for an overview of the evaluation process, as well as details on compensation, public recognition, and more.
@@ -59,6 +59,18 @@ Unless you were advised otherwise, this evaluation, including the review and qua
 If you have questions about the authors’ work, you can ask them anonymously: we will facilitate this.&#x20;
 
 We want you to evaluate the _most recent/relevant version of the paper/project that you can access_. If you see a more recent version than the one we shared with you, please let us know.&#x20;
+
+<details>
+
+<summary>For fast-moving technical areas (optional): re-running the analysis with current tools</summary>
+
+If the paper's empirical results depend on a specific AI model or system version (e.g., "GPT-4.5 achieves X on task Y"), consider whether the analysis could be re-run with current models — and if feasible, do so, or note what it would take. Results in fast-moving areas can be superseded within months without being wrong; an evaluation that reports "the methodology is sound; here is the updated number as of \[date]" is often more decision-relevant than one that only assesses the original.
+
+Where full re-runs aren't feasible (e.g., human-participant arms), a partial re-run of the AI comparator may still be informative. Flag clearly which numbers are the authors' originals and which are your re-runs, and state the model versions and dates for both.
+
+This is not a required part of the evaluation — most work can't be re-run, and we don't expect it by default. If you are considering a substantial re-run, please let us know first; we may be able to offer additional compensation for this work.
+
+</details>
 
 <details>
 
