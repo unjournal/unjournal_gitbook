@@ -38,6 +38,15 @@ Routine directory listings, search-result snippets, scraped mirrors, duplicate s
 
 ## Newly found mentions
 
+### High — Royal Society Open Science systematic mapping review
+
+**Source date:** published 19 March 2025; discovered 17 July 2026.
+
+A peer-reviewed systematic mapping review of 187 international open-research initiatives identifies The Unjournal as an initiative focused on the “afterlife” of published research, specifically journal-independent feedback, ratings, and evaluation of hosted papers. This is a substantive scholarly citation placing The Unjournal within the international open-research reform landscape.
+
+- [View the article](https://doi.org/10.1098/rsos.241726)
+- [Open-access full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC11919529/)
+
 ### High — Cannon Cloud's tropical-regeneration reanalysis repository
 
 **Source date:** repository last modified 23 March 2026; discovered 16 July 2026.
@@ -49,6 +58,7 @@ Cannon Cloud's public repository for a *Nature* Matters Arising manuscript state
 
 ## Maintenance log
 
+- **17 July 2026:** Added the Royal Society Open Science systematic mapping review's scholarly discussion of The Unjournal.
 - **16 July 2026:** Added Cannon Cloud's repository citation and link to the Unjournal natural-regeneration evaluation.
 - **10 July 2026:** Created the deduplicated tracker and documented how it was constructed.
 - **10 July 2026:** Added a dedicated `gh-pages` branch with a root `index.html` page and linked this GitBook page to the hosted tracker.
