@@ -38,6 +38,14 @@ Routine directory listings, search-result snippets, scraped mirrors, duplicate s
 
 ## Newly found mentions
 
+### Medium — Statistical Modeling blog update and discussion
+
+**Source date:** published 28 January 2025; discovered 18 July 2026.
+
+Andrew Gelman’s *Statistical Modeling, Causal Inference, and Social Science* blog published an Unjournal update, described the project as a promising experiment in research evaluation, linked readers to its evaluation outputs and participation opportunities, and hosted discussion about its emphasis on impactful research and possible retrospective evaluation of older claims. The post substantially amplified The Unjournal to a relevant statistics and social-science audience.
+
+- [View the blog post](https://statmodeling.stat.columbia.edu/2025/01/28/unjournal-update/)
+
 ### High — Royal Society Open Science systematic mapping review
 
 **Source date:** published 19 March 2025; discovered 17 July 2026.
@@ -58,6 +66,7 @@ Cannon Cloud's public repository for a *Nature* Matters Arising manuscript state
 
 ## Maintenance log
 
+- **18 July 2026:** Added Andrew Gelman’s Statistical Modeling blog post publicizing and discussing The Unjournal.
 - **17 July 2026:** Added the Royal Society Open Science systematic mapping review's scholarly discussion of The Unjournal.
 - **16 July 2026:** Added Cannon Cloud's repository citation and link to the Unjournal natural-regeneration evaluation.
 - **10 July 2026:** Created the deduplicated tracker and documented how it was constructed.
