@@ -38,6 +38,15 @@ Routine directory listings, search-result snippets, scraped mirrors, duplicate s
 
 ## Newly found mentions
 
+### High — PLOS Biology consensus view on open preprint peer review
+
+**Source date:** published 29 February 2024; discovered 19 July 2026.
+
+A peer-reviewed *PLOS Biology* consensus view on accelerating open preprint peer review includes The Unjournal in its figure tracking review services and in its boxed list of relevant preprint-feedback and review sources. The article emerged from a workshop involving funders, institutions, publishers, infrastructure providers, and review services, and places The Unjournal among established initiatives in the open preprint-review ecosystem.
+
+- [View the article](https://doi.org/10.1371/journal.pbio.3002502)
+- [Open-access full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC10903809/)
+
 ### Medium — Statistical Modeling blog update and discussion
 
 **Source date:** published 28 January 2025; discovered 18 July 2026.
@@ -66,6 +75,7 @@ Cannon Cloud's public repository for a *Nature* Matters Arising manuscript state
 
 ## Maintenance log
 
+- **19 July 2026:** Added the PLOS Biology consensus view identifying The Unjournal as a relevant preprint-review service.
 - **18 July 2026:** Added Andrew Gelman’s Statistical Modeling blog post publicizing and discussing The Unjournal.
 - **17 July 2026:** Added the Royal Society Open Science systematic mapping review's scholarly discussion of The Unjournal.
 - **16 July 2026:** Added Cannon Cloud's repository citation and link to the Unjournal natural-regeneration evaluation.
