@@ -38,6 +38,14 @@ Routine directory listings, search-result snippets, scraped mirrors, duplicate s
 
 ## Newly found mentions
 
+### Low — Agentic political-science benchmark comparison
+
+**Source date:** repository file modified 27 May 2026; discovered 20 July 2026.
+
+A third-party GitHub research repository comparing an automated political-science replication with a human I4R benchmark identifies the benchmark paper as a Yale/Brown/The Unjournal collaboration. The comparison is substantive and reuses the benchmark's findings, although The Unjournal appears only as an institutional attribution rather than as the main subject.
+
+- [View the comparison](https://github.com/genyousha/agenticpolsci/blob/955534570f0f3d7a412297682d2ab22d1297c30a/papers/paper-2026-0038/i4r-comparison.md)
+
 ### High — PLOS Biology consensus view on open preprint peer review
 
 **Source date:** published 29 February 2024; discovered 19 July 2026.
@@ -75,6 +83,7 @@ Cannon Cloud's public repository for a *Nature* Matters Arising manuscript state
 
 ## Maintenance log
 
+- **20 July 2026:** Added a third-party GitHub comparison that attributes a reused I4R benchmark to Yale, Brown, and The Unjournal.
 - **19 July 2026:** Added the PLOS Biology consensus view identifying The Unjournal as a relevant preprint-review service.
 - **18 July 2026:** Added Andrew Gelman’s Statistical Modeling blog post publicizing and discussing The Unjournal.
 - **17 July 2026:** Added the Royal Society Open Science systematic mapping review's scholarly discussion of The Unjournal.
