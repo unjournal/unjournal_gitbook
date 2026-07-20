@@ -17,20 +17,15 @@ Internal operations, deployment scripts, and automation tools are in the private
 
 ## GitBook GitHub Sync — Publishing Workflow
 
-GitBook is connected to this repo (`unjournal/unjournal_gitbook`, `main` branch) with sync direction **GitBook → GitHub**. This means GitHub pushes arrive as *pending incoming changes* in GitBook and **do not go live automatically**.
+GitBook is connected to this repo (`unjournal/unjournal_gitbook`, `main` branch) via Git Sync, which runs **bidirectionally and automatically** after initial setup. Verified 2026-07-20: a `git push` to `main` goes live on the public GitBook (`globalimpact.gitbook.io/...`) within a few minutes, with **no manual merge step**. (An earlier note here claimed pushes arrived as pending changes needing a manual merge in the GitBook editor — that is outdated.)
 
-**After every `git push` that should update the live GitBook:**
-1. Go to [app.gitbook.com](https://app.gitbook.com) → The Unjournal space
-2. Open the changed page in the editor
-3. Click the **"Changes"** tab (top of editor) — you'll see the incoming commit
-4. Make a trivial edit if needed to activate the Merge button, then click **"Merge"**
-5. The live page at `globalimpact.gitbook.io/...` will update immediately
+**After pushing:** just wait a minute or two, then verify the live page updated. The space's GitHub Sync panel ("Synced" button in the editor header) shows sync history; it can lag behind the actual live content, so check the public URL itself when in doubt.
 
-If the Changes tab isn't visible, the sync may not have run yet — wait a minute and refresh.
+**Before pushing:** always `git pull --rebase origin main` first (add `--autostash` if the tree is dirty) — GitBook writes commits back to GitHub when anyone edits in the GitBook UI, so the remote moves without local action.
 
-Note: when GitBook merges, it writes a commit back to GitHub. So after merging in GitBook, always run `git pull --rebase origin main` before making further local edits, or the next push will be rejected.
+**Danger — do not touch the "Next sync" direction toggle** in the space's Edit Git Sync configuration dialog (gear icon in the GitHub Sync panel). That setting ("Which side should be used as the source of truth for the next sync?") forces a full one-shot resync in which one side **replaces** the other. Saving with "GitHub → GitBook" would overwrite any GitBook-side edits not yet synced back; the current "GitBook → GitHub" would overwrite unsynced GitHub commits. It is not needed for normal publishing — sync is already automatic both ways.
 
-We may switch sync direction to "GitHub to GitBook" in future to eliminate the merge step entirely.
+Note: the GitBook space has a backlog of old draft change requests ("David's ... changes", some 1yr+ old) in the Change requests tab — unpublished drafts unrelated to Git Sync. Worth reviewing/deleting someday; don't bulk-merge them without inspecting each.
 
 ## GitBook Content Structure
 
@@ -293,3 +288,55 @@ Historical content (pilot phase 2022-2023, old job postings, etc.) is preserved 
 - To check current login: `npx netlify-cli status`
 - To switch accounts: `npx netlify-cli logout && npx netlify-cli login`
 - SSH push may fail; use HTTPS as fallback: `git remote set-url origin https://github.com/unjournal/unjournal_gitbook.git`
+
+## Scheduled Jobs
+
+### AI wealth memo evidence monitor
+
+- **Status**: Active; installed June 19, 2026.
+- **Schedule**: `5 9 * * 1` via system cron, wrapped by `~/githubs/claude_code_misc_work/cron_wrapper.py`.
+- **Purpose**: For `https://uj-ai-wealth-philanthropy-steelman.netlify.app/`, check weekly for Anthropic liquidity/valuation signals and major AI-safety/EA-relevant grant announcements. Scheduled runs post at most one Slack digest of newly seen high-scoring evidence to `news-updates-hypothesis`; no item-by-item news alerts.
+- **Script**: `standalone-netlify-sites/ai-wealth-philanthropy-steelman/scripts/ai_wealth_memo_monitor.py`
+- **Installer**: `standalone-netlify-sites/ai-wealth-philanthropy-steelman/scripts/install_ai_wealth_memo_monitor_cron.py`
+- **State**: `standalone-netlify-sites/ai-wealth-philanthropy-steelman/.monitor/ai_wealth_memo_monitor_state.json` (ignored).
+- **Logs**: `~/Library/Logs/cron/ai_wealth_memo_monitor.log`; status file at `~/.cron_status/ai_wealth_memo_monitor.json`.
+- **Manual commands**: run `python3 scripts/ai_wealth_memo_monitor.py --baseline`, `--dry-run`, `--list`, or `--test` from the app folder. Slack requires an explicit `--notify slack --slack-channel news-updates-hypothesis` or `AI_WEALTH_MONITOR_SLACK_CHANNEL`.
+
+### Temporary author-reluctance Hypothes.is responder
+
+- **Status**: Temporary; installed June 18, 2026 and self-removes after `2026-06-18T19:56:24Z` (`20:56:24` London time).
+- **Schedule**: `7,27,47 * * * *` via system cron, wrapped by `~/githubs/claude_code_misc_work/cron_wrapper.py`.
+- **Purpose**: For `https://unjournal-reluctance-note.netlify.app/` and `https://unjournal-reluctance-note.netlify.app/#technical`, check every 20 minutes for new trusted Hypothes.is comments from `daaronr` or `unjournal`; ask headless Codex to make only clear improvements to `model_author_reluctance/src/UnjournalReluctancePaper.jsx`; build/deploy the Netlify site if edited; post `Claude: ` replies in-thread.
+- **Script**: `model_author_reluctance/scripts/timed_author_reluctance_hypothesis_responder.py`
+- **State**: `model_author_reluctance/.hypothesis/author_reluctance_timed_responder_state.json`
+- **Logs**: `~/Library/Logs/cron/author_reluctance_timed_hypothesis_responder.log`; status file at `~/.cron_status/author_reluctance_timed_hypothesis_responder.json`.
+- **Manual stop**: run `python3 model_author_reluctance/scripts/timed_author_reluctance_hypothesis_responder.py --remove-cron`.
+
+## Standalone Netlify Apps
+
+Use `standalone-netlify-sites/` for independent static apps that live in this repository but are not GitBook content.
+
+- Do not add pages from `standalone-netlify-sites/` to `SUMMARY.md`.
+- Give each app its own `netlify.toml`, package files, README, and local `.gitignore`.
+- Deploy these apps from their own subdirectory, not from the repository root.
+- Treat generated `dist/`, local `.netlify/`, and `node_modules/` folders as app-local build artifacts.
+
+## AI Conversation Archive
+
+Historical Unjournal team ChatGPT conversations (2023–May 2026) are archived and organized at:
+`~/Dropbox/obsidian_in_dropbox/chatgpt_team_organized/`
+
+Full index and pipeline docs: `~/Dropbox/obsidian_in_dropbox/KNOWLEDGE_INDEX.md`
+
+**Most relevant topic files for this repo:**
+
+| File | Relevance |
+|------|-----------|
+| `unjournal_ops/team_conversations_unjournal_ops_CLEAN.md` | Operational decisions, PubPub workflows, submission processes — directly relevant to this repo's content |
+| `writing_editing/team_conversations_writing_editing_CLEAN.md` | Past drafting work, content decisions, editorial style discussions |
+| `web_tech/team_conversations_web_tech_CLEAN.md` | Landing page work, Netlify, website automation |
+| `social_media/team_conversations_social_media_CLEAN.md` | Outreach strategy, post drafts, communications approach |
+| `funding_grants/team_conversations_funding_grants_CLEAN.md` | Grant content, funder-facing language, proposal discussions |
+| `meetings_comms/team_conversations_meetings_comms_CLEAN.md` | Team communications context |
+
+Search: `grep -r "search term" ~/Dropbox/obsidian_in_dropbox/chatgpt_team_organized/`
