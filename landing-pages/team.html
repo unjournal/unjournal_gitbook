@@ -400,6 +400,140 @@
       .cta-section { padding: 2rem 1.25rem; }
       .cta-button { width: 100%; max-width: 280px; }
     }
+
+    /* Natural info-page polish: quieter than the older ad-page treatment. */
+    :root {
+      --accent: #2e6f85;
+      --warm: #8b5e3c;
+      --paper: #fbfaf7;
+      --highlight: #2e6f85;
+    }
+
+    body {
+      background: var(--paper, #fbfaf7);
+    }
+
+    header {
+      background: #f1eee7 !important;
+      color: var(--text, #2c3e50) !important;
+      border-bottom: 1px solid #ded8cd;
+      box-shadow: none !important;
+    }
+
+    header::before,
+    header::after,
+    .cta-section::before,
+    .cta-section::after {
+      display: none !important;
+    }
+
+    header a {
+      color: var(--accent, #2e6f85) !important;
+    }
+
+    header .cta-button.donate {
+      color: var(--white, #fff) !important;
+    }
+
+    header .secondary,
+    header .cta-button.secondary,
+    header .btn.secondary,
+    header .button.secondary,
+    header .cta-button.hero-outline {
+      color: var(--primary, #1a3a5c) !important;
+      border-color: #cfc7b8 !important;
+      background: rgba(255,255,255,0.35) !important;
+    }
+
+    header h1 {
+      color: var(--primary, #1a3a5c) !important;
+    }
+
+    header p,
+    header p.subtitle,
+    header .org-label {
+      color: var(--text, #2c3e50) !important;
+      opacity: 1 !important;
+    }
+
+    header .org-label {
+      color: var(--text-light, #5d6d7e) !important;
+    }
+
+    main {
+      background: var(--white, #fff);
+    }
+
+    nav {
+      box-shadow: none !important;
+    }
+
+    nav a,
+    a {
+      color: var(--accent, #2e6f85);
+    }
+
+    h2,
+    .section-header h2 {
+      border-bottom-color: var(--accent, #2e6f85) !important;
+    }
+
+    .highlight-box,
+    .source-link {
+      border-left-color: var(--accent, #2e6f85) !important;
+      background: var(--light-bg, #f7f9fb) !important;
+    }
+
+    .benefit-card,
+    .what-card,
+    .contact-card,
+    .news-item,
+    .role-card,
+    .output-card,
+    .eval-card,
+    .faq-item,
+    .card {
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .benefit-card:hover,
+    .what-card:hover,
+    .contact-card:hover,
+    .news-item:hover,
+    .role-card:hover,
+    .output-card:hover,
+    .eval-card:hover,
+    .card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.06) !important;
+      border-color: var(--accent, #2e6f85) !important;
+      transform: none !important;
+    }
+
+    .cta-section,
+    .site-nav-section {
+      background: var(--primary, #1a3a5c) !important;
+      color: var(--white, #fff) !important;
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .cta-section h2,
+    .site-nav-section h2 {
+      color: var(--white, #fff) !important;
+      border-bottom-color: rgba(255,255,255,0.4) !important;
+    }
+
+    .cta-button,
+    .follow-links a,
+    .action-link {
+      border-radius: 5px !important;
+    }
+
+    footer {
+      background: var(--primary, #1a3a5c) !important;
+    }
+
   </style>
 </head>
 <body>
@@ -446,14 +580,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="name"><a href="https://www.anirudhtagat.com" target="_blank">Anirudh Tagat</a></div>
           <div class="role director">Co-Director</div>
           <div class="affiliation">Monk Prayogshala</div>
-        </div>
-      </div>
-      <div class="team-member">
-        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/421306a7-fb79-4938-ac41-746b3113e3e9/T03EAKQ2L87-U03FARTGDFW-96f0693ba99d-512.jpeg" alt="Gavin Taylor"></div>
-        <div class="info">
-          <div class="name"><a href="https://onscienceandacademia.org/t/gavin-taylor/356" target="_blank">Gavin Taylor</a></div>
-          <div class="role">Management Team</div>
-          <div class="affiliation">RF Antivirals</div>
         </div>
       </div>
       <div class="team-member">
@@ -526,6 +652,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="info">
           <div class="name"><a href="https://samabbott.co.uk" target="_blank">Sam Abbott</a></div>
           <div class="affiliation">London School of Hygiene and Tropical Medicine</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><img src="https://images.squarespace-cdn.com/content/v1/65e75abd1a8d285d3aeb69d6/421306a7-fb79-4938-ac41-746b3113e3e9/T03EAKQ2L87-U03FARTGDFW-96f0693ba99d-512.jpeg" alt="Gavin Taylor"></div>
+        <div class="info">
+          <div class="name"><a href="https://onscienceandacademia.org/t/gavin-taylor/356" target="_blank">Gavin Taylor</a></div>
+          <div class="affiliation">RF Antivirals</div>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="photo"><span class="initials">AB</span></div>
+        <div class="info">
+          <div class="name"><a href="https://alexandraborissova.com/" target="_blank">Alexandra Borissova Saleh</a></div>
+          <div class="affiliation">PCST Network &amp; SWIM Science Writers in Italy</div>
         </div>
       </div>
       <div class="team-member">
@@ -717,12 +857,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="specialist">
           <span class="name"><a href="https://www.linkedin.com/in/elena-brionesalonso" target="_blank">Elena Briones Alonso</a></span>
         </div>
+        <div class="specialist">
+          <span class="name"><a href="https://macss.uchicago.edu/about/people/visitors/2025-26" target="_blank">Homa Taheri</a></span> <span class="affiliation">(University of Chicago)</span>
+        </div>
+        <div class="specialist">
+          <span class="name">Kayode Adekoya</span>
+        </div>
       </div>
     </div>
 
     <div class="category-section">
       <h3>Global Health and Well-being</h3>
       <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://orcid.org/0000-0002-7693-418X" target="_blank">Ramesh Poluru</a></span> <span class="affiliation">(The INCLEN Trust International, New Delhi)</span>
+        </div>
         <div class="specialist">
           <span class="name"><a href="https://www.linkedin.com/in/jake-eaton-phd-bb204634/" target="_blank">Jake Eaton</a></span> <span class="affiliation">(Asterisk)</span>
         </div>
@@ -755,6 +904,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="specialist">
           <span class="name"><a href="https://www.linkedin.com/in/eliseeracine/" target="_blank">Elise Racine</a></span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/kasujjaelizabeth/" target="_blank">Elizabeth Kasujja</a></span> <span class="affiliation">(Healthy Brains Global Initiative)</span>
         </div>
       </div>
     </div>
@@ -789,6 +941,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="specialist">
           <span class="name">Sean Brocklebank</span>
         </div>
+        <div class="specialist">
+          <span class="name"><a href="https://kelloggphds.northwestern.edu/alex-boche/" target="_blank">Alex Boche</a></span>
+        </div>
       </div>
     </div>
 
@@ -816,12 +971,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="specialist">
           <span class="name">Rakefet Cohen Ben-Arye</span>
         </div>
+        <div class="specialist">
+          <span class="name"><a href="https://angelgarciaodiana.github.io/" target="_blank">Angel Alfonso García O’Diana</a></span> <span class="affiliation">(César Vallejo University; PsiNet LAB)</span>
+        </div>
       </div>
     </div>
 
     <div class="category-section">
       <h3>Innovation, Meta-Science, Social Impact of Technology</h3>
       <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://linkedin.com/in/alxfoster" target="_blank">Alexander Dean Foster</a></span> <span class="affiliation">(Cobio Foundation, Convergence Analysis)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/tamarabertram" target="_blank">Tamara Bertram</a></span> <span class="affiliation">(Legal Services of North Dakota)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/lucija-batinovic-4a43151a4" target="_blank">Lucija Batinović</a></span> <span class="affiliation">(Linköping University)</span>
+        </div>
         <div class="specialist">
           <span class="name"><a href="https://andrew-kao.github.io/" target="_blank">Andrew Kao</a></span> <span class="affiliation">(Harvard University)</span>
         </div>
@@ -843,6 +1010,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="category-section">
       <h3>Environmental Economics</h3>
       <div class="specialist-grid">
+        <div class="specialist">
+          <span class="name"><a href="https://morenocruz.org/" target="_blank">Juan Moreno-Cruz</a></span> <span class="affiliation">(University of Waterloo)</span>
+        </div>
         <div class="specialist">
           <span class="name"><a href="https://sites.google.com/view/tanyaogarra/home" target="_blank">Tanya O'Garra</a></span> <span class="affiliation">(Imperial College London)</span>
         </div>
@@ -880,6 +1050,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h3>Catastrophic Risks, AI Governance and Safety</h3>
       <div class="specialist-grid">
         <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/jreschwab/" target="_blank">Josephine Schwab</a></span> <span class="affiliation">(EIPRHR)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://scholar.google.com/citations?user=ujknY1gAAAAJ" target="_blank">Jiawei Li</a></span> <span class="affiliation">(Tsinghua University)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://www.linkedin.com/in/ilkin-mehrabov-bb315b73/" target="_blank">Ilkin Mehrabov</a></span> <span class="affiliation">(Department of Communication, Lund University)</span>
+        </div>
+        <div class="specialist">
           <span class="name"><a href="https://scholar.google.com/citations?user=6-M1ZIUAAAAJ&hl=en" target="_blank">David Manheim</a></span> <span class="affiliation">(ALTER, Technion)</span>
         </div>
         <div class="specialist">
@@ -890,6 +1069,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="specialist">
           <span class="name"><a href="https://www.linkedin.com/in/tristan-williams-916119216/" target="_blank">Tristan Williams</a></span> <span class="affiliation">(Center for AI Policy)</span>
+        </div>
+        <div class="specialist">
+          <span class="name"><a href="https://jacobschaal.com/" target="_blank">Jacob Schaal</a></span> <span class="affiliation">(King's College London)</span>
         </div>
       </div>
     </div>
@@ -906,7 +1088,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <footer>
   <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
-  <p class="meta">This page is auto-generated from our <a href="https://coda.io/d/The-Unjournal-Hub-internal_d0KBG3dSZCs/Our-team_suYYbcbI">team database</a>. Last updated: 2026-04-13.</p>
+  <p class="meta">See also our <a href="org-chart.html">public organizational chart</a>. Last updated: 2026-08-21.</p>
 </footer>
 
 </body>

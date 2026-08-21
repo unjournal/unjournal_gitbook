@@ -41,7 +41,10 @@ def parse_team_csv(csv_path):
 
             status = row.get('Status', '')
             url = row.get('URL', '').strip()
-            org = row.get('Organization', '').strip()
+            # Organization is a Coda lookup; people added through the plain
+            # Affiliation text column have it empty (see
+            # coda_org_unjournal/code/add_onboarded_to_team.py).
+            org = (row.get('Organization', '') or row.get('Affiliation', '')).strip()
             engagement = row.get('Engagement', '').strip()
             monitoring_cat = row.get("monitoring 'outcome' category (main)", '').strip()
 
@@ -455,7 +458,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <footer>
   <p>&copy; {datetime.now().year} The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
-  <p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">This page is auto-generated from our <a href="https://coda.io/d/The-Unjournal-Hub-internal_d0KBG3dSZCs/Our-team_suYYbcbI">team database</a>. Last updated: {datetime.now().strftime('%Y-%m-%d')}.</p>
+  <p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">See also our <a href="org-chart.html">public organizational chart</a>. Last updated: {datetime.now().strftime('%Y-%m-%d')}.</p>
 </footer>
 
 </body>
