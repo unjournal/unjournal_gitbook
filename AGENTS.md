@@ -43,6 +43,24 @@ GitBook uses custom syntax including:
 
 ## Landing Pages (info.unjournal.org)
 
+### Deploying — READ THIS FIRST (2026-08-21)
+
+**`info.unjournal.org` is NOT on Netlify.** It is served by nginx from the
+Linode VPS `45.79.160.157` (confirmed: `dig` returns that A record, and the
+response carries `Server: nginx/1.24.0 (Ubuntu)`). Publishing a landing page
+means getting the file onto that box; it needs working SSH access to
+`root@45.79.160.157`.
+
+**Do not run `netlify deploy` from this repo root or from `landing-pages/`.**
+An untracked, gitignored `.netlify/state.json` at the repo root holds
+`siteId 05274071-6d41-4daf-802d-b0956f37fa96`, which is the site for
+`standalone-netlify-sites/sff-aw-overview/` (the Animal Welfare overview at
+`uj-aw-overview.netlify.app`) — left behind by a CLI run in that
+subdirectory. A deploy from the root therefore publishes the wrong directory
+over that site. This happened on 2026-08-21 and was rolled back with the
+Netlify deploys `.../restore` API. Deploy the standalone sites from inside
+their own directory, where the `netlify.toml` lives.
+
 ### Pages
 - `landing-pages/index.html` — General Unjournal overview
 - `landing-pages/about.html` — "In a Nutshell" overview of The Unjournal
