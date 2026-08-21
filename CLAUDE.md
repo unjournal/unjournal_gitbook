@@ -69,6 +69,7 @@ their own directory, where the `netlify.toml` lives.
 - `landing-pages/index.html` — General Unjournal overview
 - `landing-pages/about.html` — "In a Nutshell" overview of The Unjournal
 - `landing-pages/benefits.html` — Benefits & features of journal-independent evaluation
+- `landing-pages/impact.html` — Public evidence on how evaluations inform research and decisions, with examples and measurement limits
 - `landing-pages/for-authors.html` — FAQ and information for researchers/authors
 - `landing-pages/for-evaluators.html` — Information and recruitment for evaluators
 - `landing-pages/team.html` — Management team, advisory board, and field specialists
@@ -104,6 +105,15 @@ Served via GitHub Pages at `https://unjournal.github.io/unjournal_gitbook/`.
 ## Style Guide
 
 The Unjournal maintains a style guide for documentation consistency: https://docs.google.com/document/d/10aooH_YCVX__pXFqnY1l8Kn2_DPX9wdHdR9AfImSuDs/edit
+
+### Writing voice for public pages
+
+- Use the `david-writing-style` skill for all public-facing GitBook content and pages under `landing-pages/`.
+- Default to its Unjournal institutional voice: concise, practical, intellectually careful, and free of generic marketing or AI polish.
+- Apply the voice across the whole page. Check headings, introductions, callouts, metrics, examples, metadata, and calls to action so the visual and rhetorical emphasis matches the substance.
+- Do not let the easiest outcome to count displace the main purpose. In particular, present the information value of public evaluations for research users and society as central; present author feedback and research updating as important but normally secondary pathways.
+- When revising from comments, apply the underlying lesson and remove the editing scaffolding. The final page should make sense to a first-time reader who has not seen the previous version or discussion.
+- Avoid formulaic “not X but Y” and unnecessary “even if” contrasts. Keep top-level caveats in plain language and move technical detail to methods or source pages.
 
 ## Journal Metadata
 
@@ -314,6 +324,15 @@ Historical content (pilot phase 2022-2023, old job postings, etc.) is preserved 
 - SSH push may fail; use HTTPS as fallback: `git remote set-url origin https://github.com/unjournal/unjournal_gitbook.git`
 
 ## Scheduled Jobs
+
+### Weekly AI wealth memo updater
+
+- **Status**: Active Codex local automation; automation ID `biweekly-ai-wealth-memo-review`, display name `Weekly AI wealth memo update`.
+- **Schedule**: Monday at 9:15am Eastern (`FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=15`).
+- **Purpose**: Review authoritative news and complete Hypothes.is threads, conservatively update both the main AIS/EA memo and its GH&D fork, build and visually check both routes, then deploy and smoke-test both when material changes are warranted.
+- **Workspace**: `standalone-netlify-sites/ai-wealth-philanthropy-steelman/` in this canonical repo; execution environment `local`.
+- **Notifications**: Report in Codex only. Do not send evidence items or digests to Slack.
+- **Maintenance instructions**: `standalone-netlify-sites/ai-wealth-philanthropy-steelman/agent-skills/maintain-ai-wealth-memos/SKILL.md`.
 
 ### AI wealth memo evidence monitor
 

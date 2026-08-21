@@ -13,6 +13,8 @@ Data source:
 """
 
 import csv
+import json
+import re
 import argparse
 from pathlib import Path
 from datetime import datetime
@@ -25,6 +27,80 @@ TEAM_CSV = CODA_REPO / "coda_content" / "hub_internal" / "tables" / "our_team_-_
 DEFAULT_OUTPUT = SCRIPT_DIR / "team.html"
 
 
+# Spelling fixes for names that are wrong in Coda. Fix the Coda row when you
+# can; this keeps the public page right in the meantime.
+NAME_CORRECTIONS = {
+    'Shobit Kulshreshtha': 'Shobhit Kulshreshtha',
+}
+
+# People listed on the live page who have no row in the Coda team table, so
+# the generator cannot see them. Without this bridge, regenerating would
+# quietly delete them. Each entry is a question to resolve, not a permanent
+# home — once the Coda row exists, delete the entry here.
+#
+#   Eliana Hadjiandreou — has an Onboarding row tagged Field Specialist but was
+#     never welcomed, i.e. she was published before onboarding finished.
+#   Masyhur Hilmy — only in Researchers & Evaluators, flagged
+#     "Nonresponse/unavailable" since 2024-04. Still listed publicly; confirm
+#     whether he is still a field specialist.
+MANUAL_MEMBERS = [
+    {'name': 'Eliana Hadjiandreou', 'url': None,
+     'organization': 'Computational Affective and Social Cognition',
+     'category': 'Psychology, Behavioral Science, Attitudes',
+     'status': 'Field Specialist'},
+    {'name': 'Masyhur Hilmy', 'url': 'https://sites.google.com/view/masyhurhilmy',
+     'organization': 'Boston University',
+     'category': 'Development Economics', 'status': 'Field Specialist'},
+]
+
+
+PHOTOS_PATH = Path(__file__).parent / 'team_photos.json'
+
+
+def load_photos():
+    """name -> Squarespace CDN photo URL.
+
+    Photos are not in Coda; they were curated by hand on unjournal.org and
+    were the main reason regenerating this page used to be destructive. They
+    now live in team_photos.json so the generator can reproduce them. To add
+    one, put the CDN URL in that file under the person's name.
+    """
+    if not PHOTOS_PATH.is_file():
+        return {}
+    with open(PHOTOS_PATH, encoding='utf-8') as f:
+        return json.load(f)
+
+
+def lookup_photo(photos, name):
+    if name in photos:
+        return photos[name]
+    key = _dedupe_key(name)
+    for pname, url in photos.items():
+        if _dedupe_key(pname) == key:
+            return url
+    return None
+
+
+def initials(name):
+    parts = [p for p in re.split(r"[\s'-]+", name) if p and p[0].isalpha()]
+    return ''.join(p[0].upper() for p in parts[:2]) or '?'
+
+
+def _dedupe_key(name):
+    """Match duplicate Coda rows for one person.
+
+    Uses first + last token so a middle name doesn't create a second entry
+    ("Elizabeth Kasujja" vs "Elizabeth Mumbejja Kasujja").
+    """
+    # Normalise curly apostrophes first: Coda holds both "O'Diana" and
+    # "O’Diana" for the same person, under one email.
+    name = name.replace('’', "'").replace('ʼ', "'")
+    parts = re.sub(r"[^\w\s'-]", '', name.casefold()).split()
+    if len(parts) >= 2:
+        return (parts[0], parts[-1])
+    return (name.casefold(),)
+
+
 def parse_team_csv(csv_path):
     """Parse team CSV and return categorized team members."""
     management = []
@@ -34,10 +110,14 @@ def parse_team_csv(csv_path):
     with open(csv_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
 
+        seen_names = {}          # normalised name -> member dict already kept
         for row in reader:
             name = row.get('Name', '').strip()
             if not name or name.startswith('#') or '@' in name:  # Skip blanks, IDs, and email-only entries
                 continue
+            if name.casefold() == 'deleted row':
+                continue         # Coda's stub for a removed linked row
+            name = NAME_CORRECTIONS.get(name, name)
 
             status = row.get('Status', '')
             url = row.get('URL', '').strip()
@@ -48,9 +128,11 @@ def parse_team_csv(csv_path):
             engagement = row.get('Engagement', '').strip()
             monitoring_cat = row.get("monitoring 'outcome' category (main)", '').strip()
 
-            # Skip temporarily unavailable unless they're management/advisory
-            if '4. Temporarily unavailable' in engagement and 'Management' not in status and 'Advisory' not in status:
-                continue
+            # "Temporarily unavailable" people are still team members and have
+            # always been listed on the live page; dropping them here was the
+            # single biggest reason this generator's output diverged from
+            # team.html (it silently removed 7 field specialists).
+            del engagement
 
             # Normalize URL - add https:// if it starts with www.
             if url and url.startswith('www.'):
@@ -62,6 +144,20 @@ def parse_team_csv(csv_path):
                 'organization': org,
                 'category': monitoring_cat
             }
+
+            # Coda holds duplicate rows for some people (e.g. "Elizabeth
+            # Kasujja" / "Elizabeth Mumbejja Kasujja", both kasujjaelizabeth@).
+            # Keep the richer row rather than emitting the person twice.
+            key = _dedupe_key(name)
+            if key in seen_names:
+                kept = seen_names[key]
+                for field in ('url', 'organization', 'category'):
+                    if not kept.get(field) and member.get(field):
+                        kept[field] = member[field]
+                if len(name) > len(kept['name']):
+                    kept['name'] = name
+                continue
+            seen_names[key] = member
 
             # Categorize by status
             if 'Management' in status:
@@ -81,6 +177,18 @@ def parse_team_csv(csv_path):
                 # Categorize by monitoring category
                 cat = categorize_field_specialist(monitoring_cat)
                 field_specialists[cat].append(member)
+
+    # Bridge in people the Coda table doesn't know about yet (see above)
+    for extra in MANUAL_MEMBERS:
+        if _dedupe_key(extra['name']) in seen_names:
+            continue
+        member = {k: v for k, v in extra.items() if k != 'status'}
+        if 'Field Specialist' in extra['status']:
+            field_specialists[categorize_field_specialist(extra['category'])].append(member)
+        elif 'Advisory Board' in extra['status']:
+            advisory.append(member)
+        elif 'Management' in extra['status']:
+            management.append(member)
 
     # Sort by name within each category
     management.sort(key=lambda x: (0 if 'Director' in x.get('role', '') else 1, x['name']))
@@ -404,7 +512,142 @@ def generate_html(management, advisory, field_specialists):
       .team-grid {{ grid-template-columns: 1fr; }}
       .specialist-grid {{ grid-template-columns: 1fr; }}
     }}
-  </style>
+
+
+    /* Natural info-page polish: quieter than the older ad-page treatment. */
+        :root {{
+          --accent: #2e6f85;
+          --warm: #8b5e3c;
+          --paper: #fbfaf7;
+          --highlight: #2e6f85;
+        }}
+
+        body {{
+          background: var(--paper, #fbfaf7);
+        }}
+
+        header {{
+          background: #f1eee7 !important;
+          color: var(--text, #2c3e50) !important;
+          border-bottom: 1px solid #ded8cd;
+          box-shadow: none !important;
+        }}
+
+        header::before,
+        header::after,
+        .cta-section::before,
+        .cta-section::after {{
+          display: none !important;
+        }}
+
+        header a {{
+          color: var(--accent, #2e6f85) !important;
+        }}
+
+        header .cta-button.donate {{
+          color: var(--white, #fff) !important;
+        }}
+
+        header .secondary,
+        header .cta-button.secondary,
+        header .btn.secondary,
+        header .button.secondary,
+        header .cta-button.hero-outline {{
+          color: var(--primary, #1a3a5c) !important;
+          border-color: #cfc7b8 !important;
+          background: rgba(255,255,255,0.35) !important;
+        }}
+
+        header h1 {{
+          color: var(--primary, #1a3a5c) !important;
+        }}
+
+        header p,
+        header p.subtitle,
+        header .org-label {{
+          color: var(--text, #2c3e50) !important;
+          opacity: 1 !important;
+        }}
+
+        header .org-label {{
+          color: var(--text-light, #5d6d7e) !important;
+        }}
+
+        main {{
+          background: var(--white, #fff);
+        }}
+
+        nav {{
+          box-shadow: none !important;
+        }}
+
+        nav a,
+        a {{
+          color: var(--accent, #2e6f85);
+        }}
+
+        h2,
+        .section-header h2 {{
+          border-bottom-color: var(--accent, #2e6f85) !important;
+        }}
+
+        .highlight-box,
+        .source-link {{
+          border-left-color: var(--accent, #2e6f85) !important;
+          background: var(--light-bg, #f7f9fb) !important;
+        }}
+
+        .benefit-card,
+        .what-card,
+        .contact-card,
+        .news-item,
+        .role-card,
+        .output-card,
+        .eval-card,
+        .faq-item,
+        .card {{
+          border-radius: 6px !important;
+          box-shadow: none !important;
+        }}
+
+        .benefit-card:hover,
+        .what-card:hover,
+        .contact-card:hover,
+        .news-item:hover,
+        .role-card:hover,
+        .output-card:hover,
+        .eval-card:hover,
+        .card:hover {{
+          box-shadow: 0 3px 12px rgba(0,0,0,0.06) !important;
+          border-color: var(--accent, #2e6f85) !important;
+          transform: none !important;
+        }}
+
+        .cta-section,
+        .site-nav-section {{
+          background: var(--primary, #1a3a5c) !important;
+          color: var(--white, #fff) !important;
+          border-radius: 6px !important;
+          box-shadow: none !important;
+        }}
+
+        .cta-section h2,
+        .site-nav-section h2 {{
+          color: var(--white, #fff) !important;
+          border-bottom-color: rgba(255,255,255,0.4) !important;
+        }}
+
+        .cta-button,
+        .follow-links a,
+        .action-link {{
+          border-radius: 5px !important;
+        }}
+
+        footer {{
+          background: var(--primary, #1a3a5c) !important;
+        }}
+
+    </style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -472,15 +715,30 @@ def generate_team_grid(members, show_role=False):
     if not members:
         return '<p><em>No team members listed.</em></p>'
 
+    photos = load_photos()
     html = '\n    <div class="team-grid">'
     for m in members:
         name_html = f'<a href="{m["url"]}" target="_blank">{m["name"]}</a>' if m.get('url') else m['name']
-        role_html = f'\n        <div class="role">{m["role"]}</div>' if show_role and m.get('role') else ''
-        org_html = f'\n        <div class="affiliation">{m["organization"]}</div>' if m.get('organization') else ''
+        role = m.get('role', '')
+        role_cls = ' director' if 'Director' in role else ''
+        role_html = f'\n          <div class="role{role_cls}">{role}</div>' if show_role and role else ''
+        org_html = f'\n          <div class="affiliation">{m["organization"]}</div>' if m.get('organization') else ''
+
+        # Photos are curated (Squarespace CDN), not in Coda — see
+        # team_photos.json. Anyone without one gets the initials placeholder,
+        # matching what the page has always shown.
+        url = lookup_photo(photos, m['name'])
+        if url:
+            photo_html = f'<div class="photo"><img src="{url}" alt="{m["name"]}"></div>'
+        else:
+            photo_html = f'<div class="photo"><span class="initials">{initials(m["name"])}</span></div>'
 
         html += f'''
       <div class="team-member">
-        <div class="name">{name_html}</div>{role_html}{org_html}
+        {photo_html}
+        <div class="info">
+          <div class="name">{name_html}</div>{role_html}{org_html}
+        </div>
       </div>'''
 
     html += '\n    </div>'
