@@ -1,5 +1,5 @@
 ---
-description: "Auto-generated from Coda. Last synced: 2026-04-13"
+description: "Synced from Coda and recent onboarding correspondence. Last updated: 2026-08-21"
 ---
 
 # Our Team
@@ -15,22 +15,24 @@ description: "Auto-generated from Coda. Last synced: 2026-04-13"
 - [Anirudh Tagat](https://www.anirudhtagat.com) — Monk Prayogshala, Econ.
 - [Bob Kubinec](https://www.robertkubinec.com/) — University of Virginia
 - David Reinstein, Founder & Co-Director
-- [Gavin Taylor](https://www.linkedin.com/in/gavin-taylor-9a409453/?originalSubdomain=br) — IGDORE, Neurosci.
 - [Hansika Kapoor](https://www.hansikakapoor.in/) — Monk Prayogshala, Psych.
 - [Ryan Briggs](https://www.ryancbriggs.net/) — University of Guelph, Pol. Sci
 - [Valentin Klotzbücher](https://valentink.quarto.pub/) — University Hospital Basel, GH (also Field Specialist)
 
 ## Advisory Board
 
+- [Alexandra Borissova Saleh](https://alexandraborissova.com/) — PCST Network, science communication
 - [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea) — University of Melbourne, RepliCATS
 - Daniela Cialfi — Econ.
 - [Rosie Bettle](https://uk.linkedin.com/in/rosie-bettle-84a1051b0) — Founders Pledge (also Field Specialist)
 - [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en) — North-West University, South Africa, Econ.
+- [Gavin Taylor](https://www.linkedin.com/in/gavin-taylor-9a409453/?originalSubdomain=br) — IGDORE, Neurosci.
 - [Gustav Nilsonne](https://nilsonne.net/) — Karolinska Institutet, Neurosci.
 - [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/) — Asterisk magazine, Pub. health
 - [Jordan Dworkin](https://jordandworkin.com/) — Open Philanthropy
 - [Kris Gulati](https://sites.google.com/view/kris-gulati/home) — UC Berkeley, Econ.
 - Lorenzo Pacchiardi — Leverhulme Centre for the Future of Intelligence
+- [Demetrius Floudas](https://demetriusfloudas.com/) — University of Cambridge
 - [Michael Wiebe](https://michaelwiebe.com/) — Econ.
 - [Nicolas Treich](https://scholar.google.fr/citations?user=-S6D7OsAAAAJ&hl=en) — Institut National de la Recherche pour l’Agriculture,l’Alimentation et l’Environnement (INRAe), Econ.
 - [Sarah Anne Reynolds](https://sites.google.com/view/sarah-a-reynolds/home) — World Bank, Econ., GH
@@ -39,41 +41,56 @@ description: "Auto-generated from Coda. Last synced: 2026-04-13"
 
 ## Field Specialists
 
+- [Alex Boche](https://kelloggphds.northwestern.edu/alex-boche/) — Economics
+- [Alexander Dean Foster](https://linkedin.com/in/alxfoster) — Cobio Foundation, Convergence Analysis
 - [Andrew Kao](https://andrew-kao.github.io/) — Harvard University, Econ.
+- [Angel Alfonso García O’Diana](https://angelgarciaodiana.github.io/) — César Vallejo University, PsiNet LAB
 - [Ben Balmford](https://www.benbalmford.com/) — Exeter, Econ.
 - [Brinda Poojary](https://www.linkedin.com/in/brinda-poojary-phd-ba075458/?originalSubdomain=in) — Humane Society International - India,India Animal Fund
 - [Bryan Weber](https://www.linkedin.com/in/bryan-s-weber/) — CUNY
-- [Chisom Nri-Ezedi](https://www.linkedin.com/in/chisom-nri-ezedi-mbbs-md-mph-phd-fwacp-5a1325123) — Global Public Health
-- [Elena Briones Alonso](https://www.linkedin.com/in/elena-brionesalonso) — Development Economics
-- [Elise Racine](https://www.linkedin.com/in/eliseeracine/) — Global Public Health
 - [Carina Ines Hausladen](https://carinahausladen.github.io/) — EtH Zurich, Econ.
 - [Charlotte Lane](https://www.foodsecurityevidence.com/) — Food Security Evidence Brokerage,3ie
+- [Chisom Nri-Ezedi](https://www.linkedin.com/in/chisom-nri-ezedi-mbbs-md-mph-phd-fwacp-5a1325123) — Global Public Health
 - [David Manheim](https://scholar.google.com/citations?user=6-M1ZIUAAAAJ&hl=en) — Association for Long Term Existence and Resilience (ALTER),Technion - Israel Institute of Technology, Econ.
+- David van der Linden
+- [Elena Briones Alonso](https://www.linkedin.com/in/elena-brionesalonso) — Development Economics
 - Eliana Hadjiandreou — Computational Affective and Social Cognition
+- [Elise Racine](https://www.linkedin.com/in/eliseeracine/) — Global Public Health
+- [Elizabeth Kasujja](https://www.linkedin.com/in/kasujjaelizabeth/) — Healthy Brains Global Initiative
 - [Emmanuel Orkoh](https://scholar.google.com/citations?user=hMW0bj4AAAAJ&hl=en) — North-West University, South Africa, Econ.
 - [Florian Habermacher](https://habermacher.net/) — Lucerne University,Swiss Institution for International Economics, Econ.
 - [Francesco Ramponi](https://scholar.google.com/citations?user=DdbGN6UAAAAJ&hl=en&oi=ao) — Harvard T.H. Chan School of Public Health, Econ., GH
 - [Gary McDowell](https://www.linkedin.com/in/gary-mcdowell-4551131a/) — IGDORE
 - [Greg Sasso](https://gregsasso.me/) — University of Chicago
 - [Hannah Metzler](https://hannahmetzler.eu/)
+- [Homa Taheri](https://macss.uchicago.edu/about/people/visitors/2025-26) — University of Chicago, Development and Environmental Economics
+- [Ilkin Mehrabov](https://www.linkedin.com/in/ilkin-mehrabov-bb315b73/) — Department of Communication, Lund University
+- [Jacob Schaal](https://jacobschaal.com/) — King's College London, AI Governance and Economics
+- [Jiawei Li](https://scholar.google.com/citations?user=ujknY1gAAAAJ) — Tsinghua University
 - [Joel Christoph](https://www.linkedin.com/in/joelchristoph/) — Effective Thesis project, Econ.
 - [Jonah Goldberg](https://www.linkedin.com/in/jonah-s-goldberg/) — Harvard Dept. of Global Health and Population, Econ.
+- [Josephine Schwab](https://www.linkedin.com/in/jreschwab/) — EIPRHR
 - [Josh Tasoff](https://scholar.google.com/citations?user=pyjguMoAAAAJ&hl=en) — Claremont Graduate University, Econ.
+- [Juan Moreno-Cruz](https://morenocruz.org/) — University of Waterloo
 - Julian Jamison — Global Priorities Institute,Exeter, Econ.
+- Kayode Adekoya — Development Economics
 - [Kevin J Kuruc](https://sites.google.com/view/kevinkuruc/home) — University of Texas at Austin, Econ.
 - [Kris Gulati](https://sites.google.com/view/kris-gulati/home) — UC Merced, Econ.
 - [Lachlan Deer](https://lachlandeer.github.io/) — Tilburg University
 - [Lee Crawfurd](https://sites.google.com/view/leecrawfurd/home)
 - Lorenzo Pacchiardi — Leverhulme Centre for the Future of Intelligence
+- [Lucija Batinović](https://www.linkedin.com/in/lucija-batinovic-4a43151a4) — Linköping University
 - [Mattie Toma](https://www.mattietoma.com/) — University of Warwick
 - [Moritz Hennicke](https://hennicke.science/) — University of Bremen
 - Nathan Fiala — University of Connecticut, Econ.
 - [Priya Lall](https://www.linkedin.com/in/priya-lall-64152816/) — University of Oxford
 - Rakefet Cohen Ben-Arye
+- [Ramesh Poluru](https://orcid.org/0000-0002-7693-418X) — The INCLEN Trust International, New Delhi
 - [Rosie Bettle](https://uk.linkedin.com/in/rosie-bettle-84a1051b0) — Founders Pledge (also Advisory Board)
 - [Sarah Anne Reynolds](https://sites.google.com/view/sarah-a-reynolds/home) — World Bank, Econ., GH
 - Sean Brocklebank — Econ.
 - [Tabare Capitan](https://www.tabarecapitan.com) — SLU - Swedish University of Agricultural Sciences, Econ.
+- [Tamara Bertram](https://www.linkedin.com/in/tamarabertram) — Legal Services of North Dakota
 - [Tanya O'Garra](https://sites.google.com/view/tanyaogarra/home) — Imperial College London, Econ.
 - [Tristan Williams](https://www.linkedin.com/in/tristan-williams-916119216/) — Center for AI Policy
 - [Valentin Klotzbücher](https://valentink.quarto.pub/) — University Hospital Basel, Econ., GH
@@ -82,7 +99,7 @@ description: "Auto-generated from Coda. Last synced: 2026-04-13"
 
 ## Unjournal Research Affiliates
 
-27 research affiliates contribute to research prioritization, evaluation management, and field expertise.
+58 research affiliates contribute to research prioritization, evaluation management, and field expertise.
 
 ## Evaluator Pool
 
