@@ -974,6 +974,149 @@
       .stats-row { gap: 2rem; justify-content: center; }
       .about-section { padding: 2rem 1.5rem; }
     }
+
+    /* Natural info-page polish: quieter than the older ad-page treatment. */
+    :root {
+      --accent: #2e6f85;
+      --warm: #8b5e3c;
+      --paper: #fbfaf7;
+      --highlight: #2e6f85;
+    }
+
+    body {
+      background: var(--paper, #fbfaf7);
+    }
+
+    header {
+      background: #f1eee7 !important;
+      color: var(--text, #2c3e50) !important;
+      border-bottom: 1px solid #ded8cd;
+      box-shadow: none !important;
+    }
+
+    header::before,
+    header::after,
+    .cta-section::before,
+    .cta-section::after {
+      display: none !important;
+    }
+
+    header a {
+      color: var(--accent, #2e6f85) !important;
+    }
+
+    header .cta-button.donate {
+      color: var(--white, #fff) !important;
+    }
+
+    header .secondary,
+    header .cta-button.secondary,
+    header .btn.secondary,
+    header .button.secondary,
+    header .cta-button.hero-outline {
+      color: var(--primary, #1a3a5c) !important;
+      border-color: #cfc7b8 !important;
+      background: rgba(255,255,255,0.35) !important;
+    }
+
+    header h1 {
+      color: var(--primary, #1a3a5c) !important;
+    }
+
+    header p,
+    header p.subtitle,
+    header .org-label {
+      color: var(--text, #2c3e50) !important;
+      opacity: 1 !important;
+    }
+
+    header .org-label {
+      color: var(--text-light, #5d6d7e) !important;
+    }
+
+    main {
+      background: var(--white, #fff);
+    }
+
+    nav {
+      box-shadow: none !important;
+    }
+
+    nav a,
+    a {
+      color: var(--accent, #2e6f85);
+    }
+
+    h2,
+    .section-header h2 {
+      border-bottom-color: var(--accent, #2e6f85) !important;
+    }
+
+    .highlight-box,
+    .source-link {
+      border-left-color: var(--accent, #2e6f85) !important;
+      background: var(--light-bg, #f7f9fb) !important;
+    }
+
+    .benefit-card,
+    .what-card,
+    .contact-card,
+    .news-item,
+    .role-card,
+    .output-card,
+    .eval-card,
+    .faq-item,
+    .card,
+    .social-card,
+    .channel-card,
+    .prize-card,
+    .donation-card {
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .benefit-card:hover,
+    .what-card:hover,
+    .contact-card:hover,
+    .news-item:hover,
+    .role-card:hover,
+    .output-card:hover,
+    .eval-card:hover,
+    .card:hover,
+    .social-card:hover,
+    .channel-card:hover,
+    .prize-card:hover,
+    .donation-card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.06) !important;
+      border-color: var(--accent, #2e6f85) !important;
+      transform: none !important;
+    }
+
+    .cta-section,
+    .site-nav-section {
+      background: var(--primary, #1a3a5c) !important;
+      color: var(--white, #fff) !important;
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .cta-section h2,
+    .site-nav-section h2 {
+      color: var(--white, #fff) !important;
+      border-bottom-color: rgba(255,255,255,0.4) !important;
+    }
+
+    .cta-button,
+    .follow-links a,
+    .action-link,
+    .btn {
+      border-radius: 5px !important;
+    }
+
+    footer {
+      background: var(--primary, #1a3a5c) !important;
+    }
+
   </style>
 </head>
 <body>
@@ -1311,7 +1454,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <footer>
   <p>&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
-  <p class="footer-note">This page was created with the help of Claude Code. Suggestions welcome.</p>
+  <p class="footer-note">Maintained by The Unjournal team. Suggestions and corrections welcome.</p>
 </footer>
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>

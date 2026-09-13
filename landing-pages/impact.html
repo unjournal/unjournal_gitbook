@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence and Impact | The Unjournal</title>
+  <meta name="description" content="Evidence on how Unjournal evaluations inform decisions, improve research, and contribute to research-evaluation practice.">
+  <meta property="og:title" content="Evidence and Impact | The Unjournal">
+  <meta property="og:description" content="Evidence on how Unjournal evaluations inform decisions, improve research, and contribute to research-evaluation practice.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap">
+  <style>
+    :root {
+      --ink: #253443;
+      --muted: #5b6873;
+      --primary: #173a5e;
+      --link: #236b80;
+      --warm: #8b5e3c;
+      --green: #3f6f56;
+      --paper: #fbfaf7;
+      --soft: #f1eee7;
+      --white: #ffffff;
+      --line: #d9d5cc;
+      --max: 1040px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Source Sans 3', Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.62;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--primary);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: var(--primary);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      letter-spacing: 0;
+      line-height: 1.25;
+    }
+
+    h2 {
+      font-size: 1.72rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.08rem;
+      margin-bottom: 0.55rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .topbar {
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .topbar-inner {
+      align-items: center;
+      display: flex;
+      gap: 1.2rem;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: var(--max);
+      min-height: 68px;
+      padding: 0.6rem 1.25rem;
+    }
+
+    .brand {
+      align-items: center;
+      display: flex;
+      flex: 0 0 auto;
+      gap: 0.7rem;
+      text-decoration: none;
+    }
+
+    .brand img {
+      border-radius: 3px;
+      height: 42px;
+      object-fit: cover;
+      width: 42px;
+    }
+
+    .brand span {
+      color: var(--primary);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      justify-content: flex-end;
+    }
+
+    nav a {
+      color: var(--ink);
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: var(--link);
+    }
+
+    .hero {
+      background: var(--soft);
+      border-bottom: 1px solid var(--line);
+      padding: 4rem 1.25rem 2.7rem;
+    }
+
+    .hero-inner {
+      margin: 0 auto;
+      max-width: var(--max);
+    }
+
+    .eyebrow {
+      color: var(--warm);
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.15rem, 5vw, 3.5rem);
+      margin-bottom: 1rem;
+      max-width: 820px;
+    }
+
+    .hero-copy {
+      color: var(--muted);
+      font-family: Georgia, serif;
+      font-size: 1.18rem;
+      max-width: 760px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.6rem;
+    }
+
+    .button {
+      align-items: center;
+      border: 1px solid var(--primary);
+      border-radius: 5px;
+      display: inline-flex;
+      font-size: 0.94rem;
+      font-weight: 700;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0.55rem 1rem;
+      text-decoration: none;
+    }
+
+    .button-primary {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: #0f2c49;
+      color: var(--white);
+    }
+
+    .button-secondary {
+      background: transparent;
+      color: var(--primary);
+    }
+
+    section {
+      padding: 3.6rem 1.25rem;
+    }
+
+    .section-inner {
+      margin: 0 auto;
+      max-width: var(--max);
+    }
+
+    .lead {
+      color: var(--muted);
+      font-family: Georgia, serif;
+      font-size: 1.06rem;
+      max-width: 820px;
+    }
+
+    .section-alt {
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      border-top: 1px solid var(--line);
+    }
+
+    .evidence-path {
+      display: grid;
+      gap: 0;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 2rem;
+    }
+
+    .evidence-step {
+      border-left: 4px solid var(--line);
+      padding: 0.35rem 1.2rem 0.4rem;
+    }
+
+    .evidence-step:nth-child(1) {
+      border-left-color: var(--link);
+    }
+
+    .evidence-step:nth-child(2) {
+      border-left-color: var(--green);
+    }
+
+    .evidence-step:nth-child(3) {
+      border-left-color: var(--warm);
+    }
+
+    .evidence-step:nth-child(4) {
+      border-left-color: var(--primary);
+    }
+
+    .step-number {
+      color: var(--muted);
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+    }
+
+    .evidence-step p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    .note {
+      border-left: 4px solid var(--warm);
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: 1.2rem;
+      max-width: 880px;
+      padding: 0.2rem 0 0.2rem 1rem;
+    }
+
+    .compact-section {
+      padding-bottom: 2.7rem;
+      padding-top: 2.7rem;
+    }
+
+    .compact-metrics {
+      border-bottom: 1px solid var(--line);
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 1.35rem 0 1rem;
+    }
+
+    .reach-metrics {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .compact-metric {
+      padding: 1rem 1.2rem 1rem 0;
+    }
+
+    .compact-metric + .compact-metric {
+      border-left: 1px solid var(--line);
+      padding-left: 1.2rem;
+    }
+
+    .compact-metric strong {
+      color: var(--primary);
+      display: block;
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.45rem;
+      line-height: 1.25;
+      margin-bottom: 0.2rem;
+    }
+
+    .compact-metric span {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    .cases {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 1.8rem;
+    }
+
+    .case {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 1.35rem;
+    }
+
+    .case-type {
+      color: var(--green);
+      display: block;
+      font-size: 0.77rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .case p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .case p:last-child {
+      margin-bottom: 0;
+    }
+
+    .source-list {
+      border-top: 1px solid var(--line);
+      list-style: none;
+      margin-top: 1.5rem;
+    }
+
+    .source-list li {
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: minmax(180px, 0.65fr) 1.35fr;
+      padding: 1rem 0;
+    }
+
+    .source-list a {
+      font-weight: 700;
+    }
+
+    .source-list span {
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .review-date {
+      color: var(--muted);
+      font-size: 0.86rem;
+      margin-top: 1.2rem;
+    }
+
+    .closing {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .closing h2 {
+      color: var(--white);
+    }
+
+    .closing p {
+      color: #d9e2ea;
+      max-width: 760px;
+    }
+
+    .closing a {
+      color: var(--white);
+    }
+
+    footer {
+      background: #102a44;
+      color: #cbd5df;
+      font-size: 0.84rem;
+      padding: 1.5rem 1.25rem;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem 1.3rem;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: var(--max);
+    }
+
+    footer a {
+      color: var(--white);
+    }
+
+    @media (max-width: 760px) {
+      .topbar-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      nav {
+        gap: 0.5rem 0.9rem;
+        justify-content: flex-start;
+        padding-bottom: 0.25rem;
+      }
+
+      .hero {
+        padding-top: 2.8rem;
+      }
+
+      .evidence-path,
+      .compact-metrics,
+      .cases {
+        grid-template-columns: 1fr;
+      }
+
+      .evidence-step {
+        margin-bottom: 1.2rem;
+      }
+
+      .compact-metric {
+        padding: 0.85rem 0;
+      }
+
+      .compact-metric + .compact-metric {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+        padding-left: 0;
+      }
+
+      .source-list li {
+        gap: 0.25rem;
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="https://unjournal.org">
+        <img src="unjournal-logo.jpg" alt="The Unjournal logo">
+        <span>The Unjournal</span>
+      </a>
+      <nav aria-label="Page navigation">
+        <a href="#evidence">How it matters</a>
+        <a href="#decisions">Decision use</a>
+        <a href="#reach">Reach</a>
+        <a href="#research-updates">Research updates</a>
+        <a href="#examples">Further examples</a>
+        <a href="#limits">Reading the evidence</a>
+        <a href="#sources">Sources</a>
+        <a href="index.html#explore">All pages</a>
+      </nav>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Evidence and impact</p>
+      <h1>How public evaluation can improve research and decisions</h1>
+      <p class="hero-copy">The Unjournal publishes independent expert assessments of research relevant to global priorities. The main aim is to help funders, policymakers, and researchers make better decisions: which claims to trust, which work to fund or build on, and which questions need more research. The work can also improve papers and evaluation practice.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="https://unjournal.pubpub.org/" target="_blank" rel="noopener">Browse evaluations</a>
+        <a class="button button-secondary" href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Impact-Measurement_suKDDi9T#_luMohbx8" target="_blank" rel="noopener">See the measurement plan</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="evidence">
+      <div class="section-inner">
+        <h2>What public evaluation adds</h2>
+        <p class="lead">Each evaluation package sets out expert judgments about a paper's methods, claims, relevance, and uncertainty. Readers can inspect the reasoning and ratings rather than relying on a journal label or a single accept/reject decision.</p>
+
+        <div class="evidence-path">
+          <div class="evidence-step">
+            <span class="step-number">Public assessment</span>
+            <h3>Assess the evidence</h3>
+            <p>Detailed evaluations and ratings help readers assess a paper's strengths, weaknesses, credibility, and relevance.</p>
+          </div>
+          <div class="evidence-step">
+            <span class="step-number">Research use</span>
+            <h3>Inform decisions and priorities</h3>
+            <p>Funders, policymakers, researchers, and other users may update a view, recommendation, research agenda, or decision.</p>
+          </div>
+          <div class="evidence-step">
+            <span class="step-number">Research improvement</span>
+            <h3>Improve the research</h3>
+            <p>Feedback and encouragement can lead authors to revise a paper, clarify claims, correct errors, or pursue more useful research.</p>
+          </div>
+          <div class="evidence-step">
+            <span class="step-number">Reusable public record</span>
+            <h3>Make the reasoning inspectable</h3>
+            <p>Open evaluations, ratings, responses, and linked analysis let funders and researchers inspect, cite, and build on the assessment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt" id="decisions">
+      <div class="section-inner">
+        <h2>Use in funding decisions and applied research</h2>
+        <p class="lead">Our main aim is to help funders, policymakers, and researchers make better use of important evidence. These are the clearest public cases we have so far. They show particular contributions, not an estimate of our average effect.</p>
+
+        <div class="cases">
+          <article class="case">
+            <span class="case-type">Use by a research funder</span>
+            <h3>GiveWell and water-treatment evidence</h3>
+            <p>GiveWell staff publicly described our evaluation of an important water-treatment meta-analysis as influential. They said it saved time they had considered spending on a replication, and a research director later confirmed that the evaluation was useful. It found no major failure, while flagging excluded studies and other issues relevant to interpreting the result.</p>
+            <p>The evidence concerns a program area in which GiveWell had recommended a $64.7 million safe-water grant, alongside later grants and research. That grant predated our evaluation; the figure indicates the scale of the decision context, not funding caused by The Unjournal.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/evalsumwatertreatment/release/4" target="_blank" rel="noopener">Evaluation package</a> &middot; <a href="https://www.givewell.org/international/technical/programs/water-quality-interventions" target="_blank" rel="noopener">GiveWell's evidence review</a> &middot; <a href="https://www.givewell.org/research/grants/evidence-action-dispensers-for-safe-water-January-2022" target="_blank" rel="noopener">Safe-water grant</a> &middot; <a href="https://www.linkedin.com/feed/update/urn:li:activity:7389693890754301952/?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7389693890754301952%2C7389770607112003586%29&amp;dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287389770607112003586%2Curn%3Ali%3Aactivity%3A7389693890754301952%29" target="_blank" rel="noopener">Public discussion</a></p>
+          </article>
+
+          <article class="case">
+            <span class="case-type">Change in a funder's working assumption</span>
+            <h3>Wellbeing measurement and cost-effectiveness</h3>
+            <p>We developed this Pivotal Question with Founders Pledge around measurement choices that could shift funding decisions. After the workshop, a Coefficient Giving researcher reported revising a working conversion from 10 WELLBYs per DALY to 4–7. This parameter can affect comparisons between health and wellbeing interventions.</p>
+            <p>The workshop also changed applied research priorities. Happier Lives Institute said it moved work on wellbeing weights up its agenda; its public 2026 plan now includes a report covering DALY-to-WELLBY conversions and discounting. The workshop also helped open a collaboration with Dean Jamison's group on non-fatal outcomes for a forthcoming <em>Lancet</em> report. Seven of nine survey respondents reported better understanding of practitioner priorities; the public report also records mixed and critical feedback.</p>
+            <p><a href="https://uj-wellbeing-workshop.netlify.app/survey-results" target="_blank" rel="noopener">Survey results and follow-up evidence</a> &middot; <a href="https://uj-wellbeing-workshop.netlify.app/about" target="_blank" rel="noopener">Workshop and Pivotal Questions</a> &middot; <a href="https://www.happierlivesinstitute.org/report/hlis-research-agenda-for-2026-and-2025-recap/" target="_blank" rel="noopener">HLI's 2026 research plan</a> &middot; <a href="https://globalhealth2050.org/about-us/" target="_blank" rel="noopener">Lancet Commission on Investing in Health</a></p>
+          </article>
+
+          <article class="case">
+            <span class="case-type">Substantial follow-on analysis</span>
+            <h3>Returns to science and technological risk</h3>
+            <p>Three evaluations of a model of the returns to science identified a major missing issue: the analysis compared the broad benefits of science with biotechnology risks while largely setting aside AI risk. The author's public response developed a substantial new analysis of this issue, compared three ways to model it, and accepted that the original paper did not adequately justify the omission.</p>
+            <p>This matters because the model is intended to inform donors and others considering whether to accelerate or slow scientific work.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/evalsumtechnologicalrisks/release/5" target="_blank" rel="noopener">Evaluation package</a> &middot; <a href="https://unjournal.pubpub.org/pub/arreturnstoscience/release/2" target="_blank" rel="noopener">Author's analysis and response</a></p>
+          </article>
+
+          <article class="case">
+            <span class="case-type">Follow-on analysis and public critique</span>
+            <h3>Tropical forest regeneration estimates</h3>
+            <p>Our evaluation raised fundamental concerns about a <em>Nature</em> paper's estimate of 215 million hectares of natural regeneration potential. One evaluator developed the critique into a public reanalysis and a <em>Matters Arising</em> manuscript, with code and results in a public repository.</p>
+            <p>The observable contribution is the follow-on analysis and manuscript. <em>Nature</em>'s editorial process is separate.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/evalsumnaturalregeneration/release/3" target="_blank" rel="noopener">Evaluation package</a> &middot; <a href="https://github.com/CannonCloud/tropical-regeneration-reanalysis" target="_blank" rel="noopener">Public reanalysis and manuscript</a> &middot; <a href="https://www.nature.com/articles/s41586-024-08106-4" target="_blank" rel="noopener">Original <em>Nature</em> paper</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Refresh this snapshot from the PubPub impact dashboard using its two-year range. Last refreshed 2026-08-26. -->
+    <section class="compact-section" id="reach">
+      <div class="section-inner">
+        <h2>Reach of the published work</h2>
+        <p class="lead">From August 26, 2024 through August 26, 2026, The Unjournal's PubPub site recorded about 34,800 unique visits and 46,800 pageviews. PubPub hosts our evaluation packages, individual evaluations, ratings, author responses, and related collection pages.</p>
+
+        <div class="compact-metrics reach-metrics" aria-label="PubPub readership summary">
+          <div class="compact-metric">
+            <strong>34.8K</strong>
+            <span>unique visits to The Unjournal's PubPub site</span>
+          </div>
+          <div class="compact-metric">
+            <strong>46.8K</strong>
+            <span>total pageviews across published content and site pages</span>
+          </div>
+        </div>
+
+        <p class="note">We copied these figures from the PubPub community analytics dashboard's two-year view. Unique visits are the closest available proxy for readers, rather than a count of distinct people. Visits and pageviews may include some automated traffic, while readership through RePEc, shared files, citations, and other platforms is not counted. Downloads are omitted because nearly all of the material can be read directly on the site. These figures indicate reach, not whether the work changed a decision. <a href="https://unjournal.pubpub.org/" target="_blank" rel="noopener">Browse the published work</a>. Last checked August 26, 2026.</p>
+      </div>
+    </section>
+
+    <section class="compact-section section-alt" id="research-updates">
+      <div class="section-inner">
+        <h2>One observable pathway: research updating</h2>
+        <p class="lead">Author responses and later paper versions leave public records, so they are easier to track than use by funders or other readers. They are useful evidence, but only one pathway to impact.</p>
+
+        <div class="compact-metrics" aria-label="Author-response and paper-update summary">
+          <div class="compact-metric">
+            <strong>5 of 22</strong>
+            <span>manually assessed papers showed clear substantive updating</span>
+          </div>
+          <div class="compact-metric">
+            <strong>7 of 22</strong>
+            <span>included a stated intention by the authors to update</span>
+          </div>
+          <div class="compact-metric">
+            <strong>19 of 57</strong>
+            <span>tracked packages had a formal or informal author response</span>
+          </div>
+        </div>
+
+        <p class="note">These figures use the April 2026 dataset, and the denominators differ. Many records remain uncoded; an uncoded record does not mean "no response" or "no revision." See the <a href="https://valentinklotzbuecher.github.io/llm-uj-research-eval/paper_response_analysis.html" target="_blank" rel="noopener">full tracking dashboard</a> for the classifications and caveats.</p>
+      </div>
+    </section>
+
+    <section id="examples">
+      <div class="section-inner">
+        <h2>Further applied work and wider influence</h2>
+        <p class="lead">These examples include analysis of a funder's cost-effectiveness method, a further research correction, practical Pivotal Questions work, and contributions to research-evaluation practice. The last of these is useful evidence of influence, but less direct than the funding and research cases above.</p>
+
+        <div class="cases">
+          <article class="case">
+            <span class="case-type">Applied analysis for philanthropic decisions</span>
+            <h3>GiveWell's discount-rate methodology</h3>
+            <p>Our evaluation of a Rethink Priorities review commissioned by GiveWell identified a consequential interpretation issue. GiveWell's stated 4% rate applies to log increases in consumption; under its other assumptions, the corresponding rate for consumption levels is roughly 7.1%.</p>
+            <p>The evaluation also questioned whether a component for compounding non-monetary benefits could double-count effects already reflected in projected health or consumption gains. These are concrete issues for cost-effectiveness analysis. The public contribution is the analysis; we have not established that GiveWell changed its method.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/evalsumgivewelldiscount/release/1" target="_blank" rel="noopener">Evaluation package</a> &middot; <a href="https://forum.effectivealtruism.org/posts/rHHGNtE79ue39xCRf/a-review-of-givewell-s-discount-rate" target="_blank" rel="noopener">Original review and recommendations</a></p>
+          </article>
+
+          <article class="case">
+            <span class="case-type">Public assessment and technical correction</span>
+            <h3>Artificial intelligence and economic growth</h3>
+            <p>An evaluator identified an error in a proof supporting a central result. The public record helps research users understand what was wrong and what remains supported. The authors acknowledged the problem and confirmed a corrected proof; the main result was preserved, but the reasoning was corrected and made clearer.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/aimetrics/release/9" target="_blank" rel="noopener">Evaluation package and author response</a></p>
+          </article>
+
+          <article class="case">
+            <span class="case-type">Decision-focused convening and synthesis</span>
+            <h3>Cultivated-meat costs and animal-welfare decisions</h3>
+            <p>We evaluated key cost projections, built a public forecasting model and Metaculus questions, and convened more than 24 researchers, forecasters, funders, scientists, and industry participants around disagreements that could affect animal-welfare funding and research decisions.</p>
+            <p>The public outputs include recordings, a synthesis of the main cruxes, an interactive cost-projection dashboard, and structured belief elicitation. The discussion sharpened the decision frame: the synthesis now separates whether commodity-scale production is feasible from when it might arrive, and sets out the practical comparison between $100,000 for cultivated-meat R&amp;D and the same amount for established corporate animal-welfare campaigns.</p>
+            <p>These are substantial applied-research outputs. We have not established that they changed a particular grant.</p>
+            <p><a href="https://uj-cm-workshop.netlify.app/summary" target="_blank" rel="noopener">Workshop synthesis and recordings</a> &middot; <a href="https://unjournal.github.io/cm_pq_modeling/" target="_blank" rel="noopener">Interactive cost model</a> &middot; <a href="https://uj-cm-workshop.netlify.app/" target="_blank" rel="noopener">Workshop overview</a></p>
+          </article>
+
+          <article class="case">
+            <span class="case-type">Wider research-evaluation practice</span>
+            <h3>Sharing and adapting the model</h3>
+            <p>The Alignment Journal incorporated lessons and policy language from The Unjournal, with David Reinstein coauthoring public posts about its design and adaptation to AI.</p>
+            <p>We serve as an evaluation provider for the Center for Open Science's Lifecycle Journal pilot and tested DeSci Labs' reviewer-finder prototype. We have also presented our model and comparisons of human and AI evaluation at the 2025 BITSS Annual Meeting and MAER-Net Colloquium.</p>
+            <p>These are contributions to evaluation practice and public scrutiny of the model. They are less direct evidence of effects on funding, policy, or substantive research decisions.</p>
+            <p><a href="https://blog.alignmentjournal.org/features-and-policies/" target="_blank" rel="noopener">Alignment Journal design</a> &middot; <a href="https://blog.alignmentjournal.org/adaptation-to-ai/" target="_blank" rel="noopener">Adaptation to AI</a> &middot; <a href="https://lifecyclejournal.org/evaluation-services/" target="_blank" rel="noopener">Lifecycle evaluation services</a> &middot; <a href="https://www.desci.com/products/ai-reviewer-finder" target="_blank" rel="noopener">DeSci Labs</a> &middot; <a href="https://cega.berkeley.edu/event/2025-bitss-annual-meeting/" target="_blank" rel="noopener">BITSS meeting</a> &middot; <a href="https://www.maer-net.org/_files/ugd/611517_9127ecf2f71843b9904d3b239f0d41d4.pdf" target="_blank" rel="noopener">MAER-Net programme</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt" id="limits">
+      <div class="section-inner">
+        <h2>How to read this evidence</h2>
+        <p>We can directly observe evaluations, ratings, author responses, and some paper revisions. We have less complete evidence on who uses them and whether they change funding, policy, or later research.</p>
+        <p>Our records also include weak and negative feedback. Some authors said an evaluation arrived too late or added little beyond earlier journal reports. Others found some suggestions useful and others beyond the paper's scope. Timing, evaluator fit, and relevance to an active research or decision process seem to matter.</p>
+        <p>Paper revisions usually reflect several inputs. Workshop surveys are small and self-selected. These records show engagement and specific changes, but they do not give a clean estimate of The Unjournal's overall effect.</p>
+        <p>Contributions to other evaluation projects and conference presentations show adoption, collaboration, or scrutiny of parts of the model. They are weaker evidence of effects on funding, policy, or substantive research decisions.</p>
+        <p>We will keep adding public evidence as we get it, including cases where an evaluation had little or no apparent effect.</p>
+      </div>
+    </section>
+
+    <section id="sources">
+      <div class="section-inner">
+        <h2>Data and documentation</h2>
+        <p class="lead">We use different pages for different jobs. This page is the short public overview; the links below carry the detail.</p>
+
+        <ul class="source-list">
+          <li>
+            <a href="https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Impact-Measurement_suKDDi9T#_luMohbx8" target="_blank" rel="noopener">Working measurement plan</a>
+            <span>Our broader measurement agenda, including reach, author engagement, partner use, decision effects, and case studies.</span>
+          </li>
+          <li>
+            <a href="https://unjournal.pubpub.org/dash/impact" target="_blank" rel="noopener">PubPub impact analytics</a>
+            <span>Current site-level pageviews and unique visits. The reach figures above use its two-year window ending August 26, 2026.</span>
+          </li>
+          <li>
+            <a href="https://valentinklotzbuecher.github.io/llm-uj-research-eval/paper_response_analysis.html" target="_blank" rel="noopener">Author-response dashboard</a>
+            <span>Underlying classifications, summary statistics, exploratory paper comparison, methods, code, and caveats.</span>
+          </li>
+          <li>
+            <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/benefits-and-features/more-reliable-and-useful-evaluation/author-engagement-evidence" target="_blank" rel="noopener">Detailed evidence note</a>
+            <span>Plain-language interpretation of author engagement and research updating, with linked case studies.</span>
+          </li>
+          <li>
+            <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators#but-isnt-the-unjournal-mainly-just-about-feedback-to-authors" target="_blank" rel="noopener">Evaluator guidance on feedback and assessment</a>
+            <span>How feedback to authors, assessment for research users, and the longer-run career value of public evaluation fit together.</span>
+          </li>
+          <li>
+            <a href="https://unjournal.github.io/unjournaldata/posts/author-survey-2026/" target="_blank" rel="noopener">2026 author survey</a>
+            <span>Small-sample author feedback on evaluation quality, usefulness, and reported research changes.</span>
+          </li>
+        </ul>
+
+        <p class="review-date">Evidence reviewed August 26, 2026. PubPub reach figures cover the two years ending on that date. Author-response figures are from the April 2026 dataset and should be updated when that dataset changes.</p>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="section-inner">
+        <h2>Help us improve the record</h2>
+        <p>If an Unjournal evaluation affected a decision, recommendation, research agenda, or paper, or if a claim on this page needs correction, please contact <a href="mailto:contact@unjournal.org">contact@unjournal.org</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>&copy; 2026 The Unjournal</span>
+      <span><a href="https://unjournal.org">Main website</a> &middot; <a href="https://unjournal.pubpub.org/">Evaluations</a> &middot; <a href="index.html#explore">All info pages</a></span>
+    </div>
+  </footer>
+</body>
+</html>

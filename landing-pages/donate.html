@@ -582,6 +582,149 @@
       .tier-list li { flex-direction: column; gap: 0.2rem; }
       .tier-amount { min-width: unset; }
     }
+
+    /* Natural info-page polish: quieter than the older ad-page treatment. */
+    :root {
+      --accent: #2e6f85;
+      --warm: #8b5e3c;
+      --paper: #fbfaf7;
+      --highlight: #2e6f85;
+    }
+
+    body {
+      background: var(--paper, #fbfaf7);
+    }
+
+    header {
+      background: #f1eee7 !important;
+      color: var(--text, #2c3e50) !important;
+      border-bottom: 1px solid #ded8cd;
+      box-shadow: none !important;
+    }
+
+    header::before,
+    header::after,
+    .cta-section::before,
+    .cta-section::after {
+      display: none !important;
+    }
+
+    header a {
+      color: var(--accent, #2e6f85) !important;
+    }
+
+    header .cta-button.donate {
+      color: var(--white, #fff) !important;
+    }
+
+    header .secondary,
+    header .cta-button.secondary,
+    header .btn.secondary,
+    header .button.secondary,
+    header .cta-button.hero-outline {
+      color: var(--primary, #1a3a5c) !important;
+      border-color: #cfc7b8 !important;
+      background: rgba(255,255,255,0.35) !important;
+    }
+
+    header h1 {
+      color: var(--primary, #1a3a5c) !important;
+    }
+
+    header p,
+    header p.subtitle,
+    header .org-label {
+      color: var(--text, #2c3e50) !important;
+      opacity: 1 !important;
+    }
+
+    header .org-label {
+      color: var(--text-light, #5d6d7e) !important;
+    }
+
+    main {
+      background: var(--white, #fff);
+    }
+
+    nav {
+      box-shadow: none !important;
+    }
+
+    nav a,
+    a {
+      color: var(--accent, #2e6f85);
+    }
+
+    h2,
+    .section-header h2 {
+      border-bottom-color: var(--accent, #2e6f85) !important;
+    }
+
+    .highlight-box,
+    .source-link {
+      border-left-color: var(--accent, #2e6f85) !important;
+      background: var(--light-bg, #f7f9fb) !important;
+    }
+
+    .benefit-card,
+    .what-card,
+    .contact-card,
+    .news-item,
+    .role-card,
+    .output-card,
+    .eval-card,
+    .faq-item,
+    .card,
+    .social-card,
+    .channel-card,
+    .prize-card,
+    .donation-card {
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .benefit-card:hover,
+    .what-card:hover,
+    .contact-card:hover,
+    .news-item:hover,
+    .role-card:hover,
+    .output-card:hover,
+    .eval-card:hover,
+    .card:hover,
+    .social-card:hover,
+    .channel-card:hover,
+    .prize-card:hover,
+    .donation-card:hover {
+      box-shadow: 0 3px 12px rgba(0,0,0,0.06) !important;
+      border-color: var(--accent, #2e6f85) !important;
+      transform: none !important;
+    }
+
+    .cta-section,
+    .site-nav-section {
+      background: var(--primary, #1a3a5c) !important;
+      color: var(--white, #fff) !important;
+      border-radius: 6px !important;
+      box-shadow: none !important;
+    }
+
+    .cta-section h2,
+    .site-nav-section h2 {
+      color: var(--white, #fff) !important;
+      border-bottom-color: rgba(255,255,255,0.4) !important;
+    }
+
+    .cta-button,
+    .follow-links a,
+    .action-link,
+    .btn {
+      border-radius: 5px !important;
+    }
+
+    footer {
+      background: var(--primary, #1a3a5c) !important;
+    }
+
   </style>
 </head>
 <body>
@@ -646,10 +789,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <h3>See The Unjournal in action</h3>
     <div class="video-embed">
-      <iframe src="https://www.youtube.com/embed/videoseries?list=UUCoziAtoBKGSn3Q3PBkgXEEg" title="The Unjournal on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/ZCSeAmzMB50" title="The Unjournal process overview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
     </div>
     <p style="text-align: center; font-size: 0.9rem; color: var(--text-light);">
-      <a href="https://www.youtube.com/channel/UCoziAtoBKGSn3Q3PBkgXEEg" target="_blank" rel="noopener">Subscribe to our YouTube channel</a> for presentations, discussions, and updates.
+      <a href="https://www.youtube.com/@unjournal-evaluations/videos" target="_blank" rel="noopener">More Unjournal videos</a> on presentations, discussions, and updates.
     </p>
   </section>
 
@@ -707,8 +850,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div style="text-align: center; margin-top: 1.5rem;">
       <a href="https://donorbox.org/the-unjournal-donations" class="cta-button donate" target="_blank" rel="noopener">Donate Now</a>
-      <br>
-      <a href="donate-impact.html" style="font-size: 0.9rem; display: inline-block; margin-top: 0.75rem;">Try our interactive impact calculator &rarr;</a>
     </div>
   </section>
 
@@ -908,6 +1049,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Policies, process, guidelines</p>
         <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/" target="_blank" rel="noopener">Read Docs</a>
       </div>
+      <div class="explore-card">
+        <div class="icon" aria-hidden="true">57</div>
+        <h4>Evidence &amp; Impact</h4>
+        <p>Responses, revisions, and limits</p>
+        <a href="impact.html">Review the evidence</a>
+      </div>
     </div>
   </section>
 
@@ -965,7 +1112,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer>
   <p><em>The Unjournal is a registered 501(c)(3) nonprofit. All donations are tax-deductible to the extent permitted by law.</em></p>
   <p style="margin-top: 0.5rem;">&copy; 2026 The Unjournal &nbsp;|&nbsp; <a href="https://unjournal.org">unjournal.org</a> &nbsp;|&nbsp; <a href="https://bsky.app/profile/unjournal.bsky.social">Bluesky</a> &nbsp;|&nbsp; <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
-<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">To make the best use of our limited resources, this page was created with the help of Claude Code. We aim to focus on substance, not style. Suggestions welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
+<p style="font-size: 0.78rem; opacity: 0.6; margin-top: 0.75rem;">Maintained by The Unjournal team. Suggestions and corrections welcome: <a href="mailto:contact@unjournal.org">contact@unjournal.org</a></p>
 </footer>
 
 </body>
