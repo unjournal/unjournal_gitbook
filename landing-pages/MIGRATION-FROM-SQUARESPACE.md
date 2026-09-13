@@ -93,7 +93,7 @@ each question. Record any later change in the log below rather than editing the 
 | --- | --- | --- |
 | D1 | Sequencing | Clean up first, then design, build on a staging URL, then cut over (target ~8 weeks). |
 | D2 | Hosting for www | Netlify, deployed from git only (no CLI deploys from local folders). |
-| D3 | Repo | New dedicated **private** repo for the website, with `landing-pages/` history carried over. |
+| D3 | Repo | New dedicated **private** repo for the website, with `landing-pages/` history carried over. Created 2026-09-13: `unjournal/unjournal-website` (history kept via filter-repo, prize email drafts stripped from all history). |
 | D4 | Build tool | Eleventy. Existing pages drop in as-is and move into shared layouts one at a time. |
 | D5 | URL policy | Keep every Squarespace path except `/commissioned-evaluations-1` → `/commission-evaluations` (301; update the Google Ads final URL at cutover). Merge `info.unjournal.org` into www with 301s from every old address. |
 | D6 | News posts | Port all 12 posts at their existing slugs; keep `/news?format=rss` working; fix the template post's date. |
@@ -138,9 +138,10 @@ each question. Record any later change in the log below rather than editing the 
 - [ ] Point the Squarespace homepage's donate link at `/donate`.
 
 ### Phase 2 — Build the new site on a staging URL (`noindex`)
-- [ ] Repo, host and build tool per D2–D4. Deploys come from git only — no CLI deploys from a laptop folder.
+- [x] Repo and build tool per D3–D4: `unjournal/unjournal-website` (Eleventy 3, pages copied byte-identical, `_redirects` draft, CI with privacy scan and link check, `tests/check_redirects.py`) (2026-09-13).
+- [ ] Link the repo in Netlify (daaronr nonprofit team → Import an existing project → GitHub → `unjournal/unjournal-website`; site name `unjournal-website`; build settings come from `netlify.toml`; no custom domain yet). Deploys come from git only — no CLI deploys from a laptop folder.
 - [ ] Shared layout (header, nav, footer) and one stylesheet; no per-page inline style blocks.
-- [ ] Design system per D7–D8, written down in the repo. Exported design-tool HTML is input to the repo, never a second source of truth.
+- [ ] Design system per D7–D8, written down in the repo. Exported design-tool HTML is input to the repo, never a second source of truth. Three homepage directions (A contents page, B featured evaluation, C paths by audience) are on a design canvas for David to choose from or edit (2026-09-13).
 - [ ] Port all 22 Squarespace URLs; write the commissioned-evaluations page and the 6 missing posts.
 - [ ] News as markdown at identical slugs; RSS at `/news?format=rss` and `/news/rss.xml`.
 - [ ] Homepage live content per D9, generated at build time (no client-side fetches that can silently fail).
@@ -162,6 +163,7 @@ each question. Record any later change in the log below rather than editing the 
 
 ### Phase 5 — Cutover
 - [ ] Lower TTL on `www`/apex to 300s, 48h ahead.
+- [ ] Remove the temporary `X-Robots-Tag: noindex` header from `netlify.toml` in `unjournal-website` (it keeps the staging address out of search results) in the same release as the domain switch.
 - [ ] Add the custom domain on the host; point `www` and apex; confirm TLS for both names.
 - [ ] Verify immediately: MX unchanged (send/receive test), top 10 paths, redirect script on production, Ads landing pages, GA4 realtime.
 - [ ] Submit the new sitemap in Search Console; request indexing for home, team, about.
