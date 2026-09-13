@@ -1,5 +1,9 @@
 # Squarespace → Landing Page Cross-Links
 
+> **Superseded (2026-09-13).** This assumes Squarespace stays the main site. The plan is now to move
+> www.unjournal.org off Squarespace — see `MIGRATION-FROM-SQUARESPACE.md`. Kept for history; don't
+> add new Squarespace cross-links without checking that file first.
+
 This file is a script you can paste to Claude Code in browser to add links to `info.unjournal.org` landing pages in the relevant Squarespace pages at `unjournal.org`.
 
 ---
