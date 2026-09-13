@@ -133,8 +133,8 @@ each question. Record any later change in the log below rather than editing the 
 - [x] Keep private working files (email drafts, correspondence) out of this public repo (prize email drafts removed 2026-09-13; `landing-pages/.gitignore` added).
 - [x] Resolve pages where server, folder and git disagree (D13: live wins), then commit (2026-09-13).
 - [x] Commit live-but-untracked files (`impact.html`, `legal-scholarship-candidates.html`, `evaluation-workflow-simplified.png`) (2026-09-13).
-- [ ] Remove server-only leftovers (old `/<page>/index.html` copies, `*.bak`, `update-news.py`, `follow-old.html`, duplicate `index.htmL`); add 301s `/x/` → `/x`.
-- [ ] nginx: deny `.md .py .bak .json .toml`, custom 404, `server_tokens off`.
+- [x] Remove server-only leftovers (old `/<page>/index.html` copies, `*.bak`, `update-news.py`, `follow-old.html`, duplicate `index.htmL`); add 301s `/x/` → `/x` (2026-09-13; moved to `/root/backups/info.unjournal.org/removed-2026-09-13/` on the server).
+- [x] nginx: 404 for dotfiles and `.md .py .sh .toml .bak`, custom `404.html`, `server_tokens off` (2026-09-13; config copy in `ops-internal/linode/nginx/`). JSON left servable because `/cruxes/` may need it.
 - [ ] Point the Squarespace homepage's donate link at `/donate`.
 
 ### Phase 2 — Build the new site on a staging URL (`noindex`)
@@ -184,6 +184,7 @@ each question. Record any later change in the log below rather than editing the 
 - Live but untracked: `impact.html`, `legal-scholarship-candidates.html`.
 - nginx `try_files $uri $uri.html $uri/` lets `/donate` and `/donate/` serve different files (also follow, lottery, evaluator-prizes-2024-25).
 - `update-news.py` is not scheduled anywhere; it last rewrote the server's `follow/index.html` in April 2026.
+- Resolved 2026-09-13: git now matches the server for every page; the team/org-chart/news update is deployed; old directory copies redirect. Local uncommitted edits to benefits, evaluator-prizes-2024-25, for-evaluators, home and pivotal-questions were kept aside for review, not published.
 - Hazards removed: `landing-pages/.netlify/` (publish dir pointed at the whole repo) was deleted locally on 2026-09-13. The repo-root `.netlify/state.json` still binds to the uj-aw-overview site — never run `netlify deploy` from the repo root.
 
 ---
