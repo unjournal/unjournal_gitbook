@@ -43,6 +43,28 @@ GitBook uses custom syntax including:
 
 ## Landing Pages (info.unjournal.org)
 
+**Moving www.unjournal.org off Squarespace:** plan, evidence, decisions and checklist are in
+`landing-pages/MIGRATION-FROM-SQUARESPACE.md`. Read it before changing landing pages, deploying, or
+touching DNS. Both Squarespace linking guides in that folder are superseded.
+
+### Deploying — READ THIS FIRST (2026-08-21)
+
+**`info.unjournal.org` is NOT on Netlify.** It is served by nginx from the
+Linode VPS `45.79.160.157` (confirmed: `dig` returns that A record, and the
+response carries `Server: nginx/1.24.0 (Ubuntu)`). Publishing a landing page
+means getting the file onto that box; it needs working SSH access to
+`root@45.79.160.157`.
+
+**Do not run `netlify deploy` from this repo root or from `landing-pages/`.**
+An untracked, gitignored `.netlify/state.json` at the repo root holds
+`siteId 05274071-6d41-4daf-802d-b0956f37fa96`, which is the site for
+`standalone-netlify-sites/sff-aw-overview/` (the Animal Welfare overview at
+`uj-aw-overview.netlify.app`) — left behind by a CLI run in that
+subdirectory. A deploy from the root therefore publishes the wrong directory
+over that site. This happened on 2026-08-21 and was rolled back with the
+Netlify deploys `.../restore` API. Deploy the standalone sites from inside
+their own directory, where the `netlify.toml` lives.
+
 ### Pages
 - `landing-pages/index.html` — General Unjournal overview
 - `landing-pages/about.html` — "In a Nutshell" overview of The Unjournal
@@ -202,8 +224,10 @@ When creating additional PQ workshops:
 
 ### Domain Registration
 - **Registrar**: Squarespace Domains (migrated from Google Domains in 2023)
-- **DNS Management**: Google Workspace Admin — https://admin.google.com/ac/domains/ (login with contact@unjournal.org)
-- **Domain registered**: October 2022
+- **DNS**: nameservers `ns-cloud-c1..c4.googledomains.com` (legacy Google Domains setup kept by Squarespace Domains). Records are most likely edited in the Squarespace Domains panel; confirm on next login and update this line. MX points at Google Workspace (`smtp.google.com`) — keep it through any website change.
+- **Current records (checked 2026-09-13)**: `unjournal.org` A → Squarespace; `www` CNAME → `ext-cust.squarespace.com`; `info` A → Linode.
+- **Domain registered**: October 2022; auto-renews each September
+- **Moving www.unjournal.org off Squarespace**: see `landing-pages/MIGRATION-FROM-SQUARESPACE.md`
 
 ### info.unjournal.org Hosting
 - **Server**: Linode VPS (see `~/unjournal-private/workshop-tracking/workshop-claude-context.md` for IP)

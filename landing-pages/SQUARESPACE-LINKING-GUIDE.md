@@ -1,5 +1,8 @@
 # Squarespace Linking Guide for info.unjournal.org Pages
 
+> **Superseded (2026-09-13).** This assumes Squarespace stays the main site. The plan is now to move
+> www.unjournal.org off Squarespace — see `MIGRATION-FROM-SQUARESPACE.md`. Kept for history.
+
 This guide helps Claude in Browser (or any editor) add appropriate links from the main Squarespace site (unjournal.org) to the landing pages hosted at info.unjournal.org.
 
 ## Overview
@@ -30,6 +33,7 @@ The info.unjournal.org pages serve as:
 |------|-----|---------|-------------------|
 | **About (In a Nutshell)** | `info.unjournal.org/about.html` | Quick overview of The Unjournal | About section "learn more", quick intro links, "what is The Unjournal" CTAs |
 | **Benefits & Features** | `info.unjournal.org/benefits.html` | Why journal-independent evaluation matters | "Why Us" sections, comparison pages, feature highlights |
+| **Evidence & Impact** | `info.unjournal.org/impact.html` | Public evidence on author responses, research updates, decision-focused engagement, and limits | Home/About resource links, commissioned-evaluations page, research-submission benefits, support/funder pages |
 | **Follow & Connect** | `info.unjournal.org/follow.html` | Social media hub and engagement | Footer social links, "stay connected" sections, community pages |
 | **Main Landing** | `info.unjournal.org/index.html` | Overview hub for all landing pages | Can be linked as "Explore Our Resources" or from specific campaigns |
 
@@ -85,9 +89,14 @@ The info.unjournal.org pages serve as:
 **About Section:**
 - "Learn more about The Unjournal" → `info.unjournal.org/about.html`
 - "Our Team" → `info.unjournal.org/team.html`
+- "Evidence and impact" → `info.unjournal.org/impact.html`
+
+**Commissioned Evaluations Page:**
+- Add one "See evidence on author responses and research updates" link → `info.unjournal.org/impact.html`
 
 **For Researchers Page:**
 - "Why submit?" or "Benefits" → `info.unjournal.org/for-authors.html`
+- "See public examples of responses and revisions" → `info.unjournal.org/impact.html`
 - Any FAQ links → `info.unjournal.org/for-authors.html#faq`
 
 **For Evaluators Page:**
