@@ -43,6 +43,10 @@ GitBook uses custom syntax including:
 
 ## Landing Pages (info.unjournal.org)
 
+**Moving www.unjournal.org off Squarespace:** plan, evidence, decisions and checklist are in
+`landing-pages/MIGRATION-FROM-SQUARESPACE.md`. Read it before changing landing pages, deploying, or
+touching DNS. Both Squarespace linking guides in that folder are superseded.
+
 ### Deploying — READ THIS FIRST (2026-08-21)
 
 **`info.unjournal.org` is NOT on Netlify.** It is served by nginx from the
@@ -65,6 +69,7 @@ their own directory, where the `netlify.toml` lives.
 - `landing-pages/index.html` — General Unjournal overview
 - `landing-pages/about.html` — "In a Nutshell" overview of The Unjournal
 - `landing-pages/benefits.html` — Benefits & features of journal-independent evaluation
+- `landing-pages/impact.html` — Public evidence on how evaluations inform research and decisions, with examples and measurement limits
 - `landing-pages/for-authors.html` — FAQ and information for researchers/authors
 - `landing-pages/for-evaluators.html` — Information and recruitment for evaluators
 - `landing-pages/team.html` — Management team, advisory board, and field specialists
@@ -220,8 +225,10 @@ When creating additional PQ workshops:
 
 ### Domain Registration
 - **Registrar**: Squarespace Domains (migrated from Google Domains in 2023)
-- **DNS Management**: Google Workspace Admin — https://admin.google.com/ac/domains/ (login with contact@unjournal.org)
-- **Domain registered**: October 2022
+- **DNS**: nameservers `ns-cloud-c1..c4.googledomains.com` (legacy Google Domains setup kept by Squarespace Domains). Records are most likely edited in the Squarespace Domains panel; confirm on next login and update this line. MX points at Google Workspace (`smtp.google.com`) — keep it through any website change.
+- **Current records (checked 2026-09-13)**: `unjournal.org` A → Squarespace; `www` CNAME → `ext-cust.squarespace.com`; `info` A → Linode.
+- **Domain registered**: October 2022; auto-renews each September
+- **Moving www.unjournal.org off Squarespace**: see `landing-pages/MIGRATION-FROM-SQUARESPACE.md`
 
 ### info.unjournal.org Hosting
 - **Server**: Linode VPS (see `~/unjournal-private/workshop-tracking/workshop-claude-context.md` for IP)

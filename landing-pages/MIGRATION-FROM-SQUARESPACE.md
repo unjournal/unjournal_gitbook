@@ -7,9 +7,10 @@ Squarespace site at `www.unjournal.org` with pages we host and control, without 
 search ranking, Google Ad Grants, or email — and with a site that reads as a credible research
 organisation, not a template or an AI-generated page.
 
-- **Status:** planning. Nothing has been cut over. Squarespace still serves `www.unjournal.org`.
-- **Owner:** not yet assigned (decision D12).
-- **Do not treat any option below as selected until it is recorded in the decision log (section 3).**
+- **Status:** Phase 1 (cleanup) in progress; decisions D1–D16 made 2026-09-13. Nothing has been cut
+  over. Squarespace still serves `www.unjournal.org`.
+- **Owner:** David Reinstein for now (others may be brought in later).
+- **Only options recorded in the decision log (section 3) count as decided.**
 - This file supersedes `SQUARESPACE-LINKING-GUIDE.md` and `SQUARESPACE-LANDING-PAGE-LINKS.md` as the
   plan. Those two describe the transitional set-up in which Squarespace stays the main site.
 
@@ -85,33 +86,35 @@ General rules:
 
 ## 3. Decisions
 
-Options are ordered with the current recommendation first. Trade-offs are set out in the September
-2026 decision form prepared for David; record outcomes in the log below.
+Decided by David on 2026-09-13 through a decision form that set out the options and trade-offs for
+each question. Record any later change in the log below rather than editing the table silently.
 
-| ID | Decision | Options | Status |
-| --- | --- | --- | --- |
-| D1 | Sequencing | clean up → design → build on staging → cut over / move existing pages now, redesign later / defer 90+ days | open |
-| D2 | Hosting for www | Netlify deployed from git / Linode nginx / Cloudflare Pages | open |
-| D3 | Repo | dedicated website repo (history carried over) / this repo's `landing-pages/` | open (see log) |
-| D4 | Build tool | Eleventy / Astro / Quarto / plain HTML + include script | open |
-| D5 | URL policy | keep all Squarespace paths and merge `info.` into www with 301s / new slugs with 301s | open |
-| D6 | News posts | port all 12 at the same slugs / recent only / move elsewhere | open |
-| D7 | Design direction | evolve the brand into a sober scholarly site / faithful Squarespace look / keep the info look / human designer | open |
-| D8 | Design process | design canvas in Claude Code / Claude Design with handoff / designer in Figma / straight to staging | open |
-| D9 | Homepage live content | build-time pull of latest evaluations / hand-updated / none | open |
-| D10 | Contact and popup | email + existing Coda forms, drop popup / Netlify form / embedded Coda form | open |
-| D11 | Analytics | GA4 + Ads conversion tag with consent banner, drop GTM/Cookiebot / cookieless analytics / both | open |
-| D12 | Owner and editing | named owner; agents edit via PRs with previews / add a git-based CMS | open |
-| D13 | Pages where live ≠ git | live wins, then review local edits as diffs / local wins / page by page | open |
-| D14 | Pending team/org-chart/news update on info | deploy / hold / check first | open |
-| D15 | Domain registrar | keep Squarespace Domains for now / transfer after cutover | open |
+| ID | Decision | Chosen (2026-09-13) |
+| --- | --- | --- |
+| D1 | Sequencing | Clean up first, then design, build on a staging URL, then cut over (target ~8 weeks). |
+| D2 | Hosting for www | Netlify, deployed from git only (no CLI deploys from local folders). |
+| D3 | Repo | New dedicated **private** repo for the website, with `landing-pages/` history carried over. |
+| D4 | Build tool | Eleventy. Existing pages drop in as-is and move into shared layouts one at a time. |
+| D5 | URL policy | Keep every Squarespace path except `/commissioned-evaluations-1` → `/commission-evaluations` (301; update the Google Ads final URL at cutover). Merge `info.unjournal.org` into www with 301s from every old address. |
+| D6 | News posts | Port all 12 posts at their existing slugs; keep `/news?format=rss` working; fix the template post's date. |
+| D7 | Design direction | Evolve the brand into a sober, scholarly site that leads with real evaluations (sketch B). |
+| D8 | Design process | Start with a design canvas in Claude Code (2–3 directions); move to Claude Design if more room is needed. |
+| D9 | Homepage live content | Rebuilt nightly from PubPub and the database; never a client-side widget that can render empty. |
+| D10 | Contact and popup | Contact page with the email address and links to existing Coda forms; drop the popup, put the feedback link in the footer and on News. |
+| D11 | Analytics | Keep GA4 and the Google Ads tag; drop GTM and Cookiebot; add a small consent banner (Google consent mode). Admin access list still to confirm. |
+| D12 | Owner and editing | David owns it for now. Claude/Codex make changes as pull requests with preview links; David approves. Revisit a web editor if others start editing. |
+| D13 | Pages where live ≠ git | Live wins. Local uncommitted edits to those pages are kept for review as diffs. |
+| D14 | Pending team/org-chart/news update | Deploy. |
+| D15 | Domain registrar | Keep Squarespace Domains for now; revisit after cutover. |
+| D16 | "Created with the help of Claude Code" footer | Move to a single "How this site is made" note linked from the footer. |
 
 ### Decision log
 
 | Date | Decision | Rationale | Owner |
 | --- | --- | --- | --- |
-| 2026-09-13 | Provisional: `landing-pages/` in this repo is the working home until D3 is decided. | It holds the existing replacement pages. Recorded by an agent, not yet confirmed by David; a dedicated website repo is the recommended alternative (separates site deploys from GitBook sync). | Pending David |
-| 2026-09-13 | Netlify is not selected. | Recommended by Coda audit and Notion Playbook B, but the working pages run on Linode; D2 is open. | Pending David |
+| 2026-09-13 | D1–D16 as above, from David's answers to the decision form. | Trade-offs set out in the form; all recommendations accepted. | David |
+| 2026-09-13 | Superseded: "`landing-pages/` in this repo is the working home" (provisional agent entry). | D3 chose a dedicated private website repo. `landing-pages/` stays the source until that repo exists, then becomes a pointer. | David |
+| 2026-09-13 | Superseded: "Netlify is not selected." | D2 chose Netlify, deployed from git only. | David |
 
 ---
 
@@ -123,13 +126,13 @@ Options are ordered with the current recommendation first. Trade-offs are set ou
 - [ ] Confirm who has admin on GA4, Search Console, Google Ads / Ad Grants, Squarespace, and the Netlify team; add a second admin to each.
 - [ ] Verify `unjournal.org` as a Domain property in Search Console (DNS TXT) to monitor coverage through the move.
 - [ ] Reference mirror of the Squarespace site (`wget --mirror --page-requisites --convert-links`) plus Squarespace's WordPress export for the posts. Store privately.
-- [ ] Download all Squarespace-hosted images, including team headshots used via `team_photos.json`; switch `generate_team_html.py` to local copies.
+- [x] Download the 22 team headshots used via `team_photos.json` into `img/team/` and point `team.html` at them (2026-09-13). Other Squarespace images (news posts) still to save with the mirror.
 - [ ] Record the Squarespace billing cycle so cancellation timing is known.
 
 ### Phase 1 — Make `info.unjournal.org` match git
-- [ ] Keep private working files (email drafts, correspondence) out of this public repo.
-- [ ] Resolve pages where server, folder and git disagree (D13), then commit.
-- [ ] Commit live-but-untracked files (`impact.html`, `legal-scholarship-candidates.html`, `evaluation-workflow-simplified.png`).
+- [x] Keep private working files (email drafts, correspondence) out of this public repo (prize email drafts removed 2026-09-13; `landing-pages/.gitignore` added).
+- [x] Resolve pages where server, folder and git disagree (D13: live wins), then commit (2026-09-13).
+- [x] Commit live-but-untracked files (`impact.html`, `legal-scholarship-candidates.html`, `evaluation-workflow-simplified.png`) (2026-09-13).
 - [ ] Remove server-only leftovers (old `/<page>/index.html` copies, `*.bak`, `update-news.py`, `follow-old.html`, duplicate `index.htmL`); add 301s `/x/` → `/x`.
 - [ ] nginx: deny `.md .py .bak .json .toml`, custom 404, `server_tokens off`.
 - [ ] Point the Squarespace homepage's donate link at `/donate`.
