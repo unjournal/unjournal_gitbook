@@ -7,7 +7,7 @@
 
 [The Unjournal](https://unjournal.org) is a nonprofit that commissions expert evaluation of quantitative research informing global priorities, in areas including global health, development economics, animal welfare, institutional reform, climate policy, the impact of technology on society, and catastrophic risk. Our evaluators provide detailed feedback, quantitative ratings across multiple dimensions, and considered assessments of the strengths and limitations of each research object. All evaluations, ratings, author responses, and manager syntheses are publicly shared at [unjournal.pubpub.org](https://unjournal.pubpub.org/), and in scholarly databases.
 
-For context, see [our mission and approach in a nutshell](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1#in-a-nutshell), our [guidelines for evaluators](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators), and our latest [evaluation form](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/).
+For context, see [our mission and approach in a nutshell](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/readme-1#in-a-nutshell), our [guidelines for evaluators](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators), and our current evaluation forms: the [interactive academic form](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/), the [interactive applied form](https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form_applied/), the Coda [academic stream form](https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME), and the Coda [applied stream form](https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH).
 
 ---
 
@@ -83,11 +83,11 @@ Three evaluations recognized for outstanding depth, insight, and engagement with
 ---
 
 #### David Reiley
-Evaluation of ["Does Online Fundraising Increase Charitable Giving? A Nationwide Field Experiment on Facebook"](https://unjournal.pubpub.org/pub/evalsumfundraisingcharitablegiving/)
+Evaluation of ["Does Online Fundraising Increase Charitable Giving? A Nationwide Field Experiment on Facebook"](https://unjournal.pubpub.org/pub/e2fundraisingcharitablegivingreiley/release/1)
 Topics: Economics, Policy
 
-- [Read the Full Evaluation](https://unjournal.pubpub.org/pub/e2fundraisingcharitablegivingreiley/draft?access=y9rs7g73)
-- [Evaluation Summary](https://unjournal.pubpub.org/pub/evalsumfundraisingcharitablegiving/)
+- [Read the Full Evaluation](https://unjournal.pubpub.org/pub/e2fundraisingcharitablegivingreiley/release/1)
+- [Evaluation Summary](https://unjournal.pubpub.org/pub/evalsumfundraisingcharitablegiving/release/1)
 
 David Reiley brought decades of experience in both the economics of charitable giving and digital advertising practice to this evaluation. This was among the most detailed and insightful reports in our portfolio.
 
@@ -101,18 +101,18 @@ We hope that this evaluation package, with specific suggestions, leads to follow
 ---
 
 #### Eleanor Tsai
-Evaluation of ["Maternal Cash Transfers for Gender Equity and Child Development: Experimental Evidence from India"](https://unjournal.pubpub.org/pub/evalsummaternalcashtransfers/)
+Evaluation of ["Maternal Cash Transfers for Gender Equity and Child Development: Experimental Evidence from India"](https://unjournal.pubpub.org/pub/e2maternalcashtransfers/release/1)
 Topics: Development, Policy
 
 - [Read the Full Evaluation](https://unjournal.pubpub.org/pub/e2maternalcashtransfers/release/1)
-- [Evaluation Summary](https://unjournal.pubpub.org/pub/evalsummaternalcashtransfers/)
+- [Evaluation Summary](https://unjournal.pubpub.org/pub/evalsummaternalcashtransfers/release/2)
 
 This evaluation takes a large, rigorous RCT seriously and assesses issues decision-makers would care about: measurement, interpretation, stress-testing comparisons, and real-world contextual considerations.
 
 ---
 
 #### Cannon Cloud
-Evaluation of ["Global Potential for Natural Regeneration in Deforested Tropical Regions"](https://unjournal.pubpub.org/pub/evalsumnaturalregeneration/release/3)
+Evaluation of ["Global Potential for Natural Regeneration in Deforested Tropical Regions"](https://unjournal.pubpub.org/pub/e2naturalregeneration/release/1)
 Topics: Environment, Policy
 
 - [Read the Full Evaluation](https://unjournal.pubpub.org/pub/e2naturalregeneration/release/1)
@@ -143,7 +143,7 @@ Five additional evaluations received commendations for their quality, rigor, and
 Some honorable-mention evaluators chose to remain anonymous. We fully respect that choice, and we do not disclose identifying information beyond what appears on the public evaluation pages.
 
 ### 1. Matthew B. Jané
-["Meaningfully Reducing Consumption of Meat and Animal Products Is an Unsolved Problem: A Meta-analysis"](https://unjournal.pubpub.org/pub/e2reducingconsumption/draft?access=4v3s93k1)
+["Meaningfully Reducing Consumption of Meat and Animal Products Is an Unsolved Problem: A Meta-analysis"](https://unjournal.pubpub.org/pub/e2reducingconsumption)
 Topics: Animal Welfare
 
 The authors aim to address a question of great interest to animal welfare advocates—do "interventions" reduce animal product consumption—via a structured meta-analysis of 41 diverse, and often limited, research studies. Jané offers some praise, as well as substantial clearly articulated critiques and specific suggestions aiming to strengthen the rigor of this work.
@@ -155,7 +155,7 @@ Topics: Development, Economics
 A careful, highly-detailed, organized, and decision-relevant evaluation of one of the most prominent long-term anti-poverty experiments. Emphasizing interpretation, external validity (e.g., can this "manna from heaven" experiment be extrapolated to a standardized, tax-funded UBI) and what can (and cannot) be inferred from short-term results within a long-run design. The evaluation provided insightful critiques of causal and statistical inference claims (e.g., regarding the claimed "insignificant" price effects on nearby markets), design and interpretation issues (e.g., "program goodwill bias"), and provided a plausible alternative psychological explanation for the differential impacts on lump-sum versus monthly recipients' investment and consumption.
 
 ### 3. Gregory Lewis
-["The Returns to Science in the Presence of Technological Risks"](https://ideas.repec.org/p/bjn/evalua/e3technologicalrisks.html)
+["The Returns to Science in the Presence of Technological Risks"](https://unjournal.pubpub.org/pub/e3technologicalrisks)
 Topics: Policy, Economics
 
 Exceptional reasoning, writing, quantification, and follow-up work. The author, Matt Clancy, praised his "quite a good critique" and responded in detail, adding new analysis. Although the other evaluators raised similar concerns, Lewis made the clearest case that the paper stacks the deck against concluding in favour of a science slowdown by comparing all the benefits of science to only a subset of the risks—namely the risks emerging from biotechnology. As he notes, this matters given that XPT AI extinction estimates are 38x higher than biocatastrophe estimates. He proposed a constructive "like for like" fix: narrowing the upside to bioscience returns only.

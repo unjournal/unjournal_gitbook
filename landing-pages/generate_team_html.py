@@ -33,6 +33,24 @@ NAME_CORRECTIONS = {
     'Shobit Kulshreshtha': 'Shobhit Kulshreshtha',
 }
 
+# Affiliations that are out of date in Coda. Fix the Coda row when you can;
+# this keeps the public page right in the meantime.
+ORG_CORRECTIONS = {
+    'Bob Kubinec': 'Texas A&M University',
+}
+
+
+def _management_rank(member):
+    """Directors first (founding, then co-), then the rest, then former roles."""
+    role = member.get('role', '')
+    if role == 'Founding Director':
+        return 0
+    if role == 'Co-Director':
+        return 1
+    if 'Former' in role:
+        return 3
+    return 2
+
 # People listed on the live page who have no row in the Coda team table, so
 # the generator cannot see them. Without this bridge, regenerating would
 # quietly delete them. Each entry is a question to resolve, not a permanent
@@ -125,6 +143,7 @@ def parse_team_csv(csv_path):
             # Affiliation text column have it empty (see
             # coda_org_unjournal/code/add_onboarded_to_team.py).
             org = (row.get('Organization', '') or row.get('Affiliation', '')).strip()
+            org = ORG_CORRECTIONS.get(name, org)
             engagement = row.get('Engagement', '').strip()
             monitoring_cat = row.get("monitoring 'outcome' category (main)", '').strip()
 
@@ -164,7 +183,7 @@ def parse_team_csv(csv_path):
                 # Determine role
                 if 'Founding Director' in name or name == 'David Reinstein':
                     member['role'] = 'Founding Director'
-                elif 'Co-Director' in status or name == 'Anirudh Tagat':
+                elif 'Co-Director' in status or name == 'Bob Kubinec':
                     member['role'] = 'Co-Director'
                 elif 'Former' in status or 'former' in status.lower():
                     member['role'] = 'Former Co-Director'
@@ -191,7 +210,7 @@ def parse_team_csv(csv_path):
             management.append(member)
 
     # Sort by name within each category
-    management.sort(key=lambda x: (0 if 'Director' in x.get('role', '') else 1, x['name']))
+    management.sort(key=lambda x: (_management_rank(x), x['name']))
     advisory.sort(key=lambda x: x['name'])
     for cat in field_specialists:
         field_specialists[cat].sort(key=lambda x: x['name'])
