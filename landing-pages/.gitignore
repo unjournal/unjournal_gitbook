@@ -1,0 +1,6 @@
+# This repo is public. Keep correspondence and working drafts out of it.
+# Private copies live outside the repo (e.g. ~/unjournal-private/landing-pages-private/).
+*-emails.md
+*emails*.md
+*.private.*
+.netlify/
