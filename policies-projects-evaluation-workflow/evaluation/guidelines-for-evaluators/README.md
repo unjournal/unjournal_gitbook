@@ -475,7 +475,7 @@ We have made some adjustments to this page and to our guidelines and processes; 
 {% hint style="info" %}
 If you still have questions, please contact us, or see our **FAQ on** [referees-evaluators.md](../../../faq-interaction/referees-evaluators.md "mention").
 
-You can also share [feedback on working with The Unjournal](https://coda.io/form/The-Unjournal-Anonymous-Feedback-Form_d_v5TjQrVox), including anonymously. If the form shows your name under “Submit as,” choose “Anonymous” before submitting. You can opt out of public summaries.
+You can also share [feedback on working with The Unjournal](https://info.unjournal.org/feedback.html). The form asks for no name or email; you can opt in to a de-identified summary for team and public updates.
 {% endhint %}
 
 

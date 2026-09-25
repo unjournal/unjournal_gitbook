@@ -13,7 +13,7 @@ description: >-
 
 _You can fill out_ [_this form_](https://bit.ly/UJsubmit) _to submit your work, or email contact@unjournal.org with questions ._&#x20;
 
-You can also share [feedback on your experience with The Unjournal](https://coda.io/form/The-Unjournal-Anonymous-Feedback-Form_d_v5TjQrVox), including anonymously. If the form shows your name under “Submit as,” choose “Anonymous” before submitting. You can opt out of public summaries.
+You can also share [feedback on your experience with The Unjournal](https://info.unjournal.org/feedback.html). The form asks for no name or email; you can opt in to a de-identified summary for team and public updates.
 
 ### How does The Unjournal's evaluation process work?&#x20;
 
