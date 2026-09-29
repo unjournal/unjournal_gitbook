@@ -4,7 +4,7 @@ description: 'TLDR: Unjournal promotes research replicability/robustness'
 
 # Promoting open and robust science
 
-_Unjournal_ evaluations aim to support the "Reproducibility/Robustness-Checking" (RRC) agenda. We are directly engaging with the [Institute for Replication](https://i4replication.org/) (I4R) and [the repliCATS project](https://replicats.research.unimelb.edu.au/) (RC), and building connections to [Replication Lab](https://www.vilhuber.com/lars/projects/replication-lab/)/TRELiSS and [Metaculus](https://www.metaculus.com/about/).
+_Unjournal_ evaluations aim to support the "Reproducibility/Robustness-Checking" (RRC) agenda. We have worked informally with the [Institute for Replication](https://i4replication.org/) (I4R) since 2022, including a joint 2023 funding proposal and taking part in its Replication Games, and we are discussing ways to link our evaluations with its replication work. We have also engaged with [the repliCATS project](https://replicats.research.unimelb.edu.au/) (RC), and are building connections to [Replication Lab](https://www.vilhuber.com/lars/projects/replication-lab/)/TRELiSS and [Metaculus](https://www.metaculus.com/about/).
 
 We will support this agenda by:
 
@@ -39,7 +39,7 @@ Indeed, detailed, high-quality referee reports for economics journals frequently
    * We aim to ask _Unjournal_ evaluators to make predictions about replicability. When these are successfully replicated, we can offer recognition. The same holds for repliCATS aggregated/IDEA group evaluations: To know if we are credibly assessing replicability, we need to compare these to at least some "replication outcomes."
    * The potential to compare these predictions to actual replication outcomes allows us to assess the credibility of our replicability evaluations. It may also motivate individuals to become _Unjournal_ evaluators, attracted by the possibility of influencing replication efforts.
 
-By concentrating on NBER papers, we increase the likelihood of overlap with journals targeted by the Institute for Replication, thus enhancing the utility of our evaluations in aiding replication efforts.
+Many of the working papers we evaluate are later published in journals whose articles replication efforts (such as those of the Institute for Replication) examine, so our evaluations can inform later replication work.
 
 <details>
 

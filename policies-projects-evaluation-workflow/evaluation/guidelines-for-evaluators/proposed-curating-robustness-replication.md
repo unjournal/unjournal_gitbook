@@ -1,6 +1,6 @@
 # Proposed curating robustness replication
 
-We are considering asking evaluators, with compensation, to assist and engage in the process of "robustness replication." This may lead to some interesting follow-on possibilities as we build our potential collaboration with the[ Institute for Replication](https://i4replication.org/) and others in this space.
+We are considering asking evaluators, with compensation, to assist and engage in the process of "robustness replication." This may lead to some interesting follow-on possibilities as we explore collaboration with the[ Institute for Replication](https://i4replication.org/) and others in this space.
 
 We might ask evaluators discussion questions like these:
 
@@ -12,4 +12,4 @@ We might ask evaluators discussion questions like these:
 
 **Background**:
 
-The Institute for Replication is planning to hire experts to do "robustness-replications" of work published in a top journal in economics and political science. Code- and data sharing is now being enforced in many or all of these journals and other important outlets. We want to support their efforts and are exploring collaboration possibilities. We are also considering how to best guide potential future robustness replication work.
+The Institute for Replication coordinates reproductions and "robustness-replications" of work published in top journals in economics and political science, increasingly focusing on specific literatures. Code- and data sharing is now being enforced in many or all of these journals and other important outlets. We want to support this work and are exploring collaboration possibilities. We are also considering how to best guide potential future robustness replication work.
