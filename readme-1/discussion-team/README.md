@@ -1,5 +1,5 @@
 ---
-description: "Synced from Coda and recent onboarding correspondence. Last updated: 2026-08-21"
+description: "Synced from Coda and recent onboarding correspondence. Last updated: 2026-09-30"
 ---
 
 # Our Team
@@ -10,11 +10,13 @@ description: "Synced from Coda and recent onboarding correspondence. Last update
 
 ## Management Team
 
+Bob Kubinec joined David Reinstein as Co-Director in August 2026. Anirudh Tagat, Co-Director until then, continues on the Management Team.
+
+- [Bob Kubinec](https://www.robertkubinec.com/) — Co-Director; Texas A&M University (Bush School of Government & Public Service), Pol. Sci.
+- David Reinstein — Founder & Co-Director
 - [Alexander Herwix](https://www.researchgate.net/profile/Alexander-Herwix) — Leipzig University, Info. sys.
 - [Andrei Potlogea](https://sites.google.com/site/andreipotlogeaupf/)
 - [Anirudh Tagat](https://www.anirudhtagat.com) — Monk Prayogshala, Econ.
-- [Bob Kubinec](https://www.robertkubinec.com/) — University of Virginia
-- David Reinstein, Founder & Co-Director
 - [Hansika Kapoor](https://www.hansikakapoor.in/) — Monk Prayogshala, Psych.
 - [Ryan Briggs](https://www.ryancbriggs.net/) — University of Guelph, Pol. Sci
 - [Valentin Klotzbücher](https://valentink.quarto.pub/) — University Hospital Basel, GH (also Field Specialist)
@@ -29,7 +31,7 @@ description: "Synced from Coda and recent onboarding correspondence. Last update
 - [Gavin Taylor](https://www.linkedin.com/in/gavin-taylor-9a409453/?originalSubdomain=br) — IGDORE, Neurosci.
 - [Gustav Nilsonne](https://nilsonne.net/) — Karolinska Institutet, Neurosci.
 - [Jake Eaton](https://www.linkedin.com/in/jake-eaton-phd-bb204634/) — Asterisk magazine, Pub. health
-- [Jordan Dworkin](https://jordandworkin.com/) — Open Philanthropy
+- [Jordan Dworkin](https://jordandworkin.com/) — Coefficient Giving (formerly Open Philanthropy)
 - [Kris Gulati](https://sites.google.com/view/kris-gulati/home) — UC Berkeley, Econ.
 - Lorenzo Pacchiardi — Leverhulme Centre for the Future of Intelligence
 - [Demetrius Floudas](https://demetriusfloudas.com/) — University of Cambridge
