@@ -1,0 +1,33 @@
+# The Unjournal
+
+> The Unjournal provides rigorous, open peer evaluation of quantitative research informing global priorities — without the inefficiencies of traditional journals.
+
+By The Unjournal (https://unjournal.org), a nonprofit that commissions public expert evaluations of impactful research. Published evaluations: https://unjournal.pubpub.org. About: https://info.unjournal.org
+
+## Pages
+
+- [The Unjournal — Open Evaluation of Impactful Research](https://info.unjournal.org/)
+- [About The Unjournal — Open Evaluation of Impactful Research](https://info.unjournal.org/about): The Unjournal provides rigorous, public evaluation of quantitative research informing global priorities. We are not a journal — we're something better.
+- [Benefits & Features — The Unjournal](https://info.unjournal.org/benefits): Why The Unjournal matters: transparent evaluation, reduced publication costs, global impact focus, and living research that evolves with feedback.
+- [Contact — The Unjournal](https://info.unjournal.org/contact): Get in touch with The Unjournal. Contact us about evaluations, research submission, press inquiries, partnerships, or general questions.
+- [Support The Unjournal — Donate to Open Research Evaluation](https://info.unjournal.org/donate): Support The Unjournal's mission to provide rigorous, open evaluation of research informing global priorities. Tax-deductible donations fund expert evaluators, prizes, and open science infrastructure.
+- [Our Evaluations — The Unjournal](https://info.unjournal.org/evaluations): Browse 100+ open peer evaluations of research informing global priorities. Learn about The Unjournal's two evaluation tracks, rating criteria, and research focus areas.
+- [Evaluator Pool — The Unjournal](https://info.unjournal.org/evaluator-pool): Statistics and demographics of The Unjournal's evaluator pool: ~230 vetted researchers across economics, psychology, global health, and more.
+- [2024–25 Evaluator Prize Winners — The Unjournal](https://info.unjournal.org/evaluator-prizes-2024-25): Announcing the winners of The Unjournal's 2024–25 Evaluator Prize, recognizing exceptional peer evaluation of impactful research in economics, policy, and social science.
+- [Follow The Unjournal — Stay Connected](https://info.unjournal.org/follow): Follow The Unjournal on social media, subscribe to our newsletter, and stay up to date on open evaluation of impactful research.
+- [For Researchers & Authors — The Unjournal](https://info.unjournal.org/for-authors): Why submit your research to The Unjournal? Get expert feedback, credibility signals, increased visibility, and join the open science community.
+- [For Evaluators — The Unjournal](https://info.unjournal.org/for-evaluators): Join The Unjournal's evaluator pool. Get paid for expert peer review, build your public scholarly profile, and help advance open science.
+- [Animal Futures Tournament — The Unjournal](https://info.unjournal.org/forecasting-tournament/): Join the Animal Futures Tournament on Metaculus: forecast decision-relevant questions on animal welfare, alternative proteins, wild animal welfare, AI, and policy. $3,400 prize pool.
+- [Get Involved — The Unjournal](https://info.unjournal.org/getting-involved): Evaluate research, submit your work, or join The Unjournal's open peer evaluation initiative. Remote, flexible roles for researchers at all career stages.
+- [The Unjournal — Open Evaluation of Impactful Research](https://info.unjournal.org/home): The Unjournal provides rigorous, open peer evaluation of quantitative research informing global priorities — without the barriers and delays of traditional journals.
+- [Evidence and Impact | The Unjournal](https://info.unjournal.org/impact): Evidence on how Unjournal evaluations inform decisions, improve research, and contribute to research-evaluation practice.
+- [Legal Scholarship Candidate Papers | The Unjournal](https://info.unjournal.org/legal-scholarship-candidates.html): A sanitized public list of candidate papers and themes for The Unjournal's exploratory legal scholarship evaluation work.
+- [Impactful Legal Scholarship Evaluation | The Unjournal](https://info.unjournal.org/legal-scholarship.html): A concise status and planning page for The Unjournal's exploratory work on public expert evaluation of high-impact legal scholarship.
+- [Honorable Mention Lottery — The Unjournal 2024–25 Evaluator Prize](https://info.unjournal.org/lottery): Transparent random draw to select two $500 prize winners from the five honorable mentions in The Unjournal's 2024–25 Evaluator Prize.
+- [News & Updates — The Unjournal](https://info.unjournal.org/news): Latest news, announcements, and updates from The Unjournal — open evaluation of impactful research.
+- [Organizational Chart — The Unjournal](https://info.unjournal.org/org-chart): The Unjournal's organizational structure: leadership, management committee, advisory board, field specialists, and evaluator pool.
+- [Submit a Pivotal Question - The Unjournal](https://info.unjournal.org/pivotal-question-submit): Submit a decision-relevant research question to The Unjournal's Pivotal Questions initiative.
+- [Pivotal Questions — The Unjournal](https://info.unjournal.org/pivotal-questions): The Unjournal's Pivotal Questions initiative: workshops, evaluations, forecasts, and evidence synthesis for decision-relevant research questions.
+- [Our Team — The Unjournal](https://info.unjournal.org/team): Meet The Unjournal's management team, advisory board, and field specialists advancing open evaluation of impactful research.
+
+<!-- generated by seo_kit.py on 2026-10-01 -->

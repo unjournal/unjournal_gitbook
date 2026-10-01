@@ -1,0 +1,5 @@
+# seo_kit.py
+User-agent: *
+Allow: /
+
+Sitemap: https://info.unjournal.org/sitemap.xml
