@@ -8,6 +8,7 @@ By The Unjournal (https://unjournal.org), a nonprofit that commissions public ex
 
 - [The Unjournal — Open Evaluation of Impactful Research](https://info.unjournal.org/)
 - [About The Unjournal — Open Evaluation of Impactful Research](https://info.unjournal.org/about): The Unjournal provides rigorous, public evaluation of quantitative research informing global priorities. We are not a journal — we're something better.
+- [Who's Available](https://info.unjournal.org/available/): A shared room where people say when they're free for a chat and how to reach them. No account needed; anyone can make a room for their own group.
 - [Benefits & Features — The Unjournal](https://info.unjournal.org/benefits): Why The Unjournal matters: transparent evaluation, reduced publication costs, global impact focus, and living research that evolves with feedback.
 - [Contact — The Unjournal](https://info.unjournal.org/contact): Get in touch with The Unjournal. Contact us about evaluations, research submission, press inquiries, partnerships, or general questions.
 - [Support The Unjournal — Donate to Open Research Evaluation](https://info.unjournal.org/donate): Support The Unjournal's mission to provide rigorous, open evaluation of research informing global priorities. Tax-deductible donations fund expert evaluators, prizes, and open science infrastructure.
