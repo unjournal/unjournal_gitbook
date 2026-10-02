@@ -1,0 +1,3 @@
+[build]
+  publish = "."
+  edge_functions = "netlify/edge-functions"
