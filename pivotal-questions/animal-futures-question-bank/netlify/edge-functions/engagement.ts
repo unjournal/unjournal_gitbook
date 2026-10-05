@@ -17,7 +17,7 @@ var getEnvironment = () => {
   };
 };
 
-// site_engagement/node_modules/@netlify/blobs/dist/chunk-YAGWSQMB.js
+// site_engagement/node_modules/@netlify/blobs/dist/chunk-FWVYH726.js
 import process from "node:process";
 
 // site_engagement/node_modules/@netlify/otel/dist/main.js
@@ -36,7 +36,7 @@ function withActiveSpan(tracer, name, optionsOrFn, contextOrFn, fn) {
   return tracer.withActiveSpan(name, optionsOrFn, contextOrFn, func);
 }
 
-// site_engagement/node_modules/@netlify/blobs/dist/chunk-YAGWSQMB.js
+// site_engagement/node_modules/@netlify/blobs/dist/chunk-FWVYH726.js
 var getEnvironmentContext = () => {
   const context = globalThis.netlifyBlobsContext || getEnvironment().get("NETLIFY_BLOBS_CONTEXT");
   if (typeof context !== "string" || !context) {
@@ -98,13 +98,23 @@ var getMetadataFromResponse = (response) => {
 };
 var NF_ERROR = "x-nf-error";
 var NF_REQUEST_ID = "x-nf-request-id";
+var DEPLOY_STORE_PREFIX = "deploy:";
+var SITE_STORE_PREFIX = "site:";
+var isDeniedWrite = (res, { method, storeName }) => (res.status === 401 || res.status === 403) && (method === "put" || method === "delete") && storeName !== void 0 && !storeName.startsWith(DEPLOY_STORE_PREFIX);
+var blobsErrorMessage = (res, context) => {
+  let details = res.headers.get(NF_ERROR) || `${res.status} status code`;
+  if (res.headers.has(NF_REQUEST_ID)) {
+    details += `, ID: ${res.headers.get(NF_REQUEST_ID)}`;
+  }
+  if (isDeniedWrite(res, context)) {
+    const storeName = context.storeName?.startsWith(SITE_STORE_PREFIX) ? context.storeName.slice(SITE_STORE_PREFIX.length) : context.storeName;
+    return `Netlify Blobs could not write to store '${storeName}' (${details}). Builds and build plugins can only write to deploy-specific stores: use 'getDeployStore' instead of 'getStore', or pass a 'token' with write access to the store. If this code is not running in a build, check that the token and site ID are valid. See https://docs.netlify.com/build/data-and-storage/netlify-blobs/#deploy-specific-stores`;
+  }
+  return `Netlify Blobs has generated an internal error (${details})`;
+};
 var BlobsInternalError = class extends Error {
-  constructor(res) {
-    let details = res.headers.get(NF_ERROR) || `${res.status} status code`;
-    if (res.headers.has(NF_REQUEST_ID)) {
-      details += `, ID: ${res.headers.get(NF_REQUEST_ID)}`;
-    }
-    super(`Netlify Blobs has generated an internal error (${details})`);
+  constructor(res, context = {}) {
+    super(blobsErrorMessage(res, context));
     this.name = "BlobsInternalError";
   }
 };
@@ -149,13 +159,13 @@ var DEFAULT_RETRY_DELAY = getEnvironment().get("NODE_ENV") === "test" ? 1 : 5e3;
 var MIN_RETRY_DELAY = 1e3;
 var MAX_RETRY = 5;
 var RATE_LIMIT_HEADER = "X-RateLimit-Reset";
-var fetchAndRetry = async (fetch, url, options, attemptsLeft = MAX_RETRY) => {
+var fetchAndRetry = async (fetch2, url, options, attemptsLeft = MAX_RETRY) => {
   try {
-    const res = await fetch(url, options);
+    const res = await fetch2(url, options);
     if (attemptsLeft > 0 && (res.status === 429 || res.status >= 500)) {
       const delay = getDelay(res.headers.get(RATE_LIMIT_HEADER));
       await sleep(delay);
-      return fetchAndRetry(fetch, url, options, attemptsLeft - 1);
+      return fetchAndRetry(fetch2, url, options, attemptsLeft - 1);
     }
     return res;
   } catch (error) {
@@ -164,7 +174,7 @@ var fetchAndRetry = async (fetch, url, options, attemptsLeft = MAX_RETRY) => {
     }
     const delay = getDelay();
     await sleep(delay);
-    return fetchAndRetry(fetch, url, options, attemptsLeft - 1);
+    return fetchAndRetry(fetch2, url, options, attemptsLeft - 1);
   }
 };
 var getDelay = (rateLimitReset) => {
@@ -178,11 +188,11 @@ var sleep = (ms) => new Promise((resolve) => {
 });
 var SIGNED_URL_ACCEPT_HEADER = "application/json;type=signed-url";
 var Client = class {
-  constructor({ apiURL, consistency, edgeURL, fetch, region, siteID, token, uncachedEdgeURL }) {
+  constructor({ apiURL, consistency, edgeURL, fetch: fetch2, region, siteID, token, uncachedEdgeURL }) {
     this.apiURL = apiURL;
     this.consistency = consistency ?? "eventual";
     this.edgeURL = edgeURL;
-    this.fetch = fetch ?? globalThis.fetch;
+    this.fetch = fetch2 ?? globalThis.fetch;
     this.region = region;
     this.siteID = siteID;
     this.token = token;
@@ -260,7 +270,7 @@ var Client = class {
       method
     });
     if (res.status !== 200) {
-      throw new BlobsInternalError(res);
+      throw new BlobsInternalError(res, { method, storeName });
     }
     const { url: signedURL } = await res.json();
     const userHeaders = encodedMetadata ? { [METADATA_HEADER_INTERNAL]: encodedMetadata } : void 0;
@@ -335,9 +345,7 @@ var getClientOptions = (options, contextOverride) => {
 };
 
 // site_engagement/node_modules/@netlify/blobs/dist/main.js
-var DEPLOY_STORE_PREFIX = "deploy:";
 var LEGACY_STORE_INTERNAL_PREFIX = "netlify-internal/legacy-namespace/";
-var SITE_STORE_PREFIX = "site:";
 var STATUS_OK = 200;
 var STATUS_PRE_CONDITION_FAILED = 412;
 var Store = class _Store {
@@ -362,7 +370,7 @@ var Store = class _Store {
   async delete(key) {
     const res = await this.client.makeRequest({ key, method: "delete", storeName: this.name });
     if (![200, 204, 404].includes(res.status)) {
-      throw new BlobsInternalError(res);
+      throw new BlobsInternalError(res, { method: "delete", storeName: this.name });
     }
   }
   async deleteAll() {
@@ -371,7 +379,7 @@ var Store = class _Store {
     while (hasMore) {
       const res = await this.client.makeRequest({ method: "delete", storeName: this.name });
       if (res.status !== 200) {
-        throw new BlobsInternalError(res);
+        throw new BlobsInternalError(res, { method: "delete", storeName: this.name });
       }
       const data = await res.json();
       if (typeof data.blobs_deleted !== "number") {
@@ -573,7 +581,7 @@ var Store = class _Store {
           modified: true
         };
       }
-      throw new BlobsInternalError(res);
+      throw new BlobsInternalError(res, { method: "put", storeName: this.name });
     });
   }
   async setJSON(key, data, options = {}) {
@@ -582,7 +590,8 @@ var Store = class _Store {
         "blobs.store": this.name,
         "blobs.key": key,
         "blobs.method": "PUT",
-        "blobs.data.type": "json"
+        "blobs.data.type": "json",
+        "blobs.atomic": Boolean(options.onlyIfMatch ?? options.onlyIfNew)
       });
       _Store.validateKey(key);
       const conditions = _Store.getConditions(options);
@@ -591,7 +600,7 @@ var Store = class _Store {
         "content-type": "application/json"
       };
       const res = await this.client.makeRequest({
-        ...conditions,
+        conditions,
         body: payload,
         headers: headers2,
         key,
@@ -613,7 +622,7 @@ var Store = class _Store {
           modified: true
         };
       }
-      throw new BlobsInternalError(res);
+      throw new BlobsInternalError(res, { method: "put", storeName: this.name });
     });
   }
   static formatListResultBlob(result) {
@@ -797,7 +806,38 @@ var tracking_registry_default = {
           type: "html"
         }
       },
-      group: "Reinstein"
+      group: "Reinstein",
+      events: [
+        "blues-flow",
+        "ai-jazz-tune-trial",
+        "local-jazz-calendar",
+        "jazz-practice-hub",
+        "brass-up-close",
+        "gtd-trio",
+        "k-house-jazz",
+        "word-bocce",
+        "math-estimator",
+        "library-of-things",
+        "meeting-scheduler",
+        "whos-available",
+        "complainments",
+        "opportunitycard",
+        "research-training",
+        "ai-foundations",
+        "impact-directory",
+        "llm-research-eval",
+        "ai-wealth-philanthropy",
+        "prioritization-ml-lab",
+        "effective-giving-book",
+        "impact-info-giving",
+        "eamt",
+        "metrics-notes",
+        "writing-econ",
+        "micro-msc",
+        "quarto-template",
+        "unjournal-tools"
+      ],
+      reliable_since: "2026-10-05"
     },
     {
       key: "exeter_jazz_calendar",
@@ -817,9 +857,197 @@ var tracking_registry_default = {
         "/calendar.ics": {
           label: "calendar_feed",
           type: "feed"
+        },
+        "/events/": {
+          label: "event_index",
+          type: "html"
+        },
+        "/events/index.html": {
+          label: "event_index",
+          type: "html"
+        },
+        "/events/hejira-2026-10-04.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/hejira-2026-10-04": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/dave-morecroft-trio-2026-10-04.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/dave-morecroft-trio-2026-10-04": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/torbay-jazz-festival-2026.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/torbay-jazz-festival-2026": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/hot-house-combo-bootlegger-2026-10-02.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/hot-house-combo-bootlegger-2026-10-02": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/hayne-hot-house-2026-10-07.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/hayne-hot-house-2026-10-07": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/blue-vanguard-2026-12-17.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/blue-vanguard-2026-12-17": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/jazz-harp-duo-2026-11-08.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/jazz-harp-duo-2026-11-08": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/hopkins-hammond-2026-12-06.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/hopkins-hammond-2026-12-06": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/taunton-big-band-2026-11-15.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/taunton-big-band-2026-11-15": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mermaid-2026-10-07.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mermaid-2026-10-07": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/helen-white-2026-10-11.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/helen-white-2026-10-11": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/blue-vanguard-2026-11-26.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/blue-vanguard-2026-11-26": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/taunton-big-band-2026-10-18.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/taunton-big-band-2026-10-18": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mermaid-2026-12-02.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mermaid-2026-12-02": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mermaid-2026-11-04.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mermaid-2026-11-04": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/newtons-toad-2026-11-01.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/newtons-toad-2026-11-01": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mary-coughlan-2027-03-18.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/mary-coughlan-2027-03-18": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/jazz-on-the-green-2026-10-01.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/jazz-on-the-green-2026-10-01": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/blue-vanguard-2026-10-22.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/blue-vanguard-2026-10-22": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/louis-ella-christmas-2026-12-12.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/louis-ella-christmas-2026-12-12": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/taunton-big-band-christmas-2026-12-20.html": {
+          label: "event_detail",
+          type: "html"
+        },
+        "/events/taunton-big-band-christmas-2026-12-20": {
+          label: "event_detail",
+          type: "html"
         }
       },
-      group: "Reinstein"
+      group: "Reinstein",
+      events: [
+        "calendar_file_click",
+        "organizer_listing_click"
+      ],
+      coverage_started_at: "2026-10-05",
+      metrics_started_at: {
+        html: "2026-10-05",
+        click: "2026-10-05",
+        "page:event_detail": "2026-10-05",
+        "page:event_index": "2026-10-05"
+      },
+      reliable_since: "2026-10-05"
     },
     {
       key: "impact_directory",
@@ -849,7 +1077,35 @@ var tracking_registry_default = {
           type: "html"
         }
       },
-      group: "Reinstein"
+      group: "Reinstein",
+      interaction_events: [
+        "search_submit",
+        "filter_change",
+        "organization_open",
+        "offering_open",
+        "website_open",
+        "evidence_open"
+      ],
+      outbound_events: [
+        "website_open",
+        "evidence_open"
+      ],
+      engaged_event: "engaged_load",
+      events: [
+        "search_submit",
+        "filter_change",
+        "organization_open",
+        "offering_open",
+        "website_open",
+        "evidence_open",
+        "engaged_load"
+      ],
+      metrics_started_at: {
+        use: "2026-10-05",
+        engaged: "2026-10-05",
+        click: "2026-10-05"
+      },
+      reliable_since: "2026-10-05"
     },
     {
       key: "animal_futures_questions",
@@ -867,7 +1123,8 @@ var tracking_registry_default = {
           type: "html"
         }
       },
-      group: "Unjournal"
+      group: "Unjournal",
+      reliable_since: "2026-10-05"
     },
     {
       key: "animal_futures_update",
@@ -897,7 +1154,13 @@ var tracking_registry_default = {
           type: "feed"
         }
       },
-      group: "Unjournal"
+      group: "Unjournal",
+      incomplete_days: [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05"
+      ],
+      reliable_since: "2026-10-05"
     },
     {
       key: "personal_website",
@@ -935,7 +1198,8 @@ var tracking_registry_default = {
           label: "podcasts",
           type: "html"
         }
-      }
+      },
+      reliable_since: "2026-10-05"
     }
   ]
 };
@@ -945,6 +1209,18 @@ var DASHBOARD = "https://reinstein-site-engagement.netlify.app";
 var BOT = /bot|crawler|spider|slurp|headless|facebookexternalhit|preview|curl|wget/i;
 var AUDIT = /DavidSiteEngagementAudit|Python-urllib|EngagementAudit/i;
 var sources = /* @__PURE__ */ new Set(["direct", "projects_hub", "search", "social", "hypothesis", "other"]);
+async function storageFetch(url, options) {
+  const response = await fetch(url, options);
+  if (options?.method?.toLowerCase() === "put" && response.status === 409) {
+    const error = new Error("Conditional storage conflict");
+    error.storageConflict = true;
+    throw error;
+  }
+  return response;
+}
+function counterStore() {
+  return getStore({ name: "anonymous-request-counts-v1", consistency: "strong", fetch: storageFetch });
+}
 function sourceCategory(request) {
   const url = new URL(request.url);
   if (url.searchParams.get("utm_source") === "projects_hub") return "projects_hub";
@@ -961,12 +1237,23 @@ function sourceCategory(request) {
   return "other";
 }
 async function increment(store, key, field) {
+  const fields = Array.isArray(field) ? field : [field];
   for (let retry = 0; retry < 12; retry++) {
     const current = await store.getWithMetadata(key, { type: "json", consistency: "strong" });
     const data = current?.data || { counts: {} };
-    data.counts[field] = (data.counts[field] || 0) + 1;
-    const write = await store.setJSON(key, data, current?.etag ? { onlyIfMatch: current.etag } : { onlyIfNew: true });
-    if (write.modified) return;
+    for (const name of fields) data.counts[name] = (data.counts[name] || 0) + 1;
+    let write;
+    try {
+      write = await store.setJSON(key, data, current?.etag ? { onlyIfMatch: current.etag } : { onlyIfNew: true });
+    } catch (error) {
+      if (!error?.storageConflict) throw error;
+      write = { modified: false };
+    }
+    if (write.modified) {
+      if (!write.etag) throw new Error("Counter write lacked storage confirmation");
+      return;
+    }
+    await new Promise((resolve) => setTimeout(resolve, Math.min(800, 25 * 2 ** retry) + Math.random() * 75));
   }
   throw new Error("Counter contention limit");
 }
@@ -980,18 +1267,35 @@ var engagement_default = async (request, context) => {
   const today = (/* @__PURE__ */ new Date()).toISOString().slice(0, 10);
   const validation = url.searchParams.get("validation") === "1" || request.headers.get("x-engagement-qa") === "1";
   const prefix = validation ? "validation/" : "daily/";
+  if (url.pathname.startsWith("/__engagement/action/")) {
+    const label = url.pathname.slice("/__engagement/action/".length);
+    if (request.method !== "POST" || !config2.events?.includes(label) || context.deploy.context !== "production") return new Response(null, { status: 404 });
+    if (request.headers.get("origin") !== config2.url) return new Response(null, { status: 403 });
+    const ua2 = request.headers.get("user-agent") || "";
+    if (request.headers.get("sec-gpc") === "1" || request.headers.get("dnt") === "1" || AUDIT.test(ua2) && !validation) return new Response(null, { status: 204 });
+    const field2 = [label, "click", sourceCategory(request), BOT.test(ua2) ? "known_crawler" : "browserlike"].join("|");
+    const fields = [field2];
+    if (config2.engaged_event && url.searchParams.get("engaged") === "1") fields.push([config2.engaged_event, "click", sourceCategory(request), BOT.test(ua2) ? "known_crawler" : "browserlike"].join("|"));
+    try {
+      await increment(counterStore(), prefix + today, fields);
+    } catch {
+      console.warn("Aggregate action write failed");
+      return new Response(null, { status: 503, headers: { "Cache-Control": "no-store" } });
+    }
+    return new Response(null, { status: 204, headers: { "Cache-Control": "no-store" } });
+  }
   if (url.pathname === "/__engagement/summary") {
     if (request.method !== "GET") return new Response(null, { status: 405 });
     try {
-      const store = getStore({ name: "anonymous-request-counts-v1", consistency: "strong" });
+      const store = counterStore();
       const { blobs } = await store.list({ prefix });
       const cutoff = new Date(Date.now() - 29 * 864e5).toISOString().slice(0, 10);
       const keys = blobs.map((b) => b.key).filter((key) => /^\d{4}-\d{2}-\d{2}$/.test(key.slice(prefix.length)) && key.slice(prefix.length) >= cutoff).sort().reverse().slice(0, 30);
       const days = (await Promise.all(keys.map(async (key) => {
-        const record = await store.get(key, { type: "json" });
+        const record = await store.get(key, { type: "json", consistency: "strong" });
         return record ? { day: key.slice(prefix.length), counts: record.counts } : null;
       }))).filter(Boolean);
-      return new Response(JSON.stringify({ site: config2.key, started_at: config2.started_at, unit: "requests, not unique visitors", validation, days }), { headers: headers() });
+      return new Response(JSON.stringify({ site: config2.key, started_at: config2.started_at, unit: "requests, not unique visitors", validation, days }), { headers: { ...headers(), ...validation ? { "Cache-Control": "no-store" } : {} } });
     } catch {
       return new Response(JSON.stringify({ site: config2.key, error: "Aggregate counts temporarily unavailable" }), { status: 503, headers: headers() });
     }
@@ -1011,7 +1315,7 @@ var engagement_default = async (request, context) => {
   const field = [route.label, route.type, sources.has(source) ? source : "other", agent].join("|");
   context.waitUntil((async () => {
     try {
-      const store = getStore({ name: "anonymous-request-counts-v1", consistency: "strong" });
+      const store = counterStore();
       await increment(store, prefix + today, field);
     } catch {
       console.warn("Aggregate counter unavailable");
@@ -1023,5 +1327,6 @@ var config = { path: "/*" };
 export {
   config,
   engagement_default as default,
-  increment
+  increment,
+  storageFetch
 };
