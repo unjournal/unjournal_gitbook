@@ -142,8 +142,9 @@ each question. Record any later change in the log below rather than editing the 
 - [ ] Link the repo in Netlify (daaronr nonprofit team → Import an existing project → GitHub → `unjournal/unjournal-website`; site name `unjournal-website`; build settings come from `netlify.toml`; no custom domain yet). Deploys come from git only — no CLI deploys from a laptop folder.
 - [ ] Shared layout (header, nav, footer) and one stylesheet; no per-page inline style blocks.
 - [ ] Design system per D7–D8, written down in the repo. Exported design-tool HTML is input to the repo, never a second source of truth. Three homepage directions were drafted on a design canvas (2026-09-13); David chose C, paths by audience (2026-10-07). Build the shared layout from that direction.
-- [ ] Port all 22 Squarespace URLs; write the commissioned-evaluations page and the 6 missing posts. The commissioned-evaluations page should keep a link to the individual-sponsorship feedback page (https://uj-prioritization-dashboard.netlify.app/sponsor/), which links back to it (added 2026-10-01).
-- [ ] News as markdown at identical slugs; RSS at `/news?format=rss` and `/news/rss.xml`.
+- [x] Port all 22 Squarespace URLs (2026-10-07): `/commission-evaluations` written from the Squarespace page, `/for-researchers` renamed from `for-authors.html` with a 301, and all 12 news posts built at their existing slugs with their images rehosted. The commissioning page links to the individual-sponsorship proposal (https://uj-prioritization-dashboard.netlify.app/sponsor/), described as an idea under discussion; that page links back.
+- [ ] Open content decisions: `/news/2024-25-evaluator-prize-winners` and `/evaluator-prizes-2024-25` both exist (decide which is canonical, 301 the other), and `/evaluations` overlaps `/commission-evaluations`.
+- [x] News at identical slugs; `/news` lists all 12 locally; RSS generated at build time at `/news/rss.xml`, with `/news?format=rss` redirecting to it (2026-10-07). `tests/check_redirects.py` passes against staging with nothing broken.
 - [ ] Homepage live content per D9, generated at build time (no client-side fetches that can silently fail).
 - [ ] Contact/feedback per D10. If a Netlify form is used, run `netlify_forms_check.py` after deploying.
 - [ ] Analytics per D11; Ads conversion tracking must keep working (Ad Grants requirement).
