@@ -142,7 +142,7 @@ each question. Record any later change in the log below rather than editing the 
 - [ ] Link the repo in Netlify (daaronr nonprofit team → Import an existing project → GitHub → `unjournal/unjournal-website`; site name `unjournal-website`; build settings come from `netlify.toml`; no custom domain yet). Deploys come from git only — no CLI deploys from a laptop folder.
 - [ ] Shared layout (header, nav, footer) and one stylesheet; no per-page inline style blocks.
 - [ ] Design system per D7–D8, written down in the repo. Exported design-tool HTML is input to the repo, never a second source of truth. Three homepage directions (A contents page, B featured evaluation, C paths by audience) are on a design canvas for David to choose from or edit (2026-09-13).
-- [ ] Port all 22 Squarespace URLs; write the commissioned-evaluations page and the 6 missing posts.
+- [ ] Port all 22 Squarespace URLs; write the commissioned-evaluations page and the 6 missing posts. The commissioned-evaluations page should keep a link to the individual-sponsorship feedback page (https://uj-prioritization-dashboard.netlify.app/sponsor/), which links back to it (added 2026-10-01).
 - [ ] News as markdown at identical slugs; RSS at `/news?format=rss` and `/news/rss.xml`.
 - [ ] Homepage live content per D9, generated at build time (no client-side fetches that can silently fail).
 - [ ] Contact/feedback per D10. If a Netlify form is used, run `netlify_forms_check.py` after deploying.

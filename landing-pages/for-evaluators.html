@@ -330,6 +330,38 @@
       font-weight: 600;
     }
 
+    .guidelines-embed {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      margin: 1.75rem 0 0;
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    .guidelines-embed summary {
+      cursor: pointer;
+      padding: 1rem 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      background: var(--light-bg);
+    }
+
+    .guidelines-embed p {
+      padding: 1rem 1.25rem 0;
+      margin-bottom: 0.75rem;
+      font-size: 0.92rem;
+      color: var(--text-light);
+    }
+
+    .guidelines-embed iframe {
+      display: block;
+      width: 100%;
+      min-height: 620px;
+      border: 0;
+      border-top: 1px solid var(--border);
+      background: var(--white);
+    }
+
     /* Section divider */
     .section-divider {
       border: none;
@@ -356,6 +388,7 @@
       .requirements-grid { grid-template-columns: 1fr; }
       .cta-button { display: block; margin: 0.4rem auto; max-width: 300px; }
       .compensation-box .amount { font-size: 2.5rem; }
+      .guidelines-embed iframe { min-height: 520px; }
     }
 
     /* Natural info-page polish: quieter than the older ad-page treatment. */
@@ -513,6 +546,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="#why">Why Evaluate</a>
   <a href="#compensation">Compensation</a>
   <a href="#process">How It Works</a>
+  <a href="#guidelines">Guidelines</a>
   <a href="#qualifications">Who We Seek</a>
   <a href="#ai-tools">AI Tools</a>
   <a href="#apply">Apply</a>
@@ -624,11 +658,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <h3>Evaluation Forms</h3>
-    <p>Our evaluation process uses structured forms to ensure consistency and thoroughness:</p>
+    <p>Our evaluation process uses structured forms to ensure consistency and thoroughness. Evaluators can use either the newer interactive form or the relevant Coda form, unless their evaluation manager gives paper-specific instructions. If you opened the wrong stream, switch between academic and applied below.</p>
     <ul>
-      <li><strong>Current form:</strong> <a href="https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME" target="_blank">Academic evaluation form (Coda)</a> &mdash; the form evaluators currently use to submit evaluations</li>
-      <li><strong>Preview draft:</strong> <a href="https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/" target="_blank">Interactive evaluation form prototype</a> &mdash; a draft of our planned interface improvements (not yet in use)</li>
+      <li><strong>Academic stream:</strong> <a href="https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form/" target="_blank" rel="noopener">interactive academic form</a> or <a href="https://coda.io/form/Unjournal-Evaluation-form-academic-stream-Coda-updated-version_dGjfMZ1yXME" target="_blank" rel="noopener">Coda academic form</a>, for research aimed at academic journals.</li>
+      <li><strong>Applied stream:</strong> <a href="https://daaronr.github.io/unjournal_tools_interfaces/evaluation_form_applied/" target="_blank" rel="noopener">interactive applied form</a> or <a href="https://coda.io/form/Unjournal-evaluation-form-applied-stream_dkjUPyzvHoH" target="_blank" rel="noopener">Coda applied form</a>, for policy, practitioner, or other applied research not mainly aimed at academic journals.</li>
     </ul>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="guidelines">
+    <h2>Evaluator Guidelines</h2>
+    <p>Before submitting an evaluation, please read the full evaluator guidelines. They explain what we ask evaluators to assess, how to interpret the rating scales, and how the academic and applied streams differ.</p>
+
+    <details class="guidelines-embed">
+      <summary>Read the full guidelines here</summary>
+      <p>If the embedded page is hard to read, open the <a href="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators" target="_blank" rel="noopener">full guidelines in GitBook</a>.</p>
+      <iframe src="https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/policies-projects-evaluation-workflow/evaluation/guidelines-for-evaluators" title="The Unjournal evaluator guidelines" loading="lazy"></iframe>
+    </details>
   </section>
 
   <hr class="section-divider">
