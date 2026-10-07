@@ -97,11 +97,11 @@ each question. Record any later change in the log below rather than editing the 
 | D4 | Build tool | Eleventy. Existing pages drop in as-is and move into shared layouts one at a time. |
 | D5 | URL policy | Keep every Squarespace path except `/commissioned-evaluations-1` → `/commission-evaluations` (301; update the Google Ads final URL at cutover). Merge `info.unjournal.org` into www with 301s from every old address. |
 | D6 | News posts | Port all 12 posts at their existing slugs; keep `/news?format=rss` working; fix the template post's date. |
-| D7 | Design direction | Evolve the brand into a sober, scholarly site that leads with real evaluations (sketch B). |
+| D7 | Design direction | Direction C, "paths by audience": keep the current Libre Baskerville headings and wording, organized by who is visiting (researchers / evaluators / funders and policy teams), with a short latest-evaluations list. Chosen 2026-10-07 from three homepage directions on the design canvas. |
 | D8 | Design process | Start with a design canvas in Claude Code (2–3 directions); move to Claude Design if more room is needed. |
 | D9 | Homepage live content | Rebuilt nightly from PubPub and the database; never a client-side widget that can render empty. |
 | D10 | Contact and popup | Contact page with the email address and links to existing Coda forms; drop the popup, put the feedback link in the footer and on News. |
-| D11 | Analytics | Keep GA4 and the Google Ads tag; drop GTM and Cookiebot; add a small consent banner (Google consent mode). Admin access list still to confirm. |
+| D11 | Analytics | Keep GA4 and the Google Ads tag; drop GTM and Cookiebot; add a small consent banner (Google consent mode). David Reinstein holds admin on GA4, Search Console and Google Ads (confirmed 2026-10-07); add a second admin before cutover. |
 | D12 | Owner and editing | David owns it for now. Claude/Codex make changes as pull requests with preview links; David approves. Revisit a web editor if others start editing. |
 | D13 | Pages where live ≠ git | Live wins. Local uncommitted edits to those pages are kept for review as diffs. |
 | D14 | Pending team/org-chart/news update | Deploy. |
@@ -141,7 +141,7 @@ each question. Record any later change in the log below rather than editing the 
 - [x] Repo and build tool per D3–D4: `unjournal/unjournal-website` (Eleventy 3, pages copied byte-identical, `_redirects` draft, CI with privacy scan and link check, `tests/check_redirects.py`) (2026-09-13).
 - [ ] Link the repo in Netlify (daaronr nonprofit team → Import an existing project → GitHub → `unjournal/unjournal-website`; site name `unjournal-website`; build settings come from `netlify.toml`; no custom domain yet). Deploys come from git only — no CLI deploys from a laptop folder.
 - [ ] Shared layout (header, nav, footer) and one stylesheet; no per-page inline style blocks.
-- [ ] Design system per D7–D8, written down in the repo. Exported design-tool HTML is input to the repo, never a second source of truth. Three homepage directions (A contents page, B featured evaluation, C paths by audience) are on a design canvas for David to choose from or edit (2026-09-13).
+- [ ] Design system per D7–D8, written down in the repo. Exported design-tool HTML is input to the repo, never a second source of truth. Three homepage directions were drafted on a design canvas (2026-09-13); David chose C, paths by audience (2026-10-07). Build the shared layout from that direction.
 - [ ] Port all 22 Squarespace URLs; write the commissioned-evaluations page and the 6 missing posts. The commissioned-evaluations page should keep a link to the individual-sponsorship feedback page (https://uj-prioritization-dashboard.netlify.app/sponsor/), which links back to it (added 2026-10-01).
 - [ ] News as markdown at identical slugs; RSS at `/news?format=rss` and `/news/rss.xml`.
 - [ ] Homepage live content per D9, generated at build time (no client-side fetches that can silently fail).
