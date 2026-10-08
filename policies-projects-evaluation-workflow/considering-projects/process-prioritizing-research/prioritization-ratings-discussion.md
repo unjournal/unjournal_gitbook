@@ -1,5 +1,7 @@
 # Prioritization ratings: discussion
 
+**Current interim policy (October 2026):** selection requires two strong management approvals and a one-week team weigh-in in Slack. See the [current selection policy](./#current-interim-selection-policy-october-2026), which applies to about the next 10 papers until more grant funding, pending objections at the next management meeting. The rating guidance below remains useful input.
+
 As noted in [.](./ "mention"), we ask people who suggest research to provide a numerical 0-100 rating:
 
 <figure><img src="https://lh7-us.googleusercontent.com/3FPOf56LHxTq0TwvrKrfJbkB0GorNNl3olUniyzicByqrKQ-Z-by4pqEQTzcTs07oOyQV_-iIABurM0pH8Sot37zRa7E-140pCGrTUsTA6qecIKkJz_CKRIx9sNLsWd2MhkOxAMwxSA34JNA-VCVi-E" alt=""><figcaption></figcaption></figure>

@@ -16,7 +16,7 @@ We have followed a few procedures for finding and prioritizing papers and projec
 
 We are building a grounded systematic procedure with criteria and benchmarks. We also aim to give managers and field specialists some autonomy in prioritizing key papers and projects. As noted elsewhere, we are considering targets for particular research areas and sources.
 
-See our basic process (as of Dec. 2023) for prioritizing work: [process-prioritizing-research](process-prioritizing-research/ "mention")
+Our [current interim selection policy](process-prioritizing-research/#current-interim-selection-policy-october-2026) applies to about the next 10 papers, until more grant funding: two management team members strongly approve, then the team has one week to raise a strong doubt in Slack. If nobody does, we proceed. This agreed policy is in effect, pending objections at the next management meeting. The linked page also preserves the earlier, fuller prioritization process.
 
 
 
