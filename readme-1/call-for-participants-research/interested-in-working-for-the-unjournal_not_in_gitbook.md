@@ -9,7 +9,7 @@ To indicate your potential interest in roles at The Unjournal, such as those des
 * If you already filled out this form for a role that has changed titles, don’t worry. You will still be considered for relevant and related roles in the future.
 * If you add your name to this form, we may contact you to offer you the opportunity to do paid project work and paid work tasks.
 
-Furthermore, if you are interested in conducting paid research evaluation for _The Unjournal_, or in joining our advisory board, please complete the form linked [here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
+Furthermore, if you are interested in conducting paid research evaluation for _The Unjournal_, or in joining our advisory board, please complete the form linked [here](https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq).
 
 Feel free to contact contact@unjournal.org with any questions.
 

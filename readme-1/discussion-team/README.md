@@ -107,7 +107,7 @@ Bob Kubinec joined David Reinstein as Co-Director in August 2026. Anirudh Tagat,
 
 Over 200 people have signed up to assess research for The Unjournal, including approximately 90 PhD holders and 40 professors. See [evaluator pool statistics](https://coda.io/d/Unjournal-Public-Pages_ddIEzDONWdb/Statistics-Evaluator-pool_sunNUx0l#_luakesYJ).
 
-Interested in becoming an evaluator? [Sign up here](https://airtable.com/appbPYEw9nURln7Qg/shrtMv4hNlv8aL7Yy).
+Interested in becoming an evaluator? [Sign up here](https://coda.io/form/Join-the-Unjournal_dc3NLlpa-eq).
 
 <details>
 <summary>Other collaborators and consultants</summary>
