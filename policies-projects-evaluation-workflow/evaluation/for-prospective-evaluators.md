@@ -42,6 +42,18 @@ Your evaluation will be made public and given a DOI. You have the option to be i
 
 ### Financial compensation
 
+{% hint style="info" %}
+**Current position (12 Oct 2026, matching our website):** $100 is the compensation we can guarantee for a completed evaluation, until further funding comes through.
+
+Our target is still **$450 in average compensation per evaluation**, including incentives and prizes. We met that target in earlier funded cycles, using prizes to meet or exceed it, and we aim to return to it as funding allows. We'll let you know your rate in advance, and we may pay more for hard-to-source expertise or specifically requested work.
+
+We hope to fund further evaluator prizes. Evaluations completed before that funding comes through will still be eligible.
+{% endhint %}
+
+<details>
+
+<summary>Earlier compensation structure (2025)</summary>
+
 [You will be given a $200-$400 honorarium](#user-content-fn-3)[^3] for providing a prompt[^4] and complete evaluation and feedback ($100-$300 base + $100 'promptness bonus') in line with our [expected standards](for-prospective-evaluators.md#what-we-are-asking-you-to-do).&#x20;
 
 Our current baseline compensation has two tiers, aimed to reward strong previous work doing public evaluations and reviews for us and for others. These tiers are _not_ about academic seniority or credentials.&#x20;
@@ -58,6 +70,8 @@ Aug 21, 2025: We are still committed to a $450 target in the medium-run. However
 {% endhint %}
 
 You will also be eligible for monetary prizes for "most useful and informative evaluation," plus other bonuses.&#x20;
+
+</details>
 
 See also ["submitting claims and expenses"](../../management-tech-details-discussion/fiscal-hosting-and-expenses.md#submitting-and-paying-expenses-claims).
 
