@@ -97,8 +97,8 @@ each question. Record any later change in the log below rather than editing the 
 | D4 | Build tool | Eleventy. Existing pages drop in as-is and move into shared layouts one at a time. |
 | D5 | URL policy | Keep every Squarespace path except `/commissioned-evaluations-1` → `/commission-evaluations` (301; update the Google Ads final URL at cutover). Merge `info.unjournal.org` into www with 301s from every old address. |
 | D6 | News posts | Port all 12 posts at their existing slugs; keep `/news?format=rss` working; fix the template post's date. |
-| D7 | Design direction | Direction C, "paths by audience": keep the current Libre Baskerville headings and wording, organized by who is visiting (researchers / evaluators / funders and policy teams), with a short latest-evaluations list. Chosen 2026-10-07 from three homepage directions on the design canvas. |
-| D8 | Design process | Start with a design canvas in Claude Code (2–3 directions); move to Claude Design if more room is needed. |
+| D7 | Design direction | **Landing-page layout, Plain style by default**, with a small footer "Page style" picker so visitors can switch to Lens, Tesserae or Studio (choice kept in their browser). Chosen 2026-10-12 from the page explorer (unjournal-website PR #1). Replaces the 2026-10-07 entry, which was ambiguous between two canvases. Built in unjournal-website PR #3. |
+| D8 | Design process | Design canvases (13 Sep; 28 Sep with palettes from David's own photos and painting), then a page explorer comparing layouts × styles on real pages (unjournal-website PR #1). Layout and style decided 2026-10-12 (see D7). |
 | D9 | Homepage live content | Rebuilt nightly from PubPub and the database; never a client-side widget that can render empty. |
 | D10 | Contact and popup | Contact page with the email address and links to existing Coda forms; drop the popup, put the feedback link in the footer and on News. |
 | D11 | Analytics | Keep GA4 and the Google Ads tag; drop GTM and Cookiebot; add a small consent banner (Google consent mode). David Reinstein holds admin on GA4, Search Console and Google Ads (confirmed 2026-10-07); add a second admin before cutover. |
@@ -113,6 +113,7 @@ each question. Record any later change in the log below rather than editing the 
 | Date | Decision | Rationale | Owner |
 | --- | --- | --- | --- |
 | 2026-09-13 | D1–D16 as above, from David's answers to the decision form. | Trade-offs set out in the form; all recommendations accepted. | David |
+| 2026-10-12 | D7: landing-page layout, Plain style by default, visitor style picker (Lens, Tesserae, Studio). | "C is best" on 7 Oct could mean either canvas's C; asked again, David chose landing + Plain "for now" and wants visitors able to pick a style. | David |
 | 2026-09-13 | Superseded: "`landing-pages/` in this repo is the working home" (provisional agent entry). | D3 chose a dedicated private website repo. `landing-pages/` stays the source until that repo exists, then becomes a pointer. | David |
 | 2026-09-13 | Superseded: "Netlify is not selected." | D2 chose Netlify, deployed from git only. | David |
 
