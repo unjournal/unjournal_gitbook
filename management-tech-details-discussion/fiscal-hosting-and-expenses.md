@@ -8,7 +8,7 @@ The Unjournal is an independent 501(c)(3) nonprofit organization based in the Un
 
 ## Submitting for payments and expenses
 
-**Evaluators**: To claim your payment for evaluation work, please complete [this brief form](https://coda.io/form/Evaluator-Payment-Form_dcWCCK_L6cH).
+**Evaluators**: To claim your payment for evaluation work, please complete [this brief form](https://unjournal-evaluator-payment.netlify.app). Please don't put bank details or tax ID numbers in the form: Wise collects bank details directly, and we'll ask for a tax form separately, only if one is needed.
 
 You will receive your payment via a [Wise](https://wise.com/home/) transfer (they may ask you for your bank information if you don't have an account with them).
 
