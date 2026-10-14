@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A dated, source-linked update on the Animal Futures forecasting tournament: participation, forecasts, discussion, and decisions they may inform.">
+  <link rel="canonical" href="https://uj-animal-futures-update.netlify.app/">
+  <title>Animal Futures tournament update | 13 October 2026</title>
+  <style>
+    :root { color-scheme: light; --ink:#202b31; --muted:#54636a; --navy:#1a3a5c; --blue:#2e86c1; --line:#d9e2e4; --paper:#fff; --wash:#f3f6f6; --sage:#48695c; --amber:#8a5a28; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:#195d88; text-underline-offset:2px; }
+    a:hover { color:#0a3e61; }
+    a:focus-visible, summary:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }
+    h1,h2,h3 { font-family:Georgia,"Times New Roman",serif; line-height:1.2; letter-spacing:-.018em; }
+    h1 { font-size:clamp(2.15rem,5vw,3.5rem); margin:.2rem 0 .75rem; max-width:17ch; }
+    h2 { font-size:clamp(1.5rem,3vw,2rem); margin:0 0 .65rem; }
+    h3 { font-size:1.2rem; margin:0 0 .35rem; }
+    p { margin:.55rem 0 1rem; }
+    .wrap { width:min(1100px,calc(100% - 36px)); margin:auto; }
+    .top { background:var(--paper); border-bottom:1px solid var(--line); }
+    .top .wrap { display:flex; align-items:center; justify-content:space-between; gap:18px; min-height:64px; }
+    .brand { font-weight:700; color:var(--navy); text-decoration:none; letter-spacing:.01em; }
+    nav { display:flex; flex-wrap:wrap; gap:14px; font-size:.91rem; }
+    .hero { background:var(--paper); border-bottom:1px solid var(--line); padding:42px 0 38px; }
+    .eyebrow { color:var(--sage); font-size:.8rem; letter-spacing:.095em; text-transform:uppercase; font-weight:750; }
+    .hero-grid { display:grid; grid-template-columns:minmax(0,1.55fr) minmax(240px,.72fr); gap:34px; align-items:start; }
+    .lead { font-family:Georgia,"Times New Roman",serif; font-size:1.22rem; line-height:1.5; max-width:47rem; }
+    .meta { color:var(--muted); font-size:.91rem; }
+    .button-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
+    .button { display:inline-block; border:1px solid var(--navy); border-radius:6px; padding:10px 14px; text-decoration:none; font-weight:650; color:var(--navy); }
+    .button.primary { background:var(--navy); color:#fff; }
+    .button:hover { background:#e9f1f5; }
+    .button.primary:hover { background:#28567d; color:#fff; }
+    .aside-note { border-left:3px solid var(--sage); background:#f5f8f6; padding:16px 18px; font-size:.94rem; }
+    .aside-note p:last-child { margin-bottom:0; }
+    .feedback-callout { border:1px solid #c8d9ce; border-left:4px solid var(--sage); border-radius:6px; background:#f2f7f3; padding:12px 16px; margin:20px 0 0; font-size:.94rem; }
+    .feedback-callout p { margin:0; }
+    main { padding:32px 0 54px; }
+    section { scroll-margin-top:24px; margin:0 0 35px; }
+    .section-intro { max-width:75ch; color:var(--muted); }
+    .metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:20px 0 12px; }
+    .metric { background:var(--paper); border:1px solid var(--line); border-radius:8px; padding:16px; min-height:112px; }
+    .metric strong { display:block; font:700 1.95rem/1.05 Georgia,serif; color:var(--navy); margin-bottom:9px; }
+    .metric span { color:var(--muted); font-size:.9rem; display:block; }
+    .caption { color:var(--muted); font-size:.88rem; }
+    .two { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { background:var(--paper); border:1px solid var(--line); border-radius:8px; padding:19px 20px; }
+    .card p:last-child { margin-bottom:0; }
+    .tag { color:var(--sage); font-size:.77rem; font-weight:750; text-transform:uppercase; letter-spacing:.055em; }
+    .signal { border-top:1px solid var(--line); padding:15px 0; }
+    .signal:first-of-type { border-top:0; }
+    .signal p { margin:.35rem 0; max-width:76ch; }
+    .signal strong { color:var(--navy); }
+    .source { color:var(--muted); font-size:.87rem; }
+    .rule { border-top:1px solid var(--line); margin:14px 0; }
+    details { background:var(--paper); border:1px solid var(--line); border-radius:7px; margin:10px 0; }
+    summary { padding:13px 16px; cursor:pointer; color:var(--navy); font-weight:650; }
+    details > div { padding:0 16px 16px; }
+    details p:last-child, details ul:last-child { margin-bottom:0; }
+    .steps { margin:10px 0 0; padding-left:1.35rem; }
+    .steps li { margin:0 0 .7rem; padding-left:.15rem; }
+    .comparison { overflow-x:auto; }
+    table { border-collapse:collapse; width:100%; font-size:.91rem; }
+    th,td { border-bottom:1px solid var(--line); padding:9px 11px; text-align:left; vertical-align:top; }
+    th { background:#edf3f5; white-space:nowrap; color:var(--navy); }
+    .note { padding:15px 18px; background:#eaf1ed; border-left:3px solid var(--sage); }
+    .tip { position:relative; border-bottom:1px dotted var(--muted); cursor:help; }
+    .tip:focus { outline:none; border-bottom-color:var(--blue); }
+    .tip::after { content:attr(data-tip); display:none; position:absolute; left:0; bottom:calc(100% + 6px); z-index:5; width:max-content; max-width:min(17rem,70vw); padding:7px 10px; border-radius:5px; background:var(--navy); color:#fff; font:400 .8rem/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; letter-spacing:0; white-space:normal; }
+    .tip:hover::after, .tip:focus::after { display:block; }
+    footer { background:var(--paper); border-top:1px solid var(--line); padding:26px 0 36px; color:var(--muted); font-size:.88rem; }
+    footer p { max-width:80ch; }
+    @media(max-width:760px) { .hero-grid,.two { grid-template-columns:1fr; } .metrics { grid-template-columns:repeat(2,minmax(0,1fr)); } nav { gap:8px; } }
+    @media(max-width:420px) { .metrics { grid-template-columns:1fr 1fr; } .metric { padding:12px; } .metric strong { font-size:1.55rem; } }
+  </style>
+<!-- discoverability tags added by seo_kit.py -->
+<meta property="og:title" content="Animal Futures tournament update | 13 October 2026">
+<meta property="og:description" content="A dated, source-linked update on the Animal Futures forecasting tournament: participation, forecasts, discussion, and decisions they may inform.">
+<meta property="og:url" content="https://uj-animal-futures-update.netlify.app/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Animal Futures tournament update", "url": "https://uj-animal-futures-update.netlify.app/", "author": {"@type": "Organization", "name": "The Unjournal", "url": "https://unjournal.org/", "sameAs": ["https://unjournal.pubpub.org/", "https://info.unjournal.org/"]}, "description": "A dated, source-linked update on the Animal Futures forecasting tournament: participation, forecasts, discussion, and decisions they may inform."}</script>
+</head>
+<body>
+  <header class="top"><div class="wrap">
+    <a class="brand" href="#top">Animal Futures update</a>
+    <nav aria-label="Page"><a href="#participation">Participation</a><a href="#signals">Forecasts</a><a href="#discussion">Discussion</a><a href="#suggestions">Suggestions</a></nav>
+  </div></header>
+  <div class="hero" id="top"><div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Tournament check · 13 October 2026</div>
+      <h1>What are forecasters saying about animal futures?</h1>
+      <p class="lead">The original 16 questions now have 48–71 forecasters each (mean 54). Five added on September 20 have 19–27 each (mean 23), up from 15–23 on October 3. The forecasts still point to a gap between milestones and changes in production or welfare at scale.</p>
+      <p class="meta">Checked against public Metaculus pages on October 13, 2026. The estimates can change; the links go to live questions.</p>
+      <div class="feedback-callout"><p><strong>Feedback welcome:</strong> Use the Hypothes.is sidebar at the top right to annotate <em>this dashboard</em>. On the <a href="report.html">short report</a>, use the sidebar there to comment on that page. Corrections, missing sources, and suggestions are especially useful.</p></div>
+      <div class="button-row"><a class="button primary" href="report.html">Read the two-minute update</a><a class="button" href="https://www.metaculus.com/tournament/33016/">Forecast on Metaculus</a><a class="button" href="#weigh-in">Weigh in</a><a class="button" href="feed.xml">Get updates via RSS</a></div>
+    </div>
+    <aside class="aside-note" aria-label="How to use this page"><strong>Use the right discussion space.</strong><p>For a forecast or its resolution rule, comment on that <a href="https://www.metaculus.com/tournament/33016/">Metaculus question</a>. For an error here, a missing source, or a decision this could inform, highlight the passage and annotate with Hypothes.is (the sidebar at the top right).</p><p>Open questions and organizing suggestions are below. <a href="report.html#sharing">The short report</a> is suitable to share on the EA Forum or elsewhere.</p></aside>
+  </div></div>
+  <main class="wrap">
+    <section id="participation">
+      <h2>Participation, so far</h2>
+      <p class="section-intro">The first wave averages 54 forecasters per question (range 48–71). The five questions added on September 20 average 23 (range 19–27), up from 15–23 on October 3. These are question-level counts, not unique participants or forecast revisions.</p>
+      <div class="metrics" aria-label="Tournament snapshot">
+        <div class="metric"><strong>21</strong><span>questions listed; 16 at launch, five newly added</span></div>
+        <div class="metric"><strong>54</strong><span>mean forecasters per original question (range 48–71)</span></div>
+        <div class="metric"><strong>23</strong><span>mean forecasters per newer question (range 19–27)</span></div>
+        <div class="metric"><strong>1</strong><span>question resolved so far</span></div>
+      </div>
+      <p class="caption">Question counts make coverage easier to compare. They count each account on every question it forecasts; the tournament leaderboard is a separate measure and includes bot accounts. <a href="https://www.metaculus.com/tournament/33016/">Check current counts and standings.</a></p>
+      <details><summary>How does this compare with other tournaments?</summary><div>
+        <div class="comparison"><table><thead><tr><th>Tournament</th><th>Forecasters per displayed question</th><th>What limits the comparison</th></tr></thead><tbody>
+          <tr><td><a href="https://www.metaculus.com/tournament/cultured-meat-tournament/">Cultured Meat</a></td><td>23–31 across its three questions</td><td>Older, much smaller, no prize pool</td></tr>
+          <tr><td><a href="https://www.metaculus.com/tournament/climate/">Climate Tipping Points</a></td><td>14–62 among the first 19 shown</td><td>Started in 2023; broader subject</td></tr>
+          <tr><td><a href="https://www.metaculus.com/tournament/global-health-monitor-26-27/">Global Health Monitor 2026/27</a></td><td>8–17 across ten questions</td><td>Newer, no prize pool</td></tr>
+          <tr><td><a href="https://www.metaculus.com/tournament/foresight-ai-pathways/">AI Pathways</a></td><td>58–143 among 19 questions</td><td>Older and draws a larger AI forecasting audience</td></tr>
+        </tbody></table></div><p class="caption">These are context, not a ranking. Ages, topics, question types, and prizes differ. Counts were last checked on October 3; comparator figures were not refreshed this cycle.</p>
+      </div></details>
+    </section>
+
+    <section id="signals">
+      <h2>What the forecasts suggest</h2>
+      <p class="section-intro">These are current crowd estimates for precisely worded questions. One outcome has resolved; the rest are judgments that can change. Each claim links to its question and resolution rule.</p>
+      <div class="two">
+        <article class="card"><span class="tag">Confirmed outcome</span><h3>A cultivated meat approval arrived</h3><p>A <a href="https://www.metaculus.com/questions/43492/will-a-new-cultivated-meat-product-be-approved-before-july-2027/">new-product approval question resolved Yes</a> on August 4 after Aleph Farms’ Singapore approval was identified. This is a regulatory milestone. <a href="https://gfi.org/resource/where-cultivated-meat-can-be-sold/">GFI says actual availability remains limited</a> by geography and production volume.</p></article>
+        <article class="card"><span class="tag">Current forecast</span><h3>Plant-based meat: no rapid growth expected</h3><p><span class="tip" tabindex="0" data-tip="59 forecasters on this question (October 13)">The crowd</span> gives <a href="https://www.metaculus.com/questions/43163/will-plant-based-meat-reach-10-of-us-retail-meat-sales-before-2031/">2%</a> to plant-based meat and seafood reaching <span class="tip" tabindex="0" data-tip="For reference: GFI puts the 2025 share at 1.4% of US retail packaged-meat dollar sales (about 0.7% of all meat), with plant-based dollar sales down 11% that year.">10% of US retail packaged-meat dollar sales</span> before 2031, unchanged since October 3. The <a href="https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/">2025 share was 1.4%</a>, so this would mean roughly a sevenfold increase.</p></article>
+        <article class="card"><span class="tag">Current forecast</span><h3>Policy can move in different directions</h3><p>On the question’s stated definition, <span class="tip" tabindex="0" data-tip="56 forecasters on this question (October 13)">forecasters</span> put about <a href="https://www.metaculus.com/questions/43329/how-many-more-us-states-will-ban-cultivated-meat-before-july-2027/">80% combined probability</a> on at least one further US state cultivated-meat ban before July 2027. <span class="tip" tabindex="0" data-tip="71 forecasters on this question (October 13)">They</span> give <a href="https://www.metaculus.com/questions/43616/will-save-our-bacon-be-enacted-before-july-2027/">3%</a> to the Save Our Bacon Act becoming law in that period.</p></article>
+        <article class="card"><span class="tag">Current forecast</span><h3>In-ovo sexing: a large EU–US gap</h3><p><span class="tip" tabindex="0" data-tip="52 forecasters on the EU question and 57 on the US question (October 13)">The crowd</span> estimates <a href="https://www.metaculus.com/questions/43279/what-of-the-eu-hen-flock-will-be-in-ovo-sexed-in-2027/">43.6% of EU commercial layers</a> and <a href="https://www.metaculus.com/questions/43280/what-of-the-us-hen-flock-will-be-in-ovo-sexed-in-2027/">2.8% of the US hen flock</a> will be sexed in ovo in Q1 2027. The question definitions and data sources matter for this comparison; see the discussion below.</p></article>
+      </div>
+      <details><summary>Other forecasts worth watching</summary><div>
+        <div class="signal"><strong>Octopus farming.</strong><p><span class="tip" tabindex="0" data-tip="56 forecasters on this question (October 13)">The crowd</span> gives <a href="https://www.metaculus.com/questions/43288/will-nueva-pescanovas-octopus-farm-be-approved-before-june-27/">1%</a> to approval of Nueva Pescanova’s planned commercial octopus farm in the Canary Islands before June 2027. From an animal welfare standpoint, approval would be a setback, so this is a forecast that a bad outcome is very unlikely in the near term.</p></div>
+        <div class="signal"><strong>Corporate commitments.</strong><p><span class="tip" tabindex="0" data-tip="22 forecasters on the cage-free question and 20 on the broiler question (October 13)">The crowd</span> estimates <a href="https://www.metaculus.com/questions/43277/what-of-companies-will-fulfill-their-cage-free-commitments-by-2027/">11.3%</a> cage-free and <a href="https://www.metaculus.com/questions/43278/what-of-companies-will-fulfill-their-broiler-commitments-by-2027/">4.88%</a> broiler commitment fulfillment under the questions’ Chicken Watch definitions. These questions now have 22 and 20 forecasters.</p></div>
+        <div class="signal"><strong>Shrimp welfare.</strong><p><span class="tip" tabindex="0" data-tip="51 forecasters on this question (October 13)">The crowd</span> estimates <a href="https://www.metaculus.com/questions/43273/of-europes-top-20-grocers-with-shrimp-welfare-policies-by-jul-27/">10.5 of Europe’s top 20 grocery retailers</a> will have public shrimp welfare commitments before July 2027. A <span class="tip" tabindex="0" data-tip="19 forecasters on this question (October 13)">separate question</span> estimates <a href="https://www.metaculus.com/questions/45706/how-many-shrimp-will-be-covered-by-swp-agreements-on-july-1-2027/">8.07 billion shrimp per year</a> covered by SWP Humane Slaughter Initiative agreements.</p></div>
+        <div class="signal"><strong>AI and animals.</strong><p>The <a href="https://www.metaculus.com/questions/43498/of-top-labs-with-animal-welfare-in-ai-guidelines-in-2034/">2034 AI-lab guidelines question</a> asks how many of seven AI companies (Alibaba, Anthropic, DeepSeek, Google, Meta, OpenAI and xAI) will, by the end of 2034, explicitly name animal welfare as a consideration in the instructions used to train their language models. That covers documents used directly in training, such as Anthropic’s constitution, and guidelines given to the human raters whose judgments train the model, such as OpenAI’s Model Spec. Two and three companies are tied as the most likely answers (22% each), and <span class="tip" tabindex="0" data-tip="54 forecasters on this question (October 13)">the crowd</span> spreads probability across several outcomes. This is a long-horizon indicator of whether AI systems will be shaped to weigh animal interests, rather than a near-term welfare outcome.</p></div>
+      </div></details>
+      <div class="note"><strong>For decisions:</strong> a regulatory approval, a policy pledge, and animal impact are different steps. These forecasts are useful for deciding what evidence to collect next: commercialization and adoption after approval; implementation after pledges; and why uptake differs across places. They do not yet rank interventions by welfare impact.</div>
+    </section>
+
+    <section id="discussion">
+      <h2>What the discussion adds</h2>
+      <p class="section-intro">There are 35 comments across the 21 question cards; eight questions have none. A new comment, checked against the benchmark’s own page, raises a question about whether one AI-welfare outcome still measures what the tournament intends.</p>
+      <div class="two">
+        <article class="card"><h3>Is ANIMA still the right benchmark?</h3><p>A <a href="https://www.metaculus.com/questions/43493/what-will-june-26-to-june-27-models-score-on-anima/#comments">new comment</a> notes the benchmark page calls ANIMA first-generation/legacy for distinguishing frontier models. The <a href="https://compassionbench.com/ahb">benchmark team’s page</a> says it remains useful for open-source training and points to TAC for frontier comparisons. The question covers models through June 2027, so organizers should check score coverage and whether the measure still fits its purpose.</p></article>
+        <article class="card"><h3>When does a ban count?</h3><p>A <a href="https://www.metaculus.com/questions/43329/how-many-more-us-states-will-ban-cultivated-meat-before-july-2027/#comment-1078722">forecaster flagged Louisiana’s signed “trigger law”</a>, which depends on a future Supreme Court ruling. <a href="https://www.metaculus.com/questions/43329/how-many-more-us-states-will-ban-cultivated-meat-before-july-2027/#comment-1111814">Metaculus clarified</a> that it counts only once the condition is met. A signed bill need not be an operative restriction.</p></article>
+        <article class="card"><h3>Which hens are counted?</h3><p>A <a href="https://www.metaculus.com/questions/43279/what-of-the-eu-hen-flock-will-be-in-ovo-sexed-in-2027/#comment-983591">commenter found</a> a revised historical EU estimate and a difference between commercial-layer and broader measures. <a href="https://www.metaculus.com/questions/43279/what-of-the-eu-hen-flock-will-be-in-ovo-sexed-in-2027/#comment-995102">The criteria were clarified</a> to use commercial layers and the first 2027 report.</p></article>
+        <article class="card"><h3>One date mismatch caught early</h3><p>On the new <a href="https://www.metaculus.com/questions/45421/will-one-more-us-state-enact-a-cage-free-egg-requirement-before-july-2027/">cage-free law question</a>, a <a href="https://www.metaculus.com/questions/45421/will-one-more-us-state-enact-a-cage-free-egg-requirement-before-july-2027/#comment-1132426">commenter flagged conflicting cutoff dates</a>. A <a href="https://www.metaculus.com/questions/45421/will-one-more-us-state-enact-a-cage-free-egg-requirement-before-july-2027/#comment-1139865">follow-up noted the mismatch</a>, and a later reply said the fine print had been changed. It now agrees with the July 1, 2027 cutoff in the title and criteria.</p></article>
+      </div>
+      <details><summary>Two more comments with practical implications</summary><div>
+        <p><a href="https://www.metaculus.com/questions/43492/will-a-new-cultivated-meat-product-be-approved-before-july-2027/#comment-909259">Forecasters pressed for a precise approval definition</a> before the cultivated-meat question resolved. The eventual Yes is a specific product and jurisdiction milestone, not evidence of broad market access.</p>
+        <p>On the <a href="https://www.metaculus.com/questions/43170/what-share-of-global-fish-production-will-be-aquaculture-in-2040/#comment-1000471">2040 aquaculture question</a>, a participant flagged an older OECD-FAO background dataset and linked newer figures. Check this baseline before using the forecast in a funding or policy brief.</p>
+      </div></details>
+    </section>
+
+    <section id="suggestions">
+      <h2>Suggestions for the tournament</h2>
+      <p class="section-intro">These are proposals for the organizers and participants, based on this snapshot. They are open for comment.</p>
+      <ol class="steps">
+        <li><strong>Bring the new questions to the people who can use them.</strong> The second wave now has 19–27 forecasters per question. Invite people with corporate-campaign, shrimp-welfare, and retail-market knowledge, and ask them for the evidence driving their estimate.</li>
+        <li><strong>Ask what would change a decision.</strong> For each topic, seek a short response from a funder, advocate, or policymaker: which threshold would change a grant, campaign, or policy position? A forecast has more value when that decision is named.</li>
+        <li><strong>Keep dates and definitions consistent.</strong> The cage-free question discussion caught a mismatch between the event cutoff and fine print. The Louisiana law and EU in-ovo examples also show why trigger conditions, denominators, and data revisions need early clarification.</li>
+        <li><strong>Check the AI outcome’s coverage.</strong> The ANIMA page now describes its frontier-model comparison as legacy while retaining open-source training value. Confirm that scores will be available through the question window and that this is still the intended outcome.</li>
+        <li><strong>Track participation and decision use.</strong> Separate per-question coverage from unique human participants, activity, revisions, and comments. No documented use of a forecast in a funding or policy decision surfaced in the public sources checked for this update; asking decision-makers directly should be a priority.</li>
+      </ol>
+      <p class="caption">The <a href="https://www.metaculus.com/tournament/33016/">tournament rules</a> say three longer-horizon questions are excluded from leaderboard calculations, while prize eligibility requires active forecasts on at least two of them for most of the tournament. Explain this prominently when recruiting participants.</p>
+    </section>
+
+    <section id="weigh-in">
+      <h2>Weigh in</h2>
+      <div class="two">
+        <div class="card"><h3>On a forecast</h3><p>Open the <a href="https://www.metaculus.com/tournament/33016/">relevant Metaculus question</a> to add a prediction, evidence, or a resolution-rule comment. That keeps the forecasting discussion with the forecasters.</p></div>
+        <div class="card"><h3>On this update or a decision</h3><p>Highlight the relevant passage here and use the Hypothes.is sidebar to add a public annotation. Especially useful: a correction, a missing source, a funding or policy decision this could affect, or a question we should cover next. <a href="https://web.hypothes.is/help/annotating/">How to annotate.</a></p></div>
+      </div>
+      <p class="caption">This page is reviewed every ten days. The <a href="feed.xml">RSS feed</a> records updates; the <a href="report.html">short report</a> is the link to share when a full dashboard would be too much.</p>
+    </section>
+
+    <section id="method"><details><summary>Sources and limits</summary><div>
+      <p>Snapshot taken October 13, 2026 from the public <a href="https://www.metaculus.com/tournament/33016/">Animal Futures tournament</a>, its question cards and comments, the <a href="https://www.metaculus.com/notebooks/43978/forecasting-the-future-of-animals-3400-in-prizes/">Metaculus announcement</a>, and the linked comparator tournament pages. Forecaster counts are per question, so a person forecasting several questions appears several times. Means are simple averages across 16 original or five September 20 questions. Comments count the question-card comments, including replies; the announcement’s eight comments are separate.</p>
+      <p>One question had resolved at the check. All other figures are Metaculus community forecasts, not observed outcomes or independently validated probabilities. Three longer-horizon questions are excluded from leaderboard scoring. We did not establish how often individuals revised their forecasts or find a publicly documented funding or policy decision citing one.</p>
+      <p>The <a href="https://info.unjournal.org/forecasting-tournament">Unjournal landing page</a> still says 16 questions. Metaculus now lists 21.</p>
+    </div></details></section>
+  </main>
+  <footer><div class="wrap"><p>Animal Futures tournament update · checked October 13, 2026. Prepared as a public working note for collaborators and anyone who could use these forecasts. <a href="https://www.metaculus.com/tournament/33016/">Metaculus</a> is the source for current forecasts and rules; this page is a dated interpretation. <a href="report.html">Quick report</a> · <a href="feed.xml">Updates feed</a>.</p></div></footer>
+  <script>window.hypothesisConfig = function() { return { sortBy: 'newest' }; };</script>
+  <script src="https://hypothes.is/embed.js" async></script>
+</body>
+</html>

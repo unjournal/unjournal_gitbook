@@ -19,7 +19,7 @@ Deploy: `netlify deploy --prod --dir=site --site be7830b5-b011-4d32-8437-4c21d42
 5. Check links and HTML, preview both pages locally at desktop and mobile widths, deploy the site with its explicit ID, then read back the production URL and both pages. Distinguish local, deployed, and live verification in the update to David.
 6. Tell David what changed and what did not, with the current public links. Inform the specified collaborators through the agreed channel once recipients and method are supplied; until then, the public RSS feed is the opt-in notification route.
 
-The desired cadence is every ten days from September 23, 2026. The October 3, 2026 check is complete; the next check is October 13. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
+The desired cadence is every ten days from September 23, 2026. The October 13, 2026 check is complete; the next check is October 23. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
 
 ## Copy and discussion
 

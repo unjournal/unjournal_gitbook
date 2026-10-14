@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uj-animal-futures-update.netlify.app/sitemap.xml
