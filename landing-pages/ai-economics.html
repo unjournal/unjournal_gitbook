@@ -72,7 +72,7 @@
     .hero-inner { margin: 0 auto; max-width: var(--max); }
     .eyebrow { color: var(--warm); font-size: 0.82rem; font-weight: 700; margin-bottom: 0.8rem; text-transform: uppercase; }
     .hero h1 { font-size: clamp(2.05rem, 5vw, 3.2rem); margin-bottom: 1rem; max-width: 860px; }
-    .hero-copy { color: var(--muted); font-family: Georgia, serif; font-size: 1.18rem; max-width: 780px; }
+    .hero-copy { color: var(--muted); font-size: 1.2rem; max-width: 780px; }
     .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.6rem; }
     .button {
       align-items: center; border: 1px solid var(--primary); border-radius: 5px; display: inline-flex;
@@ -83,7 +83,22 @@
     .button-secondary { background: transparent; color: var(--primary); }
     section { padding: 3.2rem 1.25rem; }
     .section-inner { margin: 0 auto; max-width: var(--max); }
-    .lead { color: var(--muted); font-family: Georgia, serif; font-size: 1.06rem; max-width: 820px; }
+    .lead { color: var(--ink); font-size: 1.1rem; max-width: 820px; }
+    .tip { border-bottom: 1px dotted var(--muted); cursor: help; }
+    .hero-copy { position: relative; }
+    .tip:focus { outline: 2px solid var(--link); outline-offset: 2px; }
+    .tip-body {
+      background: var(--white); border: 1px solid var(--line); border-radius: 6px;
+      box-shadow: 0 6px 24px rgba(16, 42, 68, 0.14); color: var(--ink);
+      font-family: 'Source Sans 3', Arial, sans-serif; font-size: 0.9rem; left: 0;
+      line-height: 1.45; opacity: 0; padding: 0.8rem 0.95rem; pointer-events: none;
+      position: absolute; top: calc(100% + 0.3rem); transition: opacity 0.15s;
+      visibility: hidden; max-width: 460px; width: 100%; z-index: 30;
+    }
+    .tip:hover .tip-body, .tip:focus .tip-body, .tip:focus-within .tip-body {
+      opacity: 1; pointer-events: auto; visibility: visible;
+    }
+    .tip-body a { font-weight: 600; }
     .section-alt { background: var(--white); border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); }
     .steps { display: grid; gap: 0; grid-template-columns: repeat(4, 1fr); margin-top: 1.8rem; }
     .step { border-left: 4px solid var(--line); padding: 0.35rem 1.2rem 0.4rem; }
@@ -155,10 +170,11 @@
     <div class="hero-inner">
       <p class="eyebrow">Current focus, October 2026</p>
       <h1>Rapid expert evaluation of AI economics and governance research</h1>
-      <p class="hero-copy">Research on AI's economic effects, the pace of AI progress, and AI governance is shaping real decisions, and most of it has had no independent expert review. The Unjournal is commissioning public, quantified evaluations of the most decision-relevant work, aiming for weeks rather than years.</p>
+      <p class="hero-copy">Research on the economic effects of AI, the pace of AI progress, and AI governance is shaping real decisions, and most of it has had no independent expert review. The Unjournal is commissioning public, quantified evaluations of the most decision-relevant work. We aim to provide expert discussion, critique, and signals of credibility and usefulness in weeks rather than <span class="tip" tabindex="0">years<span class="tip-body" role="tooltip">At top economics journals, the average time from submission to acceptance was just over two years for articles published in 2012&ndash;13, against about six months at leading science journals (<a href="https://www.aeaweb.org/articles?id=10.1257/jel.20221653" target="_blank" rel="noopener">Hadavand, Hamermesh &amp; Wilson, <em>JEL</em> 2024</a>). That counts only the journal that finally accepts a paper. Most papers circulate as working papers first and are rejected elsewhere before that, so the full path is usually longer. <a href="https://www.nber.org/papers/w7804" target="_blank" rel="noopener">Ellison (2002)</a> documents how this lag grew.</span></span>.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="https://uj-prioritization-dashboard.netlify.app/considerations/" target="_blank" rel="noopener">See the shortlist and briefs</a>
-        <a class="button button-secondary" href="mailto:contact@unjournal.org">Get involved</a>
+        <a class="button button-secondary" href="https://uj-prioritization-dashboard.netlify.app/ai-governance/" target="_blank" rel="noopener">Help us prioritize</a>
+        <a class="button button-secondary" href="getting-involved.html">Get involved</a>
       </div>
     </div>
   </header>
@@ -184,7 +200,7 @@
           </div>
           <div class="step">
             <span class="step-number">2. Commission</span>
-            <p>We match each paper with balanced expertise from a pool of 200+ vetted evaluators, check conflicts, and pay for careful critique with incentives for promptness.</p>
+            <p>We match each paper with balanced expertise from our <a href="evaluator-pool.html">pool of 200+ vetted evaluators</a> and beyond, check conflicts, and pay for careful critique with incentives for promptness.</p>
           </div>
           <div class="step">
             <span class="step-number">3. Publish</span>
@@ -202,7 +218,7 @@
     <section id="shortlist">
       <div class="section-inner">
         <h2>Where we are</h2>
-        <p class="lead">We have written <a href="https://uj-prioritization-dashboard.netlify.app/ai-governance/" target="_blank" rel="noopener">briefs on 34 candidate papers</a>: what each claims, why it matters, how checkable it is, and how much scrutiny it has already had. Two are prioritized for evaluation now; more follow as evaluators and funding allow.</p>
+        <p class="lead">We have <a href="https://uj-prioritization-dashboard.netlify.app/ai-governance/" target="_blank" rel="noopener">briefs on 34 candidate papers</a>, generated with AI and each given some human review: what each claims, why it matters, how checkable it is, and how much scrutiny it has already had. Two are prioritized for evaluation now; more follow as evaluators and funding allow.</p>
         <ul class="paper-list">
           <li>
             <a href="https://uj-prioritization-dashboard.netlify.app/considerations/forecasting-the-economic-effects-of-ai-6e24d349/" target="_blank" rel="noopener">Forecasting the Economic Effects of AI</a>
@@ -213,21 +229,21 @@
             <span>Korinek et al., Anthropic Institute. Maps AI-capability paths onto GDP, labor share, wages, and unemployment to 2030. A likely anchor for the redistribution debate. Evaluation focus: model structure, sensitivity to assumptions, calibration, and scenario selection.</span>
           </li>
           <li>
-            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/" target="_blank" rel="noopener">Next in line</a>
-            <span>The economics of recursive self-improvement; estimates of compute smuggling to China; game-theoretic models of AI race dynamics; AI liability and insurance.</span>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/" target="_blank" rel="noopener">Potentially next</a>
+            <span>Candidates under consideration include the economics of recursive self-improvement; estimates of compute smuggling to China; game-theoretic models of AI race dynamics; AI liability and insurance.</span>
           </li>
         </ul>
-        <p class="note">Scope: AI governance and regulation, the rate of AI progress, and AI's effects on growth, labor, and the concentration of economic and political power. Not technical AI safety or interpretability. The briefs were drafted with AI assistance and checked against sources by our team; corrections are welcome.</p>
+        <p class="note">Scope: AI governance and regulation, the rate of AI progress, and AI's effects on growth, labor, and the concentration of economic and political power. Not technical AI safety or interpretability. The briefs are AI-generated, checked against sources, and reviewed by at least one person on our team; corrections are welcome.</p>
       </div>
     </section>
 
     <section class="section-alt" id="record">
       <div class="section-inner">
-        <h2>Track record</h2>
+        <h2>Unjournal track record</h2>
         <div class="metrics">
           <div class="metric"><strong>114</strong><span>public expert evaluations published, with over 1,000 structured ratings</span></div>
           <div class="metric"><strong>59</strong><span>research papers and projects evaluated, mostly in economics and quantitative social science</span></div>
-          <div class="metric"><strong>200+</strong><span>vetted evaluators in our pool, plus targeted recruitment for each paper</span></div>
+          <div class="metric"><strong>200+</strong><span>vetted evaluators in <a href="evaluator-pool.html">our pool</a>, and we recruit beyond it for each paper</span></div>
         </div>
         <div class="cases">
           <article class="case">
