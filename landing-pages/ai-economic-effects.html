@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9XSTK8T');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Economic Effects of AI: Evaluation Priorities | The Unjournal</title>
+  <meta name="description" content="Research on AI's effects on work, productivity, and who captures the gains, that The Unjournal is considering for rapid public expert evaluation, plus our related past evaluations.">
+  <meta property="og:title" content="The Economic Effects of AI: Evaluation Priorities | The Unjournal">
+  <meta property="og:description" content="Candidate research on AI's effects on work, productivity, and who captures the gains, and our related past evaluations.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://info.unjournal.org/ai-economic-effects">
+  <meta property="og:url" content="https://info.unjournal.org/ai-economic-effects">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap">
+  <style>
+    :root {
+      --ink: #253443;
+      --muted: #5b6873;
+      --primary: #173a5e;
+      --link: #236b80;
+      --warm: #8b5e3c;
+      --green: #3f6f56;
+      --paper: #fbfaf7;
+      --soft: #f1eee7;
+      --white: #ffffff;
+      --line: #d9d5cc;
+      --max: 1040px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Source Sans 3', Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.62;
+    }
+    a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--primary); }
+    h1, h2, h3 {
+      color: var(--primary);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      letter-spacing: 0;
+      line-height: 1.25;
+    }
+    h2 { font-size: 1.72rem; margin-bottom: 1rem; }
+    h3 { font-size: 1.08rem; margin-bottom: 0.55rem; }
+    p { margin-bottom: 1rem; }
+    ul, ol { margin: 0 0 1rem 1.3rem; }
+    li { margin-bottom: 0.45rem; }
+    .topbar { background: var(--white); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
+    .topbar-inner {
+      align-items: center; display: flex; gap: 1.2rem; justify-content: space-between;
+      margin: 0 auto; max-width: var(--max); min-height: 68px; padding: 0.6rem 1.25rem;
+    }
+    .brand { align-items: center; display: flex; flex: 0 0 auto; gap: 0.7rem; text-decoration: none; }
+    .brand img { border-radius: 3px; height: 42px; object-fit: cover; width: 42px; }
+    .brand span { color: var(--primary); font-family: 'Libre Baskerville', Georgia, serif; font-size: 1rem; font-weight: 700; }
+    nav { display: flex; flex-wrap: wrap; gap: 0.9rem; justify-content: flex-end; }
+    nav a { color: var(--ink); font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+    nav a:hover { color: var(--link); }
+    .hero { background: var(--soft); border-bottom: 1px solid var(--line); padding: 4rem 1.25rem 2.7rem; }
+    .hero-inner { margin: 0 auto; max-width: var(--max); }
+    .eyebrow { color: var(--warm); font-size: 0.82rem; font-weight: 700; margin-bottom: 0.8rem; text-transform: uppercase; }
+    .hero h1 { font-size: clamp(2.05rem, 5vw, 3.2rem); margin-bottom: 1rem; max-width: 860px; }
+    .hero-copy { color: var(--muted); font-size: 1.2rem; max-width: 780px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.6rem; }
+    .button {
+      align-items: center; border: 1px solid var(--primary); border-radius: 5px; display: inline-flex;
+      font-size: 0.94rem; font-weight: 700; justify-content: center; min-height: 44px; padding: 0.55rem 1rem; text-decoration: none;
+    }
+    .button-primary { background: var(--primary); color: var(--white); }
+    .button-primary:hover { background: #0f2c49; color: var(--white); }
+    .button-secondary { background: transparent; color: var(--primary); }
+    section { padding: 3.2rem 1.25rem; }
+    .section-inner { margin: 0 auto; max-width: var(--max); }
+    .lead { color: var(--ink); font-size: 1.1rem; max-width: 820px; }
+    .tip { border-bottom: 1px dotted var(--muted); cursor: help; }
+    .hero-copy { position: relative; }
+    .tip:focus { outline: 2px solid var(--link); outline-offset: 2px; }
+    .tip-body {
+      background: var(--white); border: 1px solid var(--line); border-radius: 6px;
+      box-shadow: 0 6px 24px rgba(16, 42, 68, 0.14); color: var(--ink);
+      font-family: 'Source Sans 3', Arial, sans-serif; font-size: 0.9rem; left: 0;
+      line-height: 1.45; opacity: 0; padding: 0.8rem 0.95rem; pointer-events: none;
+      position: absolute; top: calc(100% + 0.3rem); transition: opacity 0.15s;
+      visibility: hidden; max-width: 460px; width: 100%; z-index: 30;
+    }
+    .tip:hover .tip-body, .tip:focus .tip-body, .tip:focus-within .tip-body {
+      opacity: 1; pointer-events: auto; visibility: visible;
+    }
+    .tip-body a { font-weight: 600; }
+    .section-alt { background: var(--white); border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); }
+    .steps { display: grid; gap: 0; grid-template-columns: repeat(4, 1fr); margin-top: 1.8rem; }
+    .step { border-left: 4px solid var(--line); padding: 0.35rem 1.2rem 0.4rem; }
+    .step:nth-child(1) { border-left-color: var(--link); }
+    .step:nth-child(2) { border-left-color: var(--green); }
+    .step:nth-child(3) { border-left-color: var(--warm); }
+    .step:nth-child(4) { border-left-color: var(--primary); }
+    .step-number { color: var(--muted); display: block; font-size: 0.78rem; font-weight: 700; margin-bottom: 0.25rem; text-transform: uppercase; }
+    .step p { color: var(--muted); font-size: 0.9rem; line-height: 1.45; margin: 0; }
+    .metrics { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); margin: 1.35rem 0 1.4rem; }
+    .metric { padding: 1rem 1.2rem 1rem 0; }
+    .metric + .metric { border-left: 1px solid var(--line); padding-left: 1.2rem; }
+    .metric strong { color: var(--primary); display: block; font-family: 'Libre Baskerville', Georgia, serif; font-size: 1.45rem; line-height: 1.25; margin-bottom: 0.2rem; }
+    .metric span { color: var(--muted); font-size: 0.9rem; line-height: 1.4; }
+    .cases { display: grid; gap: 1rem; grid-template-columns: 1fr 1fr; margin-top: 1.6rem; }
+    .case { background: var(--white); border: 1px solid var(--line); border-radius: 6px; padding: 1.35rem; }
+    .case-type { color: var(--green); display: block; font-size: 0.77rem; font-weight: 700; margin-bottom: 0.5rem; text-transform: uppercase; }
+    .case p { color: var(--muted); font-size: 0.95rem; }
+    .case p:last-child { margin-bottom: 0; }
+    .paper-list { border-top: 1px solid var(--line); list-style: none; margin: 1.4rem 0 0 0; }
+    .paper-list li { border-bottom: 1px solid var(--line); display: grid; gap: 1rem; grid-template-columns: minmax(200px, 0.7fr) 1.3fr; margin: 0; padding: 0.9rem 0; }
+    .paper-list a { font-weight: 700; }
+    .paper-list span { color: var(--muted); font-size: 0.93rem; }
+    .note { border-left: 4px solid var(--warm); color: var(--muted); font-size: 0.92rem; margin-top: 1.2rem; max-width: 880px; padding: 0.2rem 0 0.2rem 1rem; }
+    .closing { background: var(--primary); color: var(--white); }
+    .closing h2 { color: var(--white); }
+    .closing p, .closing li { color: #d9e2ea; }
+    .closing a { color: var(--white); }
+    .closing ol { max-width: 820px; }
+    footer { background: #102a44; color: #cbd5df; font-size: 0.84rem; padding: 1.5rem 1.25rem; }
+    .footer-inner { display: flex; flex-wrap: wrap; gap: 0.8rem 1.3rem; justify-content: space-between; margin: 0 auto; max-width: var(--max); }
+    footer a { color: var(--white); }
+    @media (max-width: 760px) {
+      .topbar-inner { align-items: flex-start; flex-direction: column; }
+      nav { gap: 0.5rem 0.9rem; justify-content: flex-start; padding-bottom: 0.25rem; }
+      .hero { padding-top: 2.8rem; }
+      .steps, .metrics, .cases { grid-template-columns: 1fr; }
+      .step { margin-bottom: 1.2rem; }
+      .metric { padding: 0.85rem 0; }
+      .metric + .metric { border-left: 0; border-top: 1px solid var(--line); padding-left: 0; }
+      .paper-list li { gap: 0.25rem; grid-template-columns: 1fr; }
+    }
+    h3.group { margin: 2rem 0 0; }
+    .flag { color: var(--green); }
+    .eyebrow a { color: var(--warm); }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9XSTK8T"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="https://unjournal.org">
+        <img src="unjournal-logo.jpg" alt="The Unjournal logo">
+        <span>The Unjournal</span>
+      </a>
+      <nav aria-label="Page navigation">
+        <a href="#questions">Questions</a>
+        <a href="#candidates">Candidate research</a>
+        <a href="#past">Past work</a>
+        <a href="#help">How to help</a>
+        <a href="ai-economics">AI economics overview</a>
+      </nav>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Focus area within our <a href="ai-economics">AI economics and governance stream</a></p>
+      <h1>The economic effects of AI: who gains, and how fast</h1>
+      <p class="hero-copy">Forecasts, scenario models, and early measurements of AI's effects on work, productivity, and the distribution of income are becoming reference points for fiscal planning, labor policy, and philanthropy. Most have had no independent expert review. The Unjournal is commissioning public, quantified evaluations of the most decision-relevant of this research.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#candidates">See the candidate research</a>
+        <a class="button button-secondary" href="https://uj-prioritization-dashboard.netlify.app/considerations/" target="_blank" rel="noopener">Help us prioritize</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="questions">
+      <div class="section-inner">
+        <h2>The questions</h2>
+        <p class="lead">We focus on research that bears on decisions people are making now, where an outside expert view is missing and the claims can be checked.</p>
+        <div class="steps">
+          <div class="step">
+            <span class="step-number">How fast</span>
+            <p>How quickly will AI change what work gets done, and what do economists, forecasters, and AI-company staff actually expect?</p>
+          </div>
+          <div class="step">
+            <span class="step-number">Where value lands</span>
+            <p>How will gains split between workers, firms, consumers, governments, and owners of capital? What happens to the labor share?</p>
+          </div>
+          <div class="step">
+            <span class="step-number">Who is left out</span>
+            <p>Do low- and middle-income countries capture the benefits, or face displacement without the infrastructure to gain from augmentation?</p>
+          </div>
+          <div class="step">
+            <span class="step-number">What to do</span>
+            <p>Which fiscal and policy responses hold up: new tax bases, income support, sovereign funds, and measurement systems that can track the shift?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt" id="candidates">
+      <div class="section-inner">
+        <h2>Candidate research</h2>
+        <p class="lead">These are drawn from our <a href="https://uj-prioritization-dashboard.netlify.app/considerations/" target="_blank" rel="noopener">prioritization dashboard</a>. Two are prioritized for evaluation now. The rest are candidates; the team has made no decision on them. Each links to a page with an AI-generated brief, human ratings where we have them, and room for your input.</p>
+
+        <h3 class="group">Forecasts and scenarios</h3>
+        <ul class="paper-list">
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/forecasting-the-economic-effects-of-ai-6e24d349/" target="_blank" rel="noopener">Forecasting the Economic Effects of AI</a>
+            <span><strong class="flag">Prioritized.</strong> Karger, Kuusela, and Abaluck elicit forecasts of growth and labor outcomes from economists, AI-company staff, policy researchers, superforecasters, and the public. Already reused in fiscal and tax modeling and in commentary aimed at the Fed. Evaluation focus: sample selection, scenario definitions, and how to read disagreement between groups.</span>
+          </li>
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/economic-scenarios-for-transformative-ai-d452a547/" target="_blank" rel="noopener">Economic Scenarios for Transformative AI</a>
+            <span><strong class="flag">Prioritized.</strong> Korinek, Jones, and co-authors map AI capability paths onto GDP, the labor share, wages, and unemployment to 2030. Evaluation focus: model structure, calibration, labor-market adjustment, and how sensitive the scenarios are to their assumptions.</span>
+          </li>
+        </ul>
+
+        <h3 class="group">Measuring labor-market effects so far</h3>
+        <ul class="paper-list">
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/labor-market-impacts-of-ai-a-new-measure-and-early-evidenc-397be7c5/" target="_blank" rel="noopener">Labor market impacts of AI: A new measure and early evidence</a>
+            <span>A framework from Anthropic's economic research team for tracking AI's labor-market effects, intended as a running baseline. Its measurement choices deserve scrutiny before it becomes a reference point.</span>
+          </li>
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/still-waters-rapid-currents-early-labor-market-transformat-67dbebf9/" target="_blank" rel="noopener">Still Waters, Rapid Currents</a>
+            <span>Danish administrative data show precise null effects of chatbot adoption on earnings and hours, alongside task restructuring. One of the most-cited early causal studies.</span>
+          </li>
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/what-work-does-generative-ai-do-2cf08c04/" target="_blank" rel="noopener">What Work Does Generative AI Do?</a>
+            <span>A nationally representative survey suggesting adoption is widespread but shallow. It informs how fast AI diffuses inside jobs.</span>
+          </li>
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/canaries-in-the-gold-mine-early-productivity-gains-from-ar-b5479600/" target="_blank" rel="noopener">Canaries in the Gold Mine</a>
+            <span>Firms with more AI-skilled staff saw faster productivity growth recently, attributed to organization capital. The identification and the new measure need checking.</span>
+          </li>
+        </ul>
+
+        <h3 class="group">Across countries</h3>
+        <ul class="paper-list">
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/disruption-without-dividend-how-the-digital-divide-and-tas-2f052d69/" target="_blank" rel="noopener">Disruption without dividend?</a>
+            <span>Argues workers in developing countries face displacement without the digital infrastructure to gain from augmentation, and that standard exposure indices overstate effects there.</span>
+          </li>
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/generative-ai-and-the-global-redistribution-of-expertise-533f3ecc/" target="_blank" rel="noopener">Generative AI and the Global Redistribution of Expertise</a>
+            <span>Asks whether AI erodes or extends the returns to expertise in low- and middle-income labor markets.</span>
+          </li>
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/adopting-fast-and-slow-cross-country-evidence-on-business-316e6a3a/" target="_blank" rel="noopener">Adopting Fast and Slow</a>
+            <span>Firm-level data from more than 20,000 firms on how AI adoption differs by country income level and prior digitalization.</span>
+          </li>
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/ai-adoption-in-developing-countries-lessons-from-the-adopt-3e681de6/" target="_blank" rel="noopener">AI Adoption in Developing Countries</a>
+            <span>Which firm capabilities and complementary investments productive AI use requires, drawing on earlier digital technologies.</span>
+          </li>
+        </ul>
+
+        <h3 class="group">Policy responses</h3>
+        <ul class="paper-list">
+          <li>
+            <a href="https://uj-prioritization-dashboard.netlify.app/considerations/public-finance-in-the-age-of-ai-a-primer-ab385294/" target="_blank" rel="noopener">Public Finance in the Age of AI: A Primer</a>
+            <span>How tax systems should change if AI erodes labor-income tax bases: consumption taxes, taxes on compute, sovereign wealth funds, and windfall clauses.</span>
+          </li>
+        </ul>
+
+        <p class="note">Briefs and scores are AI-generated and checked by our team; human ratings are shown where we have them. A low priority score is not a judgment of a paper's quality. Our broader stream also covers the pace of AI progress and AI governance; see the <a href="ai-economics">overview</a>.</p>
+      </div>
+    </section>
+
+    <section id="past">
+      <div class="section-inner">
+        <h2>Our past work closest to this area</h2>
+        <p class="lead">Few of our 59 evaluated papers are directly about the economics of AI. Several more involve the methods this area depends on: growth models, structured forecasting, labor-market evidence, and direct cash transfers as a way to share gains.</p>
+        <div class="cases">
+          <article class="case">
+            <span class="case-type">Growth theory and AI</span>
+            <h3>Artificial intelligence and economic growth</h3>
+            <p>An evaluator found an error in a proof supporting a central result of Aghion, Jones, and Jones; the authors confirmed a corrected proof.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/aimetrics/release/10" target="_blank" rel="noopener">Evaluation package</a></p>
+          </article>
+          <article class="case">
+            <span class="case-type">Growth and technological risk</span>
+            <h3>Existential risk and growth; the returns to science</h3>
+            <p>Two growth and innovation models that trade off faster technological progress against catastrophic risk, each with multiple evaluations and an author response.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/evalsumexistentialrisk" target="_blank" rel="noopener">Existential risk and growth</a> &middot; <a href="https://unjournal.pubpub.org/pub/evalsumtechnologicalrisks/" target="_blank" rel="noopener">Returns to science</a></p>
+          </article>
+          <article class="case">
+            <span class="case-type">Structured forecasting</span>
+            <h3>Forecasting existential risks (the XPT)</h3>
+            <p>Evaluations of the tournament's elicitation and aggregation methods. The same institute produced the forecasting paper we have now prioritized.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/evalsumforecastingexistentialrisk/" target="_blank" rel="noopener">Evaluation package</a></p>
+          </article>
+          <article class="case">
+            <span class="case-type">Sharing gains: cash transfers</span>
+            <h3>Universal basic income in Kenya; cash transfer amounts in the US</h3>
+            <p>Evaluations of two large randomized trials of unconditional cash, directly relevant to proposals for distributing AI-driven gains.</p>
+            <p><a href="https://unjournal.pubpub.org/pub/evalsumuniversalincome/" target="_blank" rel="noopener">Kenya UBI</a> &middot; <a href="https://unjournal.pubpub.org/pub/evalsumrandomizingcashtransfer" target="_blank" rel="noopener">US cash amounts</a></p>
+          </article>
+        </div>
+        <p class="note">We have also evaluated labor-market studies of migration and guest-worker programs, and work on public R&amp;D and productivity. <a href="https://unjournal.pubpub.org/" target="_blank" rel="noopener">All evaluations</a>.</p>
+      </div>
+    </section>
+
+    <section class="closing" id="help">
+      <div class="section-inner">
+        <h2>How to help</h2>
+        <ol>
+          <li><strong>Tell us which claims you rely on.</strong> If your organization uses this research, which estimates matter, and what would change if they were wrong?</li>
+          <li><strong>Suggest evaluators.</strong> We need labor economists, growth and macro economists working on AI, specialists in expert elicitation and survey methods, and development economists. <a href="https://docs.superhuman.com/form/Join-the-Unjournal_dc3NLlpa-eq" target="_blank" rel="noopener">Join the evaluator pool</a> or <a href="getting-involved.html">see other ways to get involved</a>.</li>
+          <li><strong>Rate and nominate papers</strong> on the <a href="https://uj-prioritization-dashboard.netlify.app/considerations/" target="_blank" rel="noopener">prioritization dashboard</a>, or <a href="https://docs.superhuman.com/form/Author-Submission-Form_dZ4MMytY7aI" target="_blank" rel="noopener">submit research</a> we have missed.</li>
+          <li><strong>Fund or partner.</strong> Speed and evaluator quality depend on funding. If you want independent evaluation of research your organization produces or relies on, <a href="getting-involved.html">get in touch</a>.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>&copy; 2026 The Unjournal. Candidate list as of October 20, 2026.</span>
+      <span><a href="ai-economics">AI economics and governance</a> &middot; <a href="https://unjournal.pubpub.org/">Evaluations</a> &middot; <a href="index.html#explore">All info pages</a></span>
+    </div>
+  </footer>
+</body>
+</html>
