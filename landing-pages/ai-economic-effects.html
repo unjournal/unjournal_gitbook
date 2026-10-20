@@ -142,6 +142,8 @@
       .paper-list li { gap: 0.25rem; grid-template-columns: 1fr; }
     }
     h3.group { margin: 2rem 0 0; }
+    [id] { scroll-margin-top: 90px; }
+    @media (max-width: 760px) { [id] { scroll-margin-top: 160px; } }
     .flag { color: var(--green); }
     .eyebrow a { color: var(--warm); }
   </style>
@@ -277,7 +279,7 @@
 
     <section id="past">
       <div class="section-inner">
-        <h2>Our past work closest to this area</h2>
+        <h2 id="past-work">Our past work closest to this area</h2>
         <p class="lead">Few of our 59 evaluated papers are directly about the economics of AI. Several more involve the methods this area depends on: growth models, structured forecasting, labor-market evidence, and direct cash transfers as a way to share gains.</p>
         <div class="cases">
           <article class="case">
