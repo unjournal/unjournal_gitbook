@@ -1,5 +1,5 @@
 ---
-description: "Synced from Coda and recent onboarding correspondence. Last updated: 2026-09-30"
+description: "Synced from Coda and recent onboarding correspondence. Last updated: 2026-10-21"
 ---
 
 # Our Team
@@ -23,7 +23,7 @@ Bob Kubinec joined David Reinstein as Co-Director in August 2026. Anirudh Tagat,
 
 ## Advisory Board
 
-- [Alexandra Borissova Saleh](https://alexandraborissova.com/) — PCST Network, science communication
+- [Alexandra Borissova Saleh](https://alexandraborissova.com/) — Center of Ethics in Science and Journalism, science communication
 - [Anca Hanea](https://findanexpert.unimelb.edu.au/profile/697859-anca-hanea) — University of Melbourne, RepliCATS
 - Daniela Cialfi — Econ.
 - [Rosie Bettle](https://uk.linkedin.com/in/rosie-bettle-84a1051b0) — Founders Pledge (also Field Specialist)
