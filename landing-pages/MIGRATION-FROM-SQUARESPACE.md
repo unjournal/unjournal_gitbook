@@ -215,3 +215,12 @@ whether that stays on the main site's institutional pages, moves to an about/col
 
 Reference points our audience trusts: NBER, Institute for Replication, Center for Open Science, eLife,
 Our World in Data, GiveWell. Borrow their restraint, not their layouts.
+
+
+## Content update: initiative mentions (2026-10-23)
+
+The homepage, About page, and impact page now describe contributions to Animal Futures and The Alignment Journal. The canonical copy is in `landing-pages/index.html`, `about.html`, and `impact.html`; matching replacement-site edits are in [unjournal-website PR #5](https://github.com/unjournal/unjournal-website/pull/5), awaiting review under D12. The replacement-site build, privacy scan, and 374 internal-link checks passed locally; GitHub CI and the Netlify preview checks also passed. The new About section was verified in the [deploy preview](https://deploy-preview-5--unjournal-website.netlify.app/about#related-initiatives).
+
+The [GitBook homepage](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/) and [initiative descriptions](https://globalimpact.gitbook.io/the-unjournal-project-and-communication-space/parallel-partner-initiatives-and-resources) were verified live after the source push. Reusable copy and source links are in `management-tech-details-discussion/communication-and-style.md`.
+
+The three info.unjournal.org pages matched their previous committed versions before editing. Their new versions are committed and pushed, but **not deployed**: SSH authentication failed (`Permission denied (publickey)`). Next deployment step: restore the documented server access, publish only the reviewed files from clean, pulled, pushed main, then fetch each served page and compare it to the committed bytes. The replacement-site PR remains a separate review step; it does not update the current Squarespace site.
