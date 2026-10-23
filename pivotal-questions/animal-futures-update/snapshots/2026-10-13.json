@@ -1,0 +1,194 @@
+{
+  "checked_at": "2026-10-13",
+  "source": "https://www.metaculus.com/tournament/33016/",
+  "tournament_closes": "2027-07-01",
+  "question_count": 21,
+  "note": "Public question-card counts checked 2026-10-13. Forecasters are per question and can include repeat accounts across questions; comments include replies. Forecasts and counts can change. The five second-wave questions opened 2026-09-20.",
+  "questions": [
+    {
+      "id": 45422,
+      "wave": 2,
+      "forecasters": 27,
+      "comments": 0,
+      "forecast": "$6.82 billion",
+      "title": "2026 retail sales of plant-based meat and seafood"
+    },
+    {
+      "id": 45421,
+      "wave": 2,
+      "forecasters": 25,
+      "comments": 3,
+      "forecast": "12%",
+      "title": "One additional US cage-free egg law before July 2027"
+    },
+    {
+      "id": 43277,
+      "wave": 2,
+      "forecasters": 22,
+      "comments": 0,
+      "forecast": "11.3%",
+      "title": "Cage-free commitment fulfillment in 2026\u201327"
+    },
+    {
+      "id": 45706,
+      "wave": 2,
+      "forecasters": 19,
+      "comments": 0,
+      "forecast": "8.07 billion shrimp",
+      "title": "Shrimp covered by SWP Humane Slaughter Initiative agreements"
+    },
+    {
+      "id": 43278,
+      "wave": 2,
+      "forecasters": 20,
+      "comments": 0,
+      "forecast": "4.88%",
+      "title": "Broiler commitment fulfillment in 2026\u201327"
+    },
+    {
+      "id": 43280,
+      "wave": 1,
+      "forecasters": 57,
+      "comments": 1,
+      "forecast": "2.8%",
+      "title": "US hen flock sexed in ovo in Q1 2027"
+    },
+    {
+      "id": 43329,
+      "wave": 1,
+      "forecasters": 56,
+      "comments": 4,
+      "forecast": "0: 19.8%; 1: 27.7%; 2: 25.7%; 3: 17.8%; 4+: 8.9%",
+      "title": "Additional US state cultivated-meat bans before July 2027"
+    },
+    {
+      "id": 43273,
+      "wave": 1,
+      "forecasters": 51,
+      "comments": 0,
+      "forecast": "10.5 retailers",
+      "title": "Top 20 European grocers with shrimp welfare commitments"
+    },
+    {
+      "id": 43498,
+      "wave": 1,
+      "forecasters": 54,
+      "comments": 0,
+      "forecast": "mode: 2 and 3 labs (22% each)",
+      "title": "Top 2026 AI labs referencing animal welfare in 2034 guidelines"
+    },
+    {
+      "id": 43492,
+      "wave": 1,
+      "forecasters": 61,
+      "comments": 13,
+      "forecast": "Resolved Yes",
+      "title": "New cultivated-meat product receives regulatory approval"
+    },
+    {
+      "id": 43169,
+      "wave": 1,
+      "forecasters": 54,
+      "comments": 1,
+      "forecast": "$3.73 million",
+      "title": "Wild Animal Initiative 2026 funding"
+    },
+    {
+      "id": 43601,
+      "wave": 1,
+      "forecasters": 52,
+      "comments": 1,
+      "forecast": "10.9 million MT CWE",
+      "title": "Mexico 2027 meat consumption forecast"
+    },
+    {
+      "id": 43507,
+      "wave": 1,
+      "forecasters": 48,
+      "comments": 1,
+      "forecast": "72,000 cases",
+      "title": "Mexico New World screwworm cases before July 2027"
+    },
+    {
+      "id": 43279,
+      "wave": 1,
+      "forecasters": 52,
+      "comments": 2,
+      "forecast": "43.6%",
+      "title": "EU commercial layer hens sexed in ovo in Q1 2027"
+    },
+    {
+      "id": 43170,
+      "wave": 1,
+      "forecasters": 52,
+      "comments": 2,
+      "forecast": "62.7%",
+      "title": "Global fish production share from aquaculture in 2040"
+    },
+    {
+      "id": 43493,
+      "wave": 1,
+      "forecasters": 48,
+      "comments": 1,
+      "forecast": "73.2",
+      "title": "Average ANIMA performance of 2026\u201327 AI models"
+    },
+    {
+      "id": 43481,
+      "wave": 1,
+      "forecasters": 50,
+      "comments": 2,
+      "forecast": "7.82 kg/person",
+      "title": "India meat production per capita during 2026\u201327"
+    },
+    {
+      "id": 43616,
+      "wave": 1,
+      "forecasters": 71,
+      "comments": 3,
+      "forecast": "3% chance",
+      "title": "Save Our Bacon Act enacted before July 2027"
+    },
+    {
+      "id": 43281,
+      "wave": 1,
+      "forecasters": 50,
+      "comments": 1,
+      "forecast": "40%",
+      "title": "FURA adds another cultivated-meat dish before July 2027"
+    },
+    {
+      "id": 43163,
+      "wave": 1,
+      "forecasters": 59,
+      "comments": 0,
+      "forecast": "2%",
+      "title": "Plant-based meat and seafood reach 10% of US retail sales before 2031"
+    },
+    {
+      "id": 43288,
+      "wave": 1,
+      "forecasters": 56,
+      "comments": 0,
+      "forecast": "1%",
+      "title": "Nueva Pescanova octopus farm approved before June 2027"
+    }
+  ],
+  "discussion_total": 35,
+  "questions_without_comments": 8,
+  "mean_forecasters_by_wave": {
+    "wave_1": 54.4375,
+    "wave_2": 22.6
+  },
+  "comparator_snapshot": {
+    "checked_at": "2026-10-03",
+    "cultured_meat_tournament": "23\u201331 across 3 questions",
+    "climate_tipping_points": "14\u201362 among first 19 cards inspected",
+    "global_health_monitor_2026_27": "8\u201317 across 10 questions",
+    "ai_pathways": "58\u2013143 across 19 questions",
+    "note": "Context only; tournaments differ in age, topic, question type, prize, and page sorting."
+  },
+  "new_discussion_note": "A new comment flags that the official ANIMA page now labels the benchmark first-generation/legacy for distinguishing frontier models, while retaining value for open-source training. Organizers should confirm evaluation coverage and fit to the forecast question through its resolution window.",
+  "decision_use_note": "No publicly documented funding or policy decision citing a tournament forecast surfaced in the public sources checked on 2026-10-13. This is not evidence that no private use has occurred.",
+  "overall_mean_forecasters": 46.86
+}

@@ -1,81 +1,90 @@
 {
-  "checked_at": "2026-10-13",
+  "checked_at": "2026-10-23",
   "source": "https://www.metaculus.com/tournament/33016/",
   "tournament_closes": "2027-07-01",
   "question_count": 21,
-  "note": "Public question-card counts checked 2026-10-13. Forecasters are per question and can include repeat accounts across questions; comments include replies. Forecasts and counts can change. The five second-wave questions opened 2026-09-20.",
+  "note": "Public tournament cards and changed forecast-question pages checked 2026-10-23. Counts are per-question accounts, may include bots, and are not unique humans or revision counts. Individual question values can differ slightly from rounded or cached cards. Five second-wave questions opened 2026-09-20.",
   "questions": [
     {
       "id": 45422,
       "wave": 2,
-      "forecasters": 27,
+      "forecasters": 31,
       "comments": 0,
-      "forecast": "$6.82 billion",
-      "title": "2026 retail sales of plant-based meat and seafood"
+      "forecast": "$6.81 billion",
+      "title": "2026 retail sales of plant-based meat and seafood",
+      "url": "https://www.metaculus.com/questions/45422/"
     },
     {
       "id": 45421,
       "wave": 2,
-      "forecasters": 25,
+      "forecasters": 29,
       "comments": 3,
-      "forecast": "12%",
-      "title": "One additional US cage-free egg law before July 2027"
+      "forecast": "10%",
+      "title": "One additional US cage-free egg law before July 2027",
+      "url": "https://www.metaculus.com/questions/45421/"
     },
     {
       "id": 43277,
       "wave": 2,
-      "forecasters": 22,
+      "forecasters": 25,
       "comments": 0,
-      "forecast": "11.3%",
-      "title": "Cage-free commitment fulfillment in 2026\u201327"
+      "forecast": "12.1%",
+      "title": "Cage-free commitment fulfillment in 2026–27",
+      "url": "https://www.metaculus.com/questions/43277/"
     },
     {
       "id": 45706,
       "wave": 2,
-      "forecasters": 19,
+      "forecasters": 23,
       "comments": 0,
-      "forecast": "8.07 billion shrimp",
-      "title": "Shrimp covered by SWP Humane Slaughter Initiative agreements"
+      "forecast": "8.13 billion shrimp",
+      "title": "Shrimp covered by SWP Humane Slaughter Initiative agreements",
+      "url": "https://www.metaculus.com/questions/45706/"
     },
     {
       "id": 43278,
       "wave": 2,
-      "forecasters": 20,
+      "forecasters": 24,
       "comments": 0,
-      "forecast": "4.88%",
-      "title": "Broiler commitment fulfillment in 2026\u201327"
+      "forecast": "4.19%",
+      "title": "Broiler commitment fulfillment in 2026–27",
+      "url": "https://www.metaculus.com/questions/43278/"
     },
     {
       "id": 43280,
       "wave": 1,
-      "forecasters": 57,
+      "forecasters": 58,
       "comments": 1,
-      "forecast": "2.8%",
-      "title": "US hen flock sexed in ovo in Q1 2027"
+      "forecast": "2.96%",
+      "title": "US hen flock sexed in ovo in Q1 2027",
+      "url": "https://www.metaculus.com/questions/43280/"
     },
     {
       "id": 43329,
       "wave": 1,
-      "forecasters": 56,
+      "forecasters": 57,
       "comments": 4,
-      "forecast": "0: 19.8%; 1: 27.7%; 2: 25.7%; 3: 17.8%; 4+: 8.9%",
-      "title": "Additional US state cultivated-meat bans before July 2027"
+      "forecast": "0: 19.8%; 1: 27.8%; 2: 25.7%; 3: 17.8%; 4+: 9%",
+      "title": "Additional US state cultivated-meat bans before July 2027",
+      "url": "https://www.metaculus.com/questions/43329/"
     },
     {
       "id": 43273,
       "wave": 1,
-      "forecasters": 51,
+      "forecasters": 52,
       "comments": 0,
       "forecast": "10.5 retailers",
-      "title": "Top 20 European grocers with shrimp welfare commitments"
+      "title": "Top 20 European grocers with shrimp welfare commitments",
+      "url": "https://www.metaculus.com/questions/43273/"
     },
     {
       "id": 43498,
       "wave": 1,
-      "forecasters": 54,
+      "forecasters": 55,
       "comments": 0,
-      "forecast": "mode: 2 and 3 labs (22% each)",
-      "title": "Top 2026 AI labs referencing animal welfare in 2034 guidelines"
+      "forecast": "mode: 2 labs (22.6%); 3 labs (22.1%)",
+      "title": "Top 2026 AI labs referencing animal welfare in 2034 guidelines",
+      "url": "https://www.metaculus.com/questions/43498/"
     },
     {
       "id": 43492,
@@ -83,55 +92,63 @@
       "forecasters": 61,
       "comments": 13,
       "forecast": "Resolved Yes",
-      "title": "New cultivated-meat product receives regulatory approval"
+      "title": "New cultivated-meat product receives regulatory approval",
+      "url": "https://www.metaculus.com/questions/43492/"
     },
     {
       "id": 43169,
       "wave": 1,
-      "forecasters": 54,
+      "forecasters": 55,
       "comments": 1,
-      "forecast": "$3.73 million",
-      "title": "Wild Animal Initiative 2026 funding"
+      "forecast": "$3.69 million",
+      "title": "Wild Animal Initiative 2026 funding",
+      "url": "https://www.metaculus.com/questions/43169/"
     },
     {
       "id": 43601,
       "wave": 1,
-      "forecasters": 52,
-      "comments": 1,
+      "forecasters": 53,
+      "comments": 2,
       "forecast": "10.9 million MT CWE",
-      "title": "Mexico 2027 meat consumption forecast"
+      "title": "Mexico 2027 meat consumption forecast",
+      "url": "https://www.metaculus.com/questions/43601/",
+      "resolution_check": "Still open. A new comment requests resolution from an October USDA release. Criteria specify the first available USDA forecast for 2027, not realized consumption. The proposed numerical resolution was not independently verified; the cited PDF was inaccessible."
     },
     {
       "id": 43507,
       "wave": 1,
-      "forecasters": 48,
+      "forecasters": 50,
       "comments": 1,
-      "forecast": "72,000 cases",
-      "title": "Mexico New World screwworm cases before July 2027"
+      "forecast": "74,000 cases",
+      "title": "Mexico New World screwworm cases before July 2027",
+      "url": "https://www.metaculus.com/questions/43507/"
     },
     {
       "id": 43279,
       "wave": 1,
-      "forecasters": 52,
+      "forecasters": 54,
       "comments": 2,
-      "forecast": "43.6%",
-      "title": "EU commercial layer hens sexed in ovo in Q1 2027"
+      "forecast": "43.7%",
+      "title": "EU commercial layer hens sexed in ovo in Q1 2027",
+      "url": "https://www.metaculus.com/questions/43279/"
     },
     {
       "id": 43170,
       "wave": 1,
-      "forecasters": 52,
+      "forecasters": 54,
       "comments": 2,
-      "forecast": "62.7%",
-      "title": "Global fish production share from aquaculture in 2040"
+      "forecast": "62.8%",
+      "title": "Global fish production share from aquaculture in 2040",
+      "url": "https://www.metaculus.com/questions/43170/"
     },
     {
       "id": 43493,
       "wave": 1,
-      "forecasters": 48,
+      "forecasters": 49,
       "comments": 1,
       "forecast": "73.2",
-      "title": "Average ANIMA performance of 2026\u201327 AI models"
+      "title": "Average ANIMA performance of 2026–27 AI models",
+      "url": "https://www.metaculus.com/questions/43493/"
     },
     {
       "id": 43481,
@@ -139,56 +156,76 @@
       "forecasters": 50,
       "comments": 2,
       "forecast": "7.82 kg/person",
-      "title": "India meat production per capita during 2026\u201327"
+      "title": "India meat production per capita during 2026–27",
+      "url": "https://www.metaculus.com/questions/43481/"
     },
     {
       "id": 43616,
       "wave": 1,
-      "forecasters": 71,
+      "forecasters": 74,
       "comments": 3,
       "forecast": "3% chance",
-      "title": "Save Our Bacon Act enacted before July 2027"
+      "title": "Save Our Bacon Act enacted before July 2027",
+      "url": "https://www.metaculus.com/questions/43616/"
     },
     {
       "id": 43281,
       "wave": 1,
-      "forecasters": 50,
+      "forecasters": 51,
       "comments": 1,
-      "forecast": "40%",
-      "title": "FURA adds another cultivated-meat dish before July 2027"
+      "forecast": "38%",
+      "title": "FURA adds another cultivated-meat dish before July 2027",
+      "url": "https://www.metaculus.com/questions/43281/"
     },
     {
       "id": 43163,
       "wave": 1,
-      "forecasters": 59,
+      "forecasters": 60,
       "comments": 0,
       "forecast": "2%",
-      "title": "Plant-based meat and seafood reach 10% of US retail sales before 2031"
+      "title": "Plant-based meat and seafood reach 10% of US retail sales before 2031",
+      "url": "https://www.metaculus.com/questions/43163/"
     },
     {
       "id": 43288,
       "wave": 1,
-      "forecasters": 56,
+      "forecasters": 57,
       "comments": 0,
       "forecast": "1%",
-      "title": "Nueva Pescanova octopus farm approved before June 2027"
+      "title": "Nueva Pescanova octopus farm approved before June 2027",
+      "url": "https://www.metaculus.com/questions/43288/"
     }
   ],
-  "discussion_total": 35,
+  "discussion_total": 36,
   "questions_without_comments": 8,
   "mean_forecasters_by_wave": {
-    "wave_1": 54.4375,
-    "wave_2": 22.6
+    "wave_1": 55.625,
+    "wave_2": 26.4
   },
   "comparator_snapshot": {
     "checked_at": "2026-10-03",
-    "cultured_meat_tournament": "23\u201331 across 3 questions",
-    "climate_tipping_points": "14\u201362 among first 19 cards inspected",
-    "global_health_monitor_2026_27": "8\u201317 across 10 questions",
-    "ai_pathways": "58\u2013143 across 19 questions",
+    "cultured_meat_tournament": "23–31 across 3 questions",
+    "climate_tipping_points": "14–62 among first 19 cards inspected",
+    "global_health_monitor_2026_27": "8–17 across 10 questions",
+    "ai_pathways": "58–143 across 19 questions",
     "note": "Context only; tournaments differ in age, topic, question type, prize, and page sorting."
   },
-  "new_discussion_note": "A new comment flags that the official ANIMA page now labels the benchmark first-generation/legacy for distinguishing frontier models, while retaining value for open-source training. Organizers should confirm evaluation coverage and fit to the forecast question through its resolution window.",
-  "decision_use_note": "No publicly documented funding or policy decision citing a tournament forecast surfaced in the public sources checked on 2026-10-13. This is not evidence that no private use has occurred.",
-  "overall_mean_forecasters": 46.86
+  "new_discussion_note": "A new Mexico consumption comment asks for resolution from a USDA report. Metaculus still lists the question open. The question predicts the first available official 2027 consumption forecast, not realized 2027 consumption.",
+  "decision_use_note": "A public Plant Based Cities Movement article cites the approximately $6.8 billion 2026 sales forecast as a possible benchmark for institutional procurement work. It reports no resulting funding, policy, or procurement change. No other documented decision change was found in the sources checked.",
+  "overall_mean_forecasters": 48.67,
+  "previous_snapshot": "snapshots/2026-10-13.json",
+  "leaderboard": {
+    "checked_at": "2026-10-23",
+    "ranked_non_bot_accounts": 60,
+    "bot_marked_accounts": 16,
+    "aggregate_rows": 2,
+    "note": "All displayed rows loaded. This is the scoring leaderboard, not a census of everyone forecasting open questions; bot markings are platform labels, not an independent identity check."
+  },
+  "decision_use_source": "https://plantbasedcities.org/from-taboo-to-measurement-another-pattern-of-change/",
+  "decision_use_evidence_type": "Public advocacy reference; proposed use, no documented changed decision. Primary article was available in search-indexed text; direct access was geographically blocked.",
+  "annotations_review": {
+    "dashboard_public_annotations": 3,
+    "report_public_annotations": 0,
+    "note": "The three October 14 dashboard comments request forecaster tooltips, separate octopus/plant-based framing with market-share context, and explanation of AI training guidelines. These changes were already present in the working site; counts were refreshed and the market-share tooltip sales-decline figure corrected against GFI."
+  }
 }

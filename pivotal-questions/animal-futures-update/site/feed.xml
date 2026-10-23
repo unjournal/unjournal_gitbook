@@ -1,2 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>Animal Futures tournament updates</title><link>https://uj-animal-futures-update.netlify.app/</link><description>Dated, source-linked updates on participation, forecasts, discussion, and possible uses for decisions.</description><language>en-us</language><lastBuildDate>Tue, 13 Oct 2026 09:30:45 GMT</lastBuildDate><item><title>October 13 update: participation rises; ANIMA measure merits a check</title><link>https://uj-animal-futures-update.netlify.app/report.html</link><guid isPermaLink="false">animal-futures-update-2026-10-13</guid><pubDate>Tue, 13 Oct 2026 09:30:45 GMT</pubDate><description>Counts increased across both waves. The ANIMA benchmark now describes itself as legacy for frontier-model comparisons while retaining open-source training use; organizers may want to confirm it remains measurable and decision-relevant. No new resolutions or public examples of forecast use were found.</description></item><item><title>October 3 update: participation rises; question wording corrected</title><link>https://uj-animal-futures-update.netlify.app/report.html</link><guid isPermaLink="false">animal-futures-update-2026-10-03</guid><pubDate>Sat, 03 Oct 2026 09:31:22 GMT</pubDate><description>Forecaster counts on the five September questions rose to 15–23 each. A comment thread caught and corrected inconsistent dates on a cage-free law question. No publicly documented funding or policy use surfaced in sources checked.</description></item><item><title>First update: participation, forecasts, and discussion</title><link>https://uj-animal-futures-update.netlify.app/report.html</link><guid isPermaLink="false">animal-futures-update-2026-09-23</guid><pubDate>Wed, 23 Sep 2026 19:02:21 GMT</pubDate><description>Twenty-one questions are listed, including five added on September 20. One cultivated-meat approval question has resolved Yes. This report summarizes participation, current estimates, useful comments, and suggestions for organizers.</description></item></channel></rss>
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Animal Futures tournament updates</title>
+    <link>https://uj-animal-futures-update.netlify.app/</link>
+    <description>Dated, source-linked updates on participation, forecasts, discussion, and possible uses for decisions.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Oct 2026 09:27:28 GMT</lastBuildDate>
+    <item>
+      <title>October 23: growing coverage, a public forecast citation, and a resolution check</title>
+      <link>https://uj-animal-futures-update.netlify.app/report.html</link>
+      <guid isPermaLink="false">animal-futures-update-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 09:27:28 GMT</pubDate>
+      <description>Original questions average 56 forecasters; September additions average 26. Plant Based Cities cites a sales forecast as a possible benchmark; no changed decision is documented. A Mexico resolution request remains pending. No new official resolutions. Forecast counts, source links, and feedback tooltips are refreshed.</description>
+    </item>
+    <item>
+      <title>October 13 update: participation rises; ANIMA measure merits a check</title>
+      <link>https://uj-animal-futures-update.netlify.app/report.html</link>
+      <guid isPermaLink="false">animal-futures-update-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 09:30:45 GMT</pubDate>
+      <description>Counts increased across both waves. The ANIMA benchmark now describes itself as legacy for frontier-model comparisons while retaining open-source training use; organizers may want to confirm it remains measurable and decision-relevant. No new resolutions or public examples of forecast use were found.</description>
+    </item>
+    <item>
+      <title>October 3 update: participation rises; question wording corrected</title>
+      <link>https://uj-animal-futures-update.netlify.app/report.html</link>
+      <guid isPermaLink="false">animal-futures-update-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 09:31:22 GMT</pubDate>
+      <description>Forecaster counts on the five September questions rose to 15–23 each. A comment thread caught and corrected inconsistent dates on a cage-free law question. No publicly documented funding or policy use surfaced in sources checked.</description>
+    </item>
+    <item>
+      <title>First update: participation, forecasts, and discussion</title>
+      <link>https://uj-animal-futures-update.netlify.app/report.html</link>
+      <guid isPermaLink="false">animal-futures-update-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 19:02:21 GMT</pubDate>
+      <description>Twenty-one questions are listed, including five added on September 20. One cultivated-meat approval question has resolved Yes. This report summarizes participation, current estimates, useful comments, and suggestions for organizers.</description>
+    </item>
+  </channel>
+</rss>

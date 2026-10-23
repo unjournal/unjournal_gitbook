@@ -19,8 +19,14 @@ Deploy: `netlify deploy --prod --dir=site --site be7830b5-b011-4d32-8437-4c21d42
 5. Check links and HTML, preview both pages locally at desktop and mobile widths, deploy the site with its explicit ID, then read back the production URL and both pages. Distinguish local, deployed, and live verification in the update to David.
 6. Tell David what changed and what did not, with the current public links. Inform the specified collaborators through the agreed channel once recipients and method are supplied; until then, the public RSS feed is the opt-in notification route.
 
-The desired cadence is every ten days from September 23, 2026. The October 13, 2026 check is complete; the next check is October 23. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
+The desired cadence is every ten days from September 23, 2026. The October 23, 2026 check is complete; the next check is November 2. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
 
 ## Copy and discussion
 
 Use direct, source-linked prose. Hypothes.is is for annotations to this analysis; Metaculus comments are for forecasts, evidence, and question criteria. Public annotations and participant responses should be reviewed at each update. Do not describe a suggestion as an organizer decision until it is confirmed.
+
+## October 23 continuation
+
+The new Mexico question comment requests resolution, but the platform still lists it open. Its target is the first available official 2027 forecast, not realized consumption. Verify the first-release USDA source before accepting a proposed numeric result; the PDF was inaccessible this cycle. Public Plant Based Cities coverage cites the sales forecast as a possible benchmark, without documenting a changed decision. Direct article access was geographically blocked; its primary text was available in the search index. The three dashboard Hypothes.is comments from October 14 were already addressed in the site; preserve those improvements. The report had no public annotations.
+
+Prior dated data are retained in `snapshots/` outside the published directory. Comparator tournament counts remain explicitly dated October 3; do not present them as refreshed. Social drafts in the chat still await David’s approval; this maintenance run sends no social posts or participant messages.
