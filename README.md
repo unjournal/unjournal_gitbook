@@ -30,6 +30,8 @@ _The Unjournal is not a journal_. We don’t publish research. Instead, we commi
 
 We currently focus on quantitative work that informs global priorities, especially in economics, policy, and social science. Our [evaluation packages](https://unjournal.pubpub.org) help policymakers and practitioners understand which research to trust and how to use it. These provide open critique and discussion to benefit students and the research community.
 
+We also contribute to related initiatives. We partner with Metaculus and Sentient Futures on the [Animal Futures forecasting tournament](https://www.metaculus.com/tournament/33016/) and have provided an example and advice for [The Alignment Journal](https://blog.alignmentjournal.org/adaptation-to-ai/). [Read about our contributions and the public outputs](parallel-partner-initiatives-and-resources/README.md#initiatives-we-contribute-to).
+
 Click on the cards below to find out more about our mission, organizational structure, and ways to collaborate, or ['ask or search our page](#user-content-fn-1)[^1]' for answers to your questions.
 
 {% include ".gitbook/includes/home-page-grid.md" %}
