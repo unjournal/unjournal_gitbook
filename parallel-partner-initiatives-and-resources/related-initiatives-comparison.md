@@ -1,7 +1,7 @@
 # Related Initiatives Comparison
 
 {% hint style="info" %}
-This comparison is auto-generated from our internal database. Last updated: February 2026
+This comparison is auto-generated from our internal database. Last updated: October 2026
 {% endhint %}
 
 ## Highly Related Initiatives
@@ -11,7 +11,7 @@ These initiatives share significant overlap with The Unjournal's mission or are 
 | Initiative | Type | Notes |
 |------------|------|-------|
 | [COS LifeCycle Journal](https://lifecyclejournal.org/) | 📄 Open public evaluation initiative or innovative journal | Open review/evaluation. Unjournal is an evaluation provider. Emphasis on multiple points of evaluation throughout the research life cycle |
-| [Institute for Replication](https://i4replication.org/) | 🔄 replication/reproducibility/robustness | Coordinates reproductions and robustness checks of published research in economics, political science, and psychology, increasingly of whole literatures on specific topics (through its Replication Games and AI tools). Strong template and credible backers. We have worked with I4R informally and are discussing joint evaluation and replication work. |
+| [Institute for Replication](https://i4replication.org/) | 🔄 replication/reproducibility/robustness | Goal: Robustness 'replication' of all top published papers in Econ, Poli Sci, etc. Strong template and lots of credible backers. We have planned collaborations with I4Rep. |
 | [Peer Communities In (PCI)/ PCI Journal](https://peercommunityin.org/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | PCI and the Peer Community Journal; See especially the PCI Psychology Community, and to a lesser extent the nascent Economics one |
 | [Pre-print review initiative (PREreview)](https://prereview.org/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | PREreview provides ways for feedback to preprints to be done openly, rapidly, constructively, and by a global community of peers. |
 | [Sciety](https://sciety.org/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) |  |
@@ -26,6 +26,7 @@ These initiatives share significant overlap with The Unjournal's mission or are 
 
 | Initiative | Type | Notes |
 |------------|------|-------|
+| ASAPBio | 📄 Open public evaluation initiative or innovative journal |  |
 | [Cascad](https://www.cascad.tech/) | 🔄 replication/reproducibility/robustness | "the first certification agency for scientific code & data" -- a possible source of worthy 'open' work |
 | [Economics e-journal](https://www.degruyterbrill.com/journal/key/econ/html) | 📄 Open public evaluation initiative or innovative journal | At least some detailed public evaluations, although they don’t make these as prominent as Unjournal. Founded 2007, owned by DeGruyter from 2020. |
 | [Kotahi](https://kotahi.community/) | 🔧 Platform/tool: reviewing/rating/endorsing (and publishing) | Connected to Sciety, eLife, etc. Workflow and editorial management platform for open access publishing. |
