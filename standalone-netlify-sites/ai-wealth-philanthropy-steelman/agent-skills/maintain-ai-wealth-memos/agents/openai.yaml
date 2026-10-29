@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain AI Wealth Memos"
+  short_description: "Maintain two evidence-based AI wealth memos"
+  default_prompt: "Use $maintain-ai-wealth-memos to review and conservatively update both AI-wealth philanthropy report sites."

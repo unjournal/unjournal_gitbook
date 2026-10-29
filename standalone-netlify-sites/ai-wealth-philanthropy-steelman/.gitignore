@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.netlify/
+*.log
+*.tsbuildinfo
+.monitor/
+.social-posts/
+test-results/

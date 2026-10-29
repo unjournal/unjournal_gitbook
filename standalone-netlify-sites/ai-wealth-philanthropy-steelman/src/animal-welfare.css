@@ -1,0 +1,41 @@
+.animal-welfare-page .aw-hero { grid-template-columns: minmax(0, 1fr); }
+.animal-welfare-page .aw-model-note { max-width: 90ch; color: #475569; }
+.animal-welfare-page .aw-scenarios { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1.3rem 0; }
+.animal-welfare-page .aw-live-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.animal-welfare-page .aw-input-groups { display: grid; gap: 1rem; margin: 1.5rem 0; }
+.animal-welfare-page .aw-input-group,
+.animal-welfare-page .aw-disclosure { border: 1px solid #cad7d1; border-radius: 10px; background: #fff; padding: 1rem 1.2rem; margin: 1rem 0; scroll-margin-top: 125px; }
+.animal-welfare-page .aw-input-group > summary,
+.animal-welfare-page .aw-disclosure > summary { color: #163f34; font-weight: 700; cursor: pointer; font-size: 1.1rem; }
+.animal-welfare-page .aw-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; padding-top: 1.2rem; }
+.animal-welfare-page .aw-control { display: flex; flex-direction: column; gap: .5rem; min-width: 0; }
+.animal-welfare-page .aw-control-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem; }
+.animal-welfare-page .aw-anchor { display: inline-block; font-size: .73rem; border-radius: 4px; background: #f3eee5; color: #715b2b; padding: .12rem .35rem; }
+.animal-welfare-page .aw-anchor--source { background: #e4f1eb; color: #225a43; }
+.animal-welfare-page .aw-control-description { color: #475569; font-size: .88rem; line-height: 1.5; }
+.animal-welfare-page .aw-input-row { display: flex; gap: .6rem; align-items: center; margin-top: auto; }
+.animal-welfare-page .aw-input-row input[type="range"] { width: 100%; min-width: 50px; accent-color: #216b58; }
+.animal-welfare-page .aw-input-row input[type="number"] { width: 6rem; min-height: 2.5rem; border: 1px solid #aabcb3; border-radius: 5px; padding: .3rem .5rem; font: inherit; background: #fff; color: #1e293b; }
+.animal-welfare-page .aw-input-row > span { min-width: 1.5rem; }
+.animal-welfare-page .aw-evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+.animal-welfare-page .aw-evidence { padding: 1rem 1.2rem; border: 1px solid #d8e1db; border-radius: 8px; background: #fff; min-width: 0; }
+.animal-welfare-page .aw-evidence h3 { margin-top: 0; }
+.animal-welfare-page .aw-source-date { font-size: .8rem; color: #526257; }
+.animal-welfare-page .aw-interval-chart { max-width: 850px; margin: 1.5rem auto; }
+.animal-welfare-page .aw-interval-chart svg { display: block; width: 100%; min-width: 0; height: auto; }
+.animal-welfare-page .aw-interval-chart svg text { font-size: 14px; font-family: inherit; }
+.animal-welfare-page .aw-calculator .section-heading { align-items: start; }
+.animal-welfare-page .aw-disclosure li { margin: .7rem 0; }
+.animal-welfare-page .aw-disclosure table { width: 100%; }
+.animal-welfare-page .aw-disclosure th:first-child,
+.animal-welfare-page .aw-disclosure td:first-child { width: 60%; }
+.animal-welfare-page .aw-control:focus-within { outline: 2px solid #a3c8b5; outline-offset: 5px; border-radius: 3px; }
+@media (max-width: 700px) {
+  .animal-welfare-page .aw-live-results,
+  .animal-welfare-page .aw-controls,
+  .animal-welfare-page .aw-evidence-grid { grid-template-columns: minmax(0, 1fr); }
+  .animal-welfare-page .aw-input-group,
+  .animal-welfare-page .aw-disclosure { padding: .9rem; }
+  .animal-welfare-page .aw-interval-chart svg text { font-size: 16px; }
+  .animal-welfare-page .aw-input-row input[type="number"] { width: 5rem; }
+}
