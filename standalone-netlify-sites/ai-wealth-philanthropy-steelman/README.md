@@ -88,6 +88,11 @@ the model and tracker files above, and the source-linked research folds. No new 
 donor-cohort model was inferred in the balance review. Verify future edits with the three numerical tests, the audit,
 desktop/mobile scenario links, and the feed's scenario-only flags.
 
+Balanced presentation published and live-verified: runtime source `38e56e59481b00aeac3c13c0d91683cb60121e08`, Netlify
+deploy `6ae3acb08ce23c9fc5626432`. All four routes return 200; the deployed JS, CSS, and JSON feed exactly match the
+clean build. Both scenario links, history, grouped navigation, direct tracker anchors, and 390px layouts were checked.
+The main/GH&D route records match their preceding live versions in full. No external messages or posts were sent.
+
 Earlier numerical review (historical account):
 
 At David's request, Codex compared the AW model with Bollard's AI-donor account, the live Metaculus cause-area map,

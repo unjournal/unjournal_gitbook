@@ -107,4 +107,17 @@ scenario links and presets, readable nine-row sensitivity table, interval render
 The complete annotation fetch found zero AW, 90 main and four GH&D records, with no new activity. Two old referenced
 parent records remain unavailable. Existing posting code reads only main and GH&D; no posting scripts were modified.
 
-Publication details for this revision are recorded after live verification.
+Published and live-verified:
+
+- Runtime source: pushed `main` commit `38e56e59481b00aeac3c13c0d91683cb60121e08`.
+- Netlify's API confirms published deploy `6ae3acb08ce23c9fc5626432` on the same verified existing site.
+- A clean export reproduced the reviewed build and interpretation log exactly. Production JS, CSS, and tracker JSON
+  match that build byte for byte. Feed SHA-256: `7044e9df5f25710c6ed1ebd0dae060425e3a884cc9f3ec7d5e05330946585c53`.
+- All four routes return 200. The feed contains both historical parameter sets, two prior same-day reviews,
+  `adoptedForecast: false`, `estimateKind: illustrative-scenario`, and `inputsChanged: false` for the interpretation review.
+- Live checks verified lower-scenario editing ($33.8M), the reference preset ($155.3M), the conditional statistic,
+  preserved notes, grouped navigation, and direct news/tracker/forecast anchors. All three live models fit 390px with
+  no document overflow. No application-console errors were observed. AW also fits the desktop viewport.
+- Main and GH&D full route records are unchanged. Their existing hidden provenance tooltips can still enlarge the
+  document width at the local 1229px desktop viewport; that layout issue is outside this AW-focused revision.
+- No Slack, email, annotation, newsletter, or social post was sent. Unrelated working changes remain untouched.
