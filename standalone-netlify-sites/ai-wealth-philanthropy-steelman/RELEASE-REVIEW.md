@@ -73,4 +73,16 @@ document overflow. All 90 main and four GH&D Hypothes.is records were fetched; A
 activity was found. Two old referenced parent records remain publicly inaccessible. No annotations or social messages
 were posted. Source, research output, and built output pass the evaluator-anonymity scan.
 
-Deployment verification for this subsequent revision is recorded after publication below.
+Published and live-verified:
+
+- Runtime source: pushed `main` commit `47b119ce13f0ee494ba410ce8c799255f5abb925`.
+- Netlify's API confirms published deploy `6ae38c26add4999c9123d0cd` on the same explicitly verified site ID.
+- The release used a clean export of that commit, `npm ci` with the committed lockfile, a fresh build, all three test
+  scripts, and an outbound anonymity scan. No untracked operational scripts, local state, or unrelated edits entered it.
+- `/`, `/global-development/`, `/animal-welfare/`, and `/model-comparison/` return 200. The public research source is
+  accessible on GitHub. All three live models have `#news`, `#tracker`, and `#tracker-forecast` anchors and the expected
+  route-specific median. Live 390px checks show no document overflow; the AW table fits its container.
+- Live JavaScript and CSS match the reviewed clean build. The matching tracker feed SHA-256 is
+  `6c52fd6b7f6553c0623a0df474b0625ad947bc1ac93d861099383653c6c63710`.
+- The new research menu/disclosure works on the live site, interval labels are accessible, and no application-console
+  errors were observed. No Slack, email, annotation, newsletter, or social post was sent by this revision.

@@ -67,7 +67,7 @@ Do not deploy the parent root. Historical annotation publishers, posting tools, 
 credentials, dependencies, and build output are outside the proposed public-source adoption. Locally available legacy
 commands below do not imply those operational helpers are part of the public app source.
 
-Current implementation: committed, pushed, deployed, and live-verified on October 29. Runtime source commit `24b0e6a`
+The initial October 29 implementation was committed, pushed, deployed, and live-verified. Runtime source commit `24b0e6a`
 was built from a clean export and published as Netlify deploy `6ae334f39a8b2e556f0a6bd6`. All three model routes and the
 comparison return 200; the live bundle and tracker feed match the reviewed build. Continue development from this folder
 and the model files above, rather than the maintenance automation prompt. Full release verification is in `RELEASE-REVIEW.md`.
@@ -88,6 +88,13 @@ The new diagnostic script regenerates `diagnostics.json`: 52 one-at-a-time cells
 distribution-width/dependence alternatives, and three seeds. No fitted targets or out-of-sample validation are claimed.
 Research sources are public; no donor identities or unverified recipient amounts are added to the ledger. The
 sensitivity table now fits narrow screens, and AW provenance tooltips no longer enlarge the desktop page width.
+
+This follow-up is committed, pushed, deployed, and live-verified: runtime source `47b119ce13f0ee494ba410ce8c799255f5abb925`,
+Netlify deploy `6ae38c26add4999c9123d0cd`. All four routes return 200. The production JavaScript, CSS, and tracker feed
+match the clean release build byte for byte. Live desktop and 390px checks confirm the results, grouped research
+navigation, readable sensitivity table, direct anchors, and zero document overflow. The public research report is
+available in the same GitHub repository. Keep model development here; the maintenance automation is not the model's
+authoring tool or source of truth.
 
 ## Model comparison continuation (2 October 2026)
 
