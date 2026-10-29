@@ -1,6 +1,6 @@
 // Run with Node 22+: node --experimental-strip-types scripts/verify_animal_welfare_model.mjs
 import assert from "node:assert/strict";
-import { animalWelfareInitialForecast, animalWelfareReviewedForecast } from "../src/content/animalWelfare.ts";
+import { animalWelfareCurrentSnapshot, animalWelfareInitialForecast, animalWelfareReviewedForecast, animalWelfarePublishedScenarios } from "../src/content/animalWelfare.ts";
 import { calculateAnimalWelfareModel, defaultAnimalWelfareInputs, initialAnimalWelfareInputs, runAnimalWelfareSimulation } from "../src/utils/animalWelfareModel.ts";
 
 const defaults = { ...defaultAnimalWelfareInputs };
@@ -8,6 +8,12 @@ const summary = runAnimalWelfareSimulation(defaults);
 assert.equal(summary.medianB, animalWelfareReviewedForecast.medianB, "Freeze a reviewed tracker point when defaults change");
 assert.equal(summary.low80B, animalWelfareReviewedForecast.low80B);
 assert.equal(summary.high80B, animalWelfareReviewedForecast.high80B);
+assert.equal(animalWelfareCurrentSnapshot.adoptedForecast, false);
+assert.equal(animalWelfareCurrentSnapshot.estimateKind, "illustrative-scenario");
+assert.equal(animalWelfareCurrentSnapshot.inputsChanged, false, "Interpretation review is not a new numerical estimate");
+assert.equal(animalWelfareCurrentSnapshot.medianB, summary.medianB, "Reference median stays reproducible");
+assert.deepEqual(animalWelfareCurrentSnapshot.previousSameDayReviews.map(row => row.medianB), [animalWelfareInitialForecast.medianB, animalWelfareReviewedForecast.medianB]);
+assert.equal(animalWelfarePublishedScenarios.length, 2);
 const original = runAnimalWelfareSimulation(initialAnimalWelfareInputs);
 assert.equal(original.medianB, animalWelfareInitialForecast.medianB, "Original published assumptions must remain reproducible");
 assert.equal(original.high80B, animalWelfareReviewedForecast.supersededSameDayReview.high80B);
@@ -22,11 +28,14 @@ for (const inputs of [zeroAllocation, zeroUptake, noCapital]) {
   const result = runAnimalWelfareSimulation(inputs, 1000);
   assert.equal(result.high80B, 0);
   assert.equal(result.probabilityZero, 1);
+  assert.equal(result.medianGivenPersonalGivingB, null);
   assert.equal(calculateAnimalWelfareModel(inputs).totalB, 0);
 }
 
 const certainPersonal = { ...defaults, personalAwUptakePct: 100, publicFundAwUptakePct: 0, openAiAwUptakePct: 0 };
 assert.equal(runAnimalWelfareSimulation(certainPersonal, 1000).probabilityZero, 0, "100% uptake must be exact");
+const allPersonal = runAnimalWelfareSimulation(certainPersonal, 1000);
+assert.equal(allPersonal.medianGivenPersonalGivingB, allPersonal.medianB, "Conditioning changes nothing when every draw has personal giving");
 const publicOnlyUnapproved = { ...defaults, personalAwUptakePct: 0, openAiAwUptakePct: 0, publicFundAwUptakePct: 100, publicFundApprovalPct: 0 };
 assert.equal(runAnimalWelfareSimulation(publicOnlyUnapproved, 1000).probabilityZero, 1, "Approval is a genuine gate");
 

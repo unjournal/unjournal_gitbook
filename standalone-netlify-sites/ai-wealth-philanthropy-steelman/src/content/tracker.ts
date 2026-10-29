@@ -2,7 +2,7 @@ import { defaultModelInputs } from "./modelDefaults";
 import { defaultCorrelatedConfig, runCorrelatedSimulation } from "../utils/correlatedModel";
 import { defaultGlobalDevelopmentInputs } from "../utils/globalDevelopmentModel";
 import { runGlobalDevelopmentSimulation } from "../utils/globalDevelopmentCorrelatedModel";
-import { animalWelfareReviewedForecast, animalWelfareForecastTarget, animalWelfareNews } from "./animalWelfare";
+import { animalWelfareCurrentSnapshot, animalWelfarePublishedScenarios, animalWelfareForecastTarget, animalWelfareNews } from "./animalWelfare";
 
 export type TrackerScope = "main" | "global-development" | "animal-welfare";
 
@@ -15,6 +15,9 @@ export type ForecastSnapshot = {
   inputsChanged: boolean;
   note: string;
   supersededSameDayReview?: { medianB: number; low80B: number; high80B: number; note: string };
+  estimateKind?: "illustrative-scenario";
+  adoptedForecast?: boolean;
+  previousSameDayReviews?: { label: string; medianB: number; low80B: number; high80B: number; reviewStatus: string; note: string }[];
 };
 
 export type CommitmentSnapshot = {
@@ -602,7 +605,11 @@ export const trackerData = {
       label: "Animal Welfare",
       url: "https://uj-ai-wealth-philanthropy-steelman.netlify.app/animal-welfare/#tracker",
       forecastTarget: animalWelfareForecastTarget,
-      forecastHistory: [animalWelfareReviewedForecast] satisfies ForecastSnapshot[],
+      estimateKind: "illustrative-scenario",
+      adoptedForecast: false,
+      interpretationNote: "Scenario-only: no central forecast is adopted. Numerical history retains the higher-allocation reference, not an endorsed best estimate. Compare both published scenarios; their P10–P90 intervals are conditional model outputs, not validated forecast coverage.",
+      scenarios: animalWelfarePublishedScenarios,
+      forecastHistory: [animalWelfareCurrentSnapshot] satisfies ForecastSnapshot[],
       commitmentHistory: [{ date: "2026-10-29", totalB: 0, label: "No named animal-welfare allocation identified in reviewed sources" }],
       namedCommitmentTotalB: 0,
       existingFunderCommittedB: 0,

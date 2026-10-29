@@ -55,7 +55,7 @@ export const animalWelfareEvidence: AnimalWelfareEvidence[] = [
     eventDate: "2026-08-05",
     accessed: animalWelfareReviewDate,
     finding: "Coefficient Giving's farm-animal lead reports tens of millions already donated by newly wealthy AI donors during 2026. The account does not itemize donors, recipients, payment dates, or the Anthropic share.",
-    implication: "Evidence that AI-linked animal giving already exists; raises the subjective chance of further personal giving. Earlier gifts are excluded from this prospective forecast and no amount is added to the named ledger."
+    implication: "Supports expecting some further animal giving, without identifying a 65% or 85% probability for this narrower pool. Earlier gifts are excluded from prospective cash and no amount is added to the named ledger."
   },
   {
     id: "aw-metaculus-cause-model",
@@ -64,7 +64,7 @@ export const animalWelfareEvidence: AnimalWelfareEvidence[] = [
     eventDate: "Live map; inspected 2026-10-29",
     accessed: animalWelfareReviewDate,
     finding: "The individual-giving animal weight has P10/P50/P90 of 1.87/5.93/17.3 percentage points from three predictions by two people. The map floors negative weights and normalizes all nine causes in each draw. Its window ends in 2031, and its individuals include both labs.",
-    implication: "Supports exploring a several-percent allocation. These are raw weights, not normalized animal-share percentiles or end-2027 forecasts. We use a judgmental 5% conditional center, not its dollar output. The map assigns no OpenAI Foundation animal channel; ours remains a small explicit speculative path."
+    implication: "Supports exploring several-percent allocations, without identifying our 2% or 5% scenario as better calibrated. These are raw weights, not normalized-share percentiles or end-2027 forecasts. The map assigns no OpenAI Foundation animal channel; ours is explicitly speculative."
   },
   {
     id: "aw-rp-cause-survey",
@@ -152,13 +152,42 @@ export const animalWelfareReviewedForecast = {
   }
 };
 
+/** Interpretation review: retain numerical history, without endorsing either scenario. */
+export const animalWelfareCurrentSnapshot = {
+  date: animalWelfareReviewDate,
+  medianB: animalWelfareReviewedForecast.medianB,
+  low80B: animalWelfareReviewedForecast.low80B,
+  high80B: animalWelfareReviewedForecast.high80B,
+  estimateKind: "illustrative-scenario" as const,
+  adoptedForecast: false,
+  reviewStatus: "Interpretation reviewed; reference scenario only, no adopted central forecast",
+  inputsChanged: false,
+  note: "The $155M median is retained as the higher-allocation reference scenario for reproducibility, not a best estimate. Existing donor reports support expecting animal giving, but do not calibrate the 85% pooled hurdle or 5% allocation. The original $34M scenario is also judgmental. Neither is a lower/upper bound on the true forecast. P10–P90 describes draws within each chosen model and does not establish 80% coverage of real funding outcomes. No new cash evidence or numerical input change in this interpretation review.",
+  previousSameDayReviews: [
+    { label: "Launch assumptions", ...animalWelfareInitialForecast },
+    { label: "Literature-informed upward revision", ...animalWelfareReviewedForecast }
+  ]
+};
+
+export const animalWelfarePublishedScenarios = [
+  { id: "lower-allocation", label: "Lower-allocation scenario", personalAwUptakePct: 65, personalAwAllocationPct: 2, ...animalWelfareInitialForecast },
+  { id: "higher-allocation", label: "Higher-allocation reference", personalAwUptakePct: 85, personalAwAllocationPct: 5, ...animalWelfareReviewedForecast }
+];
+
 export const animalWelfareForecastTarget = "New cash from modeled AI-linked pathways reaching animal-welfare recipients from 29 October 2026 through 31 December 2027";
 
 export const animalWelfareNews = [
   {
     date: "2026-10-29",
-    title: "Deeper review raises the personal-giving scenario; early gifts remain outside the forecast",
-    summary: "An August grantmaker account describes substantial animal giving by new AI donors. Metaculus's longer-horizon allocation model also informs a larger, still judgmental personal animal share. The reviewed median is $155M, with a $0–$1.75B 80% model interval. The end-2027 payout assumption is unchanged; no aggregate past gifts enter the named ledger.",
+    title: "Animal funding: compare scenarios; no central forecast adopted",
+    summary: "The lower- and higher-allocation scenarios yield medians of $34M and $155M. Both rely on subjective giving gates, allocation shares, and payout timing. Existing AI-donor gifts support expecting some further animal giving, but available sources do not calibrate either parameter set. The page now gives both scenarios equal prominence and explains the pooled-gate sensitivity. No new grant or cash receipt is reported.",
+    strength: "Reported" as const,
+    evidenceIds: ["aw-bollard-ai-windfall", "aw-metaculus-cause-model"]
+  },
+  {
+    date: "2026-10-29",
+    title: "Earlier review: higher-allocation scenario added",
+    summary: "The deeper review added donor-giving reports and external allocation research, yielding a $155M scenario median with a $0–$1.75B within-model P10–P90 interval. The subsequent interpretation review above does not endorse this as a better-supported central forecast. Earlier gifts remain excluded.",
     strength: "Reported" as const,
     evidenceIds: ["aw-bollard-ai-windfall", "aw-metaculus-cause-model"]
   },

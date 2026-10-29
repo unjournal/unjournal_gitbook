@@ -12,7 +12,8 @@ import { ProvenanceTip } from "./ProvenanceTip";
 export function TrackerPanel({ scope }: { scope: TrackerScope }) {
   const route = scope === "main" ? trackerData.routes.main : scope === "animal-welfare" ? trackerData.routes.animalWelfare : trackerData.routes.globalDevelopment;
   const scopeLabel = scope === "main" ? "Overall AIS/EA" : scope === "animal-welfare" ? "Animal Welfare" : "Global Health & Development";
-  const current = route.forecastHistory.at(-1)!;
+  const current: ForecastSnapshot = route.forecastHistory.at(-1)!;
+  const scenarioOnly = current.estimateKind === "illustrative-scenario";
   const ledger = commitmentLedger.filter((item) => item.scope.includes(scope));
 
   return (
@@ -20,27 +21,27 @@ export function TrackerPanel({ scope }: { scope: TrackerScope }) {
       <div className="tracker-heading">
         <div>
           <p className="kicker">Fortnightly tracker</p>
-          <h2 id="tracker-title">{scopeLabel} forecast and public commitments</h2>
+          <h2 id="tracker-title">{scopeLabel} {scenarioOnly ? "scenarios" : "forecast"} and public commitments</h2>
         </div>
         <p>
-          Each forecast point is a dated re-estimation. A flat segment means the inputs were reviewed and retained, not
+          {scenarioOnly ? <>No central forecast is adopted. The numeric history retains a reference scenario; <a href="#aw-scenarios">compare both published scenarios</a>. Within-model intervals do not establish real-world coverage. </> : <>Each forecast point is a dated re-estimation. A flat segment means the inputs were reviewed and retained, not
           that an old result was silently republished. The commitments line does not treat promises, credits, or
-          cofunding as cash already paid. <ProvenanceTip ids={["ai-draft", "evidence-oct-29"]} />
+          cofunding as cash already paid. </>}<ProvenanceTip ids={["ai-draft", "evidence-oct-29"]} />
         </p>
       </div>
 
       <div className="tracker-metrics" id="tracker-forecast">
         <article className="tracker-metric tracker-metric--primary">
-          <span>Median forecast</span>
+          <span>{scenarioOnly ? "Higher-allocation reference median" : "Median forecast"}</span>
           <strong>{formatBillions(current.medianB)}</strong>
           <p>{route.forecastTarget}</p>
         </article>
         <article className="tracker-metric">
-          <span>80% model interval</span>
+          <span>{scenarioOnly ? "Within-reference 80% model interval" : "80% model interval"}</span>
           <strong>
             {formatBillions(current.low80B)}–{formatBillions(current.high80B)}
           </strong>
-          <p>10th–90th percentile under the correlated simulation.</p>
+          <p>{scenarioOnly ? "P10–P90 of this scenario's draws; not a validated 80% forecast." : "10th–90th percentile under the correlated simulation."}</p>
         </article>
         <article className="tracker-metric">
           <span>{scopeLabel} named public commitments</span>
@@ -59,7 +60,7 @@ export function TrackerPanel({ scope }: { scope: TrackerScope }) {
       </div>
 
       <p className="tracker-definition">
-        <strong>How updates work:</strong> {trackerData.methodology}
+        <strong>How updates work:</strong> {scenarioOnly ? "Dated reviews distinguish evidence, numerical assumptions, and interpretation. Both earlier same-day publications remain in the review log and JSON feed. The present interpretation review changes no inputs and adopts no central estimate." : trackerData.methodology}
       </p>
 
       <div className="tracker-charts">
@@ -147,7 +148,7 @@ function ForecastLineChart({
   return (
     <figure className="tracker-chart">
       <figcaption>
-        <strong>{scopeLabel} forecast history</strong>
+        <strong>{scopeLabel} {snapshots.at(-1)!.estimateKind === "illustrative-scenario" ? "reference-scenario history" : "forecast history"}</strong>
         <span>{forecastTarget}</span>
       </figcaption>
       <div className="chart-legend" aria-label="Forecast chart legend">
@@ -157,7 +158,7 @@ function ForecastLineChart({
       <svg
         viewBox={`0 0 ${width} ${height}`}
         role="img"
-        aria-label={`${scopeLabel} forecast median and 80 percent model interval from the 10th to 90th percentile over time`}
+        aria-label={`${scopeLabel} ${snapshots.at(-1)!.estimateKind === "illustrative-scenario" ? "illustrative reference scenario, not an adopted forecast," : "forecast"} median and 80 percent model interval from the 10th to 90th percentile over time`}
       >
         {[0, 0.5, 1].map((share) => {
           const value = maxValue * share;
@@ -188,7 +189,7 @@ function ForecastLineChart({
         ))}
       </svg>
       <p className="chart-current-value">
-        Current: <strong>{formatBillions(snapshots.at(-1)!.medianB)}</strong> median; 80% interval {formatBillions(snapshots.at(-1)!.low80B)}–
+        {snapshots.at(-1)!.estimateKind === "illustrative-scenario" ? "Reference scenario, not a best estimate:" : "Current:"} <strong>{formatBillions(snapshots.at(-1)!.medianB)}</strong> median; 80% interval {formatBillions(snapshots.at(-1)!.low80B)}–
         {formatBillions(snapshots.at(-1)!.high80B)}.
       </p>
       <details className="chart-review-log">
@@ -198,6 +199,7 @@ function ForecastLineChart({
             <li key={`${item.date}-review`}>
               <time dateTime={item.date}>{formatShortDate(item.date)}</time>: <b>{item.reviewStatus}.</b> {item.note}
               {item.supersededSameDayReview ? <p>Earlier same-day review: {formatBillions(item.supersededSameDayReview.medianB)} median ({formatBillions(item.supersededSameDayReview.low80B)}–{formatBillions(item.supersededSameDayReview.high80B)}). {item.supersededSameDayReview.note}</p> : null}
+              {item.previousSameDayReviews?.map((prior) => <p key={prior.label}>{prior.label}: {formatBillions(prior.medianB)} median ({formatBillions(prior.low80B)}–{formatBillions(prior.high80B)}). {prior.reviewStatus}. {prior.note}</p>)}
             </li>
           ))}
         </ol>

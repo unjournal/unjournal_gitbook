@@ -74,6 +74,22 @@ and the model files above, rather than the maintenance automation prompt. Full r
 
 ### Deeper Animal Welfare review (same day)
 
+Current interpretation after the balance review: no AW central forecast is adopted. The $34M lower-allocation and
+$155M higher-allocation scenarios are equally visible at `/animal-welfare/#aw-scenarios`. The editor starts with the
+higher-allocation reference for continuity, not because it is established as better calibrated. The AW tracker/feed
+mark `estimateKind: illustrative-scenario` and `adoptedForecast: false`, retain the reference numbers, and preserve
+both previous same-day reviews. Do not summarize those fields as an adopted forecast or use the scenario medians as
+lower/upper bounds. Existing social tooling reads only the main and GH&D routes; it does not publish AW outputs.
+
+`scripts/audit_animal_welfare_interpretation.mjs` regenerates `research/animal-welfare-2026-10-29/interpretation-audit.json`
+without overwriting the older numerical log. It shows how much of the median movement comes from the pooled binary
+gate and reports a separate total median conditional on positive personal giving. Continue from these audit decisions,
+the model and tracker files above, and the source-linked research folds. No new empirical input or replacement
+donor-cohort model was inferred in the balance review. Verify future edits with the three numerical tests, the audit,
+desktop/mobile scenario links, and the feed's scenario-only flags.
+
+Earlier numerical review (historical account):
+
 At David's request, Codex compared the AW model with Bollard's AI-donor account, the live Metaculus cause-area map,
 RP's EA Survey and wild-animal funding-gap research, and Weinstock's capacity-building strategy. Personal-channel
 uptake rises from 65% to 85% and its conditional animal share from 2% to 5%. These remain subjective, with explicit

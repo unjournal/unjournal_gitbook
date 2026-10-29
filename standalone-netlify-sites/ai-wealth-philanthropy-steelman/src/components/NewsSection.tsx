@@ -15,8 +15,7 @@ export function NewsSection({ scope }: { scope: TrackerScope }) {
           <h2 id="news-title">What changed recently</h2>
         </div>
         <p>
-          Short source-grounded updates, with commitments and reports kept separate. These headlines are included in
-          the fortnightly tracker posts. <ProvenanceTip ids={["evidence-oct-29"]} />
+          Short source-grounded updates, with commitments and reports kept separate. {scope !== "animal-welfare" ? "These headlines are included in the fortnightly tracker posts. " : ""}<ProvenanceTip ids={["evidence-oct-29"]} />
         </p>
       </div>
       <div className="news-grid">
@@ -24,7 +23,7 @@ export function NewsSection({ scope }: { scope: TrackerScope }) {
       </div>
       {items.length > 6 ? <details className="older-news"><summary>Earlier evidence ({items.length - 6} items)</summary><div className="news-grid">{items.slice(6).map((item) => <NewsCard key={`${item.date}-${item.title}`} item={item} />)}</div></details> : null}
       <a className="anchor-link" href="#tracker">
-        See the forecast and commitments tracker
+        {scope === "animal-welfare" ? "See the scenarios and commitments tracker" : "See the forecast and commitments tracker"}
       </a>
     </section>
   );

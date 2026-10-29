@@ -20,6 +20,9 @@
 .animal-welfare-page .aw-evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
 .animal-welfare-page .aw-evidence { padding: 1rem 1.2rem; border: 1px solid #d8e1db; border-radius: 8px; background: #fff; min-width: 0; }
 .animal-welfare-page .aw-evidence h3 { margin-top: 0; }
+.animal-welfare-page .aw-comparison-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.animal-welfare-page .aw-scenario-value { font-size: 1.8rem; color: #163f34; font-weight: 700; margin: .7rem 0; }
+.animal-welfare-page .aw-scenario-value span { display: block; font-size: .9rem; font-weight: 400; }
 .animal-welfare-page .aw-source-date { font-size: .8rem; color: #526257; }
 .animal-welfare-page .aw-interval-chart { max-width: 850px; margin: 1.5rem auto; }
 .animal-welfare-page .aw-interval-chart svg { display: block; width: 100%; min-width: 0; height: auto; }
@@ -44,6 +47,7 @@
 @media (max-width: 700px) {
   .animal-welfare-page .aw-live-results,
   .animal-welfare-page .aw-controls,
+  .animal-welfare-page .aw-comparison-grid,
   .animal-welfare-page .aw-evidence-grid { grid-template-columns: minmax(0, 1fr); }
   .animal-welfare-page .aw-input-group,
   .animal-welfare-page .aw-disclosure { padding: .9rem; }

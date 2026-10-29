@@ -75,7 +75,7 @@ export const provenanceNotes: ProvenanceNote[] = [
     marker: "O29",
     title: "Latest evidence check",
     note:
-      "Codex reviewed official Anthropic and OpenAI Foundation announcements and current market evidence. The October 26 public S-1 strengthens the IPO case. The October 29 numerical revision corrects simulation boundary conditions, binary fund approval, collapse treatment, and marginal-variance handling; GH&D also adds an explicit mixed-program cause share and corrects a residual-envelope subtraction. Dated historical outputs are preserved. Headline threshold probabilities now use the tracker simulation. At David Reinstein's direction, the new Animal Welfare route was subsequently reviewed against Bollard, Metaculus, and Rethink Priorities. Personal giving assumptions increased, with timing unchanged and the launch forecast preserved. The allocation choices remain subjective.",
+      "Codex reviewed official Anthropic and OpenAI Foundation announcements and current market evidence. The October 26 public S-1 strengthens the IPO case. The October 29 numerical revision corrects simulation boundary conditions, binary fund approval, collapse treatment, and marginal-variance handling; GH&D also adds an explicit mixed-program cause share and corrects a residual-envelope subtraction. Historical outputs are preserved. The Animal Welfare route was reviewed against public donor reports and external models. A subsequent interpretation review, directed by David Reinstein, presents both AW parameter sets as illustrative scenarios, with no adopted central forecast. Inputs remain unchanged in that review; tests establish reproducibility, not calibration.",
     date: "Checked 2026-10-29"
   }
 ];

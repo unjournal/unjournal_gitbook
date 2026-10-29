@@ -44,7 +44,7 @@ const ROUTES = {
   aw: {
     url: `${SITE}animal-welfare/`,
     title: "Will AI wealth reach animal welfare?",
-    description: "An exploratory funding model for AI-linked cash reaching animal-welfare recipients by end-2027, with editable allocation assumptions and an 80% model interval."
+    description: "Compare illustrative AI-linked animal-welfare funding scenarios through end-2027. No central forecast is adopted; within-model intervals are conditional on subjective allocation and timing assumptions."
   }
 };
 

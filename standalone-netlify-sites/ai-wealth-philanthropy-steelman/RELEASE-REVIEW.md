@@ -86,3 +86,25 @@ Published and live-verified:
   `6c52fd6b7f6553c0623a0df474b0625ad947bc1ac93d861099383653c6c63710`.
 - The new research menu/disclosure works on the live site, interval labels are accessible, and no application-console
   errors were observed. No Slack, email, annotation, newsletter, or social post was sent by this revision.
+
+## Balanced interpretation revision — 29 October
+
+David requested a balanced public presentation after an audit of the upward revision. The site now gives the
+$33.8M and $155.3M parameter sets equal prominence, adopts neither as a central forecast, and explains within-model
+uncertainty separately from uncertainty about model structure. Inputs and previous outputs are unchanged. Both
+previous same-day reviews remain visible in the review log and present in JSON. The route and current snapshot have
+`estimateKind: illustrative-scenario` and `adoptedForecast: false`; the reference values remain for compatibility.
+
+The model adds only a conditional summary statistic (total median among draws with positive personal giving), without
+changing draws or inferring a donor-cohort model. Gate-only sensitivity, source/population/horizon limits, and the
+difference between reproducibility and calibration are explicit. The new audit script and `interpretation-audit.json`
+reproduce the four combinations; the historical numerical log remains intact. Public metadata and source tooltips
+use the same scenario-only interpretation. No main/GH&D numerical or frozen-comparison changes are included.
+
+Local checks pass: production build, all three numerical test scripts, conditional-summary and scenario/feed/history
+assertions, and source/research/build anonymity scans. Desktop and narrow mobile checks confirm both scenario cards,
+scenario links and presets, readable nine-row sensitivity table, interval rendering, and zero AW document overflow.
+The complete annotation fetch found zero AW, 90 main and four GH&D records, with no new activity. Two old referenced
+parent records remain unavailable. Existing posting code reads only main and GH&D; no posting scripts were modified.
+
+Publication details for this revision are recorded after live verification.

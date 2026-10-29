@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-29",
+  "adoptedForecast": false,
+  "purpose": "Interpretation review only; no new empirical inputs, mixture weights, midpoint, or donor-specific structure inferred",
+  "cases": [
+    {
+      "label": "Lower-allocation scenario",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 65,
+        "personalAwAllocationPct": 2,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.03377286682026971,
+        "low80B": 0,
+        "high80B": 0.6624607119893011,
+        "meanB": 0.3028876545022099,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.6137,
+        "probabilityAtLeast100M": 0.3429,
+        "medianGivenPersonalGivingB": 0.10939388536817027,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Only pooled gate changed",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 85,
+        "personalAwAllocationPct": 2,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.0670920373063531,
+        "low80B": 0,
+        "high80B": 0.7780064074354968,
+        "meanB": 0.3544182101388543,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7682,
+        "probabilityAtLeast100M": 0.4209,
+        "medianGivenPersonalGivingB": 0.09680840001428562,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Only animal-share setting changed",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 65,
+        "personalAwAllocationPct": 5,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.07445235635558503,
+        "low80B": 0,
+        "high80B": 1.4786759493411454,
+        "meanB": 0.649089979501798,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.6503,
+        "probabilityAtLeast100M": 0.4605,
+        "medianGivenPersonalGivingB": 0.251232362554908,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Higher-allocation reference",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 85,
+        "personalAwAllocationPct": 5,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "medianGivenPersonalGivingB": 0.22391140120348105,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    }
+  ],
+  "gateOnlyMedianRatio": 1.9865662474968213,
+  "gateOnlyMeanRatio": 1.1701309210549828,
+  "combinedMedianRatio": 4.5979195730994675,
+  "verdict": "Both parameter sets remain illustrative. The pooled Bernoulli gate can strongly move the median without comparable movement in the mean. Sensitivity checks do not validate assumptions or interval coverage."
+}
