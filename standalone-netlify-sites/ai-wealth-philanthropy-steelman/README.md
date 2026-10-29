@@ -66,9 +66,10 @@ Do not deploy the parent root. Historical annotation publishers, posting tools, 
 credentials, dependencies, and build output are outside the proposed public-source adoption. Locally available legacy
 commands below do not imply those operational helpers are part of the public app source.
 
-Current implementation: locally built and verified; adoption of the reviewed standalone source and production deployment
-were approved on October 29. Continue development from this folder and the model files above, rather than the maintenance
-automation prompt. Release verification is recorded in `RELEASE-REVIEW.md`.
+Current implementation: committed, pushed, deployed, and live-verified on October 29. Runtime source commit `24b0e6a`
+was built from a clean export and published as Netlify deploy `6ae334f39a8b2e556f0a6bd6`. All three model routes and the
+comparison return 200; the live bundle and tracker feed match the reviewed build. Continue development from this folder
+and the model files above, rather than the maintenance automation prompt. Full release verification is in `RELEASE-REVIEW.md`.
 
 ## Model comparison continuation (2 October 2026)
 

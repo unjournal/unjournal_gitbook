@@ -37,10 +37,17 @@ anchors, live scenario changes, interval rendering, reciprocal links, and the ge
 credential/private-path and evaluator-anonymity scans passed. Hypothes.is returned all 90 main and four GH&D records,
 with no new activity since the preceding review; two referenced parent records were inaccessible through the public API.
 
-Release target verified through Netlify: `uj-ai-wealth-philanthropy-steelman`, site ID
-`c8c84bb7-fc4d-4618-a8ac-41b017a7a077`. The currently deployed earlier October 29 evidence review does not include this
-model revision or the Animal Welfare page. Adoption into `unjournal/unjournal_gitbook`, push to `main`, and deployment
-were approved; publication and live smoke tests are the remaining release steps.
+Published and live-verified on October 29, 2026:
 
-After adoption, use an export of the app from the pushed `main` commit for a clean release. Smoke-test `/`,
-`/global-development/`, `/animal-welfare/`, `/model-comparison/`, their anchors, and `/tracker-data.json`.
+- Runtime source: pushed `main` commit `24b0e6a689b4946c2c33a63c16628072bda51c14` in `unjournal/unjournal_gitbook`.
+- Target re-verified through Netlify: `uj-ai-wealth-philanthropy-steelman`, site ID `c8c84bb7-fc4d-4618-a8ac-41b017a7a077`.
+- Production deploy: `6ae334f39a8b2e556f0a6bd6`.
+- Release built from a clean export of that pushed commit, using `npm ci` and the committed lockfile. The generated
+  output matched the previously reviewed local build byte for byte. All three numerical checks and the anonymity scan passed again.
+- `/`, `/global-development/`, `/animal-welfare/`, and `/model-comparison/` returned HTTP 200. The production app bundle
+  and `/tracker-data.json` matched the clean release exactly; the feed has all three October 29 forecasts.
+- Live desktop/mobile checks confirmed model links, dropdowns, direct tracker/news/forecast anchors, the Animal Welfare
+  result and interval, route metadata, and zero mobile document overflow. No application-console errors were observed.
+
+For future releases, use an export of the app from the pushed `main` commit if the parent checkout contains unrelated
+work. Keep runtime changes, source history, release records, and live verification distinct.
