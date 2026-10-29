@@ -2,7 +2,7 @@ import { defaultModelInputs } from "./modelDefaults";
 import { defaultCorrelatedConfig, runCorrelatedSimulation } from "../utils/correlatedModel";
 import { defaultGlobalDevelopmentInputs } from "../utils/globalDevelopmentModel";
 import { runGlobalDevelopmentSimulation } from "../utils/globalDevelopmentCorrelatedModel";
-import { animalWelfareInitialForecast, animalWelfareForecastTarget, animalWelfareNews } from "./animalWelfare";
+import { animalWelfareReviewedForecast, animalWelfareForecastTarget, animalWelfareNews } from "./animalWelfare";
 
 export type TrackerScope = "main" | "global-development" | "animal-welfare";
 
@@ -602,12 +602,12 @@ export const trackerData = {
       label: "Animal Welfare",
       url: "https://uj-ai-wealth-philanthropy-steelman.netlify.app/animal-welfare/#tracker",
       forecastTarget: animalWelfareForecastTarget,
-      forecastHistory: [animalWelfareInitialForecast] satisfies ForecastSnapshot[],
+      forecastHistory: [animalWelfareReviewedForecast] satisfies ForecastSnapshot[],
       commitmentHistory: [{ date: "2026-10-29", totalB: 0, label: "No named animal-welfare allocation identified in reviewed sources" }],
       namedCommitmentTotalB: 0,
       existingFunderCommittedB: 0,
       existingFunderPromisedB: 0,
-      commitmentNote: "No named animal-welfare amount from these new AI-wealth pathways was identified in the primary sources reviewed. Zero records an empty identified ledger, not proof that no giving occurred. Existing animal-welfare funders are discussed as context; no incumbent total or cash-paid amount is inferred."
+      commitmentNote: "No itemized named animal-welfare amount from these modeled pathways was identified. Bollard reports earlier AI-donor gifts in aggregate, covering a broader donor pool; those are neither new commitments nor post-October-29 cash. Zero records an empty identified ledger, not no giving. Existing funders and their room for funding remain context."
     }
   },
   commitments: commitmentLedger,

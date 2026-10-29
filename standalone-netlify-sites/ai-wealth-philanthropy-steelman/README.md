@@ -29,7 +29,7 @@ Edit the models here:
 - `src/utils/model.ts` and `src/content/modelDefaults.ts`: Anthropic-linked AIS/EA pathways and central inputs.
 - `src/utils/correlatedModel.ts`: correlated simulation, percentiles, and threshold probabilities.
 - `src/utils/globalDevelopmentModel.ts` and `src/utils/globalDevelopmentCorrelatedModel.ts`: GH&D calculation and uncertainty.
-- `src/utils/animalWelfareModel.ts` and `src/content/animalWelfare.ts`: exploratory Animal Welfare assumptions, simulation, primary sources, and initial frozen snapshot.
+- `src/utils/animalWelfareModel.ts` and `src/content/animalWelfare.ts`: exploratory Animal Welfare assumptions, simulation, primary sources, and frozen initial/reviewed snapshots.
 - `src/content/tracker.ts`: the dated source of truth for all three public trackers and `/tracker-data.json`.
 - `src/components/SiteNavigation.tsx`: shared dropdown groups; input groups and older evidence also use disclosures.
 
@@ -56,6 +56,7 @@ npm ci
 npm run build
 node scripts/verify_funding_models.mjs
 node --experimental-strip-types scripts/verify_animal_welfare_model.mjs
+node --experimental-strip-types scripts/diagnose_animal_welfare_model.mjs
 node scripts/verify_model_comparison.mjs
 ```
 
@@ -70,6 +71,23 @@ Current implementation: committed, pushed, deployed, and live-verified on Octobe
 was built from a clean export and published as Netlify deploy `6ae334f39a8b2e556f0a6bd6`. All three model routes and the
 comparison return 200; the live bundle and tracker feed match the reviewed build. Continue development from this folder
 and the model files above, rather than the maintenance automation prompt. Full release verification is in `RELEASE-REVIEW.md`.
+
+### Deeper Animal Welfare review (same day)
+
+At David's request, Codex compared the AW model with Bollard's AI-donor account, the live Metaculus cause-area map,
+RP's EA Survey and wild-animal funding-gap research, and Weinstock's capacity-building strategy. Personal-channel
+uptake rises from 65% to 85% and its conditional animal share from 2% to 5%. These remain subjective, with explicit
+donor/horizon mismatches; timing and institutional inputs are unchanged. The reviewed median is $155.3M, P10–P90
+$0–$1.749B, versus $33.8M and $0–$662.5M at launch. The original inputs are a preset and the original published point
+is retained in the current snapshot's `supersededSameDayReview`. AIS/EA, GH&D, and the October 2 comparison calculations
+are unchanged.
+
+The public research folds at `/animal-welfare/#aw-research` explain the choices. Reproduction and a complete input
+inventory are in [`research/animal-welfare-2026-10-29/quantitative-model-diagnostics-REPORT.md`](research/animal-welfare-2026-10-29/quantitative-model-diagnostics-REPORT.md).
+The new diagnostic script regenerates `diagnostics.json`: 52 one-at-a-time cells, 44 pairwise cells, mechanism shutoffs,
+distribution-width/dependence alternatives, and three seeds. No fitted targets or out-of-sample validation are claimed.
+Research sources are public; no donor identities or unverified recipient amounts are added to the ledger. The
+sensitivity table now fits narrow screens, and AW provenance tooltips no longer enlarge the desktop page width.
 
 ## Model comparison continuation (2 October 2026)
 

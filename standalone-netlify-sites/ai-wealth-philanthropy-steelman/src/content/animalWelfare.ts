@@ -10,7 +10,7 @@ export type AnimalWelfareEvidence = {
   implication: string;
 };
 
-/** Public primary sources; none establishes a named AI-wealth grant to animal welfare. */
+/** Public primary sources. Aggregate donor reports are not an itemized cash ledger. */
 export const animalWelfareEvidence: AnimalWelfareEvidence[] = [
   {
     id: "aw-anthropic-s1",
@@ -47,6 +47,51 @@ export const animalWelfareEvidence: AnimalWelfareEvidence[] = [
     accessed: animalWelfareReviewDate,
     finding: "The Foundation expects to invest at least $1B over the following year in life sciences, jobs and economic impact, AI resilience, and community programs.",
     implication: "This informs the scale of an editable prospective-flow scenario. It is not an unallocated pot, an animal-welfare pledge, or a second amount to add to the Foundation's named grants."
+  },
+  {
+    id: "aw-bollard-ai-windfall",
+    title: "Lewis Bollard: The AI Windfall",
+    url: "https://farmanimalwelfare.substack.com/p/the-ai-windfall",
+    eventDate: "2026-08-05",
+    accessed: animalWelfareReviewDate,
+    finding: "Coefficient Giving's farm-animal lead reports tens of millions already donated by newly wealthy AI donors during 2026. The account does not itemize donors, recipients, payment dates, or the Anthropic share.",
+    implication: "Evidence that AI-linked animal giving already exists; raises the subjective chance of further personal giving. Earlier gifts are excluded from this prospective forecast and no amount is added to the named ledger."
+  },
+  {
+    id: "aw-metaculus-cause-model",
+    title: "Metaculus: IPO windfall cause-area model",
+    url: "https://radiant.metaculus.com/projects/e80a5e79-b71f-4c4b-bf4a-821497fedcee",
+    eventDate: "Live map; inspected 2026-10-29",
+    accessed: animalWelfareReviewDate,
+    finding: "The individual-giving animal weight has P10/P50/P90 of 1.87/5.93/17.3 percentage points from three predictions by two people. The map floors negative weights and normalizes all nine causes in each draw. Its window ends in 2031, and its individuals include both labs.",
+    implication: "Supports exploring a several-percent allocation. These are raw weights, not normalized animal-share percentiles or end-2027 forecasts. We use a judgmental 5% conditional center, not its dollar output. The map assigns no OpenAI Foundation animal channel; ours remains a small explicit speculative path."
+  },
+  {
+    id: "aw-rp-cause-survey",
+    title: "Rethink Priorities: EA Survey 2024 cause prioritization",
+    url: "https://forum.effectivealtruism.org/posts/CKwDgZGLipchAoxtN/ea-survey-2024-cause-prioritization",
+    eventDate: "2025-12-04; 2024 survey",
+    accessed: animalWelfareReviewDate,
+    finding: "Respondents' preferred resource allocation averaged about 24% to near-term animal-focused causes.",
+    implication: "Preferences of a selected EA sample are not dollar-weighted donations by AI shareholders. This supports a high-allocation sensitivity case, not a 24% forecast for this donor pool."
+  },
+  {
+    id: "aw-rp-wild-capacity",
+    title: "Rethink Priorities: wild-animal room for more funding",
+    url: "https://rethinkpriorities.org/research-area/wild-animal-welfare-rfmf/",
+    eventDate: "2026-08-14",
+    accessed: animalWelfareReviewDate,
+    finding: "The covered organizations report $3.16M–$8.23M of additional 2027 room for funding. Organizations supplied their own estimates; RP does not endorse each estimate.",
+    implication: "Capacity differs sharply across animal subfields. This is neither an all-animal ceiling nor a prediction of AI-funded cash; it does not justify imposing a hard cap on the whole model."
+  },
+  {
+    id: "aw-weinstock-strategy",
+    title: "Itsi Weinstock: The San Francisco Strategy for Animal Welfare",
+    url: "https://frontieranimals.substack.com/p/the-san-francisco-strategy-for-animal",
+    eventDate: "2026-07-30",
+    accessed: animalWelfareReviewDate,
+    finding: "A strategy essay advocates scaling the movement's capacity to at least $1B by mid-2027. Its spring-2027 giving scenario assumes 2026 IPOs and a six-month lockup.",
+    implication: "An ambition and conditional timeline, not measured capacity or verified sale terms. Recipient readiness belongs in payout uncertainty; the model keeps its 5% personal payout center rather than assuming a spring windfall."
   },
   {
     id: "aw-coefficient-program",
@@ -91,13 +136,36 @@ export const animalWelfareInitialForecast = {
   note: "First animal-welfare model. The public S-1 and proposed fund support a possible liquidity path, but no named animal-welfare allocation was identified. Subjective channel-uptake events allow a genuine zero outcome. The fixed end-2027 deadline is reflected in low, uncertain payout rates; IPO filing is not treated as cash. Seed 20261029; 20,000 draws."
 };
 
+export const animalWelfareReviewedForecast = {
+  date: animalWelfareReviewDate,
+  medianB: 0.1552849253925997,
+  low80B: 0,
+  high80B: 1.749199488483615,
+  reviewStatus: "Literature-informed re-estimation; donor allocation and timing remain judgmental",
+  inputsChanged: true,
+  note: "Same-day deeper review: Bollard's August report of existing AI-donor animal gifts raises personal-channel uptake from 65% to 85%; sparse Metaculus end-2031 cause weights inform a conditional animal share of 5%, up from 2%. Neither source measures this Anthropic pool or deadline. Earlier gifts are not added to prospective cash. Personal payout stays 5%: no new sale, lockup, or recipient-payment evidence justifies accelerating it. Institutional inputs and the fixed end-2027 horizon are unchanged. Seed 20261029; 20,000 draws.",
+  supersededSameDayReview: {
+    medianB: animalWelfareInitialForecast.medianB,
+    low80B: animalWelfareInitialForecast.low80B,
+    high80B: animalWelfareInitialForecast.high80B,
+    note: animalWelfareInitialForecast.note
+  }
+};
+
 export const animalWelfareForecastTarget = "New cash from modeled AI-linked pathways reaching animal-welfare recipients from 29 October 2026 through 31 December 2027";
 
 export const animalWelfareNews = [
   {
     date: "2026-10-29",
-    title: "Animal-welfare fork launched with cause allocation as an explicit hurdle",
-    summary: "The first estimate models individual/matched-equity giving, Anthropic's proposed Public Benefit Fund, and a prospective OpenAI Foundation channel. No named animal-welfare allocation was identified in the primary sources reviewed. Broad public-benefit promises therefore enter only through explicit, editable assumptions.",
+    title: "Deeper review raises the personal-giving scenario; early gifts remain outside the forecast",
+    summary: "An August grantmaker account describes substantial animal giving by new AI donors. Metaculus's longer-horizon allocation model also informs a larger, still judgmental personal animal share. The reviewed median is $155M, with a $0–$1.75B 80% model interval. The end-2027 payout assumption is unchanged; no aggregate past gifts enter the named ledger.",
+    strength: "Reported" as const,
+    evidenceIds: ["aw-bollard-ai-windfall", "aw-metaculus-cause-model"]
+  },
+  {
+    date: "2026-10-29",
+    title: "Initial launch: cause allocation enters as an explicit hurdle",
+    summary: "The launch estimate separated individual/matched-equity giving, Anthropic's proposed Public Benefit Fund, and a prospective OpenAI Foundation channel. Its original settings and published forecast remain available. The deeper same-day review above adds previously omitted donor-giving evidence and external allocation research.",
     strength: "Planned" as const,
     evidenceIds: ["aw-anthropic-public-benefit-fund", "aw-openai-foundation-plan"]
   }

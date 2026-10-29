@@ -26,10 +26,21 @@
 .animal-welfare-page .aw-interval-chart svg text { font-size: 14px; font-family: inherit; }
 .animal-welfare-page .aw-calculator .section-heading { align-items: start; }
 .animal-welfare-page .aw-disclosure li { margin: .7rem 0; }
-.animal-welfare-page .aw-disclosure table { width: 100%; }
+.animal-welfare-page .aw-disclosure table { width: 100%; min-width: 0; }
 .animal-welfare-page .aw-disclosure th:first-child,
 .animal-welfare-page .aw-disclosure td:first-child { width: 60%; }
+.animal-welfare-page .aw-disclosure .aw-sensitivity-table { table-layout: fixed; }
+.animal-welfare-page .aw-disclosure .aw-sensitivity-table th,
+.animal-welfare-page .aw-disclosure .aw-sensitivity-table td { width: auto; padding: .45rem .6rem; line-height: 1.35; vertical-align: top; }
 .animal-welfare-page .aw-control:focus-within { outline: 2px solid #a3c8b5; outline-offset: 5px; border-radius: 3px; }
+@media (min-width: 561px) {
+  .animal-welfare-page .author-note .provenance-popover,
+  .animal-welfare-page .tracker-heading .provenance-popover { right: 0; left: auto; transform: translateY(4px); }
+  .animal-welfare-page .author-note .provenance-tip:hover .provenance-popover,
+  .animal-welfare-page .author-note .provenance-tip:focus-within .provenance-popover,
+  .animal-welfare-page .tracker-heading .provenance-tip:hover .provenance-popover,
+  .animal-welfare-page .tracker-heading .provenance-tip:focus-within .provenance-popover { transform: translateY(0); }
+}
 @media (max-width: 700px) {
   .animal-welfare-page .aw-live-results,
   .animal-welfare-page .aw-controls,
@@ -38,4 +49,10 @@
   .animal-welfare-page .aw-disclosure { padding: .9rem; }
   .animal-welfare-page .aw-interval-chart svg text { font-size: 16px; }
   .animal-welfare-page .aw-input-row input[type="number"] { width: 5rem; }
+  .animal-welfare-page .aw-sensitivity-table { font-size: .875rem; }
+  .animal-welfare-page .aw-sensitivity-table col:nth-child(1) { width: 44% !important; }
+  .animal-welfare-page .aw-sensitivity-table col:nth-child(2) { width: 24% !important; }
+  .animal-welfare-page .aw-sensitivity-table col:nth-child(3) { width: 32% !important; }
+  .animal-welfare-page .aw-disclosure .aw-sensitivity-table th,
+  .animal-welfare-page .aw-disclosure .aw-sensitivity-table td { padding: .4rem .35rem; }
 }

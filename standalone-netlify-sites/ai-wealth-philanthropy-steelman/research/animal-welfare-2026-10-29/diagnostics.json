@@ -1,0 +1,2283 @@
+{
+  "reviewDate": "2026-10-29",
+  "target": "Recipient cash from modeled pathways, 2026-10-29 through 2027-12-31; nominal USD billions",
+  "method": "20,000 common-seed draws per cell; all other inputs held fixed; no fitted block to re-solve",
+  "baseline": {
+    "medianB": 0.1552849253925997,
+    "low80B": 0,
+    "high80B": 1.749199488483615,
+    "meanB": 0.7688050219834763,
+    "probabilityZero": 0.1336,
+    "probabilityAtLeast10M": 0.821,
+    "probabilityAtLeast100M": 0.57835,
+    "draws": 20000,
+    "seed": 20261029
+  },
+  "original": {
+    "medianB": 0.03377286682026971,
+    "low80B": 0,
+    "high80B": 0.6624607119893011,
+    "meanB": 0.3028876545022099,
+    "probabilityZero": 0.30155,
+    "probabilityAtLeast10M": 0.6137,
+    "probabilityAtLeast100M": 0.3429,
+    "draws": 20000,
+    "seed": 20261029
+  },
+  "plugInWeighted": {
+    "personalB": 0.18455625,
+    "publicFundB": 0.0015633000000000003,
+    "openAiFoundationB": 0.0012,
+    "totalB": 0.18731955
+  },
+  "inventory": [
+    {
+      "key": "anthropicValuationB",
+      "label": "Anthropic paper valuation",
+      "value": 965,
+      "unit": "$B",
+      "provenance": "Source anchor",
+      "definitionAndLimit": "May 28 Series H post-money valuation; the eventual realizable share value can differ substantially. The simulation puts wide uncertainty around this anchor.",
+      "sweepValues": [
+        300,
+        965,
+        1800
+      ]
+    },
+    {
+      "key": "personalPledgedEquityPct",
+      "label": "Pledged pool outside the new fund",
+      "value": 15,
+      "unit": "%",
+      "provenance": "Derived approximation",
+      "definitionAndLimit": "Approximate residual: roughly 20% public-good shares minus the proposed 5% fund stake. Includes founder pledges, employee gifts, and company matching; ownership breakdown and dilution remain uncertain.",
+      "sweepValues": [
+        7.5,
+        15,
+        20
+      ]
+    },
+    {
+      "key": "personalRealizationPct",
+      "label": "Pledge and equity realization",
+      "value": 60,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Fraction of this paper pool ultimately realized, allowing for pledge fulfillment, valuation/ownership differences, and sale constraints. It is not a reported paid amount.",
+      "sweepValues": [
+        30,
+        60,
+        90
+      ]
+    },
+    {
+      "key": "personalPaidByEnd2027Pct",
+      "label": "Realized pool paid by end-2027",
+      "value": 5,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Fraction converted into recipient cash by the fixed deadline. IPO timing, lockups, retained endowments, donor decisions, and grantee readiness matter.",
+      "sweepValues": [
+        1,
+        2,
+        5,
+        12
+      ]
+    },
+    {
+      "key": "personalAwUptakePct",
+      "label": "Chance this channel funds animal welfare",
+      "value": 85,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Chance of new recipient cash from this pooled channel by end-2027. Raised from 65% to 85% after Bollard's report of existing AI-donor gifts. His report covers a broader donor group and earlier gifts, so 85% remains a judgment, not an observed rate.",
+      "sweepValues": [
+        40,
+        65,
+        85,
+        95
+      ]
+    },
+    {
+      "key": "personalAwAllocationPct",
+      "label": "Animal-welfare share if adopted",
+      "value": 5,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Conditional share of recipient cash, raised from 2% to 5%. Informed by Metaculus's sparse end-2031 cause-weight forecasts, not copied from a normalized share estimate. The donor pool, deadline, and conditioning differ; 2–10% scenarios remain useful.",
+      "sweepValues": [
+        1,
+        2,
+        5,
+        10,
+        24
+      ]
+    },
+    {
+      "key": "publicFundEquityPct",
+      "label": "Proposed initial fund stake",
+      "value": 5,
+      "unit": "%",
+      "provenance": "Source anchor",
+      "definitionAndLimit": "The October 18 announcement proposes 5%, subject to stockholder approval. Discretionary later milestone awards are excluded.",
+      "sweepValues": [
+        0,
+        5,
+        10
+      ]
+    },
+    {
+      "key": "publicFundApprovalPct",
+      "label": "Chance stake is approved",
+      "value": 90,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Subjective probability that the initial stake becomes operative. The announcement describes approval as outstanding.",
+      "sweepValues": [
+        50,
+        90,
+        100
+      ]
+    },
+    {
+      "key": "publicFundRealizationPct",
+      "label": "Equity realization",
+      "value": 60,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Fraction of paper share value ultimately available to the fund after ownership, price, and sale constraints.",
+      "sweepValues": [
+        30,
+        60,
+        90
+      ]
+    },
+    {
+      "key": "publicFundPaidByEnd2027Pct",
+      "label": "Realized fund paid by end-2027",
+      "value": 3,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Fraction reaching recipients in cash by the deadline; the announcement supplies no payout schedule.",
+      "sweepValues": [
+        0,
+        3,
+        8
+      ]
+    },
+    {
+      "key": "publicFundAwUptakePct",
+      "label": "Chance fund supports animal welfare",
+      "value": 20,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "A separate cause-choice hurdle. The broad mandate and worker-distribution example do not imply animal-welfare support.",
+      "sweepValues": [
+        0,
+        20,
+        50
+      ]
+    },
+    {
+      "key": "publicFundAwAllocationPct",
+      "label": "Animal-welfare share if adopted",
+      "value": 1,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Conditional animal-welfare share of fund cash. The fund is an LLC, and public-benefit spending need not be charitable grants.",
+      "sweepValues": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "key": "openAiProgramEnvelopeB",
+      "label": "Prospective program envelope",
+      "value": 1,
+      "unit": "$B",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Scenario anchor informed by the March 2026 plan to invest at least $1B over a year. This does not reserve $1B for future unallocated grants, extend the plan to 2027, or assign any money to animals.",
+      "sweepValues": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": "openAiCashPaidPct",
+      "label": "Envelope reaching recipients in cash",
+      "value": 80,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Discount for implementation, timing, in-kind support, and foundation operating spending. The prospective envelope is a scenario, not a second count of its announced grants.",
+      "sweepValues": [
+        40,
+        80,
+        100
+      ]
+    },
+    {
+      "key": "openAiAwUptakePct",
+      "label": "Chance Foundation funds animal welfare",
+      "value": 15,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Low subjective uptake probability because announced focus areas emphasize people, health, jobs, AI resilience, and communities. Absence of an animal program is informative, but not proof one cannot emerge.",
+      "sweepValues": [
+        0,
+        15,
+        40
+      ]
+    },
+    {
+      "key": "openAiAwAllocationPct",
+      "label": "Animal-welfare share if adopted",
+      "value": 1,
+      "unit": "%",
+      "provenance": "Subjective assumption",
+      "definitionAndLimit": "Conditional share of prospective cash assigned to animal welfare. No such allocation is established by the Foundation's general investment plan.",
+      "sweepValues": [
+        0,
+        1,
+        5
+      ]
+    }
+  ],
+  "oneAtATime": [
+    {
+      "key": "anthropicValuationB",
+      "value": 300,
+      "summary": {
+        "medianB": 0.050658842478093005,
+        "low80B": 0,
+        "high80B": 0.5514677401143888,
+        "meanB": 0.24173726258689476,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7426,
+        "probabilityAtLeast100M": 0.36375,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "anthropicValuationB",
+      "value": 965,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "anthropicValuationB",
+      "value": 1800,
+      "summary": {
+        "medianB": 0.2855425098329507,
+        "low80B": 0,
+        "high80B": 3.261125588214999,
+        "meanB": 1.4306119078423367,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.84195,
+        "probabilityAtLeast100M": 0.67385,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalPledgedEquityPct",
+      "value": 7.5,
+      "summary": {
+        "medianB": 0.08123742023267796,
+        "low80B": 0,
+        "high80B": 0.89921396050521,
+        "meanB": 0.3942400581314964,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.78565,
+        "probabilityAtLeast100M": 0.4589,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalPledgedEquityPct",
+      "value": 15,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalPledgedEquityPct",
+      "value": 20,
+      "summary": {
+        "medianB": 0.20373591381815026,
+        "low80B": 0,
+        "high80B": 2.3192757562771273,
+        "meanB": 1.018514997884795,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8317,
+        "probabilityAtLeast100M": 0.6257,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalRealizationPct",
+      "value": 30,
+      "summary": {
+        "medianB": 0.08070380550600062,
+        "low80B": 0,
+        "high80B": 1.0204183033470235,
+        "meanB": 0.4544918004496701,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7769,
+        "probabilityAtLeast100M": 0.4588,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalRealizationPct",
+      "value": 60,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalRealizationPct",
+      "value": 90,
+      "summary": {
+        "medianB": 0.2388938654927108,
+        "low80B": 0,
+        "high80B": 2.4485244988749497,
+        "meanB": 1.056290583800535,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8401,
+        "probabilityAtLeast100M": 0.6544,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalPaidByEnd2027Pct",
+      "value": 1,
+      "summary": {
+        "medianB": 0.035363261679829824,
+        "low80B": 0,
+        "high80B": 0.40965382503551256,
+        "meanB": 0.19092189938637694,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7015,
+        "probabilityAtLeast100M": 0.3036,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalPaidByEnd2027Pct",
+      "value": 2,
+      "summary": {
+        "medianB": 0.06645175140446444,
+        "low80B": 0,
+        "high80B": 0.7623137847422169,
+        "meanB": 0.34866859398256306,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.76765,
+        "probabilityAtLeast100M": 0.4196,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalPaidByEnd2027Pct",
+      "value": 5,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalPaidByEnd2027Pct",
+      "value": 12,
+      "summary": {
+        "medianB": 0.3595711557661191,
+        "low80B": 0,
+        "high80B": 3.7653439424527,
+        "meanB": 1.5697811847561185,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.84615,
+        "probabilityAtLeast100M": 0.70575,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwUptakePct",
+      "value": 40,
+      "summary": {
+        "medianB": 0.0017381211079826086,
+        "low80B": 0,
+        "high80B": 0.9553024097873072,
+        "meanB": 0.4586235450210538,
+        "probabilityZero": 0.4845,
+        "probabilityAtLeast10M": 0.4528,
+        "probabilityAtLeast100M": 0.30535,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwUptakePct",
+      "value": 65,
+      "summary": {
+        "medianB": 0.07445235635558503,
+        "low80B": 0,
+        "high80B": 1.4786759493411454,
+        "meanB": 0.649089979501798,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.6503,
+        "probabilityAtLeast100M": 0.4605,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwUptakePct",
+      "value": 85,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwUptakePct",
+      "value": 95,
+      "summary": {
+        "medianB": 0.19196635822110575,
+        "low80B": 0.011771796632921426,
+        "high80B": 1.8667708573580934,
+        "meanB": 0.828929287990358,
+        "probabilityZero": 0.04405,
+        "probabilityAtLeast10M": 0.90835,
+        "probabilityAtLeast100M": 0.6344,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwAllocationPct",
+      "value": 1,
+      "summary": {
+        "medianB": 0.03571169432721205,
+        "low80B": 0,
+        "high80B": 0.4217542057957658,
+        "meanB": 0.1954792284902948,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7017,
+        "probabilityAtLeast100M": 0.3055,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwAllocationPct",
+      "value": 2,
+      "summary": {
+        "medianB": 0.0670920373063531,
+        "low80B": 0,
+        "high80B": 0.7780064074354968,
+        "meanB": 0.3544182101388543,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7682,
+        "probabilityAtLeast100M": 0.4209,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwAllocationPct",
+      "value": 5,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwAllocationPct",
+      "value": 10,
+      "summary": {
+        "medianB": 0.29747219916734297,
+        "low80B": 0,
+        "high80B": 3.177176842669633,
+        "meanB": 1.3388336027682803,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8428,
+        "probabilityAtLeast100M": 0.68125,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "personalAwAllocationPct",
+      "value": 24,
+      "summary": {
+        "medianB": 0.6732794071543917,
+        "low80B": 0,
+        "high80B": 6.408668882398246,
+        "meanB": 2.575171525830423,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8539,
+        "probabilityAtLeast100M": 0.7752,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundEquityPct",
+      "value": 0,
+      "summary": {
+        "medianB": 0.1496611507897313,
+        "low80B": 0,
+        "high80B": 1.7173486722108606,
+        "meanB": 0.7530922612397655,
+        "probabilityZero": 0.14275,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57175,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundEquityPct",
+      "value": 5,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundEquityPct",
+      "value": 10,
+      "summary": {
+        "medianB": 0.15925965667707978,
+        "low80B": 0,
+        "high80B": 1.784666391332587,
+        "meanB": 0.7845177827271866,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.82285,
+        "probabilityAtLeast100M": 0.58205,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundApprovalPct",
+      "value": 50,
+      "summary": {
+        "medianB": 0.15236534121811407,
+        "low80B": 0,
+        "high80B": 1.7351881902219146,
+        "meanB": 0.7609086731940014,
+        "probabilityZero": 0.13775,
+        "probabilityAtLeast10M": 0.8188,
+        "probabilityAtLeast100M": 0.57525,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundApprovalPct",
+      "value": 90,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundApprovalPct",
+      "value": 100,
+      "summary": {
+        "medianB": 0.15598565759127347,
+        "low80B": 0,
+        "high80B": 1.7554344673902569,
+        "meanB": 0.7704572837133175,
+        "probabilityZero": 0.1329,
+        "probabilityAtLeast10M": 0.8215,
+        "probabilityAtLeast100M": 0.57895,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundRealizationPct",
+      "value": 30,
+      "summary": {
+        "medianB": 0.15280193536361267,
+        "low80B": 0,
+        "high80B": 1.7383479810625315,
+        "meanB": 0.76324462419687,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.82,
+        "probabilityAtLeast100M": 0.57575,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundRealizationPct",
+      "value": 60,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundRealizationPct",
+      "value": 90,
+      "summary": {
+        "medianB": 0.15747180575042277,
+        "low80B": 0,
+        "high80B": 1.759224272502162,
+        "meanB": 0.7729758208525144,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8223,
+        "probabilityAtLeast100M": 0.5804,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundPaidByEnd2027Pct",
+      "value": 0,
+      "summary": {
+        "medianB": 0.1496611507897313,
+        "low80B": 0,
+        "high80B": 1.7173486722108606,
+        "meanB": 0.7530922612397655,
+        "probabilityZero": 0.14275,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57175,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundPaidByEnd2027Pct",
+      "value": 3,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundPaidByEnd2027Pct",
+      "value": 8,
+      "summary": {
+        "medianB": 0.1606417556726107,
+        "low80B": 0,
+        "high80B": 1.8007947142374687,
+        "meanB": 0.7875701365758855,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8237,
+        "probabilityAtLeast100M": 0.58295,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundAwUptakePct",
+      "value": 0,
+      "summary": {
+        "medianB": 0.1496611507897313,
+        "low80B": 0,
+        "high80B": 1.7173486722108606,
+        "meanB": 0.7530922612397655,
+        "probabilityZero": 0.14275,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57175,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundAwUptakePct",
+      "value": 20,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundAwUptakePct",
+      "value": 50,
+      "summary": {
+        "medianB": 0.1625889592888038,
+        "low80B": 0,
+        "high80B": 1.79152412662512,
+        "meanB": 0.783800204808456,
+        "probabilityZero": 0.10815,
+        "probabilityAtLeast10M": 0.83395,
+        "probabilityAtLeast100M": 0.58745,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundAwAllocationPct",
+      "value": 0,
+      "summary": {
+        "medianB": 0.1496611507897313,
+        "low80B": 0,
+        "high80B": 1.7173486722108606,
+        "meanB": 0.7530922612397655,
+        "probabilityZero": 0.14275,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57175,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundAwAllocationPct",
+      "value": 1,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "publicFundAwAllocationPct",
+      "value": 5,
+      "summary": {
+        "medianB": 0.16458994727362786,
+        "low80B": 0,
+        "high80B": 1.857778915587125,
+        "meanB": 0.8157847832683757,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8255,
+        "probabilityAtLeast100M": 0.58725,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiProgramEnvelopeB",
+      "value": 0,
+      "summary": {
+        "medianB": 0.1510924119226409,
+        "low80B": 0,
+        "high80B": 1.7449087863714468,
+        "meanB": 0.7648426884476742,
+        "probabilityZero": 0.1383,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57265,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiProgramEnvelopeB",
+      "value": 1,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiProgramEnvelopeB",
+      "value": 2,
+      "summary": {
+        "medianB": 0.15864245145429914,
+        "low80B": 0,
+        "high80B": 1.7590931023448042,
+        "meanB": 0.7727673555192829,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8226,
+        "probabilityAtLeast100M": 0.5834,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiCashPaidPct",
+      "value": 40,
+      "summary": {
+        "medianB": 0.15287471905039107,
+        "low80B": 0,
+        "high80B": 1.7479671808676043,
+        "meanB": 0.7669000841435607,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.81875,
+        "probabilityAtLeast100M": 0.57535,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiCashPaidPct",
+      "value": 80,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiCashPaidPct",
+      "value": 100,
+      "summary": {
+        "medianB": 0.15683959691828855,
+        "low80B": 0,
+        "high80B": 1.7504287437485302,
+        "meanB": 0.7699134060764719,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8219,
+        "probabilityAtLeast100M": 0.58085,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiAwUptakePct",
+      "value": 0,
+      "summary": {
+        "medianB": 0.1510924119226409,
+        "low80B": 0,
+        "high80B": 1.7449087863714468,
+        "meanB": 0.7648426884476742,
+        "probabilityZero": 0.1383,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57265,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiAwUptakePct",
+      "value": 15,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiAwUptakePct",
+      "value": 40,
+      "summary": {
+        "medianB": 0.16107981298931673,
+        "low80B": 0,
+        "high80B": 1.7567254089860693,
+        "meanB": 0.7739908902380276,
+        "probabilityZero": 0.114,
+        "probabilityAtLeast10M": 0.83435,
+        "probabilityAtLeast100M": 0.58775,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiAwAllocationPct",
+      "value": 0,
+      "summary": {
+        "medianB": 0.1510924119226409,
+        "low80B": 0,
+        "high80B": 1.7449087863714468,
+        "meanB": 0.7648426884476742,
+        "probabilityZero": 0.1383,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57265,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiAwAllocationPct",
+      "value": 1,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "key": "openAiAwAllocationPct",
+      "value": 5,
+      "summary": {
+        "medianB": 0.16652437749106191,
+        "low80B": 0,
+        "high80B": 1.7845434955658896,
+        "meanB": 0.7810516818686447,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.82395,
+        "probabilityAtLeast100M": 0.5932,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    }
+  ],
+  "joint": [
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.00895331235352981,
+        "low80B": 0,
+        "high80B": 0.11943303013545704,
+        "meanB": 0.060032838187923925,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.48155,
+        "probabilityAtLeast100M": 0.11945,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.01623999924281034,
+        "low80B": 0,
+        "high80B": 0.2009648501157852,
+        "meanB": 0.096405353897193,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.5829,
+        "probabilityAtLeast100M": 0.1842,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.035363261679829824,
+        "low80B": 0,
+        "high80B": 0.40965382503551256,
+        "meanB": 0.19092189938637694,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7015,
+        "probabilityAtLeast100M": 0.3036,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.06509683233387803,
+        "low80B": 0,
+        "high80B": 0.721351208652746,
+        "meanB": 0.3205503941163006,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7691,
+        "probabilityAtLeast100M": 0.4146,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 2,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.01624109857413221,
+        "low80B": 0,
+        "high80B": 0.20191617579359217,
+        "meanB": 0.09706318881631967,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.58315,
+        "probabilityAtLeast100M": 0.186,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 2,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.029328649092202175,
+        "low80B": 0,
+        "high80B": 0.3543976171324969,
+        "meanB": 0.1669074509481509,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.6758,
+        "probabilityAtLeast100M": 0.27305,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 2,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.06645175140446444,
+        "low80B": 0,
+        "high80B": 0.7623137847422169,
+        "meanB": 0.34866859398256306,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.76765,
+        "probabilityAtLeast100M": 0.4196,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 2,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.12444927313671683,
+        "low80B": 0,
+        "high80B": 1.3716094008216453,
+        "meanB": 0.5982741433423663,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8117,
+        "probabilityAtLeast100M": 0.54065,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 5,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.03571169432721205,
+        "low80B": 0,
+        "high80B": 0.4217542057957658,
+        "meanB": 0.1954792284902948,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7017,
+        "probabilityAtLeast100M": 0.3055,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 5,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.0670920373063531,
+        "low80B": 0,
+        "high80B": 0.7780064074354968,
+        "meanB": 0.3544182101388543,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7682,
+        "probabilityAtLeast100M": 0.4209,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 5,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 5,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.29747219916734297,
+        "low80B": 0,
+        "high80B": 3.177176842669633,
+        "meanB": 1.3388336027682803,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8428,
+        "probabilityAtLeast100M": 0.68125,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 12,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.078401231008383,
+        "low80B": 0,
+        "high80B": 0.8687528587159731,
+        "meanB": 0.3829493099796227,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.78405,
+        "probabilityAtLeast100M": 0.45125,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 12,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.14951752597519458,
+        "low80B": 0,
+        "high80B": 1.648221412862492,
+        "meanB": 0.7116883712850461,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8206,
+        "probabilityAtLeast100M": 0.57375,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 12,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.3595711557661191,
+        "low80B": 0,
+        "high80B": 3.7653439424527,
+        "meanB": 1.5697811847561185,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.84615,
+        "probabilityAtLeast100M": 0.70575,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 12,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.6988540843138398,
+        "low80B": 0,
+        "high80B": 6.775155582236944,
+        "meanB": 2.7516019173215565,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8534,
+        "probabilityAtLeast100M": 0.7738,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.0011215638310071792,
+        "low80B": 0,
+        "high80B": 0.2440379087871044,
+        "meanB": 0.12541320413098314,
+        "probabilityZero": 0.4845,
+        "probabilityAtLeast10M": 0.4092,
+        "probabilityAtLeast100M": 0.18145,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.001472716073736272,
+        "low80B": 0,
+        "high80B": 0.43225049880283317,
+        "meanB": 0.21941877654626818,
+        "probabilityZero": 0.4845,
+        "probabilityAtLeast10M": 0.43395,
+        "probabilityAtLeast100M": 0.23685,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.0017381211079826086,
+        "low80B": 0,
+        "high80B": 0.9553024097873072,
+        "meanB": 0.4586235450210538,
+        "probabilityZero": 0.4845,
+        "probabilityAtLeast10M": 0.4528,
+        "probabilityAtLeast100M": 0.30535,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.0018181616513788608,
+        "low80B": 0,
+        "high80B": 1.7067497987587548,
+        "meanB": 0.7766198023572248,
+        "probabilityZero": 0.4845,
+        "probabilityAtLeast10M": 0.4609,
+        "probabilityAtLeast100M": 0.35,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 65,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.018961130082788682,
+        "low80B": 0,
+        "high80B": 0.3603744654924465,
+        "meanB": 0.16884509756982793,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.56795,
+        "probabilityAtLeast100M": 0.25485,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 65,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.03377286682026971,
+        "low80B": 0,
+        "high80B": 0.6624607119893011,
+        "meanB": 0.3028876545022099,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.6137,
+        "probabilityAtLeast100M": 0.3429,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 65,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.07445235635558503,
+        "low80B": 0,
+        "high80B": 1.4786759493411454,
+        "meanB": 0.649089979501798,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.6503,
+        "probabilityAtLeast100M": 0.4605,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 65,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.1394767262620491,
+        "low80B": 0,
+        "high80B": 2.677725274281401,
+        "meanB": 1.1186828388535717,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.66525,
+        "probabilityAtLeast100M": 0.5355,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 85,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.03571169432721205,
+        "low80B": 0,
+        "high80B": 0.4217542057957658,
+        "meanB": 0.1954792284902948,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7017,
+        "probabilityAtLeast100M": 0.3055,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 85,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.0670920373063531,
+        "low80B": 0,
+        "high80B": 0.7780064074354968,
+        "meanB": 0.3544182101388543,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7682,
+        "probabilityAtLeast100M": 0.4209,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 85,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 85,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.29747219916734297,
+        "low80B": 0,
+        "high80B": 3.177176842669633,
+        "meanB": 1.3388336027682803,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8428,
+        "probabilityAtLeast100M": 0.68125,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 95,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.04335859184244923,
+        "low80B": 0.002455087187838648,
+        "high80B": 0.44739387101047323,
+        "meanB": 0.20898554463492428,
+        "probabilityZero": 0.04405,
+        "probabilityAtLeast10M": 0.7685,
+        "probabilityAtLeast100M": 0.3282,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 95,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.08157944644521123,
+        "low80B": 0.004790850610030789,
+        "high80B": 0.8288456896331282,
+        "meanB": 0.38050633883470075,
+        "probabilityZero": 0.04405,
+        "probabilityAtLeast10M": 0.84495,
+        "probabilityAtLeast100M": 0.45635,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 95,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.19196635822110575,
+        "low80B": 0.011771796632921426,
+        "high80B": 1.8667708573580934,
+        "meanB": 0.828929287990358,
+        "probabilityZero": 0.04405,
+        "probabilityAtLeast10M": 0.90835,
+        "probabilityAtLeast100M": 0.6344,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 95,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.36825218872245247,
+        "low80B": 0.023221310664708703,
+        "high80B": 3.3904462493673204,
+        "meanB": 1.44825501311702,
+        "probabilityZero": 0.04405,
+        "probabilityAtLeast10M": 0.93415,
+        "probabilityAtLeast100M": 0.7519,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.012222912221849836,
+        "low80B": 0,
+        "high80B": 0.13971750408649675,
+        "meanB": 0.06350126460973908,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.5366,
+        "probabilityAtLeast100M": 0.1375,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.02228439075106845,
+        "low80B": 0,
+        "high80B": 0.24957846066703226,
+        "meanB": 0.11291234698753021,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.63765,
+        "probabilityAtLeast100M": 0.22185,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.050658842478093005,
+        "low80B": 0,
+        "high80B": 0.5514677401143888,
+        "meanB": 0.24173726258689476,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7426,
+        "probabilityAtLeast100M": 0.36375,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.09468057174734865,
+        "low80B": 0,
+        "high80B": 0.9923741390988332,
+        "meanB": 0.41894822034382534,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.79595,
+        "probabilityAtLeast100M": 0.48965,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 965,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.03571169432721205,
+        "low80B": 0,
+        "high80B": 0.4217542057957658,
+        "meanB": 0.1954792284902948,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7017,
+        "probabilityAtLeast100M": 0.3055,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 965,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.0670920373063531,
+        "low80B": 0,
+        "high80B": 0.7780064074354968,
+        "meanB": 0.3544182101388543,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7682,
+        "probabilityAtLeast100M": 0.4209,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 965,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 965,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.29747219916734297,
+        "low80B": 0,
+        "high80B": 3.177176842669633,
+        "meanB": 1.3388336027682803,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8428,
+        "probabilityAtLeast100M": 0.68125,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 1800,
+      "personalAwAllocationPct": 1,
+      "summary": {
+        "medianB": 0.06449384237154587,
+        "low80B": 0,
+        "high80B": 0.7788740594927395,
+        "meanB": 0.36119591997941475,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.76485,
+        "probabilityAtLeast100M": 0.4154,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 1800,
+      "personalAwAllocationPct": 2,
+      "summary": {
+        "medianB": 0.1216014313031871,
+        "low80B": 0,
+        "high80B": 1.447061929975612,
+        "meanB": 0.6576624142461606,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.8097,
+        "probabilityAtLeast100M": 0.5357,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 1800,
+      "personalAwAllocationPct": 5,
+      "summary": {
+        "medianB": 0.2855425098329507,
+        "low80B": 0,
+        "high80B": 3.261125588214999,
+        "meanB": 1.4306119078423367,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.84195,
+        "probabilityAtLeast100M": 0.67385,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 1800,
+      "personalAwAllocationPct": 10,
+      "summary": {
+        "medianB": 0.5523124580273673,
+        "low80B": 0,
+        "high80B": 5.925737935770391,
+        "meanB": 2.4938776543839296,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.85245,
+        "probabilityAtLeast100M": 0.75135,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Original published assumptions",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 65,
+        "personalAwAllocationPct": 2,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.03377286682026971,
+        "low80B": 0,
+        "high80B": 0.6624607119893011,
+        "meanB": 0.3028876545022099,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.6137,
+        "probabilityAtLeast100M": 0.3429,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Uptake change only",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 85,
+        "personalAwAllocationPct": 2,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.0670920373063531,
+        "low80B": 0,
+        "high80B": 0.7780064074354968,
+        "meanB": 0.3544182101388543,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.7682,
+        "probabilityAtLeast100M": 0.4209,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Allocation change only",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 65,
+        "personalAwAllocationPct": 5,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.07445235635558503,
+        "low80B": 0,
+        "high80B": 1.4786759493411454,
+        "meanB": 0.649089979501798,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.6503,
+        "probabilityAtLeast100M": 0.4605,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Reviewed defaults",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 5,
+        "personalAwUptakePct": 85,
+        "personalAwAllocationPct": 5,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Joint slower, weaker allocation",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 2,
+        "personalAwUptakePct": 65,
+        "personalAwAllocationPct": 2,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.015619286983353742,
+        "low80B": 0,
+        "high80B": 0.3014936844097096,
+        "meanB": 0.14431955399830898,
+        "probabilityZero": 0.30155,
+        "probabilityAtLeast10M": 0.55015,
+        "probabilityAtLeast100M": 0.23015,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Joint faster, broader allocation",
+      "inputs": {
+        "anthropicValuationB": 965,
+        "personalPledgedEquityPct": 15,
+        "personalRealizationPct": 60,
+        "personalPaidByEnd2027Pct": 12,
+        "personalAwUptakePct": 95,
+        "personalAwAllocationPct": 10,
+        "publicFundEquityPct": 5,
+        "publicFundApprovalPct": 90,
+        "publicFundRealizationPct": 60,
+        "publicFundPaidByEnd2027Pct": 3,
+        "publicFundAwUptakePct": 20,
+        "publicFundAwAllocationPct": 1,
+        "openAiProgramEnvelopeB": 1,
+        "openAiCashPaidPct": 80,
+        "openAiAwUptakePct": 15,
+        "openAiAwAllocationPct": 1
+      },
+      "summary": {
+        "medianB": 0.8575260317313909,
+        "low80B": 0.05679346385843664,
+        "high80B": 7.238632003533192,
+        "meanB": 2.9784708441795575,
+        "probabilityZero": 0.04405,
+        "probabilityAtLeast10M": 0.94755,
+        "probabilityAtLeast100M": 0.8585,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    }
+  ],
+  "shutoffs": [
+    {
+      "label": "Personal pool off",
+      "summary": {
+        "medianB": 0,
+        "low80B": 0,
+        "high80B": 0.02848372328195192,
+        "meanB": 0.019675094279515432,
+        "probabilityZero": 0.72415,
+        "probabilityAtLeast10M": 0.17035,
+        "probabilityAtLeast100M": 0.037,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Public Benefit Fund off",
+      "summary": {
+        "medianB": 0.1496611507897313,
+        "low80B": 0,
+        "high80B": 1.7173486722108606,
+        "meanB": 0.7530922612397655,
+        "probabilityZero": 0.14275,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57175,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "OpenAI Foundation off",
+      "summary": {
+        "medianB": 0.1510924119226409,
+        "low80B": 0,
+        "high80B": 1.7449087863714468,
+        "meanB": 0.7648426884476742,
+        "probabilityZero": 0.1383,
+        "probabilityAtLeast10M": 0.8161,
+        "probabilityAtLeast100M": 0.57265,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "All institutional animal giving off",
+      "summary": {
+        "medianB": 0.14526096443547987,
+        "low80B": 0,
+        "high80B": 1.7072052246519946,
+        "meanB": 0.7491299277039644,
+        "probabilityZero": 0.1484,
+        "probabilityAtLeast10M": 0.81065,
+        "probabilityAtLeast100M": 0.56605,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "All pathways off",
+      "summary": {
+        "medianB": 0,
+        "low80B": 0,
+        "high80B": 0,
+        "meanB": 0,
+        "probabilityZero": 1,
+        "probabilityAtLeast10M": 0,
+        "probabilityAtLeast100M": 0,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    }
+  ],
+  "medianAttribution": {
+    "individualLossSumB": 0.1651012134654269,
+    "interactionResidualB": -0.009816288072827195
+  },
+  "distributionChecks": [
+    {
+      "label": "Half continuous widths; event probabilities unchanged",
+      "options": {
+        "uncertaintyScale": 0.5
+      },
+      "summary": {
+        "medianB": 0.1862196254197788,
+        "low80B": 0,
+        "high80B": 0.6519644412935971,
+        "meanB": 0.2839496474497433,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.85775,
+        "probabilityAtLeast100M": 0.6967,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Default continuous widths",
+      "options": {},
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "1.5 times continuous widths; event probabilities unchanged",
+      "options": {
+        "uncertaintyScale": 1.5
+      },
+      "summary": {
+        "medianB": 0.13048544620864602,
+        "low80B": 0,
+        "high80B": 4.164450384141783,
+        "meanB": 2.5218153509041765,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.75445,
+        "probabilityAtLeast100M": 0.53265,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Independent uptake events; allocation shocks still shared",
+      "options": {
+        "commonCauseLoading": 0
+      },
+      "summary": {
+        "medianB": 0.14223337692070395,
+        "low80B": 0,
+        "high80B": 1.6330569571262927,
+        "meanB": 0.71788143420451,
+        "probabilityZero": 0.1026,
+        "probabilityAtLeast10M": 0.8339,
+        "probabilityAtLeast100M": 0.56405,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "label": "Stronger common uptake loading",
+      "options": {
+        "commonCauseLoading": 0.9
+      },
+      "summary": {
+        "medianB": 0.16170551751102052,
+        "low80B": 0,
+        "high80B": 1.8361499571636288,
+        "meanB": 0.8023896475299008,
+        "probabilityZero": 0.1495,
+        "probabilityAtLeast10M": 0.81645,
+        "probabilityAtLeast100M": 0.58725,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    }
+  ],
+  "seedChecks": [
+    {
+      "seed": 20261029,
+      "summary": {
+        "medianB": 0.1552849253925997,
+        "low80B": 0,
+        "high80B": 1.749199488483615,
+        "meanB": 0.7688050219834763,
+        "probabilityZero": 0.1336,
+        "probabilityAtLeast10M": 0.821,
+        "probabilityAtLeast100M": 0.57835,
+        "draws": 20000,
+        "seed": 20261029
+      }
+    },
+    {
+      "seed": 20261030,
+      "summary": {
+        "medianB": 0.14957259028826303,
+        "low80B": 0,
+        "high80B": 1.7640779249381957,
+        "meanB": 0.7549777292646288,
+        "probabilityZero": 0.13335,
+        "probabilityAtLeast10M": 0.8198,
+        "probabilityAtLeast100M": 0.57725,
+        "draws": 20000,
+        "seed": 20261030
+      }
+    },
+    {
+      "seed": 20261031,
+      "summary": {
+        "medianB": 0.1581687864661686,
+        "low80B": 0,
+        "high80B": 1.8692502673789555,
+        "meanB": 0.8012776734831172,
+        "probabilityZero": 0.1338,
+        "probabilityAtLeast10M": 0.8234,
+        "probabilityAtLeast100M": 0.5836,
+        "draws": 20000,
+        "seed": 20261031
+      }
+    }
+  ],
+  "cellCounts": {
+    "oneAtATimeAttempted": 52,
+    "oneAtATimeFinite": 52,
+    "jointAttempted": 44,
+    "jointFinite": 44
+  },
+  "below100MMedianCells": [
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 5
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 1,
+      "personalAwAllocationPct": 10
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 2,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 2,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 2,
+      "personalAwAllocationPct": 5
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 5,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 5,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "personalPaidByEnd2027Pct",
+      "firstValue": 12,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 5
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 40,
+      "personalAwAllocationPct": 10
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 65,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 65,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 65,
+      "personalAwAllocationPct": 5
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 85,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 85,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 95,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "personalAwUptakePct",
+      "firstValue": 95,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 5
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 300,
+      "personalAwAllocationPct": 10
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 965,
+      "personalAwAllocationPct": 1
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 965,
+      "personalAwAllocationPct": 2
+    },
+    {
+      "first": "anthropicValuationB",
+      "firstValue": 1800,
+      "personalAwAllocationPct": 1
+    }
+  ],
+  "validation": "No matched post-review donor-cash outcomes or fitted targets. Out-of-sample accuracy and formal moment sensitivity are not established."
+}

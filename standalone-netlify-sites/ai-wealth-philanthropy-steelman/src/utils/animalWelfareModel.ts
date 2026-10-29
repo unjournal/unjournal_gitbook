@@ -22,7 +22,8 @@ export type AnimalWelfareInputs = {
   openAiAwAllocationPct: number;
 };
 
-export const defaultAnimalWelfareInputs: AnimalWelfareInputs = {
+/** Original published assumptions, retained for same-day comparisons and shared scenarios. */
+export const initialAnimalWelfareInputs: AnimalWelfareInputs = {
   anthropicValuationB: 965,
   personalPledgedEquityPct: 15,
   personalRealizationPct: 60,
@@ -39,6 +40,19 @@ export const defaultAnimalWelfareInputs: AnimalWelfareInputs = {
   openAiCashPaidPct: 80,
   openAiAwUptakePct: 15,
   openAiAwAllocationPct: 1
+};
+
+/** Evidence-informed judgments, not estimates fitted to donor data. */
+export const defaultAnimalWelfareInputs: AnimalWelfareInputs = {
+  ...initialAnimalWelfareInputs,
+  personalAwUptakePct: 85,
+  personalAwAllocationPct: 5
+};
+
+/** Research diagnostics only; the public calculator and tracker use these defaults. */
+export type AnimalWelfareSimulationOptions = {
+  uncertaintyScale?: number;
+  commonCauseLoading?: number;
 };
 
 export type AnimalWelfareOutput = {
@@ -106,11 +120,11 @@ function uncertainShare(value: number, shock: number, spread: number) {
   return 1 / (1 + Math.exp(-(Math.log(center / (1 - center)) + spread * shock)));
 }
 
-function occurs(chancePct: number, common: number, independent: number) {
+function occurs(chancePct: number, common: number, independent: number, loading: number) {
   const chance = pct(chancePct);
   if (chance === 0 || chance === 1) return chance === 1;
   // Positive correlation across routes; each marginal latent is standard normal.
-  return normalCdf(0.6 * common + 0.8 * independent) < chance;
+  return normalCdf(loading * common + Math.sqrt(1 - loading * loading) * independent) < chance;
 }
 
 function quantile(sorted: number[], probability: number) {
@@ -129,19 +143,22 @@ function quantile(sorted: number[], probability: number) {
 export function runAnimalWelfareSimulation(
   inputs: AnimalWelfareInputs = defaultAnimalWelfareInputs,
   draws = 20000,
-  seed = 20261029
+  seed = 20261029,
+  options: AnimalWelfareSimulationOptions = {}
 ): AnimalWelfareSimulation {
   const sampleCount = Math.max(1, Math.min(100000, Math.floor(Number.isFinite(draws) ? draws : 20000)));
   const random = mulberry32(seed);
+  const uncertaintyScale = Number.isFinite(options.uncertaintyScale) ? Math.max(0, Math.min(3, options.uncertaintyScale!)) : 1;
+  const commonCauseLoading = Number.isFinite(options.commonCauseLoading) ? Math.max(0, Math.min(1, options.commonCauseLoading!)) : 0.6;
   const samples: number[] = [];
   for (let index = 0; index < sampleCount; index += 1) {
     const valuationShock = normal(random);
     const liquidityShock = 0.5 * valuationShock + Math.sqrt(0.75) * normal(random);
     const causeShock = normal(random);
-    const value = positive(inputs.anthropicValuationB) * Math.exp(0.6 * valuationShock);
-    const personalUptake = occurs(inputs.personalAwUptakePct, causeShock, normal(random));
-    const fundUptake = occurs(inputs.publicFundAwUptakePct, causeShock, normal(random));
-    const openAiUptake = occurs(inputs.openAiAwUptakePct, causeShock, normal(random));
+    const value = positive(inputs.anthropicValuationB) * Math.exp(0.6 * uncertaintyScale * valuationShock);
+    const personalUptake = occurs(inputs.personalAwUptakePct, causeShock, normal(random), commonCauseLoading);
+    const fundUptake = occurs(inputs.publicFundAwUptakePct, causeShock, normal(random), commonCauseLoading);
+    const openAiUptake = occurs(inputs.openAiAwUptakePct, causeShock, normal(random), commonCauseLoading);
     // Draw all shocks before applying gates: scenario comparisons can reuse
     // the same random worlds rather than changing the RNG stream when a gate closes.
     const personalRealizationShock = 0.5 * liquidityShock + Math.sqrt(0.75) * normal(random);
@@ -154,16 +171,16 @@ export function runAnimalWelfareSimulation(
     const openAiAllocationShock = -0.5 * causeShock + Math.sqrt(0.75) * normal(random);
     // Matching shares and founders/employees are one pool: they are not summed again.
     const personalB = personalUptake ? value * pct(inputs.personalPledgedEquityPct)
-      * uncertainShare(inputs.personalRealizationPct, personalRealizationShock, 0.7)
-      * uncertainShare(inputs.personalPaidByEnd2027Pct, personalTimingShock, 1)
-      * uncertainShare(inputs.personalAwAllocationPct, personalAllocationShock, 1.2) : 0;
+      * uncertainShare(inputs.personalRealizationPct, personalRealizationShock, 0.7 * uncertaintyScale)
+      * uncertainShare(inputs.personalPaidByEnd2027Pct, personalTimingShock, uncertaintyScale)
+      * uncertainShare(inputs.personalAwAllocationPct, personalAllocationShock, 1.2 * uncertaintyScale) : 0;
     const publicFundB = fundUptake && fundApproved ? value * pct(inputs.publicFundEquityPct)
-      * uncertainShare(inputs.publicFundRealizationPct, liquidityShock, 0.7)
-      * uncertainShare(inputs.publicFundPaidByEnd2027Pct, fundTimingShock, 1.2)
-      * uncertainShare(inputs.publicFundAwAllocationPct, fundAllocationShock, 1.2) : 0;
-    const openAiFoundationB = openAiUptake ? positive(inputs.openAiProgramEnvelopeB) * Math.exp(0.5 * openAiEnvelopeShock)
-      * uncertainShare(inputs.openAiCashPaidPct, liquidityShock, 0.6)
-      * uncertainShare(inputs.openAiAwAllocationPct, openAiAllocationShock, 1.2) : 0;
+      * uncertainShare(inputs.publicFundRealizationPct, liquidityShock, 0.7 * uncertaintyScale)
+      * uncertainShare(inputs.publicFundPaidByEnd2027Pct, fundTimingShock, 1.2 * uncertaintyScale)
+      * uncertainShare(inputs.publicFundAwAllocationPct, fundAllocationShock, 1.2 * uncertaintyScale) : 0;
+    const openAiFoundationB = openAiUptake ? positive(inputs.openAiProgramEnvelopeB) * Math.exp(0.5 * uncertaintyScale * openAiEnvelopeShock)
+      * uncertainShare(inputs.openAiCashPaidPct, liquidityShock, 0.6 * uncertaintyScale)
+      * uncertainShare(inputs.openAiAwAllocationPct, openAiAllocationShock, 1.2 * uncertaintyScale) : 0;
     samples.push(personalB + publicFundB + openAiFoundationB);
   }
   const sorted = [...samples].sort((left, right) => left - right);
@@ -197,8 +214,8 @@ export const animalWelfareInputGroups: { title: string; specs: AnimalWelfareInpu
     { key: "personalPledgedEquityPct", label: "Pledged pool outside the new fund", description: "Approximate residual: roughly 20% public-good shares minus the proposed 5% fund stake. Includes founder pledges, employee gifts, and company matching; ownership breakdown and dilution remain uncertain.", max: 30, step: 0.5, unit: "%", anchor: "Derived approximation" },
     { key: "personalRealizationPct", label: "Pledge and equity realization", description: "Fraction of this paper pool ultimately realized, allowing for pledge fulfillment, valuation/ownership differences, and sale constraints. It is not a reported paid amount.", max: 100, step: 1, unit: "%", anchor: "Subjective assumption" },
     { key: "personalPaidByEnd2027Pct", label: "Realized pool paid by end-2027", description: "Fraction converted into recipient cash by the fixed deadline. IPO timing, lockups, retained endowments, donor decisions, and grantee readiness matter.", max: 100, step: 0.5, unit: "%", anchor: "Subjective assumption" },
-    { key: "personalAwUptakePct", label: "Chance this channel funds animal welfare", description: "Chance of any modeled animal-welfare allocation by the deadline. No named allocation was identified in the primary sources reviewed.", max: 100, step: 1, unit: "%", anchor: "Subjective assumption" },
-    { key: "personalAwAllocationPct", label: "Animal-welfare share if adopted", description: "Conditional share of this channel's cash given to animal welfare when the channel funds it. Broad EA or public-benefit language does not establish this share.", max: 100, step: 0.5, unit: "%", anchor: "Subjective assumption" }
+    { key: "personalAwUptakePct", label: "Chance this channel funds animal welfare", description: "Chance of new recipient cash from this pooled channel by end-2027. Raised from 65% to 85% after Bollard's report of existing AI-donor gifts. His report covers a broader donor group and earlier gifts, so 85% remains a judgment, not an observed rate.", max: 100, step: 1, unit: "%", anchor: "Subjective assumption" },
+    { key: "personalAwAllocationPct", label: "Animal-welfare share if adopted", description: "Conditional share of recipient cash, raised from 2% to 5%. Informed by Metaculus's sparse end-2031 cause-weight forecasts, not copied from a normalized share estimate. The donor pool, deadline, and conditioning differ; 2–10% scenarios remain useful.", max: 100, step: 0.5, unit: "%", anchor: "Subjective assumption" }
   ] },
   { title: "Anthropic Public Benefit Fund", specs: [
     { key: "publicFundEquityPct", label: "Proposed initial fund stake", description: "The October 18 announcement proposes 5%, subject to stockholder approval. Discretionary later milestone awards are excluded.", max: 20, step: 0.5, unit: "%", anchor: "Source anchor" },
@@ -217,7 +234,8 @@ export const animalWelfareInputGroups: { title: string; specs: AnimalWelfareInpu
 ];
 
 export const animalWelfareScenarios = [
-  { name: "Exploratory defaults", description: "Some individual giving; institutional animal allocation remains unlikely.", inputs: defaultAnimalWelfareInputs },
+  { name: "Reviewed defaults", description: "Existing AI-donor giving and external allocation modeling support a larger personal animal share; timing remains uncertain.", inputs: defaultAnimalWelfareInputs },
+  { name: "Original assumptions", description: "The first published October 29 model: 65% personal uptake and 2% conditional animal share. Retained for comparison.", inputs: initialAnimalWelfareInputs },
   { name: "Slow and narrow", description: "Less cash before the deadline and weaker animal-welfare allocation.", inputs: { ...defaultAnimalWelfareInputs, personalRealizationPct: 40, personalPaidByEnd2027Pct: 2, personalAwUptakePct: 40, personalAwAllocationPct: 1, publicFundPaidByEnd2027Pct: 1, publicFundAwUptakePct: 10, openAiAwUptakePct: 5 } },
   { name: "Faster and broader", description: "Earlier personal giving and a clearer animal-welfare constituency. A stress test, not an upside forecast.", inputs: { ...defaultAnimalWelfareInputs, personalPaidByEnd2027Pct: 12, personalAwUptakePct: 85, personalAwAllocationPct: 5, publicFundPaidByEnd2027Pct: 8, publicFundAwUptakePct: 40, publicFundAwAllocationPct: 3, openAiAwUptakePct: 30, openAiAwAllocationPct: 2 } }
 ] as const;

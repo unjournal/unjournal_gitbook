@@ -1,13 +1,16 @@
 // Run with Node 22+: node --experimental-strip-types scripts/verify_animal_welfare_model.mjs
 import assert from "node:assert/strict";
-import { animalWelfareInitialForecast } from "../src/content/animalWelfare.ts";
-import { calculateAnimalWelfareModel, defaultAnimalWelfareInputs, runAnimalWelfareSimulation } from "../src/utils/animalWelfareModel.ts";
+import { animalWelfareInitialForecast, animalWelfareReviewedForecast } from "../src/content/animalWelfare.ts";
+import { calculateAnimalWelfareModel, defaultAnimalWelfareInputs, initialAnimalWelfareInputs, runAnimalWelfareSimulation } from "../src/utils/animalWelfareModel.ts";
 
 const defaults = { ...defaultAnimalWelfareInputs };
 const summary = runAnimalWelfareSimulation(defaults);
-assert.equal(summary.medianB, animalWelfareInitialForecast.medianB, "Freeze a reviewed tracker point when defaults change");
-assert.equal(summary.low80B, animalWelfareInitialForecast.low80B);
-assert.equal(summary.high80B, animalWelfareInitialForecast.high80B);
+assert.equal(summary.medianB, animalWelfareReviewedForecast.medianB, "Freeze a reviewed tracker point when defaults change");
+assert.equal(summary.low80B, animalWelfareReviewedForecast.low80B);
+assert.equal(summary.high80B, animalWelfareReviewedForecast.high80B);
+const original = runAnimalWelfareSimulation(initialAnimalWelfareInputs);
+assert.equal(original.medianB, animalWelfareInitialForecast.medianB, "Original published assumptions must remain reproducible");
+assert.equal(original.high80B, animalWelfareReviewedForecast.supersededSameDayReview.high80B);
 assert(summary.low80B <= summary.medianB && summary.medianB <= summary.high80B);
 assert(summary.probabilityZero > 0.1 && summary.probabilityZero < 0.5, "Defaults must allow meaningful zero-funding scenarios");
 assert.deepEqual(runAnimalWelfareSimulation(defaults, 100).samples, runAnimalWelfareSimulation(defaults, 100).samples, "Seeded worlds reproduce");
@@ -32,6 +35,14 @@ const smaller = runAnimalWelfareSimulation(halved);
 assert(smaller.samples.every((value, index) => value <= summary.samples[index]), "Common random worlds preserve allocation monotonicity");
 assert(smaller.medianB < summary.medianB);
 assert.equal(smaller.probabilityZero, summary.probabilityZero, "Lower conditional shares do not change uptake events");
+
+const certain = { ...defaults, personalAwUptakePct: 100, publicFundAwUptakePct: 100, openAiAwUptakePct: 100, publicFundApprovalPct: 100 };
+const fixed = runAnimalWelfareSimulation(certain, 100, 20261029, { uncertaintyScale: 0 });
+const fixedCentral = calculateAnimalWelfareModel(certain).totalB;
+assert(fixed.samples.every(value => Math.abs(value - fixedCentral) < 1e-12), "Zero-width, certain-event scenarios solve the stated product exactly");
+const narrower = runAnimalWelfareSimulation(defaults, 2000, 20261029, { uncertaintyScale: 0.5 });
+const wider = runAnimalWelfareSimulation(defaults, 2000, 20261029, { uncertaintyScale: 1.5 });
+assert(wider.high80B > narrower.high80B, "Distribution-width diagnostics must change the tail");
 
 for (const value of Object.values(calculateAnimalWelfareModel({ ...defaults, anthropicValuationB: Number.NaN, openAiProgramEnvelopeB: -10 }))) {
   assert(Number.isFinite(value) && value >= 0);

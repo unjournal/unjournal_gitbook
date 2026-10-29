@@ -51,3 +51,26 @@ Published and live-verified on October 29, 2026:
 
 For future releases, use an export of the app from the pushed `main` commit if the parent checkout contains unrelated
 work. Keep runtime changes, source history, release records, and live verification distinct.
+
+## Subsequent Animal Welfare research revision — 29 October
+
+David requested a deeper review of other writing and modeling, with changes where appropriate. This bounded revision
+adds five public research/model sources, explains scope and horizon mismatches in grouped disclosures, and raises
+two subjective personal-giving assumptions (uptake 65% → 85%; conditional animal share 2% → 5%). No new cash or
+commitment is entered from aggregate reports of earlier gifts. Payout timing and institutional inputs remain unchanged.
+The AW median changes from $33.8M to $155.3M; P10–P90 from $0–$662.5M to $0–$1.749B. Launch inputs and outputs are
+preserved. AIS/EA and GH&D numerical outputs and the frozen comparison calculations are unchanged.
+
+Additional public files: `scripts/diagnose_animal_welfare_model.mjs` and the two files in
+`research/animal-welfare-2026-10-29/`. No legacy posting/monitoring scripts or unrelated root changes are included.
+The diagnostic log covers all 16 inputs, 96 finite sensitivity-grid cells, mechanism shutoffs, continuous widths,
+uptake dependence, and seed variation. Its report explicitly says that forecast accuracy has not been validated.
+
+Pre-publication checks: TypeScript/Vite production build and all three numerical test scripts pass. Original AW
+settings reproduce the launch forecast. Desktop (1229 CSS pixels) and narrow mobile (354 CSS pixels) checks confirm
+presets, the visible interval, research dropdown/folds, sensitivity results without sideways scrolling, and zero AW
+document overflow. All 90 main and four GH&D Hypothes.is records were fetched; AW has none. No new annotation
+activity was found. Two old referenced parent records remain publicly inaccessible. No annotations or social messages
+were posted. Source, research output, and built output pass the evaluator-anonymity scan.
+
+Deployment verification for this subsequent revision is recorded after publication below.
