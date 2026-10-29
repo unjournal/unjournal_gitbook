@@ -97,6 +97,58 @@
 
     nav a:hover { text-decoration: underline; }
 
+    /* Keep in-page jumps clear of the sticky nav. */
+    html { scroll-padding-top: 4.5rem; }
+
+    /* Dropdown groups in the nav (<details> menus) */
+    nav .nav-menu { display: inline-block; position: relative; }
+    nav .nav-menu > summary {
+      display: inline-block;
+      margin: 0 0.7rem;
+      color: var(--highlight);
+      font-size: 0.92rem;
+      font-weight: 500;
+      list-style: none;
+      cursor: pointer;
+      user-select: none;
+    }
+    nav .nav-menu > summary::-webkit-details-marker { display: none; }
+    nav .nav-menu > summary::after {
+      content: "";
+      display: inline-block;
+      margin-left: 5px;
+      vertical-align: 2px;
+      border: 4px solid transparent;
+      border-top-color: currentColor;
+      border-bottom-width: 0;
+    }
+    nav .nav-menu > summary:hover,
+    nav .nav-menu[open] > summary { text-decoration: underline; }
+    nav .nav-sub {
+      position: absolute;
+      top: calc(100% + 0.6rem);
+      left: 50%;
+      transform: translateX(-50%);
+      min-width: 240px;
+      padding: 0.4rem 0;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-top: 2px solid var(--highlight);
+      border-radius: 0 0 6px 6px;
+      box-shadow: 0 8px 20px rgba(44, 62, 80, 0.15);
+      text-align: left;
+    }
+    nav .nav-sub a {
+      display: block;
+      margin: 0;
+      padding: 0.45rem 1rem;
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+    nav .nav-sub a:hover,
+    nav .nav-sub a:focus-visible { color: var(--highlight); background: #eef5f7; text-decoration: none; }
+    nav .nav-all { border-left: 1px solid var(--border); padding-left: 0.9rem; margin-left: 0.2rem; }
+
     main {
       max-width: var(--max-width);
       margin: 0 auto;
@@ -428,7 +480,12 @@
     @media (max-width: 700px) {
       header h1 { font-size: 1.6rem; }
       header p.subtitle { font-size: 1rem; }
-      nav a { margin: 0 0.4rem; font-size: 0.82rem; }
+      nav a, nav .nav-menu > summary { margin: 0 0.4rem; font-size: 0.82rem; }
+      /* On phones an open menu spans the nav's width instead of hanging off one item. */
+      nav { padding-left: 0.75rem; padding-right: 0.75rem; }
+      nav .nav-menu { position: static; }
+      nav .nav-sub { left: 0.5rem; right: 0.5rem; transform: none; min-width: 0; top: 100%; }
+      nav .nav-sub a { margin: 0; font-size: 0.9rem; }
       .benefits-grid { grid-template-columns: 1fr; }
       .submit-prompts { grid-template-columns: 1fr; }
       .submit-panel summary { padding: 1rem 1.1rem; font-size: 1rem; }
@@ -456,16 +513,64 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p class="subtitle">Turning decision bottlenecks into answerable questions, expert workshops, evaluations, and forecasts.</p>
 </header>
 
-<nav>
-  <a href="#what">What Is This</a>
-  <a href="#approach">Our Approach</a>
-  <a href="#workshops">Workshops</a>
-  <a href="#process">The Process</a>
-  <a href="#benefits">Who Benefits</a>
-  <a href="#submit-question">Submit a Question</a>
-  <a href="#database">Database</a>
-  <a href="index.html#explore" style="border-left: 1px solid #d5dbdb; padding-left: 0.9rem; margin-left: 0.2rem;">All Pages</a>
+<nav aria-label="Pivotal Questions">
+  <details class="nav-menu">
+    <summary>About</summary>
+    <div class="nav-sub">
+      <a href="#what">What pivotal questions are</a>
+      <a href="#approach">Our approach</a>
+      <a href="#process">The process</a>
+      <a href="#benefits">Who benefits</a>
+    </div>
+  </details>
+  <details class="nav-menu">
+    <summary>Workshops</summary>
+    <div class="nav-sub">
+      <a href="#workshops">Workshops in practice</a>
+      <a href="https://uj-pq-workshops.netlify.app/" target="_blank" rel="noopener">Workshop hub ↗</a>
+      <a href="https://uj-wellbeing-workshop.netlify.app/" target="_blank" rel="noopener">Wellbeing measurement ↗</a>
+      <a href="https://uj-cm-workshop.netlify.app/" target="_blank" rel="noopener">Cultivated meat ↗</a>
+      <a href="https://unjournal.github.io/cm_pq_modeling/" target="_blank" rel="noopener">Cultivated meat cost model ↗</a>
+      <a href="https://uj-pba-workshop.netlify.app/" target="_blank" rel="noopener">Plant-based substitution ↗</a>
+    </div>
+  </details>
+  <details class="nav-menu">
+    <summary>Questions</summary>
+    <div class="nav-sub">
+      <a href="#submit-question">Suggest a question</a>
+      <a href="pivotal-question-submit.html">Guided submission form</a>
+      <a href="#database">Browse our questions</a>
+      <a href="https://www.metaculus.com/c/unjournal/" target="_blank" rel="noopener">Metaculus forecasts ↗</a>
+    </div>
+  </details>
+  <a href="index.html#explore" class="nav-all">All pages</a>
 </nav>
+<script>
+  // Nav menus are <details>, so they open without this script. It keeps one
+  // open at a time and closes them on outside click, Escape, or choosing a link
+  // (the links are mostly in-page anchors, so the page doesn't change).
+  (function () {
+    var menus = document.querySelectorAll('nav .nav-menu');
+    function closeAll(except) {
+      menus.forEach(function (m) { if (m !== except) m.open = false; });
+    }
+    menus.forEach(function (menu) {
+      menu.addEventListener('toggle', function () { if (menu.open) closeAll(menu); });
+      menu.querySelectorAll('.nav-sub a').forEach(function (a) {
+        a.addEventListener('click', function () { closeAll(); });
+      });
+    });
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('nav .nav-menu')) closeAll();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      menus.forEach(function (m) {
+        if (m.open) { m.open = false; m.querySelector('summary').focus(); }
+      });
+    });
+  })();
+</script>
 
 <main>
 
