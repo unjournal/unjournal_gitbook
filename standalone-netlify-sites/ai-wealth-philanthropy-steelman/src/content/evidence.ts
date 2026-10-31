@@ -10,6 +10,14 @@ export type Evidence = {
 };
 
 export const evidence: Evidence[] = [
+  {
+    id: "givewell-malaria-scale-2026",
+    marker: "GW27",
+    title: "GiveWell: further scaling malaria grantmaking",
+    url: "https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking/",
+    quote: "aiming to grant at least $2.5 billion in new malaria funding",
+    note: "Published 2026-10-26; reiterated 2026-10-30; accessed 2026-10-31. The goal covers 2027–32; GiveWell also expects more than $1B outside malaria in 2027. Funding, scalability, country demand, and cost-effectiveness remain conditions. The proposed Global Fund mechanism is not yet board-approved. No amount is added to AI-linked commitments or cash-paid totals."
+  },
   ...animalWelfareEvidence.map((item, index) => ({
     id: item.id, marker: `AW${index + 1}`, title: item.title, url: item.url, quote: "",
     note: `${item.finding} ${item.implication} Event: ${item.eventDate}; accessed ${item.accessed}.`
@@ -52,7 +60,7 @@ export const evidence: Evidence[] = [
     url: "https://news.bloomberglaw.com/artificial-intelligence/anthropic-expects-to-match-spacexs-record-ipo-size-or-top-it",
     quote: "prepares to file publicly for its potential mega-IPO as soon as the end of this month",
     note:
-      "A credible timing signal published on 20 August 2026, but based on unnamed sources. Anthropic has not announced a public filing date, valuation, offering terms, or first trading date."
+      "Historical unnamed-source reporting published 2026-08-20. Its filing speculation was superseded by Anthropic's official public S-1 announcement on October 26; it does not establish offering terms or a first trading date."
   },
   {
     id: "anthropic-ipo-current-reporting",
@@ -157,7 +165,7 @@ export const evidence: Evidence[] = [
     url: "https://openai.com/index/teen-development-research-grants/",
     quote: "individual research grants up to $1 million and totaling up to $5 million",
     note:
-      "A confirmed OpenAI Group PBC research-grant program, not a Foundation grant. Applications are open and awards have not yet been announced, so it is neither a completed grant nor a cash-disbursement record."
+      "OpenAI Group PBC, not the Foundation, funds the program. Reviewed 2026-10-31: applications closed October 6, with selection notifications due by November 13. The announced budget does not establish completed awards or cash disbursement."
   },
   {
     id: "openai-daybreak-1b",
@@ -334,7 +342,7 @@ export const evidence: Evidence[] = [
     url: "https://www.anthropic.com/news/wellbeing-research-grants",
     quote: "launching a $5 million grant program",
     note:
-      "A confirmed program for independent, open-source evaluations of AI and user wellbeing. It combines direct funding, model access, and technical support; awards have not yet been announced."
+      "A program for independent, open-source evaluations of AI and user wellbeing, combining direct funding, model access, and technical support. Reviewed 2026-10-31: initial applications closed September 21, with full-proposal invitations due October 5. No completed-award or cash-paid total was verified in this review."
   },
   {
     id: "irs-daf-control",

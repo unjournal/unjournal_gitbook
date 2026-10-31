@@ -134,14 +134,14 @@ export default function GlobalDevelopmentApp() {
           </div>
           <div className="hero-details">
             <div className="meta-row">
-              <span>Last updated 29 October 2026</span>
+              <span>Last updated 31 October 2026</span>
               <span>Preliminary, largely LLM-generated</span>
             </div>
             <p className="author-note">
               <strong>Orchestrated by David Reinstein</strong>, Co-Director of{" "}
               <a href="https://unjournal.org">Unjournal.org</a>. This fork was prompted by Jessica Leight's question and
               retains her uncertainty rather than assuming that a large general-purpose giving wave is inevitable.{" "}
-              <ProvenanceTip ids={["ai-draft", "david-orchestration", "jessica-fork", "evidence-oct-29"]} />
+              <ProvenanceTip ids={["ai-draft", "david-orchestration", "jessica-fork", "evidence-oct-31", "evidence-oct-29"]} />
             </p>
             <div className="hero-actions">
               <a className="button button--primary" href="#tracker">

@@ -2,7 +2,7 @@ export const report = {
   title: "Will AI Wealth Actually Flood AIS/EA Philanthropy Soon?",
   subtitle:
     "A preliminary model and dashboard for testing how much AI-lab-adjacent wealth may become usable funding for AI safety and EA cause areas, and how quickly.",
-  lastUpdated: "29 October 2026",
+  lastUpdated: "31 October 2026",
   coreSteelman:
     "A liquidity event is plausible, maybe likely; a fast, very large, flexible flow of money into AIS/EA operating organizations by the post-lockup near term is much less likely.",
   claimBeingCritiqued: [

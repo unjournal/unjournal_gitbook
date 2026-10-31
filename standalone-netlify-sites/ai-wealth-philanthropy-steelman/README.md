@@ -20,6 +20,10 @@ Animal Welfare fork: https://uj-ai-wealth-philanthropy-steelman.netlify.app/anim
 
 ## Continue model development (29 October 2026)
 
+October 31 maintenance adds GiveWell's conditional malaria scale-up goal to shared news and corrects closed
+application windows. Numerical assumptions and all October 29 forecast/scenario snapshots remain unchanged.
+See the dated entry in `RELEASE-REVIEW.md` for verification and publication status.
+
 This is a React 19 / TypeScript app built with Vite and maintained with Codex. The original funding calculations are
 ordinary TypeScript, not a separate hosted spreadsheet or Radiant model. Radiant and the external spreadsheets are
 comparisons linked from the frozen model-comparison page.

@@ -2,6 +2,14 @@ import type { Source } from "../utils/model";
 
 export const sources: Source[] = [
   {
+    id: "givewell-malaria-scale-2026",
+    title: "GiveWell: further scaling malaria grantmaking",
+    url: "https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking/",
+    type: "Primary grantmaker plan; published 2026-10-26; accessed 2026-10-31",
+    reliability: "Authoritative about GiveWell's intentions, conditional on funding and delivery opportunities. The proposed Global Fund mechanism still needs board approval; the goals are not secured funding or cash paid.",
+    supports: ["at least $2.5B malaria goal for 2027–32", "more than $1B outside malaria expected in 2027", "existing-funder capacity"]
+  },
+  {
     id: "openai-cities-deliver-50m", title: "OpenAI Foundation: Cities Deliver with Rockefeller",
     url: "https://openaifoundation.org/news/helping-cities-deliver-more-for-their-residents",
     type: "Primary announcement; 2026-10-14; accessed 2026-10-29",
@@ -166,7 +174,7 @@ export const sources: Source[] = [
     url: "https://openai.com/index/teen-development-research-grants/",
     type: "Official company announcement",
     reliability:
-      "High for the announced $5M research-grant budget and OpenAI Group PBC funding source; applications remain open, so it is not evidence of completed awards or cash disbursement.",
+      "High for the $5M budget, Group PBC funding source, October 6 application deadline, and November 13 notification deadline. Reviewed 2026-10-31; the budget is not evidence of completed awards or cash disbursement.",
     supports: ["$5M research-grant program", "AI impacts and safeguards", "not a Foundation grant"]
   },
   {
@@ -321,7 +329,7 @@ export const sources: Source[] = [
     url: "https://www.anthropic.com/news/wellbeing-research-grants",
     type: "Official company announcement",
     reliability:
-      "High for the announced $5M program and its scope; applications are still open, so it is not evidence of completed awards, cash disbursement, or impact.",
+      "High for the $5M program and its scope. Reviewed 2026-10-31: initial applications were due September 21, with full-proposal invitations due October 5. The budget does not establish completed awards, cash disbursement, or impact.",
     supports: ["$5M wellbeing-evaluations program", "independent research", "direct funding and in-kind support"]
   },
   {

@@ -119,7 +119,7 @@ export const commitmentLedger: CommitmentLedgerItem[] = [
     label: "OpenAI: teen-development research grants",
     scope: ["main"],
     evidenceIds: ["openai-teen-development-5m"],
-    qualification: "A Group PBC, rather than Foundation, grant program. Applications are open; awards and cash disbursements have not yet been announced."
+    qualification: "A Group PBC, rather than Foundation, grant program. Applications closed October 6, 2026; the announcement gives November 13 as the notification deadline. The budget is not a verified award or cash-paid total."
   },
   {
     date: "2026-09-10",
@@ -191,6 +191,15 @@ const globalCommitmentHistory: CommitmentSnapshot[] = [
 ];
 
 export const newsItems: NewsItem[] = [
+  {
+    date: "2026-10-26",
+    title: "GiveWell aims for at least $2.5B in malaria grants over 2027–32",
+    summary:
+      "GiveWell also expects more than $1B of non-malaria grantmaking in 2027. These are conditional plans for donor funding, not secured commitments or cash paid. Its proposed Global Fund partnership still needs board approval. This is existing-funder capacity evidence, separate from the new-AI-wealth forecasts and ledger.",
+    scope: ["main", "global-development"],
+    evidenceIds: ["givewell-malaria-scale-2026"],
+    strength: "Planned"
+  },
   ...animalWelfareNews.map((item) => ({ ...item, scope: ["animal-welfare"] as TrackerScope[] })),
   {
     date: "2026-10-26",
@@ -315,7 +324,7 @@ export const newsItems: NewsItem[] = [
     title: "OpenAI opens a $5M teen-development research grant call",
     socialTitle: "OpenAI's $5M teen-development research grants",
     summary:
-      "OpenAI Group PBC, rather than the Foundation, will fund and administer the call. Applications are open, so the amount is a commitment rather than announced awards or cash disbursements.",
+      "OpenAI Group PBC, rather than the Foundation, funds and administers the program. Applications closed October 6; the announcement sets November 13 for selection notifications. The $5M budget is a commitment, not a verified award or cash-paid total.",
     scope: ["main"],
     evidenceIds: ["openai-teen-development-5m"],
     strength: "Confirmed"
@@ -335,7 +344,7 @@ export const newsItems: NewsItem[] = [
     title: "Anthropic opens a $5M wellbeing-evaluations grant program",
     socialTitle: "Anthropic opens a $5M wellbeing-evaluations grant program",
     summary:
-      "The program combines direct funding with model access and technical support for independent, open-source evaluations. It is a confirmed commitment, not a completed grant or cash-disbursement record.",
+      "The program combines direct funding with model access and technical support for independent, open-source evaluations. Initial applications closed September 21; full-proposal invitations were due October 5. The announced budget is not a verified award or cash-paid total.",
     scope: ["main"],
     evidenceIds: ["anthropic-wellbeing-5m"],
     strength: "Confirmed"
@@ -383,7 +392,7 @@ export const newsItems: NewsItem[] = [
 ];
 
 export const trackerData = {
-  generatedAt: "2026-10-29",
+  generatedAt: "2026-10-31",
   methodology:
     "Each dated point is a reviewed re-estimate from the correlated model, not an automatic rerun. At least every 14 days, the review should reconsider current evidence, elapsed time, and relevant non-events such as no filing, liquidity, or disbursement. The shaded P10–P90 range is an 80% model interval, not an empirical confidence interval. Commitment totals may mix cash, credits, technical support, cofunding, and multi-year plans.",
   forecastReview: {

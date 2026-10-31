@@ -1,5 +1,34 @@
 # Funding-model release review — 29 October 2026
 
+## Maintenance evidence review — 31 October 2026
+
+This narrow update adds [GiveWell's conditional malaria scale-up plan](https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking/),
+reiterated in its October 30 newsletter, to main/GH&D news. The at-least-$2.5B goal covers 2027–32; the more-than-$1B
+non-malaria expectation covers 2027. Both remain separate from AI-new-wealth commitments and cash paid. The proposed
+Global Fund mechanism needs board approval. Also corrected the closed application windows for OpenAI's
+teen-development and Anthropic's wellbeing-evaluation programs, and marked old pre-filing reporting as historical.
+
+Official Anthropic filing, fund, financing, and science-program announcements; OpenAI/Foundation news and grant
+terms; Coefficient news; GiveWell's October updates; and Gates sources were checked. No new evidence warranted
+changing either end-2027 forecast. Their latest numerical reviews remain October 29: AIS/EA median $0.757B,
+P10–P90 $0.045B–$3.813B; GH&D median $0.558B, P10–P90 $0.109B–$3.434B. Two elapsed days and no newly verified
+liquidity, lockup, payout schedule, or scoped AI-linked cash receipt do not support changing the inputs. No new
+snapshot was appended. All history and commitment totals are preserved; AW retains two illustrative scenarios
+and no adopted central forecast. The feed's October 31 generation date is not a forecast-review date.
+
+Complete public Hypothes.is fetches returned 90 main, four GH&D, and zero AW records, with no new activity since
+September 17. Two referenced parent records remain publicly inaccessible. No replies or social posts were made.
+October's monthly private side report was already completed; this review found no material new Unjournal funding
+opportunity or outlook change. No private report or Slack/email notification was due or sent.
+
+Local production build, all three numerical verification scripts, unchanged-history/feed assertions, and outbound
+anonymity scans pass. Desktop and 354px mobile checks confirm prominent news, grouped model navigation, reciprocal
+links, direct anchors, distinct chart titles, and interval rendering. Mobile has no document overflow. The existing
+desktop hidden-tooltip overflow at 1229px remains outside this narrow update. Final clean-export and live-release
+verification will be recorded below after publication.
+
+## Original adoption review
+
 Prepared locally with Codex. David approved this public-source adoption and release on October 29, 2026. It covers the existing standalone app,
 including the new Animal Welfare route. It does not include other files in the parent repository.
 
