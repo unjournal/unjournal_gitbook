@@ -24,8 +24,19 @@ opportunity or outlook change. No private report or Slack/email notification was
 Local production build, all three numerical verification scripts, unchanged-history/feed assertions, and outbound
 anonymity scans pass. Desktop and 354px mobile checks confirm prominent news, grouped model navigation, reciprocal
 links, direct anchors, distinct chart titles, and interval rendering. Mobile has no document overflow. The existing
-desktop hidden-tooltip overflow at 1229px remains outside this narrow update. Final clean-export and live-release
-verification will be recorded below after publication.
+desktop hidden-tooltip overflow at 1229px remains outside this narrow update.
+
+Published and live-verified:
+
+- Runtime source: pushed `main` commit `aa6c4e8bdb4a650c5abb2fbd8299f4aa2bc55775`.
+- Netlify target re-verified by API: `uj-ai-wealth-philanthropy-steelman`, ID `c8c84bb7-fc4d-4618-a8ac-41b017a7a077`.
+- Production deploy: `6ae5d0f687b3d996086e6520`, confirmed as the published deploy through the API.
+- Clean export of the pushed source passed `npm ci`, production build, all three numerical checks, and the anonymity
+  scan. Production JavaScript, CSS, and tracker JSON match that export byte for byte. Feed SHA-256:
+  `ad81c147757e8a62077ac934f49a8c331f7842dbdd754221d64ea33cf2e4bcae`.
+- All four routes return 200. Live desktop and 390px checks confirm new main/GH&D news, direct anchors, distinct
+  chart titles, shaded bands/dashed bounds/range markers, no mobile overflow, and no captured application errors.
+  AW still gives the two scenarios equal prominence and adopts neither. Forecast histories remain dated October 29.
 
 ## Original adoption review
 
