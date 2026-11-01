@@ -48,7 +48,7 @@ organisation, not a template or an AI-generated page.
   resolves to the Linode host. The observed DNS TTL was 14,400 seconds. MX remains Google Workspace.
 - `https://unjournal-website.netlify.app` is the replacement staging site. The repository is linked
   to Netlify and remains protected from indexing by `X-Robots-Tag: noindex` until cutover.
-- Website PR #3 (`claude/landing-plain-style-switcher`, commit `7ea6b4f`) is the current launch
+- Website PR #3 (`claude/landing-plain-style-switcher`, commit `a7d143f`) is the current launch
   candidate. It incorporates current `main`, uses the shared landing layout for the homepage,
   For researchers, and For evaluators, and exposes only the Plain style. Alternative style assets
   remain in the repository for possible post-migration use.
@@ -167,7 +167,7 @@ each question. Record any later change in the log below rather than editing the 
 - [ ] Homepage live content per D9, generated at build time (no client-side fetches that can silently fail).
 - [ ] Contact/feedback per D10. If a Netlify form is used, run `netlify_forms_check.py` after deploying.
 - [ ] Analytics per D11; Ads conversion tracking must keep working (Ad Grants requirement).
-- [ ] SEO: unique title and meta description, one `h1`, self-canonical on `https://www.unjournal.org/…`, https `og:image`, `robots.txt`, `sitemap.xml`, favicon, JSON-LD `Organization` + `Periodical` (ISSN 3071-2173). PR #3 adds the site-wide launch files and full metadata for the three shared-layout pages; audit the remaining imported pages before checking this off.
+- [ ] SEO: unique title and meta description, one `h1`, self-canonical on `https://www.unjournal.org/…`, https `og:image`, `robots.txt`, `sitemap.xml`, favicon, JSON-LD `Organization` + `Periodical` (ISSN 3071-2173). PR #3 adds the site-wide launch files and CI now verifies the title, description, Open Graph title, canonical URL, and single `h1` on all 35 sitemap pages. Complete the remaining Open Graph image and structured-data audit before checking this off.
 - [ ] Accessibility: alt text, heading order, contrast, keyboard focus, reduced motion.
 
 ### Phase 3 — Redirect map
