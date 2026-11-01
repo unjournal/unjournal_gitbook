@@ -1,14 +1,15 @@
 # Moving the main Unjournal site off Squarespace
 
-Last reconciled: 2026-09-13 (Codex handoff note merged with Claude Code audit results)
+Last reconciled: 2026-11-01 (live DNS, website repository, PR #3 preview, and redirect inventory)
 
 Shared plan, evidence and checklist for Codex, Claude Code and human collaborators. Goal: replace the
 Squarespace site at `www.unjournal.org` with pages we host and control, without losing inbound links,
 search ranking, Google Ad Grants, or email — and with a site that reads as a credible research
 organisation, not a template or an AI-generated page.
 
-- **Status:** Phase 1 (cleanup) in progress; decisions D1–D16 made 2026-09-13. Nothing has been cut
-  over. Squarespace still serves `www.unjournal.org`.
+- **Status:** Phase 2 (staging and pre-launch work) is in progress. Nothing has been cut over;
+  Squarespace still serves `www.unjournal.org`. The replacement is on Netlify with a temporary
+  site-wide `noindex` header. PR #3 is the current launch candidate and uses the Plain design only.
 - **Owner:** David Reinstein for now (others may be brought in later).
 - **Only options recorded in the decision log (section 3) count as decided.**
 - This file supersedes `SQUARESPACE-LINKING-GUIDE.md` and `SQUARESPACE-LANDING-PAGE-LINKS.md` as the
@@ -19,7 +20,8 @@ organisation, not a template or an AI-generated page.
 | Source | What it governs | How to use it |
 | --- | --- | --- |
 | This file | Evidence, decisions, and the step-by-step checklist for the website move | Keep current. Record decisions here with dates. |
-| This repo's `landing-pages/` | Current replacement pages (served at `info.unjournal.org`) | Treat as working material; verify against the live server before changing or deploying (see section 5). |
+| Private repo `unjournal/unjournal-website` | Canonical replacement website and Netlify deployment source | Make website changes by pull request; `main` deploys production. PR #3 is the current launch candidate. |
+| This repo's `landing-pages/` | Historical source pages and the migration plan; some pages are still served at `info.unjournal.org` | Treat the HTML as reference material, not the replacement site's source of truth. Verify against the live server before changing or deploying it (see section 5). |
 | Notion: Infrastructure & Consolidation Hub → *Playbooks B (Squarespace exit)* and *F (make our pages look institutional)* | Strategy and rationale | Planning intent. Playbook B recommends Netlify + Quarto/Astro; that is a recommendation, not a decision. |
 | Notion: *Restructuring Source of Truth* | Overall restructuring plan | Lists the website move as a later workstream (owner TBD) and says the public site needs its own migration plan — this file. |
 | Coda: *Tech audit* page | Historical cost and platform recommendation | Rationale only ("eliminate Squarespace, migrate to Netlify"). |
@@ -39,6 +41,21 @@ organisation, not a template or an AI-generated page.
 | DNS | Nameservers `ns-cloud-c1..c4.googledomains.com`. `www` CNAME → `ext-cust.squarespace.com`; apex A → Squarespace; `info` A → Linode; MX → Google Workspace. **MX and any TXT/SPF/DKIM records must survive every change.** |
 | `info.unjournal.org` | ~25 static pages from this folder, nginx on the Linode VPS. Pages differ between git, this folder and the server (section 5). No robots.txt, sitemap or favicon; canonicals inconsistent. |
 | Design | Squarespace: Libre Baskerville headings, Arial-rendered body, black on white, green/orange ring logo, flat nav that wraps to two lines, no hero imagery. `info` pages: Libre Baskerville + Georgia, navy/teal on cream, stat tiles, numbered step cards, pill chips, dark CTA band. |
+
+### Current implementation snapshot (verified 2026-11-01)
+
+- `www.unjournal.org` and the apex domain still resolve to Squarespace; `info.unjournal.org` still
+  resolves to the Linode host. The observed DNS TTL was 14,400 seconds. MX remains Google Workspace.
+- `https://unjournal-website.netlify.app` is the replacement staging site. The repository is linked
+  to Netlify and remains protected from indexing by `X-Robots-Tag: noindex` until cutover.
+- Website PR #3 (`claude/landing-plain-style-switcher`, commit `7ea6b4f`) is the current launch
+  candidate. It incorporates current `main`, uses the shared landing layout for the homepage,
+  For researchers, and For evaluators, and exposes only the Plain style. Alternative style assets
+  remain in the repository for possible post-migration use.
+- The PR #3 preview passed GitHub CI and Netlify's header and redirect checks. The full historical URL
+  inventory returned 22 direct 200s and 10 single permanent redirects. Three URLs that were already
+  404 on Squarespace remain 404; there were no newly broken inventoried links.
+- No production domain, DNS, Squarespace, or analytics setting has been changed.
 
 Coverage of Squarespace URLs by existing pages here: equivalents exist for home, about, team,
 for-evaluators, for-researchers (`for-authors.html`), getting-involved, pivotal-questions and the prize
@@ -97,7 +114,7 @@ each question. Record any later change in the log below rather than editing the 
 | D4 | Build tool | Eleventy. Existing pages drop in as-is and move into shared layouts one at a time. |
 | D5 | URL policy | Keep every Squarespace path except `/commissioned-evaluations-1` → `/commission-evaluations` (301; update the Google Ads final URL at cutover). Merge `info.unjournal.org` into www with 301s from every old address. |
 | D6 | News posts | Port all 12 posts at their existing slugs; keep `/news?format=rss` working; fix the template post's date. |
-| D7 | Design direction | **Landing-page layout, Plain style by default**, with a small footer "Page style" picker so visitors can switch to Lens, Tesserae or Studio (choice kept in their browser). Chosen 2026-10-12 from the page explorer (unjournal-website PR #1). Replaces the 2026-10-07 entry, which was ambiguous between two canvases. Built in unjournal-website PR #3. |
+| D7 | Design direction | **Landing-page layout in the Plain style for launch.** Do not expose a public style picker during the migration. Keep the Lens, Tesserae and Studio assets for possible post-launch use. Updated 2026-11-01; implemented in unjournal-website PR #3. |
 | D8 | Design process | Design canvases (13 Sep; 28 Sep with palettes from David's own photos and painting), then a page explorer comparing layouts × styles on real pages (unjournal-website PR #1). Layout and style decided 2026-10-12 (see D7). |
 | D9 | Homepage live content | Rebuilt nightly from PubPub and the database; never a client-side widget that can render empty. |
 | D10 | Contact and popup | Contact page with the email address and links to existing Coda forms; drop the popup, put the feedback link in the footer and on News. |
@@ -113,6 +130,7 @@ each question. Record any later change in the log below rather than editing the 
 | Date | Decision | Rationale | Owner |
 | --- | --- | --- | --- |
 | 2026-09-13 | D1–D16 as above, from David's answers to the decision form. | Trade-offs set out in the form; all recommendations accepted. | David |
+| 2026-11-01 | D7 update: launch with the Plain style only; defer the public style picker until after the Squarespace migration. | Move first with a restrained design; reconsider the picker once the new site and old URLs are safely established. | David |
 | 2026-10-12 | D7: landing-page layout, Plain style by default, visitor style picker (Lens, Tesserae, Studio). | "C is best" on 7 Oct could mean either canvas's C; asked again, David chose landing + Plain "for now" and wants visitors able to pick a style. | David |
 | 2026-09-13 | Superseded: "`landing-pages/` in this repo is the working home" (provisional agent entry). | D3 chose a dedicated private website repo. `landing-pages/` stays the source until that repo exists, then becomes a pointer. | David |
 | 2026-09-13 | Superseded: "Netlify is not selected." | D2 chose Netlify, deployed from git only. | David |
@@ -140,25 +158,25 @@ each question. Record any later change in the log below rather than editing the 
 
 ### Phase 2 — Build the new site on a staging URL (`noindex`)
 - [x] Repo and build tool per D3–D4: `unjournal/unjournal-website` (Eleventy 3, pages copied byte-identical, `_redirects` draft, CI with privacy scan and link check, `tests/check_redirects.py`) (2026-09-13).
-- [ ] Link the repo in Netlify (daaronr nonprofit team → Import an existing project → GitHub → `unjournal/unjournal-website`; site name `unjournal-website`; build settings come from `netlify.toml`; no custom domain yet). Deploys come from git only — no CLI deploys from a laptop folder.
+- [x] Link the repo in Netlify (daaronr nonprofit team, site `unjournal-website`); build settings come from `netlify.toml`, deploys come from git only, and no custom domain is attached yet (verified 2026-11-01).
 - [ ] Shared layout (header, nav, footer) and one stylesheet; no per-page inline style blocks.
-- [ ] Design system per D7–D8, written down in the repo. Exported design-tool HTML is input to the repo, never a second source of truth. Three homepage directions were drafted on a design canvas (2026-09-13); David chose C, paths by audience (2026-10-07). Build the shared layout from that direction.
+- [x] Design direction per D7–D8 is written down in the website repo and implemented for the homepage, For researchers, and For evaluators in PR #3. Launch with Plain only; other pages can move into the shared layout incrementally after migration.
 - [x] Port all 22 Squarespace URLs (2026-10-07): `/commission-evaluations` written from the Squarespace page, `/for-researchers` renamed from `for-authors.html` with a 301, and all 12 news posts built at their existing slugs with their images rehosted. The commissioning page links to the individual-sponsorship proposal (https://uj-prioritization-dashboard.netlify.app/sponsor/), described as an idea under discussion; that page links back.
 - [ ] Open content decisions: `/news/2024-25-evaluator-prize-winners` and `/evaluator-prizes-2024-25` both exist (decide which is canonical, 301 the other), and `/evaluations` overlaps `/commission-evaluations`.
 - [x] News at identical slugs; `/news` lists all 12 locally; RSS generated at build time at `/news/rss.xml`, with `/news?format=rss` redirecting to it (2026-10-07). `tests/check_redirects.py` passes against staging with nothing broken.
 - [ ] Homepage live content per D9, generated at build time (no client-side fetches that can silently fail).
 - [ ] Contact/feedback per D10. If a Netlify form is used, run `netlify_forms_check.py` after deploying.
 - [ ] Analytics per D11; Ads conversion tracking must keep working (Ad Grants requirement).
-- [ ] SEO: unique title and meta description, one `h1`, self-canonical on `https://www.unjournal.org/…`, https `og:image`, `robots.txt`, `sitemap.xml`, favicon, JSON-LD `Organization` + `Periodical` (ISSN 3071-2173).
+- [ ] SEO: unique title and meta description, one `h1`, self-canonical on `https://www.unjournal.org/…`, https `og:image`, `robots.txt`, `sitemap.xml`, favicon, JSON-LD `Organization` + `Periodical` (ISSN 3071-2173). PR #3 adds the site-wide launch files and full metadata for the three shared-layout pages; audit the remaining imported pages before checking this off.
 - [ ] Accessibility: alt text, heading order, contrast, keyboard focus, reduced motion.
 
 ### Phase 3 — Redirect map
-- [ ] One redirects file covering section 2, `/home`, slash/`.html`/`%5C` rules, all `info.` paths, known broken slugs.
-- [ ] Script that reads the URL inventory and asserts each old URL returns 200 or a single 301 to a 200.
+- [ ] One redirects file covering section 2, `/home`, slash/`.html`/`%5C` rules, all `info.` paths, known broken slugs. PR #3 covers the inventoried paths and canonical hosts; audit all non-inventoried `info.` `.html` and slash variants before checking this off.
+- [x] Script reads the URL inventory and asserts each old URL returns 200 or a single 301 to a 200. It passed against the PR #3 preview on 2026-11-01 (22 direct 200s, 10 one-hop 301s, no newly broken URLs).
 - [ ] Update links we control: GitBook, Coda email templates, social bios, Google Ads final URLs, email signatures.
 
 ### Phase 4 — Pre-launch review
-- [ ] Link checker and redirect script pass on staging.
+- [x] Link checker and redirect script pass on staging (413 internal links; historical redirect inventory passed on the PR #3 preview, 2026-11-01).
 - [ ] A person reviews mobile and desktop screenshots of every page.
 - [ ] Credibility review (section 6) by someone who did not build it.
 - [ ] Lighthouse performance, accessibility and SEO ≥ 90 on home and team.
