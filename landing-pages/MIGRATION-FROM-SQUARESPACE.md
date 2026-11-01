@@ -48,13 +48,15 @@ organisation, not a template or an AI-generated page.
   resolves to the Linode host. The observed DNS TTL was 14,400 seconds. MX remains Google Workspace.
 - `https://unjournal-website.netlify.app` is the replacement staging site. The repository is linked
   to Netlify and remains protected from indexing by `X-Robots-Tag: noindex` until cutover.
-- Website PR #3 (`claude/landing-plain-style-switcher`, commit `a7d143f`) is the current launch
+- Website PR #3 (`claude/landing-plain-style-switcher`, commit `ab9417a`) is the current launch
   candidate. It incorporates current `main`, uses the shared landing layout for the homepage,
   For researchers, and For evaluators, and exposes only the Plain style. Alternative style assets
   remain in the repository for possible post-migration use.
 - The PR #3 preview passed GitHub CI and Netlify's header and redirect checks. The full historical URL
   inventory returned 22 direct 200s and 10 single permanent redirects. Three URLs that were already
   404 on Squarespace remain 404; there were no newly broken inventoried links.
+- The old GTM/Cookiebot blocks are removed. A first-party choice now loads GA4 and the Google Ads base
+  tag only after opt-in; browser testing confirmed decline and reopen behavior without opting in.
 - No production domain, DNS, Squarespace, or analytics setting has been changed.
 
 Coverage of Squarespace URLs by existing pages here: equivalents exist for home, about, team,
@@ -166,7 +168,7 @@ each question. Record any later change in the log below rather than editing the 
 - [x] News at identical slugs; `/news` lists all 12 locally; RSS generated at build time at `/news/rss.xml`, with `/news?format=rss` redirecting to it (2026-10-07). `tests/check_redirects.py` passes against staging with nothing broken.
 - [ ] Homepage live content per D9, generated at build time (no client-side fetches that can silently fail).
 - [ ] Contact/feedback per D10. If a Netlify form is used, run `netlify_forms_check.py` after deploying.
-- [ ] Analytics per D11; Ads conversion tracking must keep working (Ad Grants requirement).
+- [x] Analytics code per D11 in PR #3: GA4 (`G-G908FSQH5J`) and the Ads base tag (`AW-16652212666`) load only after opt-in; old GTM/Cookiebot code is removed. Verify GA4 realtime and any Ads conversion actions after the production domain is attached.
 - [ ] SEO: unique title and meta description, one `h1`, self-canonical on `https://www.unjournal.org/…`, https `og:image`, `robots.txt`, `sitemap.xml`, favicon, JSON-LD `Organization` + `Periodical` (ISSN 3071-2173). PR #3 adds the site-wide launch files and CI now verifies the title, description, Open Graph title, canonical URL, and single `h1` on all 35 sitemap pages. Complete the remaining Open Graph image and structured-data audit before checking this off.
 - [ ] Accessibility: alt text, heading order, contrast, keyboard focus, reduced motion.
 
@@ -176,7 +178,7 @@ each question. Record any later change in the log below rather than editing the 
 - [ ] Update links we control: GitBook, Coda email templates, social bios, Google Ads final URLs, email signatures.
 
 ### Phase 4 — Pre-launch review
-- [x] Link checker and redirect script pass on staging (413 internal links; historical redirect inventory passed on the PR #3 preview, 2026-11-01).
+- [x] Link checker and redirect script pass on staging (477 page/asset links on a clean build; historical redirect inventory passed on the PR #3 preview, 2026-11-01).
 - [ ] A person reviews mobile and desktop screenshots of every page.
 - [ ] Credibility review (section 6) by someone who did not build it.
 - [ ] Lighthouse performance, accessibility and SEO ≥ 90 on home and team.
