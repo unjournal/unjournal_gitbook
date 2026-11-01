@@ -34,7 +34,7 @@ Peer review is great, but conventional academic publication processes are wastef
 
 **Does&#x20;**_**The Unjournal**_**&#x20;charge any fees?**
 
-No. We're a US-registered tax-exempt 501(c)(3) nonprofit, and we don't charge fees for anything. We compensate evaluators for their time and we even award prizes for strong research and evaluation work, in contrast to most traditional journals. We do so thanks to funding from the [Effective Altruism Infrastructure Fund](https://funds.effectivealtruism.org/funds/ea-community), [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) and [Survival and Flourishing Fund](https://survivalandflourishing.fund/).&#x20;
+No. We're a US-registered tax-exempt 501(c)(3) nonprofit, and we don't charge fees for anything. We compensate evaluators for their time and we even award prizes for strong research and evaluation work, in contrast to most traditional journals. We do so thanks to funding from the [Effective Altruism Infrastructure Fund](https://funds.effectivealtruism.org/funds/ea-community), [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future), [Survival and Flourishing Fund](https://survivalandflourishing.fund/), and funders on [Lightcone Commons](https://www.lightconecommons.com/).&#x20;
 
 At some point in the future, we might consider sliding-scale fees for people or organizations submitting their work for _Unjournal_ evaluation, or for other services. If we do this, it would simply be a way to cover the compensation we pay evaluators and to cover our actual costs. Again, we are a _nonprofit_ and we will stay that way.
 
@@ -68,6 +68,7 @@ The Unjournal is funded by grants from philanthropic organizations focused on ef
 - [Survival and Flourishing Fund](../grants-and-proposals/survival-and-flourishing-fund-successful.md) (SFF)
 - [Long-Term Future Fund](../grants-and-proposals/acx-ltff-grant-proposal-as-submitted-successfull/) (LTFF) — our initial ACX grant was passed to LTFF
 - EA Funds (EAIF; Pivotal Questions project)
+- [Lightcone Commons](https://www.lightconecommons.com/) (2026; our AI economics and governance evaluation work)
 
 We share our grant applications in the spirit of transparency — see our [grants and proposals](../grants-and-proposals/) section, including both successful and unsuccessful applications.
 
