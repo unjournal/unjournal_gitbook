@@ -69,12 +69,12 @@ th{font-weight:600;color:var(--muted);font-family:system-ui,sans-serif;font-size
   <table>
     <colgroup><col style="width:22%"><col style="width:78%"></colgroup>
     <tr><th>Time (UK)</th><th>Item</th></tr>
-    <tr><td>19:30</td><td>Welcome and introductions</td></tr>
-    <tr><td>19:34</td><td>News: the AI economics and governance stream</td></tr>
-    <tr><td>19:41</td><td>Progress on other projects</td></tr>
-    <tr><td>19:46</td><td>Where you can help, including a research lead role</td></tr>
-    <tr><td>19:54</td><td><b>Open discussion</b></td></tr>
-    <tr><td>20:07</td><td>Coming up, newsletter, feedback</td></tr>
+    <tr><td>19:30</td><td><a href="#1">Welcome and introductions</a></td></tr>
+    <tr><td>19:34</td><td><a href="#2">News: the AI economics and governance stream</a>, and <a href="#3">choosing papers 3 and 4</a></td></tr>
+    <tr><td>19:41</td><td><a href="#4">Progress on other projects</a></td></tr>
+    <tr><td>19:46</td><td><a href="#5">Where you can help</a>, including a <a href="#6">research lead role</a></td></tr>
+    <tr><td>19:54</td><td><a href="#7"><b>Open discussion</b></a></td></tr>
+    <tr><td>20:07</td><td><a href="#8">Coming up, newsletter, feedback</a></td></tr>
     <tr><td>20:10</td><td>Management team check-in (management team only)</td></tr>
   </table>
   <p class="small">Recorded with an AI notetaker and shared with the team; ask any time to pause or keep something out. Questions go in the Zoom chat, and we'll answer all of them.</p>
@@ -261,6 +261,7 @@ th{font-weight:600;color:var(--muted);font-family:system-ui,sans-serif;font-size
     else if(e.key==='n'||e.key==='N'){document.body.classList.toggle('shownotes')}
     else if(e.key==='t'||e.key==='T'){clean()}
   });
+  window.addEventListener('hashchange',function(){var h=parseInt(location.hash.slice(1),10);if(h>0&&h<=slides.length)show(h-1);});
   show(i);setInterval(tick,15000);
 })();
 </script>
