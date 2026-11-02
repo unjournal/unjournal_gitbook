@@ -43,7 +43,9 @@ Your evaluation will be made public and given a DOI. You have the option to be i
 ### Financial compensation
 
 {% hint style="info" %}
-**Current position (12 Oct 2026, matching our website):** $100 is the compensation we can guarantee for a completed evaluation, until further funding comes through.
+**Update (November 2026):** With new funding from funders on [Lightcone Commons](https://www.lightconecommons.com/), we are likely to offer at least $450 in average compensation per evaluation (including incentives and prizes) for our [AI economics and governance work](https://info.unjournal.org/ai-economics). We'll confirm the details when we invite you.
+
+**Other areas (12 Oct 2026, matching our website):** $100 is the compensation we can guarantee for a completed evaluation for now, and we are working to bring these back to the same level.
 
 Our target is still **$450 in average compensation per evaluation**, including incentives and prizes. We met that target in earlier funded cycles, using prizes to meet or exceed it, and we aim to return to it as funding allows. We'll let you know your rate in advance, and we may pay more for hard-to-source expertise or specifically requested work.
 
