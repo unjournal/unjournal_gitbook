@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unjournal Drop-in, November</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f4ef;--card:#ffffff;--ink:#1d2430;--muted:#5b6574;--primary:#1a3a5c;--accent:#2e86c1;--line:#dcd8cf;--warn:#b5651d;--bad:#a33a3a;--good:#2f7a4f;--chip:#e9eef4;--notes:#fff8e6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12171e;--card:#1a212b;--ink:#e6e9ee;--muted:#9aa5b4;--primary:#8fb7e0;--accent:#5fb0e8;--line:#2c3644;--warn:#e0a35c;--bad:#e07a7a;--good:#6fc196;--chip:#243040;--notes:#2a2618}}
+:root[data-theme="dark"]{--bg:#12171e;--card:#1a212b;--ink:#e6e9ee;--muted:#9aa5b4;--primary:#8fb7e0;--accent:#5fb0e8;--line:#2c3644;--warn:#e0a35c;--bad:#e07a7a;--good:#6fc196;--chip:#243040;--notes:#2a2618}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.5 Georgia,serif}
+a{color:var(--accent)}
+h1,h2,h3{font-family:"Libre Baskerville",Georgia,serif;color:var(--primary);margin:0 0 .5em}
+h1{font-size:1.9em}h2{font-size:1.45em}h3{font-size:1.05em;margin-bottom:.3em}
+.bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.5em 1em;align-items:center;justify-content:space-between;padding:.5em 16px;background:var(--card);border-bottom:1px solid var(--line);font:14px/1.3 system-ui,sans-serif}
+.bar .slot{font-weight:600;color:var(--primary)}
+.bar .status{padding:.15em .6em;border-radius:999px;background:var(--chip)}
+.bar .status.late{background:var(--bad);color:#fff}
+.bar .status.next{background:var(--warn);color:#fff}
+body.clean .bar .status,body.clean .bar #clock{display:none}
+.bar button{font:inherit;padding:.3em .7em;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;cursor:pointer}
+.stage{max-width:1040px;margin:0 auto;padding:24px 16px 80px}
+.slide{display:none;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:28px 32px;min-height:62vh}
+.slide.on{display:block}
+.when{font:13px/1 system-ui,sans-serif;color:var(--muted);margin-bottom:.8em;letter-spacing:.02em}
+ul{padding-left:1.2em;margin:.3em 0}li{margin:.25em 0}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--bg)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:.6em 0 1em}
+.stat{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg)}
+.stat b{display:block;font-family:"Libre Baskerville",Georgia,serif;font-size:1.5em;color:var(--primary)}
+.stat span{font-size:.85em;color:var(--muted)}
+.small{font-size:.88em;color:var(--muted)}
+.big{font-size:1.2em}
+.tag{display:inline-block;font:12px/1.6 system-ui,sans-serif;padding:0 .5em;border-radius:4px;background:var(--chip);color:var(--muted)}
+.tag.good{background:var(--good);color:#fff}
+details{margin-top:.6em}summary{cursor:pointer;color:var(--accent)}
+.notes{display:none;margin-top:18px;padding:12px 14px;background:var(--notes);border-left:4px solid var(--warn);border-radius:6px;font-size:.9em}
+body.shownotes .notes{display:block}
+.notes::before{content:"Speaker notes";display:block;font:600 12px/1.6 system-ui,sans-serif;color:var(--warn);text-transform:uppercase;letter-spacing:.05em}
+.hint{font:12px system-ui,sans-serif;color:var(--muted);text-align:center;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:.92em}
+td,th{border-bottom:1px solid var(--line);padding:.35em .4em;text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--muted);font-family:system-ui,sans-serif;font-size:.85em}
+@media (max-width:640px){.slide{padding:18px 16px}h1{font-size:1.5em}body{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="bar">
+  <span><span class="slot" id="slot"></span> &nbsp;<span class="status" id="status"></span></span>
+  <span id="clock"></span>
+  <span>
+    <button id="prev" aria-label="Previous slide">&larr;</button>
+    <span id="count"></span>
+    <button id="next" aria-label="Next slide">&rarr;</button>
+    <button id="ntoggle" title="Toggle speaker notes (N)">Notes</button>
+    <button id="ctoggle" title="Hide timer for screen sharing (T)">Timer</button>
+  </span>
+</div>
+<main class="stage">
+
+<section class="slide" data-start="19:30" data-end="19:34" data-title="Welcome">
+  <div class="when">Open drop-in · Mon 2 Nov 2026 · 19:30–20:10 UK (2:30–3:10 pm US Eastern)</div>
+  <h1>Welcome to The Unjournal drop-in</h1>
+  <p><b>Tonight's theme:</b> scaling up our AI economics and governance evaluations.</p>
+  <table>
+    <colgroup><col style="width:22%"><col style="width:78%"></colgroup>
+    <tr><th>Time (UK)</th><th>Item</th></tr>
+    <tr><td>19:30</td><td>Welcome and introductions</td></tr>
+    <tr><td>19:34</td><td>News: the AI economics and governance stream</td></tr>
+    <tr><td>19:42</td><td>Where you can help</td></tr>
+    <tr><td>19:52</td><td><b>Open discussion</b></td></tr>
+    <tr><td>20:07</td><td>Coming up, newsletter, feedback</td></tr>
+    <tr><td>20:10</td><td>Management team check-in (management team only)</td></tr>
+  </table>
+  <p class="small">Recorded with an AI notetaker and shared with the team; ask any time to pause or keep something out. Questions go in the Zoom chat, and we'll answer all of them.</p>
+  <div class="notes">Ask people to say hello in the chat with name and role. Mention that the management segment follows at 20:10, so management team members should stay on.</div>
+</section>
+
+<section class="slide" data-start="19:34" data-end="19:42" data-title="News">
+  <div class="when">19:34–19:42</div>
+  <h2>Good news: the AI economics and governance stream is funded</h2>
+  <p>New funding for a 12-month stream of evaluations of research on AI's economic effects and governance.</p>
+  <div class="stats">
+    <div class="stat"><b>~15</b><span>evaluation packages</span></div>
+    <div class="stat"><b>2</b><span>Pivotal Questions, with workshops</span></div>
+    <div class="stat"><b>Part-time</b><span>research lead role for the stream</span></div>
+  </div>
+  <h3>Where the first two papers are</h3>
+  <ul class="small">
+    <li><b>Economic Scenarios for Transformative AI:</b> authors notified; first evaluator on board; recruiting a second</li>
+    <li><b>Forecasting the Economic Effects of AI:</b> authors notified; recruiting evaluators</li>
+    <li>Selected under our simplified rule: two strong management approvals, then a week for anyone to object</li>
+  </ul>
+  <div class="notes">Don't give the amount or the funder name here (management segment only). Money is expected within about two months; the grant agreement arrives this week.<br>Be careful not to say who has agreed or declined to evaluate.</div>
+</section>
+
+<section class="slide" data-start="19:34" data-end="19:42" data-title="What's next">
+  <div class="when">19:34–19:42</div>
+  <h2>Choosing papers 3 and 4</h2>
+  <p>Selection call <b>tomorrow, Tuesday 3 Nov, 15:00–16:00 UK</b>. Candidates under discussion include:</p>
+  <ul>
+    <li>Recursive self-improvement and AI-driven growth</li>
+    <li>AI race dynamics and existential risk</li>
+    <li>AI and the labour market (recent empirical work)</li>
+  </ul>
+  <p><a href="https://uj-prioritization-dashboard.netlify.app/ai-governance/">AI governance paper briefs</a> · <a href="https://forum.effectivealtruism.org/posts/f8fSwk4nsxSDfrnyb/which-ai-economics-and-governance-research-most-needs">Our EA Forum post: which research most needs evaluation?</a></p>
+  <p class="small">Views before tomorrow? Put them in the chat, or rate papers on the briefs page.</p>
+  <div class="notes">Name the papers only at the level shown on the public briefs page. Invite anyone who wants to join tomorrow's call to say so.</div>
+</section>
+
+<section class="slide" data-start="19:42" data-end="19:52" data-title="Where you can help">
+  <div class="when">19:42–19:52</div>
+  <h2>Where you can help</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>Suggest evaluators</h3>
+      <p class="small">The pool for serious AI economics evaluation is small: macro and growth theory, labour economics, forecasting and expert elicitation. PhD students and postdocs welcome. Send names privately to <a href="mailto:contact@unjournal.org">contact@unjournal.org</a>.</p>
+    </div>
+    <div class="card">
+      <h3>Advise an evaluation</h3>
+      <p class="small">Short advisory roles on the current papers: especially someone strong on expert elicitation and aggregation.</p>
+    </div>
+    <div class="card">
+      <h3>The research lead role</h3>
+      <p class="small">A part-time role leading the stream. Interested, or know someone? Tell us; details to follow.</p>
+    </div>
+  </div>
+  <p class="small" style="margin-top:1em">Also: rate papers on the <a href="https://uj-prioritization-dashboard.netlify.app/ai-governance/">briefs page</a>, and share the work.</p>
+  <div class="notes">If asked about pay: an honorarium plus possible prizes during the transition; we're reviewing rates now that the stream is funded (decision in the management segment). Don't promise a figure.</div>
+</section>
+
+<section class="slide" data-start="19:52" data-end="20:07" data-title="Open discussion">
+  <div class="when">19:52–20:07</div>
+  <h1>Open discussion</h1>
+  <p class="big">Questions, suggestions, challenges: Zoom chat or just speak up.</p>
+  <h3>Some starting questions</h3>
+  <ul>
+    <li>What would make a strong researcher take on a fast AI economics evaluation? Purpose, recognition, prizes, pay?</li>
+    <li>How should evaluators use AI? Should we run strong AI evaluations first and ask humans to check them, or keep them separate and compare?</li>
+    <li>AI governance work goes stale in weeks. How fast do we need to be, and what formats should we evaluate (dashboards, datasets, living reviews)?</li>
+  </ul>
+  <p class="small">We'll respond to every comment, including those we don't reach live, and add them to the record.</p>
+  <div class="notes">On the second question: our AI-vs-human comparison (60 papers) found the model caught about 80% of issues human evaluators agreed on: <a href="https://llm-uj-research-eval.netlify.app/">results</a>. Gary King's recent "peerless" work is close to our planned rater study.</div>
+</section>
+
+<section class="slide" data-start="20:07" data-end="20:10" data-title="Coming up">
+  <div class="when">20:07–20:10</div>
+  <h2>Coming up</h2>
+  <ul>
+    <li><b>Tue 3 Nov, 15:00 UK:</b> AI economics paper selection call</li>
+    <li><b>Fri 13 Nov:</b> joint webinar with the Institute for Replication on the future of open science (registration open)</li>
+    <li><b>Wed 18 Nov, 12:30 UK</b> (7:30 am US Eastern): next drop-in</li>
+    <li><b>Mon 7 Dec, 19:30 UK</b> (2:30 pm US Eastern): first-Monday drop-in</li>
+  </ul>
+  <ul class="big" style="margin-top:.8em">
+    <li>Newsletter: <a href="https://unjournal-newsletter.netlify.app/newsletter">unjournal-newsletter.netlify.app/newsletter</a></li>
+    <li>Anonymous feedback: <a href="https://info.unjournal.org/feedback.html">info.unjournal.org/feedback.html</a></li>
+    <li>Talk to David: <a href="https://calendly.com/daaronr">calendly.com/daaronr</a></li>
+  </ul>
+  <p>Thanks! Management team: please stay on.</p>
+  <div class="notes">Have the webinar registration link ready to paste in chat. Confirm the 13 Nov date before saying it.</div>
+</section>
+
+</main>
+<div class="hint">← → or space to move · N toggles notes · T hides the timer</div>
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var i=0;
+  try{var h=parseInt(location.hash.slice(1),10);if(h>0&&h<=slides.length)i=h-1;}catch(e){}
+  function ukNow(){var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).formatToParts(new Date());var o={};p.forEach(function(x){o[x.type]=x.value});return {h:+o.hour,m:+o.minute,s:+o.second,str:o.hour+':'+o.minute};}
+  function mins(t){var a=t.split(':');return (+a[0])*60+(+a[1]);}
+  function tick(){
+    var n=ukNow(),now=n.h*60+n.m+n.s/60,s=slides[i];
+    document.getElementById('clock').textContent='UK '+n.str;
+    var st=document.getElementById('status'),end=mins(s.dataset.end);
+    st.className='status';
+    if(now>end){st.textContent='over by '+Math.ceil(now-end)+' min';st.classList.add('late');}
+    else if(end-now<=2){st.textContent=Math.ceil(end-now)+' min left';st.classList.add('next');}
+    else{st.textContent='move on at '+s.dataset.end;}
+  }
+  function show(k){
+    i=Math.max(0,Math.min(slides.length-1,k));
+    slides.forEach(function(s,j){s.classList.toggle('on',j===i)});
+    var s=slides[i];
+    document.getElementById('slot').textContent=s.dataset.start+'–'+s.dataset.end+' · '+s.dataset.title;
+    document.getElementById('count').textContent=(i+1)+' / '+slides.length;
+    try{history.replaceState(null,'','#'+(i+1));}catch(e){}
+    tick();
+  }
+  function clean(){document.body.classList.toggle('clean')}
+  document.getElementById('prev').onclick=function(){show(i-1)};
+  document.getElementById('next').onclick=function(){show(i+1)};
+  document.getElementById('ntoggle').onclick=function(){document.body.classList.toggle('shownotes')};
+  document.getElementById('ctoggle').onclick=clean;
+  document.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();show(i+1)}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();show(i-1)}
+    else if(e.key==='n'||e.key==='N'){document.body.classList.toggle('shownotes')}
+    else if(e.key==='t'||e.key==='T'){clean()}
+  });
+  show(i);setInterval(tick,15000);
+})();
+</script>
+</body>
+</html>

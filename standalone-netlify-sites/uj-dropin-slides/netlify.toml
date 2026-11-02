@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+
+# The root always points at the latest session's slides; change this line each session.
+[[redirects]]
+  from = "/"
+  to = "/2026-11-02.html"
+  status = 302
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
