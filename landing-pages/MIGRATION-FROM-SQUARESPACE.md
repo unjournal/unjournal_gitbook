@@ -1,16 +1,19 @@
 # Moving the main Unjournal site off Squarespace
 
-Last reconciled: 2026-11-02 (PR #3 merged; Netlify production deployment and redirects verified)
+Last reconciled: 2026-11-03 (DNS cutover completed; `info` certificate renewal still pending)
 
 Shared plan, evidence and checklist for Codex, Claude Code and human collaborators. Goal: replace the
 Squarespace site at `www.unjournal.org` with pages we host and control, without losing inbound links,
 search ranking, Google Ad Grants, or email — and with a site that reads as a credible research
 organisation, not a template or an AI-generated page.
 
-- **Status:** Phase 2 (staging and pre-launch work) is in progress. Nothing has been cut over;
-  Squarespace still serves `www.unjournal.org`. The replacement is on Netlify with a temporary
-  site-wide `noindex` header. PR #3 has merged to `main` and the verified Netlify production
-  deployment uses the Plain design only.
+- **Status:** Phase 5 cutover is in progress. On 2026-11-03, the apex, `www`, and `info` DNS records
+  were pointed to Netlify; `www` was made the primary Netlify domain; and the temporary `noindex`
+  header was removed in website PR #7. The main certificate covers `unjournal.org` and
+  `www.unjournal.org`, and the main site passes launch checks. The certificate does not yet include
+  `info.unjournal.org`: Netlify still sees a cached pre-cutover `www` record and will retry after the
+  former four-hour TTL expires. Some visitors may likewise see cached Squarespace responses until
+  then. Do not cancel Squarespace yet.
 - **Owner:** David Reinstein for now (others may be brought in later).
 - **Only options recorded in the decision log (section 3) count as decided.**
 - This file supersedes `SQUARESPACE-LINKING-GUIDE.md` and `SQUARESPACE-LANDING-PAGE-LINKS.md` as the
@@ -43,12 +46,16 @@ organisation, not a template or an AI-generated page.
 | `info.unjournal.org` | ~25 static pages from this folder, nginx on the Linode VPS. Pages differ between git, this folder and the server (section 5). No robots.txt, sitemap or favicon; canonicals inconsistent. |
 | Design | Squarespace: Libre Baskerville headings, Arial-rendered body, black on white, green/orange ring logo, flat nav that wraps to two lines, no hero imagery. `info` pages: Libre Baskerville + Georgia, navy/teal on cream, stat tiles, numbered step cards, pill chips, dark CTA band. |
 
-### Current implementation snapshot (verified 2026-11-02)
+### Current implementation snapshot (verified 2026-11-03)
 
-- `www.unjournal.org` and the apex domain still resolve to Squarespace; `info.unjournal.org` still
-  resolves to the Linode host. The observed DNS TTL was 14,400 seconds. MX remains Google Workspace.
-- `https://unjournal-website.netlify.app` is the replacement staging site. The repository is linked
-  to Netlify and remains protected from indexing by `X-Robots-Tag: noindex` until cutover.
+- Authoritative DNS and the Google and Cloudflare public resolvers now return apex A `75.2.60.5`,
+  `www` CNAME `unjournal-website.netlify.app`, and `info` CNAME
+  `unjournal-website.netlify.app`. `api.unjournal.org` remains on the Linode host. The former website
+  records had a 14,400-second TTL, so resolver caches may continue serving Squarespace for up to four
+  hours after the change.
+- `https://unjournal-website.netlify.app` is the replacement production site. Website PR #7 merged
+  at commit `ff02258` and removed the temporary `X-Robots-Tag: noindex` header. Netlify now treats
+  `www.unjournal.org` as the primary domain; the apex and `info` redirect to it.
 - Website PR #3 merged to `main` at commit `e417fee`. The production Netlify address
   (`https://unjournal-website.netlify.app`) serves the merged site. It uses the shared landing layout for the homepage,
   For researchers, and For evaluators, and exposes only the Plain style. Alternative style assets
@@ -58,7 +65,13 @@ organisation, not a template or an AI-generated page.
   404 on Squarespace remain 404; there were no newly broken inventoried links.
 - The old GTM/Cookiebot blocks are removed. A first-party choice now loads GA4 and the Google Ads base
   tag only after opt-in; browser testing confirmed decline and reopen behavior without opting in.
-- No production domain, DNS, Squarespace, or analytics setting has been changed.
+- DNS verification succeeded and Netlify issued a Let's Encrypt certificate for `unjournal.org` and
+  `www.unjournal.org`. Renewal to include the `info` alias is pending expiry of Netlify's cached old
+  `www` record. Direct launch checks at Netlify returned 200 for the homepage, For researchers, For
+  evaluators, team, news, robots.txt, and sitemap.xml. `/home`, `/for-authors`, and
+  `/commissioned-evaluations-1` each make the intended single 301. Canonical URLs and the sitemap use
+  `https://www.unjournal.org`; no `noindex` remains.
+- MX, SPF, DKIM, DMARC, Google verification TXT records, and `api.unjournal.org` were preserved.
 
 Coverage of Squarespace URLs by existing pages here: equivalents exist for home, about, team,
 for-evaluators, for-researchers (`for-authors.html`), getting-involved, pivotal-questions and the prize
@@ -185,9 +198,10 @@ each question. Record any later change in the log below rather than editing the 
 - [ ] Lighthouse performance, accessibility and SEO ≥ 90 on home and team.
 
 ### Phase 5 — Cutover
-- [ ] Lower TTL on `www`/apex to 300s, 48h ahead.
-- [ ] Remove the temporary `X-Robots-Tag: noindex` header from `netlify.toml` in `unjournal-website` (it keeps the staging address out of search results) in the same release as the domain switch.
-- [ ] Add the custom domain on the host; point `www` and apex; confirm TLS for both names.
+- [ ] Lower TTL on `www`/apex to 300s, 48h ahead. (Missed: Squarespace records remained at four hours; allow caches to expire.)
+- [x] Remove the temporary `X-Robots-Tag: noindex` header from `netlify.toml` in `unjournal-website` (website PR #7, merged 2026-11-03).
+- [x] Add the custom domains on Netlify; point `www`, apex, and `info`; make `www` primary; confirm TLS for the apex and `www` (2026-11-03).
+- [ ] Renew the Netlify certificate after the old `www` cache expires and confirm that it includes `info.unjournal.org`.
 - [ ] Verify immediately: MX unchanged (send/receive test), top 10 paths, redirect script on production, Ads landing pages, GA4 realtime.
 - [ ] Submit the new sitemap in Search Console; request indexing for home, team, about.
 - [ ] Update Google Ads final URLs the same day if any slug changed.
