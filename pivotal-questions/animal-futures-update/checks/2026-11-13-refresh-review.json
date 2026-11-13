@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-13",
+  "scope": "Fresh-context consistency review against the morning live-source observations; live sources were not independently re-fetched by the reviewer.",
+  "discrepancies": [
+    {
+      "field": "Shrimp agreements tooltip",
+      "incorrect": 55,
+      "corrected": 29,
+      "status": "fixed"
+    },
+    {
+      "field": "Save Our Bacon tooltip",
+      "incorrect": 60,
+      "corrected": 80,
+      "status": "fixed"
+    }
+  ],
+  "result": "passed after fixes",
+  "verification": [
+    "All 21 question IDs, table forecasts, counts, and comments match checked observations",
+    "Wave means and ranges recomputed",
+    "HTML and Markdown report content aligned",
+    "No public privacy discrepancy found",
+    "Desktop and 390px phone previews passed; expanded table stays in its scrolling container",
+    "Inline JavaScript, local links, feed and sitemap XML validated"
+  ]
+}

@@ -19,7 +19,7 @@ Deploy: `netlify deploy --prod --dir=site --site be7830b5-b011-4d32-8437-4c21d42
 5. Check links and HTML, preview both pages locally at desktop and mobile widths, deploy the site with its explicit ID, then read back the production URL and both pages. Distinguish local, deployed, and live verification in the update to David.
 6. Tell David what changed and what did not, with the current public links. Inform the specified collaborators through the agreed channel once recipients and method are supplied; until then, the public RSS feed is the opt-in notification route.
 
-The desired cadence is every ten days from September 23, 2026. The November 13, 2026 check is complete; the next check is due November 23. The public edition remains dated October 23 because no material update was warranted. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
+The desired cadence is every ten days from September 23, 2026. The November 13, 2026 check is complete; the next check is due November 23. David subsequently requested a public refresh, so the report and dashboard now carry the November 13 figures. The main implications remain steady. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
 
 ## Copy and discussion
 
@@ -38,3 +38,9 @@ Published source commit `e595b01` as Netlify deployment `6adb2c336ae3b19efe1bda6
 Reviewed all 21 question cards and the changed forecast pages, the expanded leaderboard, and public feedback. The official resolved count remains 1. The additional Mexico reply repeats the resolution request without new evidence. No material change to the headline implications or new confirmed decision use was found; the public HTML, Markdown, RSS, and `snapshot.json` remain the October 23 edition. Question-level observations and computed comparisons are retained in `checks/2026-11-13.json` outside `site/`.
 
 Production dashboard, report, feed, and engagement-summary reads succeeded. The summary still returns `site: animal_futures_update` and `validation: false`. The USDA PDF remains inaccessible, so its proposed numeric result is unverified. The next check should revisit that resolution, any new discussion or decision use, and the growing coverage of the September questions.
+
+## November 13 requested refresh
+
+After the scheduled check, David requested an update to the public report. Refreshed the dashboard, short HTML/Markdown report, snapshot, and RSS together from today’s checked rows; archived the October 23 snapshot. Counts and selected forecasts are current as of November 13; comparator counts remain explicitly dated October 3. No new official resolution or documented changed decision is claimed. Keep the Hypothes.is prompt near the top. The original no-public-update assessment in the check record describes the earlier automated pass; this requested refresh supersedes that publication decision.
+
+A fresh-context consistency review passed after two tooltip count fixes (shrimp agreements and Save Our Bacon). The discrepancy record is in `checks/2026-11-13-refresh-review.json`. All question rows match today’s observations; local links, inline JS, feed/sitemap XML, desktop, and 390px phone previews passed. Because the parent repository has unrelated dirty work, publish an archive of the pushed project source, including `netlify.toml` and `netlify/edge-functions`, rather than the working tree.
