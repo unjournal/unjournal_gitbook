@@ -1,0 +1,33 @@
+{
+  "verified_at": "2026-11-13T17:11:05.542482+00:00",
+  "source_commit": "d245516c801990f9701a40aaa766a366b8c81e7c",
+  "netlify_deploy_id": "6af74473c6e88a5efc629e39",
+  "deploy_source": "Archive of pushed project source; only site/ published, with project netlify.toml and edge function retained.",
+  "production": {
+    "/": {
+      "http_status": 200,
+      "matches_committed_source_after_pretty_url_normalization": true,
+      "sha256": "ab2288cc589c1d8bceac6d1d2bf83dff7c211b6e7521f469c0dabeb779c236cd"
+    },
+    "/report.html": {
+      "http_status": 200,
+      "matches_committed_source_after_pretty_url_normalization": true,
+      "sha256": "72a2c66984737aea96350cd85683f0633e98cbbac9c30364026c36d294133ae1"
+    },
+    "/report.md": {
+      "http_status": 200,
+      "matches_committed_source": true,
+      "sha256": "8e3b1d0d168334f1654b22f6bb46a2bcd292e078430074eafc03d2f823b24bda"
+    },
+    "/feed.xml": {
+      "http_status": 200,
+      "matches_committed_source": true,
+      "sha256": "edc5226b2c7b94ea5329c58633788278e8ea6ec58028296717a5c0b0757ec1fc"
+    },
+    "/__engagement/summary": {
+      "http_status": 200,
+      "site": "animal_futures_update",
+      "validation": false
+    }
+  }
+}
