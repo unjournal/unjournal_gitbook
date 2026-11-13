@@ -19,7 +19,7 @@ Deploy: `netlify deploy --prod --dir=site --site be7830b5-b011-4d32-8437-4c21d42
 5. Check links and HTML, preview both pages locally at desktop and mobile widths, deploy the site with its explicit ID, then read back the production URL and both pages. Distinguish local, deployed, and live verification in the update to David.
 6. Tell David what changed and what did not, with the current public links. Inform the specified collaborators through the agreed channel once recipients and method are supplied; until then, the public RSS feed is the opt-in notification route.
 
-The desired cadence is every ten days from September 23, 2026. The October 23, 2026 check is complete; the next check is November 2. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
+The desired cadence is every ten days from September 23, 2026. The November 13, 2026 check is complete; the next check is due November 23. The public edition remains dated October 23 because no material update was warranted. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
 
 ## Copy and discussion
 
@@ -29,6 +29,12 @@ Use direct, source-linked prose. Hypothes.is is for annotations to this analysis
 
 The new Mexico question comment requests resolution, but the platform still lists it open. Its target is the first available official 2027 forecast, not realized consumption. Verify the first-release USDA source before accepting a proposed numeric result; the PDF was inaccessible this cycle. Public Plant Based Cities coverage cites the sales forecast as a possible benchmark, without documenting a changed decision. Direct article access was geographically blocked; its primary text was available in the search index. The three dashboard Hypothes.is comments from October 14 were already addressed in the site; preserve those improvements. The report had no public annotations.
 
-Prior dated data are retained in `snapshots/` outside the published directory. Comparator tournament counts remain explicitly dated October 3; do not present them as refreshed. Social drafts in the chat still await David’s approval; this maintenance run sends no social posts or participant messages.
+Prior dated data are retained in `snapshots/` outside the published directory. Comparator tournament counts remain explicitly dated October 3; do not present them as refreshed. A public EA Forum quick take by David is visible as of the November 13 check. Publication on other platforms is not established; do not infer approval for additional posts or messages.
 
 Published source commit `e595b01` as Netlify deployment `6adb2c336ae3b19efe1bda60`, using this source folder and its edge-function configuration. Production read-back confirmed October 23 content on `/` and `/report.html`, the October 23 RSS item on `/feed.xml`, and JSON with `site: animal_futures_update` and `validation: false` on `/__engagement/summary`. Desktop and 390px phone previews passed; the full question table stays within its scrolling container. The feed/summary access blocker from the previous run is cleared.
+
+## November 13 check
+
+Reviewed all 21 question cards and the changed forecast pages, the expanded leaderboard, and public feedback. The official resolved count remains 1. The additional Mexico reply repeats the resolution request without new evidence. No material change to the headline implications or new confirmed decision use was found; the public HTML, Markdown, RSS, and `snapshot.json` remain the October 23 edition. Question-level observations and computed comparisons are retained in `checks/2026-11-13.json` outside `site/`.
+
+Production dashboard, report, feed, and engagement-summary reads succeeded. The summary still returns `site: animal_futures_update` and `validation: false`. The USDA PDF remains inaccessible, so its proposed numeric result is unverified. The next check should revisit that resolution, any new discussion or decision use, and the growing coverage of the September questions.
