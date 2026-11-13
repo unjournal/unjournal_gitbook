@@ -136,7 +136,7 @@ const inputSpecs: InputSpec[] = [
     key: "publicBenefitFundRealizationPct",
     label: "Public Benefit Fund realization",
     description:
-      "Share of paper equity value assumed to become available after stockholder approval, valuation changes, liquidity, lockups, and sale constraints. The displayed model separately assumes 90% approval.",
+      "Share of paper value assumed available after valuation changes, liquidity, lockups, and sale constraints. The separate initial-issuance gate is fixed at 100% after the SEC disclosure. The 5% equity input refers to June 30 fully diluted shares, not post-IPO ownership.",
     suffix: "%",
     min: 0,
     max: 100,

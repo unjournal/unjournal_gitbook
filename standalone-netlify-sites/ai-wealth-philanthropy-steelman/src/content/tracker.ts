@@ -1,4 +1,5 @@
 import { defaultModelInputs } from "./modelDefaults";
+import { anthropicIpo, offeringSummary, historicalTenderApprox } from "./anthropicIpo";
 import { defaultCorrelatedConfig, runCorrelatedSimulation } from "../utils/correlatedModel";
 import { defaultGlobalDevelopmentInputs } from "../utils/globalDevelopmentModel";
 import { runGlobalDevelopmentSimulation } from "../utils/globalDevelopmentCorrelatedModel";
@@ -192,6 +193,38 @@ const globalCommitmentHistory: CommitmentSnapshot[] = [
 
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-12",
+    title: "GiveWell recommends flexible All Grants Fund support",
+    summary: "GiveWell now recommends the All Grants Fund to donors, including for pilots and decision-relevant research. Its previously announced scale-up goals are retained. This is an existing-funder allocation signal, not a new AI-wealth amount, a cash-paid total, or an open application round.",
+    scope: ["main", "global-development"],
+    evidenceIds: ["givewell-all-grants-nov12"],
+    strength: "Confirmed"
+  },
+  {
+    date: anthropicIpo.filed,
+    title: "Anthropic launches its IPO roadshow with proposed pricing",
+    summary: offeringSummary,
+    scope: ["main", "global-development"],
+    evidenceIds: ["anthropic-roadshow-nov10", "anthropic-prospectus-nov10"],
+    strength: "Planned"
+  },
+  {
+    date: anthropicIpo.filed,
+    title: "Prospectus distinguishes earlier liquidity, fund equity, and matching liabilities",
+    summary: `An April tender sold approximately ${historicalTenderApprox} of shares held by employees, service providers, and donor-advised funds; this is historical liquidity, not measured recipient grants. The filing also discloses the initial fund contribution. Its $${anthropicIpo.donationMatchingExpenseB}B matching-program expense includes liability recognition and revaluation, not that amount paid out in cash.`,
+    scope: ["main", "global-development"],
+    evidenceIds: ["anthropic-prospectus-nov10"],
+    strength: "Confirmed"
+  },
+  {
+    date: "2026-11-06",
+    title: "Reuters reports an initial OpenAI financing tranche",
+    summary: "Reuters reports $11B raised at a $1.25T valuation, citing an unnamed source; the broader round remained open. This is reported company financing, not an official Foundation stake valuation or a philanthropic transfer. No model amount is increased from it.",
+    scope: ["main", "global-development"],
+    evidenceIds: ["openai-financing-nov6-report"],
+    strength: "Reported"
+  },
+  {
     date: "2026-10-26",
     title: "GiveWell aims for at least $2.5B in malaria grants over 2027–32",
     summary:
@@ -206,7 +239,7 @@ export const newsItems: NewsItem[] = [
     title: "Anthropic publicly files its S-1 for a proposed IPO",
     socialTitle: "Anthropic publicly files its S-1",
     summary:
-      "The public filing and intended Nasdaq listing make the IPO timetable more concrete, but it does not set an offer price, share count, effective date, lockup terms, or first trading date. It is a liquidity-timing signal, not cash or a completed IPO.",
+      "The October 26 announcement confirmed the public filing and intended Nasdaq listing. The November 10 roadshow now supplies a proposed price range and share count, and the prospectus describes lockups. Registration and a roadshow are not a completed IPO or recipient cash.",
     scope: ["main", "global-development"],
     evidenceIds: ["anthropic-public-s1"],
     strength: "Confirmed"
@@ -216,7 +249,7 @@ export const newsItems: NewsItem[] = [
     title: "Anthropic proposes a 5% equity stake for a new Public Benefit Fund",
     socialTitle: "Anthropic proposes a 5% equity stake for its Public Benefit Fund",
     summary:
-      "The initial stake is subject to stockholder approval. The fund is a wholly owned LLC with a broad mandate; governance, liquidity, cause allocation, and distribution timing remain unspecified. It is modeled as paper capacity rather than counted as a dollar commitment or cash paid.",
+      "The October 18 announcement made the initial stake subject to approval. The subsequent SEC filing discloses the contribution and interim board control. The historical 5% uses June 30 fully diluted shares. External cause allocation and payout timing remain unresolved; fund equity is excluded from the cash and dollar-commitment ledgers.",
     scope: ["main", "global-development"],
     evidenceIds: ["anthropic-public-benefit-fund"],
     strength: "Confirmed"
@@ -392,7 +425,7 @@ export const newsItems: NewsItem[] = [
 ];
 
 export const trackerData = {
-  generatedAt: "2026-10-31",
+  generatedAt: "2026-11-13",
   methodology:
     "Each dated point is a reviewed re-estimate from the correlated model, not an automatic rerun. At least every 14 days, the review should reconsider current evidence, elapsed time, and relevant non-events such as no filing, liquidity, or disbursement. The shaded P10–P90 range is an 80% model interval, not an empirical confidence interval. Commitment totals may mix cash, credits, technical support, cofunding, and multi-year plans.",
   forecastReview: {
@@ -488,14 +521,23 @@ export const trackerData = {
         },
         {
           date: "2026-10-29",
-          medianB: mainSimulation.p50,
-          low80B: mainSimulation.p10,
-          high80B: mainSimulation.p90,
+          medianB: 0.7572158126684055,
+          low80B: 0.045075849538053596,
+          high80B: 3.813483445413862,
           reviewStatus: "Reviewed; model implementation corrected",
           inputsChanged: true,
           supersededSameDayReview: { medianB: 0.9409303448726277, low80B: 0.20696872308502828, high80B: 3.1254516866495545, note: "Earlier October 29 S-1 evidence review, published before this simulation correction. Retained here for audit history." },
           note:
             "The October 26 public S-1 strengthens the IPO case, but it does not establish insider liquidity or philanthropic payout timing. Central inputs are retained after considering the fixed end-2027 deadline. This numerical revision corrects simulation behavior: fund approval is binary, collapse also reduces employee equity, exact zero/100% inputs stay fixed, and correlation controls preserve marginal variance. Headline threshold probabilities now come from this same distribution. Earlier dated values are frozen."
+        },
+        {
+          date: "2026-11-13",
+          medianB: mainSimulation.p50,
+          low80B: mainSimulation.p10,
+          high80B: mainSimulation.p90,
+          reviewStatus: "Reviewed; initial fund issuance corrected",
+          inputsChanged: true,
+          note: "Fresh re-estimation resolves the initial fund-issuance gate from 90% to 100% because the filing discloses the contribution; this corrects evidence missed in the October review. Other inputs are retained after reconsidering the end-2027 deadline: longer founder lockups coexist with proposed IPO founder sales and employee early releases. Historical tender liquidity and matching share issuances establish availability, not cause-specific recipient cash. Fifteen elapsed days and no verified external fund payout or cause allocation do not calibrate a mechanical timing cut. The small model increase reflects only the resolved gate. Historical points remain frozen."
         }
       ] satisfies ForecastSnapshot[],
       commitmentHistory: mainCommitmentHistory,
@@ -503,7 +545,7 @@ export const trackerData = {
       existingFunderCommittedB: 0.6,
       existingFunderPromisedB: 1,
       commitmentNote:
-        "The $2.145B total is named AI-linked commitments, not a cash-disbursement total. It includes OpenAI's $1B Daybreak package, more than $125M in Public Data for Health grants, and Anthropic's $150M mixed in-kind Genesis Mission support. Anthropic's proposed 5% Public Benefit Fund stake has no company-stated dollar amount and is excluded from this ledger. GiveWell's bridge funding and the Gates Foundation's $1B equitable-AI plan are existing-funder deployment and are also tracked separately."
+        "The $2.145B total is named AI-linked commitments, not a cash-disbursement total. It includes mixed in-kind packages. The disclosed Public Benefit Fund equity contribution, historical tender proceeds, and donation-matching accounting expense are excluded: none is a comparable named recipient-grant amount. GiveWell's bridge funding and Gates's equitable-AI plan remain separate existing-funder deployment."
     },
     globalDevelopment: {
       label: "Global Health & Development",
@@ -591,14 +633,23 @@ export const trackerData = {
         },
         {
           date: "2026-10-29",
-          medianB: globalSimulation.p50,
-          low80B: globalSimulation.p10,
-          high80B: globalSimulation.p90,
+          medianB: 0.5582512660482959,
+          low80B: 0.10905250040646697,
+          high80B: 3.4344646342407286,
           reviewStatus: "Reviewed; model and overlap assumptions corrected",
           inputsChanged: true,
           supersededSameDayReview: { medianB: 0.668973503069852, low80B: 0.16408247719324257, high80B: 3.3334020056461076, note: "Earlier October 29 S-1 evidence review, published before the model and overlap corrections. Retained here for audit history." },
           note:
             "The public S-1 improves the liquidity evidence without settling lockup, cause allocation, or payout timing by end-2027. The revised model uses binary fund approval, links employee equity to collapse risk, and preserves exact zero/100% inputs. It adds a subjective 70% GH&D share for mixed-scope named programs and corrects the illustrative residual OpenAI envelope from $850M to $790M after the $60M farmer portfolio. This residual is a scenario, not a reconciled unspent budget. Earlier dated values are frozen."
+        },
+        {
+          date: "2026-11-13",
+          medianB: globalSimulation.p50,
+          low80B: globalSimulation.p10,
+          high80B: globalSimulation.p90,
+          reviewStatus: "Reviewed; initial fund issuance corrected",
+          inputsChanged: true,
+          note: "Fresh re-estimation resolves the initial fund-issuance gate from 90% to 100%, correcting a missed SEC disclosure. Other GH&D inputs remain unchanged: the roadshow, differentiated lockups, founder selling tranche, earlier tender, and matching share issuances do not identify GH&D allocations or recipient cash. GiveWell's flexibility recommendation is existing-funder context. Fifteen fewer days to end-2027 and no verified external fund payout schedule warrant continued timing uncertainty, not arbitrary decay. The small model increase reflects only the resolved gate; the residual OpenAI envelope remains an illustrative overlap-avoidance scenario."
         }
       ] satisfies ForecastSnapshot[],
       commitmentHistory: globalCommitmentHistory,

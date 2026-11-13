@@ -1,4 +1,5 @@
 import { ModelComparisonLink } from "./components/ModelComparisonLink";
+import { offeringSummary, lockupSummary, fundIssuanceSummary } from "./content/anthropicIpo";
 import { useEffect } from "react";
 import { CitationTip } from "./components/CitationTip";
 import { FeedbackFold } from "./components/FeedbackFold";
@@ -17,6 +18,10 @@ import { TrackerPanel } from "./components/TrackerPanel";
 import { SiteNavigation } from "./components/SiteNavigation";
 
 const globalSourceIds = new Set([
+  "anthropic-roadshow-nov10",
+  "anthropic-prospectus-nov10",
+  "openai-financing-nov6-report",
+  "givewell-all-grants-nov12",
   "anthropic-s1",
   "anthropic-ipo-current-reporting",
   "anthropic-ipo-oct-21",
@@ -43,26 +48,26 @@ const uncertaintyRows = [
   {
     title: "1. The liquidity event is plausible, but not scheduled",
     body:
-      "Anthropic publicly filed its S-1 on 26 October and intends to list on Nasdaq. It has not announced an offer price, share count, effective date, lockup terms, or first trading date.",
-    evidenceIds: ["anthropic-s1", "anthropic-public-s1", "anthropic-ipo-current-reporting", "anthropic-ipo-oct-21", "polymarket-anthropic-ipo", "anthropic-valuation"]
+      offeringSummary,
+    evidenceIds: ["anthropic-roadshow-nov10", "anthropic-prospectus-nov10"]
   },
   {
     title: "2. Valuation and political risk still matter",
     body:
-      "The $965 billion private valuation is a real financing event, not cash available to founders or charities. Market conditions, regulation, litigation, governance, and company performance could change realizable wealth before insiders can sell. I do not think the public evidence supports a tight probability for this combined risk.",
+      "The model retains the $965B completed-round anchor as an editable scenario, not a current IPO market-cap estimate. Proposed IPO prices and reported OpenAI financing do not reconcile the model's historical equity percentages with current dilution. Market conditions, regulation, litigation, and performance can change realizable wealth before remaining shares are sold.",
     evidenceIds: ["anthropic-valuation", "anthropic-s1", "openai-foundation-structure"]
   },
   {
     title: "3. Paper wealth can remain illiquid after an IPO",
     body:
-      "Investor.gov says most IPO lockups prevent insider sales for about 180 days, though Anthropic's eventual prospectus will control. Donation planning, taxes, sale limits, and the donor's preference to keep holding stock can add further delay.",
-    evidenceIds: ["sec-ipo-lockup"]
+      lockupSummary,
+    evidenceIds: ["anthropic-prospectus-nov10"]
   },
   {
     title: "4. Commitments are not the same as grants paid out",
     body:
-      "Anthropic's proposed 5% Public Benefit Fund stake is paper capacity, subject to stockholder approval, with no announced cause allocation or distribution schedule. Other AI-company announcements combine cash grants with model credits and technical support, often over several years. Existing-funder commitments from Coefficient, GiveWell, and Gates are real capacity signals but not newly liquid AI wealth or completed impact.",
-    evidenceIds: ["anthropic-public-benefit-fund", "anthropic-gates", "openai-horizon-1000", "coefficient-givewell-1b", "coefficient-ghw-ai-rfp", "givewell-scaling-1b", "gates-ai-equity-1b"]
+      fundIssuanceSummary,
+    evidenceIds: ["anthropic-prospectus-nov10"]
   },
   {
     title: "5. Global development has evidence of allocation, but the form is narrow",
@@ -134,14 +139,14 @@ export default function GlobalDevelopmentApp() {
           </div>
           <div className="hero-details">
             <div className="meta-row">
-              <span>Last updated 31 October 2026</span>
+              <span>Last updated 13 November 2026</span>
               <span>Preliminary, largely LLM-generated</span>
             </div>
             <p className="author-note">
               <strong>Orchestrated by David Reinstein</strong>, Co-Director of{" "}
               <a href="https://unjournal.org">Unjournal.org</a>. This fork was prompted by Jessica Leight's question and
               retains her uncertainty rather than assuming that a large general-purpose giving wave is inevitable.{" "}
-              <ProvenanceTip ids={["ai-draft", "david-orchestration", "jessica-fork", "evidence-oct-31", "evidence-oct-29"]} />
+              <ProvenanceTip ids={["ai-draft", "david-orchestration", "jessica-fork", "evidence-nov-13"]} />
             </p>
             <div className="hero-actions">
               <a className="button button--primary" href="#tracker">
@@ -181,9 +186,10 @@ export default function GlobalDevelopmentApp() {
               <CitationTip ids={["coefficient-givewell-1b", "givewell-september-600m"]} />
             </p>
             <p>
-              Coefficient also expects to allocate $10-30 million through an RFP for research, policy, implementation,
-              and field-building on transformative AI and the global poor. I track this as a cause-allocation and
-              capacity signal, not as a completed grant or newly liquid AI wealth.{" "}
+              Coefficient earlier announced a $10-30 million RFP for research, policy, implementation,
+              and field-building on transformative AI and the global poor. Its linked page was unavailable in the
+              November 13 review, so I do not treat it as a verified current application opportunity. It remains
+              historical allocation context, outside new AI-wealth cash.{" "}
               <CitationTip ids={["coefficient-ghw-ai-rfp"]} />
             </p>
             <p>
@@ -194,8 +200,8 @@ export default function GlobalDevelopmentApp() {
               named partnerships. <CitationTip ids={["anthropic-gates", "openai-horizon-1000", "gates-ai-equity-1b"]} />
             </p>
             <p>
-              Anthropic's proposed 5% Public Benefit Fund stake creates a new AI-wealth pathway, but the company has not
-              announced a GH&amp;D allocation, governance terms, liquidity plan, or distribution schedule. The model now
+              Anthropic's initial Public Benefit Fund share contribution is disclosed in its SEC filing. Interim board
+              control is specified, but no GH&amp;D allocation or external payout schedule is announced. The model
               includes it with conservative discounts rather than treating the stake as a grant.{" "}
               <CitationTip ids={["anthropic-public-benefit-fund"]} />
             </p>

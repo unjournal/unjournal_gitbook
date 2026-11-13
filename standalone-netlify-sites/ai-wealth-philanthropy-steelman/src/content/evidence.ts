@@ -1,4 +1,5 @@
 import { animalWelfareEvidence } from "./animalWelfare";
+import { anthropicIpo, fundIssuanceSummary, lockupSummary } from "./anthropicIpo";
 
 export type Evidence = {
   id: string;
@@ -10,6 +11,24 @@ export type Evidence = {
 };
 
 export const evidence: Evidence[] = [
+  {
+    id: "anthropic-roadshow-nov10", marker: "IPO10", title: "Anthropic: proposed IPO roadshow",
+    url: anthropicIpo.roadshowUrl, quote: "", note: "Published 2026-11-10; accessed 2026-11-13. Official proposed price range and primary/secondary share counts. The registration remains subject to effectiveness; no final price or completed offering is established."
+  },
+  {
+    id: "anthropic-prospectus-nov10", marker: "SEC10", title: "Anthropic November 10 amended preliminary prospectus",
+    url: anthropicIpo.prospectusUrl, quote: "", note: `Filed 2026-11-10; accessed 2026-11-13. ${fundIssuanceSummary} ${lockupSummary} Notes separately disclose the April tender, settled donation-match shares, and expense/liability revaluation. Share transfers, accounting expense, and recipient cash are different quantities. The original October 26 filing already contained the fund contribution and tender; their incorporation corrects earlier review omissions.`
+  },
+  {
+    id: "openai-financing-nov6-report", marker: "OR6", title: "Reuters: reported initial OpenAI financing tranche",
+    url: "https://www.streetinsider.com/Reuters/OpenAI%2Bsecures%2B%2411%2Bbillion%2Bfunding%2Bat%2B%241.25%2Btrillion%2Bvaluation%2C%2BBloomberg%2BNews%2Breports/27307823.html",
+    quote: "", note: "Reported 2026-11-06; accessed 2026-11-13. Reuters cites an unnamed source for an initial $11B tranche at $1.25T, with the larger round still open. No official Foundation ownership reconciliation, stake revaluation, or charitable transfer was verified from this report."
+  },
+  {
+    id: "givewell-all-grants-nov12", marker: "GW12", title: "GiveWell recommends the All Grants Fund",
+    url: "https://blog.givewell.org/2026/11/12/help-us-respond-to-enormous-global-needs-why-were-recommending-the-all-grants-fund/",
+    quote: "", note: "Published 2026-11-12; accessed 2026-11-13. GiveWell describes flexible allocation including pilots and research that informs future grantmaking. Its earlier scale-up goals are repeated, not new secured funding; this is not an open grant application round."
+  },
   {
     id: "givewell-malaria-scale-2026",
     marker: "GW27",
@@ -51,7 +70,7 @@ export const evidence: Evidence[] = [
     url: "https://www.anthropic.com/news/s1-sec",
     quote: "filed a registration statement on Form S-1",
     note:
-      "Official announcement published and accessed 2026-10-26. It confirms a public registration statement and intended Nasdaq listing, while leaving the share count, price range, effectiveness, first trading date, and lockup terms unset."
+      "Historical October 26 company announcement. The November 10 roadshow supersedes its blank price/count status; the SEC prospectus supplies differentiated lockups. Neither establishes a completed IPO or philanthropic payout."
   },
   {
     id: "anthropic-ipo-reporting",
@@ -87,7 +106,7 @@ export const evidence: Evidence[] = [
     url: "https://www.anthropic.com/news/public-benefit-fund",
     quote: "Subject to stockholder approval, 5% of Anthropic's shares will be committed today",
     note:
-      "Official announcement published 2026-10-18 and accessed 2026-10-21. High-confidence evidence for the proposed 5% equity share and broad mandate. Approval, governance, valuation baseline, liquidity, external cause allocation, and distribution timing remain unresolved."
+      "October 18 announcement, initially subject to approval. Reviewed 2026-11-13 against the amended SEC prospectus: the initial share contribution and interim board control are now disclosed. The 5% denominator is June 30 fully diluted shares; external cause allocation and cash payout timing remain unresolved."
   },
   {
     id: "anthropic-valuation",
@@ -282,7 +301,7 @@ export const evidence: Evidence[] = [
     url: "https://coefficientgiving.org/funds/global-health-wellbeing-opportunities/request-for-proposals-global-health-and-wellbeing-in-an-era-of-transformative-ai/",
     quote: "We expect to allocate $10-30 million through this RFP",
     note:
-      "A concrete cause-allocation signal for research, policy, implementation, and field-building focused on transformative AI and the global poor. It is an announced allocation from an existing funder, not a completed grant or newly liquid AI wealth."
+      "Historical announced allocation for research, policy, implementation, and field-building focused on transformative AI and the global poor. The linked page returned 404 on 2026-11-13; current application status is unverified. It is not a completed grant or new AI-wealth cash."
   },
   {
     id: "givewell-scaling-1b",
@@ -368,7 +387,7 @@ export const evidence: Evidence[] = [
     url: "https://www.investor.gov/introduction-investing/investing-basics/glossary/initial-public-offerings-lockup-agreements",
     quote: "most prevent insiders from selling their shares for 180 days",
     note:
-      "Supports a typical six-month lockup as a timing prior. Anthropic's actual terms will only be known from its prospectus."
+      "General background, superseded for Anthropic-specific timing by its preliminary prospectus: differentiated restrictions and early-release exceptions, rather than one universal six-month wait."
   },
   {
     id: "coefficient-underfunded",

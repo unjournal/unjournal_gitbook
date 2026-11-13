@@ -6,8 +6,8 @@ export function getForecastRows(modelProbabilityOver1B: number): ForecastRow[] {
     probability: "90-97%",
     midpoint: 0.94,
     reason:
-      "Subjective judgment reviewed October 29: the October 26 public S-1 and a year-end Polymarket price near 95% support a high probability. The company has not set a price or first trading date, and market prices depend on contract rules. Filing and listing still do not establish philanthropic liquidity.",
-    evidenceIds: ["anthropic-s1", "anthropic-public-s1", "anthropic-ipo-current-reporting", "anthropic-ipo-oct-21", "polymarket-anthropic-ipo"]
+      "Subjective range reviewed November 13 and retained. The roadshow and proposed price range strengthen the listing evidence, while final pricing, effectiveness, and first trading remain unconfirmed. The already-high range is not a donation probability; the earlier market observation is dated October 29, not a live quote.",
+    evidenceIds: ["anthropic-roadshow-nov10", "anthropic-prospectus-nov10", "polymarket-anthropic-ipo"]
   },
   {
     outcome: "Model: at least $1B from Anthropic-linked AIS/EA pathways by 31 Dec 2027",
@@ -52,7 +52,7 @@ export const defaultModelInputs: ModelInputs = {
   employeeAisEaAllocationPct: 50,
   employeeDeploymentByEnd2027Pct: 10,
   publicBenefitFundEquityPct: 5,
-  publicBenefitFundApprovalPct: 90,
+  publicBenefitFundApprovalPct: 100,
   publicBenefitFundRealizationPct: 60,
   publicBenefitFundAisEaAllocationPct: 10,
   publicBenefitFundDeploymentByEnd2027Pct: 5,

@@ -41,6 +41,8 @@ for (const [key, summary] of [["main", main], ["globalDevelopment", global]]) {
 }
 assert.equal(m.trackerData.routes.main.forecastHistory.find(p => p.date === "2026-10-21").medianB, 0.9409303448726277, "A new model must not rewrite October 21 history");
 assert.equal(m.trackerData.routes.globalDevelopment.forecastHistory.find(p => p.date === "2026-10-21").medianB, 0.668973503069852);
+assert.equal(m.trackerData.routes.main.forecastHistory.find(p => p.date === "2026-10-29").medianB, 0.7572158126684055, "Freeze pre-correction history");
+assert.equal(m.trackerData.routes.globalDevelopment.forecastHistory.find(p => p.date === "2026-10-29").medianB, 0.5582512660482959);
 assert.ok(Math.abs(m.defaultGlobalDevelopmentInputs.openAiOtherPlanB - (1 - .05 - .06 - .1)) < 1e-12, "Residual-envelope subtraction");
 assert.equal(m.trackerData.routes.animalWelfare.adoptedForecast, false, "Feed must not promote an AW scenario to an adopted forecast");
 assert.equal(m.trackerData.routes.animalWelfare.forecastHistory.at(-1).estimateKind, "illustrative-scenario");

@@ -1,6 +1,33 @@
 import type { Source } from "../utils/model";
+import { anthropicIpo } from "./anthropicIpo";
 
 export const sources: Source[] = [
+  {
+    id: "anthropic-prospectus-nov10", title: "Anthropic amended preliminary prospectus",
+    url: anthropicIpo.prospectusUrl, type: "SEC issuer filing; 2026-11-10; accessed 2026-11-13",
+    reliability: "Primary disclosure of proposed IPO terms, differentiated lockups, initial fund contribution, April tender, and matching liabilities/share issuances. Still preliminary; accounting expense and internal equity are not recipient cash. Some facts were already in the October 26 filing.",
+    supports: ["fund issuance disclosed", "historical and proposed liquidity distinguished", "lockup exceptions", "accounting versus cash"]
+  },
+  {
+    id: "anthropic-roadshow-nov10", title: "Anthropic roadshow announcement",
+    url: anthropicIpo.roadshowUrl, type: "Official announcement; 2026-11-10; accessed 2026-11-13",
+    reliability: "Authoritative on proposed price and shares; not final pricing, completed sales, or charitable transfers.",
+    supports: ["roadshow launched", "proposed primary and selling-stockholder tranches"]
+  },
+  {
+    id: "openai-financing-nov6-report", title: "Reuters: OpenAI financing report",
+    url: "https://www.streetinsider.com/Reuters/OpenAI%2Bsecures%2B%2411%2Bbillion%2Bfunding%2Bat%2B%241.25%2Btrillion%2Bvaluation%2C%2BBloomberg%2BNews%2Breports/27307823.html",
+    type: "Reuters reporting; 2026-11-06; accessed 2026-11-13",
+    reliability: "Credible but unnamed-source reporting about company financing; does not reconcile Foundation dilution or verify philanthropic cash.",
+    supports: ["reported initial tranche", "not an official Foundation valuation"]
+  },
+  {
+    id: "givewell-all-grants-nov12", title: "GiveWell: why it recommends the All Grants Fund",
+    url: "https://blog.givewell.org/2026/11/12/help-us-respond-to-enormous-global-needs-why-were-recommending-the-all-grants-fund/",
+    type: "Primary grantmaker update; 2026-11-12; accessed 2026-11-13",
+    reliability: "Authoritative on donor recommendation and intended research/pilot scope, not a new grant award, secured fundraising, or application invitation.",
+    supports: ["existing-funder flexibility", "decision-relevant research"]
+  },
   {
     id: "givewell-malaria-scale-2026",
     title: "GiveWell: further scaling malaria grantmaking",
@@ -62,7 +89,7 @@ export const sources: Source[] = [
     url: "https://www.anthropic.com/news/s1-sec",
     type: "Official company announcement; published and accessed 2026-10-26",
     reliability:
-      "High for the public filing and intended Nasdaq listing. It leaves the offer price, share count, effectiveness, first trading date, and lockup terms unresolved.",
+      "Historical filing announcement; the later roadshow supplies proposed pricing and shares, and the amended prospectus supplies lockups. Final pricing and first trading remain unconfirmed in the checked sources.",
     supports: ["public S-1 filed", "IPO timing more concrete", "terms remain unresolved"]
   },
   {
@@ -98,7 +125,7 @@ export const sources: Source[] = [
     url: "https://www.anthropic.com/news/public-benefit-fund",
     type: "Official company announcement; published 2026-10-18, accessed 2026-10-21",
     reliability:
-      "High for the proposed 5% equity share, subject to stockholder approval, and broad mandate. Governance, liquidity, cause allocation, and distribution timing remain unresolved.",
+      "Historical initial proposal. The SEC filing now discloses the initial contribution and interim board control; the 5% uses June 30 fully diluted shares. External cause allocation and cash payout timing remain unresolved.",
     supports: ["5% company-equity commitment", "new public-benefit vehicle", "broad cause mandate"]
   },
   {

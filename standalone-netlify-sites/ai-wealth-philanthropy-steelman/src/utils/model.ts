@@ -116,7 +116,7 @@ export const inputMeta: InputMeta[] = [
     key: "founderRealizationPct",
     label: "Founder realization",
     description:
-      "Liquidity/legal gate: share of paper value that becomes available for philanthropy after lockups, taxes, sale timing, and valuation changes. Excludes cause choice and grant timing.",
+      "Liquidity/legal scenario gate after taxes, sale timing, and valuation changes. The preliminary prospectus permits founder IPO sales and differentiated releases; no uniform no-liquidity period is assumed. Excludes cause choice and grant timing.",
     suffix: "%",
     min: 0,
     max: 100,
@@ -206,7 +206,7 @@ export const inputMeta: InputMeta[] = [
     key: "publicBenefitFundEquityPct",
     label: "Public Benefit Fund equity",
     description:
-      "Anthropic's announced company-equity share for the new wholly owned fund. The initial 5% remains subject to stockholder approval; possible later additions are excluded.",
+      "Historical stake: 5% of June 30 fully diluted shares, not post-IPO ownership. The filing discloses the initial contribution; discretionary later additions are excluded. Valuation and ownership remain simplified scenario inputs, not a reconciled cap table.",
     suffix: "%",
     min: 0,
     max: 15,
@@ -216,9 +216,9 @@ export const inputMeta: InputMeta[] = [
   },
   {
     key: "publicBenefitFundApprovalPct",
-    label: "Approval probability",
+    label: "Initial issuance gate",
     description:
-      "Judgmental probability that stockholders approve the initial transfer. This is not a market price or company guidance.",
+      "Set to 100% because the SEC filing discloses the initial share contribution. Lower settings are counterfactual stress tests. This does not mean the fund has made external grants.",
     suffix: "%",
     min: 0,
     max: 100,

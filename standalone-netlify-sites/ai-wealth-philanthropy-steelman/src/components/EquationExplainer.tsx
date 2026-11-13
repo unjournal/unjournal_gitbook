@@ -19,7 +19,7 @@ const equations = [
     expression:
       "P = V_A x fund_equity x approval x realization x AIS/EA_allocation x deployment_by_deadline",
     meaning:
-      "The new company-owned fund is modeled separately from founder and employee pledges. Its 5% equity share remains subject to approval, and its liquidity, cause allocation, and distribution schedule are unresolved."
+      "The company-owned fund is separate from founder and employee pledges. Its initial issuance gate is now fixed at 100% after the SEC disclosure. The historical 5% stake uses June 30 fully diluted shares; liquidity, external cause allocation, and payout timing remain uncertain."
   },
   {
     title: "Observed BOTEC output",
@@ -54,7 +54,7 @@ const equations = [
   {
     title: "Approval and boundary conditions",
     expression: "approval_d ∈ {0, 1}; share = 0 ⇒ flow = 0; uncertainty = 0 ⇒ central scenario",
-    meaning: "The fund's approval is sampled as a yes/no event. Exact zero and 100% settings stay fixed. The market-collapse scenario reduces both founder equity and the employee pool; correlation controls preserve marginal variance. These are modeling choices, not observed frequencies."
+    meaning: "The initial fund-issuance gate is fixed at 100% by default following the filing. Counterfactual settings below 100% sample it as a yes/no event. Exact zero and 100% stay fixed. The market-collapse scenario reduces founder equity and the employee pool; correlation controls preserve marginal variance. These are modeling choices, not observed frequencies."
   }
 ];
 

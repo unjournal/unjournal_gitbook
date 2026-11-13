@@ -105,8 +105,8 @@ export default function App() {
             <FeedbackTip ids={["md-openai-foundation"]} />
           </p>
           <p>
-            <strong>Anthropic Public Benefit Fund</strong> is modeled separately because Anthropic proposed a specific
-            5% company-equity stake. It remains subject to stockholder approval, and the model discounts it for
+            <strong>Anthropic Public Benefit Fund</strong> is modeled separately. The SEC filing discloses an initial
+            contribution representing 5% of June 30 fully diluted shares. The issuance gate is resolved; the model still discounts it for
             realization, cause allocation, and deployment timing. <CitationTip ids={["anthropic-public-benefit-fund"]} />
           </p>
           <p>

@@ -20,6 +20,13 @@ Animal Welfare fork: https://uj-ai-wealth-philanthropy-steelman.netlify.app/anim
 
 ## Continue model development (29 October 2026)
 
+November 13 maintenance corrects missed SEC disclosures of initial fund issuance and historical tender liquidity,
+incorporates the roadshow and differentiated lockups, and appends fresh main/GH&D forecasts. Only the initial
+fund-issuance gate changes numerically. AW retains its dated reference scenarios. New primary-source inputs and
+derived proceeds are in `src/content/anthropicIpo.ts`; reproduce the numerical review with
+`node scripts/review_november_forecasts.mjs`. Its report and independent-check discrepancy log are in
+`research/forecast-review-2026-11-13/`. Current publication status is in `RELEASE-REVIEW.md`.
+
 October 31 maintenance adds GiveWell's conditional malaria scale-up goal to shared news and corrects closed
 application windows. Numerical assumptions and all October 29 forecast/scenario snapshots remain unchanged.
 See the dated entry in `RELEASE-REVIEW.md` for verification and publication status.

@@ -26,7 +26,7 @@ export function TrackerPanel({ scope }: { scope: TrackerScope }) {
         <p>
           {scenarioOnly ? <>No central forecast is adopted. The numeric history retains a reference scenario; <a href="#aw-scenarios">compare both published scenarios</a>. Within-model intervals do not establish real-world coverage. </> : <>Each forecast point is a dated re-estimation. A flat segment means the inputs were reviewed and retained, not
           that an old result was silently republished. The commitments line does not treat promises, credits, or
-          cofunding as cash already paid. </>}<ProvenanceTip ids={["ai-draft", "evidence-oct-29"]} />
+          cofunding as cash already paid. </>}<ProvenanceTip ids={["ai-draft", scope === "animal-welfare" ? "evidence-oct-29" : "evidence-nov-13"]} />
         </p>
       </div>
 

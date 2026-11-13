@@ -1,5 +1,38 @@
 # Funding-model release review — 29 October 2026
 
+## Filing correction and forecast review — 13 November 2026
+
+This review incorporates the official roadshow and November 10 amended preliminary prospectus, reported OpenAI
+financing (kept qualified), and GiveWell's flexible-fund recommendation. It corrects earlier omissions: the original
+S-1 already disclosed initial Public Benefit Fund issuance and historical tender liquidity. The source review had
+mistakenly left these unresolved. The new filing context distinguishes proposed founder sales, remaining-share
+lockups, employee exceptions, donation-matching liabilities and share settlements, and recipient cash.
+
+Both end-2027 forecasts have fresh November 13 points; the only numerical input change resolves initial fund
+issuance. The fixed deadline, elapsed time, differentiated liquidity, and still-unobserved external allocation and
+payout schedules were reconsidered. Existing payout inputs were retained rather than mechanically reduced or
+raised. The historical valuation/equity inputs remain a simplified scenario, not a reconciled current cap table.
+The quantitative report generates its tables from code, records input provenance and illustrative stress sweeps,
+and explicitly does not claim empirical calibration or validated coverage.
+
+New public files: `src/content/anthropicIpo.ts`, `scripts/review_november_forecasts.mjs`, and the three artifacts in
+`research/forecast-review-2026-11-13/`. A separate fresh-context check independently read the filing, recomputed
+candidate forecasts, and flagged stale summary wording and the Amazon Notes denominator qualifier. Those issues
+were corrected; decisions are logged in `DISCREPANCY_LOG.md`. October 29 outputs and all earlier history are frozen.
+Named commitment amounts are unchanged. AW retains its dated, unadopted illustrative scenarios, with a link to
+current liquidity evidence.
+
+Primary sources checked: Anthropic filings, roadshow, financing, and fund announcements; OpenAI/Foundation news;
+GiveWell updates; Coefficient sources; and Gates's equitable-AI statement. The older Coefficient AI/global-health
+RFP link returned 404; current application status is explicitly unverified. Complete Hypothes.is fetches returned
+all main/GH&D/AW records with no new activity; two referenced parents remain inaccessible. No annotation or social
+posts were made.
+
+Local build, existing model tests, new quantitative-review assertions, frozen-history checks, and anonymity scans
+pass. Desktop and narrow-mobile checks confirm direct anchors, distinct charts, shaded intervals/dashed bounds/
+range markers, reciprocal links, and no mobile overflow. Existing desktop hidden-tooltip overflow remains outside
+this bounded update. Publication and clean-release readback will be recorded below when verified.
+
 ## Maintenance evidence review — 31 October 2026
 
 This narrow update adds [GiveWell's conditional malaria scale-up plan](https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking/),

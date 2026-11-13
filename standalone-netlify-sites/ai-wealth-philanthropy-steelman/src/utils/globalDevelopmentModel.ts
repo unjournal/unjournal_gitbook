@@ -49,7 +49,7 @@ export const defaultGlobalDevelopmentInputs: GlobalDevelopmentInputs = {
   employeeGhdAllocationPct: 20,
   employeeDeploymentByEnd2027Pct: 10,
   publicBenefitFundEquityPct: 5,
-  publicBenefitFundApprovalPct: 90,
+  publicBenefitFundApprovalPct: 100,
   publicBenefitFundRealizationPct: 60,
   publicBenefitFundGhdAllocationPct: 10,
   publicBenefitFundDeploymentByEnd2027Pct: 5,
