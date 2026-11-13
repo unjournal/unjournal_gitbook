@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-13T17:24:42.451395+00:00",
+  "report_edition": "2026-11-13",
+  "report_url": "https://uj-animal-futures-update.netlify.app/report.html",
+  "published": {
+    "bluesky": {
+      "status": "published and API-verified",
+      "url": "https://bsky.app/profile/unjournal.bsky.social/post/3n27iqljaz42l",
+      "text": "Animal Futures update (13 Nov): broader question coverage, still one resolved outcome.\n\nWhich forecast would change a grant, campaign, or policy decision?\n\nAI-prepared report; forecasts from the Metaculus community:\nhttps://uj-animal-futures-update.netlify.app/report.html"
+    },
+    "forum_announcement": {
+      "status": "published and API-verified",
+      "url": "https://forum.effectivealtruism.org/posts/GPXSCvWMxpo5jiWKi/?commentId=hd7Shwgiqt9BtvaJi",
+      "html": "<p>November 13 update: the <a href=\"https://uj-animal-futures-update.netlify.app/report.html\">short report</a> and <a href=\"https://uj-animal-futures-update.netlify.app/\">dashboard</a> have been refreshed.</p><p>The original questions now average 59 forecasting accounts each; the September additions average 31. These are accounts per question, including some bots. There is still only one officially resolved outcome; the Mexico resolution request remains pending and unverified. The main forecast picture is steady.</p><p>Which forecast, at what threshold, would change a grant, campaign, or policy decision? We\u2019d particularly like funders, advocates, and policymakers to name one. Add a response here or annotate the report with Hypothes.is.</p><p>AI prepared this preliminary report and update at David Reinstein\u2019s direction. The forecasts are from the Metaculus community.</p>"
+    },
+    "forum_quicktake": {
+      "status": "published and API-verified",
+      "url": "https://forum.effectivealtruism.org/posts/fFDM9RNckMC6ndtYZ/?commentId=B34ANJk5DiT3aLRj8",
+      "html": "<p>November 13 update: the <a href=\"https://uj-animal-futures-update.netlify.app/report.html\">short report</a> and <a href=\"https://uj-animal-futures-update.netlify.app/\">dashboard</a> have been refreshed.</p><p>The original questions now average 59 forecasting accounts each; the September additions average 31. These are accounts per question, including some bots. There is still only one officially resolved outcome; the Mexico resolution request remains pending and unverified. The main forecast picture is steady.</p><p>Which forecast, at what threshold, would change a grant, campaign, or policy decision? We\u2019d particularly like funders, advocates, and policymakers to name one. Add a response here or annotate the report with Hypothes.is.</p><p>AI prepared this preliminary report and update at David Reinstein\u2019s direction. The forecasts are from the Metaculus community.</p>"
+    },
+    "linkedin": {
+      "status": "published and browser-verified",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7527057940126633984",
+      "account": "The Unjournal",
+      "note": "Links the refreshed short report; includes AI attribution, question-level account-count caveat, and request for decision thresholds."
+    }
+  },
+  "remaining": [
+    "Facebook: not signed in",
+    "Mastodon: cross-posting service returned HTTP 500; browser sign-in pending",
+    "Personal X: not signed in; explicit sign-in approval pending",
+    "Metaculus notebook: not signed in; explicit sign-in approval pending"
+  ],
+  "continuation": "Do not duplicate the four verified updates. This records a directly requested report update, not an automatic forum-bot paper-promotion run. No ongoing social-posting schedule was added."
+}
