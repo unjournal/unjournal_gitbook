@@ -31,7 +31,21 @@ posts were made.
 Local build, existing model tests, new quantitative-review assertions, frozen-history checks, and anonymity scans
 pass. Desktop and narrow-mobile checks confirm direct anchors, distinct charts, shaded intervals/dashed bounds/
 range markers, reciprocal links, and no mobile overflow. Existing desktop hidden-tooltip overflow remains outside
-this bounded update. Publication and clean-release readback will be recorded below when verified.
+this bounded update.
+
+Published and live-verified:
+
+- Runtime source: pushed `main` commit `31a79a10c7a454f6d5fea3829443180efca3bb8e`.
+- Netlify target verified by API: `uj-ai-wealth-philanthropy-steelman`, ID `c8c84bb7-fc4d-4618-a8ac-41b017a7a077`.
+- Published production deploy: `6af6ec02b1fefd9d7a394b33`.
+- A clean export of pushed source passed lockfile installation, production build, all existing numerical tests,
+  the new quantitative-review script, and the anonymity scan. Regenerated diagnostics and report match the reviewed
+  files exactly. Production JavaScript, CSS, and tracker feed match the clean export byte for byte.
+- Feed SHA-256: `9581b59c4c025a59f410d297cf805dacd1c30ee0cdc15beb4f9276d4cd65708f`.
+- All model routes return 200. Live desktop/mobile checks confirm new news, corrected main summary, both November 13
+  snapshots, route-specific charts, direct anchors, and zero mobile document overflow. No application errors were
+  captured. AW's complete tracker data is unchanged; all earlier main/GH&D snapshots and commitment histories match
+  the preceding production feed exactly.
 
 ## Maintenance evidence review — 31 October 2026
 
