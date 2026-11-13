@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T17:24:42.451395+00:00",
+  "checked_at": "2026-11-13T18:33:39.606727+00:00",
   "report_edition": "2026-11-13",
   "report_url": "https://uj-animal-futures-update.netlify.app/report.html",
   "published": {
@@ -23,13 +23,26 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7527057940126633984",
       "account": "The Unjournal",
       "note": "Links the refreshed short report; includes AI attribution, question-level account-count caveat, and request for decision thresholds."
+    },
+    "personal_x": {
+      "url": "https://x.com/GivingTools/status/2121309292036813203",
+      "account": "GivingTools",
+      "status": "published and browser-verified",
+      "parent_url": "https://x.com/GivingTools/status/2110370741913112662",
+      "text": "Animal Futures update (13 Nov): broader question coverage, still one resolved outcome.\n\nWhich forecast would change a grant, campaign, or policy decision?\n\nAI-prepared report; forecasts from the Metaculus community:\nhttps://uj-animal-futures-update.netlify.app/report.html"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0pErq3eQuxzJ3FCm8b9UdgTQL5opLJEE6NXQQWnGKrwjkeD1WLqHiidvdtEfjmEgAl&id=61559861164971",
+      "account": "The Unjournal",
+      "status": "published and browser-verified",
+      "note": "Public Page post; approved short copy and report link preview verified.",
+      "text": "Animal Futures update (13 Nov): broader question coverage, still one resolved outcome.\n\nWhich forecast would change a grant, campaign, or policy decision?\n\nAI-prepared report; forecasts from the Metaculus community:\nhttps://uj-animal-futures-update.netlify.app/report.html"
     }
   },
   "remaining": [
-    "Facebook: not signed in",
-    "Mastodon: cross-posting service returned HTTP 500; browser sign-in pending",
-    "Personal X: not signed in; explicit sign-in approval pending",
-    "Metaculus notebook: not signed in; explicit sign-in approval pending"
+    "Mastodon: approved short update pending browser access",
+    "Metaculus notebook: signed in as daaronr; approved comment pending completion after browser focus is available"
   ],
-  "continuation": "Do not duplicate the four verified updates. This records a directly requested report update, not an automatic forum-bot paper-promotion run. No ongoing social-posting schedule was added."
+  "continuation": "Do not duplicate the six verified updates. The November 13 short copy is approved for personal X, Facebook, and Mastodon, and a separate comment is approved for the Metaculus announcement. No ongoing social-posting schedule was added.",
+  "approved_metaculus_comment_markdown": "We\u2019ve refreshed our [short Animal Futures report](https://uj-animal-futures-update.netlify.app/report.html). Question coverage has grown; there\u2019s still one officially resolved outcome, and the main forecast picture is steady.\n\nWhich forecast, at what threshold, would change a grant, campaign, or policy decision? Examples from funders, advocates, and policymakers would be particularly useful.\n\nAI prepared this preliminary report at David Reinstein\u2019s direction; the forecasts are from the Metaculus community. Corrections welcome here or through the report\u2019s Hypothes.is sidebar."
 }
