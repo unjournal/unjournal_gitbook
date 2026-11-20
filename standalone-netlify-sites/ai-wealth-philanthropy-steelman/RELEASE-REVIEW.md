@@ -10,7 +10,17 @@ The independent check and decisions are in `research/forecast-review-2026-11-20/
 
 Complete public feedback fetches returned 90 main, four GH&D, and zero AW records; two older referenced parent records returned 404. No new activity or instructions were adopted. The primary OpenAI event video/transcript was unavailable; the named Yahoo article was directly fetched and checked. No Slack, email, social, or annotation post is part of this tracker update.
 
-Pre-publication verification: production build, all three model checks, November 13 reproduction, November 20 diagnostic grids, complete past-feed comparison, anonymity scan, and whitespace checks pass. Desktop and narrow-mobile checks confirm prominent news, distinct accessible charts with shaded bands/dashed bounds/range markers, direct anchors on all three model routes, zero mobile overflow, calculator changes/reset, dropdown links, and no captured application errors. The independently identified GH&D citation mismatch was corrected. Production release details will be recorded after publication.
+Pre-publication verification: production build, all three model checks, November 13 reproduction, November 20 diagnostic grids, complete past-feed comparison, anonymity scan, and whitespace checks pass. Desktop and narrow-mobile checks confirm prominent news, distinct accessible charts with shaded bands/dashed bounds/range markers, direct anchors on all three model routes, zero mobile overflow, calculator changes/reset, dropdown links, and no captured application errors. The independently identified GH&D citation mismatch was corrected. Published and live-verified:
+
+- Runtime source: pushed `main` commit `c5495ab`.
+- Exact Netlify target verified by API: `uj-ai-wealth-philanthropy-steelman`, ID `c8c84bb7-fc4d-4618-a8ac-41b017a7a077`.
+- Published deploy: `6b007e156a58cd87a9926c56`, confirmed through the Netlify API.
+- A clean export of pushed source passed lockfile installation, build, all three model verification scripts, the new diagnostics, and the anonymity scan. Generated diagnostics and feed match the reviewed files byte for byte.
+- All four routes return 200. Production JavaScript, CSS, and tracker JSON match the clean export byte for byte. Feed SHA-256: `bacd5801dc0d3ab6fcd8cf5601f745747622b8e34f1d5a30b5bd8f3c9eb5536e`.
+- Live desktop/mobile checks confirm both IPO news items, current forecast dates/medians, distinct chart labels, direct anchors, and zero mobile overflow. A transient browser timeout was recovered; subsequent live checks completed without captured application errors.
+- Production comparison confirms every earlier snapshot, commitment ledger/history, and the entire AW tracker route is preserved exactly.
+- The existing lockfile installation reports dependency advisories; dependencies were not changed in this content update. The release is static output, with no application server added.
+
 
 ## Filing correction and forecast review — 13 November 2026
 
