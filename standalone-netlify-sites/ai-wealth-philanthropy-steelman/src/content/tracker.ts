@@ -1,5 +1,5 @@
 import { defaultModelInputs } from "./modelDefaults";
-import { anthropicIpo, offeringSummary, historicalTenderApprox } from "./anthropicIpo";
+import { anthropicIpo, offeringSummary, historicalTenderApprox, proposedFounderSaleRange } from "./anthropicIpo";
 import { defaultCorrelatedConfig, runCorrelatedSimulation } from "../utils/correlatedModel";
 import { defaultGlobalDevelopmentInputs } from "../utils/globalDevelopmentModel";
 import { runGlobalDevelopmentSimulation } from "../utils/globalDevelopmentCorrelatedModel";
@@ -193,6 +193,22 @@ const globalCommitmentHistory: CommitmentSnapshot[] = [
 
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-20",
+    title: "Anthropic confirms IPO closing and completed shareholder liquidity",
+    summary: offeringSummary + " Listing uncertainty is resolved. The end-2027 grant scenarios retain their realization, allocation, and payout assumptions after review; those rates are not measured by the offering proceeds.",
+    scope: ["main", "global-development", "animal-welfare"],
+    evidenceIds: ["anthropic-ipo-close-nov20", "anthropic-final-prospectus"],
+    strength: "Confirmed"
+  },
+  {
+    date: "2026-11-18",
+    title: "Altman reaffirms that OpenAI plans to go public",
+    summary: "Yahoo Finance reports Altman's renewed plan to take OpenAI public at the DealBook Summit. This follows the company's June confidential draft S-1; the remarks announce no listing date, offering price, or lockup terms. They establish neither a completed IPO nor Foundation liquidity, a new grant commitment, or recipient cash. No forecast uplift is inferred from the statement alone.",
+    scope: ["main", "global-development", "animal-welfare"],
+    evidenceIds: ["openai-ipo-nov18", "openai-confidential-s1"],
+    strength: "Reported"
+  },
+  {
     date: "2026-11-12",
     title: "GiveWell recommends flexible All Grants Fund support",
     summary: "GiveWell now recommends the All Grants Fund to donors, including for pilots and decision-relevant research. Its previously announced scale-up goals are retained. This is an existing-funder allocation signal, not a new AI-wealth amount, a cash-paid total, or an open application round.",
@@ -203,7 +219,7 @@ export const newsItems: NewsItem[] = [
   {
     date: anthropicIpo.filed,
     title: "Anthropic launches its IPO roadshow with proposed pricing",
-    summary: offeringSummary,
+    summary: `Historical proposal: the roadshow offered ${anthropicIpo.offeredShares.toLocaleString("en-US")} shares at $${anthropicIpo.priceLow}–$${anthropicIpo.priceHigh}, implying ${proposedFounderSaleRange} gross founder sale proceeds if completed. Superseded by November 18 final pricing and November 20 closing; see the current news above.`,
     scope: ["main", "global-development"],
     evidenceIds: ["anthropic-roadshow-nov10", "anthropic-prospectus-nov10"],
     strength: "Planned"
@@ -425,7 +441,7 @@ export const newsItems: NewsItem[] = [
 ];
 
 export const trackerData = {
-  generatedAt: "2026-11-13",
+  generatedAt: "2026-11-20",
   methodology:
     "Each dated point is a reviewed re-estimate from the correlated model, not an automatic rerun. At least every 14 days, the review should reconsider current evidence, elapsed time, and relevant non-events such as no filing, liquidity, or disbursement. The shaded P10–P90 range is an 80% model interval, not an empirical confidence interval. Commitment totals may mix cash, credits, technical support, cofunding, and multi-year plans.",
   forecastReview: {
@@ -532,12 +548,21 @@ export const trackerData = {
         },
         {
           date: "2026-11-13",
-          medianB: mainSimulation.p50,
-          low80B: mainSimulation.p10,
-          high80B: mainSimulation.p90,
+          medianB: 0.7708940085019558,
+          low80B: 0.04566632595991477,
+          high80B: 3.8139549692432415,
           reviewStatus: "Reviewed; initial fund issuance corrected",
           inputsChanged: true,
           note: "Fresh re-estimation resolves the initial fund-issuance gate from 90% to 100% because the filing discloses the contribution; this corrects evidence missed in the October review. Other inputs are retained after reconsidering the end-2027 deadline: longer founder lockups coexist with proposed IPO founder sales and employee early releases. Historical tender liquidity and matching share issuances establish availability, not cause-specific recipient cash. Fifteen elapsed days and no verified external fund payout or cause allocation do not calibrate a mechanical timing cut. The small model increase reflects only the resolved gate. Historical points remain frozen."
+        },
+        {
+          date: "2026-11-20",
+          medianB: mainSimulation.p50,
+          low80B: mainSimulation.p10,
+          high80B: mainSimulation.p90,
+          reviewStatus: "Reviewed; IPO completed, grant inputs retained",
+          inputsChanged: false,
+          note: "Fresh re-estimation considers Anthropic's completed IPO, first trading November 19, and November 20 closing, plus Altman's renewed OpenAI IPO plan. Anthropic's listing milestone is resolved separately; the grant simulation has no explicit IPO-event probability to switch off. The 60% realization centers include future sale value, taxes, and liquidity rather than only listing odds. The historical $965B valuation proxy and equity percentages remain unreconciled with the post-IPO cap table. Completed shareholder sales strengthen availability, but do not measure cause allocation, donor payout rates, or external fund grants. Seven fewer days to end-2027 and no newly verified scoped recipient cash or payout schedule do not justify mechanical decay or a precise upward adjustment. Numerical inputs and outputs are retained as conditional scenarios, not as evidence that the IPO has no effect on giving."
         }
       ] satisfies ForecastSnapshot[],
       commitmentHistory: mainCommitmentHistory,
@@ -644,12 +669,21 @@ export const trackerData = {
         },
         {
           date: "2026-11-13",
-          medianB: globalSimulation.p50,
-          low80B: globalSimulation.p10,
-          high80B: globalSimulation.p90,
+          medianB: 0.5669343685811046,
+          low80B: 0.11039133796262776,
+          high80B: 3.5198752941114666,
           reviewStatus: "Reviewed; initial fund issuance corrected",
           inputsChanged: true,
           note: "Fresh re-estimation resolves the initial fund-issuance gate from 90% to 100%, correcting a missed SEC disclosure. Other GH&D inputs remain unchanged: the roadshow, differentiated lockups, founder selling tranche, earlier tender, and matching share issuances do not identify GH&D allocations or recipient cash. GiveWell's flexibility recommendation is existing-funder context. Fifteen fewer days to end-2027 and no verified external fund payout schedule warrant continued timing uncertainty, not arbitrary decay. The small model increase reflects only the resolved gate; the residual OpenAI envelope remains an illustrative overlap-avoidance scenario."
+        },
+        {
+          date: "2026-11-20",
+          medianB: globalSimulation.p50,
+          low80B: globalSimulation.p10,
+          high80B: globalSimulation.p90,
+          reviewStatus: "Reviewed; IPO completed, grant inputs retained",
+          inputsChanged: false,
+          note: "Fresh re-estimation considers Anthropic's completed IPO and actual shareholder liquidity, differentiated remaining-share lockups, and OpenAI's renewed plan to go public without announced offering terms. No new GH&D allocation, external fund payout schedule, or comparable recipient-cash observation was verified from these sources. Listing uncertainty is resolved; the model's broad realization factors also cover future value and taxes, so they are not set to 100%. Seven elapsed days to the fixed end-2027 deadline do not calibrate a timing cut. The historical valuation/equity basis and illustrative residual OpenAI envelope are retained with their limitations. Flat outputs represent a reviewed conditional scenario, not a calibrated estimate of zero IPO effect."
         }
       ] satisfies ForecastSnapshot[],
       commitmentHistory: globalCommitmentHistory,

@@ -4,16 +4,16 @@ export const report = {
   title: "Will AI Wealth Actually Flood AIS/EA Philanthropy Soon?",
   subtitle:
     "A preliminary model and dashboard for testing how much AI-lab-adjacent wealth may become usable funding for AI safety and EA cause areas, and how quickly.",
-  lastUpdated: "13 November 2026",
+  lastUpdated: "20 November 2026",
   coreSteelman:
-    "A liquidity event is plausible, maybe likely; a fast, very large, flexible flow of money into AIS/EA operating organizations by the post-lockup near term is much less likely.",
+    "Anthropic has completed its IPO. How much of the resulting wealth becomes flexible AIS/EA operating funding by end-2027 still depends on donor choices, remaining lockups, and grantmaking capacity.",
   claimBeingCritiqued: [
     offeringSummary,
     "The stronger planning claim is that AI-lab-adjacent paper wealth will soon become flexible, cause-directed AIS/EA operating money at a scale that should change organizational decisions today.",
     "This report tests the skeptical case. Paper philanthropic capacity, meaning notional equity value before taxes, lockups, sale timing, donor choices, and grantmaking capacity, is separated from realized grants by several gates."
   ],
   counterarguments: [
-    "The model could be too pessimistic if the Public Benefit Fund makes large external grants quickly; if founders or employees use liquidity for urgent giving; if existing funders rapidly expand capacity; or if realizable equity value exceeds the scenario anchor. Earlier tender liquidity, disclosed matching share issuances, and proposed founder IPO sales strengthen the availability case. They do not identify the share reaching AIS/EA recipients by the deadline.",
+    "The model could be too pessimistic if the Public Benefit Fund makes large external grants quickly; if founders or employees use liquidity for urgent giving; if existing funders rapidly expand capacity; or if realizable equity value exceeds the scenario anchor. Earlier tender liquidity, disclosed matching share issuances, and completed founder IPO sales strengthen the availability case. They do not identify the share reaching AIS/EA recipients by the deadline.",
     fundIssuanceSummary,
     "The clearest update is indirect but important: Coefficient Giving and Good Ventures increased their 2026 GiveWell allocation from $175 million to $1 billion, and GiveWell now reports more than $600 million directed in 2026. They are spending earlier partly because they expect more future funding and want grantees to build capacity, while warning that volatile-asset-linked funding may not arrive. This is evidence that the anticipated wave is already affecting decisions, not evidence that new AI wealth has become liquid.",
     "The most important optimistic update would be concrete institutional plumbing: named grantmakers, explicit cause allocations, deployable vehicles, public or private commitments, and early grants reaching organizations outside the lab-compatible core."
@@ -43,7 +43,7 @@ export const steelmanGates = [
   {
     title: "Gate 1: IPO or valuation is not spendable philanthropic cash",
     claim: "Prediction markets may be right about an IPO while funding expectations are wrong about grant timing and realizable valuation.",
-    evidenceIds: ["anthropic-roadshow-nov10", "anthropic-prospectus-nov10", "anthropic-valuation"],
+    evidenceIds: ["anthropic-ipo-close-nov20", "anthropic-final-prospectus", "anthropic-valuation"],
     feedbackIds: ["md-lockup-delay", "dr-lockup-time-profile"],
     details: [
       offeringSummary,

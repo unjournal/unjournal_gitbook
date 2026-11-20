@@ -3,11 +3,11 @@ import type { ForecastRow, ModelInputs } from "../utils/model";
 export function getForecastRows(modelProbabilityOver1B: number): ForecastRow[] { return [
   {
     outcome: "Anthropic first public trading / IPO by 31 Dec 2026",
-    probability: "90-97%",
-    midpoint: 0.94,
+    probability: "Occurred",
+    midpoint: 1,
     reason:
-      "Subjective range reviewed November 13 and retained. The roadshow and proposed price range strengthen the listing evidence, while final pricing, effectiveness, and first trading remain unconfirmed. The already-high range is not a donation probability; the earlier market observation is dated October 29, not a live quote.",
-    evidenceIds: ["anthropic-roadshow-nov10", "anthropic-prospectus-nov10", "polymarket-anthropic-ipo"]
+      "Resolved: first Nasdaq trading November 19, with closing confirmed November 20. This observed listing milestone is separate from the grant simulation, which has no explicit IPO-event probability. Its realization factors still include sale timing, taxes, and future asset value.",
+    evidenceIds: ["anthropic-ipo-close-nov20", "anthropic-final-prospectus"]
   },
   {
     outcome: "Model: at least $1B from Anthropic-linked AIS/EA pathways by 31 Dec 2027",

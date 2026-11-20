@@ -45,7 +45,7 @@ for (const [route, input] of Object.entries(defaults)) {
     const off = run(route, { ...input, [key]: 0 });
     mechanisms.push({ route, channel, meanWithoutB: off.mean, meanReductionB: comparisons[route].current.mean - off.mean });
   }
-  const latest = m.trackerData.routes[route].forecastHistory.at(-1);
+  const latest = m.trackerData.routes[route].forecastHistory.find(p => p.date === "2026-11-13");
   assert.equal(latest.date, "2026-11-13");
   assert.equal(latest.medianB, comparisons[route].current.p50);
   assert.equal(latest.inputsChanged, true);

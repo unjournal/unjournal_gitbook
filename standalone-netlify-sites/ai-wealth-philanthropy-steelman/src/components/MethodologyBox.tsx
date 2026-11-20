@@ -12,7 +12,7 @@ export function MethodologyBox() {
         liquidity/valuation evidence and major AI-safety/EA-relevant grant announcements, then flags review-trigger
         items for the maintenance process. A separate maintenance agent reviews both versions every two weeks,
         implements conservative source-grounded updates, and flags judgment calls. <FeedbackTip ids={["uj-update-prominence"]} />{" "}
-        <ProvenanceTip ids={["evidence-oct-29"]} />
+        <ProvenanceTip ids={["evidence-nov-20"]} />
       </p>
       <ul>
         <li>

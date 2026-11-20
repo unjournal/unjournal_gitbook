@@ -15,7 +15,7 @@ export function NewsSection({ scope }: { scope: TrackerScope }) {
           <h2 id="news-title">What changed recently</h2>
         </div>
         <p>
-          Short source-grounded updates, with commitments and reports kept separate. {scope !== "animal-welfare" ? "These headlines are included in the fortnightly tracker posts. " : ""}<ProvenanceTip ids={[scope === "animal-welfare" ? "evidence-oct-29" : "evidence-nov-13"]} />
+          Short source-grounded updates, with commitments and reports kept separate. {scope !== "animal-welfare" ? "These headlines are included in the fortnightly tracker posts. " : ""}<ProvenanceTip ids={["evidence-nov-20"]} />
         </p>
       </div>
       <div className="news-grid">

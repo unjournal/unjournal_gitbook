@@ -128,6 +128,10 @@ navigation, readable sensitivity table, direct anchors, and zero document overfl
 available in the same GitHub repository. Keep model development here; the maintenance automation is not the model's
 authoring tool or source of truth.
 
+## Latest tracker review (20 November 2026)
+
+Edit `src/content/tracker.ts` for news, review history, and the generated feed. `src/content/anthropicIpo.ts` separates frozen November 10 proposal inputs from November 20 closing facts. Both main and GH&D have fresh retained-input reviews; completed listing is an observed milestone, not a grant probability. AW remains illustrative. Reproduce this review with `node scripts/review_november20_forecasts.mjs`; source decisions and limitations are in `research/forecast-review-2026-11-20/`. See `RELEASE-REVIEW.md` for publication verification.
+
 ## Model comparison continuation (2 October 2026)
 
 The comparison lives in `public/model-comparison/index.html`, a self-contained static page copied to `dist` by Vite.

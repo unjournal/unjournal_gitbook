@@ -2,6 +2,10 @@ import type { Source } from "../utils/model";
 import { anthropicIpo } from "./anthropicIpo";
 
 export const sources: Source[] = [
+  {"id": "anthropic-ipo-close-nov20", "title": "Anthropic confirms IPO closing", "url": "https://www.anthropic.com/news/ipo-close", "type": "Official issuer announcement; published and accessed 2026-11-20", "reliability": "Confirms November 19 first trading, November 20 settlement, full underwriter option, primary and secondary shares, and concurrent private placement. Gross capital raised and shareholder sale proceeds are not charitable cash.", "supports": ["completed IPO", "shareholder liquidity", "separate private placement"]},
+  {"id": "anthropic-final-prospectus", "title": "Anthropic final prospectus", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm", "type": "Final SEC prospectus dated 2026-11-18; accessed 2026-11-20", "reliability": "Final offering terms and differentiated lockup exceptions. The selling-stockholder tranche matches the seven founders. Historical June fully diluted ownership does not automatically equal post-offering economic ownership.", "supports": ["final price", "selling-stockholder tranche", "remaining-share lockups"]},
+  {"id": "openai-ipo-nov18", "title": "Yahoo Finance: Altman reaffirms public-listing plans", "url": "https://finance.yahoo.com/markets/article/openai-ceo-sam-altman-on-potential-ipo-we-plan-to-be-public-184333485.html", "type": "Named-journalist reporting of public remarks; published 2026-11-18; accessed 2026-11-20", "reliability": "Reports Altman reiterating listing intent at DealBook. The article recalls the September decision against a 2026 IPO. These remarks supply no new date, offering price, or lockup terms; they do not establish Foundation liquidity or grants. The primary video/transcript was unavailable in this review.", "supports": ["renewed IPO intent", "no announced terms"]},
+  {"id": "openai-confidential-s1", "title": "OpenAI: confidential submission of draft S-1", "url": "https://openai.com/index/openai-submits-confidential-s-1/", "type": "Official company announcement; published 2026-06-08; accessed 2026-11-20", "reliability": "Confirms confidential submission while explicitly leaving timing undecided. A draft submission is different from a public prospectus, priced IPO, or completed offering.", "supports": ["historical confidential submission", "undecided timing"]},
   {
     id: "anthropic-prospectus-nov10", title: "Anthropic amended preliminary prospectus",
     url: anthropicIpo.prospectusUrl, type: "SEC issuer filing; 2026-11-10; accessed 2026-11-13",
@@ -89,7 +93,7 @@ export const sources: Source[] = [
     url: "https://www.anthropic.com/news/s1-sec",
     type: "Official company announcement; published and accessed 2026-10-26",
     reliability:
-      "Historical filing announcement; the later roadshow supplies proposed pricing and shares, and the amended prospectus supplies lockups. Final pricing and first trading remain unconfirmed in the checked sources.",
+      "Historical filing announcement; the later roadshow supplies proposed pricing and shares, and the amended prospectus supplies lockups. Historical status superseded by the November 18 pricing and November 20 closing announcements.",
     supports: ["public S-1 filed", "IPO timing more concrete", "terms remain unresolved"]
   },
   {

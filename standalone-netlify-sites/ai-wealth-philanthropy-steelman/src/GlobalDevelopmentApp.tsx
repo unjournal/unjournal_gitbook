@@ -18,6 +18,10 @@ import { TrackerPanel } from "./components/TrackerPanel";
 import { SiteNavigation } from "./components/SiteNavigation";
 
 const globalSourceIds = new Set([
+  "anthropic-ipo-close-nov20",
+  "anthropic-final-prospectus",
+  "openai-ipo-nov18",
+  "openai-confidential-s1",
   "anthropic-roadshow-nov10",
   "anthropic-prospectus-nov10",
   "openai-financing-nov6-report",
@@ -46,28 +50,28 @@ const globalSourceIds = new Set([
 
 const uncertaintyRows = [
   {
-    title: "1. The liquidity event is plausible, but not scheduled",
+    title: "1. Anthropic has listed; grant timing remains uncertain",
     body:
       offeringSummary,
-    evidenceIds: ["anthropic-roadshow-nov10", "anthropic-prospectus-nov10"]
+    evidenceIds: ["anthropic-ipo-close-nov20", "anthropic-final-prospectus"]
   },
   {
     title: "2. Valuation and political risk still matter",
     body:
-      "The model retains the $965B completed-round anchor as an editable scenario, not a current IPO market-cap estimate. Proposed IPO prices and reported OpenAI financing do not reconcile the model's historical equity percentages with current dilution. Market conditions, regulation, litigation, and performance can change realizable wealth before remaining shares are sold.",
+      "The model retains the $965B completed-round anchor as an editable scenario, not a current IPO market-cap estimate. The IPO price and reported OpenAI financing do not reconcile the model's historical equity percentages with current dilution. Market conditions, regulation, litigation, and performance can change realizable wealth before remaining shares are sold.",
     evidenceIds: ["anthropic-valuation", "anthropic-s1", "openai-foundation-structure"]
   },
   {
     title: "3. Paper wealth can remain illiquid after an IPO",
     body:
       lockupSummary,
-    evidenceIds: ["anthropic-prospectus-nov10"]
+    evidenceIds: ["anthropic-final-prospectus"]
   },
   {
     title: "4. Commitments are not the same as grants paid out",
     body:
       fundIssuanceSummary,
-    evidenceIds: ["anthropic-prospectus-nov10"]
+    evidenceIds: ["anthropic-final-prospectus"]
   },
   {
     title: "5. Global development has evidence of allocation, but the form is narrow",
@@ -139,14 +143,14 @@ export default function GlobalDevelopmentApp() {
           </div>
           <div className="hero-details">
             <div className="meta-row">
-              <span>Last updated 13 November 2026</span>
+              <span>Last updated 20 November 2026</span>
               <span>Preliminary, largely LLM-generated</span>
             </div>
             <p className="author-note">
               <strong>Orchestrated by David Reinstein</strong>, Co-Director of{" "}
               <a href="https://unjournal.org">Unjournal.org</a>. This fork was prompted by Jessica Leight's question and
               retains her uncertainty rather than assuming that a large general-purpose giving wave is inevitable.{" "}
-              <ProvenanceTip ids={["ai-draft", "david-orchestration", "jessica-fork", "evidence-nov-13"]} />
+              <ProvenanceTip ids={["ai-draft", "david-orchestration", "jessica-fork", "evidence-nov-20"]} />
             </p>
             <div className="hero-actions">
               <a className="button button--primary" href="#tracker">

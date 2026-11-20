@@ -1,5 +1,5 @@
 import { animalWelfareEvidence } from "./animalWelfare";
-import { anthropicIpo, fundIssuanceSummary, lockupSummary } from "./anthropicIpo";
+import { anthropicIpo, fundIssuanceSummary } from "./anthropicIpo";
 
 export type Evidence = {
   id: string;
@@ -11,13 +11,17 @@ export type Evidence = {
 };
 
 export const evidence: Evidence[] = [
+  {"id": "anthropic-ipo-close-nov20", "marker": "AC20", "title": "Anthropic confirms IPO closing", "url": "https://www.anthropic.com/news/ipo-close", "quote": "", "note": "Official issuer announcement; published and accessed 2026-11-20. Confirms November 19 first trading, November 20 settlement, full underwriter option, primary and secondary shares, and concurrent private placement. Gross capital raised and shareholder sale proceeds are not charitable cash."},
+  {"id": "anthropic-final-prospectus", "marker": "AFP", "title": "Anthropic final prospectus", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm", "quote": "", "note": "Final SEC prospectus dated 2026-11-18; accessed 2026-11-20. Final offering terms and differentiated lockup exceptions. The selling-stockholder tranche matches the seven founders. Historical June fully diluted ownership does not automatically equal post-offering economic ownership."},
+  {"id": "openai-ipo-nov18", "marker": "OI18", "title": "Yahoo Finance: Altman reaffirms public-listing plans", "url": "https://finance.yahoo.com/markets/article/openai-ceo-sam-altman-on-potential-ipo-we-plan-to-be-public-184333485.html", "quote": "", "note": "Named-journalist reporting of public remarks; published 2026-11-18; accessed 2026-11-20. Reports Altman reiterating listing intent at DealBook. The article recalls the September decision against a 2026 IPO. These remarks supply no new date, offering price, or lockup terms; they do not establish Foundation liquidity or grants. The primary video/transcript was unavailable in this review."},
+  {"id": "openai-confidential-s1", "marker": "OS1", "title": "OpenAI: confidential submission of draft S-1", "url": "https://openai.com/index/openai-submits-confidential-s-1/", "quote": "", "note": "Official company announcement; published 2026-06-08; accessed 2026-11-20. Confirms confidential submission while explicitly leaving timing undecided. A draft submission is different from a public prospectus, priced IPO, or completed offering."},
   {
     id: "anthropic-roadshow-nov10", marker: "IPO10", title: "Anthropic: proposed IPO roadshow",
-    url: anthropicIpo.roadshowUrl, quote: "", note: "Published 2026-11-10; accessed 2026-11-13. Official proposed price range and primary/secondary share counts. The registration remains subject to effectiveness; no final price or completed offering is established."
+    url: anthropicIpo.roadshowUrl, quote: "", note: "Published 2026-11-10; accessed 2026-11-13. Official proposed price range and primary/secondary share counts. Historical preliminary terms, superseded by November 18 pricing and November 20 closing."
   },
   {
     id: "anthropic-prospectus-nov10", marker: "SEC10", title: "Anthropic November 10 amended preliminary prospectus",
-    url: anthropicIpo.prospectusUrl, quote: "", note: `Filed 2026-11-10; accessed 2026-11-13. ${fundIssuanceSummary} ${lockupSummary} Notes separately disclose the April tender, settled donation-match shares, and expense/liability revaluation. Share transfers, accounting expense, and recipient cash are different quantities. The original October 26 filing already contained the fund contribution and tender; their incorporation corrects earlier review omissions.`
+    url: anthropicIpo.prospectusUrl, quote: "", note: `Filed 2026-11-10; accessed 2026-11-13. ${fundIssuanceSummary} Notes separately disclose the April tender, settled donation-match shares, and expense/liability revaluation. Share transfers, accounting expense, and recipient cash are different quantities. The original October 26 filing already contained the fund contribution and tender; their incorporation corrects earlier review omissions.`
   },
   {
     id: "openai-financing-nov6-report", marker: "OR6", title: "Reuters: reported initial OpenAI financing tranche",
@@ -61,7 +65,7 @@ export const evidence: Evidence[] = [
     title: "Anthropic confidential draft S-1",
     url: "https://www.anthropic.com/news/confidential-draft-s1-sec",
     quote: "confidentially submitted a draft registration statement on Form S-1",
-    note: "Supports the claim that an IPO/liquidity event is live, while still conditional."
+    note: "Historical confidential submission, superseded by the completed November IPO. This source does not establish donation timing."
   },
   {
     id: "anthropic-public-s1",

@@ -62,7 +62,7 @@ export function Layout({
               <a href="https://unjournal.org">Unjournal.org</a>. This is a preliminary, largely LLM-generated draft,
               iteratively edited in response to feedback from Michael Dickens and other EA Forum/Hypothes.is commenters.{" "}
               <ProvenanceTip
-                ids={["ai-draft", "david-orchestration", "david-model-framing", "michael-revisions", "evidence-oct-29"]}
+                ids={["ai-draft", "david-orchestration", "david-model-framing", "michael-revisions", "evidence-nov-20"]}
               />
             </p>
             <div className="hero-actions">

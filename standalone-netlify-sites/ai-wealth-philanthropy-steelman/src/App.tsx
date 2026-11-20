@@ -24,7 +24,7 @@ import { EcosystemUpdate } from "./components/EcosystemUpdate";
 import { ModelComparisonLink } from "./components/ModelComparisonLink";
 
 const claimEvidenceIds = [
-  ["anthropic-s1", "openai-foundation-structure", "openai-foundation-2026"],
+  ["anthropic-ipo-close-nov20", "openai-foundation-structure", "openai-foundation-2026"],
   ["anthropic-valuation", "anthropic-founder-pledge", "anthropic-public-benefit-fund"],
   ["irs-daf-control", "grantmaker-bottleneck"]
 ];
@@ -128,7 +128,7 @@ export default function App() {
           ))}
           <blockquote>{report.coreSteelman}</blockquote>
           <p className="provenance-line">
-            Draft status <ProvenanceTip ids={["ai-draft", "david-orchestration", "david-model-framing", "evidence-oct-29"]} />
+            Draft status <ProvenanceTip ids={["ai-draft", "david-orchestration", "david-model-framing", "evidence-nov-20"]} />
           </p>
         </ReportSection>
 
