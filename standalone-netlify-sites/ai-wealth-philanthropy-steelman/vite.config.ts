@@ -41,6 +41,11 @@ const ROUTES = {
     title: "Comparing models of AI wealth and philanthropy",
     description: "Side-by-side predictions, uncertainty, assumptions, and a separate experimental synthesis calculator."
   },
+  horizon: {
+    url: `${SITE}long-horizon/`,
+    title: "How much AI wealth could reach charities after 2027?",
+    description: "Explore Anthropic-linked philanthropy through 2035 and compare the model’s mid-2031 scenarios with Radiant."
+  },
   aw: {
     url: `${SITE}animal-welfare/`,
     title: "Will AI wealth reach animal welfare?",
@@ -95,6 +100,11 @@ function seoPlugin(): Plugin {
         .replace(`content="${ROUTES.root.description}"`, `content="${ROUTES.aw.description}"`);
       mkdirSync(join(dir, "animal-welfare"), { recursive: true });
       writeFileSync(join(dir, "animal-welfare", "index.html"), aw);
+      const horizon = root.replace(seoTags(ROUTES.root), seoTags(ROUTES.horizon))
+        .replace(`<title>${ROUTES.root.title}</title>`, `<title>${ROUTES.horizon.title}</title>`)
+        .replace(`content="${ROUTES.root.description}"`, `content="${ROUTES.horizon.description}"`);
+      mkdirSync(join(dir, "long-horizon"), { recursive: true });
+      writeFileSync(join(dir, "long-horizon", "index.html"), horizon);
       const today = new Date().toISOString().slice(0, 10);
       writeFileSync(join(dir, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}sitemap.xml\n`);
       writeFileSync(
@@ -118,6 +128,8 @@ function seoPlugin(): Plugin {
           `- [${ROUTES.gd.title}](${ROUTES.gd.url}): ${ROUTES.gd.description}`,
           `- [${ROUTES.aw.title}](${ROUTES.aw.url}): ${ROUTES.aw.description}`,
           `- [${ROUTES.comparison.title}](${ROUTES.comparison.url}): ${ROUTES.comparison.description}`,
+          "",
+          `- [${ROUTES.horizon.title}](${ROUTES.horizon.url}): ${ROUTES.horizon.description}`,
           "",
           "## Data",
           "",

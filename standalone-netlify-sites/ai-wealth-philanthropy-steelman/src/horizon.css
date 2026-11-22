@@ -1,0 +1,39 @@
+.horizon-page { width: min(1120px, 100% - 40px); margin: 0 auto 5rem; }
+.horizon-intro { padding: clamp(2rem, 6vw, 5rem) 0 2rem; max-width: 850px; }
+.horizon-intro h1 { font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.06; margin: .4rem 0 1rem; }
+.horizon-intro p:not(.kicker) { max-width: 72ch; }
+.horizon-credit, .horizon-note { color: var(--muted); font-size: .9rem; }
+.horizon-section { padding: 1.5rem 0; border-top: 1px solid var(--line); scroll-margin-top: 8rem; }
+.horizon-section h2 { margin-top: 0; }
+.horizon-workbench { display: grid; grid-template-columns: minmax(225px, 1fr) minmax(0, 2.2fr); gap: 1.1rem; }
+.horizon-controls, .horizon-result { min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 1rem; }
+.horizon-controls { display: grid; align-content: start; gap: 1rem; }
+.horizon-controls label { display: grid; font-weight: 650; gap: .35rem; }
+.horizon-controls small { font-weight: 400; }
+.horizon-controls select { width: 100%; padding: .4rem; background: var(--paper); color: var(--ink); font: inherit; border: 1px solid var(--line); border-radius: 4px; }
+.horizon-controls output { color: var(--accent); }
+.horizon-controls input { accent-color: var(--accent); }
+.horizon-controls .horizon-check { display: flex; align-items: baseline; }
+.horizon-controls button { justify-self: start; cursor: pointer; padding: .4rem .7rem; }
+.horizon-metrics { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; padding-bottom: .7rem; border-bottom: 1px solid var(--line); }
+.horizon-metrics div { display: grid; gap: .22rem; }
+.horizon-metrics strong { font-size: clamp(1.15rem, 2.4vw, 1.6rem); }
+.horizon-chart { margin: 1rem 0 0; }
+.horizon-chart svg { display: block; width: 100%; overflow: visible; }
+.horizon-chart text { font: 15px system-ui; fill: var(--ink); }
+.horizon-table { width: 100%; min-width: 0; table-layout: fixed; margin: 1rem 0; border-collapse: collapse; font-size: .94rem; }
+.horizon-table th, .horizon-table td { padding: .55rem .45rem; border-bottom: 1px solid var(--line); text-align: left; }
+.horizon-table td { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.horizon-comparison th:first-child { width: 42%; }
+.horizon-table th[scope="row"] { color: var(--ink); text-transform: none; letter-spacing: normal; }
+.horizon-table caption { text-align: left; padding-bottom: .4rem; color: var(--muted); }
+.horizon-fold { padding: .65rem 0; border-bottom: 1px solid var(--line); }
+.horizon-fold summary { cursor: pointer; font-weight: 650; }
+.horizon-nav nav { flex-wrap: wrap; }
+@media (max-width: 680px) {
+  .horizon-page { width: calc(100% - 28px); }
+  .horizon-workbench { grid-template-columns: minmax(0, 1fr); }
+  .horizon-table { font-size: .8rem; }
+  .horizon-table th, .horizon-table td { padding: .4rem .2rem; }
+  .horizon-chart text { font-size: 19px; }
+}

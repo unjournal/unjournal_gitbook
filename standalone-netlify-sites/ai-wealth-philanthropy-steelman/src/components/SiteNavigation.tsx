@@ -7,6 +7,7 @@ const relatedModels: NavigationLink[] = [
   { label: "AIS/EA funding", href: "/" },
   { label: "Global health & development", href: "/global-development/" },
   { label: "Animal welfare funding", href: "/animal-welfare/" },
+  { label: "AI wealth after 2027", href: "/long-horizon/" },
   { label: "Compare other models", href: "/model-comparison/" }
 ];
 

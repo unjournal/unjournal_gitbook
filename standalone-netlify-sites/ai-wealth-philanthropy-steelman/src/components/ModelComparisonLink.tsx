@@ -12,6 +12,7 @@ export function ModelComparisonLink() {
           It also includes a separate experimental calculator and explains the limits of a synthesis.
         </p>
         <p>The comparison is a frozen October 2 snapshot. Current forecasts are in each route’s tracker; the <a href="/animal-welfare/">Animal Welfare model</a> is a newer exploratory extension.</p>
+        <p><a href="/long-horizon/">Explore funding after 2027</a>, including a same-date comparison with the current Radiant model.</p>
       </article>
     </section>
   );

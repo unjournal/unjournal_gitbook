@@ -1,5 +1,25 @@
 # Funding-model release review — 29 October 2026
 
+## Long-horizon extension — 21 November 2026
+
+The new `/long-horizon/` page keeps the original AIS/EA draws at end-2027 and projects hypothetical annual and cumulative grants to 2035. It subtracts grants from a finite, realization- and cause-adjusted pool. The selectable post-2027 payout is fixed across draws. A separate all-cause Anthropic people-only diagnostic uses the same pool assumptions and date for comparison with a plug-in from Radiant's displayed inputs.
+
+Radiant's public map was inspected directly. Its November 21 mean is a different statistic from the original plug-in. The current formula ends in mid-2031, starts at the later modeled lockup, and adds an OpenAI Foundation term that was absent from the October snapshot. The page shows the matched Anthropic people-only plug-in separately, discloses the lack of a native matched distribution, and links the reported public charity classification. Its 1% Foundation scenario is a sensitivity check, not a proposed forecast.
+
+Claude Code ran the exact `claude-fable-5-2` model twice on public source and the extension draft, with tools disabled. Fable reviewed the source without executing it. The following discrepancies were resolved before publication:
+
+| Finding | Resolution |
+| --- | --- |
+| Re-sampling years would break dependence and could rewrite the original comparison. | Share the original sampling routine and reuse each draw for the entire path. Assert exact equality of the pre-existing draws. |
+| Long-run bands omit later payout uncertainty and the 2027 cap has cumulative units. | Document both assumptions. Let readers change the post-2027 payout and cap. Compute bands within each scenario. |
+| Two-significant-digit formatting rounded Radiant's displayed mean and bounds. | Preserve source precision for quoted node values and distinguish them from derived plug-in numbers. |
+| The Foundation drives most of the difference to the broad headline. | Show it separately, quantify the sensitivity, and link the filing and IRS treatment. |
+| Donor scope and central statistic differed across the comparison. | Foreground plug-in against plug-in for Anthropic people at the same date. Label the Radiant native mean and different interval coverage separately. |
+| The comparison moves with controls. | State which scenario settings drive the local rows. |
+
+`node scripts/verify_horizon_model.mjs` compares every original draw against the pre-extension source and sweeps payout, cap, and scopes with per-draw conservation checks. It emits 5%, 10%, and 20% numerical scenario results through 2035. The tracker feed remains separate from the new scenario page.
+
+
 ## IPO tracker review — 20 November 2026
 
 At David's request, this bounded review adds OpenAI's November 18 renewed IPO intent (named reporting, no announced date or offering terms) and Anthropic's November 20 completed IPO and concurrent placement (issuer-confirmed). Current summary text and the separate listing prediction now reflect completed Anthropic trading. Gross proceeds are computed from source share counts and price, with company financing and shareholder liquidity kept outside the charitable commitment/cash ledger.

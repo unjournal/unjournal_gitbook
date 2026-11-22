@@ -180,7 +180,7 @@ function percentile(sorted: number[], p: number): number {
   return sorted[low] + (sorted[high] - sorted[low]) * (position - low);
 }
 
-function stochasticInputs(base: ModelInputs, cfg: CorrelatedConfig, random: () => number): SimulationDraw {
+function stochasticInputs(base: ModelInputs, cfg: CorrelatedConfig, random: () => number) {
   const scale = cfg.uncertaintyScale;
   const latent: Record<LatentKey, number> = {
     market: normal(random),
@@ -257,19 +257,25 @@ function stochasticInputs(base: ModelInputs, cfg: CorrelatedConfig, random: () =
     )
   };
 
-  const output = calculateModel(inputs);
-  return {
-    totalB: output.capacityAdjustedTotalB,
-    founderB: output.founderB,
-    employeeB: output.employeeB,
-    publicBenefitFundB: output.publicBenefitFundB,
-    latent
-  };
+  return { inputs, latent };
+}
+
+export function sampleCorrelatedInputs(base: ModelInputs, cfg: CorrelatedConfig) {
+  const random = mulberry32(cfg.seed);
+  return Array.from({ length: cfg.draws }, () => stochasticInputs(base, cfg, random));
 }
 
 export function runCorrelatedSimulation(base: ModelInputs, cfg: CorrelatedConfig): CorrelatedSimulation {
-  const random = mulberry32(cfg.seed);
-  const draws = Array.from({ length: cfg.draws }, () => stochasticInputs(base, cfg, random));
+  const draws = sampleCorrelatedInputs(base, cfg).map(({ inputs, latent }) => {
+    const output = calculateModel(inputs);
+    return {
+      totalB: output.capacityAdjustedTotalB,
+      founderB: output.founderB,
+      employeeB: output.employeeB,
+      publicBenefitFundB: output.publicBenefitFundB,
+      latent
+    };
+  });
   const totals = draws.map((draw) => draw.totalB).sort((a, b) => a - b);
   const mean = totals.reduce((sum, value) => sum + value, 0) / Math.max(1, totals.length);
   const summary: PercentileSummary = {
