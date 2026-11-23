@@ -10,6 +10,11 @@ export type ProvenanceNote = {
 
 export const provenanceNotes: ProvenanceNote[] = [
   {
+    id: "evidence-nov-23", marker: "N23", title: "Reported founder allocation checked",
+    note: "Codex checked CNBC’s interview transcript and follow-up reporting at David Reinstein’s request. The reported plan concerns U.S. children’s investment accounts. The amount and donor confirmation remain unknown.",
+    date: "Checked 2026-11-23"
+  },
+  {
     id: "evidence-nov-20", marker: "N20", title: "IPO milestones and grant scenarios reviewed",
     note: "AI-generated update by Codex at David Reinstein's request. Official Anthropic closing and final SEC terms resolve the listing milestone; Yahoo Finance reports renewed OpenAI IPO intent without a date or offering terms. Both end-2027 grant scenarios were recomputed with retained numerical inputs after considering completed liquidity, remaining lockups, elapsed time, and unverified cause-specific cash. Their flat outputs are conditional on existing assumptions, not a calibrated zero-effect estimate. Historical snapshots and commitment totals are preserved; Animal Welfare remains two unadopted illustrative scenarios. A separate agent checked the evidence, arithmetic, and retained-input judgment.",
     date: "Checked 2026-11-20"

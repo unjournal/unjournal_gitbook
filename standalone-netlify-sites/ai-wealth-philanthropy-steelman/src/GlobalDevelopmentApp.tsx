@@ -18,6 +18,7 @@ import { TrackerPanel } from "./components/TrackerPanel";
 import { SiteNavigation } from "./components/SiteNavigation";
 
 const globalSourceIds = new Set([
+  "anthropic-founder-savings-nov20",
   "anthropic-ipo-close-nov20",
   "anthropic-final-prospectus",
   "openai-ipo-nov18",

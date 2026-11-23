@@ -201,6 +201,14 @@ export const newsItems: NewsItem[] = [
     strength: "Confirmed"
   },
   {
+    date: "2026-11-20",
+    title: "Bessent says an Anthropic founder plans a gift to U.S. children’s accounts",
+    summary: "On CNBC, U.S. Treasury Secretary Scott Bessent said an Anthropic co-founder planned to contribute to Trump Accounts in the coming weeks. He gave no amount or donor name. The account program is outside the causes tracked here. As of November 23, we found no donor confirmation or evidence of payment.",
+    scope: ["main", "global-development"],
+    evidenceIds: ["anthropic-founder-savings-nov20"],
+    strength: "Reported"
+  },
+  {
     date: "2026-11-18",
     title: "Altman reaffirms that OpenAI plans to go public",
     summary: "Yahoo Finance reports Altman's renewed plan to take OpenAI public at the DealBook Summit. This follows the company's June confidential draft S-1; the remarks announce no listing date, offering price, or lockup terms. They establish neither a completed IPO nor Foundation liquidity, a new grant commitment, or recipient cash. No forecast uplift is inferred from the statement alone.",
@@ -441,7 +449,7 @@ export const newsItems: NewsItem[] = [
 ];
 
 export const trackerData = {
-  generatedAt: "2026-11-20",
+  generatedAt: "2026-11-23",
   methodology:
     "Each dated point is a reviewed re-estimate from the correlated model, not an automatic rerun. At least every 14 days, the review should reconsider current evidence, elapsed time, and relevant non-events such as no filing, liquidity, or disbursement. The shaded P10–P90 range is an 80% model interval, not an empirical confidence interval. Commitment totals may mix cash, credits, technical support, cofunding, and multi-year plans.",
   forecastReview: {
