@@ -1,0 +1,361 @@
+{
+  "checked_at": "2026-11-23",
+  "source": "https://www.metaculus.com/tournament/33016/",
+  "comparison_snapshot": "2026-11-13",
+  "published_edition": "2026-11-13",
+  "public_update_warranted": false,
+  "materiality_assessment": "Judgment: no new official resolution, changed headline implication, or documented decision use. Modest account-count growth and forecast shifts are retained here; leave the public edition, snapshot, and feed together at November 13.",
+  "questions": [
+    {
+      "id": 45422,
+      "url": "https://www.metaculus.com/questions/45422/",
+      "wave": 2,
+      "forecasters": 38,
+      "comments": 0,
+      "forecast_card": "$6.8 billion",
+      "previous_forecasters": 35,
+      "forecaster_change": 3,
+      "previous_forecast": "$6.81 billion"
+    },
+    {
+      "id": 45421,
+      "url": "https://www.metaculus.com/questions/45421/",
+      "wave": 2,
+      "forecasters": 38,
+      "comments": 3,
+      "forecast_card": "10%",
+      "previous_forecasters": 34,
+      "forecaster_change": 4,
+      "previous_forecast": "10%"
+    },
+    {
+      "id": 43277,
+      "url": "https://www.metaculus.com/questions/43277/",
+      "wave": 2,
+      "forecasters": 31,
+      "comments": 0,
+      "forecast_card": "12.4%",
+      "previous_forecasters": 28,
+      "forecaster_change": 3,
+      "previous_forecast": "11.9%"
+    },
+    {
+      "id": 45706,
+      "url": "https://www.metaculus.com/questions/45706/",
+      "wave": 2,
+      "forecasters": 32,
+      "comments": 0,
+      "forecast_card": "7.96 billion shrimp",
+      "previous_forecasters": 29,
+      "forecaster_change": 3,
+      "previous_forecast": "8.08 billion shrimp"
+    },
+    {
+      "id": 43278,
+      "url": "https://www.metaculus.com/questions/43278/",
+      "wave": 2,
+      "forecasters": 30,
+      "comments": 0,
+      "forecast_card": "4.53%",
+      "previous_forecasters": 27,
+      "forecaster_change": 3,
+      "previous_forecast": "4.72%"
+    },
+    {
+      "id": 43280,
+      "url": "https://www.metaculus.com/questions/43280/",
+      "wave": 1,
+      "forecasters": 67,
+      "comments": 1,
+      "forecast_card": "2.51%",
+      "previous_forecasters": 64,
+      "forecaster_change": 3,
+      "previous_forecast": "2.77%"
+    },
+    {
+      "id": 43329,
+      "url": "https://www.metaculus.com/questions/43329/",
+      "wave": 1,
+      "forecasters": 63,
+      "comments": 4,
+      "forecast_card": "0: 20.6%; 1: 27.8%; 2: 25.3%; 3: 17.2%; 4+: 9.2%",
+      "previous_forecasters": 60,
+      "forecaster_change": 3,
+      "previous_forecast": "0: 18.4%; 1: 27.6%; 2: 25.5%; 3: 18.4%; 4+: 10.2%"
+    },
+    {
+      "id": 43273,
+      "url": "https://www.metaculus.com/questions/43273/",
+      "wave": 1,
+      "forecasters": 58,
+      "comments": 0,
+      "forecast_card": "10.4 retailers",
+      "previous_forecasters": 55,
+      "forecaster_change": 3,
+      "previous_forecast": "10.1 retailers"
+    },
+    {
+      "id": 43498,
+      "url": "https://www.metaculus.com/questions/43498/",
+      "wave": 1,
+      "forecasters": 62,
+      "comments": 0,
+      "forecast_card": "mode: 2 labs (23.8%); 3 labs (21.5%)",
+      "previous_forecasters": 59,
+      "forecaster_change": 3,
+      "previous_forecast": "mode: 2 labs (22.8%); 3 labs (19.2%)"
+    },
+    {
+      "id": 43492,
+      "url": "https://www.metaculus.com/questions/43492/",
+      "wave": 1,
+      "forecasters": 61,
+      "comments": 13,
+      "forecast_card": "Resolved Yes",
+      "previous_forecasters": 61,
+      "forecaster_change": 0,
+      "previous_forecast": "Resolved Yes"
+    },
+    {
+      "id": 43169,
+      "url": "https://www.metaculus.com/questions/43169/",
+      "wave": 1,
+      "forecasters": 60,
+      "comments": 1,
+      "forecast_card": "$3.87 million",
+      "previous_forecasters": 57,
+      "forecaster_change": 3,
+      "previous_forecast": "$3.58 million"
+    },
+    {
+      "id": 43601,
+      "url": "https://www.metaculus.com/questions/43601/",
+      "wave": 1,
+      "forecasters": 59,
+      "comments": 3,
+      "forecast_card": "10.8 million MT CWE",
+      "previous_forecasters": 56,
+      "forecaster_change": 3,
+      "previous_forecast": "10.9 million MT CWE"
+    },
+    {
+      "id": 43507,
+      "url": "https://www.metaculus.com/questions/43507/",
+      "wave": 1,
+      "forecasters": 57,
+      "comments": 1,
+      "forecast_card": "73,200 cases",
+      "previous_forecasters": 54,
+      "forecaster_change": 3,
+      "previous_forecast": "71,000 cases"
+    },
+    {
+      "id": 43279,
+      "url": "https://www.metaculus.com/questions/43279/",
+      "wave": 1,
+      "forecasters": 61,
+      "comments": 2,
+      "forecast_card": "42.8%",
+      "previous_forecasters": 58,
+      "forecaster_change": 3,
+      "previous_forecast": "42%"
+    },
+    {
+      "id": 43170,
+      "url": "https://www.metaculus.com/questions/43170/",
+      "wave": 1,
+      "forecasters": 62,
+      "comments": 2,
+      "forecast_card": "61.6%",
+      "previous_forecasters": 59,
+      "forecaster_change": 3,
+      "previous_forecast": "62.5%"
+    },
+    {
+      "id": 43493,
+      "url": "https://www.metaculus.com/questions/43493/",
+      "wave": 1,
+      "forecasters": 55,
+      "comments": 1,
+      "forecast_card": "71.5",
+      "previous_forecasters": 52,
+      "forecaster_change": 3,
+      "previous_forecast": "71.2"
+    },
+    {
+      "id": 43481,
+      "url": "https://www.metaculus.com/questions/43481/",
+      "wave": 1,
+      "forecasters": 56,
+      "comments": 2,
+      "forecast_card": "7.87 kg/person",
+      "previous_forecasters": 53,
+      "forecaster_change": 3,
+      "previous_forecast": "7.87 kg/person"
+    },
+    {
+      "id": 43616,
+      "url": "https://www.metaculus.com/questions/43616/",
+      "wave": 1,
+      "forecasters": 83,
+      "comments": 3,
+      "forecast_card": "4%",
+      "previous_forecasters": 80,
+      "forecaster_change": 3,
+      "previous_forecast": "3%"
+    },
+    {
+      "id": 43281,
+      "url": "https://www.metaculus.com/questions/43281/",
+      "wave": 1,
+      "forecasters": 58,
+      "comments": 1,
+      "forecast_card": "40%",
+      "previous_forecasters": 54,
+      "forecaster_change": 4,
+      "previous_forecast": "42%"
+    },
+    {
+      "id": 43163,
+      "url": "https://www.metaculus.com/questions/43163/",
+      "wave": 1,
+      "forecasters": 68,
+      "comments": 0,
+      "forecast_card": "2%",
+      "previous_forecasters": 65,
+      "forecaster_change": 3,
+      "previous_forecast": "2%"
+    },
+    {
+      "id": 43288,
+      "url": "https://www.metaculus.com/questions/43288/",
+      "wave": 1,
+      "forecasters": 63,
+      "comments": 0,
+      "forecast_card": "1%",
+      "previous_forecasters": 60,
+      "forecaster_change": 3,
+      "previous_forecast": "1%"
+    }
+  ],
+  "question_count": 21,
+  "resolved_count": 1,
+  "mean_forecasters_by_wave": {
+    "wave_1": 62.0625,
+    "wave_2": 33.8
+  },
+  "overall_mean_forecasters": 55.333333333333336,
+  "forecaster_count_range": [
+    30,
+    83
+  ],
+  "account_question_pairs_added": 62,
+  "denominator_note": "Counts are accounts per question, not distinct people or forecast revisions. Added account-question pairs can count the same account on multiple questions. Bot labels are platform labels, not an independent identity check.",
+  "comment_total": 37,
+  "questions_without_comments": 8,
+  "leaderboard": {
+    "ranked_non_bot_accounts": 60,
+    "bot_marked_accounts": 16,
+    "aggregate_rows": 2,
+    "all_rows_loaded": true,
+    "note": "Scoring leaderboard, not a participation census."
+  },
+  "annotations": {
+    "dashboard": 3,
+    "report": 0,
+    "new_since_published_check": false,
+    "note": "Only the previously addressed October 14 annotations were returned by the public API."
+  },
+  "notebook_discussion": {
+    "comments": 8,
+    "source": "https://www.metaculus.com/notebooks/43978/forecasting-the-future-of-animals-3400-in-prizes/",
+    "assessment": "Reviewed all displayed comments. Discussion concerns second-wave release, long-horizon prize eligibility, possible AI/animal questions, and a plant-based market forecast. No documented changed funding or policy decision. Browser did not expose exact comment dates; do not claim these are new."
+  },
+  "resolution_check": {
+    "question_id": 43601,
+    "status": "open",
+    "comments": 3,
+    "note": "Same resolution request and reply; criteria target the first available USDA forecast for 2027, not realized consumption. Proposed 10,726 remains independently unverified.",
+    "primary_source": "https://www.fas.usda.gov/sites/default/files/2026-10/livestock_poultry.pdf",
+    "primary_source_error": "HTTP 403"
+  },
+  "decision_use_search": {
+    "finding": "No new documented changed grant, campaign, procurement, or policy decision found in the bounded public search. Absence of a search result is not evidence that no use occurred. The Plant Based Cities article remains a possible benchmark use.",
+    "queries": [
+      "\"Animal Futures\" forecast funding policy decision November 2026",
+      "\"uj-animal-futures-update.netlify.app\""
+    ],
+    "sources": [
+      "https://plantbasedcities.org/from-taboo-to-measurement-another-pattern-of-change/",
+      "https://www.unjournal.org/impact",
+      "https://www.unjournal.org/forecasting-tournament"
+    ]
+  },
+  "question_page_checks": {
+    "ids": [
+      45422,
+      45421,
+      43277,
+      45706,
+      43278,
+      43280,
+      43329,
+      43273,
+      43498,
+      43492,
+      43169,
+      43601,
+      43507,
+      43279,
+      43170,
+      43493,
+      43481,
+      43616,
+      43281,
+      43163,
+      43288
+    ],
+    "note": "All question pages and current criteria reviewed in browser, including the resolved approval question. No interpretation-changing criterion update identified. Card values used consistently; some page headline values differ from cards.",
+    "display_differences": {
+      "43273": {
+        "card": "10.4",
+        "page": "10"
+      },
+      "45706": {
+        "card": "7.96 billion",
+        "page": "8 billion"
+      },
+      "43278": {
+        "card": "4.53%",
+        "page": "4.43%"
+      }
+    }
+  },
+  "access_limits": [
+    "Metaculus API and short question URLs returned HTTP 403 or web-reader errors; live browser pages succeeded.",
+    "USDA PDF returned HTTP 403; proposed Mexico numeric resolution remains unverified."
+  ],
+  "production_health": {
+    "/": {
+      "http_status": 200,
+      "sha256": "ab2288cc589c1d8bceac6d1d2bf83dff7c211b6e7521f469c0dabeb779c236cd"
+    },
+    "/report.html": {
+      "http_status": 200,
+      "sha256": "72a2c66984737aea96350cd85683f0633e98cbbac9c30364026c36d294133ae1"
+    },
+    "/feed.xml": {
+      "http_status": 200,
+      "sha256": "edc5226b2c7b94ea5329c58633788278e8ea6ec58028296717a5c0b0757ec1fc"
+    },
+    "/__engagement/summary": {
+      "http_status": 200,
+      "sha256": "7a1744928116ee76c3164894cb46a2c8df89f6a5a9f530b641253ed8cda33bc8",
+      "site": "animal_futures_update",
+      "validation": false
+    }
+  },
+  "public_files_changed": false,
+  "deployment_performed": false,
+  "next_check_due": "2026-12-03"
+}

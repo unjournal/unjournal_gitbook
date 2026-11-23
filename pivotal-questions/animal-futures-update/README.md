@@ -19,7 +19,7 @@ Deploy: `netlify deploy --prod --dir=site --site be7830b5-b011-4d32-8437-4c21d42
 5. Check links and HTML, preview both pages locally at desktop and mobile widths, deploy the site with its explicit ID, then read back the production URL and both pages. Distinguish local, deployed, and live verification in the update to David.
 6. Tell David what changed and what did not, with the current public links. Inform the specified collaborators through the agreed channel once recipients and method are supplied; until then, the public RSS feed is the opt-in notification route.
 
-The desired cadence is every ten days from September 23, 2026. The November 13, 2026 check is complete; the next check is due November 23. David subsequently requested a public refresh, so the report and dashboard now carry the November 13 figures. The main implications remain steady. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
+The desired cadence is every ten days from September 23, 2026. The November 23, 2026 check is complete; the next check is due December 3. David subsequently requested a public refresh, so the report and dashboard now carry the November 13 figures. The main implications remain steady. Continue through the July 1, 2027 tournament close, then do a post-tournament results report rather than quietly stopping.
 
 ## Copy and discussion
 
@@ -50,3 +50,9 @@ Published the requested refresh from pushed source commit `d245516c801990f9701a4
 ## November 13 sharing
 
 David requested sharing the refreshed report across relevant social and forum pages. Verified updates are recorded in `outreach/2026-11-13.json`: The Unjournal LinkedIn page, existing Bluesky Animal Futures thread, EA Forum tournament announcement, and a reply under David’s Animal Futures quick take. All identify the AI-prepared report. Do not duplicate these posts; consult the receipt file for the latest published links. After approval, personal X and The Unjournal Facebook Page were also published and browser-verified. Mastodon and the Metaculus notebook remain pending completion; their exact copy is approved. Metaculus is signed in as daaronr in the personal browser profile. Browser focus changes interrupted native controls; resume once that window is available. No recurring social publication was enabled.
+
+## November 23 check
+
+Checked all tournament cards, all question pages, the fully expanded leaderboard, notebook discussion, public Hypothes.is feedback, and a bounded search for decision use. No new official resolution or material change to the headline implications was found. Modest participation growth and forecast movements are recorded in `checks/2026-11-23.json`, with denominators and page/card display differences. No new public annotations were returned. The pending Mexico resolution request is unchanged; the USDA PDF still returns HTTP 403, so the proposed numerical result remains independently unverified.
+
+The dashboard, short report, snapshot, and RSS remain the dated November 13 edition; no deployment was warranted. Production dashboard, report, feed, and engagement summary returned HTTP 200; the summary identifies `animal_futures_update` with `validation: false`. The canonical tournament and Pivotal Questions pages now link to these syntheses following the approved website PR. The next check is due December 3. Keep sharing receipts separate from evidence that a forecast changed an actual decision.
